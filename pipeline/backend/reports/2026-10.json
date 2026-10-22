@@ -1,17 +1,98 @@
 {
  "month": "2026-10",
  "counts": {
-  "OK": 223,
-  "REDIRECT": 33,
-  "UNREACHABLE": 3
+  "OK": 119,
+  "BLOCKED": 24,
+  "UNREACHABLE": 98,
+  "REDIRECT": 14,
+  "DEAD": 4
  },
- "verified": 166,
- "fixes": [],
- "review": [
+ "verified": 87,
+ "fixes": [
   {
-   "id": "gj-ganga-swarupa",
-   "why": "official page changed (similarity 0%); check amounts, dates and rules",
-   "url": "https://esamajkalyan.gujarat.gov.in/"
+   "id": "ignoaps",
+   "why": "formUrl moved within the same site",
+   "old": "https://rural.gov.in/",
+   "new": "https://www.rural.gov.in/"
+  },
+  {
+   "id": "ignwps",
+   "why": "formUrl moved within the same site",
+   "old": "https://rural.gov.in/",
+   "new": "https://www.rural.gov.in/"
+  },
+  {
+   "id": "igndps",
+   "why": "formUrl moved within the same site",
+   "old": "https://rural.gov.in/",
+   "new": "https://www.rural.gov.in/"
+  },
+  {
+   "id": "pmuy",
+   "why": "portalUrl moved within the same site",
+   "old": "https://www.pmuy.gov.in/",
+   "new": "https://www.pmuy.gov.in/index.aspx"
+  },
+  {
+   "id": "ncs",
+   "why": "portalUrl moved within the same site",
+   "old": "https://www.ncs.gov.in/",
+   "new": "https://ncs.gov.in/"
+  },
+  {
+   "id": "passport",
+   "why": "portalUrl moved within the same site",
+   "old": "https://www.passportindia.gov.in/",
+   "new": "https://www.passportindia.gov.in/psp"
+  },
+  {
+   "id": "driving-licence",
+   "why": "applyUrl moved within the same site",
+   "old": "https://sarathi.parivahan.gov.in/",
+   "new": "https://sarathi.parivahan.gov.in/sarathiservice/"
+  },
+  {
+   "id": "jeevan-pramaan",
+   "why": "portalUrl moved within the same site",
+   "old": "https://jeevanpramaan.gov.in/",
+   "new": "https://jeevanpramaan.gov.in/v2.0/"
+  },
+  {
+   "id": "udid",
+   "why": "portalUrl moved within the same site",
+   "old": "https://www.swavlambancard.gov.in/",
+   "new": "https://swavlambancard.gov.in/"
+  },
+  {
+   "id": "rj-rajssp-pension",
+   "why": "portalUrl moved within the same site",
+   "old": "https://ssp.rajasthan.gov.in/",
+   "new": "https://ssp.rajasthan.gov.in/LoginContent/MidLogin.aspx"
+  },
+  {
+   "id": "rj-housing-board",
+   "why": "portalUrl moved within the same site",
+   "old": "https://rhb.rajasthan.gov.in/",
+   "new": "https://rhb.rajasthan.gov.in/content/raj/rhb/en/home.html"
+  },
+  {
+   "id": "la-eseva",
+   "why": "portalUrl moved within the same site",
+   "old": "https://eseva.ladakh.gov.in/",
+   "new": "https://eseva.ladakh.gov.in/home"
+  },
+  {
+   "id": "rj-jan-aadhaar",
+   "why": "portalUrl moved within the same site",
+   "old": "https://janaadhaar.rajasthan.gov.in/",
+   "new": "https://janaadhaar.rajasthan.gov.in/content/raj/janaadhaar/en/home.html"
+  },
+  {
+   "id": "tg-aasara-pension",
+   "why": "applyUrl moved within the same site",
+   "old": "https://www.aasara.telangana.gov.in/SSPTG/userinterface/portal/loginpage.aspx",
+   "new": "https://www.cheyutha.telangana.gov.in/SSPTG/userinterface/portal/loginpage.aspx"
   }
- ]
+ ],
+ "review": []
 }

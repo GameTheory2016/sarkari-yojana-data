@@ -32,24 +32,51 @@
    "formUrl": "",
    "submitAt": "Sub-Divisional Officer's office on your island, through the Village (Dweep) Panchayat; the Collectorate at Kavaratti for anything unresolved",
    "demoFields": [
-    {"label": "Certificate applied for", "value": "Scheduled Tribe Certificate",
-     "hint": "Residence, income, Scheduled Tribe or nativity. Each needs a different set of papers."},
-    {"label": "Applicant Name (as on Aadhaar)", "value": "Fathima Beevi Koya",
-     "hint": "Letter for letter as on Aadhaar. The certificate is written from this entry."},
-    {"label": "Father's / Husband's Name", "value": "Abdul Koya",
-     "hint": "For a tribe certificate this decides the case — it is traced through the father's family record."},
-    {"label": "Aadhaar Number", "value": "9999 5541 3308",
-     "hint": "Twelve digits, of the applicant."},
-    {"label": "Island / Village Panchayat", "value": "Kavaratti — Kavaratti Village (Dweep) Panchayat",
-     "hint": "The island where the family lives. The Sub-Divisional Officer of that island issues the certificate."},
-    {"label": "Village Panchayat certificate", "value": "Secretary, Kavaratti Village (Dweep) Panchayat — signed and stamped",
-     "hint": "The Panchayat's certificate is what carries the application. Get it before going to the Sub-Divisional Officer."},
-    {"label": "Annual Family Income (Rs.)", "value": "1,32,000",
-     "hint": "For an income certificate, the household's total for the year including fishing and coir work."},
-    {"label": "Purpose", "value": "Admission to a mainland college under the tribal quota",
-     "hint": "Say plainly what it is for; it is recorded but does not restrict where the certificate is used."},
-    {"label": "Signature / Thumb Impression with date", "value": "Fathima Beevi Koya, 22-09-2026",
-     "hint": "Sign or put your thumb impression, and write the date yourself."}
+    {
+     "label": "Certificate applied for",
+     "value": "Scheduled Tribe Certificate",
+     "hint": "Residence, income, Scheduled Tribe or nativity. Each needs a different set of papers."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Fathima Beevi Koya",
+     "hint": "Letter for letter as on Aadhaar. The certificate is written from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Abdul Koya",
+     "hint": "For a tribe certificate this decides the case — it is traced through the father's family record."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5541 3308",
+     "hint": "Twelve digits, of the applicant."
+    },
+    {
+     "label": "Island / Village Panchayat",
+     "value": "Kavaratti — Kavaratti Village (Dweep) Panchayat",
+     "hint": "The island where the family lives. The Sub-Divisional Officer of that island issues the certificate."
+    },
+    {
+     "label": "Village Panchayat certificate",
+     "value": "Secretary, Kavaratti Village (Dweep) Panchayat — signed and stamped",
+     "hint": "The Panchayat's certificate is what carries the application. Get it before going to the Sub-Divisional Officer."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,32,000",
+     "hint": "For an income certificate, the household's total for the year including fishing and coir work."
+    },
+    {
+     "label": "Purpose",
+     "value": "Admission to a mainland college under the tribal quota",
+     "hint": "Say plainly what it is for; it is recorded but does not restrict where the certificate is used."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Fathima Beevi Koya, 22-09-2026",
+     "hint": "Sign or put your thumb impression, and write the date yourself."
+    }
    ],
    "demoSteps": [
     "Get the certificate from your Village (Dweep) Panchayat first. It is the paper the whole application rests on.",
@@ -60,7 +87,7 @@
     "Collect the certificate and check the spelling of names before you leave. Apply well ahead of any deadline — boat schedules between the islands and Kavaratti can add weeks to a file."
    ],
    "helpline": "Sub-Divisional Officer's office on your island; the Collectorate at Kavaratti",
-   "lastVerified": "September 2026"
+   "lastVerified": "October 2026"
   },
   {
    "id": "ld-ration-card",
@@ -93,24 +120,51 @@
    "formUrl": "",
    "submitAt": "Civil Supplies office on your island, through the Village (Dweep) Panchayat; the Collectorate at Kavaratti for anything unresolved",
    "demoFields": [
-    {"label": "Type of application", "value": "New ration card",
-     "hint": "New card, add a member, remove a member, or correct a detail. Each needs a different set of papers."},
-    {"label": "Head of the Household", "value": "Fathima Beevi Koya",
-     "hint": "The card is issued in this person's name and the family's entitlement is tracked against it."},
-    {"label": "Aadhaar of the Head", "value": "9999 5541 3308",
-     "hint": "Twelve digits."},
-    {"label": "Members of the family (name, relation, age, Aadhaar)", "value": "1. Fathima Beevi Koya, self, 41, 9999 5541 3308; 2. Abdul Koya, husband, 46, 9999 3308 5541; 3. Ayisha Koya, daughter, 14, 9999 7720 1146",
-     "hint": "Everyone who eats from the same kitchen, one per line. The ration is counted per name, so a missing member costs the family every month."},
-    {"label": "Island / Village Panchayat", "value": "Kavaratti — Kavaratti Village (Dweep) Panchayat",
-     "hint": "Where the family lives. The fair price shop of that island is allotted from this."},
-    {"label": "Village Panchayat certificate", "value": "Secretary, Kavaratti Village (Dweep) Panchayat — signed and stamped",
-     "hint": "The Panchayat certificate is what carries the application forward."},
-    {"label": "Annual Family Income (Rs.)", "value": "1,32,000",
-     "hint": "The household's total for the year. It decides the category under the Food Security Act."},
-    {"label": "Occupation of the head of the household", "value": "Coir work and fishing",
-     "hint": "Plain words are enough."},
-    {"label": "Signature / Thumb Impression with date", "value": "Fathima Beevi Koya, 22-09-2026",
-     "hint": "Sign or put your thumb impression, and write the date yourself."}
+    {
+     "label": "Type of application",
+     "value": "New ration card",
+     "hint": "New card, add a member, remove a member, or correct a detail. Each needs a different set of papers."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Fathima Beevi Koya",
+     "hint": "The card is issued in this person's name and the family's entitlement is tracked against it."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 5541 3308",
+     "hint": "Twelve digits."
+    },
+    {
+     "label": "Members of the family (name, relation, age, Aadhaar)",
+     "value": "1. Fathima Beevi Koya, self, 41, 9999 5541 3308; 2. Abdul Koya, husband, 46, 9999 3308 5541; 3. Ayisha Koya, daughter, 14, 9999 7720 1146",
+     "hint": "Everyone who eats from the same kitchen, one per line. The ration is counted per name, so a missing member costs the family every month."
+    },
+    {
+     "label": "Island / Village Panchayat",
+     "value": "Kavaratti — Kavaratti Village (Dweep) Panchayat",
+     "hint": "Where the family lives. The fair price shop of that island is allotted from this."
+    },
+    {
+     "label": "Village Panchayat certificate",
+     "value": "Secretary, Kavaratti Village (Dweep) Panchayat — signed and stamped",
+     "hint": "The Panchayat certificate is what carries the application forward."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,32,000",
+     "hint": "The household's total for the year. It decides the category under the Food Security Act."
+    },
+    {
+     "label": "Occupation of the head of the household",
+     "value": "Coir work and fishing",
+     "hint": "Plain words are enough."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Fathima Beevi Koya, 22-09-2026",
+     "hint": "Sign or put your thumb impression, and write the date yourself."
+    }
    ],
    "demoSteps": [
     "Get the Village (Dweep) Panchayat certificate of residence first.",
@@ -122,7 +176,7 @@
     "Collect the card and check every name, age and Aadhaar before leaving the counter."
    ],
    "helpline": "1967 — Food and Public Distribution toll free; the Civil Supplies office on your island",
-   "lastVerified": "September 2026"
+   "lastVerified": "October 2026"
   }
  ]
 }
