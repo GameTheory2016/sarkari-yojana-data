@@ -117,9 +117,20 @@ Set two things in `config.json`:
 
 The address must be HTTPS. Android blocks plain HTTP by default.
 
-## Why the check runs from India
+## Where it runs
 
-About one government host in ten refuses connections from outside India. If
-the check ran on a cloud server abroad, it would report working links as dead
-every month. The two-strikes rule in `state/links.json` softens this, but
-running from an Indian connection, such as this Mac, is what avoids it.
+On GitHub Actions, in the public repository GameTheory2016/sarkari-yojana-data
+(`.github/workflows/monthly.yml`), at 10:00 India time on the 1st of each
+month. The steps run inside `pipeline/`. It needs no Mac, no Claude plan and
+no money.
+
+- **AI step:** runs only if the repository has a `GEMINI_API_KEY` secret,
+  a free key from aistudio.google.com.
+- **Geo-blocking:** GitHub's servers are outside India, and about half of
+  the state portals refuse them. Those links show as UNREACHABLE or BLOCKED,
+  and nothing is changed because of them. Only real 404s, seen on two runs
+  in a row (three for form downloads), lead to a fix.
+- **The repository's copy is the live one.** Before building an app release,
+  run `python3 backend/sync_repo.py --from`, so the app bundles current data.
+  After editing scripts or English records here, run `--to`, then commit and
+  push the clone.
