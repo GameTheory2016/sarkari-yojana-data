@@ -1,0 +1,807 @@
+[
+ {
+  "id": "nsp",
+  "title": "National Scholarship Portal (Central Scholarships)",
+  "department": "Ministry of Education",
+  "level": "Central",
+  "state": "",
+  "category": "Education",
+  "mode": "online",
+  "brief": "One portal for the central government's pre-matric, post-matric, merit and top-class scholarships, run by several ministries together. You register once with a One Time Registration (OTR) that uses Aadhaar face authentication; after that you apply every year with the same OTR ID. Your school or college has to verify the application online, so submit well before the closing date.",
+  "benefit": "Tuition fee + maintenance allowance",
+  "emoji": "🎓",
+  "colorHex": "#2B52E0",
+  "eligibility": [
+   "Studying in a school or college that is registered on NSP",
+   "Family income within the limit of the scheme you pick, commonly Rs.2.5 lakh a year",
+   "Usually 50% or more marks in the last exam passed",
+   "Not drawing any other scholarship for the same course",
+   "Bank account in the student's own name and seeded with Aadhaar",
+   "Renewal students apply again every year using the same OTR ID"
+  ],
+  "documents": [
+   "Aadhaar Card",
+   "Income Certificate from the tehsildar",
+   "Caste / Category Certificate",
+   "Last passed marksheet",
+   "Fee receipt or bonafide certificate from the institute",
+   "Bank passbook first page",
+   "Domicile Certificate",
+   "Passport size photo"
+  ],
+  "applyUrl": "https://scholarships.gov.in/ApplicationForm/",
+  "portalName": "National Scholarship Portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "State of Domicile",
+    "value": "Madhya Pradesh",
+    "hint": "The state whose domicile certificate you hold. It decides which state office verifies you."
+   },
+   {
+    "label": "Scholarship You Are Applying For",
+    "value": "Post-Matric Scholarship for OBC Students",
+    "hint": "Pick one scheme from the list NSP shows for your class, category and income."
+   },
+   {
+    "label": "Student's Name (as on Aadhaar)",
+    "value": "Ritu Prajapati",
+    "hint": "Spell it exactly as on Aadhaar, otherwise the bank transfer will fail later."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "14/08/2006",
+    "hint": "As printed on your Class 10 marksheet."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 8888 7777",
+    "hint": "Your own Aadhaar. Keep the mobile linked to it switched on for the OTP."
+   },
+   {
+    "label": "Mobile Number",
+    "value": "98765 43210",
+    "hint": "One number for every OTP. Do not change it until the money arrives."
+   },
+   {
+    "label": "Institute Name and AISHE / DISE Code",
+    "value": "Govt. Arts & Commerce College, Ujjain (C-12345)",
+    "hint": "Choose from the NSP list. If your college is missing, it has not registered on NSP yet."
+   },
+   {
+    "label": "Annual Family Income",
+    "value": "Rs.1,80,000",
+    "hint": "Write the figure on your income certificate. It must match, word for word."
+   },
+   {
+    "label": "Bank Account Number",
+    "value": "3456 7890 1234",
+    "hint": "Must be in the student's own name and Aadhaar-seeded for DBT. A parent's account is rejected."
+   },
+   {
+    "label": "IFSC Code",
+    "value": "SBIN0099999",
+    "hint": "The 11-character code printed on the first page of your passbook."
+   }
+  ],
+  "demoSteps": [
+   "Finish the One Time Registration first: Aadhaar number, mobile, and face authentication through the NSP OTR app.",
+   "Note the OTR ID that comes by SMS. It is your login for this year and every year after.",
+   "Log in and pick the scholarship that matches your class, category and family income.",
+   "Fill the academic, income and bank pages. The portal saves a draft as you go.",
+   "Upload the income certificate, caste certificate, marksheet, fee receipt and passbook, each within the file size shown.",
+   "Submit before your state's closing date, then save the application ID and take a printout.",
+   "Take the printout to your institute. It must verify you online at Level 1 or the application goes no further.",
+   "The district or the ministry does Level 2 verification. Track both stages on the portal with your application ID.",
+   "Money is paid by DBT into the Aadhaar-seeded account, usually a few months after verification closes."
+  ],
+  "helpline": "NSP helpdesk 0120-6619540, helpdesk@nsp.gov.in",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://scholarships.gov.in/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "vidyalakshmi",
+  "title": "Vidya Lakshmi Education Loan",
+  "department": "Ministry of Finance and Ministry of Education",
+  "level": "Central",
+  "state": "",
+  "category": "Education",
+  "mode": "online",
+  "brief": "One common form, the CELAF, that goes to up to three banks at once instead of a separate education loan form at every branch. The form is online, but the loan is sanctioned at the bank branch: you still go there with your original papers for KYC and signing. The portal also carries the interest subsidy schemes for lower-income families.",
+  "benefit": "Education loan, up to Rs.10 Lakh collateral-free",
+  "emoji": "📚",
+  "colorHex": "#5B3FD9",
+  "eligibility": [
+   "Indian student with confirmed admission to a recognised course in India or abroad",
+   "A co-applicant is compulsory: parent, guardian or spouse",
+   "Collateral-free up to Rs.7.5 lakh under the credit guarantee; bigger loans may need security",
+   "PM Vidyalaxmi gives collateral-free and guarantee-free loans up to Rs.10 lakh for the listed top institutions",
+   "3% interest subvention where family income is up to Rs.8 lakh; full interest subsidy during study up to Rs.4.5 lakh",
+   "Each bank sets its own margin money, moratorium and repayment terms"
+  ],
+  "documents": [
+   "Admission letter from the institute",
+   "Fee structure for the full course",
+   "Class 10 and 12 marksheets",
+   "Entrance exam result",
+   "Aadhaar Card of student and co-applicant",
+   "PAN Card of student and co-applicant",
+   "Income proof of co-applicant (ITR or salary slips)",
+   "Bank statement of last 6 months",
+   "Passport size photos",
+   "Passport and visa, for study abroad"
+  ],
+  "applyUrl": "https://pmvidyalaxmi.co.in/StudentSignUp.aspx",
+  "portalName": "Vidya Lakshmi portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Student's Full Name",
+    "value": "Arjun Nandwani",
+    "hint": "As on your Class 10 marksheet and Aadhaar. The bank checks both against each other."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "02/03/2007",
+    "hint": "You must be 18 to sign the loan yourself. If younger, the co-applicant signs."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 7777 5555",
+    "hint": "Used for e-KYC at the branch."
+   },
+   {
+    "label": "PAN Number",
+    "value": "ABCPK4321L",
+    "hint": "Your own PAN. The co-applicant's PAN is asked for separately."
+   },
+   {
+    "label": "Mobile Number and Email",
+    "value": "98765 43210 / arjun.n@example.com",
+    "hint": "The bank writes here. Open this email daily once you have applied."
+   },
+   {
+    "label": "Course and Institute",
+    "value": "B.Tech (Civil), Govt. Engineering College, Nagpur",
+    "hint": "Copy it exactly as written on the admission letter."
+   },
+   {
+    "label": "Total Cost of Study",
+    "value": "Rs.6,40,000 for 4 years",
+    "hint": "Tuition plus hostel, books and exam fees, taken from the institute's fee structure."
+   },
+   {
+    "label": "Loan Amount Required",
+    "value": "Rs.5,00,000",
+    "hint": "Cost of study minus any scholarship and what your family will pay. Ask only for what you can repay."
+   },
+   {
+    "label": "Co-applicant Name and Relation",
+    "value": "Suresh Nandwani (Father)",
+    "hint": "Parent, guardian or spouse. The bank checks their income and credit score."
+   },
+   {
+    "label": "Banks and Branches Chosen",
+    "value": "Bank of Maharashtra, Nagpur Sitabuldi branch",
+    "hint": "Up to three. Pick branches you can reach, because you will have to visit in person."
+   }
+  ],
+  "demoSteps": [
+   "Register on the portal with your email address and click the activation link that arrives.",
+   "Fill the Common Education Loan Application Form (CELAF) once: student, course, cost and co-applicant.",
+   "Choose up to three banks and the exact branches you can travel to.",
+   "Submit, then download the filled CELAF and note the application number.",
+   "Visit the chosen branch with the originals: admission letter, marksheets, fee structure, KYC papers and the co-applicant's income proof. The sanction happens here, not on the portal.",
+   "The branch verifies everything and sanctions the loan. Ask for the sanction letter with the rate, margin and moratorium in writing.",
+   "The bank pays the fee straight to the institute, semester by semester.",
+   "Track each bank's response on the portal. If a bank does not reply, use the portal's grievance link.",
+   "Apply for the interest subsidy through the same branch if your family income qualifies."
+  ],
+  "helpline": "Use Contact Us on the Vidya Lakshmi portal. Loan questions go to your chosen bank branch.",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pmvidyalaxmi.co.in/",
+  "applyKind": "registration"
+ },
+ {
+  "id": "skill-india",
+  "title": "Skill India Digital Hub (PMKVY Training)",
+  "department": "Ministry of Skill Development & Entrepreneurship",
+  "level": "Central",
+  "state": "",
+  "category": "Education",
+  "mode": "online",
+  "brief": "The government's single skilling portal, merging the old Skill India portal, PMKVY courses and apprenticeship listings. You build one digital profile with Aadhaar e-KYC, then enrol in a short course at a training centre near you or online. Training under PMKVY is free and the certificate lands in your DigiLocker.",
+  "benefit": "Free short-term training and certificate",
+  "emoji": "🔧",
+  "colorHex": "#0097A7",
+  "eligibility": [
+   "Indian citizen, usually 15 to 45 years, for PMKVY short-term training",
+   "Minimum schooling depends on the job role; many roles need only Class 8 or Class 10",
+   "School and college dropouts and the unemployed are the priority group",
+   "Aadhaar, with a mobile number linked to it, for e-KYC",
+   "Recognition of Prior Learning is there for people already doing the work without a certificate",
+   "Training under PMKVY is free. A centre that asks you for a fee is breaking the rules."
+  ],
+  "documents": [
+   "Aadhaar Card",
+   "Mobile number linked to Aadhaar",
+   "Last passed marksheet",
+   "Passport size photo",
+   "Bank passbook, where a stipend is payable"
+  ],
+  "applyUrl": "https://www.skillindiadigital.gov.in/account/register?returnUrl=%2Fuser%2Fprofile%2Fdashboard",
+  "portalName": "Skill India Digital Hub",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Mobile Number",
+    "value": "98765 43210",
+    "hint": "This is your login for the whole portal and the OTP comes here."
+   },
+   {
+    "label": "Full Name (as on Aadhaar)",
+    "value": "Sameer Toppo",
+    "hint": "The spelling must match Aadhaar or e-KYC will fail."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "21/11/2002",
+    "hint": "As on Aadhaar. Courses have age bands, so this decides what you are shown."
+   },
+   {
+    "label": "Gender",
+    "value": "Male",
+    "hint": "Some batches and hostel facilities are reserved for women candidates."
+   },
+   {
+    "label": "Aadhaar Number (for e-KYC)",
+    "value": "9999 6666 3333",
+    "hint": "e-KYC is done by OTP on the Aadhaar-linked mobile, or by a face scan."
+   },
+   {
+    "label": "Highest Qualification",
+    "value": "Class 12 pass, 2021",
+    "hint": "Every job role lists a minimum qualification and the portal filters courses by this."
+   },
+   {
+    "label": "Sector and Job Role Wanted",
+    "value": "Electronics, Field Technician (Air Conditioner)",
+    "hint": "Browse the sectors first. Each role shows duration, stipend and its placement record."
+   },
+   {
+    "label": "District and PIN Code",
+    "value": "Ranchi, 834001",
+    "hint": "The portal lists approved training centres near this PIN code."
+   },
+   {
+    "label": "Email Address (optional)",
+    "value": "sameer.toppo@example.com",
+    "hint": "Joining letters for a batch also come here."
+   }
+  ],
+  "demoSteps": [
+   "Register on the Skill India Digital Hub with your mobile number and the OTP.",
+   "Set a 6-digit MPIN. That is how you log in afterwards.",
+   "Complete Aadhaar e-KYC by OTP or face scan, so your certificate carries a verified name.",
+   "Fill your profile: education, any work experience, languages you speak.",
+   "Search courses by sector, job role and district. Check the duration and that it is free under PMKVY.",
+   "Enrol in a centre-based batch or an online course, and note the centre's address and start date.",
+   "Attend the training. Attendance at the centre is marked with your Aadhaar.",
+   "Sit the assessment at the end. The certificate is issued only if you pass.",
+   "Download the certificate from the portal or DigiLocker and attach it to job applications."
+  ],
+  "helpline": "Skill India helpline 088000-55555",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://www.skillindiadigital.gov.in/home",
+  "applyKind": "registration"
+ },
+ {
+  "id": "pm-internship",
+  "title": "PM Internship Scheme",
+  "department": "Ministry of Corporate Affairs",
+  "level": "Central",
+  "state": "",
+  "category": "Employment",
+  "mode": "online",
+  "brief": "A 12-month paid internship in one of India's top 500 companies, for young people who are neither in a full-time job nor in full-time study. You get Rs.5,000 a month and a one-time grant of Rs.6,000, and the government pays your PMJJBY and PMSBY insurance premium. You fill one profile and pick up to five internships; companies shortlist from that pool.",
+  "benefit": "Rs.5,000/month + Rs.6,000 one-time grant",
+  "emoji": "💼",
+  "colorHex": "#00897B",
+  "eligibility": [
+   "Aged 21 to 24 years on the date you apply",
+   "Not in a full-time job and not in full-time education; online and distance learners can apply",
+   "Passed Class 10 or 12, or holds an ITI certificate, a polytechnic diploma, or a BA, BSc, BCom, BCA, BBA or B.Pharma degree",
+   "Family income not above Rs.8 lakh in the last financial year",
+   "No family member in a permanent government job",
+   "Not eligible with an IIT, IIM, IISER, NID or NLU degree, or CA, CS, CMA, MBBS, BDS, MBA or any masters degree",
+   "Not already enrolled under NAPS or NATS apprenticeship"
+  ],
+  "documents": [
+   "Aadhaar Card",
+   "Mobile number linked to Aadhaar",
+   "Class 10 or 12 marksheet, or degree or diploma certificate",
+   "Family income proof or self-declaration",
+   "Bank account seeded with Aadhaar",
+   "Passport size photo"
+  ],
+  "applyUrl": "https://pminternship.mca.gov.in/login/?popup=true",
+  "portalName": "PM Internship portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Mobile Number",
+    "value": "98765 43210",
+    "hint": "Your login. Every OTP and every shortlisting SMS comes here."
+   },
+   {
+    "label": "Full Name (as on Aadhaar)",
+    "value": "Nikita Barman",
+    "hint": "e-KYC matches this against Aadhaar. A spelling difference stops the application."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "09/06/2003",
+    "hint": "You must be 21 to 24 years old on the day you apply."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 5555 1111",
+    "hint": "e-KYC is by OTP on the Aadhaar-linked mobile, or through DigiLocker."
+   },
+   {
+    "label": "Highest Qualification",
+    "value": "B.Com, 2025, University of North Bengal",
+    "hint": "A masters degree, CA, MBA or similar makes you ineligible, so enter the real highest one."
+   },
+   {
+    "label": "Family Annual Income",
+    "value": "Rs.3,20,000",
+    "hint": "Everyone in the family together, for the last financial year. Above Rs.8 lakh you do not qualify."
+   },
+   {
+    "label": "Preferred Sector",
+    "value": "Banking and Financial Services",
+    "hint": "You may list several. The portal matches you against company vacancies in these."
+   },
+   {
+    "label": "Preferred Location",
+    "value": "Jalpaiguri, West Bengal, or anywhere in West Bengal",
+    "hint": "Interns are placed as close to the home district as the company allows."
+   },
+   {
+    "label": "Bank Account Number and IFSC",
+    "value": "3456 1234 7890 / SBIN0099999",
+    "hint": "Must be your own and Aadhaar-seeded. The monthly Rs.4,500 comes here by DBT."
+   },
+   {
+    "label": "Internship Chosen",
+    "value": "Branch Operations Trainee, Siliguri",
+    "hint": "You may choose up to five. Pick only ones you can actually travel to and live near."
+   }
+  ],
+  "demoSteps": [
+   "Register on the PM Internship portal with your mobile number and the OTP.",
+   "Complete e-KYC with Aadhaar or through DigiLocker.",
+   "Fill the profile once. The portal builds your resume from it; you do not upload one.",
+   "Browse the internships, filtered by sector, location and qualification.",
+   "Select up to five and submit. There is no separate form for each company.",
+   "Companies shortlist from the common pool. An offer appears on your dashboard and by SMS.",
+   "Accept the offer inside the window shown, or it lapses and passes to the next candidate.",
+   "Join the company on the date given. The one-time Rs.6,000 grant comes after joining.",
+   "Rs.4,500 a month comes from the government by DBT and Rs.500 from the company. Keep the bank account active for the full 12 months."
+  ],
+  "helpline": "PM Internship helpline 1800 11 6090",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pminternship.mca.gov.in/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "ncs",
+  "title": "National Career Service (NCS)",
+  "department": "Ministry of Labour & Employment",
+  "level": "Central",
+  "state": "",
+  "category": "Employment",
+  "mode": "online",
+  "brief": "The government's free job exchange. You register once as a jobseeker and employers registered on the same portal can find you. It also gives free career counselling, free online courses and local job fairs through Model Career Centres. There is no cash benefit and no fee at any stage.",
+  "benefit": "Free job matching, counselling and courses",
+  "emoji": "🧭",
+  "colorHex": "#2E7D32",
+  "eligibility": [
+   "Any Indian citizen looking for work. No age, income or education bar",
+   "Students and people already working may register to look for something better",
+   "Employers, placement agencies and career counsellors register under their own separate roles",
+   "Registration is free. NCS never charges for a job or an interview",
+   "Keep the profile updated, because recruiters search on skills and location"
+  ],
+  "documents": [
+   "Aadhaar Card or other photo ID",
+   "Mobile number",
+   "Email address",
+   "Education certificates, details typed in and upload optional",
+   "Resume, optional",
+   "Passport size photo"
+  ],
+  "applyUrl": "https://ncs.gov.in/login",
+  "portalName": "National Career Service",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Register As",
+    "value": "Jobseeker",
+    "hint": "The other roles are Employer, Placement Organisation, Local Office and Counsellor. Choose Jobseeker."
+   },
+   {
+    "label": "Full Name",
+    "value": "Farhan Qureshi",
+    "hint": "As on the ID card you will carry to an interview."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "17/02/1999",
+    "hint": "Used to match you to age-linked vacancies and apprenticeships."
+   },
+   {
+    "label": "Aadhaar, UAN or Other ID",
+    "value": "9999 4444 2222",
+    "hint": "Aadhaar is not compulsory here. A voter ID or PAN also works."
+   },
+   {
+    "label": "Mobile Number",
+    "value": "98765 43210",
+    "hint": "The OTP comes here, and so will interview calls."
+   },
+   {
+    "label": "Email Address",
+    "value": "farhan.q@example.com",
+    "hint": "Employers write here. Give one you actually open."
+   },
+   {
+    "label": "Highest Qualification",
+    "value": "ITI Fitter, 2019",
+    "hint": "Add every qualification you hold. Each one opens a different set of vacancies."
+   },
+   {
+    "label": "Key Skills",
+    "value": "Welding, lathe operation, blueprint reading",
+    "hint": "Write the skills an employer would search for, not personal qualities like hard-working."
+   },
+   {
+    "label": "Work Experience",
+    "value": "3 years, Ashirwad Engineering Works, Bhopal",
+    "hint": "Write Fresher if you have none. Many vacancies on NCS are for freshers."
+   },
+   {
+    "label": "Preferred Job Location",
+    "value": "Bhopal or Indore",
+    "hint": "You may list more than one district. Vacancies there are shown to you first."
+   }
+  ],
+  "demoSteps": [
+   "Open the portal and choose Jobseeker on the registration page.",
+   "Enter your mobile number and verify the OTP.",
+   "Create a username and password, and write them down somewhere safe.",
+   "Fill the profile: personal details, education, skills, experience and preferred location.",
+   "Upload a resume if you have one. It is optional, as the profile itself is what employers see.",
+   "Save the profile and note your NCS ID.",
+   "Search vacancies by role, district and qualification, and apply from inside the portal.",
+   "Sign up for the free online courses and for career counselling if you want them.",
+   "Watch the portal and your SMS for job fairs. They are held at Model Career Centres and are free to attend."
+  ],
+  "helpline": "NCS helpline 1800-425-1514",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://www.ncs.gov.in/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "mudra",
+  "title": "PM Mudra Yojana",
+  "department": "Ministry of Finance",
+  "level": "Central",
+  "state": "",
+  "category": "Business",
+  "mode": "online",
+  "brief": "A collateral-free loan for a small non-farm business, a shop, a workshop, a service or a small manufacturing unit, in steps: Shishu up to Rs.50,000, Kishore up to Rs.5 lakh, Tarun up to Rs.10 lakh, and Tarun Plus up to Rs.20 lakh for those who have repaid a Tarun loan. Jan Samarth checks your eligibility and gives an in-principle approval online, but the loan is sanctioned and paid out by the bank branch after it sees your original papers. You can also skip the portal and apply straight at any bank branch.",
+  "benefit": "Loan up to Rs.20 Lakh, no collateral",
+  "emoji": "💰",
+  "colorHex": "#F57C00",
+  "eligibility": [
+   "Any Indian citizen with a business plan or a running non-farm business: manufacturing, trading, services, or allied farm work such as dairy or poultry",
+   "Not for crop loans and not for large companies. This is for micro enterprises",
+   "No collateral, and no processing fee on Shishu loans",
+   "The business must be your own and the account must not be a defaulter with any bank",
+   "Tarun Plus, Rs.10 lakh to Rs.20 lakh, only for those who took a Tarun loan and repaid it in full",
+   "Many banks give women borrowers a concession on the interest rate"
+  ],
+  "documents": [
+   "Aadhaar Card",
+   "PAN Card",
+   "Passport size photos",
+   "Address proof and business proof such as rent agreement, licence or Udyam certificate",
+   "Quotation for the machinery or goods to be bought",
+   "Bank statement of last 6 months",
+   "Caste certificate, if applicable",
+   "Details of any existing loan"
+  ],
+  "applyUrl": "https://www.jansamarth.in/business-loan-pradhan-mantri-mudra-yojana-scheme",
+  "portalName": "Jan Samarth portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Mobile Number",
+    "value": "98765 43210",
+    "hint": "Jan Samarth logs you in with this number and an OTP."
+   },
+   {
+    "label": "Applicant's Full Name",
+    "value": "Lakshmi Devi Sahu",
+    "hint": "As on PAN and Aadhaar. Both are checked against each other."
+   },
+   {
+    "label": "PAN Number",
+    "value": "ABCPK4321L",
+    "hint": "The portal pulls your name and eligibility from PAN."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 3333 6666",
+    "hint": "For e-KYC. The branch will verify it again in person."
+   },
+   {
+    "label": "Business Activity",
+    "value": "Tailoring unit with 3 machines, stitching school uniforms",
+    "hint": "Say plainly what you make or sell. Writing only Business is not enough for the bank."
+   },
+   {
+    "label": "Years in Business",
+    "value": "2 years",
+    "hint": "A brand new business also qualifies. Then give your plan instead of past sales."
+   },
+   {
+    "label": "Annual Sales or Expected Turnover",
+    "value": "Rs.4,20,000",
+    "hint": "Take it from your bank statement, or give an honest estimate for a new unit."
+   },
+   {
+    "label": "Loan Amount Required",
+    "value": "Rs.1,50,000",
+    "hint": "Match it to the quotation you will attach. Ask only for what you can repay."
+   },
+   {
+    "label": "Loan Category",
+    "value": "Kishore, Rs.50,001 to Rs.5 lakh",
+    "hint": "Shishu up to Rs.50,000, Kishore up to Rs.5 lakh, Tarun up to Rs.10 lakh."
+   },
+   {
+    "label": "Bank and Branch Chosen",
+    "value": "Bank of Baroda, Raipur Pandri branch",
+    "hint": "Pick a branch you can visit. The branch where you already have an account is usually quickest."
+   }
+  ],
+  "demoSteps": [
+   "On Jan Samarth choose the Business Activity Loan category, then Mudra.",
+   "Answer the short eligibility questions. The portal tells you at once whether you qualify.",
+   "Register with your mobile number and OTP, then PAN and Aadhaar e-KYC.",
+   "Fill in the business details, the amount you need and exactly what it will be spent on.",
+   "Submit and note the in-principle approval and its reference number. This is not yet the sanction.",
+   "Choose a lender from the list the portal shows you.",
+   "Visit that branch with the originals: Aadhaar, PAN, photos, address and business proof, quotations, and six months of bank statements.",
+   "The branch verifies everything and sanctions the loan. Ask for the sanction letter and the interest rate in writing.",
+   "The money comes as a transfer to your account, or as a Mudra card or overdraft for working capital.",
+   "You may skip the portal altogether and apply at any bank branch, regional rural bank, small finance bank, NBFC or MFI. No agent is needed and nobody should charge you a fee."
+  ],
+  "helpline": "Mudra toll-free 1800-180-1111 and 1800-11-0001",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://www.jansamarth.in/",
+  "applyKind": "service-page"
+ },
+ {
+  "id": "udyam",
+  "title": "Udyam Registration (MSME)",
+  "department": "Ministry of Micro, Small & Medium Enterprises",
+  "level": "Central",
+  "state": "",
+  "category": "Business",
+  "mode": "online",
+  "brief": "The free, permanent registration that makes your business officially an MSME. It is fully online and self-declared: Aadhaar and PAN are enough, no document is uploaded and there is no fee. The certificate opens up collateral-free loan schemes, priority sector lending, protection against delayed payments, and a reserved share of government tenders. Only udyamregistration.gov.in is official; look-alike sites charge money for what the government gives free.",
+  "benefit": "Free lifetime MSME certificate",
+  "emoji": "🏭",
+  "colorHex": "#C2185B",
+  "eligibility": [
+   "Any proprietorship, partnership, LLP, company, co-operative, trust or self-help group running a manufacturing or service business",
+   "Micro: investment up to Rs.2.5 crore and turnover up to Rs.10 crore",
+   "Small: investment up to Rs.25 crore and turnover up to Rs.100 crore",
+   "Medium: investment up to Rs.125 crore and turnover up to Rs.500 crore",
+   "Aadhaar of the proprietor, the managing partner, the karta, or the authorised signatory of the company",
+   "PAN is compulsory. GSTIN only if your business is required to have one",
+   "One Udyam number per enterprise. Add all activities and branches under it instead of registering twice"
+  ],
+  "documents": [
+   "Aadhaar Card",
+   "PAN Card",
+   "Mobile number linked to Aadhaar",
+   "GSTIN, if applicable",
+   "Bank account number and IFSC",
+   "Business address details. Nothing is uploaded; figures are pulled from PAN and GST records"
+  ],
+  "applyUrl": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+  "portalName": "Udyam Registration portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 2222 8888",
+    "hint": "The proprietor's. For a partnership use the managing partner's, for a company the authorised signatory's."
+   },
+   {
+    "label": "Name of Entrepreneur (as on Aadhaar)",
+    "value": "Girish Kadam",
+    "hint": "It must match Aadhaar exactly or the OTP step will not go through."
+   },
+   {
+    "label": "Type of Organisation",
+    "value": "Proprietorship",
+    "hint": "Proprietorship, partnership, LLP, private limited, co-operative, SHG and others are listed."
+   },
+   {
+    "label": "PAN Number",
+    "value": "ABCPK4321L",
+    "hint": "The proprietor's PAN for a proprietorship, the firm's PAN for anything else."
+   },
+   {
+    "label": "Mobile Number and Email",
+    "value": "98765 43210 / girish.kadam@example.com",
+    "hint": "The OTP goes to the Aadhaar-linked mobile and the certificate to this email."
+   },
+   {
+    "label": "Name of Enterprise",
+    "value": "Kadam Auto Spares",
+    "hint": "Your trading name, as it appears on your board and your bills."
+   },
+   {
+    "label": "Plant or Business Address",
+    "value": "Shop 7, Rajaram Road, Kolhapur, Maharashtra 416008",
+    "hint": "Where the business actually runs from. Add branches separately in the same form."
+   },
+   {
+    "label": "Main Activity and NIC Code",
+    "value": "Services, retail trade of motor vehicle parts, NIC 45300",
+    "hint": "Pick from the NIC list inside the form. Add more than one if you both make and sell."
+   },
+   {
+    "label": "Number of Employees",
+    "value": "4, of whom 1 is a woman",
+    "hint": "Everyone you pay, including part-time helpers."
+   },
+   {
+    "label": "Bank Account Number and IFSC",
+    "value": "3456 9012 3456 / SBIN0099999",
+    "hint": "The firm's account. The schemes attached to this certificate pay into it."
+   }
+  ],
+  "demoSteps": [
+   "Go to udyamregistration.gov.in and nowhere else. The government charges nothing for this.",
+   "Click For New Entrepreneurs who are not registered yet as MSME.",
+   "Enter the Aadhaar number and the name as on Aadhaar, and validate with the OTP.",
+   "Enter PAN. The portal validates it and pulls your investment and turnover figures from the ITR and GST returns.",
+   "Fill the enterprise details: name, address, date of commencement, activity and NIC code, employees and bank account.",
+   "Submit with the final OTP. No document is uploaded at any stage.",
+   "The Udyam Registration Number appears at once. Download the e-certificate; it never expires.",
+   "If you get stuck, the District Industries Centre or an MSME Champions control room will do it for you free of cost.",
+   "Log in once a year to update the turnover and employee figures, or the registration can be suspended."
+  ],
+  "helpline": "MSME Champions helpline 1800-111-955",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://udyamregistration.gov.in/",
+  "applyKind": "form"
+ },
+ {
+  "id": "pm-vishwakarma",
+  "title": "PM Vishwakarma",
+  "department": "Ministry of Micro, Small & Medium Enterprises",
+  "level": "Central",
+  "state": "",
+  "category": "Business",
+  "mode": "online",
+  "brief": "For artisans and craftspeople in 18 traditional trades who work with their hands and tools: carpenters, blacksmiths, potters, tailors, barbers, cobblers, masons and others. You get a certificate and ID card, skill training with a stipend of Rs.500 a day, a Rs.15,000 toolkit voucher, and a collateral-free loan of Rs.1 lakh and then Rs.2 lakh at 5% interest. You cannot register yourself from home: registration is done at a Common Service Centre with a biometric Aadhaar check, and three committees verify you afterwards.",
+  "benefit": "Rs.15,000 toolkit + Rs.3 Lakh loan at 5%",
+  "emoji": "🔨",
+  "colorHex": "#8D4E2A",
+  "eligibility": [
+   "Working with your hands and tools in one of the 18 listed trades, self-employed and in the unorganised sector",
+   "Aged 18 or above on the date of registration",
+   "The trade must be your present occupation and the same one you register for",
+   "Only one member of a family. Husband, wife and unmarried children count as one family",
+   "No credit-based loan taken under PMEGP, PM SVANidhi or Mudra in the last 5 years. A fully repaid Mudra loan does not block you",
+   "Government employees and their family members are not eligible"
+  ],
+  "documents": [
+   "Aadhaar Card",
+   "Mobile number linked to Aadhaar",
+   "Ration card, or Aadhaar of family members",
+   "Bank account number and IFSC",
+   "Caste certificate, where the state asks for it",
+   "Proof of the trade you practise"
+  ],
+  "applyUrl": "https://pmvishwakarma.gov.in/Home/HowToRegister",
+  "portalName": "PM Vishwakarma portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 1111 4444",
+    "hint": "The CSC operator takes your fingerprint against this, so carry the card itself."
+   },
+   {
+    "label": "Full Name (as on Aadhaar)",
+    "value": "Bhanwar Lal Suthar",
+    "hint": "Any difference from Aadhaar and the biometric check will fail."
+   },
+   {
+    "label": "Mobile Number Linked to Aadhaar",
+    "value": "98765 43210",
+    "hint": "It must be the number registered with Aadhaar, not a newer one you use now."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "12/07/1981",
+    "hint": "You must be 18 or older on the day you register."
+   },
+   {
+    "label": "Trade",
+    "value": "Carpenter (Suthar)",
+    "hint": "Choose from the 18 trades listed. The toolkit voucher is fixed according to the trade."
+   },
+   {
+    "label": "Family Details and Ration Card Number",
+    "value": "Wife and two children, ration card RJ-00-000123",
+    "hint": "Only one member of a family can take this benefit, so check nobody at home has already registered."
+   },
+   {
+    "label": "Address, Gram Panchayat or Ward",
+    "value": "Village Kotra, Gram Panchayat Kotra, Barmer, Rajasthan",
+    "hint": "This panchayat or ward office does the first verification, so get the name exactly right."
+   },
+   {
+    "label": "Place of Work",
+    "value": "Workshop at home, Village Kotra",
+    "hint": "Home, a rented shop or a roadside stall are all accepted."
+   },
+   {
+    "label": "Bank Account Number and IFSC",
+    "value": "3456 5678 9012 / SBIN0099999",
+    "hint": "Stipend, toolkit voucher and loan all come through this account."
+   },
+   {
+    "label": "Loan Taken Earlier Under PMEGP, SVANidhi or Mudra",
+    "value": "No",
+    "hint": "Answer honestly. A Mudra loan you have fully repaid does not disqualify you."
+   }
+  ],
+  "demoSteps": [
+   "Check on the portal that your trade is one of the 18 and that nobody else in the family has registered.",
+   "Go to the nearest Common Service Centre with your Aadhaar card and the mobile linked to it. This step cannot be done at home.",
+   "The CSC operator does the biometric Aadhaar check and fills the form. Sit beside them and check every entry before it is submitted.",
+   "Collect the acknowledgement and the application number. Registration at a CSC is free under this scheme.",
+   "Your gram panchayat or urban local body verifies you first.",
+   "The district implementation committee checks next, and then the screening committee approves.",
+   "Once approved, download the PM Vishwakarma certificate and ID card from the portal.",
+   "Do the 5 to 7 day basic training. The Rs.500 a day stipend comes by DBT.",
+   "Claim the Rs.15,000 toolkit e-voucher after the basic training is over.",
+   "Apply at the bank for the first loan of Rs.1 lakh, repayable over 18 months. A second loan of Rs.2 lakh follows after you repay it and take the advanced training."
+  ],
+  "helpline": "PM Vishwakarma toll-free 18002677777 and 17923",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pmvishwakarma.gov.in/",
+  "applyKind": "service-page"
+ }
+]

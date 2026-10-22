@@ -1,0 +1,592 @@
+{
+ "schemes": [
+  {
+   "id": "jh-jharsewa",
+   "title": "JharSewa — Jharkhand e-District Certificates",
+   "department": "Department of Information Technology & e-Governance, Government of Jharkhand",
+   "level": "State",
+   "state": "Jharkhand",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "JharSewa is Jharkhand's e-District system. Caste, income and residence (domicile) certificates, birth and death certificates, land record services and social security pension applications are filed here instead of at the block office, and the signed certificate is downloaded from the same login. A Pragya Kendra (Common Service Centre) will file it for you for the notified fee if you cannot do it yourself.",
+   "benefit": "Caste, income, residence, birth and death certificates applied for and downloaded online",
+   "emoji": "📜",
+   "colorHex": "#0B7285",
+   "eligibility": [
+    "Resident of Jharkhand, applying in the block and circle where the family actually lives",
+    "A residence (domicile) certificate needs proof that the family lives in Jharkhand — the ration card and the land or rent record for that address",
+    "A caste certificate is issued only for a caste on Jharkhand's own list, and is checked against the father's certificate",
+    "An income certificate states the household income for one financial year, so departments ask for a recent one",
+    "The mobile number linked to your Aadhaar must be working, because the whole process runs on OTP and SMS"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Address proof — electricity bill, holding tax receipt or rent agreement",
+    "Father's caste certificate, for a caste certificate",
+    "Income proof — salary certificate, or a self-declaration where there is no salary",
+    "School leaving certificate or Class 10 marksheet for date of birth",
+    "Land record (khatiyan or rent receipt), where the claim rests on land in the family's name",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://jharsewa.jharkhand.gov.in/citizenRegistration.html",
+   "portalName": "JharSewa (Jharkhand e-District)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Income Certificate",
+     "hint": "Caste, income, residence, birth, death, land record or pension. Each service has its own form and its own list of proofs."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Rajesh Kumar Mahto",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints exactly from this box."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Budhan Mahto",
+     "hint": "The family is traced through this name in the revenue and caste records, so use the spelling on his own papers."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "12-08-1989",
+     "hint": "As on the Class 10 certificate or the birth certificate, not as remembered."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4180 2265",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the mobile linked to it."
+    },
+    {
+     "label": "District / Block / Panchayat / Village",
+     "value": "Ranchi / Kanke / Pithoria / Pithoria",
+     "hint": "Where the family lives. The Circle Officer of this circle signs the certificate."
+    },
+    {
+     "label": "Caste and Category",
+     "value": "Mahto (Kurmi) — Backward Class",
+     "hint": "Write the caste exactly as it appears on your father's caste certificate. The office checks it against the state's notified list."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,08,000",
+     "hint": "The whole household's income for the year — wages, farming, shop, rent and pension together, not only your own."
+    },
+    {
+     "label": "Purpose",
+     "value": "Scholarship for son's college admission",
+     "hint": "Recorded on the file. It does not limit where you can use the certificate afterwards."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 41802",
+     "hint": "The application number and the 'certificate ready' message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on jharsewa.jharkhand.gov.in with your name, mobile and email and confirm the OTP — or take the papers to a Pragya Kendra or your block office, which files it across the counter for the notified fee.",
+    "Pick the service and fill the form from your Aadhaar and ration card. Do not mix up the block and the panchayat; the file is routed on them.",
+    "Upload the scans, submit, and write down the application number. Everything after this is tracked on that number alone.",
+    "The Circle Officer's staff verify the claim. For a caste certificate the check runs through your father's record, so keep his certificate at hand.",
+    "When it is approved, download the digitally signed certificate from the same login. A digitally signed copy does not need any further attestation.",
+    "Jharkhand's service guarantee law fixes a time limit for each of these certificates. If it passes, quote the application number to the Circle Officer, then at the Deputy Commissioner's office."
+   ],
+   "helpline": "No helpline number is published for JharSewa. Ask at your block office (prakhand karyalaya) or the nearest Pragya Kendra, and at the District Informatics Office for a technical problem with the portal.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://jharsewa.jharkhand.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "jh-ekalyan",
+   "title": "e-Kalyan Jharkhand — Scholarships for SC, ST, OBC and Minority Students",
+   "department": "Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand",
+   "level": "State",
+   "state": "Jharkhand",
+   "category": "Education",
+   "mode": "online",
+   "brief": "e-Kalyan is the Jharkhand welfare department's own scholarship portal — it is separate from the National Scholarship Portal. SC, ST, OBC and minority students apply here for pre-matric scholarships (Classes 1 to 10) and post-matric scholarships (college and above), renew them each year and check the payment. The portal reports 6 schemes and Rs 1,339.35 crore disbursed in 2024-25. The address is ekalyan.cgg.gov.in and not a jharkhand.gov.in name because the system is hosted by the Centre for Good Governance.",
+   "benefit": "Pre-matric and post-matric scholarship paid by DBT into the student's own bank account",
+   "emoji": "🎓",
+   "colorHex": "#5B3FA8",
+   "eligibility": [
+    "Student belongs to a Scheduled Caste, Scheduled Tribe, Backward Class or notified minority community of Jharkhand",
+    "Student is domiciled in Jharkhand — the scholarship follows the home state, not the state where the college is",
+    "Studying in a recognised school or institution that is registered on the portal; if your college is not registered, it cannot verify your form",
+    "Family income must be within the limit notified for that scholarship for the year, so read the notice on the portal before filling the form",
+    "The bank account must be in the student's own name and seeded with the student's Aadhaar; a parent's or joint account is rejected",
+    "Renewal is applied for every year and is not automatic"
+   ],
+   "documents": [
+    "Aadhaar card of the student",
+    "Caste certificate issued in Jharkhand, or the minority declaration",
+    "Income certificate of the parent or guardian",
+    "Residence (domicile) certificate of Jharkhand",
+    "Last passed marksheet",
+    "Fee receipt or admission receipt from the institution for the current year",
+    "Bank passbook in the student's own name showing account number and IFSC",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://ekalyan.cgg.gov.in/student.do",
+   "portalName": "e-Kalyan Jharkhand",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scholarship applied for",
+     "value": "Post-Matric Scholarship (ST) — fresh application",
+     "hint": "Pre-matric is for Classes 1 to 10, post-matric for college and above. Choose fresh for the first year and renewal after that."
+    },
+    {
+     "label": "Student Name (as on Aadhaar)",
+     "value": "Anjali Murmu",
+     "hint": "Letter for letter as on Aadhaar and on the marksheet. A mismatch stops the payment at the bank stage."
+    },
+    {
+     "label": "Father's / Guardian's Name",
+     "value": "Sunil Murmu",
+     "hint": "The same name as on the income certificate you are uploading."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "05-02-2006",
+     "hint": "As printed on the Class 10 certificate."
+    },
+    {
+     "label": "Category",
+     "value": "Scheduled Tribe (Santhal)",
+     "hint": "Exactly as on the caste certificate. The scheme and the rate depend on this."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6032 7714",
+     "hint": "Twelve digits. The same Aadhaar must be seeded to the bank account, or the DBT transfer fails."
+    },
+    {
+     "label": "District / Block",
+     "value": "Dhanbad / Baliapur",
+     "hint": "Your home district and block. The district welfare officer of this district sanctions the scholarship."
+    },
+    {
+     "label": "Institution, Course and Year",
+     "value": "P.K. Roy Memorial College, Dhanbad — B.A. (Hons) History — 2nd year",
+     "hint": "Pick the institution from the portal's list. If it is not listed, ask the college to get itself registered first."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "96,000",
+     "hint": "Copy the figure from the income certificate you are uploading. The two must be the same number."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "0000 2233 1144 — BKID0009999",
+     "hint": "The student's own account. Copy both from the first page of the passbook, digit by digit."
+    }
+   ],
+   "demoSteps": [
+    "Watch ekalyan.cgg.gov.in for the year's notice. Pre-matric and post-matric open on different dates and the last date is hard — a late form is not accepted.",
+    "Before anything else, open a bank account in the student's own name and get the student's Aadhaar seeded to it at the branch. Payment is by DBT and a parent's or joint account is rejected.",
+    "Register as a student with your mobile and Aadhaar, then fill the form: category, institution, course, year, fees paid and bank details.",
+    "Upload the caste certificate, income certificate, residence certificate, last marksheet and the fee receipt. Submit and note the application number.",
+    "Your institution must verify the application on its own login. Go to the college office and confirm that it has been forwarded — more applications stall at this step than anywhere else.",
+    "The district welfare office sanctions it and the money is credited to the seeded account. Check the payment status on the portal with the same login.",
+    "Apply again for renewal in the next academic year. A renewal that misses the last date lapses and cannot be claimed later."
+   ],
+   "helpline": "No helpline number is published on the portal. Contact the District Welfare Officer of your district, or the welfare section of your college, which holds the institution login.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ekalyan.cgg.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "kl-akshaya",
+   "title": "Akshaya e-Kendras — Kerala's Assisted Service Centres",
+   "department": "Akshaya Project, Kerala State IT Mission",
+   "level": "State",
+   "state": "Kerala",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Akshaya is Kerala's own network of assisted service centres — about 2,650 e-Kendras, with at least two in every panchayat. You walk in and an operator files the application for you: e-District certificates such as income, community, nativity and possession, e-Grantz scholarship forms, Aadhaar enrolment, update and seeding, birth and death certificate printing, and utility and fee payments. The network started on 18 November 2002 and has handled over 1.81 crore Aadhaar enrolments. The website lists the services and the centres; the filing itself happens at the counter.",
+   "benefit": "Assisted filing of certificates, scholarships, Aadhaar work and payments at about 2,650 centres",
+   "emoji": "🖥",
+   "colorHex": "#00796B",
+   "eligibility": [
+    "Anyone living in Kerala can use an Akshaya e-Kendra; you do not need an account on the website",
+    "You must still meet the conditions of the department whose service you are applying for — Akshaya only files it",
+    "Aadhaar is needed for most services, and for e-District certificates the mobile linked to it has to be working for the OTP",
+    "Service charges are fixed by the government for each service and are displayed at the centre; the department's own fee is separate",
+    "For Aadhaar enrolment or update of a child, a parent must come along with their own Aadhaar"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant — original and one photocopy",
+    "Ration card of the family",
+    "Address proof — electricity bill, water bill or land tax receipt",
+    "Income proof — salary certificate, or a self-declaration where there is no salary, for an income certificate",
+    "Community or caste certificate of a parent, for a community certificate",
+    "School certificate or birth certificate for date of birth",
+    "Bank passbook, for scholarship and other DBT services",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://akshaya.kerala.gov.in/centers",
+   "portalName": "Akshaya Kerala",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District (centre search)",
+     "value": "Thrissur",
+     "hint": "Pick your district on the site to list the Akshaya centres near you before you set out."
+    },
+    {
+     "label": "Local body / Panchayat",
+     "value": "Koratty Grama Panchayat",
+     "hint": "Narrows the list to the centres in your own panchayat or municipality. There are at least two in every panchayat."
+    },
+    {
+     "label": "Service wanted",
+     "value": "Income Certificate (Kerala e-District)",
+     "hint": "Check the service list on the site first — it also shows what the service costs and what to carry."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Deepa Rajan",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry in both Malayalam and English."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Rajan Velayudhan",
+     "hint": "As on his own Aadhaar or ration card, since the family is identified through it."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5521 4087",
+     "hint": "Twelve digits. The operator verifies you on this and the OTP comes to the linked mobile."
+    },
+    {
+     "label": "Address — House, Village, Taluk, District",
+     "value": "Thekkethil House, Koratty, Chalakudy Taluk, Thrissur",
+     "hint": "The address the village officer will verify. Use the one on the ration card."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "96,000",
+     "hint": "The whole household's income for the year from every source. The village officer checks this before the certificate is signed."
+    },
+    {
+     "label": "Purpose",
+     "value": "Fee concession for daughter's degree admission",
+     "hint": "Recorded on the file. It does not restrict where the certificate can be used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 55214",
+     "hint": "The application number and the 'ready' message come here by SMS, so give a number you carry."
+    }
+   ],
+   "demoSteps": [
+    "Find your nearest e-Kendra on akshaya.kerala.gov.in and read the service page, which lists what to carry and what the service costs.",
+    "Carry the originals and one photocopy of each document. The operator scans the originals at the counter.",
+    "The operator fills the form for you. Before it is submitted, read the name, age, address and income back off the screen — in Malayalam and in English. A spelling mistake here means applying all over again.",
+    "Pay the government fee and the notified service charge and take the printed receipt. The application number on it is the only way to follow the file.",
+    "The village officer verifies income, residence and family claims. You may be called to the village office, so stay reachable.",
+    "An SMS tells you when it is ready. Collect the signed certificate at the centre or download it yourself; a digitally signed copy needs no attestation.",
+    "The service charges are fixed and displayed at the centre. If more than that is asked, complain to the District Akshaya Project Office for your district."
+   ],
+   "helpline": "No statewide helpline number is published. Contact the District Akshaya Project Office (District Project Manager) for your district, or the e-Kendra itself for a query about your own application.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://akshaya.kerala.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "kl-thulasi-psc",
+   "title": "Thulasi — Kerala PSC Registration and Applications",
+   "department": "Kerala Public Service Commission",
+   "level": "State",
+   "state": "Kerala",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Thulasi is the Kerala Public Service Commission's application system. You build one profile — the One Time Registration — and then apply from it to every PSC notification: Last Grade Servants, Lower Division Clerk, Civil Police Officer, Village Extension Officer, Staff Nurse, Assistant Professor, departmental tests and hundreds of other posts. There is no application fee. The same login is used to update the profile, confirm each application, download the admission ticket and see the short list and the rank list.",
+   "benefit": "One profile, then applications to every Kerala PSC notification at no fee",
+   "emoji": "💼",
+   "colorHex": "#1565C0",
+   "eligibility": [
+    "Indian citizen; most Kerala PSC posts also require Kerala nativity, and each notification states its own condition",
+    "Age limits are set in each notification, commonly 18 to 36 years on 1 January of the qualifying year, with the relaxations allowed to SC, ST and OBC candidates",
+    "One person may hold only one Thulasi profile — a second profile blocks you from applying",
+    "The qualification named in the notification must already be entered in your profile, and acquired before the last date, or you cannot apply for that post",
+    "The photograph must have been taken within six months of creating the profile, with your name and the date printed on it, for profiles created from 1 January 2022"
+   ],
+   "documents": [
+    "Photograph taken within the last six months, with your name and the date of the photograph printed below the face",
+    "Scanned signature",
+    "SSLC book or Class 10 certificate, for the name and the date of birth",
+    "Degree, diploma or other qualification certificates named in the notification",
+    "Community certificate, for an SC, ST or OBC claim",
+    "Non-creamy layer certificate, for an OBC claim",
+    "Aadhaar card",
+    "Nativity certificate, where the notification asks for one"
+   ],
+   "applyUrl": "https://thulasi.psc.kerala.gov.in/thulasi/",
+   "portalName": "Thulasi — Kerala PSC",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Name (as in SSLC Book)",
+     "value": "Anoop Krishnan",
+     "hint": "Exactly as in the SSLC book, including initials. The rank list and the advice memo will carry this name."
+    },
+    {
+     "label": "Date of Birth (as in SSLC Book)",
+     "value": "14-03-2001",
+     "hint": "From the SSLC book only. Age for every post is counted from this date and it cannot be changed afterwards."
+    },
+    {
+     "label": "Gender",
+     "value": "Male",
+     "hint": "Some posts are notified for women only, and the system filters on this."
+    },
+    {
+     "label": "Religion, Caste and Community",
+     "value": "Hindu / Ezhava / OBC",
+     "hint": "As on your community certificate. Age relaxation and reservation are given on this entry, so an error here costs you the claim."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6108 3374",
+     "hint": "Twelve digits. It ties the profile to you and stops a duplicate registration."
+    },
+    {
+     "label": "Permanent Address — House, Post Office, District, PIN",
+     "value": "Thekkeveedu, Karunagappally PO, Kollam — 690518",
+     "hint": "The address for post from the Commission. Keep it current in the profile if you move."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Com, University of Kerala, passed May 2022",
+     "hint": "Add every qualification with the month and year it was acquired. You can only apply for a post whose qualification is already in the profile."
+    },
+    {
+     "label": "Photograph",
+     "value": "Photo taken 12-02-2026, with 'Anoop Krishnan' and the date printed below the face",
+     "hint": "Taken within the last six months, name and date printed on it. A photo without this is rejected."
+    },
+    {
+     "label": "Access Code",
+     "value": "ANOOP26",
+     "hint": "A short word you choose. You are asked for it every time you confirm an application, so write it down somewhere safe."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 61083",
+     "hint": "Notification alerts, the admission ticket message and the rank list message come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the photograph right before you start: taken within the last six months, with your name and the date printed below the face. A profile created from 1 January 2022 is rejected without it.",
+    "Open thulasi.psc.kerala.gov.in, click New Registration and fill the profile from your SSLC book. Name, date of birth and community must match it exactly.",
+    "Save the user ID, the password and the access code. The access code is asked again each time you confirm an application.",
+    "Enter every qualification in the profile with the date you acquired it. A post will not open for you unless its qualification is already recorded.",
+    "Open the notification you want and click Apply. Kerala PSC charges no application fee.",
+    "Confirm the application before the last date. An application that is submitted but never confirmed is not considered at all — this is the commonest way candidates lose a chance.",
+    "Download the admission ticket when it is released, then follow the short list, the rank list and the advice memo through the same login."
+   ],
+   "helpline": "No helpline number is published for Thulasi. Contact the Kerala PSC District Office of your district, or the Commission's office at Pattom, Thiruvananthapuram. Akshaya e-Kendras also help with the registration.",
+   "lastVerified": "September 2026",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "pb-esewa",
+   "title": "e-Sewa Punjab — Sewa Kendra Certificates and Services",
+   "department": "Department of Governance Reforms and Public Grievances, Government of Punjab",
+   "level": "State",
+   "state": "Punjab",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "e-Sewa Punjab is the Sewa Kendra counter put online. More than 400 services of over 30 departments run through it — birth, death and marriage certificates, caste, residence and income certificates, fard (a copy of the land record), arms licence, vehicle and driving licence services, labour registration and social security pensions. You can file it yourself with a mobile OTP, or hand the papers in at any Sewa Kendra and let the counter do it.",
+   "benefit": "Over 400 services of more than 30 departments, filed online or at a Sewa Kendra",
+   "emoji": "📄",
+   "colorHex": "#C2410C",
+   "eligibility": [
+    "Resident of Punjab, applying in the tehsil where the family actually lives",
+    "A residence certificate needs proof that the family has been living in Punjab — the ration card, an old electricity bill or a school record for the address",
+    "A caste certificate is issued only for a caste on Punjab's notified list and is checked against the father's certificate",
+    "An income certificate covers one financial year, and departments normally want a recently issued one",
+    "You need a mobile number that can take the OTP, and it should be the one linked to your Aadhaar"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card or blue card of the family",
+    "Address proof — electricity bill, water bill or house tax receipt",
+    "Father's caste certificate, for a caste certificate",
+    "Income proof — salary slip, or a self-declaration and affidavit where there is no salary",
+    "Matriculation certificate or birth certificate for date of birth",
+    "Copy of the jamabandi or rent agreement, where the address rests on land or a tenancy",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://connect.punjab.gov.in/service/citizenservice",
+   "portalName": "e-Sewa Punjab (Sewa Kendra)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Department and Service",
+     "value": "Revenue Department — Income Certificate",
+     "hint": "Pick the department first, then the service. Each one has its own form, its own fee and its own delivery time."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Gurpreet Kaur",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this box in Punjabi and English."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Jagtar Singh",
+     "hint": "As on his own Aadhaar or the family's ration card, since the family is traced through it."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "23-11-1992",
+     "hint": "As on the matriculation certificate or the birth certificate."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2708 5513",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Ludhiana / Jagraon / Sidhwan Bet",
+     "hint": "Where the family lives. The tehsil office named here processes and signs the certificate."
+    },
+    {
+     "label": "Caste and Category",
+     "value": "Ramdasia — Scheduled Caste",
+     "hint": "Exactly as on your father's caste certificate. Leave it blank if the service does not need it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,20,000",
+     "hint": "The household's total for the year — wages, farming, shop and rent together, not just the applicant's earnings."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 27085",
+     "hint": "The application number, the OTP and the 'ready for collection' message all come here."
+    }
+   ],
+   "demoSteps": [
+    "Register on esewa.punjab.gov.in with your mobile number and the OTP — or take the papers to any Sewa Kendra and let the counter file it for you.",
+    "Choose the department and the service, then fill the form. The name must match the Aadhaar letter for letter, or the file comes back for correction.",
+    "Upload the scans, pay the fee, and keep the receipt. It carries the application number and the date the service is promised by.",
+    "The patwari or the tehsil clerk verifies the address, the income or the caste claim. Stay reachable on the mobile you gave.",
+    "Track the application number on the portal. When it is approved, download the digitally signed certificate from the same login or collect it at the Sewa Kendra — a digitally signed copy needs no attestation.",
+    "If the promised date passes, Punjab's service delivery law gives you an appeal to the department's designated appellate officer. Quote the application number when you file it."
+   ],
+   "helpline": "No helpline number is published for e-Sewa. Ask at the Sewa Kendra counter in your tehsil, or at the District Governance Reforms office in the Deputy Commissioner's complex.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://esewa.punjab.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "pb-jamabandi",
+   "title": "Jamabandi Punjab — Land Records, Fard and Mutation",
+   "department": "Punjab Land Records Society, Department of Revenue, Rehabilitation and Disaster Management, Government of Punjab",
+   "level": "State",
+   "state": "Punjab",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Punjab's land records portal. Looking up the jamabandi by owner name, khewat, khatauni or khasra number is free and needs no account, and you can also see mutations, the roznamcha and registered deeds. A digital fard can be bought and delivered on WhatsApp. Requests for virasat (inheritance) mutation, mutation on a registered deed (vasika), fard badar correction, rapat entry and oral or family partition under the Chief Minister's 30-day taksim scheme are filed on the same site with a mobile OTP, and tracked on the application number.",
+   "benefit": "Free jamabandi viewing, digital fard on WhatsApp, and mutation requests filed online",
+   "emoji": "🌾",
+   "colorHex": "#2E7D32",
+   "eligibility": [
+    "The land must lie in Punjab and be entered in the jamabandi of that village",
+    "Viewing the jamabandi, mutations, roznamcha and registered deeds is free and open to anyone, with no login",
+    "For a virasat mutation you must be a legal heir of the owner recorded in the jamabandi",
+    "For a mutation on a deed, the vasika must already be registered at the sub-registrar's office before you file here",
+    "For the Chief Minister's 30-day partition scheme, every co-sharer of the khewat has to agree to the partition",
+    "You need a mobile number that can take the OTP; there is no standing citizen account, so the application number is your only handle on the file"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Copy of the current jamabandi (fard) showing the khewat, khatauni and khasra numbers",
+    "Death certificate of the recorded owner, for a virasat mutation",
+    "Family tree (kursinama) of the heirs, attested by the sarpanch or the patwari",
+    "Registered deed (vasika) with its registration number and date, for a deed mutation",
+    "Written consent of all co-sharers, for a family partition",
+    "Court order or decree, where the land is under one",
+    "Mobile number for the OTP, and for WhatsApp delivery of a digital fard"
+   ],
+   "applyUrl": "https://jamabandi.punjab.gov.in/RequestForVirasatMutation.aspx",
+   "portalName": "Jamabandi Punjab",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Request type",
+     "value": "Request for Virasat (inheritance) Mutation",
+     "hint": "Virasat mutation, mutation on a registered vasika, fard badar, rapat, or partition. Each has its own page on the site."
+    },
+    {
+     "label": "District",
+     "value": "Patiala",
+     "hint": "The district where the land is, which is not always the district you live in."
+    },
+    {
+     "label": "Tehsil",
+     "value": "Nabha",
+     "hint": "The revenue tehsil of the land. The Revenue Officer of this tehsil sanctions the mutation."
+    },
+    {
+     "label": "Village / Hadbast",
+     "value": "Bhadson",
+     "hint": "Pick the village from the dropdown. The dropdown takes a moment to load, so wait for the list."
+    },
+    {
+     "label": "Jamabandi Year",
+     "value": "2021-2022",
+     "hint": "Jamabandi is rewritten every five years. Choose the latest year shown for your village."
+    },
+    {
+     "label": "Khewat / Khatauni Number",
+     "value": "Khewat 96 / Khatauni 141",
+     "hint": "Copy both from the fard exactly. The whole request is filed against these numbers."
+    },
+    {
+     "label": "Khasra (Killa) Numbers",
+     "value": "112//5, 112//6",
+     "hint": "Every khasra of the holding being mutated, with the slashes as printed in the record."
+    },
+    {
+     "label": "Name of the recorded owner",
+     "value": "Bachan Singh son of Inder Singh",
+     "hint": "The name as it stands in the jamabandi, not as spoken. For a virasat mutation this is the deceased owner."
+    },
+    {
+     "label": "Applicant's name and relation",
+     "value": "Manjit Singh — son of the deceased",
+     "hint": "Your name as on Aadhaar and how you are related to the recorded owner. List every heir; leaving one out means the mutation has to be redone."
+    },
+    {
+     "label": "Mobile Number for OTP",
+     "value": "90000 88462",
+     "hint": "The OTP, the application number and the hearing date come here. A digital fard is delivered to this number on WhatsApp."
+    }
+   ],
+   "demoSteps": [
+    "Open jamabandi.punjab.gov.in and view the jamabandi free first — search by owner name, khewat, khatauni or khasra. Write down the spelling and the numbers exactly as the record shows them.",
+    "If you only need a copy, use the digital fard service; it can be sent to your mobile on WhatsApp for the notified fee. A paid subscription is offered for people who need fards often.",
+    "For inheritance, open the Virasat mutation request, fill the district, tehsil, village, jamabandi year and khewat, add every legal heir, and verify your mobile number by OTP. No account is needed.",
+    "Note the application number the site gives you and follow it on the online request status page.",
+    "The patwari enters the rapat in the roznamcha and the Revenue Officer — Naib Tehsildar or Tehsildar — sanctions the mutation after hearing the co-sharers. Attend the hearing when you are called.",
+    "Once it is sanctioned, look up the jamabandi again and check the new names, the shares and the khasra numbers. If anything is wrong, file a Fard Badar correction request on the same site.",
+    "There is a grievance form on the portal with its own tracking number. Use it if the request sits without movement, and keep the application number with you."
+   ],
+   "helpline": "No helpline number is published on the portal. Contact the Fard Kendra or the Tehsildar's office of the tehsil where the land lies, and the Punjab Land Records Society through the Deputy Commissioner's office if it is not resolved there.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://jamabandi.punjab.gov.in/",
+   "applyKind": "form"
+  }
+ ]
+}

@@ -1,0 +1,596 @@
+{
+ "schemes": [
+  {
+   "id": "br-ration-card",
+   "title": "Bihar Ration Card (Jan Vitran Ann)",
+   "department": "Department of Food and Consumer Protection, Government of Bihar",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "The ration card is what brings your family subsidised foodgrain from the fair price shop under the National Food Security Act, and it is the household proof most other Bihar schemes ask to see first. A new card, a correction (Praptra KHA), a split of one card into two, and adding or removing a member are all done online on RC Online Bihar.",
+   "benefit": "5 kg of foodgrain per person a month for a priority household, 35 kg a month for an Antyodaya household",
+   "emoji": "🍚",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family living in Bihar and not holding a ration card anywhere else in India",
+    "No member is an income-tax payer or a permanent government employee",
+    "The family does not own a four-wheeler or a tractor",
+    "The eldest woman of the family aged 18 or above is recorded as the head of the household",
+    "Every member's Aadhaar must be given; a name without Aadhaar draws no grain",
+    "Antyodaya (AAY) cards go to the poorest households identified by the district; other eligible families get a priority household (PHH) card"
+   ],
+   "documents": [
+    "Aadhaar card of every member of the family",
+    "Aadhaar-linked mobile number of the head of the household, for the OTP",
+    "Passport-size photograph and signature of the head of the household",
+    "Residence proof — electricity bill, holding tax receipt or rent agreement",
+    "Bank passbook first page of the head of the household",
+    "Deletion certificate from the earlier card, if the family or a member has come from another card",
+    "Income declaration of the household"
+   ],
+   "applyUrl": "https://rconline.bihar.gov.in/",
+   "portalName": "RC Online Bihar",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Application Type",
+     "value": "New Ration Card (Rural)",
+     "hint": "New card, correction under Praptra KHA, split of a card, adding a member or deleting one. Pick one; each needs a different set of papers."
+    },
+    {
+     "label": "Name of the Head of the Family",
+     "value": "Sunaina Devi",
+     "hint": "The eldest woman of the family aged 18 or above. The card is issued in her name, spelt exactly as on her Aadhaar."
+    },
+    {
+     "label": "Aadhaar Number of the Head",
+     "value": "9999 4187 2260",
+     "hint": "Twelve digits from her own Aadhaar card. The whole family's monthly grain is counted against this."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 41872",
+     "hint": "Use the number linked to her Aadhaar. The OTP, the application ID and the ready message all come here."
+    },
+    {
+     "label": "District / Block / Panchayat or Ward",
+     "value": "Muzaffarpur / Kanti / Bishunpur panchayat",
+     "hint": "Where the family actually lives. The fair price shop is allotted from this address and the officer verifies here."
+    },
+    {
+     "label": "Full Address with House Number and PIN",
+     "value": "House 27, Bishunpur Tola, Kanti, Muzaffarpur 842002",
+     "hint": "Write the house number and tola or ward so the verifying officer can find the house."
+    },
+    {
+     "label": "Family Members — name, relation, age, Aadhaar",
+     "value": "Bipin Kumar Sahni — husband — 41 — 9999 3320 5514; Anjali Kumari — daughter — 12 — 9999 7781 0462",
+     "hint": "Everyone who eats from the same kitchen, each with their own Aadhaar. One name left out costs the family 5 kg every month."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "72,000",
+     "hint": "The household's total earning for the year, from all members and all work."
+    },
+    {
+     "label": "Bank Account Number and IFSC of the Head",
+     "value": "3899 0012 7745 / CBIN0281455",
+     "hint": "Account in the head of the household's own name. Copy the IFSC from the passbook, not from memory."
+    },
+    {
+     "label": "Uploads — photograph, signature, residence proof, Aadhaar of all members",
+     "value": "Photo and signature as JPG under 100 KB, papers as PDF under 300 KB",
+     "hint": "Scan or photograph each paper and keep it small; the portal refuses a large file without saying why."
+    }
+   ],
+   "demoSteps": [
+    "Register on rconline.bihar.gov.in with the Aadhaar-linked mobile of the head of the household and confirm the OTP. If you cannot do it yourself, the operator at a Vasudha Kendra or CSC will file it for you.",
+    "Fill the head's details, then add every person who eats from the same kitchen with their own Aadhaar, relation and age.",
+    "Upload the photograph, signature, residence proof and each member's Aadhaar within the size limits.",
+    "Submit and keep the application ID that comes by SMS. A part-filled application must be finally submitted within 30 days of starting it, or the draft lapses and you begin again.",
+    "The Block Supply Officer and the Circle Officer verify the household at your address, and the Sub-Divisional Officer sanctions the card.",
+    "Once approved, download the ration card from epds.bihar.gov.in and check every name, age and Aadhaar on it before you rely on it.",
+    "Get each member's Aadhaar e-KYC done on the ePoS machine at your fair price shop. Grain is released against the fingerprint, so a member without e-KYC gets nothing."
+   ],
+   "helpline": "The Block Supply Officer (Marketing Officer) at your block office, or the Sub-Divisional Officer who sanctions the card",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "br-social-security-pension",
+   "title": "Bihar Social Security Pension — Old Age, Widow and Disability",
+   "department": "Social Welfare Department, Government of Bihar (Directorate of Social Security)",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Pension",
+   "mode": "online",
+   "brief": "Bihar pays a monthly pension to old people, widows and disabled people. Mukhyamantri Vridhjan Pension Yojana covers every resident aged 60 and above with no income condition at all; the Laxmibai Samajik Suraksha Pension covers widows; the disability pension covers people certified with 40 per cent or more disability. All three are applied for on the ServiceOnline RTPS portal and paid straight into the pensioner's own bank account.",
+   "benefit": "Rs 1,100 a month by direct transfer, raised from Rs 400 in July 2025",
+   "emoji": "👵",
+   "colorHex": "#6B4FA6",
+   "eligibility": [
+    "Aged 60 or above and a resident of Bihar, for Mukhyamantri Vridhjan Pension — there is no income limit for it",
+    "Widow aged 18 or above from a poor household, for the Laxmibai Samajik Suraksha Pension",
+    "Disability certified at 40 per cent or more, for the disability pension",
+    "The applicant is not drawing any other government pension, including a service pension",
+    "A bank account in the pensioner's own name, seeded with Aadhaar; a son's or daughter's account is not accepted"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Age proof — Aadhaar, voter ID, matric certificate or the date of birth on the ration card",
+    "Voter ID (EPIC) card, as the old age pension is checked against the Bihar electoral roll",
+    "Bank passbook in the applicant's own name showing the account number and IFSC",
+    "Passport-size photograph",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate showing the percentage, for a disability pension",
+    "Mobile number linked to Aadhaar"
+   ],
+   "applyUrl": "https://serviceonline.bihar.gov.in/janParichayLogin",
+   "portalName": "Bihar ServiceOnline (RTPS)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service Selected",
+     "value": "Mukhyamantri Vridhjan Pension Yojana",
+     "hint": "Under Social Welfare Department pick the pension that fits you — old age, widow (Laxmibai) or disability. One person can hold only one."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Ramashish Paswan",
+     "hint": "Exactly the spelling on Aadhaar. If the bank record spells it differently, get one of them corrected first or the money will not land."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Late Jagdish Paswan",
+     "hint": "As written on your Aadhaar or voter ID."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "14-08-1962 (64 years)",
+     "hint": "Take it from Aadhaar or the matric certificate. The old age pension starts only at 60 completed years."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5240 3178",
+     "hint": "Twelve digits. The pension is paid to the bank account seeded with this Aadhaar."
+    },
+    {
+     "label": "Voter ID (EPIC) Number",
+     "value": "BRX2741953",
+     "hint": "From your voter card. The portal matches it against the electoral roll of your booth."
+    },
+    {
+     "label": "District / Block / Panchayat or Ward",
+     "value": "Gaya / Belaganj / Mahakar panchayat, Ward 6",
+     "hint": "Where you live. The Block Development Office of this block handles the case."
+    },
+    {
+     "label": "Bank Account Number, IFSC and Branch",
+     "value": "3311 0056 8842 / SBIN0006143 / State Bank of India, Belaganj branch",
+     "hint": "Account in your own name only. Copy the IFSC from the passbook — one wrong letter and the monthly credit fails."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 52403",
+     "hint": "The application number and the sanction message come here by SMS."
+    },
+    {
+     "label": "Any other government pension being drawn",
+     "value": "None",
+     "hint": "Say plainly whether you already draw a pension. Drawing two stops both and the money is recovered."
+    }
+   ],
+   "demoSteps": [
+    "Open serviceonline.bihar.gov.in, register as a citizen with your mobile and OTP, then choose Social Welfare Department and the pension you want. The RTPS counter at your block office files it free if you cannot do it yourself.",
+    "Fill the form with your name exactly as on Aadhaar, your date of birth, your voter ID number and a bank account in your own name with its IFSC.",
+    "Upload Aadhaar, the photograph and the bank passbook page, and for a widow or disability pension the death certificate or the disability certificate.",
+    "Submit and keep the application reference number on the acknowledgement. Track it on the same portal with that number.",
+    "The Block Development Officer verifies the papers and the Sub-Divisional Officer sanctions the pension, normally within the timeline fixed under the Bihar Right to Public Services Act.",
+    "Once sanctioned, Rs 1,100 reaches your bank account every month. Check the first credit at the bank counter or the CSC so you know it has started.",
+    "Give the life certificate every year when the block office calls for it. The pension stops the month it is missed and takes time to restart."
+   ],
+   "helpline": "The RTPS counter at your Block Development Office, or the social security cell of your District Social Welfare Office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://serviceonline.bihar.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "br-kanya-utthan",
+   "title": "Mukhyamantri Kanya Utthan Yojana — Graduation Incentive",
+   "department": "Education Department, Government of Bihar",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Women",
+   "mode": "online",
+   "brief": "Bihar pays Rs 50,000 to a girl who passes her graduation from a university in the state. This part of Mukhyamantri Kanya Utthan Yojana is also called Mukhyamantri Balika (Snatak) Protsahan Yojana, and both married and unmarried graduates get it. A separate incentive for girls who pass Intermediate is claimed on the same portal. The money is paid by direct transfer into the student's own bank account.",
+   "benefit": "Rs 50,000 after passing graduation",
+   "emoji": "👩‍🎓",
+   "colorHex": "#E0338C",
+   "eligibility": [
+    "Girl student who has passed graduation in any stream from a university in Bihar",
+    "Resident of Bihar; for the graduation incentive it makes no difference whether she is married or unmarried",
+    "Applied within the window notified for her passing year — a closed session cannot be claimed later",
+    "A bank account in the student's own name, Aadhaar-seeded and working; a joint account or a parent's account is not paid",
+    "The name on Aadhaar, on the bank record and on the university record must match"
+   ],
+   "documents": [
+    "Aadhaar card of the student",
+    "Graduation marksheet or provisional certificate from the university",
+    "Matric (Class 10) certificate, for date of birth and the correct spelling of the name",
+    "Bank passbook in the student's own name showing the account number and IFSC",
+    "Residence certificate of Bihar",
+    "University registration number and final-year roll number",
+    "Mobile number and email address for the login credentials"
+   ],
+   "applyUrl": "https://medhasoft.bihar.gov.in/MKUYSNATAK_2025/pms/Apply.aspx",
+   "portalName": "Medhasoft Bihar",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scheme Selected",
+     "value": "Mukhyamantri Kanya Utthan Yojana (Graduation)",
+     "hint": "The portal carries several student schemes. Pick the graduation (Snatak) one; the Inter and matric links are separate."
+    },
+    {
+     "label": "University Name",
+     "value": "Lalit Narayan Mithila University, Darbhanga",
+     "hint": "Choose your university from the list. If it is not listed, its results have not been loaded yet — wait for the department's notice."
+    },
+    {
+     "label": "College Name",
+     "value": "Marwari College, Darbhanga",
+     "hint": "The college you actually passed from, as the university has registered it."
+    },
+    {
+     "label": "Student Name (as on the marksheet)",
+     "value": "Nutan Kumari",
+     "hint": "Copy it from the marksheet. If Aadhaar spells it differently, get that corrected before applying."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Chandrika Prasad Yadav",
+     "hint": "As printed on the marksheet, not a shortened version."
+    },
+    {
+     "label": "Registration Number, Roll Number and Year of Passing",
+     "value": "LNM/2022/ARTS/41277 — Roll 30418 — passed 2026",
+     "hint": "All three are on the graduation marksheet. The portal matches them against the university result file."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "09-02-2004",
+     "hint": "Take it from the matric certificate, which is the record the department treats as final."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6135 7708",
+     "hint": "The student's own, twelve digits. The payment goes to the account seeded with it."
+    },
+    {
+     "label": "Bank Account Number, IFSC and Bank Name",
+     "value": "6119 0034 2287 / SBIN0005698 / State Bank of India, Darbhanga Tower branch",
+     "hint": "In the student's own name. A wrong IFSC or a parent's account is the commonest reason the Rs 50,000 bounces."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 61357 / nutan.kumari.demo@example.com",
+     "hint": "The user ID and password come here. Give a number and email you will still be using months later."
+    }
+   ],
+   "demoSteps": [
+    "Watch medhasoft.bihar.gov.in for the notice opening applications for your passing year, and keep the graduation marksheet in hand.",
+    "Open the graduation (Snatak) link, register with your university, college, roll number and date of birth, and confirm the OTP. The portal then sends a user ID and password by SMS.",
+    "Log in and fill the form — name exactly as on the marksheet, Aadhaar, and a bank account in your own name with the correct IFSC.",
+    "Upload the marksheet, Aadhaar and the bank passbook page as small PDFs. The portal caps the file size and simply refuses anything larger.",
+    "Submit, note the application number and print the acknowledgement.",
+    "Your college verifies the entry and the university forwards the list to the department. Check status and any rejection reason on the same portal — a wrong IFSC, a name mismatch or an inactive account are the usual ones, and they can be corrected and resubmitted.",
+    "Rs 50,000 is paid by direct transfer into your account once the sanction list is published. Watch the payment status page on Medhasoft until it shows paid."
+   ],
+   "helpline": "The Kanya Utthan nodal teacher at your college, or the District Education Officer of your district",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://medhasoft.bihar.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "br-student-credit-card",
+   "title": "Bihar Student Credit Card (BSCC)",
+   "department": "Planning and Development Department, Government of Bihar — Saat Nishchay Yuva Upmission",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Education",
+   "mode": "online",
+   "brief": "A Bihar student who has passed Class 12 can take an education loan of up to Rs 4 lakh for a higher, professional or technical course, with the state government standing guarantee, so no collateral and no guarantor are needed. The application is made on the Saat Nishchay Yuva Upmission (MNSSBY) portal; the loan is sanctioned and paid out by BSEFCL. Only the colleges and courses on the approved list published on the portal qualify.",
+   "benefit": "Education loan up to Rs 4 lakh at 4 per cent simple interest, and 1 per cent for a woman, transgender or divyang student",
+   "emoji": "🎓",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Passed Class 12 or an equivalent examination from a recognised board",
+    "Permanent resident of Bihar",
+    "Admitted to a course and an institution that appear on the approved list on the portal — a college outside that list cannot be funded",
+    "Aged not more than 25 years when applying",
+    "Not already taking another government education loan for the same course",
+    "No collateral and no guarantor are needed; the state government guarantees the loan"
+   ],
+   "documents": [
+    "Aadhaar card of the student and of the co-applicant (mother, father or guardian)",
+    "Class 10 and Class 12 marksheets and certificates",
+    "Admission or allotment letter from the college",
+    "Fee demand letter or fee structure on the institution's letterhead",
+    "Residence certificate of Bihar",
+    "Bank passbook of the student and of the co-applicant",
+    "Two passport-size photographs each of the student and the co-applicant",
+    "PAN card and a recent electricity bill of the house, asked for at the DRCC"
+   ],
+   "applyUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/addFtrUserPage",
+   "portalName": "MNSSBY — Saat Nishchay Yuva Upmission portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scheme Applied For",
+     "value": "Bihar Student Credit Card (BSCC)",
+     "hint": "The same login also carries the self-help allowance and Kushal Yuva Program. Choose the student credit card."
+    },
+    {
+     "label": "Applicant Name",
+     "value": "Ranjeet Kumar Mandal",
+     "hint": "As on Aadhaar and the Class 10 certificate. The two must agree."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 8047 3162",
+     "hint": "The student's own twelve digits, entered at registration itself."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "22-11-2005",
+     "hint": "From the Class 10 certificate. Age is counted from this date against the 25-year limit."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 80473 / ranjeet.mandal.demo@example.com",
+     "hint": "An OTP goes to both, and the username and password come to both. A dead email address stops the registration at the first step."
+    },
+    {
+     "label": "Permanent Address with District",
+     "value": "Village Sultanganj, Bhagalpur, Bihar 813213",
+     "hint": "Your home address in Bihar, matching the residence certificate."
+    },
+    {
+     "label": "Course and Institution (from the approved list)",
+     "value": "B.Tech Civil Engineering — Bhagalpur College of Engineering, Bhagalpur",
+     "hint": "Pick from the portal's own list. If your college is missing, its accreditation has lapsed or it is not approved, and the loan cannot be sanctioned."
+    },
+    {
+     "label": "Total Course Fee and Loan Amount Applied For",
+     "value": "Rs 2,84,000 total fee — Rs 2,84,000 applied for",
+     "hint": "Take the figures from the college's demand letter. The ceiling is Rs 4,00,000 for the whole course, not per year."
+    },
+    {
+     "label": "Co-applicant Name, Relation and Aadhaar",
+     "value": "Phulwanti Devi — mother — 9999 2216 5590",
+     "hint": "Mother, father or guardian. The co-applicant signs at the DRCC, so pick someone who can come with you."
+    },
+    {
+     "label": "Bank Account Number and IFSC of the Student",
+     "value": "3477 0021 6683 / CBIN0280391 / Central Bank of India, Sultanganj",
+     "hint": "In the student's own name. The hostel and book amount comes to this account; the tuition fee goes straight to the college."
+    }
+   ],
+   "demoSteps": [
+    "Register as a new applicant on 7nishchay-yuvaupmission.bihar.gov.in with your name, mobile, email and Aadhaar, and confirm the OTP that comes to both the mobile and the email.",
+    "Log in with the username and password sent to you, choose Bihar Student Credit Card, and first check that your college and course are on the approved list on the portal.",
+    "Fill the form with the co-applicant's details and the fee taken from the college's demand letter, submit it, and print the acknowledgement.",
+    "Take the printout and every original document to your District Registration and Counselling Centre (DRCC) within 60 days, with the co-applicant. Missing this deadline cancels the application.",
+    "The DRCC checks the originals and forwards the case. BSEFCL sanctions the loan and issues you separate student portal credentials.",
+    "The tuition fee is released to the college semester by semester and the hostel and book amount to your own account. Watch the semester-wise position and the outstanding amount on bsefcl.bihar.gov.in.",
+    "Nothing is charged while you study. Repayment begins one year after the course ends or as soon as you get a job, whichever is earlier, at 4 per cent simple interest — 1 per cent for a woman, transgender or divyang student."
+   ],
+   "helpline": "1800 3456 444 — Saat Nishchay Yuva Upmission toll free",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "br-bihar-bhumi",
+   "title": "Bihar Bhumi — Jamabandi, Mutation (Dakhil-Kharij) and LPC",
+   "department": "Revenue and Land Reforms Department, Government of Bihar",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Bihar Bhumi is where a landholder sees and prints the jamabandi panji, the khatiyan and Register-II for their own plot, pays the land revenue (lagan), and applies online for mutation after a purchase or a death (dakhil-kharij), for a Land Possession Certificate, and for correction of a wrong entry through Parimarjan Plus. Viewing and printing the record costs nothing and needs no login.",
+   "benefit": "Free view and download of jamabandi and khatiyan, and online application for mutation, LPC and record correction",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in Bihar and entered in the revenue register of its circle",
+    "Anyone may view and print a jamabandi or khatiyan; no login is needed for that",
+    "For a mutation, the applicant must be the buyer under a registered sale deed or the legal heir of the recorded raiyat",
+    "For a Land Possession Certificate, the applicant must be the recorded holder in a live jamabandi with the lagan paid up to date",
+    "For Parimarjan Plus, the applicant must produce the document that shows what the correct entry should be"
+   ],
+   "documents": [
+    "Registered sale deed (kewala), for a mutation after a purchase",
+    "Death certificate and the heirship (vanshavali) papers, for a mutation after a death",
+    "Latest online lagan receipt for that jamabandi",
+    "Copy of the existing jamabandi panji or khatiyan",
+    "Aadhaar card and mobile number of the applicant",
+    "Land details — district, circle, mauza, thana number, khata and khesra",
+    "Passport-size photograph of the applicant"
+   ],
+   "applyUrl": "https://biharbhumi.bihar.gov.in/Biharbhumi/UserLogin",
+   "portalName": "Bihar Bhumi",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service Selected",
+     "value": "Dakhil-Kharij (mutation) application",
+     "hint": "Mutation, Land Possession Certificate, Parimarjan Plus correction, jamabandi view or online lagan payment. Pick one."
+    },
+    {
+     "label": "District / Circle (Anchal)",
+     "value": "Bhagalpur / Nathnagar",
+     "hint": "The circle where the land lies, not where you live. The Circle Officer of this anchal decides the case."
+    },
+    {
+     "label": "Mauza (village) and Thana Number",
+     "value": "Rannuchak — Thana No. 218",
+     "hint": "Both are printed on the old jamabandi or the khatiyan. The thana number fixes which village record is searched."
+    },
+    {
+     "label": "Khata Number and Khesra Number",
+     "value": "Khata 147 — Khesra 812",
+     "hint": "Copy them from the deed and the jamabandi exactly. A single digit wrong opens the wrong plot."
+    },
+    {
+     "label": "Area of the Plot",
+     "value": "18 decimal",
+     "hint": "Write the area in decimal as it stands in the sale deed, not a rounded figure."
+    },
+    {
+     "label": "Applicant Name and Father's Name",
+     "value": "Manoj Kumar Ram, son of Late Sitaram Ram",
+     "hint": "The buyer's or the heir's name, spelt as in the deed and on Aadhaar."
+    },
+    {
+     "label": "Aadhaar Number and Mobile",
+     "value": "9999 3018 6674 / 90000 30186",
+     "hint": "Hearing dates and the order are messaged to this number, so give one you check."
+    },
+    {
+     "label": "Deed Number, Date and Registry Office",
+     "value": "Deed No. 4721 of 2026, Sub-Registrar, Nathnagar, Bhagalpur",
+     "hint": "From the registered sale deed. Leave it blank only for a mutation after a death."
+    },
+    {
+     "label": "Previous Raiyat's Name and Jamabandi Number",
+     "value": "Rajendra Prasad Singh — Jamabandi No. 1132",
+     "hint": "The seller or the deceased holder, as the running jamabandi shows the name. Find it on the view page first."
+    },
+    {
+     "label": "Uploads — sale deed, lagan receipt, Aadhaar, photograph",
+     "value": "PDF, each file under 2 MB",
+     "hint": "Scan every page of the deed. A half-uploaded deed is the commonest reason a case is rejected at the first hearing."
+    }
+   ],
+   "demoSteps": [
+    "Open biharbhumi.bihar.gov.in and first view your jamabandi panji free — choose district, circle and mauza and search by khata, khesra or the raiyat's name. Print it and read it carefully.",
+    "Pay any pending lagan online on the same portal and keep the receipt. A mutation or an LPC will not move while the land revenue is unpaid.",
+    "Register as a citizen with your mobile and OTP, choose dakhil-kharij, and enter the deed number, khata, khesra and area exactly as written in the deed.",
+    "Upload the sale deed or the heirship papers, the lagan receipt, Aadhaar and the photograph, submit, and keep the case number from the acknowledgement.",
+    "The Circle Officer (Anchal Adhikari) hears the case at the circle office and the seller or an objector may be called. Follow the hearing dates on the status page with your case number and attend when called.",
+    "When the order is passed, the new jamabandi opens in your name. Download it and check the khata, khesra, area and the spelling of your name at once.",
+    "If an entry is wrong, do not file a fresh mutation. Use Parimarjan Plus on the same portal with the paper that proves the correct entry, or appeal to the DCLR of your sub-division."
+   ],
+   "helpline": "The Circle Office (Anchal Karyalaya) of your block, or the DCLR of your sub-division",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://biharbhumi.bihar.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "br-swayam-sahayata-bhatta",
+   "title": "Mukhyamantri Nishchay Swayam Sahayata Bhatta (Unemployment Allowance)",
+   "department": "Planning and Development Department, Government of Bihar — Saat Nishchay Yuva Upmission",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Bihar pays a young person who has passed Class 12 but is neither studying further nor working Rs 1,000 a month for up to two years, to meet the cost of looking for a job. It is applied for on the same Saat Nishchay Yuva Upmission portal as the student credit card, and the applicant must also join the free Kushal Yuva Program training.",
+   "benefit": "Rs 1,000 a month for up to two years",
+   "emoji": "💼",
+   "colorHex": "#F2711C",
+   "eligibility": [
+    "Aged between 20 and 25 years on the date of applying",
+    "Passed Class 12 or an equivalent examination and not enrolled in any regular course after it",
+    "Not in any job, government or private, and not self-employed",
+    "Permanent resident of Bihar",
+    "Not drawing any other government allowance, stipend or education loan for the same period",
+    "Must join the Kushal Yuva Program training; the allowance stops if the training is not done"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate, for date of birth",
+    "Class 12 marksheet and certificate",
+    "Residence certificate of Bihar",
+    "Bank passbook in the applicant's own name showing the account number and IFSC",
+    "Two passport-size photographs",
+    "Mobile number and email address for the login",
+    "Self-declaration that you are neither employed nor studying"
+   ],
+   "applyUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/addFtrUserPage",
+   "portalName": "MNSSBY — Saat Nishchay Yuva Upmission portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scheme Applied For",
+     "value": "Mukhyamantri Nishchay Swayam Sahayata Bhatta",
+     "hint": "The same login carries the student credit card and Kushal Yuva Program as well. Choose the self-help allowance."
+    },
+    {
+     "label": "Applicant Name",
+     "value": "Rakesh Kumar Singh",
+     "hint": "As on Aadhaar and the Class 10 certificate; the two must agree or the DRCC will send you back."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "06-03-2003 (23 years)",
+     "hint": "From the Class 10 certificate. You must be at least 20 and not yet 26 on the day you apply."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7142 8035",
+     "hint": "Your own twelve digits, entered at registration itself."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 71428 / rakesh.singh.demo@example.com",
+     "hint": "An OTP goes to both and the username and password come to both. Use an email you can actually open."
+    },
+    {
+     "label": "Class 12 Board, Roll Number and Year of Passing",
+     "value": "BSEB — Roll 2104 71 0335 — passed 2023",
+     "hint": "Copy all three from the Intermediate marksheet."
+    },
+    {
+     "label": "Present Status",
+     "value": "Unemployed and not studying",
+     "hint": "State it plainly. A false declaration is caught at verification and the money paid is recovered."
+    },
+    {
+     "label": "District and DRCC Selected",
+     "value": "Darbhanga — DRCC Darbhanga",
+     "hint": "The district centre where you will take your originals within 60 days. Choose your own district."
+    },
+    {
+     "label": "Bank Account Number and IFSC in Your Own Name",
+     "value": "5502 0087 4419 / SBIN0004121 / State Bank of India, Darbhanga",
+     "hint": "Your own account, not a parent's. The monthly Rs 1,000 comes here by direct transfer."
+    },
+    {
+     "label": "Register for Kushal Yuva Program (KYP)",
+     "value": "Yes",
+     "hint": "The free training in communication, basic English and computers. The allowance is tied to it, so say yes."
+    }
+   ],
+   "demoSteps": [
+    "Register as a new applicant on 7nishchay-yuvaupmission.bihar.gov.in with your name, mobile, email and Aadhaar, and confirm the OTP sent to both the mobile and the email.",
+    "Log in with the username and password you receive, choose Mukhyamantri Nishchay Swayam Sahayata Bhatta, and register for the Kushal Yuva Program at the same time.",
+    "Fill the form, give a bank account in your own name with the correct IFSC, submit, and print the acknowledgement with the application number.",
+    "Go to your District Registration and Counselling Centre (DRCC) within 60 days with all originals. Nothing is sanctioned until the DRCC has seen them.",
+    "After verification, Rs 1,000 reaches your account every month by direct transfer, for up to two years or until you get a job or join a course, whichever comes first.",
+    "Attend the Kushal Yuva Program training you registered for. Dropping out of it stops the monthly payment.",
+    "Tell the DRCC as soon as you start working or studying. Money drawn after that is recovered from you."
+   ],
+   "helpline": "1800 3456 444 — Saat Nishchay Yuva Upmission toll free",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+   "applyKind": "registration"
+  }
+ ]
+}

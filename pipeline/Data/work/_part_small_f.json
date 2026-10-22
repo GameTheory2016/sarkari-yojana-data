@@ -1,0 +1,277 @@
+{
+ "schemes": [
+  {
+   "id": "hp-himseva",
+   "title": "HimSeva — Himachal Pradesh e-District Certificates",
+   "department": "Department of Revenue, Government of Himachal Pradesh",
+   "level": "State",
+   "state": "Himachal Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "HimSeva is Himachal Pradesh's e-District system. Bonafide Himachali, income, caste, agriculturist and other revenue certificates are applied for here instead of at the tehsil, which in the hills can be several hours away.",
+   "benefit": "Bonafide Himachali, income, caste and agriculturist certificates applied for online",
+   "emoji": "🏔",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Himachal Pradesh, applying in the tehsil where the family lives",
+    "A bonafide Himachali certificate needs proof the family has lived in the state for the qualifying period",
+    "An agriculturist certificate needs land recorded in the family's name in Himachal Pradesh",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Parivar register (parivar nakal) copy from the panchayat",
+    "Land record (jamabandi) copy, for an agriculturist certificate",
+    "Father's caste certificate, for a caste certificate",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://sso.hp.gov.in/login-iframe?service_id=10000038_0&is_iframe=true",
+   "portalName": "HimSeva Himachal Pradesh",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Bonafide Himachali Certificate",
+     "hint": "Bonafide Himachali, income, caste, agriculturist, character or a revenue service. Each has its own form and proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Nisha Thakur",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Prem Singh Thakur",
+     "hint": "Used to identify the family in the parivar register and the revenue records."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 3317 6640",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Tehsil / Panchayat or Ward",
+     "value": "Mandi / Sundernagar / Dhanotu",
+     "hint": "Where the family lives. The Tehsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Parivar Register number",
+     "value": "Dhanotu Panchayat — family serial 118",
+     "hint": "The panchayat's family register entry. Most Himachal certificates are checked against it, so get a fresh copy before applying."
+    },
+    {
+     "label": "Years resident in Himachal Pradesh",
+     "value": "Since birth — family settled since 1962",
+     "hint": "For the bonafide Himachali certificate. The parivar register and old land records are what prove it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,32,000",
+     "hint": "For an income certificate, the household's total for the year including farming and horticulture."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 33176",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get a current copy of the parivar register from your panchayat first. Most Himachal certificates are verified against it and the file stops without it.",
+    "Register on himseva.hp.gov.in with your mobile, or use a Lok Mitra Kendra, which files it for the notified fee.",
+    "Choose the certificate and fill the form from your Aadhaar, ration card and parivar register.",
+    "Upload the documents, pay the fee, and note the application number.",
+    "The patwari and the panchayat secretary verify the family, then the Tehsildar signs.",
+    "Download the signed certificate from the same login. A digitally signed copy needs no attestation.",
+    "If it is delayed beyond the time the service promises, quote the application number at the tehsil and then at the Deputy Commissioner's office."
+   ],
+   "helpline": "1100 — Himachal Pradesh CM Seva Sankalp helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://himseva.hp.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "hp-epds-ration",
+   "title": "Himachal Pradesh Ration Card — ePDS",
+   "department": "Department of Food, Civil Supplies and Consumer Affairs, Himachal Pradesh",
+   "level": "State",
+   "state": "Himachal Pradesh",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "Himachal Pradesh's ration card system, where you check the family's card, see what the depot issued in your name, add or remove a member, and apply for a new card. The state gives subsidised pulses and oil alongside the NFSA grain, so the card is worth keeping correct even for families above the poverty line.",
+   "benefit": "Ration card with NFSA grain, and the state's subsidised pulses, oil and salt",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Himachal Pradesh and holding no ration card elsewhere in India",
+    "NFSA category decided from the household's circumstances; other families get an APL card with the state subsidy",
+    "A woman of the household aged 18 or above is recorded as head of the family",
+    "Every member's Aadhaar must be seeded, or that member's share is not issued"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Parivar register (parivar nakal) copy from the panchayat",
+    "Address proof — electricity bill or house tax receipt",
+    "Deletion certificate from the earlier card, where a member has moved in",
+    "Birth certificate for a newborn, or marriage certificate for a bride",
+    "Gas connection number",
+    "Passport photograph of the head of the family"
+   ],
+   "applyUrl": "https://g2g.hpepds.com/login.xhtml",
+   "portalName": "HP ePDS",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Add a member",
+     "hint": "New card, add a member, remove a member, correct a detail, or check the depot's issue against your name."
+    },
+    {
+     "label": "Ration Card Number",
+     "value": "HP-07-2214-0338",
+     "hint": "From the front of the card. Leave it blank only for a brand new card."
+    },
+    {
+     "label": "Head of the Family",
+     "value": "Kamla Devi Thakur",
+     "hint": "A woman of the household aged 18 or above. The card is issued in her name."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 6640 3317",
+     "hint": "Twelve digits. The family's entitlement is tracked against this."
+    },
+    {
+     "label": "Member to be added, relation and Aadhaar",
+     "value": "Nisha Thakur — daughter-in-law — 9999 3317 6640",
+     "hint": "Name as on that person's own Aadhaar, and the relation to the head."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Marriage on 07-04-2026; deletion certificate from parents' card at Karsog",
+     "hint": "A bride needs the marriage certificate and the deletion certificate from her parents' card. A newborn needs only the birth certificate."
+    },
+    {
+     "label": "District / Tehsil / Panchayat or Ward",
+     "value": "Mandi / Sundernagar / Dhanotu",
+     "hint": "Where the family lives. The depot is allotted from this address."
+    },
+    {
+     "label": "Fair Price Shop (depot) code",
+     "value": "HP0722140",
+     "hint": "Printed on the card and on the depot's board. It tells the office which register to update."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 66403",
+     "hint": "The application number and each month's issue message come here."
+    }
+   ],
+   "demoSteps": [
+    "Open epds.hp.gov.in and search your card first. The same site shows what the depot recorded as issued in your name each month.",
+    "Choose the service you need, or take the papers to the Inspector, Food and Civil Supplies of your circle, who files it across the counter.",
+    "List every member who eats from the same kitchen, each with the exact Aadhaar. The grain and the subsidised pulses are counted per name.",
+    "Attach the parivar register copy, the address proof, and for a member moving in the deletion certificate from the old card.",
+    "The inspector verifies the household and the card is issued or updated. Download it and check every name and Aadhaar.",
+    "Get the new member's Aadhaar seeded at the depot's ePoS machine. Until then the family's quantity does not increase.",
+    "If the record shows grain issued in a month you did not collect any, that is the evidence. Take a printout to the Inspector and complain on 1967."
+   ],
+   "helpline": "1967 and 1800 180 8026 — HP Food and Civil Supplies",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://epds.hp.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "jk-eunnat",
+   "title": "e-UNNAT Jammu & Kashmir — Certificates and Services",
+   "department": "Department of Information Technology, Jammu and Kashmir",
+   "level": "State",
+   "state": "Jammu & Kashmir",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "e-UNNAT brings the services of nearly every Jammu and Kashmir department into one place — domicile, income, category and other certificates, revenue services, scheme applications and departmental permissions, each with a delivery time set under the Public Services Guarantee Act.",
+   "benefit": "Domicile, income and category certificates and departmental services in one place",
+   "emoji": "🌷",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Jammu and Kashmir, applying in the tehsil where the family lives",
+    "A domicile certificate has its own conditions on years of residence, study or service in the union territory",
+    "A category certificate is issued for the categories notified for Jammu and Kashmir",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Permanent Resident Certificate of a parent, or other proof of residence, for a domicile certificate",
+    "School leaving certificate or Class 10 certificate for date of birth",
+    "Electricity bill or rent agreement for the address",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://eunnat.jk.gov.in/",
+   "portalName": "e-UNNAT Jammu & Kashmir",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Domicile Certificate",
+     "hint": "Domicile, income, category, character or a revenue service. Each has its own form, fee and delivery time."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Arif Hussain Bhat",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Ghulam Mohammad Bhat",
+     "hint": "For a domicile certificate this matters most, since the claim usually runs through a parent's residence."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7724 1183",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Anantnag / Bijbehara / Sirhama",
+     "hint": "Where the family lives. The Tehsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Basis of the domicile claim",
+     "value": "Father holds a Permanent Resident Certificate of J&K",
+     "hint": "Residence for the qualifying period, a parent's PRC, study in the union territory, or government service. Say which one and attach its proof."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,44,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Purpose",
+     "value": "Admission to a professional course",
+     "hint": "Recorded for the file. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 77241",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on eunnat.jk.gov.in with your mobile and confirm the OTP, or go to a Common Service Centre, which files it for the notified fee.",
+    "Choose the service and fill the form. For a domicile certificate, state clearly which ground you are claiming under and attach the proof for that ground.",
+    "Upload the documents, pay the fee, and note the application number.",
+    "The patwari and the tehsil staff verify the family. Be reachable on the mobile you gave.",
+    "The Tehsildar signs the certificate and it is downloaded from the same login.",
+    "Each service has a delivery time under the Public Services Guarantee Act. If it passes, the Act gives you an appeal, and the application number is what you quote."
+   ],
+   "helpline": "0194-2506062 — e-UNNAT helpdesk, Jammu and Kashmir",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

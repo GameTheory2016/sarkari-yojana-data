@@ -1,0 +1,941 @@
+{
+ "schemes": [
+  {
+   "id": "ignoaps",
+   "title": "Indira Gandhi National Old Age Pension (IGNOAPS)",
+   "department": "Ministry of Rural Development — National Social Assistance Programme",
+   "level": "Central",
+   "state": "",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "A monthly pension for people aged 60 and above who belong to a below-poverty-line household. The Centre pays a fixed share and almost every state adds a top-up, so the amount that actually reaches the bank account is usually larger than the central figure.",
+   "benefit": "Rs.200/month (Rs.500 after age 80) from the Centre, plus the state top-up",
+   "emoji": "👴",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Age 60 years or more on the date of application",
+    "Household is on the state's below-poverty-line (BPL) list",
+    "Not drawing a government service pension or another social-security pension",
+    "Indian citizen, resident of the village or ward where the form is submitted"
+   ],
+   "documents": [
+    "Age proof — Aadhaar, birth certificate, school leaving certificate or voter ID",
+    "BPL ration card, or the family's serial number on the BPL list",
+    "Aadhaar card photocopy",
+    "First page of the bank or post-office passbook (account in the applicant's own name)",
+    "Two passport-size photographs",
+    "Residence proof — voter ID, ration card or Panchayat certificate"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://rural.gov.in/",
+   "submitAt": "Gram Panchayat office, or the Block Development Office (BDO); in a town, the municipal ward office",
+   "demoFields": [
+    {
+     "label": "Name of the Applicant",
+     "value": "Shantabai Pundlik Gaikwad",
+     "hint": "Spell it exactly as it appears on the Aadhaar card, in block letters. A spelling mismatch is the commonest reason a sanctioned pension never reaches the account."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Pundlik Namdev Gaikwad",
+     "hint": "Husband's name for a married or widowed woman, father's name otherwise."
+    },
+    {
+     "label": "Date of Birth / Age (completed years)",
+     "value": "12-03-1959 / 67 years",
+     "hint": "You must be 60 or above on the day you apply. Write the date exactly as it stands on the age proof you are attaching."
+    },
+    {
+     "label": "Sex",
+     "value": "Female",
+     "hint": "Tick one box: Male / Female / Transgender."
+    },
+    {
+     "label": "Full Postal Address",
+     "value": "House No. 44, Kherwadi, Post Ambegaon, Tal. Shirur, Dist. Pune, Maharashtra – 412210",
+     "hint": "Village or ward, post office, block or taluka, district and PIN — complete enough for the postman to find you."
+    },
+    {
+     "label": "Category (SC / ST / OBC / General)",
+     "value": "OBC",
+     "hint": "Tick one. Several states sanction pensions against category-wise quotas, so a blank box can delay the file."
+    },
+    {
+     "label": "BPL Family Identification No. / Ration Card No.",
+     "value": "MH-27-BPL-004913",
+     "hint": "Copy it from the BPL ration card. If the family is on the BPL list but holds no card, write its serial number on that list."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "5678 9012 3456",
+     "hint": "All twelve digits. The pension is credited to the Aadhaar-seeded account, so this must match the bank record."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "98765 43210",
+     "hint": "A number somebody actually answers — the sanction and every credit are announced by SMS."
+    },
+    {
+     "label": "Bank / Post Office Account (bank, branch, account no., IFSC)",
+     "value": "Bank of Maharashtra, Shirur Branch, A/c 60123456789, IFSC MAHB0000999",
+     "hint": "The account must be in the applicant's own name, not a son's or daughter's. Copy all four items from the first page of the passbook."
+    },
+    {
+     "label": "Name of Nominee and Relationship",
+     "value": "Vikas Pundlik Gaikwad — Son",
+     "hint": "Who should receive the arrears if you die before they are paid. Add the nominee's address if the form asks for it."
+    },
+    {
+     "label": "Whether in receipt of any other pension",
+     "value": "No",
+     "hint": "Answer truthfully — it is cross-checked against the state pension database, and a false answer cancels the sanction and recovers the money."
+    },
+    {
+     "label": "Signature / Thumb Impression of Applicant, with place and date",
+     "value": "L.T.I. of Shantabai P. Gaikwad, Kherwadi, 22-09-2026",
+     "hint": "If you cannot sign, a left thumb impression is fully valid. It has to be attested by the Sarpanch or any Gazetted Officer."
+    },
+    {
+     "label": "Verification / Recommendation by Gram Panchayat (for office use)",
+     "value": "Certified that the applicant resides in this Gram Panchayat and belongs to a BPL family. — Sarpanch, Kherwadi Gram Panchayat (round seal)",
+     "hint": "Leave this block empty. The Sarpanch or Ward Member fills, signs and stamps it — never write in it yourself."
+    }
+   ],
+   "demoSteps": [
+    "Ask the Gram Panchayat clerk for the blank NSAP old-age pension form (in a town, the municipal ward office or the Block Development Office). The form is free — nobody may charge for it. The same form is stocked at the Common Service Centre and can be printed on plain A4 from the NSAP site.",
+    "Fill it in ballpoint ink, in block letters, and in the language the office works in. Do not leave a box blank — write 'NIL' or 'Not applicable' instead, because a blank box lets the file be returned as incomplete.",
+    "Settle the age box first, since it decides the case: attach Aadhaar, or a birth or school-leaving certificate, or a voter ID. If no paper carries the year of birth, the Medical Officer at the Primary Health Centre can issue an age certificate free of charge.",
+    "Attach a photocopy of the BPL ration card, the first page of the passbook, the Aadhaar photocopy and two photographs. Paste one photograph on the form and clip the second one to it; sign across the pasted photo if the form has a signature line running over it.",
+    "Take the filled form to the Sarpanch or Ward Member to sign and stamp the verification block at the bottom. In a municipality the Ward Councillor or the Commissioner's clerk signs instead. This attestation is not optional — an unverified form is not put up to the Gram Sabha.",
+    "Hand the form in at the Gram Panchayat office and ask the clerk to list it in the next Gram Sabha agenda, because the Gram Sabha approves the beneficiary list before the Block office sanctions anything.",
+    "Demand a dated acknowledgement with an inward number written on it. If the clerk will not give one, put your own acknowledgement line on a photocopy of the form and have it stamped and signed there and then — that photocopy is your proof of the date.",
+    "The Gram Sabha resolution travels to the Block Development Officer, who sanctions the pension (in some states the Tehsildar or Sub-Divisional Officer signs). Expect 30 to 60 days; the first credit often carries arrears from the month of sanction.",
+    "If nothing has arrived in three months, file a written reminder at the Block office quoting the inward number, and follow it with an RTI application (Rs.10) to the BDO asking for the status of that application and the date of the sanction order."
+   ],
+   "helpline": "Block Development Office; the district Social Welfare Officer's number is displayed on the Gram Panchayat notice board",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ignwps",
+   "title": "Indira Gandhi National Widow Pension (IGNWPS)",
+   "department": "Ministry of Rural Development — National Social Assistance Programme",
+   "level": "Central",
+   "state": "",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "A monthly pension for widows aged 40 and above in below-poverty-line households. The Centre pays a fixed share and the state adds its own top-up. The pension stops if the widow remarries, and converts to the old-age pension once she turns 60 in states that run both.",
+   "benefit": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up",
+   "emoji": "👩",
+   "colorHex": "#B5397A",
+   "eligibility": [
+    "Widow, aged 40 years or more on the date of application",
+    "Household is on the state's below-poverty-line (BPL) list",
+    "Has not remarried",
+    "Not drawing a family pension or another social-security pension"
+   ],
+   "documents": [
+    "Husband's death certificate issued by the Registrar of Births and Deaths",
+    "Age proof of the applicant — Aadhaar, voter ID or school certificate",
+    "BPL ration card, or the family's serial number on the BPL list",
+    "Aadhaar card photocopy",
+    "First page of the bank or post-office passbook in the widow's own name",
+    "Two passport-size photographs",
+    "Residence proof — voter ID, ration card or Panchayat certificate"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://rural.gov.in/",
+   "submitAt": "Gram Panchayat office, or the Block Development Office (BDO); in a town, the municipal ward office",
+   "demoFields": [
+    {
+     "label": "Name of the Applicant (Widow)",
+     "value": "Sunita Devi Yadav",
+     "hint": "As spelled on the Aadhaar card. If the Aadhaar still carries the maiden surname, use that and mention the change in the declaration."
+    },
+    {
+     "label": "Name of the Deceased Husband",
+     "value": "Rameshwar Prasad Yadav",
+     "hint": "Exactly as it is written on the death certificate — the two papers are compared."
+    },
+    {
+     "label": "Date of Death of Husband",
+     "value": "07-11-2021",
+     "hint": "Copy it from the death certificate, not from memory."
+    },
+    {
+     "label": "Death Registration Number and Issuing Authority",
+     "value": "D/2021/MAHUA/04117, Registrar of Births & Deaths, Mahua Block",
+     "hint": "Printed at the top of the death certificate. If the death was never registered, get it registered first — the pension cannot be sanctioned without it."
+    },
+    {
+     "label": "Date of Birth / Age of Applicant (completed years)",
+     "value": "19-06-1978 / 48 years",
+     "hint": "You must be 40 or above. Write the date exactly as it stands on the age proof attached."
+    },
+    {
+     "label": "Whether Remarried",
+     "value": "No",
+     "hint": "The pension is only for a widow who has not remarried, and it stops from the month of remarriage."
+    },
+    {
+     "label": "Full Postal Address",
+     "value": "Chandanpur, Post Mahua, Block Mahua, Dist. Vaishali, Bihar – 844122",
+     "hint": "Village or ward, post office, block, district and PIN. Give the address where you live now, even if the ration card shows the husband's village."
+    },
+    {
+     "label": "Category (SC / ST / OBC / General)",
+     "value": "OBC",
+     "hint": "Tick one — several states sanction against category-wise quotas."
+    },
+    {
+     "label": "BPL Family Identification No. / Ration Card No.",
+     "value": "BR-11-BPL-072845",
+     "hint": "Copy from the BPL ration card. If the card is still in the husband's name, say so here and attach it anyway."
+    },
+    {
+     "label": "Number of Dependent Children, with ages",
+     "value": "2 — Anjali (14), Rohit (9)",
+     "hint": "Some states pay an additional child allowance on top, so fill this even when the form marks it optional."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "4321 8765 0987",
+     "hint": "All twelve digits, of the widow herself — not the late husband's."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "91234 56780",
+     "hint": "The sanction message and every monthly credit are sent to this number."
+    },
+    {
+     "label": "Bank / Post Office Account (bank, branch, account no., IFSC)",
+     "value": "Punjab National Bank, Mahua Branch, A/c 40987654321, IFSC PUNB0099000",
+     "hint": "The account must be in the widow's own name and single-operated. A joint account with a son is routinely rejected."
+    },
+    {
+     "label": "Name of Nominee and Relationship",
+     "value": "Anjali Kumari Yadav — Daughter",
+     "hint": "Who receives unpaid arrears. A minor nominee needs a guardian's name written beside it."
+    },
+    {
+     "label": "Signature / Thumb Impression of Applicant, with place and date",
+     "value": "L.T.I. of Sunita Devi Yadav, Chandanpur, 22-09-2026",
+     "hint": "A thumb impression is as valid as a signature, but it must be attested by the Sarpanch or a Gazetted Officer."
+    },
+    {
+     "label": "Verification / Recommendation by Gram Panchayat (for office use)",
+     "value": "Certified that the applicant is a widow residing in this Gram Panchayat, has not remarried, and belongs to a BPL family. — Mukhiya, Chandanpur Gram Panchayat (round seal)",
+     "hint": "Leave it blank for the Mukhiya, Sarpanch or Ward Member. The words 'has not remarried' must appear in this certificate."
+    }
+   ],
+   "demoSteps": [
+    "Register the husband's death first if that was never done — the Registrar of Births and Deaths at the Panchayat or municipal office issues the certificate, and the whole pension file rests on it. Get two extra certified copies while you are there.",
+    "Collect the blank NSAP widow pension form free of charge from the Gram Panchayat clerk, the Block Development Office, the municipal ward office or a Common Service Centre; it can also be printed from the NSAP site on plain A4.",
+    "Fill it in ink, in block letters. Copy the husband's name, the date of death and the registration number letter by letter from the death certificate, because the verifying officer compares the two documents side by side.",
+    "Open a single-name savings account in the widow's own name if there is not one already, and seed it with Aadhaar at the branch. A joint account or the late husband's account will hold up the payment even after sanction.",
+    "Attach the death certificate, age proof, BPL ration card, Aadhaar photocopy, passbook first page and two photographs. Paste one photograph on the form and clip the other to the file.",
+    "Take the form to the Sarpanch, Mukhiya or Ward Member to sign and stamp the verification block, making sure the certificate states that she has not remarried — a verification without those words is sent back.",
+    "Submit it at the Gram Panchayat office and ask for the case to be placed before the next Gram Sabha, which approves the beneficiary list before the Block office acts on it.",
+    "Demand a dated acknowledgement carrying an inward number. Failing that, get your own acknowledgement line stamped and signed on a photocopy of the form and keep it safe.",
+    "Sanction by the Block Development Officer normally takes 30 to 60 days after the Gram Sabha approves the name, and the first credit usually includes arrears from the month of sanction. After three months of silence, send a written reminder quoting the inward number and then an RTI application (Rs.10) to the BDO."
+   ],
+   "helpline": "Block Development Office; the district Social Welfare Officer's number is displayed on the Gram Panchayat notice board",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "igndps",
+   "title": "Indira Gandhi National Disability Pension (IGNDPS)",
+   "department": "Ministry of Rural Development — National Social Assistance Programme",
+   "level": "Central",
+   "state": "",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "A monthly pension for persons aged 18 and above with severe or multiple disability who belong to a below-poverty-line household. The Centre pays a fixed share and the state adds its top-up. Everything turns on a valid disability certificate showing 80 per cent or more.",
+   "benefit": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up",
+   "emoji": "♿",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Age 18 years or more on the date of application",
+    "Severe or multiple disability of 80 per cent or more, certified by the competent medical authority",
+    "Household is on the state's below-poverty-line (BPL) list",
+    "Not drawing another disability or social-security pension"
+   ],
+   "documents": [
+    "Disability certificate showing 80 per cent or more, issued by the Chief Medical Officer or a district medical board",
+    "UDID card, if one has been issued",
+    "Age proof — Aadhaar, birth certificate or school leaving certificate",
+    "BPL ration card, or the family's serial number on the BPL list",
+    "Aadhaar card photocopy",
+    "First page of the bank or post-office passbook",
+    "Two passport-size photographs"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://rural.gov.in/",
+   "submitAt": "Gram Panchayat office, or the Block Development Office (BDO); in a town, the municipal ward office",
+   "demoFields": [
+    {
+     "label": "Name of the Applicant",
+     "value": "Mahesh Kumar Meena",
+     "hint": "As spelled on the Aadhaar card and on the disability certificate — the two must agree."
+    },
+    {
+     "label": "Father's / Mother's / Husband's Name",
+     "value": "Girdhari Lal Meena",
+     "hint": "Whichever the form asks for first; use the same name that appears on the disability certificate."
+    },
+    {
+     "label": "Date of Birth / Age (completed years)",
+     "value": "02-08-1997 / 29 years",
+     "hint": "You must be 18 or above. Below 18 the state's own disability schemes apply instead."
+    },
+    {
+     "label": "Sex",
+     "value": "Male",
+     "hint": "Tick one box: Male / Female / Transgender."
+    },
+    {
+     "label": "Nature of Disability",
+     "value": "Locomotor disability — both lower limbs",
+     "hint": "Copy the wording of the disability certificate exactly; do not summarise it in your own words."
+    },
+    {
+     "label": "Percentage of Disability",
+     "value": "85%",
+     "hint": "It must read 80 per cent or more for this pension. A certificate below that is refused at the Block office, however genuine."
+    },
+    {
+     "label": "Disability Certificate No., Date and Issuing Authority",
+     "value": "RJ/ALW/DIS/2023/01187 dated 14-02-2023, Chief Medical & Health Officer, Alwar",
+     "hint": "Printed on the certificate. If it carries an expiry date, renew it before applying — an expired certificate stalls the file."
+    },
+    {
+     "label": "UDID Number (if issued)",
+     "value": "RJ0212345678",
+     "hint": "The number on the national Unique Disability ID card. Write 'Applied for' if the card has not come yet; it is not compulsory."
+    },
+    {
+     "label": "Full Postal Address",
+     "value": "Rampura, Tehsil Bansur, Dist. Alwar, Rajasthan – 301402",
+     "hint": "Village or ward, tehsil or block, district and PIN."
+    },
+    {
+     "label": "Category (SC / ST / OBC / General)",
+     "value": "ST",
+     "hint": "Tick one — several states sanction against category-wise quotas."
+    },
+    {
+     "label": "BPL Family Identification No. / Ration Card No.",
+     "value": "RJ-02-BPL-119640",
+     "hint": "Copy it from the BPL ration card, or give the family's serial number on the state BPL list."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "7890 1234 5678",
+     "hint": "All twelve digits, of the person with the disability, not of the guardian."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90123 45678",
+     "hint": "A family member's number is acceptable here — write whose it is beside it."
+    },
+    {
+     "label": "Bank / Post Office Account (bank, branch, account no., IFSC)",
+     "value": "Bank of Baroda, Bansur Branch, A/c 30112233445, IFSC BARB0BANSUR",
+     "hint": "In the applicant's own name. Where the disability prevents operating an account, open it with a legal guardian under a guardianship certificate."
+    },
+    {
+     "label": "Name of Guardian and Relationship (if applicable)",
+     "value": "Girdhari Lal Meena — Father",
+     "hint": "Fill this only for an applicant with intellectual disability or one who cannot operate the account, and attach the guardianship certificate."
+    },
+    {
+     "label": "Signature / Thumb Impression of Applicant or Guardian, with place and date",
+     "value": "Mahesh Kumar Meena, Rampura, 22-09-2026",
+     "hint": "A thumb impression is valid, attested by the Sarpanch or a Gazetted Officer. A guardian signing must write 'Guardian' under the signature."
+    },
+    {
+     "label": "Verification / Recommendation by Gram Panchayat (for office use)",
+     "value": "Certified that the applicant resides in this Gram Panchayat, belongs to a BPL family and is a person with severe disability. — Sarpanch, Rampura Gram Panchayat (round seal)",
+     "hint": "Leave it blank for the Sarpanch or Ward Member to complete, sign and stamp."
+    }
+   ],
+   "demoSteps": [
+    "Get the disability certificate in hand before anything else. The Chief Medical Officer's board at the district hospital assesses free of charge on fixed weekly days — ask the hospital's disability desk for the day. The certificate must show 80 per cent or more for this pension.",
+    "Collect the blank NSAP disability pension form free from the Gram Panchayat clerk, the Block Development Office, the municipal ward office or a Common Service Centre; it can also be printed from the NSAP site.",
+    "Fill it in ink, in block letters, copying the nature of the disability, the percentage, the certificate number and its date word for word from the certificate.",
+    "Attach the disability certificate, the UDID card if issued, age proof, BPL ration card, Aadhaar photocopy, passbook first page and two photographs; paste one photograph on the form.",
+    "If the applicant cannot operate a bank account, get a guardianship certificate from the Local Level Committee under the National Trust first, and open the account with the guardian named on it.",
+    "Have the Sarpanch or Ward Member sign and stamp the verification block at the foot of the form, and check that the words 'person with severe disability' appear in it.",
+    "Submit the form at the Gram Panchayat office and ask for it to be listed in the next Gram Sabha, which approves the beneficiary list before the Block office sanctions.",
+    "Demand a dated acknowledgement with an inward number, or get your own acknowledgement line stamped on a photocopy of the form.",
+    "Sanction by the Block Development Officer normally takes 30 to 60 days, and the first credit commonly carries arrears from the sanction month. If nothing arrives in three months, send a written reminder quoting the inward number and then file an RTI application (Rs.10) with the BDO for the status of the file."
+   ],
+   "helpline": "Block Development Office; District Disability Rehabilitation Centre for certificate and UDID queries",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ration-card",
+   "title": "Ration Card under the National Food Security Act",
+   "department": "Department of Food & Public Distribution — state Food & Civil Supplies Department",
+   "level": "Central",
+   "state": "",
+   "category": "Other",
+   "mode": "offline",
+   "brief": "The ration card that entitles a household to subsidised foodgrain at the fair price shop under the National Food Security Act. It is issued by the state food and civil supplies department in two categories — Antyodaya (AAY) for the poorest households and Priority Household (PHH) for the rest of the covered population.",
+   "benefit": "5 kg foodgrain per person per month (35 kg per family for AAY households) from the fair price shop",
+   "emoji": "🍚",
+   "colorHex": "#E67E22",
+   "eligibility": [
+    "Household ordinarily resident in the state, not holding a ration card anywhere else in India",
+    "Household falls inside the state's NFSA coverage list — priority households, or Antyodaya for the poorest",
+    "Excluded if the household meets a state exclusion criterion, such as income tax payment, a four-wheeler or a government job",
+    "One card per household, with an adult woman of 18 or above as the head of the family"
+   ],
+   "documents": [
+    "Aadhaar cards of every family member",
+    "Proof of residence — electricity or water bill, rent agreement, or Panchayat or ward certificate",
+    "Surrender certificate or deletion certificate from the previous district or state, if the family has moved",
+    "Income certificate or self-declaration of annual income",
+    "Passport-size photograph of the head of the family",
+    "LPG consumer number and bank passbook copy, where the state form asks for them"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://nfsa.gov.in/",
+   "submitAt": "Taluka or tehsil supply office, or the District Food & Civil Supplies Office; in a city, the zonal or ward food office",
+   "demoFields": [
+    {
+     "label": "Name of the Head of the Family",
+     "value": "Meenakshi Kailash Sonawane",
+     "hint": "Under NFSA the head of the family must be a woman of 18 or above. Write her name as it stands on her Aadhaar."
+    },
+    {
+     "label": "Father's / Husband's Name of the Head of the Family",
+     "value": "Kailash Baburao Sonawane",
+     "hint": "The husband's name for a married woman; the father's name otherwise."
+    },
+    {
+     "label": "Aadhaar Number of the Head of the Family",
+     "value": "6543 2109 8765",
+     "hint": "All twelve digits. Every card is now seeded with Aadhaar, so this cannot be left blank."
+    },
+    {
+     "label": "Category applied for (AAY / Priority Household)",
+     "value": "Priority Household (PHH)",
+     "hint": "Tick Antyodaya only if the household is on the AAY list — landless labourers, destitute or similar. When unsure, tick Priority Household; the office reclassifies if needed."
+    },
+    {
+     "label": "Full Residential Address with PIN",
+     "value": "House No. 112, Ganesh Nagar, Sinnar, Dist. Nashik, Maharashtra – 422103",
+     "hint": "The address where the family actually lives — the ration shop is allotted from it, and a field inspector will visit."
+    },
+    {
+     "label": "Details of all family members (Sl. No., Name, Relationship with head, Age, Sex, Aadhaar No.)",
+     "value": "1. Meenakshi K. Sonawane, Self, 39, F, 6543 2109 8765; 2. Kailash B. Sonawane, Husband, 44, M, 1098 7654 3210; 3. Aarti K. Sonawane, Daughter, 16, F, 2109 8765 4321; 4. Sanjay B. Sonawane, Father-in-law, 71, M, 8765 4321 0987",
+     "hint": "Every member who eats from the same kitchen, one per row, starting with the head. The monthly grain is counted per name here, so a missing name means missing grain."
+    },
+    {
+     "label": "Annual Income of the Family",
+     "value": "Rs.96,000",
+     "hint": "The household's total yearly income from all sources. Keep it consistent with the income certificate or self-declaration you attach."
+    },
+    {
+     "label": "Occupation of the Head of the Family",
+     "value": "Agricultural labourer",
+     "hint": "Plain words are fine — labourer, farmer, domestic worker, small shopkeeper."
+    },
+    {
+     "label": "Previous Ration Card No. and Surrender / Deletion Certificate",
+     "value": "Not applicable — no earlier card held",
+     "hint": "If the family held a card elsewhere, write its number and attach the surrender certificate. Holding two cards is an offence and both get cancelled."
+    },
+    {
+     "label": "LPG Consumer Number and Gas Agency",
+     "value": "IOC / 512345678901, Sinnar Indane Gramin Vitrak",
+     "hint": "Asked in most states to weed out duplicate households. Write 'No connection' if the family has none."
+    },
+    {
+     "label": "Bank Account Details (bank, branch, account no., IFSC)",
+     "value": "Bank of India, Sinnar Branch, A/c 20481176543, IFSC BKID0009991",
+     "hint": "Needed in states that pay the food subsidy in cash instead of grain; optional elsewhere but harmless to fill."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "97654 32108",
+     "hint": "The card number and each month's transaction alert come to this number."
+    },
+    {
+     "label": "Declaration and Signature / Thumb Impression of the Head of the Family",
+     "value": "I declare that the particulars above are true and that no member of this family holds a ration card elsewhere. — Meenakshi K. Sonawane, 22-09-2026",
+     "hint": "Read it before signing. This declaration is the legal basis on which the card is cancelled and a penalty imposed if a second card turns up."
+    },
+    {
+     "label": "Verification by the Field Officer / Ward Member (for office use)",
+     "value": "Household verified at the address on 29-09-2026. — Inspector, Sinnar Taluka Supply Office (seal)",
+     "hint": "Leave it blank. The supply inspector or the ward member fills it after the home visit."
+    }
+   ],
+   "demoSteps": [
+    "Pick up the blank 'Application for New Ration Card' at the taluka or tehsil supply office, the district food and civil supplies office, or the city zonal food office. It is free, and it is also stocked at Common Service Centres and many fair price shops. The NFSA site links to each state's own form.",
+    "Fill it in ink, in block letters. Name a woman of 18 or above as the head of the family — that is a requirement of the Act, not a preference of the clerk.",
+    "List every member who eats from the same kitchen on the family table, with the exact Aadhaar number for each. The monthly entitlement is calculated per listed person, so one omitted name costs the household 5 kg every month.",
+    "Attach Aadhaar photocopies of all members, a residence proof, the income certificate or self-declaration, and one photograph of the head of the family. Self-attest every photocopy — sign across the face of each page.",
+    "If the family has moved from another district or state, get the surrender or deletion certificate from the old office and attach it. Without it the new card will be held back, since the system checks for duplicates nationwide.",
+    "Where the state form carries a verification block, get it signed and stamped by the ward member, the Sarpanch or the local revenue talathi or patwari before you submit.",
+    "Hand the file in at the taluka supply office counter and demand the acknowledgement slip with its application number and date. In most states you can also drop it at the Common Service Centre, which prints the same slip — keep it, since every follow-up runs on that number.",
+    "Expect a field verification visit within two to four weeks. Keep the original documents at home so the inspector can compare them; a household that is not found at home twice is marked 'not traceable' and the file closes.",
+    "The card is normally issued within 30 days of application — many states commit to that timeline under their Right to Public Services Act. Collect it at the supply office or the fair price shop, and check every member's name and age on it before leaving the counter.",
+    "If the 30 days pass with no card and no rejection, complain in writing to the District Supply Officer, and then to the state Food Commission or the district grievance redressal officer, both of which NFSA obliges each state to maintain."
+   ],
+   "helpline": "1967 (national food and PDS helpline) or 1800-11-0841",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "jan-dhan",
+   "title": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Bank Account",
+   "department": "Ministry of Finance — Department of Financial Services",
+   "level": "Central",
+   "state": "",
+   "category": "Other",
+   "mode": "offline",
+   "brief": "A basic savings account that any resident can open with no minimum balance and no charge. It comes with a RuPay debit card carrying free accident insurance, and after six months of satisfactory operation the branch may allow a small overdraft. It is also the account through which most government benefit transfers arrive.",
+   "benefit": "Zero-balance account, free RuPay card with Rs.2 lakh accident cover, overdraft up to Rs.10,000",
+   "emoji": "🏦",
+   "colorHex": "#1565C0",
+   "eligibility": [
+    "Any resident individual aged 10 years or above",
+    "A minor aged 10 or above may operate the account with a guardian",
+    "One PMJDY account per person; an existing ordinary savings account can be converted instead",
+    "No income, caste or area condition of any kind"
+   ],
+   "documents": [
+    "Aadhaar card — by itself enough for full KYC at the branch",
+    "If no Aadhaar: voter ID, driving licence, PAN, passport or MGNREGA job card",
+    "If none of those either: a self-attested photograph plus the officer's signature opens a Small Account",
+    "One passport-size photograph",
+    "Mobile number for SMS alerts"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://pmjdy.gov.in/",
+   "submitAt": "Any bank branch, or the Bank Mitra / Business Correspondent kiosk that serves your village or ward",
+   "demoFields": [
+    {
+     "label": "Name of the Bank and Branch",
+     "value": "State Bank of India, Dhanora Branch",
+     "hint": "Written by you at the top of the form. A Bank Mitra will tell you which branch the kiosk reports to."
+    },
+    {
+     "label": "Name of the Applicant (as on Aadhaar)",
+     "value": "Pooja Ramesh Chauhan",
+     "hint": "Letter for letter as on the Aadhaar card. A mismatch here blocks every future benefit transfer into the account."
+    },
+    {
+     "label": "Father's / Spouse's / Mother's Name",
+     "value": "Ramesh Shankar Chauhan",
+     "hint": "Tick which one you are giving. It is used to tell apart account holders with the same name."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "05-01-1993",
+     "hint": "As on Aadhaar. An applicant aged 10 to 18 opens a minor account with a guardian."
+    },
+    {
+     "label": "Gender / Marital Status",
+     "value": "Female / Married",
+     "hint": "Tick the boxes. Women's accounts are counted separately for the overdraft priority."
+    },
+    {
+     "label": "Address (as on Aadhaar) and Present Address if different",
+     "value": "Ward 3, Dhanora, Tehsil Chhindwara, Dist. Chhindwara, Madhya Pradesh – 480001",
+     "hint": "If you actually live elsewhere, fill the present address too — the passbook and card are posted there."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "3210 9876 5432",
+     "hint": "All twelve digits. Aadhaar alone completes the KYC at the counter; nothing else is required."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "88990 11223",
+     "hint": "Give a number in your own possession. This is the number that will receive OTPs and every credit alert."
+    },
+    {
+     "label": "Occupation and Annual Income",
+     "value": "Tailoring (self-employed) — Rs.72,000",
+     "hint": "An honest rough figure. There is no minimum income to open the account."
+    },
+    {
+     "label": "Category (SC / ST / OBC / Minority / General)",
+     "value": "OBC",
+     "hint": "Tick one. It is collected for reporting only and changes nothing about the account."
+    },
+    {
+     "label": "Do you already hold a bank account? If yes, give details",
+     "value": "No",
+     "hint": "Answer truthfully. An existing savings account can simply be converted into a PMJDY account with the RuPay card, which is faster than opening a second one."
+    },
+    {
+     "label": "Nominee: Name, Relationship, Date of Birth, Address",
+     "value": "Ramesh Shankar Chauhan — Husband — 22-07-1989 — same address",
+     "hint": "Never skip the nomination. Without it the family needs a succession certificate to claim the balance. Name a guardian if the nominee is a minor."
+    },
+    {
+     "label": "RuPay Debit Card required (Yes / No)",
+     "value": "Yes",
+     "hint": "Always tick Yes. The free accident cover of Rs.2 lakh rides on the RuPay card, and the card must be used at least once in the qualifying period for the cover to stay live."
+    },
+    {
+     "label": "Signature / Thumb Impression of the Applicant, with date",
+     "value": "Pooja R. Chauhan, 22-09-2026",
+     "hint": "The signature you put here becomes your specimen signature at the bank — sign the same way every time afterwards."
+    },
+    {
+     "label": "Introducer's details (only for a Small Account without documents)",
+     "value": "Not applicable — Aadhaar produced",
+     "hint": "Needed only when you have no officially valid document. An existing account holder of the same branch, known to the bank, introduces you."
+    }
+   ],
+   "demoSteps": [
+    "Collect the PMJDY account opening form free at any bank branch counter, or from the Bank Mitra kiosk in the village. The bilingual form is also downloadable from the PMJDY site in English and Hindi and can be printed at home.",
+    "Fill it in ink, in block letters, copying the name, date of birth and address exactly from the Aadhaar card. Paste one passport photograph in the box and sign across its corner if the form has a line running over it.",
+    "Fill the nominee block in full — name, relationship, date of birth and address. Bank staff often let this slide; insist on completing it, because without a nominee the family must produce a succession certificate to draw the balance.",
+    "Tick 'Yes' for the RuPay debit card. The Rs.2 lakh accident insurance is attached to that card, not to the account, and it lapses if the card is never used.",
+    "Carry the original Aadhaar and one photocopy to the branch. If you have no Aadhaar or any other valid document, say you want a 'Small Account' — the bank must open one on a self-attested photograph and the officer's signature, with limits on balance and withdrawals for twelve months.",
+    "Hand the form across the counter, sign the specimen signature card the officer gives you, and have the Aadhaar photocopy self-attested. Nobody may charge you anything — the account, the passbook and the RuPay card are all free.",
+    "Demand the account number in writing before you leave, along with the passbook, which the branch is required to hand over the same day. Ask for the customer ID too, and check that the mobile number printed on the acknowledgement is yours.",
+    "The account is usually live the same day, and the RuPay card either comes across the counter or reaches you by post within two to three weeks; the PIN comes separately. Activate the card at an ATM and make one small transaction so the accident cover stays in force.",
+    "If a branch refuses to open the account or asks for a deposit, quote the PMJDY zero-balance rule and ask for it in writing, then complain to the branch manager, and after that to the bank's Nodal Officer or the RBI Banking Ombudsman at cms.rbi.org.in."
+   ],
+   "helpline": "1800-11-0001 / 1800-180-1111 (national toll free)",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "pmjjby",
+   "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+   "department": "Ministry of Finance — Department of Financial Services",
+   "level": "Central",
+   "state": "",
+   "category": "Health",
+   "mode": "offline",
+   "brief": "A one-year life insurance cover, renewed every year, that pays the nominee on the death of the member from any cause. The premium is taken straight from the savings bank account by auto-debit once a year. The cover year runs from 1 June to 31 May, whichever month you join in.",
+   "benefit": "Rs.2 lakh life cover for a premium of Rs.436 a year",
+   "emoji": "🛡",
+   "colorHex": "#2E7D32",
+   "eligibility": [
+    "Age 18 to 50 years at the time of joining; the cover may be continued up to age 55",
+    "Holds a savings bank account, single or joint",
+    "Gives standing consent for the annual auto-debit of the premium",
+    "In good health, as declared on the form; a fresh member's claim other than by accident is not paid in the first 30 days"
+   ],
+   "documents": [
+    "Savings bank account number and the bank's own passbook or card",
+    "Aadhaar card, seeded with that bank account",
+    "Age proof, if the bank record does not carry the date of birth",
+    "Nominee's name, age and relationship; guardian's name if the nominee is a minor"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://jansuraksha.gov.in/",
+   "submitAt": "Your own bank branch — the branch that holds the savings account from which the premium is to be debited",
+   "demoFields": [
+    {
+     "label": "Name of the Bank and Branch",
+     "value": "Federal Bank, Kollam Main Branch",
+     "hint": "The branch holding the account the premium will come out of. The cover is tied to that one account."
+    },
+    {
+     "label": "Savings Bank Account Number",
+     "value": "14250100078901",
+     "hint": "Copy it digit by digit from the passbook. A wrong digit means the auto-debit fails and the cover never starts."
+    },
+    {
+     "label": "Name of the Account Holder (in block letters)",
+     "value": "RAVI SHANKAR NAIR",
+     "hint": "Exactly as the bank holds it. The claim is settled against the bank's record, not against what you write here."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "18-04-1992 / 34 years",
+     "hint": "You must be between 18 and 50 to join. Members already enrolled stay covered to 55."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "2468 1357 9024",
+     "hint": "All twelve digits, the same Aadhaar that is seeded with this account."
+    },
+    {
+     "label": "Mobile Number / Email",
+     "value": "94456 78901",
+     "hint": "The annual renewal SMS and the auto-debit alert come here. Keep it current, or you will miss the warning when a renewal fails."
+    },
+    {
+     "label": "Name of Nominee",
+     "value": "Lakshmi Ravi Nair",
+     "hint": "The one person who will receive the Rs.2 lakh. Spell the name as it is on their own Aadhaar — the claim is paid into their account."
+    },
+    {
+     "label": "Nominee's Age and Relationship with the Member",
+     "value": "31 years — Wife",
+     "hint": "Both are needed. If the nominee is under 18 you must also name a guardian in the next box."
+    },
+    {
+     "label": "Name of the Guardian (if the nominee is a minor)",
+     "value": "Not applicable — nominee is an adult",
+     "hint": "Fill only when the nominee is under 18, with the guardian's relationship to that child."
+    },
+    {
+     "label": "Consent for auto-debit of premium",
+     "value": "I hereby give my consent to debit Rs.436 from my above savings bank account every year towards the premium under PMJJBY until I give written notice to stop.",
+     "hint": "This is the heart of the form. Without this consent the bank cannot collect the premium and there is no cover."
+    },
+    {
+     "label": "Declaration of good health",
+     "value": "I declare that I am in good health and am not suffering from any of the conditions listed in the declaration.",
+     "hint": "Read the listed conditions before you sign. A false health declaration is the ground on which a claim is later repudiated."
+    },
+    {
+     "label": "Place, Date and Signature / Thumb Impression of the Member",
+     "value": "Kollam, 22-09-2026 — Ravi S. Nair",
+     "hint": "Sign the way you sign for the bank. A thumb impression needs the branch official's attestation beside it."
+    },
+    {
+     "label": "Acknowledgement slip (tear-off portion at the bottom)",
+     "value": "To be filled and stamped by the branch: name of member, account number, date of receipt, branch seal",
+     "hint": "Do not leave the counter without this portion filled, stamped and handed back to you. It is your only proof that the bank received the consent."
+    }
+   ],
+   "demoSteps": [
+    "Ask for the PMJJBY 'Consent-cum-Declaration Form' at the counter of the branch that holds your savings account. Every bank keeps it; it is a single page, free, and printable from the Jan Suraksha site in English, Hindi and the regional languages.",
+    "Check first that you are between 18 and 50 and that the account has Rs.436 sitting in it on the day of submission. The bank debits the premium as soon as it registers the enrolment, and an enrolment that fails for want of balance is simply dropped.",
+    "Fill the form in ink, copying the account number from the passbook digit by digit and writing the name exactly as the bank holds it.",
+    "Complete the nominee block with name, age and relationship, and add a guardian if the nominee is a minor. This single block decides who receives the Rs.2 lakh, so do not leave it for later.",
+    "Read the health declaration before signing it. If you already have one of the listed conditions, tell the branch officer — a claim can be repudiated years later on a declaration signed without reading.",
+    "Hand the form to the branch official yourself rather than to an agent, and sign the specimen where asked. No fee is payable beyond the Rs.436 premium; anyone asking for more is not entitled to it.",
+    "Demand the tear-off acknowledgement slip at the bottom of the form, filled in, stamped with the branch seal and signed. Keep it with the passbook — the family will need it to start a claim.",
+    "Watch the passbook for the Rs.436 debit within a few days, and for the SMS confirming enrolment. The certificate of insurance is then issued by the insurer through the bank, usually within two to four weeks; ask the branch for it if none arrives.",
+    "Remember the calendar: the cover runs from 1 June to 31 May and the premium is auto-debited each year in May. Keep the balance in the account through May, because one failed debit ends the cover, and rejoining later restarts the 30-day waiting period for non-accident death.",
+    "Tell the nominee where this paper is kept. On a death claim they take the death certificate, the acknowledgement slip and their own bank and Aadhaar details to the same branch; PMJJBY claims are normally settled within 30 days of a complete claim form."
+   ],
+   "helpline": "1800-180-1111 / 1800-110-001 (Jan Suraksha)",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "pmsby",
+   "title": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+   "department": "Ministry of Finance — Department of Financial Services",
+   "level": "Central",
+   "state": "",
+   "category": "Health",
+   "mode": "offline",
+   "brief": "A one-year accident insurance cover, renewed every year, that pays on accidental death or permanent disability. The premium is a rupee and a half a month, taken once a year by auto-debit from the savings bank account. The cover year runs from 1 June to 31 May.",
+   "benefit": "Rs.2 lakh for accidental death or total permanent disability, Rs.1 lakh for partial permanent disability, at Rs.20 a year",
+   "emoji": "🚑",
+   "colorHex": "#C62828",
+   "eligibility": [
+    "Age 18 to 70 years",
+    "Holds a savings bank account, single or joint",
+    "Gives standing consent for the annual auto-debit of the premium",
+    "One cover per person even if several accounts are held; the extra premium on a duplicate enrolment is forfeited"
+   ],
+   "documents": [
+    "Savings bank account number and passbook",
+    "Aadhaar card, seeded with that bank account",
+    "Age proof, if the bank record does not carry the date of birth",
+    "Nominee's name, age and relationship; guardian's name if the nominee is a minor"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://jansuraksha.gov.in/",
+   "submitAt": "Your own bank branch — the branch that holds the savings account from which the premium is to be debited",
+   "demoFields": [
+    {
+     "label": "Name of the Bank and Branch",
+     "value": "Union Bank of India, Aliganj Branch, Lucknow",
+     "hint": "The branch holding the account the Rs.20 will be debited from."
+    },
+    {
+     "label": "Savings Bank Account Number",
+     "value": "51090100234567",
+     "hint": "Copy it digit by digit from the passbook; a single wrong digit means the enrolment fails silently."
+    },
+    {
+     "label": "Name of the Account Holder (in block letters)",
+     "value": "FARIDA BEGUM ANSARI",
+     "hint": "Exactly as the bank holds the name. Claims are settled against the bank's record."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "26-09-1985 / 40 years",
+     "hint": "You must be between 18 and 70. Unlike the life cover, there is no health declaration and no upper entry bar below 70."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "1357 2468 0246",
+     "hint": "All twelve digits, the Aadhaar seeded with this account."
+    },
+    {
+     "label": "Mobile Number / Email",
+     "value": "70123 45689",
+     "hint": "The enrolment confirmation and each year's auto-debit alert come to this number."
+    },
+    {
+     "label": "Name of Nominee",
+     "value": "Imran Ansari",
+     "hint": "Spell it as on the nominee's own Aadhaar — the claim money is paid into their account."
+    },
+    {
+     "label": "Nominee's Age and Relationship with the Member",
+     "value": "22 years — Son",
+     "hint": "Both are required. A nominee under 18 needs a guardian named in the next box."
+    },
+    {
+     "label": "Name of the Guardian (if the nominee is a minor)",
+     "value": "Not applicable — nominee is an adult",
+     "hint": "Fill only for a minor nominee, with the guardian's relationship to the child."
+    },
+    {
+     "label": "Consent for auto-debit of premium",
+     "value": "I hereby give my consent to debit Rs.20 from my above savings bank account every year towards the premium under PMSBY until I give written notice to stop.",
+     "hint": "The cover exists only because of this standing consent. Do not strike it out or alter the wording."
+    },
+    {
+     "label": "Whether already covered under PMSBY through another account",
+     "value": "No",
+     "hint": "Declare honestly. Two enrolments do not double the payout — only one cover operates and the second premium is lost."
+    },
+    {
+     "label": "Place, Date and Signature / Thumb Impression of the Member",
+     "value": "Lucknow, 22-09-2026 — Farida B. Ansari",
+     "hint": "Sign as you sign for the bank. A thumb impression must be attested by the branch official beside it."
+    },
+    {
+     "label": "Acknowledgement slip (tear-off portion at the bottom)",
+     "value": "To be filled and stamped by the branch: name of member, account number, date of receipt, branch seal",
+     "hint": "Insist on getting this portion back, filled and stamped. It is the family's proof of cover when a claim has to be filed in a hurry."
+    }
+   ],
+   "demoSteps": [
+    "Ask at the counter of your own bank branch for the PMSBY 'Consent-cum-Declaration Form'. It is one page, free, kept by every bank, and printable from the Jan Suraksha site in English, Hindi and the regional languages.",
+    "Make sure the account has at least Rs.20 in it on the day you submit. The premium is debited as soon as the enrolment is registered, and an enrolment that fails for want of balance is dropped without any notice to you.",
+    "Fill the form in ink, copying the account number straight from the passbook and writing the name exactly as the bank holds it.",
+    "Complete the nominee block — name, age, relationship, and a guardian if the nominee is a minor. This is the only place the insurer learns who to pay.",
+    "If you already hold PMSBY through another bank account, say so on the form. Only one cover ever pays, and the premium on the second enrolment is simply forfeited.",
+    "Hand the form to the branch official across the counter. There is nothing to pay beyond the Rs.20 premium, and no medical examination and no health declaration are involved in this scheme.",
+    "Demand the tear-off acknowledgement at the foot of the form, filled in, stamped with the branch seal and signed, and keep it with the passbook.",
+    "Check the passbook for the Rs.20 debit and the confirmation SMS within a few days. The certificate of insurance comes from the insurer through the bank, usually inside two to four weeks — ask the branch if it does not.",
+    "Note the calendar: cover runs 1 June to 31 May with the auto-debit each May, so keep the balance in the account through that month. A failed debit ends the cover, and it restarts only from the date of a fresh enrolment.",
+    "Tell the family where the acknowledgement is kept. An accident claim has to be intimated to the bank within 30 days of the accident, with the FIR or post-mortem report for a death claim, or the doctor's disability certificate for a disability claim; settlement normally follows within 30 days of a complete claim."
+   ],
+   "helpline": "1800-180-1111 / 1800-110-001 (Jan Suraksha)",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "mgnrega",
+   "title": "MGNREGA Job Card",
+   "department": "Ministry of Rural Development — Mahatma Gandhi National Rural Employment Guarantee Act",
+   "level": "Central",
+   "state": "",
+   "category": "Employment",
+   "mode": "offline",
+   "brief": "The job card registers a rural household for guaranteed wage work. Every registered household can demand up to 100 days of unskilled manual work in a financial year, at the notified state wage, within 15 days of asking — and is owed an unemployment allowance if the work does not come.",
+   "benefit": "100 days of guaranteed wage work per household each year, paid at the notified state wage into the worker's bank account",
+   "emoji": "👷",
+   "colorHex": "#F57C00",
+   "eligibility": [
+    "Household living in a rural area of the Gram Panchayat where it applies",
+    "Adult members aged 18 or above who are willing to do unskilled manual work",
+    "No income, caste or land condition — the right belongs to every rural household",
+    "One job card per household, listing all the adult members who want work"
+   ],
+   "documents": [
+    "Aadhaar cards of all the adult members to be listed",
+    "Passport-size photographs of those adult members — the Panchayat supplies them free if the household cannot",
+    "Proof of residence in the Gram Panchayat — ration card, voter ID or a Panchayat certificate",
+    "Bank or post-office passbook copy, since wages are paid only into an account"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://nrega.nic.in/",
+   "submitAt": "Gram Panchayat office — the Panchayat Secretary or the Gram Rozgar Sevak; the Programme Officer at the Block office also accepts it",
+   "demoFields": [
+    {
+     "label": "Name of the Head of the Household",
+     "value": "Budhram Singh Uikey",
+     "hint": "The household applies as one unit and the card is issued in this name, with every listed adult entitled to work under it."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Sukhlal Singh Uikey",
+     "hint": "Used to tell apart households with similar names in the same village."
+    },
+    {
+     "label": "Village / Gram Panchayat / Block / District",
+     "value": "Salaiya / Salaiya GP / Ghansor Block / Seoni, Madhya Pradesh",
+     "hint": "All four, because work is allotted within 5 km of the village named here — beyond that distance you are owed an extra 10 per cent of the wage."
+    },
+    {
+     "label": "Details of adult members willing to work (Sl. No., Name, Age, Sex, Relationship to head)",
+     "value": "1. Budhram Singh Uikey, 41, M, Self; 2. Phoolwati Bai Uikey, 38, F, Wife; 3. Dinesh Uikey, 19, M, Son",
+     "hint": "List every adult who might want work, not only those working today. A name left off the card cannot demand work later without an amendment."
+    },
+    {
+     "label": "Aadhaar Numbers of the listed adult members",
+     "value": "1. 9012 3456 7801; 2. 8901 2345 6789; 3. 7801 2345 6790",
+     "hint": "One against each name in the same order. Wages are paid through Aadhaar-based payment, so a missing number stops that member's wages."
+    },
+    {
+     "label": "Category (SC / ST / OBC / General) and whether the household is a PMAY-G, land reform or small and marginal farmer beneficiary",
+     "value": "ST — PMAY-Gramin beneficiary",
+     "hint": "Tick all that apply. These households get priority for individual-asset works such as a well, a cattle shed or land levelling on their own land."
+    },
+    {
+     "label": "Ration Card Number / BPL status",
+     "value": "MP-22-PHH-338920",
+     "hint": "Asked for identification only. MGNREGA has no poverty condition — a household above the poverty line is equally entitled to a job card."
+    },
+    {
+     "label": "Bank / Post Office Account (bank, branch, account no., IFSC)",
+     "value": "Central Bank of India, Ghansor Branch, A/c 39876501234, IFSC CBIN0289876",
+     "hint": "Wages are paid only by bank or post-office transfer, never in cash. Give the account of the member who will work; a joint household account is also accepted."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "80123 45678",
+     "hint": "Work allotment and wage credit messages come here. One number for the whole household is enough."
+    },
+    {
+     "label": "Photographs of the adult members applying",
+     "value": "3 photographs enclosed — one for each listed adult",
+     "hint": "The photographs are pasted on the job card itself. If the household cannot afford them, the Panchayat must arrange them free of cost."
+    },
+    {
+     "label": "Date and Signature / Thumb Impression of the Applicant",
+     "value": "22-09-2026 — L.T.I. of Budhram Singh Uikey",
+     "hint": "A thumb impression is fully valid. Write the date yourself, since the 15-day clock for issuing the card runs from it."
+    },
+    {
+     "label": "Receipt of application (for office use — dated acknowledgement)",
+     "value": "Received on 22-09-2026, Regn. No. SAL/2026/0147 — Gram Rozgar Sevak, Salaiya GP (seal)",
+     "hint": "The Panchayat is bound to give you this dated receipt. It is the proof that fixes the 15-day deadline for the job card."
+    }
+   ],
+   "demoSteps": [
+    "Ask the Gram Rozgar Sevak or the Panchayat Secretary for the registration application. A plain sheet of paper is legally enough — the Act says a household may apply orally or in writing — but the printed form, free at the Panchayat and downloadable from the NREGA site, keeps the office from raising objections.",
+    "Fill it in ink, listing every adult of the household who might ever want work, with age and Aadhaar number against each name. Adding a name later needs a separate amendment application, so be generous now.",
+    "Attach Aadhaar photocopies, the residence proof, the bank passbook copy and one photograph of each listed adult. If the household cannot pay for photographs, say so — the Panchayat is required to arrange them at its own cost.",
+    "Hand the application to the Gram Panchayat office. The Programme Officer at the Block office must also accept it if the Panchayat refuses, and so must the office on a Rozgar Diwas or in a Gram Sabha.",
+    "Demand a dated receipt with a registration number before you leave the counter. This receipt is the whole case: the 15-day limit for issuing the job card runs from the date written on it.",
+    "The Panchayat verifies the household — that it lives in the village and that the listed members are adults — usually within a week, and the job card must be issued free within 15 days of the application.",
+    "Collect the job card and check it at once: every listed adult's name, age and photograph, and blank pages for the work entries. Never let the Sarpanch, the Rozgar Sevak or a contractor keep your job card — holding a worker's card is an offence, and it is how false entries are made.",
+    "Applying for the card is not the same as asking for work. Give a separate written work demand for the days you want, at least 14 days' worth, and take a dated receipt for that too — work must start within 15 days or an unemployment allowance becomes payable.",
+    "Wages are due within 15 days of the closing of the muster roll, paid into the account, with compensation for delay beyond that. Check your entries against the muster roll displayed at the worksite and the records on the NREGA site.",
+    "If no card comes in 15 days, or the Panchayat refuses to accept the application, complain in writing to the Programme Officer at the Block, then to the District Programme Coordinator (the Collector), and use the toll-free helpline; an RTI application (Rs.10) on the status of the application usually moves the file."
+   ],
+   "helpline": "1800-111-555 (Ministry of Rural Development toll free); state MGNREGA helpline numbers are printed on the job card",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "schemes": [
+  {
+   "id": "tr-tpsc-recruitment",
+   "title": "Tripura Public Service Commission Recruitment",
+   "department": "Tripura Public Service Commission",
+   "level": "State",
+   "state": "Tripura",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Tripura Public Service Commission recruits for the state civil service and for the gazetted and technical posts of the state departments. Every advertisement is applied for through its online recruitment application system.",
+   "benefit": "One online profile for every TPSC advertisement, with admit cards and results",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen who is ordinarily a resident of Tripura for the posts that require it",
+    "Age as the advertisement states, usually 18 to 40, with relaxation for SC, ST, OBC and disability",
+    "The qualification the advertisement requires, complete on its closing date",
+    "Knowledge of Bengali or Kokborok as some advertisements specify"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Madhyamik (Class 10) certificate for date of birth",
+    "Degree certificate and marksheets",
+    "Tripura caste or tribe certificate, for a reserved category",
+    "Permanent residence certificate of Tripura",
+    "Disability or ex-serviceman certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://tpsc.onlinetripura.in/Candidateregister",
+   "portalName": "TPSC Online Recruitment Application",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Advertisement and post applied for",
+     "value": "Advt 09 of 2026 — Tripura Civil Service Grade II",
+     "hint": "One application per advertisement. Read the qualification and age limit there before paying."
+    },
+    {
+     "label": "Candidate Name (as on Madhyamik certificate)",
+     "value": "Bikash Debbarma",
+     "hint": "The Madhyamik certificate governs, not Aadhaar, where the two differ."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Ratan Debbarma",
+     "hint": "As on the Madhyamik certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "25-05-1999",
+     "hint": "As on the Madhyamik certificate. Age limits count from this date."
+    },
+    {
+     "label": "Category claimed",
+     "value": "ST — Tripura",
+     "hint": "Claim only what you hold a Tripura certificate for. A certificate from another state is not accepted for the reservation."
+    },
+    {
+     "label": "Permanent Residence Certificate number",
+     "value": "WT/SDR/PRTC/2020/03318",
+     "hint": "Required for most Tripura state posts. Get it from e-District before the closing date."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Sc. Chemistry, Tripura University, 2021, 63%",
+     "hint": "It must be complete on the advertisement's closing date."
+    },
+    {
+     "label": "Examination centre preference",
+     "value": "Agartala",
+     "hint": "Give a choice where the advertisement asks for one."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 22488 / bikash.d@example.com",
+     "hint": "The application number, admit card and every notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the permanent residence certificate and the caste or tribe certificate from e-District before the closing date. Most rejections are for want of these.",
+    "Register on tpsc.onlinetripura.in with your name and date of birth exactly as on the Madhyamik certificate.",
+    "Open the advertisement, apply through the same login, upload the photograph and signature in the sizes stated, and pay the fee.",
+    "Print the filled application and keep it with the payment receipt until the recruitment ends.",
+    "Download the admit card from the same login and take it with a photo ID.",
+    "Results are published on the Commission's site. Document verification is last, where the originals of everything claimed must be produced."
+   ],
+   "helpline": "Tripura Public Service Commission, Agartala",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://tpsc.onlinetripura.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "ml-meghalaya-online",
+   "title": "Meghalaya Online — Certificates and e-Services",
+   "department": "Government of Meghalaya",
+   "level": "State",
+   "state": "Meghalaya",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Meghalaya Online is the state's single window for certificates and departmental services — income, Scheduled Tribe, residence, trading and other certificates, applied for online and downloaded from the same account.",
+   "benefit": "Income, Scheduled Tribe and residence certificates applied for online",
+   "emoji": "☁",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Meghalaya, applying in the district where the family lives",
+    "A Scheduled Tribe certificate is issued for the tribes notified for Meghalaya — Khasi, Jaintia and Garo among them",
+    "A residence certificate needs proof the family has lived in the state for the qualifying period",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Father's Scheduled Tribe certificate, for a tribe certificate",
+    "Certificate from the Headman or the village Dorbar",
+    "School certificate or birth certificate for date of birth",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://meghalayaonline.gov.in/",
+   "portalName": "Meghalaya Online",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Scheduled Tribe Certificate",
+     "hint": "Income, Scheduled Tribe, residence, trading or a departmental service. Each has its own form and proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Banri Lyngdoh",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Mother's Name",
+     "value": "Kong Ibalarisa Lyngdoh",
+     "hint": "Meghalaya's Khasi and Garo societies are matrilineal, so the form may ask for the mother's name. Fill whichever the form asks for."
+    },
+    {
+     "label": "Tribe claimed",
+     "value": "Khasi",
+     "hint": "Pick from the list notified for Meghalaya. A tribe notified in another state does not qualify here."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 3341 7728",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Block / Village or Locality",
+     "value": "East Khasi Hills / Mylliem / Nongthymmai",
+     "hint": "Where the family lives. The Deputy Commissioner of this district issues the certificate."
+    },
+    {
+     "label": "Headman or Dorbar certificate",
+     "value": "Rangbah Shnong, Nongthymmai — signed and stamped",
+     "hint": "Most Meghalaya certificates need the Headman's or the Dorbar's certificate. Get it before you apply, not after."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,56,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 33417",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the certificate from your Headman or village Dorbar first. Nearly every Meghalaya certificate is issued on the strength of it.",
+    "Register on meghalayaonline.gov.in with your mobile and confirm the OTP, or use a Common Service Centre.",
+    "Choose the certificate and fill the form from your Aadhaar and the Headman's certificate.",
+    "Upload the documents, pay the fee, and note the application number.",
+    "The block staff verify the family, then the Deputy Commissioner's office issues the certificate.",
+    "Download it from the same login and check the tribe name and the parent's name before relying on it."
+   ],
+   "helpline": "Your Deputy Commissioner's office, or the block office of your area",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ml-edistrict",
+   "title": "Meghalaya e-District Citizen Services",
+   "department": "Government of Meghalaya",
+   "level": "State",
+   "state": "Meghalaya",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Meghalaya's e-District portal handles the district administration's own services — registrations, permissions, licences and the status of applications made at the Deputy Commissioner's office, without going there in person.",
+   "benefit": "District administration registrations, permissions and application status online",
+   "emoji": "📋",
+   "colorHex": "#455A64",
+   "eligibility": [
+    "Resident of Meghalaya, or a business operating in the state",
+    "The application must fall within the district administration's own services",
+    "A mobile number for the OTP and the application number",
+    "Some services need the Headman's or the Dorbar's certificate first"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Address proof for the premises or the residence",
+    "Headman or Dorbar certificate, where the service requires it",
+    "Supporting papers the particular service asks for",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://megedistrict.gov.in/resources/homePage/17/services.html",
+   "portalName": "e-District Meghalaya",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Application status check",
+     "hint": "Pick the department first, then the service. The list shows what the district administration handles online."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Banri Lyngdoh",
+     "hint": "Letter for letter as on Aadhaar."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 3341 7728",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District",
+     "value": "East Khasi Hills",
+     "hint": "The district whose Deputy Commissioner's office handles the service."
+    },
+    {
+     "label": "Application Number",
+     "value": "MEG/EKH/2026/0044178",
+     "hint": "Given on the acknowledgement when the application was filed. It is how the status is looked up."
+    },
+    {
+     "label": "Address",
+     "value": "Nongthymmai, Shillong, East Khasi Hills 793014",
+     "hint": "Where you live, or where the premises are for a business service."
+    },
+    {
+     "label": "Supporting document",
+     "value": "Headman's certificate, Nongthymmai",
+     "hint": "Many services need it. Upload a clear scan."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 33417",
+     "hint": "The application number and every status change come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Open megedistrict.gov.in and pick the department and the service you need.",
+    "Register with your mobile and confirm the OTP, or use a Common Service Centre if the connection at home is poor.",
+    "Fill the form, upload Aadhaar, the address proof and whatever the service asks for, and pay any fee.",
+    "Note the application number from the acknowledgement. Every follow-up runs on it.",
+    "Track the status on the same portal rather than travelling to the Deputy Commissioner's office.",
+    "Download the approval or the certificate when it is issued, and check the details before relying on it."
+   ],
+   "helpline": "Your Deputy Commissioner's office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://megedistrict.gov.in/",
+   "applyKind": "service-page"
+  }
+ ]
+}

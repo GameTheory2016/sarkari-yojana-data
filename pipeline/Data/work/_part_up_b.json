@@ -1,0 +1,266 @@
+{
+ "schemes": [
+  {
+   "id": "up-ration-card",
+   "title": "Uttar Pradesh Ration Card",
+   "department": "Food and Civil Supplies Department, Government of Uttar Pradesh",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "The NFSA ration card that brings subsidised wheat and rice from the fair price shop in Uttar Pradesh, in two kinds — Antyodaya for the poorest households and Household for the rest. The FCS portal is where you check the eligibility list, add or remove a member, download the e-ration card and complain if the shop refuses grain.",
+   "benefit": "5 kg foodgrain per person per month; 35 kg per family for an Antyodaya card",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Uttar Pradesh and holding no ration card elsewhere in India",
+    "Household inside the state's NFSA list, and not excluded by land, income, vehicle or government service",
+    "A woman of the household aged 18 or above is recorded as the head of the family",
+    "Every member's Aadhaar must be seeded, or that member's grain is not issued"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Address proof — electricity bill, house tax receipt or voter ID",
+    "Deletion certificate from the previous card, where a member or the family has moved",
+    "Income certificate or a self-declaration of income",
+    "Passport photograph of the head of the family",
+    "Bank passbook copy and the gas connection number"
+   ],
+   "applyUrl": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+   "portalName": "UP Food and Civil Supplies portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "Add a member",
+     "hint": "New card, add a member, remove a member, or correct a detail. A new card is filed at the tehsil supply office or a Jan Seva Kendra; the rest can be started online."
+    },
+    {
+     "label": "Ration Card Number",
+     "value": "2140 5001 88234",
+     "hint": "From the front of the card. Leave it blank only for a brand new card."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Sushila Devi Yadav",
+     "hint": "A woman of the household aged 18 or above. The card is issued in her name."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 4408 1123",
+     "hint": "Twelve digits. The family's whole entitlement is tracked against this."
+    },
+    {
+     "label": "Member to be added, relation and Aadhaar",
+     "value": "Aarav Yadav — grandson — 9999 9021 6654",
+     "hint": "Name as on that person's Aadhaar, and how they are related to the head. A newborn's Aadhaar must be made first."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Birth on 18-01-2026; birth certificate BRB/B/2026/00741",
+     "hint": "A newborn needs the birth certificate. A bride needs the marriage certificate and the deletion certificate from her parents' card."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Barabanki / Ramsanehighat / Gram Rampur Kalan",
+     "hint": "Where the family lives. The fair price shop is allotted from this address."
+    },
+    {
+     "label": "Fair Price Shop Name or Code",
+     "value": "Rampur Kalan FPS — 214050188",
+     "hint": "Printed on the card and on the shop's board. It tells the office which register to update."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44081",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Search fcs.up.gov.in first to see whether the family is already on the NFSA eligibility list, and download the e-ration card if it is.",
+    "For a new card or a correction, fill the application and hand it in at the tehsil supply office or a Jan Seva Kendra, with Aadhaar for every member and the address proof.",
+    "For an addition, attach the birth certificate for a newborn, or the marriage certificate and the deletion certificate from the old card for a bride. Without the deletion certificate the system blocks the addition as a duplicate.",
+    "Keep the acknowledgement with its application number; every follow-up runs on it.",
+    "The supply inspector verifies the family at the address, usually within two to four weeks.",
+    "Once the card is issued or updated, download the e-ration card from the portal and check every name and Aadhaar on it.",
+    "Get the new member's Aadhaar seeded at the fair price shop's ePoS machine. Until that is done the family's quantity does not increase. If the shop refuses grain that is due, complain on the same portal and on 1967."
+   ],
+   "helpline": "1967 and 1800 1800 150 — UP Food and Civil Supplies",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://fcs.up.gov.in/FoodPortal-en.aspx",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "up-bhulekh",
+   "title": "UP Bhulekh — Khatauni and Khasra Land Records",
+   "department": "Board of Revenue, Government of Uttar Pradesh",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "UP Bhulekh is where you see and print the khatauni, the record of rights for a piece of land in Uttar Pradesh, and the khasra showing the plot and the crop. It is free and needs no login. Farm schemes, crop loans and mutation applications all ask for the khatauni.",
+   "benefit": "Free khatauni and khasra copies, searchable by plot, khata number or owner name",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in Uttar Pradesh and entered in the revenue record",
+    "Anyone may view and print a record; no login and no fee",
+    "A certified copy for court or bank use is issued by the tehsil, not by this portal",
+    "Only the recorded holder or an heir can apply to change a record"
+   ],
+   "documents": [
+    "District, tehsil and village name",
+    "Khasra or gata number, or the khata number, or the owner's name",
+    "Aadhaar card, if you go on to apply for a mutation at the tehsil",
+    "Registered sale deed or succession papers, for a mutation"
+   ],
+   "applyUrl": "https://upbhulekh.gov.in/",
+   "portalName": "UP Bhulekh",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District / Tehsil / Village",
+     "value": "Barabanki / Ramsanehighat / Rampur Kalan",
+     "hint": "Pick all three from the lists. The record is held village by village."
+    },
+    {
+     "label": "Search by",
+     "value": "Khasra / Gata number",
+     "hint": "Khasra number, khata number, or owner's name. Khasra number gives the cleanest result; searching by name returns every similar name in the village."
+    },
+    {
+     "label": "Khasra / Gata Number",
+     "value": "417",
+     "hint": "Copy it from an older khatauni or from the purchase deed."
+    },
+    {
+     "label": "Khata Number",
+     "value": "00286",
+     "hint": "The account number. It covers every plot you hold in that one village, so it is quicker if you own several."
+    },
+    {
+     "label": "Owner's Name as on the record",
+     "value": "Ram Naresh Yadav, son of Sita Ram",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search by the record's spelling first."
+    },
+    {
+     "label": "Record wanted",
+     "value": "Real-time khatauni",
+     "hint": "Khatauni for the record of rights, khasra for the plot and crop details, real-time khatauni for the current position including pending mutations."
+    },
+    {
+     "label": "Captcha",
+     "value": "Type the characters shown",
+     "hint": "The site asks for it on every search. It is the only thing standing between you and the record."
+    }
+   ],
+   "demoSteps": [
+    "Open upbhulekh.gov.in and choose the record you want — khatauni, khasra or the real-time khatauni.",
+    "Select district, tehsil and village, then search by khasra number, khata number or owner's name and enter the captcha.",
+    "Check the area, the owner's name and the share against what you know, and print the copy. There is no fee.",
+    "For a bank or a court, ask the tehsil for a certified copy — the portal's print is for your own reference and is not stamped.",
+    "If the record is wrong, or a sale or a death has not been entered, apply for a mutation at the tehsil with the registered deed or the succession papers. It cannot be corrected from this portal.",
+    "Keep a printed khatauni with your papers. PM-Kisan, crop loans and state farm subsidies all ask for it."
+   ],
+   "helpline": "Your tehsil office, or the Lekhpal of your village",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "up-upsssc-pet",
+   "title": "UPSSSC PET and Group C Recruitment",
+   "department": "Uttar Pradesh Subordinate Services Selection Commission",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Almost every Group C job in Uttar Pradesh — Lekhpal, Village Development Officer, Junior Assistant, Forest Guard, Junior Engineer — now runs through one screening exam, the Preliminary Eligibility Test. You must hold a valid PET score before you can apply to any of those posts, so the PET is the door and the post comes after.",
+   "benefit": "One PET score that qualifies you for every UPSSSC Group C recruitment for a year",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Resident of Uttar Pradesh for the reserved quotas; open to others on the unreserved seats",
+    "Age 18 to 40 for most posts, with relaxation for SC, ST, OBC and disability",
+    "Class 10 passed for the PET itself; each later post sets its own qualification",
+    "A PET score is valid for one year, and a fresh PET must be taken after that"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Class 12 and degree certificates, for the posts that need them",
+    "Caste certificate on the UP format, for a reserved category",
+    "Domicile certificate of Uttar Pradesh",
+    "Disability certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://upsssc.gov.in/",
+   "portalName": "UPSSSC e-Pariksha portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Arun Kumar Verma",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ. Everything later is matched against it."
+    },
+    {
+     "label": "Father's / Mother's Name",
+     "value": "Ram Kishore Verma / Shanti Devi",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "12-09-2001",
+     "hint": "As on the Class 10 certificate. Age limits count from this date and it cannot be changed after registration."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7011 4482",
+     "hint": "Twelve digits, used to keep one candidate to one registration."
+    },
+    {
+     "label": "Category and sub-category",
+     "value": "OBC; no disability; not an ex-serviceman",
+     "hint": "Claim only what you hold a UP-format certificate for. Age relaxation and the fee both follow from this."
+    },
+    {
+     "label": "Domicile",
+     "value": "Uttar Pradesh — Barabanki",
+     "hint": "Reserved-category benefits are for UP domiciles only. A candidate from another state competes on the unreserved seats."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A., Lucknow University, 2023",
+     "hint": "For the PET itself Class 10 is enough. The post you later apply for sets its own requirement, and it must be complete on that notification's closing date."
+    },
+    {
+     "label": "PET Registration / Roll Number",
+     "value": "PET2026-0448127",
+     "hint": "Generated when you register. Your PET score is tied to it and every later application asks for it."
+    },
+    {
+     "label": "Preferred examination district",
+     "value": "Lucknow",
+     "hint": "Give two or three choices. The commission allots the nearest centre it can."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 70114 / arun.verma@example.com",
+     "hint": "Admit card and every notification come here. Do not use a cyber cafe's number."
+    }
+   ],
+   "demoSteps": [
+    "Register on upsssc.gov.in for the Preliminary Eligibility Test when the notification opens, entering your name and date of birth exactly as on the Class 10 certificate.",
+    "Fill category, domicile and qualification, upload the photograph and signature, pay the fee online and keep the registration number.",
+    "Download the admit card about a week before the exam and sit the PET. The score decides which posts you can go on to apply for.",
+    "When the score is published, note it with your registration number. It stays valid for one year.",
+    "Apply to individual posts — Lekhpal, VDO, Junior Assistant and the rest — as those notifications open, using the same login and your PET score.",
+    "Those posts have a main exam and, for some, a typing or physical test. Certificate verification comes last, where the originals of everything you claimed must be produced.",
+    "Take the PET again before your score expires, or you drop out of every Group C recruitment until you do."
+   ],
+   "helpline": "UPSSSC candidate helpdesk, contact details on upsssc.gov.in",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

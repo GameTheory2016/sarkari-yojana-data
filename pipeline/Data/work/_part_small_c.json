@@ -1,0 +1,267 @@
+{
+ "schemes": [
+  {
+   "id": "ar-inner-line-permit",
+   "title": "Arunachal Pradesh Inner Line Permit (e-ILP)",
+   "department": "Department of Political, Government of Arunachal Pradesh",
+   "level": "State",
+   "state": "Arunachal Pradesh",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Any Indian who is not a resident of Arunachal Pradesh needs an Inner Line Permit to enter the state. It used to mean queuing at a liaison office; the e-ILP portal issues it online in a day or two, and the permit is shown on a phone at the check gate.",
+   "benefit": "Inner Line Permit issued online, valid for the days and districts you ask for",
+   "emoji": "🛂",
+   "colorHex": "#455A64",
+   "eligibility": [
+    "Indian citizen who is not a permanent resident of Arunachal Pradesh",
+    "A temporary permit is for a visit; a regular permit is for work or a longer stay and needs a sponsor",
+    "One permit per person; children travelling with a parent are added to that permit",
+    "Foreign nationals need a Protected Area Permit instead, not this"
+   ],
+   "documents": [
+    "Aadhaar card, voter card or passport as photo identity",
+    "Recent passport-size photograph",
+    "Travel details — the districts you will visit and the dates",
+    "Sponsor's details, for a regular permit for work",
+    "Vehicle registration number, if you are driving in"
+   ],
+   "applyUrl": "https://www.eilp.arunachal.gov.in/preTuristEIlpKYC",
+   "portalName": "e-ILP Arunachal Pradesh",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of permit",
+     "value": "Temporary ILP — tourism",
+     "hint": "Temporary for a visit, regular for work or a long stay. A regular permit needs a sponsor in the state."
+    },
+    {
+     "label": "Applicant Name (as on the photo ID)",
+     "value": "Shweta Kulkarni",
+     "hint": "Exactly as on the identity document you upload. The check gate compares the two."
+    },
+    {
+     "label": "Photo Identity type and number",
+     "value": "Aadhaar — 9999 8821 4470",
+     "hint": "Aadhaar, voter card or passport. Carry the same document with you, because it is checked at the gate."
+    },
+    {
+     "label": "Districts to be visited",
+     "value": "Tawang, West Kameng",
+     "hint": "Name every district on your route. The permit is valid only for the districts written on it, and the gate turns you back for the rest."
+    },
+    {
+     "label": "Dates of travel",
+     "value": "10-11-2026 to 18-11-2026",
+     "hint": "From and to. Ask for a couple of days more than you plan — extending a permit from inside the state is harder than getting it right now."
+    },
+    {
+     "label": "Purpose of visit",
+     "value": "Tourism",
+     "hint": "Tourism, business, work, or visiting family. A work purpose turns it into a regular permit needing a sponsor."
+    },
+    {
+     "label": "Persons travelling with you",
+     "value": "1 — Aarav Kulkarni, son, age 9",
+     "hint": "Children travelling with a parent go on the same permit. Adults each need their own."
+    },
+    {
+     "label": "Vehicle Registration Number",
+     "value": "MH12AB4470",
+     "hint": "Fill it if you are driving in. It is checked at the gate along with the permit."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 88214 / shweta.k@example.com",
+     "hint": "The permit comes here as a downloadable file. Save it to your phone before you set off — the network on the road is poor."
+    }
+   ],
+   "demoSteps": [
+    "Apply on eilp.arunachal.gov.in at least a few days before you travel. Most temporary permits come within one or two working days.",
+    "Fill the form, naming every district on your route. A permit that does not list a district will not get you past its gate.",
+    "Upload your photo identity and photograph, pay the fee online and note the application number.",
+    "Wait for the approval message, then download the permit and save it to your phone. Print a copy too, since the network in the hills is unreliable.",
+    "Carry the same identity document you uploaded. At the check gate the permit and the document are compared.",
+    "If you need to stay longer or visit a district not on the permit, apply for an extension before the permit expires rather than after."
+   ],
+   "helpline": "The Deputy Commissioner's office of the district you are entering",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.eilp.arunachal.gov.in/",
+   "applyKind": "form"
+  },
+  {
+   "id": "ch-eservices",
+   "title": "Chandigarh e-Services — Certificates and Citizen Services",
+   "department": "Chandigarh Administration",
+   "level": "State",
+   "state": "Chandigarh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Chandigarh's single window for certificates and citizen services — residence, income, caste, birth and death registration, and a range of departmental permissions. The e-Sampark centres across the sectors do the same things across a counter.",
+   "benefit": "Residence, income, caste and birth certificates applied for online or at an e-Sampark centre",
+   "emoji": "🌹",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Chandigarh, applying from the address where you live",
+    "A residence certificate needs proof that you have lived in Chandigarh for the qualifying period",
+    "A caste certificate needs the caste to be on the Chandigarh SC or OBC list",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card or voter card as residence proof",
+    "Electricity or water bill for the address",
+    "Father's caste certificate or a school record, for a caste certificate",
+    "Salary slips or Form 16, for an income certificate",
+    "Passport-size photograph and a scanned signature"
+   ],
+   "applyUrl": "https://eservices.chd.gov.in/",
+   "portalName": "e-Services Chandigarh",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Residence Certificate",
+     "hint": "Residence, income, caste, birth or death certificate, or a departmental permission. Each has its own form and fee."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Harpreet Singh Bedi",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Gurdev Singh Bedi",
+     "hint": "Used to identify the family in the records; essential for a caste certificate."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5503 2214",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "Full address with sector and house number",
+     "value": "House 1420, Sector 40-B, Chandigarh 160036",
+     "hint": "The address you actually live at. The verification is done there."
+    },
+    {
+     "label": "Years resident in Chandigarh",
+     "value": "Since 2009",
+     "hint": "For a residence certificate, say from when. The ration card, school records or an old electricity bill are what prove it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "3,60,000",
+     "hint": "For an income certificate, the household's total for the year. Keep it consistent with the salary slips you upload."
+    },
+    {
+     "label": "Purpose",
+     "value": "College admission under the Chandigarh quota",
+     "hint": "Written for the record. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 55032",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on eservices.chd.gov.in with your mobile, or walk into any e-Sampark centre, which files it across the counter for the notified fee.",
+    "Choose the certificate and fill the form from your Aadhaar and the address proof.",
+    "Upload the documents, pay the fee online, and keep the application number from the acknowledgement.",
+    "The area official verifies the address, usually within a week. Be reachable on the mobile you gave.",
+    "The signed certificate is issued and downloaded from the same login, or collected at the e-Sampark centre.",
+    "If it runs past the time the service promises, quote the application number to the Deputy Commissioner's office."
+   ],
+   "helpline": "0172-2703172 — e-Sampark, Chandigarh Administration",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ch-housing-board",
+   "title": "Chandigarh Housing Board — Flats and Allotment Services",
+   "department": "Chandigarh Housing Board",
+   "level": "State",
+   "state": "Chandigarh",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "The Chandigarh Housing Board's own online counter — new scheme applications, instalment and rent payments, transfer of a flat, need-based change requests, no-dues certificates and the e-auction of leftover units. Almost everything an allottee used to queue for is here.",
+   "benefit": "Board flat applications, payments, transfers and no-dues certificates online",
+   "emoji": "🏢",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "For a new scheme, the conditions set out in that scheme's brochure, usually including Chandigarh residence",
+    "For allottee services, you must be the recorded allottee or a legal heir",
+    "A transfer needs the dues cleared and the Board's permission before the deed",
+    "One flat per family under the subsidised categories"
+   ],
+   "documents": [
+    "Aadhaar card and PAN card",
+    "Allotment letter, for an existing allottee",
+    "Residence proof of Chandigarh",
+    "Income proof, for a category-based scheme",
+    "Latest payment receipts, for a no-dues certificate",
+    "Succession certificate or a will, for a transfer on inheritance",
+    "Passport-size photographs"
+   ],
+   "applyUrl": "https://payonline.chb.gov.in/ServiceLogin/Login",
+   "portalName": "Chandigarh Housing Board e-Services",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Payment of instalment",
+     "hint": "New scheme application, instalment or rent payment, transfer, need-based change, no-dues certificate, or e-auction. Pick the one you need."
+    },
+    {
+     "label": "Allottee Name (as on the allotment letter)",
+     "value": "Harpreet Singh Bedi",
+     "hint": "As on the allotment letter, which is what the Board's record follows, even if Aadhaar spells it differently."
+    },
+    {
+     "label": "Allotment / File Number",
+     "value": "CHB/40B/1420/2018",
+     "hint": "From the allotment letter. Every service is looked up against it, so keep the letter safe."
+    },
+    {
+     "label": "Dwelling unit and sector",
+     "value": "House 1420, Sector 40-B, Chandigarh",
+     "hint": "As recorded by the Board, which may differ from how the post office writes it."
+    },
+    {
+     "label": "Aadhaar and PAN",
+     "value": "9999 5503 2214 / ABCPB7788M",
+     "hint": "Both are needed for a transfer or a new purchase, because it is a property transaction."
+    },
+    {
+     "label": "Amount being paid (Rs.)",
+     "value": "42,500 — instalment for the quarter",
+     "hint": "The portal shows what is due. Pay from that figure rather than an old demand letter, since interest may have been added."
+    },
+    {
+     "label": "Reason, for a transfer or a change",
+     "value": "Not applicable — instalment payment",
+     "hint": "For a transfer, say sale, gift or inheritance and attach the papers. A need-based change needs the sanctioned plan."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 55032 / harpreet.bedi@example.com",
+     "hint": "The receipt, the demand notices and every Board notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Register on chbonline.in with your allotment or file number, Aadhaar and mobile, and confirm the OTP.",
+    "Choose the service. For a payment, check the amount the portal shows against your own record before paying — interest may have been added since the last demand.",
+    "Pay online and download the receipt at once. Keep every receipt until the final no-dues certificate is issued.",
+    "For a transfer, apply for the Board's permission first and clear the dues. A deed signed before that permission is not recognised.",
+    "For a new scheme, read the brochure for the price, the category and the closing date, then apply and pay the registration money in time.",
+    "Track the application on the portal by the file number, and take anything unresolved to the Board's office in Sector 9 with the application number."
+   ],
+   "helpline": "0172-4601826 — Chandigarh Housing Board",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://chbonline.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

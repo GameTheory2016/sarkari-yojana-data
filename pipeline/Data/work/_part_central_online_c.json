@@ -1,0 +1,781 @@
+[
+ {
+  "id": "aadhaar",
+  "title": "Aadhaar Enrolment & Update",
+  "department": "Unique Identification Authority of India (UIDAI)",
+  "level": "Central",
+  "state": "",
+  "category": "Identity",
+  "mode": "online",
+  "brief": "Aadhaar is the 12-digit identity number every resident of India can get, free of cost. First-time enrolment has to be done in person at an Aadhaar Seva Kendra because fingerprints, iris and photo are captured there. Name, address, date of birth and mobile can be corrected later from home on myAadhaar.",
+  "benefit": "12-digit Aadhaar number",
+  "emoji": "🪪",
+  "colorHex": "#2B52E0",
+  "eligibility": [
+   "Any resident of India, including newborns and senior citizens — there is no minimum or maximum age.",
+   "You must have lived in India for 182 days or more in the 12 months before you apply.",
+   "NRIs holding a valid Indian passport can enrol on the strength of the passport.",
+   "Children under 5 get a Baal Aadhaar with no fingerprints; biometrics must be updated free of cost at age 5 and again at 15.",
+   "One person may hold only one Aadhaar number — enrol a second time only to correct an existing record."
+  ],
+  "documents": [
+   "Proof of Identity — passport, PAN card, voter ID, ration card or driving licence",
+   "Proof of Address — electricity, water or telephone bill of the last 3 months, bank passbook or registered rent agreement",
+   "Proof of Date of Birth — birth certificate, Class 10 marksheet or passport",
+   "Proof of Relationship for a child — a parent's Aadhaar along with the child's birth certificate",
+   "Your own mobile number, which will receive the OTP for every future update"
+  ],
+  "applyUrl": "https://myaadhaarbeta.uidai.gov.in/ssup/en",
+  "portalName": "myAadhaar",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Aadhaar Number (only when updating)",
+    "value": "9999 8888 7777",
+    "hint": "Leave this blank if you have never enrolled. To change something in an existing record, type the 12 digits printed on your Aadhaar letter."
+   },
+   {
+    "label": "Full Name",
+    "value": "Ramesh Kumar Yadav",
+    "hint": "Write your name exactly as it should be printed — the same spelling as on your school certificate or passport. Do not use short forms."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "14/03/1992",
+    "hint": "DD/MM/YYYY, as written on your birth certificate or Class 10 marksheet. You will have to upload that document as proof."
+   },
+   {
+    "label": "Gender",
+    "value": "Male",
+    "hint": "Choose Male, Female or Transgender."
+   },
+   {
+    "label": "Guardian / Parent's Name",
+    "value": "Shyam Lal Yadav",
+    "hint": "Compulsory for a child under 5. Adults may leave it blank unless they are using a parent's document as proof of address."
+   },
+   {
+    "label": "Full Address",
+    "value": "H. No. 42, Gali No. 3, Nehru Nagar, Bhilwara, Rajasthan – 311001",
+    "hint": "House number, street, locality, village or town, district, state and PIN code — exactly as it appears on the bill or passbook you are uploading."
+   },
+   {
+    "label": "Mobile Number",
+    "value": "98290 41176",
+    "hint": "Give a number you use yourself and will keep. Every Aadhaar update, bank KYC and DBT payment sends its OTP here."
+   },
+   {
+    "label": "Email Address",
+    "value": "ramesh.yadav@example.com",
+    "hint": "Optional, but the e-Aadhaar PDF and update receipts come here. Leave blank if you do not use email."
+   },
+   {
+    "label": "Proof of Identity Document",
+    "value": "Voter ID card (EPIC No. RJB1234567)",
+    "hint": "Pick the document type from the list, then upload a clear scan or photo of the original. The name on it must match what you typed above."
+   },
+   {
+    "label": "Proof of Address Document",
+    "value": "Electricity bill, June 2026",
+    "hint": "Must be in your own name and not older than 3 months for a bill. If the bill is in a parent's or spouse's name, use the relationship-proof route instead."
+   }
+  ],
+  "demoSteps": [
+   "For a first Aadhaar, go straight to step 5 — a new enrolment cannot be completed online.",
+   "To correct an existing Aadhaar, open myAadhaar and sign in with your Aadhaar number and the OTP sent to your registered mobile.",
+   "Choose 'Update Aadhaar Online'. Name, date of birth, gender and address can be corrected from home; upload a scan of the supporting document.",
+   "Pay the fee online (around Rs.50 for an online document or address update) and save the URN — the Update Request Number that tracks your request.",
+   "For a first-time enrolment, or to change your photo, fingerprints or iris, book a slot at an Aadhaar Seva Kendra. This visit is unavoidable: biometrics can only be captured in person.",
+   "Carry the original documents to the centre. The operator takes your photograph, all ten fingerprints and both iris scans, and hands you an acknowledgement slip with a 14-digit EID.",
+   "Track the EID or URN on myAadhaar. The Aadhaar letter is posted to your address, and the e-Aadhaar PDF can be downloaded as soon as the number is generated.",
+   "A child's biometrics must be updated free of charge at age 5 and at 15, otherwise the Aadhaar can be deactivated."
+  ],
+  "helpline": "1947 — UIDAI toll-free helpline, available in 12 languages · help@uidai.gov.in",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://myaadhaar.uidai.gov.in/",
+  "applyKind": "service-page"
+ },
+ {
+  "id": "pan",
+  "title": "PAN Card (Form 49A)",
+  "department": "Income Tax Department, CBDT",
+  "level": "Central",
+  "state": "",
+  "category": "Identity",
+  "mode": "online",
+  "brief": "PAN is the 10-character permanent account number the Income Tax Department issues to you for life. You need it to file a return, open a bank or demat account, and for any large payment or property deal. With Aadhaar e-KYC the whole application is done online and nothing has to be posted.",
+  "benefit": "10-character PAN card",
+  "emoji": "💳",
+  "colorHex": "#0097A7",
+  "eligibility": [
+   "Any Indian citizen of any age — a minor's PAN is applied for by a parent or guardian.",
+   "Compulsory once your income crosses the basic exemption limit, and for filing an income tax return.",
+   "Needed to open a bank or demat account, to buy or sell property or a vehicle, and for cash payments above the prescribed limit.",
+   "Foreign citizens and foreign entities apply on Form 49AA instead of Form 49A.",
+   "One person, one PAN — holding a second PAN attracts a penalty under section 272B of the Income Tax Act."
+  ],
+  "documents": [
+   "Aadhaar number, and the mobile registered with it, for e-KYC",
+   "Proof of Identity — Aadhaar, voter ID, passport or driving licence",
+   "Proof of Address — Aadhaar, electricity bill, bank statement or passport",
+   "Proof of Date of Birth — birth certificate, Class 10 certificate or passport",
+   "A recent passport-size photograph and your signature scanned on plain white paper"
+  ],
+  "applyUrl": "https://onlineservices.proteantech.in/paam/endUserRegisterContact.html",
+  "portalName": "Protean TIN-PAN",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Application Type",
+    "value": "New PAN – Indian Citizen (Form 49A)",
+    "hint": "Choose this for a first PAN. Pick 'Changes or Correction' only if you already hold a PAN and want to fix a detail or get a reprint."
+   },
+   {
+    "label": "Title and Full Name",
+    "value": "Kumari Anjali Deshmukh",
+    "hint": "Shri, Smt or Kumari, then first, middle and last name in separate boxes. It must match your Aadhaar exactly, or the e-KYC will fail."
+   },
+   {
+    "label": "Father's Name",
+    "value": "Vinayak Rao Deshmukh",
+    "hint": "Compulsory even for married women. Fill your father's full name, not your husband's, unless you tick the option to print the mother's name instead."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "02/11/1998",
+    "hint": "DD/MM/YYYY as on your birth certificate or Class 10 certificate."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 7777 5555",
+    "hint": "All 12 digits. Quoting Aadhaar is mandatory, and the name and date of birth here must agree with your Aadhaar record."
+   },
+   {
+    "label": "Address for Communication",
+    "value": "Flat 12-B, Sai Residency, Kothrud, Pune, Maharashtra – 411038",
+    "hint": "Where the printed card should be delivered. Give a full postal address with PIN code — the card is sent by ordinary post."
+   },
+   {
+    "label": "Mobile Number and Email",
+    "value": "97640 31852 / anjali.deshmukh@example.com",
+    "hint": "The OTP for e-Sign comes to this mobile and the e-PAN PDF comes to this email, so give a working pair."
+   },
+   {
+    "label": "Source of Income",
+    "value": "Salary",
+    "hint": "Choose Salary, Business or profession, House property, Capital gains, Other, or 'No income' for a student or homemaker."
+   },
+   {
+    "label": "AO Code (Area / AO Type / Range / AO Number)",
+    "value": "PNE W 55 1",
+    "hint": "Your assessing officer's code. Do not guess it — use the portal's 'AO Code Search' and pick the one for your city and income type."
+   },
+   {
+    "label": "Name to be Printed on the Card",
+    "value": "ANJALI DESHMUKH",
+    "hint": "Usually the same as your full name. It is printed in capitals, so check the spelling carefully — a reprint costs money."
+   }
+  ],
+  "demoSteps": [
+   "Open the Protean TIN-PAN portal and choose 'New PAN – Indian Citizen (Form 49A)'.",
+   "Pick the Aadhaar e-KYC and e-Sign route. Your photograph and details are pulled from Aadhaar, so no papers have to be posted anywhere.",
+   "Fill your name, father's name, address, source of income and the AO code — use the portal's AO Code Search rather than guessing.",
+   "Pay the fee online, roughly Rs.107 for a physical card delivered to an Indian address and less if you want only the e-PAN. Note the 15-digit acknowledgement number.",
+   "Authenticate with the Aadhaar OTP to e-Sign the form. There is no visit to any office on this route.",
+   "If you instead chose the physical mode, print the acknowledgement, paste two photographs, sign across them and post it to Protean's Pune office within 15 days — the application lapses otherwise.",
+   "The e-PAN PDF reaches your email in about 3 to 5 working days and the printed card follows by post in roughly two weeks.",
+   "If you need a PAN the same day and your mobile is linked to Aadhaar, the Income Tax portal's 'Instant e-PAN' issues one free in about ten minutes."
+  ],
+  "helpline": "020-27218080 — Protean TIN call centre · Income Tax helpline 1800-103-0025",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://tinpan.proteantech.in/",
+  "applyKind": "form"
+ },
+ {
+  "id": "passport",
+  "title": "Indian Passport (Fresh or Re-issue)",
+  "department": "Ministry of External Affairs — Passport Seva",
+  "level": "Central",
+  "state": "",
+  "category": "Identity",
+  "mode": "online",
+  "brief": "The passport is your proof of Indian citizenship and the document you travel abroad on. You apply online, then attend one appointment at a Passport Seva Kendra where your papers are checked and your photo and fingerprints are taken. A policeman usually visits your address afterwards.",
+  "benefit": "Passport in about 30 days",
+  "emoji": "🛂",
+  "colorHex": "#7B2FBE",
+  "eligibility": [
+   "Any Indian citizen, of any age — there is no minimum age, and infants get a passport valid for 5 years.",
+   "A minor under 18 applies through both parents, who must sign Annexure D consenting to it.",
+   "You must apply at the Regional Passport Office covering your present address, whether or not it is your home town.",
+   "Tatkaal is open to most applicants but not to those with a pending court case, an earlier passport that was impounded, or a doubtful citizenship claim.",
+   "Anyone who has passed Class 10 gets ECNR status, which removes the emigration check requirement for working abroad."
+  ],
+  "documents": [
+   "Proof of Present Address — Aadhaar, electricity or water bill, bank passbook with photo, or registered rent agreement",
+   "Proof of Date of Birth — birth certificate, Class 10 certificate, PAN or Aadhaar",
+   "Aadhaar card, which also serves as the standard proof of identity",
+   "Class 10 marksheet or certificate, if you want ECNR printed on the passport",
+   "Annexure D signed by both parents, plus their passports or IDs, when the applicant is a minor",
+   "The old passport in original, for a re-issue"
+  ],
+  "applyUrl": "https://services1.passportindia.gov.in/forms/PreLogin",
+  "portalName": "Passport Seva",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Type of Application",
+    "value": "Fresh passport, Normal scheme, 36 pages",
+    "hint": "Fresh if you have never held one, Re-issue if you are renewing. Choose Tatkaal only if you genuinely need it in a week — it costs considerably more."
+   },
+   {
+    "label": "Applicant's Full Name",
+    "value": "Mohammed Irfan Sheikh",
+    "hint": "Given name and surname in separate boxes, spelt exactly as on your Class 10 certificate. This spelling will follow you on every visa you ever apply for."
+   },
+   {
+    "label": "Date and Place of Birth",
+    "value": "27/06/1995, Hyderabad, Telangana",
+    "hint": "Date as on your birth certificate, and the district and state where you were born — not where you live now."
+   },
+   {
+    "label": "Father's and Mother's Name",
+    "value": "Abdul Rahim Sheikh / Nasreen Begum",
+    "hint": "Both are compulsory and both are printed inside the passport. Use full names, not initials."
+   },
+   {
+    "label": "Present Residential Address",
+    "value": "8-2-341, Road No. 5, Banjara Hills, Hyderabad, Telangana – 500034",
+    "hint": "Where you actually live now, because this is the address the police will visit. It decides which Passport Office handles your file."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 6666 3333",
+    "hint": "All 12 digits. A self-declaration that your Aadhaar details are correct is part of the form."
+   },
+   {
+    "label": "Educational Qualification",
+    "value": "Graduate (B.Com)",
+    "hint": "Be accurate — passing Class 10 or above is what gets you ECNR status, which matters if you plan to work in the Gulf."
+   },
+   {
+    "label": "Employment Type",
+    "value": "Private",
+    "hint": "Government, Public Sector, Private, Self-employed, Student, Homemaker or Retired. Government employees must also attach an Identity Certificate or NOC."
+   },
+   {
+    "label": "Emergency Contact",
+    "value": "Nasreen Begum (mother), 90001 47523",
+    "hint": "A relative or friend who is not travelling with you. Their name and phone number are printed in the back of the passport."
+   },
+   {
+    "label": "Passport Office and Appointment Slot",
+    "value": "RPO Hyderabad — PSK Ameerpet, 05/10/2026, 10:15 AM",
+    "hint": "The office is fixed by your address; you only choose the date and time. Slots open at a set hour each day and go quickly."
+   }
+  ],
+  "demoSteps": [
+   "Register on the Passport Seva portal, confirm the link sent to your email, and log in.",
+   "Choose 'Apply for Fresh Passport / Re-issue', fill the form online or upload the XML, and save it.",
+   "Pay the fee online — this is what unlocks the appointment calendar — and book a slot at your Passport Seva Kendra or Post Office PSK.",
+   "Attend the appointment in person on the given date, carrying every original plus one self-attested photocopy of each. Nobody can attend on your behalf.",
+   "Inside the PSK you pass three counters: A, where your documents are scanned and your photograph and fingerprints are captured; B, the Verification Officer; and C, the Granting Officer.",
+   "Police verification follows. A constable from your local station comes to your address to confirm you live there — keep your originals ready and be reachable on the phone number you gave.",
+   "Track the file number on the portal or the mPassport Seva app. Once granted, the passport is printed and sent by Speed Post with a tracking number.",
+   "Normal applications take roughly 30 to 45 days including police verification. Tatkaal, where the verification happens after the passport is issued, takes about 3 to 7 working days."
+  ],
+  "helpline": "1800-258-1800 — Passport Seva National Call Centre, toll-free",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://www.passportindia.gov.in/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "voter-id",
+  "title": "Voter Registration (Form 6)",
+  "department": "Election Commission of India",
+  "level": "Central",
+  "state": "",
+  "category": "Identity",
+  "mode": "online",
+  "brief": "Form 6 is how a first-time voter gets their name onto the electoral roll and receives an EPIC, the voter ID card. It is free. After you apply, the Booth Level Officer of your area comes to check that you really live at the address you gave.",
+  "benefit": "Voter ID card (EPIC)",
+  "emoji": "🗳️",
+  "colorHex": "#FF6B35",
+  "eligibility": [
+   "You must be a citizen of India — this is the one document that is closed to non-citizens.",
+   "You must be 18 or older on the qualifying date. There are four qualifying dates a year: 1 January, 1 April, 1 July and 1 October.",
+   "A 17-year-old may apply in advance; the name is added once the next qualifying date passes.",
+   "You must be an ordinary resident of the constituency you are applying in, not a temporary visitor.",
+   "You must not already be enrolled somewhere else — to move your entry to a new address, use Form 8 instead of Form 6."
+  ],
+  "documents": [
+   "Recent passport-size colour photograph with a plain white background",
+   "Proof of Age — birth certificate, Class 10 marksheet, PAN, passport or driving licence",
+   "Proof of Address — electricity, water or gas bill, bank passbook, rent agreement or Aadhaar",
+   "Aadhaar number, which is optional and collected on Form 6B",
+   "A declaration by a parent, along with their address proof, if the utility bill is not in your own name"
+  ],
+  "applyUrl": "https://voters.eci.gov.in/form6",
+  "portalName": "Voter Services portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "State, District and Assembly Constituency",
+    "value": "Karnataka / Bengaluru Urban / 165 – Jayanagar",
+    "hint": "Pick the constituency covering the address where you actually live. The portal shows the list once you choose the district."
+   },
+   {
+    "label": "Applicant's Full Name",
+    "value": "Lakshmi Narayan Gowda",
+    "hint": "As on your school certificate. The portal also asks for the same name in the state's own script, which it can transliterate for you."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "09/12/2007",
+    "hint": "DD/MM/YYYY. You must be 18 on the qualifying date, and the age proof you upload has to show this exact date."
+   },
+   {
+    "label": "Relative's Name and Relationship",
+    "value": "Narayan Gowda (Father)",
+    "hint": "Father, mother, husband or legal guardian. This name is printed on the EPIC below yours."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 5555 1111",
+    "hint": "Optional. Giving it helps the officer weed out duplicate entries, and you may tick 'I am not able to furnish Aadhaar' instead."
+   },
+   {
+    "label": "Mobile Number and Email",
+    "value": "80730 26914 / l.gowda@example.com",
+    "hint": "Every status update and the e-EPIC download link are sent here. Use a number you check."
+   },
+   {
+    "label": "Present Ordinary Residence Address",
+    "value": "No. 214, 9th Main, 4th Block, Jayanagar, Bengaluru – 560011",
+    "hint": "The address where you normally live and where the BLO will come looking for you. It must match the address proof you upload."
+   },
+   {
+    "label": "Age or Date of Birth Proof",
+    "value": "Class 10 marks card (Karnataka SSLC, 2023)",
+    "hint": "Upload a clear scan under the size limit the portal shows. A birth certificate or Class 10 marksheet is accepted everywhere."
+   },
+   {
+    "label": "Address Proof",
+    "value": "Electricity bill in father's name, with his declaration",
+    "hint": "If the bill is not in your name, attach the declaration from the family member whose name is on it, along with their own proof."
+   },
+   {
+    "label": "Photograph",
+    "value": "Colour photo, white background, JPG under 2 MB",
+    "hint": "Face straight to the camera, no cap and no dark glasses. This picture goes on your EPIC, so do not use a group photo cropped down."
+   }
+  ],
+  "demoSteps": [
+   "Sign up on the Voter Services portal with your mobile number and set a password.",
+   "Choose 'New registration for general electors (Form 6)'.",
+   "Fill your constituency, name, date of birth, relative's name and address; upload the photograph, age proof and address proof.",
+   "Submit and save the reference ID — that is how you track the application from here on.",
+   "The Booth Level Officer of your polling area visits your address to verify that you live there. Keep your original documents at hand; if nobody is home the application can be held up.",
+   "The Electoral Registration Officer then decides the claim, and a public notice is put up before the name is added.",
+   "Once approved, download the e-EPIC free from the portal. The printed PVC card is posted separately to your address.",
+   "The whole process usually takes a few weeks, and is faster when a roll revision is under way."
+  ],
+  "helpline": "1950 — National Voter Helpline (dial your district's STD code before it)",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://voters.eci.gov.in/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "driving-licence",
+  "title": "Driving Licence",
+  "department": "Ministry of Road Transport & Highways / State RTO",
+  "level": "Central",
+  "state": "",
+  "category": "Identity",
+  "mode": "online",
+  "brief": "A driving licence comes in two stages. First you get a learner's licence after a short test on road signs and rules, then you practise for at least a month and take a driving test at the RTO to get the permanent licence. Both stages start on Sarathi.",
+  "benefit": "Permanent driving licence",
+  "emoji": "🚗",
+  "colorHex": "#28A745",
+  "eligibility": [
+   "18 years for a motorcycle with gears and for a light motor vehicle such as a car.",
+   "16 years for a gearless two-wheeler up to 50cc, with the written consent of a parent or guardian.",
+   "20 years for a transport vehicle licence, along with the schooling your state requires and a year's driving experience.",
+   "You must hold a learner's licence for at least 30 days before you can sit the driving test, and it stays valid for 6 months.",
+   "You must be medically fit — a self-declaration on Form 1, or a doctor's certificate on Form 1A if you are over 40 or applying for a transport licence."
+  ],
+  "documents": [
+   "Proof of Age — birth certificate, Class 10 marksheet, PAN or passport",
+   "Proof of Address — Aadhaar, electricity bill, ration card or voter ID",
+   "Form 1 self-declaration of physical fitness, or Form 1A from a registered doctor where required",
+   "Passport-size photographs and a scanned signature",
+   "The learner's licence, when you come back for the permanent licence",
+   "Consent of a parent or guardian, for a 16-year-old applying for a gearless two-wheeler"
+  ],
+  "applyUrl": "https://sarathi.parivahan.gov.in/",
+  "portalName": "Sarathi Parivahan",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "State and RTO",
+    "value": "Uttar Pradesh / RTO Lucknow (UP-32)",
+    "hint": "Choose the RTO for the address where you live. Sarathi opens your state's own screens once you pick the state."
+   },
+   {
+    "label": "Applicant's Full Name",
+    "value": "Priya Sharma",
+    "hint": "As on your age proof. This is printed on the licence card and must match your Aadhaar."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "18/08/2004",
+    "hint": "DD/MM/YYYY. The portal checks your age against the class of vehicle you are applying for and rejects the form if you are short."
+   },
+   {
+    "label": "Father's or Husband's Name",
+    "value": "Rajendra Prasad Sharma",
+    "hint": "Full name, no initials. It is printed on the licence."
+   },
+   {
+    "label": "Class of Vehicle",
+    "value": "MCWG (motorcycle with gear) and LMV (car)",
+    "hint": "Tick every class you want. MCWOG is a scooter without gears, MCWG a geared motorcycle, LMV a car or jeep. Adding a class later means another test."
+   },
+   {
+    "label": "Present Address",
+    "value": "C-118, Sector 12, Indira Nagar, Lucknow, Uttar Pradesh – 226016",
+    "hint": "Must match your address proof, since the licence is posted there and the RTO is decided by it."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 4444 2222",
+    "hint": "Most states now allow Aadhaar e-KYC, which pulls in your name, photo and address and saves you a trip for document checking."
+   },
+   {
+    "label": "Blood Group",
+    "value": "B+",
+    "hint": "Printed on the licence and used by hospitals after an accident. Get it right."
+   },
+   {
+    "label": "Learner's Licence Number",
+    "value": "UP3220260012345",
+    "hint": "Leave blank when applying for the learner's licence. Fill it when you come back for the permanent licence after 30 days."
+   },
+   {
+    "label": "Test Slot",
+    "value": "Driving test, RTO Lucknow, 12/10/2026, 11:00 AM",
+    "hint": "Book after paying the fee. Reach the RTO track on time with the vehicle of the class you are testing for."
+   }
+  ],
+  "demoSteps": [
+   "Open Sarathi, choose your state and select 'Apply for Learner Licence'.",
+   "Fill Form 2, upload your age and address proof and the Form 1 self-declaration — or Form 1A from a doctor if you are over 40 or want a transport licence.",
+   "Pay the fee and book a slot. Unless your state completes Aadhaar e-KYC online, you go to the RTO for document verification, where your photograph and signature are captured.",
+   "Sit the learner's test: ten multiple-choice questions on road signs and traffic rules, taken at the RTO or from home in states that allow it. The learner's licence is issued the same day.",
+   "Practise for at least 30 days. The learner's licence is valid for 6 months.",
+   "Between the 31st day and the end of the sixth month, apply for the permanent licence on Form 4, pay the fee and book a driving test slot.",
+   "Take the driving test at the RTO track in a vehicle of the class you applied for — you have to arrange the vehicle yourself, and the inspector checks control, parking and reversing.",
+   "On passing, the licence is printed and posted to your address, and it can also be pulled into DigiLocker or mParivahan. It is valid for 20 years or until you turn 50, whichever comes first."
+  ],
+  "helpline": "0120-4925505 — Parivahan Sewa helpdesk · your own RTO for test slots and document checks",
+  "lastVerified": "September 2026"
+ },
+ {
+  "id": "birth-certificate",
+  "title": "Birth Certificate (Civil Registration System)",
+  "department": "Registrar General of India / State Registrar of Births & Deaths",
+  "level": "Central",
+  "state": "",
+  "category": "Identity",
+  "mode": "online",
+  "brief": "Every birth in India must be registered within 21 days, and it costs nothing in that window. The birth certificate is the first document a child owns and the one every school, passport office and employer later asks for. Since the 2023 amendment the whole system is digital and the certificate can be downloaded.",
+  "benefit": "Legal birth certificate",
+  "emoji": "👶",
+  "colorHex": "#E91E8C",
+  "eligibility": [
+   "Every birth that takes place in India must be registered, whatever the parents' nationality or religion.",
+   "Free if reported within 21 days of the birth.",
+   "Between 22 and 30 days it is registered on payment of a late fee.",
+   "Between 30 days and one year it needs the written permission of the District Magistrate or the prescribed authority, plus an affidavit.",
+   "After one year it can only be registered on the order of a Judicial Magistrate First Class.",
+   "For a hospital birth the hospital is the informant; for a birth at home it is the head of the household."
+  ],
+  "documents": [
+   "Discharge summary or the birth letter issued by the hospital or nursing home",
+   "Aadhaar of both parents",
+   "Parents' marriage certificate, where the state asks for it",
+   "Proof of the parents' address — electricity bill, ration card or Aadhaar",
+   "A declaration by the head of the household, for a birth at home",
+   "Affidavit and the competent authority's permission, for a late registration"
+  ],
+  "applyUrl": "https://dc.crsorgi.gov.in/crs/Auth/general-public",
+  "portalName": "Civil Registration System",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Child's Name",
+    "value": "Aarav Ravindra Kulkarni",
+    "hint": "May be left blank if the name is not decided yet — it can be added later, free, within the period your state allows."
+   },
+   {
+    "label": "Date and Time of Birth",
+    "value": "03/08/2026, 04:20 AM",
+    "hint": "Copy both exactly from the hospital discharge summary. A mismatch here is the commonest reason a certificate has to be corrected later."
+   },
+   {
+    "label": "Sex",
+    "value": "Male",
+    "hint": "Male, Female or Transgender."
+   },
+   {
+    "label": "Place of Birth",
+    "value": "Sahyadri Hospital, Nashik, Maharashtra (institutional)",
+    "hint": "Choose Hospital, Home or Other. For a hospital birth give its registered name; for a home birth give the full house address."
+   },
+   {
+    "label": "Mother's Name and Aadhaar",
+    "value": "Sneha Ravindra Kulkarni — 9999 3333 1111",
+    "hint": "Full name as on her Aadhaar. The spelling is carried onto the child's certificate and is hard to change afterwards."
+   },
+   {
+    "label": "Father's Name and Aadhaar",
+    "value": "Ravindra Ganesh Kulkarni — 9999 3333 2222",
+    "hint": "Full name as on his Aadhaar, matching the hospital record."
+   },
+   {
+    "label": "Permanent Address of the Parents",
+    "value": "Plot 7, Ganesh Colony, Panchavati, Nashik, Maharashtra – 422003",
+    "hint": "The family's own address, which may differ from the hospital's. The certificate is issued by the registrar covering the place of birth, not this address."
+   },
+   {
+    "label": "Mother's Age, Education and Occupation",
+    "value": "Age at marriage 24, age at this birth 27; Graduate; Homemaker",
+    "hint": "Statistical questions that the form requires. Answer honestly — they do not affect whether the certificate is issued."
+   },
+   {
+    "label": "Informant's Name and Relationship",
+    "value": "Ravindra Ganesh Kulkarni (Father)",
+    "hint": "The person reporting the birth. For a hospital birth this is usually the hospital's records clerk; for a home birth, the head of the household."
+   },
+   {
+    "label": "Registration Unit",
+    "value": "Nashik Municipal Corporation, Zone 3",
+    "hint": "The local body covering the place of birth — municipal corporation, nagar palika or gram panchayat. The portal lists the units once you pick the district."
+   }
+  ],
+  "demoSteps": [
+   "If the baby was born in a hospital, the hospital reports the birth itself. Ask the records desk for the reporting or acknowledgement number before you are discharged.",
+   "For a birth at home, the head of the household registers on the CRS portal as 'General Public' and verifies the mobile number by OTP.",
+   "Fill Form 1, the Birth Report, within 21 days of the birth — registration is free inside that window.",
+   "Attach the hospital discharge summary, or a declaration for a home birth, along with both parents' Aadhaar and an address proof.",
+   "The local Registrar of Births & Deaths checks the entry and registers it. There is no biometric visit and no interview, but the registrar may call you to clarify a detail.",
+   "A late report needs more: a fee after 21 days, the prescribed authority's written permission after 30 days, and a Judicial Magistrate's order after a year.",
+   "Download the digitally signed certificate from the portal once it is issued, or collect a copy from the registrar's office. It also appears in DigiLocker.",
+   "Check every spelling and the date on the certificate the day you receive it — correcting it later needs a separate application with supporting proof."
+  ],
+  "helpline": "Your municipal corporation, nagar palika or gram panchayat Registrar of Births & Deaths — CRS applications are decided by the local registrar rather than a central number",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://dc.crsorgi.gov.in/crs/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "jeevan-pramaan",
+  "title": "Jeevan Pramaan — Digital Life Certificate",
+  "department": "Ministry of Electronics & Information Technology (MeitY)",
+  "level": "Central",
+  "state": "",
+  "category": "Pension",
+  "mode": "online",
+  "brief": "Every pensioner has to prove once a year that they are alive, or the pension stops. Jeevan Pramaan replaces the trip to the bank with a biometric or face scan that can be done at home on a phone. The certificate reaches your bank electronically, so there is no paper to hand in.",
+  "benefit": "Digital Life Certificate (Pramaan ID)",
+  "emoji": "👵",
+  "colorHex": "#F9A825",
+  "eligibility": [
+   "Any pensioner of the Central Government, a State Government or another government body whose pension disbursing agency has joined Jeevan Pramaan.",
+   "Your Aadhaar must already be recorded with the bank or agency that pays your pension — without that the certificate cannot be matched to your file.",
+   "The mobile number linked to your Aadhaar must be working, since the OTP goes there.",
+   "The certificate is submitted every year in November, and pensioners aged 80 and above may submit from 1 October.",
+   "Family pensioners can submit in the same way, using their own Aadhaar and the PPO number of the family pension."
+  ],
+  "documents": [
+   "Aadhaar number, with the mobile linked to it in working order",
+   "PPO number, from the Pension Payment Order book",
+   "Bank account number and the branch where the pension is credited",
+   "The name of the pension sanctioning authority and the disbursing agency",
+   "A smartphone with the Jeevan Pramaan or Face Authentication app, or a UIDAI-certified fingerprint or iris device"
+  ],
+  "applyUrl": "https://jeevanpramaan.gov.in/v2.0/apppackage/fappdownload",
+  "portalName": "Jeevan Pramaan",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 2222 8888",
+    "hint": "The same Aadhaar that your pension office holds on record. If the bank has a different number on file, get that corrected first or the certificate will not attach."
+   },
+   {
+    "label": "Pensioner's Name",
+    "value": "Shanti Devi Verma",
+    "hint": "Exactly as it appears in your Aadhaar record, not as it appears in the PPO, if the two differ."
+   },
+   {
+    "label": "Mobile Number",
+    "value": "94150 77321",
+    "hint": "Must be the number linked to your Aadhaar — the authentication OTP is sent there and nowhere else."
+   },
+   {
+    "label": "Type of Pension",
+    "value": "Service pension (superannuation)",
+    "hint": "Service, family, disability or another category, as written in your PPO."
+   },
+   {
+    "label": "Pension Sanctioning Authority",
+    "value": "Accountant General, Uttar Pradesh",
+    "hint": "The office that sanctioned the pension — an Accountant General, a ministry, the CGDA for defence pensioners, or a state department. Pick it from the list."
+   },
+   {
+    "label": "Disbursing Agency and Branch",
+    "value": "State Bank of India, Aliganj Branch, Lucknow",
+    "hint": "The bank or post office that actually credits your pension each month. The certificate is delivered to this agency."
+   },
+   {
+    "label": "PPO Number",
+    "value": "900012345678",
+    "hint": "The Pension Payment Order number from the first page of your PPO book. Copy every digit — a wrong PPO number is the usual reason a certificate does not reach the bank."
+   },
+   {
+    "label": "Pension Account Number",
+    "value": "0000 1111 2222 (SBI, IFSC SBIN0000999)",
+    "hint": "The account the pension is credited to, with its IFSC. Check it against your passbook."
+   },
+   {
+    "label": "Re-employment and Re-marriage Declaration",
+    "value": "Not re-employed; not re-married",
+    "hint": "A legal declaration that affects your entitlement. Family pensioners must answer the re-marriage question honestly; a false declaration can mean recovery of the pension."
+   },
+   {
+    "label": "Biometric Authentication",
+    "value": "Right thumb fingerprint captured on the device",
+    "hint": "Fingerprint or iris on a certified device, or a face scan through the Face Authentication app. Elderly fingerprints often fail — use the face scan instead of trying repeatedly."
+   }
+  ],
+  "demoSteps": [
+   "Install the Jeevan Pramaan app and the Aadhaar Face RD app on a smartphone, or go to a bank branch, post office, CSC or your pension office where an operator has the equipment.",
+   "Register with your Aadhaar number, mobile and email, and confirm the OTP that arrives.",
+   "Enter the PPO number, the sanctioning authority, the disbursing agency and your pension account number.",
+   "Authenticate biometrically — a fingerprint or iris scan on a UIDAI-certified device, or a face scan through the app, which needs no device at all. This step has to be done by the pensioner in person, but it can be done at home.",
+   "The Pramaan ID and the life certificate are generated on the spot and an SMS confirms it.",
+   "The certificate travels electronically to your pension disbursing agency. Nothing has to be printed, signed or carried to the bank.",
+   "Download the certificate from the Jeevan Pramaan site using your Pramaan ID if you want a copy for your records.",
+   "Repeat it every November. Pensioners of 80 and above may submit from 1 October, and the certificate stays valid for a year from the date it is generated."
+  ],
+  "helpline": "1800-111-555 — CSC and Jeevan Pramaan support · jeevanpramaan@gov.in",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://jeevanpramaan.gov.in/",
+  "applyKind": "service-page"
+ },
+ {
+  "id": "udid",
+  "title": "UDID — Unique Disability ID Card",
+  "department": "Dept. of Empowerment of Persons with Disabilities, Ministry of Social Justice & Empowerment",
+  "level": "Central",
+  "state": "",
+  "category": "Pension",
+  "mode": "online",
+  "brief": "The UDID card is a single national identity card for a person with a disability, and it carries the disability certificate on it. One card replaces the separate certificates that different states and departments used to ask for, and it is what gets you reservation in jobs and education, travel concessions, scholarships and the disability pension.",
+  "benefit": "UDID card and disability certificate",
+  "emoji": "♿",
+  "colorHex": "#455A64",
+  "eligibility": [
+   "Any person with one of the 21 disabilities listed in the Rights of Persons with Disabilities Act, 2016.",
+   "Disability is assessed by a Medical Board, and most benefits require a certified disability of 40 per cent or more.",
+   "There is no age limit, and there is no income condition for the card itself.",
+   "Someone who already holds a state disability certificate can have it converted to a UDID without being examined again, if the certificate is valid.",
+   "The card is free, and the application, the medical assessment and the card all cost nothing."
+  ],
+  "documents": [
+   "Aadhaar card of the applicant",
+   "Recent passport-size colour photograph and a scanned signature or thumb impression",
+   "Any existing disability certificate, if one has already been issued",
+   "Medical reports or hospital records supporting the disability claim",
+   "Proof of address — Aadhaar, ration card, electricity bill or voter ID",
+   "Income certificate and BPL card, if you want to claim income-linked benefits"
+  ],
+  "applyUrl": "https://swavlambancard.gov.in/Applyudid",
+  "portalName": "UDID portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Applicant's Full Name",
+    "value": "Sunil Kumar Mahto",
+    "hint": "As on Aadhaar. The card is printed from this entry, so check the spelling before submitting."
+   },
+   {
+    "label": "Date of Birth",
+    "value": "21/05/2001",
+    "hint": "DD/MM/YYYY as on your birth certificate or Aadhaar. For a child, the parent or guardian fills the form."
+   },
+   {
+    "label": "Aadhaar Number",
+    "value": "9999 1111 4444",
+    "hint": "All 12 digits. Aadhaar is how the card is kept unique across states, so the same person cannot hold two."
+   },
+   {
+    "label": "Type of Disability",
+    "value": "Locomotor disability (both lower limbs)",
+    "hint": "Choose from the 21 conditions listed in the Act — locomotor, visual, hearing, speech, intellectual, multiple and others. The Medical Board confirms it later."
+   },
+   {
+    "label": "Existing Disability Certificate",
+    "value": "None — to be assessed",
+    "hint": "If a state certificate was issued to you earlier, enter its number and upload it; you may then be spared a fresh examination."
+   },
+   {
+    "label": "Present and Permanent Address",
+    "value": "Village Barwadih, Post Chatra, District Latehar, Jharkhand – 829202",
+    "hint": "This decides which district's CMO office handles your file and which hospital you are called to, so give the address where you actually live."
+   },
+   {
+    "label": "Mobile Number and Email",
+    "value": "76210 58493 / sunil.mahto@example.com",
+    "hint": "The assessment appointment and every status change are sent here. Give a number someone in the house answers."
+   },
+   {
+    "label": "Employment and Education Status",
+    "value": "Unemployed; passed Class 12",
+    "hint": "Used for scholarship and job-reservation schemes linked to the card. It does not affect whether the certificate is issued."
+   },
+   {
+    "label": "Photograph and Signature",
+    "value": "Colour passport photo, JPG under 1 MB, and a scanned signature",
+    "hint": "A plain background, face clearly visible. A thumb impression is accepted in place of a signature."
+   },
+   {
+    "label": "Hospital for Assessment",
+    "value": "Sadar Hospital, Latehar",
+    "hint": "Pick from the hospitals the portal lists for your district, or leave it to the CMO office to assign one."
+   }
+  ],
+  "demoSteps": [
+   "Register on the UDID portal, or the UDID mobile app, and choose 'Apply for Disability Certificate and UDID Card'.",
+   "Fill your personal, disability, employment and identity details and upload your photograph, signature, Aadhaar and any existing disability certificate.",
+   "Submit the form and note the enrolment number. The CMO office of your district verifies what you have entered.",
+   "You are given a medical assessment appointment at a government hospital. Attend it in person — a specialist or a Medical Board examines you and records the type of disability and the percentage.",
+   "The board's finding is uploaded, the CMO signs off, and a UDID number is generated.",
+   "Download the e-Disability Certificate and the e-UDID card from the portal as soon as they appear — they are valid on their own and you need not wait for the plastic card.",
+   "The PVC card is printed centrally and delivered by post. Track it on the portal with your enrolment number.",
+   "A certificate given to a child, or one issued for a condition that can change, carries an expiry date and has to be renewed by a fresh assessment."
+  ],
+  "helpline": "Your district Social Welfare Office or the Chief Medical Officer's office, which processes UDID applications and fixes the medical assessment",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://www.swavlambancard.gov.in/",
+  "applyKind": "form"
+ }
+]

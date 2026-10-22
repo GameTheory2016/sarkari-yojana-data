@@ -1,0 +1,277 @@
+{
+ "schemes": [
+  {
+   "id": "sk-sikkim-go",
+   "title": "Sikkim GO — State e-Services Single Sign-On",
+   "department": "Department of Information Technology, Government of Sikkim",
+   "level": "State",
+   "state": "Sikkim",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Sikkim GO is one login for the state's online services — certificates of identification, income, and other departmental applications. You register once and use the same account for whatever department you need afterwards.",
+   "benefit": "One login for Sikkim's certificates and departmental services",
+   "emoji": "🗻",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Sikkim, applying in the district where the family lives",
+    "A Certificate of Identification is issued to those whose families are recorded in the Sikkim Subject Register or its successor records",
+    "An income certificate is valid for one year",
+    "A mobile number linked to Aadhaar, since the account is confirmed by OTP"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Certificate of Identification of a parent, where claiming one",
+    "Ration card of the family",
+    "School certificate or birth certificate for date of birth",
+    "Electricity bill or rent agreement for the address",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://sso.sikkim.gov.in/account/register",
+   "portalName": "Sikkim GO",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Income Certificate",
+     "hint": "Certificate of Identification, income, residence or a departmental service. Each opens its own form once you are logged in."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Pemba Tshering Bhutia",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Karma Tshering Bhutia",
+     "hint": "Used to identify the family; essential for a Certificate of Identification, which runs through the father's record."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7712 4408",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Sub-division / Village or Ward",
+     "value": "Gangtok / Gangtok / Ranipool",
+     "hint": "Where the family lives. The Sub-Divisional Magistrate of this sub-division signs the certificate."
+    },
+    {
+     "label": "Parent's Certificate of Identification number",
+     "value": "COI/GTK/1998/02214",
+     "hint": "Where you are claiming a Certificate of Identification, the parent's number is the paper that decides the case."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "2,16,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Purpose",
+     "value": "Scholarship application",
+     "hint": "Recorded for the file. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 77124",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register once on sso.sikkim.gov.in with your Aadhaar and mobile, and confirm the OTP. The same account then works for every department.",
+    "Choose the service and fill the form from your Aadhaar and ration card.",
+    "Upload the documents. For a Certificate of Identification, the parent's certificate is the one that matters most.",
+    "Submit, pay any fee, and note the application number.",
+    "The block or sub-division staff verify the family, then the Sub-Divisional Magistrate signs.",
+    "Download the signed certificate from the same login, and check the spelling of names before relying on it."
+   ],
+   "helpline": "Your Sub-Divisional Magistrate's office, or the district administrative centre",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://sso.sikkim.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "sk-spsc-recruitment",
+   "title": "Sikkim Public Service Commission Recruitment",
+   "department": "Sikkim Public Service Commission",
+   "level": "State",
+   "state": "Sikkim",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Sikkim Public Service Commission recruits for the state civil service and for the gazetted and non-gazetted posts of the state departments. Applications are filed on its own online recruitment system.",
+   "benefit": "One online profile for every Sikkim PSC recruitment",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Holder of a Sikkim Subject Certificate or Certificate of Identification, for most state posts",
+    "Age as the advertisement states, usually 21 to 30 for the civil service, with relaxation for reserved categories",
+    "The qualification the advertisement requires, complete on its closing date",
+    "Knowledge of a Sikkimese language as the advertisement specifies for some posts"
+   ],
+   "documents": [
+    "Certificate of Identification or Sikkim Subject Certificate",
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Degree certificate and marksheets",
+    "Category certificate, where claiming a reservation",
+    "Employment exchange registration, where the advertisement asks for it",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://spscrecruitment.sikkim.gov.in/rpaonline/register",
+   "portalName": "SPSC Recruitment Process Application",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Post applied for",
+     "value": "Sikkim Civil Service Examination",
+     "hint": "One application per advertisement. Read the qualification and age limit in that advertisement before paying."
+    },
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Pemba Tshering Bhutia",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Karma Tshering Bhutia",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "08-12-1998",
+     "hint": "As on the Class 10 certificate. Age limits count from this date."
+    },
+    {
+     "label": "Certificate of Identification number",
+     "value": "COI/GTK/2017/04471",
+     "hint": "Most Sikkim state posts require it. Get it from Sikkim GO before the closing date."
+    },
+    {
+     "label": "Category claimed",
+     "value": "Bhutia-Lepcha",
+     "hint": "Claim only what you hold a Sikkim certificate for. The state's reservation categories differ from those elsewhere."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A., Sikkim University, 2020, 66%",
+     "hint": "It must be complete on the advertisement's closing date."
+    },
+    {
+     "label": "Employment exchange registration number",
+     "value": "GTK/EE/2021/11847",
+     "hint": "Some advertisements require a live registration. Renew it if it has lapsed."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 77124 / pemba.bhutia@example.com",
+     "hint": "The application number, admit card and every notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the Certificate of Identification in hand before anything else. Most Sikkim state posts cannot be applied for without it.",
+    "Register on the SPSC recruitment portal with your name and date of birth exactly as on the Class 10 certificate.",
+    "Open the advertisement, apply through the same login, upload the photograph and signature in the sizes stated, and pay the fee.",
+    "Print the filled application and keep it with the payment receipt until the recruitment ends.",
+    "Download the admit card from the same login and take it with a photo ID.",
+    "Results are published on the Commission's site. Document verification is last, where the originals of the COI and category certificate must be produced."
+   ],
+   "helpline": "Sikkim Public Service Commission, Old Tourism Complex, Gangtok",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://spscrecruitment.sikkim.gov.in/rpaonline/login",
+   "applyKind": "registration"
+  },
+  {
+   "id": "tr-edistrict",
+   "title": "Tripura e-District — Certificates and Digital Seva",
+   "department": "Information Technology Department, Government of Tripura",
+   "level": "State",
+   "state": "Tripura",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Tripura's e-District portal, where income, caste, permanent residence and other certificates are applied for and downloaded, along with a range of departmental services. The same services are available across a counter at a Common Service Centre.",
+   "benefit": "Income, caste and permanent residence certificates applied for and downloaded online",
+   "emoji": "🌿",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Tripura, applying in the sub-division where the family lives",
+    "A Scheduled Tribe certificate is issued for the tribes notified for Tripura",
+    "A permanent residence certificate needs proof the family has lived in the state for the qualifying period",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Voter card or electricity bill as residence proof",
+    "Father's caste or tribe certificate, for a caste certificate",
+    "School certificate or birth certificate for date of birth",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://edistrict.tripura.gov.in/citizenRegistration.html",
+   "portalName": "e-District Tripura",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Scheduled Tribe Certificate",
+     "hint": "Income, caste, Scheduled Tribe, permanent residence or a departmental service. Each has its own form and proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Bikash Debbarma",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Ratan Debbarma",
+     "hint": "For a tribe certificate this decides the case — tribe is traced through the father's family record."
+    },
+    {
+     "label": "Tribe or caste claimed",
+     "value": "Tripuri (Scheduled Tribe)",
+     "hint": "Pick from the list notified for Tripura. A tribe notified in another state does not qualify here."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2248 8017",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Sub-division / Village or Ward",
+     "value": "West Tripura / Sadar / Ranirbazar",
+     "hint": "Where the family lives. The Sub-Divisional Magistrate of this sub-division signs."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "96,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Purpose",
+     "value": "College admission under reservation",
+     "hint": "Recorded for the file. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 22488",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on edistrict.tripura.gov.in with your mobile and confirm the OTP, or go to a Common Service Centre, which files it for the notified fee.",
+    "Choose the certificate and fill the form from your Aadhaar and ration card.",
+    "Upload the documents. For a tribe certificate, the father's certificate is the paper that matters most.",
+    "Submit, pay the fee, and note the application number.",
+    "The block staff verify the family, then the Sub-Divisional Magistrate signs the certificate.",
+    "Download it from the same login and check the tribe name and your father's name at once, because a correction means applying again."
+   ],
+   "helpline": "Your Sub-Divisional Magistrate's office, or the District Magistrate's office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.tripura.gov.in/",
+   "applyKind": "registration"
+  }
+ ]
+}

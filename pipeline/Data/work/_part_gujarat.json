@@ -1,0 +1,1174 @@
+{
+ "schemes": [
+  {
+   "id": "gj-ikhedut",
+   "title": "iKhedut Farm Subsidy - Equipment & Inputs",
+   "department": "Agriculture, Farmers Welfare & Co-operation Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Subsidy on farm equipment and inputs - rotavator, pump set, thresher, sprayer, drip irrigation, seeds and plant protection items. Applications open only in windows the department announces, so the portal is closed most of the year. The whole site is in Gujarati. Very few farmers apply from home: most go to the Village Computer Entrepreneur (VCE) at the e-Gram centre in the Gram Panchayat, who fills the form and prints it.",
+   "benefit": "25% to 75% of the cost, with a ceiling fixed for each item",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Farmer with agricultural land in Gujarat, held in the applicant's own name",
+    "7/12 and 8-A land records must show the applicant's name",
+    "Higher rates of subsidy for small and marginal farmers, women farmers and SC/ST farmers",
+    "One item can be claimed again only after the cycle fixed for it (a tractor, for example, only once in several years)",
+    "One application per item per window; the same family cannot claim the same item twice"
+   ],
+   "documents": [
+    "7/12 and 8-A extracts of the land (download free from AnyRoR)",
+    "Aadhaar card",
+    "First page of the bank passbook or a cancelled cheque",
+    "Caste certificate, if claiming the SC or ST rate",
+    "Ration card",
+    "Quotation from a dealer approved by the department, where the item needs one"
+   ],
+   "applyUrl": "https://ikhedut.gujarat.gov.in/site/login",
+   "portalName": "iKhedut portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Farmer's name (as on the 7/12)",
+     "value": "Rameshbhai Kanjibhai Patel",
+     "hint": "Write the name exactly as it is printed on the land record, not a short form."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 8877 6655",
+     "hint": "Your own 12-digit Aadhaar number. It must be the one linked to your bank account, or the subsidy will not reach you."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "A number you actually carry. Every message about approval and inspection comes to it."
+    },
+    {
+     "label": "District / Taluka / Village",
+     "value": "Kheda / Matar / Limbasi",
+     "hint": "Pick from the drop-downs. Choose the village where the land is, not where you live, if the two are different."
+    },
+    {
+     "label": "Survey number (from 7/12)",
+     "value": "142/2 paiki 1",
+     "hint": "Copy it letter for letter from the 7/12, including 'paiki' and the part number."
+    },
+    {
+     "label": "Khata number (from 8-A)",
+     "value": "87",
+     "hint": "The account number on the 8-A extract. It covers all your survey numbers in that village."
+    },
+    {
+     "label": "Component applied for",
+     "value": "Rotavator (35 HP and above)",
+     "hint": "Choose the exact item and size. If you buy a different size later, the subsidy is refused."
+    },
+    {
+     "label": "Land area for this item (hectare)",
+     "value": "1.62",
+     "hint": "Area as shown on the 7/12, in hectares. One vigha is roughly 0.16 hectare."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "20123456789012, BARB0NADIAD",
+     "hint": "The account must be in the applicant's own name and Aadhaar-seeded. A joint account in the father's name is a common reason for failed payment."
+    },
+    {
+     "label": "Category",
+     "value": "General",
+     "hint": "General, SC, ST or OBC. Say SC or ST only if you can attach the certificate."
+    }
+   ],
+   "demoSteps": [
+    "Check on the portal whether the window for your scheme group is open - Agriculture, Horticulture, Animal Husbandry or Fisheries each open separately.",
+    "Choose 'Apply as an individual farmer'. If you have applied before, say yes and give your registration number instead of registering again.",
+    "Fill the form. The portal is in Gujarati; type names in Gujarati as they appear on the land record.",
+    "Save the form and note the application number that appears.",
+    "Now confirm the application. This is the step people miss - an application that is saved but not confirmed is treated as never made, and it cannot be confirmed after the window shuts.",
+    "Print the confirmed application and sign it.",
+    "Attach the 7/12, 8-A, Aadhaar, bank passbook copy and caste certificate, and hand the set to the Gram Sevak, the Taluka Agriculture Office or the VCE at the e-Gram centre within the days printed on the form.",
+    "Wait for pre-approval (purva manjuri). Do not buy the item before it comes - a purchase made earlier gets no subsidy.",
+    "Buy from an approved dealer, submit the bill and the dealer's certificate.",
+    "An officer inspects the item, and the subsidy is credited to your bank account by DBT."
+   ],
+   "helpline": "Kisan Call Centre 1800-180-1551, or your Taluka Agriculture Officer / Gram Sevak",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ikhedut.gujarat.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "gj-mysy",
+   "title": "Mukhyamantri Yuva Swavalamban Yojana (MYSY)",
+   "department": "Knowledge Consortium of Gujarat, Education Department",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Education",
+   "mode": "online",
+   "brief": "Fee, hostel and book help for students of middle-income families who did well in the board exam. It is meant for the student who got the marks but whose family cannot pay the college fee. The portal works in Gujarati and English. After filling the form online you still have to carry the printout and your original certificates to an MYSY help centre - the application is not complete until that verification is done.",
+   "benefit": "Tuition help up to Rs.2 lakh a year for medical and dental, Rs.50,000 a year for degree and diploma courses, plus Rs.12,000 hostel help and a book grant",
+   "emoji": "🎓",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "80th percentile or above in the Class 10 board exam for a diploma, or Class 12 for a degree course",
+    "Family income up to Rs.6 lakh a year",
+    "Studying in a recognised college or institute in Gujarat",
+    "Admission taken through the official admission committee, or against a management seat where the scheme allows it",
+    "Renewal every year needs a pass result and the attendance the college certifies"
+   ],
+   "documents": [
+    "Class 10 and Class 12 marksheets",
+    "Income certificate from the Mamlatdar, issued within the period the portal states",
+    "Fee receipt and the admission letter",
+    "Aadhaar card",
+    "Bank passbook in the student's own name",
+    "Proof that the family home is far from the college, for the hostel grant",
+    "Self-declaration on the form the portal provides"
+   ],
+   "applyUrl": "https://mysy.gujarat.gov.in/FrmStudentLogin.aspx",
+   "portalName": "MYSY portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Student's name",
+     "value": "Dhruvkumar Ashokbhai Joshi",
+     "hint": "Exactly as printed on the Class 10 marksheet. The board record is what the portal checks against."
+    },
+    {
+     "label": "Class 12 seat number and year",
+     "value": "B 412987, March 2026",
+     "hint": "From your board marksheet. The portal pulls your percentile from this, so one wrong digit stops the form."
+    },
+    {
+     "label": "Percentile",
+     "value": "88.42",
+     "hint": "The percentile printed on the marksheet, not the percentage. 80 and above qualifies."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 4433 2211",
+     "hint": "The student's own Aadhaar, seeded to the student's own bank account."
+    },
+    {
+     "label": "Course and college",
+     "value": "B.E. Civil, first year, government engineering college, Rajkot",
+     "hint": "Course, year of study and the full name of the institute as it appears on the admission letter."
+    },
+    {
+     "label": "Family annual income",
+     "value": "Rs.2,40,000",
+     "hint": "The figure on the Mamlatdar's income certificate, counting both parents. It must be Rs.6 lakh or less."
+    },
+    {
+     "label": "Income certificate number and date",
+     "value": "MAM/KHE/2026/4471 dated 14-06-2026",
+     "hint": "From the certificate issued by the Mamlatdar or the Jan Seva Kendra. An old certificate is rejected."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "30129876543210, SBIN0001234",
+     "hint": "The student's own savings account. A parent's account is not accepted."
+    },
+    {
+     "label": "Hostel help needed",
+     "value": "Yes - home at Limbasi, Kheda; college at Rajkot",
+     "hint": "Say yes only if you stay in a hostel or on rent because the college is far. Keep the rent agreement or hostel receipt ready."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "The user id and PIN for the portal come to this number by SMS. Use the student's own number."
+    }
+   ],
+   "demoSteps": [
+    "Get the income certificate first, from the Mamlatdar's office or a Jan Seva Kendra. It takes a few days and the form cannot be completed without it.",
+    "Register on the MYSY portal with the student's mobile number. A user id and PIN come back by SMS - write them down, you need them every year for renewal.",
+    "Log in and choose the right form: fresh application if this is the first year, renewal if you got the help last year.",
+    "Fill the form. Switch the portal to Gujarati if that is easier to read; the entries are the same either way.",
+    "Upload the marksheets, income certificate, fee receipt and bank passbook as clear scans.",
+    "Submit and print the application.",
+    "Take the printout with all original certificates to the nearest MYSY help centre. These sit inside selected colleges and the portal lists them district by district.",
+    "The officer at the help centre checks the originals and gives an acknowledgement. Keep it - it is your proof of applying.",
+    "Track the status on the portal with your user id.",
+    "The amount comes to the student's bank account by DBT, usually in parts as the college confirms the fee.",
+    "Apply again the next year with the new marksheet. Missing a year's renewal ends the help."
+   ],
+   "helpline": "MYSY help centre at your college - the portal lists one for every district",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://mysy.gujarat.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "gj-scholarship",
+   "title": "Post-Matric Scholarship for SC, ST, OBC and EBC Students",
+   "department": "Scheduled Caste Welfare, Developing Castes Welfare and Tribal Development Departments, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Education",
+   "mode": "online",
+   "brief": "Fee reimbursement and a maintenance allowance for students of SC, ST, OBC and EBC families studying after Class 10. Every one of these scholarships is applied for on Digital Gujarat with a single citizen account, and the site works in Gujarati, Hindi and English. Students without a computer at home usually do it at the college scholarship desk or at a Jan Seva Kendra.",
+   "benefit": "Tuition and other compulsory fees reimbursed, plus a monthly maintenance allowance that is higher for hostellers",
+   "emoji": "📚",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Domicile of Gujarat, with a caste certificate for SC, ST, OBC or an EBC certificate",
+    "Studying a recognised course after Class 10, in Gujarat",
+    "Family income within the ceiling fixed for your category - it differs for SC, ST, OBC and EBC, and the current figure is shown on the portal before you apply",
+    "Not repeating the same year of the same course",
+    "One scholarship only - you cannot draw two government scholarships for the same year"
+   ],
+   "documents": [
+    "Caste certificate issued by the competent authority",
+    "Income certificate from the Mamlatdar or the Jan Seva Kendra",
+    "Last year's marksheet and the current admission or fee receipt",
+    "Aadhaar card",
+    "Bank passbook in the student's own name, Aadhaar-seeded",
+    "Hostel certificate from the warden, if claiming the hosteller rate",
+    "School leaving certificate"
+   ],
+   "applyUrl": "https://gssp.gujarat.gov.in/loginapp/CitizenLogin.aspx",
+   "portalName": "Digital Gujarat",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Student's name",
+     "value": "Kiranben Dineshbhai Chavda",
+     "hint": "As on the Class 10 marksheet. The name must match the bank account too, or the transfer fails."
+    },
+    {
+     "label": "Digital Gujarat registered mobile",
+     "value": "98765 43210",
+     "hint": "One account, one mobile number. Use the student's own - the OTP for every login comes here."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 2255 1133",
+     "hint": "The student's Aadhaar. Check on the portal that it is seeded to the bank account before you submit."
+    },
+    {
+     "label": "Caste and caste certificate number",
+     "value": "Scheduled Caste - SC/KHE/2019/2280",
+     "hint": "Choose the category that matches your certificate. Applying under the wrong department's scheme is the commonest reason for rejection."
+    },
+    {
+     "label": "Income certificate number and date",
+     "value": "MAM/KHE/2026/5518 dated 02-07-2026",
+     "hint": "Must be within the validity the portal states, usually issued in the same financial year."
+    },
+    {
+     "label": "Course, year and college",
+     "value": "B.Com, second year, arts and commerce college, Nadiad",
+     "hint": "Write the course exactly as the college registers it. The college has to approve your form online afterwards."
+    },
+    {
+     "label": "Hosteller or day scholar",
+     "value": "Day scholar",
+     "hint": "Say hosteller only with a warden's certificate. The maintenance rate is different for the two."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "30455566778899, BARB0NADIAD",
+     "hint": "The student's own account. Accounts in a parent's name, and dormant accounts, are rejected."
+    },
+    {
+     "label": "Last year's marksheet and percentage",
+     "value": "First year B.Com, 62%",
+     "hint": "Upload the marksheet of the year just passed. A student who failed and is repeating the year cannot claim again."
+    }
+   ],
+   "demoSteps": [
+    "Create one Digital Gujarat citizen account with your mobile number and an OTP. Do not make a second account later - all your years of scholarship sit under this one.",
+    "Switch the site to Gujarati from the language button at the top if that is easier to read.",
+    "Complete your profile first, including Aadhaar and bank details. The scholarship form pulls from it.",
+    "Open 'Scholarship' services and pick the scheme that matches your certificate - Scheduled Caste, Tribal, Developing Castes (OBC) or EBC. Each is run by a different department.",
+    "Fill the form, upload the caste certificate, income certificate, marksheet, fee receipt and passbook.",
+    "Submit, and print the acknowledgement.",
+    "Hand the printout and originals to your college scholarship clerk. The college has to verify the application on its own login - until it does, nothing moves.",
+    "The district officer of the concerned department sanctions the amount.",
+    "The fee part goes to the college and the maintenance part comes to your account by DBT.",
+    "Apply again at the start of each academic year, as soon as the portal opens; the window closes well before the exams."
+   ],
+   "helpline": "Digital Gujarat helpdesk 1800-233-5500, or your college scholarship desk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.digitalgujarat.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "gj-namo-laxmi",
+   "title": "Namo Laxmi Yojana",
+   "department": "Education Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Women",
+   "mode": "online",
+   "brief": "Rs.50,000 to a girl over her four years of secondary and higher secondary schooling - Rs.10,000 in each of classes 9 and 10, and Rs.15,000 in each of classes 11 and 12. Part comes month by month and part on passing the board exam. Parents do not apply on their own: the school enters the girl on the portal, so the documents go to the class teacher or the school clerk. The portal is available in Gujarati.",
+   "benefit": "Rs.50,000 in all, across classes 9 to 12",
+   "emoji": "👧",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Girl studying in class 9 to 12 in a government, grant-in-aid or approved private school in Gujarat",
+    "Family income up to Rs.6 lakh a year",
+    "Regular attendance - the instalment for a term depends on it",
+    "The board exam instalment is paid on passing Class 10 and Class 12",
+    "A girl who drops out stops receiving the money from that term"
+   ],
+   "documents": [
+    "Girl's Aadhaar card",
+    "Mother's or father's Aadhaar card",
+    "Income certificate, or the self-declaration the school gives out",
+    "Bank account in the girl's name, or a joint account with the mother",
+    "School admission number (GR number)",
+    "Ration card"
+   ],
+   "applyUrl": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=8nk2exvlyFtm6e684ZuD8g%3D%3D",
+   "portalName": "Digital Gujarat",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Girl's name",
+     "value": "Hiralben Rameshbhai Parmar",
+     "hint": "As written in the school register. The school types it from the GR, so tell them if the spelling on the Aadhaar is different."
+    },
+    {
+     "label": "School and GR number",
+     "value": "Shri Sarvajanik High School, Vanthali, Junagadh - GR 4482",
+     "hint": "The GR number is on the girl's school ID or the fee book. The clerk can read it out."
+    },
+    {
+     "label": "Class and division",
+     "value": "Class 9, division B",
+     "hint": "The class she is in now. The amount changes when she reaches class 11."
+    },
+    {
+     "label": "Date of birth",
+     "value": "12-03-2011",
+     "hint": "Same as the school record and the Aadhaar. A mismatch holds up the payment."
+    },
+    {
+     "label": "Mother's name",
+     "value": "Jayaben Rameshbhai Parmar",
+     "hint": "The mother's name as on her Aadhaar, since the account is usually joint with her."
+    },
+    {
+     "label": "Girl's Aadhaar number",
+     "value": "9999 6611 4477",
+     "hint": "The girl's own Aadhaar. If she does not have one yet, get it made first - the payment cannot be released without it."
+    },
+    {
+     "label": "Family annual income",
+     "value": "Rs.1,80,000",
+     "hint": "Both parents together. Up to Rs.6 lakh qualifies. Give the income certificate or the school's declaration form."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "30778899001122, SBIN0004567",
+     "hint": "In the girl's name or joint with the mother. It must be active and Aadhaar-seeded - a dormant account is the main reason money bounces back."
+    },
+    {
+     "label": "Parent's mobile number",
+     "value": "98765 43210",
+     "hint": "Every instalment message comes here. Give the number the family actually uses."
+    }
+   ],
+   "demoSteps": [
+    "Get a bank account opened in the girl's name, or joint with her mother, and have the Aadhaar seeded to it. Do this first - everything else waits on it.",
+    "If the school asks for an income certificate rather than its own declaration form, get it from the Mamlatdar's office or a Jan Seva Kendra.",
+    "Give the class teacher or the school clerk copies of the girl's Aadhaar, the mother's Aadhaar, the passbook and the income proof.",
+    "The school enrols the girl on the portal from its own login. There is no separate parent login for this scheme.",
+    "Check with the clerk that the bank account and Aadhaar were entered correctly, and that the account is shown as verified.",
+    "Attendance is reported by the school each term; the term instalment follows it.",
+    "The monthly part is credited through the year and the board-exam part after she passes Class 10, and again after Class 12.",
+    "If the money does not arrive, ask the school to check the account status on the portal before going anywhere else - almost every failure is a bank seeding problem.",
+    "Nothing has to be filled again when she moves from class 9 to 10 or 11 to 12; the school carries the record forward."
+   ],
+   "helpline": "Your school's principal or clerk; Digital Gujarat helpdesk 1800-233-5500",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.digitalgujarat.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "gj-vahali-dikri",
+   "title": "Vahali Dikri Yojana",
+   "department": "Women & Child Development Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Women",
+   "mode": "online",
+   "brief": "Rs.1.10 lakh for a daughter of a family with small means, given in three parts - Rs.4,000 when she joins Class 1, Rs.6,000 when she joins Class 9, and Rs.1,00,000 when she turns 18, for her higher education or marriage. Only the first and second daughters count. The form has to be given within one year of the daughter's birth, and most families hand it in through their Anganwadi worker or the VCE at the Gram Panchayat rather than online.",
+   "benefit": "Rs.1,10,000 in three instalments - Rs.4,000, Rs.6,000 and Rs.1,00,000",
+   "emoji": "🌸",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "First and second daughter of the family; a third daughter is not covered",
+    "Family income up to Rs.2 lakh a year",
+    "The parents' marriage must be registered",
+    "The application has to be made within one year of the daughter's birth",
+    "The family must be resident in Gujarat"
+   ],
+   "documents": [
+    "Daughter's birth certificate",
+    "Aadhaar cards of both parents",
+    "Income certificate from the Mamlatdar or the Jan Seva Kendra",
+    "Marriage registration certificate of the parents",
+    "Bank passbook of the parent in whose account the money goes",
+    "Self-declaration on stamp paper about the number of daughters, on the form the department provides",
+    "Ration card and residence proof"
+   ],
+   "applyUrl": "https://wcd.gujarat.gov.in/applicationform",
+   "portalName": "Women & Child Development, Gujarat",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Daughter's name and date of birth",
+     "value": "Khushiben Alpeshbhai Desai, born 05-02-2026",
+     "hint": "As on the birth certificate. If the child has not been named yet on the certificate, get it updated first."
+    },
+    {
+     "label": "Birth registration number",
+     "value": "BR/JUN/2026/11284",
+     "hint": "Printed on the birth certificate given by the Gram Panchayat or the Nagarpalika."
+    },
+    {
+     "label": "Father's name",
+     "value": "Alpeshbhai Govindbhai Desai",
+     "hint": "As on his Aadhaar card."
+    },
+    {
+     "label": "Mother's name",
+     "value": "Bhavnaben Alpeshbhai Desai",
+     "hint": "As on her Aadhaar card. It should match the marriage registration certificate."
+    },
+    {
+     "label": "Which daughter is she",
+     "value": "Second daughter",
+     "hint": "First or second only. Declare all living children honestly - the Talati verifies this in the village record."
+    },
+    {
+     "label": "Family annual income",
+     "value": "Rs.1,45,000",
+     "hint": "Must be Rs.2 lakh or less. The figure has to come from the Mamlatdar's income certificate, not your own estimate."
+    },
+    {
+     "label": "Parents' marriage registration number",
+     "value": "MR/JUN/2018/3390",
+     "hint": "From the marriage registration certificate. If the marriage was never registered, get it registered at the Gram Panchayat first."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "30991122334455, BARB0VANTHA",
+     "hint": "An account of the parent, active and Aadhaar-seeded. The Rs.1 lakh at 18 later goes to the daughter's own account."
+    },
+    {
+     "label": "Village / Taluka / District",
+     "value": "Shapur / Vanthali / Junagadh",
+     "hint": "Where the family actually lives. The Talati of this village does the verification."
+    }
+   ],
+   "demoSteps": [
+    "Register the daughter's birth and collect the birth certificate from the Gram Panchayat or Nagarpalika.",
+    "Get the income certificate from the Mamlatdar or a Jan Seva Kendra, and the parents' marriage registration certificate if you do not already have one.",
+    "Take the form from your Anganwadi worker, the Gram Panchayat VCE, or download it from the department's site. It is in Gujarati.",
+    "Fill it and attach the birth certificate, both parents' Aadhaar, income certificate, marriage certificate, passbook copy and the declaration about the number of daughters.",
+    "Hand the set in at the Anganwadi centre, or at the taluka ICDS (CDPO) office or the Mamlatdar's office. The Anganwadi route is what most families use, and the worker checks the papers before they go up.",
+    "Do this within one year of the birth. An application made later is not accepted, whatever the reason.",
+    "Keep the acknowledgement slip safely - you will need it at each of the three instalments.",
+    "The District Women & Child Development Officer sanctions the case.",
+    "The first instalment comes when the girl is admitted to Class 1, the second at Class 9, and Rs.1 lakh when she turns 18 and is unmarried at that date.",
+    "At each stage produce the school certificate; the money does not come on its own."
+   ],
+   "helpline": "Your Anganwadi worker, or the District Women & Child Development Officer / taluka CDPO office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://wcd.gujarat.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "gj-manav-garima",
+   "title": "Manav Garima Yojana - Free Tool Kits",
+   "department": "Scheduled Caste Welfare Directorate, Social Justice & Empowerment Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "A free tool kit so a person can start earning from a small trade at home - a sewing machine for tailoring, a carpentry set, a beauty parlour kit, a plumbing or mochi kit, and other trades on the department's list. The kit is given in kind, never as cash. Applications are made on e-Samaj Kalyan, which has a Gujarati interface, and when there are more applicants than kits the selection is made by a computerised draw.",
+   "benefit": "A free tool kit for one trade of your choice from the department's list",
+   "emoji": "🧰",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Belongs to a Scheduled Caste or a socially and economically backward class of Gujarat",
+    "Age between 18 and 60",
+    "Family income within the ceiling shown on the portal for the year",
+    "Should already know the trade, or have trained in it",
+    "One kit per family, once only - a family that has taken a kit under this scheme cannot apply again"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Caste certificate",
+    "Income certificate from the Mamlatdar or the Jan Seva Kendra",
+    "Ration card",
+    "Proof of age - school leaving certificate or birth certificate",
+    "Bank passbook",
+    "Proof of knowing the trade, such as a training certificate or an experience letter, where the trade needs it"
+   ],
+   "applyUrl": "https://esamajkalyan.gujarat.gov.in/Registration.aspx",
+   "portalName": "e-Samaj Kalyan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's name",
+     "value": "Nileshbhai Manubhai Rathod",
+     "hint": "As on the Aadhaar card. The caste certificate should carry the same name."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 3322 8844",
+     "hint": "Your own 12-digit number. e-Samaj Kalyan verifies the applicant against it."
+    },
+    {
+     "label": "Date of birth / age",
+     "value": "18-11-1992, age 33",
+     "hint": "You must be between 18 and 60 on the date of applying."
+    },
+    {
+     "label": "Caste and certificate number",
+     "value": "Scheduled Caste - SC/KHE/2016/1902",
+     "hint": "Apply under the department that matches your certificate. An SC applicant applying under the OBC department is rejected outright."
+    },
+    {
+     "label": "Trade chosen",
+     "value": "Tailoring (sewing machine kit)",
+     "hint": "Pick one trade only, from the list on the portal. You cannot change it after submitting."
+    },
+    {
+     "label": "Income certificate number and date",
+     "value": "MAM/KHE/2026/6602 dated 21-05-2026",
+     "hint": "Recent certificate from the Mamlatdar. Check the year's income ceiling on the portal before applying."
+    },
+    {
+     "label": "Address",
+     "value": "Rathodvas, Limbasi, taluka Matar, district Kheda",
+     "hint": "Where you live now. The Talati verifies at this address."
+    },
+    {
+     "label": "Ration card number",
+     "value": "1234567890",
+     "hint": "From the front of your barcoded ration card. It is used to check the family."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "30224466880011, SBIN0007788",
+     "hint": "Give it even though the kit comes in kind - the department keeps it on record."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "The draw result and the collection message come by SMS to this number."
+    }
+   ],
+   "demoSteps": [
+    "Register once as a citizen on e-Samaj Kalyan with your mobile number. Switch the site to Gujarati from the button at the top if that reads easier.",
+    "Choose the department that matches your certificate - Scheduled Caste Welfare, or Developing Castes Welfare for OBC applicants.",
+    "Open Manav Garima Yojana and pick the one trade you want the kit for.",
+    "Fill the form and upload the Aadhaar, caste certificate, income certificate, age proof and ration card.",
+    "Submit and take a printout. Many applicants get all this done by the VCE at the e-Gram centre or at a Jan Seva Kendra; if you do, keep your own user id and password with you.",
+    "If the district office asks for it, hand the printout with the original certificates at the district Deputy Director's office.",
+    "When there are more applicants than kits, a computerised draw decides. Watch for the SMS.",
+    "If selected, collect the kit from the place named in the message, against your ID.",
+    "There is no cash in this scheme - anyone asking for money to 'pass' your application is cheating you."
+   ],
+   "helpline": "District Deputy Director, Scheduled Caste Welfare, or your nearest Jan Seva Kendra",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://esamajkalyan.gujarat.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "gj-kunvarbai",
+   "title": "Kunvarbai nu Mameru Yojana - Marriage Assistance",
+   "department": "Developing Castes Welfare and Scheduled Caste Welfare Directorates, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Women",
+   "mode": "online",
+   "brief": "Rs.12,000 paid to a bride from an SC, socially and educationally backward, or EBC family at the time of her marriage - the government's mameru. The money goes to the bride's own bank account, not to the groom or the family. The marriage must be registered first, and the claim has to be made within two years of the wedding. Applications are on e-Samaj Kalyan, which works in Gujarati.",
+   "benefit": "Rs.12,000 to the bride, by direct bank transfer",
+   "emoji": "💐",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Bride from a Scheduled Caste, socially and educationally backward class, or EBC family of Gujarat",
+    "Bride 18 or above and groom 21 or above on the date of marriage",
+    "Help is given for at most two daughters in one family",
+    "Family income within the ceiling shown on the portal",
+    "The application must be made within two years of the marriage date"
+   ],
+   "documents": [
+    "Marriage registration certificate",
+    "Caste certificate of the bride's family",
+    "Income certificate",
+    "Bride's Aadhaar card and bank passbook",
+    "Age proof of the bride and the groom - school leaving certificate or birth certificate",
+    "Groom's Aadhaar card",
+    "Wedding invitation card (kankotri) and a joint photograph"
+   ],
+   "applyUrl": "https://esamajkalyan.gujarat.gov.in/Registration.aspx",
+   "portalName": "e-Samaj Kalyan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Bride's name",
+     "value": "Ushaben Karsanbhai Makwana",
+     "hint": "Her maiden name as on the school leaving certificate and the caste certificate, even if she has changed it after marriage."
+    },
+    {
+     "label": "Groom's name",
+     "value": "Mehulkumar Bharatbhai Vaghela",
+     "hint": "As on his Aadhaar and on the marriage registration certificate."
+    },
+    {
+     "label": "Date of marriage",
+     "value": "26-04-2026",
+     "hint": "From the marriage registration certificate. Count two years from this date - that is your last day to apply."
+    },
+    {
+     "label": "Marriage registration number",
+     "value": "MR/MAT/2026/0871",
+     "hint": "Register the marriage at the Gram Panchayat or Nagarpalika first. Without this certificate the form cannot be submitted."
+    },
+    {
+     "label": "Bride's date of birth",
+     "value": "09-07-2005",
+     "hint": "She must have been 18 or more on the wedding day, and the groom 21 or more."
+    },
+    {
+     "label": "Caste and certificate number",
+     "value": "Socially & Educationally Backward Class - SEBC/KHE/2020/3345",
+     "hint": "The bride's own family's certificate. Apply under the department that issued it."
+    },
+    {
+     "label": "Family annual income",
+     "value": "Rs.2,10,000",
+     "hint": "From the Mamlatdar's income certificate. Check the year's ceiling on the portal."
+    },
+    {
+     "label": "Bride's bank account and IFSC",
+     "value": "30556677889900, BARB0MATARX",
+     "hint": "It must be the bride's own single account, Aadhaar-seeded. A joint account with the husband or an account in the father's name is rejected."
+    },
+    {
+     "label": "Village / Taluka / District",
+     "value": "Limbasi / Matar / Kheda",
+     "hint": "The bride's parental address, which is where the caste and income certificates were issued."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "Keep the same number until the money arrives; the sanction message comes here."
+    }
+   ],
+   "demoSteps": [
+    "Register the marriage at the Gram Panchayat or the Nagarpalika and collect the certificate. Nothing else can start before this.",
+    "Open a savings account in the bride's own name if she does not have one, and get her Aadhaar seeded to it.",
+    "Log in to e-Samaj Kalyan as a citizen, or register with your mobile number. The site can be switched to Gujarati.",
+    "Choose the department matching the bride's caste certificate, then Kunvarbai nu Mameru Yojana.",
+    "Fill the form and upload the marriage certificate, caste and income certificates, both Aadhaar cards, age proofs, the invitation card and the photograph.",
+    "Submit within two years of the wedding date and print the acknowledgement.",
+    "Hand the printout with the originals at the district office of the concerned welfare department, or through the Jan Seva Kendra if they tell you to.",
+    "The district officer verifies and sanctions.",
+    "Rs.12,000 is credited to the bride's own account by DBT.",
+    "If the payment fails, the fault is nearly always the bank account - check the seeding before you file anything again."
+   ],
+   "helpline": "District Deputy Director of the concerned welfare department, or your nearest Jan Seva Kendra",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://esamajkalyan.gujarat.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "gj-ganga-swarupa",
+   "title": "Ganga Swarupa Yojana - Widow Pension",
+   "department": "Women & Child Development Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Pension",
+   "mode": "online",
+   "brief": "A monthly pension for a widow, paid straight into her bank or post office account. The name of the scheme is deliberate - the government treats her as Ganga Swarupa rather than as a widow. The pension is not stopped when her son turns 21; that old rule has gone. Applications go through e-Samaj Kalyan, but most widows hand the form in at the taluka Mamlatdar's office or a Jan Seva Kendra, and the Talati does the village verification.",
+   "benefit": "Rs.1,250 a month, credited by direct transfer",
+   "emoji": "🤝",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Widow aged 18 or above, resident of Gujarat",
+    "Family income within the ceiling fixed for rural and for urban areas",
+    "Has not remarried - the pension stops on remarriage",
+    "Continues even if an adult son lives with her",
+    "A continuation certificate has to be given every year for the pension to go on"
+   ],
+   "documents": [
+    "Husband's death certificate",
+    "Widow certificate from the Talati-cum-Mantri or the Mamlatdar",
+    "Applicant's Aadhaar card",
+    "Income certificate",
+    "Age proof - school leaving certificate, birth certificate or an election card",
+    "Bank or post office passbook in her own name",
+    "Ration card and residence proof"
+   ],
+   "applyUrl": "https://wcd.gujarat.gov.in/applicationform",
+   "portalName": "e-Samaj Kalyan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's name",
+     "value": "Sangitaben Maheshbhai Dabhi",
+     "hint": "Her own name as on her Aadhaar card, not her husband's name alone."
+    },
+    {
+     "label": "Husband's name and death certificate number",
+     "value": "Maheshbhai Jivabhai Dabhi - DC/MAT/2025/0459",
+     "hint": "The number printed on the death certificate from the Gram Panchayat or Nagarpalika. Nothing moves without this certificate."
+    },
+    {
+     "label": "Date of birth / age",
+     "value": "14-08-1979, age 47",
+     "hint": "She must be 18 or above. Give whatever age proof you have - an election card is accepted."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 7744 1122",
+     "hint": "Her own Aadhaar, seeded to the account where the pension will come."
+    },
+    {
+     "label": "Family annual income",
+     "value": "Rs.96,000",
+     "hint": "From the Mamlatdar's income certificate. The ceiling is different for village and city areas - ask at the Mamlatdar's office which applies to you."
+    },
+    {
+     "label": "Bank or post office account and IFSC",
+     "value": "30667788990011, SBIN0009911",
+     "hint": "In her own name only. A post office account is fine. It must be active - a dormant account is the usual reason a pension stops."
+    },
+    {
+     "label": "Village / Taluka / District",
+     "value": "Limbasi / Matar / Kheda",
+     "hint": "Where she lives. The Talati of this village signs the verification."
+    },
+    {
+     "label": "Ration card number",
+     "value": "1234567890",
+     "hint": "From the front of the barcoded ration card, used to establish the family."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "Her own or a family member's. The sanction and the monthly credit messages come here."
+    }
+   ],
+   "demoSteps": [
+    "Collect the husband's death certificate from the Gram Panchayat or Nagarpalika.",
+    "Get the widow certificate and the income certificate from the Talati-cum-Mantri and the Mamlatdar's office.",
+    "Open a savings account in her own name, at a bank or post office, and get the Aadhaar seeded.",
+    "Apply on e-Samaj Kalyan, which can be switched to Gujarati from the top of the page, or fill the Gujarati form and hand it in at the taluka Mamlatdar's office or the Jan Seva Kendra - the counter route is what most applicants use, and the clerk checks the papers on the spot.",
+    "The Talati verifies in the village and the Mamlatdar's office processes the case.",
+    "Keep the acknowledgement slip. Ask for the sanction order number once it is passed.",
+    "The pension is credited every month by direct transfer.",
+    "Every year, give the continuation certificate - that she is alive and has not remarried - at the Mamlatdar's office. Miss it and the pension stops until you go and restart it.",
+    "Tell the Mamlatdar's office at once if the bank account or the address changes."
+   ],
+   "helpline": "Taluka Mamlatdar's office, or the District Women & Child Development Officer",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://esamajkalyan.gujarat.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "gj-enagar",
+   "title": "e-Nagar - Birth Certificate, Property Tax & Municipal Services",
+   "department": "Urban Development & Urban Housing Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Other",
+   "mode": "online",
+   "brief": "One login for the municipal work of Gujarat's cities and towns - birth and death certificates, property tax, professional tax, water and drainage connections, shop licences and complaints. Certificates come as digitally signed PDFs you can print at home, so there is no need to stand in a queue for a copy. The portal works in Gujarati and English, and the Civic Centre or Jan Seva Kendra of your municipality will do it for you if you have no computer.",
+   "benefit": "Certificates, tax payments and municipal applications without a trip to the office",
+   "emoji": "🏙",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "The birth or death must have been registered with a municipality or municipal corporation in Gujarat - village births are registered at the Gram Panchayat instead",
+    "For property tax you need the tenement or property number of the property",
+    "Anyone can register on the portal with a mobile number",
+    "A birth certificate is free if the birth is registered within 21 days; a late fee applies after that"
+   ],
+   "documents": [
+    "Hospital birth record or the discharge slip, for a first registration",
+    "Parents' Aadhaar cards",
+    "Address proof",
+    "An old property tax bill or receipt showing the tenement number, for tax services",
+    "Nothing at all to download a certificate that is already registered - the registration number is enough"
+   ],
+   "applyUrl": "https://enagar.gujarat.gov.in/DIGIGOV/digigov.htm?actionFlag=loadCitizenRegPage&locale=en_US",
+   "portalName": "e-Nagar",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service chosen",
+     "value": "Birth certificate - download a certified copy",
+     "hint": "Pick the service first. The form changes completely between certificates, tax and connections."
+    },
+    {
+     "label": "City or Nagarpalika",
+     "value": "Nadiad Nagarpalika, district Kheda",
+     "hint": "Choose the body where the birth was registered or where the property is. Choosing the wrong town shows no record."
+    },
+    {
+     "label": "Child's name and date of birth",
+     "value": "Vivaan Alpeshbhai Desai, 05-02-2026",
+     "hint": "If the birth was registered before the child was named, search by date and parents' names instead."
+    },
+    {
+     "label": "Registration number",
+     "value": "B/NDD/2026/03318",
+     "hint": "From the slip the hospital or the municipality gave at registration. With this the record comes up at once."
+    },
+    {
+     "label": "Father's name",
+     "value": "Alpeshbhai Govindbhai Desai",
+     "hint": "As given at the time of registration. Used to find the record when you have no registration number."
+    },
+    {
+     "label": "Mother's name",
+     "value": "Bhavnaben Alpeshbhai Desai",
+     "hint": "As given at registration. Both parents' names together narrow the search."
+    },
+    {
+     "label": "Tenement / property number",
+     "value": "NDD/04/0219/0007",
+     "hint": "For property tax only. It is printed at the top of any old tax bill."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "Login is by OTP on this number, and the payment receipt is sent here."
+    },
+    {
+     "label": "Amount payable",
+     "value": "Rs.20 certificate fee",
+     "hint": "Certificates carry a small fee; property tax shows the dues for the year. Pay by UPI, card or net banking."
+    }
+   ],
+   "demoSteps": [
+    "Register on e-Nagar with your mobile number and an OTP, or log in if you already have an account.",
+    "Switch the language to Gujarati from the top of the page if that is easier.",
+    "Choose your municipality or municipal corporation. Everything after this is specific to that town.",
+    "For a certificate, open Birth & Death and search by the registration number, or by date of birth with the parents' names.",
+    "Check the record on screen carefully - the spelling on the screen is what will print on the certificate.",
+    "Pay the small fee online and download the digitally signed PDF. A printout of it is valid; it does not need any further stamp.",
+    "For property tax, search by the tenement number, see the dues, pay online and download the receipt at once.",
+    "For a new water or drainage connection, or a shop licence, fill the form and upload the papers; the file is then processed by the town's office.",
+    "If you have no computer or smartphone, the Civic Centre or Jan Seva Kendra at your municipality does all of this at the counter.",
+    "Register a birth within 21 days and the certificate costs nothing - after that a late fee applies and the delay has to be explained."
+   ],
+   "helpline": "Civic Centre of your municipality or municipal corporation",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://enagar.gujarat.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "gj-anyror",
+   "title": "AnyRoR - 7/12 and 8-A Land Records",
+   "department": "Revenue Department, Gujarat (e-Dhara)",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Other",
+   "mode": "online",
+   "brief": "See and print the land record of any village in Gujarat - the 7/12 (village form 7 and 12) survey-wise, the 8-A khata-wise, and the mutation entries. Viewing is free and needs no login. The site and the extract are both in Gujarati. The copy you print here is unsigned and meant for information; for a bank loan or a court case take the digitally signed copy, or the stamped copy from the e-Dhara Kendra at your taluka Mamlatdar office.",
+   "benefit": "Free view and print of 7/12, 8-A and entry records for any village in the state",
+   "emoji": "📜",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Open to anyone - no login is needed just to view a record",
+    "You need to know the district, taluka and village, and the survey number or khata number",
+    "The owner's name can be searched if you do not know the number",
+    "A registered login and a small fee are needed for a digitally signed copy",
+    "Urban property cards are under the separate urban section, not under 7/12"
+   ],
+   "documents": [
+    "Nothing is needed to view a record",
+    "Know your district, taluka and village",
+    "The survey number from an old 7/12, or the khata number from the 8-A",
+    "A mobile number, for the digitally signed copy"
+   ],
+   "applyUrl": "https://anyror.gujarat.gov.in/LandRecordRural.aspx",
+   "portalName": "AnyRoR",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Record wanted",
+     "value": "VF-7 (7/12), survey-wise",
+     "hint": "VF-7 for the 7/12 by survey number, VF-8A for the khata, VF-6 for the mutation entries."
+    },
+    {
+     "label": "Area type",
+     "value": "Rural (village land)",
+     "hint": "Rural for village land. For a flat or plot inside a city, use the urban property card section instead."
+    },
+    {
+     "label": "District",
+     "value": "Kheda",
+     "hint": "Choose from the list. If the district was split, pick the one the village falls under today."
+    },
+    {
+     "label": "Taluka",
+     "value": "Matar",
+     "hint": "The taluka the village belongs to. The village list changes once you pick this."
+    },
+    {
+     "label": "Village",
+     "value": "Limbasi",
+     "hint": "Pick from the drop-down. Village names repeat across talukas, so check the taluka first."
+    },
+    {
+     "label": "Survey number",
+     "value": "142/2 paiki 1",
+     "hint": "Exactly as on an old 7/12, with the 'paiki' part if there is one. A missing part number brings up the wrong plot."
+    },
+    {
+     "label": "Khata number",
+     "value": "87",
+     "hint": "Only for VF-8A. It lists every survey number the same owner holds in that village."
+    },
+    {
+     "label": "Owner's name (to search)",
+     "value": "Rameshbhai Kanjibhai Patel",
+     "hint": "Use this when you do not know the survey number. Type the name in Gujarati as it appears in the record."
+    },
+    {
+     "label": "Verification code",
+     "value": "As shown on the screen",
+     "hint": "Type the characters shown in the box. If it will not accept them, refresh for a new code."
+    }
+   ],
+   "demoSteps": [
+    "Open the AnyRoR site and switch it to Gujarati if that is easier to read.",
+    "Choose 'View land record - rural' for village land, or the urban section for a city property.",
+    "Pick VF-7 for the 7/12, VF-8A for the khata, or VF-6 to see the mutation entries and how the land changed hands.",
+    "Select the district, taluka and village.",
+    "Enter the survey number or the khata number. If you have neither, search by the owner's name.",
+    "Type the verification code and the record opens on screen, in Gujarati.",
+    "Print it or save the PDF. This free copy is unsigned and is for your information only.",
+    "For a digitally signed copy, register on the site with your mobile number and pay the small fee - this one is accepted where a certified copy is asked for.",
+    "For a court case, or where the bank insists on a stamped copy, go to the e-Dhara Kendra at your taluka Mamlatdar office.",
+    "If the record shows an old owner after a sale or inheritance, the mutation has not been done - that is a job for the Talati and the e-Dhara Kendra, not the website."
+   ],
+   "helpline": "e-Dhara Kendra at your taluka Mamlatdar office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://anyror.gujarat.gov.in/",
+   "applyKind": "form"
+  },
+  {
+   "id": "gj-ojas",
+   "title": "OJAS - Gujarat Government Job Applications",
+   "department": "Recruiting Boards of the Government of Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The single site where Gujarat's recruiting boards advertise and take applications - panchayat service, subordinate services, police and Lok Rakshak, forest and many more. The advertisements themselves are published in Gujarati. The application is not counted until you confirm it and get a confirmation number, and the fee can be paid online or by printing a challan and paying it at a computerised post office.",
+   "benefit": "One registration to apply for state and panchayat service vacancies",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Age, qualification and other conditions are as stated in each advertisement, not on the site generally",
+    "Knowledge of Gujarati is required for most posts",
+    "Age relaxation for SC, ST, OBC, women and ex-servicemen, as the advertisement says",
+    "The fee is usually waived for SC, ST, ex-servicemen and physically handicapped candidates",
+    "Apply separately for every advertisement - one registration does not apply you to everything"
+   ],
+   "documents": [
+    "Photograph and signature scanned to the size the advertisement states, in the stated file size",
+    "Class 10 and Class 12 marksheets and the degree or diploma certificate",
+    "School leaving certificate",
+    "Caste certificate, and a non-creamy-layer certificate for OBC candidates",
+    "EWS certificate, where claimed",
+    "Aadhaar card",
+    "Computer course certificate (CCC), where the post requires it"
+   ],
+   "applyUrl": "https://ojas.gujarat.gov.in/AdvtList.aspx?type=lCxUjNjnTp8=",
+   "portalName": "OJAS",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Advertisement number",
+     "value": "GPSSB/202627/12",
+     "hint": "Copy it from the advertisement. Each post has its own number and its own application."
+    },
+    {
+     "label": "Post applied for",
+     "value": "Junior Clerk (Administration / Accounts)",
+     "hint": "Read the advertisement fully before choosing. You cannot change the post after confirming."
+    },
+    {
+     "label": "Candidate's name",
+     "value": "Vipulbhai Natvarlal Trivedi",
+     "hint": "Exactly as on the Class 10 marksheet. A different spelling later can cost you the appointment."
+    },
+    {
+     "label": "Date of birth",
+     "value": "03-09-2001",
+     "hint": "As on the Class 10 marksheet. Age is counted on the date the advertisement fixes, not on the day you apply."
+    },
+    {
+     "label": "Category",
+     "value": "OBC (non-creamy layer)",
+     "hint": "Claim a category only with a valid certificate in the government's own format. The fee and the age relaxation follow from it."
+    },
+    {
+     "label": "Qualification and percentage",
+     "value": "B.A., 64.20%, Gujarat University, 2023",
+     "hint": "The qualification the post asks for, with the university and the year of passing."
+    },
+    {
+     "label": "Photograph and signature",
+     "value": "Photo 10 kb JPG, signature 8 kb JPG",
+     "hint": "Follow the size in the advertisement exactly. An oversized file will not upload and a blurred signature gets the form rejected at the exam hall."
+    },
+    {
+     "label": "Mobile number and email",
+     "value": "98765 43210, example@example.com",
+     "hint": "Use your own, and keep them for the whole recruitment - the call letter notice comes here."
+    },
+    {
+     "label": "Confirmation number",
+     "value": "Generated after you confirm",
+     "hint": "This number is the only proof that you applied. Note it down and keep the printout."
+    },
+    {
+     "label": "Fee payment",
+     "value": "Post office challan, Rs.100",
+     "hint": "Pay online, or print the challan and pay it at a computerised post office before the last date. An unpaid application is not considered."
+    }
+   ],
+   "demoSteps": [
+    "Open the advertisement on OJAS and read it end to end - age, qualification, fee and the last date. They are published in Gujarati.",
+    "Click Apply for that advertisement and fill the form. Fill it yourself where you can; if a cyber cafe or Jan Seva Kendra types it for you, sit with them and keep your own user id and password.",
+    "Upload the photograph and signature in the exact size stated.",
+    "Save the form, then confirm it. This is the step candidates lose their year on - an unconfirmed application is not an application, and it cannot be confirmed after the last date.",
+    "Note the confirmation number that appears.",
+    "Pay the fee online, or print the challan and pay it at a computerised post office within the days allowed.",
+    "Print the confirmed application and keep it with the fee receipt until the whole recruitment is over.",
+    "Download the call letter from the same site when it is released; it is not posted to you.",
+    "Carry the call letter and an original photo ID to the exam hall.",
+    "Check the site for the answer key, results and document verification notices - all of it is published here and nowhere else."
+   ],
+   "helpline": "The helpdesk number printed on the advertisement you are applying against",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ojas.gujarat.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "gj-ration-card",
+   "title": "Gujarat Ration Card - New Card or Adding a Member",
+   "department": "Food, Civil Supplies & Consumer Affairs Department, Gujarat",
+   "level": "State",
+   "state": "Gujarat",
+   "category": "Other",
+   "mode": "offline",
+   "brief": "A barcoded ration card for a new family, or the addition of a member - a newborn, or a bride who has come into the family. The printed forms are on the department's site in Gujarati: Form 1 and 2 for a new card, Form 3 to add a member. Most people fill them at the Jan Seva Kendra or through the VCE at the e-Gram centre and submit them at the taluka Mamlatdar's office. After a name is added, get that member's Aadhaar e-KYC done at your fair price shop or the extra grain will not start.",
+   "benefit": "Barcoded ration card; an NFSA card brings subsidised grain at the fair price shop",
+   "emoji": "🛒",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Resident of Gujarat, not holding a ration card anywhere else in India",
+    "A family that has moved must bring a deletion certificate from the earlier ration card",
+    "A newborn is added on the birth certificate; a bride on her marriage certificate and deletion from her parents' card",
+    "NFSA (subsidised grain) status depends on the family's income and category, and is decided separately from the card itself",
+    "Only the head of the family can apply for the family's card"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Proof of residence - electricity bill, rent agreement or property tax receipt",
+    "Deletion certificate from the previous ration card, for anyone moving in",
+    "Birth certificate of the newborn, or the marriage certificate of the bride",
+    "Passport photograph of the head of the family",
+    "Gas connection book",
+    "The existing ration card, when adding a member"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://dcs-dof.gujarat.gov.in/",
+   "submitAt": "Mamlatdar's office of your taluka, or the Zonal office in city areas - the Jan Seva Kendra counter accepts the form in most talukas",
+   "demoFields": [
+    {
+     "label": "Form type",
+     "value": "Form 3 - add a member",
+     "hint": "Form 1 or 2 for a brand new card, Form 3 to add a name, Form 4 to remove one, Form 5 for a duplicate card."
+    },
+    {
+     "label": "Head of the family",
+     "value": "Rameshbhai Kanjibhai Patel",
+     "hint": "The name printed first on the existing card. The application has to be signed by this person."
+    },
+    {
+     "label": "Ration card number",
+     "value": "1234567890",
+     "hint": "From the front of your barcoded card. Leave it blank if you are applying for a new card."
+    },
+    {
+     "label": "Member to be added, and relation",
+     "value": "Priyaben Rameshbhai Patel - daughter-in-law",
+     "hint": "The name as on that person's Aadhaar, and how she or he is related to the head of the family."
+    },
+    {
+     "label": "Aadhaar numbers",
+     "value": "Head 9999 8877 6655; new member 9999 5511 3377",
+     "hint": "Aadhaar of the head and of the person being added. Every member's Aadhaar is needed for a new card."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Marriage on 26-04-2026; deletion certificate from the parents' card at Vanthali, Junagadh",
+     "hint": "A bride needs the marriage certificate and the deletion certificate from her parents' card. A newborn needs only the birth certificate."
+    },
+    {
+     "label": "Full address",
+     "value": "Patelvas, Limbasi, taluka Matar, district Kheda - 387530",
+     "hint": "The address as on the residence proof you are attaching. The inspector verifies here."
+    },
+    {
+     "label": "Gas connection number",
+     "value": "Consumer no. 5566778899, Nadiad distributor",
+     "hint": "From the gas book. It is asked to check that the family is not registered twice."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.1,80,000",
+     "hint": "Income of the whole family. It decides whether the card comes under NFSA for subsidised grain."
+    },
+    {
+     "label": "Mobile number",
+     "value": "98765 43210",
+     "hint": "Give the head of the family's number. The token and the status messages come here."
+    }
+   ],
+   "demoSteps": [
+    "Download Form 3 from the department's site, or take a printed copy at the Jan Seva Kendra or from the VCE at the e-Gram centre. The forms are in Gujarati.",
+    "Fill it in Gujarati, in the head of the family's name, and have him or her sign it.",
+    "Attach the existing ration card, the new member's Aadhaar, and the birth certificate or the marriage certificate with the deletion certificate from the earlier card.",
+    "Submit the set at the Mamlatdar's office of your taluka, or at the Zonal office if you live in a city. In most talukas the Jan Seva Kendra counter takes it in.",
+    "Collect the acknowledgement slip with its token number - do not leave without it, it is how you follow the case.",
+    "The Talati or the supply inspector verifies the family at your address.",
+    "The name is added and the updated barcoded card is issued. Check the spelling and the Aadhaar on it before you leave the counter.",
+    "Get the new member's Aadhaar e-KYC done on the machine at your fair price shop. The family's grain quota does not increase until this is done.",
+    "For a brand new card, the same route applies with Form 1 or 2 and the Aadhaar of every member, plus residence proof.",
+    "There is no fee beyond the small charge printed on the form; do not pay anyone to get it passed faster."
+   ],
+   "helpline": "Mamlatdar's office of your taluka, or the District Supply Officer",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

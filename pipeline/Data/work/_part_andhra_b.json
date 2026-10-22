@@ -1,0 +1,271 @@
+{
+ "schemes": [
+  {
+   "id": "ap-jnanabhumi",
+   "title": "Jnanabhumi — AP Post-Matric Scholarship and Fee Reimbursement",
+   "department": "AP State Council of Higher Education, with Social, BC, Tribal and Minority Welfare Departments",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Education",
+   "mode": "online",
+   "brief": "Andhra Pradesh pays the college tuition fee of SC, ST, BC, EBC, minority and disabled students directly to the institution, and a separate maintenance amount to the student for food and hostel. Both are applied for on Jnanabhumi, once a year, after the college has admitted you.",
+   "benefit": "Full tuition fee reimbursement paid to the college, plus maintenance charges to the student",
+   "emoji": "🎓",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Student of Andhra Pradesh studying an approved course in a recognised institution",
+    "Belongs to SC, ST, BC, EBC, minority or disabled category, with a valid caste certificate",
+    "Family income within the limit for the category, proved by a current income certificate",
+    "Admitted through the notified counselling process for the course",
+    "Attendance of at least 75 per cent; the sanction is withheld for a student who stops attending"
+   ],
+   "documents": [
+    "Aadhaar card of the student",
+    "Caste certificate number issued in Andhra Pradesh",
+    "Income certificate number, issued within the last year",
+    "Admission or allotment letter from the counselling",
+    "Bank passbook in the student's own name, Aadhaar-seeded",
+    "Class 10 and Class 12 marks memos",
+    "Fee receipt paid to the college"
+   ],
+   "applyUrl": "https://jnanabhumi.ap.gov.in/login",
+   "portalName": "Jnanabhumi",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Aadhaar Number of the Student",
+     "value": "9999 2264 8130",
+     "hint": "The student's own, not a parent's. The maintenance money is paid into the Aadhaar-seeded account behind it."
+    },
+    {
+     "label": "Student Name (as on Aadhaar)",
+     "value": "Nagalakshmi Chittiboina",
+     "hint": "Exactly as on Aadhaar. The college record and the bank record must agree with this or the payment fails."
+    },
+    {
+     "label": "Caste Certificate Number",
+     "value": "KRS/GDV/BC-B/2022/11907",
+     "hint": "The number on your integrated caste certificate. Type it, do not guess — the portal checks it against the revenue database."
+    },
+    {
+     "label": "Income Certificate Number",
+     "value": "KRS/GDV/INC/2026/30418",
+     "hint": "Must be a certificate issued within the last year. An expired one is the single commonest reason an application is rejected."
+    },
+    {
+     "label": "Course and Year of Study",
+     "value": "B.Sc. Nursing, 2nd year",
+     "hint": "The course as the college has registered it, and which year you are entering now."
+    },
+    {
+     "label": "College Name and Code",
+     "value": "Government College of Nursing, Kakinada — CODE GCNK01",
+     "hint": "Pick the college from the list on the portal. If it is not listed, the college has not registered and must do so first."
+    },
+    {
+     "label": "Admission / Allotment Number",
+     "value": "APNUR2025-041882",
+     "hint": "From the counselling allotment letter. A management-quota seat outside counselling does not qualify."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "62110 0044 8219 / SBIN0020871",
+     "hint": "In the student's own name and Aadhaar-seeded. A parent's account is the usual reason the maintenance amount bounces."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 22648",
+     "hint": "Sanction and payment messages come here. Give a number the student keeps through the course."
+    }
+   ],
+   "demoSteps": [
+    "Get the caste certificate and a fresh income certificate in hand first, both from AP Seva. Jnanabhumi validates the numbers against the revenue database, so an expired income certificate stops everything.",
+    "Register on jnanabhumi.ap.gov.in with your Aadhaar and mobile, confirm the OTP, and fill the application for the current academic year.",
+    "Enter the college and course from the portal's own list, the admission number from the allotment letter, and your own Aadhaar-seeded bank account.",
+    "Submit and note the application number, then take the printout to your college office — the college has to verify and forward it, and nothing moves until it does.",
+    "The Welfare and Education Assistant at your Village or Ward Secretariat carries out the field verification of the family's income and caste.",
+    "The welfare department sanctions it; the tuition fee goes straight to the college and the maintenance amount into your account by DBT. Track both on the portal with your application number.",
+    "Renew it every year. It is not automatic — a fresh income certificate and a fresh application are needed for each year of the course."
+   ],
+   "helpline": "Your college scholarship section, or the Welfare and Education Assistant at your Village or Ward Secretariat",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://jnanabhumi.ap.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "ap-rice-card",
+   "title": "Andhra Pradesh Rice Card",
+   "department": "Civil Supplies Department, Government of Andhra Pradesh",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "Andhra Pradesh's ration card is called the rice card. It brings subsidised rice and other commodities from the fair price shop, and it is also the household identity that most state welfare schemes check first. New cards, added names and removed names are all applied for on AP Seva.",
+   "benefit": "Subsidised rice and commodities at the fair price shop, and the household identity used by state welfare schemes",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Andhra Pradesh and not holding a ration card elsewhere in India",
+    "Household within the state's eligibility limits on land, income, vehicle and electricity use",
+    "The eldest woman of the family aged 18 or above is recorded as the head of the household",
+    "Every member's Aadhaar must be given; a name without Aadhaar draws no ration"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Address proof — electricity bill, house tax receipt or rent agreement",
+    "Deletion certificate from the earlier card, if the family or a member has moved",
+    "Marriage certificate, for a bride whose name is being added",
+    "Birth certificate, for a newborn being added",
+    "Gas connection number and bank passbook copy"
+   ],
+   "applyUrl": "https://apseva.ap.gov.in/",
+   "portalName": "AP Seva portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "Add a member to an existing card",
+     "hint": "New card, add a member, remove a member, split a card, or correct a detail. Pick one; each takes a different set of papers."
+    },
+    {
+     "label": "Existing Rice Card Number",
+     "value": "AP-07-3318-2205",
+     "hint": "From the front of the card. Leave it blank only if you are applying for a brand new card."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Sulochana Devi Bandaru",
+     "hint": "The eldest woman of the family, aged 18 or above. The card is issued in her name."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 5507 4432",
+     "hint": "Twelve digits. The whole family's entitlement is tracked against this."
+    },
+    {
+     "label": "Member to be added, relation and Aadhaar",
+     "value": "Harika Bandaru — daughter-in-law — 9999 8821 0347",
+     "hint": "Name as on that person's own Aadhaar, and how she or he is related to the head of the household."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Marriage on 12-05-2026; deletion certificate from parents' card at Chirala, Bapatla district",
+     "hint": "A bride needs the marriage certificate and the deletion certificate from her parents' card. A newborn needs only the birth certificate."
+    },
+    {
+     "label": "District / Mandal / Village or Ward",
+     "value": "Krishna / Gudivada / Ward 7",
+     "hint": "Where the family lives. The fair price shop is allotted from this address and the inspector verifies here."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,08,000",
+     "hint": "The household's total for the year. It decides whether the family stays inside the eligibility limits."
+    },
+    {
+     "label": "Gas Connection Number",
+     "value": "HP / 640021198734",
+     "hint": "From the gas book. It is asked to catch a household registered twice."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 55074",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Log in to apseva.ap.gov.in with Aadhaar and OTP and choose Civil Supplies, then the rice card service you need. The Digital Assistant at your Village or Ward Secretariat files it free if you cannot.",
+    "Fill in every member who eats from the same kitchen, with the exact Aadhaar for each. The monthly rice is counted per name, so one missing member costs the family every month.",
+    "Upload Aadhaar for all members, the address proof and, where someone has moved in, the deletion certificate from the old card.",
+    "Submit and keep the application number from the acknowledgement.",
+    "The Volunteer and the Village or Ward Revenue Secretary verify the household at your address, usually within two weeks.",
+    "The card is issued or updated and can be downloaded from AP Seva. Check every name and Aadhaar on it before you rely on it.",
+    "Get the new member's Aadhaar e-KYC done on the machine at your fair price shop. Until that is done the family's quantity does not increase."
+   ],
+   "helpline": "1967 — Civil Supplies toll free",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ap-meebhoomi",
+   "title": "Meebhoomi — AP Land Records, Adangal and e-Pattadar Passbook",
+   "department": "Revenue Department, Government of Andhra Pradesh",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Meebhoomi is where an Andhra Pradesh farmer sees and downloads their own land record — the Adangal showing possession and the crop sown, the 1-B record of rights, the village map, the FMB sketch and the electronic pattadar passbook. Most of it opens without any login and costs nothing.",
+   "benefit": "Free download of Adangal, 1-B, village map, FMB sketch and e-Pattadar passbook",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in Andhra Pradesh and recorded in the revenue register",
+    "Anyone may view a record; the e-Pattadar passbook and personalised copies need Aadhaar and OTP",
+    "For a mutation or a correction, the applicant must be the recorded holder or a legal heir"
+   ],
+   "documents": [
+    "Survey number, or the pattadar account number, or the owner's name",
+    "Aadhaar card, for the e-Pattadar passbook and any personalised record",
+    "Existing pattadar passbook, when asking for a correction",
+    "Registered sale deed or succession papers, when asking for a mutation"
+   ],
+   "applyUrl": "https://meebhoomi.ap.gov.in/",
+   "portalName": "Meebhoomi",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District / Mandal / Village",
+     "value": "West Godavari / Bhimavaram / Tadepalli",
+     "hint": "Pick all three from the lists. The record is stored village by village."
+    },
+    {
+     "label": "Search by",
+     "value": "Survey number",
+     "hint": "Survey number, account number, Aadhaar number or owner name. Survey number gives the cleanest result."
+    },
+    {
+     "label": "Survey Number",
+     "value": "214/3A",
+     "hint": "Copy it exactly from an old Adangal or the pattadar passbook, including the letter at the end."
+    },
+    {
+     "label": "Pattadar Account Number",
+     "value": "1176",
+     "hint": "The khata number. It covers all your survey numbers in that one village, so it is the quicker search if you hold several plots."
+    },
+    {
+     "label": "Pattadar Name",
+     "value": "Appa Rao Chodavarapu",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search by the record's spelling, then get it corrected if it is wrong."
+    },
+    {
+     "label": "Record wanted",
+     "value": "Your Adangal",
+     "hint": "Your Adangal for possession and crop, 1-B for the record of rights, FMB for the measurement sketch, village map for the layout."
+    },
+    {
+     "label": "Aadhaar Number (for e-Passbook only)",
+     "value": "9999 3067 5521",
+     "hint": "Needed only for the electronic pattadar passbook and personalised records, with an OTP to the linked mobile."
+    },
+    {
+     "label": "Year / Fasli",
+     "value": "2026",
+     "hint": "The Adangal is kept year by year. Take the current year unless an office has asked for an older one."
+    }
+   ],
+   "demoSteps": [
+    "Open meebhoomi.ap.gov.in and choose the record you want — Your Adangal, 1-B, village map, FMB sketch or e-Pattadar passbook.",
+    "Select district, mandal and village, then search by survey number, account number, Aadhaar or name. No login is needed for the ordinary views.",
+    "Check the extent, the pattadar name and the crop entry against what you know. Download or print the record; there is no fee.",
+    "For the e-Pattadar passbook, enter your Aadhaar and the OTP sent to the linked mobile.",
+    "If the record is wrong — a name misspelt, an extent short, a dead holder still shown — do not try to fix it here. Apply for a mutation or correction through AP Seva or at your Village Secretariat, with the sale deed or succession papers.",
+    "Keep a downloaded Adangal and 1-B with your papers. Farm subsidy, crop loan and input assistance applications all ask for them."
+   ],
+   "helpline": "Your Village Secretariat, or the mandal Tahsildar's office",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

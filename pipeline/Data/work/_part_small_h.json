@@ -1,0 +1,267 @@
+{
+ "schemes": [
+  {
+   "id": "jk-jkssb-recruitment",
+   "title": "JKSSB Recruitment — Jammu & Kashmir Group C and D Posts",
+   "department": "Jammu and Kashmir Services Selection Board",
+   "level": "State",
+   "state": "Jammu & Kashmir",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Services Selection Board recruits for most non-gazetted posts in Jammu and Kashmir — junior assistant, patwari, teacher, technician and the police and health cadres. Every advertisement is applied for through the Board's own online system.",
+   "benefit": "One online profile for every JKSSB advertisement, with admit cards and results",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Domicile of Jammu and Kashmir, proved by the domicile certificate",
+    "Age as the advertisement states, usually 18 to 40, with relaxation for reserved categories and disability",
+    "The qualification the post requires, complete on the closing date of that advertisement",
+    "Reservation claims under RBA, ALC, SC, ST, OBC, EWS or disability need the certificate on the J&K format"
+   ],
+   "documents": [
+    "Domicile certificate of Jammu and Kashmir",
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Degree, diploma or technical qualification certificates and marksheets",
+    "Category certificate — RBA, ALC, SC, ST, OBC or EWS — on the J&K format",
+    "Disability or ex-serviceman certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://jkssb.nic.in/dynamic-jkssb-test/pages/login.aspx",
+   "portalName": "JKSSB online recruitment portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Advertisement and post applied for",
+     "value": "Advt 04 of 2026 — Junior Assistant, Revenue Department",
+     "hint": "One application per post. Read the qualification and the age limit in that advertisement before paying."
+    },
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Arif Hussain Bhat",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ. Everything later is checked against it."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Ghulam Mohammad Bhat",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "12-10-2000",
+     "hint": "As on the Class 10 certificate. Age limits count from this date and it cannot be changed after registration."
+    },
+    {
+     "label": "Domicile Certificate Number",
+     "value": "ANT/BJB/DOM/2021/07714",
+     "hint": "No JKSSB post can be applied for without a J&K domicile certificate. Get it from e-UNNAT well before the closing date."
+    },
+    {
+     "label": "Category claimed",
+     "value": "RBA — Resident of Backward Area",
+     "hint": "Open merit, RBA, ALC, SC, ST, OBC, EWS, disability or ex-serviceman. Claim only what you hold a J&K-format certificate for."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A., University of Kashmir, 2022, 65%",
+     "hint": "It must be complete on the closing date, not merely expected. Many posts also need a computer certificate."
+    },
+    {
+     "label": "Examination district preference",
+     "value": "Anantnag; second choice Srinagar",
+     "hint": "Give two or three. The Board allots the nearest centre it can."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 77241 / arif.bhat@example.com",
+     "hint": "The application number, admit card and every notice come here. Do not use a friend's number."
+    }
+   ],
+   "demoSteps": [
+    "Get the domicile certificate from e-UNNAT first if you do not have it. Nothing at JKSSB can be applied for without one.",
+    "Watch jkssb.nic.in for the advertisement and read the qualification and age limits before anything else.",
+    "Register with your name and date of birth exactly as on the Class 10 certificate, and upload the photograph and signature in the sizes stated.",
+    "Fill the application, claim only the categories you hold J&K-format certificates for, choose your centres and pay the fee online.",
+    "Use the correction window if the Board opens one; it is the only chance to fix a wrong entry.",
+    "Download the admit card about a week before the exam and take it with a photo ID.",
+    "Results and the answer key come out on the same site. Document verification is last, where the originals of the domicile and category certificates must be produced."
+   ],
+   "helpline": "JKSSB office, Zamzam Building, Rambagh, Srinagar; helpdesk details on jkssb.nic.in",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://jkssb.nic.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "uk-apuni-sarkar",
+   "title": "Apuni Sarkar — Uttarakhand e-Services",
+   "department": "Information Technology Development Agency, Government of Uttarakhand",
+   "level": "State",
+   "state": "Uttarakhand",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Apuni Sarkar is Uttarakhand's single window. Income, caste, domicile, character and permanent residence certificates and a long list of departmental services are applied for here, with a delivery time fixed for each under the state's Right to Service Act.",
+   "benefit": "Income, caste, domicile and residence certificates with a guaranteed delivery time",
+   "emoji": "🏔",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Uttarakhand, applying in the tehsil where the family lives",
+    "A permanent residence certificate needs proof the family has lived in the state for the qualifying period",
+    "A caste certificate needs the caste to be on the Uttarakhand SC, ST or OBC list",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Family register (parivar register) copy from the panchayat or the nagar nikay",
+    "Father's caste certificate or a school record, for a caste certificate",
+    "Electricity bill or house tax receipt for the address",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://eservices.uk.gov.in/user/login/CITIZEN",
+   "portalName": "Apuni Sarkar Uttarakhand",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Permanent Residence Certificate (Sthayi Niwas)",
+     "hint": "Income, caste, permanent residence, character or a departmental service. Each has its own form, fee and delivery time."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Deepa Negi",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Mahendra Singh Negi",
+     "hint": "Used to identify the family in the parivar register; essential for a caste certificate."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5518 2206",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Pauri Garhwal / Srinagar / Kirtinagar",
+     "hint": "Where the family lives. The Tehsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Parivar Register entry",
+     "value": "Kirtinagar Gram Panchayat — family serial 214",
+     "hint": "The family register entry from the panchayat or nagar nikay. Most Uttarakhand certificates are checked against it."
+    },
+    {
+     "label": "Years resident in Uttarakhand",
+     "value": "Since birth — family settled since 1958",
+     "hint": "For the permanent residence certificate. The parivar register and old land or school records are what prove it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,20,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 55182",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get a current copy of the parivar register from your panchayat or nagar nikay. Most Uttarakhand certificates are verified against it.",
+    "Register on eservices.uk.gov.in with your mobile, or use a Common Service Centre, which files it for the notified fee.",
+    "Choose the certificate, fill the form from your Aadhaar and the parivar register, and upload the documents.",
+    "Pay the fee and note the application number from the acknowledgement.",
+    "The patwari and the tehsil staff verify the family, then the Tehsildar signs the certificate.",
+    "Download it from the same login. A digitally signed copy needs no attestation.",
+    "Each service has a delivery time under the Right to Service Act. If it passes, the Act gives you an appeal and the application number is what you quote."
+   ],
+   "helpline": "1905 — Uttarakhand CM helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://eservices.uk.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "uk-bhulekh",
+   "title": "Bhulekh Uttarakhand — Khatauni and Land Records",
+   "department": "Revenue Department, Government of Uttarakhand",
+   "level": "State",
+   "state": "Uttarakhand",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Bhulekh Uttarakhand is where a landholder in the state sees and prints the khatauni, the record of rights, and the khasra for a plot. It is free and needs no login. Most rural schemes, crop loans and mutation applications ask for the khatauni.",
+   "benefit": "Free khatauni and khasra copies, searchable by plot, khata number or owner name",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in Uttarakhand and entered in the revenue record",
+    "Anyone may view and print a record; no login and no fee",
+    "A certified copy for a bank or a court is issued by the tehsil, not printed from the site",
+    "Only the recorded holder or an heir can apply to change a record"
+   ],
+   "documents": [
+    "District, tehsil and village name",
+    "Khasra number, or the khata number, or the owner's name",
+    "Aadhaar card, if you go on to file a mutation at the tehsil",
+    "Registered sale deed, for a mutation on purchase",
+    "Death certificate and succession papers, for a mutation on inheritance"
+   ],
+   "applyUrl": "https://bhulekh.uk.gov.in/public/public_ror/Public_ROR.jsp",
+   "portalName": "Bhulekh Uttarakhand",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District / Tehsil / Village",
+     "value": "Pauri Garhwal / Srinagar / Kirtinagar",
+     "hint": "Pick all three from the lists. The record is held village by village."
+    },
+    {
+     "label": "Search by",
+     "value": "Khata number",
+     "hint": "Khasra number, khata number, or owner's name. Khata covers every plot you hold in that village."
+    },
+    {
+     "label": "Khasra Number",
+     "value": "318",
+     "hint": "Copy it from an older khatauni or the purchase deed."
+    },
+    {
+     "label": "Khata Number",
+     "value": "00147",
+     "hint": "The account number. It is the quicker search if you own several plots in the village."
+    },
+    {
+     "label": "Owner's Name as on the record",
+     "value": "Mahendra Singh Negi, son of Bachan Singh",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search the record's spelling first."
+    },
+    {
+     "label": "Record wanted",
+     "value": "Khatauni",
+     "hint": "Khatauni for the record of rights and the share; khasra for the plot and its details."
+    },
+    {
+     "label": "Captcha",
+     "value": "Type the characters shown",
+     "hint": "Asked on every search. It is the only step between you and the record."
+    }
+   ],
+   "demoSteps": [
+    "Open bhulekh.uk.gov.in and pick district, tehsil and village, then search by khasra number, khata number or owner's name.",
+    "Check the area, the owner's name and the share against what you know, and print the copy. There is no fee.",
+    "For a bank or a court, ask the tehsil for a certified copy — the print from the site is for your own reference.",
+    "If a sale or a death has not been entered, file the mutation at the tehsil with the registered deed or the succession papers. It cannot be done from this site.",
+    "After a mutation order, pull a fresh khatauni and check that the name and share are right.",
+    "Keep a current khatauni with your papers. PM-Kisan, crop loans and state rural schemes all ask for it."
+   ],
+   "helpline": "Your tehsil office, or the patwari of your village circle",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://bhulekh.uk.gov.in/",
+   "applyKind": "form"
+  }
+ ]
+}

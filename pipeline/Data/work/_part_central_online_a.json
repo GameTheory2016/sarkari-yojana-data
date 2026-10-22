@@ -1,0 +1,775 @@
+[
+ {
+  "id": "pm-kisan",
+  "title": "PM Kisan Samman Nidhi",
+  "department": "Ministry of Agriculture & Farmers Welfare",
+  "level": "Central",
+  "state": "",
+  "category": "Agriculture",
+  "mode": "online",
+  "brief": "Every land-holding farmer family gets Rs.6,000 a year from the central government, paid straight into the bank account. The money comes in three instalments of Rs.2,000, about four months apart. There is no fee and no middleman.",
+  "benefit": "Rs.6,000 a year in 3 instalments",
+  "emoji": "🌾",
+  "colorHex": "#2E7D32",
+  "eligibility": [
+   "The family owns cultivable land. A family means husband, wife and minor children, and gets one payment between them",
+   "The land record must be in the applicant's own name in the village revenue record",
+   "Aadhaar must be seeded in the bank account, and e-KYC must be completed on the portal",
+   "Not eligible: income-tax payers, serving or retired government employees (Class IV / Group D staff are still eligible), pensioners drawing Rs.10,000 or more a month",
+   "Not eligible: doctors, engineers, lawyers, chartered accountants and architects in practice, and holders of constitutional posts",
+   "Not eligible: institutional landholders, such as land held by a trust or company"
+  ],
+  "documents": [
+   "Aadhaar card, with mobile number linked for OTP",
+   "Land record (khatauni, khasra, RoR or 7/12 extract) showing the applicant's name",
+   "Bank passbook first page, showing account number and IFSC",
+   "Ration card or other proof of the family",
+   "Recent passport-size photograph"
+  ],
+  "applyUrl": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
+  "portalName": "PM-KISAN portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Type of farmer",
+    "value": "Rural Farmer",
+    "hint": "Choose Rural Farmer if your land is in a village panchayat, Urban Farmer if it falls inside a municipal area."
+   },
+   {
+    "label": "Aadhaar number",
+    "value": "9999 4412 7038",
+    "hint": "The 12 digits printed on your Aadhaar card. The mobile number linked to it will receive the OTP, so keep that phone with you."
+   },
+   {
+    "label": "Mobile number",
+    "value": "98450 22671",
+    "hint": "The number linked to your Aadhaar. Every message about your instalment comes to this number, so do not give someone else's phone."
+   },
+   {
+    "label": "Name (exactly as on Aadhaar)",
+    "value": "Ramesh Bhaurao Sakhare",
+    "hint": "Copy the spelling from the Aadhaar card letter by letter. If it does not match, the bank transfer will fail."
+   },
+   {
+    "label": "Category",
+    "value": "OBC",
+    "hint": "SC, ST, OBC or General, as written on your caste certificate. Choose General if you do not hold one."
+   },
+   {
+    "label": "State / District / Block / Village",
+    "value": "Maharashtra / Wardha / Seloo / Khairwadi",
+    "hint": "Pick these from the drop-down lists in order. The village you choose must be the village where the land is, not where you live."
+   },
+   {
+    "label": "Land khasra / survey number",
+    "value": "142/3",
+    "hint": "Copy it from your 7/12 extract or khatauni. If you hold land under more than one number, add a row for each."
+   },
+   {
+    "label": "Land area (in hectares)",
+    "value": "0.85",
+    "hint": "Write the area shown in the same land record. If your record is in acres, divide by 2.47 to get hectares."
+   },
+   {
+    "label": "Bank account number",
+    "value": "5021 0034 7896 12",
+    "hint": "Your own single or joint savings account, with Aadhaar seeded in it. A closed or dormant account will send the money back."
+   },
+   {
+    "label": "IFSC code",
+    "value": "SBIN0007412",
+    "hint": "The 11-character branch code on your passbook or cheque book. Fourth character is always a zero."
+   }
+  ],
+  "demoSteps": [
+   "Open pmkisan.gov.in and, under Farmers Corner, choose New Farmer Registration.",
+   "Enter your Aadhaar number, mobile number and state, tick Rural or Urban farmer, and fill the captcha to get an OTP.",
+   "Type the OTP, then a second OTP sent by Aadhaar, so that your identity is verified.",
+   "Fill your name, category, bank account and IFSC exactly as they appear on your documents.",
+   "Add your land details, one row for each khasra or survey number, and upload the land record and your photo.",
+   "Save the form and note the registration number that appears on screen.",
+   "Your application now goes to the village revenue officer and then the state government for approval. Check Beneficiary Status on the same site using your Aadhaar number.",
+   "Once approved, complete e-KYC under Farmers Corner, else the instalment will be held back."
+  ],
+  "helpline": "155261 / 1800-115-526 / 011-24300606",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pmkisan.gov.in/",
+  "applyKind": "form"
+ },
+ {
+  "id": "pmfby",
+  "title": "Pradhan Mantri Fasal Bima Yojana",
+  "department": "Ministry of Agriculture & Farmers Welfare",
+  "level": "Central",
+  "state": "",
+  "category": "Agriculture",
+  "mode": "online",
+  "brief": "Crop insurance that pays the farmer when the harvest is lost to drought, flood, pests, hail or an unseasonal storm. The farmer pays only a small part of the premium, 2% of the sum insured for kharif crops and 1.5% for rabi, and the two governments pay the rest.",
+  "benefit": "Premium of only 1.5% to 5%; full sum insured on crop loss",
+  "emoji": "🌦",
+  "colorHex": "#1B8F5A",
+  "eligibility": [
+   "Any farmer growing a notified crop in a notified area, whether the land is owned, leased or share-cropped",
+   "Enrolment is voluntary. Loanee farmers are covered through their bank unless they opt out in writing",
+   "A tenant or share-cropper must hold a written agreement or a sowing certificate from the village officer",
+   "The crop must be registered before the cut-off date for that season, usually 31 July for kharif and 31 December for rabi",
+   "The same plot cannot be insured twice, by the bank and by the farmer separately"
+  ],
+  "documents": [
+   "Aadhaar card",
+   "Bank passbook first page with account number and IFSC",
+   "Land record (7/12 extract, khatauni or RoR) for the insured plot",
+   "Sowing certificate or self-declaration of the crop sown",
+   "Tenancy agreement, if the land is taken on lease",
+   "Recent photograph of the sown field, useful when a claim is filed"
+  ],
+  "applyUrl": "https://pmfby.gov.in/farmerLogin",
+  "portalName": "PMFBY portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Season and year",
+    "value": "Kharif 2026",
+    "hint": "Kharif is the monsoon sowing, rabi the winter one. Only the season open for enrolment can be picked."
+   },
+   {
+    "label": "Farmer name (as on Aadhaar)",
+    "value": "Sunita Devi Yadav",
+    "hint": "The name of the person who will receive the claim money. Spell it as on the Aadhaar card."
+   },
+   {
+    "label": "Aadhaar number",
+    "value": "9999 6620 1187",
+    "hint": "12 digits from your Aadhaar card. An OTP comes to the mobile linked with it."
+   },
+   {
+    "label": "Farmer type",
+    "value": "Share-cropper",
+    "hint": "Owner if the land is in your name, tenant or share-cropper if you farm someone else's land. A share-cropper must upload the agreement."
+   },
+   {
+    "label": "State / District / Tehsil / Village",
+    "value": "Bihar / Nalanda / Harnaut / Bhagwanpur Bishunpur",
+    "hint": "Choose the village where the field lies. Premium rates and notified crops change from village to village."
+   },
+   {
+    "label": "Crop sown",
+    "value": "Paddy (dhan)",
+    "hint": "Only crops notified for your village appear in the list. If your crop is missing, it is not covered there this season."
+   },
+   {
+    "label": "Area insured (in hectares)",
+    "value": "0.60",
+    "hint": "The area actually sown with this crop, not your whole holding. It cannot be more than the area in your land record."
+   },
+   {
+    "label": "Sowing date",
+    "value": "05/07/2026",
+    "hint": "The date you sowed this crop. It must fall inside the sowing window for your area."
+   },
+   {
+    "label": "Land survey / khasra number",
+    "value": "318/2",
+    "hint": "Copy it from the land record for the plot you are insuring. Add one entry for each separate plot."
+   },
+   {
+    "label": "Bank account number and IFSC",
+    "value": "3319 7745 0128 / PUNB0331900",
+    "hint": "The account where the claim will land. The premium is also debited from it, so keep the balance ready."
+   }
+  ],
+  "demoSteps": [
+   "Open pmfby.gov.in and click Farmer Corner, then Guest Farmer, to make a login with your mobile number.",
+   "Sign in and choose Insurance of Loanee or Non-Loanee farmer, whichever fits you.",
+   "Pick the season, year and scheme, then your state, district, tehsil and village.",
+   "Enter your Aadhaar, name and bank details, and verify the Aadhaar OTP.",
+   "Add the crop, the area sown in hectares, the sowing date and the survey number of the plot.",
+   "Upload the land record, and the tenancy paper if you farm someone else's land.",
+   "Check the premium the screen shows, pay it online, and save the policy receipt and application number.",
+   "If the crop is damaged later, report it within 72 hours on the Crop Insurance app or on 14447, and the surveyor will visit."
+  ],
+  "helpline": "14447",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pmfby.gov.in/",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "pmjay",
+  "title": "Ayushman Bharat PM-JAY (Ayushman Card)",
+  "department": "National Health Authority, Ministry of Health & Family Welfare",
+  "level": "Central",
+  "state": "",
+  "category": "Health",
+  "mode": "online",
+  "brief": "A free health cover of Rs.5 lakh a year for the whole family, used at any empanelled government or private hospital. Treatment is cashless: the hospital bills the government, not you. The Ayushman card is what you show at the hospital desk, and you can make it yourself online.",
+  "benefit": "Rs.5 lakh a year, cashless, for the whole family",
+  "emoji": "🏥",
+  "colorHex": "#D81B60",
+  "eligibility": [
+   "Families listed in the SECC 2011 deprivation list for rural areas, or in the listed occupational categories for urban areas",
+   "All families already covered by the older RSBY scheme",
+   "Every citizen aged 70 and above, whatever the family income, under the Ayushman Vay Vandana card",
+   "Registered construction workers, ASHA and Anganwadi workers, and other groups notified by the state",
+   "There is no cap on family size or on the age of members. Illnesses you already have are covered from day one"
+  ],
+  "documents": [
+   "Aadhaar card of the person whose card is being made",
+   "Mobile number for OTP (it need not be linked to Aadhaar, but Aadhaar OTP or face authentication is needed for e-KYC)",
+   "Ration card or family ID, to link the other members of the family",
+   "A live photo, taken on the phone during e-KYC"
+  ],
+  "applyUrl": "https://beneficiary.nha.gov.in/",
+  "portalName": "Ayushman beneficiary portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Login as",
+    "value": "Beneficiary",
+    "hint": "Choose Beneficiary when you are making the card for yourself or your family, not Operator."
+   },
+   {
+    "label": "Mobile number",
+    "value": "90041 77852",
+    "hint": "Any working number you hold. The login OTP comes here, and so does the message when the card is approved."
+   },
+   {
+    "label": "Scheme and state",
+    "value": "PMJAY / Tamil Nadu",
+    "hint": "Choose PMJAY, then the state where your ration card was issued, not the state you are working in."
+   },
+   {
+    "label": "Search your family by",
+    "value": "Family ID (ration card number)",
+    "hint": "You can search by Aadhaar, family or ration card number, name, or PMJAY ID. The family number finds everyone at once."
+   },
+   {
+    "label": "Family / ration card number",
+    "value": "TN-1122-3344-5566",
+    "hint": "Copy the number from the ration card. If nothing is found, try searching again with your Aadhaar number."
+   },
+   {
+    "label": "Aadhaar number for e-KYC",
+    "value": "9999 3187 4402",
+    "hint": "Aadhaar of the family member whose card you are making now. Each member has to be done one at a time."
+   },
+   {
+    "label": "e-KYC method",
+    "value": "Aadhaar OTP",
+    "hint": "Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication and scan the face on the phone camera."
+   },
+   {
+    "label": "Live photo",
+    "value": "Captured on phone camera",
+    "hint": "Take the photo in good light, face straight, no cap or dark glasses. A blurred photo gets the request rejected."
+   },
+   {
+    "label": "Relation with head of family",
+    "value": "Daughter",
+    "hint": "How this member is related to the person named first on the ration card."
+   },
+   {
+    "label": "District and PIN code",
+    "value": "Madurai / 625014",
+    "hint": "The address where you actually stay now, so the nearest empanelled hospitals are shown to you."
+   }
+  ],
+  "demoSteps": [
+   "Open beneficiary.nha.gov.in and log in as Beneficiary with your mobile number and the OTP.",
+   "Choose the scheme PMJAY and your state, then search for your family by ration card number or Aadhaar.",
+   "The list of family members appears. Find the member with the tag eKYC pending and tap the Aadhaar icon next to the name.",
+   "Verify with an Aadhaar OTP, or use face authentication if the mobile is not linked to Aadhaar.",
+   "Take the live photo on the phone and fill in the mobile number, relation to the head of the family, district and PIN code.",
+   "Submit. The request goes to the state health agency, and approval usually comes within a day or two.",
+   "Log in again, open Download Card, verify once more with OTP, and save the Ayushman card on your phone.",
+   "At the hospital, go to the Ayushman Mitra desk and show this card. Never pay cash for a treatment listed under the scheme."
+  ],
+  "helpline": "14555 / 1800-111-565",
+  "lastVerified": "September 2026",
+  "applyKind": "service-login"
+ },
+ {
+  "id": "abha",
+  "title": "ABHA Health Account",
+  "department": "National Health Authority, Ayushman Bharat Digital Mission",
+  "level": "Central",
+  "state": "",
+  "category": "Health",
+  "mode": "online",
+  "brief": "A free 14-digit health number that keeps all your prescriptions, test reports and hospital records in one place. You decide which doctor or hospital may see them, and you can take the permission back at any time. Making it takes about five minutes with an Aadhaar OTP.",
+  "benefit": "Free health ID that keeps all your medical records in one place",
+  "emoji": "🩺",
+  "colorHex": "#00897B",
+  "eligibility": [
+   "Any resident of India, of any age. There is no income limit and no fee",
+   "A child's account can be made by a parent using the parent's own mobile number",
+   "Aadhaar or a driving licence is needed to create the account. The Aadhaar route gives a fully verified account",
+   "Making an ABHA account is voluntary, and no hospital may refuse treatment if you do not have one"
+  ],
+  "documents": [
+   "Aadhaar card, with mobile number linked to it",
+   "Mobile number to receive the OTP",
+   "Driving licence, only if you are creating the account without Aadhaar"
+  ],
+  "applyUrl": "https://abha.abdm.gov.in/abha/v3/register",
+  "portalName": "ABHA portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Create using",
+    "value": "Aadhaar",
+    "hint": "Aadhaar gives a fully verified account. Choose driving licence only when you do not want to use Aadhaar."
+   },
+   {
+    "label": "Aadhaar number",
+    "value": "9999 7054 3216",
+    "hint": "The 12 digits on your Aadhaar card. It is used once to verify you, and is not shown on the ABHA card."
+   },
+   {
+    "label": "Consent",
+    "value": "I agree",
+    "hint": "Read the box and tick it. You are allowing Aadhaar to confirm your name, date of birth and address, nothing more."
+   },
+   {
+    "label": "Aadhaar OTP",
+    "value": "6 digits from the SMS",
+    "hint": "The OTP goes to the mobile linked with Aadhaar. It expires in ten minutes, so ask for a fresh one if it runs out."
+   },
+   {
+    "label": "Mobile number for the account",
+    "value": "87699 41230",
+    "hint": "The number you use every day. It can be different from the Aadhaar mobile, and it gets its own OTP."
+   },
+   {
+    "label": "Full name (filled in from Aadhaar)",
+    "value": "Abdul Rashid Shaikh",
+    "hint": "This comes automatically from Aadhaar and cannot be typed over. Get it corrected in Aadhaar first if it is wrong."
+   },
+   {
+    "label": "Date of birth and gender",
+    "value": "14/03/1988 / Male",
+    "hint": "Also filled in from Aadhaar. Check it against your own records before you go ahead."
+   },
+   {
+    "label": "ABHA address (your health username)",
+    "value": "abdul.shaikh88@abdm",
+    "hint": "Pick something easy to say out loud at a hospital counter. This is what you share, never your Aadhaar."
+   },
+   {
+    "label": "Address and PIN code",
+    "value": "Plot 27, Ganga Nagar, Nagpur / 440027",
+    "hint": "Comes from Aadhaar. Edit it if you have moved, so that nearby hospitals link to you correctly."
+   }
+  ],
+  "demoSteps": [
+   "Open abha.abdm.gov.in and choose Create ABHA Number.",
+   "Select the Aadhaar route, type your Aadhaar number, and tick the consent box.",
+   "Enter the OTP sent to the mobile linked with your Aadhaar.",
+   "Give the mobile number you want on the account and verify its own OTP.",
+   "Your name, date of birth, gender and address appear on their own from Aadhaar. Check them.",
+   "Choose an ABHA address, the easy-to-say name ending in @abdm that you will share at hospitals.",
+   "Your 14-digit ABHA number is made at once. Download the card as a PDF and save it.",
+   "Install the ABHA app, sign in with the same number, and link your hospital records as they come in."
+  ],
+  "helpline": "1800-11-4477 / 14477",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://abha.abdm.gov.in/",
+  "applyKind": "form"
+ },
+ {
+  "id": "e-shram",
+  "title": "e-Shram Card for Unorganised Workers",
+  "department": "Ministry of Labour & Employment",
+  "level": "Central",
+  "state": "",
+  "category": "Employment",
+  "mode": "online",
+  "brief": "One national register for workers who have no employer on paper: labourers, street vendors, domestic workers, drivers, farm hands, weavers and the rest. Registration is free and gives a permanent Universal Account Number card, accident cover of Rs.2 lakh, and a single place where other welfare schemes can find you.",
+  "benefit": "Free UAN card plus Rs.2 lakh accident cover",
+  "emoji": "👷",
+  "colorHex": "#F57C00",
+  "eligibility": [
+   "Age between 16 and 59 years on the day of registering",
+   "Working in the unorganised sector, with no fixed employer paying your social security",
+   "Not a member of EPFO or ESIC",
+   "Not an income-tax payer",
+   "Aadhaar must be linked to a working mobile number, or you must register at a CSC with a fingerprint"
+  ],
+  "documents": [
+   "Aadhaar card, with mobile number linked for OTP",
+   "Bank passbook first page with account number and IFSC",
+   "Details of your work, occupation and skill",
+   "Education certificate, if you have one (not compulsory)",
+   "Nominee's name, date of birth and Aadhaar"
+  ],
+  "applyUrl": "https://register.eshram.gov.in/#/user/self",
+  "portalName": "e-Shram portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Aadhaar-linked mobile number",
+    "value": "76108 39452",
+    "hint": "It must be the number linked to your Aadhaar. If you do not remember it, go to a CSC and register with your fingerprint instead."
+   },
+   {
+    "label": "Are you a member of EPFO or ESIC?",
+    "value": "No",
+    "hint": "Answer honestly. If you already have a PF or ESIC number you are in the organised sector and cannot register here."
+   },
+   {
+    "label": "Aadhaar number",
+    "value": "9999 5238 6741",
+    "hint": "Your 12-digit number. Your name, date of birth, gender and photo will be picked up from it automatically."
+   },
+   {
+    "label": "Name and date of birth",
+    "value": "Meena Kumari Devi / 22/11/1991",
+    "hint": "Filled in from Aadhaar and cannot be changed here. Correct your Aadhaar first if anything is wrong."
+   },
+   {
+    "label": "Present address and PIN code",
+    "value": "House 8, Sant Nagar, Sector 4, Faridabad / 121004",
+    "hint": "Where you are living and working now, even if your Aadhaar still shows your village. There is a separate box for the permanent address."
+   },
+   {
+    "label": "Education",
+    "value": "Class 8 pass",
+    "hint": "Your highest level of study. Choose Non-literate or Below primary if that fits. No certificate is needed to go ahead."
+   },
+   {
+    "label": "Occupation / kind of work",
+    "value": "Domestic worker (house help)",
+    "hint": "Pick from the list the work you spend most of your time doing. This decides which welfare schemes will reach you."
+   },
+   {
+    "label": "Years of experience",
+    "value": "7",
+    "hint": "Roughly how long you have been doing this work. A rough figure is fine."
+   },
+   {
+    "label": "Bank account number and IFSC",
+    "value": "2087 4411 9036 / HDFC0002087",
+    "hint": "Must be an account in your own name, not your husband's or your son's. Benefit money is paid only into your own account."
+   },
+   {
+    "label": "Nominee",
+    "value": "Ramkali Devi (mother), 03/06/1968",
+    "hint": "Who should receive the accident cover if something happens to you. Give the name, date of birth and relation."
+   }
+  ],
+  "demoSteps": [
+   "Open eshram.gov.in and choose Register on e-Shram.",
+   "Type the mobile number linked to your Aadhaar, fill the captcha, and answer the two questions about EPFO and ESIC.",
+   "Enter the OTP, then your Aadhaar number, and verify the second OTP sent by Aadhaar.",
+   "Your name, date of birth, gender, photo and address come up on their own. Check them line by line.",
+   "Fill in your present address, education, occupation and years of experience.",
+   "Add your bank account number and IFSC, in your own name, and then your nominee's details.",
+   "Submit the form. The UAN card is made at once, so download the PDF and keep a printout.",
+   "If Aadhaar OTP does not work for you, take your Aadhaar and passbook to the nearest Common Service Centre and register there free of cost."
+  ],
+  "helpline": "14434",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://eshram.gov.in/",
+  "applyKind": "form"
+ },
+ {
+  "id": "pmay-u",
+  "title": "PM Awas Yojana Urban 2.0",
+  "department": "Ministry of Housing & Urban Affairs",
+  "level": "Central",
+  "state": "",
+  "category": "Housing",
+  "mode": "online",
+  "brief": "Help for a town or city family that has no pucca house of its own. There are four routes: build on your own plot, buy a flat built with government help, rent a government-built room, or take a home loan with an interest subsidy. You apply once on the portal and the urban local body decides which route fits you.",
+  "benefit": "Up to Rs.2.50 lakh assistance, or Rs.1.80 lakh interest subsidy on a home loan",
+  "emoji": "🏠",
+  "colorHex": "#FF6B35",
+  "eligibility": [
+   "The family, meaning husband, wife and unmarried children, must not own a pucca house anywhere in India",
+   "EWS: yearly family income up to Rs.3 lakh. LIG: Rs.3 lakh to Rs.6 lakh. MIG: Rs.6 lakh to Rs.9 lakh",
+   "The house must be in a town or city notified under the scheme",
+   "For the Beneficiary-Led Construction route the family must already own the plot, with clear papers",
+   "The house should be in the name of a woman of the family, or jointly, except in the rental route",
+   "The family must not have taken help under any earlier central housing scheme"
+  ],
+  "documents": [
+   "Aadhaar of all family members",
+   "Income certificate or proof of yearly family income",
+   "Bank passbook with account number and IFSC",
+   "Proof that you own the plot, for the build-your-own route: sale deed, patta or allotment letter",
+   "Affidavit that the family owns no pucca house in India",
+   "Caste certificate, if claiming under SC, ST or OBC",
+   "Latest municipal tax or electricity bill as address proof"
+  ],
+  "applyUrl": "https://pmaymis.gov.in/PMAYMIS2_2024/PMAY_SURVEY/EligiblityCheck.aspx",
+  "portalName": "PMAY-U 2.0 portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Yearly family income",
+    "value": "Rs.2,40,000",
+    "hint": "Add up what everyone in the family earns in a year. This decides whether you fall in EWS, LIG or MIG."
+   },
+   {
+    "label": "Does the family own a pucca house?",
+    "value": "No",
+    "hint": "Answer for the whole family and for the whole country, not just this city. A wrong answer here cancels the application later."
+   },
+   {
+    "label": "Which vertical you are applying under",
+    "value": "BLC - Beneficiary-Led Construction",
+    "hint": "BLC if you own a plot and will build, AHP to buy a flat, ARH to rent, ISS for an interest subsidy on a home loan."
+   },
+   {
+    "label": "Aadhaar number of the head of family",
+    "value": "9999 2861 4470",
+    "hint": "e-KYC is done on this Aadhaar. Prefer the woman of the house, since the house has to be in her name."
+   },
+   {
+    "label": "Name and relation of each family member",
+    "value": "Anita Bhosale (self), Devidas Bhosale (husband), Sagar Bhosale (son, 12)",
+    "hint": "List husband, wife and unmarried children with their Aadhaar numbers. Married children make their own separate family."
+   },
+   {
+    "label": "State / District / Town or city",
+    "value": "Maharashtra / Nashik / Nashik Municipal Corporation",
+    "hint": "Choose the urban local body where the house will stand. Your file will go to this office for checking."
+   },
+   {
+    "label": "Address of the plot or present house",
+    "value": "Plot 46, Shantinagar, Panchavati, Nashik - 422003",
+    "hint": "The full address with PIN code. For the build-your-own route, this must be the plot shown in your ownership paper."
+   },
+   {
+    "label": "Plot ownership document number",
+    "value": "Sale deed 4412/2019, Sub-Registrar Nashik-2",
+    "hint": "The registration number on your sale deed, patta or allotment letter. Needed only for the build-your-own route."
+   },
+   {
+    "label": "Bank account number and IFSC",
+    "value": "6640 2219 8375 / BARB0NASHIK",
+    "hint": "The instalments are released into this account as the building work reaches each stage."
+   },
+   {
+    "label": "Mobile number",
+    "value": "99225 60184",
+    "hint": "Every message about survey, approval and instalments comes to this number. Give the number you use daily."
+   }
+  ],
+  "demoSteps": [
+   "Open pmay-urban.gov.in and click Apply for PMAY-U 2.0.",
+   "Answer the eligibility questions: yearly family income, whether the family owns a pucca house, and your state.",
+   "Read the four verticals shown and pick the one that fits you, then enter your Aadhaar and complete e-KYC with the OTP.",
+   "Fill in the family details, the address of the plot or of your present house, and the bank account.",
+   "Upload the income proof, the ownership papers and the affidavit that you own no pucca house.",
+   "Submit and save the application number that appears. Print the acknowledgement.",
+   "The urban local body verifies the papers and a surveyor visits the plot.",
+   "Track the file on the same site under Search Beneficiary. Money is released in instalments as the work goes up, so send the photographs asked for at each stage."
+  ],
+  "helpline": "1800-11-3377 / 1800-11-3388 / 1800-11-6163",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pmay-urban.gov.in/",
+  "applyKind": "form"
+ },
+ {
+  "id": "pmuy",
+  "title": "PM Ujjwala Yojana LPG Connection",
+  "department": "Ministry of Petroleum & Natural Gas",
+  "level": "Central",
+  "state": "",
+  "category": "Utilities",
+  "mode": "online",
+  "brief": "A free cooking gas connection for a woman of a poor household, so that the kitchen is free of smoke from wood and dung. The government pays the deposit for the cylinder and regulator, and gives the first refill and the stove free. Every refill after that gets a subsidy paid into the bank account.",
+  "benefit": "Free connection, first refill and stove, plus Rs.300 subsidy on each refill",
+  "emoji": "🔥",
+  "colorHex": "#D84315",
+  "eligibility": [
+   "The applicant must be a woman, aged 18 years or above",
+   "No other LPG connection may exist in the household, in anyone's name",
+   "The household must belong to one of the listed poor groups: SC or ST, PMAY beneficiary, Antyodaya card holder, most backward class, tea garden worker, forest dweller, island or river-island resident, or any poor family covered by the 14-point declaration",
+   "Aadhaar of the applicant, and of all adults in the family, must be given",
+   "A woman who has moved and cannot get a ration card in the new place may use a self-declaration of family instead"
+  ],
+  "documents": [
+   "Aadhaar card of the woman applying, used as identity and address proof",
+   "Aadhaar of all adult members of the family",
+   "Ration card or state-issued family certificate, or the KYC self-declaration form if you have moved",
+   "Bank passbook with account number and IFSC, in the applicant's own name",
+   "Recent passport-size photograph",
+   "Filled and signed KYC form of the gas company"
+  ],
+  "applyUrl": "https://www.pmuy.gov.in/ujjwala2.html",
+  "portalName": "PMUY portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "Gas company",
+    "value": "Indane (Indian Oil)",
+    "hint": "Indane, Bharatgas or HP Gas. Choose the one whose delivery agency is closest to your village or ward."
+   },
+   {
+    "label": "Type of connection",
+    "value": "Ujjwala 2.0 New Connection",
+    "hint": "Choose the Ujjwala option, not the ordinary new connection, otherwise you will have to pay the deposit yourself."
+   },
+   {
+    "label": "State, district and distributor",
+    "value": "Uttar Pradesh / Barabanki / Maa Sharda Indane Gramin Vitrak",
+    "hint": "The list shows the agencies near you. Pick one you can actually reach, since the cylinder comes from there."
+   },
+   {
+    "label": "Name of the woman applying",
+    "value": "Kamlesh Devi Verma",
+    "hint": "The connection is given only in a woman's name. Spell it exactly as on her Aadhaar card."
+   },
+   {
+    "label": "Aadhaar number of the applicant",
+    "value": "9999 8143 2705",
+    "hint": "Her own 12-digit number, used both as identity and as address proof."
+   },
+   {
+    "label": "Aadhaar of other adults in the family",
+    "value": "Suresh Verma (husband) 9999 4071 6358",
+    "hint": "Give the Aadhaar of every adult living in the house. This is how the system checks there is no other gas connection."
+   },
+   {
+    "label": "Ration card number",
+    "value": "UP-2233-4455-6677",
+    "hint": "Copy it from the ration card. If you have shifted and have no card here, fill the self-declaration of family instead."
+   },
+   {
+    "label": "Which poor household category",
+    "value": "SC household",
+    "hint": "Tick the group your family belongs to: SC, ST, Antyodaya, PMAY, most backward class, tea garden, forest dweller, or the 14-point declaration."
+   },
+   {
+    "label": "Full address with PIN code",
+    "value": "Village Rampur Kalan, Post Dariyabad, Barabanki, Uttar Pradesh - 225414",
+    "hint": "Where the cylinder is to be delivered. Add a landmark so the delivery man finds the house."
+   },
+   {
+    "label": "Bank account number and IFSC",
+    "value": "1145 7729 0038 / SBIN0011457",
+    "hint": "In the applicant's own name. The refill subsidy comes into this account, so it must be Aadhaar-seeded and active."
+   }
+  ],
+  "demoSteps": [
+   "Open pmuy.gov.in and click Apply for New Ujjwala 2.0 Connection.",
+   "Choose your gas company: Indane, Bharatgas or HP Gas. The site takes you to that company's own page.",
+   "Select Ujjwala new connection, then your state and district, and pick a distributor near your home.",
+   "Fill in the woman applicant's name, Aadhaar, address, ration card and the poor household category you belong to.",
+   "Add the Aadhaar of every adult in the family, and the bank account in the applicant's own name.",
+   "Upload the photograph and the documents, then submit and note the reference number.",
+   "Print the form, sign it, and take it with the original Aadhaar and ration card to the distributor's showroom.",
+   "The distributor checks the papers and delivers the cylinder, regulator, pipe and stove. Do not pay anything beyond the printed charges, and take a receipt."
+  ],
+  "helpline": "1800-266-6696 / LPG emergency 1906",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://www.pmuy.gov.in/",
+  "applyKind": "service-page"
+ },
+ {
+  "id": "pm-surya-ghar",
+  "title": "PM Surya Ghar Muft Bijli Yojana",
+  "department": "Ministry of New & Renewable Energy",
+  "level": "Central",
+  "state": "",
+  "category": "Utilities",
+  "mode": "online",
+  "brief": "Put solar panels on your own roof and the government pays a large part of the cost straight into your bank account. A household system of about 3 kW can cover the electricity a normal family uses, up to 300 units a month, and whatever you do not use is sold back to the power company.",
+  "benefit": "Subsidy up to Rs.78,000 and up to 300 free units a month",
+  "emoji": "☀",
+  "colorHex": "#F9A825",
+  "eligibility": [
+   "An Indian household that owns the roof where the panels will go, with the owner's consent if it is shared",
+   "A valid electricity connection in the applicant's own name, with the consumer number on the bill",
+   "The roof must be strong enough and get direct sun, with about 100 square feet needed for each kilowatt",
+   "The household must not already have taken a central subsidy for a rooftop solar plant",
+   "Subsidy is Rs.30,000 per kW for the first 2 kW and Rs.18,000 for the third kW, with Rs.78,000 as the highest amount"
+  ],
+  "documents": [
+   "Latest electricity bill, showing the consumer number and the sanctioned load",
+   "Aadhaar card of the consumer",
+   "Proof that you own the roof: sale deed, property tax receipt or allotment letter",
+   "Bank passbook and a cancelled cheque, for the subsidy transfer",
+   "Recent photograph of the roof, uploaded during the application",
+   "Net-meter and inspection papers, which come later from the power company"
+  ],
+  "applyUrl": "https://consumer.pmsuryaghar.gov.in/consumer/#/login",
+  "portalName": "PM Surya Ghar portal",
+  "formUrl": "",
+  "submitAt": "",
+  "demoFields": [
+   {
+    "label": "State and electricity company (DISCOM)",
+    "value": "Gujarat / Madhya Gujarat Vij Company (MGVCL)",
+    "hint": "The company named at the top of your electricity bill. Choose it exactly, or your application will not reach anyone."
+   },
+   {
+    "label": "Electricity consumer number",
+    "value": "17004498213",
+    "hint": "Printed on your electricity bill, usually at the top. Type it without spaces or dashes."
+   },
+   {
+    "label": "Mobile number and email",
+    "value": "94268 71305 / lata.solanki@example.com",
+    "hint": "Used for the login OTP and for every message about approval and subsidy. Email is optional but useful."
+   },
+   {
+    "label": "Consumer name and address",
+    "value": "Lata Solanki, 12 Sunrise Society, Anand, Gujarat - 388001",
+    "hint": "Must match the name and address on the electricity bill. If the bill is in your late father's name, get it transferred first."
+   },
+   {
+    "label": "Sanctioned load (kW)",
+    "value": "4",
+    "hint": "Written on your electricity bill. The solar plant you ask for should not be larger than this, else you must apply to raise the load."
+   },
+   {
+    "label": "Solar capacity you want (kW)",
+    "value": "3",
+    "hint": "About 3 kW suits a family using 250 to 300 units a month. Subsidy is capped at 3 kW, so more than that gets no extra money."
+   },
+   {
+    "label": "Roof area available (square feet)",
+    "value": "320",
+    "hint": "Measure the clear, shade-free part of the roof. Roughly 100 square feet is needed for each kilowatt."
+   },
+   {
+    "label": "Registered vendor chosen",
+    "value": "Suryadeep Energy Solutions, Anand (Reg. GJ-2211)",
+    "hint": "Pick only from the vendor list on the portal. Work done by an outside fitter gets no subsidy."
+   },
+   {
+    "label": "Bank account number and IFSC",
+    "value": "9034 5567 1128 / ICIC0009034",
+    "hint": "Filled in after the plant is installed. The subsidy is credited here, usually within 30 days of commissioning."
+   },
+   {
+    "label": "Cancelled cheque",
+    "value": "Photo of cheque with the account name printed",
+    "hint": "Upload a clear photo. The name on the cheque must match the name on the electricity bill."
+   }
+  ],
+  "demoSteps": [
+   "Open pmsuryaghar.gov.in and click Apply for Rooftop Solar, then register with your state, power company, consumer number and mobile.",
+   "Log in with the consumer number and the OTP, and fill the application: sanctioned load, the capacity you want, and the roof area.",
+   "Submit and wait for the power company to approve feasibility. This usually takes a few days and comes as an SMS.",
+   "After approval, choose a vendor from the registered list on the portal and get the plant installed. Agree the price in writing first.",
+   "Once it is fitted, submit the plant details on the portal and apply for the net meter.",
+   "The power company installs the net meter and an inspector checks the work.",
+   "The commissioning certificate is issued on the portal. Only now add your bank account number and a cancelled cheque.",
+   "The subsidy reaches your account in about 30 days. After that, your bill shows only the units you draw over what your roof produces."
+  ],
+  "helpline": "15555",
+  "lastVerified": "September 2026",
+  "portalUrl": "https://pmsuryaghar.gov.in/",
+  "applyKind": "service-login"
+ }
+]

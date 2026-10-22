@@ -1,0 +1,282 @@
+{
+ "schemes": [
+  {
+   "id": "tg-epass",
+   "title": "Telangana ePASS — Post-Matric Scholarship and Fee Reimbursement",
+   "department": "Social, BC, Tribal and Minority Welfare Departments, Government of Telangana",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Education",
+   "mode": "online",
+   "brief": "Telangana pays the college tuition fee of SC, ST, BC, EBC, minority and disabled students straight to the institution, and a maintenance amount to the student. Both run through ePASS, applied for fresh in the first year and renewed every year after that.",
+   "benefit": "Tuition fee reimbursement paid to the college, plus a monthly maintenance allowance",
+   "emoji": "🎓",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Student of Telangana studying an approved course in a recognised institution",
+    "SC, ST, BC, EBC, minority or disabled category with a valid caste certificate",
+    "Family income within the limit for the category, on a current income certificate",
+    "Admitted through the notified counselling; a management-quota seat is usually outside the scheme",
+    "Attendance kept up through the year — the sanction is stopped for a student who has left"
+   ],
+   "documents": [
+    "Aadhaar card of the student",
+    "Caste certificate number issued in Telangana",
+    "Income certificate number, issued within the last year",
+    "Bonafide certificate from the college",
+    "Admission or allotment letter from counselling",
+    "Bank passbook in the student's own name, Aadhaar-seeded",
+    "Class 10 and Class 12 marks memos"
+   ],
+   "applyUrl": "https://tgepass.cgg.gov.in/homeServicePMSPreReg",
+   "portalName": "Telangana ePASS",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Aadhaar Number of the Student",
+     "value": "9999 5218 4073",
+     "hint": "The student's own, not a parent's. The maintenance money goes into the Aadhaar-seeded account behind it."
+    },
+    {
+     "label": "Student Name (as on Aadhaar)",
+     "value": "Aruna Kumari Boddu",
+     "hint": "Exactly as on Aadhaar. The college record and the bank record must agree or the payment fails."
+    },
+    {
+     "label": "Caste Certificate Number",
+     "value": "TG/WGL/SC/2021/08842",
+     "hint": "The number on your Telangana caste certificate. The portal checks it against the revenue database, so type it, do not guess."
+    },
+    {
+     "label": "Income Certificate Number",
+     "value": "TG/WGL/INC/2026/24551",
+     "hint": "Must have been issued within the last year. An expired income certificate is the single commonest cause of rejection."
+    },
+    {
+     "label": "Course, Year and College",
+     "value": "B.Pharmacy, 2nd year, Kakatiya Government College, Warangal",
+     "hint": "Pick the college from the portal's list. If it is not listed, the college has not registered on ePASS and must do so first."
+    },
+    {
+     "label": "Admission / Allotment Number",
+     "value": "TGEAM2025-118740",
+     "hint": "From the counselling allotment letter."
+    },
+    {
+     "label": "Type of application",
+     "value": "Renewal",
+     "hint": "Fresh for the first year of a course, renewal for every year after. Choosing the wrong one sends the file back."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "5211 8407 3396 / SBIN0021184",
+     "hint": "In the student's own name and Aadhaar-seeded. A parent's account is why maintenance money bounces."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 52184",
+     "hint": "Sanction and payment messages come here. Use a number the student keeps through the course."
+    }
+   ],
+   "demoSteps": [
+    "Get a fresh income certificate and the caste certificate from MeeSeva first. ePASS validates both numbers, so an expired income certificate stops the application dead.",
+    "Register on telanganaepass.cgg.gov.in with Aadhaar and mobile, confirm the OTP, and choose Fresh or Renewal for the current year.",
+    "Fill in the course, the college from the portal's list and your own Aadhaar-seeded bank account, then upload the bonafide certificate and marks memos.",
+    "Submit, note the application number, and take the printout to the college scholarship section — the college must verify and forward it before anything moves.",
+    "The welfare department sanctions it; the tuition fee goes to the college and the maintenance to your account by DBT. Track both on the portal.",
+    "Apply again every year of the course with a fresh income certificate. Renewal is not automatic, and missing the window costs that year's money."
+   ],
+   "helpline": "Your college scholarship section, or the district welfare office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://telanganaepass.cgg.gov.in/",
+   "applyKind": "form"
+  },
+  {
+   "id": "tg-aasara-pension",
+   "title": "Aasara Pension — Telangana Social Security Pension",
+   "department": "Rural Development Department, Government of Telangana",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Pension",
+   "mode": "online",
+   "brief": "Aasara is Telangana's monthly pension for old people, widows, people with disability, beedi workers, single women, weavers, toddy tappers and several other groups. It is sanctioned by the district administration and paid by DBT into the pensioner's own account.",
+   "benefit": "Monthly pension, with a higher rate for people with disability",
+   "emoji": "👵",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Resident of Telangana, in a household that meets the state's income and land limits",
+    "Age 57 or above for the old-age pension; no age bar for widow, disability or single-woman pension",
+    "Disability of 40 per cent or more, certified by the district medical board, for the Divyangula pension",
+    "Death certificate of the husband, for the widow pension",
+    "Not drawing any other government pension"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Food Security Card of the family",
+    "Age proof — Aadhaar, birth certificate or school record",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate showing 40 per cent or more, for a disability pension",
+    "Bank or post office passbook in the applicant's own name, Aadhaar-seeded",
+    "Two passport-size photographs"
+   ],
+   "applyUrl": "https://www.aasara.telangana.gov.in/SSPTG/userinterface/portal/loginpage.aspx",
+   "portalName": "Aasara Pensions portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of pension applied for",
+     "value": "Widow pension",
+     "hint": "Old age, widow, differently abled, beedi worker, single woman, weaver, toddy tapper, AIDS patient or filaria patient. Each has its own conditions and rate."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Lakshmi Bai Gaddam",
+     "hint": "As on Aadhaar. A spelling that differs from the bank record is why a sanctioned pension never arrives."
+    },
+    {
+     "label": "Husband's / Father's Name",
+     "value": "Late Gaddam Mallesham",
+     "hint": "Write 'Late' before the name where he has died; for a widow pension it must match the death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "17-06-1979 / 47 years",
+     "hint": "There is no minimum age for the widow pension. For the old-age pension you must be 57 or above on the date of application."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 8034 1276",
+     "hint": "Twelve digits. Payment and the yearly life check both run on this."
+    },
+    {
+     "label": "Food Security Card Number",
+     "value": "TG-07-3390-1145",
+     "hint": "From the family's card. The household's eligibility is checked against it."
+    },
+    {
+     "label": "District / Mandal / Village or Ward",
+     "value": "Karimnagar / Huzurabad / Shankarapatnam",
+     "hint": "Where you live. The MPDO or Municipal Commissioner of this mandal sanctions the pension."
+    },
+    {
+     "label": "Supporting certificate number",
+     "value": "Death certificate D-2025-KRM-11884 dated 09-11-2025",
+     "hint": "The death certificate for a widow pension, or the disability certificate number and percentage for a disability pension."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "6210 4477 3318 / SBIN0020106",
+     "hint": "In the applicant's own name, not a son's or daughter's, and Aadhaar-seeded."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 80341",
+     "hint": "Sanction and every month's credit are announced here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Collect the papers the pension type needs — the death certificate for a widow pension, the medical board's disability certificate for a disability pension — before starting.",
+    "Apply on the Aasara portal, or through your Gram Panchayat or municipal ward office, which files it for you free.",
+    "Fill in the details from Aadhaar and the Food Security Card and give a bank account in your own name that is Aadhaar-seeded.",
+    "Take the acknowledgement with its application number; every follow-up runs on it.",
+    "The Panchayat Secretary or ward staff verify the applicant at home, and the household is checked against the state's income and land limits.",
+    "The MPDO or Municipal Commissioner sanctions it, usually within 30 to 60 days, and the money reaches the account by DBT each month.",
+    "Do the yearly life certificate when asked, or the pension is stopped. If the application is refused, the reason is shown on the portal and can be corrected and filed again."
+   ],
+   "helpline": "Your Gram Panchayat or municipal ward office; district Rural Development office for sanction status",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "tg-indiramma-indlu",
+   "title": "Indiramma Indlu — Telangana House Construction Assistance",
+   "department": "Housing Department, Government of Telangana",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "Telangana pays a poor family to build its own pucca house on its own plot, released in instalments as the construction reaches each stage. Families without any house of their own are chosen at the village level, and the money goes straight into the beneficiary's bank account.",
+   "benefit": "House construction assistance paid in stage-wise instalments into the beneficiary's account",
+   "emoji": "🏠",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Family resident in Telangana holding a Food Security Card and owning no pucca house anywhere",
+    "The applicant must own the plot, or be allotted government land, in his or her own name",
+    "Household within the state's income limit and not a government employee or income-tax payer",
+    "One house per family; a family that has taken housing assistance before is not eligible again",
+    "Priority for houseless, SC, ST and women-headed families"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Food Security Card of the family",
+    "Proof of the plot — sale deed, pattadar passbook, or the government allotment order",
+    "Property tax receipt or Panchayat record for the plot",
+    "Bank passbook in the applicant's own name, Aadhaar-seeded",
+    "Passport photograph and a photograph of the vacant plot"
+   ],
+   "applyUrl": "https://indirammaindlu.telangana.gov.in/",
+   "portalName": "Indiramma Indlu portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Yadamma Kotla",
+     "hint": "As on Aadhaar. The sanction and every instalment are issued in this name."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2287 6631",
+     "hint": "Twelve digits. The status of your application can be checked on the portal with this alone."
+    },
+    {
+     "label": "Food Security Card Number",
+     "value": "TG-13-5502-7741",
+     "hint": "From the family's card. The household's eligibility is judged on it."
+    },
+    {
+     "label": "District / Mandal / Village or Ward",
+     "value": "Nagarkurnool / Kollapur / Singaram",
+     "hint": "Where the plot is. The village-level list is drawn up here."
+    },
+    {
+     "label": "Plot details — survey number and extent",
+     "value": "Survey 88/2, 120 square yards, patta in applicant's name",
+     "hint": "The plot must be in your own name. Assistance is not released for building on someone else's land."
+    },
+    {
+     "label": "Do you own a pucca house anywhere?",
+     "value": "No — living in a thatched house",
+     "hint": "Answer truthfully. It is checked against property and municipal records, and a false answer cancels the sanction and recovers the money."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "84,000",
+     "hint": "The household's total for the year. It must be within the state's limit for the scheme."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "3322 6617 4408 / TGBK0001872",
+     "hint": "In the applicant's own name and Aadhaar-seeded. Every instalment lands here."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 22876",
+     "hint": "Selection, sanction and each instalment are announced here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Check first that the plot is in your own name and that no one in the family owns a pucca house. Both are verified later against records, and a wrong claim ends the case.",
+    "Apply on indirammaindlu.telangana.gov.in, or through your Gram Panchayat or municipal ward office during the enrolment drive announced for your village.",
+    "Enter your Aadhaar, Food Security Card, plot details and bank account, and upload the plot proof and the photograph of the vacant site.",
+    "Keep the application number. Beneficiary status can be checked on the portal by Aadhaar, mobile, application number or Food Security Card number.",
+    "The Gram Sabha or ward meeting approves the village list, and the housing officials verify the plot and the family's circumstances.",
+    "Once sanctioned, build in stages. Each instalment is released after an officer photographs and certifies that the stage — foundation, walls, roof — is complete, so do not wait for the whole amount up front.",
+    "If something goes wrong, use the grievance option on the portal or the helpline, quoting the application number."
+   ],
+   "helpline": "1800 599 5991 — Indiramma Indlu helpline",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "schemes": [
+  {
+   "id": "ap-social-pension",
+   "title": "Andhra Pradesh Social Security Pension",
+   "department": "Grama Ward Sachivalayam Department, Government of Andhra Pradesh",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "Andhra Pradesh pays a monthly pension to old people, widows, people with disability, weavers, toddy tappers, single women and several other groups. The application is made at the Village or Ward Secretariat, not online, and the money is handed over at the door every month by the Volunteer or credited to the bank account.",
+   "benefit": "Monthly pension from Rs.3,000, higher for disability and for bedridden pensioners",
+   "emoji": "👵",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Resident of Andhra Pradesh, in the household registered with the Village or Ward Secretariat",
+    "Age 60 or above for old-age pension; no age bar for widow, disability or single-woman pension",
+    "Family within the state's limits on land, income, vehicle, electricity use and government service",
+    "Disability of 40 per cent or more, certified by SADAREM, for a disability pension",
+    "Not drawing another government pension"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Rice card of the family",
+    "Age proof — Aadhaar, birth certificate or school record",
+    "Death certificate of the husband, for a widow pension",
+    "SADAREM disability certificate showing 40 per cent or more, for a disability pension",
+    "Bank or post office passbook in the applicant's own name",
+    "Two passport-size photographs"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://bm-sgsw.ap.gov.in/BM/",
+   "submitAt": "Your Village or Ward Secretariat — the Welfare and Education Assistant or the Digital Assistant; the mandal MPDO office also accepts it",
+   "demoFields": [
+    {
+     "label": "Type of pension applied for",
+     "value": "Old age pension",
+     "hint": "Old age, widow, disability, single woman, weaver, toddy tapper, transgender, dappu artist, traditional cobbler, ART or fishermen. Each has its own conditions."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Subbamma Gorantla",
+     "hint": "As on Aadhaar. A spelling that differs from the bank record is why a sanctioned pension does not arrive."
+    },
+    {
+     "label": "Husband's / Father's Name",
+     "value": "Late Gorantla Ramaiah",
+     "hint": "Write 'Late' before the name if he has died — it matters for a widow pension."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "04-02-1958 / 68 years",
+     "hint": "You must be 60 or above on the day you apply for the old-age pension. Write the date as on the age proof you attach."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6614 2038",
+     "hint": "Twelve digits. Payment and the yearly life check are both done on this."
+    },
+    {
+     "label": "Rice Card Number",
+     "value": "AP-09-4417-0338",
+     "hint": "From the family's rice card. The household's eligibility is checked against it."
+    },
+    {
+     "label": "District / Mandal / Village or Ward and Secretariat code",
+     "value": "Chittoor / Puttur / Valasapalle — Secretariat 10240215",
+     "hint": "The Secretariat code is on the board outside the office. It decides which Volunteer brings the money."
+    },
+    {
+     "label": "Bank / Post Office Account and IFSC",
+     "value": "3311 4402 7765 / UBIN0533114",
+     "hint": "In the applicant's own name, not a son's or daughter's, and Aadhaar-seeded."
+    },
+    {
+     "label": "Whether drawing any other pension",
+     "value": "No",
+     "hint": "Answer truthfully. It is matched against the state pension database, and a false answer cancels the sanction and recovers the money."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Left thumb impression of Subbamma Gorantla, 22-09-2026",
+     "hint": "A thumb impression is fully valid. The Secretariat staff attest it beside your mark."
+    }
+   ],
+   "demoSteps": [
+    "Go to your Village or Ward Secretariat and ask the Welfare and Education Assistant for the pension application. There is no fee and no form to buy.",
+    "Fill it with the help of the Digital Assistant, attach Aadhaar, the rice card, the age or death or disability proof, the passbook copy and two photographs, and hand it in.",
+    "Ask for the acknowledgement with its application number. Without it you cannot follow the case.",
+    "The six-step eligibility check runs on the household — land, income, vehicle, electricity use, government service and municipal property. Most rejections are at this stage, and the reason is told to you.",
+    "The Volunteer and the Welfare Assistant verify the applicant at home. Be present; a person not found twice is marked untraceable and the file closes.",
+    "The MPDO or the Municipal Commissioner sanctions it, usually within 30 to 60 days. From the following month the Volunteer delivers the pension at your door on the first of the month, or it is credited to the account.",
+    "Complete the yearly Aadhaar life check when the Volunteer asks, or the pension stops. If it is refused, the reason is on the Beneficiary Management portal and can be corrected and reapplied at the same Secretariat."
+   ],
+   "helpline": "1902 — Grama Ward Sachivalayam helpline",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ap-appsc-otpr",
+   "title": "APPSC Recruitment — One Time Profile Registration",
+   "department": "Andhra Pradesh Public Service Commission",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Every Andhra Pradesh state government job advertised by the Public Service Commission — Group 1, 2, 3 and 4, engineering and technical posts — is applied for through one profile called OTPR. You build the profile once with your education and identity details, and after that each notification takes only a few minutes to apply to.",
+   "benefit": "One profile for every APPSC recruitment, with hall tickets and results in the same place",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen meeting the age limits in the notification, usually 18 to 42 with relaxation for SC, ST, BC and disability",
+    "Educational qualification as the notification requires, held on the closing date",
+    "Local status in Andhra Pradesh where the post is reserved for local candidates",
+    "Each notification sets its own conditions; the OTPR profile by itself is not an application"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Degree or diploma certificates and marks memos",
+    "Caste certificate, for a reserved category",
+    "SADAREM disability certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature",
+    "Local status or study certificates for the last seven years of schooling"
+   ],
+   "applyUrl": "https://otpr-psc.ap.gov.in/OTPRForms/OneTimeProfileRegistration_Form.aspx",
+   "portalName": "APPSC portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Bhargav Teja Mandapati",
+     "hint": "The Class 10 certificate governs, not Aadhaar, if the two differ. Every later certificate is matched against this."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Mandapati Srinivasa Rao",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "19-08-2001",
+     "hint": "As on the Class 10 certificate. Age limits are counted from this date and it cannot be changed after the profile is created."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4180 2273",
+     "hint": "Twelve digits, used to keep one candidate to one profile. A second profile gets both cancelled."
+    },
+    {
+     "label": "Category and sub-category",
+     "value": "BC-B; no disability; not ex-serviceman",
+     "hint": "Claim only what you can produce a certificate for. Age relaxation and fee concession both follow from this."
+    },
+    {
+     "label": "Local Status (district)",
+     "value": "Local candidate — East Godavari",
+     "hint": "Decided by where you studied Classes 4 to 10. Many posts are reserved for locals of a zone, so fill it carefully."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Tech Civil Engineering, JNTU Kakinada, 2023, 72%",
+     "hint": "Course, university, year of passing and marks. The qualification must be complete on the notification's closing date."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 41802 / bhargav.m@example.com",
+     "hint": "The OTPR ID, every notification alert and the hall ticket link come here. Do not use a friend's."
+    },
+    {
+     "label": "Photograph and Signature",
+     "value": "Colour photo under 50 KB and signature under 30 KB, both JPG",
+     "hint": "Recent photo, plain background, face clear. A signature scanned from white paper in black ink."
+    }
+   ],
+   "demoSteps": [
+    "Open psc.ap.gov.in and create the One Time Profile Registration with your name and date of birth exactly as on the Class 10 certificate. This is the one thing that cannot be corrected freely later.",
+    "Fill in education, category, local status and identity details, upload the photograph and signature, and confirm the mobile OTP. Write down the OTPR ID.",
+    "When a notification you qualify for is published, open it from the same site, log in with the OTPR ID and apply — the profile fills most of the form for you.",
+    "Pay the application fee and the examination fee online. SC, ST, BC, disabled and unemployed candidates are exempt from the examination fee on producing the certificate.",
+    "Keep the filled application printout and the payment receipt. Download the hall ticket about a week before the exam from the same login.",
+    "Results, answer keys and the final selection list are published on psc.ap.gov.in. Certificate verification comes after the written stage, where you must produce the originals of everything you claimed.",
+    "Keep the OTPR profile current. An education or category detail that is out of date on the closing date is treated as false and the candidature is cancelled."
+   ],
+   "helpline": "0866-2988333 — APPSC candidate helpdesk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://psc.ap.gov.in/",
+   "applyKind": "form"
+  }
+ ]
+}

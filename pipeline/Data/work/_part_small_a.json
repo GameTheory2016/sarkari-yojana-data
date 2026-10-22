@@ -1,0 +1,600 @@
+{
+ "schemes": [
+  {
+   "id": "as-sewa-setu",
+   "title": "Sewa Setu — Assam Certificates and Public Services",
+   "department": "Administrative Reforms, Training, Pension and Public Grievances Department, Government of Assam",
+   "level": "State",
+   "state": "Assam",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Sewa Setu is the one place an Assam resident applies for a certificate or a departmental service. It carries 307 services of many departments — income, caste and Permanent Residence Certificate, land and revenue work, trade licences, employment exchange registration and scheme applications. It has taken over the older RTPS Assam portal, which now only runs the login and the appeal at the back. Services notified under the Assam Right to Public Services Act carry a fixed number of days for the officer to decide, and the count starts the moment you submit.",
+   "benefit": "307 Assam government services on one mobile-OTP login, each with a time limit fixed by law",
+   "emoji": "📄",
+   "colorHex": "#1B6E4F",
+   "eligibility": [
+    "Resident of Assam, applying in the district and revenue circle where you actually live",
+    "Permanent Residence Certificate: you or your family must have lived in Assam continuously and be able to show a land, school or voter record to prove it",
+    "Caste certificate: your community must be in Assam's notified SC, ST (Plains), ST (Hills) or OBC/MOBC list, and the claim is checked against your father's record",
+    "Income certificate: the figure is the whole family's income for the financial year from every source, not only salary",
+    "A mobile number that stays with you, because registration, every status message and the appeal all run on OTP to that number",
+    "No fee for most certificates; where a service charges one, the amount is shown before payment"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Proof of address in Assam — voter ID, ration card, electricity bill or the Gaon Panchayat certificate",
+    "Date of birth proof — school certificate, birth certificate or PAN",
+    "Father's or grandfather's caste certificate, land document or 1951 NRC/electoral entry, for a caste or residence certificate",
+    "Income proof — salary certificate, Form 16, or the Gaon Burha / ward member's income statement",
+    "Land document (jamabandi or patta), where the service is a revenue one",
+    "Recent passport-size photograph, scanned",
+    "Scanned signature"
+   ],
+   "applyUrl": "https://sewasetu.assam.gov.in/site/online/citizen",
+   "portalName": "Sewa Setu Assam",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Select Service",
+     "value": "Issue of Income Certificate (Revenue and Disaster Management)",
+     "hint": "Search the service by name first. Each of the 307 services has its own form, its own document list and its own time limit, so picking the wrong one means starting again."
+    },
+    {
+     "label": "Applicant Name",
+     "value": "Bhaskar Jyoti Bora",
+     "hint": "Spell it exactly as on Aadhaar. The certificate is printed from this box and a spelling mistake later needs a fresh application."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Dhaniram Bora",
+     "hint": "As on Aadhaar. For a caste or residence certificate the officer traces the claim through the father's record, so this must match the document you upload."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "12-07-1988",
+     "hint": "As on the school certificate or birth certificate you are uploading, not from memory."
+    },
+    {
+     "label": "Gender",
+     "value": "Male",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "District / Revenue Circle / Village or Ward",
+     "value": "Nagaon / Nagaon Revenue Circle / Kacharigaon",
+     "hint": "Give the place you actually live. The file goes to the Circle Officer of the circle named here, and naming the wrong circle sends it to an officer who cannot decide it."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4180 2276",
+     "hint": "The 12 digits on your own Aadhaar. The name and date of birth you typed above are matched against it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,48,000",
+     "hint": "Everything the whole family earned in the financial year — wages, farm income, shop income, rent. Understating it to fit a scheme gets the certificate cancelled later."
+    },
+    {
+     "label": "Purpose of the Certificate",
+     "value": "Scholarship application for daughter's college admission",
+     "hint": "Say what you need it for. Some offices print the purpose on the certificate and the institution that asked for it checks this line."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 41802",
+     "hint": "The acknowledgement number, every stage of the enquiry and the message that the certificate is ready all come here. Use your own number, not a cyber cafe's."
+    }
+   ],
+   "demoSteps": [
+    "Open sewasetu.assam.gov.in and register once with your mobile number and the OTP. Keep the login — the same one works for all 307 services.",
+    "Search for the service you need, read its document list and its time limit, then fill the form and upload the scans in the sizes the page states.",
+    "Submit. Note down the acknowledgement number the screen shows and the same number that arrives by SMS — everything after this is tracked with it.",
+    "The file reaches the Circle Officer or the concerned dealing officer, who verifies it and may call for the original documents. Sewa Setu also runs automated checks on some documents, so an obvious mismatch is caught at this stage.",
+    "Track the application on the portal by the acknowledgement number. The screen shows which officer is holding it and how many of the sanctioned days remain.",
+    "When it is approved, download the digitally signed certificate from the portal and print it. The signed PDF is valid on its own — no office stamp is needed on top of it.",
+    "If the time limit passes with no decision, file the appeal from the same login under the Right to Public Services Act, or call 1800-345-3574. Assisted filing is available at any Common Service Centre or Public Facilitation Centre if the upload is the problem."
+   ],
+   "helpline": "1800-345-3574 — Sewa Setu Assam toll-free",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://sewasetu.assam.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "as-kritagyata-pension",
+   "title": "Kritagyata — Assam Pension Portal",
+   "department": "Pension Cell, Administrative Reforms, Training, Pension and Public Grievances Department, Government of Assam",
+   "level": "State",
+   "state": "Assam",
+   "category": "Pension",
+   "mode": "online",
+   "brief": "Kritagyata is the Assam government's pension portal, listed on assam.gov.in as the state's pension-assistance system. A pension case is submitted here, moves through the office on the same portal, and can be tracked by the applicant at every stage. It covers old-age and other social security pensions along with pension case processing and assistance. The amount depends on which pension is sanctioned, and the sanction order shown on the portal states it in figures.",
+   "benefit": "Monthly pension paid straight into the beneficiary's own bank account, with the sanction order and every instalment visible on the portal",
+   "emoji": "🧓",
+   "colorHex": "#6A4C93",
+   "eligibility": [
+    "Permanent resident of Assam, applying in the district where you live",
+    "Old-age pension: 60 years of age or above on the date of the application",
+    "Disability pension: a disability certificate or UDID card showing 40 percent or more disability",
+    "Widow pension: a widow with no regular source of income of her own",
+    "The household should be below the poverty line or hold a priority or Antyodaya ration card, and the same person must not already draw a service pension or another government pension",
+    "A bank account in the applicant's own name, seeded with Aadhaar, because payment is by direct transfer and a joint or relative's account is rejected"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Age proof — school certificate, birth certificate, or the age entry in the voter roll for an old-age pension",
+    "Bank passbook first page showing the account number, IFSC and the name, with Aadhaar seeded",
+    "BPL or ration card of the family",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate or UDID card, for a disability pension",
+    "Recent passport-size photograph",
+    "Residence proof — Gaon Panchayat or ward certificate"
+   ],
+   "applyUrl": "https://kritagyata.assam.gov.in/",
+   "portalName": "Kritagyata Assam Pension Portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of Pension applied for",
+     "value": "Old Age Pension",
+     "hint": "Old age, widow or disability. Each has its own age and proof requirement, and only one can be drawn by the same person."
+    },
+    {
+     "label": "Applicant Name",
+     "value": "Nayanmoni Das",
+     "hint": "As on Aadhaar and on the bank passbook. If the two differ, get the bank record corrected first — the payment fails on a name mismatch, not on anything else."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Late Jogeswar Das",
+     "hint": "As on Aadhaar. For a widow pension write the husband's name exactly as it appears on his death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "04-11-1962 (63 years)",
+     "hint": "Copy it from the age proof you are uploading. For an old-age pension the officer counts 60 years from this date, so a guessed year gets the case rejected."
+    },
+    {
+     "label": "Gender",
+     "value": "Female",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "District / Revenue Circle / Village or Ward",
+     "value": "Jorhat / Jorhat East Revenue Circle / Baruabamungaon",
+     "hint": "The pension case is sanctioned by the office of the district named here, so give the place you actually live in."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6023 7715",
+     "hint": "The 12 digits on your own Aadhaar. The same number must be seeded with your bank account or the transfer will not go through."
+    },
+    {
+     "label": "Ration Card Number and category",
+     "value": "AS-18-0042-9917, Priority Household",
+     "hint": "Priority, Antyodaya or BPL. This is what the office uses to check that the household qualifies."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "3419 0077 2265 / SBIN0007745",
+     "hint": "An account in the pensioner's own name only. Copy both from the passbook — one wrong digit in the IFSC holds the money up for months."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 60237",
+     "hint": "The acknowledgement number, the sanction message and each payment alert come to this number. Give a number that stays with the family."
+    }
+   ],
+   "demoSteps": [
+    "Open kritagyata.assam.gov.in and register with your mobile number and the OTP.",
+    "Choose the pension you are applying for, fill the form, and upload the age proof, the bank passbook page, the ration card and the photograph.",
+    "Submit and write down the acknowledgement number. Keep it — every question you ask at the office later will be answered against this number.",
+    "The case is verified at the Gaon Panchayat or ward level and then by the Social Welfare section of the district office. Someone may visit or call to confirm that you live there and are not drawing another pension.",
+    "Track the case on the portal by the acknowledgement number. It shows which officer is holding it and whether it has been sanctioned.",
+    "On sanction, the order appears on the portal with the monthly amount written in figures. Read it and keep a printout.",
+    "The money starts arriving in the seeded bank account by direct transfer. If a month is missed, check the bank first for an Aadhaar-seeding failure, then take the sanction order and the acknowledgement number to the Social Welfare section of your District Commissioner's office."
+   ],
+   "helpline": "No toll-free number is published for Kritagyata. Take the case to the Social Welfare section of your District Commissioner's office, or to the Circle Office or Gaon Panchayat that forwarded it.",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "cg-edistrict",
+   "title": "Chhattisgarh e-District — Income, Caste and Residence Certificates",
+   "department": "Chhattisgarh Infotech Promotion Society (CHiPS), Government of Chhattisgarh",
+   "level": "State",
+   "state": "Chhattisgarh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Chhattisgarh e-District issues the certificates a citizen is asked for again and again — income, caste, domicile or residence, birth, death and marriage — along with other revenue, social welfare and licensing services. You apply, upload the documents, pay the fee, track the file by its reference number and download the signed certificate as a PDF. The citizen login sits at cgedistrict.cgstate.gov.in, and newer services are being moved to the state's Sewa Setu platform at sewasetu.cgstate.gov.in.",
+   "benefit": "Income, caste, domicile and civil registration certificates applied for online and downloaded as a signed PDF",
+   "emoji": "📑",
+   "colorHex": "#0F6FA8",
+   "eligibility": [
+    "Resident of Chhattisgarh, applying in the district and tehsil where you live",
+    "Caste certificate: your community must appear in Chhattisgarh's own notified SC, ST or OBC list, and the claim is traced through your father's record — a certificate from another state is not accepted here",
+    "Domicile or residence certificate: the family must have lived in Chhattisgarh continuously, normally shown by a land record, school record or old voter entry",
+    "Income certificate: the figure is the whole family's income for the financial year from all sources, and a patwari enquiry may be held on it",
+    "Birth, death and marriage certificates are applied for by the person concerned or an immediate family member",
+    "A working mobile number, since registration and every status message run on OTP"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Proof of address — voter ID, electricity bill or the panchayat/ward certificate",
+    "Father's caste certificate or an old school record showing the caste, for a caste certificate",
+    "Land record (B-1 / khasra-khatauni) or an old school transfer certificate, for domicile",
+    "Income proof — salary slip, Form 16, or the patwari's or sarpanch's income statement",
+    "Self-declaration or affidavit on the form the service page gives",
+    "Recent passport-size photograph, scanned"
+   ],
+   "applyUrl": "https://sewasetu.cgstate.gov.in/CitizenLogin.do?lang=hi",
+   "portalName": "Chhattisgarh e-District",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Select Service",
+     "value": "Income Certificate (आय प्रमाण पत्र)",
+     "hint": "Pick the service before anything else. Each one has its own document list and its own fee, shown on the service page."
+    },
+    {
+     "label": "Applicant Name (Hindi and English)",
+     "value": "रमेश कुमार साहू / Ramesh Kumar Sahu",
+     "hint": "Both boxes must carry the same name. The certificate prints from the Hindi box, so check the spelling there carefully."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Jagdish Prasad Sahu",
+     "hint": "As on Aadhaar. For a caste certificate the officer traces the claim through the father, so this must match the record you upload."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "23-09-1985",
+     "hint": "From the school certificate or birth certificate you are uploading."
+    },
+    {
+     "label": "Gender",
+     "value": "Male",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5274 6031",
+     "hint": "The 12 digits on your own Aadhaar. The portal matches the name and date of birth against it."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Durg / Patan / Jamgaon (R)",
+     "hint": "The file goes to the tehsildar of the tehsil named here. Give the place you actually live, not a relative's address."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "96,000",
+     "hint": "The whole family's income for the financial year from every source. The patwari may verify it, and a figure that does not match what he reports gets the application rejected."
+    },
+    {
+     "label": "Purpose of the Certificate",
+     "value": "Post-matric scholarship for son",
+     "hint": "Write what you need it for. Scholarships, admissions and scheme applications each want the certificate issued recently, so apply close to the time you need it."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 52746 / ramesh.sahu@example.com",
+     "hint": "The reference number and every status update come here. Keep the number active until the certificate is downloaded."
+    }
+   ],
+   "demoSteps": [
+    "Open edistrict.cgstate.gov.in, go to the citizen login and register once with your mobile number and the OTP.",
+    "Choose the service, read its document list, fill the form in Hindi and English where both are asked, and upload the scans.",
+    "Pay the fee online if the service charges one, submit, and note the reference number the screen shows.",
+    "The file reaches the patwari and then the tehsildar or the concerned officer. A field enquiry is normal for income, caste and domicile certificates, so keep the original documents ready at home.",
+    "Track the file by the reference number on the portal. It names the officer holding it and the stage it has reached.",
+    "Download the approved certificate as a PDF from the same login and print it. The digital signature on it makes it valid without any further stamp.",
+    "If it is rejected, the reason is written on the portal. Fix that one point and apply again, or take the reference number to the Lok Seva Kendra or the Collectorate."
+   ],
+   "helpline": "No public helpline number is published for the portal. Ask at the Lok Seva Kendra or Choice Centre in your tehsil, or at the e-District cell in your District Collectorate.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.cgstate.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "cg-mahtari-vandan",
+   "title": "Mahtari Vandan Yojana — Monthly Assistance for Married Women",
+   "department": "Women and Child Development Department, Government of Chhattisgarh",
+   "level": "State",
+   "state": "Chhattisgarh",
+   "category": "Women",
+   "mode": "online",
+   "brief": "Mahtari Vandan Yojana pays Rs 1,000 a month — Rs 12,000 in a year — to an eligible married woman of Chhattisgarh, straight into her own bank account. Widowed, divorced and abandoned women are covered along with married women. Fresh registration opens only in windows announced by the department; between those windows the portal is still used to check the application status, read the provisional and final beneficiary lists, file an objection and follow each instalment.",
+   "benefit": "Rs 1,000 a month, Rs 12,000 a year, into the woman's own Aadhaar-seeded account",
+   "emoji": "👩",
+   "colorHex": "#C2185B",
+   "eligibility": [
+    "Married woman who is a permanent resident of Chhattisgarh; widowed, divorced and abandoned women are also eligible",
+    "Must have completed 21 years of age on 1 January of the year the registration window opens",
+    "The family must have no income-tax payer, and no member in a regular or contractual post of the central or state government, a board, corporation or government undertaking — class IV and group D posts are not counted",
+    "No one in the family may be a sitting or former MP or MLA, or the chairman or vice-chairman of a board or corporation",
+    "A woman already drawing a government social pension gets only the difference, up to Rs 1,000 a month",
+    "A bank account in the woman's own name, seeded with Aadhaar and DBT-enabled; a husband's or joint account will not receive the money"
+   ],
+   "documents": [
+    "Aadhaar card of the woman and of her husband",
+    "Bank passbook first page in the woman's own name, Aadhaar-seeded and DBT-enabled",
+    "Residence proof of Chhattisgarh — ration card, voter ID or domicile certificate",
+    "Age proof — school certificate, birth certificate or the Aadhaar date of birth",
+    "Marriage certificate, or the self-declaration the portal provides where there is none",
+    "Death certificate of the husband for a widow, or the court order for a divorced woman",
+    "Recent passport-size photograph",
+    "The signed self-declaration and undertaking form printed from the portal"
+   ],
+   "applyUrl": "https://mahtarivandan.cgstate.gov.in/",
+   "portalName": "Mahtari Vandan Yojana Portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Aadhaar Number of the applicant",
+     "value": "9999 3168 4402",
+     "hint": "The application starts from the woman's own Aadhaar and an OTP to the mobile number linked to it. If no mobile is linked to your Aadhaar, get that done at an Aadhaar centre first — nothing else can be filled until then."
+    },
+    {
+     "label": "Applicant Name",
+     "value": "Phoolbai Nirmalkar",
+     "hint": "Exactly as on Aadhaar and on the bank passbook. A difference between the two is the single most common reason the money does not arrive."
+    },
+    {
+     "label": "Husband's Name",
+     "value": "Dinesh Kumar Nirmalkar",
+     "hint": "As on his Aadhaar. For a widow, write the husband's name as on his death certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "14-06-1992",
+     "hint": "From Aadhaar. You must have completed 21 years on 1 January of the year the window opened, so check this date against that."
+    },
+    {
+     "label": "Marital Status",
+     "value": "Married",
+     "hint": "Married, widow, divorced or abandoned. Choosing widow or divorced means you must upload the death certificate or the court order."
+    },
+    {
+     "label": "Category",
+     "value": "OBC",
+     "hint": "General, SC, ST or OBC. The amount is the same for everyone; this is only recorded."
+    },
+    {
+     "label": "District / Block / Village or Ward",
+     "value": "Raipur / Abhanpur / Kendri",
+     "hint": "The place you live. Your form is verified by the Anganwadi worker and the supervisor of this area, so a wrong address stalls the check."
+    },
+    {
+     "label": "Anganwadi Centre or Ward Office",
+     "value": "Anganwadi Kendra, Kendri — Ward 4",
+     "hint": "The centre that serves your locality. The Anganwadi worker can fill and submit the form for you if you cannot do it yourself."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "2276 0044 1187 / SBIN0009142",
+     "hint": "The woman's own account, Aadhaar-seeded and DBT-enabled. Ask the bank to confirm the DBT seeding — an ordinary account with the Aadhaar number merely written in the file is not enough."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 31684",
+     "hint": "The OTP, the application number and each monthly payment message come here."
+    }
+   ],
+   "demoSteps": [
+    "Check that registration is open. The portal announces the window; outside it you can still see the lists and the payment status but cannot submit a new form.",
+    "Get the bank account right before you apply — in the woman's own name, Aadhaar-seeded and DBT-enabled. The bank does this free of charge.",
+    "Open mahtarivandan.cgstate.gov.in and start the application with the woman's Aadhaar number and the OTP, or ask the Anganwadi worker, the ward office or the gram panchayat to fill it for you.",
+    "Fill the form, upload the documents and submit. Note the application number and take a printout of the acknowledgement.",
+    "The Anganwadi worker and the supervisor verify the details. Your name then appears in the provisional beneficiary list published on the portal — check it, and if a name is wrongly included or wrongly left out, file an objection on the portal within the days allowed.",
+    "After the objections are settled, the final list is published. Confirm your name is in it.",
+    "Rs 1,000 reaches the account every month by direct transfer. The portal's payment status page shows each instalment; if one is missing, check the bank for a seeding failure first, then take the application number to the Anganwadi centre or the District Programme Officer, Women and Child Development."
+   ],
+   "helpline": "No toll-free number is published on the portal. Ask your Anganwadi worker, the ward office or gram panchayat, or the District Programme Officer, Women and Child Development, in your district.",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "dl-edistrict",
+   "title": "e-District Delhi — Certificates and Marriage Registration",
+   "department": "Revenue Department, Government of NCT of Delhi",
+   "level": "State",
+   "state": "Delhi",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "e-District Delhi is the Revenue Department's portal for the certificates a Delhi resident needs — caste (SC, ST, OBC), income, domicile or residence, EWS, solvency, Lal Dora and survival certificates — as well as registration of marriage, the disability identity card, birth and death orders including delayed birth registration, and ration card services. The same site is served at edistrict.delhigovt.nic.in. Tracking an application and printing or verifying a signed certificate can be done without logging in.",
+   "benefit": "Delhi certificates, marriage registration and the disability ID card applied for online, with a digitally signed certificate to download",
+   "emoji": "🏛",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Resident of Delhi, applying under the sub-division where you live",
+    "Domicile or residence certificate: you must have lived in Delhi for three years or more and be able to show it with a dated document",
+    "Caste certificate: the community must be in the central or Delhi list for SC, ST or OBC, and the claim is traced through the father's or a blood relative's existing certificate",
+    "EWS certificate for the 10 percent reservation: annual family income below Rs 8 lakh, within the land and flat limits the rule sets",
+    "Registration of marriage: both parties must appear before the Sub-Divisional Magistrate on the appointment date with three witnesses",
+    "Registration needs an Aadhaar or a Voter ID, which the portal verifies before the form opens"
+   ],
+   "documents": [
+    "Aadhaar card or Voter ID, used to create the login",
+    "Proof of residence in Delhi — electricity or water bill, ration card, rent agreement or the registry of the house",
+    "Proof of date of birth — school certificate, birth certificate or passport",
+    "Father's or a blood relative's caste certificate, for a caste certificate",
+    "Income proof — salary slips, Form 16, or the income affidavit the service page prescribes",
+    "Self-declaration on the format the portal gives, signed and scanned",
+    "Marriage invitation card, joint photograph and the witnesses' ID, for registration of marriage",
+    "Recent passport-size photograph, scanned"
+   ],
+   "applyUrl": "https://edistrict.delhigovt.nic.in/in/en/Account/Login.html",
+   "portalName": "e-District Delhi",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Select Department and Service",
+     "value": "Revenue Department — Issuance of Income Certificate",
+     "hint": "Choose the department first and then the service. The document list, the fee and the officer who will decide it all change with the service."
+    },
+    {
+     "label": "Applicant Name",
+     "value": "Suresh Chand Verma",
+     "hint": "As on the Aadhaar or Voter ID you registered with. The certificate is printed from this box."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Ram Kishan Verma",
+     "hint": "As on Aadhaar. For a caste certificate this must match the relative's certificate you are uploading, or the claim cannot be traced."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "08-03-1979",
+     "hint": "From the document you are uploading as age proof, not from memory."
+    },
+    {
+     "label": "Gender",
+     "value": "Male",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "Aadhaar / Voter ID used for registration",
+     "value": "Aadhaar 9999 2087 4416",
+     "hint": "New registration runs on one of these two. Whichever you pick is verified live, so the name and date of birth you type must match it exactly."
+    },
+    {
+     "label": "Present Address with District and Sub-Division",
+     "value": "B-142, Vikaspuri, West Delhi district, Punjabi Bagh sub-division, 110018",
+     "hint": "The file goes to the Sub-Divisional Magistrate of the sub-division named here. If you are unsure which one covers your colony, the portal lists the colonies under each."
+    },
+    {
+     "label": "Period of residence in Delhi",
+     "value": "Since June 2009",
+     "hint": "For a domicile certificate this must be three years or more, and the document you upload has to be dated far enough back to show it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "2,40,000",
+     "hint": "The whole household's income for the financial year. For an EWS certificate the limit is Rs 8 lakh a year and the figure is checked, so do not guess."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 20874 / suresh.verma@example.com",
+     "hint": "The user ID, the OTP, the application number and the message that the certificate is ready all come here."
+    }
+   ],
+   "demoSteps": [
+    "Open edistrict.delhi.gov.in and use New User Registration with your Aadhaar or Voter ID. Confirm the mobile OTP and note the user ID the portal gives you.",
+    "Log in, pick the department and the service, and read its document list before filling anything.",
+    "Fill the form, upload the scans and the signed self-declaration, and submit. Write down the application number.",
+    "The file goes to the Sub-Divisional Magistrate's office for your sub-division. A field enquiry by the patwari or the local authority is normal for income, caste and domicile certificates. For registration of marriage, an appointment date is given on which both parties and three witnesses must attend in person.",
+    "Track the application on the portal by its number — this page works without logging in.",
+    "When it is approved, use Print or Download Certificate to get the digitally signed PDF. Anyone can check it on the portal's verification page, so the download alone is enough proof.",
+    "If it is rejected, the reason appears against the application number. Correct that point and apply again, or take the printout to the SDM office named on it."
+   ],
+   "helpline": "No single helpline is published for the portal. Take the application number to the office of the Sub-Divisional Magistrate for your sub-division, or the District Office of the Revenue Department, Government of NCT of Delhi.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.delhi.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "dl-dda-housing",
+   "title": "DDA Housing Schemes and e-Auction",
+   "department": "Delhi Development Authority",
+   "level": "State",
+   "state": "Delhi",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "The Delhi Development Authority sells flats through its own e-Services portal — some on first come first served, some by draw of lots and some by e-auction. Recent rounds have included the Sasta Ghar and Madhyam Vargiya schemes, Dwarka flats, the Janta, Jan Sadharan, Sabka Ghar and Shramik Awaas Yojana of 2025, and the Nagrik, Karmajeevi and Towering Heights schemes of 2026. You register with PAN and a mobile OTP, pay the registration money online and book or bid from the same login. On a first come first served scheme the flat you pick must be paid for within 30 minutes, so the money has to be ready before you start.",
+   "benefit": "A DDA flat by first come first served, draw of lots or e-auction, with categories from EWS and LIG upwards",
+   "emoji": "🏠",
+   "colorHex": "#B45309",
+   "eligibility": [
+    "Indian citizen aged 18 years or above on the date of application",
+    "Neither you nor your spouse nor a dependent child may own, in full or in part, a flat or plot of 67 square metres or more in Delhi, New Delhi or Delhi Cantonment",
+    "One application per person in a scheme; a husband and wife may both apply but only one flat will be kept if both are successful",
+    "PAN is compulsory, as it is a property transaction, and the registration money must come from your own account",
+    "For a reserved category flat — SC, ST, war widow, ex-serviceman or person with disability — the certificate on the prescribed format",
+    "Income within the ceiling of the category, where the scheme sets one for EWS or LIG flats"
+   ],
+   "documents": [
+    "PAN card",
+    "Aadhaar card",
+    "Proof of address",
+    "Bank account with net banking or UPI for the registration money and the instalments",
+    "Income proof — salary slips, Form 16 or an income certificate, where the category requires it",
+    "SC, ST, war widow, ex-serviceman or disability certificate, where a reserved flat is claimed",
+    "Scanned passport-size photograph and signature",
+    "Cancelled cheque for the refund of the registration money"
+   ],
+   "applyUrl": "https://eservices.dda.org.in/user",
+   "portalName": "DDA e-Services",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scheme and flat category",
+     "value": "Sasta Ghar Housing Scheme — EWS flat, Siraspur",
+     "hint": "Read the brochure for that scheme first: the price, the carpet area, the maintenance charge and the closing date. Each scheme opens for a fixed window only."
+    },
+    {
+     "label": "Applicant Name (as on PAN)",
+     "value": "Anil Kumar Gupta",
+     "hint": "It must match PAN exactly. The allotment letter and the conveyance deed are made in this name, and correcting it later costs money and months."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Om Prakash Gupta",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "PAN",
+     "value": "ABCPG1234K",
+     "hint": "Compulsory. Registration will not go past this box without a valid PAN, and it is verified live."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7734 1058",
+     "hint": "The 12 digits on your own Aadhaar, used to confirm identity alongside PAN."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "27-01-1986",
+     "hint": "As on PAN. You must be 18 or above on the date you apply."
+    },
+    {
+     "label": "Reserved category claimed",
+     "value": "None — general",
+     "hint": "SC, ST, war widow, ex-serviceman or person with disability. Claim one only if you hold the certificate, because it is checked before the allotment letter is issued."
+    },
+    {
+     "label": "Declaration about property owned in Delhi",
+     "value": "No flat or plot of 67 sq m or more owned by self, spouse or dependent children",
+     "hint": "This is a sworn declaration. A false answer here cancels the allotment and the money paid is forfeited, even years later."
+    },
+    {
+     "label": "Bank Account Number and IFSC for refund",
+     "value": "6620 1145 3307 / PUNB0298700",
+     "hint": "If you are not allotted a flat or you withdraw, the registration money comes back to this account, so give a live one in your own name."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 77341 / anil.gupta@example.com",
+     "hint": "The registration number, the draw result, every instalment notice and the possession date come here. Do not use an agent's number."
+    }
+   ],
+   "demoSteps": [
+    "Open eservices.dda.org.in, see which schemes are live and download the brochure. The price, the category, the area and the payment schedule are all in it.",
+    "Register with your PAN, mobile number and email, confirm the OTP, and pay the registration fee online.",
+    "Fill the application for the scheme and category you qualify for, upload the documents, and pay the registration money from your own account.",
+    "On a first come first served scheme, pick the flat from the live inventory and pay within 30 minutes of selection or the flat goes back into the pool — arrange the funds and the transfer limit beforehand. On a draw-of-lots scheme, wait for the result on the portal. On an e-auction, bid within the auction window.",
+    "If you are not allotted a flat, the registration money is refunded to the account you gave. Keep the acknowledgement until it arrives.",
+    "On allotment, download the demand-cum-allotment letter and pay the instalments by the dates written in it. Missing a date attracts interest and eventually cancellation.",
+    "After full payment the conveyance deed is executed and possession is given. Inspect the flat, get every defect recorded in writing before taking the keys, and keep the allotment letter and the deed together."
+   ],
+   "helpline": "No toll-free number is published on the e-Services portal. Take the registration number to the Housing Branch of the Delhi Development Authority at Vikas Sadan, INA, New Delhi, or use the grievance link on dda.gov.in.",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://eservices.dda.org.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "schemes": [
+  {
+   "id": "mp-samagra-id",
+   "title": "Samagra ID — Madhya Pradesh Family and Member ID",
+   "department": "Department of Social Justice and Disabled Welfare, Government of Madhya Pradesh",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Samagra is the family register of Madhya Pradesh. Each family gets an eight-digit Samagra Family ID and each person a nine-digit Member ID. Nearly every state benefit — Ladli Behna, scholarships, pensions, ration — is paid against this number, so getting it made and the e-KYC done comes before anything else.",
+   "benefit": "Samagra Family ID and Member ID, the number every MP state scheme is paid against",
+   "emoji": "🆔",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Family living in Madhya Pradesh, registered in the village or ward where it lives",
+    "Every member needs an Aadhaar, and the Aadhaar must be linked to a working mobile",
+    "One family record per household; a member can be in only one family",
+    "A woman who marries is moved from her parents' family to her husband's, not registered twice"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Mobile number linked to the Aadhaar of each member, for the e-KYC OTP",
+    "Address proof — electricity bill, house tax receipt or voter ID",
+    "Bank passbook of each member, for DBT seeding",
+    "Age proof for children — birth certificate or school record"
+   ],
+   "applyUrl": "https://samagra.gov.in/Citizen/Pages/AddNewFamilyRegistration.aspx",
+   "portalName": "Samagra portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5140 7723",
+     "hint": "Twelve digits. Registration and e-KYC both run on this, and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "Name (as on Aadhaar)",
+     "value": "Phoolwati Bai Uikey",
+     "hint": "Letter for letter as on Aadhaar. A mismatch is why e-KYC fails and benefits stop."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "14-03-1988",
+     "hint": "As on Aadhaar. Age decides eligibility for schemes like Ladli Behna, so it must be right."
+    },
+    {
+     "label": "Head of the Family and relation",
+     "value": "Budhram Singh Uikey — husband",
+     "hint": "The family record is built around the head. State how you are related to that person."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Seoni / Ghansor / Salaiya",
+     "hint": "Where the family actually lives. The Panchayat Secretary or ward officer verifies here."
+    },
+    {
+     "label": "Caste / Category",
+     "value": "ST",
+     "hint": "Recorded against each member and checked by the schemes that have category quotas."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 51407",
+     "hint": "Must be the number linked to the member's own Aadhaar, since e-KYC is done by OTP."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "3987 6501 234 / CBIN0289876",
+     "hint": "In the member's own name and Aadhaar-seeded with NPCI, not merely linked. Samagra shows the DBT status separately — check that it says active."
+    },
+    {
+     "label": "Samagra Family ID (after registration)",
+     "value": "12345678",
+     "hint": "Eight digits for the family. Each member then gets a nine-digit Member ID under it."
+    }
+   ],
+   "demoSteps": [
+    "Search samagra.gov.in first with your Aadhaar or mobile — most families in Madhya Pradesh are already registered, and you only need to find the number and print it.",
+    "If the family is not there, register it with the head's Aadhaar and add every member, giving each one's Aadhaar and date of birth.",
+    "Complete the e-KYC for every member. It needs an OTP to that member's own Aadhaar-linked mobile, so have the family present.",
+    "Check the DBT and NPCI seeding status on the portal for each member. A bank account that is linked but not NPCI-seeded still fails when money is sent.",
+    "The Panchayat Secretary or the ward officer verifies the family. Once approved, print the Family ID and each Member ID.",
+    "Keep both numbers with your papers. Ladli Behna, scholarships, pensions and ration all ask for the Samagra number before anything else."
+   ],
+   "helpline": "0755-2700800 — Samagra helpdesk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://samagra.gov.in/",
+   "applyKind": "form"
+  },
+  {
+   "id": "mp-edistrict-certificates",
+   "title": "MP e-District — Income, Caste and Domicile Certificates",
+   "department": "Revenue Department, Government of Madhya Pradesh",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The Tahsildar's certificates that Madhya Pradesh runs online — income, caste, domicile and residence — applied for on the e-District portal or at an MPOnline kiosk. Each one is signed digitally and downloaded from the same site, and the state's public service guarantee puts a deadline on it.",
+   "benefit": "Digitally signed income, caste or domicile certificate within the guaranteed time",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Madhya Pradesh, applying in the tehsil where the family lives",
+    "Samagra Member ID, since the portal pulls your family details from it",
+    "For a caste certificate, the caste must be on the state's SC, ST or OBC list and traceable through the father's family",
+    "An income certificate is valid for one year; a caste and a domicile certificate do not expire"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Samagra Family ID and Member ID",
+    "Address proof — electricity bill, property tax receipt or voter ID",
+    "Father's caste certificate or a school record showing the caste, for a caste certificate",
+    "Salary certificate or land record, for an income certificate",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://mpedistrict.gov.in/MPL/Login.aspx",
+   "portalName": "MP e-District",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Caste certificate (Jaati Praman Patra)",
+     "hint": "Income, caste, domicile, residence, birth or death. Each opens a different form and asks for different proof."
+    },
+    {
+     "label": "Samagra Member ID",
+     "value": "123456789",
+     "hint": "Nine digits. The portal fills your name, family and address from it, so get the Samagra done first."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Dinesh Uikey",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Budhram Singh Uikey",
+     "hint": "For a caste certificate this matters most — the caste is traced through the father's family record."
+    },
+    {
+     "label": "Caste claimed",
+     "value": "Gond (Scheduled Tribe)",
+     "hint": "Pick from the state list rather than typing it. A spelling that is not on the list will not be accepted."
+    },
+    {
+     "label": "District / Tehsil / Village",
+     "value": "Seoni / Ghansor / Salaiya",
+     "hint": "Where the family lives. The Tahsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "72,000",
+     "hint": "For an income certificate, the household's total for the year from every source. It is checked against land and other records."
+    },
+    {
+     "label": "Family caste reference, if any",
+     "value": "SEO/GHN/ST/2011/03318 — father's certificate",
+     "hint": "If anyone in the father's family already holds a caste certificate, give its number. It is the quickest way to get yours cleared."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 78012",
+     "hint": "The application number and the ready-to-download message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the Samagra Member ID first if you do not have it. The e-District form is built around it and cannot be completed without one.",
+    "Open mpedistrict.gov.in, register or log in, and choose the certificate you need. An MPOnline kiosk will do the same for the notified fee.",
+    "Fill the form and upload Aadhaar, the address proof, and the income or caste proof. For a caste certificate the father's certificate or the school record is the paper that decides the case.",
+    "Pay the fee and keep the application number from the acknowledgement.",
+    "The Patwari and the Revenue Inspector verify the family, usually within a week, and may visit.",
+    "The Tahsildar signs the certificate digitally within the time the public service guarantee allows, and you download it from the portal. A digitally signed copy needs no further attestation.",
+    "If the deadline passes, the same Act gives you an appeal to the Sub-Divisional Officer, and the fine falls on the officer who delayed it."
+   ],
+   "helpline": "181 — CM Helpline Madhya Pradesh",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://mpedistrict.gov.in/MPL/index.aspx",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "mp-bhulekh",
+   "title": "MP Bhulekh — Khasra, Khatauni and Land Map",
+   "department": "Commissioner Land Records, Government of Madhya Pradesh",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "MP Bhulekh is where a Madhya Pradesh landholder sees the khasra, the khatauni (B1) and the plot map, pays land revenue, and tracks a mutation. A free view is enough for your own reference; a certified copy for a bank or a court is bought on the same site.",
+   "benefit": "Free land record view, certified copies on payment, and online land revenue payment",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in Madhya Pradesh and entered in the revenue record",
+    "Anyone may view a record free; a certified copy is issued on payment of the fee",
+    "Only the recorded holder or a legal heir can apply for a mutation or a correction",
+    "A diversion application must come from the recorded holder of the plot"
+   ],
+   "documents": [
+    "District, tehsil and village name",
+    "Khasra number, or the khatauni (B1) number, or the holder's name",
+    "Aadhaar card, for a certified copy or a mutation",
+    "Registered sale deed, for a mutation on sale",
+    "Death certificate and succession papers, for a mutation on inheritance"
+   ],
+   "applyUrl": "https://mpbhulekh.gov.in/",
+   "portalName": "MP Bhulekh",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District / Tehsil / Village",
+     "value": "Seoni / Ghansor / Salaiya",
+     "hint": "Pick all three from the lists. The record is held village by village."
+    },
+    {
+     "label": "Search by",
+     "value": "Khasra number",
+     "hint": "Khasra number, khatauni number or holder's name. Khasra gives the cleanest result; a name search returns every similar name in the village."
+    },
+    {
+     "label": "Khasra Number",
+     "value": "128/2",
+     "hint": "Copy it from an older khasra copy or the purchase deed, including the part number."
+    },
+    {
+     "label": "Khatauni (B1) Number",
+     "value": "00117",
+     "hint": "Covers every plot you hold in that village, so it is quicker if you own several."
+    },
+    {
+     "label": "Holder's Name as on the record",
+     "value": "Budhram Singh Uikey, son of Sukhlal Singh",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search the record's spelling first and get it corrected later if wrong."
+    },
+    {
+     "label": "Type of copy wanted",
+     "value": "Certified copy of khasra",
+     "hint": "A free view is enough to check your own details. A bank, a court or a subsidy office needs the certified copy, which carries a fee."
+    },
+    {
+     "label": "Aadhaar Number (for a certified copy)",
+     "value": "9999 3456 7801",
+     "hint": "Needed to buy a certified copy or to file a mutation, with an OTP to the linked mobile."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 34567",
+     "hint": "The download link for a certified copy and any mutation notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Open mpbhulekh.gov.in and pick district, tehsil and village, then search by khasra number, khatauni number or holder's name.",
+    "Check the area, the holder's name and the crop entry against what you know. The free view costs nothing and needs no login.",
+    "For a bank, a court or a subsidy claim, log in and buy the certified copy — the free print is not accepted for those.",
+    "Land revenue for the plot can be paid from the same site, and the receipt downloaded at once.",
+    "If a sale or a death has not been entered, file the mutation (namantaran) with the registered deed or the succession papers, and track it by the application number on the portal.",
+    "Keep a current khasra and B1 with your papers. PM-Kisan, crop loans and state farm schemes all ask for them.",
+    "The site can be slow or unreachable at busy times. If it does not open, any MPOnline kiosk will pull the same record for the notified fee."
+   ],
+   "helpline": "Your tehsil office, or the Patwari of your village circle",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

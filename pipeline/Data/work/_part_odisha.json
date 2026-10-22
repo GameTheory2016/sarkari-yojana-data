@@ -1,0 +1,671 @@
+{
+ "schemes": [
+  {
+   "id": "od-income-certificate",
+   "title": "Odisha Income Certificate",
+   "department": "Revenue & Disaster Management Department, Government of Odisha",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The certificate from the Tahasildar that states your family's yearly income. Almost every scholarship, fee concession, hostel seat and welfare scheme asks for it. Apply on Odisha One, the state's single citizen portal, which has taken over the old e-District counter for this service. If you cannot fill it yourself, the operator at any Mo Seva Kendra or CSC will do it for you. The Revenue Inspector of your tahasil verifies the income before the Tahasildar signs.",
+   "benefit": "Income certificate signed digitally by the Tahasildar, downloaded as a PDF",
+   "emoji": "📄",
+   "colorHex": "#1D6FB8",
+   "eligibility": [
+    "You must live in Odisha and apply in the tahasil where you actually live",
+    "The certificate is issued for the whole family's yearly income from every source, not for one person's salary",
+    "The applicant must be 18 or above; for a student under 18 the parent or guardian applies",
+    "An Aadhaar number and a mobile number that can receive an OTP are needed to register on the portal",
+    "The income you write must match what the Revenue Inspector finds on enquiry, or the application is rejected"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Residence proof with the Odisha address - electricity bill, voter ID or ration card",
+    "Passport photograph of the applicant",
+    "Salary slip or the employer's certificate, if anyone in the family is in service",
+    "Land record (RoR) from Bhulekh, if the family income comes from farming",
+    "Ration card, where the family holds one"
+   ],
+   "applyUrl": "https://www.odishaone.gov.in/citizen/auth/login",
+   "portalName": "Odisha One (Unified Citizen Portal)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's Name",
+     "value": "Sasmita Sahoo",
+     "hint": "Write it exactly as it is spelt on your Aadhaar card. The certificate is printed with this spelling and cannot be corrected later without a fresh application."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Bhagaban Sahoo",
+     "hint": "Your father's name, or your husband's name if you are married and want the certificate in your married name."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "14-08-1997",
+     "hint": "As printed on your Aadhaar or your matriculation certificate."
+    },
+    {
+     "label": "Gender",
+     "value": "Female",
+     "hint": "Pick from the drop-down."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 8811 2200",
+     "hint": "Your own 12 digits. An OTP goes to the mobile number linked to this Aadhaar, so carry that phone."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 11122",
+     "hint": "A number you actually carry. The acknowledgement and the download link arrive here by SMS."
+    },
+    {
+     "label": "Present Address - District / Tahasil / Block / Gram Panchayat / Village / PIN",
+     "value": "Cuttack / Salepur / Salepur / Kandarpur / Kandarpur / 754202",
+     "hint": "Pick each one from the drop-downs. Choose the tahasil you really live in - the Revenue Inspector of that tahasil is the person who comes to enquire."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "Rs 96,000",
+     "hint": "Add up what every earning member of the family makes in one year - wages, farming, shop, pension, rent. Do not write only your own income."
+    },
+    {
+     "label": "Source of Income",
+     "value": "Agriculture and daily wage work",
+     "hint": "Say plainly where the money comes from. If it is farming, the land record you attach should match this."
+    },
+    {
+     "label": "Purpose of the Certificate",
+     "value": "College admission and scholarship",
+     "hint": "Write why you need it. Some offices want the purpose printed on the certificate itself."
+    }
+   ],
+   "demoSteps": [
+    "Open Odisha One, register with your mobile number and the OTP, then go to Revenue & Disaster Management and choose Income Certificate. A Mo Seva Kendra or CSC operator will do this for you if you cannot.",
+    "Fill the form and upload Aadhaar, residence proof and the photograph as clear scans within the file size the page shows, then pay the fee displayed before you submit.",
+    "Write down the acknowledgement number on the receipt. It is the only way to track the case or to raise a complaint about it.",
+    "The Revenue Inspector of your tahasil verifies the income, usually by asking at your village or ward and at the Gram Panchayat.",
+    "The Tahasildar signs the certificate digitally and the status on the portal changes to approved.",
+    "Log in with the acknowledgement number and download the signed PDF. The digital signature is valid on its own - no office needs to stamp it again.",
+    "If it is rejected, the reason appears on the same status page. Correct only that point and apply again; there is no appeal fee."
+   ],
+   "helpline": "Mo Seva Kendra in your block or ward, or the Tahasildar's office of your tahasil",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://odishaone.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "od-ration-card",
+   "title": "Odisha Ration Card - NFSA or State Food Security Scheme",
+   "department": "Food, Supplies & Consumer Welfare Department, Government of Odisha",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Other",
+   "mode": "online",
+   "brief": "A new ration card for a family, applied for online on the PDS Odisha portal. There are two schemes: NFSA, the central food law, and SFSS, the State Food Security Scheme, which covers poor families left out of the NFSA list. The same portal is used later to add a newborn or a bride to the card, or to remove a name. The eldest woman of the family aged 18 or above is the head of the household on the card - this is fixed by law and cannot be changed to the husband's name.",
+   "benefit": "5 kg of rice per person per month; 35 kg a month for an Antyodaya (AAY) family",
+   "emoji": "🛒",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "The family must live in Odisha and must not hold a ration card in any other state or district",
+    "A family with a government or PSU job, an income-tax payer, or a motorised four-wheeler in the house is excluded from NFSA",
+    "A poor family left out of the NFSA list applies under the State Food Security Scheme (SFSS) instead, on the same portal",
+    "The eldest woman of the family, aged 18 or above, must be shown as the head of the household",
+    "Every member's Aadhaar has to be given, and e-KYC done at the fair price shop before grain starts"
+   ],
+   "documents": [
+    "Aadhaar card of every member of the family",
+    "Residence proof - electricity bill, voter ID, or a certificate from the Sarpanch or ward officer",
+    "Passport photograph of the head of the family",
+    "First page of the bank passbook of the head of the family",
+    "A mobile number linked to the head of the family's Aadhaar, for the OTP",
+    "Deletion certificate from the old card, if the family has moved in from another district or state",
+    "Caste certificate, if the family is claiming the Antyodaya (AAY) category"
+   ],
+   "applyUrl": "https://pdsodisha.gov.in/NFSA/CitizenshipEnrollmentNew/CitizenshipEnrollmentNew",
+   "portalName": "PDS Odisha portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District / Block or ULB / Gram Panchayat / Village",
+     "value": "Puri / Satyabadi / Sakhigopal / Sakhigopal",
+     "hint": "Pick from the drop-downs. Choose the place where the family actually lives - the block staff verify at this address."
+    },
+    {
+     "label": "Name of the Head of the Family",
+     "value": "Pramila Behera",
+     "hint": "The eldest woman of the family aged 18 or above. The law fixes this; do not put the husband's name here."
+    },
+    {
+     "label": "Aadhaar Number of the Head of the Family",
+     "value": "9999 7744 1122",
+     "hint": "Her own 12 digits, spelt exactly as on the Aadhaar card."
+    },
+    {
+     "label": "Mobile Number (linked to Aadhaar)",
+     "value": "90000 22233",
+     "hint": "The OTP comes here. If her Aadhaar has no mobile linked, get it linked at an Aadhaar centre first, or do the form at a Mo Seva Kendra."
+    },
+    {
+     "label": "Family Members - Name, Relation, Aadhaar",
+     "value": "Gopal Behera - husband - 9999 7744 3344; Lipsa Behera - daughter - 9999 7744 5566; Sanatan Behera - son - 9999 7744 7788",
+     "hint": "Add every person who eats in the house. A name left out now needs a separate member-addition application later."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "Rs 72,000",
+     "hint": "The whole family's income for one year. It decides whether you come under NFSA, under SFSS, or under neither."
+    },
+    {
+     "label": "Scheme applied for",
+     "value": "SFSS (State Food Security Scheme)",
+     "hint": "NFSA if the family is on the priority list, SFSS if it was left out of NFSA but is still poor. Ask at the Block office which list your family is on."
+    },
+    {
+     "label": "Bank Account Number and IFSC of the Head",
+     "value": "30001234567890, IFSC SBIN0009999",
+     "hint": "Copy both from the first page of her passbook. The account should be in her own name and Aadhaar-seeded."
+    },
+    {
+     "label": "Fair Price Shop to draw from",
+     "value": "Sakhigopal FPS, picked from the list for the Gram Panchayat",
+     "hint": "Choose the ration shop nearest your house from the drop-down. Changing it later means a fresh application at the Block office."
+    },
+    {
+     "label": "Old Ration Card Number, if any",
+     "value": "Blank - the family has never held a card",
+     "hint": "Leave it blank for a brand new card. If the family held a card elsewhere, write that number and attach the deletion certificate."
+    }
+   ],
+   "demoSteps": [
+    "Open the NFSA new-card form on the PDS Odisha portal, or the SFSS form if your family is outside the NFSA list. Mo Seva Kendra and CSC operators fill it for you.",
+    "Enter the head of the family's Aadhaar and verify with the OTP on her Aadhaar-linked mobile, then add every member of the family with their own Aadhaar.",
+    "Upload the residence proof and the photograph, submit, and write down the Form Number printed on the acknowledgement. Every later step - tracking, adding a member, removing a member - uses this Form Number.",
+    "The Block office or the ULB verifies the household, and the Sarpanch or ward officer may be asked about your family.",
+    "Once approved, the card is printed and handed over at the Block or ULB office or at your fair price shop. Check every name, relation and Aadhaar on it before you leave.",
+    "Get each member's Aadhaar e-KYC done on the machine at the fair price shop. The family's grain does not start until this is finished.",
+    "Track the application by the Form Number on the same portal, or ring the department's toll-free helpline if it has not moved in a month."
+   ],
+   "helpline": "1800-345-6724 or 155335 (Food, Supplies & Consumer Welfare Department, Odisha)",
+   "lastVerified": "September 2026",
+   "applyKind": "form"
+  },
+  {
+   "id": "od-subhadra-yojana",
+   "title": "Subhadra Yojana - Rs 50,000 for Women",
+   "department": "Women & Child Development and Mission Shakti Department, Government of Odisha",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Women",
+   "mode": "online",
+   "brief": "A cash payment to women of Odisha aged 21 to 60: Rs 10,000 a year for five years, Rs 50,000 in all. It comes in two instalments of Rs 5,000 each year, near Rakhi Purnima and near International Women's Day on 8 March. The money is paid straight into the woman's own bank account by DBT, so the account must be Aadhaar-seeded and DBT-enabled - an ordinary Aadhaar link is not enough. Apply on the Subhadra portal, or free of charge at any Mo Seva Kendra, Anganwadi centre or CSC.",
+   "benefit": "Rs 10,000 a year for five years, paid as two instalments of Rs 5,000 - Rs 50,000 in total",
+   "emoji": "👩",
+   "colorHex": "#C2185B",
+   "eligibility": [
+    "A woman living in Odisha, aged 21 to 60 on the qualifying date the government fixes for that year",
+    "The family holds an NFSA or State Food Security Scheme ration card; a woman without either can apply if the family's yearly income is Rs 2,50,000 or less",
+    "She must not be getting Rs 1,500 a month or more, or Rs 18,000 a year or more, from any other government scheme",
+    "Not an income-tax payer, and not a serving or retired government or public sector employee",
+    "Not a sitting or former MP or MLA, and not an elected head of a local body",
+    "e-KYC must be completed, and the bank account must be in her own name, Aadhaar-seeded and DBT-enabled"
+   ],
+   "documents": [
+    "Aadhaar card, with a mobile number linked to it for the OTP",
+    "NFSA or State Food Security Scheme ration card of the family",
+    "Income certificate from the Tahasildar, only if the family holds neither ration card",
+    "Bank passbook of an account in her own name, Aadhaar-seeded and DBT-enabled",
+    "Residence proof showing an Odisha address",
+    "A mobile number she can use to receive the OTP herself"
+   ],
+   "applyUrl": "https://subhadra.odisha.gov.in/",
+   "portalName": "Subhadra Portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6622 3311",
+     "hint": "Her own 12 digits. The whole application is built on this number, so check it twice."
+    },
+    {
+     "label": "Applicant's Name (as on Aadhaar)",
+     "value": "Sasmita Pradhan",
+     "hint": "Copy it letter for letter from the Aadhaar card. If the bank passbook has a different spelling, get one of them corrected before applying."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "02-11-1989",
+     "hint": "As on Aadhaar. You must be 21 or above and not over 60 on the date fixed for that year's round."
+    },
+    {
+     "label": "Mobile Number linked to Aadhaar",
+     "value": "90000 33344",
+     "hint": "The e-KYC OTP comes here. If nothing is linked to your Aadhaar, go to a Mo Seva Kendra and do face e-KYC instead."
+    },
+    {
+     "label": "Ration Card Type and Number",
+     "value": "SFSS - 219900112233",
+     "hint": "NFSA or SFSS, with the number from the front of the card. If the family has no card, attach the income certificate instead."
+    },
+    {
+     "label": "District / Block or ULB / Gram Panchayat / Village",
+     "value": "Sambalpur / Rengali / Rengali / Rengali",
+     "hint": "Pick from the drop-downs, for the place where you live now."
+    },
+    {
+     "label": "Bank Account Number and IFSC (account in her own name)",
+     "value": "35009988776655, IFSC SBIN0009988",
+     "hint": "Copy both from your passbook. A joint account or your husband's account will not be paid - the money only goes to an account in your own name."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "Rs 1,20,000",
+     "hint": "The family's income for one year. It must be Rs 2,50,000 or less if you are applying without a ration card."
+    },
+    {
+     "label": "e-KYC",
+     "value": "Completed by OTP on the Aadhaar-linked mobile",
+     "hint": "The application is not counted until e-KYC is done. Face e-KYC at a Mo Seva Kendra is the way round a missing mobile link."
+    },
+    {
+     "label": "Declaration",
+     "value": "I am not an income-tax payer, not a government employee, and I do not receive Rs 1,500 a month or more from another scheme",
+     "hint": "Tick it only if it is true. A false declaration means the money is recovered later."
+    }
+   ],
+   "demoSteps": [
+    "Open the Subhadra portal and press Apply Now, or take your Aadhaar and ration card to a Mo Seva Kendra, Anganwadi centre or CSC. They file it free - do not pay anyone for it.",
+    "Enter your Aadhaar and finish e-KYC with the OTP on the Aadhaar-linked mobile. If no mobile is linked, do face e-KYC at a Mo Seva Kendra.",
+    "Fill the form, give a bank account in your own name, submit, and note the application number on the acknowledgement.",
+    "Ask your bank branch to make the account DBT-enabled, not merely Aadhaar-linked. This one step is behind most of the payments that fail.",
+    "Check your name on the beneficiary list on the portal. If you are on the rejected list, the reason is shown next to your name and you can file a grievance on the same site.",
+    "Rs 5,000 reaches the account at each instalment, near Rakhi Purnima and near 8 March. Check your passbook or the bank's own message, not a forwarded one.",
+    "Ring 14678 between 6 AM and 10 PM for any problem with the application or a missing payment."
+   ],
+   "helpline": "14678 (6 AM to 10 PM)",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "od-bhulekh-ror",
+   "title": "Bhulekh Odisha - Land Record (RoR / Khatian)",
+   "department": "Revenue & Disaster Management Department, Government of Odisha",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Bhulekh is the state's online land record. You can look up and print the Record of Rights - the khatian - for any plot in Odisha free of charge, with no login. Search by khata number, by plot number, or by the tenant's name. Use it to check who the land stands in the name of and how much area is recorded before you buy, mortgage or divide land. The free printout is for information only; a bank or a court will ask for a certified copy from the Tahasil office.",
+   "benefit": "Free view and printout of the Record of Rights for any plot in Odisha",
+   "emoji": "📜",
+   "colorHex": "#6D4C41",
+   "eligibility": [
+    "Anyone can search - there is no login, no registration and no fee",
+    "You need to know the district, the tahasil and the revenue village where the land lies",
+    "You can search by khata number, by plot number, or by the tenant's name",
+    "The free printout carries no signature; a bank, a court or a registration office needs a certified copy from the Tahasildar",
+    "Mutation, partition and correction of a name are not done here - those go through the Tahasil office or Odisha One"
+   ],
+   "documents": [
+    "Nothing is needed to view the record - no Aadhaar, no login and no fee",
+    "The district, tahasil and revenue village (mouza) name of the land",
+    "The khata number, the plot number, or the tenant's name as it is written in the record",
+    "An older RoR, a rent receipt or the sale deed, to copy those numbers from",
+    "Aadhaar and the court fee stamp fixed by the Tahasil office, only if you go on to ask for a certified copy"
+   ],
+   "applyUrl": "https://bhulekh.ori.nic.in/index.aspx",
+   "portalName": "Bhulekh Odisha (RoR View)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District",
+     "value": "Cuttack",
+     "hint": "The district where the land lies, not where you live, if the two are different."
+    },
+    {
+     "label": "Tahasil",
+     "value": "Salepur",
+     "hint": "Pick from the drop-down. If you do not know the tahasil, the sale deed or an old rent receipt names it."
+    },
+    {
+     "label": "Village (Mouza)",
+     "value": "Kandarpur",
+     "hint": "The revenue village name as it appears in the land record. It is often different from the post office or panchayat name."
+    },
+    {
+     "label": "Search by",
+     "value": "Khatian (khata number)",
+     "hint": "Three choices: khata number, plot number, or tenant's name. Use the plot number if all you have is a sale deed."
+    },
+    {
+     "label": "Khatian / Khata Number",
+     "value": "217",
+     "hint": "Copy it from an older RoR, a rent receipt or the deed. One khata can hold several plots."
+    },
+    {
+     "label": "Plot Number",
+     "value": "1043/2",
+     "hint": "Fill this box instead if you are searching by plot. Write it exactly, including the part number after the slash."
+    },
+    {
+     "label": "Tenant's Name",
+     "value": "Jagabandhu Mallick",
+     "hint": "Only if you are searching by name. Spell it as it stands in the record, which may be an old spelling or a father's name form."
+    },
+    {
+     "label": "Verification Code (captcha)",
+     "value": "7K2M9",
+     "hint": "Type the characters shown in the picture. If you cannot read them, press refresh for a new code."
+    }
+   ],
+   "demoSteps": [
+    "Open the RoR View page on Bhulekh Odisha and pick your district, tahasil and village from the three drop-downs.",
+    "Choose how you want to search - by khata number, by plot number, or by the tenant's name - and fill only that one box.",
+    "Type the verification code and press View RoR. The record opens as a PDF showing the khata, the plot numbers, the area and the recorded tenant.",
+    "Check the area and the name against your own papers. An ancestor's name still standing on the record means the mutation was never done.",
+    "Print or save the PDF. It is free and there is no limit on how many times you look.",
+    "For a copy a bank or a court will accept, apply for a certified copy at the Tahasil office or through Odisha One - the free printout carries no signature.",
+    "To correct a name or record an inheritance, file a mutation case at the Tahasildar's office. Bhulekh only shows the record; it does not change it."
+   ],
+   "helpline": "Tahasildar's office of the tahasil where the land lies, or the Revenue Inspector of that circle",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "od-madhu-babu-pension",
+   "title": "Madhu Babu Pension Yojana - Old Age, Widow and Disability Pension",
+   "department": "Social Security & Empowerment of Persons with Disabilities Department (SSEPD), Government of Odisha",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "Odisha's monthly social security pension. It brought the old Old Age Pension and the state's disability pension together into one scheme, so you will still hear it called by those older names. It pays Rs 500 a month, rising to Rs 700 a month once the pensioner turns 80. Old people aged 60 and above, widows of any age, persons with 40 per cent or more disability, leprosy patients with visible deformity, and AIDS patients and AIDS widows can all apply. The form is filled and submitted at the Block office, or at the NAC or Municipality office in a town. Pension is paid on the 15th of every month.",
+   "benefit": "Rs 500 a month, rising to Rs 700 a month from the age of 80",
+   "emoji": "👵",
+   "colorHex": "#7B4FA8",
+   "eligibility": [
+    "Living in Odisha, and aged 60 or above for the old age pension",
+    "A widow of any age, a person with 40 per cent or more disability, a leprosy patient with visible deformity, or an AIDS patient or AIDS widow can apply at any age",
+    "The family must be poor by the income test the Block applies; an income-tax paying family is not eligible",
+    "Not drawing any other government pension, including a service pension or a National Social Assistance Programme pension",
+    "Aadhaar, and a bank or post office account in the applicant's own name, are needed for the monthly payment"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Age proof - Aadhaar, voter ID, or a certificate from the medical officer where no document exists",
+    "Residence proof showing an Odisha address",
+    "Income certificate from the Tahasildar, or the ration card showing the family's category",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate from the Chief District Medical Officer, for a disability pension",
+    "First page of the bank or post office passbook, in the applicant's own name",
+    "Two passport photographs"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "Block Development Officer's office of your block if you live in a village, or the Executive Officer of your NAC, Municipality or Corporation if you live in a town. The Gram Panchayat office and Mo Seva Kendras also hand out and take in the form.",
+   "demoFields": [
+    {
+     "label": "Type of pension applied for",
+     "value": "Old age pension (60 years and above)",
+     "hint": "Tick one only - old age, widow, disability, leprosy or AIDS. You cannot draw two of them together."
+    },
+    {
+     "label": "Applicant's Name",
+     "value": "Jagabandhu Mallick",
+     "hint": "Exactly as on the Aadhaar card. The pension roll is printed from this name."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Late Krushna Chandra Mallick",
+     "hint": "A widow writes her late husband's name here and attaches his death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "12-03-1959, age 67",
+     "hint": "Take the date from Aadhaar. Where there is no document at all, the medical officer's age certificate is accepted."
+    },
+    {
+     "label": "Full Address - District / Block or ULB / Gram Panchayat / Village or Ward",
+     "value": "Ganjam / Chhatrapur / Gopalpur / Gopalpur",
+     "hint": "The place you actually live. Block staff come to this address to verify, and the pension is paid there."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4455 6677",
+     "hint": "Your own 12 digits. The pension is stopped if the Aadhaar on the roll does not match the bank account."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44455",
+     "hint": "Your own number, or a son's or daughter's number you can reach. Sanction and payment messages go here."
+    },
+    {
+     "label": "Bank or Post Office Account Number, Branch and IFSC",
+     "value": "31554433221100, State Bank of India, Chhatrapur branch, IFSC SBIN0009123",
+     "hint": "Copy all three from the first page of the passbook. The account must be in the pensioner's own name, not a son's."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "Rs 22,000",
+     "hint": "As shown on the income certificate from the Tahasildar. Write the family's income, not only your own."
+    },
+    {
+     "label": "Any other pension being drawn",
+     "value": "None",
+     "hint": "Say so honestly. A person already on a service pension or another government pension cannot take this one as well."
+    }
+   ],
+   "demoSteps": [
+    "Get the printed form from the Block Development Officer's office, the Gram Panchayat office, or the Executive Officer of your NAC or Municipality if you live in a town. Mo Seva Kendras also keep it.",
+    "Fill it and attach Aadhaar, age proof, income certificate, the passbook copy and two photographs. A widow adds the husband's death certificate; a disability claim adds the certificate from the Chief District Medical Officer.",
+    "Submit the set at the Block office, or at the ULB office in a town, and take the receipt with the case number. Do not leave without it.",
+    "The list is read out at the Palli Sabha or the ward meeting, where anyone may object. Be present, because names are added and struck off at that meeting. Block staff then verify your household.",
+    "The BDO or the Executive Officer sanctions the pension and your name goes on the block's pension roll.",
+    "From the month of sanction, Rs 500 a month - Rs 700 once you are 80 - is paid on the 15th of every month, either at the Panchayat or ward disbursement camp or into your account.",
+    "If the pension stops, ask at the Block office first. A pending life certificate or an Aadhaar that is not seeded to the account is almost always the reason."
+   ],
+   "helpline": "Block Development Officer's office of your block, or the District Social Security Officer at the Collectorate",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "od-biju-pucca-ghar",
+   "title": "Biju Pucca Ghar Yojana - Pucca House Grant",
+   "department": "Panchayati Raj & Drinking Water Department, Government of Odisha",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Housing",
+   "mode": "offline",
+   "brief": "The state's own rural housing grant, for poor families in villages who have no pucca house and whose names did not come in the central Pradhan Mantri Awaas Yojana - Gramin list. It replaced the earlier Mo Kudia scheme. The grant is Rs 1,20,000 in plain areas, released in four instalments as the house goes up, with up to 95 days of MGNREGS wage on your job card for building it yourself. The house must stand on land you own or on homestead land given to you by the government. Everything is done at the Gram Panchayat and the Block office.",
+   "benefit": "Rs 1,20,000 in four instalments, plus up to 95 days of MGNREGS wage for building the house",
+   "emoji": "🏠",
+   "colorHex": "#0F8A5F",
+   "eligibility": [
+    "A family living in rural Odisha with no pucca house of its own, living in a kutcha house or one that has fallen down",
+    "The family's name must be in the permanent waiting list kept at the Gram Panchayat; a family already helped under Pradhan Mantri Awaas Yojana - Gramin is not taken again",
+    "The family must own the homestead land, or have been given homestead land by the government",
+    "A family with a government job, an income-tax payer, or a motorised four-wheeler is left out",
+    "Priority goes to families hit by fire, flood or cyclone, and to widows, persons with disability and particularly vulnerable tribal groups"
+   ],
+   "documents": [
+    "Aadhaar card of the head of the family and of the spouse",
+    "MGNREGS job card issued by the Gram Panchayat",
+    "First page of the bank passbook of an account in the beneficiary's own name, Aadhaar-seeded",
+    "Ration card of the family",
+    "Land record (RoR) of the homestead plot, or the government land patta",
+    "Photograph of the kutcha house the family lives in now",
+    "Caste certificate, where a reserved category is claimed",
+    "Death certificate or disability certificate, where priority is claimed on that ground"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "Gram Panchayat office, with the Panchayat Executive Officer or the Gram Rozgar Sevak, or the Block Development Officer's office of your block",
+   "demoFields": [
+    {
+     "label": "Name of the Head of the Family",
+     "value": "Kunja Bihari Swain",
+     "hint": "As on the Aadhaar card. The grant is sanctioned and paid in this name."
+    },
+    {
+     "label": "Spouse's Name",
+     "value": "Basanti Swain",
+     "hint": "The house is normally recorded in the names of both husband and wife, so fill this even if she has no separate papers."
+    },
+    {
+     "label": "Aadhaar Numbers of Both",
+     "value": "9999 3322 1100 and 9999 3322 4455",
+     "hint": "Both 12-digit numbers. A wrong digit here stops the instalments later."
+    },
+    {
+     "label": "Address - District / Block / Gram Panchayat / Village",
+     "value": "Sambalpur / Jujomura / Jujomura / Jujomura",
+     "hint": "The village where the house will be built. Block staff photograph the site at this address."
+    },
+    {
+     "label": "MGNREGS Job Card Number",
+     "value": "OD-21-005-012-001/1234",
+     "hint": "Copy it from the job card the Gram Panchayat gave you. The wage for the days you work on your own house is paid on this card."
+    },
+    {
+     "label": "Present House",
+     "value": "Kutcha, mud walls and thatch roof, two rooms, damaged in the 2025 rains",
+     "hint": "Describe what you live in now, in plain words. The surveyor photographs it, so do not pull it down before the verification."
+    },
+    {
+     "label": "Homestead Land",
+     "value": "Khata 84, plot 512, area 0.04 acre, standing in the applicant's own name in the RoR",
+     "hint": "Copy the khata, plot and area from Bhulekh. Without land in your name or a government patta, the case cannot move."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "36778899001122, IFSC UCBA0009876",
+     "hint": "An account in the beneficiary's own name and Aadhaar-seeded. Every instalment comes only by DBT into this account."
+    },
+    {
+     "label": "Ration Card Number and Type",
+     "value": "SFSS - 219900556677",
+     "hint": "Copy it from the front of your card. It is used to check the family against the poverty list."
+    },
+    {
+     "label": "Priority Ground Claimed, if any",
+     "value": "None",
+     "hint": "Write fire, flood, cyclone, widow, disability or PVTG if it applies, and attach the proof. It moves your name up the list."
+    }
+   ],
+   "demoSteps": [
+    "Check at the Gram Panchayat whether your family's name is already on the permanent waiting list. If it is not, ask the Gram Rozgar Sevak or the Panchayat Executive Officer how to have it added.",
+    "Fill the application there with their help and attach Aadhaar, the job card, the passbook copy, the ration card and the land record. Submit it at the Gram Panchayat or the Block office and take the receipt with the case number.",
+    "Attend the Palli Sabha where the list is read out. Names are added and struck off at that meeting, so be there in person.",
+    "Block staff come and verify the family and photograph the kutcha house. Leave the old house standing until this is done.",
+    "On sanction, Rs 1,20,000 comes in four instalments - on sanction, at plinth level, at lintel level, and on completion. Each one is released only after that stage is photographed and geo-tagged.",
+    "Do the building work under MGNREGS on your own job card. Up to 95 days of unskilled wage is paid on top of the grant.",
+    "If an instalment does not come, ask the Block office which stage photograph is missing. That is nearly always the reason."
+   ],
+   "helpline": "Panchayat Executive Officer or Gram Rozgar Sevak at your Gram Panchayat, or the Block Development Officer's office",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "od-opsc-chayan",
+   "title": "OPSC Recruitment - Applying on OPSC Chayan",
+   "department": "Odisha Public Service Commission",
+   "level": "State",
+   "state": "Odisha",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Every Odisha Public Service Commission recruitment is applied for on one portal, OPSC Chayan. It covers the Odisha Civil Services examination and posts such as Assistant Executive Engineer, Assistant Agriculture Engineer, Assistant Horticulture Officer, Assistant Fisheries Officer, Assistant Public Prosecutor, Veterinary Assistant Surgeon, Medical Officer and Assistant Professor. The Commission's own website carries the advertisements, the syllabus, the results and the old question papers, but no application is made there. The portal is in English only.",
+   "benefit": "Entry to a Group A or Group B government post in Odisha",
+   "emoji": "💼",
+   "colorHex": "#B0413E",
+   "eligibility": [
+    "Each advertisement fixes its own qualification, age and experience - read that advertisement before you pay anything",
+    "The minimum age for most posts is 21, counted as on the date printed in the advertisement",
+    "Upper age relaxation of 5 years for SC, ST, SEBC and women candidates, and 10 years for persons with benchmark disability, as the advertisement states",
+    "You must be able to read, write and speak Odia, checked in the way the advertisement lays down",
+    "An email address and a mobile number of your own, both verified by OTP, are needed to open the candidate account"
+   ],
+   "documents": [
+    "Matriculation certificate, which is the only proof of date of birth the Commission accepts",
+    "Degree or diploma certificate and all mark sheets of the qualifying examination",
+    "Caste certificate in the Odisha format, for SC, ST or SEBC",
+    "Residence or nativity certificate of Odisha",
+    "Disability certificate, for a person with benchmark disability",
+    "Recent passport photograph and a signature in black ink on white paper, scanned to the size the portal states",
+    "No Objection Certificate from the employer, if you are already in government service",
+    "Experience certificates, where the post asks for experience"
+   ],
+   "applyUrl": "https://opscechayan.in/#/auth/home",
+   "portalName": "OPSC Chayan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Advertisement Number and Post",
+     "value": "Advt. 08/2026-27, Assistant Agriculture Engineer",
+     "hint": "Copy it from the advertisement on the OPSC website. One application per advertisement - a second one is rejected."
+    },
+    {
+     "label": "Candidate's Name",
+     "value": "Rabindra Kumar Jena",
+     "hint": "Exactly as on your matriculation certificate, letter for letter. A mismatch here is the commonest reason for being struck off at document verification."
+    },
+    {
+     "label": "Father's Name / Mother's Name",
+     "value": "Narahari Jena / Sanjukta Jena",
+     "hint": "Both as spelt on the matriculation certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "09-06-1998",
+     "hint": "From the matriculation certificate only. No other age proof is taken, whatever your Aadhaar says."
+    },
+    {
+     "label": "Email ID and Mobile Number",
+     "value": "r.jena.demo@example.com / 90000 55566",
+     "hint": "Both get an OTP at registration. Use your own and keep them for the whole recruitment - the admit card and interview call come here."
+    },
+    {
+     "label": "Category",
+     "value": "SEBC",
+     "hint": "General, SC, ST, SEBC, EWS or PwD. Claim it only if you hold the certificate in the Odisha format. It cannot be changed after the edit window shuts."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Tech (Agricultural Engineering), 2021, 71.4 per cent",
+     "hint": "The degree the post asks for, with the university, the year of passing and the marks as printed on the mark sheet."
+    },
+    {
+     "label": "Permanent Address",
+     "value": "At Balipatna, PO Kandarpur, Salepur, Cuttack - 754202",
+     "hint": "The address on your residence certificate. Post from the Commission is sent here."
+    },
+    {
+     "label": "Photograph and Signature Upload",
+     "value": "Passport photograph on a plain background, signature in black ink on white paper",
+     "hint": "Follow the exact pixel size and file size shown on the page. A photo with a busy background or a signature in capitals is rejected."
+    },
+    {
+     "label": "Examination Fee",
+     "value": "Paid online before the last date; the amount and the exempted categories are printed in the advertisement",
+     "hint": "An application whose fee has not gone through is not an application at all. Keep the payment receipt."
+    }
+   ],
+   "demoSteps": [
+    "Read the advertisement on the OPSC website, check the qualification and your age as on the date it fixes, and note the last date and the fee.",
+    "Open OPSC Chayan, register with your email and mobile, verify both OTPs, and write down the User ID the portal gives you.",
+    "Fill the application, upload the photograph, signature and certificates in the sizes shown, and pay the fee online if your category has to pay.",
+    "Submit and download the PDF of the submitted application. It carries the application number you will need for every query afterwards.",
+    "Use the edit window the Commission opens after the last date to correct any mistake. Once it closes, nothing can be changed.",
+    "Download the admit card from Chayan when it is released and carry a printed copy with a photo ID to the examination centre.",
+    "If you are called for document verification or interview, take the originals of everything you claimed. A claim you cannot prove on paper is struck off."
+   ],
+   "helpline": "Odisha Public Service Commission office, Cuttack - the contact numbers are printed in each advertisement",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://opscechayan.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

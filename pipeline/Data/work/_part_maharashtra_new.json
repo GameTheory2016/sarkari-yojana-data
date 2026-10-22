@@ -1,0 +1,393 @@
+{
+ "schemes": [
+  {
+   "id": "mh-ration-card",
+   "title": "Ration Card — Mahafood RCMS",
+   "department": "Department of Food, Civil Supplies and Consumer Protection, Government of Maharashtra",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "The ration card is applied for online on RCMS, the transactional site of the Food and Civil Supplies Department. The same login adds or removes a family member, transfers a card to a new taluka, corrects a name and downloads the e-ration card. The card also works as proof of address and of family composition for school admissions, pensions and many other applications.",
+   "benefit": "5 kg of free foodgrain per person per month under NFSA; 35 kg per card for Antyodaya families",
+   "emoji": "🍚",
+   "colorHex": "#E8710A",
+   "eligibility": [
+    "Ordinarily resident in Maharashtra and not holding a ration card anywhere else in India",
+    "One card for one family; the eldest woman of the household aged 18 or above is entered as head of the family",
+    "Priority Household (yellow or saffron) under NFSA: annual family income up to Rs 44,000 in a rural area and up to Rs 59,000 in an urban area",
+    "Antyodaya (yellow): the poorest families picked by the tehsil — landless labourers, widows, the aged and households with no assured income",
+    "A family above the NFSA income limit still gets a white card, which is valid as identity and address proof but carries no subsidised grain",
+    "Aadhaar of every member must be seeded and e-KYC done at the fair price shop before grain is released"
+   ],
+   "documents": [
+    "Aadhaar card of every family member",
+    "Proof of residence — electricity bill, property tax receipt, registered rent agreement or a Gram Panchayat letter",
+    "Passport-size photograph of the head of the family",
+    "Income certificate or salary slip, for the NFSA income test",
+    "Gas connection number and the name of the gas agency",
+    "Surrender or removal certificate from the earlier taluka, if the family has moved",
+    "Bank passbook first page, where the tehsil asks for it"
+   ],
+   "applyUrl": "https://rcms.mahafood.gov.in/PublicLogin/frmPublicLogin.aspx",
+   "portalName": "Mahafood RCMS (Ration Card Management System)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "New Ration Card",
+     "hint": "New card, add a member, delete a member, transfer the card to another taluka, or correct a detail. Pick one — each opens its own form."
+    },
+    {
+     "label": "District / Taluka / Village or Ward",
+     "value": "Nashik / Sinnar / Shivade",
+     "hint": "Where the family actually lives now. The card is issued by that tehsil and the grain comes from a shop in that area."
+    },
+    {
+     "label": "Name of Head of Family",
+     "value": "Vaishali Prakash Gaikwad",
+     "hint": "Spelt exactly as on her Aadhaar. The card is issued in this name and the shop machine checks her fingerprint against it."
+    },
+    {
+     "label": "Aadhaar Number of Head of Family",
+     "value": "9999 4721 6083",
+     "hint": "The 12 digits on her own Aadhaar card. A mistake here stops the card at verification."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 47216",
+     "hint": "The OTP for registration, the application number and the approval message all come here. Use a number in the family."
+    },
+    {
+     "label": "Full residential address with pin code",
+     "value": "House 148, Gavthan Road, Shivade, Taluka Sinnar, District Nashik — 422103",
+     "hint": "Write it as it appears on the residence proof you are uploading, not a shortened version."
+    },
+    {
+     "label": "Family members — name, relation, age, Aadhaar",
+     "value": "Prakash Ramchandra Gaikwad, husband, 41, 9999 4721 7745; Aarti Prakash Gaikwad, daughter, 14, 9999 4721 8836; Ramchandra Nivrutti Gaikwad, father-in-law, 68, 9999 4721 9927",
+     "hint": "Every person who eats in the house. Leave one out and that person gets no grain until a separate add-member application goes through."
+    },
+    {
+     "label": "Annual income of the whole family",
+     "value": "Rs 52,000",
+     "hint": "Add up what everyone earns in a year. This decides the colour of the card, so state it correctly and keep the proof."
+    },
+    {
+     "label": "Gas connection number and agency",
+     "value": "HP Gas, Sinnar agency, consumer 0491 7736 2210",
+     "hint": "Maharashtra asks for this to stop one family holding two cards. Write 'none' if the family has no connection."
+    },
+    {
+     "label": "Removal / surrender certificate of the earlier card",
+     "value": "Not applicable — no earlier card held",
+     "hint": "If the family moved from another taluka or state, get this from the old tehsil first. Without it the new card is rejected."
+    }
+   ],
+   "demoSteps": [
+    "Open rcms.mahafood.gov.in, use 'New User' to register with your mobile number and an OTP, and set a username and password.",
+    "Choose 'Apply for New Ration Card', fill the family details and upload Aadhaar, the residence proof, the income proof and the photograph.",
+    "Submit and write down the application number. Every enquiry after this is against that number.",
+    "The tehsil verifies the papers and a Food Inspector or Talathi may visit the house to confirm the family lives there.",
+    "On approval the card is issued and the e-ration card can be downloaded and printed from the same login. Maharashtra is moving to the e-card and away from the printed book.",
+    "Take the head of the family to the fair price shop for Aadhaar e-KYC on the ePoS machine. Grain is not released until this is done.",
+    "Draw the monthly quota with a fingerprint at the shop. Under One Nation One Ration Card the same card also works at a shop in another district or state."
+   ],
+   "helpline": "1800-22-4950, or the PDS toll-free number 1967",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://rcms.mahafood.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "mh-mahabhulekh",
+   "title": "Mahabhulekh — 7/12, 8A and Property Card",
+   "department": "Revenue Department — Settlement Commissioner and Director of Land Records, Government of Maharashtra",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Mahabhulekh carries the land record of every village in Maharashtra — all districts, 716 talukas and more than 89,000 villages. The 7/12, called the satbara, shows who holds a piece of agricultural land, how much, what is sown on it and any bank charge against it; the 8A lists every holding of one khatedar in the village; the property card does the same for surveyed urban land. Viewing is free, and a digitally signed copy that banks and offices accept costs about Rs 15.",
+   "benefit": "Free 7/12, 8A and property card view; digitally signed extract for about Rs 15",
+   "emoji": "📜",
+   "colorHex": "#6D4C41",
+   "eligibility": [
+    "Land situated in Maharashtra and entered in the record of rights",
+    "Anyone may view a 7/12, an 8A or a property card — no login, no fee and no proof of ownership is needed",
+    "A digitally signed extract needs registration with a mobile number and payment of about Rs 15 per copy",
+    "7/12 and 8A cover agricultural land; a property card covers surveyed urban land holding a City Survey number",
+    "Only the khatedar or a legal heir can ask the Talathi to correct an entry or to record a mutation"
+   ],
+   "documents": [
+    "Survey number or gat number of the land, or the khatedar's name",
+    "The village, taluka, district and the revenue division they fall in",
+    "Mobile number, for a digitally signed copy",
+    "Aadhaar card, if you are getting the extract at an Aaple Sarkar Seva Kendra or a CSC",
+    "Registered sale deed, for a mutation after a purchase",
+    "Death certificate and the heirship paper, for a mutation after a death",
+    "The existing 7/12 or 8A extract, where you are asking for a correction"
+   ],
+   "applyUrl": "https://bhulekh.mahabhumi.gov.in",
+   "portalName": "Mahabhulekh (Maharashtra Bhumi Abhilekh)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Revenue division (Vibhag)",
+     "value": "Pune",
+     "hint": "The six divisions are Amravati, Chhatrapati Sambhajinagar, Konkan, Nagpur, Nashik and Pune. Satara falls under Pune division."
+    },
+    {
+     "label": "Record wanted",
+     "value": "7/12 (Satbara)",
+     "hint": "7/12 for one piece of agricultural land, 8A to see every holding of one khatedar in the village, property card for urban land."
+    },
+    {
+     "label": "District / Taluka / Village",
+     "value": "Satara / Karad / Ogalewadi",
+     "hint": "Pick all three from the lists. The record is kept village by village, so a wrong village shows nothing."
+    },
+    {
+     "label": "Search by",
+     "value": "Gat number",
+     "hint": "Search by survey or gat number if you know it, otherwise by the khatedar's surname. The number is the surer way."
+    },
+    {
+     "label": "Survey Number / Gat Number",
+     "value": "214/2",
+     "hint": "Copy it exactly from the old extract or the purchase deed. A wrong sub-division number pulls up a neighbour's land."
+    },
+    {
+     "label": "Khatedar's name — surname, first name, middle name",
+     "value": "Jadhav / Dnyaneshwar / Tukaram",
+     "hint": "Only if you are searching by name. Use the spelling on the land record, which may not match Aadhaar."
+    },
+    {
+     "label": "Verification code shown on the screen",
+     "value": "4KP7M2",
+     "hint": "Type the characters exactly as displayed. It refreshes if you get it wrong."
+    },
+    {
+     "label": "Mobile number, for a digitally signed copy",
+     "value": "90000 21472",
+     "hint": "Needed only for the paid signed extract. The download link comes to this number against an OTP."
+    },
+    {
+     "label": "Payment for the digitally signed extract",
+     "value": "Rs 15 per extract, paid online",
+     "hint": "Pay for each copy you need. Buy one for each bank or office that will keep a copy."
+    }
+   ],
+   "demoSteps": [
+    "Open bhulekh.mahabhumi.gov.in, choose your division, then the district, taluka and village.",
+    "Search by the gat or survey number and open the 7/12. Check the area, the khatedar names, the crop entry and the 'other rights' column, which is where a bank charge or a loan is recorded.",
+    "Pull the 8A as well to see every piece of land held in that village under the same khata. That is what land revenue is charged on.",
+    "The free print is for your own reference. For a bank, a court, a subsidy claim or a sale, buy the digitally signed extract from digitalsatbara.mahabhumi.gov.in for about Rs 15 — offices do not accept the unsigned print.",
+    "Read the ferfar (mutation) entries. After a purchase or a death the change shows here only once the Talathi has recorded it and the Tahsildar has passed the order.",
+    "If a name, an area or a crop entry is wrong, apply to the village Talathi with the deed or the heirship paper. Fixing it now is far easier than at the time of a sale.",
+    "If you cannot use the site, the same extracts are issued at an Aaple Sarkar Seva Kendra or a CSC for a small fee."
+   ],
+   "helpline": "Your village Talathi or the taluka Tahsildar's office; extracts are also issued at Aaple Sarkar Seva Kendras and CSCs",
+   "lastVerified": "September 2026",
+   "applyKind": "form"
+  },
+  {
+   "id": "mh-mpsc-recruitment",
+   "title": "MPSC Recruitment — Rajyaseva, Group B and Group C",
+   "department": "Maharashtra Public Service Commission",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Maharashtra Public Service Commission recruits for the Maharashtra Civil Services (Rajyaseva) and for the Group B and Group C combined services, which include PSI, STI and Assistant Section Officer, as well as the engineering, agriculture, forest and judicial services. Notifications and syllabi are published on mpsc.gov.in; the application itself is filed on the separate online system. You build one candidate profile, lock it, and then apply to each advertisement from it.",
+   "benefit": "One online profile for every MPSC examination and direct recruitment, with hall tickets and results",
+   "emoji": "💼",
+   "colorHex": "#0F766E",
+   "eligibility": [
+    "Indian citizen; a Maharashtra domicile certificate is needed for the reserved category posts and for most state services",
+    "Age as the advertisement states — generally 19 to 38 years for the open category, relaxed to 43 for backward class candidates, with further relaxation for ex-servicemen and disabled candidates",
+    "A degree from a recognised university, complete on the closing date the advertisement gives, for Rajyaseva and the Group B posts",
+    "Knowledge of Marathi is required, and it is tested in the examination",
+    "A Non-Creamy Layer certificate valid on the closing date, for OBC, VJNT and SBC candidates",
+    "Each advertisement sets its own age, qualification and physical standards — read that one before you pay the fee"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "SSC (Class 10) certificate, which governs the date of birth and the spelling of the name",
+    "Degree certificate and every marksheet",
+    "Maharashtra domicile certificate",
+    "Caste certificate and Caste Validity Certificate, for a reserved category",
+    "Non-Creamy Layer certificate valid on the closing date, for OBC, VJNT and SBC",
+    "Disability, ex-serviceman, sportsperson or project-affected certificate, where that reservation is claimed",
+    "Recent passport photograph and a scanned signature in the sizes the portal states"
+   ],
+   "applyUrl": "https://mpsconline.gov.in/candidate/registration",
+   "portalName": "MPSC Online Application System",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Examination or post applied for",
+     "value": "Maharashtra Group B (Combined) — PSI, STI and ASO",
+     "hint": "One application per advertisement. Check the age limit and the qualification in that advertisement before you pay anything."
+    },
+    {
+     "label": "Candidate's full name as on the SSC certificate",
+     "value": "Sagar Bhaskar Deshmukh",
+     "hint": "The SSC certificate governs, not Aadhaar, where the two differ. Every later check is made against it."
+    },
+    {
+     "label": "Father's name and Mother's name",
+     "value": "Bhaskar Namdev Deshmukh / Shobha Bhaskar Deshmukh",
+     "hint": "As on the SSC certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "14-03-1999",
+     "hint": "As on the SSC certificate. The age limit counts from this date and it cannot be changed once the profile is locked."
+    },
+    {
+     "label": "Category, caste and caste certificate number",
+     "value": "OBC — Mali; certificate MH/SLP/OBC/2019/113204",
+     "hint": "Claim only the category you hold a Maharashtra certificate for. The number is printed on the certificate itself."
+    },
+    {
+     "label": "Non-Creamy Layer certificate number and validity",
+     "value": "NCL/SLP/2026/00471, valid to 31-03-2027",
+     "hint": "It must be valid on the closing date of the advertisement, not merely on the day you apply. An expired one loses you the reservation."
+    },
+    {
+     "label": "Maharashtra domicile",
+     "value": "Yes — Solapur district, certificate SLP/DOM/2018/06622",
+     "hint": "Needed for the reserved seats and for most state posts. Get it from the tehsil or through Aaple Sarkar if you do not have it."
+    },
+    {
+     "label": "Educational qualification",
+     "value": "B.A., Shivaji University Kolhapur, 2021, 64%",
+     "hint": "It must be complete on the closing date, not merely expected. Enter the marks as printed on the final marksheet."
+    },
+    {
+     "label": "Knowledge of Marathi",
+     "value": "Yes — studied Marathi up to SSC",
+     "hint": "MPSC requires it and tests it. Declare it honestly and keep the school certificate for verification."
+    },
+    {
+     "label": "Examination centre preference",
+     "value": "Solapur; second choice Pune",
+     "hint": "Give the choices the form allows. The Commission allots the nearest centre it can, but it is not guaranteed."
+    }
+   ],
+   "demoSteps": [
+    "Watch mpsc.gov.in for the advertisement and read the age, qualification, physical standards and reservation conditions before doing anything else.",
+    "Create your candidate profile on mpsconline.gov.in with your name and date of birth exactly as on the SSC certificate, and upload the photograph and signature in the stated sizes.",
+    "Lock the profile. Check every entry twice first — the locked profile is what is carried into all your applications and it is not freely editable afterwards.",
+    "Run the eligibility check for that advertisement, submit the application and pay the fee online. Save the application number and the payment receipt.",
+    "Download the hall ticket about a week before each stage and take it with a photo identity card.",
+    "Rajyaseva runs as a preliminary, a main examination and an interview; the combined Group B and Group C examinations run as a preliminary and a main. Each result is published on the Commission's site.",
+    "Document verification comes last. Produce the originals of everything you claimed, including the Caste Validity Certificate within the time the Commission allows — a claim you cannot prove there costs you the post."
+   ],
+   "helpline": "Maharashtra Public Service Commission — contact details and every notice are published on mpsc.gov.in",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://mpsconline.gov.in/candidate",
+   "applyKind": "registration"
+  },
+  {
+   "id": "mh-mahavitaran-connection",
+   "title": "Mahavitaran — New Electricity Connection and Consumer Services",
+   "department": "Maharashtra State Electricity Distribution Co. Ltd. (MSEDCL / Mahavitaran)",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "Mahavitaran, the state electricity distribution company, supplies the whole of Maharashtra except most of Mumbai city and its suburbs. A new domestic, commercial or agricultural connection is applied for on its Web Self Service portal, which also handles bill payment, self meter readings, a name or address change on the account, a load change, reconnection after disconnection, security deposit refund and complaints. The information site is mahadiscom.in; the applications and account transactions happen on the self-service portal.",
+   "benefit": "New connection normally released within one month of a complete application, plus online billing, meter readings and complaints",
+   "emoji": "⚡",
+   "colorHex": "#E09B00",
+   "eligibility": [
+    "Premises anywhere in the MSEDCL supply area — the whole of Maharashtra except most of Mumbai city and its suburbs",
+    "You own the premises or lawfully occupy them, and can produce proof of that",
+    "No unpaid electricity dues standing against the premises or against you at another connection",
+    "The internal wiring is finished and tested, with a test report signed by a licensed electrical contractor",
+    "Under the Electricity Act, supply must be given within one month of a complete application wherever the line and the network already reach the premises"
+   ],
+   "documents": [
+    "Proof of ownership or occupancy — 7/12 extract, property tax receipt, sale deed, Index II or a registered rent agreement",
+    "Photo identity proof and Aadhaar card",
+    "Recent passport-size photograph",
+    "Test report of the internal wiring from a licensed electrical contractor",
+    "Consumer number and the latest paid bill of a neighbouring or existing connection, to identify the feeder",
+    "No Objection Certificate from the owner, if you are a tenant",
+    "Municipal or Gram Panchayat building permission, where the sub-division asks for it"
+   ],
+   "applyUrl": "https://wss.mahadiscom.in/wss/wss?uiActionName=getNewConnectionRequest",
+   "portalName": "Mahavitaran Web Self Service (WSS) portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "New Connection Request",
+     "hint": "New connection, bill payment, name or address change, load change, reconnection, security deposit refund or a complaint. A new connection can be started without registering."
+    },
+    {
+     "label": "Tariff category and phase",
+     "value": "LT-I Residential, single phase",
+     "hint": "Residential for a home, commercial for a shop, agricultural for a pump. The wrong category means the wrong rate on every bill afterwards."
+    },
+    {
+     "label": "Connected load applied for",
+     "value": "2 kW",
+     "hint": "Add up the wattage of the lights, fans, pump and appliances you will run. Asking for too little means paying again later for a load change."
+    },
+    {
+     "label": "Applicant's name as it should appear on the bill",
+     "value": "Snehal Ramrao Ingle",
+     "hint": "Spelt as on Aadhaar and matching the ownership or rent paper. Changing it later is a separate name-change application."
+    },
+    {
+     "label": "Full address of the premises where supply is wanted",
+     "value": "Plot 27, Shivneri Nagar, Hudkeshwar Road, Nagpur — 440034",
+     "hint": "The address of the building itself, not a correspondence address. The section engineer comes to this spot."
+    },
+    {
+     "label": "Nearest existing consumer number",
+     "value": "410026837755",
+     "hint": "The 12-digit number from a neighbour's or the landlord's bill. It tells the office which pole and feeder you will be connected to."
+    },
+    {
+     "label": "Aadhaar number and mobile number",
+     "value": "9999 6284 3170 / 90000 62843",
+     "hint": "The request number, the site inspection message and the demand note all come to this mobile."
+    },
+    {
+     "label": "Proof of ownership or occupancy uploaded",
+     "value": "Property tax receipt, Nagpur Municipal Corporation, 2026-27",
+     "hint": "Any one of the accepted papers. A tenant uploads the registered rent agreement and the owner's NOC."
+    },
+    {
+     "label": "Licensed contractor's test report",
+     "value": "Test report 2026/NGP/1188, contractor licence MH/EC/22/40715",
+     "hint": "Get the wiring tested before you apply. No supply is released without this report."
+    },
+    {
+     "label": "Payment of processing fee and security deposit",
+     "value": "Paid online against demand note DN-NGP-2026-55214",
+     "hint": "The exact amount is in the demand note the office raises after inspection. Pay it online and keep the receipt."
+    }
+   ],
+   "demoSteps": [
+    "Open wss.mahadiscom.in, choose the new connection request and fill the premises details, the tariff category and the load. You can start this without registering.",
+    "Upload the ownership or rent proof, the identity proof, the photograph and the contractor's test report, then submit and note the request number.",
+    "The section engineer inspects the site and the office raises a demand note — the firm quotation for the service line, the processing fee and the security deposit.",
+    "Pay the demand note online through the portal. The meter is installed and supply is released after payment; where the line already reaches the premises this should happen within one month of the complete application.",
+    "Register on the self-service portal with your new 12-digit consumer number so you can see and pay bills, send self meter readings and switch to Go Green paperless billing.",
+    "If the connection or a repair is delayed beyond the time the rules allow, file a Standards of Performance compensation claim, and use the complaint and Swagat Cell pages on the same portal to track it.",
+    "Keep the consumer number written down somewhere safe. Every later service — name change, load change, reconnection, deposit refund — is asked for against that number."
+   ],
+   "helpline": "Your MSEDCL sub-division office, or the Swagat Cell complaint pages on the Mahavitaran self-service portal",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://wss.mahadiscom.in/wss/wss",
+   "applyKind": "form"
+  }
+ ]
+}

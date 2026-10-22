@@ -1,0 +1,267 @@
+{
+ "schemes": [
+  {
+   "id": "an-edistrict",
+   "title": "Andaman & Nicobar e-District Certificates",
+   "department": "Administration of the Andaman and Nicobar Islands",
+   "level": "State",
+   "state": "Andaman & Nicobar Islands",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The islands' single window for the certificates a resident needs — income, local certificate, SC and ST certificates, birth and death registration and residence proof. Applying online saves a boat trip, which matters when your tehsil office is on another island.",
+   "benefit": "Digitally signed income, local, tribe and residence certificates without travelling to the tehsil",
+   "emoji": "🏝",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of the Andaman and Nicobar Islands, applying in the tehsil where you live",
+    "A local certificate needs proof that the family has lived in the islands for the qualifying period",
+    "A Scheduled Tribe certificate is issued only for the notified tribes of the islands",
+    "An income certificate is valid for one year; a tribe certificate does not expire"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Residence proof — electricity bill, rent agreement or a Panchayat certificate",
+    "Birth certificate or school certificate for date of birth",
+    "Salary certificate or an affidavit of income, for an income certificate",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://edistrict.andamannicobar.gov.in/RegisterUser/Index",
+   "portalName": "e-District Andaman & Nicobar",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Local Certificate",
+     "hint": "Income, local, SC, ST, residence, birth or death. Each opens its own form and asks for different proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Sabitri Halder",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Nirmal Chandra Halder",
+     "hint": "Used to identify the family in the tehsil records."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 3306 1178",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "South Andaman / Ferrargunj / Wimberlygunj",
+     "hint": "Where you actually live. The Tehsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Years the family has lived in the islands",
+     "value": "Since 1974 — three generations",
+     "hint": "For a local certificate, say from when. The ration card, school records or an old electricity bill are what prove it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,44,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Purpose",
+     "value": "Admission to a government college",
+     "hint": "Say plainly what it is for. It is recorded but does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 33061",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on edistrict.andamannicobar.gov.in with your mobile and confirm the OTP, or use a Common Service Centre on your island.",
+    "Choose the certificate you need and fill the form from your Aadhaar and ration card.",
+    "Upload Aadhaar, the ration card, the residence proof and the income or tribe proof, then submit and note the application number.",
+    "The Patwari or the tehsil staff verify the family. Be reachable on the mobile you gave, since an island visit may be replaced by a phone check.",
+    "The Tehsildar signs the certificate digitally and it is downloaded from the same login. A digitally signed copy needs no attestation.",
+    "If it is delayed beyond the time the service promises, quote the application number to the tehsil office or the Deputy Commissioner's office."
+   ],
+   "helpline": "Your Tehsildar's office, or the Deputy Commissioner's office at Port Blair",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.andamannicobar.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "an-eservices",
+   "title": "Andaman & Nicobar eServices — Bills, Permits and Payments",
+   "department": "Administration of the Andaman and Nicobar Islands",
+   "level": "State",
+   "state": "Andaman & Nicobar Islands",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "The islands' online counter for the things residents pay and apply for regularly — electricity and water bills, licences, permits and departmental fees — without a trip to the office. Useful anywhere, essential when the office is a ferry ride away.",
+   "benefit": "Electricity, water and departmental payments and applications made from home",
+   "emoji": "⚡",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Resident or consumer in the Andaman and Nicobar Islands",
+    "A consumer number for the service you are paying for, as printed on the bill",
+    "A mobile number for the OTP and the payment receipt",
+    "Any card, net banking or UPI account for the payment"
+   ],
+   "documents": [
+    "Latest bill showing the consumer number",
+    "Aadhaar card, for an application rather than a payment",
+    "Address proof for the premises",
+    "Mobile number to receive the receipt"
+   ],
+   "applyUrl": "https://eservices.andamannicobar.gov.in/citizenRegistration.html",
+   "portalName": "eServices Andaman & Nicobar",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Electricity bill payment",
+     "hint": "Electricity, water, licence fee, permit or a departmental payment. Pick the department first, then the service."
+    },
+    {
+     "label": "Consumer Number",
+     "value": "SA-0114-227631",
+     "hint": "Printed at the top of your bill. Copy it exactly — a wrong digit pays somebody else's bill and getting it back is slow."
+    },
+    {
+     "label": "Consumer Name",
+     "value": "Nirmal Chandra Halder",
+     "hint": "As printed on the bill, which may differ from Aadhaar. The portal shows the name after you enter the consumer number — check it before paying."
+    },
+    {
+     "label": "Billing period / Bill number",
+     "value": "August 2026 — bill 2026080114227",
+     "hint": "From the bill in your hand. Paying against the wrong bill number leaves the current one unpaid."
+    },
+    {
+     "label": "Amount payable (Rs.)",
+     "value": "1,240",
+     "hint": "The portal fills this from the department's record. If it differs from your paper bill, pay what the portal shows and take the paper bill to the office."
+    },
+    {
+     "label": "Address of the premises",
+     "value": "Wimberlygunj, Ferrargunj Tehsil, South Andaman 744105",
+     "hint": "Needed for a new connection or a name change, not for an ordinary payment."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 33061",
+     "hint": "The payment receipt and the transaction reference come here by SMS. Keep it until the next bill shows the payment."
+    },
+    {
+     "label": "Payment method",
+     "value": "UPI",
+     "hint": "Card, net banking or UPI. Do not close the browser until the receipt appears, even if the money has left your account."
+    }
+   ],
+   "demoSteps": [
+    "Open eservices.andamannicobar.gov.in and choose the department and the service you need.",
+    "Enter the consumer number from your bill and check that the name and amount the portal shows match your bill before going further.",
+    "Pay by card, net banking or UPI and wait for the receipt page. Do not close the browser while the payment is being confirmed.",
+    "Download or note the transaction reference and keep it until the next bill shows the payment credited.",
+    "If money leaves your account but no receipt appears, do not pay again. Take the transaction reference to the department office — a double payment is refunded, but it takes weeks.",
+    "For an application rather than a payment, fill the form, upload Aadhaar and the address proof, and track it by the application number the portal gives you."
+   ],
+   "helpline": "The office of the department concerned; the Deputy Commissioner's office at Port Blair for anything unresolved",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://eservices.andamannicobar.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "ar-eservices",
+   "title": "Arunachal eServices — Certificates and Departmental Services",
+   "department": "Government of Arunachal Pradesh",
+   "level": "State",
+   "state": "Arunachal Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Arunachal Pradesh's e-District system, where a resident applies for the income, Scheduled Tribe, permanent residence and other certificates without going to the district headquarters — which in this state can be a day's journey.",
+   "benefit": "Income, Scheduled Tribe and permanent residence certificates applied for online",
+   "emoji": "⛰",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Arunachal Pradesh, applying in the district where you live",
+    "A Scheduled Tribe certificate is issued only for the tribes notified for Arunachal Pradesh",
+    "A permanent residence certificate needs proof that the family has lived in the state for the qualifying period",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Father's Scheduled Tribe certificate, for a tribe certificate",
+    "School certificate or birth certificate for date of birth",
+    "Residence proof — electricity bill or a certificate from the Gaon Burah or the village authority",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://eservice.arunachal.gov.in/resources/homePage/12/services.html",
+   "portalName": "Arunachal eServices",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Scheduled Tribe Certificate",
+     "hint": "Income, Scheduled Tribe, permanent residence, dependency or character certificate. Each has its own form and proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Tadar Yaming",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Tadar Tabin",
+     "hint": "For a tribe certificate this decides the case — tribe is traced through the father's family record."
+    },
+    {
+     "label": "Tribe claimed",
+     "value": "Nyishi",
+     "hint": "Pick from the notified list for Arunachal Pradesh. A tribe notified in another state does not qualify here."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4412 7703",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Circle / Village",
+     "value": "Papum Pare / Doimukh / Kheel",
+     "hint": "Where the family lives. The Deputy Commissioner or the Extra Assistant Commissioner of this circle signs."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,08,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Recommendation of the Gaon Burah or village authority",
+     "value": "Gaon Burah, Kheel village — signed and stamped",
+     "hint": "Most certificates here need the village authority's recommendation. Get it before you apply, not after."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44127",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the recommendation of your Gaon Burah or village authority first. Almost every certificate in Arunachal Pradesh needs it and the file stops without it.",
+    "Register on eservice.arunachal.gov.in with your mobile, confirm the OTP, and choose the certificate.",
+    "Fill the form and upload Aadhaar, the ration card, the father's tribe certificate where relevant, and the village recommendation.",
+    "Submit and note the application number. A Common Service Centre or the district e-District counter will file it for you if the network at home is poor.",
+    "The circle officer verifies and the Deputy Commissioner's office issues the certificate.",
+    "Download the signed certificate from the same login. Check the tribe name and your father's name before you rely on it, because a correction means applying again."
+   ],
+   "helpline": "Your circle officer, or the Deputy Commissioner's office of your district",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://eservice.arunachal.gov.in/",
+   "applyKind": "service-page"
+  }
+ ]
+}

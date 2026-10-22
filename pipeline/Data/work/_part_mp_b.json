@@ -1,0 +1,284 @@
+{
+ "schemes": [
+  {
+   "id": "mp-esb-recruitment",
+   "title": "MP ESB Recruitment — Group Exams, Patwari and Constable",
+   "department": "Madhya Pradesh Employees Selection Board",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Employees Selection Board runs most non-gazetted recruitment in Madhya Pradesh — Group 1 to 5 posts, Patwari, Sub Engineer, Police and Excise Constable, and the teacher eligibility tests. Every application goes through the ESB portal, and the fee is paid at an MPOnline kiosk or online.",
+   "benefit": "One portal for every MP subordinate-service recruitment and teacher eligibility test",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Age as the notification states, usually 18 to 40, with relaxation for MP domiciles, women, SC, ST, OBC and disability",
+    "The qualification the post requires, complete on the notification's closing date",
+    "Domicile of Madhya Pradesh for reserved-category benefits and the lower fee",
+    "Physical standards and a running test for constable posts, set out in that notification"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Higher qualification certificates and marks sheets",
+    "MP domicile certificate",
+    "Caste certificate on the MP format, for a reserved category",
+    "Disability or ex-serviceman certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
+   "portalName": "MP Employees Selection Board",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Rakesh Kumar Ahirwar",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ. Everything later is checked against it."
+    },
+    {
+     "label": "Father's / Mother's Name",
+     "value": "Ramcharan Ahirwar / Kamla Bai",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "05-06-2002",
+     "hint": "As on the Class 10 certificate. Age limits count from this date and it cannot be changed later."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2208 6614",
+     "hint": "Twelve digits, used to keep one candidate to one profile."
+    },
+    {
+     "label": "Domicile of Madhya Pradesh",
+     "value": "Yes — Sagar district",
+     "hint": "Reserved-category benefits and the lower examination fee are for MP domiciles only. A candidate from another state pays the full fee and competes unreserved."
+    },
+    {
+     "label": "Category and sub-category",
+     "value": "SC; no disability; not an ex-serviceman",
+     "hint": "Claim only what you hold an MP-format certificate for. Age relaxation and the fee both follow from this."
+    },
+    {
+     "label": "Post and examination applied for",
+     "value": "Group 2 Sub Group 4 — Patwari",
+     "hint": "One application per notification. Check the qualification in that notification before paying."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Com, Dr. Harisingh Gour University Sagar, 2023, 64%",
+     "hint": "Course, university, year and marks. It must be complete on the closing date, not merely expected."
+    },
+    {
+     "label": "Preferred examination city",
+     "value": "Sagar; second choice Bhopal",
+     "hint": "Give two or three. The board allots the nearest centre it can."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 22086 / rakesh.ahirwar@example.com",
+     "hint": "Admit card and every notice come here. Do not use a cyber cafe's number."
+    }
+   ],
+   "demoSteps": [
+    "Watch esb.mp.gov.in for the notification for the post you want, and read the qualification and age limits before anything else.",
+    "Register with your name and date of birth exactly as on the Class 10 certificate, and upload the photograph and signature in the sizes the site states.",
+    "Fill the application, choose your examination cities, and pay the fee online or at an MPOnline kiosk. MP domiciles in the reserved categories pay less.",
+    "Use the correction window if the board opens one — it is the only chance to fix a wrong entry, and it closes quickly.",
+    "Download the admit card about a week before the exam and take it with a photo ID.",
+    "Results and the answer key come out on the same site. For constable posts the physical test follows, and for all posts document verification comes last.",
+    "At verification, produce the originals of everything you claimed. A domicile or caste certificate that is not on the MP format is rejected there, and the candidature goes with it."
+   ],
+   "helpline": "0755-2578801 — MP ESB office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://esb.mp.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "mp-police-citizen",
+   "title": "MP Police Citizen Services — e-FIR and Character Certificate",
+   "department": "Madhya Pradesh Police",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Madhya Pradesh Police takes several things online that used to mean a trip to the thana — an FIR for a stolen vehicle or a missing article, a police character verification certificate for a job or a passport, tenant and domestic-help verification, and a missing-person report.",
+   "benefit": "e-FIR, character verification certificate and tenant verification without going to the police station",
+   "emoji": "🛡",
+   "colorHex": "#455A64",
+   "eligibility": [
+    "Complainant or applicant resident in, or the incident having happened in, Madhya Pradesh",
+    "An e-FIR covers property offences with no named accused — a stolen vehicle, a lost article, theft in your absence",
+    "A serious offence, or one with a named accused, must still be reported at the police station in person",
+    "A mobile number that works, since every step is confirmed by OTP"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Address proof for the address to be verified",
+    "Vehicle registration certificate, for a stolen vehicle e-FIR",
+    "Purchase bill or IMEI, for a lost article",
+    "Passport-size photograph, for a character certificate",
+    "Employer's letter or passport file number, where the certificate is asked for by them"
+   ],
+   "applyUrl": "https://citizen.mppolice.gov.in/CitizenLogin.aspx",
+   "portalName": "MP Police Citizen Portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Police Character Verification Certificate",
+     "hint": "e-FIR, character verification, lost article, tenant or domestic-help verification, or missing person. Each opens a different form."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Sarita Malviya",
+     "hint": "As on Aadhaar. The certificate is issued in this name."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Mohan Lal Malviya",
+     "hint": "Used with the address to identify you in the police records."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7741 3306",
+     "hint": "Twelve digits. Identity is confirmed on this and an OTP goes to the linked mobile."
+    },
+    {
+     "label": "Address to be verified",
+     "value": "House 24, Ward 9, Makronia, Sagar, Madhya Pradesh 470004",
+     "hint": "The address the police will actually visit or check. Give a landmark so the beat constable finds it."
+    },
+    {
+     "label": "Purpose",
+     "value": "Passport application",
+     "hint": "Job, passport, visa, tenancy or a licence. It is printed on the certificate, so say the real reason."
+    },
+    {
+     "label": "Police Station area",
+     "value": "Makronia police station, Sagar",
+     "hint": "The station covering your address. If you are unsure, the portal finds it from the district and the locality."
+    },
+    {
+     "label": "Details of the incident (for an e-FIR)",
+     "value": "Not applicable — certificate request",
+     "hint": "For an e-FIR, write when and where it happened and exactly what was taken, with numbers — chassis, engine, IMEI."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 77413",
+     "hint": "The acknowledgement number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Open citizen.mppolice.gov.in, register with your mobile and confirm the OTP, then choose the service you need.",
+    "Fill the form carefully. For an e-FIR, the chassis, engine or IMEI number is what makes a recovery possible, so copy those exactly from the papers.",
+    "Upload Aadhaar, the address proof, and the vehicle or purchase papers where they apply.",
+    "Submit and note the acknowledgement number. An e-FIR gets a copy you can download at once and take to your insurance company.",
+    "For a character certificate, the beat constable visits the address and the station forwards a report. Be available, or the file waits.",
+    "The signed certificate or the FIR copy is downloaded from the same login. If a real offence needs investigating, the station converts the e-FIR into a regular FIR and calls you.",
+    "For anything urgent or violent, do not use this portal — call 100 or 112 and go to the station."
+   ],
+   "helpline": "100 or 112 for an emergency; 0755-2443500 for the MP Police citizen portal",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://citizen.mppolice.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "mp-housing-board",
+   "title": "MP Housing Board — Flats, Plots and PMAY-U Units",
+   "department": "MP Housing and Infrastructure Development Board",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "The MP Housing Board builds and sells flats and plots in the state's cities, including the affordable PMAY-U units meant for lower and middle income families. Registration, the first-come-first-served booking, instalments and the e-auction of leftover properties are all done on its own portal.",
+   "benefit": "Board-built flat or plot, with PMAY-U units at subsidised prices",
+   "emoji": "🏢",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen aged 18 or above; a Madhya Pradesh domicile for the schemes reserved for state residents",
+    "For a PMAY-U unit, the family must own no pucca house anywhere in India and must be within the income limit for its category",
+    "One unit per family under the subsidised schemes",
+    "Booking is first come first served, or by lottery where a scheme is oversubscribed"
+   ],
+   "documents": [
+    "Aadhaar card and PAN card",
+    "Domicile certificate of Madhya Pradesh",
+    "Income proof — salary slips, Form 16 or an income certificate",
+    "Bank passbook and a cancelled cheque",
+    "Affidavit that the family owns no pucca house, for a PMAY-U unit",
+    "Passport-size photographs",
+    "Caste certificate, where applying against a reserved category"
+   ],
+   "applyUrl": "https://mphidb.mponline.gov.in/Portal/services/HousingBoard/MPHIDBHome.aspx?Type=S",
+   "portalName": "MP Housing Board portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scheme and location",
+     "value": "PMAY-U AHP flats, Kolar Road, Bhopal",
+     "hint": "Pick the scheme from the list of live offers. Each one has its own price, size and closing date."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Nitin Shrivastava",
+     "hint": "As on Aadhaar. The allotment letter and the sale deed are both issued in this name, so a later correction is expensive."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Om Prakash Shrivastava",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "Aadhaar and PAN",
+     "value": "9999 6058 2214 / ABCPS1234K",
+     "hint": "Both are needed. PAN is required because the purchase is a property transaction."
+    },
+    {
+     "label": "Category applied under",
+     "value": "EWS",
+     "hint": "EWS, LIG, MIG or general. The income limit for the category is checked against the income proof you upload."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "2,40,000",
+     "hint": "The household's total for the year. For a PMAY-U unit it must be inside the limit for the category you chose."
+    },
+    {
+     "label": "Do you own a pucca house anywhere in India?",
+     "value": "No",
+     "hint": "Answer truthfully and back it with the affidavit. A false answer cancels the allotment and forfeits the deposit."
+    },
+    {
+     "label": "Bank Account and IFSC for refund",
+     "value": "5510 2278 4436 / PUNB0552100",
+     "hint": "If you are not allotted a unit, the registration money is refunded here, so give a live account in your own name."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 60582 / nitin.s@example.com",
+     "hint": "The allotment result, every instalment notice and the possession date all come here."
+    }
+   ],
+   "demoSteps": [
+    "Look at the live schemes on mphousing.in and read the price, the size, the instalment plan and the closing date before you register for one.",
+    "Register on the portal with Aadhaar, PAN and your mobile, and confirm the OTP.",
+    "Fill the application for the scheme you want, upload the income proof, the domicile certificate and, for a PMAY-U unit, the affidavit that the family owns no pucca house.",
+    "Pay the registration money online and keep the receipt. Booking is first come first served on most schemes, so the date and time of payment can decide the case.",
+    "Watch for the allotment result on the portal. If you are not allotted, the registration money is refunded to the account you gave.",
+    "On allotment, pay the instalments by the dates in the allotment letter. Missing them attracts interest and, if you fall far enough behind, cancellation.",
+    "Possession comes after the full payment and the registry. Inspect the unit before you take the keys and get any defect recorded in writing."
+   ],
+   "helpline": "0755-2551000 — MP Housing Board, Bhopal",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.mphousing.in/",
+   "applyKind": "service-page"
+  }
+ ]
+}

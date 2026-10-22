@@ -1,0 +1,273 @@
+{
+ "schemes": [
+  {
+   "id": "rj-rsmssb-recruitment",
+   "title": "RSMSSB Recruitment — Rajasthan Group C Posts and CET",
+   "department": "Rajasthan Staff Selection Board",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Rajasthan Staff Selection Board recruits for most Group C posts in the state — Patwari, Village Development Officer, Junior Assistant, Forest Guard, Computer and Livestock Assistant. Many of them now go through a Common Eligibility Test first, and every application is filed through the SSO login.",
+   "benefit": "One SSO login for every RSMSSB recruitment and the Common Eligibility Test",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen; a Rajasthan domicile for the reserved-category quotas and the lower fee",
+    "Age as the notification states, usually 18 to 40, with relaxation for Rajasthan SC, ST, OBC, women and disability",
+    "The qualification the post requires, complete on the notification's closing date",
+    "A valid CET score where the post is one of those screened through it",
+    "Knowledge of Hindi in Devanagari script and of Rajasthani culture, which most posts test"
+   ],
+   "documents": [
+    "SSO ID of Rajasthan",
+    "Aadhaar card and Jan Aadhaar",
+    "Class 10 certificate for date of birth",
+    "Higher qualification certificates and marksheets",
+    "Rajasthan caste certificate, for a reserved category",
+    "Domicile (Mool Niwas) certificate of Rajasthan",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://sso.rajasthan.gov.in/signin?ru=RECRUITMENT",
+   "portalName": "RSMSSB Rajasthan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "SSO ID",
+     "value": "MOHAN.MEGHWAL2026",
+     "hint": "Every Rajasthan government application runs through the Single Sign On. Create it once at sso.rajasthan.gov.in and use it for everything after."
+    },
+    {
+     "label": "Post applied for",
+     "value": "Patwari (Group C)",
+     "hint": "One application per notification. Read the qualification and age limit in that notification before paying."
+    },
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Mohan Lal Meghwal",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ. Everything later is checked against it."
+    },
+    {
+     "label": "Father's / Mother's Name",
+     "value": "Chunni Lal Meghwal / Gyarsi Devi",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "16-02-2001",
+     "hint": "As on the Class 10 certificate. Age limits count from this date and it cannot be changed afterwards."
+    },
+    {
+     "label": "Category and domicile",
+     "value": "SC; Rajasthan domicile — Nagaur",
+     "hint": "Reserved-category benefits and the lower fee are for Rajasthan domiciles only. A candidate from another state competes unreserved and pays the full fee."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A., Maharshi Dayanand Saraswati University Ajmer, 2023, 59%",
+     "hint": "It must be complete on the closing date, not merely expected. Most Group C posts also require a computer certificate — check that notification."
+    },
+    {
+     "label": "CET Roll Number and score",
+     "value": "CET2026-0331788, 118 marks",
+     "hint": "Where the post is screened through the Common Eligibility Test, the score must be valid on the closing date."
+    },
+    {
+     "label": "Examination centre preference",
+     "value": "Nagaur; second choice Jodhpur",
+     "hint": "Give two or three. The Board allots the nearest centre it can."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 55123 / mohan.meghwal@example.com",
+     "hint": "The application number, admit card and every notice come here. Do not use a cyber cafe's number."
+    }
+   ],
+   "demoSteps": [
+    "Create an SSO ID at sso.rajasthan.gov.in if you do not have one. No Rajasthan recruitment can be applied to without it.",
+    "Watch rsmssb.rajasthan.gov.in for the notification, and check whether the post needs a valid CET score before anything else.",
+    "Log in through SSO, open the recruitment portal and fill the application with your name and date of birth exactly as on the Class 10 certificate.",
+    "Upload the photograph and signature in the sizes stated, and pay the fee online. Rajasthan candidates in the reserved categories pay less.",
+    "Use the correction window if the Board opens one — it is the only chance to fix a wrong entry.",
+    "Download the admit card about a week before the exam and take it with a photo ID and the printed application.",
+    "Results and the answer key appear on the same site. Document verification comes last, where the originals of everything claimed — including the Mool Niwas and caste certificate on the Rajasthan format — must be produced."
+   ],
+   "helpline": "0141-2722520 — Rajasthan Staff Selection Board, Jaipur",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://rsmssb.rajasthan.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "rj-jan-soochna",
+   "title": "Jan Soochna — Rajasthan Public Information Portal",
+   "department": "Department of Information Technology and Communication, Rajasthan",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Jan Soochna puts the government's own records in the open. Without any login you can see whether your pension was paid, whether your ration was issued, who the beneficiaries in your village are, the status of a scheme application, and a great deal more. It is the fastest way to find out what has actually happened to your case.",
+   "benefit": "Free look-up of your own pension, ration, scheme and land records with no login",
+   "emoji": "🔍",
+   "colorHex": "#455A64",
+   "eligibility": [
+    "Anyone may use it — there is no login, no registration and no fee",
+    "Your own records are found by Jan Aadhaar number, Aadhaar number, or scheme application number",
+    "Village and ward level lists are open to everybody",
+    "Covers only Rajasthan state departments and schemes"
+   ],
+   "documents": [
+    "Jan Aadhaar number of the family, for most personal look-ups",
+    "Aadhaar number, where a scheme is searched that way",
+    "The scheme application or PPO number, where you have one",
+    "Ration card number, for the food department records"
+   ],
+   "applyUrl": "https://jansoochna.rajasthan.gov.in/Scheme",
+   "portalName": "Jan Soochna Portal Rajasthan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "What you want to check",
+     "value": "Social security pension payment status",
+     "hint": "Pension payments, ration issued, scheme beneficiary lists, land records, electricity and water connections, e-Mitra application status and more."
+    },
+    {
+     "label": "Department or scheme",
+     "value": "Social Justice and Empowerment — Pension",
+     "hint": "The portal is arranged department by department. Pick the one that runs your scheme."
+    },
+    {
+     "label": "Jan Aadhaar Number",
+     "value": "1234 5678 9012",
+     "hint": "The family's number. Most personal look-ups work from it alone."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4417 0082",
+     "hint": "An alternative where the scheme is searched by Aadhaar rather than Jan Aadhaar."
+    },
+    {
+     "label": "PPO / Application Number",
+     "value": "NGR/PEN/2026/044178",
+     "hint": "If you have the pension PPO number or an application number, it gives the most exact answer."
+    },
+    {
+     "label": "District / Block / Gram Panchayat",
+     "value": "Nagaur / Merta / Gagrana",
+     "hint": "For a village or ward level list — who in your panchayat draws a pension, holds a ration card, or has been sanctioned a scheme."
+    },
+    {
+     "label": "Ration Card Number",
+     "value": "RJ-11-2287-7631",
+     "hint": "For the food department records — how much grain was issued in your name and in which month."
+    }
+   ],
+   "demoSteps": [
+    "Open jansoochna.rajasthan.gov.in. There is nothing to register and nothing to pay.",
+    "Pick the department or scheme you are asking about, then the particular information — payment status, beneficiary list, application status.",
+    "Enter your Jan Aadhaar number, Aadhaar number or application number as the screen asks.",
+    "Read the result carefully. For a pension it shows the sanction, the PPO number and every month's payment, which tells you at once whether the money was sent or is stuck.",
+    "Use the village and ward lists to check whether a name has been left off, or whether someone is drawing a benefit they should not.",
+    "If the record shows a payment you never received, that printout is the evidence. Take it with the PPO number to the block office or the e-Mitra kiosk, and complain on the Rajasthan Sampark helpline."
+   ],
+   "helpline": "181 — Rajasthan Sampark",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://jansoochna.rajasthan.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "rj-housing-board",
+   "title": "Rajasthan Housing Board — Flats and Plots",
+   "department": "Rajasthan Housing Board",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "The Rajasthan Housing Board builds and sells flats and plots across the state's cities, including units set aside for the economically weaker and lower income groups. Registration, the lottery or first-come-first-served booking, instalments and the e-auction of leftover units are all handled on its applicant portal.",
+   "benefit": "Board-built flat or plot, with units reserved for EWS and LIG families",
+   "emoji": "🏢",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen aged 18 or above",
+    "Income within the limit of the category applied under — EWS, LIG, MIG or HIG",
+    "For a reserved-category unit, a Rajasthan caste certificate",
+    "One unit per family under the subsidised categories",
+    "Allotment is by lottery where a scheme is oversubscribed, otherwise first come first served"
+   ],
+   "documents": [
+    "Aadhaar card and PAN card",
+    "Income proof — salary slips, Form 16 or an income certificate",
+    "Domicile (Mool Niwas) certificate of Rajasthan, where the scheme requires it",
+    "Bank passbook and a cancelled cheque for the refund",
+    "Caste certificate, where applying against a reserved category",
+    "Passport-size photographs",
+    "Affidavit that the family owns no house under a board scheme"
+   ],
+   "applyUrl": "https://rhbonline.rajasthan.gov.in/SEPL.PWIMS.Estate.Web.UI/Applicant/Profile/LoginHome.aspx?isexternalproject=1",
+   "portalName": "Rajasthan Housing Board portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Scheme and location",
+     "value": "Pratap Nagar housing scheme, Jaipur — LIG flats",
+     "hint": "Pick from the live schemes. Each has its own price, size, category split and closing date."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Kailash Chand Sharma",
+     "hint": "As on Aadhaar. The allotment letter and the sale deed are issued in this name, so a later correction is expensive."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Ram Gopal Sharma",
+     "hint": "As on Aadhaar."
+    },
+    {
+     "label": "Aadhaar and PAN",
+     "value": "9999 7761 2204 / ABCPS5678L",
+     "hint": "Both are needed, because this is a property transaction."
+    },
+    {
+     "label": "Category applied under",
+     "value": "LIG",
+     "hint": "EWS, LIG, MIG or HIG. The income limit for the category is checked against the income proof you upload."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "4,80,000",
+     "hint": "The household's total for the year. Applying under a category you do not qualify for gets the application cancelled and the deposit held up."
+    },
+    {
+     "label": "Reservation claimed",
+     "value": "None — general",
+     "hint": "SC, ST, OBC, disability, widow, ex-serviceman or journalist quotas exist in some schemes. Claim one only with the certificate."
+    },
+    {
+     "label": "Bank Account and IFSC for refund",
+     "value": "5140 2287 7631 / SBIN0031402",
+     "hint": "If you are not allotted a unit, the registration money comes back here, so give a live account in your own name."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 77612 / kailash.sharma@example.com",
+     "hint": "The lottery result, every instalment notice and the possession date all come here."
+    }
+   ],
+   "demoSteps": [
+    "Look at the live schemes on rhb.rajasthan.gov.in and read the price, the size, the category split and the instalment plan before registering for one.",
+    "Register on the applicant portal with Aadhaar, PAN and your mobile, and confirm the OTP.",
+    "Fill the application for the scheme and category you qualify for, and upload the income proof, the domicile certificate and any caste certificate.",
+    "Pay the registration money online and keep the receipt. Where a scheme is first come first served, the date and time of payment can decide the case.",
+    "Watch for the lottery or allotment result on the portal. If you are not allotted, the registration money is refunded to the account you gave.",
+    "On allotment, pay the instalments by the dates in the allotment letter. Missing them attracts interest and eventually cancellation.",
+    "Possession follows the full payment and the registry. Inspect the unit and get any defect recorded in writing before you take the keys."
+   ],
+   "helpline": "0141-2740475 — Rajasthan Housing Board, Jaipur",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://rhb.rajasthan.gov.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

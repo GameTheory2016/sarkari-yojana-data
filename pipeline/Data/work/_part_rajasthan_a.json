@@ -1,0 +1,194 @@
+{
+ "schemes": [
+  {
+   "id": "rj-rajssp-pension",
+   "title": "RajSSP — Rajasthan Social Security Pension",
+   "department": "Social Justice and Empowerment Department, Government of Rajasthan",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Pension",
+   "mode": "online",
+   "brief": "Rajasthan pays a monthly pension to old people, widows, single women, people with disability and destitute families through RajSSP. The application starts from the Jan Aadhaar of the family, is filed at an e-Mitra kiosk or online, and the money reaches the pensioner's own bank account.",
+   "benefit": "Monthly pension, the amount rising with the pensioner's age",
+   "emoji": "👵",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Resident of Rajasthan with a Jan Aadhaar card for the family",
+    "Age 55 for a woman and 58 for a man, for the old-age pension",
+    "Widow, divorced, abandoned or never-married woman of 18 or above, for the single woman pension",
+    "Disability of 40 per cent or more, certified by the medical board, for the disability pension",
+    "Family income within the state's limit and not drawing another government pension"
+   ],
+   "documents": [
+    "Jan Aadhaar card of the family",
+    "Aadhaar card of the applicant",
+    "Age proof — Aadhaar, birth certificate or voter card",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate showing 40 per cent or more, for a disability pension",
+    "Bank passbook in the applicant's own name, Aadhaar-seeded",
+    "Income certificate",
+    "Recent passport photograph"
+   ],
+   "applyUrl": "https://sso.rajasthan.gov.in/signin",
+   "portalName": "RajSSP",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Jan Aadhaar Number",
+     "value": "1234 5678 9012",
+     "hint": "The family's Jan Aadhaar. The whole application is built from it, so get the Jan Aadhaar made first if the family has none."
+    },
+    {
+     "label": "Type of pension applied for",
+     "value": "Ekal Nari (single woman) pension",
+     "hint": "Old age, single woman, disability, or destitute. Each has its own age condition and supporting certificate."
+    },
+    {
+     "label": "Applicant Name (as on Jan Aadhaar)",
+     "value": "Bhanwari Devi Jat",
+     "hint": "As on Jan Aadhaar and Aadhaar. A spelling that differs from the bank record is why a sanctioned pension never arrives."
+    },
+    {
+     "label": "Husband's / Father's Name",
+     "value": "Late Ram Swaroop Jat",
+     "hint": "Write 'Late' before the name where he has died; for a widow pension it must match the death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "11-05-1972 / 54 years",
+     "hint": "Old age pension starts at 55 for a woman and 58 for a man. There is no lower age bar for the single woman pension above 18."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4417 0082",
+     "hint": "Twelve digits. Payment and the yearly physical verification both run on this."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Nagaur / Merta City / Gagrana",
+     "hint": "Where you live. The Sub-Divisional Officer of this area sanctions the pension."
+    },
+    {
+     "label": "Supporting certificate number",
+     "value": "Death certificate NGR/D/2022/03318 dated 14-06-2022",
+     "hint": "The death certificate for a widow, or the disability certificate number and percentage for a disability pension."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "5140 2287 7631 / SBIN0031402",
+     "hint": "In the applicant's own name, not a son's or daughter's, and Aadhaar-seeded."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44170",
+     "hint": "The PPO number and every credit are announced here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the family's Jan Aadhaar made first if it does not exist. RajSSP is built on it and no pension application can be filed without one.",
+    "Go to an e-Mitra kiosk with the papers, or apply yourself through the SSO login, and choose the pension type.",
+    "Fill in the details from Jan Aadhaar and Aadhaar, attach the age, death or disability proof and the passbook, and give an account in your own name.",
+    "Keep the application number. Once it is sanctioned you are given a PPO number, which is what you quote afterwards.",
+    "The Sub-Divisional Officer verifies and sanctions, usually within 30 to 60 days, and the pension is credited to the account each month.",
+    "Do the yearly physical verification at an e-Mitra kiosk or through the Rajasthan Sampark app, or the pension stops. Anyone over 80 can have it done at home on request.",
+    "Status, the PPO number and every payment can be checked on the RajSSP portal and on the Jan Soochna portal without logging in."
+   ],
+   "helpline": "1800 180 6127 — Rajasthan Social Justice department",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ssp.rajasthan.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "rj-emitra",
+   "title": "e-Mitra Rajasthan — Certificates, Bills and Applications",
+   "department": "Department of Information Technology and Communication, Rajasthan",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "e-Mitra is the counter through which most Rajasthan government services are actually delivered — income, caste, domicile and birth certificates, scheme applications, bill payments and land records. There are kiosks in every panchayat and ward, and the same services can be used from home with an SSO login.",
+   "benefit": "Certificates, scheme applications and bill payments at a kiosk near home or online",
+   "emoji": "🪪",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Rajasthan; some services need the family's Jan Aadhaar",
+    "An SSO ID to use the services from home; a kiosk needs no login of your own",
+    "For a caste certificate, the caste must be on the Rajasthan SC, ST or OBC list",
+    "Each service charges a fixed notified fee, which is printed on the receipt"
+   ],
+   "documents": [
+    "Jan Aadhaar card of the family",
+    "Aadhaar card of the applicant",
+    "Ration card or voter card as residence proof",
+    "Father's caste certificate or a school record, for a caste certificate",
+    "Income proof — salary certificate, or a land record for a farming family",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://sso.rajasthan.gov.in/signin",
+   "portalName": "e-Mitra Rajasthan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Income certificate (Aay Praman Patra)",
+     "hint": "Income, caste, domicile (Mool Niwas), birth or death certificate, scheme application, or a bill payment. Each has its own fixed fee."
+    },
+    {
+     "label": "Jan Aadhaar Number",
+     "value": "1234 5678 9012",
+     "hint": "The family's number. Most services pull your name, family and address from it, so keep it with you."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Mohan Lal Meghwal",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Chunni Lal Meghwal",
+     "hint": "For a caste certificate this decides the case — caste is traced through the father's family record."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Nagaur / Merta City / Gagrana",
+     "hint": "Where the family lives. The Tehsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "68,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Caste and category",
+     "value": "Meghwal (Scheduled Caste)",
+     "hint": "Pick from the Rajasthan list rather than typing it. A spelling not on the list is not accepted."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 55123",
+     "hint": "The token number and the ready message come here by SMS."
+    },
+    {
+     "label": "e-Mitra receipt / token number",
+     "value": "EM2026NGR0044178",
+     "hint": "Printed on the kiosk receipt. Every follow-up runs on it, so keep the slip."
+    }
+   ],
+   "demoSteps": [
+    "Take the papers to any e-Mitra kiosk — there is one in most panchayats and wards — or log in yourself at emitra.rajasthan.gov.in with an SSO ID.",
+    "Give the Jan Aadhaar number and choose the service. The operator's screen fills your family details from it.",
+    "Hand over or upload Aadhaar, the residence proof, and the caste or income proof. For a caste certificate the father's certificate is the paper that matters most.",
+    "Pay only the fee printed on the receipt, and check that the receipt carries a token number. A kiosk asking for more than the notified fee can be reported on the helpline.",
+    "The Tehsildar's office verifies and signs. Most certificates come within 7 to 21 days depending on the service.",
+    "Collect the certificate at the kiosk or download it with the token number. A digitally signed copy needs no further attestation.",
+    "The status of any e-Mitra application, and most Rajasthan scheme records, can also be looked up free on the Jan Soochna portal without logging in."
+   ],
+   "helpline": "1800 180 6127 — Rajasthan e-Mitra helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://emitra.rajasthan.gov.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

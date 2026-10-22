@@ -1,0 +1,133 @@
+{
+ "schemes": [
+  {
+   "id": "ap-income-certificate",
+   "title": "Andhra Pradesh Income Certificate",
+   "department": "Grama Ward Sachivalayam Department, Government of Andhra Pradesh",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The income certificate stating a family's yearly earnings, issued by the Tahsildar. Almost every welfare scheme, fee reimbursement and reserved seat in Andhra Pradesh asks for it. It is applied for on AP Seva, the state's single window, and the signed certificate is downloaded from the same site.",
+   "benefit": "Digitally signed income certificate, valid for one year",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Andhra Pradesh, applying in the mandal where the family lives",
+    "Applied for by the head of the family, covering the whole household's income",
+    "Aadhaar linked to a working mobile number, since login is by OTP",
+    "A fresh certificate is needed each year; the old one expires twelve months from issue"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card or rice card of the family",
+    "Address proof — electricity bill, property tax receipt or ration card",
+    "Salary certificate or Form 16 for a salaried applicant",
+    "Land record (Adangal or 1-B) where the family income is from farming",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://apseva.ap.gov.in/",
+   "portalName": "AP Seva portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {"label": "Aadhaar Number", "value": "9999 4412 7806",
+     "hint": "Your own twelve digits. The login OTP goes to the mobile linked to it, so it must be a number you hold."},
+    {"label": "Applicant Name (as on Aadhaar)", "value": "Kondala Rao Pothuraju",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."},
+    {"label": "Father's / Husband's Name", "value": "Venkata Ramana Pothuraju",
+     "hint": "Used to tell apart families with the same surname in one village."},
+    {"label": "District / Mandal / Village or Ward", "value": "Guntur / Tenali / Kolakaluru",
+     "hint": "Where the family actually lives. Your mandal Tahsildar's office handles the file, so this decides where it goes."},
+    {"label": "Annual Family Income (Rs.)", "value": "96,000",
+     "hint": "The whole household's earnings for the year, from all sources — wages, farming, rent, pension. Keep it consistent with any salary certificate you upload."},
+    {"label": "Source of Income", "value": "Agriculture and daily wage labour",
+     "hint": "Plain words are fine. Name every earning member's work, not only the head's."},
+    {"label": "Caste / Category", "value": "BC-D",
+     "hint": "As on your caste certificate. It is recorded on the income certificate and is checked against welfare quotas later."},
+    {"label": "Purpose", "value": "Fee reimbursement for my daughter's degree course",
+     "hint": "Say plainly what it is for. It is asked for the record and does not restrict where you use the certificate."},
+    {"label": "Ration Card / Rice Card Number", "value": "AP-05-2211-0764",
+     "hint": "From the front of the rice card. It is how the office pulls up the rest of your family's details."},
+    {"label": "Mobile Number", "value": "90000 41287",
+     "hint": "The application number and the ready-to-download message come here by SMS."}
+   ],
+   "demoSteps": [
+    "Open apseva.ap.gov.in, log in with your Aadhaar number and the OTP, and choose Revenue Department, then Income Certificate. If you cannot do this at home, the Digital Assistant at your Village or Ward Secretariat files it for you free.",
+    "Fill the form, taking the spelling of names and the village from your Aadhaar and rice card, and state the family income honestly — it is cross-checked against land, vehicle and electricity records.",
+    "Upload the Aadhaar, the rice card, the address proof and the income proof. Each file must be a clear scan or photograph.",
+    "Pay the notified fee online and note the application number on the acknowledgement; the same number arrives by SMS.",
+    "The Village or Ward Revenue Secretary verifies the family, usually within a week, and may visit or call. Keep the originals at home.",
+    "The Tahsildar signs the certificate digitally, normally within 15 to 30 days, and it can then be downloaded from AP Seva with the application number. A downloaded copy with the digital signature is fully valid — it needs no further attestation.",
+    "If the deadline passes with nothing happening, raise a grievance on the same portal quoting the application number, then take it to the Tahsildar's office."
+   ],
+   "helpline": "1100 — AP Government call centre",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "ap-caste-certificate",
+   "title": "Andhra Pradesh Integrated Caste Certificate",
+   "department": "Grama Ward Sachivalayam Department, Government of Andhra Pradesh",
+   "level": "State",
+   "state": "Andhra Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The caste certificate that proves SC, ST, BC or EBC status in Andhra Pradesh. It is called 'integrated' because one certificate carries caste, income and nativity together, so most offices accept it alone. Unlike the income certificate it does not expire, so it is worth getting right the first time.",
+   "benefit": "Integrated caste certificate, issued once and valid permanently",
+   "emoji": "🪪",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Resident of Andhra Pradesh whose family belongs to a caste on the state's SC, ST, BC or EBC list",
+    "The caste is traced through the father's family record, so his caste certificate or school record helps most",
+    "A married woman keeps the caste she was born into; it does not change on marriage",
+    "One certificate per person, applied for in the mandal where the family lives"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Father's caste certificate, or that of a paternal uncle or grandfather",
+    "School transfer certificate or Class 10 marks memo showing the caste entry",
+    "Ration card or rice card of the family",
+    "Address proof — electricity bill or property tax receipt",
+    "Passport-size photograph",
+    "Declaration signed by the applicant on the prescribed format"
+   ],
+   "applyUrl": "https://apseva.ap.gov.in/",
+   "portalName": "AP Seva portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {"label": "Aadhaar Number", "value": "9999 7130 5524",
+     "hint": "Twelve digits. Login and identity both run on this, and the OTP goes to the linked mobile."},
+    {"label": "Applicant Name (as on Aadhaar)", "value": "Swapna Bhavani Yerram",
+     "hint": "As on Aadhaar. A mismatch with the school record is the commonest reason a caste file is sent back."},
+    {"label": "Father's Name", "value": "Yerram Satyanarayana",
+     "hint": "The caste is verified through the father's family, so spell his name as it appears on his own certificate."},
+    {"label": "Caste claimed", "value": "Yerukula (Scheduled Tribe)",
+     "hint": "Pick from the state's list rather than typing it. A spelling that does not match the list will not be accepted."},
+    {"label": "Sub-caste / Group", "value": "Scheduled Tribe",
+     "hint": "SC, ST, BC-A to BC-E, or EBC. If you are unsure which BC group your caste sits in, the list on the portal says."},
+    {"label": "Religion", "value": "Hindu",
+     "hint": "Recorded because SC status in particular is tied to religion in law."},
+    {"label": "District / Mandal / Village or Ward", "value": "Prakasam / Ongole / Throvagunta",
+     "hint": "Where the family lives now. The Tahsildar of this mandal signs the certificate."},
+    {"label": "Family caste reference (earlier certificate number, if any)", "value": "PRK/ONG/ST/2009/04418 — father's certificate",
+     "hint": "If anyone in the father's family already holds a caste certificate, give its number. It is the single fastest way to get yours cleared."},
+    {"label": "Purpose", "value": "College admission under reservation",
+     "hint": "Written for the record. The certificate can be used anywhere once issued."},
+    {"label": "Mobile Number", "value": "90000 71305",
+     "hint": "Application number and status messages arrive here."}
+   ],
+   "demoSteps": [
+    "Collect the father's caste certificate or the school record showing the caste entry before you start. Nearly every rejection is for want of this one paper.",
+    "Log in to apseva.ap.gov.in with Aadhaar and OTP and choose Revenue Department, then Integrated Certificate. The Digital Assistant at the Village or Ward Secretariat will do it for you if you cannot.",
+    "Fill the form, picking the caste from the list rather than typing it, and upload Aadhaar, the family caste proof, the school record, the rice card and the address proof.",
+    "Pay the notified fee and keep the application number from the acknowledgement.",
+    "The Revenue Inspector verifies the family, and for a Scheduled Tribe claim the file may also go to the Tribal Welfare officer, which adds time.",
+    "The Tahsildar signs it digitally, usually within 30 days, and you download the certificate from AP Seva. Check the caste spelling and your father's name on it at once — correcting them later means applying again.",
+    "If it is refused, the order says why. You may appeal to the Revenue Divisional Officer with the missing proof rather than start a fresh application."
+   ],
+   "helpline": "1100 — AP Government call centre",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

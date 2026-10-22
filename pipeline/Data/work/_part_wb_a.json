@@ -1,0 +1,281 @@
+{
+ "schemes": [
+  {
+   "id": "wb-edistrict-certificates",
+   "title": "West Bengal e-District — Income, Caste and Residence Certificates",
+   "department": "Personnel and Administrative Reforms Department, Government of West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "West Bengal issues its income, SC/ST and OBC caste, residence and EWS certificates through e-District. You apply online or at a Bangla Sahayata Kendra, the block or municipal office verifies, and the signed certificate is downloaded from the same site.",
+   "benefit": "Digitally signed income, caste, residence or EWS certificate",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of West Bengal, applying in the block or municipality where the family lives",
+    "For a caste certificate, the caste must be on the West Bengal SC, ST or OBC list",
+    "Caste is traced through the father's family, so his certificate or school record is the key paper",
+    "An income certificate is valid for one year; a caste certificate does not expire"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Digital ration card or voter card as residence proof",
+    "Father's caste certificate, or a school record showing the caste",
+    "Class 10 admit card or birth certificate for date of birth",
+    "Salary certificate or land record, for an income certificate",
+    "Passport-size photograph and a scanned signature",
+    "Self-declaration on the prescribed format"
+   ],
+   "applyUrl": "https://edistrict.wb.gov.in/portal/register",
+   "portalName": "e-District West Bengal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "OBC certificate",
+     "hint": "Income, SC/ST caste, OBC, residence or EWS. Each opens its own form and asks for different proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Sujata Mondal",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Nitai Chandra Mondal",
+     "hint": "For a caste certificate this is the entry that decides the case — the caste is traced through the father's family record."
+    },
+    {
+     "label": "Caste claimed",
+     "value": "Mondal (OBC-A)",
+     "hint": "Pick from the West Bengal list rather than typing it, and note that OBC-A and OBC-B are separate lists with separate quotas."
+    },
+    {
+     "label": "District / Block or Municipality / Village or Ward",
+     "value": "Nadia / Chakdaha / Ghetugachhi",
+     "hint": "Where the family actually lives. The BDO or the municipal office here verifies the file."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "84,000",
+     "hint": "For an income certificate, the whole household's earnings for the year. Keep it consistent with any salary or land proof you upload."
+    },
+    {
+     "label": "Family caste reference, if any",
+     "value": "NDA/CKD/OBC-A/2014/02271 — father's certificate",
+     "hint": "If anyone in the father's family already holds a caste certificate, give its number. It clears the file fastest."
+    },
+    {
+     "label": "Digital Ration Card Number",
+     "value": "WB-14-2207-6631",
+     "hint": "Used as proof of residence and to pull up the family's details."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 14220",
+     "hint": "The application number and the ready-to-download message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the father's caste certificate or the school record showing the caste before you start, if you are applying for a caste certificate. Nearly every rejection is for want of that one paper.",
+    "Open edistrict.wb.gov.in, register with your mobile, and choose the certificate you need. A Bangla Sahayata Kendra will file it for you free if you cannot.",
+    "Fill the form and upload Aadhaar, the ration or voter card, the caste or income proof, the photograph and the signature.",
+    "Submit and note the application number from the acknowledgement.",
+    "The block or municipal staff verify the family and may call you in with the originals. For a caste certificate the file goes on to the SDO.",
+    "The signed certificate is issued and downloaded from the same login. Check the caste spelling and your father's name at once — correcting them later means applying again.",
+    "If it is refused, the order says why. Fix the gap and file again, or appeal to the District Magistrate's office."
+   ],
+   "helpline": "1800 345 0111 — West Bengal e-District helpdesk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.wb.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "wb-oasis-scholarship",
+   "title": "OASIS — West Bengal SC, ST and OBC Scholarship",
+   "department": "Backward Classes Welfare Department, Government of West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Education",
+   "mode": "online",
+   "brief": "OASIS pays the pre-matric and post-matric scholarships for SC, ST and OBC students of West Bengal. The money goes straight into the student's own bank account by DBT. It is applied for fresh in the first year and renewed every year after.",
+   "benefit": "Pre-matric and post-matric scholarship paid by DBT into the student's account",
+   "emoji": "🎓",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Student domiciled in West Bengal and studying in a recognised institution in the state",
+    "SC, ST or OBC by a West Bengal caste certificate",
+    "Family income within the limit for the category, on a current income certificate",
+    "Passed the previous examination; a student who has failed and is repeating the year is not eligible",
+    "Not drawing another scholarship for the same course"
+   ],
+   "documents": [
+    "Aadhaar card of the student",
+    "West Bengal caste certificate",
+    "Income certificate issued within the last year",
+    "Previous year's marksheet",
+    "Admission receipt or bonafide certificate from the institution",
+    "Bank passbook in the student's own name, Aadhaar-seeded",
+    "Passport-size photograph and a scanned signature"
+   ],
+   "applyUrl": "https://oasis.wb.gov.in/index/1",
+   "portalName": "OASIS West Bengal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "Fresh — Post Matric",
+     "hint": "Fresh for the first year of a course, renewal for every year after. Pre-matric is for Classes 9 and 10, post-matric from Class 11 upwards."
+    },
+    {
+     "label": "Student Name (as on Aadhaar)",
+     "value": "Bikash Hembram",
+     "hint": "Exactly as on Aadhaar. The institution record and the bank record must agree or the DBT fails."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4417 2280",
+     "hint": "The student's own, twelve digits. The scholarship is paid into the Aadhaar-seeded account behind it."
+    },
+    {
+     "label": "Caste Certificate Number",
+     "value": "PRL/JHR/ST/2019/00884",
+     "hint": "A West Bengal certificate. One issued by another state is not accepted here."
+    },
+    {
+     "label": "Income Certificate Number",
+     "value": "PRL/JHR/INC/2026/11947",
+     "hint": "Must have been issued within the last year. An expired one is the commonest reason an application is rejected."
+    },
+    {
+     "label": "Institution and Course",
+     "value": "Jhargram Raj College — B.Sc. Physics, 2nd year",
+     "hint": "Pick the institution from the portal's list. If it is not listed, the institution has not registered on OASIS and must do so first."
+    },
+    {
+     "label": "Previous examination marks",
+     "value": "Higher Secondary 2025 — 68%",
+     "hint": "From the marksheet you upload. A student repeating a failed year is not eligible."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "3317 8842 0056 / UBIN0533178",
+     "hint": "In the student's own name and Aadhaar-seeded. A parent's account is the usual reason the money bounces."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44172",
+     "hint": "The application number and the payment message come here."
+    }
+   ],
+   "demoSteps": [
+    "Get a fresh income certificate and the West Bengal caste certificate from e-District first. OASIS checks both, and an expired income certificate stops the application.",
+    "Register on oasis.wb.gov.in with your Aadhaar and mobile, and note the application ID the portal gives you.",
+    "Fill the form, choose your institution and course from the list, and upload the caste and income certificates, the marksheet, the photograph and the signature.",
+    "Give a bank account in your own name that is Aadhaar-seeded, then submit and print the application.",
+    "Take the printout to the institution — it has to verify and forward it, and nothing moves until it does.",
+    "The department sanctions it and the money arrives by DBT. Track both the sanction and the payment on the portal with your application ID.",
+    "Apply again every year with a fresh income certificate. Renewal is not automatic and missing the window costs that year's money."
+   ],
+   "helpline": "1800 120 2130 — OASIS helpdesk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://oasis.wb.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "wb-digital-ration-card",
+   "title": "West Bengal Digital Ration Card — Khadya Sathi",
+   "department": "Department of Food and Supplies, Government of West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "West Bengal's ration card is the digital ration card, issued under Khadya Sathi and the National Food Security Act. The RCMS portal is where you apply for a new card, add or remove a member, correct a detail, get a duplicate, and seed Aadhaar and a mobile number to the card.",
+   "benefit": "Digital ration card giving subsidised foodgrain at the ration shop",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in West Bengal and holding no ration card elsewhere in India",
+    "Category decided by the state — AAY, PHH, SPHH or RKSY — from the household's circumstances",
+    "Every member's Aadhaar must be seeded to the card, or that member's grain is not issued",
+    "A member moving in from another district or state must bring a deletion certificate"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Address proof — electricity bill, voter card or municipal tax receipt",
+    "Deletion certificate from the earlier card, where a member has moved in",
+    "Birth certificate, for a newborn being added",
+    "Marriage certificate, for a bride being added",
+    "Mobile number to be linked to the card",
+    "Passport-size photograph of the head of the family"
+   ],
+   "applyUrl": "https://wbpds.wb.gov.in/rcmsnew/AadhaarAuthenticationLogin/Index",
+   "portalName": "WB Digital Ration Card portal (RCMS)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Form / service wanted",
+     "value": "Form 4 — add a member",
+     "hint": "Form 3 for a new card, Form 4 to add a name, Form 5 to correct one, Form 6 for a duplicate, Form 7 to surrender. Pick the right one or the file is returned."
+    },
+    {
+     "label": "Existing Ration Card Number",
+     "value": "WB-14-2207-6631",
+     "hint": "From the front of the digital ration card. Leave it blank only for a brand new card."
+    },
+    {
+     "label": "Head of the Family",
+     "value": "Anjali Mondal",
+     "hint": "As printed first on the existing card. The application is made in this person's name."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 2276 0418",
+     "hint": "Twelve digits. The family's entitlement is tracked against this."
+    },
+    {
+     "label": "Member to be added, relation and Aadhaar",
+     "value": "Riya Mondal — daughter-in-law — 9999 8830 1124",
+     "hint": "Name as on that person's own Aadhaar, and the relation to the head of the family."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Marriage on 21-02-2026; deletion certificate from parents' card at Ranaghat",
+     "hint": "A bride needs the marriage certificate and the deletion certificate from her parents' card. A newborn needs only the birth certificate."
+    },
+    {
+     "label": "District / Block or Municipality / Village or Ward",
+     "value": "Nadia / Chakdaha / Ghetugachhi",
+     "hint": "Where the family lives. The ration shop is allotted from this address."
+    },
+    {
+     "label": "Ration shop (FPS) code",
+     "value": "WB141222001",
+     "hint": "Printed on the card and on the shop's board. It tells the office which register to update."
+    },
+    {
+     "label": "Mobile Number to be linked",
+     "value": "90000 22760",
+     "hint": "Linking a mobile is what lets you check the card and each month's issue by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Open the RCMS portal, or go to a Bangla Sahayata Kendra or your ration shop, and choose the form for what you need — a new card, an addition, a correction or a duplicate.",
+    "Fill in every member who eats from the same kitchen, each with the exact Aadhaar. The grain is counted per name, so a missing member costs the family every month.",
+    "Attach the address proof and, for a member moving in, the deletion certificate from the old card. Without it the system blocks the addition as a duplicate.",
+    "Submit and keep the application number. The same portal shows the status against it.",
+    "The inspector verifies the household, and for a new card the family's category — AAY, PHH, SPHH or RKSY — is decided at this stage.",
+    "Once approved, download the digital ration card and check every name and Aadhaar on it.",
+    "Get the new member's Aadhaar seeded at the ration shop's ePoS machine. The family's quantity does not increase until that is done."
+   ],
+   "helpline": "1967 and 1800 345 5505 — West Bengal Food and Supplies",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://wbpds.wb.gov.in/Digitalportal/index.aspx",
+   "applyKind": "service-login"
+  }
+ ]
+}

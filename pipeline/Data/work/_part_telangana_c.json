@@ -1,0 +1,186 @@
+{
+ "schemes": [
+  {
+   "id": "tg-bhu-bharati",
+   "title": "Bhu Bharati — Telangana Land Records and Mutation",
+   "department": "Revenue Department, Government of Telangana",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Bhu Bharati is where a Telangana farmer sees the Record of Rights and the Pahani for their land, and applies for a mutation when land is sold or inherited. It replaces the older Dharani system under the Record of Rights Act, 2025, and all agricultural land services now run through it.",
+   "benefit": "Record of Rights and Pahani online, with mutation, correction and pattadar passbook services",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Agricultural land situated in Telangana and recorded in the Record of Rights",
+    "The applicant must be the recorded pattadar, or a legal heir, to apply for a mutation",
+    "Aadhaar linked to a working mobile, since every application is confirmed by OTP",
+    "Anyone may view a Record of Rights; only the holder can change one"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Existing pattadar passbook",
+    "Registered sale deed, for a mutation on sale",
+    "Death certificate and legal heir certificate, for a mutation on succession",
+    "Survey number and khata number of the land",
+    "Passport photograph"
+   ],
+   "applyUrl": "https://bhubharati.telangana.gov.in/Citizen",
+   "portalName": "Bhu Bharati",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Mutation on succession (Form VI)",
+     "hint": "View Record of Rights, mutation on sale (Form V), mutation on succession (Form VI), correction, or pattadar passbook. Pick the one that fits what happened to the land."
+    },
+    {
+     "label": "District / Mandal / Village",
+     "value": "Siddipet / Dubbaka / Chinnakodur",
+     "hint": "Pick all three from the lists. The record is held village by village."
+    },
+    {
+     "label": "Survey Number",
+     "value": "163/1",
+     "hint": "Copy it exactly from the pattadar passbook or an old Pahani, including any letter at the end."
+    },
+    {
+     "label": "Khata / Pattadar Account Number",
+     "value": "2047",
+     "hint": "Covers all your survey numbers in that one village, so it is the quicker way in if you hold several plots."
+    },
+    {
+     "label": "Pattadar Name as on the record",
+     "value": "Late Komuraiah Erra",
+     "hint": "Spelt as on the land record, which may not match Aadhaar. Search by the record's spelling first, then ask for a correction if it is wrong."
+    },
+    {
+     "label": "Applicant's Aadhaar Number",
+     "value": "9999 6612 0384",
+     "hint": "Twelve digits, of the person applying. The OTP goes to the mobile linked to it."
+    },
+    {
+     "label": "Relation to the recorded holder",
+     "value": "Son of the deceased pattadar",
+     "hint": "For a succession mutation, state the relationship and attach the legal heir certificate and death certificate."
+    },
+    {
+     "label": "Extent claimed (acres / guntas)",
+     "value": "2 acres 16 guntas",
+     "hint": "As on the passbook. A figure that does not match the record is the usual reason a mutation is held up."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 66120",
+     "hint": "The application number, the hearing notice and the final order all come here."
+    }
+   ],
+   "demoSteps": [
+    "Open bhubharati.telangana.gov.in and view the Record of Rights and Pahani for your survey number. Check the extent, the pattadar name and the classification before you apply for anything.",
+    "Choose the service you need — Form V for a mutation after a sale, Form VI after a death in the family — and log in with Aadhaar and OTP.",
+    "Fill in the survey number, the extent and the parties, and upload the registered sale deed, or the death certificate and legal heir certificate.",
+    "Pay the fee online and keep the application number. Where a registration is involved, book the Sub-Registrar slot from the same system.",
+    "The Tahsildar examines it, and both sides may be called for a hearing where there is an objection. Attend, with the originals.",
+    "Once the order is passed, the Record of Rights is updated and a new pattadar passbook is issued. Download the updated record and check the extent and spelling at once.",
+    "Keep the updated Record of Rights with your papers. Rythu Bharosa, crop loans and farm subsidy applications are all matched against it."
+   ],
+   "helpline": "Your mandal Tahsildar's office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://bhubharati.telangana.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "tg-tgpsc-otr",
+   "title": "TGPSC Recruitment — One Time Registration",
+   "department": "Telangana Public Service Commission",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Every Telangana state government post advertised by the Public Service Commission — Group 1, 2, 3 and 4, engineering, lecturer and forest posts — is applied for through one profile called OTR. You build it once, and each notification afterwards takes only minutes. The commission was renamed from TSPSC to TGPSC, and the old addresses now redirect here.",
+   "benefit": "One registration for every TGPSC notification, with hall tickets and results in the same place",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen meeting the age limits in the notification, usually 18 to 44 with relaxation for SC, ST, BC and disability",
+    "The qualification the notification requires, held on its closing date",
+    "Local status in Telangana where the post is reserved for local candidates",
+    "One OTR profile per person; a second profile gets both cancelled"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Degree or diploma certificates and marks memos",
+    "Caste certificate, for a reserved category",
+    "Disability certificate, where claiming that reservation",
+    "Study certificates for Classes 4 to 10, to prove local status",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://otr.tgpsc.gov.in/",
+   "portalName": "TGPSC One Time Registration",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Sandeep Kumar Vanga",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ. Every later certificate is matched against it."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Vanga Rajaiah",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "27-11-1999",
+     "hint": "As on the Class 10 certificate. Age limits count from this date and it cannot be changed after the profile is made."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 1149 5570",
+     "hint": "Twelve digits, used to keep one candidate to one profile."
+    },
+    {
+     "label": "Category and sub-category",
+     "value": "SC; no disability; not ex-serviceman",
+     "hint": "Claim only what you hold a certificate for. Age relaxation and fee concession both follow from this."
+    },
+    {
+     "label": "Local Status (district)",
+     "value": "Local candidate — Khammam",
+     "hint": "Decided by where you studied Classes 4 to 10. Many posts are reserved for locals of a zone."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Sc. Agriculture, PJTSAU, 2022, 68%",
+     "hint": "Course, university, year of passing and marks. It must be complete on the notification's closing date."
+    },
+    {
+     "label": "OTR Number (after registration)",
+     "value": "TG20260041882",
+     "hint": "Generated once and used for every application afterwards. Write it down."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 11495 / sandeep.v@example.com",
+     "hint": "Every notification alert and the hall ticket link come here. Do not use a friend's number."
+    }
+   ],
+   "demoSteps": [
+    "Open otr.tgpsc.gov.in and create the One Time Registration with your name and date of birth exactly as on the Class 10 certificate. This is the part that cannot be freely corrected later.",
+    "Fill in education, category, local status and identity, upload the photograph and signature, and confirm the mobile OTP. Note down the OTR number.",
+    "When a notification you qualify for is out, open it from tgpsc.gov.in, log in with the OTR number, and apply — the profile fills most of the form.",
+    "Pay the application and examination fees online. SC, ST, BC, disabled, ex-servicemen and unemployed candidates are exempt from the examination fee on producing the certificate.",
+    "Keep the filled application printout and the payment receipt, and download the hall ticket about a week before the exam from the same login.",
+    "Results, answer keys and the selection list appear on the TGPSC site. Certificate verification follows the written stage, where the originals of everything you claimed must be produced.",
+    "Keep the OTR profile up to date. A qualification or category that is out of date on the closing date is treated as a false claim and the candidature is cancelled."
+   ],
+   "helpline": "040-23542185 — TGPSC helpdesk",
+   "lastVerified": "September 2026",
+   "applyKind": "registration"
+  }
+ ]
+}

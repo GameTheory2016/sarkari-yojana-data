@@ -1,0 +1,267 @@
+{
+ "schemes": [
+  {
+   "id": "ka-bhoomi-rtc",
+   "title": "Bhoomi — Karnataka RTC (Pahani) and Mutation",
+   "department": "Revenue Department, Government of Karnataka",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Bhoomi holds the land record of every agricultural holding in Karnataka. The RTC, also called the pahani, shows who holds the land, how much, and what was sown. The i-RTC is a digitally signed copy that banks and offices accept, and mutation status after a sale or a death is tracked on the same site.",
+   "benefit": "RTC and digitally signed i-RTC online, with mutation status and survey sketches",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Agricultural land situated in Karnataka and entered in the record of rights",
+    "Anyone may view an RTC; only the holder or a legal heir can apply for a mutation",
+    "A mutation on sale needs the registered deed; one on inheritance needs the death certificate and heirship papers",
+    "An i-RTC needs a mobile number, since it is delivered against an OTP"
+   ],
+   "documents": [
+    "Survey number and hissa number, or the owner's name",
+    "Aadhaar card, for an i-RTC or a mutation",
+    "Registered sale deed, for a mutation on purchase",
+    "Death certificate and family tree, for a mutation on inheritance",
+    "Existing RTC or pahani copy"
+   ],
+   "applyUrl": "https://landrecords.karnataka.gov.in/Service2/",
+   "portalName": "Bhoomi Karnataka",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "i-RTC — digitally signed",
+     "hint": "A free RTC view for your own reference, an i-RTC for a bank or an office, mutation status, or a Mojini survey sketch."
+    },
+    {
+     "label": "District / Taluk / Hobli / Village",
+     "value": "Belagavi / Bailhongal / Sampgaon / Neginhal",
+     "hint": "Pick all four from the lists. The record is held village by village."
+    },
+    {
+     "label": "Survey Number",
+     "value": "142",
+     "hint": "From the old RTC or the purchase deed."
+    },
+    {
+     "label": "Surnoc / Hissa Number",
+     "value": "*/2",
+     "hint": "The sub-division of the survey number. Copy it exactly — a wrong hissa pulls up a neighbour's land."
+    },
+    {
+     "label": "Owner's Name as on the record",
+     "value": "Siddappa Ningappa Talawar",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search the record's spelling first and get a correction later if needed."
+    },
+    {
+     "label": "Year / Period",
+     "value": "2026-27",
+     "hint": "The RTC is kept year by year. Take the current year unless an office has asked for an older one."
+    },
+    {
+     "label": "Aadhaar and Mobile (for an i-RTC)",
+     "value": "9999 5516 3320 / 90000 55163",
+     "hint": "Needed for a digitally signed copy. The download link comes to this mobile against an OTP."
+    },
+    {
+     "label": "Mutation (MR) number, to check status",
+     "value": "MR-2026-BLG-004417",
+     "hint": "Given when the mutation is filed. Track the stage against it rather than going to the office."
+    }
+   ],
+   "demoSteps": [
+    "Open landrecords.karnataka.gov.in and view the RTC for your survey and hissa number. Check the extent, the owner's name and the crop entry against what you know. This view is free.",
+    "For a bank, a court or a subsidy claim, buy the i-RTC — the digitally signed copy. The free print is not accepted for those.",
+    "After a purchase or a death, file the mutation at the taluk office or through Nadakacheri with the registered deed, or the death certificate and family tree.",
+    "Keep the MR number and track the mutation stage on Bhoomi rather than waiting at the office.",
+    "The Revenue Inspector gives notice and hears any objection before the Tahsildar passes the order.",
+    "Once the order is passed, pull a fresh RTC and check that the name and extent are right. An error here is much easier to fix now than years later.",
+    "Keep a current RTC with your papers. Crop loans, PM-Kisan and state farm schemes all ask for it."
+   ],
+   "helpline": "Your taluk office, or the nearest Nadakacheri centre",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://landrecords.karnataka.gov.in/",
+   "applyKind": "form"
+  },
+  {
+   "id": "ka-kpsc-recruitment",
+   "title": "KPSC Recruitment — KAS, FDA and SDA",
+   "department": "Karnataka Public Service Commission",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Karnataka Public Service Commission recruits for the Karnataka Administrative Service and for Group A, B and C posts including First and Second Division Assistant and the engineering services. Notifications appear on the Commission's site and applications are filed on its online portal.",
+   "benefit": "One online profile for every KPSC recruitment, with admit cards and results",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen; a Karnataka domicile for the reserved quotas and for posts with a local requirement",
+    "Age as the notification states, usually 21 to 35 for KAS, with relaxation for SC, ST, Category-1, OBC and disability",
+    "A degree from a recognised university, held on the closing date, for KAS and most Group A and B posts",
+    "Kannada language knowledge as the notification requires for several posts",
+    "Each notification sets its own conditions; read that one before you pay"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "SSLC (Class 10) marks card for date of birth",
+    "Degree certificate and marks cards",
+    "Karnataka caste and income certificate, for a reserved category",
+    "Rural, Kannada medium or Hyderabad-Karnataka certificate, where claiming those quotas",
+    "Disability or ex-serviceman certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://kpsconline.karnataka.gov.in/Login/Login",
+   "portalName": "KPSC online application portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Post or examination applied for",
+     "value": "Gazetted Probationers (KAS) Group A and B",
+     "hint": "One application per notification. Check the qualification and the age limit in that notification before paying."
+    },
+    {
+     "label": "Candidate Name (as on SSLC marks card)",
+     "value": "Roopa Shivakumar Patil",
+     "hint": "The SSLC marks card governs, not Aadhaar, where the two differ. Everything later is checked against it."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Shivakumar Patil",
+     "hint": "As on the SSLC marks card."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "23-07-1998",
+     "hint": "As on the SSLC marks card. Age limits count from this date and it cannot be changed after registration."
+    },
+    {
+     "label": "Category and special quotas claimed",
+     "value": "Category-2A; Rural quota; Kannada medium",
+     "hint": "Claim only what you hold a Karnataka certificate for. The rural and Kannada-medium quotas need separate certificates from your school and the taluk office."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Com, Karnatak University Dharwad, 2020, 71%",
+     "hint": "It must be complete on the closing date, not merely expected."
+    },
+    {
+     "label": "Kannada language knowledge",
+     "value": "Studied Kannada as first language up to SSLC",
+     "hint": "Several posts require it and test it. Declare it honestly and keep the school certificate."
+    },
+    {
+     "label": "Examination centre preference",
+     "value": "Dharwad; second choice Belagavi",
+     "hint": "Give two or three. The Commission allots the nearest centre it can."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 33117 / roopa.patil@example.com",
+     "hint": "The application number, admit card and every notice come here. Do not use a cyber cafe's."
+    }
+   ],
+   "demoSteps": [
+    "Watch kpsc.kar.nic.in for the notification and read the age, qualification and language conditions before anything else.",
+    "Register on kpsconline.karnataka.gov.in with your name and date of birth exactly as on the SSLC marks card, and upload the photograph and signature in the stated sizes.",
+    "Fill the application, claim only the quotas you hold certificates for, choose your centres and pay the fee online.",
+    "Use the correction window if the Commission opens one. It is the only chance to fix a wrong entry and it closes quickly.",
+    "Download the admit card about a week before each stage and take it with a photo ID.",
+    "KAS runs as a preliminary, a main examination and an interview. Results for each are published on the Commission's site.",
+    "Document verification comes last. Produce the originals of everything you claimed — a rural or Kannada-medium certificate you cannot produce there costs you the post."
+   ],
+   "helpline": "080-30574957 — KPSC online application helpdesk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://kpsconline.karnataka.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "ka-kaveri-services",
+   "title": "Kaveri Online Services — Registration, EC and Marriage",
+   "department": "Department of Stamps and Registration, Government of Karnataka",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "Kaveri is where property is registered in Karnataka. You do the data entry and pay the stamp duty online, then keep one appointment at the Sub-Registrar's office. The encumbrance certificate, a certified copy of a deed and marriage registration are on the same portal.",
+   "benefit": "Online property registration with a booked slot, plus EC, certified copies and marriage registration",
+   "emoji": "🏠",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Property situated in Karnataka, for registration, an EC or a certified copy",
+    "Both parties present at the Sub-Registrar's office on the appointment date, with two witnesses",
+    "For marriage registration, both parties of legal age with proof of the marriage having taken place",
+    "A mobile number and email, since the slot and every notice go there"
+   ],
+   "documents": [
+    "Aadhaar cards of both parties and of the two witnesses",
+    "PAN cards of both parties, for a property transaction",
+    "Draft of the deed to be registered",
+    "Latest khata certificate, tax paid receipt and the earlier title deed",
+    "Encumbrance certificate for the past thirteen years",
+    "Marriage invitation, photographs and a priest's or registrar's certificate, for marriage registration",
+    "Passport-size photographs of both parties"
+   ],
+   "applyUrl": "https://kaveri.karnataka.gov.in/",
+   "portalName": "Kaveri Online Services",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Encumbrance Certificate (EC)",
+     "hint": "Property registration, EC, certified copy of a deed, or marriage registration. Each has its own form and fee."
+    },
+    {
+     "label": "District / Taluk / Hobli / Village",
+     "value": "Belagavi / Bailhongal / Sampgaon / Neginhal",
+     "hint": "Where the property lies. The EC is searched against the Sub-Registrar's office for that area."
+    },
+    {
+     "label": "Property identification",
+     "value": "Survey 142/2, extent 1 acre 10 guntas",
+     "hint": "Survey and hissa number for agricultural land, or the site and khata number for a site. Copy it from the title deed."
+    },
+    {
+     "label": "Period for which the EC is wanted",
+     "value": "01-04-2013 to 31-03-2026",
+     "hint": "Banks usually ask for thirteen years. Ask for a longer period if the title has changed hands often."
+    },
+    {
+     "label": "Applicant Name and Aadhaar",
+     "value": "Roopa Shivakumar Patil — 9999 3311 7742",
+     "hint": "As on Aadhaar. The certificate is issued in this name."
+    },
+    {
+     "label": "Owner's name as on the records",
+     "value": "Shivakumar Ningappa Patil",
+     "hint": "The EC is searched against the name in the registered documents, which may not match Aadhaar exactly."
+    },
+    {
+     "label": "Purpose",
+     "value": "Housing loan from the bank",
+     "hint": "Recorded for the file. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 33117 / roopa.patil@example.com",
+     "hint": "The application number and the download link come here."
+    }
+   ],
+   "demoSteps": [
+    "Register on kaveri.karnataka.gov.in with your mobile and email, and choose the service you need.",
+    "For an EC, enter the district, the Sub-Registrar's office, the property details and the period, pay the fee online and download the certificate when it is ready.",
+    "For a property registration, do the data entry on the portal, work out the stamp duty and registration fee with the calculator, and pay online.",
+    "Book the Sub-Registrar appointment slot on the portal. This is what saves the day of waiting — the slot is a fixed time, not a queue token.",
+    "Attend on the date with both parties, two witnesses and the originals of every document. Photographs and thumb impressions are taken there.",
+    "The registered deed is scanned and returned, and the certified copy can be downloaded from the portal afterwards.",
+    "Pull a fresh EC a few weeks later and check that the registration shows on it. That is the proof the record has actually been updated."
+   ],
+   "helpline": "080-22220192 — Department of Stamps and Registration, Karnataka",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

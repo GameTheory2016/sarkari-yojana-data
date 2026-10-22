@@ -1,0 +1,270 @@
+{
+ "schemes": [
+  {
+   "id": "ga-cbes-recruitment",
+   "title": "Goa Government Recruitment — CBES Online",
+   "department": "Goa Staff Selection Commission and Department of Personnel, Government of Goa",
+   "level": "State",
+   "state": "Goa",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Goa's online recruitment system, where advertisements for state government posts are published and applications filed. One profile serves every advertisement, and the admit card and result come to the same login.",
+   "benefit": "One profile for every Goa government recruitment advertisement",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen meeting the age limits in the advertisement, usually 18 to 45",
+    "Fifteen years' residence in Goa is required for most state posts, proved by a residence certificate",
+    "Knowledge of Konkani is required for many posts, and Marathi is often preferred",
+    "The qualification the advertisement states, complete on its closing date"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Degree or diploma certificates and marksheets",
+    "Residence certificate showing fifteen years in Goa",
+    "Knowledge of Konkani certificate, where the post requires it",
+    "Caste or disability certificate, where claiming that reservation",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://cbes.goa.gov.in/profile_candidate?mode=register",
+   "portalName": "Goa Online Recruitment System (CBES)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Post applied for",
+     "value": "Lower Division Clerk, Directorate of Education",
+     "hint": "One application per advertisement. Read the qualification and age limit in that advertisement before paying."
+    },
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Savio Fernandes",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ. Everything later is checked against it."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Caetano Fernandes",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "19-03-1991",
+     "hint": "As on the Class 10 certificate. Age limits count from this date."
+    },
+    {
+     "label": "Residence in Goa",
+     "value": "Fifteen years — residence certificate SAL/RES/2026/00874",
+     "hint": "Most Goa state posts require fifteen years' residence. Get the certificate from Goa Online before the closing date, not after."
+    },
+    {
+     "label": "Knowledge of Konkani",
+     "value": "Yes — studied Konkani up to Class 10",
+     "hint": "Many posts require it and ask for a certificate or a school record. Declare it honestly; it is verified."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Com, Goa University, 2013, 62%",
+     "hint": "It must be complete on the advertisement's closing date, not merely expected."
+    },
+    {
+     "label": "Category claimed",
+     "value": "OBC — Goa list",
+     "hint": "Claim only what you hold a Goa certificate for. A certificate from another state is not accepted for the reservation."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 22748 / savio.f@example.com",
+     "hint": "The application number, admit card and every notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Create the profile on cbes.goa.gov.in with your name and date of birth exactly as on the Class 10 certificate.",
+    "Get the fifteen-year residence certificate and, where the post needs it, the Konkani knowledge certificate before the closing date. These are what most candidates are rejected for.",
+    "Open the advertisement, apply through the same login, upload the photograph and signature in the sizes stated, and pay the fee.",
+    "Print the filled application and keep it with the payment receipt until the recruitment ends.",
+    "Download the admit card from the same login and take it with a photo ID.",
+    "Results are published on the portal. Document verification comes last, where the originals of everything claimed must be produced."
+   ],
+   "helpline": "Goa Staff Selection Commission, Panaji",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://cbes.goa.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "hr-saral-haryana",
+   "title": "Antyodaya SARAL Haryana — Schemes and Certificates",
+   "department": "Citizen Resources Information Department, Government of Haryana",
+   "level": "State",
+   "state": "Haryana",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "SARAL is the single window through which Haryana delivers its schemes and certificates — income, caste, residence and domicile certificates, pensions, scholarships and departmental services. Most of it is tied to the Parivar Pehchan Patra, the family ID, which the portal reads your details from.",
+   "benefit": "Certificates, pensions and scheme applications in one place, with a fixed delivery time",
+   "emoji": "🪪",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Haryana, with the family registered under the Parivar Pehchan Patra",
+    "A domicile certificate needs proof the family has lived in Haryana for the qualifying period",
+    "A caste certificate needs the caste to be on the Haryana SC, BC-A or BC-B list",
+    "Each service has its own delivery time under the state's Right to Service Act"
+   ],
+   "documents": [
+    "Parivar Pehchan Patra (Family ID) number",
+    "Aadhaar card of the applicant",
+    "Ration card or voter card as residence proof",
+    "Father's caste certificate or a school record, for a caste certificate",
+    "Income proof — salary certificate, or a land record for a farming family",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://saralharyana.gov.in/citizenRegistration.html",
+   "portalName": "Antyodaya SARAL Haryana",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Income Certificate",
+     "hint": "Income, caste, residence or domicile certificate, an old-age pension, a scholarship, or a departmental service. Each has its own form and delivery time."
+    },
+    {
+     "label": "Parivar Pehchan Patra (Family ID)",
+     "value": "88765432",
+     "hint": "Eight digits. Most services read your name, family and income from it, so get the Family ID made and verified first."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Sunita Devi Kadyan",
+     "hint": "Letter for letter as on Aadhaar and the Family ID. A mismatch between the two stops the application."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Ranbir Singh Kadyan",
+     "hint": "Used to identify the family; essential for a caste certificate."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4408 7215",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Rohtak / Sampla / Ismaila",
+     "hint": "Where the family lives. The Tehsildar of this tehsil signs the certificate."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,56,000",
+     "hint": "For an income certificate. Note that the income already recorded in the Family ID is what most schemes actually use, so get that corrected if it is wrong."
+    },
+    {
+     "label": "Caste and category",
+     "value": "BC-A",
+     "hint": "Pick from the Haryana list. BC-A and BC-B are separate lists with separate benefits."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44087",
+     "hint": "The ticket number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Check your Parivar Pehchan Patra first on the Family ID portal, and get the income and member details corrected there if they are wrong. SARAL and most Haryana schemes take the figures from it, not from what you type.",
+    "Register on saralharyana.gov.in with your mobile, or go to a Saral Kendra or Atal Seva Kendra, which files it across the counter.",
+    "Choose the service, fill the form — most of it fills itself from the Family ID — and upload the documents.",
+    "Pay the fee and note the ticket number from the acknowledgement.",
+    "The patwari or the tehsil staff verify the family. Be reachable on the mobile you gave.",
+    "The signed certificate is issued within the time the Right to Service Act sets for that service, and is downloaded from the same login.",
+    "If the deadline passes, the same Act gives you an appeal, and the ticket number is what you quote. The status of any SARAL application can be tracked without logging in."
+   ],
+   "helpline": "1800 2000 023 — SARAL Haryana helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://saralharyana.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "hr-jamabandi",
+   "title": "Jamabandi Haryana — Land Records and Mutation",
+   "department": "Revenue and Disaster Management Department, Government of Haryana",
+   "level": "State",
+   "state": "Haryana",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Jamabandi is where a Haryana landholder sees the record of rights, the mutation register and the cadastral map, checks the collector rate before a sale, and tracks a mutation after a purchase or a death. Most of it needs no login.",
+   "benefit": "Jamabandi nakal, mutation status, cadastral map and collector rates online",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in Haryana and entered in the revenue record",
+    "Anyone may view a jamabandi or a mutation; only the holder or an heir can apply to change one",
+    "A mutation on sale needs the registered deed; one on inheritance needs the death certificate and heirship papers",
+    "A certified copy for a bank or a court is issued by the tehsil, not printed from the site"
+   ],
+   "documents": [
+    "District, tehsil and village name",
+    "Khewat, khasra or murabba number, or the owner's name",
+    "Aadhaar card, for a mutation application",
+    "Registered sale deed, for a mutation on purchase",
+    "Death certificate and legal heir details, for a mutation on inheritance"
+   ],
+   "applyUrl": "https://jamabandi.nic.in/land%20records/NakalRecord.aspx",
+   "portalName": "Jamabandi Haryana",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "What you want to see",
+     "value": "Jamabandi nakal",
+     "hint": "Jamabandi nakal, mutation status, registered deed, cadastral map, collector rate, or the check on land ownership before buying."
+    },
+    {
+     "label": "District / Tehsil / Village",
+     "value": "Rohtak / Sampla / Ismaila",
+     "hint": "Pick all three from the lists. The record is held village by village."
+    },
+    {
+     "label": "Search by",
+     "value": "Khewat number",
+     "hint": "Khewat, khasra or murabba number, or the owner's name. Khewat is the account and gives the cleanest result."
+    },
+    {
+     "label": "Khewat Number",
+     "value": "142",
+     "hint": "From an older jamabandi or the purchase deed."
+    },
+    {
+     "label": "Khasra / Murabba and Killa Number",
+     "value": "Murabba 28, Killa 12/2",
+     "hint": "Copy it exactly. In Haryana the murabba and killa are how a plot is actually identified on the ground."
+    },
+    {
+     "label": "Owner's name as on the record",
+     "value": "Ranbir Singh, son of Dalbir Singh",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search the record's spelling first."
+    },
+    {
+     "label": "Jamabandi year",
+     "value": "2021-22",
+     "hint": "The jamabandi is revised every five years. Take the latest unless an office has asked for an older one."
+    },
+    {
+     "label": "Mutation number, to check status",
+     "value": "2026/SMP/004417",
+     "hint": "Given when the mutation is entered. Track the stage against it rather than going to the tehsil."
+    }
+   ],
+   "demoSteps": [
+    "Open jamabandi.nic.in, pick district, tehsil and village, and search by khewat, khasra or owner's name. The view is free and needs no login.",
+    "Check the share, the area and the owner's name against what you know. Before buying land, use the same site to see the registered deeds and the collector rate for that village.",
+    "For a bank or a court, ask the tehsil for a certified copy. The print from the site is for your own reference.",
+    "After a purchase or a death, the mutation is entered at the tehsil with the registered deed or the death certificate and heirship papers.",
+    "Track the mutation on the site by its number. The stages — entry, notice, order — are all shown.",
+    "Once the order is passed, pull a fresh jamabandi and check that your name and share are right. An error is far easier to fix now than years later."
+   ],
+   "helpline": "Your tehsil revenue office, or the patwari of your village circle",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://jamabandi.nic.in/",
+   "applyKind": "form"
+  }
+ ]
+}

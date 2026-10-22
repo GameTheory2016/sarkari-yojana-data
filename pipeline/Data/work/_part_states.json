@@ -1,0 +1,1105 @@
+{
+ "schemes": [
+  {
+   "id": "mh-ladki-bahin",
+   "title": "Mukhyamantri Majhi Ladki Bahin Yojana",
+   "department": "Women and Child Development Department, Government of Maharashtra",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Women",
+   "mode": "online",
+   "brief": "A monthly payment to women of Maharashtra between 21 and 65, sent straight to her own bank account so that she does not have to ask anyone for it. The portal works in Marathi and English. You may fill it yourself on a phone, but most women applied through the anganwadi sevika, the gram sevak or a Maha e-Seva Kendra (CSC), which costs nothing extra and gets the e-KYC done on the spot. The state revises the amount in its budget, so treat the figure below as the rate the scheme pays and check the portal for the rate in force today.",
+   "benefit": "Rs.1,500 per month",
+   "emoji": "👩",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Woman who lives in Maharashtra, aged 21 to 65 on the date of applying",
+    "Married, widowed, divorced, abandoned or destitute woman; one unmarried woman per family may also apply",
+    "Total family income Rs.2.5 lakh a year or less",
+    "No one in the family pays income tax or holds a regular government job",
+    "The family owns no four-wheeler (a tractor does not count)",
+    "She has a bank account in her own name, linked to her Aadhaar and switched on for DBT"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Bank passbook in her own name, first page, Aadhaar-seeded",
+    "Domicile certificate of Maharashtra, or a birth certificate or school leaving certificate in its place",
+    "Ration card (a yellow or orange card is accepted instead of an income certificate)",
+    "Income certificate from the tehsildar, if the ration card does not show income",
+    "Recent passport photograph",
+    "Signed self-declaration (hami patra) in the format printed on the portal"
+   ],
+   "applyUrl": "https://ladakibahin.maharashtra.gov.in/sign-in",
+   "portalName": "Ladki Bahin portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's name (as on Aadhaar)",
+     "value": "Sunita Balasaheb Kadam",
+     "hint": "Write it exactly as printed on your Aadhaar. If your name changed after marriage and Aadhaar still carries the old one, use the old one here and get Aadhaar corrected later, otherwise the bank match fails."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "6712 4489 0037",
+     "hint": "The 12 digits on your Aadhaar card. The state uses this to match your bank account, so check every digit twice."
+    },
+    {
+     "label": "Date of birth",
+     "value": "14/08/1991",
+     "hint": "As written on Aadhaar. You must have completed 21 years and not yet crossed 65."
+    },
+    {
+     "label": "Marital status",
+     "value": "Married",
+     "hint": "Married, widow, divorced, abandoned or unmarried. A widow or an abandoned woman is fully eligible, so do not leave this blank out of hesitation."
+    },
+    {
+     "label": "District / Taluka / Village",
+     "value": "Satara / Koregaon / Rahimatpur",
+     "hint": "The place where you actually live now, not your maternal village."
+    },
+    {
+     "label": "Ration card number",
+     "value": "MH20-1140-778203",
+     "hint": "Copy it from the top of your ration card. A yellow or orange card is itself the proof that your income is within the limit."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.1,80,000",
+     "hint": "Everyone in the household added together for the whole year. It must be Rs.2,50,000 or less."
+    },
+    {
+     "label": "Bank account number",
+     "value": "30047711209",
+     "hint": "It must be in your own name. A joint account with your husband, or his account, will be rejected."
+    },
+    {
+     "label": "IFSC code",
+     "value": "MAHB0000431",
+     "hint": "Eleven characters printed on the first page of your passbook, next to the branch name."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9822013476",
+     "hint": "A number you hold yourself if possible, because the OTP and every later message about the payment comes to it."
+    }
+   ],
+   "demoSteps": [
+    "Decide where to apply from. You can do it on your own phone, or walk into an anganwadi centre, the gram panchayat office or a Maha e-Seva Kendra (CSC) and have the sevika or operator do it. The government route is free; a CSC may charge only the notified service fee.",
+    "Keep the papers ready before you start: Aadhaar, ration card, bank passbook and a photo. Photograph each one clearly in daylight, because blurred uploads are the commonest reason an application comes back.",
+    "Open the Ladki Bahin portal, choose 'Applicant Login', and register with your mobile number. An OTP comes to that number; type it in and set a password you will remember.",
+    "Fill the application form: name, Aadhaar, date of birth, address, ration card, income and bank details, exactly as this sample shows.",
+    "Upload the documents and the signed self-declaration (hami patra). The declaration format can be downloaded from the same page, printed, signed and photographed.",
+    "Submit and note down the application number that appears on the screen. Take a photograph of that screen.",
+    "The anganwadi sevika and then the CDPO office check your form and the list of applicants is displayed publicly at the anganwadi. If something is objected to, you get a chance to correct it.",
+    "Once approved, the money starts arriving in your own account. Check the status any time on the portal with your application number, and pass a complaint to 181 if payment stops without reason."
+   ],
+   "helpline": "181 (Maharashtra state helpline), or your district Women and Child Development office",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ladakibahin.maharashtra.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "mh-aaple-sarkar",
+   "title": "Aaple Sarkar certificates, income and domicile",
+   "department": "Directorate of Information Technology, Government of Maharashtra",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Other",
+   "mode": "online",
+   "brief": "One login for the certificates that every other scheme asks you for: income, domicile (adhivas), non-creamy layer, age and nationality, senior citizen, solvency and around five hundred more services. The Maharashtra Right to Public Service Act puts a deadline on each one, so the tehsildar cannot sit on it. The portal is in Marathi and English. You can file it yourself, or hand the papers over at a Maha e-Seva Kendra or the Setu centre in the tehsil office, which is how most people outside the cities do it.",
+   "benefit": "Income, domicile and caste certificates within 15 working days",
+   "emoji": "📄",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Any resident of Maharashtra",
+    "A mobile number that can receive an OTP, used as your login",
+    "Papers for the particular certificate you are asking for; the portal lists them before you start"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Proof of where you live: ration card, electricity bill, water bill or voter ID",
+    "Proof of age: birth certificate, school leaving certificate or bonafide from the school",
+    "Proof of income for an income certificate: salary slip, Form 16, or the talathi's report for farming and daily-wage families",
+    "Self-declaration on the format the portal gives you, signed",
+    "Recent passport photograph"
+   ],
+   "applyUrl": "https://aaplesarkar.mahaonline.gov.in/en/Registration/Register",
+   "portalName": "Aaple Sarkar",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Username you want",
+     "value": "prakash_more_82",
+     "hint": "Pick something you will remember. This one login opens every service on the portal, so do not create a fresh one each time."
+    },
+    {
+     "label": "Full name",
+     "value": "Prakash Ramrao More",
+     "hint": "Exactly as on Aadhaar. The certificate is printed with this spelling and a mismatch later costs you another application."
+    },
+    {
+     "label": "Service applied for",
+     "value": "Income Certificate (Revenue Department)",
+     "hint": "Choose the department first, then the service. Income certificates sit under Revenue, not under Social Justice."
+    },
+    {
+     "label": "District / Taluka / Village",
+     "value": "Ahmednagar / Shrirampur / Belapur",
+     "hint": "The tehsil office that gets your application is decided by what you put here, so it must be where you actually live."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.96,000",
+     "hint": "Total earnings of the whole household for the last financial year. For farming families the talathi's report is what the office goes by."
+    },
+    {
+     "label": "Purpose of the certificate",
+     "value": "Scholarship application for my daughter",
+     "hint": "Say plainly what it is for: scholarship, hostel admission, EWS quota, a scheme. This decides the format that is issued."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "4590 2217 6683",
+     "hint": "Used to pull your name and address in automatically, which saves typing mistakes."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9730458812",
+     "hint": "Every status message and the download link for the signed certificate comes to this number."
+    }
+   ],
+   "demoSteps": [
+    "Work out which certificate you actually need. An income certificate and a non-creamy-layer certificate are different papers, and applying for the wrong one wastes two weeks.",
+    "Register once on Aaple Sarkar with your mobile number and an OTP. Keep the username and password written down somewhere safe, because the same login is used for every future service.",
+    "Choose the department and then the service. The screen lists the exact documents that service needs before you commit to anything.",
+    "Fill the form as this sample shows and upload scanned or photographed documents. Each file has a size limit, so photograph on a plain surface in daylight rather than scanning badly.",
+    "Pay the small statutory fee online if that service has one. Many certificates are free.",
+    "Submit, and save the application ID. The portal shows the deadline by which the office must answer you under the Right to Public Service Act.",
+    "If you would rather not do this yourself, take the same documents to a Maha e-Seva Kendra or the Setu centre at the tehsil office and the operator will file it under your name for the notified fee.",
+    "When it is approved, download the digitally signed certificate from your login. It is valid as it is; you do not need a stamp or an attestation on top of it."
+   ],
+   "helpline": "1800-120-8040 (Aaple Sarkar helpdesk)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://aaplesarkar.mahaonline.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "mh-mahadbt",
+   "title": "MahaDBT post-matric scholarship",
+   "department": "Social Justice, Tribal Development, OBC and Higher Education Departments, Government of Maharashtra",
+   "level": "State",
+   "state": "Maharashtra",
+   "category": "Education",
+   "mode": "online",
+   "brief": "One portal carrying about forty scholarships and freeships for students of Maharashtra from class 11 upward, covering SC, ST, OBC, VJNT, SBC, EBC and minority students. Tuition and exam fees go to the college and the maintenance allowance comes to the student's own account. Marathi and English. The college has to verify your application online after you submit it, so a form that is never followed up at the college office simply sits there. Renewal is needed every single year.",
+   "benefit": "Tuition and exam fees paid in full, plus a maintenance allowance",
+   "emoji": "🎓",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Domiciled in Maharashtra",
+    "Studying in class 11 or above in a recognised institution inside the state",
+    "Caste certificate and, for professional courses, caste validity for SC, ST, OBC, VJNT and SBC students",
+    "Family income within the ceiling of the particular scholarship; for most freeships and EBC schemes it is Rs.8 lakh a year",
+    "At least 75 percent attendance in the previous year, and not repeating the same year twice"
+   ],
+   "documents": [
+    "Aadhaar card, linked to a bank account that is switched on for DBT",
+    "Caste certificate, and caste validity certificate where the course demands it",
+    "Income certificate from the tehsildar, issued through Aaple Sarkar",
+    "Last year's mark sheet, and the class 10 certificate for date of birth",
+    "College admission receipt or bonafide certificate with the fee structure",
+    "Domicile certificate of Maharashtra",
+    "Gap certificate on affidavit, if there was a break in studies"
+   ],
+   "applyUrl": "https://mahadbt.maharashtra.gov.in/Login/Login",
+   "portalName": "MahaDBT",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Student's name",
+     "value": "Rutuja Sandeep Jadhav",
+     "hint": "Spelled exactly as on the class 10 certificate. The college verifies against that, not against your college ID."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "7823 1190 4456",
+     "hint": "It must be seeded with your bank account and DBT-enabled. Ask the bank to confirm; an un-seeded account is the single biggest reason money does not arrive."
+    },
+    {
+     "label": "Caste and caste certificate number",
+     "value": "Mahar (SC) / MH/SC/2019/0084517",
+     "hint": "Copy the number from the certificate itself. Leave this out if you are applying for an open-category EBC freeship."
+    },
+    {
+     "label": "Income certificate number",
+     "value": "MH-IC-2026-114923",
+     "hint": "The number on the tehsildar's income certificate. It has to be current, usually issued within the last year."
+    },
+    {
+     "label": "College and course",
+     "value": "Rajaram College, Kolhapur / B.Sc. Agriculture, 2nd year",
+     "hint": "Pick the college from the drop-down list rather than typing it. If your college is not listed, tell the college office, because they must first be registered on MahaDBT."
+    },
+    {
+     "label": "Year of admission",
+     "value": "2025",
+     "hint": "The year you joined this course, not the year you are in now."
+    },
+    {
+     "label": "Previous year percentage",
+     "value": "68.40",
+     "hint": "From your last mark sheet. Some scholarships have a minimum; the portal will tell you which ones you clear."
+    },
+    {
+     "label": "Bank account number",
+     "value": "20189004537",
+     "hint": "Must be the student's own account, not a parent's. The maintenance allowance can only be paid into the student's account."
+    },
+    {
+     "label": "IFSC code",
+     "value": "SBIN0000691",
+     "hint": "From the first page of the passbook. Check the zeros carefully, they are digits, not the letter O."
+    }
+   ],
+   "demoSteps": [
+    "Get the papers in place before the portal opens for the year: caste certificate, caste validity if your course needs it, and a fresh income certificate from Aaple Sarkar. These take the longest, so start with them.",
+    "Go to the bank and confirm that your own account is Aadhaar-seeded and DBT-enabled. Ask them for it in writing if they hesitate.",
+    "Register on MahaDBT with your Aadhaar and mobile number, complete the e-KYC, and log in.",
+    "Fill your personal, address, academic and bank details once. They are saved to your profile and reused for every scholarship you apply to.",
+    "The portal then shows the list of schemes you are eligible for. Apply to all of them that apply to you, not just one, because they are sanctioned by different departments.",
+    "Upload the documents and submit. Note the application ID.",
+    "Now go to your college office and ask them to verify your application on their MahaDBT login. This step is not automatic and nothing moves until they do it.",
+    "Track the status through your login. Tuition and exam fees are paid to the college and the maintenance allowance comes to your account. Remember to renew next year, in the same way."
+   ],
+   "helpline": "022-49150800 (MahaDBT helpdesk)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://mahadbt.maharashtra.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "up-scholarship",
+   "title": "UP Scholarship and fee reimbursement",
+   "department": "Social Welfare Department, Government of Uttar Pradesh",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Education",
+   "mode": "online",
+   "brief": "Pre-matric scholarships for classes 9 and 10 and post-matric scholarships with fee reimbursement for students above class 10, for SC, ST, OBC, general and minority students of Uttar Pradesh. Hindi and English. The application has two parts: you first register and get a registration number, then fill the full form, then print it and hand a signed copy with the documents to your own institution. Students without a computer at home usually do the whole thing at a Jan Seva Kendra (CSC) or a cyber cafe, which is fine, but the printed copy must still reach the college.",
+   "benefit": "Tuition fees reimbursed plus a maintenance allowance",
+   "emoji": "📚",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Domiciled in Uttar Pradesh, studying in an institution recognised by the state",
+    "Family income within the ceiling for the year: commonly Rs.2.5 lakh for SC and ST students and Rs.2 lakh for general, OBC and minority students in post-matric, with a lower ceiling for pre-matric",
+    "Caste certificate for SC, ST and OBC applicants, issued through UP e-District",
+    "Not drawing another government scholarship for the same course at the same time",
+    "Passed the previous class; students repeating a year are not eligible"
+   ],
+   "documents": [
+    "Aadhaar card, seeded with the student's own bank account",
+    "Caste certificate and its application number, from UP e-District",
+    "Income certificate and its application number, from UP e-District",
+    "Last passed class mark sheet and certificate",
+    "High school certificate, which is the accepted proof of date of birth",
+    "Institution's fee receipt and its registration number on the scholarship portal",
+    "Bank passbook first page in the student's own name"
+   ],
+   "applyUrl": "https://scholarship.up.gov.in/RegistrationNew.aspx",
+   "portalName": "UP Scholarship portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Registration number",
+     "value": "2600014578932",
+     "hint": "Generated the moment you register for the year. Write it down at once; you cannot log in again without it, and it is not sent by post."
+    },
+    {
+     "label": "Student's name",
+     "value": "Arun Kumar Verma",
+     "hint": "Exactly as on the high school certificate. The board record is what the portal checks against."
+    },
+    {
+     "label": "Father's name",
+     "value": "Ram Naresh Verma",
+     "hint": "Again as on the high school certificate, not as on Aadhaar, if the two differ."
+    },
+    {
+     "label": "Caste certificate application number",
+     "value": "UP-CAST-2025-0091473",
+     "hint": "The long application number on the e-District certificate, not the certificate serial. The portal verifies it live, so a wrong digit stops the form."
+    },
+    {
+     "label": "Income certificate application number",
+     "value": "UP-INC-2026-0447125",
+     "hint": "Same idea, from the e-District income certificate. It must be issued in the current session."
+    },
+    {
+     "label": "Institute name and code",
+     "value": "Kisan Degree College, Basti / 21457",
+     "hint": "Take the code from your college office. Choosing the wrong college with a similar name sends your form to a place that will never verify it."
+    },
+    {
+     "label": "Course and year",
+     "value": "B.A. 2nd year",
+     "hint": "The class or year you are studying in now, in this session."
+    },
+    {
+     "label": "High school roll number and year",
+     "value": "1409837 / 2023",
+     "hint": "Used to confirm your date of birth and your last passed class automatically."
+    },
+    {
+     "label": "Bank account number",
+     "value": "40718823094",
+     "hint": "Must be the student's own account with the Aadhaar seeded into it. A parent's or a joint account will not receive the money."
+    },
+    {
+     "label": "IFSC code",
+     "value": "PUNB0148700",
+     "hint": "From the first page of the passbook. Copy it letter by letter."
+    }
+   ],
+   "demoSteps": [
+    "Before the window opens, get a fresh caste certificate and income certificate from UP e-District, because the scholarship form asks for their application numbers and checks them live.",
+    "Make sure the student's own bank account exists and is Aadhaar-seeded. Ask the bank branch to confirm the seeding.",
+    "Register on the UP Scholarship portal for the current session, choosing the right category (pre-matric or post-matric, and fresh or renewal). Note the registration number that appears.",
+    "Log in with that registration number and date of birth, and fill the full form as this sample shows.",
+    "Upload the documents, submit the form and take a printout of the final application.",
+    "Sign the printout, attach photocopies of the documents, and hand it in at your own school or college office. This physical step is compulsory and the form is rejected without it.",
+    "Ask the institution to forward and verify your application on their own login, and keep the receipt they give you.",
+    "Track the status on the portal with your registration number. If it shows a defect, correct it within the correction window, which is short and does not reopen."
+   ],
+   "helpline": "0522-2209270 (Social Welfare Department scholarship helpdesk)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://scholarship.up.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "up-edistrict",
+   "title": "UP e-District certificates, caste, income and domicile",
+   "department": "Revenue Department, Government of Uttar Pradesh",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Caste (jati), income (aay) and domicile (nivas) certificates, along with khatauni copies, disability certificates and birth and death records. Hindi and English. A citizen login exists, but in practice most applications go through a Jan Seva Kendra (CSC), because the operator knows the formats the lekhpal expects and the fee is fixed and small. The lekhpal visits or checks the household record, the tehsildar signs it digitally, and you download the certificate; it needs no further attestation.",
+   "benefit": "Digitally signed certificate, normally within 15 working days",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Uttar Pradesh, applying in the tehsil where you actually live",
+    "A mobile number for the OTP, and the household traceable in the lekhpal's records",
+    "For a caste certificate, a family record of the caste: the father's certificate, an older relative's certificate, or an affidavit where nothing exists on paper"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Ration card, or an electricity bill or voter ID as proof of residence",
+    "Self-declaration (swaghoshna patra) on the format the portal provides, signed",
+    "Recent passport photograph",
+    "For a caste certificate: the father's or a close relative's caste certificate, or an affidavit",
+    "For an income certificate: salary slip for the employed, or a declaration for farming and daily-wage households"
+   ],
+   "applyUrl": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+   "portalName": "UP e-District",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's name (Hindi and English)",
+     "value": "Shashi Devi / शशि देवी",
+     "hint": "The certificate prints in Hindi, so fill the Hindi box carefully. Type it as it appears on your Aadhaar."
+    },
+    {
+     "label": "Father's or husband's name",
+     "value": "Rajendra Prasad",
+     "hint": "Whichever the certificate is to be issued against. For a married woman the husband's name is usual for a domicile certificate."
+    },
+    {
+     "label": "Certificate applied for",
+     "value": "Income certificate (Aay Praman Patra)",
+     "hint": "Caste, income and domicile are three separate applications with three separate fees. Apply for each one you need."
+    },
+    {
+     "label": "Tehsil and district",
+     "value": "Sadar, Jaunpur",
+     "hint": "This decides which lekhpal and tehsildar handle your file. Choosing a tehsil you do not live in guarantees a rejection."
+    },
+    {
+     "label": "Full address",
+     "value": "Gram Bhadethi, Post Kerakat, Jaunpur, 222142",
+     "hint": "The address as the lekhpal knows it. Add the village and post office, not just the town."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.72,000",
+     "hint": "The whole household's income for the last year, from all sources including farming. State it honestly; the lekhpal checks."
+    },
+    {
+     "label": "Purpose",
+     "value": "Scholarship for my son's college admission",
+     "hint": "Say what you need it for. Scholarship applications later ask for this certificate's application number."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "3341 7728 9905",
+     "hint": "Twelve digits. Used to confirm your identity and pull in your name."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9451762230",
+     "hint": "The application number and the download link come here by SMS, so use a number you will keep."
+    }
+   ],
+   "demoSteps": [
+    "Decide which certificate you need and gather the papers for it. A caste certificate needs some family record of the caste, so ask an elder for the oldest certificate in the house.",
+    "Fill in the self-declaration form. Download the format from the portal, write it out, sign it, and photograph it clearly.",
+    "Either register on the e-District portal with your mobile number and apply yourself, or take the papers to the nearest Jan Seva Kendra (CSC) and ask the operator to file it. The CSC route costs the notified fee, usually a small fixed amount, and is what most families use.",
+    "Fill the application as this sample shows, being careful with the Hindi spelling of names and the tehsil.",
+    "Upload the documents, pay the fee and submit. Keep the application number safe; everything afterwards depends on it.",
+    "The lekhpal verifies the household and sends a report up to the kanungo and then the tehsildar.",
+    "When it is issued, download the digitally signed certificate from the portal with the application number. It is valid as it is and needs no stamp or attestation.",
+    "If the deadline passes with no answer, take the application number to the tehsil day (tehsil diwas) or complain on the Jansunwai portal."
+   ],
+   "helpline": "0522-2304706 (e-District helpdesk)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.up.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "rj-sso",
+   "title": "SSO Rajasthan single sign-on",
+   "department": "Department of Information Technology and Communication, Government of Rajasthan",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Other",
+   "mode": "online",
+   "brief": "One free SSO ID that opens well over a hundred Rajasthan services with a single password: Jan Aadhaar, e-Mitra, scholarships, pensions, electricity and water bills, Rajasthan Sampark complaints and most recruitment forms. Hindi and English. Registering takes a few minutes on a phone, and any e-Mitra kiosk will create it for you if you would rather not do it yourself. Make the ID once and keep it; creating a second one for the same person causes trouble later when a scheme is tied to the first.",
+   "benefit": "One login for over a hundred state services",
+   "emoji": "🔑",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Any resident of Rajasthan, registering as a citizen",
+    "One of these to register with: a Jan Aadhaar number, an Aadhaar number, or a Google account",
+    "Government employees register with their SIPF number and businesses with their business registration number instead"
+   ],
+   "documents": [
+    "Jan Aadhaar number, or Aadhaar number, of the person registering",
+    "Mobile number that can receive an OTP",
+    "An email address, useful for password recovery",
+    "For a government employee: the SIPF (State Insurance and Provident Fund) number"
+   ],
+   "applyUrl": "https://sso.rajasthan.gov.in/register",
+   "portalName": "SSO Rajasthan",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Register as",
+     "value": "Citizen",
+     "hint": "Citizen for ordinary people, Udyog for a business, Government Employee for state staff. Almost everyone needs Citizen."
+    },
+    {
+     "label": "Register using",
+     "value": "Jan Aadhaar",
+     "hint": "Registering with Jan Aadhaar is best, because your family details then flow automatically into pension, scholarship and ration services."
+    },
+    {
+     "label": "Jan Aadhaar number",
+     "value": "3341778290",
+     "hint": "The ten-digit family number printed on the Jan Aadhaar card. If your family has no Jan Aadhaar yet, get that first."
+    },
+    {
+     "label": "Family member to register",
+     "value": "Manohar Lal Meena",
+     "hint": "The portal lists everyone in the Jan Aadhaar family. Pick your own name from the list; each adult can have their own SSO ID."
+    },
+    {
+     "label": "SSO ID you want",
+     "value": "manohar.meena84",
+     "hint": "This becomes your permanent username for every state service. Choose something plain that you can tell a kiosk operator over the counter."
+    },
+    {
+     "label": "Password",
+     "value": "Set your own, at least 8 characters with a capital, a number and a symbol",
+     "hint": "Never share it, and never let anyone else keep it for you. A government office will never ask you for this password."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9414520378",
+     "hint": "Every OTP comes here. Use your own number, not a shopkeeper's or an operator's, otherwise you cannot log in without them."
+    },
+    {
+     "label": "Email address",
+     "value": "manohar.meena84@gmail.com",
+     "hint": "Optional but worth filling. It is the easiest way to reset a forgotten password."
+    }
+   ],
+   "demoSteps": [
+    "Keep your Jan Aadhaar card, or Aadhaar card, and your own mobile phone with you.",
+    "Open the SSO Rajasthan site and choose 'Registration', then 'Citizen'.",
+    "Choose to register through Jan Aadhaar, type the ten-digit family number, and press the button to fetch your family.",
+    "Pick your own name from the family list and get the OTP on the registered mobile number.",
+    "Choose your SSO ID and set a password. Write the SSO ID on the back of your Jan Aadhaar card so you never lose it, but do not write the password there.",
+    "Log in once straight away to confirm it works, and look at the tile list: e-Mitra, Jan Aadhaar, scholarship, pension and the rest are all inside this one login.",
+    "If you find the registration difficult, walk into any e-Mitra kiosk with your Jan Aadhaar and mobile phone; the operator creates it in a few minutes. Make sure the mobile number registered is yours and that you, not the operator, set the password."
+   ],
+   "helpline": "0141-5123717 (SSO and e-Mitra helpdesk)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://sso.rajasthan.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "rj-jan-aadhaar",
+   "title": "Jan Aadhaar card enrolment",
+   "department": "Jan Aadhaar Yojana Directorate, Planning Department, Government of Rajasthan",
+   "level": "State",
+   "state": "Rajasthan",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Rajasthan's family identity card, which replaced Bhamashah. It gives the family a ten-digit number and every member an eleven-digit number, and almost every state benefit is now released against it: free ration, old age and widow pensions, scholarships, Chiranjeevi health cover and e-Mitra services. The woman of the house aged 18 or above is registered as the head of the family. Hindi and English. Enrolment is free and can be done on the portal with an SSO ID, or at any e-Mitra kiosk or the gram panchayat, which is how most families do it.",
+   "benefit": "One family number that unlocks state pensions, ration and health cover",
+   "emoji": "🪪",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "The family lives permanently in Rajasthan",
+    "The head of the family is a woman aged 18 or above; where there is no adult woman, the eldest adult male is registered instead",
+    "Every member being added has an Aadhaar number",
+    "One enrolment per family; members are added to it later rather than making a second card"
+   ],
+   "documents": [
+    "Aadhaar card of every family member being added",
+    "Bank passbook of the head of the family, in her own name",
+    "Proof of residence: ration card, electricity bill or voter ID",
+    "Date of birth proof for each member: school certificate or birth certificate",
+    "Caste certificate, if you want the category recorded",
+    "Mobile number of the head of the family, for the OTP"
+   ],
+   "applyUrl": "https://sso.rajasthan.gov.in/signin",
+   "portalName": "Jan Aadhaar portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Head of the family",
+     "value": "Kamla Devi Jat",
+     "hint": "This must be a woman of the household aged 18 or above. The card and most benefits are issued in her name; this is the rule, not a preference."
+    },
+    {
+     "label": "Her Aadhaar number",
+     "value": "8817 3390 2246",
+     "hint": "Twelve digits from her Aadhaar card. Her mobile must be linked to this Aadhaar for the e-KYC to go through."
+    },
+    {
+     "label": "Her bank account and IFSC",
+     "value": "51049922871 / BARB0JAIPUR",
+     "hint": "Benefits are paid into this account, so it must be in her own name and Aadhaar-seeded."
+    },
+    {
+     "label": "Family members and relation",
+     "value": "Ramniwas Jat (husband), Suman Jat (daughter), Vikram Jat (son)",
+     "hint": "Add everyone who actually lives in the household, with each one's Aadhaar. A child left out now cannot claim a scholarship later."
+    },
+    {
+     "label": "District / Tehsil / Gram Panchayat / Village",
+     "value": "Nagaur / Merta City / Gagrana / Gagrana",
+     "hint": "Fill the full chain. The panchayat decides which officer verifies your enrolment."
+    },
+    {
+     "label": "Ration card number",
+     "value": "RJ17-2203-449781",
+     "hint": "If the family has one. Linking it here is what keeps the free ration entitlement running against the Jan Aadhaar."
+    },
+    {
+     "label": "Caste category",
+     "value": "OBC",
+     "hint": "General, OBC, SC, ST or MBC. Keep the caste certificate ready; the category recorded here is used by scholarship and pension schemes."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9829114705",
+     "hint": "Use the head of the family's own number. The Jan Aadhaar number, and every payment message afterwards, comes to it."
+    }
+   ],
+   "demoSteps": [
+    "Collect the Aadhaar cards of everyone in the household and the passbook of the woman who will be the head of the family.",
+    "Decide who the head of the family will be: it must be a woman of 18 or above if there is one in the house.",
+    "Either log in on the Jan Aadhaar portal with your SSO ID and choose enrolment, or take the papers to an e-Mitra kiosk or the gram panchayat, where the operator does it free of charge.",
+    "Fill the family details as this sample shows, adding every member with their Aadhaar and relation.",
+    "Complete the e-KYC with the OTP that comes to the Aadhaar-linked mobile of the head of the family.",
+    "Submit and keep the enrolment receipt. A temporary registration number is given at once.",
+    "After the panchayat or municipal officer verifies it, the ten-digit Jan Aadhaar number is issued and comes by SMS. Download the e-card from the portal or collect the card from the e-Mitra kiosk.",
+    "Whenever the family changes, a birth, a marriage, a death or a new bank account, go back and update it. Schemes read this record, so an old record quietly stops payments."
+   ],
+   "helpline": "1800-180-6127 (Jan Aadhaar helpline)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://janaadhaar.rajasthan.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "mp-ladli-behna",
+   "title": "Mukhyamantri Ladli Behna Yojana",
+   "department": "Women and Child Development Department, Government of Madhya Pradesh",
+   "level": "State",
+   "state": "Madhya Pradesh",
+   "category": "Women",
+   "mode": "offline",
+   "brief": "A monthly payment to women of Madhya Pradesh aged 21 to 60, paid into her own Aadhaar-linked, DBT-enabled account, usually in the first half of the month. The portal is in Hindi. The form is not filled at home: the state seats operators at the gram panchayat, the ward office and special camps, and the woman must be present for her photograph and e-KYC to be captured. Fresh registration opens only when the government opens a window, so ask at the panchayat when the next one is.",
+   "benefit": "Rs.1,500 per month",
+   "emoji": "👩",
+   "colorHex": "#C2185B",
+   "eligibility": [
+    "Woman who is a permanent resident of Madhya Pradesh",
+    "Married, widowed, divorced or abandoned",
+    "Aged 21 to 60 on 1 January of the year of application",
+    "Total family income under Rs.2.5 lakh a year",
+    "No one in the family pays income tax, holds a regular government job or draws a government pension",
+    "The family holds less than five acres of land",
+    "Not already receiving Rs.1,500 or more a month from another government scheme"
+   ],
+   "documents": [
+    "Samagra family ID and her own Samagra member ID",
+    "Aadhaar card, with e-KYC completed on the Samagra portal",
+    "Bank account in her own name, Aadhaar-linked and switched on for DBT",
+    "Mobile number for the OTP",
+    "Recent photograph, which the operator takes at the camp itself"
+   ],
+   "applyUrl": "https://cmladlibahna.mp.gov.in/",
+   "portalName": "Ladli Behna portal",
+   "formUrl": "",
+   "submitAt": "At the registration camp, the gram panchayat office or the urban ward office, on the dates the state announces. Go in person with your Samagra ID, Aadhaar and bank passbook. The operator fills in the form and takes your photograph there.",
+   "demoFields": [
+    {
+     "label": "Samagra member ID",
+     "value": "104772389",
+     "hint": "Your own nine-digit number in the Samagra record, not the family's. Ask at the panchayat if you do not know it."
+    },
+    {
+     "label": "Samagra family ID",
+     "value": "07122984",
+     "hint": "The eight-digit family number. Both numbers are on the Samagra card or slip."
+    },
+    {
+     "label": "Applicant's name",
+     "value": "Rekha Bai Rathore",
+     "hint": "It must match the Samagra record and Aadhaar. If the three spellings differ, get Samagra corrected first, because the form will not go through."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "5529 1183 7740",
+     "hint": "e-KYC on the Samagra portal must be done against this Aadhaar before the application is accepted."
+    },
+    {
+     "label": "Date of birth",
+     "value": "02/03/1983",
+     "hint": "You must have completed 21 years and not crossed 60 as on 1 January of the application year."
+    },
+    {
+     "label": "Marital status",
+     "value": "Widow",
+     "hint": "Married, widow, divorced or abandoned. An unmarried woman is not eligible under this scheme."
+    },
+    {
+     "label": "Bank account number",
+     "value": "64920077314",
+     "hint": "Her own single account. It must be Aadhaar-linked and DBT-enabled; ask the bank to confirm, because a merely Aadhaar-noted account is not enough."
+    },
+    {
+     "label": "IFSC code",
+     "value": "MPGB0000217",
+     "hint": "From the first page of the passbook."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9926410872",
+     "hint": "The OTP and every later payment message come here. Give your own number where you can."
+    }
+   ],
+   "demoSteps": [
+    "Find out when the registration window and the camps are open. Ask at the gram panchayat, the ward office or the anganwadi; applications are not taken all year round.",
+    "Before the camp, get two things right: e-KYC of your Aadhaar on the Samagra portal, and a bank account in your own name that is Aadhaar-linked and DBT-enabled. Both can be done free at a kiosk or the bank branch.",
+    "Go to the camp or the panchayat office yourself, with the Samagra number, Aadhaar and passbook. You have to be present, because the operator takes your photograph there.",
+    "The operator fills the form in front of you as this sample shows. Check your name, bank account and mobile number on the screen before it is submitted.",
+    "Collect the printed acknowledgement with the application number and keep it safely.",
+    "The provisional list is put up at the panchayat or ward office. Look for your name in it; objections can be made within the period announced.",
+    "After the final list, the money starts coming to your account every month. Check the status on the portal with your Samagra or application number.",
+    "If a payment stops, first check whether your Aadhaar and bank linking has lapsed, which is the commonest cause, and then call the helpline."
+   ],
+   "helpline": "0755-2700800 (scheme helpdesk), CM Helpline 181",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "br-rtps",
+   "title": "RTPS Bihar certificates",
+   "department": "General Administration Department, Government of Bihar",
+   "level": "State",
+   "state": "Bihar",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Bihar's single window for caste (jaati), income (aay), residence (aawasiya) and EWS certificates, along with land, ration card and social security services. Hindi and English. The Bihar Right to Public Service Act puts a fixed deadline on each service and lets you appeal if it is missed, and these certificates are issued free. You can file it yourself, or use the RTPS counter at your block (prakhand) office or any Vasudha Kendra (CSC), which is how most applications in the villages are made.",
+   "benefit": "Caste, income and residence certificates free, within the time fixed by law",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Bihar, applying in the block or circle where you live",
+    "The household traceable in the circle office (anchal) records",
+    "A mobile number for the OTP and for the SMS carrying your application number"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Ration card or voter ID as proof of residence",
+    "Self-declaration (ghoshna patra) on the prescribed format, signed",
+    "Recent passport photograph",
+    "School certificate or matriculation certificate for date of birth",
+    "For income: a salary certificate for the employed, or a declaration for farming and daily-wage families",
+    "For caste: the father's or a close relative's caste certificate where one exists"
+   ],
+   "applyUrl": "https://serviceonline.bihar.gov.in/janParichayLogin",
+   "portalName": "RTPS Bihar / Service Online",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's name (Hindi and English)",
+     "value": "Manoj Kumar Paswan / मनोज कुमार पासवान",
+     "hint": "The certificate prints in Hindi, so fill the Hindi box with care. Match it to your Aadhaar."
+    },
+    {
+     "label": "Father's name",
+     "value": "Shivnath Paswan",
+     "hint": "For a caste certificate this matters most, because the caste is traced through the father's family record."
+    },
+    {
+     "label": "Certificate applied for",
+     "value": "Caste certificate (Jaati Praman Patra), block level",
+     "hint": "Choose the level too. Block level is enough for most scholarships and state jobs; central government jobs may need the circle or district level one."
+    },
+    {
+     "label": "Caste",
+     "value": "Paswan (Scheduled Caste)",
+     "hint": "Pick from the state's list rather than typing it. Spelling variations are the usual reason a caste certificate is sent back."
+    },
+    {
+     "label": "Permanent address",
+     "value": "Gram Bishunpur, Panchayat Rampur, Block Barh, District Patna, 803213",
+     "hint": "Give the full chain of village, panchayat, block and district. Your block office handles the file, so this decides where it goes."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.84,000",
+     "hint": "For an income certificate, the whole household's earnings for the year from all sources, including farming and labour."
+    },
+    {
+     "label": "Purpose",
+     "value": "Admission and scholarship for my son",
+     "hint": "Write plainly what it is needed for. It is asked for the record and does not restrict how you use the certificate."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "2296 4471 0083",
+     "hint": "Twelve digits. Used to confirm identity and to pull your details in."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9430218764",
+     "hint": "The application number comes here by SMS and you need it to download the certificate, so use a number you keep."
+    }
+   ],
+   "demoSteps": [
+    "Fill in the self-declaration (ghoshna patra). Download the format from the portal, write it, sign it, and photograph it clearly.",
+    "Either register on the Service Online portal with your mobile number and apply yourself, or take the papers to the RTPS counter at your block office or a Vasudha Kendra (CSC). These certificates are free; do not pay anything beyond the small notified kiosk charge.",
+    "Choose the department, the service and the level of the certificate as this sample shows.",
+    "Fill the form, taking care with the Hindi spelling of names and with the caste picked from the list.",
+    "Upload the documents and submit. Note the application number, which also arrives by SMS.",
+    "The karmchari and then the circle officer verify the record and the certificate is signed digitally.",
+    "Download it from the portal with your application number, or collect it at the RTPS counter. It needs no stamp or attestation on top of the digital signature.",
+    "If the deadline fixed under the Right to Public Service Act passes with nothing happening, file the first appeal that the same Act gives you, at the office named on your receipt."
+   ],
+   "helpline": "1800-345-6215 (RTPS Bihar helpline)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://serviceonline.bihar.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "ka-seva-sindhu",
+   "title": "Seva Sindhu citizen services",
+   "department": "Centre for e-Governance, Government of Karnataka",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Karnataka's single window for several hundred services across departments: caste, income and residence certificates from the revenue department, transport, labour welfare, social security and scheme registrations. Kannada and English. You can apply yourself with a mobile OTP, or walk into a Bangalore One, Karnataka One or Grama One counter, or the Atalji Janasnehi Kendra at the taluk office, and have it filed for you. The Sakala Act puts a deadline on most of these services, and your acknowledgement carries a Sakala number you can complain against.",
+   "benefit": "Several hundred state services, with a deadline fixed under the Sakala Act",
+   "emoji": "🏛",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Resident of Karnataka",
+    "Aadhaar with a mobile number linked to it, for the OTP and e-KYC",
+    "Whatever the particular service itself requires; the portal lists this before you begin"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Ration card",
+    "Proof of residence: electricity bill, property tax receipt or voter ID",
+    "Income proof: salary certificate, or a declaration for farming and daily-wage families",
+    "For a caste certificate: a parent's or close relative's caste certificate with its RD number",
+    "Passport photograph",
+    "Bank passbook, for any service that pays money into your account"
+   ],
+   "applyUrl": "https://sevaone.karnataka.gov.in/services/",
+   "portalName": "Seva Sindhu",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Applicant's name",
+     "value": "Shivakumar Basavaraj Hiremath",
+     "hint": "As on Aadhaar. The certificate is printed with this spelling in both Kannada and English."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "7714 2036 5528",
+     "hint": "e-KYC is done against this, so the mobile linked to your Aadhaar must be with you."
+    },
+    {
+     "label": "Service applied for",
+     "value": "Income certificate (Revenue Department)",
+     "hint": "Choose the department first. Income, caste and residence certificates are three separate applications."
+    },
+    {
+     "label": "Parent's caste certificate RD number",
+     "value": "RD0045782025",
+     "hint": "Needed only for a caste certificate. It is the reference number on your father's or mother's existing certificate, and it saves a fresh field enquiry."
+    },
+    {
+     "label": "District / Taluk / Village",
+     "value": "Dharwad / Kalghatgi / Tabakadhonnahalli",
+     "hint": "This decides which revenue inspector and tahsildar handle the file, so it must be where you live."
+    },
+    {
+     "label": "Ration card number",
+     "value": "KA0422100778",
+     "hint": "From the top of your ration card. It is used to confirm the members of the household."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.1,20,000",
+     "hint": "The household's total earnings for the last financial year from every source."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9945307261",
+     "hint": "The OTP, the Sakala acknowledgement number and the download link all come here."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "64018890234 / KARB0000512",
+     "hint": "Only for services that pay you money. Put your own account, Aadhaar-seeded."
+    }
+   ],
+   "demoSteps": [
+    "Check which service you need and what it asks for. Seva Sindhu lists the documents for each service on the service's own page before you start.",
+    "Register on Seva Sindhu with your Aadhaar and mobile number, and complete the e-KYC with the OTP.",
+    "Choose the department and the service, and fill the form as this sample shows.",
+    "Upload the documents and pay the fee where one applies. Many certificates cost only a small statutory amount.",
+    "Submit and save the acknowledgement. It carries a Sakala number and the date by which the office must answer you.",
+    "If you would rather not do this on a phone, take the same documents to a Bangalore One, Karnataka One or Grama One counter, or the Atalji Janasnehi Kendra at the taluk office, and the operator files it under your name.",
+    "The revenue inspector verifies and the tahsildar signs digitally. Track it on the portal with your acknowledgement number.",
+    "Download the signed certificate from your login. If the Sakala deadline passes, use the Sakala number to complain; the Act provides compensation for delay."
+   ],
+   "helpline": "1902 (Sakala citizen helpline)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://sevasindhu.karnataka.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "tn-esevai",
+   "title": "e-Sevai citizen services",
+   "department": "Tamil Nadu e-Governance Agency, Information Technology Department",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Other",
+   "mode": "online",
+   "brief": "Tamil Nadu's single window for community (jaathi), income, nativity, first graduate, residence and legal heir certificates, along with utility payments and department services. Tamil and English. Everything hangs off a CAN, the Citizen Access Number, which is made once and reused for life. Most people go to the nearest e-Sevai Maiyam, the common service centre found in taluk offices and many villages, and the operator files it for a small fixed fee. The VAO verifies and the Tahsildar signs the certificate digitally.",
+   "benefit": "Community, income and nativity certificates, digitally signed",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Tamil Nadu, applying in the taluk where you live",
+    "A CAN number, which is created free at any e-Sevai centre or on the portal",
+    "The household known to the Village Administrative Officer, who does the verification"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Ration card or smart card",
+    "Proof of residence: electricity bill, property tax receipt or house rent agreement",
+    "School transfer certificate, which is the usual proof of community and date of birth",
+    "Self-declaration on the format the centre provides, signed",
+    "Recent passport photograph",
+    "For income: salary certificate for the employed, or a declaration for farming and daily-wage households"
+   ],
+   "applyUrl": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+   "portalName": "TN e-Sevai",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "CAN number",
+     "value": "CAN33087741",
+     "hint": "The Citizen Access Number. If you do not have one, the first step is to create it, free, at any e-Sevai centre or on the portal. Keep it for life; you do not need a new one each time."
+    },
+    {
+     "label": "Applicant's name",
+     "value": "Murugesan Palanisamy",
+     "hint": "As on Aadhaar and the school transfer certificate. The certificate prints in Tamil and English."
+    },
+    {
+     "label": "Father's or husband's name",
+     "value": "Palanisamy Kandasamy",
+     "hint": "For a community certificate this is what the record is traced through, so it must match the school transfer certificate."
+    },
+    {
+     "label": "Certificate applied for",
+     "value": "Community certificate (Most Backward Class)",
+     "hint": "Community, income, nativity and first graduate are separate applications. Apply for each one you actually need."
+    },
+    {
+     "label": "District / Taluk / Village",
+     "value": "Erode / Gobichettipalayam / Kolappalur",
+     "hint": "This sends the file to the right VAO and Tahsildar. Choosing the wrong taluk means the application is returned."
+    },
+    {
+     "label": "Ration card number",
+     "value": "TN2211004873",
+     "hint": "From your smart ration card. It is used to confirm the household members."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs.1,08,000",
+     "hint": "The household's total for the last year. For an income certificate the VAO checks this before the Tahsildar signs."
+    },
+    {
+     "label": "Purpose",
+     "value": "College admission under the community quota",
+     "hint": "Write what it is for. Admission and scholarship are the commonest reasons and the office is used to them."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9843215607",
+     "hint": "The OTP, the application number and the message that your certificate is ready all come here."
+    }
+   ],
+   "demoSteps": [
+    "Create a CAN number first if you do not already have one. It is free, takes a few minutes at any e-Sevai centre or on the portal, and is used for every service afterwards.",
+    "Collect the documents, above all the school transfer certificate, which is what community and date of birth are established from in Tamil Nadu.",
+    "Log in to the e-Sevai portal with your CAN and mobile OTP, or take the papers to the nearest e-Sevai Maiyam at the taluk office or in your village.",
+    "Choose the department and the service, and fill the form as this sample shows.",
+    "Upload the documents, pay the small fixed fee and submit. Keep the acknowledgement receipt with the application number.",
+    "The Village Administrative Officer verifies the details, and the Revenue Inspector and Tahsildar act on it in turn.",
+    "When it is ready, an SMS comes to your mobile. Download the digitally signed certificate from the portal, or collect the printout from the e-Sevai centre.",
+    "Keep a soft copy. Colleges and offices in Tamil Nadu accept the digitally signed certificate as it is, and you can reprint it from your CAN any time."
+   ],
+   "helpline": "1100 (Tamil Nadu citizen helpline)",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://tnesevai.tn.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "wb-lakshmir-bhandar",
+   "title": "Lakshmir Bhandar monthly assistance for women",
+   "department": "Women and Child Development and Social Welfare Department, Government of West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Women",
+   "mode": "offline",
+   "brief": "A monthly payment to women of West Bengal between 25 and 60, sent by DBT into her own bank account. There is no self-service online application for this one: the form is given out and collected at Duare Sarkar camps, which the state holds in every ward and gram panchayat a few times a year, and at the Block Development Office, the Sub-Divisional Office or the municipality ward office in between camps. The department's site is in Bengali and English and is used for the form, the rules and checking the status afterwards. The amount is higher for Scheduled Caste and Scheduled Tribe women; the state has revised these rates before, so confirm the current figure at the camp.",
+   "benefit": "Rs.1,000 a month, and Rs.1,200 for SC and ST women",
+   "emoji": "👩",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Woman residing in West Bengal, aged 25 to 60",
+    "Her name entered on the family's Swasthya Sathi card",
+    "Not in regular government, public sector or local body service, and not drawing a government pension",
+    "A savings bank account in her own single name, Aadhaar-linked, in her sole holding and not a joint account",
+    "Every eligible woman of a household may apply in her own name",
+    "Scheduled Caste and Scheduled Tribe women get the higher rate on producing a caste certificate"
+   ],
+   "documents": [
+    "Swasthya Sathi card, or its enrolment number",
+    "Aadhaar card",
+    "Caste certificate, for SC and ST applicants claiming the higher amount",
+    "Bank passbook first page, in her own single name, self-attested",
+    "Recent passport photograph",
+    "Proof of age: voter card, birth certificate or school certificate",
+    "Mobile number"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "https://socialsecurity.wb.gov.in/",
+   "submitAt": "A Duare Sarkar camp in your own ward or gram panchayat when one is held; otherwise the Block Development Office (BDO) in rural areas, the Sub-Divisional Office (SDO) in a sub-division, or the municipality or corporation ward office in a town.",
+   "demoFields": [
+    {
+     "label": "Applicant's name",
+     "value": "Aparna Mondal",
+     "hint": "Write it in block letters exactly as it appears on the Swasthya Sathi card. A different spelling on the bank passbook is what holds up most payments."
+    },
+    {
+     "label": "Swasthya Sathi card number",
+     "value": "WB-11-0044-2297-8130",
+     "hint": "Copy it from the card. If the family has a card but your name is not on it, get your name added first; the application depends on it."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "6620 8834 1175",
+     "hint": "Twelve digits. The same Aadhaar must be linked to the bank account you give below."
+    },
+    {
+     "label": "Date of birth and age",
+     "value": "09/11/1988, 37 years",
+     "hint": "You must have completed 25 years and not yet crossed 60. Fill it from your voter card or birth certificate."
+    },
+    {
+     "label": "Caste category",
+     "value": "Scheduled Caste",
+     "hint": "General, SC or ST. If you write SC or ST, attach the caste certificate, because that is what gets you the higher monthly amount."
+    },
+    {
+     "label": "Full address",
+     "value": "Vill. Rajarampur, P.O. Haripal, P.S. Haripal, Hooghly, 712405",
+     "hint": "Give village, post office, police station, district and PIN. The camp is organised by ward or panchayat, so this decides where your file sits."
+    },
+    {
+     "label": "Bank account number",
+     "value": "40229178365",
+     "hint": "It must be a savings account in your own single name. A joint account, or your husband's account, cannot be used."
+    },
+    {
+     "label": "IFSC code",
+     "value": "UBIN0813052",
+     "hint": "Eleven characters from the first page of your passbook, next to the branch name."
+    },
+    {
+     "label": "Mobile number",
+     "value": "9874203165",
+     "hint": "The payment messages come here. Give your own number if you have one."
+    }
+   ],
+   "demoSteps": [
+    "Find out when the next Duare Sarkar camp is being held in your ward or gram panchayat. It is announced locally by the panchayat, the ward office and the ASHA and anganwadi workers. If no camp is due, you can go straight to the Block Development Office or the municipality ward office instead.",
+    "Check first that your name is on the family's Swasthya Sathi card. If it is not, get it added, because the application rests on that card.",
+    "Open a savings account in your own single name if you do not have one, and get your Aadhaar linked to it. It cannot be a joint account.",
+    "Collect the Lakshmir Bhandar form at the camp or the office, or download and print it from the department's site before you go.",
+    "Fill the form in block letters as this sample shows, and attach self-attested copies of the Swasthya Sathi card, Aadhaar, bank passbook first page, caste certificate if you are SC or ST, and a photograph.",
+    "Hand it in at the camp counter or the office and insist on the acknowledgement slip. It carries your application number, which is the only way to follow the file afterwards.",
+    "Check the status with that number at the next camp, at the BDO office, or on the department's site.",
+    "Once it is sanctioned, the money comes into your account every month. If it stops, the usual reason is that the bank account or the Aadhaar link has become inactive, so check that first at your branch."
+   ],
+   "helpline": "Ask at the Duare Sarkar camp or the Block Development Office; the acknowledgement slip carries the helpdesk number for your district",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

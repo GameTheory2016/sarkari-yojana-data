@@ -1,0 +1,54 @@
+name: Monthly scheme update
+
+# 04:30 UTC on the 1st is 10:00 in India. "Run workflow" on the Actions tab
+# starts it by hand.
+on:
+  schedule:
+    - cron: "30 4 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check every link and page, apply the safe fixes
+        run: python3 backend/monthly_check.py --apply
+
+      - name: AI content update and translation (free Gemini tier)
+        if: env.GEMINI_API_KEY != ''
+        run: python3 backend/ai_update.py
+
+      # Up to 1% of any language may fall back to English rather than holding
+      # back a month's link fixes.
+      - name: Publish for the app
+        run: python3 backend/publish.py --min-coverage 99
+
+      # A commit every month also keeps GitHub from switching the schedule
+      # off, which it does after 60 days without activity.
+      - name: Commit
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Monthly update $(date +%Y-%m)" || echo "nothing changed"
+          git push

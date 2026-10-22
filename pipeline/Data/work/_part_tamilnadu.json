@@ -1,0 +1,573 @@
+{
+ "schemes": [
+  {
+   "id": "tn-smart-ration-card",
+   "title": "Smart Family Card — Tamil Nadu Ration Card",
+   "department": "Department of Food and Consumer Protection (Civil Supplies), Government of Tamil Nadu",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Tamil Nadu has replaced the old paper ration card with a QR-coded Smart Family Card, applied for on the TNPDS portal. It is the card you draw rations against at the fair price shop, and it is also the number the state asks for in other schemes, including the Rs 1,000 a month women's assistance. The same portal is used to add or remove a member, change the address or card type, and re-print a lost card.",
+   "benefit": "QR-coded Smart Family Card for the household, with monthly rations at the fair price shop",
+   "emoji": "🍚",
+   "colorHex": "#E65100",
+   "eligibility": [
+    "Family living in Tamil Nadu and not holding a ration card in any other state or district",
+    "One card per family, made in the name of the head of the family",
+    "The head of the family needs an Aadhaar with a working mobile linked to it, because every step is confirmed by OTP",
+    "A family moving in from another state must first surrender the old card there and bring the surrender certificate",
+    "Choose the card type honestly — rice card, sugar card or no-commodity card. The type decides what you can draw"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Mobile number linked to the head of the family's Aadhaar, for the OTP",
+    "Address proof — electricity bill, property tax receipt, rent agreement or gas connection book",
+    "Passport-size photograph of the head of the family",
+    "Surrender certificate from the earlier ration card, if the family held one",
+    "LPG gas connection number and the name of the agency, which the form asks for"
+   ],
+   "applyUrl": "https://www.tnpds.gov.in/",
+   "portalName": "TNPDS — Tamil Nadu Smart Ration Card portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Mobile Number",
+     "value": "90000 44712",
+     "hint": "The whole application opens on an OTP to this number, so use the mobile linked to the head of the family's Aadhaar."
+    },
+    {
+     "label": "Name of the Head of the Family",
+     "value": "Valarmathi Sundaram",
+     "hint": "Letter for letter as on Aadhaar. The card prints in this name and other schemes are matched against it."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Sundaram Karuppaiah",
+     "hint": "As written on Aadhaar. Do not use initials if the Aadhaar spells the name in full."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "12-07-1984",
+     "hint": "As on Aadhaar. The head of the family must be 18 or older."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4471 2038",
+     "hint": "Twelve digits, of the head of the family. Each member's Aadhaar is entered again further down."
+    },
+    {
+     "label": "Residential Address with District and Taluk",
+     "value": "14/3 Kamarajar Street, Thirumangalam, Madurai district, Madurai taluk — 625706",
+     "hint": "The address where the family actually lives. The ration shop you are attached to is decided from this."
+    },
+    {
+     "label": "Type of Card applied for",
+     "value": "Rice card",
+     "hint": "Rice card for rations, sugar card if you do not want rice, no-commodity card if you want the card only as proof."
+    },
+    {
+     "label": "Gas Connection Number and Agency",
+     "value": "TN/MDU/778201 — Indane, Thirumangalam",
+     "hint": "Copy it from the gas passbook. Leave blank only if the family truly has no connection."
+    },
+    {
+     "label": "Family Member details — name, Aadhaar, relation, age",
+     "value": "Sundaram Karuppaiah / 9999 6620 5513 / husband / 46; Anbarasi Sundaram / 9999 3318 7042 / daughter / 17",
+     "hint": "Add every person who eats from this household. Anyone left out cannot draw rations on the card."
+    },
+    {
+     "label": "Bank Account Number and IFSC of the head",
+     "value": "3388 7012 456 / IOBA0001342",
+     "hint": "In the head of the family's own name. Schemes paid against the family card, like the Rs 1,000 women's assistance, send money to this account."
+    }
+   ],
+   "demoSteps": [
+    "Open tnpds.gov.in, choose the smart card application, and pick Tamil or English before you start. An e-Sevai centre or your ration shop will file the same form for you.",
+    "Verify the mobile number by OTP, then fill the head of the family's details and add every member with their Aadhaar.",
+    "Upload the address proof and the photograph, and enter the gas connection details, then submit and write down the reference number.",
+    "The Taluk Supply Office checks the address, and an official may visit the house. Keep the Aadhaar cards ready for that visit.",
+    "Track the reference number on the same portal. An SMS comes to the registered mobile when the card is approved.",
+    "Download and print the smart card from the portal, then take it to the fair price shop you have been attached to and start drawing rations.",
+    "Later changes — a birth, a death, a marriage or a move — are made on the same login under member addition, deletion or address change."
+   ],
+   "helpline": "Your Taluk Supply Office, or the fair price shop the family is attached to",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "tn-magalir-urimai-thogai",
+   "title": "Kalaignar Magalir Urimai Thogai — Rs 1,000 a Month for Women Heads of Family",
+   "department": "Department of Cooperation, Food and Consumer Protection, Government of Tamil Nadu",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Women",
+   "mode": "offline",
+   "brief": "Tamil Nadu pays Rs 1,000 every month to one eligible woman head of family, sent straight to her own bank account. The whole scheme runs off the family card, so the woman's name must already be entered as head of the family on the smart ration card. Applications are taken at e-Sevai centres and ration shops, and the kmut.tn.gov.in portal is where you check status, log in as a beneficiary and file a complaint.",
+   "benefit": "Rs 1,000 a month, paid by DBT into the woman's own account",
+   "emoji": "👩",
+   "colorHex": "#C2185B",
+   "eligibility": [
+    "Woman whose name stands as head of the family on the Tamil Nadu smart family card",
+    "Only one woman per family card is paid, and she must be 21 or older",
+    "The family must not include an income-tax payer or a government employee or pensioner",
+    "Families holding more than 3.53 acres of wet land or 5 acres of dry land are left out",
+    "Families owning a four-wheeler, other than a taxi, an auto or a tractor, are left out",
+    "The bank account must be in the woman's own name and Aadhaar-seeded, since payment is by DBT"
+   ],
+   "documents": [
+    "Smart family card, with the applicant's name as head of the family",
+    "Aadhaar card of the applicant",
+    "Mobile number linked to that Aadhaar, for the OTP",
+    "Bank passbook in the applicant's own name, showing account number and IFSC",
+    "Passport-size photograph",
+    "Widow, deserted-wife or similar proof, only if the family card was changed on that ground"
+   ],
+   "applyUrl": "https://kmut.tn.gov.in/",
+   "portalName": "Kalaignar Magalir Urimai Thogai portal",
+   "formUrl": "",
+   "submitAt": "At an e-Sevai centre or at your fair price (ration) shop. Take the smart family card, Aadhaar and bank passbook. The list of e-Sevai centres is on kmut.tn.gov.in.",
+   "demoFields": [
+    {
+     "label": "Family Card Number",
+     "value": "33A2200765431",
+     "hint": "The number printed on the smart family card. Everything in this scheme is matched against it."
+    },
+    {
+     "label": "Name of the Applicant",
+     "value": "Kavitha Rajendran",
+     "hint": "Exactly as it stands on the family card. If the card and the Aadhaar differ, get the card corrected first."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 5083 1274",
+     "hint": "Twelve digits, the applicant's own. The OTP goes to the mobile linked to it."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "04-11-1979 — 46 years",
+     "hint": "As on Aadhaar. She must be at least 21 on the date of the application."
+    },
+    {
+     "label": "District / Taluk / Village or Ward",
+     "value": "Thanjavur / Orathanadu / Vandaiyar Iruppu",
+     "hint": "Where the family actually lives. The Village Administrative Officer of this area verifies the claim."
+    },
+    {
+     "label": "Bank Account Number",
+     "value": "6641 2200 893",
+     "hint": "In the applicant's own name. A joint account in the husband's name first will not receive the money."
+    },
+    {
+     "label": "IFSC Code",
+     "value": "IOBA0002217",
+     "hint": "Eleven characters, printed on the first page of the passbook."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 50831",
+     "hint": "The application number, the approval message and each month's credit message come here."
+    },
+    {
+     "label": "Declaration — income tax, government service, land, car",
+     "value": "No income-tax payer, no government servant or pensioner, 1.2 acres of dry land, no four-wheeler",
+     "hint": "Answer truthfully. These four answers are checked against records, and a false claim means recovery of the money paid."
+    }
+   ],
+   "demoSteps": [
+    "Check the smart family card first. If the woman's name is not entered as head of the family, get that changed on the TNPDS portal before anything else.",
+    "Apply at an e-Sevai centre or the fair price shop with the family card, Aadhaar and bank passbook. The list of centres is on the scheme portal at kmut.tn.gov.in/esevai-centers.html.",
+    "Collect the acknowledgement with the application number. Nothing can be traced without it.",
+    "The Village Administrative Officer or the ward officer verifies the family — land, vehicle, income tax and government service.",
+    "Track the application number under beneficiary login on kmut.tn.gov.in. It shows approved, rejected or under verification.",
+    "Once approved, Rs 1,000 is credited to the woman's account every month. Check the bank passbook, not the portal, to confirm the money arrived.",
+    "If the application is rejected or a month's payment does not come, file the grievance on the same portal or call 044-25619208."
+   ],
+   "helpline": "044-25619208 — Kalaignar Magalir Urimai Thogai helpline",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "tn-patta-chitta",
+   "title": "Patta Chitta — Tamil Nadu Land Record Extract",
+   "department": "Commissionerate of Land Administration, Revenue and Disaster Management Department, Government of Tamil Nadu",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "The patta names the holder of a piece of land and the chitta says what kind of land it is. Tamil Nadu puts both online on the Revenue Department's e-Services site, along with the A-Register extract, the FMB field sketch and the TSLR extract. Viewing your own record costs nothing and needs no login; the same site is where you apply for a transfer of registry after a sale or a death, and where you verify that a patta someone shows you is genuine.",
+   "benefit": "Free online patta, chitta, A-Register and FMB sketch, and online transfer of registry",
+   "emoji": "🌾",
+   "colorHex": "#2E7D32",
+   "eligibility": [
+    "Land situated in Tamil Nadu and entered in the revenue record",
+    "Anyone may view a patta or chitta free; no login is needed to look",
+    "Only the recorded holder or a legal heir can apply for a transfer of registry or a sub-division",
+    "A transactional request needs a mobile OTP, so keep the phone in hand",
+    "Town and city land sits in Urban TamilNilam and village land in rural TamilNilam — pick the right one or the search returns nothing"
+   ],
+   "documents": [
+    "District, taluk and village name of the land",
+    "Survey number and sub-division number, or the patta number",
+    "Aadhaar card, for a transfer of registry or a sub-division request",
+    "Registered sale deed, for a transfer after a purchase",
+    "Death certificate and legal heir certificate, for a transfer after a death",
+    "Encumbrance certificate for the plot, which the taluk office usually asks to see"
+   ],
+   "applyUrl": "https://eservices.tn.gov.in/eservicesnew/index.html",
+   "portalName": "Tamil Nadu Anytime / Anywhere e-Services (TamilNilam)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Area type — rural or urban",
+     "value": "Rural",
+     "hint": "Village land goes to rural TamilNilam, land inside a town or corporation goes to Urban TamilNilam. Choosing wrong is the commonest reason a search fails."
+    },
+    {
+     "label": "District",
+     "value": "Tirunelveli",
+     "hint": "Pick from the list. Use the district as it stands today — several Tamil Nadu districts have been split."
+    },
+    {
+     "label": "Taluk",
+     "value": "Ambasamudram",
+     "hint": "The taluk the land falls in, not the one you live in."
+    },
+    {
+     "label": "Village",
+     "value": "Kallidaikurichi",
+     "hint": "Revenue village name as written in the record, which can differ from the post office name."
+    },
+    {
+     "label": "Search by",
+     "value": "Survey number",
+     "hint": "Survey number or patta number. The survey number gives the cleanest result; a patta number pulls every plot under that patta."
+    },
+    {
+     "label": "Survey Number",
+     "value": "142",
+     "hint": "Copy it from the sale deed or an older patta, exactly as printed."
+    },
+    {
+     "label": "Sub-Division Number",
+     "value": "3B",
+     "hint": "The part after the survey number. Leave it out and the site asks you to choose from the list it shows."
+    },
+    {
+     "label": "Patta Number",
+     "value": "1176",
+     "hint": "Needed if you search by patta instead of survey number. It is printed at the top of any earlier patta copy."
+    },
+    {
+     "label": "Name of the Pattadar as recorded",
+     "value": "Murugesan Thangavel, son of Thangavel Pandian",
+     "hint": "Check the name that comes up against your own papers. Revenue spelling often differs from Aadhaar — note the difference and get it corrected."
+    },
+    {
+     "label": "Mobile Number (for a transfer of registry)",
+     "value": "90000 71265",
+     "hint": "The OTP, the application number and the hearing notice from the taluk office all come here."
+    }
+   ],
+   "demoSteps": [
+    "Open eservices.tn.gov.in, choose the patta and chitta view, and say whether the land is rural or urban.",
+    "Pick district, taluk and village, then search by survey number or patta number and read the extract on screen. It is free and needs no login.",
+    "Check the extent, the holder's name and the classification of the land against your deed. Note anything that does not match.",
+    "Use the verification option on the same site to confirm a patta someone has shown you — enter the reference number printed on it and see whether the record answers.",
+    "If a sale or a death has not been entered, apply for the transfer of registry with the registered deed or the legal heir certificate, online or at the taluk office or an e-Sevai centre.",
+    "Track the application at eservices.tn.gov.in/eservicesnew/login/Appstatus.html. The Village Administrative Officer and the Tahsildar verify it and may call a hearing.",
+    "Keep a current patta and chitta with your papers — crop loans, PM-Kisan, farm subsidies and any sale all start by asking for them."
+   ],
+   "helpline": "Your Taluk Office (Tahsildar), or the Village Administrative Officer of your revenue village",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "tn-new-electricity-connection",
+   "title": "New Electricity Service Connection — TNPDCL",
+   "department": "Tamil Nadu Power Distribution Corporation Limited (TNPDCL), the former TANGEDCO distribution wing",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "A new electricity connection for a house, a shop, a workshop or a farm pump is applied for online on the NSC Online portal, without going to the section office first. The application is filed, the fee paid and the reference number issued on the site; the section officer then inspects the premises and raises the demand. Distribution has been split out of TANGEDCO into TNPDCL, so the old tangedco.org site now only shows a migration notice.",
+   "benefit": "New LT service connection, with online application, fee payment and status tracking",
+   "emoji": "💡",
+   "colorHex": "#F9A825",
+   "eligibility": [
+    "Premises inside Tamil Nadu, in the area of a TNPDCL section office",
+    "Applicant must own the premises or have the owner's written consent",
+    "Connected load up to 150 kW is an LT connection; anything larger is an HT application",
+    "House wiring must be finished and tested by a licensed wiring contractor before the inspection",
+    "There must be no unpaid electricity dues standing against the same premises"
+   ],
+   "documents": [
+    "Proof of ownership — patta, registered sale deed or the latest property tax receipt",
+    "Owner's written consent and the rent agreement, if you are a tenant",
+    "Aadhaar card or another photo ID of the applicant",
+    "Wiring completion and test report from a licensed wiring contractor",
+    "Approved building plan, for a new building",
+    "Passport-size photograph of the applicant",
+    "The service connection number of a neighbouring service, which helps the section office locate the premises"
+   ],
+   "applyUrl": "https://app1.tangedco.org/nsconline/Nsctype?appl=N",
+   "portalName": "NSC Online — TNPDCL new service connection portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "District / Circle / Section Office",
+     "value": "Coimbatore / Coimbatore Metro North / Saravanampatti",
+     "hint": "The section office that covers the street where the meter is to be fixed, not where you live now."
+    },
+    {
+     "label": "Type of Service Connection",
+     "value": "Domestic (LT-IA)",
+     "hint": "Domestic for a house, commercial for a shop, industrial for a workshop, agricultural for a pump set. The tariff follows this choice."
+    },
+    {
+     "label": "Name of the Applicant",
+     "value": "Meenakshi Raghavan",
+     "hint": "The name that will stand on the electricity bill. Keep it the same as on the ownership document to avoid a name-transfer later."
+    },
+    {
+     "label": "Address of the Premises",
+     "value": "New Door 27, Ganapathy Nagar 2nd Street, Saravanampatti, Coimbatore — 641035",
+     "hint": "The full door number and street of the building needing supply. The inspecting officer comes to this address."
+    },
+    {
+     "label": "Connected Load in kW",
+     "value": "3 kW",
+     "hint": "Add up the fans, lights, pump, fridge and heater you will run. Declaring too little means a penalty and a load enhancement later."
+    },
+    {
+     "label": "Ownership Document details",
+     "value": "Patta 1176, Survey 142/3B, Coimbatore Corporation property tax assessment 27-0045-2210",
+     "hint": "Give the document you are uploading — patta, sale deed or tax receipt — with its number."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2276 6014",
+     "hint": "Twelve digits. The service connection can also be Aadhaar-seeded later from the TNPDCL online services page."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 22766",
+     "hint": "The Application Reference Number, the inspection visit and the demand notice all come here by SMS."
+    },
+    {
+     "label": "Email Address",
+     "value": "meenakshi.raghavan@example.com",
+     "hint": "The copy of the application and the payment receipt are emailed here."
+    },
+    {
+     "label": "Application Reference Number (issued after submission)",
+     "value": "CBE/NSC/2026/0044127",
+     "hint": "Write it down. It is also your username on the payment portal, with the registered mobile number as the password."
+    }
+   ],
+   "demoSteps": [
+    "Get the wiring finished and the contractor's test report ready first — the connection is held up at inspection without it.",
+    "Open app1.tangedco.org/nsconline, register with your mobile number and email, and fill the application, choosing the correct district, circle and section.",
+    "Upload the ownership proof, the ID proof and the wiring test report, pay the registration fee online, and save the Application Reference Number.",
+    "The section officer inspects the premises, usually within a few days, and then raises the demand for the deposit and service charges.",
+    "Pay the demand on the consumer portal at www.tnebnet.org/awp/login, using the Application Reference Number as the username and the registered mobile number as the password.",
+    "The meter is fixed and supply given after the payment clears, and you receive the service connection number — keep it, every future bill and complaint runs on it.",
+    "Pay bills afterwards through the same consumer portal, or without logging in through Quick Pay at www.tnebnet.org/qwp/qpay."
+   ],
+   "helpline": "Your TNPDCL section office; if it does not act, file a Consumer Grievance Redressal Forum petition at https://www.tnebltd.gov.in/cgrfonline/",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://app1.tangedco.org/nsconline/",
+   "applyKind": "form"
+  },
+  {
+   "id": "tn-tnpsc-recruitment",
+   "title": "TNPSC — One Time Registration and Group Examinations",
+   "department": "Tamil Nadu Public Service Commission",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "Every Tamil Nadu government job filled through the Public Service Commission — Group I, Group II and IIA, Group IV and VAO, engineering and statistical services — is applied for through one account called the One Time Registration. The OTR costs Rs 150, stays valid for five years, and must exist before you can apply to any notification. No certificates are uploaded at the registration stage; they are checked much later, at certificate verification.",
+   "benefit": "One account for every TNPSC recruitment, Rs 150 and valid five years",
+   "emoji": "📝",
+   "colorHex": "#1565C0",
+   "eligibility": [
+    "Minimum age 18 for most posts; the upper age limit changes with the post and the community, so read the notification",
+    "The educational qualification is fixed per post — SSLC or higher for Group IV, a degree for Group I and Group II",
+    "Ability to read and write Tamil is required for most posts",
+    "One person may hold only one One Time Registration; a second one gets the candidate debarred",
+    "The registration must be renewed after five years, or the account stops accepting applications"
+   ],
+   "documents": [
+    "SSLC certificate, which is the proof of date of birth TNPSC accepts",
+    "Degree or diploma certificates for the post applied to",
+    "Community certificate, for a candidate claiming SC, ST, MBC, BC or BCM",
+    "Aadhaar card",
+    "Recent passport-size photograph and signature, scanned in the size the site asks for",
+    "A working email address and mobile number, both verified by OTP",
+    "Certificate of physical disability or ex-serviceman papers, if a reserved category is claimed"
+   ],
+   "applyUrl": "https://apply.tnpscexams.in/registration?app_id=UElZMDAwMDAwMQ==",
+   "portalName": "TNPSC portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Name of the Candidate (as in SSLC)",
+     "value": "Arun Prakash Selvaraj",
+     "hint": "Exactly as printed on the SSLC certificate, not as on Aadhaar. A mismatch is caught at certificate verification and costs the job."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Selvaraj Ponnusamy",
+     "hint": "As on the SSLC certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "22-05-2001",
+     "hint": "As on the SSLC certificate. The age limit for the post is counted from this date."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 7104 2295",
+     "hint": "Twelve digits. It is used to make sure one person does not hold two registrations."
+    },
+    {
+     "label": "Community",
+     "value": "MBC",
+     "hint": "Pick the community entered on your community certificate. Fee concession and the age relaxation both follow this."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.Sc Mathematics, 2022, Madurai Kamaraj University",
+     "hint": "Enter the highest qualification you have already completed. A degree you are still studying for cannot be claimed."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 71042",
+     "hint": "Verified by OTP at registration. Every notification alert and hall ticket message comes here."
+    },
+    {
+     "label": "Email Address",
+     "value": "arun.selvaraj@example.com",
+     "hint": "Also OTP verified. The TNPSC registration number is sent here — keep this address alive for five years."
+    },
+    {
+     "label": "Photograph and Signature upload",
+     "value": "Photo 200 KB JPG, signature 200 KB JPG",
+     "hint": "Recent photo against a plain background, signature in black ink on white paper. A rejected photo blocks the whole application."
+    },
+    {
+     "label": "District of Residence / Examination Centre preference",
+     "value": "Madurai",
+     "hint": "Choose a centre you can reach on the exam morning. It cannot be changed after the application closes."
+    }
+   ],
+   "demoSteps": [
+    "Open tnpsc.gov.in and create the One Time Registration, verifying the email and mobile by OTP. The live registration module runs on apply.tnpscexams.in, reached from the homepage.",
+    "Fill in the personal, community and educational details, upload the photograph and signature, and pay the Rs 150 registration fee. No certificates are uploaded at this stage.",
+    "Note the TNPSC registration number and password. The registration lasts five years and is used for every application after this.",
+    "When a notification you qualify for opens, log in to the dashboard, apply against it, and pay the examination fee or claim the exemption your community allows.",
+    "Download the hall ticket about ten days before the exam from tnpsc.gov.in/english/viewhallticket.aspx and carry it with a photo ID.",
+    "Answer keys and results come to the same dashboard. Candidates who clear the written stage are called for certificate verification, where the SSLC, degree and community certificates are checked in original.",
+    "Keep the registration up to date — an address, qualification or community change must be entered in the OTR before the next application, and the whole registration must be renewed at five years."
+   ],
+   "helpline": "The TNPSC office in Chennai, through the query and grievance link on the TNPSC website",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://www.tnpsc.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "tn-encumbrance-certificate",
+   "title": "Encumbrance Certificate and Document Registration — TNREGINET",
+   "department": "Registration Department, Government of Tamil Nadu",
+   "level": "State",
+   "state": "Tamil Nadu",
+   "category": "Housing",
+   "mode": "online",
+   "brief": "The encumbrance certificate lists every sale, mortgage and court attachment recorded against a property for the years you ask about. It is the paper every bank asks for before a home loan and every buyer should read before paying. Tamil Nadu issues it free online on TNREGINET, which is also where a first sale of a plot or flat can be registered without going to the sub-registrar's office, where stamp duty is paid, and where a marriage is registered.",
+   "benefit": "Free online encumbrance certificate, plus online document and marriage registration",
+   "emoji": "🏠",
+   "colorHex": "#6D4C41",
+   "eligibility": [
+    "Property situated in Tamil Nadu and registered with a sub-registrar office in the state",
+    "Anyone may search and take an encumbrance certificate; you need not be the owner",
+    "The certificate covers only the period you ask for, so give a range long enough for the bank",
+    "Online presenceless registration is open for a first sale of a plot or flat and for a deposit of title deeds",
+    "Registration and marriage registration need a citizen account with mobile or email verification and Aadhaar eKYC"
+   ],
+   "documents": [
+    "Survey number and sub-division number of the property",
+    "Village and sub-registrar office the property falls under",
+    "Patta or the earlier sale deed, to copy those details from",
+    "Aadhaar card, for registering an account or for eKYC",
+    "Mobile number and email for the account and the OTP",
+    "Earlier document number, if you are tracing a particular deed"
+   ],
+   "applyUrl": "https://tnreginet.gov.in/portal/webHP?requestType=ApplicationRH&actionVal=openEncumbranceCertSearch&screenId=8400001&scenarioId=2&menuCode=8400010&auditUSFlag=true",
+   "portalName": "TNREGINET — Tamil Nadu Registration portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Zone",
+     "value": "Thanjavur",
+     "hint": "The registration zone the property falls in. The site narrows the next lists from this."
+    },
+    {
+     "label": "District",
+     "value": "Thanjavur",
+     "hint": "District as it stands today, which may differ from the district named on an old deed."
+    },
+    {
+     "label": "Sub Registrar Office",
+     "value": "Orathanadu",
+     "hint": "The office where documents for that village are registered. If unsure, check the office named on the last sale deed."
+    },
+    {
+     "label": "EC Start Date",
+     "value": "01-01-2000",
+     "hint": "Go back far enough. Banks usually ask for thirteen or thirty years, so start well before you think you need to."
+    },
+    {
+     "label": "EC End Date",
+     "value": "28-09-2026",
+     "hint": "Today's date, so that the certificate shows anything registered right up to now."
+    },
+    {
+     "label": "Village",
+     "value": "Vandaiyar Iruppu",
+     "hint": "Revenue village of the property, spelt as the registration record has it."
+    },
+    {
+     "label": "Survey Number",
+     "value": "142",
+     "hint": "Copy from the patta or the sale deed, exactly as printed."
+    },
+    {
+     "label": "Sub-Division Number",
+     "value": "3B",
+     "hint": "The part number after the survey number. Leave it blank and the search returns every plot in that survey number."
+    },
+    {
+     "label": "Applicant Name and Mobile Number",
+     "value": "Murugesan Thangavel — 90000 71265",
+     "hint": "For your own reference and for the OTP. You do not have to be the owner to take an encumbrance certificate."
+    }
+   ],
+   "demoSteps": [
+    "Open tnreginet.gov.in and register a citizen account with your mobile number and email, verified by OTP. Searching an encumbrance certificate is free.",
+    "Under e-Services choose the encumbrance certificate search, then pick zone, district and sub-registrar office.",
+    "Enter the village, survey number and sub-division number, and the start and end dates of the period you want, then run the search.",
+    "Read every entry that comes up — sales, mortgages, attachments. A blank result means nothing was registered in that period, which is itself worth printing.",
+    "Download the certificate and keep it. A bank will usually want it to run right up to the current date, so take a fresh one when the loan is filed.",
+    "For a first sale of a plot or flat, use presenceless registration on the same portal, pay stamp duty and fees online, and track the document by its status number.",
+    "If a search will not run or an entry looks wrong, call 1800 102 5174 or ask at the sub-registrar office named above."
+   ],
+   "helpline": "1800 102 5174 — TNREGINET helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://tnreginet.gov.in/",
+   "applyKind": "form"
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "schemes": [
+  {
+   "id": "dd-sugam",
+   "title": "SUGAM — Revenue and Citizen Services, DNH and Daman & Diu",
+   "department": "Administration of Dadra and Nagar Haveli and Daman and Diu",
+   "level": "State",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "SUGAM is the single window of the union territory for revenue and citizen services — income, residence, caste and domicile certificates, land records, and a range of departmental applications across Silvassa, Daman and Diu.",
+   "benefit": "Income, residence, caste and domicile certificates and land records in one place",
+   "emoji": "⛵",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Dadra and Nagar Haveli or of Daman and Diu",
+    "A residence or domicile certificate needs proof the family has lived in the territory for the qualifying period",
+    "A Scheduled Tribe certificate is issued for the tribes notified for this territory",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Electricity bill or rent agreement for the address",
+    "Father's caste or tribe certificate, for a caste certificate",
+    "School leaving certificate for date of birth",
+    "Salary certificate or an affidavit of income",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://sugam.dddgov.in/login",
+   "portalName": "SUGAM DNH and Daman & Diu",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Residence Certificate",
+     "hint": "Income, residence, domicile, caste or tribe certificate, or a land record. Each has its own form."
+    },
+    {
+     "label": "District",
+     "value": "Dadra and Nagar Haveli — Silvassa",
+     "hint": "Dadra and Nagar Haveli, Daman, or Diu. The Mamlatdar of that district handles the file."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Kiran Rameshbhai Patel",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Rameshbhai Govindbhai Patel",
+     "hint": "Used to identify the family; essential for a caste or tribe certificate."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6614 0273",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "Full address",
+     "value": "Amli, Silvassa, Dadra and Nagar Haveli 396230",
+     "hint": "Where you actually live. The verification is done at this address."
+    },
+    {
+     "label": "Years resident in the territory",
+     "value": "Since 2006",
+     "hint": "For a residence or domicile certificate. The ration card, school records or an old bill are what prove it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,68,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 66140",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on sugam.dddgov.in with your mobile and confirm the OTP, or use a Common Service Centre in Silvassa, Daman or Diu.",
+    "Choose the certificate, pick your district, and fill the form from your Aadhaar and ration card.",
+    "Upload the documents, pay the fee, and note the application number from the acknowledgement.",
+    "The Talati or the revenue staff verify the household at the address.",
+    "The Mamlatdar signs the certificate and it is downloaded from the same login.",
+    "If it is delayed, quote the application number at the Mamlatdar's office of your district, and then to the Collector."
+   ],
+   "helpline": "Your Mamlatdar's office at Silvassa, Daman or Diu",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://sugam.dddgov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "dd-single-window",
+   "title": "DNH and Daman & Diu Single Window Business Clearances",
+   "department": "Department of Industries, DNH and Daman & Diu",
+   "level": "State",
+   "state": "Dadra & Nagar Haveli and Daman & Diu",
+   "category": "Business",
+   "mode": "online",
+   "brief": "One portal for the permissions a business needs in this union territory — trade licence, factory registration, pollution board consent, fire safety, labour registrations and building approval — instead of going department by department. It is the main reason small units set up here.",
+   "benefit": "Every clearance a new business needs, applied for and tracked in one place",
+   "emoji": "🏭",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "A business proposing to set up or already operating in Dadra and Nagar Haveli or Daman and Diu",
+    "A proprietor, partner or director applying for the firm",
+    "PAN of the business and, where registered, the GST number",
+    "Land or premises identified, since most clearances are tied to the address"
+   ],
+   "documents": [
+    "PAN card of the business and of the applicant",
+    "Aadhaar card of the proprietor, partner or director",
+    "Proof of the premises — sale deed, lease or rent agreement",
+    "Partnership deed or certificate of incorporation",
+    "Project report with the proposed activity and investment",
+    "Building plan, for a factory or a construction approval",
+    "GST registration certificate, where the business holds one"
+   ],
+   "applyUrl": "https://swp.dddgov.in/registration",
+   "portalName": "EODB Single Window Portal, DNH and Daman & Diu",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Clearances applied for",
+     "value": "Trade licence and pollution board consent to establish",
+     "hint": "Tick every clearance the business needs. The portal shows which ones your activity requires once you pick it."
+    },
+    {
+     "label": "Name of the business",
+     "value": "Shree Krupa Plastics",
+     "hint": "Exactly as on the PAN and the partnership deed or incorporation certificate."
+    },
+    {
+     "label": "Constitution",
+     "value": "Partnership firm",
+     "hint": "Proprietorship, partnership, LLP or company. It decides which documents are asked for next."
+    },
+    {
+     "label": "PAN of the business",
+     "value": "AABFS1234M",
+     "hint": "From the PAN card of the firm, not of the partner."
+    },
+    {
+     "label": "Applicant name and Aadhaar",
+     "value": "Kiran Rameshbhai Patel — 9999 6614 0273",
+     "hint": "The partner or director who will sign. Their Aadhaar is used to authenticate every submission."
+    },
+    {
+     "label": "Premises address and survey number",
+     "value": "Plot 42, Masat Industrial Estate, Silvassa, survey 118/3",
+     "hint": "Most clearances are tied to the address, so it must match the lease or the sale deed."
+    },
+    {
+     "label": "Proposed activity",
+     "value": "Injection moulding of plastic household goods",
+     "hint": "Describe it plainly. The pollution category and the fire requirement are decided from this."
+    },
+    {
+     "label": "Proposed investment and employment",
+     "value": "Rs.85,00,000; 24 workers",
+     "hint": "Used to work out the incentive category and the labour registrations that apply."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 66140 / accounts@shreekrupa.example.com",
+     "hint": "Every department's query and approval comes here. Use an address somebody checks daily."
+    }
+   ],
+   "demoSteps": [
+    "Register the business on swp.dddgov.in with its PAN and the applicant's Aadhaar, and confirm the OTP.",
+    "Enter the activity and the premises. The portal then lists exactly which clearances your business needs — do not guess at them.",
+    "Fill the common application form once; the portal sends the shared details to every department instead of making you repeat them.",
+    "Upload the deed or lease, the constitution documents, the project report and the building plan, and pay the fees online.",
+    "Track each department's status against the single application number. A query from any department appears there and must be answered from the same login.",
+    "Download each approval as it is issued. Keep them together — an inspection later will ask for all of them at once.",
+    "Where a clearance is not decided within its notified time, the territory's deemed-approval rules may apply. Raise it with the Department of Industries with the application number."
+   ],
+   "helpline": "Department of Industries, Silvassa — Single Window cell",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://swp.dddgov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "ga-goa-online",
+   "title": "Goa Online — Certificates and Government Services",
+   "department": "Government of Goa",
+   "level": "State",
+   "state": "Goa",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Goa Online is the state's single window. Residence and income certificates, birth and death records, scheme applications, licences and departmental payments are all filed here, and the same services are available across a counter at a Citizen Service Centre.",
+   "benefit": "Residence, income and other certificates and scheme applications in one place",
+   "emoji": "🏖",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Goa, applying in the taluka where you live",
+    "A residence certificate needs proof the family has lived in Goa for the qualifying period",
+    "Some schemes on the portal need fifteen years' residence in Goa; each says so on its own form",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Electricity bill or house tax receipt for the address",
+    "Birth certificate or school leaving certificate for date of birth",
+    "Salary certificate or Form 16, for an income certificate",
+    "Passport-size photograph and a scanned signature"
+   ],
+   "applyUrl": "https://goaonline.gov.in/Public/Login",
+   "portalName": "Goa Online",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Residence Certificate",
+     "hint": "Residence, income, caste, birth or death certificate, a scheme application, or a licence. Each has its own form and fee."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Savio Fernandes",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Caetano Fernandes",
+     "hint": "Used to identify the family in the taluka records."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2274 8810",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "Taluka / Village or Ward",
+     "value": "Salcete / Benaulim",
+     "hint": "Where you actually live. The Mamlatdar of this taluka signs the certificate."
+    },
+    {
+     "label": "Years resident in Goa",
+     "value": "Since birth — 1991",
+     "hint": "For a residence certificate. School records, the ration card or an old electricity bill are what prove it."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "3,00,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Purpose",
+     "value": "Application for a state government post",
+     "hint": "Recorded for the file. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 22748",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on goaonline.gov.in with your mobile and confirm the OTP, or go to a Citizen Service Centre, which files it across the counter.",
+    "Choose the service and fill the form from your Aadhaar and ration card.",
+    "Upload the documents, pay the fee online, and note the application number.",
+    "The talathi or the taluka staff verify the household at your address.",
+    "The Mamlatdar signs the certificate and it is downloaded from the same login.",
+    "If it runs past the time the service promises, quote the application number at the Mamlatdar's office and then to the Collector of your district."
+   ],
+   "helpline": "Your taluka Mamlatdar's office, or the Collectorate at Panaji or Margao",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://goaonline.gov.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

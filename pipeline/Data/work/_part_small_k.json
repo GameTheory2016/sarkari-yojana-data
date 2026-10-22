@@ -1,0 +1,278 @@
+{
+ "schemes": [
+  {
+   "id": "la-eseva",
+   "title": "Ladakh e-SEVA — Certificates and Citizen Services",
+   "department": "Administration of the Union Territory of Ladakh",
+   "level": "State",
+   "state": "Ladakh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Ladakh's own e-services portal, set up after the union territory was formed. Income, category, character and other certificates and departmental services are applied for here instead of travelling to Leh or Kargil, which in winter can mean waiting for a road to open.",
+   "benefit": "Income, category and other certificates applied for without travelling to the district headquarters",
+   "emoji": "🏜",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Ladakh, applying in the district — Leh or Kargil — where the family lives",
+    "A Scheduled Tribe certificate is issued for the tribes notified for Ladakh",
+    "A residence certificate needs proof the family has lived in the territory for the qualifying period",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Father's Scheduled Tribe certificate, for a tribe certificate",
+    "School certificate or birth certificate for date of birth",
+    "Certificate from the Numberdar or the village head",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://eseva.ladakh.gov.in/register",
+   "portalName": "Ladakh e-SEVA",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Income Certificate",
+     "hint": "Income, Scheduled Tribe, residence, character or a departmental service. Each has its own form and proof."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Stanzin Dolma",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Tsering Angchuk",
+     "hint": "Used to identify the family; essential for a tribe certificate."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4417 8802",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "District / Block / Village",
+     "value": "Leh / Chuchot / Chuchot Shamma",
+     "hint": "Where the family lives. The Tehsildar or the Sub-Divisional Magistrate of this area signs."
+    },
+    {
+     "label": "Numberdar or village head certificate",
+     "value": "Goba, Chuchot Shamma — signed and stamped",
+     "hint": "Most Ladakh certificates need it. Get it before you apply, since the village head may be hard to reach later."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,44,000",
+     "hint": "For an income certificate, the household's total for the year including farming and any tourism season work."
+    },
+    {
+     "label": "Purpose",
+     "value": "Scholarship application",
+     "hint": "Recorded for the file. It does not restrict where the certificate is used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44178",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the Numberdar's or village head's certificate first. Most Ladakh certificates rest on it.",
+    "Register on eseva.ladakh.gov.in with your mobile and confirm the OTP, or use a Common Service Centre.",
+    "Choose the certificate and fill the form from your Aadhaar and the ration card.",
+    "Upload the documents, pay any fee, and note the application number.",
+    "The tehsil staff verify the family, then the Tehsildar or the Sub-Divisional Magistrate signs.",
+    "Download the certificate from the same login. In winter, apply well before you need it — verification in the outlying blocks can be slow when roads are closed."
+   ],
+   "helpline": "Your Tehsildar's office, or the Deputy Commissioner's office at Leh or Kargil",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://eseva.ladakh.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "la-domicile",
+   "title": "Ladakh Domicile Certificate",
+   "department": "Revenue Department, Union Territory of Ladakh",
+   "level": "State",
+   "state": "Ladakh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The domicile certificate of Ladakh, which decides who can hold a state government post and buy land in the territory. It has its own portal, separate from the general e-services, and its own conditions on years of residence, study or government service.",
+   "benefit": "Ladakh domicile certificate, required for territory government posts and land",
+   "emoji": "🪪",
+   "colorHex": "#7B2FBE",
+   "eligibility": [
+    "Resident of Ladakh for the qualifying period, or a child of a government servant who served there for the required years",
+    "A person who studied in Ladakh for the qualifying years and sat Class 10 or Class 12 there also qualifies",
+    "Children of a Ladakh domicile holder qualify through the parent",
+    "One certificate per person; it does not expire"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Parent's domicile certificate or Permanent Resident Certificate, where claiming through a parent",
+    "School certificates showing the years studied in Ladakh",
+    "Ration card of the family",
+    "Revenue record or rent agreement showing residence",
+    "Government service certificate of the parent, where claiming on that ground",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://domicile.ladakh.gov.in/register",
+   "portalName": "Ladakh Domicile Certificate portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Ground of the domicile claim",
+     "value": "Resident of Ladakh for fifteen years",
+     "hint": "Residence for the qualifying period, study and examination in Ladakh, a parent's domicile, or a parent's government service. Say which one and attach its proof — this is what the whole application turns on."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Stanzin Dolma",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Mother's Name",
+     "value": "Tsering Angchuk",
+     "hint": "Where you are claiming through a parent, their name must match their own domicile or service certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "14-09-2002",
+     "hint": "As on the Class 10 certificate or the birth certificate you attach."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4417 8802",
+     "hint": "Twelve digits, of the applicant."
+    },
+    {
+     "label": "District / Tehsil / Village",
+     "value": "Leh / Leh / Chuchot Shamma",
+     "hint": "Where the family lives. The Tehsildar of this tehsil issues the certificate."
+    },
+    {
+     "label": "Years and place of residence or study",
+     "value": "Resident at Chuchot Shamma since 2004; Class 10 from Government High School, Chuchot, 2018",
+     "hint": "Be exact with the years and the school. This is the part the verifying officer actually checks."
+    },
+    {
+     "label": "Parent's certificate number, where claiming through a parent",
+     "value": "Not applicable — claiming on own residence",
+     "hint": "Fill it only if the claim runs through a parent's domicile or government service, and attach that certificate."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 44178",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Decide which ground you are claiming under and gather the proof for that ground before you start. Applying on the wrong ground is why most files come back.",
+    "Register on the domicile portal with your Aadhaar and mobile and confirm the OTP.",
+    "Fill the form, stating the years and the place of residence or study exactly, and upload the school certificates, the revenue record and the parent's certificate where relevant.",
+    "Submit and note the application number.",
+    "The patwari and the tehsil staff verify the claim on the ground. Be available at the address, since this verification is done in person.",
+    "The Tehsildar issues the certificate and it is downloaded from the portal.",
+    "Keep it safely. It does not expire, and territory government recruitment and land purchase both turn on it."
+   ],
+   "helpline": "Your Tehsildar's office, or the Deputy Commissioner's office at Leh or Kargil",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://domicile.ladakh.gov.in/landing",
+   "applyKind": "registration"
+  },
+  {
+   "id": "py-edistrict",
+   "title": "Puducherry e-District — Certificates and Services",
+   "department": "Government of Puducherry",
+   "level": "State",
+   "state": "Puducherry",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "Puducherry's e-District portal covers the certificates and services of the union territory's four regions — Puducherry, Karaikal, Mahe and Yanam. Income, community, nativity and residence certificates are applied for and downloaded here.",
+   "benefit": "Income, community, nativity and residence certificates applied for online",
+   "emoji": "🌊",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Puducherry, Karaikal, Mahe or Yanam",
+    "A nativity certificate needs proof the family has lived in the territory for the qualifying period",
+    "A community certificate needs the community to be on the Puducherry SC, ST, BC or MBC list",
+    "An income certificate is valid for one year"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Electricity bill or house tax receipt for the address",
+    "Father's community certificate, for a community certificate",
+    "School transfer certificate for date of birth and nativity",
+    "Income proof — salary certificate or an affidavit",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://edistrict.py.gov.in/Login.aspx",
+   "portalName": "e-District Puducherry",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Certificate applied for",
+     "value": "Community Certificate",
+     "hint": "Income, community, nativity, residence, birth or death. Each has its own form and proof."
+    },
+    {
+     "label": "Region",
+     "value": "Puducherry",
+     "hint": "Puducherry, Karaikal, Mahe or Yanam. The taluk office of that region handles the file."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Kavitha Ramalingam",
+     "hint": "Letter for letter as on Aadhaar. The certificate prints from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Ramalingam Perumal",
+     "hint": "For a community certificate this decides the case — community is traced through the father's family record."
+    },
+    {
+     "label": "Community claimed",
+     "value": "Most Backward Class (MBC)",
+     "hint": "Pick from the Puducherry list. SC, ST, BC and MBC are separate lists with separate benefits."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 8802 4417",
+     "hint": "Twelve digits. Identity is confirmed on this and the OTP goes to the linked mobile."
+    },
+    {
+     "label": "Taluk / Commune or Municipality / Street",
+     "value": "Puducherry / Oulgaret / Moolakulam",
+     "hint": "Where the family lives. The Tahsildar of this taluk signs the certificate."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,80,000",
+     "hint": "For an income certificate, the household's total for the year from every source."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 88024",
+     "hint": "The application number and the ready message come here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Register on edistrict.py.gov.in with your mobile and confirm the OTP, or use a Common Service Centre in your region.",
+    "Choose the certificate, pick your region, and fill the form from your Aadhaar and ration card.",
+    "Upload the documents. For a community certificate, the father's certificate is the paper that matters most.",
+    "Submit, pay the fee, and note the application number.",
+    "The Village Administrative Officer verifies the family, then the Tahsildar signs the certificate.",
+    "Download it from the same login and check the community name and your father's name at once."
+   ],
+   "helpline": "Your taluk Tahsildar's office, or the Collectorate of your region",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://edistrict.py.gov.in/",
+   "applyKind": "service-login"
+  }
+ ]
+}

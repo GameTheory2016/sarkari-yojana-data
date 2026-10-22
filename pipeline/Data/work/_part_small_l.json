@@ -1,0 +1,281 @@
+{
+ "schemes": [
+  {
+   "id": "py-old-age-pension",
+   "title": "Puducherry Old Age Pension",
+   "department": "Department of Social Welfare, Government of Puducherry",
+   "level": "State",
+   "state": "Puducherry",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "Puducherry pays a monthly pension to old people, widows, deserted wives, unmarried women above a certain age and people with disability. The application is made on paper at the Social Welfare office of your region and the money is credited to the pensioner's own bank account.",
+   "benefit": "Monthly pension credited to the pensioner's own bank account",
+   "emoji": "👵",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Resident of Puducherry, Karaikal, Mahe or Yanam for the qualifying period",
+    "Age 60 or above for the old-age pension; no age bar for the widow or disability pension",
+    "Family income within the limit the department sets, proved by an income certificate",
+    "Not drawing a government service pension or another social security pension",
+    "Disability of 40 per cent or more, certified by a government medical board, for the disability pension"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Ration card of the family",
+    "Age proof — birth certificate, school record or voter card",
+    "Income certificate from e-District",
+    "Nativity or residence certificate of Puducherry",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate showing 40 per cent or more, for a disability pension",
+    "Bank passbook in the applicant's own name and two photographs"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "Department of Social Welfare office of your region — Puducherry, Karaikal, Mahe or Yanam; the Commune Panchayat or Municipality office also forwards the application",
+   "demoFields": [
+    {
+     "label": "Type of pension applied for",
+     "value": "Old age pension",
+     "hint": "Old age, widow, deserted wife, unmarried woman above the prescribed age, or disability. Each has its own condition and certificate."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Lakshmi Ammal",
+     "hint": "As on Aadhaar. A spelling that differs from the bank record is why a sanctioned pension never arrives."
+    },
+    {
+     "label": "Husband's / Father's Name",
+     "value": "Late Ramalingam Perumal",
+     "hint": "Write 'Late' before the name where he has died; for a widow pension it must match the death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "02-02-1962 / 64 years",
+     "hint": "You must be 60 or above for the old-age pension on the date of application. Write the date as on the age proof you attach."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 4408 8021",
+     "hint": "Twelve digits. Payment and the yearly life certificate both run on this."
+    },
+    {
+     "label": "Ration Card Number",
+     "value": "PY-01-3317-4402",
+     "hint": "The household's card. Eligibility is judged against it."
+    },
+    {
+     "label": "Region / Taluk / Commune or Municipality",
+     "value": "Puducherry / Oulgaret / Moolakulam",
+     "hint": "Where you live. The Social Welfare office of this region processes the application."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "72,000",
+     "hint": "From the income certificate you attach. It must be within the department's limit."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "4417 8802 2113 / IOBA0000441",
+     "hint": "In the applicant's own name, not a son's or daughter's, and Aadhaar-seeded."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Left thumb impression of Lakshmi Ammal, 22-09-2026",
+     "hint": "A thumb impression is fully valid. The office staff attest it beside your mark."
+    }
+   ],
+   "demoSteps": [
+    "Collect the income certificate and the nativity certificate from e-District first, and the death or disability certificate if the pension needs one.",
+    "Get the pension application form free at the Social Welfare office of your region, or at your Commune Panchayat or Municipality office.",
+    "Fill it and attach Aadhaar, the ration card, the age proof, the certificates, the passbook copy and two photographs.",
+    "Hand it in and ask for a dated acknowledgement with its number. Without it you cannot follow the case.",
+    "The department verifies the applicant and the household's income, and may call you in or visit.",
+    "Once sanctioned, the pension is credited to the account each month. Check the first credit and tell the office at once if it does not arrive.",
+    "Give the life certificate each year when the department asks, or the payment stops."
+   ],
+   "helpline": "Department of Social Welfare, Government of Puducherry",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "mn-empsc",
+   "title": "Manipur Public Service Commission Recruitment",
+   "department": "Manipur Public Service Commission",
+   "level": "State",
+   "state": "Manipur",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Manipur Public Service Commission recruits for the state civil service and for the gazetted posts of the state departments. Every advertisement is applied for through its online application system.",
+   "benefit": "One online profile for every Manipur PSC advertisement",
+   "emoji": "💃",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen who is ordinarily a resident of Manipur for the posts that require it",
+    "Age as the advertisement states, usually 21 to 38, with relaxation for SC, ST, OBC and disability",
+    "The qualification the advertisement requires, complete on its closing date",
+    "Each advertisement sets its own conditions; read that one before paying"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Class 10 certificate for date of birth",
+    "Degree certificate and marksheets",
+    "Manipur caste or tribe certificate, for a reserved category",
+    "Permanent residence certificate of Manipur",
+    "Employment exchange registration, where the advertisement asks for it",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://empsconline.gov.in/notice.aspx",
+   "portalName": "eMPSC Online Manipur",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Advertisement and post applied for",
+     "value": "Manipur Civil Services Combined Competitive Examination",
+     "hint": "One application per advertisement. Read the qualification and the age limit there before paying."
+    },
+    {
+     "label": "Candidate Name (as on Class 10 certificate)",
+     "value": "Thoibi Devi Laishram",
+     "hint": "The Class 10 certificate governs, not Aadhaar, where the two differ."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Laishram Ibomcha Singh",
+     "hint": "As on the Class 10 certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "17-01-1997",
+     "hint": "As on the Class 10 certificate. Age limits count from this date."
+    },
+    {
+     "label": "Category claimed",
+     "value": "OBC — Manipur",
+     "hint": "Claim only what you hold a Manipur certificate for. A certificate from another state is not accepted for the reservation."
+    },
+    {
+     "label": "Permanent residence certificate number",
+     "value": "IMW/PRC/2019/02217",
+     "hint": "Required for most Manipur state posts. Get it from the district administration before the closing date."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "M.A. Political Science, Manipur University, 2020, 68%",
+     "hint": "It must be complete on the advertisement's closing date."
+    },
+    {
+     "label": "Examination centre",
+     "value": "Imphal",
+     "hint": "Give a choice where the advertisement asks for one."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 22174 / thoibi.l@example.com",
+     "hint": "The application number, admit card and every notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the permanent residence certificate and, for a reserved category, the Manipur caste or tribe certificate before the closing date.",
+    "Register on empsconline.gov.in with your name and date of birth exactly as on the Class 10 certificate.",
+    "Open the advertisement, apply through the same login, upload the photograph and signature in the sizes stated, and pay the fee.",
+    "Print the filled application and keep it with the payment receipt until the recruitment ends.",
+    "Download the admit card from the same login and take it with a photo ID.",
+    "Results are published on the Commission's site. Document verification is last, where the originals of everything claimed must be produced."
+   ],
+   "helpline": "Manipur Public Service Commission, Imphal",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://empsconline.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "mn-ration-card",
+   "title": "Manipur Ration Card",
+   "department": "Department of Consumer Affairs, Food and Public Distribution, Manipur",
+   "level": "State",
+   "state": "Manipur",
+   "category": "Utilities",
+   "mode": "offline",
+   "brief": "The NFSA ration card in Manipur, in two kinds — Antyodaya for the poorest households and Priority Household for the rest. New cards, additions and corrections are applied for on paper at the district's Food and Civil Supplies office or through the sub-divisional officer.",
+   "benefit": "5 kg foodgrain per person per month; 35 kg per family for an Antyodaya card",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Manipur and holding no ration card elsewhere in India",
+    "Household inside the state's NFSA list and not excluded by income, land or government service",
+    "A woman of the household aged 18 or above is recorded as head of the family",
+    "Every member's Aadhaar must be given; a name without Aadhaar draws no ration"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Address proof — electricity bill, house tax receipt or a certificate from the village authority",
+    "Deletion certificate from the earlier card, where the family or a member has moved",
+    "Birth certificate for a newborn, or marriage certificate for a bride",
+    "Income certificate or a self-declaration of income",
+    "Passport photograph of the head of the family"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "District Food and Civil Supplies office, or the Sub-Divisional Officer of your sub-division; the village authority or Pradhan forwards it in rural areas",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "New ration card",
+     "hint": "New card, add a member, remove a member, or correct a detail. Each needs a different set of papers."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Thoibi Devi Laishram",
+     "hint": "A woman of the household aged 18 or above. The card is issued in her name."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 2217 4408",
+     "hint": "Twelve digits. The family's whole entitlement is tracked against this."
+    },
+    {
+     "label": "Members of the family (name, relation, age, Aadhaar)",
+     "value": "1. Thoibi Devi Laishram, self, 29, 9999 2217 4408; 2. Ibomcha Singh, husband, 33, 9999 8041 3327; 3. Chaoba Singh, son, 4, 9999 5570 1128",
+     "hint": "Everyone who eats from the same kitchen, one per line. The grain is counted per name, so a missing member costs the family every month."
+    },
+    {
+     "label": "Category applied for",
+     "value": "Priority Household",
+     "hint": "Antyodaya only if the household is on that list. When unsure, ask for Priority Household; the office reclassifies if needed."
+    },
+    {
+     "label": "District / Sub-division / Village or Ward",
+     "value": "Imphal West / Lamphelpat / Langjing",
+     "hint": "Where the family lives. The fair price shop is allotted from this address."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "90,000",
+     "hint": "The household's total for the year. It decides the category."
+    },
+    {
+     "label": "Village authority or Pradhan recommendation",
+     "value": "Chairman, Langjing Village Authority — signed and stamped",
+     "hint": "In rural Manipur the village authority's recommendation is what carries the application forward."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Thoibi Devi Laishram, 22-09-2026",
+     "hint": "Sign or put your thumb impression, and write the date yourself."
+    }
+   ],
+   "demoSteps": [
+    "Get the application form free at the district Food and Civil Supplies office or from your Sub-Divisional Officer.",
+    "Fill it in ink listing every member who eats from the same kitchen, with each one's exact Aadhaar number.",
+    "Attach Aadhaar copies, the address proof, the income declaration and, where someone has moved in, the deletion certificate from the old card.",
+    "In a rural area, get the village authority's or Pradhan's recommendation before you submit.",
+    "Hand the file in and ask for a dated acknowledgement with its number.",
+    "The supply inspector verifies the household at your address, and the category is decided at this stage.",
+    "Collect the card and check every name, age and Aadhaar on it before leaving the counter, then get each member's Aadhaar seeded at the fair price shop."
+   ],
+   "helpline": "1967 — Food and Public Distribution toll free; your District Food and Civil Supplies office",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

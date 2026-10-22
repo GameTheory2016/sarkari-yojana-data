@@ -1,0 +1,282 @@
+{
+ "schemes": [
+  {
+   "id": "wb-banglarbhumi",
+   "title": "Banglarbhumi — West Bengal Land Records and Mutation",
+   "department": "Land and Land Reforms Department, Government of West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Agriculture",
+   "mode": "online",
+   "brief": "Banglarbhumi is where a West Bengal landholder sees the khatian, the record of rights, and the plot information, and applies online for a mutation after a purchase or a death in the family. Land conversion and the plot map are on the same site.",
+   "benefit": "Khatian and plot records online, with mutation, inheritance and conversion applications",
+   "emoji": "🧾",
+   "colorHex": "#8D6E63",
+   "eligibility": [
+    "Land situated in West Bengal and entered in the record of rights",
+    "Anyone may view a khatian or plot record; only the holder or an heir can apply to change one",
+    "A mutation on sale needs the registered deed; one on inheritance needs the death certificate and heirship papers",
+    "Mobile number and email, since the application is tracked against them"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Registered sale deed, for a mutation on purchase",
+    "Death certificate and legal heir certificate, for a warishan mutation",
+    "Existing khatian or parcha",
+    "Latest land revenue receipt",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://banglarbhumi.gov.in/",
+   "portalName": "Banglarbhumi",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Service wanted",
+     "value": "Warishan (inheritance) mutation",
+     "hint": "Know your property, mutation application, warishan mutation, conversion, or plot map. Pick the one that matches what happened to the land."
+    },
+    {
+     "label": "District / Block / Mouza",
+     "value": "Nadia / Chakdaha / Ghetugachhi",
+     "hint": "Pick all three from the lists. The record is held mouza by mouza."
+    },
+    {
+     "label": "Khatian Number",
+     "value": "1147",
+     "hint": "From the parcha or an older khatian. It covers every plot you hold in that mouza."
+    },
+    {
+     "label": "Plot (Dag) Number",
+     "value": "2208",
+     "hint": "Copy it exactly from the deed or the parcha. A wrong dag number pulls up somebody else's land."
+    },
+    {
+     "label": "Recorded Owner's Name",
+     "value": "Late Nitai Chandra Mondal",
+     "hint": "Spelt as on the land record, which may differ from Aadhaar. Search the record's spelling first."
+    },
+    {
+     "label": "Applicant's relation to the recorded owner",
+     "value": "Daughter of the deceased recorded owner",
+     "hint": "For a warishan mutation, say the relationship and attach the death certificate and the heirship papers."
+    },
+    {
+     "label": "Aadhaar Number of the applicant",
+     "value": "9999 1422 0760",
+     "hint": "Twelve digits, of the person applying. It identifies you on the application."
+    },
+    {
+     "label": "Area claimed (in decimal or bigha)",
+     "value": "18 decimal",
+     "hint": "As on the khatian. A figure that does not match the record is the usual reason a mutation is held up."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 14220 / sujata.mondal@example.com",
+     "hint": "The case number, the hearing notice and the final order all come here."
+    }
+   ],
+   "demoSteps": [
+    "Open banglarbhumi.gov.in and use 'Know your property' to see the khatian and plot details first. Check the area, the owner's name and the share before applying for anything.",
+    "Register on the portal with your mobile and email, then choose the mutation type — an ordinary mutation after a purchase, or a warishan mutation after a death.",
+    "Fill in the mouza, khatian and dag numbers and upload the registered deed, or the death certificate and heirship papers, along with the last revenue receipt.",
+    "Pay the fee online and note the case number. The portal shows the status against it.",
+    "The BL&LRO calls a hearing. Attend with the originals; where somebody objects, both sides are heard before the order.",
+    "Once the order is passed, the record of rights is updated and you can download the new khatian. Check the name spelling and the area at once.",
+    "Keep the updated khatian with your papers. Crop loans, Krishak Bandhu and land sale all turn on it."
+   ],
+   "helpline": "1800 121 0022 — Banglarbhumi helpline",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "wb-social-security-pension",
+   "title": "West Bengal Old Age and Widow Pension",
+   "department": "Women and Child Development and Social Welfare Department, West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Pension",
+   "mode": "offline",
+   "brief": "West Bengal pays a monthly pension to old people and to widows through its social security portal, alongside Lakshmir Bhandar. Applications are taken at Duare Sarkar camps and at the block or municipal office, and the money is credited to the pensioner's own bank account.",
+   "benefit": "Monthly old-age or widow pension paid into the pensioner's own bank account",
+   "emoji": "👵",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Resident of West Bengal for at least ten years",
+    "Age 60 or above for the old-age pension; a widow of 18 or above for the widow pension",
+    "Family income within the state's limit, and the applicant not an income-tax payer",
+    "Not drawing any other government pension",
+    "Name on the digital ration card of the household"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Digital ration card",
+    "Age proof — Aadhaar, birth certificate or voter card",
+    "Death certificate of the husband, for a widow pension",
+    "Bank passbook in the applicant's own name, Aadhaar-seeded",
+    "Residence proof of West Bengal",
+    "Recent passport photograph"
+   ],
+   "applyUrl": "https://socialsecurity.wb.gov.in/",
+   "portalName": "WB Social Security portal",
+   "formUrl": "",
+   "submitAt": "At a Duare Sarkar camp in your area, or at the Block Development Office in a village or the municipality office in a town. The staff there fill in the form for you free.",
+   "demoFields": [
+    {
+     "label": "Type of pension applied for",
+     "value": "Widow pension",
+     "hint": "Old age or widow. Each has its own age condition and its own supporting certificate."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Renuka Bala Das",
+     "hint": "As on Aadhaar. A spelling that differs from the bank record is why a sanctioned pension never arrives."
+    },
+    {
+     "label": "Husband's / Father's Name",
+     "value": "Late Haripada Das",
+     "hint": "Write 'Late' before the name where he has died; for a widow pension it must match the death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "30-11-1974 / 51 years",
+     "hint": "For the old-age pension you must be 60 or above. For the widow pension 18 or above is enough."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6033 1147",
+     "hint": "Twelve digits. Payment and the yearly verification both run on this."
+    },
+    {
+     "label": "Digital Ration Card Number",
+     "value": "WB-16-3308-2214",
+     "hint": "The household's card. Eligibility is checked against it, so the applicant's name must be on it."
+    },
+    {
+     "label": "District / Block or Municipality / Village or Ward",
+     "value": "Purba Bardhaman / Memari / Ward 6",
+     "hint": "Where you live. The BDO or the municipal office here processes the file."
+    },
+    {
+     "label": "Death certificate number (widow pension)",
+     "value": "PBM/D/2024/07711 dated 16-07-2024",
+     "hint": "From the death certificate of the husband. Leave it blank for the old-age pension."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "4411 2276 0083 / SBIN0004411",
+     "hint": "In the applicant's own name, not a son's or daughter's, and Aadhaar-seeded."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 60331",
+     "hint": "The application number and every credit are announced here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Collect the age proof, or the husband's death certificate for a widow pension, and a passbook in your own name before you start.",
+    "Apply at the next Duare Sarkar camp in your area, or at the block or municipal office, where the staff fill it in for you free.",
+    "Fill in the details from Aadhaar and the digital ration card and give a bank account in your own name that is Aadhaar-seeded.",
+    "Keep the application number from the acknowledgement; the portal shows the status against it.",
+    "The block or municipal office verifies the applicant and the household's income, and may call you in.",
+    "Once sanctioned, the pension is credited to the account each month. Check the first credit and tell the block office at once if it does not arrive.",
+    "Do the yearly verification when asked, or the payment stops. If it is refused, the reason is shown on the portal and the gap can be fixed and filed again."
+   ],
+   "helpline": "Your Block Development Office, or the municipal office of your ward",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "wb-wbpsc-recruitment",
+   "title": "WBPSC Recruitment — WBCS, Clerkship and Miscellaneous Services",
+   "department": "Public Service Commission, West Bengal",
+   "level": "State",
+   "state": "West Bengal",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The West Bengal Public Service Commission recruits for the state civil service, the Miscellaneous Services, the Clerkship and the technical services. Notices go up on the Commission's own site and applications are filed on its online system, uCanApply.",
+   "benefit": "Applications to every WBPSC examination, with admit cards and results in one place",
+   "emoji": "💼",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen, ordinarily a resident of West Bengal for the posts that require it",
+    "Age as the notification states, usually 21 to 36 for WBCS, with relaxation for SC, ST, OBC and disability",
+    "A degree from a recognised university, held on the closing date, for WBCS and most posts",
+    "Ability to read, write and speak Bengali or Nepali, which WBCS requires",
+    "Each notification sets its own conditions; read that one before you pay"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "Madhyamik (Class 10) certificate for date of birth",
+    "Degree certificate and marksheets",
+    "West Bengal caste certificate, for a reserved category",
+    "Disability certificate, where claiming that reservation",
+    "Residence certificate of West Bengal",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://psc.wb.gov.in/candidateOTRegistration.jsp",
+   "portalName": "WBPSC online application system",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Examination applied for",
+     "value": "WBCS (Executive) Etc. Examination",
+     "hint": "WBCS, Miscellaneous Services, Clerkship, Audit and Accounts, or a technical post. One application per notification."
+    },
+    {
+     "label": "Candidate Name (as on Madhyamik certificate)",
+     "value": "Arindam Chattopadhyay",
+     "hint": "The Madhyamik certificate governs, not Aadhaar, where the two differ. Everything later is checked against it."
+    },
+    {
+     "label": "Father's / Mother's Name",
+     "value": "Pranab Chattopadhyay / Ruma Chattopadhyay",
+     "hint": "As on the Madhyamik certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "02-04-2000",
+     "hint": "As on the Madhyamik certificate. Age limits count from this date and it cannot be changed after registration."
+    },
+    {
+     "label": "Category and sub-category",
+     "value": "General; no disability; not an ex-serviceman",
+     "hint": "Claim only what you hold a West Bengal certificate for. Age relaxation and the fee both follow from this."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A. English, University of Calcutta, 2022, 61%",
+     "hint": "It must be complete on the notification's closing date, not merely expected."
+    },
+    {
+     "label": "Knowledge of Bengali or Nepali",
+     "value": "Bengali — read, write and speak",
+     "hint": "WBCS requires it. Declare it honestly; it is tested at the personality test stage."
+    },
+    {
+     "label": "Optional subject and examination centre",
+     "value": "Political Science; centre Kolkata",
+     "hint": "The optional matters only for some services. Give two or three centre choices."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 88214 / arindam.c@example.com",
+     "hint": "The application number, admit card and every notice come here. Do not use a friend's."
+    }
+   ],
+   "demoSteps": [
+    "Watch psc.wb.gov.in for the notification and read the age, qualification and conditions before anything else.",
+    "Register on wbpsc.ucanapply.com with your name and date of birth exactly as on the Madhyamik certificate, and upload the photograph and signature in the sizes stated.",
+    "Fill the application, choose your examination centres, and pay the fee online. SC, ST and disabled candidates of West Bengal are exempt from the fee on producing the certificate.",
+    "Print the filled application and the payment receipt and keep them until the recruitment ends.",
+    "Download the admit card about a week before each stage and take it with a photo ID.",
+    "WBCS runs in three stages — preliminary, main and personality test. Results for each are published on the Commission's site.",
+    "At the personality test stage the originals of everything claimed must be produced. A caste or residence certificate not on the West Bengal format is rejected there."
+   ],
+   "helpline": "WBPSC office, 161-A S.P. Mukherjee Road, Kolkata; helpdesk details on psc.wb.gov.in",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://wbpsc.ucanapply.com/",
+   "applyKind": "registration"
+  }
+ ]
+}

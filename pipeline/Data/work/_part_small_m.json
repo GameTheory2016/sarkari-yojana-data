@@ -1,0 +1,361 @@
+{
+ "schemes": [
+  {
+   "id": "mz-mpsc-recruitment",
+   "title": "Mizoram Public Service Commission Recruitment",
+   "department": "Mizoram Public Service Commission",
+   "level": "State",
+   "state": "Mizoram",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Mizoram Public Service Commission recruits for the state civil service and for the gazetted and technical posts of the state departments. Applications are filed on its own online portal, one profile serving every advertisement.",
+   "benefit": "One online profile for every Mizoram PSC advertisement",
+   "emoji": "🎋",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indian citizen who is ordinarily a resident of Mizoram for the posts that require it",
+    "Age as the advertisement states, usually 21 to 35, with relaxation for reserved categories and disability",
+    "The qualification the advertisement requires, complete on its closing date",
+    "Knowledge of Mizo as some advertisements specify"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "HSLC (Class 10) certificate for date of birth",
+    "Degree certificate and marksheets",
+    "Scheduled Tribe certificate of Mizoram, where claiming that reservation",
+    "Residential certificate issued by the district administration",
+    "Employment exchange registration, where the advertisement asks for it",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://mpsconline.mizoram.gov.in/create-new-account",
+   "portalName": "Mizoram PSC Online",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Advertisement and post applied for",
+     "value": "Mizoram Civil Service Combined Competitive Examination",
+     "hint": "One application per advertisement. Read the qualification and the age limit there before paying."
+    },
+    {
+     "label": "Candidate Name (as on HSLC certificate)",
+     "value": "Lalrinsangi Chhangte",
+     "hint": "The HSLC certificate governs, not Aadhaar, where the two differ."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Lalthanzuala Chhangte",
+     "hint": "As on the HSLC certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "21-06-1998",
+     "hint": "As on the HSLC certificate. Age limits count from this date."
+    },
+    {
+     "label": "Category claimed",
+     "value": "Scheduled Tribe — Mizo",
+     "hint": "Claim only what you hold a Mizoram certificate for."
+    },
+    {
+     "label": "Residential certificate number",
+     "value": "AZL/RES/2021/01187",
+     "hint": "Issued by the district administration. Required for most Mizoram state posts."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A. English, Mizoram University, 2020, 64%",
+     "hint": "It must be complete on the advertisement's closing date."
+    },
+    {
+     "label": "Examination centre",
+     "value": "Aizawl",
+     "hint": "Give a choice where the advertisement asks for one."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 11874 / lalrin.c@example.com",
+     "hint": "The application number, admit card and every notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the residential certificate and, for a reserved category, the Mizoram Scheduled Tribe certificate before the closing date.",
+    "Register on mpsconline.mizoram.gov.in with your name and date of birth exactly as on the HSLC certificate.",
+    "Open the advertisement, apply through the same login, upload the photograph and signature in the sizes stated, and pay the fee.",
+    "Print the filled application and keep it with the payment receipt until the recruitment ends.",
+    "Download the admit card from the same login and take it with a photo ID.",
+    "Results are published on the Commission's site. Document verification is last, where the originals of everything claimed must be produced."
+   ],
+   "helpline": "Mizoram Public Service Commission, Aizawl",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://mpsconline.mizoram.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "mz-ration-card",
+   "title": "Mizoram Ration Card",
+   "department": "Food, Civil Supplies and Consumer Affairs Department, Mizoram",
+   "level": "State",
+   "state": "Mizoram",
+   "category": "Utilities",
+   "mode": "offline",
+   "brief": "The NFSA ration card in Mizoram, in two kinds — Antyodaya for the poorest households and Priority Household for the rest. Applications are made on paper at the district Food and Civil Supplies office, with the Village Council's recommendation, which in Mizoram carries real weight.",
+   "benefit": "5 kg foodgrain per person per month; 35 kg per family for an Antyodaya card",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Mizoram and holding no ration card elsewhere in India",
+    "Household inside the state's NFSA list and not excluded by income, land or government service",
+    "The Village Council or the Local Council must certify that the family lives in its area",
+    "Every member's Aadhaar must be given; a name without Aadhaar draws no ration"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Village Council or Local Council certificate of residence",
+    "Deletion certificate from the earlier card, where the family or a member has moved",
+    "Birth certificate for a newborn, or marriage certificate for a bride",
+    "Income declaration of the household",
+    "Passport photograph of the head of the family"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "District Food and Civil Supplies office; the Village Council or Local Council President forwards the application with its certificate",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "New ration card",
+     "hint": "New card, add a member, remove a member, or correct a detail. Each needs a different set of papers."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Lalrinsangi Chhangte",
+     "hint": "The card is issued in this person's name and the family's entitlement is tracked against it."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 1187 4402",
+     "hint": "Twelve digits."
+    },
+    {
+     "label": "Members of the family (name, relation, age, Aadhaar)",
+     "value": "1. Lalrinsangi Chhangte, self, 28, 9999 1187 4402; 2. Lalthanzuala Chhangte, father, 58, 9999 4402 1187; 3. Zomuani Chhangte, mother, 54, 9999 7730 2216",
+     "hint": "Everyone who eats from the same kitchen, one per line. The grain is counted per name."
+    },
+    {
+     "label": "Category applied for",
+     "value": "Priority Household",
+     "hint": "Antyodaya only if the household is on that list. When unsure, ask for Priority Household."
+    },
+    {
+     "label": "District / Village or Local Council area",
+     "value": "Aizawl / Chanmari Local Council",
+     "hint": "Where the family lives. The fair price shop is allotted from this area."
+    },
+    {
+     "label": "Village Council or Local Council certificate",
+     "value": "President, Chanmari Local Council — signed and stamped",
+     "hint": "In Mizoram this certificate is what carries the application. Get it before you go to the district office."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,08,000",
+     "hint": "The household's total for the year. It decides the category."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Lalrinsangi Chhangte, 22-09-2026",
+     "hint": "Sign or put your thumb impression, and write the date yourself."
+    }
+   ],
+   "demoSteps": [
+    "Get the Village Council or Local Council certificate first. In Mizoram it is the paper the whole application rests on.",
+    "Collect the form free at the district Food and Civil Supplies office and fill it in ink, listing every member of the household with their Aadhaar.",
+    "Attach the Aadhaar copies, the Council certificate, the income declaration and, where someone has moved in, the deletion certificate from the old card.",
+    "Hand it in and ask for a dated acknowledgement with its number.",
+    "The supply staff verify the household, and the category is decided at this stage.",
+    "Collect the card and check every name, age and Aadhaar before leaving, then get each member's Aadhaar seeded at the fair price shop."
+   ],
+   "helpline": "1967 — Food and Public Distribution toll free; your District Food and Civil Supplies office",
+   "lastVerified": "September 2026"
+  },
+  {
+   "id": "nl-npsc-recruitment",
+   "title": "Nagaland Public Service Commission Recruitment",
+   "department": "Nagaland Public Service Commission",
+   "level": "State",
+   "state": "Nagaland",
+   "category": "Employment",
+   "mode": "online",
+   "brief": "The Nagaland Public Service Commission recruits for the state civil service and for the gazetted and technical posts of the state departments. Candidates register once on the applicant portal and then apply to each examination from the same account.",
+   "benefit": "One applicant account for every Nagaland PSC examination",
+   "emoji": "🦏",
+   "colorHex": "#FF6B35",
+   "eligibility": [
+    "Indigenous inhabitant of Nagaland for the posts reserved for them, proved by the indigenous inhabitant certificate",
+    "Age as the advertisement states, usually 21 to 35, with relaxation for reserved categories and disability",
+    "The qualification the advertisement requires, complete on its closing date",
+    "Each advertisement sets its own conditions; read that one before paying"
+   ],
+   "documents": [
+    "Aadhaar card",
+    "HSLC (Class 10) certificate for date of birth",
+    "Degree certificate and marksheets",
+    "Indigenous inhabitant certificate of Nagaland",
+    "Scheduled Tribe certificate, where claiming that reservation",
+    "Employment exchange registration, where the advertisement asks for it",
+    "Recent passport photograph and a scanned signature"
+   ],
+   "applyUrl": "https://npsc.nagaland.gov.in/applicant/register",
+   "portalName": "NPSC Applicant Portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Examination applied for",
+     "value": "Nagaland Civil Services Examination",
+     "hint": "One application per advertisement. Read the qualification and the age limit there before paying."
+    },
+    {
+     "label": "Candidate Name (as on HSLC certificate)",
+     "value": "Imlienla Jamir",
+     "hint": "The HSLC certificate governs, not Aadhaar, where the two differ."
+    },
+    {
+     "label": "Father's Name",
+     "value": "Temjen Jamir",
+     "hint": "As on the HSLC certificate."
+    },
+    {
+     "label": "Date of Birth",
+     "value": "09-04-1998",
+     "hint": "As on the HSLC certificate. Age limits count from this date."
+    },
+    {
+     "label": "Indigenous inhabitant certificate number",
+     "value": "MKG/IIC/2019/00887",
+     "hint": "Issued by the district administration. Most Nagaland state posts are reserved for indigenous inhabitants, so this is the key paper."
+    },
+    {
+     "label": "Tribe and category",
+     "value": "Ao — Scheduled Tribe",
+     "hint": "Claim only what you hold a Nagaland certificate for."
+    },
+    {
+     "label": "Educational Qualification",
+     "value": "B.A. Economics, Nagaland University, 2020, 67%",
+     "hint": "It must be complete on the advertisement's closing date."
+    },
+    {
+     "label": "Examination centre",
+     "value": "Kohima",
+     "hint": "Give a choice where the advertisement asks for one."
+    },
+    {
+     "label": "Mobile Number and Email",
+     "value": "90000 88721 / imlienla.j@example.com",
+     "hint": "The application number, admit card and every notice come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the indigenous inhabitant certificate from the district administration before the closing date. Most Nagaland state posts cannot be applied for without it.",
+    "Register on the NPSC applicant portal with your name and date of birth exactly as on the HSLC certificate.",
+    "Open the advertisement, apply from the same account, upload the photograph and signature in the sizes stated, and pay the fee.",
+    "Print the filled application and keep it with the payment receipt until the recruitment ends.",
+    "Download the admit card from the same account and take it with a photo ID.",
+    "Results are published on the Commission's site. Document verification is last, where the originals of everything claimed must be produced."
+   ],
+   "helpline": "Nagaland Public Service Commission, Kohima",
+   "lastVerified": "September 2026",
+   "applyKind": "registration"
+  },
+  {
+   "id": "nl-ration-card",
+   "title": "Nagaland Ration Card",
+   "department": "Department of Food and Civil Supplies, Nagaland",
+   "level": "State",
+   "state": "Nagaland",
+   "category": "Utilities",
+   "mode": "offline",
+   "brief": "The NFSA ration card in Nagaland, in two kinds — Antyodaya for the poorest households and Priority Household for the rest. The application is made on paper at the district Food and Civil Supplies office, carried by the Village Council's certificate, which in Nagaland is the document that establishes where a family belongs.",
+   "benefit": "5 kg foodgrain per person per month; 35 kg per family for an Antyodaya card",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Nagaland and holding no ration card elsewhere in India",
+    "Household inside the state's NFSA list and not excluded by income, land or government service",
+    "The Village Council or the ward authority must certify that the family lives in its area",
+    "Every member's Aadhaar must be given; a name without Aadhaar draws no ration"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Village Council or ward authority certificate of residence",
+    "Deletion certificate from the earlier card, where the family or a member has moved",
+    "Birth certificate for a newborn, or marriage certificate for a bride",
+    "Income declaration of the household",
+    "Passport photograph of the head of the family"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "District Food and Civil Supplies office; the Village Council Chairman or the ward authority forwards the application with its certificate",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "New ration card",
+     "hint": "New card, add a member, remove a member, or correct a detail. Each needs a different set of papers."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Imlienla Jamir",
+     "hint": "The card is issued in this person's name and the family's entitlement is tracked against it."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 8872 1104",
+     "hint": "Twelve digits."
+    },
+    {
+     "label": "Members of the family (name, relation, age, Aadhaar)",
+     "value": "1. Imlienla Jamir, self, 28, 9999 8872 1104; 2. Temjen Jamir, father, 61, 9999 1104 8872; 3. Along Jamir, mother, 56, 9999 3320 7745",
+     "hint": "Everyone who eats from the same kitchen, one per line. The grain is counted per name."
+    },
+    {
+     "label": "Category applied for",
+     "value": "Priority Household",
+     "hint": "Antyodaya only if the household is on that list. When unsure, ask for Priority Household."
+    },
+    {
+     "label": "District / Village or Ward",
+     "value": "Mokokchung / Ungma village",
+     "hint": "Where the family lives. The fair price shop is allotted from this area."
+    },
+    {
+     "label": "Village Council certificate",
+     "value": "Chairman, Ungma Village Council — signed and stamped",
+     "hint": "In Nagaland the Village Council certificate is what carries the application. Get it before you go to the district office."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,02,000",
+     "hint": "The household's total for the year. It decides the category."
+    },
+    {
+     "label": "Signature / Thumb Impression with date",
+     "value": "Imlienla Jamir, 22-09-2026",
+     "hint": "Sign or put your thumb impression, and write the date yourself."
+    }
+   ],
+   "demoSteps": [
+    "Get the Village Council or ward authority certificate first. In Nagaland it is what the whole application rests on.",
+    "Collect the form free at the district Food and Civil Supplies office and fill it in ink, listing every member with their Aadhaar.",
+    "Attach the Aadhaar copies, the Council certificate, the income declaration and, where someone has moved in, the deletion certificate from the old card.",
+    "Hand it in and ask for a dated acknowledgement with its number.",
+    "The supply staff verify the household, and the category is decided at this stage.",
+    "Collect the card and check every name, age and Aadhaar before leaving, then get each member's Aadhaar seeded at the fair price shop."
+   ],
+   "helpline": "1967 — Food and Public Distribution toll free; your District Food and Civil Supplies office",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

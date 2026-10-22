@@ -1,0 +1,184 @@
+{
+ "schemes": [
+  {
+   "id": "up-family-id",
+   "title": "UP Family ID — Ek Parivar Ek Pehchan",
+   "department": "Department of Planning, Government of Uttar Pradesh",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "A single twelve-digit number for the whole family, meant to become the one record Uttar Pradesh checks before giving any benefit. A family that already has a ration card is given the ration card number as its Family ID; families without one register fresh. It is free and is done online or at a Jan Seva Kendra.",
+   "benefit": "One family identity number linked to state welfare schemes and employment records",
+   "emoji": "👨‍👩‍👧",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Family living in Uttar Pradesh, with every member's Aadhaar linked to a mobile number",
+    "A family holding a ration card already has a Family ID — its ration card number — and need not register again",
+    "Only families with no ration card register fresh",
+    "One ID per family; a member can appear in only one family"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Mobile number linked to the head of the family's Aadhaar",
+    "Ration card, if the family holds one",
+    "Address proof — electricity bill, house tax receipt or voter ID",
+    "Bank passbook of the head of the family"
+   ],
+   "applyUrl": "https://familyid.up.gov.in/portal/registration.aspx",
+   "portalName": "UP Family ID portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Do you hold a ration card?",
+     "value": "No",
+     "hint": "If yes, your ration card number is already your Family ID — just search and print it, do not register again."
+    },
+    {
+     "label": "Head of the Family (as on Aadhaar)",
+     "value": "Ram Naresh Yadav",
+     "hint": "The whole registration is made in this person's name, and the OTP goes to the mobile linked to their Aadhaar."
+    },
+    {
+     "label": "Aadhaar Number of the Head",
+     "value": "9999 6231 8074",
+     "hint": "Twelve digits. Every member is then added against this."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 62318",
+     "hint": "Must be the number linked to the head's Aadhaar, since each member is verified by OTP."
+    },
+    {
+     "label": "Members of the family (name, relation, Aadhaar)",
+     "value": "1. Ram Naresh Yadav, self, 9999 6231 8074; 2. Sushila Devi, wife, 9999 4408 1123; 3. Anjali Yadav, daughter, 9999 7735 0296",
+     "hint": "Everyone who lives in the household. Each member's Aadhaar is verified by an OTP to their own linked mobile, so keep the family together when you fill this."
+    },
+    {
+     "label": "Full Address with district, tehsil and village or ward",
+     "value": "Gram Rampur Kalan, Post Dariyabad, Tehsil Ramsanehighat, District Barabanki, 225414",
+     "hint": "Where the family actually lives. The Lekhpal or the ward staff verify at this address."
+    },
+    {
+     "label": "Category (SC / ST / OBC / General)",
+     "value": "OBC",
+     "hint": "Recorded for scheme eligibility. It changes nothing about whether the ID is issued."
+    },
+    {
+     "label": "Bank Account of the Head and IFSC",
+     "value": "1145 7729 0038 / SBIN0011457",
+     "hint": "Used to link state benefits later. It should be Aadhaar-seeded."
+    }
+   ],
+   "demoSteps": [
+    "First search familyid.up.gov.in with your ration card number. If the family holds a ration card, the Family ID already exists — print it and stop there.",
+    "If there is no ration card, register the head of the family with Aadhaar and the linked mobile, and confirm the OTP.",
+    "Add every member with their Aadhaar. Each one is verified by an OTP sent to that member's own Aadhaar-linked mobile, so have the family present while you do it.",
+    "Fill the address, category and bank details, submit, and note the application number.",
+    "The Lekhpal or the ward-level officer verifies the household. Be available at the address; an unverified application does not proceed.",
+    "Once approved, download and print the Family ID from the same site. Keep it with your papers — state schemes and recruitment forms increasingly ask for it."
+   ],
+   "helpline": "1076 — UP Chief Minister's helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://familyid.up.gov.in/",
+   "applyKind": "registration"
+  },
+  {
+   "id": "up-sspy-pension",
+   "title": "UP Samajik Pension — Old Age, Widow and Divyangjan",
+   "department": "Social Welfare, Women Welfare and Divyangjan Empowerment Departments, Uttar Pradesh",
+   "level": "State",
+   "state": "Uttar Pradesh",
+   "category": "Pension",
+   "mode": "online",
+   "brief": "Uttar Pradesh runs its three social pensions — old age, destitute women, and Divyangjan or leprosy — through one portal, SSPY. The money reaches the pensioner's own bank account every quarter, and the same site shows whether it has been sanctioned and paid.",
+   "benefit": "Rs.1,000 a month, paid quarterly into the pensioner's own bank account",
+   "emoji": "👵",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Resident of Uttar Pradesh, applying in the district where the applicant lives",
+    "Age 60 or above for the old-age pension; no age bar for the widow or Divyangjan pension",
+    "Family income up to Rs.46,080 a year in rural areas and Rs.56,460 in urban areas",
+    "Disability of 40 per cent or more, certified by the Chief Medical Officer, for the Divyangjan pension",
+    "Not drawing any other government pension"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Age proof — Aadhaar, birth certificate or school certificate",
+    "Income certificate from e-District",
+    "Death certificate of the husband, for a widow pension",
+    "Disability certificate showing 40 per cent or more, for a Divyangjan pension",
+    "Bank passbook in the applicant's own name, Aadhaar-seeded",
+    "Recent passport photograph",
+    "Caste certificate, where the applicant claims a reserved category"
+   ],
+   "applyUrl": "https://sspy-up.gov.in/",
+   "portalName": "SSPY — Integrated Pension Portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of pension applied for",
+     "value": "Nirashrit Mahila Pension (widow)",
+     "hint": "Old age, widow or destitute woman, or Divyangjan and leprosy. Each opens a different form on the portal."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Kamla Devi",
+     "hint": "As on Aadhaar. A spelling that differs from the bank record is why a sanctioned pension never arrives."
+    },
+    {
+     "label": "Husband's / Father's Name",
+     "value": "Late Shyam Lal",
+     "hint": "Write 'Late' before the name where he has died; for the widow pension it must match the death certificate."
+    },
+    {
+     "label": "Date of Birth / Age",
+     "value": "08-07-1976 / 50 years",
+     "hint": "There is no minimum age for the widow pension. For the old-age pension you must be 60 or above on the date of application."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 3388 2041",
+     "hint": "Twelve digits. Payment and the yearly verification both run on this."
+    },
+    {
+     "label": "District / Tehsil / Village or Ward",
+     "value": "Barabanki / Ramsanehighat / Gram Rampur Kalan",
+     "hint": "Where you live. The District Social Welfare Officer of this district sanctions the pension."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "38,000",
+     "hint": "Must be within Rs.46,080 in rural areas or Rs.56,460 in urban areas. Attach the income certificate you got from e-District."
+    },
+    {
+     "label": "Supporting certificate number",
+     "value": "Death certificate BRB/2025/118402 dated 04-08-2025",
+     "hint": "The death certificate for a widow pension, or the disability certificate number and percentage for a Divyangjan pension."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "3012 7745 8890 / BKID0006621",
+     "hint": "In the applicant's own name, not a son's or daughter's, and Aadhaar-seeded. Upload the first page of the passbook."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 33882",
+     "hint": "The registration number and every credit are announced here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Get the income certificate from e-District first, and the death or disability certificate if the pension needs one. The application cannot be completed without them.",
+    "Open sspy-up.gov.in, choose your pension type and fill the online application, uploading the photograph, the certificates and the passbook page.",
+    "Submit and note the registration number. Log in again with it to make any correction before the district office takes the file up.",
+    "The application is verified at the block or tehsil level — for the widow pension by the Sub-Divisional Magistrate's office, for Divyangjan by the district disability officer.",
+    "Once sanctioned, the pension is credited quarterly to the account. The same portal shows the sanction and each payment against your registration number.",
+    "Complete the yearly verification when asked, or the payment stops. If the application is refused, the reason is shown on the portal; fix it and apply again, or take it up on the 1076 helpline."
+   ],
+   "helpline": "1076 — UP Chief Minister's helpline",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

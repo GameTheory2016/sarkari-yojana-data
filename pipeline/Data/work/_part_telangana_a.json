@@ -1,0 +1,189 @@
+{
+ "schemes": [
+  {
+   "id": "tg-income-certificate",
+   "title": "Telangana Income Certificate",
+   "department": "Revenue Department, Government of Telangana",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Identity",
+   "mode": "online",
+   "brief": "The Tahsildar's certificate stating a family's yearly income, needed for scholarships, fee reimbursement, welfare schemes and EWS claims in Telangana. It is applied for through MeeSeva, either at a MeeSeva centre or online, and it is valid for one year.",
+   "benefit": "Income certificate signed digitally by the Tahsildar, valid one year",
+   "emoji": "📄",
+   "colorHex": "#0097A7",
+   "eligibility": [
+    "Resident of Telangana, applying in the mandal where the family lives",
+    "Applied for by the head of the family, covering the whole household's income",
+    "Aadhaar linked to a working mobile number, since every step is confirmed by OTP",
+    "A fresh certificate is needed each year; an expired one is refused by every office"
+   ],
+   "documents": [
+    "Aadhaar card of the applicant",
+    "Food Security Card of the family",
+    "Address proof — electricity bill, property tax receipt or rent agreement",
+    "Salary certificate or Form 16, for a salaried applicant",
+    "Pahani or ROR extract, where the income is from farming",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://ts.meeseva.telangana.gov.in/meeseva/registration.htm",
+   "portalName": "Telangana MeeSeva",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 3145 7028",
+     "hint": "Your own twelve digits. The OTP goes to the mobile linked to it, so it must be a number in your hand."
+    },
+    {
+     "label": "Applicant Name (as on Aadhaar)",
+     "value": "Ravinder Reddy Nalla",
+     "hint": "Letter for letter as on Aadhaar. The certificate is printed from this entry."
+    },
+    {
+     "label": "Father's / Husband's Name",
+     "value": "Narsimha Reddy Nalla",
+     "hint": "Used to separate families with the same surname in one village."
+    },
+    {
+     "label": "District / Mandal / Village or Ward",
+     "value": "Nalgonda / Miryalaguda / Vemulapally",
+     "hint": "Where the family actually lives. Your mandal Tahsildar signs the certificate, so this decides where the file goes."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,20,000",
+     "hint": "The whole household's earnings for the year from every source. It is cross-checked against land, vehicle and electricity records, so an understated figure gets the file rejected."
+    },
+    {
+     "label": "Source of Income",
+     "value": "Farming on two acres and a tailoring shop",
+     "hint": "Name the work of every earning member, not only the head's."
+    },
+    {
+     "label": "Caste / Category",
+     "value": "BC-A",
+     "hint": "As on your caste certificate. It is printed on the income certificate and checked against welfare quotas later."
+    },
+    {
+     "label": "Food Security Card Number",
+     "value": "TG-05-1148-3392",
+     "hint": "From the front of the card. The office pulls up the rest of the family's details from it."
+    },
+    {
+     "label": "Purpose",
+     "value": "ePASS scholarship for my son's B.Tech",
+     "hint": "Say plainly what it is for. It is recorded but does not limit where the certificate can be used."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 31457",
+     "hint": "The application number and the ready-to-download message arrive here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Open the MeeSeva portal or walk into any MeeSeva centre and ask for the Income Certificate service. The centre charges only the notified fee, which is printed on the receipt.",
+    "Fill the form with names and the village exactly as on Aadhaar and the Food Security Card, and state the household income honestly.",
+    "Upload or hand over Aadhaar, the Food Security Card, the address proof and any salary or land proof.",
+    "Pay the fee and take the acknowledgement with its application number. The same number comes by SMS and is how you track the file.",
+    "The Village Revenue Officer or the mandal staff verify the family, usually within a week, and may call or visit.",
+    "The Tahsildar signs it digitally, normally within 7 to 15 days, and you download it from MeeSeva or collect it at the centre. A digitally signed copy needs no further attestation.",
+    "If the time passes with nothing happening, quote the application number to the Tahsildar's office, and use the grievance link on the MeeSeva portal."
+   ],
+   "helpline": "1100 — Telangana citizen call centre",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+   "applyKind": "registration"
+  },
+  {
+   "id": "tg-food-security-card",
+   "title": "Telangana Food Security Card",
+   "department": "Civil Supplies Department, Government of Telangana",
+   "level": "State",
+   "state": "Telangana",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "Telangana's ration card is called the Food Security Card. It brings subsidised fine rice from the fair price shop and is the household record most state schemes check first. New cards are filed through MeeSeva; the EPDS portal is where you add or remove a member, do the Aadhaar e-KYC and check the status.",
+   "benefit": "Subsidised fine rice at the fair price shop, and the household record used across state schemes",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Telangana and not holding a ration card anywhere else in India",
+    "Household within the state's limits on land, income, vehicle ownership and government service",
+    "A woman of the household aged 18 or above is recorded as the head of the family",
+    "Every member's Aadhaar must be seeded and the e-KYC completed, or that member draws no ration"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Address proof — electricity bill, house tax receipt or rent agreement",
+    "Deletion certificate from the earlier card, where a member or the family has moved",
+    "Marriage certificate, for a bride being added",
+    "Birth certificate, for a newborn being added",
+    "Gas connection number and a bank passbook copy"
+   ],
+   "applyUrl": "https://epds.telangana.gov.in/FoodSecurityAct/",
+   "portalName": "EPDS Telangana",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "Add a member to an existing card",
+     "hint": "New card, add a member, remove a member, split a card or correct a detail. A brand new card is filed at a MeeSeva centre; the rest can be done on EPDS."
+    },
+    {
+     "label": "Food Security Card Number",
+     "value": "TG-11-2276-0459",
+     "hint": "From the front of the card. Leave it blank only for a brand new card."
+    },
+    {
+     "label": "Head of the Household",
+     "value": "Padmavathi Gundu",
+     "hint": "A woman of the household aged 18 or above. The card is issued in her name."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 7702 4418",
+     "hint": "Twelve digits. The family's whole entitlement is tracked against this."
+    },
+    {
+     "label": "Member to be added, relation and Aadhaar",
+     "value": "Sravanthi Gundu — daughter-in-law — 9999 1163 8820",
+     "hint": "Name as on that person's own Aadhaar, and how she or he is related to the head."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Marriage on 03-03-2026; deletion certificate from parents' card at Siddipet",
+     "hint": "A bride needs the marriage certificate and the deletion certificate from her parents' card. A newborn needs only the birth certificate."
+    },
+    {
+     "label": "District / Mandal / Village or Ward",
+     "value": "Medak / Narsapur / Ward 4",
+     "hint": "Where the family lives. The fair price shop is allotted from this address and the inspector verifies here."
+    },
+    {
+     "label": "Fair Price Shop Number",
+     "value": "1602015",
+     "hint": "Printed on the card and on the shop's board. It tells the office which shop's register to update."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 77024",
+     "hint": "Application number and status messages come here."
+    }
+   ],
+   "demoSteps": [
+    "For a new card, go to a MeeSeva centre with every member's Aadhaar and the address proof; for adding or removing a name, open epds.telangana.gov.in and use the Food Security Card services.",
+    "List every member who eats from the same kitchen, each with the exact Aadhaar. The rice is counted per name, so a missing member costs the family every month.",
+    "Attach the address proof and, where someone has moved in, the deletion certificate from the previous card — without it the system blocks the addition as a duplicate.",
+    "Pay the notified fee at the centre and keep the acknowledgement with its application number.",
+    "The Village Revenue Officer or the civil supplies inspector verifies the household at your address.",
+    "Once approved, complete the new member's Aadhaar e-KYC on the ePoS machine at your fair price shop. The family's quantity does not increase until this is done.",
+    "Check the card and the month's issue on EPDS. If rice was drawn in your name but you did not get it, raise it with the Tahsildar and the Civil Supplies toll free number at once."
+   ],
+   "helpline": "1967 — Civil Supplies toll free",
+   "lastVerified": "September 2026"
+  }
+ ]
+}

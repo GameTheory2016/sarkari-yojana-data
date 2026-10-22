@@ -1,0 +1,267 @@
+{
+ "schemes": [
+  {
+   "id": "ka-gruha-lakshmi",
+   "title": "Gruha Lakshmi — Karnataka Monthly Assistance to the Woman of the House",
+   "department": "Department of Women and Child Development, Government of Karnataka",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Women",
+   "mode": "online",
+   "brief": "Karnataka pays Rs.2,000 a month to the woman recorded as head of the family on the ration card. One woman per household, and the money goes into her own bank account. It is applied for on Seva Sindhu, free, and at a Bangalore One, Karnataka One or Grama One centre if you would rather have help.",
+   "benefit": "Rs.2,000 a month into the woman head of household's own account",
+   "emoji": "👩",
+   "colorHex": "#E91E8C",
+   "eligibility": [
+    "Woman recorded as head of the family on an Antyodaya, BPL or APL ration card of Karnataka",
+    "One woman per household — if the card names another head, that is the person who qualifies",
+    "Neither she nor her husband pays income tax or files GST returns",
+    "Not a government employee, and not drawing another state monthly assistance of this kind"
+   ],
+   "documents": [
+    "Aadhaar card of the woman applying",
+    "Ration card showing her as head of the family",
+    "Aadhaar card of the husband, where she is married",
+    "Bank passbook in her own name, Aadhaar-seeded with NPCI",
+    "Mobile number linked to her Aadhaar"
+   ],
+   "applyUrl": "https://sevaone.karnataka.gov.in/services/",
+   "portalName": "Seva Sindhu Services",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Ration Card Number",
+     "value": "KA-12-4408-2217",
+     "hint": "The whole application is built from this. The portal pulls the family up and shows who is recorded as head."
+    },
+    {
+     "label": "Name of the woman head of the family",
+     "value": "Shobha Basavaraj Hiremath",
+     "hint": "It must be the name the ration card shows as head. If the card names someone else, get the card corrected first."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 2081 4473",
+     "hint": "Her own twelve digits. The OTP for the application goes to the mobile linked to it."
+    },
+    {
+     "label": "Husband's Name and Aadhaar",
+     "value": "Basavaraj Hiremath — 9999 5516 3320",
+     "hint": "Asked so the income-tax and GST check can be run on him too. Leave it blank if she is unmarried or widowed."
+    },
+    {
+     "label": "Do you or your husband pay income tax or file GST?",
+     "value": "No",
+     "hint": "Answer truthfully. It is matched against the tax database, and a false answer cancels the sanction and recovers the money."
+    },
+    {
+     "label": "District / Taluk / Village or Ward",
+     "value": "Dharwad / Hubballi / Ward 22",
+     "hint": "As on the ration card. It decides which office handles the file."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "6620 1147 8832 / KARB0000662",
+     "hint": "In her own name, and NPCI-seeded with Aadhaar — not merely linked. This is the single commonest reason the money does not arrive."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 20814",
+     "hint": "The application number and every monthly credit are announced here by SMS."
+    }
+   ],
+   "demoSteps": [
+    "Check first that the ration card records you as head of the family. If it does not, get the card corrected through Ahara before applying — the scheme goes by the card, not by who actually runs the house.",
+    "Open the Seva Sindhu services portal, choose Gruha Lakshmi, and enter your ration card number. The portal fills the family details itself.",
+    "Confirm your Aadhaar with the OTP, add your husband's Aadhaar where you are married, and give a bank account in your own name.",
+    "Submit and note the application number. There is no fee; a Grama One, Karnataka One or Bangalore One centre will file it for you free too.",
+    "Check the NPCI seeding of your account on the portal or at your bank. An account that is linked to Aadhaar but not NPCI-seeded will still fail when the money is sent.",
+    "Once approved, Rs.2,000 is credited each month. Track the sanction and each payment on the portal against your application number.",
+    "If a month is missed, check the seeding first, then take the application number to your Grama One centre or the taluk office."
+   ],
+   "helpline": "1902 — Seva Sindhu helpline",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://sevasindhuservices.karnataka.gov.in/",
+   "applyKind": "service-login"
+  },
+  {
+   "id": "ka-ahara-ration-card",
+   "title": "Karnataka Ration Card — Ahara",
+   "department": "Food, Civil Supplies and Consumer Affairs Department, Government of Karnataka",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Utilities",
+   "mode": "online",
+   "brief": "Ahara is Karnataka's ration card system. A Priority Household or Antyodaya card brings free rice under Anna Bhagya from the fair price shop, and the card is also the household record that Gruha Lakshmi, Gruha Jyothi and other state schemes are paid against, so it is worth keeping correct.",
+   "benefit": "Priority Household or Antyodaya card, with free rice under Anna Bhagya",
+   "emoji": "🌾",
+   "colorHex": "#28A745",
+   "eligibility": [
+    "Family resident in Karnataka and holding no ration card elsewhere in India",
+    "Household within the state's limits on income, land, vehicle ownership and government service, for a Priority Household card",
+    "A woman of the household aged 18 or above is recorded as head of the family",
+    "Every member's Aadhaar must be seeded and the biometric e-KYC done, or that member's rice is not issued"
+   ],
+   "documents": [
+    "Aadhaar cards of every member of the family",
+    "Address proof — electricity bill, house tax receipt or rent agreement",
+    "Deletion certificate from the earlier card, where a member has moved in",
+    "Birth certificate for a newborn, or marriage certificate for a bride being added",
+    "Gas connection number",
+    "Bank passbook of the head of the family"
+   ],
+   "applyUrl": "https://ahara.karnataka.gov.in/Home/EServices",
+   "portalName": "Ahara Karnataka",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "Add a member",
+     "hint": "New card, add a member, remove a member, correct a detail, or change the head of the family. Pick the right one or the file is returned."
+    },
+    {
+     "label": "Ration Card Number",
+     "value": "KA-12-4408-2217",
+     "hint": "From the front of the card. Leave it blank only for a brand new card."
+    },
+    {
+     "label": "Head of the Family",
+     "value": "Shobha Basavaraj Hiremath",
+     "hint": "A woman of the household aged 18 or above. Gruha Lakshmi is paid to whoever is named here, so get it right."
+    },
+    {
+     "label": "Aadhaar of the Head",
+     "value": "9999 2081 4473",
+     "hint": "Twelve digits. The family's whole entitlement is tracked against this."
+    },
+    {
+     "label": "Member to be added, relation and Aadhaar",
+     "value": "Aditi Hiremath — daughter — 9999 7734 1108",
+     "hint": "Name as on that person's own Aadhaar, and how they are related to the head."
+    },
+    {
+     "label": "Reason and supporting certificate",
+     "value": "Birth on 09-01-2026; birth certificate DHW/B/2026/00318",
+     "hint": "A newborn needs the birth certificate and an Aadhaar. A bride needs the marriage certificate and the deletion certificate from her parents' card."
+    },
+    {
+     "label": "District / Taluk / Village or Ward",
+     "value": "Dharwad / Hubballi / Ward 22",
+     "hint": "Where the family lives. The fair price shop is allotted from this address."
+    },
+    {
+     "label": "Annual Family Income (Rs.)",
+     "value": "1,32,000",
+     "hint": "The household's total for the year. It decides whether the card is Priority Household or APL."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 20814",
+     "hint": "The acknowledgement number and the status messages come here."
+    }
+   ],
+   "demoSteps": [
+    "Open ahara.karnataka.gov.in and choose the service you need, or go to a Grama One or Karnataka One centre, which files it for the notified fee.",
+    "List every member who eats from the same kitchen, each with the exact Aadhaar. The rice is counted per name, so a missing member costs the family every month.",
+    "Attach the address proof and, for a member moving in, the deletion certificate from the old card. Without it the system blocks the addition as a duplicate.",
+    "Submit and keep the acknowledgement number; the portal shows the status against it.",
+    "The food inspector verifies the household at the address, and for a new card the category — Antyodaya, Priority Household or APL — is decided at this stage.",
+    "Once approved, download the card and check every name and Aadhaar on it.",
+    "Take the new member to the fair price shop for the biometric e-KYC on the ePoS machine. Until that is done the family's rice does not increase."
+   ],
+   "helpline": "1967 and 1800 425 9339 — Karnataka Food and Civil Supplies",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ahara.karnataka.gov.in/",
+   "applyKind": "service-page"
+  },
+  {
+   "id": "ka-ssp-scholarship",
+   "title": "Karnataka State Scholarship Portal — SC, ST, OBC and Minority",
+   "department": "Social Welfare, Backward Classes and Minority Welfare Departments, Karnataka",
+   "level": "State",
+   "state": "Karnataka",
+   "category": "Education",
+   "mode": "online",
+   "brief": "One portal for every Karnataka state scholarship — pre-matric for school children and post-matric for SC, ST, OBC, Category-1 and minority students in college. Applications are made fresh each year and the money is paid by DBT into the student's own account.",
+   "benefit": "Pre-matric and post-matric scholarship paid by DBT into the student's account",
+   "emoji": "🎓",
+   "colorHex": "#2B52E0",
+   "eligibility": [
+    "Student domiciled in Karnataka and studying in a recognised institution in the state",
+    "SC, ST, OBC, Category-1 or a notified minority, on a Karnataka caste certificate",
+    "Family income within the limit for the category, on a current income certificate",
+    "Passed the previous year; a student repeating a failed year is not eligible",
+    "Not drawing another scholarship for the same course"
+   ],
+   "documents": [
+    "Aadhaar card of the student",
+    "Karnataka caste and income certificate (Sindhutva Pramana Patra) numbers",
+    "Previous year's marks card",
+    "Bonafide or admission certificate from the institution",
+    "Bank passbook in the student's own name, Aadhaar-seeded",
+    "Fee receipt paid to the institution",
+    "Passport-size photograph"
+   ],
+   "applyUrl": "https://ssp.postmatric.karnataka.gov.in/ca/",
+   "portalName": "State Scholarship Portal Karnataka",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Type of application",
+     "value": "Post-Matric, renewal",
+     "hint": "Pre-matric for Classes 1 to 10, post-matric from Class 11 upwards. Fresh for the first year of a course, renewal after."
+    },
+    {
+     "label": "Student Name (as on Aadhaar)",
+     "value": "Manjunath Siddappa Talawar",
+     "hint": "Exactly as on Aadhaar. The institution record and the bank record must agree or the DBT fails."
+    },
+    {
+     "label": "Aadhaar Number",
+     "value": "9999 6612 0847",
+     "hint": "The student's own. The portal does an Aadhaar e-KYC, so the name and date of birth must match."
+    },
+    {
+     "label": "Caste and Income Certificate Number (Sindhutva Pramana Patra)",
+     "value": "RD0123456789012",
+     "hint": "The RD number of the Karnataka caste-cum-income certificate. The portal validates it, so an expired or wrongly typed number stops the application."
+    },
+    {
+     "label": "Institution and Course",
+     "value": "Karnatak Arts College, Dharwad — B.A., 2nd year",
+     "hint": "Pick the institution from the portal's list. If it is not listed, it has not registered on SSP and must do so first."
+    },
+    {
+     "label": "Previous year marks",
+     "value": "First year B.A. 2025 — 64%",
+     "hint": "From the marks card you upload. A student repeating a failed year is not eligible."
+    },
+    {
+     "label": "Bank Account Number and IFSC",
+     "value": "5541 2208 7736 / CNRB0005541",
+     "hint": "In the student's own name and Aadhaar-seeded. A parent's account is the usual reason the money bounces."
+    },
+    {
+     "label": "Mobile Number",
+     "value": "90000 66120",
+     "hint": "The application number and the payment message come here."
+    }
+   ],
+   "demoSteps": [
+    "Get the Sindhutva Pramana Patra — the Karnataka caste-cum-income certificate — from Seva Sindhu first. SSP validates its RD number and will not proceed without a current one.",
+    "Register on ssp.karnataka.gov.in with your Aadhaar, complete the e-KYC and choose pre-matric or post-matric, fresh or renewal.",
+    "Fill in the institution and course from the portal's list, upload the marks card, the bonafide certificate and the fee receipt, and give an Aadhaar-seeded account in your own name.",
+    "Submit and note the application number, then follow it up with the institution — it has to verify and forward the application before anything moves.",
+    "The welfare department sanctions it and the money is credited by DBT. The portal shows the sanction and the payment against your application number.",
+    "Apply again every year with a current certificate. Renewal is not automatic and missing the window costs that year's money."
+   ],
+   "helpline": "8050770004 — SSP Karnataka helpdesk",
+   "lastVerified": "September 2026",
+   "portalUrl": "https://ssp.karnataka.gov.in/",
+   "applyKind": "registration"
+  }
+ ]
+}
