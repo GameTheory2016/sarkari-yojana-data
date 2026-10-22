@@ -186,16 +186,25 @@ def main():
                     s.pop("applyKind", None)
             else:
                 review.append((sid, "apply link dead twice and no working homepage", s.get("applyUrl")))
-        if st.get("formUrl", {}).get("dead", 0) >= 2:
-            fixes.append((sid, "form download dead twice, button hidden", s["formUrl"], ""))
+        # Hiding a download is harder to undo than falling back to a
+        # homepage, and a 404 can come from a site that refuses foreign
+        # visitors, so a form link has to be dead three months running.
+        if st.get("formUrl", {}).get("dead", 0) >= 3:
+            fixes.append((sid, "form download dead three months running, button hidden", s["formUrl"], ""))
             if a.apply:
                 s["formUrl"] = ""
         for k, ks in st.items():
             if ks.get("unreachable", 0) >= 3:
                 review.append((sid, f"{k} unreachable three months running", s.get(k)))
+            # A redirect that still lands is not broken, so it is left alone,
+            # except when the site moved to a new host name within the same
+            # government domain (aasara.telangana.gov.in -> cheyutha.telangana.gov.in).
+            # The old name may stop redirecting one day.
             fin = ks.get("final", "")
+            old_host = (urlparse(s.get(k, "")).hostname or "").lower().removeprefix("www.")
+            new_host = (urlparse(fin).hostname or "").lower().removeprefix("www.")
             if (ks.get("redirect", 0) >= 2 and fin and "?" not in fin and not SESSION.search(fin)
-                    and site(fin) == site(s.get(k, "")) and fin.rstrip("/") != s.get(k, "").rstrip("/")):
+                    and site(fin) == site(s.get(k, "")) and old_host != new_host):
                 fixes.append((sid, f"{k} moved within the same site", s.get(k), fin))
                 if a.apply:
                     s[k] = fin

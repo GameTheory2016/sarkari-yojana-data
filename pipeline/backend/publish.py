@@ -87,7 +87,11 @@ def main():
     if last_n and len(en) < 0.9 * last_n:
         return fail(f"the catalogue shrank from {last_n} to {len(en)} schemes")
 
-    version = int(datetime.datetime.now().strftime("%Y%m%d%H%M"))
+    # UTC, so the Mac and GitHub's servers agree, and always above the last
+    # published version, so an app never sees a newer file as older.
+    version = int(datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M"))
+    bundled = load(os.path.join(DATA, "version.json"), {}).get("dataVersion", 0)
+    version = max(version, last.get("dataVersion", 0) + 1, bundled + 1)
     files = {}
     os.makedirs(os.path.join(OUT, "data"), exist_ok=True)
     for name in ["schemes_en.json"] + [f"schemes_{l}.json" for l in LANGS]:
