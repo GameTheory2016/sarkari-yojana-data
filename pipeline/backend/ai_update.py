@@ -50,6 +50,9 @@ MAX_SCHEMES = 15
 # the next daily run carries on; itr remembers what is already done.
 MAX_REQUESTS = int(os.environ.get("GEMINI_MAX_REQUESTS", "180"))
 _requests = 0
+GEMINI_ORDER = "as or pa ml kn ta bn mr gu hi te ur".split()
+# The workflow is killed after 300 minutes, losing everything; stop well before.
+DEADLINE = time.time() + 60 * float(os.environ.get("GEMINI_MAX_MINUTES", "200"))
 TEXT_FIELDS = ("brief", "benefit", "submitAt", "helpline")
 LIST_FIELDS = ("eligibility", "documents", "demoSteps")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
@@ -99,7 +102,7 @@ def fetch_text(url):
 
 
 _candidates = None  # usable models, best first; filled on first use
-FLASH = re.compile(r"gemini-(\d+(?:\.\d+)?)-flash(-preview[\w-]*|-\d{3})?")
+FLASH = re.compile(r"gemini-(\d+(?:\.\d+)?)-flash(-lite)?(-preview[\w-]*|-\d{3})?")
 
 
 def next_model(dead=None):
@@ -119,7 +122,8 @@ def next_model(dead=None):
                         names.append(n)
         except Exception as e:
             print(f"  Gemini model list failed: {e}")
-        names.sort(key=lambda n: ("preview" not in n,
+        # Each model has its own free daily quota, so the lite ones are a fallback.
+        names.sort(key=lambda n: ("lite" not in n, "preview" not in n,
                                   [int(x) for x in FLASH.fullmatch(n)[1].split(".")]),
                    reverse=True)
         _candidates = ([MODEL] if MODEL else []) + names + ["gemini-flash-latest"]
@@ -130,6 +134,8 @@ def next_model(dead=None):
 def gemini(prompt, retries=4):
     """One JSON answer from Gemini, or None. Paced for the free tier."""
     global _requests, MODEL
+    if time.time() > DEADLINE:
+        _requests = MAX_REQUESTS
     if _requests >= MAX_REQUESTS:
         return None
     if not MODEL:
@@ -147,7 +153,7 @@ def gemini(prompt, retries=4):
         req = urllib.request.Request(url, data=body, headers={
             "Content-Type": "application/json", "x-goog-api-key": KEY})
         try:
-            with urllib.request.urlopen(req, timeout=240) as r:
+            with urllib.request.urlopen(req, timeout=150) as r:
                 data = json.load(r)
             return json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
         except urllib.error.HTTPError as e:
@@ -159,6 +165,18 @@ def gemini(prompt, retries=4):
                 if MODEL == "none":
                     return None
                 continue
+            if e.code == 429 and b"PerDay" in msg:
+                # This model's free quota for today is used up; try the next one.
+                MODEL = next_model(MODEL) or "none"
+                print(f"  Gemini daily quota reached; switching to {MODEL}")
+                if MODEL != "none":
+                    continue
+            if e.code == 429 and (MODEL == "none" or attempt == retries - 1):
+                # Nothing left for today: stop, so the run ends quickly and
+                # commits what it has; tomorrow's run carries on.
+                print("  stopping for today")
+                _requests = MAX_REQUESTS
+                return None
             if e.code in (429, 500, 503) and attempt < retries - 1:
                 time.sleep(40 * (attempt + 1))
                 attempt += 1
@@ -307,7 +325,12 @@ def translate_new_text():
     for attempt in range(2):  # a second pass resends anything itr rejected
         r = itr("extract", "--src", src, "--keys", KEYS, "--langs", ",".join(LANGS),
                 "--tm", TM, "--work", ITR_WORK)
-        todos = sorted(glob.glob(os.path.join(ITR_WORK, "*", "todo_*.json")))
+        # Claude agents translate from the most-read languages down, so this
+        # starts at the other end.
+        todos = sorted(glob.glob(os.path.join(ITR_WORK, "*", "todo_*.json")),
+                       key=lambda t: (GEMINI_ORDER.index(os.path.basename(os.path.dirname(t)))
+                                      if os.path.basename(os.path.dirname(t)) in GEMINI_ORDER
+                                      else 99, t))
         if not todos:
             break
         print(f"translating {len(todos)} chunks (pass {attempt + 1})")
