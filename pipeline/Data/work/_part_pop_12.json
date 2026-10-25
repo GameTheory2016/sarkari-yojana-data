@@ -1,0 +1,469 @@
+{"schemes": [
+{
+ "id": "kl-kasp",
+ "title": "Karunya Arogya Suraksha Padhathi (KASP Card)",
+ "department": "State Health Agency Kerala, Department of Health and Family Welfare, Government of Kerala",
+ "level": "State",
+ "state": "Kerala",
+ "category": "Health",
+ "mode": "offline",
+ "brief": "Kerala's free health cover, run together with Ayushman Bharat PM-JAY. About 42 lakh poorer families get treatment worth up to Rs.5 lakh a year per family, cashless, at about 180 government and 365 private empanelled hospitals. The KASP card is made at the KASP help desk of an empanelled hospital or at an Akshaya centre after an Aadhaar check. The new government plans to merge KASP into a bigger Oommen Chandy Health Insurance Scheme, but until that is notified KASP cards keep working as before.",
+ "benefit": "Up to Rs.5 lakh a year per family, cashless, at empanelled hospitals",
+ "emoji": "🏥",
+ "colorHex": "#00838F",
+ "eligibility": [
+  "Families that had an RSBY or CHIS health card in 2018-19, and families on the PM-JAY list (SECC 2011), including those who got the letter from the Prime Minister",
+  "About 42 lakh families, the poorest 40% of Kerala. Every member is covered, whatever the age or the size of the family",
+  "Illnesses you already have are covered from day one. Costs for 3 days before admission and 15 days after discharge are included",
+  "Other families cannot join now. New names are added only when the government announces it",
+  "A seriously ill patient from a poor family that is not in KASP can ask the same hospital desk about the Karunya Benevolent Fund: Rs.2 lakh for illnesses such as cancer and heart disease, Rs.3 lakh for kidney disease"
+ ],
+ "documents": [
+  "Aadhaar card of every family member who needs a card",
+  "Ration card",
+  "Mobile number for the OTP",
+  "Old RSBY or CHIS card, or the letter from the Prime Minister, if you have one",
+  "At admission: the KASP card (or its number) and the patient's Aadhaar"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "The KASP (PM-JAY) help desk at any empanelled government or private hospital, such as a medical college, district or taluk hospital, or any Akshaya e-Kendra. Take the Aadhaar card of every member who needs a card, the ration card and a mobile phone. There is no paper form: the staff search your family on the computer and check each member's Aadhaar.",
+ "demoFields": [
+  {
+   "label": "Search family by",
+   "value": "Ration card number",
+   "hint": "The ration card finds the whole family at once. If nothing comes up, the staff try with your Aadhaar number."
+  },
+  {
+   "label": "Ration card number",
+   "value": "9900123456",
+   "hint": "The 10-digit number printed on your ration card."
+  },
+  {
+   "label": "Family found in",
+   "value": "KASP (state list)",
+   "hint": "Shows whether your family is on the PM-JAY list or the state KASP list. Both get the same Rs.5 lakh cover."
+  },
+  {
+   "label": "Member selected",
+   "value": "Saramma Varghese, 63, Female",
+   "hint": "Each member is done one by one. Check the name and age before the card is printed."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 4410 2873",
+   "hint": "The Aadhaar of the member whose card is being made now."
+  },
+  {
+   "label": "e-KYC method",
+   "value": "Fingerprint",
+   "hint": "Fingerprint on the machine. If it fails, an OTP to the Aadhaar-linked mobile or a face scan is used."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90000 52418",
+   "hint": "A number you keep with you. Messages about the card and hospital approvals come here."
+  },
+  {
+   "label": "Live photo",
+   "value": "Taken at the desk",
+   "hint": "Face the camera straight, without cap or dark glasses."
+  },
+  {
+   "label": "District",
+   "value": "Kottayam",
+   "hint": "Where you live now."
+  },
+  {
+   "label": "Card status",
+   "value": "Approved, card printed",
+   "hint": "Keep the card or a photo of it on your phone. It is valid at every empanelled hospital in the country."
+  }
+ ],
+ "demoSteps": [
+  "Check if your family is covered: ask at an Akshaya centre or a hospital KASP desk, or call DISHA on 1056.",
+  "Go to the KASP desk of an empanelled hospital or an Akshaya centre with each member's Aadhaar, the ration card and your phone.",
+  "The staff find your family, check each member's Aadhaar by fingerprint or OTP, take a photo and print the KASP card.",
+  "When treatment is needed, go to an empanelled hospital and show the KASP card and Aadhaar at the KASP counter before admission.",
+  "The hospital takes approval from the State Health Agency. Medicines, tests, surgery, ICU, room and food in the package are free; do not pay cash for a covered treatment.",
+  "If the hospital refuses or asks you to pay, call DISHA 1056 or the State Health Agency before paying.",
+  "Not on the list but seriously ill and poor? Ask the same desk how to apply to the Karunya Benevolent Fund."
+ ],
+ "helpline": "1056 — DISHA health helpline (24x7); 0471-2960221 / 0471-4063121 — State Health Agency Kerala; 14555 — Ayushman Bharat national helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "kl-social-security-pension",
+ "title": "Social Security Pension (Kshema Pension / Sevana Pension)",
+ "department": "Local Self Government Department and Finance Department, Government of Kerala, through grama panchayats, municipalities and corporations",
+ "level": "State",
+ "state": "Kerala",
+ "category": "Pension",
+ "mode": "offline",
+ "brief": "Kerala's monthly welfare pension, Rs.2,000 since November 2025, for poor elderly people, widows, persons with disabilities, unmarried women over 50 and old agricultural labourers. About 52 lakh people get it. Your grama panchayat, municipality or corporation takes the paper form, checks your case and must decide within 45 days. The money comes every month to your bank account, or a co-operative bank agent hands it over at your home. The new government has promised to raise it to Rs.3,000, but no date has been fixed yet.",
+ "benefit": "Rs.2,000 a month",
+ "emoji": "👵",
+ "colorHex": "#6A1B9A",
+ "eligibility": [
+  "Family income not above Rs.1 lakh a year, and not an income tax payer",
+  "Old age pension: 60 or above. Agricultural labourer pension: 60 or above, at least 10 years as a farm labourer and a member of the Agricultural Workers' Welfare Fund",
+  "Widow pension: widows who have not remarried, and women of 50 or more whose husband has been missing or has left them for over 7 years. Unmarried women's pension: unmarried women aged 50 or more",
+  "Disability pension: persons with 40% or more disability certified by a medical board",
+  "Not eligible: land over 2 acres (except ST families), a car over 1000 cc that is not a taxi, a concrete house over 2,000 sq ft with modern flooring, or a government or PSU service or family pension (ex-gratia or NPS pension up to Rs.4,000 is allowed)",
+  "Only one social security pension per person (except persons with disability), applied for in the local body where you live permanently"
+ ],
+ "documents": [
+  "Age proof: school certificate, birth certificate, church or mosque record, voter ID or Aadhaar",
+  "Income certificate from the Village Office",
+  "Certificate of permanent residence",
+  "Aadhaar card and voter ID card (copy of both sides)",
+  "Ration card (copy of the first page and the page with your name)",
+  "Bank passbook copy, if you want the pension in a bank",
+  "Widows: husband's death certificate. Disability pension: medical board disability certificate",
+  "EPF passbook, only if you get an EPF pension below Rs.4,000"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "https://welfarepension.lsgkerala.gov.in/Application%20form/IGNOAPS.pdf",
+ "submitAt": "The front office of your grama panchayat, municipality or corporation, addressed to the Secretary. The linked form is for the old age pension; the forms for widow, disability, unmarried women and agricultural labourer pensions are on welfarepension.lsgkerala.gov.in under Application Forms. Fill the form, paste a passport photo taken within the last 6 months, sign it, attach self-attested copies of the documents and take a receipt.",
+ "demoFields": [
+  {
+   "label": "Gender and category",
+   "value": "Female, General",
+   "hint": "Tick woman, man or transgender, and General, SC or ST."
+  },
+  {
+   "label": "Name (in English and in Malayalam)",
+   "value": "Kunjamma Joseph",
+   "hint": "Write the name exactly as on Aadhaar, once in English and once in Malayalam."
+  },
+  {
+   "label": "Ward number, ward name and house number",
+   "value": "Ward 7, Kizhakkekara, House No. 7/214",
+   "hint": "From your house tax receipt. The ward member of this ward is asked to confirm your details."
+  },
+  {
+   "label": "Address, PIN code and post office",
+   "value": "Puthenpurayil House, Kizhakkekara, 686 999, Kuravilangad PO",
+   "hint": "The home where you live permanently."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 2761 4408",
+   "hint": "Your own Aadhaar. Pension is paid only to an Aadhaar-verified person."
+  },
+  {
+   "label": "Ration card number",
+   "value": "9900456781",
+   "hint": "Attach a copy of the first page and the page with your name."
+  },
+  {
+   "label": "Annual income",
+   "value": "Rs.48,000",
+   "hint": "The family income shown on your Village Office income certificate. Also write its number and date at the end of the form."
+  },
+  {
+   "label": "How you want the pension",
+   "value": "Direct to home",
+   "hint": "Choose bank account, money order (EMO) or direct to home, where a co-operative bank agent brings the cash."
+  },
+  {
+   "label": "Service pension, income tax, EPF pension?",
+   "value": "No, No, No",
+   "hint": "Answer truthfully. A wrong answer later means the pension is stopped and the money recovered."
+  },
+  {
+   "label": "Land owned by you or your family",
+   "value": "0 acres 12 cents",
+   "hint": "All land in your or your family's name. More than 2 acres makes you ineligible, except for ST families."
+  }
+ ],
+ "demoSteps": [
+  "Get an income certificate from the Village Office, online on e-District or through an Akshaya centre.",
+  "Download and fill the form for your pension type, paste a recent passport photo, sign it and attach the copies.",
+  "Hand it in at the front office of your panchayat, municipality or corporation and keep the receipt.",
+  "Local body staff check the details and may visit your house. The Secretary must decide within 45 days; if it is refused, you can appeal to the District Collector within 30 days.",
+  "Once approved and digitally signed, the pension is due from that month and is paid by DBT to your bank or at your home.",
+  "Every year, do the mustering (life check) by fingerprint at an Akshaya centre. Widows and unmarried women under 60 must also give a certificate that they have not married or remarried.",
+  "Check your status and payments on welfarepension.lsgkerala.gov.in under Quick Search or Pension Search."
+ ],
+ "helpline": "0471-2327526 — DBT cell for social security pensions; for applications, your grama panchayat, municipality or corporation office",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "kl-crop-insurance",
+ "title": "State Crop Insurance Scheme and Crop-Loss Relief (AIMS)",
+ "department": "Department of Agriculture Development and Farmers' Welfare, Government of Kerala, through Krishi Bhavans",
+ "level": "State",
+ "state": "Kerala",
+ "category": "Agriculture",
+ "mode": "online",
+ "brief": "Kerala's own crop insurance. For a small premium, such as Rs.2 a year for a yielding coconut tree or Re.1 a cent for paddy, you get fixed compensation if the crop is fully destroyed by flood, drought, landslide, storm, lightning, sea erosion, wildfire or wild animals; paddy is also covered against pests and disease. You apply and pay on the AIMS portal or app, and the Krishi Bhavan checks the field. Farmers without insurance can still claim the smaller natural-calamity relief on AIMS, for example Rs.700 for a yielding coconut tree. In March 2026 papaya, rambutan and other fruits, flowers and bee boxes were added.",
+ "benefit": "For total loss: Rs.2,000 per yielding coconut tree, Rs.35,000 per hectare of paddy, Rs.300 per bunched Nendran banana",
+ "emoji": "🌴",
+ "colorHex": "#2E7D32",
+ "eligibility": [
+  "Any farmer in Kerala who cultivates own or leased land. Paddy farmers can also join as a padasekharam group",
+  "Minimum to insure: 10 coconut or arecanut trees, 10 banana plants, 25 rubber trees, or 0.1 hectare (about 25 cents) of paddy",
+  "Insure within the crop's window: paddy 15 to 45 days after sowing or transplanting, banana 1 to 5 months after planting; yielding tree crops at any time",
+  "Insure the whole crop in that plot, not part of it. Old or low-yielding trees are not accepted",
+  "Cover starts 7 days after the premium is paid. Only total loss is paid: paddy loss above 50% counts as total, and for vegetables, ginger, tapioca and similar crops at least 10% of the insured area must be lost"
+ ],
+ "documents": [
+  "Aadhaar card and the mobile number linked to it, for the OTP",
+  "Land tax receipt or other land record; a lease agreement if the land is leased",
+  "Passbook of a bank account in the farmer's own name",
+  "Crop details: number of trees or plants, or the area, and the planting date",
+  "UPI, debit card or net banking to pay the premium online",
+  "For a claim: photos of the damaged crop"
+ ],
+ "applyUrl": "https://www.aimsnew.kerala.gov.in/reg/farmer_registration",
+ "portalUrl": "https://www.aimsnew.kerala.gov.in/",
+ "applyKind": "registration",
+ "portalName": "AIMS — Agriculture Information Management System",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Aadhaar number (farmer registration)",
+   "value": "9999 6021 3348",
+   "hint": "Registration starts with your Aadhaar and an OTP. You register only once; the same login is used for every AIMS service."
+  },
+  {
+   "label": "Krishi Bhavan",
+   "value": "Kumarakom",
+   "hint": "The Krishi Bhavan of the panchayat where the land is. Its staff will check your field."
+  },
+  {
+   "label": "Land: village, survey number and area",
+   "value": "Kumarakom, Sy. No. 412/3, 0.40 hectare",
+   "hint": "Copy these from your land tax receipt. Add the land and the crops on it before applying for insurance."
+  },
+  {
+   "label": "Ownership",
+   "value": "Own land",
+   "hint": "If you farm leased land, choose leased and upload the lease agreement."
+  },
+  {
+   "label": "Crop to insure",
+   "value": "Coconut, yielding (above 7 years)",
+   "hint": "Under Services, open the State Crop Insurance link and press Apply next to the crop."
+  },
+  {
+   "label": "Number of trees",
+   "value": "40",
+   "hint": "Insure all the coconut trees in that plot; at least 10 are needed."
+  },
+  {
+   "label": "Insurance period",
+   "value": "3 years",
+   "hint": "For yielding coconut it is Rs.2 per tree for one year, or Rs.5 per tree for three years paid together."
+  },
+  {
+   "label": "Premium shown",
+   "value": "Rs.200",
+   "hint": "Worked out automatically from the number of trees and the period."
+  },
+  {
+   "label": "Declaration",
+   "value": "Ticked",
+   "hint": "Tick the box above Submit Application, or the application will not go."
+  },
+  {
+   "label": "Premium payment (e-Treasury)",
+   "value": "UPI, GRN saved",
+   "hint": "Pay only after the Krishi Bhavan approves and you get the SMS. Note the GRN number shown after payment."
+  }
+ ],
+ "demoSteps": [
+  "Register once on AIMS with your Aadhaar and OTP, then add your land and crop details.",
+  "Open Services, then State Crop Insurance, press Apply next to the crop, enter the number of trees or the area and the period, tick the declaration and submit. The application goes to your Krishi Bhavan.",
+  "Krishi Bhavan staff inspect the field within 10 days. When the premium is approved you get an SMS.",
+  "Pay the premium on AIMS within 10 days through e-Treasury (UPI, card or net banking). The policy appears under Policy Issued; download it and the receipt.",
+  "If the crop is destroyed, tell the Krishi Bhavan at once or use Report Calamity in AIMS, so the loss is entered. Then apply for the claim on AIMS within 15 days with photos, and leave the damaged crop as it is until the officer inspects it.",
+  "The compensation is paid straight into your bank account when funds are released.",
+  "If the crop was not insured, apply on AIMS in the same way for natural-calamity relief at the government's lower rates."
+ ],
+ "helpline": "AIMS help desk: 0471-2968122, 0471-2303990, 0471-2309122; Directorate of Agriculture: 0471-2304481; Kisan Call Centre: 1800-180-1551",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "kl-construction-workers-board",
+ "title": "Kerala Construction Workers Welfare Board Membership (Nirmana Thozhilali Kshemanidhi)",
+ "department": "Kerala Building and Other Construction Workers Welfare Board, Labour and Skills Department, Government of Kerala",
+ "level": "State",
+ "state": "Kerala",
+ "category": "Employment",
+ "mode": "offline",
+ "brief": "Membership for masons, carpenters, helpers, painters, electricians, plumbers and other building workers aged 18 to 59. Members pay Rs.50 a month and get a pension after 60, and help at childbirth and marriage, for children's education, medical treatment, disability and death. You join at the Board's district office with proof of age and of 90 days' construction work. The Board has about 20 lakh members but is short of money: in June 2026 the Labour Minister told the Assembly that pensions have been pending since June 2025.",
+ "benefit": "Pension Rs.1,600 a month after 60, plus maternity, marriage, education, treatment and death aid",
+ "emoji": "👷",
+ "colorHex": "#EF6C00",
+ "eligibility": [
+  "Aged 18 to 59 and working in building or other construction work in Kerala",
+  "Worked at least 90 days in construction work in the last 12 months",
+  "Pay the Rs.50 monthly subscription to keep the membership active; a break can stop your benefits",
+  "Pension: 60 or older with at least 5 years of active membership",
+  "Maternity aid: women members with at least 1 year of membership, for up to two deliveries",
+  "After a member's or pensioner's death, the nominee or spouse can claim the death benefit or family pension"
+ ],
+ "documents": [
+  "Membership application form from the Board's district office",
+  "Age proof: birth certificate, school certificate or Aadhaar",
+  "Certificate of at least 90 days' construction work in the last 12 months, from your employer or contractor",
+  "Aadhaar card copy",
+  "Copy of a bank passbook in the worker's own name",
+  "Passport-size photos and your nominee's details",
+  "For each benefit later: the Board's claim form for it (Form 34 for pension, Form 38 for disability pension, Form 36 for death benefit) with the Welfare Fund ID card and passbook"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "The district office of the Kerala Building and Other Construction Workers Welfare Board (District Executive Officer) in your district. Collect the membership form there, attach the copies, pay the first subscription and take a receipt. Head office: Nirman Bhavan, Mettukada, Thycaud, Thiruvananthapuram.",
+ "demoFields": [
+  {
+   "label": "Name of worker",
+   "value": "Shibu Thankappan",
+   "hint": "As on your Aadhaar card."
+  },
+  {
+   "label": "Date of birth",
+   "value": "14-03-1984",
+   "hint": "Must match your age proof. You must be between 18 and 59 to join."
+  },
+  {
+   "label": "Address and local body",
+   "value": "Thekkethil House, Ward 9, Pallickal Grama Panchayat, Kollam",
+   "hint": "Where you live now. The district office of this district handles your file."
+  },
+  {
+   "label": "Type of work",
+   "value": "Mason",
+   "hint": "Your main construction trade, such as mason, carpenter, helper, painter, plumber or electrician."
+  },
+  {
+   "label": "90 days' work certified by",
+   "value": "M. Rajan, building contractor, Karunagappally",
+   "hint": "The employer or contractor who signs that you worked at least 90 days in the last 12 months."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 8130 5527",
+   "hint": "Attach a copy of your Aadhaar card."
+  },
+  {
+   "label": "Bank account and IFSC",
+   "value": "A/c 99990001234567, IFSC KLGB0999999",
+   "hint": "An account in your own name. All benefits are paid into it."
+  },
+  {
+   "label": "Nominee and relation",
+   "value": "Sindhu S., wife",
+   "hint": "The person who gets the death benefit and the refund if something happens to you."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90000 61273",
+   "hint": "A number you keep with you, for messages from the Board."
+  },
+  {
+   "label": "Monthly subscription",
+   "value": "Rs.50",
+   "hint": "Pay it every month and see that it is entered in your Welfare Fund passbook."
+  }
+ ],
+ "demoSteps": [
+  "Collect the membership form at the Board's district office in your district.",
+  "Fill it and attach the age proof, the 90-day work certificate, Aadhaar, bank passbook copy and photos.",
+  "Submit it at the district office with the first subscription and keep the receipt. If the District Executive Officer rejects it, you can appeal to the Board Secretary within 30 days.",
+  "You get a Welfare Fund ID card and passbook. Pay Rs.50 every month so the membership stays active.",
+  "For a benefit such as maternity, marriage or treatment aid, apply at the same office on the Board's form for it, with the ID card and passbook, soon after the event; after 90 days you must explain the delay.",
+  "At 60, with 5 years of active membership, apply for the pension on Form 34 with the ID card, passbook, bank passbook copy and Aadhaar. It is paid into your bank, but payments are running many months late now."
+ ],
+ "helpline": "0471-2337941 — Board head office, Thiruvananthapuram; or the Board's district office in your district",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "kl-priyadarshini-free-bus",
+ "title": "Priyadarshini Scheme (Free KSRTC Bus Travel for Women)",
+ "department": "Transport Department, Government of Kerala — Kerala State Road Transport Corporation (KSRTC)",
+ "level": "State",
+ "state": "Kerala",
+ "category": "Utilities",
+ "mode": "offline",
+ "brief": "Since 15 June 2026, women and transgender persons travel free on KSRTC ordinary buses in Kerala, with no limit on distance. There is no form, card or registration, and no ID is needed: tell the conductor where you are going and take the zero-fare Priyadarshini ticket. Fast Passenger, City Fast and higher-class buses, festival and weekend specials and chartered trips are not free.",
+ "benefit": "Free travel on KSRTC ordinary buses, any distance",
+ "emoji": "🚌",
+ "colorHex": "#C2185B",
+ "eligibility": [
+  "All women and girls, of any age, and transgender persons",
+  "No income, residence or caste condition, and nothing to apply for",
+  "Covers KSRTC ordinary services; these buses carry 'Priyadarshini Scheme' on both sides and on the front",
+  "Not covered: Fast Passenger, City Fast and other higher-class services, BTC services, festival specials, weekend extra services and chartered trips",
+  "Private buses are not part of the scheme"
+ ],
+ "documents": [
+  "Nothing to show: no ID, card or registration is needed",
+  "Ask for the zero-fare (Priyadarshini) ticket and keep it until you get down",
+  "Normal fare for any men travelling with you",
+  "Luggage charge if you carry more than the free limit"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "There is no form and nowhere to apply. Board a KSRTC ordinary bus marked 'Priyadarshini Scheme', tell the conductor your destination and ask for the zero-fare ticket.",
+ "demoFields": [
+  {
+   "label": "Bus type",
+   "value": "KSRTC Ordinary",
+   "hint": "Only ordinary services are free. Fast Passenger, City Fast and higher-class buses charge the normal fare."
+  },
+  {
+   "label": "Board on the bus",
+   "value": "Priyadarshini Scheme",
+   "hint": "Written on both sides and the front of every bus in the scheme."
+  },
+  {
+   "label": "Boarding point",
+   "value": "Kottarakkara",
+   "hint": "Tell the conductor where you got on."
+  },
+  {
+   "label": "Destination",
+   "value": "Punalur",
+   "hint": "Any distance on the bus's route."
+  },
+  {
+   "label": "Ticket type",
+   "value": "Zero fare, Rs.0 to pay",
+   "hint": "The conductor must give one to every woman and transgender passenger, with the boarding and getting-down points on it."
+  },
+  {
+   "label": "Passengers",
+   "value": "1 woman, 1 girl; husband pays his own fare",
+   "hint": "Each woman and girl gets her own zero-fare ticket. Men get separate paid tickets."
+  },
+  {
+   "label": "ID shown",
+   "value": "None needed",
+   "hint": "You do not have to show Aadhaar or any other card."
+  },
+  {
+   "label": "Luggage",
+   "value": "One bag, within the free limit",
+   "hint": "Extra luggage needs a separate paid luggage ticket."
+  }
+ ],
+ "demoSteps": [
+  "Look for a KSRTC ordinary bus with 'Priyadarshini Scheme' written on the front and sides.",
+  "Board the bus, tell the conductor where you are going and ask for the Priyadarshini (zero-fare) ticket. No ID is needed.",
+  "Keep the ticket until you get down. Inspection squads check tickets, and travelling without one is not allowed even when it is free.",
+  "Men travelling with you get separate paid tickets, and extra luggage needs a luggage ticket.",
+  "On Fast Passenger, City Fast, higher-class, special or chartered buses, pay the normal fare.",
+  "If a conductor refuses the free ticket on an ordinary bus, note the bus number, route and time and call the KSRTC control room on 149."
+ ],
+ "helpline": "149 — KSRTC control room (toll free); 1800-599-4011 — KSRTC customer support; 0471-2463799 / 94470 71021 — KSRTC helpline",
+ "lastVerified": "October 2026"
+}
+]}

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Update schemes whose official page changed, then translate what changed.
 
-    GEMINI_API_KEY=... python3 backend/ai_update.py
+    GEMINI_API_KEY=... python3 backend/ai_update.py                    # monthly: content + translation
+    GEMINI_API_KEY=... python3 backend/ai_update.py --translate-only   # daily: translation only
 
 This runs after `monthly_check.py --apply`, whose report says which schemes'
 pages changed. It uses Google's Gemini API on the free tier, which needs no
@@ -43,6 +44,10 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MAX_SCHEMES = 15
+# The free tier allows a few hundred requests a day. Each run stops here and
+# the next daily run carries on; itr remembers what is already done.
+MAX_REQUESTS = int(os.environ.get("GEMINI_MAX_REQUESTS", "180"))
+_requests = 0
 TEXT_FIELDS = ("brief", "benefit", "submitAt", "helpline")
 LIST_FIELDS = ("eligibility", "documents", "demoSteps")
 NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
@@ -93,6 +98,10 @@ def fetch_text(url):
 
 def gemini(prompt, retries=4):
     """One JSON answer from Gemini, or None. Paced for the free tier."""
+    global _requests
+    if _requests >= MAX_REQUESTS:
+        return None
+    _requests += 1
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"responseMimeType": "application/json",
@@ -256,6 +265,9 @@ def translate_new_text():
             break
         print(f"translating {len(todos)} chunks (pass {attempt + 1})")
         for t in todos:
+            if _requests >= MAX_REQUESTS:
+                print(f"stopping at the daily limit of {MAX_REQUESTS} requests; the next run carries on")
+                break
             chunk = load(t)
             prompt = (chunk["instructions"] +
                       "\n\nReturn only JSON in the form {\"items\": [{\"k\": \"...\", \"t\": \"...\"}]}.\n\n"
@@ -275,6 +287,9 @@ def main():
         print("GEMINI_API_KEY is not set; skipping AI updates")
         return 0
     month = datetime.date.today().strftime("%Y-%m")
+    if "--translate-only" in sys.argv:
+        translate_new_text()
+        return 0
     applied, skipped = update_content(month)
     translate_new_text()
 

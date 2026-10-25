@@ -1,0 +1,64 @@
+name: Daily translation
+
+# Translates any English text that has no translation yet, using the free
+# Gemini tier, in daily portions. When everything is translated it does
+# nothing. It also publishes, so new schemes reach the app the same day
+# (untranslated parts show in English until a later run fills them in).
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-update
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild the data files
+        run: python3 Data/merge_schemes.py
+
+      - name: Translate what is missing
+        if: env.GEMINI_API_KEY != ''
+        run: python3 backend/ai_update.py --translate-only
+
+      - name: Rebuild translations from the memory
+        run: |
+          python3 backend/itr/scripts/itr.py apply --src Resources/data/schemes_en.json \
+            --keys title,department,brief,benefit,portalName,submitAt,helpline,lastVerified,eligibility,documents,demoSteps,label,value,hint \
+            --langs gu,hi,mr,bn,ta,te,kn,ml,pa,or,as,ur --tm backend/tm --work backend/work \
+            --out 'Resources/data/schemes_{lang}.json' --overlay
+
+      - name: Publish for the app
+        run: |
+          if git diff --quiet -- Resources/data backend/tm; then
+            echo "no data changes"
+          else
+            python3 backend/publish.py --min-coverage 0
+          fi
+
+      - name: Commit
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Daily translation $(date +%Y-%m-%d)" || echo "nothing changed"
+          git push

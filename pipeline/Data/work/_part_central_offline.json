@@ -2,13 +2,13 @@
  "schemes": [
   {
    "id": "ignoaps",
-   "title": "Indira Gandhi National Old Age Pension (IGNOAPS)",
-   "department": "Ministry of Rural Development — National Social Assistance Programme",
+   "title": "Pradhan Mantri Vridhavastha Pension Yojana (formerly IGNOAPS)",
+   "department": "Ministry of Rural Development — Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP)",
    "level": "Central",
    "state": "",
    "category": "Pension",
    "mode": "offline",
-   "brief": "A monthly pension for people aged 60 and above who belong to a below-poverty-line household. The Centre pays a fixed share and almost every state adds a top-up, so the amount that actually reaches the bank account is usually larger than the central figure.",
+   "brief": "A monthly pension for people aged 60 and above who belong to a below-poverty-line household. It was called the Indira Gandhi National Old Age Pension Scheme (IGNOAPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly the National Social Assistance Programme, NSAP); the amount and rules stay the same. The Centre pays a fixed share and almost every state adds a top-up, so the amount that actually reaches the bank account is usually larger than the central figure.",
    "benefit": "Rs.200/month (Rs.500 after age 80) from the Centre, plus the state top-up",
    "emoji": "👴",
    "colorHex": "#7B2FBE",
@@ -118,13 +118,13 @@
   },
   {
    "id": "ignwps",
-   "title": "Indira Gandhi National Widow Pension (IGNWPS)",
-   "department": "Ministry of Rural Development — National Social Assistance Programme",
+   "title": "Pradhan Mantri Vidhawa Pension Yojana (formerly IGNWPS)",
+   "department": "Ministry of Rural Development — Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP)",
    "level": "Central",
    "state": "",
    "category": "Pension",
    "mode": "offline",
-   "brief": "A monthly pension for widows aged 40 and above in below-poverty-line households. The Centre pays a fixed share and the state adds its own top-up. The pension stops if the widow remarries, and converts to the old-age pension once she turns 60 in states that run both.",
+   "brief": "A monthly pension for widows aged 40 and above in below-poverty-line households. It was called the Indira Gandhi National Widow Pension Scheme (IGNWPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP); the amount and rules stay the same. The Centre pays a fixed share and the state adds its own top-up. The pension stops if the widow remarries, and converts to the old-age pension once she turns 60 in states that run both.",
    "benefit": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up",
    "emoji": "👩",
    "colorHex": "#B5397A",
@@ -245,24 +245,24 @@
   },
   {
    "id": "igndps",
-   "title": "Indira Gandhi National Disability Pension (IGNDPS)",
-   "department": "Ministry of Rural Development — National Social Assistance Programme",
+   "title": "Pradhan Mantri Divyangjan Pension Yojana (formerly IGNDPS)",
+   "department": "Ministry of Rural Development — Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP)",
    "level": "Central",
    "state": "",
    "category": "Pension",
    "mode": "offline",
-   "brief": "A monthly pension for persons aged 18 and above with severe or multiple disability who belong to a below-poverty-line household. The Centre pays a fixed share and the state adds its top-up. Everything turns on a valid disability certificate showing 80 per cent or more.",
-   "benefit": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up",
+   "brief": "A monthly pension for persons with severe disability who belong to a below-poverty-line household. It was called the Indira Gandhi National Disability Pension Scheme (IGNDPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP). The Cabinet also approved Rs.375 a month (Rs.625 from age 80), a 40 per cent disability limit instead of 80, and no minimum age; these start once the new guidelines are issued, due by mid-January 2027. Until then the old rules apply — age 18 or more and a certificate showing 80 per cent or more — and the state adds its own top-up.",
+   "benefit": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up; rising to Rs.375 (Rs.625 after age 80) once the new guidelines are issued",
    "emoji": "♿",
    "colorHex": "#0097A7",
    "eligibility": [
-    "Age 18 years or more on the date of application",
-    "Severe or multiple disability of 80 per cent or more, certified by the competent medical authority",
+    "Age 18 years or more on the date of application (no minimum age once the new guidelines are issued)",
+    "Severe or multiple disability of 80 per cent or more, certified by the competent medical authority (40 per cent or more once the new guidelines are issued)",
     "Household is on the state's below-poverty-line (BPL) list",
     "Not drawing another disability or social-security pension"
    ],
    "documents": [
-    "Disability certificate showing 80 per cent or more, issued by the Chief Medical Officer or a district medical board",
+    "Disability certificate showing 80 per cent or more (40 per cent once the new guidelines are issued), issued by the Chief Medical Officer or a district medical board",
     "UDID card, if one has been issued",
     "Age proof — Aadhaar, birth certificate or school leaving certificate",
     "BPL ration card, or the family's serial number on the BPL list",
@@ -288,7 +288,7 @@
     {
      "label": "Date of Birth / Age (completed years)",
      "value": "02-08-1997 / 29 years",
-     "hint": "You must be 18 or above. Below 18 the state's own disability schemes apply instead."
+     "hint": "Under the current rules you must be 18 or above. Once the new guidelines are issued, there is no minimum age."
     },
     {
      "label": "Sex",
@@ -303,7 +303,7 @@
     {
      "label": "Percentage of Disability",
      "value": "85%",
-     "hint": "It must read 80 per cent or more for this pension. A certificate below that is refused at the Block office, however genuine."
+     "hint": "Under the current rules it must read 80 per cent or more, or the Block office refuses it. Once the new guidelines are issued (due by mid-January 2027), 40 per cent or more qualifies."
     },
     {
      "label": "Disability Certificate No., Date and Issuing Authority",
@@ -362,7 +362,7 @@
     }
    ],
    "demoSteps": [
-    "Get the disability certificate in hand before anything else. The Chief Medical Officer's board at the district hospital assesses free of charge on fixed weekly days — ask the hospital's disability desk for the day. The certificate must show 80 per cent or more for this pension.",
+    "Get the disability certificate in hand before anything else. The Chief Medical Officer's board at the district hospital assesses free of charge on fixed weekly days — ask the hospital's disability desk for the day. The certificate must show 80 per cent or more under the current rules, and 40 per cent or more once the new guidelines are issued.",
     "Collect the blank NSAP disability pension form free from the Gram Panchayat clerk, the Block Development Office, the municipal ward office or a Common Service Centre; it can also be printed from the NSAP site.",
     "Fill it in ink, in block letters, copying the nature of the disability, the percentage, the certificate number and its date word for word from the certificate.",
     "Attach the disability certificate, the UDID card if issued, age proof, BPL ration card, Aadhaar photocopy, passbook first page and two photographs; paste one photograph on the form.",
@@ -834,31 +834,34 @@
   },
   {
    "id": "mgnrega",
-   "title": "MGNREGA Job Card",
-   "department": "Ministry of Rural Development — Mahatma Gandhi National Rural Employment Guarantee Act",
+   "title": "VB-G RAM G Rural Work Guarantee (Gramin Rozgar Guarantee Card)",
+   "department": "Ministry of Rural Development — Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025",
    "level": "Central",
    "state": "",
    "category": "Employment",
    "mode": "offline",
-   "brief": "The job card registers a rural household for guaranteed wage work. Every registered household can demand up to 100 days of unskilled manual work in a financial year, at the notified state wage, within 15 days of asking — and is owed an unemployment allowance if the work does not come.",
-   "benefit": "100 days of guaranteed wage work per household each year, paid at the notified state wage into the worker's bank account",
+   "brief": "From 1 July 2026 the VB-G RAM G Act replaced MGNREGA, and the old job card is becoming the Gramin Rozgar Guarantee Card. Every rural household can now ask for up to 125 days of unskilled manual work a year, up from 100, paid at the notified wage into the worker's bank or post office account. An old MGNREGA job card with e-KYC done stays valid until the new card is issued; a household with no card registers free at the Gram Panchayat. Work must be given within 15 days of asking, or an unemployment allowance is due.",
+   "benefit": "125 days of guaranteed wage work per household each year (up from 100 under MGNREGA), paid at the notified wage into the worker's bank or post office account",
    "emoji": "👷",
    "colorHex": "#F57C00",
    "eligibility": [
     "Household living in a rural area of the Gram Panchayat where it applies",
     "Adult members aged 18 or above who are willing to do unskilled manual work",
     "No income, caste or land condition — the right belongs to every rural household",
-    "One job card per household, listing all the adult members who want work"
+    "One card per household, listing all the adult members who want work; an old MGNREGA job card with e-KYC done stays valid until the new card comes",
+    "Single women, persons with disability, people over 60, freed bonded labourers, PVTG members and transgender persons get a Special card of a different colour",
+    "States can pause works for up to 60 days a year in peak sowing and harvest time; the 125 days are given in the rest of the year"
    ],
    "documents": [
-    "Aadhaar cards of all the adult members to be listed",
-    "Passport-size photographs of those adult members — the Panchayat supplies them free if the household cannot",
+    "Aadhaar cards of all the adult members to be listed — used for e-KYC and face-based attendance at the worksite",
+    "Passport-size photographs of those adult members, which go on the card",
     "Proof of residence in the Gram Panchayat — ration card, voter ID or a Panchayat certificate",
-    "Bank or post-office passbook copy, since wages are paid only into an account"
+    "Bank or post-office passbook copy, since wages are paid only into an account",
+    "The old MGNREGA job card, if the household has one"
    ],
    "applyUrl": "",
    "portalName": "",
-   "formUrl": "https://nrega.nic.in/",
+   "formUrl": "https://vbgramg.dord.gov.in/",
    "submitAt": "Gram Panchayat office — the Panchayat Secretary or the Gram Rozgar Sevak; the Programme Officer at the Block office also accepts it",
    "demoFields": [
     {
@@ -874,7 +877,7 @@
     {
      "label": "Village / Gram Panchayat / Block / District",
      "value": "Salaiya / Salaiya GP / Ghansor Block / Seoni, Madhya Pradesh",
-     "hint": "All four, because work is allotted within 5 km of the village named here — beyond that distance you are owed an extra 10 per cent of the wage."
+     "hint": "All four, because work is given within 5 km of the village named here as far as possible — if it is further away, inside the Block, you are owed an extra 10 per cent of the wage."
     },
     {
      "label": "Details of adult members willing to work (Sl. No., Name, Age, Sex, Relationship to head)",
@@ -884,7 +887,7 @@
     {
      "label": "Aadhaar Numbers of the listed adult members",
      "value": "1. 9012 3456 7801; 2. 8901 2345 6789; 3. 7801 2345 6790",
-     "hint": "One against each name in the same order. Wages are paid through Aadhaar-based payment, so a missing number stops that member's wages."
+     "hint": "One against each name in the same order. Aadhaar is used for e-KYC and face-based attendance, and wages are paid through Aadhaar-based payment, so a missing number holds up that member's wages."
     },
     {
      "label": "Category (SC / ST / OBC / General) and whether the household is a PMAY-G, land reform or small and marginal farmer beneficiary",
@@ -894,7 +897,7 @@
     {
      "label": "Ration Card Number / BPL status",
      "value": "MP-22-PHH-338920",
-     "hint": "Asked for identification only. MGNREGA has no poverty condition — a household above the poverty line is equally entitled to a job card."
+     "hint": "Asked for identification only. The scheme has no poverty condition — a household above the poverty line is equally entitled to a card."
     },
     {
      "label": "Bank / Post Office Account (bank, branch, account no., IFSC)",
@@ -909,7 +912,7 @@
     {
      "label": "Photographs of the adult members applying",
      "value": "3 photographs enclosed — one for each listed adult",
-     "hint": "The photographs are pasted on the job card itself. If the household cannot afford them, the Panchayat must arrange them free of cost."
+     "hint": "The photographs go on the card itself, next to each listed member's name."
     },
     {
      "label": "Date and Signature / Thumb Impression of the Applicant",
@@ -919,22 +922,19 @@
     {
      "label": "Receipt of application (for office use — dated acknowledgement)",
      "value": "Received on 22-09-2026, Regn. No. SAL/2026/0147 — Gram Rozgar Sevak, Salaiya GP (seal)",
-     "hint": "The Panchayat is bound to give you this dated receipt. It is the proof that fixes the 15-day deadline for the job card."
+     "hint": "Ask for this dated receipt. It is the proof that fixes the 15-day deadline for issuing the card."
     }
    ],
    "demoSteps": [
-    "Ask the Gram Rozgar Sevak or the Panchayat Secretary for the registration application. A plain sheet of paper is legally enough — the Act says a household may apply orally or in writing — but the printed form, free at the Panchayat and downloadable from the NREGA site, keeps the office from raising objections.",
-    "Fill it in ink, listing every adult of the household who might ever want work, with age and Aadhaar number against each name. Adding a name later needs a separate amendment application, so be generous now.",
-    "Attach Aadhaar photocopies, the residence proof, the bank passbook copy and one photograph of each listed adult. If the household cannot pay for photographs, say so — the Panchayat is required to arrange them at its own cost.",
-    "Hand the application to the Gram Panchayat office. The Programme Officer at the Block office must also accept it if the Panchayat refuses, and so must the office on a Rozgar Diwas or in a Gram Sabha.",
-    "Demand a dated receipt with a registration number before you leave the counter. This receipt is the whole case: the 15-day limit for issuing the job card runs from the date written on it.",
-    "The Panchayat verifies the household — that it lives in the village and that the listed members are adults — usually within a week, and the job card must be issued free within 15 days of the application.",
-    "Collect the job card and check it at once: every listed adult's name, age and photograph, and blank pages for the work entries. Never let the Sarpanch, the Rozgar Sevak or a contractor keep your job card — holding a worker's card is an offence, and it is how false entries are made.",
-    "Applying for the card is not the same as asking for work. Give a separate written work demand for the days you want, at least 14 days' worth, and take a dated receipt for that too — work must start within 15 days or an unemployment allowance becomes payable.",
-    "Wages are due within 15 days of the closing of the muster roll, paid into the account, with compensation for delay beyond that. Check your entries against the muster roll displayed at the worksite and the records on the NREGA site.",
-    "If no card comes in 15 days, or the Panchayat refuses to accept the application, complain in writing to the Programme Officer at the Block, then to the District Programme Coordinator (the Collector), and use the toll-free helpline; an RTI application (Rs.10) on the status of the application usually moves the file."
+    "If your household already has an MGNREGA job card, ask the Gram Rozgar Sevak whether e-KYC is done for every adult on it. Such a card stays valid until the new Gramin Rozgar Guarantee Card is issued, so you do not need to apply again.",
+    "A household with no card applies at the Gram Panchayat: any adult member gives the names, ages and address of the household — orally, on plain paper or on the printed form free at the Panchayat. List every adult who might ever want work.",
+    "Attach Aadhaar copies, the residence proof, the bank passbook copy and one photograph of each listed adult, and take a dated receipt with a registration number. The Panchayat must issue the card within 15 days, and it is valid for three years.",
+    "Getting the card is not the same as asking for work. Ask for at least six days of work — orally, in writing on Form 6, or through the digital system — at the Gram Panchayat or to the Programme Officer, and take a dated receipt.",
+    "Work must start within 15 days, as far as possible within 5 km of your village. If it does not, the State owes you an unemployment allowance of at least a quarter of the wage for the first 30 days and half after that.",
+    "Attendance at the worksite is taken by face authentication. Wages are paid weekly, or at the latest within 15 days of the muster roll closing, straight into your account; after that you are owed 0.05% of the unpaid wage for each day of delay.",
+    "Check your days and payments on the card, on the Janata Board at the worksite and on vbgramg.dord.gov.in. Never let the Sarpanch, the Rozgar Sevak or anyone else keep your card. For a complaint, go to the Programme Officer at the Block, then the District Programme Coordinator (the Collector)."
    ],
-   "helpline": "1800-111-555 (Ministry of Rural Development toll free); state MGNREGA helpline numbers are printed on the job card",
+   "helpline": "No national toll-free number. Complain to the Programme Officer at the Block office, then the District Programme Coordinator (Collector), or call your state's rural employment helpline; online complaints at pgportal.gov.in",
    "lastVerified": "October 2026"
   }
  ]

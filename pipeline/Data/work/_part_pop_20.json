@@ -1,0 +1,484 @@
+{
+ "schemes": [
+  {
+   "id": "cg-krishak-unnati",
+   "title": "Krishak Unnati Yojana (Paddy Difference Amount)",
+   "department": "Agriculture Development & Farmers Welfare Department, Government of Chhattisgarh, with the Food Department and cooperative societies (paddy procurement)",
+   "level": "State",
+   "state": "Chhattisgarh",
+   "category": "Agriculture",
+   "mode": "offline",
+   "brief": "Chhattisgarh pays its farmers Rs 3,100 a quintal for paddy. The cooperative society pays the central MSP when you sell, and Krishak Unnati Yojana later pays the gap between MSP and Rs 3,100, on up to 21 quintals an acre, straight into your bank account. You do not fill a separate form for it. You only need to be registered at your cooperative society for paddy sale and sell your paddy there in the procurement season. Farmers who sold paddy earlier and now sow pulses, oilseeds or maize instead also get per-acre help under the same scheme.",
+   "benefit": "Gap between MSP and Rs 3,100 a quintal on up to 21 quintals an acre: Rs 731 a quintal (Rs 15,351 an acre) for common paddy in kharif 2025-26",
+   "emoji": "🌾",
+   "colorHex": "#2E7D32",
+   "eligibility": [
+    "A farmer in Chhattisgarh registered for paddy sale at a primary cooperative society (sewa sahkari samiti or LAMPS)",
+    "From the 2026-27 season the AgriStack Farmer ID is the registration; the society enters your land, bank and nominee details. The last date given for 2026-27 was 31 October 2026",
+    "You must actually sell your paddy at the society's procurement centre in the season (mid-November to January). The limit is 21 quintals an acre, on the area shown in the Digital Crop Survey",
+    "Sharecroppers (adhiya, rega), forest rights patta holders, village kotwars and registered institutions can also register; they were exempted from AgriStack in 2025-26",
+    "Farmers who sold paddy at MSP the previous year and now grow pulses, oilseeds or maize instead get input help per acre after the crop area is checked"
+   ],
+   "documents": [
+    "Aadhaar card, with the mobile number linked to it",
+    "AgriStack Farmer ID (Kisan ID)",
+    "B-1 and khasra (P-II) copy of your land, and the Kisan Kitab (Rin Pustika)",
+    "Bank passbook of an account in the farmer's own name, linked to Aadhaar",
+    "Name and Aadhaar of a nominee",
+    "Sharecroppers: the written adhiya or rega agreement with the land owner; forest land: the van adhikar patra"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "Go to the primary cooperative society (sewa sahkari samiti or LAMPS) where your village sells paddy, before the registration deadline (31 October for the 2026-27 season). Take your Aadhaar card, AgriStack Farmer ID, B-1 and khasra copy, Kisan Kitab and bank passbook. If you do not have a Farmer ID yet, the society operator can make it for you on the spot, or you can make it at a CSC or yourself on cgfr.agristack.gov.in. Farmers who sold at the society last year are already on its list and only need to check that their land and bank details are correct.",
+   "demoFields": [
+    {
+     "label": "Name of farmer",
+     "value": "Ramesh Kumar Sahu",
+     "hint": "Your name exactly as on the land record (B-1) and Aadhaar."
+    },
+    {
+     "label": "Father's / husband's name",
+     "value": "Shri Govind Ram Sahu",
+     "hint": "As written in the land record."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 4417 2083",
+     "hint": "Your own Aadhaar. The OTP goes to the mobile linked to it."
+    },
+    {
+     "label": "AgriStack Farmer ID",
+     "value": "CG-9999-0041-7722",
+     "hint": "The Kisan ID from the farmer registry. The society cannot register you for 2026-27 without it."
+    },
+    {
+     "label": "Mobile number",
+     "value": "90000 31476",
+     "hint": "Token messages and payment messages come to this number."
+    },
+    {
+     "label": "Village and society",
+     "value": "Kharora / Sewa Sahkari Samiti Kharora",
+     "hint": "The society where your village's paddy is bought."
+    },
+    {
+     "label": "Khasra numbers and area",
+     "value": "214/2, 215 — 2.40 acres",
+     "hint": "Copy from the B-1. Only this area, as seen in the crop survey, counts for the 21 quintal an acre limit."
+    },
+    {
+     "label": "Area sown with paddy",
+     "value": "2.40 acres (kharif 2026)",
+     "hint": "The area actually under paddy this season. If you sowed pulses or maize instead, tell the society; it counts for crop-change help."
+    },
+    {
+     "label": "Bank account and IFSC",
+     "value": "9999 0000 7312 45 / CBIN0R99999",
+     "hint": "Usually the district cooperative bank account linked to the society. MSP and the Krishak Unnati amount both come here."
+    },
+    {
+     "label": "Nominee",
+     "value": "Savitri Sahu (wife)",
+     "hint": "The person who can receive the money if something happens to you."
+    }
+   ],
+   "demoSteps": [
+    "Make your AgriStack Farmer ID if you do not have one, at the society, a CSC or on cgfr.agristack.gov.in, using your Aadhaar and land details.",
+    "Before 31 October, go to your cooperative society and get your land, bank and nominee details entered for the paddy season.",
+    "When procurement opens in mid-November, take a token for your selling day from the society or on the Token Tuhar Hath app.",
+    "Bring your paddy to the procurement centre on the token date. It is weighed and bought at MSP, and the MSP amount reaches your bank account within a few days.",
+    "After the season, the state pays the Krishak Unnati difference (Rs 3,100 minus MSP, for every quintal you sold) into the same account in one go. The 2025-26 amount was paid in early 2026, before Holi.",
+    "If the money does not come, take your sale receipt and passbook to the society manager or the Rural Agriculture Extension Officer (RAEO) and ask them to check your entry."
+   ],
+   "helpline": "1800-180-1551 (Kisan Call Centre). For registration or payment problems, ask the society manager, the Rural Agriculture Extension Officer (RAEO) or your tehsil office",
+   "lastVerified": "October 2026"
+  },
+  {
+   "id": "cg-ayushman-svnsay",
+   "title": "Shaheed Veer Narayan Singh Ayushman Swasthya Yojana (Ayushman Card)",
+   "department": "State Nodal Agency, Directorate of Health Services, Health & Family Welfare Department, Government of Chhattisgarh, with the National Health Authority",
+   "level": "State",
+   "state": "Chhattisgarh",
+   "category": "Health",
+   "mode": "online",
+   "brief": "Chhattisgarh's free hospital treatment scheme for every family with a ration card. It used to be called the Dr. Khubchand Baghel Swasthya Sahayata Yojana and was renamed in 2024. Antyodaya and Priority (BPL) ration card families get cashless treatment up to Rs 5 lakh a year with Ayushman Bharat PM-JAY, and other (APL) ration card families get up to Rs 50,000 a year, at empanelled government and private hospitals. You show the Ayushman card at the hospital. You can make it on the Ayushman portal or app, or free at the hospital's Ayushman desk with your Aadhaar and ration card.",
+   "benefit": "Rs 5 lakh a year for BPL families, Rs 50,000 a year for APL families, cashless",
+   "emoji": "🏥",
+   "colorHex": "#C62828",
+   "eligibility": [
+    "Families with an Antyodaya or Priority (BPL) ration card from the Chhattisgarh Food Department: up to Rs 5 lakh a year",
+    "Families with any other (APL) Chhattisgarh ration card: up to Rs 50,000 a year",
+    "Every person aged 70 and above, whatever the income, can also get Rs 5 lakh under the Ayushman Vay Vandana card",
+    "Covers about 1,961 treatments, including cancer, heart and kidney care, dialysis, joint replacement, cataract and newborn care",
+    "Tests up to 7 days before admission, and check-ups and medicines up to 10 days after discharge, are included",
+    "For very costly rare illnesses beyond this cover, BPL families can ask for help of up to Rs 25 lakh under the separate Mukhyamantri Vishesh Swasthya Sahayata Yojana"
+   ],
+   "documents": [
+    "Aadhaar card of each family member, for e-KYC",
+    "Family ration card",
+    "Mobile number for the OTP",
+    "A live photo, taken on the phone or at the hospital desk during e-KYC",
+    "At admission: the Ayushman card, with the ration card and Aadhaar card"
+   ],
+   "applyUrl": "https://beneficiary.nha.gov.in/",
+   "applyKind": "service-login",
+   "portalName": "Ayushman beneficiary portal",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Login as",
+     "value": "Beneficiary",
+     "hint": "Choose Beneficiary when you are making the card for yourself or your family."
+    },
+    {
+     "label": "Mobile number",
+     "value": "90000 52718",
+     "hint": "Any number you keep with you. The login OTP and the approval message come here."
+    },
+    {
+     "label": "Scheme and state",
+     "value": "PMJAY / Chhattisgarh",
+     "hint": "Choose the state Chhattisgarh. The state scheme cards are made on the same Ayushman system."
+    },
+    {
+     "label": "Search your family by",
+     "value": "Ration card number",
+     "hint": "The ration card number brings up the whole family at once. If nothing comes, search with your Aadhaar number."
+    },
+    {
+     "label": "Ration card number",
+     "value": "2210-9999-4417",
+     "hint": "Copy it from your ration card. If your family is not found, go to the Ayushman desk of any empanelled hospital with the ration card and Aadhaar."
+    },
+    {
+     "label": "Aadhaar number for e-KYC",
+     "value": "9999 6203 1158",
+     "hint": "Aadhaar of the member whose card you are making now. Each member is done one at a time."
+    },
+    {
+     "label": "e-KYC method",
+     "value": "Aadhaar OTP",
+     "hint": "Use Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication."
+    },
+    {
+     "label": "Live photo",
+     "value": "Captured on phone camera",
+     "hint": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request rejected."
+    },
+    {
+     "label": "Relation with head of family",
+     "value": "Son",
+     "hint": "How this member is related to the person named first on the ration card."
+    },
+    {
+     "label": "District and PIN code",
+     "value": "Durg / 491001",
+     "hint": "Where you live now, so nearby empanelled hospitals are shown."
+    }
+   ],
+   "demoSteps": [
+    "Open beneficiary.nha.gov.in or the Ayushman app and log in as Beneficiary with your mobile number and OTP.",
+    "Choose Chhattisgarh and search for your family by ration card number or Aadhaar.",
+    "Next to each member whose e-KYC is pending, verify with Aadhaar OTP or face authentication and take the live photo.",
+    "Submit. The state agency checks the request, usually within a day or two, and you get an SMS.",
+    "Log in again and download the Ayushman card. If you cannot do it on the phone, the Ayushman desk at any empanelled hospital, a CSC or a choice centre makes it free.",
+    "At the hospital, go to the Ayushman Mitra desk with the card, ration card and Aadhaar. Do not pay cash for a treatment covered by the scheme; call 104 if anyone asks for money."
+   ],
+   "helpline": "104 (Ayushman Chhattisgarh helpline) / 14555 (Ayushman Bharat national helpline)",
+   "lastVerified": "October 2026"
+  },
+  {
+   "id": "hp-himcare",
+   "title": "Mukhya Mantri Himachal Health Care Scheme (HIMCARE Card)",
+   "department": "Himachal Pradesh Swasthya Bima Yojna Society, Health & Family Welfare Department, Government of Himachal Pradesh",
+   "level": "State",
+   "state": "Himachal Pradesh",
+   "category": "Health",
+   "mode": "online",
+   "brief": "Free hospital treatment up to Rs 5 lakh a year for Himachal families who are not covered by Ayushman Bharat and have no government-employee medical cover. You pay a small yearly premium (nothing at all for BPL, MGNREGA and some other families) and get a HIMCARE e-card for up to five members. Treatment is cashless at empanelled government and private hospitals in Himachal, and at PGIMER and GMCH Sector 32 in Chandigarh. New cards are made only in March, June, September and December, and each card is valid for one year.",
+   "benefit": "Rs 5 lakh a year per family, cashless; premium Rs 0, Rs 365 or Rs 1,000 a year",
+   "emoji": "🩺",
+   "colorHex": "#00695C",
+   "eligibility": [
+    "Families of Himachal Pradesh whose ration card is not covered under Ayushman Bharat PM-JAY",
+    "No family member may be a government employee or pensioner covered by government medical reimbursement; you sign an undertaking",
+    "Free (category I): BPL families, registered street vendors, MGNREGA workers with 50 days of work in the previous or current year, children in orphanages",
+    "Rs 365 a year (category II): ekal naari, people with 40% or more disability, mid-day meal workers, and daily-wage, part-time, contract and outsourced workers of state government bodies",
+    "Rs 1,000 a year (category III): all other eligible families",
+    "One card covers five members; a bigger family is enrolled as a second unit"
+   ],
+   "documents": [
+    "Ration card, scanned front and back",
+    "Aadhaar card of every member being enrolled",
+    "Mobile number for the OTP and approval message",
+    "Category proof: BPL certificate attested by the panchayat secretary within the last month, MGNREGA job card with the 50-day report, street-vendor certificate, ekal naari certificate from the CDPO, disability certificate, or a certificate from your department",
+    "Undertaking that no family member is covered by a government employees' or pensioners' medical scheme",
+    "Online payment of the premium, if your category has one"
+   ],
+   "applyUrl": "https://app.hpsbys.in/WebSite/HIMCARESSO.aspx",
+   "portalUrl": "https://hpsbys.in/",
+   "applyKind": "service-login",
+   "portalName": "HP Swasthya Bima Yojna Society (HIMCARE)",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Login",
+     "value": "Him Access SSO",
+     "hint": "Log in with your Himachal Him Access account, using Aadhaar or mobile OTP. At a Lok Mitra Kendra or CSC the operator does this for Rs 50."
+    },
+    {
+     "label": "Application type",
+     "value": "Fresh enrollment",
+     "hint": "Choose fresh enrollment for a new card. Use Renewal of Card on hpsbys.in if you already have one."
+    },
+    {
+     "label": "Category",
+     "value": "Category III — Rs 1,000 a year",
+     "hint": "Pick the category you really belong to. A premium paid under the wrong category is not refunded."
+    },
+    {
+     "label": "Ration card number",
+     "value": "99991245870",
+     "hint": "Type the number without the letters HP. It must match the scanned card exactly."
+    },
+    {
+     "label": "Head of family",
+     "value": "Kamla Devi",
+     "hint": "Name as on the ration card and Aadhaar."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 2107 6634",
+     "hint": "Aadhaar of the head of family. Each member's Aadhaar is added below."
+    },
+    {
+     "label": "Family members",
+     "value": "Kamla Devi (self), Prem Chand (husband), Neha (daughter), Rohit (son)",
+     "hint": "Up to five members on one card, each with name, relation and Aadhaar."
+    },
+    {
+     "label": "District and block",
+     "value": "Mandi / Sundernagar",
+     "hint": "Where the family lives; it is printed on the card."
+    },
+    {
+     "label": "Documents upload",
+     "value": "Ration card front and back, category proof",
+     "hint": "Upload clear scans of the original documents. Blurred or mismatched documents get the application rejected."
+    },
+    {
+     "label": "Undertaking and premium",
+     "value": "Accepted / Rs 1,000 paid online",
+     "hint": "Tick the undertaking and pay within 30 days of confirming, or the application lapses."
+    }
+   ],
+   "demoSteps": [
+    "In March, June, September or December, open hpsbys.in and click SSO Login, or go to a Lok Mitra Kendra or CSC.",
+    "Log in with Him Access, choose fresh HIMCARE enrollment and your category, enter the ration card number without HP and add the family members.",
+    "Upload the ration card and category proof, accept the undertaking, confirm, and pay the premium online within 30 days. Note the reference number.",
+    "The society approves the application within about 3 days and sends an SMS. Check progress on HIMCARE Enrollment Status with the reference or ration card number.",
+    "Open Get My HIMCARE Card on hpsbys.in, search by HIMCARE number, ration card or Aadhaar, and download or print the card.",
+    "At an empanelled hospital, show the card; your identity is checked by Aadhaar face authentication on the hospital's app. Renew the card online before it expires each year."
+   ],
+   "helpline": "1800-202-1311 (PMJAY/HIMCARE toll-free) / 70186-06884, 70086-05212 (card approvals) / 80917-73886 (technical support, working days)",
+   "lastVerified": "October 2026"
+  },
+  {
+   "id": "hp-pyari-behna",
+   "title": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana (Rs 1,500 for Women)",
+   "department": "Department of Social Justice & Empowerment (Directorate of Empowerment of SCs, OBCs, Minorities & Specially Abled), Government of Himachal Pradesh",
+   "level": "State",
+   "state": "Himachal Pradesh",
+   "category": "Women",
+   "mode": "offline",
+   "brief": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification.",
+   "benefit": "Rs 1,500 a month (Rs 18,000 a year), by DBT",
+   "emoji": "👩",
+   "colorHex": "#AD1457",
+   "eligibility": [
+    "A woman who is a permanent (bonafide) resident of Himachal Pradesh, aged 21 to 59",
+    "Family income below Rs 2 lakh a year; BPL families get priority",
+    "Only one woman in a family can get the money",
+    "Not eligible if anyone in the family is a regular, contract, outsourced or daily-wage government employee or a pensioner, a serving or retired soldier or a soldier's widow, or works for a panchayat, urban body, board or corporation",
+    "Not eligible if anyone in the family is an Anganwadi worker or helper, ASHA, mid-day meal or multi-task worker, gets a social security pension, pays income tax or is registered for GST",
+    "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
+   ],
+   "documents": [
+    "Bonafide Himachali (permanent residence) certificate",
+    "Proof of age (birth certificate, school certificate or Aadhaar)",
+    "Family income certificate showing income below Rs 2 lakh",
+    "Aadhaar card of the woman",
+    "Copy of the bank passbook with IFSC",
+    "Ration card (towns) or copy of the Parivar Register (villages)",
+    "Buddhist nuns: a certificate from the chief chomo of the monastery"
+   ],
+   "applyUrl": "",
+   "portalName": "",
+   "formUrl": "",
+   "submitAt": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat.",
+   "demoFields": [
+    {
+     "label": "Name of applicant",
+     "value": "Sunita Thakur",
+     "hint": "The woman's own name, as on Aadhaar and the bank passbook."
+    },
+    {
+     "label": "Husband's / father's name",
+     "value": "Shri Rajinder Singh",
+     "hint": "As written in the Parivar Register or ration card."
+    },
+    {
+     "label": "Date of birth / age",
+     "value": "12-04-1984 / 42 years",
+     "hint": "You must be at least 21 and not over 59. Attach the age proof."
+    },
+    {
+     "label": "Address",
+     "value": "Village Dhalli, Panchayat Bhatta, Tehsil Theog, District Shimla",
+     "hint": "Village, panchayat, tehsil and district where you live permanently."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs 1,40,000",
+     "hint": "Income of the whole family from all sources, as in the income certificate. It must be below Rs 2 lakh."
+    },
+    {
+     "label": "BPL family",
+     "value": "Yes",
+     "hint": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 3381 6045",
+     "hint": "The applicant's own Aadhaar."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "9999 0000 1186 42 / HPSC0099999",
+     "hint": "An account in your own name; the Rs 1,500 is paid here every month."
+    },
+    {
+     "label": "Parivar Register / ration card number",
+     "value": "PR No. 99/18",
+     "hint": "Villages give the Parivar Register copy, towns give the ration card."
+    },
+    {
+     "label": "Declaration",
+     "value": "Signed",
+     "hint": "You declare that no one in the family is a government employee, pensioner, ASHA or Anganwadi worker or in the other excluded groups, and that no other woman of the family gets this money."
+    }
+   ],
+   "demoSteps": [
+    "Get your bonafide Himachali certificate and an income certificate (below Rs 2 lakh) from a Lok Mitra Kendra or the tehsil.",
+    "Collect the free form at the Tehsil Welfare Officer's office.",
+    "Fill it, attach the documents, and hand it in at the same office. Ask for a receipt.",
+    "The Tehsil Welfare Officer checks the form and documents and sends the list of eligible women for approval.",
+    "Once approved, Rs 1,500 is paid into your bank account every month. Payments are being started area by area, so ask the welfare office when your area's turn comes.",
+    "For status, contact the Tehsil Welfare Officer. Complaints can be made on the CM Seva Sankalp helpline 1100."
+   ],
+   "helpline": "1100 — CM Seva Sankalp helpline. For the form and status, the Tehsil Welfare Officer or District Welfare Officer of your area",
+   "lastVerified": "October 2026"
+  },
+  {
+   "id": "hp-sukh-shiksha",
+   "title": "Indira Gandhi Sukh Shiksha Yojana (Rs 1,000 a Month for Children)",
+   "department": "Directorate of Women & Child Development, Government of Himachal Pradesh",
+   "level": "State",
+   "state": "Himachal Pradesh",
+   "category": "Education",
+   "mode": "online",
+   "brief": "Education help for the children of widows, divorced, destitute or abandoned women, and of parents with 70% or more disability, when the family earns up to Rs 1 lakh a year. It was announced in 2024 as the Mukhya Mantri Sukh Shiksha Yojana. Children up to 18 get Rs 1,000 a month. From 18 to 27 the state pays the fees for a degree, diploma or professional course in a government institution in Himachal, and the government hostel and mess charges, or Rs 3,000 a month for rent where there is no hostel. You apply on the HimSeva portal or at a Lok Mitra Kendra.",
+   "benefit": "Rs 1,000 a month per child up to 18; fees, hostel and mess (or Rs 3,000 a month rent) from 18 to 27",
+   "emoji": "📚",
+   "colorHex": "#1565C0",
+   "eligibility": [
+    "Children of a widow, a divorced woman, a destitute or abandoned woman, a woman whose husband has been missing for 7 years or more, or of a parent with 70% or more permanent disability",
+    "Family income from all sources not more than Rs 1 lakh a year",
+    "The family must be bonafide (permanent) residents of Himachal Pradesh",
+    "Up to 18 years: Rs 1,000 a month per child for school, health and food",
+    "18 to 27 years: the course must be in a government college, university or institution in Himachal (degree, PG, diploma, PhD, JBT, NTT, nursing or a professional course)"
+   ],
+   "documents": [
+    "Bonafide Himachali certificate",
+    "Income certificate",
+    "Proof of the child's date of birth (birth certificate or 10th certificate)",
+    "Death certificate of the father or spouse; or the FIR and report that he has been missing for 7 years; or proof of divorce; or the BDO or municipal report declaring the woman destitute or abandoned",
+    "Medical certificate of 70% or more permanent disability, for a disabled parent",
+    "Copy of the Parivar Register",
+    "Bank account details",
+    "For 18 to 27 years: detailed proof of fees and hostel expenses, verified by the head of the institution"
+   ],
+   "applyUrl": "https://sso.hp.gov.in/login-iframe?service_id=10000038_558&is_iframe=true",
+   "portalUrl": "https://himseva.hp.gov.in/",
+   "applyKind": "service-login",
+   "portalName": "HimSeva Himachal Pradesh",
+   "formUrl": "",
+   "submitAt": "",
+   "demoFields": [
+    {
+     "label": "Login",
+     "value": "Him Access SSO",
+     "hint": "Log in with your Him Access account using Aadhaar or mobile OTP. A Lok Mitra Kendra can apply for you."
+    },
+    {
+     "label": "Name of mother / applicant",
+     "value": "Reena Devi",
+     "hint": "The mother or the disabled parent who is applying for the child."
+    },
+    {
+     "label": "Applicant category",
+     "value": "Widow",
+     "hint": "Widow, divorced, destitute or abandoned woman, husband missing for 7 years, or parent with 70% disability. Upload the matching proof."
+    },
+    {
+     "label": "Name of child",
+     "value": "Aarti",
+     "hint": "One application for each child, with the child's own details."
+    },
+    {
+     "label": "Child's date of birth",
+     "value": "05-08-2014",
+     "hint": "From the birth certificate or 10th certificate. Up to 18 you get Rs 1,000 a month."
+    },
+    {
+     "label": "Annual family income",
+     "value": "Rs 72,000",
+     "hint": "From the income certificate. It must not be more than Rs 1 lakh."
+    },
+    {
+     "label": "School or college and class",
+     "value": "GSSS Bhoranj, Class 7",
+     "hint": "For 18 to 27, give the government college and course, and upload the fee and hostel proof signed by the principal."
+    },
+    {
+     "label": "Address",
+     "value": "Village Lambloo, Panchayat Lambloo, Block Bhoranj, District Hamirpur",
+     "hint": "As in the Parivar Register."
+    },
+    {
+     "label": "Aadhaar number",
+     "value": "9999 7741 3026",
+     "hint": "Aadhaar of the applicant; the child's Aadhaar is asked for too."
+    },
+    {
+     "label": "Bank account number and IFSC",
+     "value": "9999 0000 6629 13 / PUNB0999900",
+     "hint": "The account where the monthly money will come. Keep it linked to Aadhaar."
+    }
+   ],
+   "demoSteps": [
+    "Get the bonafide Himachali certificate, income certificate and Parivar Register copy first; all three can be applied for on HimSeva or at a Lok Mitra Kendra.",
+    "Open himseva.hp.gov.in, click Indira Gandhi Sukh Siksha Yojana and log in with Him Access.",
+    "Fill in the mother's and child's details, upload the documents and submit. Note the application number.",
+    "The Women and Child Development office (CDPO or District Programme Officer) checks the application and sanctions it.",
+    "The money is paid straight into the bank account. Track the application on HimSeva with the application number.",
+    "For a child aged 18 to 27, send the fee and hostel proof signed by the head of the institution each year so the expenses are paid."
+   ],
+   "helpline": "1100 — CM Seva Sankalp helpline. For the application, the CDPO office of your block or the District Programme Officer, Women & Child Development",
+   "lastVerified": "October 2026"
+  }
+ ]
+}

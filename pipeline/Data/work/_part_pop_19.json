@@ -1,0 +1,577 @@
+{"schemes": [
+{
+ "id": "as-orunodoi",
+ "title": "Orunodoi 3.0 (Orunodoi Scheme)",
+ "department": "Finance (Institutional Finance) Department, Government of Assam",
+ "level": "State",
+ "state": "Assam",
+ "category": "Women",
+ "mode": "offline",
+ "brief": "Assam's monthly cash support for poor families, paid straight into the bank account of one woman the family nominates. It pays Rs.1,250 a month to about 37 to 40 lakh families, and for October 2026 alone the government raised it to Rs.1,500 for the Puja season. Orunodoi 3.0 replaced the earlier versions 1.0 and 2.0, so every family, old beneficiaries included, had to apply afresh. Names are first picked at the Gaon Panchayat, VCDC or ward level, and the family needs an Aadhaar-seeded NFSA ration card.",
+ "benefit": "Rs.1,250 a month by DBT to the woman of the family (Rs.1,500 for October 2026)",
+ "emoji": "🌅",
+ "colorHex": "#E65100",
+ "eligibility": [
+  "Permanent resident of Assam who lives in the state now",
+  "The family holds an NFSA ration card seeded with Aadhaar, and its income is within the NFSA limit of the Assam Food Security Rules",
+  "The family nominates one woman aged 18 or above. The money goes only to her own Aadhaar-seeded bank account",
+  "Priority for widows, divorced or separated women, unmarried women above 45, families with a divyang or transgender member, and families living with thalassemia, HIV or leprosy",
+  "Not for families with a serving or retired government or PSU employee, a current or former MP or MLA, a current panchayat or municipal member, or an income-tax payer",
+  "Also left out: families of doctors, engineers, lawyers and chartered accountants, families owning a motorised four-wheeler, and landholders above the small and marginal farmer category"
+ ],
+ "documents": [
+  "NFSA ration card of the family, seeded with Aadhaar",
+  "Aadhaar card of the nominated woman",
+  "Passbook of her own bank account, seeded with Aadhaar (payments are now made through the Aadhaar-based payment system)",
+  "Mobile number, preferably the one linked to her Aadhaar",
+  "Voter ID card",
+  "Proof for a priority category, if any: husband's death certificate, divorce papers, or disability (UDID) certificate",
+  "Signed undertaking on the eligibility conditions, filled at the Gaon Panchayat or ward office"
+ ],
+ "applyUrl": "",
+ "portalName": "Finance Department, Government of Assam",
+ "formUrl": "",
+ "submitAt": "Your Gaon Panchayat office (the VCDC office in Sixth Schedule areas, or the ward or municipal office in towns), when the government opens a round for new names. The form is free there, and the Orunodoi Sarothi of your Assembly constituency helps you fill it. Go with the nominated woman and take the Aadhaar-seeded ration card, her Aadhaar card, her Aadhaar-seeded bank passbook, a mobile phone, and any widow, divorce or disability papers. Get a signed acknowledgement slip. There is no online application, so do not pay anyone who offers to apply online for you.",
+ "demoFields": [
+  {
+   "label": "Name of the nominated woman",
+   "value": "Rupali Kalita",
+   "hint": "Exactly as on her Aadhaar card and in her bank account. The money goes only to her."
+  },
+  {
+   "label": "Husband's / father's name",
+   "value": "Dipen Kalita",
+   "hint": "Write the husband's name if she is married, otherwise the father's name."
+  },
+  {
+   "label": "Gaon Panchayat / VCDC / Town",
+   "value": "Bhakatpara Gaon Panchayat",
+   "hint": "In a town, write the municipality or town committee name instead."
+  },
+  {
+   "label": "Village / Ward number and district",
+   "value": "No. 2 Bhakatpara, Nalbari district",
+   "hint": "The village or ward where the family actually lives and eats together."
+  },
+  {
+   "label": "NFSA ration card number",
+   "value": "AS-9999-0457-2318",
+   "hint": "Copy it from the ration card. Her name should be on this card."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 6624 1180",
+   "hint": "The nominated woman's 12-digit Aadhaar number."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "99990012345678 / SBIN0099999",
+   "hint": "Her own account, seeded with Aadhaar. A joint account or someone else's account will be rejected."
+  },
+  {
+   "label": "Mobile number",
+   "value": "70990 41258",
+   "hint": "SMS about wrong bank details or approval comes to this number."
+  },
+  {
+   "label": "Priority category",
+   "value": "Widow",
+   "hint": "Tick widow, divorced, separated, unmarried above 45, divyang or transgender member if it applies, and attach the proof."
+  },
+  {
+   "label": "Number of members on the ration card",
+   "value": "4",
+   "hint": "Count everyone listed on the ration card. Only one woman per family can get Orunodoi."
+  }
+ ],
+ "demoSteps": [
+  "Watch for a new Orunodoi round announced in the newspapers, on the Gaon Panchayat notice board or by your Orunodoi Sarothi. Women already getting the money do not need to apply again unless they are asked to.",
+  "Collect the free form at the Gaon Panchayat, VCDC or ward office. Fill it with the nominated woman's details, attach the copies, sign the undertaking and keep the acknowledgement slip.",
+  "The Gaon Panchayat, VCDC or town body checks each family against the eligibility checklist. The District Level Monitoring Committee under the Deputy Commissioner then finalises the list.",
+  "The approved list is published and the Finance Department checks the bank details. If an SMS says your details are wrong, correct them at the Gaon Panchayat or ward office.",
+  "Rs.1,250 then arrives in her bank account every month by DBT. Keep the account seeded with Aadhaar, or the payment is held back.",
+  "If the money stops or the name is missing, call the Orunodoi helpdesk on 1800-202-6256 (working days, 10 am to 6 pm) or meet the Orunodoi Sarothi."
+ ],
+ "helpline": "1800-202-6256 — Orunodoi 3.0 helpdesk, Finance Department, Assam (working days, 10 am to 6 pm)",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "as-nijut-moina",
+ "title": "Mukhya Mantrir Nijut Moina Aasoni (Nijut Moina)",
+ "department": "Directorate of Higher Education, Higher Education Department, Government of Assam",
+ "level": "State",
+ "state": "Assam",
+ "category": "Women",
+ "mode": "online",
+ "brief": "A monthly allowance for girl students in Assam, paid for 10 months a year so that girls keep studying instead of being married off early. A girl in Class 11 or 12 gets Rs.1,000 a month, a degree student Rs.1,250 and a postgraduate or B.Ed student Rs.2,500, whatever the family income. Now in its second phase (Nijut Moina 2.0), it opens every August: the college gives out the form, and the student then submits an online application on the Samarth student portal (degree and PG) or the AHSEC DARPAN portal (Class 11 and 12).",
+ "benefit": "Rs.1,000 (HS), Rs.1,250 (degree) or Rs.2,500 (PG and B.Ed) a month for 10 months a year",
+ "emoji": "🎓",
+ "colorHex": "#6A1B9A",
+ "eligibility": [
+  "Girl students domiciled in Assam, whatever the family income",
+  "Studying in HS 1st or 2nd year, a degree course, PG or B.Ed in a government or provincialised institution. Girls in polytechnic courses are covered from 2026-27",
+  "She must be unmarried. Married girls are allowed only in PG and B.Ed courses",
+  "Not for daughters of Ministers, MPs or MLAs, or for in-service teachers sent to B.Ed on deputation",
+  "HS and degree girls who take the Dr. Banikanta Kakati merit scooter cannot get it (they may give up the scooter instead), nor can PG students on the CM's Jibon Prerona scheme",
+  "She must have sat the final exam of the previous year and keep regular attendance and discipline"
+ ],
+ "documents": [
+  "Aadhaar card of the student",
+  "Passbook of her own bank account, seeded with Aadhaar and enabled for Aadhaar-based payment",
+  "Mobile number linked to her Aadhaar, for the OTP",
+  "Admission receipt or college or school identity card",
+  "Signed undertaking, declaration and Aadhaar consent form, signed by the student and a parent",
+  "Recent passport-size photograph",
+  "Samarth enrolment number (degree and PG) or DARPAN login (HS), from the college",
+  "Mark sheet of the last examination, where the college asks for it"
+ ],
+ "applyUrl": "https://assamshesp.samarth.edu.in/index.php/site/login",
+ "portalUrl": "https://assamshesp.samarth.edu.in/",
+ "applyKind": "service-login",
+ "portalName": "Assam State Higher Education Student Portal (Samarth)",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Enrolment / Roll Number",
+   "value": "2599001234",
+   "hint": "Your Samarth enrolment number from admission. The first time, click Register; the OTP goes to the email you gave at admission."
+  },
+  {
+   "label": "Bank Name and Branch Name",
+   "value": "State Bank of India, Nalbari",
+   "hint": "The bank where your Aadhaar-seeded account is. Money cannot be sent to any other account."
+  },
+  {
+   "label": "IFSC Code",
+   "value": "SBIN0099999",
+   "hint": "Printed on the first page of the passbook or on a cheque leaf."
+  },
+  {
+   "label": "Account Holder Name (Name as per AADHAAR)",
+   "value": "Jonali Deka",
+   "hint": "Must match your name in Aadhaar, in the bank and in Samarth letter for letter. Get it corrected first if it differs."
+  },
+  {
+   "label": "Account Number (AADHAAR Seeded/Linked Bank Account Number)",
+   "value": "99990011223344",
+   "hint": "Type it twice. Ask the bank to confirm the account is seeded with Aadhaar for DBT."
+  },
+  {
+   "label": "PAN Details",
+   "value": "I don't have a PAN (ticked)",
+   "hint": "Most students have no PAN. Just tick the box and carry on."
+  },
+  {
+   "label": "Degree / Programme nature",
+   "value": "Undergraduate / Regular course",
+   "hint": "Choose your level: Undergraduate, Postgraduate or B.Ed. Only regular courses qualify."
+  },
+  {
+   "label": "Marital status of the Applicant",
+   "value": "Unmarried",
+   "hint": "Married girls can apply only in PG and B.Ed courses."
+  },
+  {
+   "label": "Gram Panchayat / VCDC / Ward, District, Police Station, LAC",
+   "value": "Bhakatpara GP / Nalbari / Nalbari PS / Nalbari LAC",
+   "hint": "Your home address in Assam, the same as in your declaration form."
+  },
+  {
+   "label": "Are you a recipient of Dr. Banikanta Kakati Merit Award (Scooter)",
+   "value": "No",
+   "hint": "If you took the merit scooter, you cannot get Nijut Moina (except in PG and B.Ed)."
+  }
+ ],
+ "demoSteps": [
+  "In early August, collect the free Nijut Moina form at your college or HS school office (in 2026-27 the forms were given out from 7 August). Fill it, sign the undertaking with a parent, and hand it in with copies of your Aadhaar and bank passbook. University students get it signed by the Head of Department.",
+  "The college checks the form and adds your enrolment number to the Nijut Moina scheme on the Samarth portal.",
+  "Open assamshesp.samarth.edu.in and log in with your Samarth enrolment number, password and captcha (first time: click Register and set a password using the email OTP). HS students log in at darpan.ahseconline.in instead, update the profile and verify with Aadhaar.",
+  "Click Scholarship, then Apply on the Nijut Moina line. Enter the Aadhaar-seeded bank details, address and last exam, upload the passbook, tick the declarations and click Save & Next.",
+  "Check every detail, click Submit and verify with the Aadhaar OTP. Print the acknowledgement and give it to the college before the closing date (5 September in 2026).",
+  "The college verifies the applications. Once approved, the money comes to your bank account by DBT every month for 10 months. Missing the exam, indiscipline or getting married stops it."
+ ],
+ "helpline": "No dedicated helpline. First ask the Nijut Moina counter or nodal officer at your college; then the Directorate of Higher Education, Kahilipara, Guwahati-19 (directorhigherassam123@gmail.com)",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "as-ayushman-asom-mmjay",
+ "title": "Ayushman Asom – Mukhya Mantri Jan Arogya Yojana (AA-MMJAY Ayushman Card)",
+ "department": "Atal Amrit Abhiyan Society, Health & Family Welfare Department, Government of Assam",
+ "level": "State",
+ "state": "Assam",
+ "category": "Health",
+ "mode": "offline",
+ "brief": "Free, cashless hospital treatment of up to Rs.5 lakh a year per family at empanelled government and private hospitals in Assam. It covers about 26 lakh NFSA ration card families who are not on the Ayushman Bharat PM-JAY list, with the same treatment packages. It replaced the older Atal Amrit Abhiyan health card, which was merged into it in 2023. The card is made by Aadhaar e-KYC, done by ASHA workers and other frontline staff at home or at camps.",
+ "benefit": "Rs.5 lakh a year per family, cashless, at over 300 empanelled hospitals",
+ "emoji": "🏥",
+ "colorHex": "#00838F",
+ "eligibility": [
+  "Families listed in Assam's NFSA (ration card) database who are not already covered by Ayushman Bharat PM-JAY",
+  "Of about 56 lakh NFSA families, about 30 lakh are under PM-JAY and the other 26 lakh under AA-MMJAY",
+  "Every member named on the ration card is covered. There is no limit on family size or age",
+  "All PM-JAY treatment packages are included: 1,949 procedures in 27 specialities",
+  "Government employees and pensioners are not covered here; they have the separate AA-MMLSAY scheme"
+ ],
+ "documents": [
+  "NFSA ration card of the family",
+  "Aadhaar card of each member who needs a card",
+  "Mobile number (if it is linked to Aadhaar, OTP e-KYC is quicker)",
+  "A live photo, taken during e-KYC"
+ ],
+ "applyUrl": "",
+ "portalName": "Atal Amrit Abhiyan Society, Assam",
+ "formUrl": "",
+ "submitAt": "There is no paper form. Ask your ASHA worker, MPW, Bima Sakhi or Digipay Sakhi to do the AA-MMJAY e-KYC at your home or at the village camp. You can also go to the Ayushman desk (Arogya Mitra) of any empanelled hospital, the district kiosk at the medical college or civil hospital, or a Common Service Centre. Take the NFSA ration card, the Aadhaar card of each member and your mobile phone. Each member must be present for Aadhaar OTP or face authentication.",
+ "demoFields": [
+  {
+   "label": "Search by",
+   "value": "Ration card number",
+   "hint": "The operator can search by ration card, Aadhaar or name. The ration card finds the whole family at once."
+  },
+  {
+   "label": "Ration card number",
+   "value": "AS-9999-0812-4471",
+   "hint": "Copy it from the NFSA ration card. If nothing is found, try the head of family's Aadhaar."
+  },
+  {
+   "label": "Scheme shown",
+   "value": "AA-MMJAY",
+   "hint": "The list shows whether your family is under PM-JAY or AA-MMJAY. Both give the same Rs.5 lakh cover."
+  },
+  {
+   "label": "Member selected",
+   "value": "Pranjal Saikia (son, 17)",
+   "hint": "Each member is done one by one. Pick the person who is sitting with the operator."
+  },
+  {
+   "label": "Aadhaar number for e-KYC",
+   "value": "9999 2104 7735",
+   "hint": "The Aadhaar of this member. Children need their own Aadhaar too."
+  },
+  {
+   "label": "e-KYC method",
+   "value": "Aadhaar OTP",
+   "hint": "Use OTP if the mobile is linked to Aadhaar; otherwise face authentication or fingerprint."
+  },
+  {
+   "label": "Live photo",
+   "value": "Captured on the operator's phone",
+   "hint": "Face straight, good light, no cap or dark glasses. A blurred photo gets the card rejected."
+  },
+  {
+   "label": "Mobile number",
+   "value": "70990 52361",
+   "hint": "Any working number in the family. Approval messages come here."
+  },
+  {
+   "label": "Relation with head of family",
+   "value": "Son",
+   "hint": "How this person is related to the first name on the ration card."
+  },
+  {
+   "label": "District and PIN code",
+   "value": "Jorhat / 785001",
+   "hint": "Where you live now, so nearby empanelled hospitals are shown."
+  }
+ ],
+ "demoSteps": [
+  "Check whether your family is on the list by asking your ASHA worker or calling 14555 with the ration card number. NFSA families not under PM-JAY fall under AA-MMJAY.",
+  "Get the e-KYC done by the ASHA, MPW, Bima Sakhi or Digipay Sakhi at home or at a camp, or at the Ayushman desk of an empanelled hospital or the district kiosk.",
+  "The operator finds your family, verifies each member with Aadhaar OTP or a face scan, and takes a live photo.",
+  "The request goes to the Atal Amrit Abhiyan Society for approval. Once approved, the operator gives you the Ayushman card.",
+  "When you need treatment, go to the Arogya Mitra desk of an empanelled hospital with the card or Aadhaar. The hospital takes approval before treatment, and you pay nothing for a listed procedure.",
+  "If a hospital asks for money or refuses the card, call 1800-103-9975 or 14555."
+ ],
+ "helpline": "1800-103-9975 — Atal Amrit Abhiyan toll-free (PM-JAY and MMJAY) / 14555 — national Ayushman helpline / 0361-2333603 — Atal Amrit Abhiyan Society office, Guwahati",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "jh-maiya-samman",
+ "title": "Jharkhand Mukhyamantri Maiya Samman Yojana (Maiyan Samman)",
+ "department": "Department of Women, Child Development & Social Security, Government of Jharkhand",
+ "level": "State",
+ "state": "Jharkhand",
+ "category": "Women",
+ "mode": "offline",
+ "brief": "Rs.2,500 a month for women aged 18 to 50 in Jharkhand, paid into their own Aadhaar-linked bank account by the 15th of every month. It started in August 2024 at Rs.1,000 and was raised to Rs.2,500 from December 2024. Applications are taken at camps held across the state; there is no online form to fill yourself. Women already getting the money must finish the physical verification (satyapan) and Aadhaar e-KYC, or the next instalments are held back.",
+ "benefit": "Rs.2,500 a month (Rs.30,000 a year) into the woman's own bank account",
+ "emoji": "👩",
+ "colorHex": "#AD1457",
+ "eligibility": [
+  "Resident of Jharkhand, aged 18 or above and below 50 on the day of applying",
+  "Her family holds a yellow Antyodaya, pink Priority Household, white K-Oil or green state ration card",
+  "She has her own Aadhaar and a single bank account linked to Aadhaar",
+  "Not for a woman who, or whose husband (father, if she is unmarried), works for the central or state government, a PSU, local body or government-aided institution as regular, contract or honorarium staff, or draws a government pension",
+  "Not if a family member is a present or former MP or MLA, if the family pays income tax, or if she is an EPF member",
+  "Not if she already gets another social security pension from the department"
+ ],
+ "documents": [
+  "Aadhaar card",
+  "Ration card of the family (yellow, pink, white or green)",
+  "Passbook of the Aadhaar-linked bank account in her own name",
+  "Voter ID card",
+  "PAN card, if she has one (optional)",
+  "One colour passport-size photo",
+  "Mobile number",
+  "Signed self-declaration, which is part of the form"
+ ],
+ "applyUrl": "",
+ "portalName": "Mukhyamantri Maiya Samman Yojana portal",
+ "formUrl": "https://cdn.s3waas.gov.in/s3ba2fd310dcaa8781a9a652a31baf3c68/uploads/2024/09/2024091360.pdf",
+ "submitAt": "The Maiya Samman camp held in your panchayat or urban ward. The department takes applications through camps across Jharkhand, announced by the Anganwadi worker, Panchayat Sachiv and block office; between camps, ask at your Anganwadi centre or the block (Prakhand) or circle (Anchal) office. The form is free (the printed summary on the 2024 form still says Rs.1,000; the amount is now Rs.2,500). Go yourself, because your Aadhaar and photo are checked on the spot. Take the original Aadhaar, ration card, Aadhaar-linked bank passbook and voter ID, a colour photo and self-attested copies, and keep the acknowledgement.",
+ "demoFields": [
+  {
+   "label": "आवेदिका का नाम (Applicant's name)",
+   "value": "Sunita Devi Oraon",
+   "hint": "Exactly as on Aadhaar. The money goes only to this woman."
+  },
+  {
+   "label": "पिता/पति का नाम (Father's / husband's name)",
+   "value": "Ramesh Oraon",
+   "hint": "Husband's name if married, otherwise father's name."
+  },
+  {
+   "label": "पता (Village/mohalla, police station, panchayat/ward, block/circle, district)",
+   "value": "Tetartoli, PS Kanke, Panchayat Sarwa, Block Kanke, District Ranchi",
+   "hint": "Your present address in Jharkhand, as on the ration card."
+  },
+  {
+   "label": "आधार संख्या (Aadhaar number)",
+   "value": "9999 5481 2236",
+   "hint": "Her own 12-digit Aadhaar number, one digit per box."
+  },
+  {
+   "label": "खाता संख्या (Bank account number)",
+   "value": "99990012345678",
+   "hint": "Her own single account. A joint account or someone else's account will be rejected."
+  },
+  {
+   "label": "खाता आधार लिंक्ड है (Is the account linked to Aadhaar?)",
+   "value": "हाँ (Yes)",
+   "hint": "Payment is made only to an Aadhaar-linked account. Get it linked at the bank before the camp."
+  },
+  {
+   "label": "बैंक का नाम (शाखा सहित) / IFSC Code",
+   "value": "Bank of India, Kanke branch / BKID0099999",
+   "hint": "Copy the bank name, branch and IFSC from the first page of the passbook."
+  },
+  {
+   "label": "राशन कार्ड संख्या (Ration card number)",
+   "value": "202099991234",
+   "hint": "Her name should be on this yellow, pink, white or green card."
+  },
+  {
+   "label": "आयु / जन्म तिथि (Age / date of birth)",
+   "value": "34 / 12-03-1992",
+   "hint": "She must be 18 or above and below 50. Use the date on Aadhaar."
+  },
+  {
+   "label": "आवेदिका का मोबाइल नंबर (Mobile number)",
+   "value": "70040 18825",
+   "hint": "Payment and verification messages come to this number."
+  }
+ ],
+ "demoSteps": [
+  "Find out the date of the Maiya Samman camp in your panchayat or ward from the Anganwadi worker, Panchayat Sachiv or block office, and get the free form there (or print the official form).",
+  "Fill the form, tick that the account is Aadhaar-linked, paste the photo, sign the declaration and attach self-attested copies of Aadhaar, ration card, bank passbook and voter ID.",
+  "Go to the camp yourself. The operator enters the form on the portal and checks your Aadhaar and photo. Keep the acknowledgement.",
+  "Block and district officials verify the application. Once approved, Rs.2,500 arrives in your Aadhaar-linked account by the 15th of every month.",
+  "When the Anganwadi worker or block office calls you for satyapan or e-KYC, complete it. Names that are not verified do not get the next instalment.",
+  "If the money stops, check at the bank that the account is still linked to Aadhaar, then call 1800-890-0215 or complain at the block office."
+ ],
+ "helpline": "1800-890-0215 — toll-free, Department of Women, Child Development & Social Security, Jharkhand",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "jh-abua-awas",
+ "title": "Abua Awas Yojana (Abua Awas)",
+ "department": "Rural Development Department, Government of Jharkhand",
+ "level": "State",
+ "state": "Jharkhand",
+ "category": "Housing",
+ "mode": "offline",
+ "brief": "Jharkhand's own rural housing scheme: Rs.2 lakh to build a pucca house with three rooms and a kitchen, for families who have no house or live in a kutcha house and did not get one under PM Awas Yojana-Gramin. The state received about 30 lakh applications at the 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camps, found about 20 lakh genuine, and is building houses for them in phases. The money comes in instalments into the beneficiary's bank account as each stage of the house is geo-tagged, plus 95 days of MGNREGA wages for the family's own labour.",
+ "benefit": "Rs.2 lakh in instalments for a 3-room pucca house with kitchen, plus 95 days of MGNREGA wages",
+ "emoji": "🏠",
+ "colorHex": "#2E7D32",
+ "eligibility": [
+  "Rural families in Jharkhand with no house, or living in a kutcha or broken house",
+  "The family has never got a house under PMAY-G, Indira Awas, Birsa Awas or Baba Saheb Ambedkar Awas",
+  "Priority for PVTG families, families hit by natural disasters, and freed bonded labourers",
+  "Not for families with a serving or retired government employee, an income-tax or professional-tax payer, or a motorised four-wheeler or fishing boat",
+  "The family must be on the verified list made from the camp applications; each panchayat's list is shown at the Panchayat Bhawan"
+ ],
+ "documents": [
+  "Aadhaar card of the applicant",
+  "Ration card of the family",
+  "Bank passbook of an Aadhaar-linked account in the applicant's name",
+  "MGNREGA job card, for the 95 days of wages",
+  "Land paper for the plot where the house will be built (khatiyan or rent receipt)",
+  "Caste certificate, if SC, ST or PVTG",
+  "Mobile number"
+ ],
+ "applyUrl": "",
+ "portalName": "Abua Awas Yojana portal, Rural Development Department",
+ "formUrl": "",
+ "submitAt": "The 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camp in your panchayat when one is held, or the Panchayat Sachiv or the Block Development Officer (BDO) at the block office. Take Aadhaar, ration card, bank passbook, MGNREGA job card and land papers. If you already applied at a camp, check your name in the list at the Panchayat Bhawan, because houses are sanctioned from that list in order. There is no fee, so never pay a middleman who promises a house.",
+ "demoFields": [
+  {
+   "label": "Applicant's name",
+   "value": "Somari Munda",
+   "hint": "As on Aadhaar. The sanction and payments are in this name."
+  },
+  {
+   "label": "Father's / husband's name",
+   "value": "Etwa Munda",
+   "hint": "Husband's name if married, otherwise father's name."
+  },
+  {
+   "label": "Village, panchayat, block, district",
+   "value": "Hesal, Hesal panchayat, Torpa block, Khunti district",
+   "hint": "Where the family lives and where the new house will be built."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 7310 4482",
+   "hint": "The applicant's 12-digit Aadhaar number."
+  },
+  {
+   "label": "Ration card number",
+   "value": "202099998877",
+   "hint": "The family's ration card number."
+  },
+  {
+   "label": "Social category",
+   "value": "ST (PVTG: No)",
+   "hint": "Write SC, ST, OBC or General, and say if the family belongs to a PVTG group."
+  },
+  {
+   "label": "Present house",
+   "value": "Kutcha, mud walls with tiled roof",
+   "hint": "Describe the house you live in now, or write 'no house'."
+  },
+  {
+   "label": "House received earlier under PMAY-G, Indira Awas or Birsa Awas?",
+   "value": "No",
+   "hint": "Answer truthfully. Families who already got a government house are left out."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "99990088776655 / SBIN0099999",
+   "hint": "An Aadhaar-linked account in the applicant's own name. Every instalment comes here."
+  },
+  {
+   "label": "MGNREGA job card number",
+   "value": "JH-99-001-002-003/123",
+   "hint": "Needed for the 95 days of wages for building your own house."
+  }
+ ],
+ "demoSteps": [
+  "If you applied at a camp, look for your name on the Abua Awas list at the Panchayat Bhawan. If you never applied, apply at the next 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camp or at the block office.",
+  "Panchayat and block staff visit to check that your house is kutcha and that the family never got a government house.",
+  "Selected families get a sanction letter, and the first instalment comes to the bank account.",
+  "Build the house in stages. At each stage the staff geo-tag a photo of it on the Abua Awas app, and the next instalment is released after that.",
+  "Work on your own house as MGNREGA labour and get up to 95 days of wages in your account; ask the Rozgar Sevak to open the work on your job card.",
+  "Finish the house with three rooms and a kitchen. The final geo-tag closes the case. For delays or demands for money, go to the Panchayat Sachiv or the BDO."
+ ],
+ "helpline": "No dedicated helpline. Contact your Panchayat Sachiv or Rozgar Sevak, then the Block Development Officer (BDO) at the block office",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "jh-savitribai-kishori-samriddhi",
+ "title": "Savitribai Phule Kishori Samriddhi Yojana (SPKSY)",
+ "department": "Directorate of Social Welfare, Department of Women, Child Development & Social Security, Government of Jharkhand",
+ "level": "State",
+ "state": "Jharkhand",
+ "category": "Women",
+ "mode": "offline",
+ "brief": "Money for girls in Jharkhand to stay in school and not be married off early: Rs.2,500 in Class 8, Rs.2,500 in Class 9, Rs.5,000 each in Classes 10, 11 and 12, and a one-time Rs.20,000 at age 18 to 19, Rs.40,000 in all. It goes to the first two daughters of a mother who study in government or government-aided schools. For school girls the school applies, by sending the girl's details from e-Vidya Vahini to the scheme portal. Others apply with the official form at the CDPO office.",
+ "benefit": "Up to Rs.40,000: Rs.2,500 (Class 8), Rs.2,500 (Class 9), Rs.5,000 each (Classes 10, 11, 12), Rs.20,000 at 18–19",
+ "emoji": "👧",
+ "colorHex": "#C2185B",
+ "eligibility": [
+  "Girls living in Jharkhand, enrolled in Class 8 to 12 in a government, government-aided, welfare-department or NCLP school",
+  "Only the first two daughters of a mother; the mother gives a self-declaration",
+  "Parents must not be permanent or retired central or state government or PSU employees, or draw a government pension or family pension",
+  "Parents must not pay income tax",
+  "For the Rs.20,000 grant she must be 18 or 19 years old when applying, and a voter ID is needed"
+ ],
+ "documents": [
+  "Aadhaar card of the girl",
+  "Aadhaar card of the mother (of the father, if the mother has died)",
+  "Birth certificate",
+  "Bank or post office passbook in the girl's name",
+  "Ration card",
+  "Voter ID card (for the 18–19 grant)",
+  "Mother's self-declaration on birth order, and the parents' self-declaration that they are not taxpayers or government employees",
+  "Principal's certificate that she studies in the school; for orphans, the parents' death certificate and a Child Welfare Committee certificate"
+ ],
+ "applyUrl": "",
+ "portalName": "Savitribai Phule Kishori Samriddhi Yojana portal",
+ "formUrl": "https://savitribaipksy.jharkhand.gov.in/offlineForm_pdf",
+ "submitAt": "Girls in Class 8 to 12: ask the headmaster or class teacher. The school sends the girl's details from e-Vidya Vahini to the Savitribai portal, adds her Aadhaar, bank account and declarations, and forwards it to the CDPO. Girls of 18 to 19 who have left school, and anyone the school has not covered: fill the official form and hand it in at the Child Development Project Officer (CDPO) office of your block, yourself or through your Anganwadi worker. Attach self-attested copies of the ration card, Aadhaar, voter ID and bank passbook, the self-declarations and the principal's certificate. Girls still in school at 18 to 19 can apply through the school.",
+ "demoFields": [
+  {
+   "label": "आवेदिका का नाम (Name of the girl)",
+   "value": "Puja Kumari",
+   "hint": "As on her Aadhaar and school register."
+  },
+  {
+   "label": "माता/पिता/अभिभावक का नाम (Mother's / father's / guardian's name)",
+   "value": "Sarita Devi / Manoj Mahto",
+   "hint": "The mother's name comes first. A guardian is written only for an orphan."
+  },
+  {
+   "label": "ग्राम, पंचायत, प्रखंड, जिला (Village, panchayat, block, district)",
+   "value": "Barwadih, Barwadih panchayat, Chas block, Bokaro district",
+   "hint": "In a town, write the nagar nigam, nagar panchayat or nagar parishad instead of the block."
+  },
+  {
+   "label": "आंगनवाड़ी केन्द्र का नाम एवं कोड (Anganwadi centre name and code)",
+   "value": "Barwadih-2, code 2010999",
+   "hint": "Only if you know it. The Anganwadi worker can tell you."
+  },
+  {
+   "label": "जन्म तिथि / जन्म प्रमाण पत्र संख्या (Date of birth / birth certificate number)",
+   "value": "14-02-2012 / BC-2012-99999",
+   "hint": "Attach a copy of the birth certificate. For the 18–19 grant, also give the voter ID number."
+  },
+  {
+   "label": "आवेदिका का जन्म क्रम (Birth order)",
+   "value": "प्रथम पुत्री (First daughter)",
+   "hint": "Only the first or second daughter can apply. The mother signs a declaration on this."
+  },
+  {
+   "label": "आवेदिका का आधार संख्या (Girl's Aadhaar number)",
+   "value": "9999 2640 7718",
+   "hint": "The girl's own 12-digit Aadhaar number."
+  },
+  {
+   "label": "बैंक/पोस्ट ऑफिस खाता संख्या, शाखा, IFSC (Bank or post office account, branch, IFSC)",
+   "value": "99990123456789, Bank of India Chas, BKID0099999",
+   "hint": "An account in the girl's own name. The money is sent here by DBT."
+  },
+  {
+   "label": "विद्यालय का नाम, कक्षा, रोल नम्बर (School, class, roll number)",
+   "value": "Govt. High School Barwadih, Class 9, Roll 27",
+   "hint": "The principal signs a certificate that she studies in this class."
+  },
+  {
+   "label": "लाभ प्राप्ति का वर्ग (Benefit category)",
+   "value": "कक्षा-IX में नामांकित बालिका (Class 9)",
+   "hint": "Tick the one class she is in now, or 18–19 years for the Rs.20,000 grant."
+  }
+ ],
+ "demoSteps": [
+  "At the start of the school year, tell the class teacher that she wants the Savitribai benefit, and give copies of her Aadhaar, the mother's Aadhaar, the birth certificate, the bank passbook and the ration card.",
+  "The school sends her details from e-Vidya Vahini to the Savitribai portal, adds the Aadhaar, bank account and declarations, and forwards the application to the CDPO.",
+  "For the Rs.20,000 grant at 18 or 19 after leaving school, fill the official form, attach the self-declarations and voter ID, and submit it at the CDPO office or through the Anganwadi worker. Keep the receipt.",
+  "The CDPO checks the application and the District Social Welfare Officer approves it. Wrong details are sent back to the school for correction.",
+  "The money for that class comes by DBT into the girl's account. Check the status on savitribaipksy.jharkhand.gov.in under Track Beneficiary Status.",
+  "Repeat every year from Class 8 to Class 12, then apply for the Rs.20,000 grant at age 18 or 19."
+ ],
+ "helpline": "0651-2400757 / 0651-2223544 — Directorate of Social Welfare, Ranchi (technical help, savitribaihelpdesk@gmail.com) / 1800-890-0215 — department toll-free",
+ "lastVerified": "October 2026"
+}
+]}

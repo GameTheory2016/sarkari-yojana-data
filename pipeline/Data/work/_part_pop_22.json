@@ -1,0 +1,563 @@
+{"schemes": [
+{
+ "id": "ar-cmaay",
+ "title": "Chief Minister Arogya Arunachal Yojana (CMAAY Card)",
+ "department": "State Health Agency (Chief Minister Arogya Arunachal Society), Department of Health & Family Welfare, Government of Arunachal Pradesh",
+ "level": "State",
+ "state": "Arunachal Pradesh",
+ "category": "Health",
+ "mode": "online",
+ "brief": "Arunachal's own health cover of Rs.5 lakh a year per family, cashless at empanelled government and private hospitals inside and outside the state. It is for APST families, state government employees and pensioners, non-APST Resident Certificate holders of Changlang, Lohit and Namsai, and accredited journalists, and it runs side by side with Ayushman Bharat PM-JAY. Enrolment is free: apply on the CMAAY portal or the Arogya Arunachal app, or at the CMAAY kiosk in a district hospital or a CSC, then download the e-card. The old APCMUHIS smart card is no longer valid, so families must enrol again under CMAAY.",
+ "benefit": "Rs.5 lakh a year per family, cashless (Rs.1 lakh secondary care + Rs.4 lakh tertiary care)",
+ "emoji": "🏥",
+ "colorHex": "#00897B",
+ "eligibility": [
+  "Arunachal Pradesh Scheduled Tribe (APST) families living in the state",
+  "Regular state government employees and state pensioners, with their dependent family members",
+  "Non-APST permanent residents of Changlang, Lohit and Namsai districts who hold a Resident Certificate (RC)",
+  "Working journalists accredited with the Arunachal Pradesh Union of Working Journalists (APUWJ) or the Arunachal Press Club",
+  "Not for Central Government or PSU employees",
+  "No income limit. The Rs.1 lakh secondary and Rs.4 lakh tertiary limits cannot be swapped, and treatment outside the state needs a referral from a government hospital, except in emergencies"
+ ],
+ "documents": [
+  "Aadhaar card of every family member",
+  "APST (tribe) certificate issued by the Government of Arunachal Pradesh, for APST families",
+  "Resident Certificate (RC), for non-APST families of Changlang, Lohit and Namsai",
+  "Ration card or family tree certificate showing the family members",
+  "Government employees: employee ID card and the family declaration form countersigned by the DDO or Head of Office; pensioners: PPO",
+  "Journalists: accreditation certificate from APUWJ or the Arunachal Press Club",
+  "A mobile number for the OTP"
+ ],
+ "applyUrl": "https://cmaay.arunachal.gov.in/NewEnrollment.aspx",
+ "portalUrl": "https://cmaay.arunachal.gov.in/",
+ "applyKind": "form",
+ "portalName": "Chief Minister Arogya Arunachal Yojana (CMAAY)",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Enrollment Type",
+   "value": "Public",
+   "hint": "Choose Public for APST and RC families. Government employees, state pensioners and journalists pick their own type."
+  },
+  {
+   "label": "Aadhaar No",
+   "value": "9999 4127 6630",
+   "hint": "Aadhaar of the head of the family. The OTP goes to the mobile linked with it, and you can create or fetch the ABHA number here."
+  },
+  {
+   "label": "Name",
+   "value": "TAGE YANIA",
+   "hint": "Exactly as written on the Aadhaar card, in capital letters."
+  },
+  {
+   "label": "Father/ husband name",
+   "value": "Tage Tamo",
+   "hint": "Father's name, or husband's name for a married woman."
+  },
+  {
+   "label": "Date Of Birth",
+   "value": "14/03/1981",
+   "hint": "As on Aadhaar. The age is filled in by itself."
+  },
+  {
+   "label": "Gender / Relation",
+   "value": "Female / Self",
+   "hint": "Relation is how this person is related to the head of the family. The head is always Self."
+  },
+  {
+   "label": "Mobile No",
+   "value": "90000 41267",
+   "hint": "A number you keep with you. Messages about approval come here."
+  },
+  {
+   "label": "Ration Card No. / Ration Card Type",
+   "value": "AR-PP-2211-9999 / APL",
+   "hint": "Copy the number from the ration card and tick APL or BPL as printed on it."
+  },
+  {
+   "label": "Permanent Address, Pin Code, District, Circle, Village",
+   "value": "Doimukh, 791112, Papum Pare, Doimukh Circle, Doimukh",
+   "hint": "Your permanent address in Arunachal, as on the ST certificate or RC."
+  },
+  {
+   "label": "Upload documents",
+   "value": "ST Certificate, Aadhaar Card, Family Self Declaration",
+   "hint": "Upload a clear photo or PDF of each. RC holders upload the RC instead of the ST certificate. Employees also upload the DDO certificate."
+  }
+ ],
+ "demoSteps": [
+  "Open the CMAAY portal and click Apply Online under Enrollment. Choose your enrolment type: Public, Government Employee, State Pensioner or State Working Journalist.",
+  "Enter the Aadhaar number of the head of the family and verify with the OTP. Create or fetch the ABHA number when asked.",
+  "Fill in the head of the family's details, then add each family member with their own Aadhaar and their relation to the head.",
+  "Upload the ST certificate or RC, the Aadhaar cards and the family declaration, then submit. Note the reference number. Enrolment is free.",
+  "The State Health Agency checks the documents. Use Check Status on the portal, and Reply To Query if they ask for anything more.",
+  "Once approved, download and print the CMAAY e-card. If you get stuck online, go to the CMAAY kiosk at the district hospital or a CSC with the same documents.",
+  "At an empanelled hospital, show the e-card to the Arogya Mitra. Treatment is cashless. For a hospital outside Arunachal, first get a referral from a government hospital (PHC, CHC or district hospital), unless it is an emergency."
+ ],
+ "helpline": "1800 233 5558 — CMAAY toll-free / 08956048405 — CMAAY helpline / 9402914555 — CMAAY WhatsApp / 14555 — Ayushman Bharat national helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "mn-cmht",
+ "title": "Chief Minister-gi Hakshelgi Tengbang (CMHT Card)",
+ "department": "State Nodal Cell (CMHT), Directorate of Health Services, Department of Health & Family Welfare, Government of Manipur",
+ "level": "State",
+ "state": "Manipur",
+ "category": "Health",
+ "mode": "offline",
+ "brief": "Manipur's free health cover for poor families: up to Rs.5 lakh a year per family for hospital treatment, cashless at empanelled hospitals in Manipur and at chosen hospitals in Guwahati and Kolkata. It covers AAY card holders, widows, persons with disability, ASHAs, Anganwadi workers and helpers, Ima Keithel women vendors, newspaper hawkers, local media persons, displaced persons, and other poor families approved by the Deputy Commissioner. The card is made at the CMHT enrolment kiosk of a district hospital, and the scheme also pays travel fare and a daily allowance for treatment outside the state. It was launched in 2018 with Rs.2 lakh cover, now raised to Rs.5 lakh.",
+ "benefit": "Rs.5 lakh a year per family, cashless, plus travel fare and Rs.1,000 a day for treatment outside Manipur",
+ "emoji": "🩺",
+ "colorHex": "#6A1B9A",
+ "eligibility": [
+  "Bona fide citizen of Manipur, with no family member in government service (a declaration is signed at the counter)",
+  "Families holding an AAY (Antyodaya) ration card, widows, and persons with disability",
+  "ASHAs, Anganwadi workers and helpers, Ima Keithel (Ima Market) women vendors, newspaper hawkers and local media persons",
+  "Internally displaced persons holding an IDP certificate from the Deputy Commissioner",
+  "Other poor families outside these groups can also apply. The Deputy Commissioner checks their economic status before the card is approved",
+  "Up to 5 names are printed on the card, and any extra members are noted as '2 more' and so on. There is no limit on family size"
+ ],
+ "documents": [
+  "Original Aadhaar card of the applicant and of every family member, with the Aadhaar consent form",
+  "Photo ID: voter ID, PAN, driving licence, ration card, passport or government ID card",
+  "AAY ration card (AAY families)",
+  "Disability certificate (persons with disability)",
+  "Husband's death certificate (widows)",
+  "Membership letter from NHM, the Social Welfare Department, Imphal Municipal Corporation or the authorised association (ASHAs, Anganwadi staff, Ima Keithel vendors, hawkers, media persons)",
+  "IDP certificate from the Deputy Commissioner (displaced persons)"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "CMHT enrolment kiosk (Health Coordinator help desk) at the reception of your District Hospital, or at RIMS or JNIMS in Imphal; enrolment camps are also held at DC offices and in villages. Take all original documents and the Aadhaar cards of every family member. Fill in the declaration that nobody in the family is in government service at the counter. A card fee of Rs.50 per family may be charged; AAY card holders, persons with disability and widows pay nothing.",
+ "demoFields": [
+  {
+   "label": "Eligibility category",
+   "value": "Widow",
+   "hint": "AAY, Widow, Disabled, ASHA, Anganwadi Worker/Helper, Ima Keithel Vendor, Hawker, Local Media, IDP, or Other Poor Family (DC verification)."
+  },
+  {
+   "label": "Name of head of family",
+   "value": "Thokchom Ibemhal Devi",
+   "hint": "As written on the Aadhaar card."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 2864 1170",
+   "hint": "The head's 12-digit Aadhaar. At least one member must give Aadhaar to enrol the family."
+  },
+  {
+   "label": "Eligibility proof",
+   "value": "Husband's death certificate No. 9999/IE/2019",
+   "hint": "AAY card, disability certificate, death certificate, membership letter or IDP certificate, as your category needs."
+  },
+  {
+   "label": "ID proof",
+   "value": "Voter ID MN/01/999/123456",
+   "hint": "Any one government photo ID, shown in original."
+  },
+  {
+   "label": "Family members and relation",
+   "value": "Thokchom Sanatombi (Daughter), Thokchom Bikram (Son)",
+   "hint": "Everyone who lives and eats with you. Carry each member's Aadhaar."
+  },
+  {
+   "label": "District and address",
+   "value": "Imphal East, Khurai Lamlong",
+   "hint": "Where the family lives now."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90000 28641",
+   "hint": "The approval message for DC-verification cases comes here."
+  },
+  {
+   "label": "Declaration: no family member in government service",
+   "value": "Signed at the counter",
+   "hint": "Filled in at the kiosk before the card is made. Do not sign if anyone in the family is a government employee."
+  },
+  {
+   "label": "Photo",
+   "value": "Taken at the kiosk",
+   "hint": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
+  }
+ ],
+ "demoSteps": [
+  "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking.",
+  "Go to the CMHT kiosk at your District Hospital (or RIMS or JNIMS in Imphal, or a village enrolment camp) with the originals and every member's Aadhaar.",
+  "The Health Coordinator enters your details, takes the photo and the Aadhaar consent, and you sign the government-service declaration.",
+  "Listed categories get the CMHT-Manipur Health Card on the spot, with a unique family number. For 'other poor families', the details go to the DC for verification, and you are told the result before the card is issued.",
+  "At an empanelled hospital, show the card at the CMHT desk. The Health Coordinator guides you from admission to discharge, and treatment is cashless.",
+  "For the travel allowance, give your bank details when you are admitted. Inside Manipur it is Rs.300 a visit, up to Rs.3,000 a year. Outside Manipur it is the cheapest airfare for the patient and one attendant (up to Rs.30,000 a year) plus Rs.1,000 a day (up to Rs.10,000), all within the Rs.5 lakh."
+ ],
+ "helpline": "1800 103 2015 — CMHT toll-free helpline (24x7) / 14555 — Ayushman Bharat national helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "ml-mhis",
+ "title": "Megha Health Insurance Scheme (MHIS Card)",
+ "department": "State Nodal Agency, Megha Health Insurance Scheme, Department of Health & Family Welfare, Government of Meghalaya",
+ "level": "State",
+ "state": "Meghalaya",
+ "category": "Health",
+ "mode": "online",
+ "brief": "Meghalaya's universal health insurance, run together with Ayushman Bharat PM-JAY, now in its sixth phase (MHIS VI). Every resident family except state and central government employees gets Rs.5.3 lakh a year, shared by the family, cashless at almost every hospital in the state and at PM-JAY hospitals across India, plus some outpatient care such as maternity, child care and tests. Registration is free and open all year at District Kiosks and hospital registration centres. A family head whose name is missing from the list (newly married, orphan, or not in the data) can send the request online.",
+ "benefit": "Rs.5.3 lakh a year per family, cashless; registration free",
+ "emoji": "💳",
+ "colorHex": "#1565C0",
+ "eligibility": [
+  "Every resident of Meghalaya, with no income limit",
+  "Not for State or Central Government employees, who have their own medical reimbursement",
+  "No limit on family size or age",
+  "A newborn is covered from birth under the mother's or father's card for the rest of the policy year",
+  "If your family is not in the MHIS or PM-JAY data (newly married, orphan, or name missing), apply through the online Head of Family request. The SHA office approves it"
+ ],
+ "documents": [
+  "Voter ID (EPIC), front and back. This is mandatory for the Head of Family request",
+  "Aadhaar card",
+  "Any one more ID if asked: ration card, MGNREGA job card, birth certificate or other government photo ID",
+  "Proof of relation to add members: marriage certificate, birth certificate, ration card, headman's certificate or adoption certificate",
+  "Old MHIS or RSBY card, if you have one",
+  "A mobile number"
+ ],
+ "applyUrl": "https://hof.mhis.org.in/",
+ "portalUrl": "https://mhis.org.in/",
+ "applyKind": "form",
+ "portalName": "Megha Health Insurance Scheme",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Category",
+   "value": "Newly Married",
+   "hint": "Newly Married, Name not there in the database, Orphans, or Others."
+  },
+  {
+   "label": "Name as per Aadhaar",
+   "value": "Banshai Lyngdoh",
+   "hint": "Spell it exactly as on Aadhaar and EPIC, or verification gets delayed."
+  },
+  {
+   "label": "Father's/Mother's/Spouse Name",
+   "value": "Spouse — Ibapynhun Kharkongor",
+   "hint": "Pick the relation first, then type the name."
+  },
+  {
+   "label": "House number as per EPIC",
+   "value": "H. No. 99",
+   "hint": "As printed on your voter ID."
+  },
+  {
+   "label": "Gender",
+   "value": "Male",
+   "hint": "As on Aadhaar."
+  },
+  {
+   "label": "Address as per EPIC",
+   "value": "Mawlai Mawroh, Shillong",
+   "hint": "Copy the address from the voter ID."
+  },
+  {
+   "label": "District / Name of block / Rural or Urban",
+   "value": "East Khasi Hills / Mylliem / Urban",
+   "hint": "Where you live now, from the drop-down lists."
+  },
+  {
+   "label": "Phone No",
+   "value": "90000 47620",
+   "hint": "A number you keep with you, so the office can reach you."
+  },
+  {
+   "label": "EPIC Number / Aadhaar Number",
+   "value": "ML/99/999/123456 / 9999 6015 3348",
+   "hint": "Voter ID number is mandatory. Aadhaar helps the check go faster."
+  },
+  {
+   "label": "Upload EPIC front side / back side",
+   "value": "epic_front.jpg, epic_back.jpg",
+   "hint": "Clear photos of both sides of the voter ID. Aadhaar upload is optional."
+  }
+ ],
+ "demoSteps": [
+  "First check if your family is already in the list: call 1800 102 4762 or ask at a District Kiosk. If it is, just walk into any District Kiosk or hospital registration centre with a photo ID, and the card is printed there for free.",
+  "If your name is missing, open the MHIS Head of Family form and choose your category: Newly Married, Name not there in the database, Orphans, or Others.",
+  "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number.",
+  "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval.",
+  "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card.",
+  "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
+ ],
+ "helpline": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "mz-muhcs",
+ "title": "Mizoram Universal Health Care Scheme (MUHCS Card)",
+ "department": "Mizoram State Health Care Society, Department of Health & Family Welfare, Government of Mizoram",
+ "level": "State",
+ "state": "Mizoram",
+ "category": "Health",
+ "mode": "online",
+ "brief": "From 1 April 2025 MUHCS replaced the old Mizoram State Health Care Scheme (MSHCS), and it covers every bona fide resident of Mizoram. Families outside government service pay a yearly fee of Rs.2,500, Rs.5,000 or Rs.10,000 for Rs.5 lakh of cashless hospital cover; the higher fee buys a better ward, while AB PM-JAY (Golden Card) families pay nothing and government employees pay monthly from their salary. The paid enrolment opens once a year (for 2026-27 it ran from 16 February to 15 May 2026), mostly online, with offline forms at sub-centres where there is no internet. After that you apply for the MUHCS card online and download it once approved.",
+ "benefit": "Rs.5 lakh a year per family, cashless, for a yearly family fee of Rs.2,500, Rs.5,000 or Rs.10,000",
+ "emoji": "☂️",
+ "colorHex": "#00838F",
+ "eligibility": [
+  "Every bona fide resident of Mizoram listed in the state ration card (PDS) database",
+  "General families pay a yearly fee: Rs.2,500 (general ward), Rs.5,000 (semi-private shared ward) or Rs.10,000 (private ward). The cover is Rs.5 lakh in each plan",
+  "AB PM-JAY (Golden Card) families pay nothing and use their Golden Card. They do not need a MUHCS card",
+  "State government employees and provisional or muster roll staff pay Rs.200 to Rs.1,500 a month from their salary, by pay level. They do not enrol, they only make the card",
+  "Civil pensioners and GIA employees are covered through their subscription form, but the MUHCS card is not yet issued to them (circular of 13 May 2026)",
+  "Children under 5 use a parent's card. The fee is paid only in the yearly enrolment window and is not refunded except as notified"
+ ],
+ "documents": [
+  "Aadhaar card of every family member",
+  "Ration card. Without one, a Village Council or Local Council letter listing the family members",
+  "A clear chest-up photo of each member, to upload for the card",
+  "A mobile number for the OTP login",
+  "UPI, debit or credit card, or net banking, to pay the yearly fee (general families)"
+ ],
+ "applyUrl": "https://muhcs.mizoram.gov.in/",
+ "portalUrl": "https://mshcs.mizoram.gov.in/",
+ "applyKind": "service-login",
+ "portalName": "Mizoram Universal Healthcare Scheme (MUHCS)",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Login as",
+   "value": "Beneficiary",
+   "hint": "Choose Beneficiary, not Operator."
+  },
+  {
+   "label": "Mobile Number",
+   "value": "90000 65293",
+   "hint": "Your own working number. The OTP comes here every time you log in."
+  },
+  {
+   "label": "Enter Captcha / OTP",
+   "value": "7K2QP / 482913",
+   "hint": "Type the letters shown in the picture, then the OTP sent to your phone."
+  },
+  {
+   "label": "Ration card number",
+   "value": "MZ-AIZ-9999-0412",
+   "hint": "The family is taken from the ration card. Without one, upload the Village or Local Council letter."
+  },
+  {
+   "label": "Plan option",
+   "value": "General — Rs.2,500 (general ward)",
+   "hint": "Standard Rs.5,000 gives a shared semi-private ward, Private Rs.10,000 a private ward. The cover is Rs.5 lakh in all three."
+  },
+  {
+   "label": "Head of family name",
+   "value": "Lalremruati",
+   "hint": "As on Aadhaar."
+  },
+  {
+   "label": "Aadhaar of each member",
+   "value": "9999 8106 2245 (and one per member)",
+   "hint": "Every member aged 5 or above needs their own Aadhaar for the card."
+  },
+  {
+   "label": "Photo of each member",
+   "value": "Chest-up photo uploaded",
+   "hint": "Clear, face straight, from the chest up. A blurred photo gets the card rejected."
+  },
+  {
+   "label": "Payment",
+   "value": "UPI — receipt saved",
+   "hint": "Pay online and keep the receipt. You need it for any later query or refund request."
+  }
+ ],
+ "demoSteps": [
+  "During the yearly enrolment window (for 2026-27 it was 16 February to 15 May 2026), open the MUHCS portal, choose Beneficiary and log in with your mobile number, the captcha and the OTP.",
+  "Enter your ration card details, add all family members and choose a plan: General Rs.2,500, Standard Rs.5,000 or Private Rs.10,000.",
+  "Pay the fee online by UPI, card or net banking and save the receipt. In villages without internet, fill in the offline form at the health sub-centre instead.",
+  "Apply for the MUHCS card from the same login. Upload each member's Aadhaar and a clear chest-up photo. Children under 5 do not need a card.",
+  "The Mizoram State Health Care Society checks and approves the request. Then log in again and download the card.",
+  "At an empanelled government or private hospital, show the MUHCS card (or your Golden Card) and get cashless treatment up to Rs.5 lakh. Re-enrol every year in the window."
+ ],
+ "helpline": "08065293906 — MUHCS Chhawntu call centre / 0389-2328223 — Mizoram State Health Care Society office / 7628839899 — MUHCS grievance / 14555 — Ayushman Bharat toll-free",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "nl-cmhis",
+ "title": "Chief Minister Health Insurance Scheme (CMHIS Card)",
+ "department": "Nagaland Health Protection Society, Department of Health & Family Welfare, Government of Nagaland",
+ "level": "State",
+ "state": "Nagaland",
+ "category": "Health",
+ "mode": "online",
+ "brief": "Nagaland's own health insurance, run together with PM-JAY as AB PM-JAY CMHIS: the General Category gives Rs.5 lakh a year per family of cashless hospital treatment to indigenous inhabitants and permanent residents who are not covered by PM-JAY. Government employees and pensioners get Rs.20 lakh. A family registers online on the CMHIS portal or at a registration centre, the district administration approves it, and the Ayushman CMHIS card is then made after Aadhaar e-KYC at a centre. Registration is free.",
+ "benefit": "Rs.5 lakh a year per family (General Category); Rs.20 lakh for government employees and pensioners",
+ "emoji": "🛡️",
+ "colorHex": "#C62828",
+ "eligibility": [
+  "Indigenous inhabitants or permanent residents of Nagaland not covered by AB PM-JAY or any other public health insurance (General Category)",
+  "Contractual, ad-hoc and fixed-pay state employees with a valid PIMS code, and accredited journalists, also come under the General Category",
+  "Regular state government employees, legislators, PSU employees and pensioners, with their dependants, come under CMHIS (EP) with Rs.20 lakh cover",
+  "Ration card holders need not register as a new household. Their card is made against the existing ration card",
+  "A household means people who live together and share one kitchen. There is no income limit"
+ ],
+ "documents": [
+  "Indigenous Inhabitant Certificate (IIC) or Permanent Resident Certificate (PRC) issued after 2016, for the head of the household",
+  "System-generated self-declaration form, signed by the applicant and the Village, Ward or Colony Chairman",
+  "Aadhaar card of every member, for e-KYC",
+  "A mobile number and an email ID (both verified by OTP)",
+  "Proof of relationship for every dependant except the spouse",
+  "Employees: PIMS code. Pensioners: PPO number and the first 3 pages of the PPO book as a PDF"
+ ],
+ "applyUrl": "https://cmhis.nagaland.gov.in/register",
+ "portalUrl": "https://cmhis.nagaland.gov.in/",
+ "applyKind": "registration",
+ "portalName": "CMHIS Nagaland",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Register as",
+   "value": "General Category",
+   "hint": "Government employees use Register with PIMS Code, pensioners use Register as Pensioner."
+  },
+  {
+   "label": "Full name",
+   "value": "Vikheto Sumi",
+   "hint": "Give your FULL NAME exactly as on your Aadhaar card."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90000 20233",
+   "hint": "Verified by OTP. You will log in with it later."
+  },
+  {
+   "label": "Email",
+   "value": "vikheto.sumi@example.com",
+   "hint": "The email of any family member can be used. It is needed for password reset and is verified too."
+  },
+  {
+   "label": "IIC / PRC number and issuing district",
+   "value": "IIC/ZBTO/2021/99999 — Zunheboto",
+   "hint": "It must be issued after 2016. The application goes to the district administration that issued it."
+  },
+  {
+   "label": "Household members",
+   "value": "Atoli Sumi (Spouse), Hokiye Sumi (Son)",
+   "hint": "Everyone who lives with you and shares one kitchen."
+  },
+  {
+   "label": "Proof of relationship",
+   "value": "Birth certificate of son uploaded",
+   "hint": "Needed for every dependant except the spouse."
+  },
+  {
+   "label": "Self Declaration Form",
+   "value": "Signed copy uploaded",
+   "hint": "Download the system-generated form, get it signed by you and your Village, Ward or Colony Chairman, and upload it."
+  }
+ ],
+ "demoSteps": [
+  "Open the CMHIS registration page and choose General Category. Employees use their PIMS code, pensioners their PPO number.",
+  "Enter your full name as on Aadhaar, and verify your mobile number and email with the OTPs.",
+  "Add your household members and upload the IIC or PRC and the relationship proofs. Download the self-declaration form, get it signed by the Village, Ward or Colony Chairman, and upload it.",
+  "Submit. The district administration that issued your IIC or PRC checks it. On approval you get an SMS and email with your Household ID.",
+  "Take the Household ID and every member's Aadhaar to a registration centre (district hospital, CHC, PHC, DC office or CSC) for Aadhaar e-KYC, and collect the Ayushman CMHIS card. Ration card holders can go straight to this step.",
+  "At an empanelled hospital, show the card. Treatment is cashless up to Rs.5 lakh a year for the family."
+ ],
+ "helpline": "1800 202 3380 — CMHIS helpdesk, Nagaland Health Protection Society / 14555 — Ayushman Bharat national helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "tr-cmjay",
+ "title": "Chief Minister Jan Arogya Yojana (CM-JAY Card)",
+ "department": "Tripura Health Protection Society (State Health Agency), Health & Family Welfare Department, Government of Tripura",
+ "level": "State",
+ "state": "Tripura",
+ "category": "Health",
+ "mode": "online",
+ "brief": "Tripura's own health cover, also called Mukhyamantri Jan Arogya Yojana, launched on 15 February 2024 for families left out of Ayushman Bharat. Every household not covered by PM-JAY, the construction workers' scheme, CAPF, PM-JANMAN or any other government insurance gets up to Rs.5 lakh a year of cashless, paperless hospital treatment, on the same pattern as PM-JAY. The state also announced free medicines for 15 days after discharge. The CM-JAY card is made free on the Ayushman beneficiary portal or app, or at a CSC or empanelled hospital.",
+ "benefit": "Rs.5 lakh a year per family, cashless and paperless",
+ "emoji": "❤️",
+ "colorHex": "#AD1457",
+ "eligibility": [
+  "Families living in Tripura that are not covered by AB PM-JAY, the BoCW (construction workers) scheme, CAPF, PM-JANMAN or any other government health insurance",
+  "No income limit, and no cap on family size or age",
+  "State government employees can join if they give up the yearly medical allowance",
+  "Families already in PM-JAY keep using their Ayushman card instead",
+  "Every member needs their own card, made through Aadhaar e-KYC"
+ ],
+ "documents": [
+  "Aadhaar card of every member whose card is being made",
+  "Ration card, to find and link the family",
+  "A mobile number for the OTP",
+  "A live photo, taken on the phone during e-KYC"
+ ],
+ "applyUrl": "https://beneficiary.nha.gov.in/",
+ "applyKind": "service-login",
+ "portalName": "Ayushman beneficiary portal",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Login as",
+   "value": "Beneficiary",
+   "hint": "Choose Beneficiary when you make the card for yourself or your family."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90000 34537",
+   "hint": "Any number you hold. The login OTP and the approval message come here."
+  },
+  {
+   "label": "State and scheme",
+   "value": "Tripura / CM-JAY",
+   "hint": "Choose Tripura and the state scheme CM-JAY. If your family does not show, search again under PMJAY, because a family is in only one of the two."
+  },
+  {
+   "label": "Search by",
+   "value": "Ration card number",
+   "hint": "You can also search by Aadhaar. The ration card brings up the whole family at once."
+  },
+  {
+   "label": "Ration card number",
+   "value": "TR-WT-9999-1234",
+   "hint": "Copy it from the ration card. If nothing is found, try the Aadhaar number."
+  },
+  {
+   "label": "Aadhaar number for e-KYC",
+   "value": "9999 5270 8814",
+   "hint": "Aadhaar of the member whose card you are making now, one member at a time."
+  },
+  {
+   "label": "e-KYC method",
+   "value": "Aadhaar OTP",
+   "hint": "Use face authentication if the mobile is not linked to Aadhaar."
+  },
+  {
+   "label": "Live photo",
+   "value": "Captured on phone camera",
+   "hint": "Good light, face straight, no cap or dark glasses."
+  },
+  {
+   "label": "Relation with head of family",
+   "value": "Wife",
+   "hint": "How this member is related to the head named on the ration card."
+  },
+  {
+   "label": "District and PIN code",
+   "value": "West Tripura / 799001",
+   "hint": "Where you live now."
+  }
+ ],
+ "demoSteps": [
+  "Open the Ayushman beneficiary portal (or the Ayushman app) and log in as Beneficiary with your mobile number and the OTP.",
+  "Choose Tripura and the CM-JAY scheme, then search for your family by ration card number or Aadhaar.",
+  "Find the member marked eKYC pending, verify with an Aadhaar OTP or face authentication, and take the live photo.",
+  "Fill in the relation to the head of the family, the district and the PIN code, and submit. The State Health Agency usually approves within a day or two.",
+  "Log in again and download the CM-JAY card. Do this for every member. If you get stuck, a CSC or the Ayushman desk at an empanelled hospital will make it for free.",
+  "At the hospital, show the card at the Ayushman desk. Treatment is cashless up to Rs.5 lakh a year, so never pay cash for a covered treatment."
+ ],
+ "helpline": "14555 — Ayushman Bharat / CM-JAY national helpline / 1800-345-3797 — State Health Agency Tripura toll-free",
+ "lastVerified": "October 2026"
+}
+]}

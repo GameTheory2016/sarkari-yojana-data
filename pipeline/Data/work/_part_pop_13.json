@@ -1,0 +1,463 @@
+{"schemes": [
+{
+ "id": "ap-ntr-vaidya-seva",
+ "title": "Dr. NTR Vaidya Seva (Aarogyasri Health Card)",
+ "department": "Dr. NTR Vaidya Seva Trust, Health, Medical & Family Welfare Department, Government of Andhra Pradesh",
+ "level": "State",
+ "state": "Andhra Pradesh",
+ "category": "Health",
+ "mode": "offline",
+ "brief": "Free, cashless hospital treatment of up to Rs.25 lakh a year for a family, for 3,257 listed surgeries and treatments, at government and private network hospitals in Andhra Pradesh. It is the state's Aarogyasri scheme, called Dr YSR Aarogyasri until 2024. Every rice card family is covered already. Other families with an income of up to Rs.5 lakh apply for the card at their Village or Ward Secretariat.",
+ "benefit": "Cashless treatment up to Rs.25 lakh a year per family, with free medicines, food and bus fare home",
+ "emoji": "🏥",
+ "colorHex": "#C62828",
+ "eligibility": [
+  "Every family holding an Andhra Pradesh rice card is covered, with no further check",
+  "Other families qualify if their annual income is up to Rs.5 lakh. This includes contract, outsourced, part-time and private-sector workers and income-tax filers within that limit",
+  "Land below 12 acres of wet land or 35 acres of dry land, and below 35 acres in all",
+  "In towns, municipal property tax paid on less than 3,000 sq ft. The family may own no more than one car",
+  "Permanent government employees and pensioners are not covered here; they have the separate EHS card"
+ ],
+ "documents": [
+  "Rice card of the family, if you have one",
+  "Aadhaar card of every family member",
+  "Income certificate, salary certificate or income-tax return showing income up to Rs.5 lakh (only for families without a rice card)",
+  "Pattadar passbook, if the family owns land",
+  "Municipal property tax receipt, if you live in a town",
+  "Mobile number and a recent family photograph"
+ ],
+ "applyUrl": "",
+ "portalName": "Dr. NTR Vaidya Seva Trust",
+ "formUrl": "",
+ "submitAt": "Your Village or Ward Secretariat (now called the Swarna Gramam / Swarna Ward office). Ask the Digital Assistant for the NTR Vaidya Seva health card. Take Aadhaar for every member, the rice card or an income certificate, and the pattadar passbook or property tax receipt. Your household must already appear in the Secretariat's household survey. For treatment, go to the Aarogya Mithra desk at any network hospital or PHC.",
+ "demoFields": [
+  {
+   "label": "Name of the head of the family",
+   "value": "Venkata Lakshmi Palli",
+   "hint": "As printed on Aadhaar. The card is made for the whole family under this name."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 4417 2860",
+   "hint": "The head of the family's 12-digit number. The Digital Assistant checks it with your thumbprint."
+  },
+  {
+   "label": "Household ID (household survey)",
+   "value": "HH-1022-0457-31",
+   "hint": "The Secretariat finds it from your Aadhaar. If your family is missing from the survey, ask for it to be added first."
+  },
+  {
+   "label": "Rice card number",
+   "value": "None",
+   "hint": "If your family has a rice card, you are covered already and do not need to apply. Just show it at the hospital."
+  },
+  {
+   "label": "Family members",
+   "value": "Srinivas Palli (husband, 44), Divya (daughter, 15), Kiran (son, 11)",
+   "hint": "Everyone who lives and eats with you. Each person needs their own Aadhaar."
+  },
+  {
+   "label": "Annual family income and proof",
+   "value": "Rs.3,60,000; salary certificate from Sri Sai Textiles, Guntur",
+   "hint": "It must be Rs.5 lakh or less. Attach the salary certificate, income certificate or income-tax return."
+  },
+  {
+   "label": "Land held",
+   "value": "Wet 0, Dry 1.5 acres",
+   "hint": "Copy it from the pattadar passbook. Wet land must be under 12 acres and dry land under 35 acres."
+  },
+  {
+   "label": "House area for municipal tax",
+   "value": "850 sq ft",
+   "hint": "Only for towns. It is on your property tax receipt and must be under 3,000 sq ft."
+  },
+  {
+   "label": "Number of four-wheelers owned",
+   "value": "0",
+   "hint": "One car is allowed. A family with two or more cars cannot get the card."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90001 44172",
+   "hint": "Messages about the application and the card come to this number."
+  }
+ ],
+ "demoSteps": [
+  "If your family has a rice card, you are covered already. Skip to the hospital step.",
+  "Otherwise, go to your Village or Ward Secretariat with Aadhaar for every member, an income certificate and your land or property tax papers. The Digital Assistant applies for the Vaidya Seva card. Keep the acknowledgement number.",
+  "Secretariat staff check income, land, property and vehicles. Once approved, the card is issued to the family through the Secretariat.",
+  "When you need treatment, go to a PHC, a government hospital or any network hospital listed on drntrvaidyaseva.ap.gov.in. Meet the Aarogya Mithra at the help desk and show the card, rice card or Aadhaar. Your fingerprint is taken.",
+  "The hospital asks the Trust for approval before the operation. Tests, surgery, medicines and two meals a day are all free, so do not pay anything.",
+  "At discharge you get 10 days of medicines and bus fare home, and you sign a letter saying you paid nothing. For listed surgeries, the Aarogya Aasara recovery allowance goes to your bank account.",
+  "If a hospital asks for money, refuses treatment or you need help, call 104."
+ ],
+ "helpline": "104 — Dr. NTR Vaidya Seva and Aarogya Aasara information and complaints / 108 — emergency ambulance",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "ap-annadata-sukhibhava",
+ "title": "Annadata Sukhibhava – PM Kisan (Rs.20,000 farmer support)",
+ "department": "Agriculture Department, Government of Andhra Pradesh, with PM-KISAN, Government of India",
+ "level": "State",
+ "state": "Andhra Pradesh",
+ "category": "Agriculture",
+ "mode": "offline",
+ "brief": "Andhra Pradesh pays farmer families Rs.20,000 a year for crop costs. Rs.14,000 of it comes from the state and Rs.6,000 from PM-Kisan, all sent by DBT in three instalments. It replaced the earlier YSR Rythu Bharosa. Farmers whose land is in the state land records are listed automatically. Anyone missing from the list, and tenant farmers, register or complain at their Rythu Seva Kendram (RSK).",
+ "benefit": "Rs.20,000 a year in three instalments: Rs.7,000, Rs.7,000 and Rs.6,000",
+ "emoji": "🚜",
+ "colorHex": "#2E7D32",
+ "eligibility": [
+  "Farmer family (husband, wife and minor children) with cultivable land recorded in their name in the Andhra Pradesh land records (Webland / 1-B). One payment per family",
+  "Tenant farmers with a valid Crop Cultivator Rights Card (CCRC) for the season, and tribal farmers holding forest-rights (ROFR) land, are also covered",
+  "Not for families with an income-tax payer, a serving or retired government employee (Group D staff excepted), or a pensioner drawing Rs.10,000 a month or more",
+  "Not for practising doctors, engineers, lawyers, chartered accountants or architects, holders of constitutional posts, or institutions that own land",
+  "Aadhaar e-KYC must be complete, and the bank account must be Aadhaar-seeded and NPCI-mapped"
+ ],
+ "documents": [
+  "Aadhaar card of the farmer",
+  "Pattadar passbook, or the 1-B / Adangal extract of the land",
+  "Bank passbook showing account number and IFSC (Aadhaar-seeded account)",
+  "Mobile number linked to Aadhaar",
+  "CCRC card, for a tenant farmer",
+  "ROFR title, for forest-rights land"
+ ],
+ "applyUrl": "",
+ "portalName": "Annadatha Sukhibhava – PM Kisan portal",
+ "formUrl": "",
+ "submitAt": "The Rythu Seva Kendram (RSK) in your village. Take Aadhaar, the pattadar passbook or 1-B, the bank passbook and, for tenants, the CCRC card. The Village Agriculture Assistant registers you, does your e-KYC and files a grievance if your name is missing from the eligible list.",
+ "demoFields": [
+  {
+   "label": "Farmer name (as on Aadhaar)",
+   "value": "Narasimha Rao Kotha",
+   "hint": "It must match the name in the land record and the bank account, or the money gets stuck."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 2051 6638",
+   "hint": "The farmer's own 12 digits. Status is checked and payment is made on this number."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90002 05166",
+   "hint": "The number linked to Aadhaar. OTPs and payment messages come here."
+  },
+  {
+   "label": "Farmer type",
+   "value": "Land owner",
+   "hint": "Land owner, tenant (CCRC holder) or forest-rights (ROFR) holder."
+  },
+  {
+   "label": "District / Mandal / Village",
+   "value": "Prakasam / Darsi / Thurpu Veerayapalem",
+   "hint": "The village where the land is, not where you live."
+  },
+  {
+   "label": "Khata number and survey number",
+   "value": "Khata 1187, Survey 214/2B",
+   "hint": "Copy them from the pattadar passbook or 1-B. The assistant checks them against Webland."
+  },
+  {
+   "label": "Extent of land",
+   "value": "2.40 acres",
+   "hint": "Your share as shown in the land record. If land is held jointly, only one family member is paid."
+  },
+  {
+   "label": "CCRC number (tenants only)",
+   "value": "Not applicable",
+   "hint": "Tenant farmers write the number of this season's Crop Cultivator Rights Card. An expired card is rejected."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "9999 0012 4471 / UBIN0812345",
+   "hint": "Make sure the account is Aadhaar-seeded and NPCI-mapped. Ask your bank if you are not sure."
+  },
+  {
+   "label": "e-KYC",
+   "value": "Done by fingerprint at RSK",
+   "hint": "Without e-KYC no instalment is released. It can be done at the RSK with your thumb."
+  }
+ ],
+ "demoSteps": [
+  "Open annadathasukhibhava.ap.gov.in, tap Know Your Status and enter your Aadhaar. Or check the eligible list on the notice board at your Rythu Seva Kendram.",
+  "If your name is missing or shown ineligible, go to the RSK with Aadhaar, pattadar passbook or 1-B, bank passbook and, for tenants, the CCRC card.",
+  "The Village Agriculture Assistant registers you or enters a grievance in the grievance module and does your e-KYC by fingerprint. Note the grievance number.",
+  "The Agriculture Officer verifies the land record and exclusions. Updated lists are put up at the RSK again.",
+  "Make sure your bank account is linked to Aadhaar and NPCI-mapped, or the payment fails even after approval.",
+  "The money comes by DBT in three parts each year: Rs.7,000 (Rs.5,000 state + Rs.2,000 PM-Kisan), Rs.7,000, and Rs.6,000 (Rs.4,000 state + Rs.2,000 PM-Kisan). Check your bank passbook.",
+  "If an instalment does not arrive, check the status again on the portal and call the toll-free number 155251."
+ ],
+ "helpline": "155251 — AP Agriculture Department toll-free (Annadata Sukhibhava) / 155261 — PM-KISAN helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "ap-thalliki-vandanam",
+ "title": "Thalliki Vandanam (Rs.15,000 per school child to mothers)",
+ "department": "School Education Department, Government of Andhra Pradesh",
+ "level": "State",
+ "state": "Andhra Pradesh",
+ "category": "Education",
+ "mode": "offline",
+ "brief": "Andhra Pradesh gives Rs.15,000 a year for every child studying in Class 1 to 12 to the child's mother or guardian, however many children she has. Rs.13,000 is credited to her bank account and Rs.2,000 is kept for school upkeep. It replaced the earlier Jagananna Amma Vodi. There is no application form: the school sends the child's details and the Secretariat checks the family. Mothers left out complain at the Swarna Gramam / Swarna Ward office.",
+ "benefit": "Rs.15,000 a year per child: Rs.13,000 to the mother's account, Rs.2,000 for school upkeep",
+ "emoji": "🎒",
+ "colorHex": "#6A1B9A",
+ "eligibility": [
+  "Mother or guardian of a child in Class 1 to 12, including Intermediate, at a recognised government, aided, private or residential school or junior college in Andhra Pradesh",
+  "At least one family member holds a rice card. Family income is up to Rs.10,000 a month in a village or Rs.12,000 a month in a town",
+  "Land below 3 acres of wet land, 10 acres of dry land, or 10 acres in all. Average electricity use below 300 units a month",
+  "No four-wheeler in the family (a taxi, tractor or auto is allowed), and no town property of 1,000 sq ft or more",
+  "No government employee, government pensioner or income-tax payer in the family. Sanitation and Anganwadi workers are exempt",
+  "ITI, polytechnic and IIIT (RGUKT) students are not covered"
+ ],
+ "documents": [
+  "Aadhaar card of the mother or guardian",
+  "Aadhaar card of each child",
+  "Rice card of the family",
+  "Bank or post office passbook in the mother's name, Aadhaar-seeded and NPCI-mapped",
+  "The child's school admission details (school name and class), given to the head of the school",
+  "Electricity bill or other proof, only if you are disputing the reason you were found ineligible"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "No application is needed. The head of the school enters the child's details, and the Swarna Gramam / Swarna Ward office (Village or Ward Secretariat) checks the family. The eligible and ineligible lists are put up at that office. If you are left out, file a grievance there with the Welfare and Education Assistant or the Digital Assistant. Take the mother's and child's Aadhaar, the rice card, the bank passbook and proof against the reason for rejection.",
+ "demoFields": [
+  {
+   "label": "Mother / guardian name",
+   "value": "Rama Devi Gollapalli",
+   "hint": "As on her Aadhaar. The money goes to the mother; to the father only if she is not there, and to a guardian if neither parent is."
+  },
+  {
+   "label": "Mother's Aadhaar number",
+   "value": "9999 7302 1146",
+   "hint": "She must be in the Secretariat's household database. If only the child is listed, ask for field verification."
+  },
+  {
+   "label": "Student name",
+   "value": "Pavan Gollapalli",
+   "hint": "Exactly as in the school register. One entry for each child."
+  },
+  {
+   "label": "Student Aadhaar number",
+   "value": "9999 1185 6620",
+   "hint": "It must match the school's UDISE record, or the child is dropped as a duplicate."
+  },
+  {
+   "label": "School name and class",
+   "value": "ZP High School, Kovvur — Class 8",
+   "hint": "Any recognised government, aided, private or residential school, or a junior college for Intermediate."
+  },
+  {
+   "label": "Rice card number",
+   "value": "AP-05-2207-4419",
+   "hint": "At least one person in the family must hold a rice card."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "9999 4403 1172 / SBIN0099999",
+   "hint": "In the mother's own name. It must be Aadhaar-seeded and NPCI-mapped, or the payment fails."
+  },
+  {
+   "label": "Reason shown as ineligible",
+   "value": "Electricity use above 300 units",
+   "hint": "Read the reason on the list at the office. Common ones are electricity, land, four-wheeler, government job and income tax."
+  },
+  {
+   "label": "Your objection",
+   "value": "The meter is shared by three rented portions; our own use is about 120 units",
+   "hint": "Say plainly why the reason is wrong and attach proof, such as the bill, a rent agreement or a land record."
+  }
+ ],
+ "demoSteps": [
+  "Make sure the school has your child's correct Aadhaar, and your own name and Aadhaar as the mother. The head of the school enters these details.",
+  "Keep your bank account Aadhaar-seeded and NPCI-mapped. Ask the bank or post office to check it.",
+  "When the money is released (late July in 2026), check your passbook and look for your name on the eligible list at the Swarna Gramam / Swarna Ward office.",
+  "If you are left out or shown ineligible, file a grievance at that office within the window it announces (22 July to 3 August in 2026). Take Aadhaar, the rice card, the passbook and proof against the reason. Keep the grievance number.",
+  "Staff verify the grievance at your home or with records and prepare a supplementary list.",
+  "If accepted, Rs.13,000 for each eligible child is credited to your account in the second round (30 August in 2026).",
+  "For help, ask the Welfare and Education Assistant at the office or call 1902."
+ ],
+ "helpline": "1902 — AP government citizen helpline (Swarna Gramam / Swarna Ward and Secretariat services)",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "ap-deepam-2",
+ "title": "Deepam-2 (3 free LPG gas cylinders a year)",
+ "department": "Consumer Affairs, Food & Civil Supplies Department, Government of Andhra Pradesh",
+ "level": "State",
+ "state": "Andhra Pradesh",
+ "category": "Utilities",
+ "mode": "offline",
+ "brief": "Andhra Pradesh gives every eligible rice card family three 14.2 kg LPG cylinders a year free, one in each four-month block. You book the cylinder with your gas agency in the usual way and pay for it, and the full amount is refunded to your Aadhaar-linked bank account, usually within 48 hours. There is no form: families with a rice card and a gas connection are listed automatically. You can check your status with your rice card or LPG number.",
+ "benefit": "3 free 14.2 kg LPG cylinders a year, one every four months, with the full price refunded",
+ "emoji": "🔥",
+ "colorHex": "#E65100",
+ "eligibility": [
+  "The family holds an Andhra Pradesh rice card",
+  "It has an active domestic LPG connection from Indane, HP or Bharat Gas in a family member's name, linked to the rice card. Ujjwala connections count",
+  "One connection per rice card household; a family with two connections gets the benefit on only one",
+  "The household must pass the rice card checks on electricity use, government employment and land, which are the reasons the status page gives for rejection",
+  "LPG e-KYC done at the gas agency, and a bank account seeded with the connection holder's Aadhaar"
+ ],
+ "documents": [
+  "Rice card",
+  "LPG gas book or consumer number",
+  "Aadhaar card of the connection holder",
+  "Bank account seeded with that Aadhaar",
+  "Mobile number registered with the gas agency"
+ ],
+ "applyUrl": "",
+ "portalName": "Beneficiary Management portal (Deepam 2.0 Status Check)",
+ "formUrl": "",
+ "submitAt": "No form is needed. Book the cylinder with your own gas agency by phone, SMS, WhatsApp or app, and pay on delivery. If you are not on the eligible list, go to your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) or the mandal Civil Supplies office with the rice card, gas book and Aadhaar. Complete LPG e-KYC at your gas agency.",
+ "demoFields": [
+  {
+   "label": "Rice card number or LPG consumer number",
+   "value": "AP-11-3306-5521",
+   "hint": "Type either one on the Deepam 2.0 Status Check page. The rice card number is on the front of the card."
+  },
+  {
+   "label": "Captcha",
+   "value": "7K4QP",
+   "hint": "Type the letters shown in the picture. Tap refresh if you cannot read them."
+  },
+  {
+   "label": "LPG connection holder",
+   "value": "Bhavani Yerramsetti",
+   "hint": "The family member in whose name the gas connection stands. The refund goes to her Aadhaar-seeded account."
+  },
+  {
+   "label": "District / Mandal",
+   "value": "East Godavari / Rajanagaram",
+   "hint": "Shown from the rice card record. It should be where your family lives."
+  },
+  {
+   "label": "Eligibility status",
+   "value": "ELIGIBLE",
+   "hint": "If it says IN-ELIGIBLE, the page also shows why, such as electricity, government job or land. Take proof to the Secretariat."
+  },
+  {
+   "label": "Current block",
+   "value": "August to November",
+   "hint": "The year has three blocks: April–July, August–November and December–March. Book one cylinder in each. An unused block does not carry forward."
+  },
+  {
+   "label": "Booking date and delivery",
+   "value": "Booked 06-10-2026, delivered 08-10-2026",
+   "hint": "Book the usual way with your gas agency. Pay the delivery person the printed price."
+  },
+  {
+   "label": "Refund credited",
+   "value": "Rs.880 on 10-10-2026",
+   "hint": "Usually within 48 hours of delivery, to the bank account seeded with the connection holder's Aadhaar."
+  }
+ ],
+ "demoSteps": [
+  "Open bm-sgsw.ap.gov.in/BM/DeepamStatus. Enter your rice card or LPG consumer number and the captcha to see if your family is eligible.",
+  "If you are shown ineligible, go to your Village or Ward Secretariat with the rice card, gas book and Aadhaar and ask for it to be checked.",
+  "Complete LPG e-KYC at your gas agency and make sure the connection holder's bank account is seeded with Aadhaar.",
+  "In each four-month block (April–July, August–November, December–March), book one cylinder with your gas agency in the usual way.",
+  "Pay the delivery person the price printed on the bill and keep the bill.",
+  "The full amount is refunded to the Aadhaar-seeded bank account, usually within 48 hours. Check your passbook or the bank SMS.",
+  "If the refund does not come, check the status page again and call the Civil Supplies helpline 1967."
+ ],
+ "helpline": "1967 / 1800-425-2977 — AP Civil Supplies helpline / 1902 — AP government citizen helpline",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "ap-construction-worker-card",
+ "title": "AP Building and Other Construction Workers Registration (Construction Worker Card)",
+ "department": "AP Building and Other Construction Workers Welfare Board, Labour Department, Government of Andhra Pradesh",
+ "level": "State",
+ "state": "Andhra Pradesh",
+ "category": "Employment",
+ "mode": "offline",
+ "brief": "Masons, helpers, carpenters, painters, plumbers, electricians and other construction workers register with the state construction workers' welfare board and get an ID card. Card holders and their families can claim money for marriage, childbirth, natural death and funeral. These benefits were restored from 1 March 2026. Registration costs Rs.50 once plus Rs.12 a year, and claims are made through the Village or Ward Secretariat.",
+ "benefit": "Rs.20,000 marriage gift, Rs.20,000 maternity help, Rs.60,000 on natural death, Rs.20,000 funeral expenses",
+ "emoji": "👷",
+ "colorHex": "#5D4037",
+ "eligibility": [
+  "Age 18 to 59 at the time of registration",
+  "Worked at least 90 days in the past 12 months in building or other construction work in Andhra Pradesh: mason, helper, carpenter, painter, plumber, electrician, centring, tiles and similar trades",
+  "Road workers employed for more than 90 days and mining workers can also register",
+  "Registration fee of Rs.50 once, plus a contribution of Rs.12 a year; the card must be renewed to stay valid",
+  "Benefits are paid only to workers holding a valid, renewed card. Marriage help covers a woman worker and two daughters, and maternity help covers a woman worker, the wife and two daughters"
+ ],
+ "documents": [
+  "Aadhaar card",
+  "Certificate of 90 days of construction work, signed by the employer or builder, a registered trade union, or the labour officer",
+  "Passport-size photograph and signature",
+  "Bank passbook showing account number and IFSC",
+  "Rice card and age proof",
+  "Names, ages and relation of family members, and the nominee",
+  "Registration fee of Rs.50 plus Rs.12 for each year"
+ ],
+ "applyUrl": "",
+ "portalName": "AP Building and Other Construction Workers Welfare Board",
+ "formUrl": "https://apbocwwb.ap.gov.in/apbocwwb/Downloads/FORM_XXVII.pdf",
+ "submitAt": "Register at the Assistant Labour Officer's office for your mandal or town, or ask the Digital Assistant at your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) to guide you. Take the filled Form XXVII, Aadhaar, the 90-day work certificate, a photo, the bank passbook and the fee. To claim a benefit later, apply at the Secretariat through the Digital Assistant or the Ward Education and Development Secretary on the AP Seva portal, with your worker card and proof of the event.",
+ "demoFields": [
+  {
+   "label": "Aadhaar number",
+   "value": "9999 6620 3318",
+   "hint": "Your own 12 digits. One registration per person."
+  },
+  {
+   "label": "Name and date of birth",
+   "value": "Appala Raju Kandregula, 12-03-1988",
+   "hint": "As on Aadhaar. You must be 18 or older and below 60."
+  },
+  {
+   "label": "Father / Husband name",
+   "value": "Kandregula Satyam",
+   "hint": "Write the father's name, or the husband's name for a married woman."
+  },
+  {
+   "label": "Caste and phone number",
+   "value": "BC / 90006 62033",
+   "hint": "Tick SC, ST, BC, Minority or Others. Messages about the card and claims come to the phone."
+  },
+  {
+   "label": "Family members and nominee",
+   "value": "Lakshmi (wife, 33) — nominee 100%; Sravani (daughter, 12); Ganesh (son, 9)",
+   "hint": "Name, age and relation of each. The nominee gets the money if you die. Shares must add up to 100%."
+  },
+  {
+   "label": "Bank details",
+   "value": "9999 0033 6620 / IOBA0001234, Indian Overseas Bank, Anakapalli",
+   "hint": "An account in your own name. All benefits are paid into it by DBT."
+  },
+  {
+   "label": "Present address",
+   "value": "Door 4-12, Gandhi Nagar, Anakapalli, Anakapalli district 531001",
+   "hint": "Door number, street, village or town, mandal, district and PIN code."
+  },
+  {
+   "label": "Are you a VB-G RAM G (rural job card) worker?",
+   "value": "No",
+   "hint": "VB-G RAM G is the rural job scheme that replaced MGNREGA. If you hold a job card, give its number."
+  },
+  {
+   "label": "Name of employer and construction site",
+   "value": "Sri Venkateswara Builders — apartment site, Sabbavaram Road",
+   "hint": "Where you work now. This employer, a registered union or the labour officer signs your 90-day certificate."
+  },
+  {
+   "label": "Name of trade",
+   "value": "Mason",
+   "hint": "Mason, helper, carpenter, painter, plumber, electrician, centring, tiles, welder and so on."
+  }
+ ],
+ "demoSteps": [
+  "Get Form XXVII (the board's PDF, or a copy from the labour office) and fill it in. Have your employer, a registered trade union or the labour officer sign the certificate of 90 days of work on the back.",
+  "Take the form, Aadhaar, a photo, the bank passbook and the fee (Rs.50 plus Rs.12 a year) to the Assistant Labour Officer's office. The Secretariat's Digital Assistant can tell you where yours is.",
+  "The labour officer checks your work and enters your details online. Keep the receipt with your registration number.",
+  "Collect your construction worker ID card, and renew it before it expires. A lapsed card cannot claim any benefit.",
+  "When there is a marriage, a birth, or a death in the family, apply soon afterwards at your Village or Ward Secretariat. The Digital Assistant or the Ward Education and Development Secretary files it on AP Seva with your card and the marriage, birth or death certificate.",
+  "The labour officer verifies the claim and the board sends the money to the bank account by Aadhaar-linked DBT.",
+  "To check whether your registration is active, ask at the labour office or the Secretariat, or call 1902."
+ ],
+ "helpline": "0866-2436311 — Commissioner of Labour, Vijayawada / 1902 — AP government citizen helpline",
+ "lastVerified": "October 2026"
+}
+]}

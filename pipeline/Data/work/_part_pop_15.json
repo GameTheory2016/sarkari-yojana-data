@@ -1,0 +1,584 @@
+{"schemes": [
+{
+ "id": "wb-mmsby",
+ "title": "Mukhya Mantri Swasthya Bima Yojana (MMSBY Card, formerly Swasthya Sathi)",
+ "department": "State Health Agency, Health & Family Welfare Department, West Bengal",
+ "level": "State",
+ "state": "West Bengal",
+ "category": "Health",
+ "mode": "online",
+ "brief": "West Bengal's own health cover for families who had a Swasthya Sathi card but are not on the central Ayushman Bharat (PM-JAY) list. It gives cashless treatment of up to Rs.5 lakh a year for the whole family at empanelled government and private hospitals, in the state and outside it. Swasthya Sathi is being replaced since Ayushman Bharat started in West Bengal on 16 August 2026: families on the PM-JAY list get the Ayushman card, and the rest move to MMSBY. You check which one is yours with your Aadhaar number on the State Health Agency website, then enrol with your Swasthya Sathi card number.",
+ "benefit": "Up to Rs.5 lakh a year per family, cashless",
+ "emoji": "🏥",
+ "colorHex": "#C62828",
+ "eligibility": [
+  "Your family was enrolled under Swasthya Sathi and you have the 17-character number (URN) printed on the Swasthya Sathi card",
+  "Your family is not on the Ayushman Bharat PM-JAY list. If it is, you get the Ayushman card instead, not MMSBY",
+  "Permanent resident of West Bengal. Families earning more than Rs.8 lakh a year are left out",
+  "Not for families covered by WBHS, CGHS, ESI or a PSU or government group medical scheme, or employees and pensioners who get a medical allowance",
+  "Members aged 70 and above get the separate Ayushman Vay Vandana card instead",
+  "No limit on family size, and illnesses you already have are covered from the first day"
+ ],
+ "documents": [
+  "Aadhaar card of each family member being enrolled",
+  "Swasthya Sathi card, for the 17-character URN number",
+  "The mobile number registered with the Swasthya Sathi card, for the OTP",
+  "Aadhaar-linked mobile number of each member, for creating the ABHA health ID",
+  "Voter ID card (EPIC) of each adult member, with the AC, part and serial number from the voter list",
+  "Digital ration card number and its category (RKSY-I or RKSY-II), if you have one",
+  "PAN card number (optional)"
+ ],
+ "applyUrl": "https://sha.wbhealth.gov.in/Page/beneficiary-status",
+ "portalUrl": "https://sha.wbhealth.gov.in/",
+ "applyKind": "form",
+ "portalName": "State Health Agency, West Bengal",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Aadhaar Number (Check Status)",
+   "value": "9999 6123 4087",
+   "hint": "Type any family member's Aadhaar and press Check Status first. The answer tells you whether your family is under PM-JAY or can enrol in MMSBY."
+  },
+  {
+   "label": "Swasthya Sathi URN",
+   "value": "19072017001234567",
+   "hint": "The 17-character number on your Swasthya Sathi smart card. An OTP is sent to the mobile number that was given when the card was made."
+  },
+  {
+   "label": "District / Block or ULB / Gram Panchayat or Ward",
+   "value": "Bankura / Sonamukhi / Rangamati GP",
+   "hint": "These come filled in from the Swasthya Sathi record. Change them only if the family now lives somewhere else."
+  },
+  {
+   "label": "Family Head Name",
+   "value": "Shefali Mondal",
+   "hint": "Usually the eldest woman of the family, in whose name the Swasthya Sathi card was made."
+  },
+  {
+   "label": "Member Aadhaar (Validate)",
+   "value": "9999 4410 2386",
+   "hint": "For each member card, type that person's Aadhaar and press Validate. Members who are not eligible are struck off automatically."
+  },
+  {
+   "label": "Category and Ration Card No.",
+   "value": "RKSY-I / 0123456789",
+   "hint": "The category and number printed on your digital ration card. If you choose a category, the ration card number becomes compulsory."
+  },
+  {
+   "label": "Aadhaar Linked Mobile",
+   "value": "90000 41275",
+   "hint": "The mobile number linked to this member's Aadhaar. The OTP for the ABHA health ID comes here."
+  },
+  {
+   "label": "Create ABHA ID",
+   "value": "Generated",
+   "hint": "Press Create ABHA ID for every member and enter the OTP. The form will not submit until each eligible member has an ABHA ID."
+  },
+  {
+   "label": "EPIC Number / AC / Part / Serial Number",
+   "value": "XYZ0000000 / 252 / 118 / 455",
+   "hint": "Copy these from the voter card and the voter list (the AC, part and serial number are shown on the voter slip or the ECI website)."
+  },
+  {
+   "label": "Receiving Authority Name / Designation / Contact",
+   "value": "Bina Roy / Health Assistant / 90000 72811",
+   "hint": "The official or help-desk staff taking your enrolment, for example at a camp or hospital desk, fills in their own details. If you are applying alone and unsure, call 1800-345-5384 before you submit."
+  }
+ ],
+ "demoSteps": [
+  "Open sha.wbhealth.gov.in, tap Apply for MMSBY, type an Aadhaar number of the family and press Check Status. If it says your family is under PM-JAY, make the Ayushman card instead.",
+  "If you can enrol in MMSBY, type the 17-character Swasthya Sathi URN, press Submit URN and enter the OTP sent to the card's registered mobile.",
+  "The family details appear already filled in. Check the address, district, block and Gram Panchayat or ward.",
+  "For each member, press Validate on the Aadhaar, fill the ration card, mobile, gender, date of birth and voter details, and press Create ABHA ID.",
+  "Fill the receiving authority box and press Submit Enrollment. Note down the message shown on the screen.",
+  "The health department then does field verification and e-KYC. When the card is activated, you can be treated cashless at any empanelled hospital by showing it at the help desk.",
+  "If the hospital asks for money for a covered treatment, or you get stuck, call 1800-345-5384 (24 hours)."
+ ],
+ "helpline": "1800-345-5384 (State Health Agency West Bengal, 24x7, toll-free); 14555 (Ayushman Bharat PM-JAY call centre)",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "wb-krishak-bandhu",
+ "title": "Krishak Bandhu (Natun) - Farmer Assistance and Death Benefit (KB ID)",
+ "department": "Department of Agriculture, Government of West Bengal",
+ "level": "State",
+ "state": "West Bengal",
+ "category": "Agriculture",
+ "mode": "offline",
+ "brief": "Yearly cash help for farmers and share-croppers of West Bengal, paid straight into the bank in two equal parts, for the Kharif and Rabi seasons. If a registered farmer dies between 18 and 60, the family gets a one-time Rs.2 lakh. The 2019 Krishak Bandhu scheme was recast as Krishak Bandhu (Natun) in June 2021. From July 2026 the state is re-checking every existing beneficiary in the field, and money goes only to farmers who pass this check.",
+ "benefit": "Rs.10,000 a year for 1 acre or more (minimum Rs.4,000); Rs.2 lakh on death",
+ "emoji": "🌾",
+ "colorHex": "#2E7D32",
+ "eligibility": [
+  "A farmer of West Bengal who cultivates land as owner (raiyat), recorded bargadar (share-cropper), or holder of an agricultural or forest patta",
+  "The land must be in the land record (khatian or RoR) or the barga record. Heirs of a recorded owner can apply with a self-declaration and a warison certificate",
+  "1 acre or more of cultivable land: Rs.10,000 a year. Less than 1 acre: a share of that, but never less than Rs.4,000",
+  "Death benefit: the family of a registered farmer who dies between the ages of 18 and 60 gets Rs.2 lakh once",
+  "One enrolment per farmer only. The 2026 re-check also asks whether the farmer pays income tax, draws a regular government salary or pension, and gets PM-KISAN"
+ ],
+ "documents": [
+  "Filled application form with a stamp-size photo (2 cm x 2.5 cm)",
+  "Voter ID card (EPIC) - compulsory",
+  "Aadhaar card - compulsory",
+  "Latest RoR (khatian), agricultural or forest patta, or barga record",
+  "If the land is not yet in your name: the self-declaration form with the land deeds, and a warison certificate from the Gram Panchayat Pradhan",
+  "First page of the bank passbook or a cancelled cheque. A normal savings account (not Jan Dhan), Aadhaar-seeded, in a commercial, cooperative or Gramin bank",
+  "Mobile number linked with the bank account and Aadhaar"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "https://krishakbandhu.wb.gov.in/download_notification8",
+ "submitAt": "The Krishak Bandhu desk at the office of the Assistant Director of Agriculture (ADA) of your block, applying in the block or Gram Panchayat where you hold most of your land. A Bangla Sahayata Kendra (BSK) can also enter the enrolment. The form is page 3 of the PDF linked here and the self-declaration for land not in your name is page 1; blank forms are free at the ADA office. Fill it in Bengali (English or Nepali in the hills), take the originals and one photocopy of each document, and keep the counterfoil with the Acknowledgement ID that the staff give you.",
+ "demoFields": [
+  {
+   "label": "Name (In Block Letters)",
+   "value": "NIRMAL HANSDA",
+   "hint": "Your name in capital English letters, the same as in your bank passbook."
+  },
+  {
+   "label": "Name as per Parcha (Bengali)",
+   "value": "নির্মল হাঁসদা",
+   "hint": "Your name exactly as written on the land parcha (khatian)."
+  },
+  {
+   "label": "Village / Gram Panchayet / Block",
+   "value": "Shalboni / Bhimpur GP / Garbeta-II",
+   "hint": "Where you live. The land can be in another mouza; that goes in the land table below."
+  },
+  {
+   "label": "Type of farmer",
+   "value": "Owner",
+   "hint": "Owner if the land is recorded in your name, Bargadar if you are a recorded share-cropper, Pattadar if you hold a government patta."
+  },
+  {
+   "label": "Mobile No. (Bank A/c & Aadhaar linked)",
+   "value": "90000 58214",
+   "hint": "The number linked to both your bank account and Aadhaar. Payment SMSs come here."
+  },
+  {
+   "label": "Aadhaar Card No. (Mandatory)",
+   "value": "9999 3381 6620",
+   "hint": "The 12 digits on your own Aadhaar card."
+  },
+  {
+   "label": "Voter Card (EPIC) No. (Mandatory)",
+   "value": "XYZ0000000",
+   "hint": "The number on your voter ID card."
+  },
+  {
+   "label": "Land: Mouza / J.L. No. / Khatian No. / Area (acre)",
+   "value": "Shalboni / 112 / 345 / 0.66",
+   "hint": "Copy from the RoR. Add one row for each plot and the total at the bottom. 0.66 acre is about 66 decimal."
+  },
+  {
+   "label": "Bank Account Number / IFSC",
+   "value": "000012345678 / ABCD0001234",
+   "hint": "From the first page of your passbook. Tick SB for a savings account."
+  },
+  {
+   "label": "Name of Nominee / Relation",
+   "value": "Sumitra Hansda / Wife",
+   "hint": "The person who should get the Rs.2 lakh death benefit if something happens to you."
+  }
+ ],
+ "demoSteps": [
+  "Download the form from the link above or collect it free at the block ADA office, and fill page 3. If the land is still in a dead parent's name, also fill the self-declaration on page 1 and get a warison certificate from the Pradhan.",
+  "Attach the photocopies and paste your photo. Sign or give your thumb impression.",
+  "Hand it in at the Krishak Bandhu desk of the ADA office. Keep the counterfoil with the Acknowledgement ID.",
+  "Agriculture officers check your land against the land records and approve it; you get a KB ID. Check the status on krishakbandhu.wb.gov.in (Farmer Search) or on WhatsApp 9830383383.",
+  "The money comes into your bank account in two equal instalments, for Kharif and Rabi, with an SMS on your mobile.",
+  "During the 2026 re-check, fill the verification form at the block office when asked, with your spouse's Aadhaar and bank details, so that your payments continue.",
+  "If the farmer dies between 18 and 60, the family applies at the block ADA office with the death certificate, the farmer's voter or Aadhaar card, the eligible claimant certificate and the RoR, for the Rs.2 lakh."
+ ],
+ "helpline": "033-2357-0021 (Krishak Bandhu helpline, 10 am to 5 pm); WhatsApp 9830383383 (payment status chatbot); the Assistant Director of Agriculture office of your block",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "wb-kanyaratna",
+ "title": "Kanyaratna (formerly Kanyashree Prakalpa, K1 and K2)",
+ "department": "Department of Women & Child Development and Social Welfare, West Bengal",
+ "level": "State",
+ "state": "West Bengal",
+ "category": "Women",
+ "mode": "offline",
+ "brief": "Money for girls who stay in school and stay unmarried. A girl aged 13 to 18 in Class VIII or above gets a yearly grant (K1), and at 18, if she is still studying and unmarried, a one-time grant (K2), both paid into her own bank account. The scheme was called Kanyashree Prakalpa until 14 August 2026, when the state renamed it Kanyaratna and announced that the yearly grant will double to Rs.2,000 from the 2027 school year and the one-time grant will rise to Rs.50,000; the website, forms and application IDs still say Kanyashree. Girls apply through their school or college, not on their own.",
+ "benefit": "Rs.1,000 a year (Rs.2,000 from 2027) + one-time Rs.25,000 at 18 (Rs.50,000 announced)",
+ "emoji": "👧",
+ "colorHex": "#AD1457",
+ "eligibility": [
+  "Girls aged 13 to 18 for the yearly grant (K1), and 18 to 19 for the one-time grant (K2)",
+  "She must be unmarried",
+  "Studying in Class VIII or above in a school, madrasah or open school, or in a college, university or vocational or technical training course. The Class VIII rule is relaxed for girls with 40% or more disability",
+  "Her family lives in West Bengal",
+  "There is no family income limit (the old Rs.1.2 lakh limit was removed in 2018), and girls who get other scholarships can still apply"
+ ],
+ "documents": [
+  "Birth certificate issued by the Panchayat or Municipality, copy signed by a parent",
+  "Parent's or guardian's declaration that the girl is unmarried (part of the form)",
+  "Voter ID card of the parent or legal guardian, self-attested",
+  "First page of the bank passbook in the girl's own name, self-attested",
+  "Aadhaar card of the girl, if she has one, self-attested",
+  "Recent photo of the girl on a white background",
+  "Disability certificate, only if she is 13 or older but studying below Class VIII"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "Her own school, madrasah or college. Ask the Head of the Institution (HOI) or the Kanyashree teacher for the free K1 form (or the K2 form when she turns 18). Hand in the filled form with self-attested copies; the HOI checks it, signs and uploads it on the Kanyashree portal, and gives back the acknowledgement slip with the 20-digit Application ID. If the school does not help, go to the Block Development Officer (village) or Sub-Divisional Officer (town), or the Kanyashree cell in the District Magistrate's office.",
+ "demoFields": [
+  {
+   "label": "School/Institution Name",
+   "value": "Rampur Balika Vidyalaya (H.S.)",
+   "hint": "The full name of the school or college where she studies now."
+  },
+  {
+   "label": "Applicant's Name (First / Middle / Last)",
+   "value": "RUPA DAS",
+   "hint": "In English capital letters, spelt exactly as in her bank passbook, or the money will not reach the account."
+  },
+  {
+   "label": "Date of Birth",
+   "value": "14/03/2012",
+   "hint": "As on the birth certificate, in day/month/year."
+  },
+  {
+   "label": "Class",
+   "value": "IX",
+   "hint": "Tick the class she is studying in this year."
+  },
+  {
+   "label": "Father's Name / Mother's Name",
+   "value": "HAREN DAS / MINA DAS",
+   "hint": "Write both names in full, in capital letters."
+  },
+  {
+   "label": "Caste / Religion",
+   "value": "SC / Hindu",
+   "hint": "Tick the right box for each."
+  },
+  {
+   "label": "AADHAAR Card No. (if available)",
+   "value": "9999 2741 5508",
+   "hint": "The girl's own Aadhaar number. If she has none yet, leave it blank."
+  },
+  {
+   "label": "Parent/Guardian's Voter ID Card No.",
+   "value": "XYZ0000000",
+   "hint": "The voter card number of the mother, father or legal guardian."
+  },
+  {
+   "label": "Mobile No.",
+   "value": "90000 51842",
+   "hint": "A number the family always keeps. SMS updates about the application come here."
+  },
+  {
+   "label": "Bank Account Number / IFS Code",
+   "value": "000012345678 / ABCD0001234",
+   "hint": "The account must be in the girl's own name, not a joint or parent's account."
+  }
+ ],
+ "demoSteps": [
+  "When a girl is 13 and in Class VIII or above, ask the Head of the school for the free K1 form. Open a savings account in her own name first if she has none.",
+  "Fill the form in English capital letters, let a parent sign the declaration that she is unmarried, paste the photo and attach the copies.",
+  "Hand it in at school. Keep the acknowledgement slip with the 20-digit Application ID.",
+  "The block or municipality checks the application and the district sanctions it. The money is sent to her bank account and an SMS comes to the mobile.",
+  "Track it on kanyashree.wb.gov.in under Track Application, with the year, the Application ID and her date of birth.",
+  "Renew K1 every year through the school until she is 18. If she changes school, the old Head must mark her as transferred on the portal.",
+  "When she turns 18, if she is still studying and unmarried, the school applies for the one-time K2 grant by upgrading her old ID."
+ ],
+ "helpline": "181 (Women Helpline, also for schoolgirls under Kanyaratna); 033-2337-3846 (Kanyashree portal support, Women & Child Development Department); her school's Head or the Kanyashree cell at the DM office",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "wb-rupashree",
+ "title": "Rupashree Prakalpa (Rupashree Marriage Grant)",
+ "department": "Department of Women & Child Development and Social Welfare, West Bengal",
+ "level": "State",
+ "state": "West Bengal",
+ "category": "Women",
+ "mode": "offline",
+ "brief": "A one-time grant of Rs.25,000 from the West Bengal government for the first marriage of an adult woman from a poor family. The money goes straight into the bride's own bank account before the wedding date. You fill a free paper form at your block, sub-division or municipal corporation office about one to two months before the wedding; officers then visit your area to check, and the BDO, SDO or Commissioner sanctions it. The new state government kept the scheme in 2026 and added voter-list details to the form.",
+ "benefit": "Rs.25,000 once, into the bride's bank account before the wedding",
+ "emoji": "💍",
+ "colorHex": "#8E24AA",
+ "eligibility": [
+  "The bride must be at least 18 and the groom at least 21",
+  "It must be her first marriage and she must be unmarried",
+  "Family income not more than Rs.1.5 lakh a year",
+  "Resident of West Bengal: born in the state, or her parents are permanent residents, or she has lived here for the last 5 years",
+  "An active bank account in her name alone, able to receive Rs.25,000 at a time",
+  "From 2026: her name, or a parent's or sibling's name, must be in the final voter list, or she must have applied to be enrolled"
+ ],
+ "documents": [
+  "Filled application form with coloured passport-size photos of the bride and the groom",
+  "Bride's age proof, any one: birth certificate, voter ID, Aadhaar, PAN, school leaving certificate or Madhyamik admit card",
+  "Groom's age proof, any one of the same documents",
+  "Proof of the wedding, any one: invitation card, marriage registration notice, or a self-declaration",
+  "Bank passbook page showing her name, account number and IFSC",
+  "Copy of her Aadhaar card, with the signed consent on the form",
+  "Voter ID (EPIC) details of the bride, or of a parent or sibling, or the acknowledgement number of a new voter enrolment"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "The Rupashree desk at the Block Development Office if you live in a village, the Sub-Divisional Office if you live in a municipality, or the Municipal Corporation office if you live in a corporation area. Blank forms are free there all year. Hand it in 30 to 60 days before the wedding with self-attested copies, carry the originals for checking, and take the acknowledgement slip with the application number.",
+ "demoFields": [
+  {
+   "label": "Name",
+   "value": "MOUMITA SARKAR",
+   "hint": "In English capital letters, spelt exactly as in your Aadhaar-linked bank account."
+  },
+  {
+   "label": "Date of birth",
+   "value": "02/05/2004",
+   "hint": "As on your age proof. You must be 18 or older."
+  },
+  {
+   "label": "Proposed date of marriage",
+   "value": "18/01/2027",
+   "hint": "The wedding date. Apply one to two months before it."
+  },
+  {
+   "label": "Address of the Venue for the Proposed Wedding Ceremony",
+   "value": "Kalitala village, Kalitala GP, Raina-II, Purba Bardhaman, 713421",
+   "hint": "Where the wedding will take place. Officers may check this during the enquiry."
+  },
+  {
+   "label": "Mother's name / Father's name",
+   "value": "SABITA SARKAR / PRADIP SARKAR",
+   "hint": "Full names of both parents."
+  },
+  {
+   "label": "Contact Mobile No.",
+   "value": "90000 33417",
+   "hint": "SMS messages about your application come to this number."
+  },
+  {
+   "label": "EPIC NO / A/C No / Part No / Sl. No",
+   "value": "XYZ0000000 / 260 / 45 / 512",
+   "hint": "Your voter details from the final voter list. If your name is not there, give a parent's or sibling's details and tick who it is, or write the acknowledgement number of your new enrolment."
+  },
+  {
+   "label": "Account No. / IFS Code",
+   "value": "000012345678 / ABCD0001234",
+   "hint": "An active account in your name alone. An account not used for months may be blocked and the money will bounce."
+  },
+  {
+   "label": "Groom's Name in full / Date of Birth",
+   "value": "SANJIB PAL / 11/09/1998",
+   "hint": "The groom must be at least 21. Attach his age proof."
+  },
+  {
+   "label": "Proof of proposed marriage",
+   "value": "Marriage invitation card",
+   "hint": "Tick one: invitation card, marriage registration notice, or self-declaration, and attach it."
+  }
+ ],
+ "demoSteps": [
+  "One to two months before the wedding, collect the free form from your BDO, SDO or Municipal Corporation office.",
+  "Fill it in English capital letters, add your voter details, paste both photos, and sign the declarations and the Aadhaar consent.",
+  "Attach the copies and hand it in at the Rupashree desk. Keep the acknowledgement with the application number.",
+  "Officers visit your area to check your age, that you are unmarried, the family income, residence and the wedding date.",
+  "The BDO, SDO or Commissioner sanctions it, and the Rs.25,000 is sent to your bank account, normally at least 5 days before the wedding date. An SMS comes to your mobile.",
+  "You can check the status on rupashree.wb.gov.in under Track Application.",
+  "After the wedding, register your marriage with the Marriage Registration Officer; the certificate is needed later for ration card, passport and other papers."
+ ],
+ "helpline": "The Rupashree desk at your BDO, SDO or Municipal Corporation office; 033-2337-3846 (Rupashree portal support, Women & Child Development Department); 181 (Women Helpline)",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "wb-bmssy",
+ "title": "Bina Mulya Samajik Suraksha Yojana (BMSSY - Samajik Mukti Card)",
+ "department": "Labour Department (Labour Commissionerate), Government of West Bengal",
+ "level": "State",
+ "state": "West Bengal",
+ "category": "Employment",
+ "mode": "offline",
+ "brief": "Free social security for unorganised workers in West Bengal, such as shop and hotel workers, bidi and garment workers, hawkers, domestic workers, rickshaw pullers, and construction and transport workers. Once registered you get a Samajik Mukti Card with an SSIN number; the state puts Rs.55 a month into your provident fund and pays it back with interest at 60, and also gives money for treatment and surgery, children's studies, disability and death. It began in 2017 as Samajik Suraksha Yojana; since April 2020 the worker pays nothing, which is why it is called Bina Mulya (free). Construction and transport workers are also registered through this scheme.",
+ "benefit": "Free PF (Rs.55 a month paid by the state), plus health, education and death help up to Rs.2 lakh",
+ "emoji": "👷",
+ "colorHex": "#EF6C00",
+ "eligibility": [
+  "Resident of West Bengal aged 18 to 60",
+  "Works in one of the 46 listed unorganised industries (for example bidi making, tailoring, hotels, rice mills, shops with fewer than 20 workers), or is self-employed in one of 15 listed jobs (hawker, domestic worker, barber, carpenter, fisherman, head-load worker, rickshaw or van puller, waste picker and others), or is a construction or transport worker",
+  "Family income not more than Rs.6,500 a month. There is no income limit for construction and transport workers",
+  "Not a member of EPF. The medical help is only for workers without ESI or another government health scheme",
+  "Help for children's studies needs at least one year of registration, for up to two children who do not get another scholarship such as SVMCM"
+ ],
+ "documents": [
+  "Filled Form-I (Parts I to IV), with Part IV certified by your employer, Gram Panchayat Pradhan, councillor or another listed public representative",
+  "Photocopy of the first page of your bank passbook",
+  "Voter ID card (EPIC) or Aadhaar card",
+  "Two recent colour passport-size photos (one pasted on the form)",
+  "Names, ages and Aadhaar numbers of dependent family members and of your nominee",
+  "For claims later: Form-V with hospital bills and discharge papers, death certificate, or the child's admission certificate and last marksheet"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "https://bmssy.wblabour.gov.in/downloads/gazette-notification-no-698.pdf",
+ "submitAt": "The Labour Welfare Facilitation Centre (LWFC) at your Block Development Office or Municipality, or the Regional Labour Office of the Labour Commissionerate. You can also give it to the Self-Employed Labour Organiser (SLO) or Collecting Agent working in your area, or at a registration camp. Form-I is on pages 26 to 28 of the rules notification linked here, and blank forms are also given at the LWFC. Attach the documents, carry the originals, and keep the receipt with the application number. The Labour Inspector registers you and issues the Samajik Mukti Card with your SSIN.",
+ "demoFields": [
+  {
+   "label": "My Name is Sri/Smt",
+   "value": "Smt. Laxmi Haldar",
+   "hint": "Your full name as on your voter card or Aadhaar."
+  },
+  {
+   "label": "Father's/Husband's Name",
+   "value": "Sri Gopal Haldar",
+   "hint": "Write the father's name, or the husband's name if you are married."
+  },
+  {
+   "label": "Mobile No. / BPL (Y/N)",
+   "value": "90000 63318 / N",
+   "hint": "Your own mobile. Write Y and the BPL number only if your family has a BPL card."
+  },
+  {
+   "label": "Bank A/C No. / Bank & Branch Name",
+   "value": "000012345678 / ABC Bank, Sonarpur",
+   "hint": "Your own account. All benefits are paid into it."
+  },
+  {
+   "label": "Aadhaar No. / EPIC No.",
+   "value": "9999 5073 1180 / XYZ0000000",
+   "hint": "Your Aadhaar and voter card numbers."
+  },
+  {
+   "label": "Present Address: Block/Municipality and GP/Ward",
+   "value": "Sonarpur block, Kalikapur-II GP",
+   "hint": "Where you live now. You register in the block or municipality of your permanent home."
+  },
+  {
+   "label": "Date of birth / Age",
+   "value": "12/07/1985 / 41",
+   "hint": "You must be between 18 and 60."
+  },
+  {
+   "label": "Covered / not covered under EPF and ESI",
+   "value": "Not covered",
+   "hint": "If you have a PF or ESI number from a job, write it here."
+  },
+  {
+   "label": "Name of my Occupation / Self-employment",
+   "value": "Domestic Servant (self-employed)",
+   "hint": "Your work, from the listed industries or self-employed jobs. Give the employer's address if you work for one."
+  },
+  {
+   "label": "My monthly family income from all sources",
+   "value": "Rs.6,000",
+   "hint": "Total earnings of the family in a month, averaged over the last 12 months. It must not be above Rs.6,500 (except construction and transport workers)."
+  }
+ ],
+ "demoSteps": [
+  "Collect Form-I at the Labour Welfare Facilitation Centre in your block or municipality office, or from the SLO of your area.",
+  "Fill Parts I to III (your details, family members and nominee), and get Part IV signed by your employer, Pradhan or councillor. Construction and transport workers also fill Part V.",
+  "Hand it in with the documents and photos, and keep the receipt with the application number.",
+  "The Labour Inspector checks it and registers you. You get the Samajik Mukti Card with your SSIN, and the state starts putting Rs.55 a month into your PF account.",
+  "For treatment or surgery (up to Rs.20,000 and Rs.60,000 a year), disability, death (Rs.2 lakh for accidental death, Rs.50,000 for normal death) or children's studies (Rs.4,000 to Rs.30,000 a year), apply in Form-V to the same office, within 3 months of discharge, accident or death.",
+  "The Assistant Labour Commissioner sanctions the claim and the money is sent to the bank account.",
+  "At 60, apply in Form-V for the full PF amount with interest."
+ ],
+ "helpline": "1800-103-0009 (Shramik Sathi toll-free helpline, Labour Commissionerate); 033-2248-8150 (BMSSY helpdesk, New Secretariat Building, Kolkata)",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "wb-student-credit-card",
+ "title": "West Bengal Student Credit Card (WBSCC)",
+ "department": "Higher Education Department, Government of West Bengal",
+ "level": "State",
+ "state": "West Bengal",
+ "category": "Education",
+ "mode": "online",
+ "brief": "An education loan of up to Rs.10 lakh with no collateral and 4% simple interest, for students from West Bengal from Class X up to PhD, studying in the state, elsewhere in India or abroad, or preparing at a coaching centre for medical, engineering, law or UPSC, PSC and SSC exams. Fees are paid straight to the institution and living costs to the student's account. You apply online with a parent or guardian as co-borrower; your institution checks the documents and the bank you choose sanctions the loan and gives the card. The loan is repaid over up to 15 years, starting a year after the course ends or you get a job.",
+ "benefit": "Loan up to Rs.10 lakh at 4% simple interest, no collateral",
+ "emoji": "🎓",
+ "colorHex": "#1565C0",
+ "eligibility": [
+  "The student or the family has lived in West Bengal for at least the last 10 years (a self-declaration in the form is enough)",
+  "Passed Class IX and studying in Class X, XI or XII, a diploma, UG, PG or PhD, in or outside the state or abroad, or at a coaching centre for entrance or competitive exams",
+  "Age 40 or less when applying",
+  "No income limit and no minimum marks",
+  "Must apply jointly with a parent, guardian or other co-borrower",
+  "No margin money up to Rs.4 lakh; above that, 5%, against which a scholarship such as SVMCM can be counted"
+ ],
+ "documents": [
+  "Student's Aadhaar card (PDF, 50 to 400 KB)",
+  "Age proof of the student",
+  "Admission receipt",
+  "Prospectus or certificate from the institution showing admission, exam, hostel and other fees",
+  "Marksheet or certificate of the last exam passed",
+  "PAN card of the student and of the guardian, or an undertaking if there is none",
+  "Address proof of the co-borrower",
+  "Colour photos and signatures of the student and the co-borrower (JPG, 20 to 50 KB)"
+ ],
+ "applyUrl": "https://wbscc.wb.gov.in/Applicant_Registration",
+ "portalUrl": "https://wbscc.wb.gov.in/",
+ "applyKind": "registration",
+ "portalName": "West Bengal Student Credit Card (WBSCC) portal",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Are You Filling The Application From Jan Kalyan Shivir",
+   "value": "NO",
+   "hint": "Choose YES only if you are filling it at a government camp; then give the camp registration number, district and block."
+  },
+  {
+   "label": "Applicant Name (First / Middle / Last)",
+   "value": "Arindam Ghosh",
+   "hint": "The student's name as in the Class X certificate."
+  },
+  {
+   "label": "Date of Birth",
+   "value": "21/08/2007",
+   "hint": "As on the Class X admit card or certificate."
+  },
+  {
+   "label": "Gender",
+   "value": "MALE",
+   "hint": "Choose from the list."
+  },
+  {
+   "label": "Aadhaar",
+   "value": "9999 8834 1206",
+   "hint": "The student's own Aadhaar number."
+  },
+  {
+   "label": "Name of 10th standard Board",
+   "value": "West Bengal Board of Secondary Education, WBBSE",
+   "hint": "The board you passed Madhyamik or Class X from."
+  },
+  {
+   "label": "Registration Number / Year of passing of 10th standard",
+   "value": "1234567 of 2021 / 2023",
+   "hint": "Copy the board registration number from your Class X registration certificate."
+  },
+  {
+   "label": "Programme Type / Programme Name",
+   "value": "Undergraduate / B.Tech in Civil Engineering",
+   "hint": "The course you are studying now or have taken admission in."
+  },
+  {
+   "label": "State / District / Name of Institution",
+   "value": "West Bengal / Paschim Bardhaman / Example Institute of Technology",
+   "hint": "Pick your institution from the list. If it is missing, email the help desk before applying."
+  },
+  {
+   "label": "Mobile No / Email ID",
+   "value": "90000 27145 / arindam.example@mail.com",
+   "hint": "Your own mobile and email. The OTP, your Registration ID and every update come here."
+  }
+ ],
+ "demoSteps": [
+  "Open wbscc.wb.gov.in and click Student Registration. Fill the details, set a password and verify the OTP; your Registration ID comes by SMS.",
+  "Log in with Student Login and complete the form: course, fees, loan amount needed, co-borrower details, and a bank branch in your home district.",
+  "Upload the documents in the sizes shown and submit. You cannot edit after the final submit.",
+  "Your institution checks the documents, then the Higher Education Department, and the application goes to the bank.",
+  "The bank checks it, you and the co-borrower sign the loan agreement, and the loan is sanctioned. SMS and email tell you, and the bank gives you the card.",
+  "Fees go directly to the institution and living costs to your account. Repay over up to 15 years, starting one year after the course or job; paying the interest during studies earns a 1% interest concession."
+ ],
+ "helpline": "1800-102-8014 (WBSCC State Help Desk, toll-free); SCC Grievance app on Google Play for complaints",
+ "lastVerified": "October 2026"
+}
+]}

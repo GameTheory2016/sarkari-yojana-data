@@ -1,0 +1,575 @@
+{"schemes": [
+{
+ "id": "gj-pmjay-ma",
+ "title": "PMJAY-MA Yojana - Mukhyamantri Amrutum (MA Card)",
+ "department": "Health & Family Welfare Department, Gujarat (State Health Agency, PMJAY-MA)",
+ "level": "State",
+ "state": "Gujarat",
+ "category": "Health",
+ "mode": "online",
+ "brief": "Gujarat's own health cover, joined with Ayushman Bharat: cashless treatment of up to Rs.10 lakh a year for the whole family at empanelled government and private hospitals. The old MA (Mukhyamantri Amrutum) and MA Vatsalya cards were merged into it in 2021 under the name PMJAY-MA, and in 2023 the cover was doubled from Rs.5 lakh to Rs.10 lakh. Gujarat covers many more families than the central list, including families earning up to Rs.4 lakh a year and senior citizens in families earning up to Rs.6 lakh. The card is the same Ayushman card, and you can make it yourself on the phone or at the kiosk of any government health centre or empanelled hospital.",
+ "benefit": "Rs.10 lakh a year per family, cashless",
+ "emoji": "🏥",
+ "colorHex": "#C62828",
+ "eligibility": [
+  "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)",
+  "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate",
+  "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income",
+  "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees",
+  "Gujarat government regular employees and pensioners, through their HRPN or PPO number",
+  "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
+ ],
+ "documents": [
+  "Aadhaar card of each family member being enrolled (needed for e-KYC)",
+  "Ration card, for the family details",
+  "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)",
+  "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family",
+  "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number",
+  "Mobile number for the OTP"
+ ],
+ "applyUrl": "https://beneficiary.nha.gov.in/",
+ "portalName": "Ayushman beneficiary portal",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Login as",
+   "value": "Beneficiary",
+   "hint": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
+  },
+  {
+   "label": "Mobile number",
+   "value": "94260 11223",
+   "hint": "Any working number you keep with you. The login OTP and the approval SMS come here."
+  },
+  {
+   "label": "Scheme and state",
+   "value": "PMJAY / Gujarat",
+   "hint": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
+  },
+  {
+   "label": "Search your family by",
+   "value": "Family ID (ration card number)",
+   "hint": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
+  },
+  {
+   "label": "Ration card number",
+   "value": "2400 1122 3344",
+   "hint": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
+  },
+  {
+   "label": "Aadhaar number for e-KYC",
+   "value": "9999 4512 7730",
+   "hint": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
+  },
+  {
+   "label": "e-KYC method",
+   "value": "Aadhaar OTP",
+   "hint": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "label": "Live photo",
+   "value": "Taken on phone camera",
+   "hint": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
+  },
+  {
+   "label": "Relation with head of family",
+   "value": "Wife",
+   "hint": "How this member is related to the person named first on the ration card."
+  },
+  {
+   "label": "District and PIN code",
+   "value": "Mehsana / 384002",
+   "hint": "Where you live now, so the nearest empanelled hospitals are shown to you."
+  }
+ ],
+ "demoSteps": [
+  "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar.",
+  "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit.",
+  "If your family does not appear but you qualify by income (up to Rs.4 lakh, or Rs.6 lakh for 60+) or as a construction worker or other listed group, go to the PMJAY-MA kiosk at the nearest government health centre (PHC, CHC, UHC, sub-district or district hospital) or at any empanelled hospital with your ration card, every member's Aadhaar and the income certificate or category proof.",
+  "The State Health Agency checks the request. Approval usually comes by SMS within a few days.",
+  "Log in again, open Download Card, verify with OTP and save the card for each family member on your phone, or take a printout.",
+  "Find an empanelled hospital on ma.gujarat.gov.in (Search - Empanelled Hospital). At the hospital, go to the PMJAY-MA or Ayushman Mitra desk with the card and Aadhaar.",
+  "Treatment for listed illnesses is cashless up to Rs.10 lakh a year for the family. Never pay cash for it - if a hospital asks, call 1800-233-1022."
+ ],
+ "helpline": "PMJAY-MA toll-free 1800-233-1022 / Ayushman Bharat national helpline 14555",
+ "lastVerified": "October 2026",
+ "applyKind": "service-login"
+},
+{
+ "id": "gj-namo-shri",
+ "title": "Namo Shri Yojana (Rs.12,000 for Pregnant Women)",
+ "department": "Health & Family Welfare Department, Gujarat",
+ "level": "State",
+ "state": "Gujarat",
+ "category": "Women",
+ "mode": "offline",
+ "brief": "Rs.12,000 cash for a pregnant woman in Gujarat, paid into her own bank account in four parts, from the time her pregnancy is registered until the baby's 14-week vaccines. It is paid together with the central PM Matru Vandana money, so you register only once. There is no form to fill yourself: the ASHA worker or the ANM registers you at the first antenatal check-up. The baby must be born in a government or private hospital, and the help is given for the first two live children.",
+ "benefit": "Rs.12,000 per pregnancy, for the first two live children",
+ "emoji": "🤰",
+ "colorHex": "#AD1457",
+ "eligibility": [
+  "Pregnant woman or new mother living in Gujarat, for her first two live children",
+  "Belongs to any one of these groups: SC or ST; NFSA or BPL ration card family; PMJAY / MA card holder; e-Shram card holder; MGNREGA job card holder; woman farmer; woman with a disability",
+  "Or the family's income is not more than Rs.8 lakh a year, shown in the income certificate format the health centre gives",
+  "The pregnancy is registered with the ASHA or ANM at the first antenatal check-up",
+  "The delivery must take place in a government or private hospital, not at home"
+ ],
+ "documents": [
+  "Woman's Aadhaar card",
+  "Bank or post office account in her own name, linked with Aadhaar",
+  "Mamta card (mother and child card) from the health centre",
+  "Proof of group: caste certificate, NFSA or BPL ration card, PMJAY card, e-Shram card, MGNREGA job card or disability certificate - or an income certificate up to Rs.8 lakh",
+  "Mobile number",
+  "Hospital delivery certificate or discharge paper (for the delivery instalment)",
+  "Baby's birth certificate and the vaccination entries on the Mamta card (for the last instalment)"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "At your first antenatal check-up, ask your ASHA worker, or the ANM at the Anganwadi, sub-centre, Primary Health Centre (PHC) or Urban Health Centre, to register you under Namo Shri. Take your Aadhaar card, bank passbook, Mamta card and the proof of your group (or an income certificate). For the later instalments, show the same ANM the hospital delivery paper and the Mamta card with the baby's vaccine entries.",
+ "demoFields": [
+  {
+   "label": "Woman's name",
+   "value": "Kajalben Vipulbhai Chauhan",
+   "hint": "Exactly as on her Aadhaar card. The bank account must be in the same name."
+  },
+  {
+   "label": "Aadhaar number",
+   "value": "9999 2864 1157",
+   "hint": "The pregnant woman's own Aadhaar, not her husband's."
+  },
+  {
+   "label": "Husband's name",
+   "value": "Vipulbhai Rameshbhai Chauhan",
+   "hint": "As on his Aadhaar or the ration card."
+  },
+  {
+   "label": "Mobile number",
+   "value": "97250 33441",
+   "hint": "A number she or the family keeps. Messages about each instalment come here."
+  },
+  {
+   "label": "Date of last period (LMP)",
+   "value": "12-07-2026",
+   "hint": "First day of the last monthly period. The ANM uses it to work out the due date and the 6-month instalment."
+  },
+  {
+   "label": "Mamta card / registration number",
+   "value": "GJ-MAM-2026-118842",
+   "hint": "The number on the Mamta card given at the health centre. Keep the card safe - every check-up and vaccine is written on it."
+  },
+  {
+   "label": "Group (category)",
+   "value": "e-Shram card holder",
+   "hint": "Pick the one group you can prove - SC, ST, NFSA or BPL card, PMJAY card, e-Shram, MGNREGA, farmer or disability - or give the income certificate."
+  },
+  {
+   "label": "Number of live children",
+   "value": "0 (first pregnancy)",
+   "hint": "The help is only for the first two live children, so give the true number."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "50100999112233, HDFC0001234",
+   "hint": "Account in the woman's own name, seeded with Aadhaar. A closed or dormant account is the main reason money does not arrive."
+  },
+  {
+   "label": "Village / health centre",
+   "value": "Bechraji, PHC Bechraji, district Mehsana",
+   "hint": "Where she lives now and the centre she goes to for check-ups."
+  }
+ ],
+ "demoSteps": [
+  "As soon as you know you are pregnant, meet your ASHA worker or go to the nearest PHC or Urban Health Centre for the first check-up. You get a Mamta card there.",
+  "Ask the ANM to register you under Namo Shri. Give Aadhaar, passbook, Mamta card and your group proof or income certificate, and check that your bank details are typed correctly.",
+  "The first instalment of Rs.5,000 comes to your account after registration (part central PM Matru Vandana money, part state).",
+  "After six months of pregnancy and the check-ups, Rs.2,000 more comes.",
+  "Deliver in a hospital - the 108 ambulance is free. After a hospital delivery Rs.3,000 comes.",
+  "Register the baby's birth and get the vaccines up to 14 weeks written on the Mamta card. The last Rs.2,000 then comes.",
+  "If an instalment does not arrive, ask the ANM to check the status first. Most delays are a bank account not linked with Aadhaar."
+ ],
+ "helpline": "Your ASHA worker or the ANM at the health centre; Gujarat health helpline 104",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "gj-enirman-card",
+ "title": "e-Nirman Card - Construction Worker Registration (BOCW)",
+ "department": "Gujarat Building & Other Construction Workers' Welfare Board, Labour, Skill Development & Employment Department",
+ "level": "State",
+ "state": "Gujarat",
+ "category": "Employment",
+ "mode": "online",
+ "brief": "The e-Nirman card registers a construction worker with the Gujarat construction workers' welfare board. With it you and your family can eat a full meal for Rs.5 at Shramik Annapurna centres, you are covered under the PMJAY-MA health card, and you can apply on the Sanman portal for the board's schemes - maternity help, children's education, housing help, illness and accident help. You can register yourself on the e-Nirman portal or app, or at a CSC, e-Gram centre, e-Shram Seva Kendra or Dhanvantari Arogya Rath. The card is valid for 3 years and is renewed with a fresh 90-day work certificate.",
+ "benefit": "Rs.5 meals, Rs.7,500 maternity help for women workers, up to Rs.1.6 lakh extra housing help and more",
+ "emoji": "👷",
+ "colorHex": "#EF6C00",
+ "eligibility": [
+  "Age between 18 and 60",
+  "Did construction work for more than 90 days in the last 12 months (a self-declared or employer's certificate)",
+  "Does physical work on building or other construction - mason, labourer, carpenter, plumber, electrician, welder, tiles, painting, centring, road and MGNREGA work and the other listed jobs",
+  "No income limit for manual workers; office staff, supervisors and independent contractors cannot register",
+  "The card must be renewed every 3 years with a new 90-day work certificate to keep getting benefits"
+ ],
+ "documents": [
+  "Aadhaar card",
+  "Recent passport-size photo",
+  "Proof of age - birth certificate, school leaving certificate, voter ID or driving licence",
+  "Ration card or other proof of address",
+  "90-day work certificate from the employer or contractor, or a self-declaration",
+  "Bank passbook or cancelled cheque",
+  "Caste certificate, if you have one",
+  "Mobile number"
+ ],
+ "applyUrl": "https://enirmanbocw.gujarat.gov.in/Registration.aspx",
+ "portalName": "e-Nirman portal (Gujarat BOCW Welfare Board)",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Full Name (as per Aadhaar)",
+   "value": "Mukeshbhai Kanabhai Rathva",
+   "hint": "Write it exactly as on the Aadhaar card, in English letters."
+  },
+  {
+   "label": "Aadhaar Card Number",
+   "value": "9999 6038 2271",
+   "hint": "Your own 12-digit number. One Aadhaar can be registered only once."
+  },
+  {
+   "label": "Gender",
+   "value": "Male",
+   "hint": "Women workers should register too - several schemes, such as maternity help, are only for them."
+  },
+  {
+   "label": "Birthdate",
+   "value": "05/03/1990",
+   "hint": "As on Aadhaar, in DD/MM/YYYY. You must be between 18 and 60."
+  },
+  {
+   "label": "Mobile No",
+   "value": "99251 77006",
+   "hint": "Your user ID, password reset and approval messages come to this number."
+  },
+  {
+   "label": "Email ID (not mandatory)",
+   "value": "Left empty",
+   "hint": "Leave it empty if you do not have one."
+  },
+  {
+   "label": "Password",
+   "value": "********",
+   "hint": "Make one you will remember and do not share it with the agent or contractor."
+  },
+  {
+   "label": "User Type",
+   "value": "Construction Worker",
+   "hint": "Choose Construction Worker. Builders who pay the cess use a different login."
+  },
+  {
+   "label": "Type of work and days worked",
+   "value": "Mason (kadiya) - 120 days in the last 12 months",
+   "hint": "Asked in the registration application after you log in. Upload the 90-day certificate signed by the contractor, or the self-declaration."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "39990011223344, BKID0002345",
+   "hint": "In your own name. The board pays all scheme money straight into this account."
+  }
+ ],
+ "demoSteps": [
+  "Open the e-Nirman portal or the e-Nirman app and tap Register Yourself. Fill name, Aadhaar, gender, birth date, mobile, choose Construction Worker and set a password. Or get it done at a CSC, e-Gram centre, e-Shram Seva Kendra or the Dhanvantari Arogya Rath.",
+  "Log in and complete your profile - address, family members and bank account.",
+  "Open the application for Registration, fill your type of work and employer, and upload Aadhaar, photo, age proof, the 90-day work certificate and passbook. Submit and note the application number.",
+  "Check progress under View Citizen Application Status. The board's district office verifies the application.",
+  "When approved, download and print the e-Nirman card, or collect the print from the centre where you applied.",
+  "Show the card at any Shramik Annapurna centre for a Rs.5 meal, and apply for maternity, education, housing and other help on sanman.gujarat.gov.in.",
+  "Renew the card before 3 years are over with a new 90-day work certificate, or the benefits stop."
+ ],
+ "helpline": "Gujarat BOCW Welfare Board toll-free 1800-233-2324; board office 079-25502271",
+ "lastVerified": "October 2026",
+ "portalUrl": "https://enirmanbocw.gujarat.gov.in/",
+ "applyKind": "registration"
+},
+{
+ "id": "gj-namo-saraswati",
+ "title": "Namo Saraswati Vigyan Sadhana Yojana (Class 11-12 Science)",
+ "department": "Education Department, Gujarat",
+ "level": "State",
+ "state": "Gujarat",
+ "category": "Education",
+ "mode": "offline",
+ "brief": "Rs.25,000 over two years for a student who takes the science stream in classes 11 and 12 in Gujarat - Rs.1,000 a month for 10 months in each year, and Rs.5,000 after passing the Class 12 science board exam. It is for students who scored at least 50% in the Class 10 board and study in a government, grant-in-aid or self-financed school. Parents do not apply anywhere: the school enrols the student, so the documents go to the school. The money is paid straight into the bank account.",
+ "benefit": "Rs.25,000 in all: Rs.10,000 in each of classes 11 and 12, plus Rs.5,000 on passing Class 12",
+ "emoji": "🔬",
+ "colorHex": "#1565C0",
+ "eligibility": [
+  "Studying class 11 or 12 in the science stream at a government, grant-in-aid or self-financed school in Gujarat",
+  "Scored at least 50% in the Class 10 board exam",
+  "Family income up to Rs.6 lakh a year",
+  "The monthly money depends on the student staying in school; a student who leaves stops getting it",
+  "The Rs.5,000 is paid only after passing the Class 12 science board exam"
+ ],
+ "documents": [
+  "Student's Aadhaar card",
+  "Class 10 board marksheet",
+  "Bank account in the student's name, or joint with the mother, linked with Aadhaar",
+  "Income certificate, or the declaration form the school gives",
+  "Mother's or father's Aadhaar card",
+  "School admission (GR) number or leaving certificate",
+  "Parent's mobile number"
+ ],
+ "applyUrl": "",
+ "portalName": "",
+ "formUrl": "",
+ "submitAt": "At the school where the student is in Class 11 science. Give copies to the class teacher or to the teacher or clerk the school has made in charge of Namo Saraswati - the school enters the student on the state's Namo payment portal from its own login. Take the student's Aadhaar, Class 10 marksheet, bank passbook and income proof.",
+ "demoFields": [
+  {
+   "label": "Student's name",
+   "value": "Darshan Hasmukhbhai Patel",
+   "hint": "As in the school register and on the Class 10 marksheet. Tell the clerk if the Aadhaar spelling is different."
+  },
+  {
+   "label": "School and GR number",
+   "value": "Shri Navchetan Higher Secondary School, Anand - GR 7719",
+   "hint": "The GR number is on the school ID or the fee receipt."
+  },
+  {
+   "label": "Class and stream",
+   "value": "Class 11 Science (Group B)",
+   "hint": "Only the science stream qualifies, Group A or Group B."
+  },
+  {
+   "label": "Class 10 board seat number and result",
+   "value": "B 4412890 - 72%",
+   "hint": "From the Class 10 marksheet. Below 50% does not qualify."
+  },
+  {
+   "label": "Date of birth",
+   "value": "21-08-2010",
+   "hint": "Must match the school record and the Aadhaar."
+  },
+  {
+   "label": "Student's Aadhaar number",
+   "value": "9999 7120 4458",
+   "hint": "The student's own Aadhaar. The payment is checked against it."
+  },
+  {
+   "label": "Family annual income",
+   "value": "Rs.2,40,000",
+   "hint": "Both parents together. It must be up to Rs.6 lakh."
+  },
+  {
+   "label": "Bank account number and IFSC",
+   "value": "20990033445566, BARB0ANANDX",
+   "hint": "In the student's name or joint with the mother, active and linked with Aadhaar."
+  },
+  {
+   "label": "Parent's mobile number",
+   "value": "98250 66110",
+   "hint": "Payment messages come here. Give the number the family actually uses."
+  }
+ ],
+ "demoSteps": [
+  "Open a bank account in the student's name (or joint with the mother) and get Aadhaar linked to it.",
+  "Soon after admission to Class 11 science, give the school copies of the Aadhaar, Class 10 marksheet, passbook and income proof.",
+  "The school enters the student on the Namo payment portal. Ask the clerk to confirm the bank details were accepted.",
+  "Rs.1,000 a month for 10 months comes in Class 11, and again in Class 12, while the student keeps attending.",
+  "After passing the Class 12 science board exam, the last Rs.5,000 comes.",
+  "If money stops, ask the school to check the student's status on the portal first - most problems are a bank account not linked with Aadhaar."
+ ],
+ "helpline": "Your school principal or class teacher; District Education Officer (DEO) office",
+ "lastVerified": "October 2026"
+},
+{
+ "id": "gj-manav-kalyan",
+ "title": "Manav Kalyan Yojana (Free Tool Kit by e-Voucher)",
+ "department": "Commissioner of Cottage & Rural Industries, Industries & Mines Department, Gujarat",
+ "level": "State",
+ "state": "Gujarat",
+ "category": "Employment",
+ "mode": "online",
+ "brief": "A free tool kit for starting a small trade: beauty parlour, embroidery, plumbing, vehicle servicing and repair, papad making, pickle making, electric appliance repair, milk and curd selling, puncture repair or centring work. Since 2024 the kit comes as an e-voucher (a QR code) that you use at an approved dealer, and you can also choose 5 days of training paid at Rs.500 a day. The old Manav Garima Yojana has been merged into this scheme; tailoring, carpentry, cobbler, barber and some other trades moved to PM Vishwakarma. You apply on the e-Kutir portal when the yearly window opens (the 2026-27 window opened on 17 June 2026), and when there are more applicants than kits a computerised draw decides.",
+ "benefit": "A free tool kit for one of 10 trades through an e-voucher, plus optional training at Rs.500 a day",
+ "emoji": "🧰",
+ "colorHex": "#5D4037",
+ "eligibility": [
+  "Age between 18 and 60",
+  "Family income up to Rs.6 lakh a year, in villages and cities alike; no income limit for the 12 most backward SC castes and the most backward, nomadic and denotified SEBC groups",
+  "One kit per family, only once",
+  "No member of the family should be a government employee",
+  "Must have an e-Shram card",
+  "Widows, BPL card holders (score 0 to 16) and the lowest incomes get priority, and 5% of kits are kept for disabled applicants"
+ ],
+ "documents": [
+  "Aadhaar card",
+  "e-Shram card",
+  "Caste certificate",
+  "Income certificate up to Rs.6 lakh from the Mamlatdar, TDO, Nagarpalika Chief Officer or Municipal Corporation officer (not needed for the groups with no income limit)",
+  "Proof of age - school leaving certificate or birth certificate",
+  "BPL card or ration card, if you have one",
+  "Husband's death certificate, for widows claiming priority",
+  "Bank passbook"
+ ],
+ "applyUrl": "https://e-kutir.gujarat.gov.in/Registration.aspx",
+ "portalName": "e-Kutir portal",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Full name (in English, as per Aadhaar)",
+   "value": "Sangitaben Ramanbhai Vasava",
+   "hint": "Exactly as on Aadhaar. The form can be switched to Gujarati from the language option."
+  },
+  {
+   "label": "Aadhaar card number",
+   "value": "9999 5803 6614",
+   "hint": "Your own number. Forgot your user ID later? It can be found with Aadhaar and birth date."
+  },
+  {
+   "label": "Gender",
+   "value": "Female",
+   "hint": "Pick as on Aadhaar."
+  },
+  {
+   "label": "Date of birth",
+   "value": "14/06/1994",
+   "hint": "DD/MM/YYYY. You must be between 18 and 60."
+  },
+  {
+   "label": "Mobile number",
+   "value": "90990 44112",
+   "hint": "Your user ID and password come here by SMS, and later the e-voucher and dealer OTPs."
+  },
+  {
+   "label": "Password",
+   "value": "********",
+   "hint": "Make your own and keep it. If the VCE fills the form for you, still keep the user ID and password yourself."
+  },
+  {
+   "label": "Trade (tool kit) chosen",
+   "value": "Beauty parlour",
+   "hint": "Asked in the Manav Kalyan form after login. Pick one of the 10 trades; it cannot be changed after submitting."
+  },
+  {
+   "label": "e-Shram card number",
+   "value": "UAN 9999 1234 5678",
+   "hint": "Required. If you have no e-Shram card, the form gives a link to make one first."
+  },
+  {
+   "label": "Caste and income certificate",
+   "value": "ST - income certificate MAM/NRM/2026/3381",
+   "hint": "Upload clear photos of the originals as PDF or JPEG. Income must be up to Rs.6 lakh unless your caste group has no limit."
+  },
+  {
+   "label": "Want basic training?",
+   "value": "Yes",
+   "hint": "Choose Yes for 5 days of training with Rs.500 a day for attendance. Choose No to get the e-voucher directly."
+  }
+ ],
+ "demoSteps": [
+  "When the yearly window is open, go to e-kutir.gujarat.gov.in and register as a new individual with your name, Aadhaar, birth date and mobile. The village VCE can also fill it for you free of cost.",
+  "Log in, complete the profile, open Manav Kalyan Yojana, choose one trade, fill the form and upload Aadhaar, e-Shram card, caste and income certificates and age proof. Submit - until you submit, it stays only as a draft.",
+  "The District Industries Centre checks the application, and selection is made by an online draw before a district committee. Track it under Application Status.",
+  "If selected, an e-voucher (QR code) with the kit's value comes by SMS and in your login or the e-Kutir app, which also lists approved dealers.",
+  "Go to any approved dealer, show the QR code and give the OTP sent to your phone. Pick the tools you want within the limit; you pay only if you choose tools costing more.",
+  "A verification team will visit your home to see the kit and take a photo. Keep and use the tools - if they are sold or missing, the money is taken back.",
+  "Never share your e-voucher or OTP with anyone except the approved dealer at the time of buying."
+ ],
+ "helpline": "Manav Kalyan help desk 99099 26280 / 99099 26180; your District Industries Centre (DIC)",
+ "lastVerified": "October 2026",
+ "portalUrl": "https://e-kutir.gujarat.gov.in/",
+ "applyKind": "registration"
+},
+{
+ "id": "gj-matrushakti",
+ "title": "Mukhyamantri Matrushakti Yojana (Free Monthly Nutrition Kit)",
+ "department": "Women & Child Development Department (ICDS), Gujarat",
+ "level": "State",
+ "state": "Gujarat",
+ "category": "Women",
+ "mode": "online",
+ "brief": "A free nutrition kit every month for a woman in her first pregnancy and until her first child turns two - the first 1000 days. Each month's kit has 2 kg chana, 1 kg tuver dal and 1 litre of groundnut oil, given at the Anganwadi against an OTP on your phone. The health worker first registers the pregnancy in the health department's TeCHO system; you then register yourself on the Matrushakti portal, or the Anganwadi worker does it for you. A ration card is no longer needed - Aadhaar is enough.",
+ "benefit": "Every month: 2 kg chana, 1 kg tuver dal and 1 litre groundnut oil, free",
+ "emoji": "🥣",
+ "colorHex": "#2E7D32",
+ "eligibility": [
+  "Woman pregnant with her first child - from registration of the pregnancy until delivery",
+  "Mother of a first child - from the birth until the child is 2 years old",
+  "Has an Aadhaar card",
+  "The pregnancy or child is registered by the ASHA or ANM in the health department's TeCHO system (the eMamta / unique number)",
+  "Registered with the local Anganwadi; there is no income or caste condition"
+ ],
+ "documents": [
+  "Woman's Aadhaar card",
+  "Mobile number linked with Aadhaar, for the OTP",
+  "eMamta / TeCHO unique number from the Mamta card given by the health worker",
+  "Name of your Anganwadi and the Anganwadi worker",
+  "Ration card member ID (optional - it helps fill the details)"
+ ],
+ "applyUrl": "https://1000d.gujarat.gov.in/RegistrationForm",
+ "portalName": "Mukhyamantri Matrushakti Yojana portal",
+ "formUrl": "",
+ "submitAt": "",
+ "demoFields": [
+  {
+   "label": "Aadhaar card number (beneficiary)",
+   "value": "9999 3471 0926",
+   "hint": "The pregnant woman's or mother's own Aadhaar."
+  },
+  {
+   "label": "Beneficiary name (in English, as per Aadhaar)",
+   "value": "Nirmalaben Jagdishbhai Solanki",
+   "hint": "Exactly as printed on Aadhaar, or the Aadhaar check fails."
+  },
+  {
+   "label": "Date of birth / year of birth",
+   "value": "1999",
+   "hint": "Choose full date or only the year, whichever is on your Aadhaar. Then tick the consent box and press Validate Aadhaar."
+  },
+  {
+   "label": "Ration card member ID",
+   "value": "Filled automatically",
+   "hint": "Comes up by itself if your name is on an NFSA ration card. It is fine if it stays empty."
+  },
+  {
+   "label": "District / Taluka / Village",
+   "value": "Bhavnagar / Mahuva / Bagdana",
+   "hint": "Where you live now, so the right Anganwadi list appears."
+  },
+  {
+   "label": "Anganwadi name",
+   "value": "Bagdana-3",
+   "hint": "If your Anganwadi is not in the list, use Search to find it."
+  },
+  {
+   "label": "Worker / helper name",
+   "value": "Filled automatically",
+   "hint": "The Anganwadi worker's name appears once you pick the Anganwadi."
+  },
+  {
+   "label": "Mobile number linked with Aadhaar",
+   "value": "93270 55804",
+   "hint": "Press Send OTP and type the 4-digit OTP. Each month's kit is also given against an OTP on this number."
+  },
+  {
+   "label": "Beneficiary ID (eMamta / unique number)",
+   "value": "2407 1198 3365",
+   "hint": "Step 2 of the form. It is on your Mamta card. After Search, the health centre and due date fill in by themselves."
+  }
+ ],
+ "demoSteps": [
+  "Register your pregnancy with the ASHA or ANM at the health centre and get the Mamta card with your eMamta / unique number.",
+  "Open 1000d.gujarat.gov.in, choose Self Registration, enter your Aadhaar, name and birth date, tick the consent and press Validate Aadhaar.",
+  "Pick your district, taluka, village and Anganwadi, enter the Aadhaar-linked mobile, press Send OTP, type the OTP and press Save & Next.",
+  "In step 2 enter the eMamta / unique number and press Search; the health centre and due date fill in. Press Confirm and Submit and print the receipt.",
+  "Check Beneficiary Registration Status until it shows Approved. The Anganwadi worker can also do all of this for you.",
+  "Every month, collect the kit at your Anganwadi and give the OTP that comes to your phone.",
+  "The kit continues after delivery until the child is 2. If your mobile number changes, update it on the portal so the OTP keeps reaching you."
+ ],
+ "helpline": "Women & Child Development Department 079-23257942; your Anganwadi worker or the taluka ICDS (CDPO) office",
+ "lastVerified": "October 2026",
+ "portalUrl": "https://1000d.gujarat.gov.in/",
+ "applyKind": "form"
+}
+]}
