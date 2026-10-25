@@ -1,0 +1,819 @@
+{
+ "lang": "kn",
+ "language": "Kannada",
+ "script": "Kannada",
+ "instructions": "# How to translate this chunk\n\nThis file holds `items`, a list of `{\"k\", \"ctx\", \"t\"}`. `t` is English text\nthat a reader of an Indian app or website sees. `ctx` is the field it came\nfrom, such as label, hint, button, documents, brief or title. Use it to judge\ntone and length: a label stays short, a hint can be a sentence.\n\nWrite `{\"items\": [{\"k\": ..., \"t\": ...}, ...]}` to the path in `write_to`.\nKeep every `k` unchanged and in the same order. Put the translation in `t`.\nLeave out `ctx`. Do not add, merge, split or drop items.\n\n## Keep these exactly as they are\n\n- Placeholders and markup: `{0}`, `{name}`, `%s`, `%d`, `%1$s`, HTML tags, `\\n`.\n- Website addresses, e-mail addresses and links.\n- Every number: phone and toll-free numbers, Aadhaar, account, IFSC, PAN, PIN\n  codes, amounts, dates, percentages. Write digits as 0-9, the Western digits,\n  in every language, including Urdu. People type these into forms that take\n  Western digits.\n- Acronyms people know in Latin letters: OTP, PAN, IFSC, UPI, KYC, e-KYC, DBT,\n  BPL, APL, NFSA, PM-KISAN, SMS, PDF, ID.\n\n## Names\n\n- Product, app, portal and scheme names: transliterate them into the script so\n  they read naturally. Keep any acronym inside them in Latin, so \"APPSC\n  portal\" becomes APPSC followed by the word for portal.\n- A button or menu label quoted from a website, such as 'Apply Online' or\n  'Register', stays in English inside quotes. The reader has to find that exact\n  English word on the screen.\n- People and places in examples are transliterated, never replaced with other\n  names.\n- Government office titles are transliterated so the reader can say them at\n  the counter: Tahsildar, Patwari, Talathi, Mamlatdar, BDO, Collector, Gram\n  Panchayat. The language notes below give the usual local forms.\n\n## Tone\n\nWrite for an ordinary person who may be elderly and may have had little\nschooling. Use everyday spoken language, not heavy official vocabulary. Where\npeople really say the English word, write it in the script: online, form,\nportal, login, mobile, bank, certificate, download, upload, app. Keep\ninstructions short and direct, in the form \"do this\".\n\n\"Gender\" means sex (male or female). It is never the word for caste.\n\n## Before you write\n\nCheck that you have the same number of items as the input and that every\nnumber and placeholder came through. Write the whole file in ONE Write call,\nas valid UTF-8 JSON with no `\\u` escapes and nothing else in the file.\n\n## Hindi (hi)\n\nScript: Devanagari. Used in UP, MP, Bihar, Rajasthan, Haryana, HP, Uttarakhand,\nJharkhand, Chhattisgarh and Delhi, and understood across the north.\nTone: everyday spoken Hindi (Hindustani). Avoid Sanskritised official words.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बैंक, मोबाइल, OTP, हेल्पलाइन,\nसर्टिफिकेट, डाउनलोड, अपलोड.\nUI: आवेदन करें (Apply), जमा करें (Submit), आगे (Next), पीछे (Back), खोजें (Search),\nशेयर करें (Share), सेटिंग (Settings), भाषा (Language), मदद (Help).\nOffices: तहसीलदार, पटवारी, ग्राम पंचायत, कलेक्टर, ब्लॉक विकास कार्यालय (BDO).\nGender: लिंग (never जाति). Money: रु. 6,000; रु. 8 लाख. September: सितंबर.\n\n## Gujarati (gu)\n\nScript: Gujarati. Used in Gujarat, and spoken in Dadra & Nagar Haveli and\nDaman & Diu.\nTone: everyday spoken Gujarati.\nWords: ઓનલાઇન, ફોર્મ, પોર્ટલ, લૉગિન, આધાર, બેંક, મોબાઇલ, OTP, હેલ્પલાઇન, સર્ટિફિકેટ / દાખલો,\nડાઉનલોડ, અપલોડ.\nUI: અરજી કરો, સબમિટ કરો, આગળ, પાછળ, શોધો, શેર કરો, સેટિંગ્સ, ભાષા, મદદ.\nOffices: મામલતદાર, તલાટી, ગ્રામ પંચાયત, કલેક્ટર, તાલુકા પંચાયત.\nGender: જાતિ is caste; use લિંગ. Money: રૂ. 6,000; રૂ. 8 લાખ. September: સપ્ટેમ્બર.\n\n## Marathi (mr)\n\nScript: Devanagari. Used in Maharashtra, and widely in Goa.\nTone: everyday Marathi as spoken in Maharashtra.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बँक, मोबाइल, OTP, हेल्पलाइन, दाखला / सर्टिफिकेट,\nडाउनलोड, अपलोड.\nUI: अर्ज करा, सबमिट करा, पुढे, मागे, शोधा, शेअर करा, सेटिंग्ज, भाषा, मदत.\nOffices: तहसीलदार, तलाठी, ग्रामपंचायत, जिल्हाधिकारी (कलेक्टर), आपले सरकार सेवा केंद्र.\nGender: लिंग. Money: रु. 6,000; रु. 8 लाख. September: सप्टेंबर.\n\n## Bengali (bn)\n\nScript: Bengali. Used in West Bengal and Tripura, and in Assam's Barak Valley\nand the Andamans.\nTone: everyday spoken Bengali (চলিত ভাষা), not সাধু ভাষা.\nWords: অনলাইন, ফর্ম, পোর্টাল, লগইন, আধার, ব্যাংক, মোবাইল, OTP, হেল্পলাইন, সার্টিফিকেট,\nডাউনলোড, আপলোড.\nUI: আবেদন করুন, জমা দিন, পরবর্তী, পিছনে, খুঁজুন, শেয়ার করুন, সেটিংস, ভাষা, সাহায্য.\nOffices: বিডিও অফিস, গ্রাম পঞ্চায়েত, তহসিলদার, জেলাশাসক (কালেক্টর), দুয়ারে সরকার.\nGender: লিঙ্গ. Money: 6,000 টাকা; 8 লাখ টাকা. September: সেপ্টেম্বর.\n\n## Assamese (as)\n\nScript: Bengali script with the Assamese letters ৰ and ৱ. Used in Assam.\nThis is Assamese, not Bengali. Use Assamese words and spellings: আঁচনি\n(scheme), বেংক (bank), কৰক (do), নহয় (is not).\nWords: অনলাইন, প্ৰপত্ৰ / ফৰ্ম, পৰ্টেল, লগইন, আধাৰ, বেংক, মবাইল, OTP, হেল্পলাইন, প্ৰমাণপত্ৰ,\nডাউনল'ড, আপল'ড.\nUI: আবেদন কৰক, দাখিল কৰক, পৰৱৰ্তী, উভতি যাওক, বিচাৰক, শ্বেয়াৰ কৰক, ছেটিংছ, ভাষা, সহায়.\nOffices: চক্ৰ বিষয়াৰ কাৰ্যালয় (Circle Office), গাঁও পঞ্চায়ত, উন্নয়ন খণ্ড কাৰ্যালয় (BDO),\nজিলা উপায়ুক্ত.\nGender: লিংগ. Money: 6,000 টকা; 8 লাখ টকা. September: ছেপ্তেম্বৰ.\n\n## Punjabi (pa)\n\nScript: Gurmukhi. Used in Punjab and Chandigarh, and spoken in Delhi and\nHaryana.\nTone: everyday spoken Punjabi.\nWords: ਆਨਲਾਈਨ, ਫਾਰਮ, ਪੋਰਟਲ, ਲੌਗਇਨ, ਆਧਾਰ, ਬੈਂਕ, ਮੋਬਾਈਲ, OTP, ਹੈਲਪਲਾਈਨ, ਸਰਟੀਫਿਕੇਟ,\nਡਾਊਨਲੋਡ, ਅਪਲੋਡ.\nUI: ਅਰਜ਼ੀ ਦਿਓ, ਜਮ੍ਹਾਂ ਕਰੋ, ਅੱਗੇ, ਪਿੱਛੇ, ਖੋਜੋ, ਸਾਂਝਾ ਕਰੋ, ਸੈਟਿੰਗਾਂ, ਭਾਸ਼ਾ, ਮਦਦ.\nOffices: ਤਹਿਸੀਲਦਾਰ, ਪਟਵਾਰੀ, ਸੇਵਾ ਕੇਂਦਰ, ਗ੍ਰਾਮ ਪੰਚਾਇਤ, ਡਿਪਟੀ ਕਮਿਸ਼ਨਰ.\nGender: ਲਿੰਗ. Money: ₹6,000; ₹8 ਲੱਖ. September: ਸਤੰਬਰ.\n\n## Odia (or)\n\nScript: Odia. Used in Odisha.\nTone: everyday spoken Odia.\nWords: ଅନଲାଇନ, ଫର୍ମ, ପୋର୍ଟାଲ, ଲଗଇନ, ଆଧାର, ବ୍ୟାଙ୍କ, ମୋବାଇଲ, OTP, ହେଲ୍ପଲାଇନ, ସାର୍ଟିଫିକେଟ,\nଡାଉନଲୋଡ, ଅପଲୋଡ.\nUI: ଆବେଦନ କରନ୍ତୁ, ଦାଖଲ କରନ୍ତୁ, ପରବର୍ତ୍ତୀ, ପଛକୁ, ଖୋଜନ୍ତୁ, ସେୟାର କରନ୍ତୁ, ସେଟିଂସ୍, ଭାଷା, ସାହାଯ୍ୟ.\nOffices: ତହସିଲଦାର, ବିଡିଓ, ଗ୍ରାମ ପଞ୍ଚାୟତ, ଜିଲ୍ଲାପାଳ (କଲେକ୍ଟର), ମୋ ସେବା କେନ୍ଦ୍ର.\nGender: ଲିଙ୍ଗ. Money: ଟ.6,000; ଟ.8 ଲକ୍ଷ. September: ସେପ୍ଟେମ୍ବର.\n\n## Tamil (ta)\n\nScript: Tamil. Used in Tamil Nadu and Puducherry, and spoken in the Andamans.\nTone: plain everyday Tamil an elder in a village follows. Avoid both heavy\nliterary Tamil and slang.\nWords: ஆன்லைன், படிவம், போர்ட்டல், லாகின், ஆதார், வங்கி, மொபைல், OTP, உதவி எண், சான்றிதழ்,\nடவுன்லோடு, அப்லோடு.\nUI: விண்ணப்பிக்கவும், சமர்ப்பிக்கவும், அடுத்து, பின்செல், தேடு, பகிர், அமைப்புகள், மொழி, உதவி.\nOffices: தாசில்தார் (வட்டாட்சியர்), கிராம நிர்வாக அலுவலர் (VAO), கிராம ஊராட்சி, மாவட்ட\nஆட்சியர், இ-சேவை மையம்.\nGender: பாலினம். Money: ரூ.6,000; ரூ.8 லட்சம். September: செப்டம்பர்.\n\n## Telugu (te)\n\nScript: Telugu. Used in Andhra Pradesh and Telangana, and in Yanam\n(Puducherry).\nTone: everyday spoken Telugu.\nWords: ఆన్‌లైన్, ఫారం, పోర్టల్, లాగిన్, ఆధార్, బ్యాంక్, మొబైల్, OTP, హెల్ప్‌లైన్, సర్టిఫికెట్,\nడౌన్‌లోడ్, అప్‌లోడ్.\nUI: దరఖాస్తు చేయండి, సమర్పించండి, తదుపరి, వెనుకకు, వెతకండి, షేర్ చేయండి, సెట్టింగ్‌లు, భాష, సహాయం.\nOffices: తహసీల్దార్, గ్రామ / వార్డు సచివాలయం, గ్రామ పంచాయతీ, కలెక్టర్, మీసేవ.\nGender: లింగం. Money: రూ.6,000; రూ.8 లక్షలు. September: సెప్టెంబర్.\n\n## Kannada (kn)\n\nScript: Kannada. Used in Karnataka.\nTone: everyday spoken Kannada.\nWords: ಆನ್‌ಲೈನ್, ಅರ್ಜಿ ನಮೂನೆ / ಫಾರ್ಮ್, ಪೋರ್ಟಲ್, ಲಾಗಿನ್, ಆಧಾರ್, ಬ್ಯಾಂಕ್, ಮೊಬೈಲ್, OTP,\nಸಹಾಯವಾಣಿ, ಪ್ರಮಾಣಪತ್ರ, ಡೌನ್‌ಲೋಡ್, ಅಪ್‌ಲೋಡ್.\nUI: ಅರ್ಜಿ ಸಲ್ಲಿಸಿ, ಸಲ್ಲಿಸಿ, ಮುಂದೆ, ಹಿಂದೆ, ಹುಡುಕಿ, ಹಂಚಿಕೊಳ್ಳಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಭಾಷೆ, ಸಹಾಯ.\nOffices: ತಹಶೀಲ್ದಾರ್, ಗ್ರಾಮ ಲೆಕ್ಕಾಧಿಕಾರಿ, ಗ್ರಾಮ ಪಂಚಾಯಿತಿ, ನಾಡಕಚೇರಿ, ಜಿಲ್ಲಾಧಿಕಾರಿ.\nGender: ಲಿಂಗ. Money: ರೂ.6,000; ರೂ.8 ಲಕ್ಷ. September: ಸೆಪ್ಟೆಂಬರ್.",
+ "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/kn/done_02.json",
+ "items": [
+  {
+   "k": "1933f287c4e4",
+   "ctx": "brief",
+   "t": "Money to build a pucca house for a village family that has no house or lives in a kutcha one: Rs.1.20 lakh in the plains and Rs.1.30 lakh in hill states, the North-East and difficult areas, paid into the bank account in instalments as the house goes up. On top of that the family gets 90 days of paid labour (95 in hilly areas) on its own house under the rural job scheme, and Rs.12,000 for a toilet. Families are picked from the SECC 2011 list and the new Awaas+ 2024 survey and checked by the Gram Sabha; homeless and destitute families, manual scavengers, primitive tribal groups and freed bonded labourers come first. The scheme runs till March 2029 for 2 crore more houses."
+  },
+  {
+   "k": "281e5cc813d4",
+   "ctx": "benefit",
+   "t": "Rs.1.20 lakh (Rs.1.30 lakh in hill and NE areas), plus 90–95 days' wages and Rs.12,000 for a toilet"
+  },
+  {
+   "k": "61e6a77ae8ec",
+   "ctx": "eligibility",
+   "t": "Village family with no house, or living in a kutcha house (kutcha walls and roof, up to 2 rooms)"
+  },
+  {
+   "k": "ee1f7723869a",
+   "ctx": "eligibility",
+   "t": "Name on the SECC 2011 Permanent Wait List, or found eligible in the Awaas+ 2024 survey and passed by the Gram Sabha"
+  },
+  {
+   "k": "d10e48a8bef9",
+   "ctx": "eligibility",
+   "t": "Ruled out if any member owns a pucca house, a motorised 3- or 4-wheeler or mechanised farm machinery, or has a KCC limit of Rs.50,000 or more"
+  },
+  {
+   "k": "12e799497823",
+   "ctx": "eligibility",
+   "t": "Ruled out if any member is a government employee, earns over Rs.15,000 a month, pays income or professional tax, or runs a government-registered business"
+  },
+  {
+   "k": "03165e13317c",
+   "ctx": "eligibility",
+   "t": "Ruled out if the family owns 2.5 acres or more of irrigated land with irrigation equipment, or 5 acres or more of unirrigated land"
+  },
+  {
+   "k": "192580dd4970",
+   "ctx": "eligibility",
+   "t": "Owning a two-wheeler, fridge, landline or motorised fishing boat no longer rules a family out (changed in 2024)"
+  },
+  {
+   "k": "9d3a384f5ffa",
+   "ctx": "documents",
+   "t": "Aadhaar card of the head of family and members (face e-KYC is done during the survey)"
+  },
+  {
+   "k": "7e14545bc0d1",
+   "ctx": "documents",
+   "t": "Bank or post office account seeded with Aadhaar"
+  },
+  {
+   "k": "7188618ee129",
+   "ctx": "documents",
+   "t": "Job card under the rural employment scheme"
+  },
+  {
+   "k": "183eeff1da22",
+   "ctx": "documents",
+   "t": "Swachh Bharat Mission (SBM) number, if the family already has one"
+  },
+  {
+   "k": "a326c498ac15",
+   "ctx": "documents",
+   "t": "Paper for the plot where the house will be built (patta or possession proof); landless families are given land by the state"
+  },
+  {
+   "k": "9b9d81f0526b",
+   "ctx": "submitAt",
+   "t": "Gram Panchayat office: tell the Panchayat Secretary or the Gram Rozgar Sahayak that you want to be surveyed under Awaas+ 2024, and take your Aadhaar, job card, bank passbook and mobile phone. The Block Development Office (BDO) registers the approved names; complaints go to the BDO or the District Rural Development Agency."
+  },
+  {
+   "k": "228a389cc02b",
+   "ctx": "label",
+   "t": "Aadhaar number of head of household"
+  },
+  {
+   "k": "a8ed57619db0",
+   "ctx": "hint",
+   "t": "Checked by a face scan through the AadhaarFaceRD app; no fingerprint or OTP is needed."
+  },
+  {
+   "k": "b9ab455e6ad3",
+   "ctx": "label",
+   "t": "Name of head of household"
+  },
+  {
+   "k": "35757cb50fe3",
+   "ctx": "value",
+   "t": "Shanti Devi"
+  },
+  {
+   "k": "b12319c7b54f",
+   "ctx": "hint",
+   "t": "Exactly as on Aadhaar. A woman head of family is welcome; the house is usually sanctioned in the woman's name or jointly."
+  },
+  {
+   "k": "57528797a876",
+   "ctx": "label",
+   "t": "Family members"
+  },
+  {
+   "k": "1ac64ae62d86",
+   "ctx": "value",
+   "t": "4 (Shanti Devi, Ramu, Geeta, Sonu)"
+  },
+  {
+   "k": "2d0d551e28e5",
+   "ctx": "hint",
+   "t": "Add every member living and cooking together, each with Aadhaar."
+  },
+  {
+   "k": "79d4503466f2",
+   "ctx": "label",
+   "t": "Social category"
+  },
+  {
+   "k": "c43dbe153bd9",
+   "ctx": "hint",
+   "t": "SC, ST, minority or other. This decides which priority list your family goes into."
+  },
+  {
+   "k": "daf2d7c3f2e7",
+   "ctx": "label",
+   "t": "Type of present house"
+  },
+  {
+   "k": "99ad3e187259",
+   "ctx": "value",
+   "t": "Kutcha walls and kutcha roof, 1 room"
+  },
+  {
+   "k": "242698e05ace",
+   "ctx": "hint",
+   "t": "Describe the house as it is today. More than 2 rooms with a pucca roof makes the family ineligible."
+  },
+  {
+   "k": "d80149d75552",
+   "ctx": "label",
+   "t": "Monthly income of highest earner"
+  },
+  {
+   "k": "ce32942b6314",
+   "ctx": "value",
+   "t": "Rs.8,000"
+  },
+  {
+   "k": "083a6f6888dd",
+   "ctx": "hint",
+   "t": "The member who earns the most. Above Rs.15,000 a month rules the family out."
+  },
+  {
+   "k": "c263132c558f",
+   "ctx": "label",
+   "t": "Land owned"
+  },
+  {
+   "k": "f0ed7783370b",
+   "ctx": "value",
+   "t": "0.5 acre unirrigated"
+  },
+  {
+   "k": "aeab7c170f0c",
+   "ctx": "hint",
+   "t": "Write irrigated and unirrigated land separately, as in the land record."
+  },
+  {
+   "k": "52367dbb54f6",
+   "ctx": "label",
+   "t": "Photo of present house"
+  },
+  {
+   "k": "16b88a99463d",
+   "ctx": "value",
+   "t": "Geo-tagged photo taken in the app"
+  },
+  {
+   "k": "268a1d0f206c",
+   "ctx": "hint",
+   "t": "Taken standing at the house, so the location is recorded with the photo."
+  },
+  {
+   "k": "5a6258584647",
+   "ctx": "label",
+   "t": "Job card number"
+  },
+  {
+   "k": "271bc8ba1bca",
+   "ctx": "hint",
+   "t": "From your rural employment job card. The 90 days of paid work on your house are booked against it."
+  },
+  {
+   "k": "23b51e6717d5",
+   "ctx": "hint",
+   "t": "An account in the beneficiary's own name, seeded with Aadhaar. All instalments come here."
+  },
+  {
+   "k": "5194b2587556",
+   "ctx": "demoSteps",
+   "t": "Ask at the Gram Panchayat whether your name is already on the Permanent Wait List, or look up the Panchayat-wise list on the PMAY-G website."
+  },
+  {
+   "k": "5b41f12be2a8",
+   "ctx": "demoSteps",
+   "t": "If it is not, get surveyed under Awaas+ 2024: the Panchayat surveyor fills the form on the AwaasPlus app, or you survey yourself on the app with a face scan where your state's survey is open."
+  },
+  {
+   "k": "5a97e4343794",
+   "ctx": "demoSteps",
+   "t": "The Gram Sabha reads out and checks the list, objections are heard at the block and district, and approved families are ranked by priority."
+  },
+  {
+   "k": "3665a79d90b0",
+   "ctx": "demoSteps",
+   "t": "When your turn comes, the Block office registers you on AwaasSoft, geo-tags your old house and plot, and issues the sanction order. The first instalment comes into your Aadhaar-seeded account."
+  },
+  {
+   "k": "b951bf7ad915",
+   "ctx": "demoSteps",
+   "t": "Build the house, at least 25 sq m with a kitchen. At each stage (plinth, lintel, roof) the official takes a geo-tagged photo and the next instalment is released."
+  },
+  {
+   "k": "e53513737f7c",
+   "ctx": "demoSteps",
+   "t": "Work on your own house under the rural job scheme for 90 (or 95) days' wages, and claim Rs.12,000 for the toilet through the Panchayat."
+  },
+  {
+   "k": "f7cb175729e6",
+   "ctx": "demoSteps",
+   "t": "Finish within 12 months. Track payments with Search Beneficiary or FTO Tracking on the PMAY-G site, and go to the BDO if an instalment is stuck."
+  },
+  {
+   "k": "6102bec099d1",
+   "ctx": "helpline",
+   "t": "1800-11-6446 (PMAY-G helpline) / support-pmayg@gov.in; Block Development Office for local complaints"
+  },
+  {
+   "k": "3003d9e51efc",
+   "ctx": "title",
+   "t": "Pradhan Mantri Divyangjan Pension Yojana (formerly IGNDPS)"
+  },
+  {
+   "k": "89633602396b",
+   "ctx": "department",
+   "t": "Ministry of Rural Development — Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP)"
+  },
+  {
+   "k": "c30b36a1d060",
+   "ctx": "brief",
+   "t": "A monthly pension for persons with severe disability who belong to a below-poverty-line household. It was called the Indira Gandhi National Disability Pension Scheme (IGNDPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP). The Cabinet also approved Rs.375 a month (Rs.625 from age 80), a 40 per cent disability limit instead of 80, and no minimum age; these start once the new guidelines are issued, due by mid-January 2027. Until then the old rules apply — age 18 or more and a certificate showing 80 per cent or more — and the state adds its own top-up."
+  },
+  {
+   "k": "6ddc1e95979a",
+   "ctx": "benefit",
+   "t": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up; rising to Rs.375 (Rs.625 after age 80) once the new guidelines are issued"
+  },
+  {
+   "k": "08ed5b4ea346",
+   "ctx": "eligibility",
+   "t": "Age 18 years or more on the date of application (no minimum age once the new guidelines are issued)"
+  },
+  {
+   "k": "def7ad4ecd0a",
+   "ctx": "eligibility",
+   "t": "Severe or multiple disability of 80 per cent or more, certified by the competent medical authority (40 per cent or more once the new guidelines are issued)"
+  },
+  {
+   "k": "bbabfd95ca00",
+   "ctx": "documents",
+   "t": "Disability certificate showing 80 per cent or more (40 per cent once the new guidelines are issued), issued by the Chief Medical Officer or a district medical board"
+  },
+  {
+   "k": "3f6862c2bb92",
+   "ctx": "hint",
+   "t": "Under the current rules you must be 18 or above. Once the new guidelines are issued, there is no minimum age."
+  },
+  {
+   "k": "8088091b90b1",
+   "ctx": "hint",
+   "t": "Under the current rules it must read 80 per cent or more, or the Block office refuses it. Once the new guidelines are issued (due by mid-January 2027), 40 per cent or more qualifies."
+  },
+  {
+   "k": "6f4c78ff8eaf",
+   "ctx": "demoSteps",
+   "t": "Get the disability certificate in hand before anything else. The Chief Medical Officer's board at the district hospital assesses free of charge on fixed weekly days — ask the hospital's disability desk for the day. The certificate must show 80 per cent or more under the current rules, and 40 per cent or more once the new guidelines are issued."
+  },
+  {
+   "k": "6e87d3b978e9",
+   "ctx": "title",
+   "t": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY, farmer pension)"
+  },
+  {
+   "k": "4735b05c6a70",
+   "ctx": "department",
+   "t": "Ministry of Agriculture & Farmers Welfare (run with LIC and CSC)"
+  },
+  {
+   "k": "57b313bb9cfb",
+   "ctx": "brief",
+   "t": "A pension of Rs.3,000 a month from age 60 for small and marginal farmers who join between 18 and 40. You pay Rs.55 to Rs.200 a month, depending on your age when you join, and the government adds the same amount. The monthly amount can be cut automatically from your PM-Kisan money. You join at a Common Service Centre (CSC) with your Aadhaar and bank passbook."
+  },
+  {
+   "k": "1f619440f1c1",
+   "ctx": "benefit",
+   "t": "Rs.3,000 a month pension from age 60; Rs.1,500 family pension to the spouse"
+  },
+  {
+   "k": "0128a1019ff5",
+   "ctx": "eligibility",
+   "t": "Small and marginal farmers with up to 2 hectares (about 5 acres) of cultivable land in their own name in the land records"
+  },
+  {
+   "k": "a563918b865b",
+   "ctx": "eligibility",
+   "t": "Age 18 to 40 years when joining; you pay every month until you turn 60"
+  },
+  {
+   "k": "edf0a298a8aa",
+   "ctx": "eligibility",
+   "t": "Not for people already in NPS, ESIC or EPFO, or who joined PM Shram Yogi Maandhan or PM Vyapari Maandhan"
+  },
+  {
+   "k": "aaa717344b1b",
+   "ctx": "eligibility",
+   "t": "Not for income-tax payers, government or PSU employees (Class IV / Group D staff can join), doctors, engineers, lawyers, CAs and architects in practice, or holders of constitutional posts"
+  },
+  {
+   "k": "67a96c3f6fd4",
+   "ctx": "eligibility",
+   "t": "You need an Aadhaar card and a savings bank account"
+  },
+  {
+   "k": "f95521e20d12",
+   "ctx": "documents",
+   "t": "Savings bank passbook or cheque with IFSC (the PM-Kisan account if you want the amount cut from PM-Kisan)"
+  },
+  {
+   "k": "3360bed8871d",
+   "ctx": "documents",
+   "t": "Land record showing land up to 2 hectares in your name"
+  },
+  {
+   "k": "f53665ae0bf4",
+   "ctx": "documents",
+   "t": "Name and date of birth of your spouse and of the nominee"
+  },
+  {
+   "k": "4f23768468c0",
+   "ctx": "documents",
+   "t": "First month's contribution in cash (Rs.55 to Rs.200)"
+  },
+  {
+   "k": "df814aa001e0",
+   "ctx": "portalName",
+   "t": "Maandhan (PM-KMY)"
+  },
+  {
+   "k": "f314553184c8",
+   "ctx": "submitAt",
+   "t": "At your nearest Common Service Centre (CSC). Take your Aadhaar card, bank passbook or cheque, land record and spouse and nominee details, and pay the first month's contribution in cash to the operator (VLE). Joining is free; the enrolment-cum-auto-debit form is printed there for you to sign."
+  },
+  {
+   "k": "a95369ec433c",
+   "ctx": "hint",
+   "t": "The operator checks it with your fingerprint, so you must come yourself."
+  },
+  {
+   "k": "f36f6cd5792f",
+   "ctx": "label",
+   "t": "Name as on Aadhaar"
+  },
+  {
+   "k": "d533b02e1629",
+   "ctx": "value",
+   "t": "Ganesh Patil"
+  },
+  {
+   "k": "6a2e3b3d35ab",
+   "ctx": "hint",
+   "t": "Exactly as printed on the Aadhaar card."
+  },
+  {
+   "k": "ddc325d4c75e",
+   "ctx": "label",
+   "t": "Date of birth as on Aadhaar"
+  },
+  {
+   "k": "d1caaead1205",
+   "ctx": "hint",
+   "t": "Your age on this date decides your monthly amount. At 29 it is Rs.100 a month."
+  },
+  {
+   "k": "89296594bc1a",
+   "ctx": "hint",
+   "t": "Messages about your contribution and pension come here."
+  },
+  {
+   "k": "1fcbd2897af8",
+   "ctx": "hint",
+   "t": "Use the account where PM-Kisan money comes if you want the amount cut from it."
+  },
+  {
+   "k": "1f7edeec2682",
+   "ctx": "label",
+   "t": "Spouse details"
+  },
+  {
+   "k": "52a56edcc000",
+   "ctx": "value",
+   "t": "Sunanda Patil, 02-11-1999"
+  },
+  {
+   "k": "777b6ef14b0b",
+   "ctx": "hint",
+   "t": "Your wife or husband. They get half the pension if you die after 60."
+  },
+  {
+   "k": "50e3037c23a2",
+   "ctx": "label",
+   "t": "Nominee details"
+  },
+  {
+   "k": "e34f82775ff5",
+   "ctx": "value",
+   "t": "Sunanda Patil (wife)"
+  },
+  {
+   "k": "9067dc673055",
+   "ctx": "hint",
+   "t": "Who gets your savings if you die before the pension starts and your spouse does not continue."
+  },
+  {
+   "k": "f496f9ffe86c",
+   "ctx": "label",
+   "t": "Land details"
+  },
+  {
+   "k": "d572aa53a7a2",
+   "ctx": "value",
+   "t": "Village Wadgaon, Survey 88, 1.2 hectares"
+  },
+  {
+   "k": "7848f88bc802",
+   "ctx": "hint",
+   "t": "From your land record. The total must not be more than 2 hectares."
+  },
+  {
+   "k": "adf7eb32db30",
+   "ctx": "label",
+   "t": "Pay from PM-Kisan benefit"
+  },
+  {
+   "k": "ae3b122e1d78",
+   "ctx": "hint",
+   "t": "Choose Yes to have the contribution taken from your PM-Kisan instalments, so you never miss a payment."
+  },
+  {
+   "k": "c11dc2e0d4be",
+   "ctx": "label",
+   "t": "Monthly contribution"
+  },
+  {
+   "k": "bb1ca94127ba",
+   "ctx": "value",
+   "t": "Rs.100 (government adds Rs.100)"
+  },
+  {
+   "k": "cd23aa4e1371",
+   "ctx": "hint",
+   "t": "Worked out by the system from your age. You can also choose to pay every 3, 4 or 6 months."
+  },
+  {
+   "k": "ebef64e620c4",
+   "ctx": "demoSteps",
+   "t": "Go to the nearest Common Service Centre with your Aadhaar, bank passbook, land record and spouse and nominee details."
+  },
+  {
+   "k": "025ff5271d61",
+   "ctx": "demoSteps",
+   "t": "The operator checks your Aadhaar with your fingerprint and fills in your bank, mobile, land, spouse and nominee details. The system shows your monthly amount."
+  },
+  {
+   "k": "0ea4194aad3d",
+   "ctx": "demoSteps",
+   "t": "Pay the first month's contribution in cash to the operator."
+  },
+  {
+   "k": "bdf6167cb28b",
+   "ctx": "demoSteps",
+   "t": "Sign the enrolment-cum-auto-debit form that is printed. The operator scans and uploads it."
+  },
+  {
+   "k": "fdff18b2aced",
+   "ctx": "demoSteps",
+   "t": "You get your Kisan Pension Account Number (KPAN) and a printed Kisan card on the spot. Keep it safe."
+  },
+  {
+   "k": "0eb0f2d146f8",
+   "ctx": "demoSteps",
+   "t": "From then on, the amount is cut automatically from your bank account or PM-Kisan money. If you leave within 10 years, you get back your own share with savings bank interest."
+  },
+  {
+   "k": "c25378b7a9a0",
+   "ctx": "demoSteps",
+   "t": "At age 60, LIC starts paying Rs.3,000 a month into your bank account. After your death, your spouse gets Rs.1,500 a month."
+  },
+  {
+   "k": "bf70b46e040e",
+   "ctx": "helpline",
+   "t": "1800-3000-3468 (PM-KMY / CSC) / 14434 (Maandhan helpline)"
+  },
+  {
+   "k": "86a3310ad3c5",
+   "ctx": "title",
+   "t": "Pradhan Mantri Parivar Labh Yojana (National Family Benefit Scheme, NFBS)"
+  },
+  {
+   "k": "9ad364b0fe8f",
+   "ctx": "department",
+   "t": "Ministry of Rural Development — National Social Assistance Programme (Pradhan Mantri Samajik Sahayata Yojana)"
+  },
+  {
+   "k": "566792b99147",
+   "ctx": "brief",
+   "t": "A one-time payment of Rs.20,000 to a poor (BPL) family when its main earning member dies between the ages of 18 and 59, from illness, accident or any other cause. A woman who runs the home counts as a breadwinner too. The money goes to the family member who, after a local inquiry, becomes the new head of the household. This is the old National Family Benefit Scheme (NFBS), renamed Pradhan Mantri Parivar Labh Yojana by the Cabinet on 14 October 2026 with the benefit unchanged, so local offices may still use the old name."
+  },
+  {
+   "k": "a1568ddb6031",
+   "ctx": "benefit",
+   "t": "Rs.20,000 one-time payment to the family, into the bank account"
+  },
+  {
+   "k": "aca87e49f4f7",
+   "ctx": "eligibility",
+   "t": "The family is below the poverty line (BPL) on the state's list. An eligible poor family missing from the list should still be considered"
+  },
+  {
+   "k": "780deeb53bc7",
+   "ctx": "eligibility",
+   "t": "The person who died was the main earner of the household. A woman who looked after the home also counts"
+  },
+  {
+   "k": "5a4082ef9900",
+   "ctx": "eligibility",
+   "t": "The death happened when that person was more than 18 and less than 60 years old"
+  },
+  {
+   "k": "6b6da5f7f4ff",
+   "ctx": "eligibility",
+   "t": "Any cause of death counts: illness, accident or anything else"
+  },
+  {
+   "k": "eae811981821",
+   "ctx": "eligibility",
+   "t": "Paid once for each such death, to the surviving member found to be the new head of the household (spouse, minor children, unmarried daughters and dependent parents make up the household)"
+  },
+  {
+   "k": "ea7494c2a8ae",
+   "ctx": "documents",
+   "t": "Death certificate of the breadwinner from the Registrar of Births and Deaths"
+  },
+  {
+   "k": "701a350e94ff",
+   "ctx": "documents",
+   "t": "Age proof of the person who died (birth or school certificate, Aadhaar or voter ID) showing an age between 18 and 59"
+  },
+  {
+   "k": "a01e9b095c3b",
+   "ctx": "documents",
+   "t": "BPL ration card, or the family's BPL list number"
+  },
+  {
+   "k": "80edd883aab4",
+   "ctx": "documents",
+   "t": "First page of the bank or post-office passbook in the applicant's own name"
+  },
+  {
+   "k": "4c44ebf1f984",
+   "ctx": "documents",
+   "t": "FIR and post-mortem report, if the death was an accident"
+  },
+  {
+   "k": "7612c2bf5231",
+   "ctx": "documents",
+   "t": "Residence proof and two passport-size photographs"
+  },
+  {
+   "k": "9107b11568cb",
+   "ctx": "documents",
+   "t": "Income certificate or legal heir / family certificate, where the state asks for it"
+  },
+  {
+   "k": "1339c8fb7037",
+   "ctx": "submitAt",
+   "t": "The office your state has named for this scheme: usually the Tehsil or SDM office, the Block Development Office, or the District / Tehsil Social Welfare Officer. In a village the Gram Panchayat secretary can take it and forward it; in a town, the municipal office. Most offices give their own form free; the government's model form is Annexe III (page 47) of the NSAP guidelines PDF. Take the filled form with the death certificate, the age proof of the person who died, the BPL ration card, your Aadhaar, your passbook and two photos, plus the FIR and post-mortem report for an accidental death. Some states also take this application online through their e-District or social welfare portal, or at a CSC."
+  },
+  {
+   "k": "6dcc8e07d962",
+   "ctx": "label",
+   "t": "Name of the Deceased (Primary Breadwinner)"
+  },
+  {
+   "k": "4bd460afaaf7",
+   "ctx": "value",
+   "t": "Ramesh Kumar Paswan"
+  },
+  {
+   "k": "366634ca3864",
+   "ctx": "hint",
+   "t": "Copy it letter by letter from the death certificate. The two are compared."
+  },
+  {
+   "k": "180dc604ff08",
+   "ctx": "label",
+   "t": "Gender and Age at the Time of Death"
+  },
+  {
+   "k": "d258d6c2201a",
+   "ctx": "value",
+   "t": "Male, 42 years"
+  },
+  {
+   "k": "68913050e696",
+   "ctx": "hint",
+   "t": "The age must be more than 18 and less than 60. Take it from the age proof you attach, not from memory."
+  },
+  {
+   "k": "a68e01dcf48c",
+   "ctx": "label",
+   "t": "Date and Cause of Death"
+  },
+  {
+   "k": "44ff96989d91",
+   "ctx": "value",
+   "t": "14-07-2026, road accident"
+  },
+  {
+   "k": "7b9609b1c4e0",
+   "ctx": "hint",
+   "t": "Date as on the death certificate. For an accident, attach the FIR and post-mortem report."
+  },
+  {
+   "k": "e8a60c644936",
+   "ctx": "hint",
+   "t": "The family member who is now head of the household, usually the widow or widower."
+  },
+  {
+   "k": "d7bb536218a3",
+   "ctx": "label",
+   "t": "Father's / Husband's Name of the Applicant"
+  },
+  {
+   "k": "2682f0d888ac",
+   "ctx": "value",
+   "t": "Late Ramesh Kumar Paswan"
+  },
+  {
+   "k": "26f61021e64e",
+   "ctx": "hint",
+   "t": "As on your Aadhaar card."
+  },
+  {
+   "k": "8590fddf5ac1",
+   "ctx": "label",
+   "t": "Relationship of the Applicant with the Deceased"
+  },
+  {
+   "k": "34e287be83f5",
+   "ctx": "value",
+   "t": "Wife"
+  },
+  {
+   "k": "5703a77fb6fb",
+   "ctx": "hint",
+   "t": "Wife, husband, son, daughter, father or mother."
+  },
+  {
+   "k": "8287f8fff00a",
+   "ctx": "label",
+   "t": "Address (Village, Gram Panchayat / Ward, Block, District, PIN)"
+  },
+  {
+   "k": "c2303d8f6818",
+   "ctx": "value",
+   "t": "Village Bhagwanpur, GP Bhagwanpur, Block Mahnar, Dist. Vaishali, Bihar – 844506"
+  },
+  {
+   "k": "e690d3b9021d",
+   "ctx": "hint",
+   "t": "Where the family lives now."
+  },
+  {
+   "k": "ccf4470d2247",
+   "ctx": "label",
+   "t": "BPL Details (Survey Year, Family ID, Member ID) / Ration Card No."
+  },
+  {
+   "k": "d8ab41acb63d",
+   "ctx": "value",
+   "t": "BPL 2002, Family ID 9999-0417, Member ID 02 / RC BR-99-999887"
+  },
+  {
+   "k": "5028d1471ae1",
+   "ctx": "hint",
+   "t": "Copy from the BPL ration card or the BPL list kept at the Panchayat."
+  },
+  {
+   "k": "942392fe80bd",
+   "ctx": "label",
+   "t": "Dependents (name, age, relation)"
+  },
+  {
+   "k": "f41d4171cd51",
+   "ctx": "value",
+   "t": "Pooja (15, daughter), Aman (11, son), Kalavati Devi (68, mother-in-law)"
+  },
+  {
+   "k": "16b720a960e9",
+   "ctx": "hint",
+   "t": "Everyone in the household who depended on the person who died."
+  },
+  {
+   "k": "0d4c2ba4ca24",
+   "ctx": "label",
+   "t": "Aadhaar and Bank Account of the Applicant"
+  },
+  {
+   "k": "4e019bfb805a",
+   "ctx": "value",
+   "t": "9999 4410 2387 / SBI Mahnar, A/c 99990001234567, IFSC SBIN0099999"
+  },
+  {
+   "k": "1d986787a59b",
+   "ctx": "hint",
+   "t": "The account must be in the applicant's own name. The Rs.20,000 is paid only into it."
+  },
+  {
+   "k": "49573ced2007",
+   "ctx": "demoSteps",
+   "t": "Get the death registered and collect the death certificate from the Panchayat or municipal Registrar. Nothing can be sanctioned without it."
+  },
+  {
+   "k": "64ae9d0dcb4f",
+   "ctx": "demoSteps",
+   "t": "Collect the free form at the Tehsil, Block or Social Welfare office (or the Gram Panchayat), fill it and attach the documents."
+  },
+  {
+   "k": "1f08a1fc1bac",
+   "ctx": "demoSteps",
+   "t": "Get the verification part signed by the Sarpanch or ward member, submit the form at the named office, and take a dated receipt with an inward number."
+  },
+  {
+   "k": "6d92d7f5a02d",
+   "ctx": "demoSteps",
+   "t": "A verification officer checks the facts, normally within two weeks. The case is then placed before the Gram Sabha or ward sabha and sent to the sanctioning officer (BDO, Tehsildar / SDM or District Social Welfare Officer)."
+  },
+  {
+   "k": "57ddf33ed3ea",
+   "ctx": "demoSteps",
+   "t": "The guidelines say the decision should come within 60 days of applying. You get a sanction order and Rs.20,000 is sent to your bank account."
+  },
+  {
+   "k": "1db4cc4d0dd0",
+   "ctx": "demoSteps",
+   "t": "If it is rejected, the reason must be given to you in writing. Appeal to the appellate officer your state names, usually the SDM or a district officer."
+  },
+  {
+   "k": "4c5b7bcf17e3",
+   "ctx": "helpline",
+   "t": "No national toll-free line: Block Development Office, Tehsil / SDM office or District Social Welfare Officer. Unresolved complaints: NSAP Division, Ministry of Rural Development 011-24663519, or CPGRAMS (pgportal.gov.in)"
+  },
+  {
+   "k": "a7708d17e021",
+   "ctx": "title",
+   "t": "Pradhan Mantri Vidhawa Pension Yojana (formerly IGNWPS)"
+  },
+  {
+   "k": "28de2a653fea",
+   "ctx": "brief",
+   "t": "A monthly pension for widows aged 40 and above in below-poverty-line households. It was called the Indira Gandhi National Widow Pension Scheme (IGNWPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP); the amount and rules stay the same. The Centre pays a fixed share and the state adds its own top-up. The pension stops if the widow remarries, and converts to the old-age pension once she turns 60 in states that run both."
+  },
+  {
+   "k": "9116c1e98102",
+   "ctx": "title",
+   "t": "Pradhan Mantri Vridhavastha Pension Yojana (formerly IGNOAPS)"
+  },
+  {
+   "k": "86000ecbc73f",
+   "ctx": "brief",
+   "t": "A monthly pension for people aged 60 and above who belong to a below-poverty-line household. It was called the Indira Gandhi National Old Age Pension Scheme (IGNOAPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly the National Social Assistance Programme, NSAP); the amount and rules stay the same. The Centre pays a fixed share and almost every state adds a top-up, so the amount that actually reaches the bank account is usually larger than the central figure."
+  },
+  {
+   "k": "7b7213468cd0",
+   "ctx": "title",
+   "t": "DAY-NRLM Self-Help Group (Aajeevika SHG / Lakhpati Didi)"
+  },
+  {
+   "k": "2326a476ade1",
+   "ctx": "department",
+   "t": "Ministry of Rural Development — Deendayal Antyodaya Yojana-National Rural Livelihoods Mission, through each State Rural Livelihoods Mission"
+  },
+  {
+   "k": "b1844264a021",
+   "ctx": "brief",
+   "t": "Women from poor village families join a self-help group (SHG) of 10 to 20 women who save a small sum every week and lend to each other. A group that runs well gets a Revolving Fund of Rs.20,000–30,000, can borrow up to Rs.2.5 lakh from the Community Investment Fund through its village federation, and gets bank loans without collateral at a low rate. Members are trained and supported to take up dairy, farming or small businesses, with the aim of earning Rs.1 lakh a year as a 'Lakhpati Didi'. About 10 crore women are in these groups; you join through your village organisation or the block office of your state's livelihood mission, such as JEEViKA in Bihar, UMED in Maharashtra or Kudumbashree in Kerala."
+  },
+  {
+   "k": "e661704094bd",
+   "ctx": "benefit",
+   "t": "Revolving Fund Rs.20,000–30,000 per group, up to Rs.2.5 lakh CIF per group, bank loans at 7% up to Rs.3 lakh"
+  }
+ ]
+}

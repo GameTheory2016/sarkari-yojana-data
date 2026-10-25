@@ -1,0 +1,1099 @@
+{
+ "lang": "ml",
+ "language": "Malayalam",
+ "script": "Malayalam",
+ "instructions": "# How to translate this chunk\n\nThis file holds `items`, a list of `{\"k\", \"ctx\", \"t\"}`. `t` is English text\nthat a reader of an Indian app or website sees. `ctx` is the field it came\nfrom, such as label, hint, button, documents, brief or title. Use it to judge\ntone and length: a label stays short, a hint can be a sentence.\n\nWrite `{\"items\": [{\"k\": ..., \"t\": ...}, ...]}` to the path in `write_to`.\nKeep every `k` unchanged and in the same order. Put the translation in `t`.\nLeave out `ctx`. Do not add, merge, split or drop items.\n\n## Keep these exactly as they are\n\n- Placeholders and markup: `{0}`, `{name}`, `%s`, `%d`, `%1$s`, HTML tags, `\\n`.\n- Website addresses, e-mail addresses and links.\n- Every number: phone and toll-free numbers, Aadhaar, account, IFSC, PAN, PIN\n  codes, amounts, dates, percentages. Write digits as 0-9, the Western digits,\n  in every language, including Urdu. People type these into forms that take\n  Western digits.\n- Acronyms people know in Latin letters: OTP, PAN, IFSC, UPI, KYC, e-KYC, DBT,\n  BPL, APL, NFSA, PM-KISAN, SMS, PDF, ID.\n\n## Names\n\n- Product, app, portal and scheme names: transliterate them into the script so\n  they read naturally. Keep any acronym inside them in Latin, so \"APPSC\n  portal\" becomes APPSC followed by the word for portal.\n- A button or menu label quoted from a website, such as 'Apply Online' or\n  'Register', stays in English inside quotes. The reader has to find that exact\n  English word on the screen.\n- People and places in examples are transliterated, never replaced with other\n  names.\n- Government office titles are transliterated so the reader can say them at\n  the counter: Tahsildar, Patwari, Talathi, Mamlatdar, BDO, Collector, Gram\n  Panchayat. The language notes below give the usual local forms.\n\n## Tone\n\nWrite for an ordinary person who may be elderly and may have had little\nschooling. Use everyday spoken language, not heavy official vocabulary. Where\npeople really say the English word, write it in the script: online, form,\nportal, login, mobile, bank, certificate, download, upload, app. Keep\ninstructions short and direct, in the form \"do this\".\n\n\"Gender\" means sex (male or female). It is never the word for caste.\n\n## Before you write\n\nCheck that you have the same number of items as the input and that every\nnumber and placeholder came through. Write the whole file in ONE Write call,\nas valid UTF-8 JSON with no `\\u` escapes and nothing else in the file.\n\n## Hindi (hi)\n\nScript: Devanagari. Used in UP, MP, Bihar, Rajasthan, Haryana, HP, Uttarakhand,\nJharkhand, Chhattisgarh and Delhi, and understood across the north.\nTone: everyday spoken Hindi (Hindustani). Avoid Sanskritised official words.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बैंक, मोबाइल, OTP, हेल्पलाइन,\nसर्टिफिकेट, डाउनलोड, अपलोड.\nUI: आवेदन करें (Apply), जमा करें (Submit), आगे (Next), पीछे (Back), खोजें (Search),\nशेयर करें (Share), सेटिंग (Settings), भाषा (Language), मदद (Help).\nOffices: तहसीलदार, पटवारी, ग्राम पंचायत, कलेक्टर, ब्लॉक विकास कार्यालय (BDO).\nGender: लिंग (never जाति). Money: रु. 6,000; रु. 8 लाख. September: सितंबर.\n\n## Gujarati (gu)\n\nScript: Gujarati. Used in Gujarat, and spoken in Dadra & Nagar Haveli and\nDaman & Diu.\nTone: everyday spoken Gujarati.\nWords: ઓનલાઇન, ફોર્મ, પોર્ટલ, લૉગિન, આધાર, બેંક, મોબાઇલ, OTP, હેલ્પલાઇન, સર્ટિફિકેટ / દાખલો,\nડાઉનલોડ, અપલોડ.\nUI: અરજી કરો, સબમિટ કરો, આગળ, પાછળ, શોધો, શેર કરો, સેટિંગ્સ, ભાષા, મદદ.\nOffices: મામલતદાર, તલાટી, ગ્રામ પંચાયત, કલેક્ટર, તાલુકા પંચાયત.\nGender: જાતિ is caste; use લિંગ. Money: રૂ. 6,000; રૂ. 8 લાખ. September: સપ્ટેમ્બર.\n\n## Marathi (mr)\n\nScript: Devanagari. Used in Maharashtra, and widely in Goa.\nTone: everyday Marathi as spoken in Maharashtra.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बँक, मोबाइल, OTP, हेल्पलाइन, दाखला / सर्टिफिकेट,\nडाउनलोड, अपलोड.\nUI: अर्ज करा, सबमिट करा, पुढे, मागे, शोधा, शेअर करा, सेटिंग्ज, भाषा, मदत.\nOffices: तहसीलदार, तलाठी, ग्रामपंचायत, जिल्हाधिकारी (कलेक्टर), आपले सरकार सेवा केंद्र.\nGender: लिंग. Money: रु. 6,000; रु. 8 लाख. September: सप्टेंबर.\n\n## Bengali (bn)\n\nScript: Bengali. Used in West Bengal and Tripura, and in Assam's Barak Valley\nand the Andamans.\nTone: everyday spoken Bengali (চলিত ভাষা), not সাধু ভাষা.\nWords: অনলাইন, ফর্ম, পোর্টাল, লগইন, আধার, ব্যাংক, মোবাইল, OTP, হেল্পলাইন, সার্টিফিকেট,\nডাউনলোড, আপলোড.\nUI: আবেদন করুন, জমা দিন, পরবর্তী, পিছনে, খুঁজুন, শেয়ার করুন, সেটিংস, ভাষা, সাহায্য.\nOffices: বিডিও অফিস, গ্রাম পঞ্চায়েত, তহসিলদার, জেলাশাসক (কালেক্টর), দুয়ারে সরকার.\nGender: লিঙ্গ. Money: 6,000 টাকা; 8 লাখ টাকা. September: সেপ্টেম্বর.\n\n## Assamese (as)\n\nScript: Bengali script with the Assamese letters ৰ and ৱ. Used in Assam.\nThis is Assamese, not Bengali. Use Assamese words and spellings: আঁচনি\n(scheme), বেংক (bank), কৰক (do), নহয় (is not).\nWords: অনলাইন, প্ৰপত্ৰ / ফৰ্ম, পৰ্টেল, লগইন, আধাৰ, বেংক, মবাইল, OTP, হেল্পলাইন, প্ৰমাণপত্ৰ,\nডাউনল'ড, আপল'ড.\nUI: আবেদন কৰক, দাখিল কৰক, পৰৱৰ্তী, উভতি যাওক, বিচাৰক, শ্বেয়াৰ কৰক, ছেটিংছ, ভাষা, সহায়.\nOffices: চক্ৰ বিষয়াৰ কাৰ্যালয় (Circle Office), গাঁও পঞ্চায়ত, উন্নয়ন খণ্ড কাৰ্যালয় (BDO),\nজিলা উপায়ুক্ত.\nGender: লিংগ. Money: 6,000 টকা; 8 লাখ টকা. September: ছেপ্তেম্বৰ.\n\n## Punjabi (pa)\n\nScript: Gurmukhi. Used in Punjab and Chandigarh, and spoken in Delhi and\nHaryana.\nTone: everyday spoken Punjabi.\nWords: ਆਨਲਾਈਨ, ਫਾਰਮ, ਪੋਰਟਲ, ਲੌਗਇਨ, ਆਧਾਰ, ਬੈਂਕ, ਮੋਬਾਈਲ, OTP, ਹੈਲਪਲਾਈਨ, ਸਰਟੀਫਿਕੇਟ,\nਡਾਊਨਲੋਡ, ਅਪਲੋਡ.\nUI: ਅਰਜ਼ੀ ਦਿਓ, ਜਮ੍ਹਾਂ ਕਰੋ, ਅੱਗੇ, ਪਿੱਛੇ, ਖੋਜੋ, ਸਾਂਝਾ ਕਰੋ, ਸੈਟਿੰਗਾਂ, ਭਾਸ਼ਾ, ਮਦਦ.\nOffices: ਤਹਿਸੀਲਦਾਰ, ਪਟਵਾਰੀ, ਸੇਵਾ ਕੇਂਦਰ, ਗ੍ਰਾਮ ਪੰਚਾਇਤ, ਡਿਪਟੀ ਕਮਿਸ਼ਨਰ.\nGender: ਲਿੰਗ. Money: ₹6,000; ₹8 ਲੱਖ. September: ਸਤੰਬਰ.\n\n## Odia (or)\n\nScript: Odia. Used in Odisha.\nTone: everyday spoken Odia.\nWords: ଅନଲାଇନ, ଫର୍ମ, ପୋର୍ଟାଲ, ଲଗଇନ, ଆଧାର, ବ୍ୟାଙ୍କ, ମୋବାଇଲ, OTP, ହେଲ୍ପଲାଇନ, ସାର୍ଟିଫିକେଟ,\nଡାଉନଲୋଡ, ଅପଲୋଡ.\nUI: ଆବେଦନ କରନ୍ତୁ, ଦାଖଲ କରନ୍ତୁ, ପରବର୍ତ୍ତୀ, ପଛକୁ, ଖୋଜନ୍ତୁ, ସେୟାର କରନ୍ତୁ, ସେଟିଂସ୍, ଭାଷା, ସାହାଯ୍ୟ.\nOffices: ତହସିଲଦାର, ବିଡିଓ, ଗ୍ରାମ ପଞ୍ଚାୟତ, ଜିଲ୍ଲାପାଳ (କଲେକ୍ଟର), ମୋ ସେବା କେନ୍ଦ୍ର.\nGender: ଲିଙ୍ଗ. Money: ଟ.6,000; ଟ.8 ଲକ୍ଷ. September: ସେପ୍ଟେମ୍ବର.\n\n## Tamil (ta)\n\nScript: Tamil. Used in Tamil Nadu and Puducherry, and spoken in the Andamans.\nTone: plain everyday Tamil an elder in a village follows. Avoid both heavy\nliterary Tamil and slang.\nWords: ஆன்லைன், படிவம், போர்ட்டல், லாகின், ஆதார், வங்கி, மொபைல், OTP, உதவி எண், சான்றிதழ்,\nடவுன்லோடு, அப்லோடு.\nUI: விண்ணப்பிக்கவும், சமர்ப்பிக்கவும், அடுத்து, பின்செல், தேடு, பகிர், அமைப்புகள், மொழி, உதவி.\nOffices: தாசில்தார் (வட்டாட்சியர்), கிராம நிர்வாக அலுவலர் (VAO), கிராம ஊராட்சி, மாவட்ட\nஆட்சியர், இ-சேவை மையம்.\nGender: பாலினம். Money: ரூ.6,000; ரூ.8 லட்சம். September: செப்டம்பர்.\n\n## Telugu (te)\n\nScript: Telugu. Used in Andhra Pradesh and Telangana, and in Yanam\n(Puducherry).\nTone: everyday spoken Telugu.\nWords: ఆన్‌లైన్, ఫారం, పోర్టల్, లాగిన్, ఆధార్, బ్యాంక్, మొబైల్, OTP, హెల్ప్‌లైన్, సర్టిఫికెట్,\nడౌన్‌లోడ్, అప్‌లోడ్.\nUI: దరఖాస్తు చేయండి, సమర్పించండి, తదుపరి, వెనుకకు, వెతకండి, షేర్ చేయండి, సెట్టింగ్‌లు, భాష, సహాయం.\nOffices: తహసీల్దార్, గ్రామ / వార్డు సచివాలయం, గ్రామ పంచాయతీ, కలెక్టర్, మీసేవ.\nGender: లింగం. Money: రూ.6,000; రూ.8 లక్షలు. September: సెప్టెంబర్.\n\n## Kannada (kn)\n\nScript: Kannada. Used in Karnataka.\nTone: everyday spoken Kannada.\nWords: ಆನ್‌ಲೈನ್, ಅರ್ಜಿ ನಮೂನೆ / ಫಾರ್ಮ್, ಪೋರ್ಟಲ್, ಲಾಗಿನ್, ಆಧಾರ್, ಬ್ಯಾಂಕ್, ಮೊಬೈಲ್, OTP,\nಸಹಾಯವಾಣಿ, ಪ್ರಮಾಣಪತ್ರ, ಡೌನ್‌ಲೋಡ್, ಅಪ್‌ಲೋಡ್.\nUI: ಅರ್ಜಿ ಸಲ್ಲಿಸಿ, ಸಲ್ಲಿಸಿ, ಮುಂದೆ, ಹಿಂದೆ, ಹುಡುಕಿ, ಹಂಚಿಕೊಳ್ಳಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಭಾಷೆ, ಸಹಾಯ.\nOffices: ತಹಶೀಲ್ದಾರ್, ಗ್ರಾಮ ಲೆಕ್ಕಾಧಿಕಾರಿ, ಗ್ರಾಮ ಪಂಚಾಯಿತಿ, ನಾಡಕಚೇರಿ, ಜಿಲ್ಲಾಧಿಕಾರಿ.\nGender: ಲಿಂಗ. Money: ರೂ.6,000; ರೂ.8 ಲಕ್ಷ. September: ಸೆಪ್ಟೆಂಬರ್.\n\n## Malayalam (ml)\n\nScript: Malayalam. Used in Kerala and Lakshadweep, and in Mahe (Puducherry).\nTone: everyday spoken Malayalam.\nWords: ഓൺലൈൻ, അപേക്ഷാഫോം, പോർട്ടൽ, ലോഗിൻ, ആധാർ, ബാങ്ക്, മൊബൈൽ, OTP, ഹെൽപ്‌ലൈൻ,\nസർട്ടിഫിക്കറ്റ്, ഡൗൺലോഡ്, അപ്‌ലോഡ്.\nUI: അപേക്ഷിക്കുക, സമർപ്പിക്കുക, അടുത്തത്, പിന്നോട്ട്, തിരയുക, പങ്കിടുക, ക്രമീകരണങ്ങൾ, ഭാഷ, സഹായം.\nOffices: വില്ലേജ് ഓഫീസ്, അക്ഷയ കേന്ദ്രം, തഹസിൽദാർ, ഗ്രാമപഞ്ചായത്ത്, ജില്ലാ കളക്ടർ.\nGender: ലിംഗം. Money: 6,000 രൂപ; 8 ലക്ഷം രൂപ. September: സെപ്റ്റംബർ.",
+ "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_03.json",
+ "items": [
+  {
+   "k": "4021a984b04e",
+   "ctx": "eligibility",
+   "t": "Women from poor rural households, picked out by the village itself or from the SECC deprivation list"
+  },
+  {
+   "k": "bd323f2af6e8",
+   "ctx": "eligibility",
+   "t": "One woman from each household, in one group"
+  },
+  {
+   "k": "4a618325bdd9",
+   "ctx": "eligibility",
+   "t": "A group has 10 to 20 members (fewer in hilly or remote areas and in groups of persons with disabilities)"
+  },
+  {
+   "k": "a438c4d4c84e",
+   "ctx": "eligibility",
+   "t": "The group must meet, save, lend, repay on time and keep books regularly (the 'Panchasutra') to get the Revolving Fund"
+  },
+  {
+   "k": "bc71c02569a3",
+   "ctx": "eligibility",
+   "t": "Community Investment Fund and bank loans follow once the group is graded by the mission and the bank"
+  },
+  {
+   "k": "21831824c25e",
+   "ctx": "eligibility",
+   "t": "Lakhpati Didi support usually goes to members who have been in an SHG for at least two years and have used the CIF"
+  },
+  {
+   "k": "ea49ed181c0e",
+   "ctx": "documents",
+   "t": "Aadhaar card of each member"
+  },
+  {
+   "k": "0b6885feea75",
+   "ctx": "documents",
+   "t": "Passport-size photographs of the members"
+  },
+  {
+   "k": "55c2a0624d3f",
+   "ctx": "documents",
+   "t": "Savings account opened in the group's name, with a resolution signed by all members"
+  },
+  {
+   "k": "6599a76a6f70",
+   "ctx": "documents",
+   "t": "ID proof of the three office-bearers who will operate the group account"
+  },
+  {
+   "k": "34fd168d6b98",
+   "ctx": "documents",
+   "t": "Bank passbook of each member"
+  },
+  {
+   "k": "c40929b7eeb9",
+   "ctx": "documents",
+   "t": "Group meeting register and savings and loan ledger, kept by the group's bookkeeper"
+  },
+  {
+   "k": "51f371cf97b5",
+   "ctx": "submitAt",
+   "t": "Speak to the Community Resource Person (CRP, the SHG didi or sakhi) or the Village Organisation in your village, or go to the Block Mission Management Unit of your State Rural Livelihoods Mission at the block office. Join an existing group or form a new one with 10–20 women from nearby households; the CRP helps open the group's bank account at the nearest branch and enters the group in the mission's records. Take your Aadhaar, photographs and bank passbook."
+  },
+  {
+   "k": "b990117ce6d3",
+   "ctx": "label",
+   "t": "Name of SHG"
+  },
+  {
+   "k": "3febcbf9c59a",
+   "ctx": "value",
+   "t": "Jai Maa Durga Aajeevika Swayam Sahayata Samuh"
+  },
+  {
+   "k": "2f20fddba771",
+   "ctx": "hint",
+   "t": "The name the members agree on at the first meeting."
+  },
+  {
+   "k": "e633f4740f78",
+   "ctx": "value",
+   "t": "Kanhauli / Kanhauli / Sakra / Muzaffarpur, Bihar"
+  },
+  {
+   "k": "93ff27ac346a",
+   "ctx": "hint",
+   "t": "Where the members live."
+  },
+  {
+   "k": "8cef8d8889d0",
+   "ctx": "label",
+   "t": "Member Name"
+  },
+  {
+   "k": "9d9f8479d8f6",
+   "ctx": "value",
+   "t": "Rinku Devi"
+  },
+  {
+   "k": "9717ce479cdb",
+   "ctx": "value",
+   "t": "Manoj Sahni"
+  },
+  {
+   "k": "99dc85eb6485",
+   "ctx": "value",
+   "t": "12-03-1992 / 34 years"
+  },
+  {
+   "k": "24f2c894b518",
+   "ctx": "hint",
+   "t": "From Aadhaar or another age proof."
+  },
+  {
+   "k": "a971561bb62e",
+   "ctx": "label",
+   "t": "Social Category"
+  },
+  {
+   "k": "fe935440a62e",
+   "ctx": "hint",
+   "t": "SC, ST, OBC, General or Minority."
+  },
+  {
+   "k": "61057739c385",
+   "ctx": "label",
+   "t": "Poverty Status"
+  },
+  {
+   "k": "81733a594b7b",
+   "ctx": "value",
+   "t": "Poor (village identification)"
+  },
+  {
+   "k": "ca928f8d6925",
+   "ctx": "hint",
+   "t": "As decided in the village's identification of poor families, or the SECC list."
+  },
+  {
+   "k": "04c7bf1d82fd",
+   "ctx": "hint",
+   "t": "Each member's own number."
+  },
+  {
+   "k": "6ade30ff7e43",
+   "ctx": "label",
+   "t": "Weekly Savings Amount"
+  },
+  {
+   "k": "af98ac49c13a",
+   "ctx": "value",
+   "t": "Rs.20 a week"
+  },
+  {
+   "k": "514e87fd046c",
+   "ctx": "hint",
+   "t": "Fixed by all members together; the same for everyone."
+  },
+  {
+   "k": "d219236aef3a",
+   "ctx": "label",
+   "t": "Designation in SHG"
+  },
+  {
+   "k": "78444dc427b2",
+   "ctx": "value",
+   "t": "Treasurer"
+  },
+  {
+   "k": "d695eddc77cc",
+   "ctx": "hint",
+   "t": "President, Secretary and Treasurer operate the bank account; others are members."
+  },
+  {
+   "k": "46f61bdd080f",
+   "ctx": "demoSteps",
+   "t": "Meet the CRP or Village Organisation. With 10–20 women from nearby poor households, hold the first meeting, name the group and fix the weekly saving."
+  },
+  {
+   "k": "27559345bba2",
+   "ctx": "demoSteps",
+   "t": "Open a savings account in the group's name with the three office-bearers as signatories; the CRP records the group and each member with the mission."
+  },
+  {
+   "k": "4ea4b1cfc866",
+   "ctx": "demoSteps",
+   "t": "Meet every week, save, lend among yourselves, repay on time and keep the books for about three months."
+  },
+  {
+   "k": "2e8a9133b9b7",
+   "ctx": "demoSteps",
+   "t": "The group gets the Revolving Fund of Rs.20,000–30,000 in its account and joins the Village Organisation."
+  },
+  {
+   "k": "f4ca4fa52fb4",
+   "ctx": "demoSteps",
+   "t": "Through the village federation the group can borrow from the Community Investment Fund, up to Rs.2.5 lakh per SHG, against the members' credit plan."
+  },
+  {
+   "k": "529055f485f8",
+   "ctx": "demoSteps",
+   "t": "The bank gives the group loans without collateral, at 7% for loans up to Rs.3 lakh, with bigger loans after each repayment. Members use them for dairy, farming, shops or other work."
+  },
+  {
+   "k": "b10e7924fae8",
+   "ctx": "demoSteps",
+   "t": "Members are trained under the Lakhpati Didi plan, and the CRP records household income in the Digital Aajeevika Register."
+  },
+  {
+   "k": "8610bf9e12e5",
+   "ctx": "helpline",
+   "t": "Block Mission Management Unit of your State Rural Livelihoods Mission; DAY-NRLM, Ministry of Rural Development 011-23461708; Lakhpati Didi portal support 0120-5202521 (Mon–Sat, 9 am–6 pm)"
+  },
+  {
+   "k": "694073082ca4",
+   "ctx": "title",
+   "t": "Janani Suraksha Yojana (JSY)"
+  },
+  {
+   "k": "6a26915c3da1",
+   "ctx": "department",
+   "t": "National Health Mission, Ministry of Health & Family Welfare"
+  },
+  {
+   "k": "2ec2fd5c076d",
+   "ctx": "brief",
+   "t": "Cash given to a mother who delivers her baby in a government hospital, or in an approved private hospital if she is from a BPL, SC or ST family. The village ASHA helps you register, takes you for check-ups and gets the payment made. Under a separate scheme (JSSK) the delivery itself is free, even a caesarean, along with medicines, food and the ambulance. JSY money is extra, paid into your bank account after the delivery."
+  },
+  {
+   "k": "7d175b25bf3e",
+   "ctx": "benefit",
+   "t": "Rs.1,400 (village) or Rs.1,000 (town) in low-performing states; Rs.700 or Rs.600 elsewhere"
+  },
+  {
+   "k": "f57a8337205a",
+   "ctx": "eligibility",
+   "t": "In Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Jharkhand, Chhattisgarh, Odisha, Assam, Uttarakhand and Jammu & Kashmir: every pregnant woman who delivers in a government hospital or health centre"
+  },
+  {
+   "k": "18b9e2d32912",
+   "ctx": "eligibility",
+   "t": "In all other states: women from BPL, SC or ST families who deliver in a government hospital or health centre"
+  },
+  {
+   "k": "335b99cdee51",
+   "ctx": "eligibility",
+   "t": "In every state: BPL, SC or ST women who deliver in an approved (accredited) private hospital"
+  },
+  {
+   "k": "7e7c26d82ba8",
+   "ctx": "eligibility",
+   "t": "There is no age limit and no limit on the number of children for a hospital delivery"
+  },
+  {
+   "k": "1176130cb918",
+   "ctx": "eligibility",
+   "t": "BPL women who deliver at home get Rs.500"
+  },
+  {
+   "k": "eaabf6214a97",
+   "ctx": "documents",
+   "t": "Mother and Child Protection (MCP) card or JSY card given at registration"
+  },
+  {
+   "k": "8ff2ff383f1c",
+   "ctx": "documents",
+   "t": "Aadhaar card of the mother"
+  },
+  {
+   "k": "b9604884a20a",
+   "ctx": "documents",
+   "t": "Bank account passbook in the mother's name, linked to Aadhaar"
+  },
+  {
+   "k": "07a9fdbacfce",
+   "ctx": "documents",
+   "t": "BPL ration card, or SC/ST caste certificate (needed outside the low-performing states, and for a private hospital delivery)"
+  },
+  {
+   "k": "2a383ab1b91d",
+   "ctx": "documents",
+   "t": "Discharge slip or delivery record from the hospital"
+  },
+  {
+   "k": "04a8040dcb0a",
+   "ctx": "portalName",
+   "t": "National Health Mission"
+  },
+  {
+   "k": "f6fe91d56d0a",
+   "ctx": "submitAt",
+   "t": "At the government hospital or health centre where you deliver: before going home, hand your MCP card, Aadhaar copy, bank passbook copy and (where needed) the BPL ration card or caste certificate to the JSY desk or labour-room staff. Your village ASHA can collect and submit them for you. For a home delivery, give them to the ASHA or the ANM at the sub-centre."
+  },
+  {
+   "k": "528b8cc457f8",
+   "ctx": "label",
+   "t": "Name of mother"
+  },
+  {
+   "k": "d4fe163fd0a1",
+   "ctx": "value",
+   "t": "Sunita Kumari"
+  },
+  {
+   "k": "fb5355fcf978",
+   "ctx": "hint",
+   "t": "The mother's own name, as written on her Aadhaar and bank passbook."
+  },
+  {
+   "k": "390df1365241",
+   "ctx": "label",
+   "t": "Husband's name"
+  },
+  {
+   "k": "a1acd140e0a4",
+   "ctx": "value",
+   "t": "Ramesh Paswan"
+  },
+  {
+   "k": "2d45e09103a3",
+   "ctx": "hint",
+   "t": "Write it as on the ration card, so the family can be matched."
+  },
+  {
+   "k": "c25105820ad3",
+   "ctx": "label",
+   "t": "Age of mother"
+  },
+  {
+   "k": "f1a644333c99",
+   "ctx": "value",
+   "t": "24 years"
+  },
+  {
+   "k": "6e9a580975fa",
+   "ctx": "hint",
+   "t": "Your age now. There is no lower or upper limit for a hospital delivery."
+  },
+  {
+   "k": "f2a934eb2928",
+   "ctx": "label",
+   "t": "MCP card / RCH ID number"
+  },
+  {
+   "k": "2c015df28cfd",
+   "ctx": "hint",
+   "t": "The number on your MCP card, given when the ANM registered your pregnancy."
+  },
+  {
+   "k": "b38fd97f30c7",
+   "ctx": "hint",
+   "t": "BPL, SC, ST or General. Attach the ration card or caste certificate if you tick BPL, SC or ST."
+  },
+  {
+   "k": "1aeace15d087",
+   "ctx": "hint",
+   "t": "The mother's Aadhaar, for checking her identity and for the bank payment."
+  },
+  {
+   "k": "55fb81af2f1c",
+   "ctx": "label",
+   "t": "Date and place of delivery"
+  },
+  {
+   "k": "c6940afa3492",
+   "ctx": "value",
+   "t": "14-03-2026, Community Health Centre, Bikram"
+  },
+  {
+   "k": "b616f513dd64",
+   "ctx": "hint",
+   "t": "Filled by the hospital staff from the labour-room register."
+  },
+  {
+   "k": "6f2c5ec8dde6",
+   "ctx": "hint",
+   "t": "Copy both from the first page of the passbook. The account must be in the mother's own name."
+  },
+  {
+   "k": "95312492d254",
+   "ctx": "label",
+   "t": "Name of ASHA"
+  },
+  {
+   "k": "89773628cee9",
+   "ctx": "value",
+   "t": "Kiran Devi, Ward 6, Bikram"
+  },
+  {
+   "k": "36e0409adbca",
+   "ctx": "hint",
+   "t": "The ASHA who helped you. She is paid separately for helping you."
+  },
+  {
+   "k": "7d6eb2405dc5",
+   "ctx": "demoSteps",
+   "t": "As soon as you know you are pregnant, tell the village ASHA or go to the sub-centre. The ANM registers you and gives you the MCP card."
+  },
+  {
+   "k": "a0aa716223c4",
+   "ctx": "demoSteps",
+   "t": "Go for the pregnancy check-ups written on the card. Ask for the BPL or caste certificate to be noted if you live outside the low-performing states."
+  },
+  {
+   "k": "998cd0393e98",
+   "ctx": "demoSteps",
+   "t": "When labour starts, call 102 or 108 for the free ambulance and go to a government hospital or health centre with the MCP card."
+  },
+  {
+   "k": "9d5cd29a85ef",
+   "ctx": "demoSteps",
+   "t": "Before leaving the hospital, give your Aadhaar, bank passbook copy and MCP card to the JSY desk or labour-room staff, or hand them to the ASHA."
+  },
+  {
+   "k": "7cf9b9c97f0b",
+   "ctx": "demoSteps",
+   "t": "The hospital enters your claim. The money is sent straight to your bank account, usually within a few weeks."
+  },
+  {
+   "k": "4464e2ae014a",
+   "ctx": "demoSteps",
+   "t": "If it has not come in a month, ask the ASHA or the hospital's JSY clerk, or call 104 with your MCP card number."
+  },
+  {
+   "k": "dd55c5d62bb4",
+   "ctx": "helpline",
+   "t": "104 (state health helpline) / 102 (free ambulance for pregnant women) / 108"
+  },
+  {
+   "k": "afc044e0a76a",
+   "ctx": "title",
+   "t": "Sukanya Samriddhi Yojana (SSY / Sukanya Account)"
+  },
+  {
+   "k": "aa31f99ad0c2",
+   "ctx": "department",
+   "t": "Department of Economic Affairs, Ministry of Finance; run through India Post and authorised banks"
+  },
+  {
+   "k": "6bd104f61f63",
+   "ctx": "brief",
+   "t": "A savings account in a girl's name that pays one of the highest safe interest rates in the country, 8.2% a year for October to December 2026, completely tax-free. A parent opens it before the girl turns 10, at a post office or authorised bank, with as little as Rs.250, and keeps depositing for 15 years; the account matures 21 years after opening. Half the money can be taken out after she turns 18 for her studies. Rs.1,000 a month for 15 years grows to about Rs.5.5 lakh at today's rate."
+  },
+  {
+   "k": "6bdae11b0e0b",
+   "ctx": "benefit",
+   "t": "8.2% tax-free interest; deposit Rs.250 to Rs.1.5 lakh a year"
+  },
+  {
+   "k": "bca6b4d51fdb",
+   "ctx": "eligibility",
+   "t": "Girl child below 10 years of age, resident in India"
+  },
+  {
+   "k": "39e6ecdcced5",
+   "ctx": "eligibility",
+   "t": "Opened by the girl's parent or legal guardian; accounts opened by grandparents must be moved to a parent's name"
+  },
+  {
+   "k": "129af1344f87",
+   "ctx": "eligibility",
+   "t": "One account per girl, and at most two girls per family (a third only for twins or triplets)"
+  },
+  {
+   "k": "aec5c72939b8",
+   "ctx": "eligibility",
+   "t": "Minimum Rs.250 and maximum Rs.1.5 lakh in a financial year, paid for 15 years from opening"
+  },
+  {
+   "k": "752abbf16d74",
+   "ctx": "eligibility",
+   "t": "A year without the minimum deposit can be made good by paying Rs.250 for that year plus Rs.50 penalty"
+  },
+  {
+   "k": "a7dcbfbd5ad1",
+   "ctx": "documents",
+   "t": "Account opening form with Sukanya Samriddhi Account ticked"
+  },
+  {
+   "k": "45f962c90527",
+   "ctx": "documents",
+   "t": "Girl's birth certificate"
+  },
+  {
+   "k": "5d710d644d10",
+   "ctx": "documents",
+   "t": "Parent's Aadhaar card"
+  },
+  {
+   "k": "d92d0ab9d8b7",
+   "ctx": "documents",
+   "t": "Parent's PAN card, or Form 60 if you have no PAN"
+  },
+  {
+   "k": "12cdfcc67382",
+   "ctx": "documents",
+   "t": "Passport-size photos of the parent (and of the girl where the office asks)"
+  },
+  {
+   "k": "a3b7e153167a",
+   "ctx": "documents",
+   "t": "Address proof, if the address on Aadhaar is different"
+  },
+  {
+   "k": "85857a48f4e1",
+   "ctx": "documents",
+   "t": "First deposit of at least Rs.250, in cash or by cheque"
+  },
+  {
+   "k": "efc1d656d82f",
+   "ctx": "portalName",
+   "t": "India Post"
+  },
+  {
+   "k": "a03c5b622495",
+   "ctx": "submitAt",
+   "t": "Any post office with a savings bank counter, or a branch of an authorised bank such as SBI, Punjab National Bank, Bank of Baroda, Canara Bank or ICICI Bank. Take the filled form, the girl's birth certificate, your Aadhaar and PAN with originals for checking, two photos and the first deposit of at least Rs.250; the passbook is handed to you at the counter."
+  },
+  {
+   "k": "7fbb44bead71",
+   "ctx": "label",
+   "t": "Name of Post Office"
+  },
+  {
+   "k": "f031158c3fd1",
+   "ctx": "value",
+   "t": "Hazratganj Head Post Office, Lucknow"
+  },
+  {
+   "k": "24f471957af9",
+   "ctx": "hint",
+   "t": "The post office or bank branch where you are opening the account. It can be moved to any other place in India later."
+  },
+  {
+   "k": "e043d0ff4d13",
+   "ctx": "label",
+   "t": "Type of account"
+  },
+  {
+   "k": "0d9ed5025774",
+   "ctx": "value",
+   "t": "Sukanya Samriddhi Account (SSA)"
+  },
+  {
+   "k": "46501374293f",
+   "ctx": "hint",
+   "t": "The same form is used for every post office savings scheme, so tick SSA."
+  },
+  {
+   "k": "c4644a63537f",
+   "ctx": "label",
+   "t": "Name of account holder (girl)"
+  },
+  {
+   "k": "08cfed22f1ea",
+   "ctx": "value",
+   "t": "Anaya Verma"
+  },
+  {
+   "k": "a578774514c1",
+   "ctx": "hint",
+   "t": "The girl's name exactly as written on her birth certificate."
+  },
+  {
+   "k": "12f3caf1ff39",
+   "ctx": "label",
+   "t": "Date of birth of the girl"
+  },
+  {
+   "k": "19cf28c1e262",
+   "ctx": "hint",
+   "t": "She must be under 10 on the day the account is opened."
+  },
+  {
+   "k": "d7d7ce5ea16c",
+   "ctx": "label",
+   "t": "Name of guardian and relation"
+  },
+  {
+   "k": "e5592614b422",
+   "ctx": "value",
+   "t": "Sunita Verma / Mother"
+  },
+  {
+   "k": "1327b500feb7",
+   "ctx": "hint",
+   "t": "The parent who will run the account until the girl turns 18."
+  },
+  {
+   "k": "9c0593a61845",
+   "ctx": "label",
+   "t": "Guardian's Aadhaar number"
+  },
+  {
+   "k": "3c5978d1b14c",
+   "ctx": "hint",
+   "t": "Aadhaar of the parent filling the form; show the original at the counter."
+  },
+  {
+   "k": "bb948de95b0e",
+   "ctx": "label",
+   "t": "Guardian's PAN"
+  },
+  {
+   "k": "62287d90bc35",
+   "ctx": "hint",
+   "t": "If you do not have a PAN, write Form 60 and fill that form instead."
+  },
+  {
+   "k": "317ba48d1fdb",
+   "ctx": "label",
+   "t": "Mobile number and address"
+  },
+  {
+   "k": "c06d030aeca1",
+   "ctx": "value",
+   "t": "98390 12345 / 12 Nishatganj, Lucknow 226006"
+  },
+  {
+   "k": "ccf2f4aafc78",
+   "ctx": "hint",
+   "t": "Messages about deposits and interest come to this number."
+  },
+  {
+   "k": "bf65d45cf9ab",
+   "ctx": "label",
+   "t": "Amount of first deposit"
+  },
+  {
+   "k": "41ca33c17f08",
+   "ctx": "value",
+   "t": "Rs.1,000 (cash)"
+  },
+  {
+   "k": "f7fc81f0d5ba",
+   "ctx": "hint",
+   "t": "At least Rs.250. Later deposits can be any amount in multiples of Rs.50, up to Rs.1.5 lakh a year."
+  },
+  {
+   "k": "e64425a80c3d",
+   "ctx": "demoSteps",
+   "t": "Take the account opening form at the post office counter, or download it from the India Post forms page, and tick Sukanya Samriddhi Account."
+  },
+  {
+   "k": "bbd1ff359a3c",
+   "ctx": "demoSteps",
+   "t": "Fill in the girl's details from her birth certificate and your own as parent, and attach copies of the birth certificate, your Aadhaar and PAN, with photos."
+  },
+  {
+   "k": "71f2c53d152a",
+   "ctx": "demoSteps",
+   "t": "Hand it in with the first deposit. The clerk checks the originals and gives you a passbook with the account number."
+  },
+  {
+   "k": "35db45f6429d",
+   "ctx": "demoSteps",
+   "t": "Deposit at least Rs.250 every financial year for 15 years, at the counter, through the India Post or IPPB app, or by standing instruction."
+  },
+  {
+   "k": "eb35140d689e",
+   "ctx": "demoSteps",
+   "t": "Interest, 8.2% for October to December 2026 and revised every quarter, is added every 31 March and is tax-free. Deposits also count under section 80C in the old tax regime."
+  },
+  {
+   "k": "53ca375e78ea",
+   "ctx": "demoSteps",
+   "t": "When she turns 18 or passes Class 10, up to half of the balance can be withdrawn for higher studies with the admission letter or fee slip."
+  },
+  {
+   "k": "0892fb215771",
+   "ctx": "demoSteps",
+   "t": "At 21 years from opening, or at her marriage after 18, fill the closure form and the full amount is paid into her bank account."
+  },
+  {
+   "k": "221ed430726a",
+   "ctx": "helpline",
+   "t": "1800-266-6868 (India Post customer care); your bank branch if the account is with a bank"
+  },
+  {
+   "k": "6f598204f311",
+   "ctx": "title",
+   "t": "PM SVANidhi (Street Vendor Loan)"
+  },
+  {
+   "k": "39222f002e3a",
+   "ctx": "department",
+   "t": "Ministry of Housing & Urban Affairs, with SIDBI"
+  },
+  {
+   "k": "f16b3f1f17ef",
+   "ctx": "brief",
+   "t": "A working-capital loan for street vendors with no collateral: Rs.15,000 first, then Rs.25,000 and Rs.50,000 once each loan is repaid. Repaying on time earns a 7% interest subsidy credited to your loan account, and taking and making payments by UPI or QR code earns cashback of up to Rs.1,600; vendors who repay the second loan can get a UPI-linked RuPay credit card. The scheme was restructured and extended in August 2025, and loans are given till 31 March 2030. You can apply yourself on the portal, or through a CSC or your municipal office."
+  },
+  {
+   "k": "3c1b4e132e99",
+   "ctx": "benefit",
+   "t": "Loans of Rs.15,000, Rs.25,000 and Rs.50,000 without collateral, with 7% interest subsidy"
+  },
+  {
+   "k": "d0878d0761b0",
+   "ctx": "eligibility",
+   "t": "Street vendor selling in a town or city, with a Certificate of Vending or ID card from the municipality or Town Vending Committee"
+  },
+  {
+   "k": "b43cdb37a020",
+   "ctx": "eligibility",
+   "t": "Or named in the municipality's vendor survey (Survey Reference Number), even if no certificate was issued"
+  },
+  {
+   "k": "5d603f529bdc",
+   "ctx": "eligibility",
+   "t": "Vendors left out of the survey, or from nearby villages and peri-urban areas who sell within town limits, can apply with a Letter of Recommendation (LoR) from the municipality"
+  },
+  {
+   "k": "3814776b41d7",
+   "ctx": "eligibility",
+   "t": "Without an LoR, you must be a member of a vendors' association or have received the one-time Covid assistance"
+  },
+  {
+   "k": "638412280775",
+   "ctx": "eligibility",
+   "t": "The Rs.25,000 and Rs.50,000 loans are given only after the previous loan is fully repaid"
+  },
+  {
+   "k": "ff8d52cb22a5",
+   "ctx": "documents",
+   "t": "Aadhaar card, with your mobile number linked to it (needed for e-KYC)"
+  },
+  {
+   "k": "6864f401ba1f",
+   "ctx": "documents",
+   "t": "Certificate of Vending or vendor ID card, or Survey Reference Number, or Letter of Recommendation"
+  },
+  {
+   "k": "5a693bddead3",
+   "ctx": "documents",
+   "t": "Savings bank account passbook"
+  },
+  {
+   "k": "d5022c7f0278",
+   "ctx": "documents",
+   "t": "Passport-size photo"
+  },
+  {
+   "k": "10de89dc4969",
+   "ctx": "documents",
+   "t": "Proof of membership of a vendors' association, if you have no LoR"
+  },
+  {
+   "k": "abe264f0ebab",
+   "ctx": "portalName",
+   "t": "PM SVANidhi portal"
+  },
+  {
+   "k": "813d0159ff6d",
+   "ctx": "hint",
+   "t": "Your Aadhaar-linked mobile. Fill the captcha and tap Request OTP; the OTP comes here."
+  },
+  {
+   "k": "f1c6420798bd",
+   "ctx": "label",
+   "t": "Vendor category"
+  },
+  {
+   "k": "2f5a8d8d2bfc",
+   "ctx": "value",
+   "t": "In the survey, no certificate issued"
+  },
+  {
+   "k": "8c48e28607e5",
+   "ctx": "hint",
+   "t": "Pick the line that fits you: have a certificate or ID card, in the survey without one, have an LoR, or none of these."
+  },
+  {
+   "k": "177ac9c5242f",
+   "ctx": "label",
+   "t": "Survey Reference Number (SRN)"
+  },
+  {
+   "k": "763fae32c427",
+   "ctx": "hint",
+   "t": "Find it with the survey status search on the portal. With a certificate, give its number; with an LoR, upload it."
+  },
+  {
+   "k": "e674f748f061",
+   "ctx": "hint",
+   "t": "Verified by OTP; your name, date of birth and address are taken from Aadhaar."
+  },
+  {
+   "k": "ef611c623b36",
+   "ctx": "label",
+   "t": "Father's / husband's name"
+  },
+  {
+   "k": "4f4e801dac70",
+   "ctx": "value",
+   "t": "Mohan Lal"
+  },
+  {
+   "k": "e78acd713545",
+   "ctx": "hint",
+   "t": "As on your Aadhaar or vending certificate."
+  },
+  {
+   "k": "4e3cf8b91a37",
+   "ctx": "hint",
+   "t": "General, SC, ST, OBC or minority, as you belong."
+  },
+  {
+   "k": "379d1e8973f5",
+   "ctx": "label",
+   "t": "Vending details"
+  },
+  {
+   "k": "a2d3f29108fd",
+   "ctx": "value",
+   "t": "Fixed spot, Lajpat Nagar market, New Delhi"
+  },
+  {
+   "k": "5e7fa3d6898f",
+   "ctx": "hint",
+   "t": "Where you sell and whether you sit at one place or move with a cart."
+  },
+  {
+   "k": "ddff69528fd9",
+   "ctx": "label",
+   "t": "Goods sold"
+  },
+  {
+   "k": "b1e41d3b1fa2",
+   "ctx": "value",
+   "t": "Vegetables and fruits"
+  },
+  {
+   "k": "34bdd0230887",
+   "ctx": "hint",
+   "t": "What you mainly sell, for example tea, snacks, clothes, flowers or repairs."
+  },
+  {
+   "k": "00fc3b7ee4fa",
+   "ctx": "label",
+   "t": "Lender and branch"
+  },
+  {
+   "k": "4eb5a0996578",
+   "ctx": "value",
+   "t": "Punjab National Bank, Lajpat Nagar"
+  },
+  {
+   "k": "f1b2bd7a7c11",
+   "ctx": "hint",
+   "t": "Choose the bank where you have your savings account; the loan is credited there."
+  },
+  {
+   "k": "61b36bbaa7e6",
+   "ctx": "label",
+   "t": "Loan amount"
+  },
+  {
+   "k": "ce9287a9c65e",
+   "ctx": "value",
+   "t": "Rs.15,000"
+  },
+  {
+   "k": "059f554ad1c8",
+   "ctx": "hint",
+   "t": "The first loan is Rs.15,000. Rs.25,000 and then Rs.50,000 follow after repayment."
+  },
+  {
+   "k": "449d444a99a6",
+   "ctx": "demoSteps",
+   "t": "Check your name in the vendor survey on the portal and keep your SRN, certificate or LoR ready. Make sure your mobile number is linked to Aadhaar."
+  },
+  {
+   "k": "195bcb5b05a6",
+   "ctx": "demoSteps",
+   "t": "Open the PM SVANidhi login page, enter your mobile number and captcha, and log in with the OTP. A CSC or your municipal office can do this for you."
+  },
+  {
+   "k": "9298095ef813",
+   "ctx": "demoSteps",
+   "t": "Choose your vendor category, complete Aadhaar e-KYC, fill in your vending and bank details, and submit. Note the application number."
+  },
+  {
+   "k": "d40a69428a72",
+   "ctx": "demoSteps",
+   "t": "The municipality verifies you; if you have no certificate, it issues the Letter of Recommendation online."
+  },
+  {
+   "k": "03bc3c496219",
+   "ctx": "demoSteps",
+   "t": "The bank approves the application and credits Rs.15,000 to your account. Repay it in monthly instalments over 12 months."
+  },
+  {
+   "k": "9e562fc1eb4d",
+   "ctx": "demoSteps",
+   "t": "For on-time repayment, the 7% interest subsidy is credited to your loan account every quarter. Use UPI or QR for sales to earn the cashback."
+  },
+  {
+   "k": "1db12098441d",
+   "ctx": "demoSteps",
+   "t": "After repaying, use Apply for 25k (18 months) and then Apply for 50k (36 months) on the portal; after the second loan you can apply for the RuPay credit card."
+  },
+  {
+   "k": "4198c5c5dc2b",
+   "ctx": "helpline",
+   "t": "1800-11-1979 (PM SVANidhi toll-free) / pmsvanidhi.support@sidbi.in (technical help)"
+  },
+  {
+   "k": "6714d72cc849",
+   "ctx": "title",
+   "t": "PM Viksit Bharat Rozgar Yojana (PM-VBRY, First Job Rs.15,000)"
+  },
+  {
+   "k": "78e8eea72ebe",
+   "ctx": "department",
+   "t": "Ministry of Labour & Employment, through EPFO"
+  },
+  {
+   "k": "d954e2487790",
+   "ctx": "brief",
+   "t": "A one-time payment of up to Rs.15,000 for people in their first PF-covered job: anyone who joins an EPFO-registered employer between 1 August 2025 and 31 July 2027, has never had PF deducted before, and earns up to Rs.1 lakh a month. There is no application form; the money comes from your employer's monthly PF filing, but only if your UAN was made with face authentication on the UMANG app and your bank account is seeded with Aadhaar. Half is paid after 6 months of work, and the rest after 12 months and a short online financial literacy course, kept in a savings deposit for a fixed period. It was announced in Budget 2024-25 as the Employment Linked Incentive (ELI) scheme."
+  },
+  {
+   "k": "d30911a46662",
+   "ctx": "benefit",
+   "t": "Up to Rs.15,000 (one month's PF wage) in two instalments"
+  },
+  {
+   "k": "fa544dc84301",
+   "ctx": "eligibility",
+   "t": "First job with PF: you were never a contributing EPF member before 1 August 2025"
+  },
+  {
+   "k": "abd6dc9a051f",
+   "ctx": "eligibility",
+   "t": "Joined an EPFO-registered employer between 1 August 2025 and 31 July 2027"
+  },
+  {
+   "k": "76cd13f019eb",
+   "ctx": "eligibility",
+   "t": "Gross salary up to Rs.1 lakh a month at the time of joining"
+  },
+  {
+   "k": "2affa5076d3d",
+   "ctx": "eligibility",
+   "t": "UAN generated or verified with face authentication on the UMANG app"
+  },
+  {
+   "k": "2b54afad3416",
+   "ctx": "eligibility",
+   "t": "Stay with the same employer for 6 completed months (first instalment) and 12 months (second instalment)"
+  },
+  {
+   "k": "3c1d1dc05b48",
+   "ctx": "eligibility",
+   "t": "Bank account seeded with Aadhaar; until it is, the money is held back"
+  },
+  {
+   "k": "71e57ef30adf",
+   "ctx": "documents",
+   "t": "Smartphone with the UMANG and AadhaarFaceRD apps for the face scan"
+  },
+  {
+   "k": "3b85ddff1bd1",
+   "ctx": "documents",
+   "t": "Bank account seeded with Aadhaar for DBT (ask your bank to link Aadhaar and enable DBT)"
+  },
+  {
+   "k": "ab688ee2ce60",
+   "ctx": "documents",
+   "t": "Your UAN, given to the employer when you join"
+  },
+  {
+   "k": "bdde2f220bee",
+   "ctx": "portalName",
+   "t": "PM Viksit Bharat Rozgar Yojana portal (EPFO)"
+  },
+  {
+   "k": "7b35012dc011",
+   "ctx": "label",
+   "t": "UMANG service"
+  },
+  {
+   "k": "4a271da5aee8",
+   "ctx": "value",
+   "t": "EPFO > UAN Allotment and Activation"
+  },
+  {
+   "k": "11954d00c462",
+   "ctx": "hint",
+   "t": "Open the UMANG app, search for EPFO and choose UAN Allotment and Activation."
+  },
+  {
+   "k": "e65ac7d90a25",
+   "ctx": "hint",
+   "t": "Your own Aadhaar. The UAN is tied to it for life, so you keep the same UAN in every job."
+  },
+  {
+   "k": "07c9bbc3898e",
+   "ctx": "hint",
+   "t": "The number linked to your Aadhaar; the OTP and later the UAN come here."
+  },
+  {
+   "k": "909d19989084",
+   "ctx": "value",
+   "t": "Ticked"
+  },
+  {
+   "k": "bf4af61c90f3",
+   "ctx": "hint",
+   "t": "You agree to share your Aadhaar details with EPFO."
+  },
+  {
+   "k": "8444696c317c",
+   "ctx": "value",
+   "t": "6-digit OTP from SMS"
+  },
+  {
+   "k": "169035d80c29",
+   "ctx": "hint",
+   "t": "Type the OTP within the time shown on the screen."
+  },
+  {
+   "k": "3f139c23383b",
+   "ctx": "label",
+   "t": "Face authentication"
+  },
+  {
+   "k": "db0c7410fe8f",
+   "ctx": "value",
+   "t": "Done in AadhaarFaceRD app"
+  },
+  {
+   "k": "aa408564c454",
+   "ctx": "hint",
+   "t": "Install AadhaarFaceRD from the Play Store first. Look straight at the camera in good light and blink when asked."
+  },
+  {
+   "k": "fd5226cab3cd",
+   "ctx": "hint",
+   "t": "Comes by SMS. Give it to your employer's office so your PF and this payment are filed under it."
+  },
+  {
+   "k": "83410f2e104e",
+   "ctx": "label",
+   "t": "Date of joining"
+  },
+  {
+   "k": "d6d4f0267192",
+   "ctx": "hint",
+   "t": "Filled in by the employer. It must fall between 1 August 2025 and 31 July 2027."
+  },
+  {
+   "k": "214220123b21",
+   "ctx": "label",
+   "t": "Aadhaar-seeded bank account"
+  },
+  {
+   "k": "65beb6f135cf",
+   "ctx": "value",
+   "t": "State Bank of India, account ending 9999"
+  },
+  {
+   "k": "911a9909b2f0",
+   "ctx": "hint",
+   "t": "The money goes by Aadhaar to the account your Aadhaar is mapped to for DBT, which may not be the account in your PF record."
+  },
+  {
+   "k": "e054f6dfb2ae",
+   "ctx": "label",
+   "t": "Financial literacy course"
+  },
+  {
+   "k": "c939374c6186",
+   "ctx": "value",
+   "t": "Completed on the EPFO portal"
+  },
+  {
+   "k": "3048c303d9c5",
+   "ctx": "hint",
+   "t": "Free and online. It must be done before the second instalment can be paid."
+  },
+  {
+   "k": "85cf244aeea4",
+   "ctx": "demoSteps",
+   "t": "On your first job, make your UAN yourself in the UMANG app (EPFO > UAN Allotment and Activation) with Aadhaar, OTP and a face scan, and give the UAN to your employer."
+  }
+ ]
+}

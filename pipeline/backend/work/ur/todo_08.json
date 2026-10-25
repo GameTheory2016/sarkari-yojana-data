@@ -1,0 +1,1294 @@
+{
+ "lang": "ur",
+ "language": "Urdu",
+ "script": "Perso-Arabic (Nastaliq)",
+ "instructions": "# How to translate this chunk\n\nThis file holds `items`, a list of `{\"k\", \"ctx\", \"t\"}`. `t` is English text\nthat a reader of an Indian app or website sees. `ctx` is the field it came\nfrom, such as label, hint, button, documents, brief or title. Use it to judge\ntone and length: a label stays short, a hint can be a sentence.\n\nWrite `{\"items\": [{\"k\": ..., \"t\": ...}, ...]}` to the path in `write_to`.\nKeep every `k` unchanged and in the same order. Put the translation in `t`.\nLeave out `ctx`. Do not add, merge, split or drop items.\n\n## Keep these exactly as they are\n\n- Placeholders and markup: `{0}`, `{name}`, `%s`, `%d`, `%1$s`, HTML tags, `\\n`.\n- Website addresses, e-mail addresses and links.\n- Every number: phone and toll-free numbers, Aadhaar, account, IFSC, PAN, PIN\n  codes, amounts, dates, percentages. Write digits as 0-9, the Western digits,\n  in every language, including Urdu. People type these into forms that take\n  Western digits.\n- Acronyms people know in Latin letters: OTP, PAN, IFSC, UPI, KYC, e-KYC, DBT,\n  BPL, APL, NFSA, PM-KISAN, SMS, PDF, ID.\n\n## Names\n\n- Product, app, portal and scheme names: transliterate them into the script so\n  they read naturally. Keep any acronym inside them in Latin, so \"APPSC\n  portal\" becomes APPSC followed by the word for portal.\n- A button or menu label quoted from a website, such as 'Apply Online' or\n  'Register', stays in English inside quotes. The reader has to find that exact\n  English word on the screen.\n- People and places in examples are transliterated, never replaced with other\n  names.\n- Government office titles are transliterated so the reader can say them at\n  the counter: Tahsildar, Patwari, Talathi, Mamlatdar, BDO, Collector, Gram\n  Panchayat. The language notes below give the usual local forms.\n\n## Tone\n\nWrite for an ordinary person who may be elderly and may have had little\nschooling. Use everyday spoken language, not heavy official vocabulary. Where\npeople really say the English word, write it in the script: online, form,\nportal, login, mobile, bank, certificate, download, upload, app. Keep\ninstructions short and direct, in the form \"do this\".\n\n\"Gender\" means sex (male or female). It is never the word for caste.\n\n## Before you write\n\nCheck that you have the same number of items as the input and that every\nnumber and placeholder came through. Write the whole file in ONE Write call,\nas valid UTF-8 JSON with no `\\u` escapes and nothing else in the file.\n\n## Hindi (hi)\n\nScript: Devanagari. Used in UP, MP, Bihar, Rajasthan, Haryana, HP, Uttarakhand,\nJharkhand, Chhattisgarh and Delhi, and understood across the north.\nTone: everyday spoken Hindi (Hindustani). Avoid Sanskritised official words.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बैंक, मोबाइल, OTP, हेल्पलाइन,\nसर्टिफिकेट, डाउनलोड, अपलोड.\nUI: आवेदन करें (Apply), जमा करें (Submit), आगे (Next), पीछे (Back), खोजें (Search),\nशेयर करें (Share), सेटिंग (Settings), भाषा (Language), मदद (Help).\nOffices: तहसीलदार, पटवारी, ग्राम पंचायत, कलेक्टर, ब्लॉक विकास कार्यालय (BDO).\nGender: लिंग (never जाति). Money: रु. 6,000; रु. 8 लाख. September: सितंबर.\n\n## Gujarati (gu)\n\nScript: Gujarati. Used in Gujarat, and spoken in Dadra & Nagar Haveli and\nDaman & Diu.\nTone: everyday spoken Gujarati.\nWords: ઓનલાઇન, ફોર્મ, પોર્ટલ, લૉગિન, આધાર, બેંક, મોબાઇલ, OTP, હેલ્પલાઇન, સર્ટિફિકેટ / દાખલો,\nડાઉનલોડ, અપલોડ.\nUI: અરજી કરો, સબમિટ કરો, આગળ, પાછળ, શોધો, શેર કરો, સેટિંગ્સ, ભાષા, મદદ.\nOffices: મામલતદાર, તલાટી, ગ્રામ પંચાયત, કલેક્ટર, તાલુકા પંચાયત.\nGender: જાતિ is caste; use લિંગ. Money: રૂ. 6,000; રૂ. 8 લાખ. September: સપ્ટેમ્બર.\n\n## Marathi (mr)\n\nScript: Devanagari. Used in Maharashtra, and widely in Goa.\nTone: everyday Marathi as spoken in Maharashtra.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बँक, मोबाइल, OTP, हेल्पलाइन, दाखला / सर्टिफिकेट,\nडाउनलोड, अपलोड.\nUI: अर्ज करा, सबमिट करा, पुढे, मागे, शोधा, शेअर करा, सेटिंग्ज, भाषा, मदत.\nOffices: तहसीलदार, तलाठी, ग्रामपंचायत, जिल्हाधिकारी (कलेक्टर), आपले सरकार सेवा केंद्र.\nGender: लिंग. Money: रु. 6,000; रु. 8 लाख. September: सप्टेंबर.\n\n## Bengali (bn)\n\nScript: Bengali. Used in West Bengal and Tripura, and in Assam's Barak Valley\nand the Andamans.\nTone: everyday spoken Bengali (চলিত ভাষা), not সাধু ভাষা.\nWords: অনলাইন, ফর্ম, পোর্টাল, লগইন, আধার, ব্যাংক, মোবাইল, OTP, হেল্পলাইন, সার্টিফিকেট,\nডাউনলোড, আপলোড.\nUI: আবেদন করুন, জমা দিন, পরবর্তী, পিছনে, খুঁজুন, শেয়ার করুন, সেটিংস, ভাষা, সাহায্য.\nOffices: বিডিও অফিস, গ্রাম পঞ্চায়েত, তহসিলদার, জেলাশাসক (কালেক্টর), দুয়ারে সরকার.\nGender: লিঙ্গ. Money: 6,000 টাকা; 8 লাখ টাকা. September: সেপ্টেম্বর.\n\n## Assamese (as)\n\nScript: Bengali script with the Assamese letters ৰ and ৱ. Used in Assam.\nThis is Assamese, not Bengali. Use Assamese words and spellings: আঁচনি\n(scheme), বেংক (bank), কৰক (do), নহয় (is not).\nWords: অনলাইন, প্ৰপত্ৰ / ফৰ্ম, পৰ্টেল, লগইন, আধাৰ, বেংক, মবাইল, OTP, হেল্পলাইন, প্ৰমাণপত্ৰ,\nডাউনল'ড, আপল'ড.\nUI: আবেদন কৰক, দাখিল কৰক, পৰৱৰ্তী, উভতি যাওক, বিচাৰক, শ্বেয়াৰ কৰক, ছেটিংছ, ভাষা, সহায়.\nOffices: চক্ৰ বিষয়াৰ কাৰ্যালয় (Circle Office), গাঁও পঞ্চায়ত, উন্নয়ন খণ্ড কাৰ্যালয় (BDO),\nজিলা উপায়ুক্ত.\nGender: লিংগ. Money: 6,000 টকা; 8 লাখ টকা. September: ছেপ্তেম্বৰ.\n\n## Punjabi (pa)\n\nScript: Gurmukhi. Used in Punjab and Chandigarh, and spoken in Delhi and\nHaryana.\nTone: everyday spoken Punjabi.\nWords: ਆਨਲਾਈਨ, ਫਾਰਮ, ਪੋਰਟਲ, ਲੌਗਇਨ, ਆਧਾਰ, ਬੈਂਕ, ਮੋਬਾਈਲ, OTP, ਹੈਲਪਲਾਈਨ, ਸਰਟੀਫਿਕੇਟ,\nਡਾਊਨਲੋਡ, ਅਪਲੋਡ.\nUI: ਅਰਜ਼ੀ ਦਿਓ, ਜਮ੍ਹਾਂ ਕਰੋ, ਅੱਗੇ, ਪਿੱਛੇ, ਖੋਜੋ, ਸਾਂਝਾ ਕਰੋ, ਸੈਟਿੰਗਾਂ, ਭਾਸ਼ਾ, ਮਦਦ.\nOffices: ਤਹਿਸੀਲਦਾਰ, ਪਟਵਾਰੀ, ਸੇਵਾ ਕੇਂਦਰ, ਗ੍ਰਾਮ ਪੰਚਾਇਤ, ਡਿਪਟੀ ਕਮਿਸ਼ਨਰ.\nGender: ਲਿੰਗ. Money: ₹6,000; ₹8 ਲੱਖ. September: ਸਤੰਬਰ.\n\n## Odia (or)\n\nScript: Odia. Used in Odisha.\nTone: everyday spoken Odia.\nWords: ଅନଲାଇନ, ଫର୍ମ, ପୋର୍ଟାଲ, ଲଗଇନ, ଆଧାର, ବ୍ୟାଙ୍କ, ମୋବାଇଲ, OTP, ହେଲ୍ପଲାଇନ, ସାର୍ଟିଫିକେଟ,\nଡାଉନଲୋଡ, ଅପଲୋଡ.\nUI: ଆବେଦନ କରନ୍ତୁ, ଦାଖଲ କରନ୍ତୁ, ପରବର୍ତ୍ତୀ, ପଛକୁ, ଖୋଜନ୍ତୁ, ସେୟାର କରନ୍ତୁ, ସେଟିଂସ୍, ଭାଷା, ସାହାଯ୍ୟ.\nOffices: ତହସିଲଦାର, ବିଡିଓ, ଗ୍ରାମ ପଞ୍ଚାୟତ, ଜିଲ୍ଲାପାଳ (କଲେକ୍ଟର), ମୋ ସେବା କେନ୍ଦ୍ର.\nGender: ଲିଙ୍ଗ. Money: ଟ.6,000; ଟ.8 ଲକ୍ଷ. September: ସେପ୍ଟେମ୍ବର.\n\n## Tamil (ta)\n\nScript: Tamil. Used in Tamil Nadu and Puducherry, and spoken in the Andamans.\nTone: plain everyday Tamil an elder in a village follows. Avoid both heavy\nliterary Tamil and slang.\nWords: ஆன்லைன், படிவம், போர்ட்டல், லாகின், ஆதார், வங்கி, மொபைல், OTP, உதவி எண், சான்றிதழ்,\nடவுன்லோடு, அப்லோடு.\nUI: விண்ணப்பிக்கவும், சமர்ப்பிக்கவும், அடுத்து, பின்செல், தேடு, பகிர், அமைப்புகள், மொழி, உதவி.\nOffices: தாசில்தார் (வட்டாட்சியர்), கிராம நிர்வாக அலுவலர் (VAO), கிராம ஊராட்சி, மாவட்ட\nஆட்சியர், இ-சேவை மையம்.\nGender: பாலினம். Money: ரூ.6,000; ரூ.8 லட்சம். September: செப்டம்பர்.\n\n## Telugu (te)\n\nScript: Telugu. Used in Andhra Pradesh and Telangana, and in Yanam\n(Puducherry).\nTone: everyday spoken Telugu.\nWords: ఆన్‌లైన్, ఫారం, పోర్టల్, లాగిన్, ఆధార్, బ్యాంక్, మొబైల్, OTP, హెల్ప్‌లైన్, సర్టిఫికెట్,\nడౌన్‌లోడ్, అప్‌లోడ్.\nUI: దరఖాస్తు చేయండి, సమర్పించండి, తదుపరి, వెనుకకు, వెతకండి, షేర్ చేయండి, సెట్టింగ్‌లు, భాష, సహాయం.\nOffices: తహసీల్దార్, గ్రామ / వార్డు సచివాలయం, గ్రామ పంచాయతీ, కలెక్టర్, మీసేవ.\nGender: లింగం. Money: రూ.6,000; రూ.8 లక్షలు. September: సెప్టెంబర్.\n\n## Kannada (kn)\n\nScript: Kannada. Used in Karnataka.\nTone: everyday spoken Kannada.\nWords: ಆನ್‌ಲೈನ್, ಅರ್ಜಿ ನಮೂನೆ / ಫಾರ್ಮ್, ಪೋರ್ಟಲ್, ಲಾಗಿನ್, ಆಧಾರ್, ಬ್ಯಾಂಕ್, ಮೊಬೈಲ್, OTP,\nಸಹಾಯವಾಣಿ, ಪ್ರಮಾಣಪತ್ರ, ಡೌನ್‌ಲೋಡ್, ಅಪ್‌ಲೋಡ್.\nUI: ಅರ್ಜಿ ಸಲ್ಲಿಸಿ, ಸಲ್ಲಿಸಿ, ಮುಂದೆ, ಹಿಂದೆ, ಹುಡುಕಿ, ಹಂಚಿಕೊಳ್ಳಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಭಾಷೆ, ಸಹಾಯ.\nOffices: ತಹಶೀಲ್ದಾರ್, ಗ್ರಾಮ ಲೆಕ್ಕಾಧಿಕಾರಿ, ಗ್ರಾಮ ಪಂಚಾಯಿತಿ, ನಾಡಕಚೇರಿ, ಜಿಲ್ಲಾಧಿಕಾರಿ.\nGender: ಲಿಂಗ. Money: ರೂ.6,000; ರೂ.8 ಲಕ್ಷ. September: ಸೆಪ್ಟೆಂಬರ್.\n\n## Malayalam (ml)\n\nScript: Malayalam. Used in Kerala and Lakshadweep, and in Mahe (Puducherry).\nTone: everyday spoken Malayalam.\nWords: ഓൺലൈൻ, അപേക്ഷാഫോം, പോർട്ടൽ, ലോഗിൻ, ആധാർ, ബാങ്ക്, മൊബൈൽ, OTP, ഹെൽപ്‌ലൈൻ,\nസർട്ടിഫിക്കറ്റ്, ഡൗൺലോഡ്, അപ്‌ലോഡ്.\nUI: അപേക്ഷിക്കുക, സമർപ്പിക്കുക, അടുത്തത്, പിന്നോട്ട്, തിരയുക, പങ്കിടുക, ക്രമീകരണങ്ങൾ, ഭാഷ, സഹായം.\nOffices: വില്ലേജ് ഓഫീസ്, അക്ഷയ കേന്ദ്രം, തഹസിൽദാർ, ഗ്രാമപഞ്ചായത്ത്, ജില്ലാ കളക്ടർ.\nGender: ലിംഗം. Money: 6,000 രൂപ; 8 ലക്ഷം രൂപ. September: സെപ്റ്റംബർ.\n\n## Urdu (ur)\n\nScript: Perso-Arabic (Nastaliq), written right to left. A second official\nlanguage in UP, Bihar, Telangana, Andhra Pradesh, Jharkhand, West Bengal,\nDelhi and J&K.\nTone: everyday spoken Urdu close to Hindustani. Avoid heavy Persian words.\nWords: آن لائن, فارم, پورٹل, لاگ اِن, آدھار, بینک, موبائل, OTP, ہیلپ لائن, سرٹیفکیٹ,\nڈاؤن لوڈ, اپ لوڈ.\nUI: درخواست دیں, جمع کریں, آگے, پیچھے, تلاش کریں, شیئر کریں, سیٹنگز, زبان, مدد.\nOffices: تحصیلدار, پٹواری, گرام پنچایت, بلاک ڈیولپمنٹ آفس (BDO), کلکٹر.\nGender: جنس. Money: 6,000 روپے; 8 لاکھ روپے. September: ستمبر.\nKeep digits Western (0-9). Keep acronyms, links and numbers in Latin.\n\n---",
+ "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ur/done_08.json",
+ "items": [
+  {
+   "k": "fde48ca56ffd",
+   "ctx": "hint",
+   "t": "Must have been issued in Goa at least 5 years ago, and the issue date must be visible on the scan."
+  },
+  {
+   "k": "175403f255bc",
+   "ctx": "label",
+   "t": "Family member 1"
+  },
+  {
+   "k": "0122cd14925c",
+   "ctx": "value",
+   "t": "Rohan Naik — Husband — 9999 7781 2290"
+  },
+  {
+   "k": "a8c1d9d88510",
+   "ctx": "hint",
+   "t": "Name, relation and Aadhaar of each member. Add every member; a family cannot be split."
+  },
+  {
+   "k": "f681e55bc4e7",
+   "ctx": "label",
+   "t": "Family member 2"
+  },
+  {
+   "k": "bcb705af36aa",
+   "ctx": "value",
+   "t": "Tanvi Naik — Daughter, 9 years — 9999 1120 5544"
+  },
+  {
+   "k": "4676f231c529",
+   "ctx": "hint",
+   "t": "For a child under 5 without Aadhaar, attach the birth certificate instead."
+  },
+  {
+   "k": "fca65ec38e1d",
+   "ctx": "label",
+   "t": "Family member 3"
+  },
+  {
+   "k": "bf5d7223facf",
+   "ctx": "value",
+   "t": "Rukmini Naik — Mother-in-law (dependent)"
+  },
+  {
+   "k": "8c583f5da06e",
+   "ctx": "hint",
+   "t": "A woman eligible person can add dependent parents-in-law. Four members means Rs.6 lakh cover and a Rs.300 fee."
+  },
+  {
+   "k": "d5ad54bb7482",
+   "ctx": "label",
+   "t": "Concession category"
+  },
+  {
+   "k": "4c68a607efb3",
+   "ctx": "value",
+   "t": "General — no concession"
+  },
+  {
+   "k": "b9c09302588d",
+   "ctx": "hint",
+   "t": "Choose OBC (non-creamy layer), SC, ST or differently abled only if you upload the certificate; the fee is then halved."
+  },
+  {
+   "k": "06e4fa517dbc",
+   "ctx": "label",
+   "t": "Office to collect the card"
+  },
+  {
+   "k": "61df34e8bc18",
+   "ctx": "value",
+   "t": "Community Health Centre, Ponda"
+  },
+  {
+   "k": "d4a5b465ef80",
+   "ctx": "hint",
+   "t": "Pick the health office nearest your home. Collect the card there within 30 days of approval."
+  },
+  {
+   "k": "1afa0220d233",
+   "ctx": "demoSteps",
+   "t": "Register on goaonline.gov.in with your mobile OTP and log in. Open Services, All Services, then Deen Dayal Swasthya Seva Yojana (DDSSY) - New Enrollment."
+  },
+  {
+   "k": "a30c31f94d87",
+   "ctx": "demoSteps",
+   "t": "Fill in the eligible person's details, add each family member with Aadhaar, and upload the self-attested 5-year residence proof."
+  },
+  {
+   "k": "57ed84a31669",
+   "ctx": "demoSteps",
+   "t": "Choose a concession category if you have one, pay the fee (Rs.200 for up to 3 members, Rs.300 for 4 or more) and note the acknowledgement number."
+  },
+  {
+   "k": "b322f932f039",
+   "ctx": "demoSteps",
+   "t": "If the application is marked for compliance, reply within 30 days, or it is rejected and the fee is forfeited."
+  },
+  {
+   "k": "6298734cc1d0",
+   "ctx": "demoSteps",
+   "t": "When the SMS says it is approved, download the e-card and collect the DDSSY card from the office you chose within 30 days."
+  },
+  {
+   "k": "d66b977f9bb1",
+   "ctx": "demoSteps",
+   "t": "Show the card at the DDSSY desk of an empanelled hospital for cashless treatment. Renew it every year before 31 March through DDSSY - Renewal, using the card number and OTP."
+  },
+  {
+   "k": "4c31d37fd085",
+   "ctx": "helpline",
+   "t": "8882988000 — Goa Online helpline for DDSSY enrolment and renewal (9:45 am to 5:30 pm) / 0832-2225561 — Directorate of Health Services, Panaji"
+  },
+  {
+   "k": "8bf4e5027f9a",
+   "ctx": "title",
+   "t": "Griha Aadhar (Homemaker Allowance)"
+  },
+  {
+   "k": "b4ed20eafea1",
+   "ctx": "department",
+   "t": "Directorate of Women & Child Development, Government of Goa"
+  },
+  {
+   "k": "7b691d7ab1a0",
+   "ctx": "brief",
+   "t": "Rs.1,500 every month in the bank account of a Goan homemaker whose family earns up to Rs.3 lakh a year, to help with household costs. It is for married women, widows and divorcees who have lived in Goa for 15 years. Apply on Goa Online; the money arrives by the 10th of each month. The 2026-27 budget announced an increase, but the new amount had not been notified when this was checked."
+  },
+  {
+   "k": "26fc025b507b",
+   "ctx": "benefit",
+   "t": "Rs.1,500 a month, credited by the 10th"
+  },
+  {
+   "k": "714d1f66d87a",
+   "ctx": "eligibility",
+   "t": "Married woman, widow or divorcee aged 18 or above"
+  },
+  {
+   "k": "1a6b234f03e0",
+   "ctx": "eligibility",
+   "t": "Resident of Goa for at least 15 years; if she was born outside Goa, the husband's 15-year residence is checked too"
+  },
+  {
+   "k": "cd6ba6857c98",
+   "ctx": "eligibility",
+   "t": "Combined gross income of wife and husband not above Rs.3 lakh a year"
+  },
+  {
+   "k": "89a4b6a79a82",
+   "ctx": "eligibility",
+   "t": "Not for women who are, or whose husbands are, regular government or listed public-sector employees"
+  },
+  {
+   "k": "39005af07677",
+   "ctx": "eligibility",
+   "t": "Cannot be drawn together with the Dayanand Social Security pension, except by some widows with young children"
+  },
+  {
+   "k": "6a1b11daebb2",
+   "ctx": "documents",
+   "t": "Birth certificate of the applicant"
+  },
+  {
+   "k": "7e3b6216de99",
+   "ctx": "documents",
+   "t": "Marriage certificate (husband's death certificate for a widow, divorce order for a divorcee)"
+  },
+  {
+   "k": "99ff842dc531",
+   "ctx": "documents",
+   "t": "Residence certificate showing 15 years in Goa (husband's birth and residence certificates if you were born outside Goa)"
+  },
+  {
+   "k": "8f9772da44c2",
+   "ctx": "documents",
+   "t": "Voter ID or Aadhaar card"
+  },
+  {
+   "k": "ad3cd0ecad44",
+   "ctx": "documents",
+   "t": "Income proof, with the self-declaration of occupation and income"
+  },
+  {
+   "k": "492aa315d43a",
+   "ctx": "documents",
+   "t": "Savings bank account details, with the account linked to Aadhaar"
+  },
+  {
+   "k": "b74174bcf9ef",
+   "ctx": "documents",
+   "t": "Photo and signature of the applicant"
+  },
+  {
+   "k": "848a187cc512",
+   "ctx": "documents",
+   "t": "Verification report signed by a Gazetted Officer, MLA or MP (format on the Goa Online page)"
+  },
+  {
+   "k": "2297f8f939b2",
+   "ctx": "value",
+   "t": "Married / 15+ years in Goa / income below Rs.3 lakh / husband not in government service"
+  },
+  {
+   "k": "af17e4864d11",
+   "ctx": "hint",
+   "t": "Answer honestly. The form opens only if every answer fits the rules."
+  },
+  {
+   "k": "68f9f77b1876",
+   "ctx": "label",
+   "t": "Applicant name"
+  },
+  {
+   "k": "129d9a311776",
+   "ctx": "value",
+   "t": "Maria Fernandes"
+  },
+  {
+   "k": "82b86bc747dc",
+   "ctx": "hint",
+   "t": "As on your Aadhaar and bank passbook, so the money is not held up."
+  },
+  {
+   "k": "906fc1ae1418",
+   "ctx": "hint",
+   "t": "As on your birth certificate."
+  },
+  {
+   "k": "b3633b7db9e8",
+   "ctx": "hint",
+   "t": "Married, widow or divorcee. Widows and divorcees upload the death certificate or divorce order."
+  },
+  {
+   "k": "e49fda77a7fa",
+   "ctx": "value",
+   "t": "Anthony Fernandes"
+  },
+  {
+   "k": "4f5bfe63a762",
+   "ctx": "hint",
+   "t": "As on the marriage certificate."
+  },
+  {
+   "k": "275e6f667097",
+   "ctx": "label",
+   "t": "Taluka and village"
+  },
+  {
+   "k": "82ede28e428f",
+   "ctx": "value",
+   "t": "Salcete / Curtorim"
+  },
+  {
+   "k": "6afe16766e75",
+   "ctx": "hint",
+   "t": "Where you live now; the field check is done here."
+  },
+  {
+   "k": "c96d131d4d43",
+   "ctx": "label",
+   "t": "Combined annual income (Rs.)"
+  },
+  {
+   "k": "0ce9ad724fa4",
+   "ctx": "hint",
+   "t": "Your income and your husband's together, before deductions. It must not be above Rs.3,00,000."
+  },
+  {
+   "k": "f1be359a90ca",
+   "ctx": "hint",
+   "t": "Your own 12-digit Aadhaar. The bank account must be linked to it or payment is stopped."
+  },
+  {
+   "k": "bf13d7dff0cb",
+   "ctx": "hint",
+   "t": "A savings account in your own name. Copy the IFSC from the passbook."
+  },
+  {
+   "k": "e26efed2a139",
+   "ctx": "hint",
+   "t": "The acknowledgement and sanction messages come here."
+  },
+  {
+   "k": "f8466936e362",
+   "ctx": "demoSteps",
+   "t": "Register on goaonline.gov.in with your mobile OTP and log in."
+  },
+  {
+   "k": "c257e3081a2a",
+   "ctx": "demoSteps",
+   "t": "Open Services, All Services, Directorate of Women & Child Development, Griha Aadhar Scheme, and answer the eligibility questions."
+  },
+  {
+   "k": "a98cfbdb4466",
+   "ctx": "demoSteps",
+   "t": "Fill in the form and upload the documents, including the verification report signed by a Gazetted Officer, MLA or MP."
+  },
+  {
+   "k": "008ab70683de",
+   "ctx": "demoSteps",
+   "t": "Save, pay the fee shown, and note the acknowledgement number sent by SMS and email."
+  },
+  {
+   "k": "6f6f4f1e5cc3",
+   "ctx": "demoSteps",
+   "t": "The Directorate checks the application and may verify it at your home; you then get a sanction order."
+  },
+  {
+   "k": "0b0165cef0a3",
+   "ctx": "demoSteps",
+   "t": "Rs.1,500 is credited by the 10th of every month. Give a life certificate and income certificate between 1 April and 30 May each year, or the payment stops."
+  },
+  {
+   "k": "cfc6fd61f062",
+   "ctx": "helpline",
+   "t": "9284238500 — Griha Aadhar queries, Directorate of Women & Child Development / 8882988000 — Goa Online helpline"
+  },
+  {
+   "k": "064ca8abe30d",
+   "ctx": "title",
+   "t": "Namo Saraswati Vigyan Sadhana Yojana (Class 11-12 Science)"
+  },
+  {
+   "k": "52e7876f4408",
+   "ctx": "brief",
+   "t": "Rs.25,000 over two years for a student who takes the science stream in classes 11 and 12 in Gujarat - Rs.1,000 a month for 10 months in each year, and Rs.5,000 after passing the Class 12 science board exam. It is for students who scored at least 50% in the Class 10 board and study in a government, grant-in-aid or self-financed school. Parents do not apply anywhere: the school enrols the student, so the documents go to the school. The money is paid straight into the bank account."
+  },
+  {
+   "k": "cdbb700a8ba1",
+   "ctx": "benefit",
+   "t": "Rs.25,000 in all: Rs.10,000 in each of classes 11 and 12, plus Rs.5,000 on passing Class 12"
+  },
+  {
+   "k": "8aff8dc1463d",
+   "ctx": "eligibility",
+   "t": "Studying class 11 or 12 in the science stream at a government, grant-in-aid or self-financed school in Gujarat"
+  },
+  {
+   "k": "948a62439306",
+   "ctx": "eligibility",
+   "t": "Scored at least 50% in the Class 10 board exam"
+  },
+  {
+   "k": "7ae46bfdb555",
+   "ctx": "eligibility",
+   "t": "The monthly money depends on the student staying in school; a student who leaves stops getting it"
+  },
+  {
+   "k": "17f2b5617b17",
+   "ctx": "eligibility",
+   "t": "The Rs.5,000 is paid only after passing the Class 12 science board exam"
+  },
+  {
+   "k": "75cb1286b550",
+   "ctx": "documents",
+   "t": "Student's Aadhaar card"
+  },
+  {
+   "k": "83a4530fce5c",
+   "ctx": "documents",
+   "t": "Class 10 board marksheet"
+  },
+  {
+   "k": "a83890a30ace",
+   "ctx": "documents",
+   "t": "Bank account in the student's name, or joint with the mother, linked with Aadhaar"
+  },
+  {
+   "k": "345ebf61ccc9",
+   "ctx": "documents",
+   "t": "Income certificate, or the declaration form the school gives"
+  },
+  {
+   "k": "22fb4acff7ff",
+   "ctx": "documents",
+   "t": "School admission (GR) number or leaving certificate"
+  },
+  {
+   "k": "2f2c65c688ca",
+   "ctx": "submitAt",
+   "t": "At the school where the student is in Class 11 science. Give copies to the class teacher or to the teacher or clerk the school has made in charge of Namo Saraswati - the school enters the student on the state's Namo payment portal from its own login. Take the student's Aadhaar, Class 10 marksheet, bank passbook and income proof."
+  },
+  {
+   "k": "08251f5e8b06",
+   "ctx": "value",
+   "t": "Darshan Hasmukhbhai Patel"
+  },
+  {
+   "k": "740e50526825",
+   "ctx": "hint",
+   "t": "As in the school register and on the Class 10 marksheet. Tell the clerk if the Aadhaar spelling is different."
+  },
+  {
+   "k": "254a25b7b29f",
+   "ctx": "value",
+   "t": "Shri Navchetan Higher Secondary School, Anand - GR 7719"
+  },
+  {
+   "k": "8f8de628f06a",
+   "ctx": "hint",
+   "t": "The GR number is on the school ID or the fee receipt."
+  },
+  {
+   "k": "b97c4bed348c",
+   "ctx": "label",
+   "t": "Class and stream"
+  },
+  {
+   "k": "b7ae85a604b5",
+   "ctx": "value",
+   "t": "Class 11 Science (Group B)"
+  },
+  {
+   "k": "504aeec7b66d",
+   "ctx": "hint",
+   "t": "Only the science stream qualifies, Group A or Group B."
+  },
+  {
+   "k": "ef38487de6e7",
+   "ctx": "label",
+   "t": "Class 10 board seat number and result"
+  },
+  {
+   "k": "283e1b9becc6",
+   "ctx": "hint",
+   "t": "From the Class 10 marksheet. Below 50% does not qualify."
+  },
+  {
+   "k": "dfe6a5390cdf",
+   "ctx": "hint",
+   "t": "Must match the school record and the Aadhaar."
+  },
+  {
+   "k": "a59724120560",
+   "ctx": "label",
+   "t": "Student's Aadhaar number"
+  },
+  {
+   "k": "83d1c234a53f",
+   "ctx": "hint",
+   "t": "The student's own Aadhaar. The payment is checked against it."
+  },
+  {
+   "k": "1b9c332b4225",
+   "ctx": "hint",
+   "t": "Both parents together. It must be up to Rs.6 lakh."
+  },
+  {
+   "k": "2317df225199",
+   "ctx": "hint",
+   "t": "In the student's name or joint with the mother, active and linked with Aadhaar."
+  },
+  {
+   "k": "564528249bdf",
+   "ctx": "hint",
+   "t": "Payment messages come here. Give the number the family actually uses."
+  },
+  {
+   "k": "3cccd04d301f",
+   "ctx": "demoSteps",
+   "t": "Open a bank account in the student's name (or joint with the mother) and get Aadhaar linked to it."
+  },
+  {
+   "k": "3bd2904868c1",
+   "ctx": "demoSteps",
+   "t": "Soon after admission to Class 11 science, give the school copies of the Aadhaar, Class 10 marksheet, passbook and income proof."
+  },
+  {
+   "k": "f453b259fc6c",
+   "ctx": "demoSteps",
+   "t": "The school enters the student on the Namo payment portal. Ask the clerk to confirm the bank details were accepted."
+  },
+  {
+   "k": "b128c78d1d07",
+   "ctx": "demoSteps",
+   "t": "Rs.1,000 a month for 10 months comes in Class 11, and again in Class 12, while the student keeps attending."
+  },
+  {
+   "k": "4f2206361ca7",
+   "ctx": "demoSteps",
+   "t": "After passing the Class 12 science board exam, the last Rs.5,000 comes."
+  },
+  {
+   "k": "2916baf2301f",
+   "ctx": "demoSteps",
+   "t": "If money stops, ask the school to check the student's status on the portal first - most problems are a bank account not linked with Aadhaar."
+  },
+  {
+   "k": "0b41e85d9269",
+   "ctx": "helpline",
+   "t": "Your school principal or class teacher; District Education Officer (DEO) office"
+  },
+  {
+   "k": "ba29df6bc1e7",
+   "ctx": "title",
+   "t": "Namo Shri Yojana (Rs.12,000 for Pregnant Women)"
+  },
+  {
+   "k": "8073ca3899dc",
+   "ctx": "department",
+   "t": "Health & Family Welfare Department, Gujarat"
+  },
+  {
+   "k": "70cd5e4cc81e",
+   "ctx": "brief",
+   "t": "Rs.12,000 cash for a pregnant woman in Gujarat, paid into her own bank account in four parts, from the time her pregnancy is registered until the baby's 14-week vaccines. It is paid together with the central PM Matru Vandana money, so you register only once. There is no form to fill yourself: the ASHA worker or the ANM registers you at the first antenatal check-up. The baby must be born in a government or private hospital, and the help is given for the first two live children."
+  },
+  {
+   "k": "dcca2fb78f69",
+   "ctx": "benefit",
+   "t": "Rs.12,000 per pregnancy, for the first two live children"
+  },
+  {
+   "k": "84636cba0fb3",
+   "ctx": "eligibility",
+   "t": "Pregnant woman or new mother living in Gujarat, for her first two live children"
+  },
+  {
+   "k": "adc167e4e01a",
+   "ctx": "eligibility",
+   "t": "Belongs to any one of these groups: SC or ST; NFSA or BPL ration card family; PMJAY / MA card holder; e-Shram card holder; MGNREGA job card holder; woman farmer; woman with a disability"
+  },
+  {
+   "k": "2bef60f95172",
+   "ctx": "eligibility",
+   "t": "Or the family's income is not more than Rs.8 lakh a year, shown in the income certificate format the health centre gives"
+  },
+  {
+   "k": "ab309d5c5808",
+   "ctx": "eligibility",
+   "t": "The pregnancy is registered with the ASHA or ANM at the first antenatal check-up"
+  },
+  {
+   "k": "852285fa0fb6",
+   "ctx": "eligibility",
+   "t": "The delivery must take place in a government or private hospital, not at home"
+  },
+  {
+   "k": "16a3aff4fec0",
+   "ctx": "documents",
+   "t": "Woman's Aadhaar card"
+  },
+  {
+   "k": "db36a204fe02",
+   "ctx": "documents",
+   "t": "Bank or post office account in her own name, linked with Aadhaar"
+  },
+  {
+   "k": "05f31e070760",
+   "ctx": "documents",
+   "t": "Mamta card (mother and child card) from the health centre"
+  },
+  {
+   "k": "50b4dbf18e44",
+   "ctx": "documents",
+   "t": "Proof of group: caste certificate, NFSA or BPL ration card, PMJAY card, e-Shram card, MGNREGA job card or disability certificate - or an income certificate up to Rs.8 lakh"
+  },
+  {
+   "k": "49ba41f26c12",
+   "ctx": "documents",
+   "t": "Hospital delivery certificate or discharge paper (for the delivery instalment)"
+  },
+  {
+   "k": "2775cea63f0e",
+   "ctx": "documents",
+   "t": "Baby's birth certificate and the vaccination entries on the Mamta card (for the last instalment)"
+  },
+  {
+   "k": "6eac2c55e2aa",
+   "ctx": "submitAt",
+   "t": "At your first antenatal check-up, ask your ASHA worker, or the ANM at the Anganwadi, sub-centre, Primary Health Centre (PHC) or Urban Health Centre, to register you under Namo Shri. Take your Aadhaar card, bank passbook, Mamta card and the proof of your group (or an income certificate). For the later instalments, show the same ANM the hospital delivery paper and the Mamta card with the baby's vaccine entries."
+  },
+  {
+   "k": "15b74d50b416",
+   "ctx": "label",
+   "t": "Woman's name"
+  },
+  {
+   "k": "af05b7d977db",
+   "ctx": "value",
+   "t": "Kajalben Vipulbhai Chauhan"
+  },
+  {
+   "k": "0f027d9e915c",
+   "ctx": "hint",
+   "t": "Exactly as on her Aadhaar card. The bank account must be in the same name."
+  },
+  {
+   "k": "179173e09ac2",
+   "ctx": "hint",
+   "t": "The pregnant woman's own Aadhaar, not her husband's."
+  },
+  {
+   "k": "1826f58ac79f",
+   "ctx": "value",
+   "t": "Vipulbhai Rameshbhai Chauhan"
+  },
+  {
+   "k": "c7f98a4c2026",
+   "ctx": "hint",
+   "t": "As on his Aadhaar or the ration card."
+  },
+  {
+   "k": "c6463405a6c4",
+   "ctx": "hint",
+   "t": "A number she or the family keeps. Messages about each instalment come here."
+  },
+  {
+   "k": "3e2be74b40e0",
+   "ctx": "label",
+   "t": "Date of last period (LMP)"
+  },
+  {
+   "k": "9b4597491a6d",
+   "ctx": "hint",
+   "t": "First day of the last monthly period. The ANM uses it to work out the due date and the 6-month instalment."
+  },
+  {
+   "k": "fcd8cbb86fd0",
+   "ctx": "label",
+   "t": "Mamta card / registration number"
+  },
+  {
+   "k": "4c8a55b780be",
+   "ctx": "hint",
+   "t": "The number on the Mamta card given at the health centre. Keep the card safe - every check-up and vaccine is written on it."
+  },
+  {
+   "k": "2fa8c51ccaf6",
+   "ctx": "label",
+   "t": "Group (category)"
+  },
+  {
+   "k": "fc62f399e37c",
+   "ctx": "value",
+   "t": "e-Shram card holder"
+  },
+  {
+   "k": "e9c882c55225",
+   "ctx": "hint",
+   "t": "Pick the one group you can prove - SC, ST, NFSA or BPL card, PMJAY card, e-Shram, MGNREGA, farmer or disability - or give the income certificate."
+  },
+  {
+   "k": "9012f41f10f6",
+   "ctx": "label",
+   "t": "Number of live children"
+  },
+  {
+   "k": "9c90edad2754",
+   "ctx": "value",
+   "t": "0 (first pregnancy)"
+  },
+  {
+   "k": "a02623e89e93",
+   "ctx": "hint",
+   "t": "The help is only for the first two live children, so give the true number."
+  },
+  {
+   "k": "378f81d1c403",
+   "ctx": "hint",
+   "t": "Account in the woman's own name, seeded with Aadhaar. A closed or dormant account is the main reason money does not arrive."
+  },
+  {
+   "k": "0da95c6206d0",
+   "ctx": "label",
+   "t": "Village / health centre"
+  },
+  {
+   "k": "b93f0aba09ce",
+   "ctx": "value",
+   "t": "Bechraji, PHC Bechraji, district Mehsana"
+  },
+  {
+   "k": "01f043cf0d58",
+   "ctx": "hint",
+   "t": "Where she lives now and the centre she goes to for check-ups."
+  },
+  {
+   "k": "5ea6e6a3914d",
+   "ctx": "demoSteps",
+   "t": "As soon as you know you are pregnant, meet your ASHA worker or go to the nearest PHC or Urban Health Centre for the first check-up. You get a Mamta card there."
+  },
+  {
+   "k": "159a411e25fd",
+   "ctx": "demoSteps",
+   "t": "Ask the ANM to register you under Namo Shri. Give Aadhaar, passbook, Mamta card and your group proof or income certificate, and check that your bank details are typed correctly."
+  },
+  {
+   "k": "2ec2d215e510",
+   "ctx": "demoSteps",
+   "t": "The first instalment of Rs.5,000 comes to your account after registration (part central PM Matru Vandana money, part state)."
+  },
+  {
+   "k": "2701d9447b45",
+   "ctx": "demoSteps",
+   "t": "After six months of pregnancy and the check-ups, Rs.2,000 more comes."
+  },
+  {
+   "k": "0e9b9e05ed88",
+   "ctx": "demoSteps",
+   "t": "Deliver in a hospital - the 108 ambulance is free. After a hospital delivery Rs.3,000 comes."
+  },
+  {
+   "k": "753ca713644c",
+   "ctx": "demoSteps",
+   "t": "Register the baby's birth and get the vaccines up to 14 weeks written on the Mamta card. The last Rs.2,000 then comes."
+  },
+  {
+   "k": "1b9b55d47f67",
+   "ctx": "demoSteps",
+   "t": "If an instalment does not arrive, ask the ANM to check the status first. Most delays are a bank account not linked with Aadhaar."
+  },
+  {
+   "k": "e3bd97f0aa9d",
+   "ctx": "helpline",
+   "t": "Your ASHA worker or the ANM at the health centre; Gujarat health helpline 104"
+  },
+  {
+   "k": "1bbe393003e0",
+   "ctx": "title",
+   "t": "Manav Kalyan Yojana (Free Tool Kit by e-Voucher)"
+  },
+  {
+   "k": "4e5913f2db78",
+   "ctx": "department",
+   "t": "Commissioner of Cottage & Rural Industries, Industries & Mines Department, Gujarat"
+  },
+  {
+   "k": "362520a847a8",
+   "ctx": "brief",
+   "t": "A free tool kit for starting a small trade: beauty parlour, embroidery, plumbing, vehicle servicing and repair, papad making, pickle making, electric appliance repair, milk and curd selling, puncture repair or centring work. Since 2024 the kit comes as an e-voucher (a QR code) that you use at an approved dealer, and you can also choose 5 days of training paid at Rs.500 a day. The old Manav Garima Yojana has been merged into this scheme; tailoring, carpentry, cobbler, barber and some other trades moved to PM Vishwakarma. You apply on the e-Kutir portal when the yearly window opens (the 2026-27 window opened on 17 June 2026), and when there are more applicants than kits a computerised draw decides."
+  },
+  {
+   "k": "1691a3a7bbba",
+   "ctx": "benefit",
+   "t": "A free tool kit for one of 10 trades through an e-voucher, plus optional training at Rs.500 a day"
+  },
+  {
+   "k": "256505c48ffe",
+   "ctx": "eligibility",
+   "t": "Family income up to Rs.6 lakh a year, in villages and cities alike; no income limit for the 12 most backward SC castes and the most backward, nomadic and denotified SEBC groups"
+  },
+  {
+   "k": "d33a7d570fc5",
+   "ctx": "eligibility",
+   "t": "One kit per family, only once"
+  },
+  {
+   "k": "5cc9f076b2fb",
+   "ctx": "eligibility",
+   "t": "No member of the family should be a government employee"
+  },
+  {
+   "k": "cec359ca6109",
+   "ctx": "eligibility",
+   "t": "Must have an e-Shram card"
+  },
+  {
+   "k": "62071a3da71a",
+   "ctx": "eligibility",
+   "t": "Widows, BPL card holders (score 0 to 16) and the lowest incomes get priority, and 5% of kits are kept for disabled applicants"
+  },
+  {
+   "k": "dd28e83bce8c",
+   "ctx": "documents",
+   "t": "e-Shram card"
+  },
+  {
+   "k": "0444418197f1",
+   "ctx": "documents",
+   "t": "Income certificate up to Rs.6 lakh from the Mamlatdar, TDO, Nagarpalika Chief Officer or Municipal Corporation officer (not needed for the groups with no income limit)"
+  },
+  {
+   "k": "43cde80c4ad0",
+   "ctx": "documents",
+   "t": "BPL card or ration card, if you have one"
+  },
+  {
+   "k": "e24d0400f39d",
+   "ctx": "documents",
+   "t": "Husband's death certificate, for widows claiming priority"
+  },
+  {
+   "k": "5f2d65449701",
+   "ctx": "portalName",
+   "t": "e-Kutir portal"
+  },
+  {
+   "k": "43c1319f6111",
+   "ctx": "label",
+   "t": "Full name (in English, as per Aadhaar)"
+  },
+  {
+   "k": "7cc14a287995",
+   "ctx": "value",
+   "t": "Sangitaben Ramanbhai Vasava"
+  },
+  {
+   "k": "3de5700c4bcd",
+   "ctx": "hint",
+   "t": "Exactly as on Aadhaar. The form can be switched to Gujarati from the language option."
+  },
+  {
+   "k": "3e2492e1d7e9",
+   "ctx": "label",
+   "t": "Aadhaar card number"
+  },
+  {
+   "k": "68be34e59d9f",
+   "ctx": "hint",
+   "t": "Your own number. Forgot your user ID later? It can be found with Aadhaar and birth date."
+  },
+  {
+   "k": "3326d8674bcb",
+   "ctx": "hint",
+   "t": "Pick as on Aadhaar."
+  },
+  {
+   "k": "81213f26c4ee",
+   "ctx": "hint",
+   "t": "DD/MM/YYYY. You must be between 18 and 60."
+  },
+  {
+   "k": "fbbfc2fb653b",
+   "ctx": "hint",
+   "t": "Your user ID and password come here by SMS, and later the e-voucher and dealer OTPs."
+  },
+  {
+   "k": "44aaf33a95d9",
+   "ctx": "hint",
+   "t": "Make your own and keep it. If the VCE fills the form for you, still keep the user ID and password yourself."
+  },
+  {
+   "k": "945aee40de8a",
+   "ctx": "label",
+   "t": "Trade (tool kit) chosen"
+  },
+  {
+   "k": "a45958503bb0",
+   "ctx": "value",
+   "t": "Beauty parlour"
+  },
+  {
+   "k": "2795f2e277da",
+   "ctx": "hint",
+   "t": "Asked in the Manav Kalyan form after login. Pick one of the 10 trades; it cannot be changed after submitting."
+  },
+  {
+   "k": "c5c15baae9dc",
+   "ctx": "label",
+   "t": "e-Shram card number"
+  },
+  {
+   "k": "8deb5c75043a",
+   "ctx": "hint",
+   "t": "Required. If you have no e-Shram card, the form gives a link to make one first."
+  },
+  {
+   "k": "07ab996e5f63",
+   "ctx": "label",
+   "t": "Caste and income certificate"
+  },
+  {
+   "k": "67dc14b5d790",
+   "ctx": "value",
+   "t": "ST - income certificate MAM/NRM/2026/3381"
+  },
+  {
+   "k": "8d7002e3e131",
+   "ctx": "hint",
+   "t": "Upload clear photos of the originals as PDF or JPEG. Income must be up to Rs.6 lakh unless your caste group has no limit."
+  },
+  {
+   "k": "e4bb741d2ba9",
+   "ctx": "label",
+   "t": "Want basic training?"
+  },
+  {
+   "k": "7392322d1782",
+   "ctx": "hint",
+   "t": "Choose Yes for 5 days of training with Rs.500 a day for attendance. Choose No to get the e-voucher directly."
+  },
+  {
+   "k": "261969e6db19",
+   "ctx": "demoSteps",
+   "t": "When the yearly window is open, go to e-kutir.gujarat.gov.in and register as a new individual with your name, Aadhaar, birth date and mobile. The village VCE can also fill it for you free of cost."
+  },
+  {
+   "k": "63852dbf48f6",
+   "ctx": "demoSteps",
+   "t": "Log in, complete the profile, open Manav Kalyan Yojana, choose one trade, fill the form and upload Aadhaar, e-Shram card, caste and income certificates and age proof. Submit - until you submit, it stays only as a draft."
+  },
+  {
+   "k": "7f21f8c5051b",
+   "ctx": "demoSteps",
+   "t": "The District Industries Centre checks the application, and selection is made by an online draw before a district committee. Track it under Application Status."
+  },
+  {
+   "k": "045dd4afe351",
+   "ctx": "demoSteps",
+   "t": "If selected, an e-voucher (QR code) with the kit's value comes by SMS and in your login or the e-Kutir app, which also lists approved dealers."
+  },
+  {
+   "k": "103e0a19dfaa",
+   "ctx": "demoSteps",
+   "t": "Go to any approved dealer, show the QR code and give the OTP sent to your phone. Pick the tools you want within the limit; you pay only if you choose tools costing more."
+  },
+  {
+   "k": "fb52cfa28d13",
+   "ctx": "demoSteps",
+   "t": "A verification team will visit your home to see the kit and take a photo. Keep and use the tools - if they are sold or missing, the money is taken back."
+  },
+  {
+   "k": "685b8fc07884",
+   "ctx": "demoSteps",
+   "t": "Never share your e-voucher or OTP with anyone except the approved dealer at the time of buying."
+  },
+  {
+   "k": "a4222164d769",
+   "ctx": "helpline",
+   "t": "Manav Kalyan help desk 99099 26280 / 99099 26180; your District Industries Centre (DIC)"
+  },
+  {
+   "k": "abb3565500ab",
+   "ctx": "title",
+   "t": "e-Nirman Card - Construction Worker Registration (BOCW)"
+  },
+  {
+   "k": "fa695436457e",
+   "ctx": "department",
+   "t": "Gujarat Building & Other Construction Workers' Welfare Board, Labour, Skill Development & Employment Department"
+  },
+  {
+   "k": "3a3b5656c227",
+   "ctx": "brief",
+   "t": "The e-Nirman card registers a construction worker with the Gujarat construction workers' welfare board. With it you and your family can eat a full meal for Rs.5 at Shramik Annapurna centres, you are covered under the PMJAY-MA health card, and you can apply on the Sanman portal for the board's schemes - maternity help, children's education, housing help, illness and accident help. You can register yourself on the e-Nirman portal or app, or at a CSC, e-Gram centre, e-Shram Seva Kendra or Dhanvantari Arogya Rath. The card is valid for 3 years and is renewed with a fresh 90-day work certificate."
+  },
+  {
+   "k": "12c4b3e20712",
+   "ctx": "benefit",
+   "t": "Rs.5 meals, Rs.7,500 maternity help for women workers, up to Rs.1.6 lakh extra housing help and more"
+  },
+  {
+   "k": "7cb1e1d22214",
+   "ctx": "eligibility",
+   "t": "Did construction work for more than 90 days in the last 12 months (a self-declared or employer's certificate)"
+  },
+  {
+   "k": "73b1db91149b",
+   "ctx": "eligibility",
+   "t": "Does physical work on building or other construction - mason, labourer, carpenter, plumber, electrician, welder, tiles, painting, centring, road and MGNREGA work and the other listed jobs"
+  },
+  {
+   "k": "3c24c5462d19",
+   "ctx": "eligibility",
+   "t": "No income limit for manual workers; office staff, supervisors and independent contractors cannot register"
+  },
+  {
+   "k": "43c475799813",
+   "ctx": "eligibility",
+   "t": "The card must be renewed every 3 years with a new 90-day work certificate to keep getting benefits"
+  },
+  {
+   "k": "b476541843b4",
+   "ctx": "documents",
+   "t": "Recent passport-size photo"
+  },
+  {
+   "k": "d3c4422908eb",
+   "ctx": "documents",
+   "t": "Proof of age - birth certificate, school leaving certificate, voter ID or driving licence"
+  },
+  {
+   "k": "82e452758258",
+   "ctx": "documents",
+   "t": "Ration card or other proof of address"
+  },
+  {
+   "k": "222eebfcfafe",
+   "ctx": "documents",
+   "t": "90-day work certificate from the employer or contractor, or a self-declaration"
+  },
+  {
+   "k": "2cfaaa5f4621",
+   "ctx": "documents",
+   "t": "Bank passbook or cancelled cheque"
+  },
+  {
+   "k": "95beb07dbc09",
+   "ctx": "documents",
+   "t": "Caste certificate, if you have one"
+  },
+  {
+   "k": "cfc9a79de9d7",
+   "ctx": "portalName",
+   "t": "e-Nirman portal (Gujarat BOCW Welfare Board)"
+  },
+  {
+   "k": "55ed3baf03c2",
+   "ctx": "label",
+   "t": "Full Name (as per Aadhaar)"
+  },
+  {
+   "k": "c54e7e869221",
+   "ctx": "value",
+   "t": "Mukeshbhai Kanabhai Rathva"
+  },
+  {
+   "k": "9b1150f11e09",
+   "ctx": "hint",
+   "t": "Write it exactly as on the Aadhaar card, in English letters."
+  },
+  {
+   "k": "388a2a1612f2",
+   "ctx": "label",
+   "t": "Aadhaar Card Number"
+  },
+  {
+   "k": "fd596a6cb1ad",
+   "ctx": "hint",
+   "t": "Your own 12-digit number. One Aadhaar can be registered only once."
+  },
+  {
+   "k": "6167db00587c",
+   "ctx": "hint",
+   "t": "Women workers should register too - several schemes, such as maternity help, are only for them."
+  },
+  {
+   "k": "ab5815528f10",
+   "ctx": "label",
+   "t": "Birthdate"
+  },
+  {
+   "k": "a94a4b6c1baa",
+   "ctx": "hint",
+   "t": "As on Aadhaar, in DD/MM/YYYY. You must be between 18 and 60."
+  },
+  {
+   "k": "18ac2a704f50",
+   "ctx": "hint",
+   "t": "Your user ID, password reset and approval messages come to this number."
+  },
+  {
+   "k": "f1f5f7ac7ed5",
+   "ctx": "label",
+   "t": "Email ID (not mandatory)"
+  },
+  {
+   "k": "c5b89fbce508",
+   "ctx": "value",
+   "t": "Left empty"
+  },
+  {
+   "k": "611b2e0f96ea",
+   "ctx": "hint",
+   "t": "Leave it empty if you do not have one."
+  },
+  {
+   "k": "0f3e97a9c5a3",
+   "ctx": "hint",
+   "t": "Make one you will remember and do not share it with the agent or contractor."
+  },
+  {
+   "k": "1ef9d5884d25",
+   "ctx": "label",
+   "t": "User Type"
+  },
+  {
+   "k": "e1fc1d68d654",
+   "ctx": "value",
+   "t": "Construction Worker"
+  },
+  {
+   "k": "ac866ed715ad",
+   "ctx": "hint",
+   "t": "Choose Construction Worker. Builders who pay the cess use a different login."
+  },
+  {
+   "k": "db92cd786124",
+   "ctx": "label",
+   "t": "Type of work and days worked"
+  },
+  {
+   "k": "8fcfe96d2f7b",
+   "ctx": "value",
+   "t": "Mason (kadiya) - 120 days in the last 12 months"
+  },
+  {
+   "k": "64f802ebd2dc",
+   "ctx": "hint",
+   "t": "Asked in the registration application after you log in. Upload the 90-day certificate signed by the contractor, or the self-declaration."
+  },
+  {
+   "k": "89b4635bb2ce",
+   "ctx": "hint",
+   "t": "In your own name. The board pays all scheme money straight into this account."
+  },
+  {
+   "k": "b6abb2b0fcd5",
+   "ctx": "demoSteps",
+   "t": "Open the e-Nirman portal or the e-Nirman app and tap Register Yourself. Fill name, Aadhaar, gender, birth date, mobile, choose Construction Worker and set a password. Or get it done at a CSC, e-Gram centre, e-Shram Seva Kendra or the Dhanvantari Arogya Rath."
+  },
+  {
+   "k": "687a1b8200a7",
+   "ctx": "demoSteps",
+   "t": "Log in and complete your profile - address, family members and bank account."
+  },
+  {
+   "k": "cb52139154c5",
+   "ctx": "demoSteps",
+   "t": "Open the application for Registration, fill your type of work and employer, and upload Aadhaar, photo, age proof, the 90-day work certificate and passbook. Submit and note the application number."
+  },
+  {
+   "k": "084f7ef21d5a",
+   "ctx": "demoSteps",
+   "t": "Check progress under View Citizen Application Status. The board's district office verifies the application."
+  },
+  {
+   "k": "506d3e3b7e1c",
+   "ctx": "demoSteps",
+   "t": "When approved, download and print the e-Nirman card, or collect the print from the centre where you applied."
+  },
+  {
+   "k": "62c8d736c0c2",
+   "ctx": "demoSteps",
+   "t": "Show the card at any Shramik Annapurna centre for a Rs.5 meal, and apply for maternity, education, housing and other help on sanman.gujarat.gov.in."
+  },
+  {
+   "k": "cc0626bac81e",
+   "ctx": "demoSteps",
+   "t": "Renew the card before 3 years are over with a new 90-day work certificate, or the benefits stop."
+  },
+  {
+   "k": "ea343757e8bb",
+   "ctx": "helpline",
+   "t": "Gujarat BOCW Welfare Board toll-free 1800-233-2324; board office 079-25502271"
+  },
+  {
+   "k": "9f063d00fca3",
+   "ctx": "title",
+   "t": "PMJAY-MA Yojana - Mukhyamantri Amrutum (MA Card)"
+  },
+  {
+   "k": "d838182afe23",
+   "ctx": "department",
+   "t": "Health & Family Welfare Department, Gujarat (State Health Agency, PMJAY-MA)"
+  },
+  {
+   "k": "dc9131e53143",
+   "ctx": "brief",
+   "t": "Gujarat's own health cover, joined with Ayushman Bharat: cashless treatment of up to Rs.10 lakh a year for the whole family at empanelled government and private hospitals. The old MA (Mukhyamantri Amrutum) and MA Vatsalya cards were merged into it in 2021 under the name PMJAY-MA, and in 2023 the cover was doubled from Rs.5 lakh to Rs.10 lakh. Gujarat covers many more families than the central list, including families earning up to Rs.4 lakh a year and senior citizens in families earning up to Rs.6 lakh. The card is the same Ayushman card, and you can make it yourself on the phone or at the kiosk of any government health centre or empanelled hospital."
+  },
+  {
+   "k": "177c1371da3b",
+   "ctx": "benefit",
+   "t": "Rs.10 lakh a year per family, cashless"
+  },
+  {
+   "k": "1a781f501134",
+   "ctx": "eligibility",
+   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
+  },
+  {
+   "k": "6b3b66fa5faa",
+   "ctx": "eligibility",
+   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
+  },
+  {
+   "k": "6d5280574a3e",
+   "ctx": "eligibility",
+   "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
+  },
+  {
+   "k": "941ea7a3d8f9",
+   "ctx": "eligibility",
+   "t": "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees"
+  },
+  {
+   "k": "57aea47a8795",
+   "ctx": "eligibility",
+   "t": "Gujarat government regular employees and pensioners, through their HRPN or PPO number"
+  },
+  {
+   "k": "1fccd972f146",
+   "ctx": "eligibility",
+   "t": "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
+  },
+  {
+   "k": "e3146b133fa3",
+   "ctx": "documents",
+   "t": "Aadhaar card of each family member being enrolled (needed for e-KYC)"
+  },
+  {
+   "k": "6d4c6ea51155",
+   "ctx": "documents",
+   "t": "Ration card, for the family details"
+  },
+  {
+   "k": "4d17d795c486",
+   "ctx": "documents",
+   "t": "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)"
+  },
+  {
+   "k": "60b83f7b9449",
+   "ctx": "documents",
+   "t": "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family"
+  },
+  {
+   "k": "78dc42c5ee94",
+   "ctx": "documents",
+   "t": "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number"
+  },
+  {
+   "k": "c2199c54fa0f",
+   "ctx": "hint",
+   "t": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
+  },
+  {
+   "k": "215193346df7",
+   "ctx": "hint",
+   "t": "Any working number you keep with you. The login OTP and the approval SMS come here."
+  },
+  {
+   "k": "72b0fb23f131",
+   "ctx": "value",
+   "t": "PMJAY / Gujarat"
+  },
+  {
+   "k": "3fa8781a3c7e",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
+  },
+  {
+   "k": "8834be4c604c",
+   "ctx": "hint",
+   "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
+  },
+  {
+   "k": "ac5965f48967",
+   "ctx": "hint",
+   "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
+  },
+  {
+   "k": "34dbd876279a",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
+  },
+  {
+   "k": "6d5bce5a3657",
+   "ctx": "hint",
+   "t": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "k": "4e5f01b1a886",
+   "ctx": "value",
+   "t": "Taken on phone camera"
+  },
+  {
+   "k": "93e44aae243f",
+   "ctx": "hint",
+   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
+  },
+  {
+   "k": "80fe607c8889",
+   "ctx": "value",
+   "t": "Mehsana / 384002"
+  },
+  {
+   "k": "92f0b5c3c707",
+   "ctx": "hint",
+   "t": "Where you live now, so the nearest empanelled hospitals are shown to you."
+  },
+  {
+   "k": "4cb4e06ad562",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar."
+  },
+  {
+   "k": "bae821feb9a5",
+   "ctx": "demoSteps",
+   "t": "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit."
+  }
+ ]
+}

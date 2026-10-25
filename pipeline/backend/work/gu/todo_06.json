@@ -1,0 +1,1259 @@
+{
+ "lang": "gu",
+ "language": "Gujarati",
+ "script": "Gujarati",
+ "instructions": "# How to translate this chunk\n\nThis file holds `items`, a list of `{\"k\", \"ctx\", \"t\"}`. `t` is English text\nthat a reader of an Indian app or website sees. `ctx` is the field it came\nfrom, such as label, hint, button, documents, brief or title. Use it to judge\ntone and length: a label stays short, a hint can be a sentence.\n\nWrite `{\"items\": [{\"k\": ..., \"t\": ...}, ...]}` to the path in `write_to`.\nKeep every `k` unchanged and in the same order. Put the translation in `t`.\nLeave out `ctx`. Do not add, merge, split or drop items.\n\n## Keep these exactly as they are\n\n- Placeholders and markup: `{0}`, `{name}`, `%s`, `%d`, `%1$s`, HTML tags, `\\n`.\n- Website addresses, e-mail addresses and links.\n- Every number: phone and toll-free numbers, Aadhaar, account, IFSC, PAN, PIN\n  codes, amounts, dates, percentages. Write digits as 0-9, the Western digits,\n  in every language, including Urdu. People type these into forms that take\n  Western digits.\n- Acronyms people know in Latin letters: OTP, PAN, IFSC, UPI, KYC, e-KYC, DBT,\n  BPL, APL, NFSA, PM-KISAN, SMS, PDF, ID.\n\n## Names\n\n- Product, app, portal and scheme names: transliterate them into the script so\n  they read naturally. Keep any acronym inside them in Latin, so \"APPSC\n  portal\" becomes APPSC followed by the word for portal.\n- A button or menu label quoted from a website, such as 'Apply Online' or\n  'Register', stays in English inside quotes. The reader has to find that exact\n  English word on the screen.\n- People and places in examples are transliterated, never replaced with other\n  names.\n- Government office titles are transliterated so the reader can say them at\n  the counter: Tahsildar, Patwari, Talathi, Mamlatdar, BDO, Collector, Gram\n  Panchayat. The language notes below give the usual local forms.\n\n## Tone\n\nWrite for an ordinary person who may be elderly and may have had little\nschooling. Use everyday spoken language, not heavy official vocabulary. Where\npeople really say the English word, write it in the script: online, form,\nportal, login, mobile, bank, certificate, download, upload, app. Keep\ninstructions short and direct, in the form \"do this\".\n\n\"Gender\" means sex (male or female). It is never the word for caste.\n\n## Before you write\n\nCheck that you have the same number of items as the input and that every\nnumber and placeholder came through. Write the whole file in ONE Write call,\nas valid UTF-8 JSON with no `\\u` escapes and nothing else in the file.\n\n## Hindi (hi)\n\nScript: Devanagari. Used in UP, MP, Bihar, Rajasthan, Haryana, HP, Uttarakhand,\nJharkhand, Chhattisgarh and Delhi, and understood across the north.\nTone: everyday spoken Hindi (Hindustani). Avoid Sanskritised official words.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बैंक, मोबाइल, OTP, हेल्पलाइन,\nसर्टिफिकेट, डाउनलोड, अपलोड.\nUI: आवेदन करें (Apply), जमा करें (Submit), आगे (Next), पीछे (Back), खोजें (Search),\nशेयर करें (Share), सेटिंग (Settings), भाषा (Language), मदद (Help).\nOffices: तहसीलदार, पटवारी, ग्राम पंचायत, कलेक्टर, ब्लॉक विकास कार्यालय (BDO).\nGender: लिंग (never जाति). Money: रु. 6,000; रु. 8 लाख. September: सितंबर.\n\n## Gujarati (gu)\n\nScript: Gujarati. Used in Gujarat, and spoken in Dadra & Nagar Haveli and\nDaman & Diu.\nTone: everyday spoken Gujarati.\nWords: ઓનલાઇન, ફોર્મ, પોર્ટલ, લૉગિન, આધાર, બેંક, મોબાઇલ, OTP, હેલ્પલાઇન, સર્ટિફિકેટ / દાખલો,\nડાઉનલોડ, અપલોડ.\nUI: અરજી કરો, સબમિટ કરો, આગળ, પાછળ, શોધો, શેર કરો, સેટિંગ્સ, ભાષા, મદદ.\nOffices: મામલતદાર, તલાટી, ગ્રામ પંચાયત, કલેક્ટર, તાલુકા પંચાયત.\nGender: જાતિ is caste; use લિંગ. Money: રૂ. 6,000; રૂ. 8 લાખ. September: સપ્ટેમ્બર.",
+ "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/gu/done_06.json",
+ "items": [
+  {
+   "k": "ce2a341f7902",
+   "ctx": "demoSteps",
+   "t": "Start the work you chose and keep the bills for what you buy. JEEViKA staff come to see how it is going and arrange training."
+  },
+  {
+   "k": "8b9947165fee",
+   "ctx": "demoSteps",
+   "t": "After the review, women whose work is running get the next instalment (Rs 20,000 in 2026) and later more help, up to Rs 2 lakh in all, in stages."
+  },
+  {
+   "k": "a2ad12fb9bae",
+   "ctx": "helpline",
+   "t": "Your self-help group's Community Mobiliser or the JEEViKA block office (BPIU); JEEViKA state office, Patna: 0612-2504980"
+  },
+  {
+   "k": "e5dfc3014165",
+   "ctx": "title",
+   "t": "Diesel Anudan Yojana (Bihar Diesel Subsidy for Irrigation)"
+  },
+  {
+   "k": "0d26f4fe61b9",
+   "ctx": "department",
+   "t": "Agriculture Department, Government of Bihar (Directorate of Agriculture)"
+  },
+  {
+   "k": "29991bded3b2",
+   "ctx": "brief",
+   "t": "When the monsoon fails and farmers have to water kharif crops with diesel pump sets, Bihar pays back part of the diesel cost: Rs 75 a litre, counted as Rs 750 an acre for each watering. Farmers registered on the DBT Agriculture portal upload the computerised petrol-pump receipt and apply online, and the money goes to their Aadhaar-linked bank account. The 2026-27 kharif round was ordered on 10 August 2026 and covers the districts the state named as short of rain; each year the list of districts is shown on the application page."
+  },
+  {
+   "k": "92503c9f3e9f",
+   "ctx": "benefit",
+   "t": "Rs 750 an acre per watering, up to Rs 2,250 an acre, for up to 8 acres"
+  },
+  {
+   "k": "f90c2b786726",
+   "ctx": "eligibility",
+   "t": "Registered on the DBT Agriculture portal with a 13-digit number, and a bank account linked to Aadhaar and NPCI"
+  },
+  {
+   "k": "f7ae32f66dec",
+   "ctx": "eligibility",
+   "t": "Owner farmers, sharecroppers (bataidar), or both, in villages or towns of the covered districts"
+  },
+  {
+   "k": "236915e6473d",
+   "ctx": "eligibility",
+   "t": "Paddy nursery and jute: up to 2 waterings (Rs 1,500 an acre). Standing paddy, maize, pulses, oilseeds, vegetables and medicinal plants: up to 3 waterings (Rs 2,250 an acre)"
+  },
+  {
+   "k": "41490167a5dd",
+   "ctx": "eligibility",
+   "t": "Diesel bought for irrigation from a registered petrol pump in Bihar, between the start date and the last date of the scheme"
+  },
+  {
+   "k": "4ac1a8b11808",
+   "ctx": "eligibility",
+   "t": "One applicant per family (husband, wife and minor children), for at most 8 acres; the least paid is Rs 100"
+  },
+  {
+   "k": "9a0b8e13d1a8",
+   "ctx": "documents",
+   "t": "13-digit DBT Agriculture registration number"
+  },
+  {
+   "k": "85249095765e",
+   "ctx": "documents",
+   "t": "Computerised or digital receipt from the petrol pump, with the last 10 digits of your registration number written on it and your signature or thumb mark"
+  },
+  {
+   "k": "05a5500303b3",
+   "ctx": "documents",
+   "t": "For owner farmers: rent receipt (lagan rasid) or LPC issued in 2023-24, 2024-25 or 2025-26"
+  },
+  {
+   "k": "3f31ebe66a7b",
+   "ctx": "documents",
+   "t": "For sharecroppers: the prescribed form signed jointly by a ward member, mukhiya, sarpanch or panchayat samiti member and the Krishi Samanvayak"
+  },
+  {
+   "k": "f7e5ed1302ae",
+   "ctx": "documents",
+   "t": "Thana, khata and khesra numbers of the field watered, and the names of two neighbouring farmers"
+  },
+  {
+   "k": "8ec37100ffb7",
+   "ctx": "documents",
+   "t": "Mobile number registered on the portal, for the OTP"
+  },
+  {
+   "k": "65283533f4ac",
+   "ctx": "portalName",
+   "t": "DBT Agriculture portal, Agriculture Department, Bihar"
+  },
+  {
+   "k": "49f0fa14af2b",
+   "ctx": "label",
+   "t": "Anudan ka prakar (type of subsidy)"
+  },
+  {
+   "k": "c65ea6fefe53",
+   "ctx": "value",
+   "t": "Diesel anudan aavedan"
+  },
+  {
+   "k": "8b0eed3d07e4",
+   "ctx": "hint",
+   "t": "Choose the diesel subsidy application from the list."
+  },
+  {
+   "k": "8a51c04ba276",
+   "ctx": "label",
+   "t": "Registration ID"
+  },
+  {
+   "k": "c01c20c9705e",
+   "ctx": "hint",
+   "t": "Your 13-digit DBT Agriculture registration number. Your name and bank details appear by themselves."
+  },
+  {
+   "k": "6959bfdd88f6",
+   "ctx": "label",
+   "t": "Season and crop"
+  },
+  {
+   "k": "426539f1e59c",
+   "ctx": "value",
+   "t": "Kharif / Paddy (standing crop)"
+  },
+  {
+   "k": "a2bc475492c6",
+   "ctx": "hint",
+   "t": "Choose one crop: paddy nursery, jute, paddy, maize, pulses, oilseeds, vegetables, or aromatic and medicinal plants."
+  },
+  {
+   "k": "930c796554db",
+   "ctx": "value",
+   "t": "Swayam (own land)"
+  },
+  {
+   "k": "cb5c87be3e30",
+   "ctx": "hint",
+   "t": "Swayam, Bataidar (sharecropper), or Swayam + Bataidar. You can apply under only one type."
+  },
+  {
+   "k": "fbeaf1549c2f",
+   "ctx": "label",
+   "t": "Thana no. / khata no. / khesra no."
+  },
+  {
+   "k": "eb3fb66c531e",
+   "ctx": "value",
+   "t": "Thana 88 / Khata 112 / Khesra 645"
+  },
+  {
+   "k": "1ad2cc530d1c",
+   "ctx": "hint",
+   "t": "From your rent receipt or LPC. A sharecropper gives the khesra number of the field farmed."
+  },
+  {
+   "k": "f56fb5859383",
+   "ctx": "label",
+   "t": "Area watered with diesel (acre)"
+  },
+  {
+   "k": "e2fa676a5f21",
+   "ctx": "value",
+   "t": "2.5 acre"
+  },
+  {
+   "k": "68da6b95d9bb",
+   "ctx": "hint",
+   "t": "Only the area watered with this diesel. The subsidy is Rs 750 an acre for each watering, up to 8 acres."
+  },
+  {
+   "k": "479061f57a6f",
+   "ctx": "label",
+   "t": "Watering (patvan)"
+  },
+  {
+   "k": "14c6459cb051",
+   "ctx": "value",
+   "t": "First watering"
+  },
+  {
+   "k": "d42c9102310c",
+   "ctx": "hint",
+   "t": "One application covers one watering. Apply again, with a new receipt, for the second and third."
+  },
+  {
+   "k": "4d0534fa56a2",
+   "ctx": "label",
+   "t": "Diesel receipt"
+  },
+  {
+   "k": "6a58f77b0dd2",
+   "ctx": "value",
+   "t": "25 litres, receipt no. 000417, Hari Om Fuels, Bikram"
+  },
+  {
+   "k": "89cb11f3ecc5",
+   "ctx": "hint",
+   "t": "Only a computerised receipt is accepted, dated within the scheme period, with the last 10 digits of your registration number and your signature."
+  },
+  {
+   "k": "d908455b0aa8",
+   "ctx": "label",
+   "t": "Two neighbouring farmers"
+  },
+  {
+   "k": "fe4b74ba70c2",
+   "ctx": "value",
+   "t": "Kamlesh Rai, Sudama Devi"
+  },
+  {
+   "k": "75c39c7d4e32",
+   "ctx": "hint",
+   "t": "Farmers whose fields are next to the field you watered."
+  },
+  {
+   "k": "7dd11f2f2f0e",
+   "ctx": "value",
+   "t": "Diesel receipt photo + LPC (PDF)"
+  },
+  {
+   "k": "5280eedb7ccf",
+   "ctx": "hint",
+   "t": "Owners upload the rent receipt or LPC; sharecroppers upload the form signed by the ward member or mukhiya and the Krishi Samanvayak."
+  },
+  {
+   "k": "eae2432874d5",
+   "ctx": "demoSteps",
+   "t": "If you have no 13-digit number yet, register once on dbtagriculture.bihar.gov.in under Kisan Panjikaran, free at the block agriculture office or for a small fee at a CSC."
+  },
+  {
+   "k": "d21a209766f6",
+   "ctx": "demoSteps",
+   "t": "After the scheme opens, buy diesel for irrigation from a registered pump in Bihar. Ask for a computerised receipt, have the last 10 digits of your registration number written on it, and sign it with your full name."
+  },
+  {
+   "k": "781078d6c140",
+   "ctx": "demoSteps",
+   "t": "Open the diesel subsidy (kharif) application on the portal or on the Bihar Krishi app, enter the 13-digit number, choose the crop and farmer type, and fill in the field details, the area watered and which watering it is."
+  },
+  {
+   "k": "28a0872fa1c0",
+   "ctx": "demoSteps",
+   "t": "Upload the receipt and land papers, enter the captcha and the OTP and submit. Keep the application number from the SMS, and make a fresh application for each watering."
+  },
+  {
+   "k": "baaefd14c2ce",
+   "ctx": "demoSteps",
+   "t": "The Krishi Samanvayak checks the claim, and the block and district agriculture officers approve it."
+  },
+  {
+   "k": "8ab34910fd7e",
+   "ctx": "demoSteps",
+   "t": "The subsidy is paid into your Aadhaar-linked bank account by DBT. Use the Diesel Subsidy Status link on the portal to follow it."
+  },
+  {
+   "k": "b85465457711",
+   "ctx": "helpline",
+   "t": "DBT / PM-Kisan call centre, Agriculture Department Bihar: 0612-2233555 (10:30 am to 5 pm, working days); Kisan Call Centre: 1800-180-1551"
+  },
+  {
+   "k": "a6a9b00fd5e8",
+   "ctx": "title",
+   "t": "Krishi Input Anudan Yojana (Bihar DBT Kisan Registration)"
+  },
+  {
+   "k": "243798532f76",
+   "ctx": "brief",
+   "t": "When floods, heavy rain, drought or hail destroy more than a third of a crop, Bihar pays farmers in the notified panchayats an input subsidy for each hectare lost, straight into the bank. To get this, or any other farm subsidy such as diesel, seed or machines, a farmer first registers once on the DBT Agriculture portal and gets a 13-digit registration number. The latest round, for crops lost in the floods of August and September 2026, took applications in October 2026; a new round opens after each notified disaster, usually for about a week."
+  },
+  {
+   "k": "5a8e0cf3b720",
+   "ctx": "benefit",
+   "t": "Rs 8,500 a hectare (rain-fed), Rs 17,000 (irrigated), Rs 22,500 (perennial crops), up to 2 hectares"
+  },
+  {
+   "k": "d115c635e40d",
+   "ctx": "eligibility",
+   "t": "Your land is in a panchayat notified as affected for that round; the list of panchayats is published on the portal"
+  },
+  {
+   "k": "2e688b0099b6",
+   "ctx": "eligibility",
+   "t": "More than 33 per cent of the crop was lost because of the notified flood, heavy rain, drought or hail"
+  },
+  {
+   "k": "515cc7e8b74a",
+   "ctx": "eligibility",
+   "t": "Registered on the DBT Agriculture portal, with a bank account linked to Aadhaar and NPCI"
+  },
+  {
+   "k": "29d8f5ae1bfa",
+   "ctx": "eligibility",
+   "t": "Landowners, tenant or sharecropping farmers (vastavik khetihar), or both may apply, but only one person is paid for one field"
+  },
+  {
+   "k": "4c1451539de5",
+   "ctx": "eligibility",
+   "t": "One application per family (husband, wife and minor children), paid for at most 2 hectares (494 decimal); the least paid is Rs 1,000, Rs 2,000 or Rs 2,500 depending on the land type"
+  },
+  {
+   "k": "a7c1c7298029",
+   "ctx": "eligibility",
+   "t": "A farmer found burning straw (parali) in the field is refused"
+  },
+  {
+   "k": "b96ccfd48b12",
+   "ctx": "documents",
+   "t": "Aadhaar card, checked by OTP, fingerprint or iris during registration"
+  },
+  {
+   "k": "070e06d94c37",
+   "ctx": "documents",
+   "t": "Bank passbook of an account linked to Aadhaar and NPCI"
+  },
+  {
+   "k": "3324bd9ff839",
+   "ctx": "documents",
+   "t": "For landowners: rent receipt (lagan rasid) of 2023-24, 2024-25 or 2025-26, or a recent LPC; a family tree (vanshavali) is not accepted"
+  },
+  {
+   "k": "075ea00955a0",
+   "ctx": "documents",
+   "t": "For tenant farmers: the self-declaration form certified jointly by the ward member, mukhiya or sarpanch and the Krishi Samanvayak"
+  },
+  {
+   "k": "475f55d2985b",
+   "ctx": "documents",
+   "t": "Thana, khata and khesra numbers of the damaged field and the names of two neighbouring farmers"
+  },
+  {
+   "k": "5c0543c831a2",
+   "ctx": "label",
+   "t": "Choose Authentication Type"
+  },
+  {
+   "k": "1bfa3b408577",
+   "ctx": "hint",
+   "t": "Choose OTP if your mobile is linked to Aadhaar. Otherwise choose Bio-Auth or Iris and get it done at a CSC or the block agriculture office."
+  },
+  {
+   "k": "1f65e21d818d",
+   "ctx": "label",
+   "t": "Aadhaar number and name as on Aadhaar"
+  },
+  {
+   "k": "c99ece6c74fb",
+   "ctx": "value",
+   "t": "9999 6021 8473 / Rajendra Prasad Yadav"
+  },
+  {
+   "k": "b96e6c009ca3",
+   "ctx": "hint",
+   "t": "The name must match Aadhaar letter for letter, or authentication fails."
+  },
+  {
+   "k": "b26e6e6a57d3",
+   "ctx": "label",
+   "t": "Have you taken a Kisan Credit Card? (KCC)"
+  },
+  {
+   "k": "38f3995ab9da",
+   "ctx": "hint",
+   "t": "Answer Yes only if you hold a KCC; then its details are asked."
+  },
+  {
+   "k": "21310f12485a",
+   "ctx": "label",
+   "t": "District / block / panchayat / village"
+  },
+  {
+   "k": "de991bab3148",
+   "ctx": "value",
+   "t": "Khagaria / Gogri / Pasraha / Pasraha"
+  },
+  {
+   "k": "fe42958ddbc5",
+   "ctx": "hint",
+   "t": "Where your land is. Only farmers of the notified panchayats can claim the input subsidy."
+  },
+  {
+   "k": "b3b26278140a",
+   "ctx": "hint",
+   "t": "An Aadhaar-linked account. The portal warns that a wrong account number blocks your registration, so copy it from the passbook."
+  },
+  {
+   "k": "8f02ecd462e1",
+   "ctx": "label",
+   "t": "Registration number (13 digits)"
+  },
+  {
+   "k": "9ff67d42ec85",
+   "ctx": "hint",
+   "t": "The number you got after registering. Enter it on the Krishi Input Anudan form and your details appear by themselves."
+  },
+  {
+   "k": "292d4a603f99",
+   "ctx": "label",
+   "t": "Farmer type (Kisan ka prakar)"
+  },
+  {
+   "k": "923ee8efd1ec",
+   "ctx": "value",
+   "t": "Swayam bhudhari + Vastavik khetihar"
+  },
+  {
+   "k": "d1813acedf60",
+   "ctx": "hint",
+   "t": "Own land, land taken on rent or share, or both. You can apply under only one type."
+  },
+  {
+   "k": "6fe018ec4507",
+   "ctx": "value",
+   "t": "Thana 214 / Khata 57 / Khesra 1123"
+  },
+  {
+   "k": "2a75eb23eed7",
+   "ctx": "hint",
+   "t": "Copy them from your rent receipt or LPC."
+  },
+  {
+   "k": "da0e81dd1a11",
+   "ctx": "label",
+   "t": "Total land and damaged area (in decimal)"
+  },
+  {
+   "k": "e6823367d204",
+   "ctx": "value",
+   "t": "Total 180 decimal; damaged 150 decimal (maize)"
+  },
+  {
+   "k": "3982d9707906",
+   "ctx": "hint",
+   "t": "1 acre is 100 decimal and 1 hectare is 247 decimal. The subsidy is paid for at most 494 decimal."
+  },
+  {
+   "k": "d3dfc8fd09cc",
+   "ctx": "value",
+   "t": "Shivnandan Singh, Mahesh Paswan"
+  },
+  {
+   "k": "ee0b73b0de02",
+   "ctx": "hint",
+   "t": "Names of farmers whose fields touch yours. The Krishi Samanvayak may ask them about your crop."
+  },
+  {
+   "k": "30276783dc97",
+   "ctx": "demoSteps",
+   "t": "Register once: open dbtagriculture.bihar.gov.in, click Kisan Panjikaran, verify your Aadhaar, fill in your farmer, land and bank details and note the 13-digit registration number. The block agriculture office (e-Kisan Bhawan) does it free; a CSC or Vasudha Kendra can also do it."
+  },
+  {
+   "k": "9c943f96fc9e",
+   "ctx": "demoSteps",
+   "t": "After a flood or drought, check the panchayat list on the portal. If your panchayat is listed, open Krishi Input Anudan under online services within the dates shown, usually about a week."
+  },
+  {
+   "k": "79e8fceb68f8",
+   "ctx": "demoSteps",
+   "t": "Enter the 13-digit number, choose your farmer type, fill in the total and damaged land in decimal, the thana-khata-khesra numbers and two neighbours' names, enter the captcha and the OTP, upload the rent receipt, LPC or certified self-declaration, and submit. The application number comes by SMS."
+  },
+  {
+   "k": "f2647a396e30",
+   "ctx": "demoSteps",
+   "t": "The Krishi Samanvayak visits the field within 2 to 4 days, photographs the plot and forwards or rejects the claim with a reason. The sub-divisional and district agriculture officers and the district disaster officer then approve it."
+  },
+  {
+   "k": "ed1d3d6208c9",
+   "ctx": "demoSteps",
+   "t": "The approved amount is paid into your Aadhaar-linked bank account by DBT and an SMS tells you. Use Print and Status on the portal with your registration number to follow it."
+  },
+  {
+   "k": "46c6ad54552f",
+   "ctx": "title",
+   "t": "Bihar Building Workers Registration (BOCW Labour Card)"
+  },
+  {
+   "k": "9b6c41438835",
+   "ctx": "department",
+   "t": "Bihar Building & Other Construction Workers Welfare Board, Labour Resources Department, Government of Bihar"
+  },
+  {
+   "k": "082d0ddc62c5",
+   "ctx": "brief",
+   "t": "Masons, labourers, carpenters, painters, plumbers and other construction workers who register with the Bihar BOCW Welfare Board get a labour card that opens more than a dozen benefits: Rs 50,000 for a daughter's marriage, maternity and paternity money, a bicycle grant, help with children's studies, Rs 3,000 a year for medical costs, a Rs 1,000 monthly pension at 60, and Rs 2 to 4 lakh to the family if the worker dies. Registration is done online with Aadhaar on the board's portal, or at a CSC or the block labour office. The fee is small: Rs 20 for registration plus the membership fee, Rs 50 in all for five years."
+  },
+  {
+   "k": "52b93070830f",
+   "ctx": "benefit",
+   "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
+  },
+  {
+   "k": "03cbf1accd4d",
+   "ctx": "eligibility",
+   "t": "Aged 18 to 60 years"
+  },
+  {
+   "k": "b098fbf81018",
+   "ctx": "eligibility",
+   "t": "Worked at least 90 days in building or other construction work in the last 12 months"
+  },
+  {
+   "k": "7d29b166ca4e",
+   "ctx": "eligibility",
+   "t": "The 90 days are certified by the employer or contractor, the Labour Enforcement Officer, a registered trade union officer, or your own self-declaration"
+  },
+  {
+   "k": "1468a4984691",
+   "ctx": "eligibility",
+   "t": "Not registered with any other labour welfare board"
+  },
+  {
+   "k": "0ed70605f2c4",
+   "ctx": "eligibility",
+   "t": "Most benefits need some time as a member: 1 year for maternity, bicycle and study help; 3 years for marriage help and house repair; 5 years for the pension"
+  },
+  {
+   "k": "524abd6d60af",
+   "ctx": "eligibility",
+   "t": "Keep the membership renewed; benefits stop while it has lapsed"
+  },
+  {
+   "k": "225529b5d75f",
+   "ctx": "documents",
+   "t": "Aadhaar card, checked by OTP"
+  },
+  {
+   "k": "6bb8f35876db",
+   "ctx": "documents",
+   "t": "Recent photograph"
+  },
+  {
+   "k": "19fc14c3f01e",
+   "ctx": "documents",
+   "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
+  },
+  {
+   "k": "ba5b6ec96ec9",
+   "ctx": "documents",
+   "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
+  },
+  {
+   "k": "0ddd86465050",
+   "ctx": "portalName",
+   "t": "Bihar BOCW Welfare Board portal (BiharWMS)"
+  },
+  {
+   "k": "b1cb80f00c7a",
+   "ctx": "hint",
+   "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
+  },
+  {
+   "k": "65676032b1e1",
+   "ctx": "value",
+   "t": "Manoj Kumar Ram"
+  },
+  {
+   "k": "9e8a4f513145",
+   "ctx": "hint",
+   "t": "Exactly as printed on your Aadhaar card."
+  },
+  {
+   "k": "a18c796d89c1",
+   "ctx": "label",
+   "t": "Mobile Number (with OTP verification)"
+  },
+  {
+   "k": "6b31a79771e7",
+   "ctx": "hint",
+   "t": "Your own number. The registration number and every update come here by SMS."
+  },
+  {
+   "k": "2cfc793a20c3",
+   "ctx": "label",
+   "t": "Area / District"
+  },
+  {
+   "k": "87701531c352",
+   "ctx": "value",
+   "t": "RURAL / Nalanda"
+  },
+  {
+   "k": "1bf4f0b824c2",
+   "ctx": "hint",
+   "t": "Choose Rural or Urban and the district where you live."
+  },
+  {
+   "k": "809d2fd7743a",
+   "ctx": "label",
+   "t": "Mother Name / Marital Status / Category"
+  },
+  {
+   "k": "687d0df27563",
+   "ctx": "value",
+   "t": "Shanti Devi / Married / EBC"
+  },
+  {
+   "k": "fe742f5abd13",
+   "ctx": "hint",
+   "t": "Your mother's name, whether you are single or married, and your caste category."
+  },
+  {
+   "k": "c7a8e9e07f63",
+   "ctx": "label",
+   "t": "Educational Qualifications"
+  },
+  {
+   "k": "b4762551e06f",
+   "ctx": "value",
+   "t": "Matric Fail"
+  },
+  {
+   "k": "462cdf27b23e",
+   "ctx": "hint",
+   "t": "Choose the nearest: literate, matric fail, matric pass and so on."
+  },
+  {
+   "k": "8e51af0dc16b",
+   "ctx": "hint",
+   "t": "Copy it from your ration card."
+  },
+  {
+   "k": "176501039da7",
+   "ctx": "label",
+   "t": "Whether registered under any other labour welfare board"
+  },
+  {
+   "k": "a56d0d3cb657",
+   "ctx": "hint",
+   "t": "Answer truthfully. A worker on another board cannot register here."
+  },
+  {
+   "k": "c240d1d9b9ce",
+   "ctx": "label",
+   "t": "Employer details (last 12 months)"
+  },
+  {
+   "k": "267028e8f709",
+   "ctx": "value",
+   "t": "Shri Ram Construction, Biharsharif / 05-11-2025 to 30-04-2026 / 160 days / Mason (Rajmistri)"
+  },
+  {
+   "k": "03f860dfde43",
+   "ctx": "hint",
+   "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
+  },
+  {
+   "k": "3db18476497a",
+   "ctx": "label",
+   "t": "Certifying Authority"
+  },
+  {
+   "k": "c978e679ac1a",
+   "ctx": "value",
+   "t": "Self Declaration"
+  },
+  {
+   "k": "3ebe09aa598a",
+   "ctx": "hint",
+   "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
+  },
+  {
+   "k": "6c92a04d1766",
+   "ctx": "demoSteps",
+   "t": "Open bocwscheme.bihar.gov.in, click Labour Registration, enter your Aadhaar number and name and authenticate with the OTP. If your mobile is not linked to Aadhaar, a CSC or the block Labour Enforcement Officer can do it with your fingerprint."
+  },
+  {
+   "k": "0ac03082fd62",
+   "ctx": "demoSteps",
+   "t": "Verify your mobile number with OTP and fill in your personal details: area, district, mother's name, marital status, category, education and ration card number."
+  },
+  {
+   "k": "f0d042a396cb",
+   "ctx": "demoSteps",
+   "t": "Add the employers you worked for in the last 12 months (at least 90 days in all), choose the certifying authority and upload the certificate or self-declaration."
+  },
+  {
+   "k": "4f34a906fbf4",
+   "ctx": "demoSteps",
+   "t": "Add family members and choose a nominee with a share, upload your photo, pay the fee online, then Preview and Submit. Note the application number."
+  },
+  {
+   "k": "99a7422cc860",
+   "ctx": "demoSteps",
+   "t": "The Labour Enforcement Officer checks and approves the application, and the registration number comes by SMS. Log in with that number and your year of birth to download the labour card and fee receipt."
+  },
+  {
+   "k": "d5aa301a23f1",
+   "ctx": "demoSteps",
+   "t": "To claim a benefit later, log in as Labour, choose the scheme, fill in the details and upload the proof (marriage card, birth certificate, mark sheet and so on). Approved money comes to your bank account. Renew the membership before it runs out."
+  },
+  {
+   "k": "58a09107e18e",
+   "ctx": "helpline",
+   "t": "Labour Enforcement Officer (LEO) at your block office, or the Labour Superintendent office in your district"
+  },
+  {
+   "k": "dee681608bcd",
+   "ctx": "title",
+   "t": "Mukhyamantri Jan Arogya Yojana Bihar (Ayushman Card for Ration Card Holders)"
+  },
+  {
+   "k": "bedc8e53a82c",
+   "ctx": "department",
+   "t": "Bihar Swasthya Suraksha Samiti, Health Department, Government of Bihar, with the National Health Authority"
+  },
+  {
+   "k": "5fa5911c5630",
+   "ctx": "brief",
+   "t": "Bihar pays for the same free hospital cover of Rs 5 lakh a year as Ayushman Bharat for ration-card families that the central PM-JAY list left out. Since 2024 every family holding an NFSA ration card in Bihar is covered, either under PM-JAY or under this state scheme, and both use the same Ayushman card at any empanelled hospital. The card is made free with the ration card and Aadhaar, on the Ayushman app or website, at a CSC, or at camps held at ration shops."
+  },
+  {
+   "k": "587590c3533a",
+   "ctx": "benefit",
+   "t": "Rs 5 lakh a year per family, cashless, at empanelled hospitals"
+  },
+  {
+   "k": "b00b5e819451",
+   "ctx": "eligibility",
+   "t": "The family holds a Bihar ration card under the National Food Security Act (priority household or Antyodaya)"
+  },
+  {
+   "k": "3fa868d846b1",
+   "ctx": "eligibility",
+   "t": "Families already on the central PM-JAY list are covered by PM-JAY; the other ration-card families are covered by this state scheme, with the same card"
+  },
+  {
+   "k": "d99e6b416e93",
+   "ctx": "eligibility",
+   "t": "Every member named on the ration card is covered, with no limit on family size or age"
+  },
+  {
+   "k": "9bdd37fbee5b",
+   "ctx": "eligibility",
+   "t": "Illnesses you already have are covered from the first day"
+  },
+  {
+   "k": "0278ddb5c74e",
+   "ctx": "eligibility",
+   "t": "Each member needs his or her own card, made after Aadhaar e-KYC"
+  },
+  {
+   "k": "262591ba4ada",
+   "ctx": "documents",
+   "t": "Ration card (NFSA); the family is searched by the ration card number"
+  },
+  {
+   "k": "114aeed99aea",
+   "ctx": "documents",
+   "t": "Aadhaar card of each member whose card is being made"
+  },
+  {
+   "k": "54964a6d6374",
+   "ctx": "hint",
+   "t": "Choose Beneficiary when you are making the card for yourself or your family."
+  },
+  {
+   "k": "8723df3876b0",
+   "ctx": "hint",
+   "t": "Any working number you hold. The login OTP and the approval message come here."
+  },
+  {
+   "k": "8b33cb85419b",
+   "ctx": "value",
+   "t": "PMJAY / Bihar"
+  },
+  {
+   "k": "bdc546a37a5a",
+   "ctx": "hint",
+   "t": "Choose Bihar. Ration-card families covered by the state scheme are found through the same search."
+  },
+  {
+   "k": "b1fc90c1b304",
+   "ctx": "hint",
+   "t": "Searching by ration card number brings up everyone on the card at once."
+  },
+  {
+   "k": "de19d00ef603",
+   "ctx": "hint",
+   "t": "Copy the number from your ration card. If nothing is found, search again by Aadhaar."
+  },
+  {
+   "k": "3cd505cec28c",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Do one member at a time."
+  },
+  {
+   "k": "b9ae0f593731",
+   "ctx": "hint",
+   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication."
+  },
+  {
+   "k": "1ebcd8e24bb2",
+   "ctx": "hint",
+   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request rejected."
+  },
+  {
+   "k": "32317e929a0e",
+   "ctx": "value",
+   "t": "Saran / 841301"
+  },
+  {
+   "k": "f72c93ef2dd2",
+   "ctx": "hint",
+   "t": "Where you live now, so that nearby empanelled hospitals are shown."
+  },
+  {
+   "k": "5095ada62e37",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, and choose the state Bihar."
+  },
+  {
+   "k": "3c988b2e89d3",
+   "ctx": "demoSteps",
+   "t": "Search by your ration card number. All members on the card appear; if your family is not found, search by Aadhaar."
+  },
+  {
+   "k": "0fa56cb13bde",
+   "ctx": "demoSteps",
+   "t": "Pick the member whose card is pending, complete Aadhaar OTP or face e-KYC, take the live photo, add the relation, district and PIN code, and submit."
+  },
+  {
+   "k": "a1fdcba051fa",
+   "ctx": "demoSteps",
+   "t": "Bihar Swasthya Suraksha Samiti approves the request, usually within a day or two. Log in again and download the card. You can also get it made free at a CSC, a government hospital or a camp at your ration shop."
+  },
+  {
+   "k": "37d8090a6a84",
+   "ctx": "demoSteps",
+   "t": "At the hospital, go to the Ayushman Mitra desk with the card and Aadhaar. Empanelled hospitals are listed at hospitals.pmjay.gov.in. Never pay cash for a treatment covered by the scheme."
+  },
+  {
+   "k": "6e4d7519db3f",
+   "ctx": "helpline",
+   "t": "14555 (Ayushman Bharat helpline) / 104 (Bihar health helpline)"
+  },
+  {
+   "k": "d591c6bc8f8f",
+   "ctx": "title",
+   "t": "Chandigarh Old Age Pension"
+  },
+  {
+   "k": "dde5906ba5d7",
+   "ctx": "department",
+   "t": "Department of Social Welfare, Women & Child Development, Chandigarh Administration"
+  },
+  {
+   "k": "c257b8d57c6e",
+   "ctx": "brief",
+   "t": "A monthly pension for Chandigarh residents aged 60 and above whose family income is up to Rs.1.5 lakh a year. The UT pays Rs.1,000 a month, and with the central share the pensioner gets Rs.1,200, or Rs.1,500 from age 80. You apply at any Sampark centre, where the operator scans your documents and files the application online. The pension is paid every month into your Aadhaar-seeded bank account. About 18,600 people get it."
+  },
+  {
+   "k": "2bc748b9243d",
+   "ctx": "benefit",
+   "t": "Rs.1,200 a month (Rs.1,500 from age 80), including the central share"
+  },
+  {
+   "k": "280f51da08db",
+   "ctx": "eligibility",
+   "t": "Total family income not above Rs.1.5 lakh a year"
+  },
+  {
+   "k": "3686a0800989",
+   "ctx": "eligibility",
+   "t": "Living in Chandigarh for more than 3 years"
+  },
+  {
+   "k": "1b58fa95aff1",
+   "ctx": "eligibility",
+   "t": "Not already getting another pension (the form asks for the amount and source if you do)"
+  },
+  {
+   "k": "4ae920029e40",
+   "ctx": "documents",
+   "t": "Two passport-size photographs, one cross-signed on the form"
+  },
+  {
+   "k": "bf5c6b6c9e75",
+   "ctx": "documents",
+   "t": "Residence proof for the last three years (voter card, ration card, electricity bill, house allotment letter or residence certificate)"
+  },
+  {
+   "k": "95c9ceedaa60",
+   "ctx": "documents",
+   "t": "Date of birth proof (birth certificate, school leaving certificate, passport, PAN card or senior citizen card)"
+  },
+  {
+   "k": "6efb60c043e7",
+   "ctx": "documents",
+   "t": "Income certificate from the competent authority"
+  },
+  {
+   "k": "fc765b35720e",
+   "ctx": "documents",
+   "t": "Mobile number and bank account details for the Aadhaar-seeded pension account"
+  },
+  {
+   "k": "0ffa4c95a647",
+   "ctx": "portalName",
+   "t": "Social Welfare, Women & Child Development, Chandigarh"
+  },
+  {
+   "k": "ad8da7ddb3f0",
+   "ctx": "submitAt",
+   "t": "Any Sampark centre in Chandigarh. Take the filled form with the cross-signed photograph, the signed self-undertaking and the Aadhaar consent page, plus the originals of your Aadhaar, three-year residence proof, age proof and income certificate. The operator checks and scans them and files the online application on the e-District system. If you have no birth proof, get your age certified first by the Principal Medical Officer at GMSH-16 or GMCH-32. For questions, go to the Department of Social Welfare, Additional Town Hall Building, 3rd Floor, Sector 17-C."
+  },
+  {
+   "k": "321c7352eccf",
+   "ctx": "value",
+   "t": "Gurdev Kaur"
+  },
+  {
+   "k": "b94204753380",
+   "ctx": "hint",
+   "t": "The person in whose name the pension order will be issued."
+  },
+  {
+   "k": "153050beda93",
+   "ctx": "value",
+   "t": "Late Harbans Singh"
+  },
+  {
+   "k": "3637483262c1",
+   "ctx": "hint",
+   "t": "As on your Aadhaar or voter card."
+  },
+  {
+   "k": "b59ce15a8b10",
+   "ctx": "value",
+   "t": "05-02-1964, 62 years"
+  },
+  {
+   "k": "d319b1369beb",
+   "ctx": "hint",
+   "t": "Must be 60 or more. Attach the date of birth proof."
+  },
+  {
+   "k": "dc2887b6cb61",
+   "ctx": "label",
+   "t": "Aadhaar No."
+  },
+  {
+   "k": "c45af124738c",
+   "ctx": "hint",
+   "t": "The pension is linked to this Aadhaar and paid to the account seeded with it."
+  },
+  {
+   "k": "060f9a490eb7",
+   "ctx": "label",
+   "t": "Mobile No."
+  },
+  {
+   "k": "71fbe5e601ee",
+   "ctx": "hint",
+   "t": "SMS updates on your application come here."
+  },
+  {
+   "k": "45b9115e4525",
+   "ctx": "hint",
+   "t": "Tick Male, Female or Transgender."
+  },
+  {
+   "k": "aea8ea24d318",
+   "ctx": "label",
+   "t": "Belong to SC / OBC"
+  },
+  {
+   "k": "b62d24f785a9",
+   "ctx": "hint",
+   "t": "Tick only if it applies to you."
+  },
+  {
+   "k": "a427b15c45c7",
+   "ctx": "label",
+   "t": "House No. / Sector or Village"
+  },
+  {
+   "k": "b486497eb840",
+   "ctx": "value",
+   "t": "House 1187, Sector 41-B"
+  },
+  {
+   "k": "3e7de6f4131e",
+   "ctx": "hint",
+   "t": "Where you have lived for the last three years. It must match your residence proof."
+  },
+  {
+   "k": "9397b4606c53",
+   "ctx": "label",
+   "t": "Present total family monthly income"
+  },
+  {
+   "k": "3ff09d3d3967",
+   "ctx": "hint",
+   "t": "Add up everyone's income. A year's total must not be above Rs.1.5 lakh."
+  },
+  {
+   "k": "8e5455c539a3",
+   "ctx": "label",
+   "t": "Whether in receipt of any pension"
+  },
+  {
+   "k": "2ba912b104cd",
+   "ctx": "hint",
+   "t": "If Yes, write the monthly amount and who pays it."
+  },
+  {
+   "k": "b0cbfbe03df7",
+   "ctx": "demoSteps",
+   "t": "Download the old age pension form, or take one at the Sampark centre, and fill in your details."
+  },
+  {
+   "k": "364aa1662fd1",
+   "ctx": "demoSteps",
+   "t": "Paste the photograph, cross-sign it, and sign the self-undertaking and the Aadhaar consent page."
+  },
+  {
+   "k": "d7128f9d775a",
+   "ctx": "demoSteps",
+   "t": "Go to a Sampark centre with the originals. The operator scans them, files your application online and gives you the application number."
+  },
+  {
+   "k": "32455f990d59",
+   "ctx": "demoSteps",
+   "t": "The Social Welfare Department verifies the papers and sanctions the pension. Track it on the e-District status page with your application number."
+  },
+  {
+   "k": "770e0a34fd97",
+   "ctx": "demoSteps",
+   "t": "The pension is paid every month into your Aadhaar-seeded bank account."
+  },
+  {
+   "k": "9b7fcee37c37",
+   "ctx": "demoSteps",
+   "t": "Give your life certificate to the department each year so the pension does not stop."
+  },
+  {
+   "k": "025c04ea3854",
+   "ctx": "helpline",
+   "t": "0172-2700372 — Department of Social Welfare, Women & Child Development, Chandigarh; 181 — Women and Child Helpline"
+  },
+  {
+   "k": "55185d27f6e5",
+   "ctx": "title",
+   "t": "Krishak Unnati Yojana (Paddy Difference Amount)"
+  },
+  {
+   "k": "1fa4e3bdf2a0",
+   "ctx": "department",
+   "t": "Agriculture Development & Farmers Welfare Department, Government of Chhattisgarh, with the Food Department and cooperative societies (paddy procurement)"
+  },
+  {
+   "k": "7027c08b1519",
+   "ctx": "brief",
+   "t": "Chhattisgarh pays its farmers Rs 3,100 a quintal for paddy. The cooperative society pays the central MSP when you sell, and Krishak Unnati Yojana later pays the gap between MSP and Rs 3,100, on up to 21 quintals an acre, straight into your bank account. You do not fill a separate form for it. You only need to be registered at your cooperative society for paddy sale and sell your paddy there in the procurement season. Farmers who sold paddy earlier and now sow pulses, oilseeds or maize instead also get per-acre help under the same scheme."
+  },
+  {
+   "k": "6bfbe178c843",
+   "ctx": "benefit",
+   "t": "Gap between MSP and Rs 3,100 a quintal on up to 21 quintals an acre: Rs 731 a quintal (Rs 15,351 an acre) for common paddy in kharif 2025-26"
+  },
+  {
+   "k": "9261cb35ea8e",
+   "ctx": "eligibility",
+   "t": "A farmer in Chhattisgarh registered for paddy sale at a primary cooperative society (sewa sahkari samiti or LAMPS)"
+  },
+  {
+   "k": "fac2213100d0",
+   "ctx": "eligibility",
+   "t": "From the 2026-27 season the AgriStack Farmer ID is the registration; the society enters your land, bank and nominee details. The last date given for 2026-27 was 31 October 2026"
+  },
+  {
+   "k": "482065137f4e",
+   "ctx": "eligibility",
+   "t": "You must actually sell your paddy at the society's procurement centre in the season (mid-November to January). The limit is 21 quintals an acre, on the area shown in the Digital Crop Survey"
+  },
+  {
+   "k": "df80536e64b7",
+   "ctx": "eligibility",
+   "t": "Sharecroppers (adhiya, rega), forest rights patta holders, village kotwars and registered institutions can also register; they were exempted from AgriStack in 2025-26"
+  },
+  {
+   "k": "cce20c2cd929",
+   "ctx": "eligibility",
+   "t": "Farmers who sold paddy at MSP the previous year and now grow pulses, oilseeds or maize instead get input help per acre after the crop area is checked"
+  },
+  {
+   "k": "3fc998c60eb3",
+   "ctx": "documents",
+   "t": "Aadhaar card, with the mobile number linked to it"
+  },
+  {
+   "k": "a40742ed3334",
+   "ctx": "documents",
+   "t": "AgriStack Farmer ID (Kisan ID)"
+  },
+  {
+   "k": "212d53186dc3",
+   "ctx": "documents",
+   "t": "B-1 and khasra (P-II) copy of your land, and the Kisan Kitab (Rin Pustika)"
+  },
+  {
+   "k": "88d19bb01dcf",
+   "ctx": "documents",
+   "t": "Bank passbook of an account in the farmer's own name, linked to Aadhaar"
+  },
+  {
+   "k": "8d38b9da86a7",
+   "ctx": "documents",
+   "t": "Name and Aadhaar of a nominee"
+  },
+  {
+   "k": "f064cc1cb02b",
+   "ctx": "documents",
+   "t": "Sharecroppers: the written adhiya or rega agreement with the land owner; forest land: the van adhikar patra"
+  },
+  {
+   "k": "f8b7d40b06cb",
+   "ctx": "submitAt",
+   "t": "Go to the primary cooperative society (sewa sahkari samiti or LAMPS) where your village sells paddy, before the registration deadline (31 October for the 2026-27 season). Take your Aadhaar card, AgriStack Farmer ID, B-1 and khasra copy, Kisan Kitab and bank passbook. If you do not have a Farmer ID yet, the society operator can make it for you on the spot, or you can make it at a CSC or yourself on cgfr.agristack.gov.in. Farmers who sold at the society last year are already on its list and only need to check that their land and bank details are correct."
+  },
+  {
+   "k": "e7f76c9eb51e",
+   "ctx": "label",
+   "t": "Name of farmer"
+  },
+  {
+   "k": "b4e86952d33a",
+   "ctx": "value",
+   "t": "Ramesh Kumar Sahu"
+  },
+  {
+   "k": "7a0750286fd5",
+   "ctx": "hint",
+   "t": "Your name exactly as on the land record (B-1) and Aadhaar."
+  },
+  {
+   "k": "cbde1bf11493",
+   "ctx": "value",
+   "t": "Shri Govind Ram Sahu"
+  },
+  {
+   "k": "f2ae66b28da2",
+   "ctx": "hint",
+   "t": "As written in the land record."
+  },
+  {
+   "k": "a37cb95fe3c7",
+   "ctx": "hint",
+   "t": "Your own Aadhaar. The OTP goes to the mobile linked to it."
+  },
+  {
+   "k": "d856382aced1",
+   "ctx": "label",
+   "t": "AgriStack Farmer ID"
+  },
+  {
+   "k": "5568ed1b6940",
+   "ctx": "hint",
+   "t": "The Kisan ID from the farmer registry. The society cannot register you for 2026-27 without it."
+  },
+  {
+   "k": "c4c7d2ef8b35",
+   "ctx": "hint",
+   "t": "Token messages and payment messages come to this number."
+  },
+  {
+   "k": "3d6095525d8a",
+   "ctx": "label",
+   "t": "Village and society"
+  },
+  {
+   "k": "e464ac4f392d",
+   "ctx": "value",
+   "t": "Kharora / Sewa Sahkari Samiti Kharora"
+  },
+  {
+   "k": "717542551333",
+   "ctx": "hint",
+   "t": "The society where your village's paddy is bought."
+  },
+  {
+   "k": "a7fc41d1029c",
+   "ctx": "label",
+   "t": "Khasra numbers and area"
+  },
+  {
+   "k": "dfc35655a6bb",
+   "ctx": "value",
+   "t": "214/2, 215 — 2.40 acres"
+  },
+  {
+   "k": "52c3367a0b0d",
+   "ctx": "hint",
+   "t": "Copy from the B-1. Only this area, as seen in the crop survey, counts for the 21 quintal an acre limit."
+  },
+  {
+   "k": "1d4b4770a840",
+   "ctx": "label",
+   "t": "Area sown with paddy"
+  },
+  {
+   "k": "671704a244c6",
+   "ctx": "value",
+   "t": "2.40 acres (kharif 2026)"
+  },
+  {
+   "k": "3dc595d0bb8b",
+   "ctx": "hint",
+   "t": "The area actually under paddy this season. If you sowed pulses or maize instead, tell the society; it counts for crop-change help."
+  },
+  {
+   "k": "4b9c159c0eeb",
+   "ctx": "label",
+   "t": "Bank account and IFSC"
+  },
+  {
+   "k": "36810e1e97e5",
+   "ctx": "hint",
+   "t": "Usually the district cooperative bank account linked to the society. MSP and the Krishak Unnati amount both come here."
+  },
+  {
+   "k": "df2204118018",
+   "ctx": "value",
+   "t": "Savitri Sahu (wife)"
+  },
+  {
+   "k": "922e4e68545b",
+   "ctx": "hint",
+   "t": "The person who can receive the money if something happens to you."
+  },
+  {
+   "k": "20752874f411",
+   "ctx": "demoSteps",
+   "t": "Make your AgriStack Farmer ID if you do not have one, at the society, a CSC or on cgfr.agristack.gov.in, using your Aadhaar and land details."
+  },
+  {
+   "k": "156b8260041f",
+   "ctx": "demoSteps",
+   "t": "Before 31 October, go to your cooperative society and get your land, bank and nominee details entered for the paddy season."
+  },
+  {
+   "k": "5c5795ed653c",
+   "ctx": "demoSteps",
+   "t": "When procurement opens in mid-November, take a token for your selling day from the society or on the Token Tuhar Hath app."
+  }
+ ]
+}

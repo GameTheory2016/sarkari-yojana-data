@@ -1,0 +1,1014 @@
+{
+ "lang": "pa",
+ "language": "Punjabi",
+ "script": "Gurmukhi",
+ "instructions": "# How to translate this chunk\n\nThis file holds `items`, a list of `{\"k\", \"ctx\", \"t\"}`. `t` is English text\nthat a reader of an Indian app or website sees. `ctx` is the field it came\nfrom, such as label, hint, button, documents, brief or title. Use it to judge\ntone and length: a label stays short, a hint can be a sentence.\n\nWrite `{\"items\": [{\"k\": ..., \"t\": ...}, ...]}` to the path in `write_to`.\nKeep every `k` unchanged and in the same order. Put the translation in `t`.\nLeave out `ctx`. Do not add, merge, split or drop items.\n\n## Keep these exactly as they are\n\n- Placeholders and markup: `{0}`, `{name}`, `%s`, `%d`, `%1$s`, HTML tags, `\\n`.\n- Website addresses, e-mail addresses and links.\n- Every number: phone and toll-free numbers, Aadhaar, account, IFSC, PAN, PIN\n  codes, amounts, dates, percentages. Write digits as 0-9, the Western digits,\n  in every language, including Urdu. People type these into forms that take\n  Western digits.\n- Acronyms people know in Latin letters: OTP, PAN, IFSC, UPI, KYC, e-KYC, DBT,\n  BPL, APL, NFSA, PM-KISAN, SMS, PDF, ID.\n\n## Names\n\n- Product, app, portal and scheme names: transliterate them into the script so\n  they read naturally. Keep any acronym inside them in Latin, so \"APPSC\n  portal\" becomes APPSC followed by the word for portal.\n- A button or menu label quoted from a website, such as 'Apply Online' or\n  'Register', stays in English inside quotes. The reader has to find that exact\n  English word on the screen.\n- People and places in examples are transliterated, never replaced with other\n  names.\n- Government office titles are transliterated so the reader can say them at\n  the counter: Tahsildar, Patwari, Talathi, Mamlatdar, BDO, Collector, Gram\n  Panchayat. The language notes below give the usual local forms.\n\n## Tone\n\nWrite for an ordinary person who may be elderly and may have had little\nschooling. Use everyday spoken language, not heavy official vocabulary. Where\npeople really say the English word, write it in the script: online, form,\nportal, login, mobile, bank, certificate, download, upload, app. Keep\ninstructions short and direct, in the form \"do this\".\n\n\"Gender\" means sex (male or female). It is never the word for caste.\n\n## Before you write\n\nCheck that you have the same number of items as the input and that every\nnumber and placeholder came through. Write the whole file in ONE Write call,\nas valid UTF-8 JSON with no `\\u` escapes and nothing else in the file.\n\n## Hindi (hi)\n\nScript: Devanagari. Used in UP, MP, Bihar, Rajasthan, Haryana, HP, Uttarakhand,\nJharkhand, Chhattisgarh and Delhi, and understood across the north.\nTone: everyday spoken Hindi (Hindustani). Avoid Sanskritised official words.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बैंक, मोबाइल, OTP, हेल्पलाइन,\nसर्टिफिकेट, डाउनलोड, अपलोड.\nUI: आवेदन करें (Apply), जमा करें (Submit), आगे (Next), पीछे (Back), खोजें (Search),\nशेयर करें (Share), सेटिंग (Settings), भाषा (Language), मदद (Help).\nOffices: तहसीलदार, पटवारी, ग्राम पंचायत, कलेक्टर, ब्लॉक विकास कार्यालय (BDO).\nGender: लिंग (never जाति). Money: रु. 6,000; रु. 8 लाख. September: सितंबर.\n\n## Gujarati (gu)\n\nScript: Gujarati. Used in Gujarat, and spoken in Dadra & Nagar Haveli and\nDaman & Diu.\nTone: everyday spoken Gujarati.\nWords: ઓનલાઇન, ફોર્મ, પોર્ટલ, લૉગિન, આધાર, બેંક, મોબાઇલ, OTP, હેલ્પલાઇન, સર્ટિફિકેટ / દાખલો,\nડાઉનલોડ, અપલોડ.\nUI: અરજી કરો, સબમિટ કરો, આગળ, પાછળ, શોધો, શેર કરો, સેટિંગ્સ, ભાષા, મદદ.\nOffices: મામલતદાર, તલાટી, ગ્રામ પંચાયત, કલેક્ટર, તાલુકા પંચાયત.\nGender: જાતિ is caste; use લિંગ. Money: રૂ. 6,000; રૂ. 8 લાખ. September: સપ્ટેમ્બર.\n\n## Marathi (mr)\n\nScript: Devanagari. Used in Maharashtra, and widely in Goa.\nTone: everyday Marathi as spoken in Maharashtra.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बँक, मोबाइल, OTP, हेल्पलाइन, दाखला / सर्टिफिकेट,\nडाउनलोड, अपलोड.\nUI: अर्ज करा, सबमिट करा, पुढे, मागे, शोधा, शेअर करा, सेटिंग्ज, भाषा, मदत.\nOffices: तहसीलदार, तलाठी, ग्रामपंचायत, जिल्हाधिकारी (कलेक्टर), आपले सरकार सेवा केंद्र.\nGender: लिंग. Money: रु. 6,000; रु. 8 लाख. September: सप्टेंबर.\n\n## Bengali (bn)\n\nScript: Bengali. Used in West Bengal and Tripura, and in Assam's Barak Valley\nand the Andamans.\nTone: everyday spoken Bengali (চলিত ভাষা), not সাধু ভাষা.\nWords: অনলাইন, ফর্ম, পোর্টাল, লগইন, আধার, ব্যাংক, মোবাইল, OTP, হেল্পলাইন, সার্টিফিকেট,\nডাউনলোড, আপলোড.\nUI: আবেদন করুন, জমা দিন, পরবর্তী, পিছনে, খুঁজুন, শেয়ার করুন, সেটিংস, ভাষা, সাহায্য.\nOffices: বিডিও অফিস, গ্রাম পঞ্চায়েত, তহসিলদার, জেলাশাসক (কালেক্টর), দুয়ারে সরকার.\nGender: লিঙ্গ. Money: 6,000 টাকা; 8 লাখ টাকা. September: সেপ্টেম্বর.\n\n## Assamese (as)\n\nScript: Bengali script with the Assamese letters ৰ and ৱ. Used in Assam.\nThis is Assamese, not Bengali. Use Assamese words and spellings: আঁচনি\n(scheme), বেংক (bank), কৰক (do), নহয় (is not).\nWords: অনলাইন, প্ৰপত্ৰ / ফৰ্ম, পৰ্টেল, লগইন, আধাৰ, বেংক, মবাইল, OTP, হেল্পলাইন, প্ৰমাণপত্ৰ,\nডাউনল'ড, আপল'ড.\nUI: আবেদন কৰক, দাখিল কৰক, পৰৱৰ্তী, উভতি যাওক, বিচাৰক, শ্বেয়াৰ কৰক, ছেটিংছ, ভাষা, সহায়.\nOffices: চক্ৰ বিষয়াৰ কাৰ্যালয় (Circle Office), গাঁও পঞ্চায়ত, উন্নয়ন খণ্ড কাৰ্যালয় (BDO),\nজিলা উপায়ুক্ত.\nGender: লিংগ. Money: 6,000 টকা; 8 লাখ টকা. September: ছেপ্তেম্বৰ.\n\n## Punjabi (pa)\n\nScript: Gurmukhi. Used in Punjab and Chandigarh, and spoken in Delhi and\nHaryana.\nTone: everyday spoken Punjabi.\nWords: ਆਨਲਾਈਨ, ਫਾਰਮ, ਪੋਰਟਲ, ਲੌਗਇਨ, ਆਧਾਰ, ਬੈਂਕ, ਮੋਬਾਈਲ, OTP, ਹੈਲਪਲਾਈਨ, ਸਰਟੀਫਿਕੇਟ,\nਡਾਊਨਲੋਡ, ਅਪਲੋਡ.\nUI: ਅਰਜ਼ੀ ਦਿਓ, ਜਮ੍ਹਾਂ ਕਰੋ, ਅੱਗੇ, ਪਿੱਛੇ, ਖੋਜੋ, ਸਾਂਝਾ ਕਰੋ, ਸੈਟਿੰਗਾਂ, ਭਾਸ਼ਾ, ਮਦਦ.\nOffices: ਤਹਿਸੀਲਦਾਰ, ਪਟਵਾਰੀ, ਸੇਵਾ ਕੇਂਦਰ, ਗ੍ਰਾਮ ਪੰਚਾਇਤ, ਡਿਪਟੀ ਕਮਿਸ਼ਨਰ.\nGender: ਲਿੰਗ. Money: ₹6,000; ₹8 ਲੱਖ. September: ਸਤੰਬਰ.",
+ "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/pa/done_05.json",
+ "items": [
+  {
+   "k": "e0a5041378a3",
+   "ctx": "hint",
+   "t": "The date your pregnancy was registered and the check-up was done, also on the MCP card."
+  },
+  {
+   "k": "a6014fc28bcc",
+   "ctx": "label",
+   "t": "Bank account (Aadhaar-based payment)"
+  },
+  {
+   "k": "311784333c6a",
+   "ctx": "value",
+   "t": "Aadhaar-seeded account at Bank of India, Biswan"
+  },
+  {
+   "k": "622d66077314",
+   "ctx": "hint",
+   "t": "Money is sent to whichever account is linked with your Aadhaar. Ask your bank to link it first if it is not."
+  },
+  {
+   "k": "17d625d62a8c",
+   "ctx": "label",
+   "t": "Anganwadi centre"
+  },
+  {
+   "k": "57ac09986dce",
+   "ctx": "value",
+   "t": "AWC Rampur Kalan-2"
+  },
+  {
+   "k": "a5d2719c95b9",
+   "ctx": "hint",
+   "t": "Choose the Anganwadi centre near your house. Its worker will visit to confirm your details."
+  },
+  {
+   "k": "5ae3786d4be3",
+   "ctx": "demoSteps",
+   "t": "Register your pregnancy at the Anganwadi centre or government health centre, get the MCP card and do the check-up (ANC)."
+  },
+  {
+   "k": "7a05a9020026",
+   "ctx": "demoSteps",
+   "t": "Open pmmvy.wcd.gov.in, press Login, choose Citizen, verify your mobile with OTP and create your profile. If you cannot do it, ask your Anganwadi worker or ASHA to fill the form for you on her app."
+  },
+  {
+   "k": "17ddc22e7ed3",
+   "ctx": "demoSteps",
+   "t": "Choose Beneficiary Registration, verify Aadhaar with OTP, fill the eligibility proof, LMP and check-up dates and the Anganwadi centre, then submit and note the registration number."
+  },
+  {
+   "k": "8b3a9c436022",
+   "ctx": "demoSteps",
+   "t": "The Anganwadi worker checks your details and the block officer approves. Rs.3,000 is then sent to your Aadhaar-linked account."
+  },
+  {
+   "k": "1d37e931f9af",
+   "ctx": "demoSteps",
+   "t": "After the birth, register the baby's birth and get the 14-week vaccines. Then log in again, or ask the Anganwadi worker, to fill the child's details. Rs.2,000 is sent next."
+  },
+  {
+   "k": "525abdb6ca1c",
+   "ctx": "demoSteps",
+   "t": "If your second child is a girl, apply after her birth and 14-week vaccines. Rs.6,000 is sent in one payment."
+  },
+  {
+   "k": "24819b81f80f",
+   "ctx": "demoSteps",
+   "t": "Check progress under Track Application Status on the portal. For a delay, use Lodge Grievance on the same site or call 1515."
+  },
+  {
+   "k": "a95c51035e52",
+   "ctx": "helpline",
+   "t": "1515 (POSHAN and PMMVY toll-free helpline; earlier 14408)"
+  },
+  {
+   "k": "a90a5ba91252",
+   "ctx": "title",
+   "t": "Andaman & Nicobar Old Age Pension (Social Security Pension)"
+  },
+  {
+   "k": "4e1d33a85a51",
+   "ctx": "department",
+   "t": "Directorate of Social Welfare, Andaman & Nicobar Administration"
+  },
+  {
+   "k": "569e2fe5e5c6",
+   "ctx": "brief",
+   "t": "Old people in the islands get Rs.2,500 a month from 60, and Rs.3,000 a month from 80, paid into their bank account. It is for people who have lived in the islands for at least 10 years and whose household earns less than Rs.48,000 a year. One common form covers the old age, widow, destitute and disability pensions. You hand it in at the CDPO office of your area. More than 15,600 people get this pension."
+  },
+  {
+   "k": "baafac1115f1",
+   "ctx": "benefit",
+   "t": "Rs.2,500 a month (Rs.3,000 a month from age 80)"
+  },
+  {
+   "k": "1c5c77eb71ff",
+   "ctx": "eligibility",
+   "t": "Age 60 years or above"
+  },
+  {
+   "k": "f7dfd69424b0",
+   "ctx": "eligibility",
+   "t": "Living in the islands continuously for at least 10 years (local certificate or resident identity card)"
+  },
+  {
+   "k": "84b663486f11",
+   "ctx": "eligibility",
+   "t": "Household income less than Rs.48,000 a year (Rs.4,000 a month)"
+  },
+  {
+   "k": "883b5f695b53",
+   "ctx": "eligibility",
+   "t": "Not getting any other pension, allowance or grant from the government"
+  },
+  {
+   "k": "26c8cedaa4fc",
+   "ctx": "eligibility",
+   "t": "From age 80 the pension rises to Rs.3,000 a month"
+  },
+  {
+   "k": "4d6afda93f5a",
+   "ctx": "documents",
+   "t": "Local certificate or domicile certificate"
+  },
+  {
+   "k": "d09402c0dae6",
+   "ctx": "documents",
+   "t": "Bank account number (passbook copy)"
+  },
+  {
+   "k": "98e9c23e0965",
+   "ctx": "documents",
+   "t": "Income and residence certificate from the Tehsildar (printed on the form)"
+  },
+  {
+   "k": "f753a6bb6ae7",
+   "ctx": "documents",
+   "t": "Age certificate from a Medical Officer (printed on the form)"
+  },
+  {
+   "k": "c2e4fdebf7f5",
+   "ctx": "documents",
+   "t": "Certificate from your Pradhan or Councillor (printed on the form)"
+  },
+  {
+   "k": "cb2dab1a18f8",
+   "ctx": "documents",
+   "t": "Signed declaration that you get no other government assistance"
+  },
+  {
+   "k": "dd7a458560d6",
+   "ctx": "portalName",
+   "t": "Directorate of Social Welfare, A&N Administration"
+  },
+  {
+   "k": "2843acaac1a3",
+   "ctx": "submitAt",
+   "t": "The office of the Child Development Project Officer (CDPO) of your area: Urban (Sri Vijaya Puram), Ferrargunj, Rangat, Diglipur or Car Nicobar. Forms are also free at the Directorate of Social Welfare, Goalghar, Sri Vijaya Puram (Port Blair). Before you submit, get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate filled in on the form. Attach the local certificate and an Aadhaar copy."
+  },
+  {
+   "k": "227865edaf07",
+   "ctx": "label",
+   "t": "Name of assistance applied for"
+  },
+  {
+   "k": "dfa971fddd4e",
+   "ctx": "hint",
+   "t": "Tick Old Age Pension. The same form is used for widow, destitute and disability pensions."
+  },
+  {
+   "k": "e928425a2ea0",
+   "ctx": "label",
+   "t": "Name of the applicant"
+  },
+  {
+   "k": "7bc17aa88132",
+   "ctx": "value",
+   "t": "K. Muniyamma"
+  },
+  {
+   "k": "a6a2fbcece85",
+   "ctx": "label",
+   "t": "Father's / Husband's name"
+  },
+  {
+   "k": "8ce2c91983be",
+   "ctx": "value",
+   "t": "Late K. Arumugam"
+  },
+  {
+   "k": "3574a1ae1aa1",
+   "ctx": "hint",
+   "t": "Write 'Late' if he has died."
+  },
+  {
+   "k": "79c38645748a",
+   "ctx": "hint",
+   "t": "Male or Female."
+  },
+  {
+   "k": "6f4763f26fdd",
+   "ctx": "label",
+   "t": "Married / Unmarried / Widow"
+  },
+  {
+   "k": "3ea07b157562",
+   "ctx": "hint",
+   "t": "Your present status."
+  },
+  {
+   "k": "3a175112966c",
+   "ctx": "hint",
+   "t": "Must show you are 60 or more. The Medical Officer certifies your age on the form."
+  },
+  {
+   "k": "ba127e614ba6",
+   "ctx": "label",
+   "t": "Present address"
+  },
+  {
+   "k": "9ea2506763bb",
+   "ctx": "value",
+   "t": "House 42, Garacharma-II, South Andaman"
+  },
+  {
+   "k": "b022defd8b50",
+   "ctx": "hint",
+   "t": "Where you live now, with village or ward."
+  },
+  {
+   "k": "e9d44657fe75",
+   "ctx": "label",
+   "t": "Category (APL / BPL)"
+  },
+  {
+   "k": "39ed2037fe94",
+   "ctx": "hint",
+   "t": "As on your ration card."
+  },
+  {
+   "k": "50589fcd2b01",
+   "ctx": "label",
+   "t": "Details of assistance received from Govt./local bodies"
+  },
+  {
+   "k": "c916da70cd4a",
+   "ctx": "value",
+   "t": "Nil"
+  },
+  {
+   "k": "2d67bc024d92",
+   "ctx": "hint",
+   "t": "Write Nil if you get no pension or grant. Anyone already getting one is not eligible."
+  },
+  {
+   "k": "636ee83204e0",
+   "ctx": "label",
+   "t": "Bank account number and Aadhaar number"
+  },
+  {
+   "k": "d5e523cb6c0f",
+   "ctx": "hint",
+   "t": "The pension is paid into this account every month."
+  },
+  {
+   "k": "f3ba0a8657ae",
+   "ctx": "demoSteps",
+   "t": "Download the pension form or collect it free at the CDPO office or the Directorate of Social Welfare."
+  },
+  {
+   "k": "45b0d1824015",
+   "ctx": "demoSteps",
+   "t": "Get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate on the form."
+  },
+  {
+   "k": "ee5c361baea3",
+   "ctx": "demoSteps",
+   "t": "Sign the declaration and hand in the form with your local certificate and Aadhaar copy at your CDPO office."
+  },
+  {
+   "k": "ad46cfe55123",
+   "ctx": "demoSteps",
+   "t": "The CDPO checks that you get no other assistance and sends the case to the Directorate of Social Welfare for sanction."
+  },
+  {
+   "k": "a064b5172f30",
+   "ctx": "demoSteps",
+   "t": "Once sanctioned, Rs.2,500 (Rs.3,000 from age 80) is paid into your bank account every month."
+  },
+  {
+   "k": "451edf68eccf",
+   "ctx": "demoSteps",
+   "t": "Give a life certificate every year in the prescribed format to your Anganwadi worker or Mukhya Sevika, or the pension is suspended."
+  },
+  {
+   "k": "cfc38501ca60",
+   "ctx": "helpline",
+   "t": "03192-233356 — Directorate of Social Welfare, Sri Vijaya Puram (Port Blair); your CDPO office"
+  },
+  {
+   "k": "c8b75e17b5e2",
+   "ctx": "title",
+   "t": "Annadata Sukhibhava – PM Kisan (Rs.20,000 farmer support)"
+  },
+  {
+   "k": "c0e589142f85",
+   "ctx": "department",
+   "t": "Agriculture Department, Government of Andhra Pradesh, with PM-KISAN, Government of India"
+  },
+  {
+   "k": "a9186a7a330e",
+   "ctx": "brief",
+   "t": "Andhra Pradesh pays farmer families Rs.20,000 a year for crop costs. Rs.14,000 of it comes from the state and Rs.6,000 from PM-Kisan, all sent by DBT in three instalments. It replaced the earlier YSR Rythu Bharosa. Farmers whose land is in the state land records are listed automatically. Anyone missing from the list, and tenant farmers, register or complain at their Rythu Seva Kendram (RSK)."
+  },
+  {
+   "k": "6b97f0704957",
+   "ctx": "benefit",
+   "t": "Rs.20,000 a year in three instalments: Rs.7,000, Rs.7,000 and Rs.6,000"
+  },
+  {
+   "k": "c69961d34ece",
+   "ctx": "eligibility",
+   "t": "Farmer family (husband, wife and minor children) with cultivable land recorded in their name in the Andhra Pradesh land records (Webland / 1-B). One payment per family"
+  },
+  {
+   "k": "14e9a6770ddc",
+   "ctx": "eligibility",
+   "t": "Tenant farmers with a valid Crop Cultivator Rights Card (CCRC) for the season, and tribal farmers holding forest-rights (ROFR) land, are also covered"
+  },
+  {
+   "k": "9bac208b9a53",
+   "ctx": "eligibility",
+   "t": "Not for families with an income-tax payer, a serving or retired government employee (Group D staff excepted), or a pensioner drawing Rs.10,000 a month or more"
+  },
+  {
+   "k": "42ae32359ff2",
+   "ctx": "eligibility",
+   "t": "Not for practising doctors, engineers, lawyers, chartered accountants or architects, holders of constitutional posts, or institutions that own land"
+  },
+  {
+   "k": "acd41dc8a742",
+   "ctx": "eligibility",
+   "t": "Aadhaar e-KYC must be complete, and the bank account must be Aadhaar-seeded and NPCI-mapped"
+  },
+  {
+   "k": "676050bcebf7",
+   "ctx": "documents",
+   "t": "Aadhaar card of the farmer"
+  },
+  {
+   "k": "e4a7e940df4c",
+   "ctx": "documents",
+   "t": "Pattadar passbook, or the 1-B / Adangal extract of the land"
+  },
+  {
+   "k": "1b77001e3ec7",
+   "ctx": "documents",
+   "t": "Bank passbook showing account number and IFSC (Aadhaar-seeded account)"
+  },
+  {
+   "k": "5f2e65741b6e",
+   "ctx": "documents",
+   "t": "CCRC card, for a tenant farmer"
+  },
+  {
+   "k": "765f07605f80",
+   "ctx": "documents",
+   "t": "ROFR title, for forest-rights land"
+  },
+  {
+   "k": "47e16d81f9d7",
+   "ctx": "portalName",
+   "t": "Annadatha Sukhibhava – PM Kisan portal"
+  },
+  {
+   "k": "dd4180668556",
+   "ctx": "submitAt",
+   "t": "The Rythu Seva Kendram (RSK) in your village. Take Aadhaar, the pattadar passbook or 1-B, the bank passbook and, for tenants, the CCRC card. The Village Agriculture Assistant registers you, does your e-KYC and files a grievance if your name is missing from the eligible list."
+  },
+  {
+   "k": "f1d109b29732",
+   "ctx": "value",
+   "t": "Narasimha Rao Kotha"
+  },
+  {
+   "k": "b019a8422604",
+   "ctx": "hint",
+   "t": "It must match the name in the land record and the bank account, or the money gets stuck."
+  },
+  {
+   "k": "366ce3a9c613",
+   "ctx": "hint",
+   "t": "The farmer's own 12 digits. Status is checked and payment is made on this number."
+  },
+  {
+   "k": "3d3fcb59298a",
+   "ctx": "hint",
+   "t": "The number linked to Aadhaar. OTPs and payment messages come here."
+  },
+  {
+   "k": "2e4e520ff25f",
+   "ctx": "value",
+   "t": "Land owner"
+  },
+  {
+   "k": "99460687bf90",
+   "ctx": "hint",
+   "t": "Land owner, tenant (CCRC holder) or forest-rights (ROFR) holder."
+  },
+  {
+   "k": "1fc2919e329c",
+   "ctx": "value",
+   "t": "Prakasam / Darsi / Thurpu Veerayapalem"
+  },
+  {
+   "k": "fb9b1a573cae",
+   "ctx": "hint",
+   "t": "The village where the land is, not where you live."
+  },
+  {
+   "k": "a645802dd224",
+   "ctx": "label",
+   "t": "Khata number and survey number"
+  },
+  {
+   "k": "66342c47335e",
+   "ctx": "value",
+   "t": "Khata 1187, Survey 214/2B"
+  },
+  {
+   "k": "b6df5bad9494",
+   "ctx": "hint",
+   "t": "Copy them from the pattadar passbook or 1-B. The assistant checks them against Webland."
+  },
+  {
+   "k": "62e389e33859",
+   "ctx": "label",
+   "t": "Extent of land"
+  },
+  {
+   "k": "da60a2ef4207",
+   "ctx": "value",
+   "t": "2.40 acres"
+  },
+  {
+   "k": "81f148866da3",
+   "ctx": "hint",
+   "t": "Your share as shown in the land record. If land is held jointly, only one family member is paid."
+  },
+  {
+   "k": "a4e42b95e0c4",
+   "ctx": "label",
+   "t": "CCRC number (tenants only)"
+  },
+  {
+   "k": "67c4d0506a44",
+   "ctx": "value",
+   "t": "Not applicable"
+  },
+  {
+   "k": "a2627e0b9638",
+   "ctx": "hint",
+   "t": "Tenant farmers write the number of this season's Crop Cultivator Rights Card. An expired card is rejected."
+  },
+  {
+   "k": "ef526491ebc8",
+   "ctx": "hint",
+   "t": "Make sure the account is Aadhaar-seeded and NPCI-mapped. Ask your bank if you are not sure."
+  },
+  {
+   "k": "265b72dddf52",
+   "ctx": "value",
+   "t": "Done by fingerprint at RSK"
+  },
+  {
+   "k": "60956e734296",
+   "ctx": "hint",
+   "t": "Without e-KYC no instalment is released. It can be done at the RSK with your thumb."
+  },
+  {
+   "k": "50c015957a06",
+   "ctx": "demoSteps",
+   "t": "Open annadathasukhibhava.ap.gov.in, tap Know Your Status and enter your Aadhaar. Or check the eligible list on the notice board at your Rythu Seva Kendram."
+  },
+  {
+   "k": "9219e8163b04",
+   "ctx": "demoSteps",
+   "t": "If your name is missing or shown ineligible, go to the RSK with Aadhaar, pattadar passbook or 1-B, bank passbook and, for tenants, the CCRC card."
+  },
+  {
+   "k": "8456ce18729f",
+   "ctx": "demoSteps",
+   "t": "The Village Agriculture Assistant registers you or enters a grievance in the grievance module and does your e-KYC by fingerprint. Note the grievance number."
+  },
+  {
+   "k": "bde5001753be",
+   "ctx": "demoSteps",
+   "t": "The Agriculture Officer verifies the land record and exclusions. Updated lists are put up at the RSK again."
+  },
+  {
+   "k": "433e5ba9838a",
+   "ctx": "demoSteps",
+   "t": "Make sure your bank account is linked to Aadhaar and NPCI-mapped, or the payment fails even after approval."
+  },
+  {
+   "k": "edc17d92509c",
+   "ctx": "demoSteps",
+   "t": "The money comes by DBT in three parts each year: Rs.7,000 (Rs.5,000 state + Rs.2,000 PM-Kisan), Rs.7,000, and Rs.6,000 (Rs.4,000 state + Rs.2,000 PM-Kisan). Check your bank passbook."
+  },
+  {
+   "k": "475b874d83c9",
+   "ctx": "demoSteps",
+   "t": "If an instalment does not arrive, check the status again on the portal and call the toll-free number 155251."
+  },
+  {
+   "k": "645dc28259dc",
+   "ctx": "helpline",
+   "t": "155251 — AP Agriculture Department toll-free (Annadata Sukhibhava) / 155261 — PM-KISAN helpline"
+  },
+  {
+   "k": "663dc486849f",
+   "ctx": "title",
+   "t": "Thalliki Vandanam (Rs.15,000 per school child to mothers)"
+  },
+  {
+   "k": "3f0902edd800",
+   "ctx": "department",
+   "t": "School Education Department, Government of Andhra Pradesh"
+  },
+  {
+   "k": "c3949856bd27",
+   "ctx": "brief",
+   "t": "Andhra Pradesh gives Rs.15,000 a year for every child studying in Class 1 to 12 to the child's mother or guardian, however many children she has. Rs.13,000 is credited to her bank account and Rs.2,000 is kept for school upkeep. It replaced the earlier Jagananna Amma Vodi. There is no application form: the school sends the child's details and the Secretariat checks the family. Mothers left out complain at the Swarna Gramam / Swarna Ward office."
+  },
+  {
+   "k": "43a7b4e9550c",
+   "ctx": "benefit",
+   "t": "Rs.15,000 a year per child: Rs.13,000 to the mother's account, Rs.2,000 for school upkeep"
+  },
+  {
+   "k": "17c630754b32",
+   "ctx": "eligibility",
+   "t": "Mother or guardian of a child in Class 1 to 12, including Intermediate, at a recognised government, aided, private or residential school or junior college in Andhra Pradesh"
+  },
+  {
+   "k": "0f9721d2e0a0",
+   "ctx": "eligibility",
+   "t": "At least one family member holds a rice card. Family income is up to Rs.10,000 a month in a village or Rs.12,000 a month in a town"
+  },
+  {
+   "k": "4f292548828a",
+   "ctx": "eligibility",
+   "t": "Land below 3 acres of wet land, 10 acres of dry land, or 10 acres in all. Average electricity use below 300 units a month"
+  },
+  {
+   "k": "78e7ba73e6a8",
+   "ctx": "eligibility",
+   "t": "No four-wheeler in the family (a taxi, tractor or auto is allowed), and no town property of 1,000 sq ft or more"
+  },
+  {
+   "k": "7ee54df8e756",
+   "ctx": "eligibility",
+   "t": "No government employee, government pensioner or income-tax payer in the family. Sanitation and Anganwadi workers are exempt"
+  },
+  {
+   "k": "192273e85f45",
+   "ctx": "eligibility",
+   "t": "ITI, polytechnic and IIIT (RGUKT) students are not covered"
+  },
+  {
+   "k": "112d4a1f0392",
+   "ctx": "documents",
+   "t": "Aadhaar card of the mother or guardian"
+  },
+  {
+   "k": "22f4ddad7175",
+   "ctx": "documents",
+   "t": "Aadhaar card of each child"
+  },
+  {
+   "k": "4fa58bee5477",
+   "ctx": "documents",
+   "t": "Bank or post office passbook in the mother's name, Aadhaar-seeded and NPCI-mapped"
+  },
+  {
+   "k": "91f58e4e0d9f",
+   "ctx": "documents",
+   "t": "The child's school admission details (school name and class), given to the head of the school"
+  },
+  {
+   "k": "15b464b19c35",
+   "ctx": "documents",
+   "t": "Electricity bill or other proof, only if you are disputing the reason you were found ineligible"
+  },
+  {
+   "k": "8cd5ce57a3ec",
+   "ctx": "submitAt",
+   "t": "No application is needed. The head of the school enters the child's details, and the Swarna Gramam / Swarna Ward office (Village or Ward Secretariat) checks the family. The eligible and ineligible lists are put up at that office. If you are left out, file a grievance there with the Welfare and Education Assistant or the Digital Assistant. Take the mother's and child's Aadhaar, the rice card, the bank passbook and proof against the reason for rejection."
+  },
+  {
+   "k": "3c11b819acb5",
+   "ctx": "label",
+   "t": "Mother / guardian name"
+  },
+  {
+   "k": "7a8df8c635db",
+   "ctx": "value",
+   "t": "Rama Devi Gollapalli"
+  },
+  {
+   "k": "d650844f7d85",
+   "ctx": "hint",
+   "t": "As on her Aadhaar. The money goes to the mother; to the father only if she is not there, and to a guardian if neither parent is."
+  },
+  {
+   "k": "32ab941ecb20",
+   "ctx": "label",
+   "t": "Mother's Aadhaar number"
+  },
+  {
+   "k": "3cda3078661c",
+   "ctx": "hint",
+   "t": "She must be in the Secretariat's household database. If only the child is listed, ask for field verification."
+  },
+  {
+   "k": "d3857f3b46ca",
+   "ctx": "label",
+   "t": "Student name"
+  },
+  {
+   "k": "fc1ffc123082",
+   "ctx": "value",
+   "t": "Pavan Gollapalli"
+  },
+  {
+   "k": "598b0c08ebbf",
+   "ctx": "hint",
+   "t": "Exactly as in the school register. One entry for each child."
+  },
+  {
+   "k": "af4d2c4daf6e",
+   "ctx": "label",
+   "t": "Student Aadhaar number"
+  },
+  {
+   "k": "3641f84e82da",
+   "ctx": "hint",
+   "t": "It must match the school's UDISE record, or the child is dropped as a duplicate."
+  },
+  {
+   "k": "30dcac5bca0b",
+   "ctx": "label",
+   "t": "School name and class"
+  },
+  {
+   "k": "2667b06e44f5",
+   "ctx": "value",
+   "t": "ZP High School, Kovvur — Class 8"
+  },
+  {
+   "k": "542d2c0c8003",
+   "ctx": "hint",
+   "t": "Any recognised government, aided, private or residential school, or a junior college for Intermediate."
+  },
+  {
+   "k": "1c3ec7a3e34b",
+   "ctx": "label",
+   "t": "Rice card number"
+  },
+  {
+   "k": "1d8c1e10f748",
+   "ctx": "hint",
+   "t": "At least one person in the family must hold a rice card."
+  },
+  {
+   "k": "7f9b65260dbc",
+   "ctx": "hint",
+   "t": "In the mother's own name. It must be Aadhaar-seeded and NPCI-mapped, or the payment fails."
+  },
+  {
+   "k": "957498c5a5f0",
+   "ctx": "label",
+   "t": "Reason shown as ineligible"
+  },
+  {
+   "k": "fb37cb396275",
+   "ctx": "value",
+   "t": "Electricity use above 300 units"
+  },
+  {
+   "k": "830849fb5cf1",
+   "ctx": "hint",
+   "t": "Read the reason on the list at the office. Common ones are electricity, land, four-wheeler, government job and income tax."
+  },
+  {
+   "k": "81beb0935d37",
+   "ctx": "label",
+   "t": "Your objection"
+  },
+  {
+   "k": "1594fab644e6",
+   "ctx": "value",
+   "t": "The meter is shared by three rented portions; our own use is about 120 units"
+  },
+  {
+   "k": "529f5608e7c1",
+   "ctx": "hint",
+   "t": "Say plainly why the reason is wrong and attach proof, such as the bill, a rent agreement or a land record."
+  },
+  {
+   "k": "53805c83e523",
+   "ctx": "demoSteps",
+   "t": "Make sure the school has your child's correct Aadhaar, and your own name and Aadhaar as the mother. The head of the school enters these details."
+  },
+  {
+   "k": "bb0cf76984d0",
+   "ctx": "demoSteps",
+   "t": "Keep your bank account Aadhaar-seeded and NPCI-mapped. Ask the bank or post office to check it."
+  },
+  {
+   "k": "7b4d665ce257",
+   "ctx": "demoSteps",
+   "t": "When the money is released (late July in 2026), check your passbook and look for your name on the eligible list at the Swarna Gramam / Swarna Ward office."
+  },
+  {
+   "k": "6cf8f4bb168f",
+   "ctx": "demoSteps",
+   "t": "If you are left out or shown ineligible, file a grievance at that office within the window it announces (22 July to 3 August in 2026). Take Aadhaar, the rice card, the passbook and proof against the reason. Keep the grievance number."
+  },
+  {
+   "k": "64ec4b4e2f01",
+   "ctx": "demoSteps",
+   "t": "Staff verify the grievance at your home or with records and prepare a supplementary list."
+  },
+  {
+   "k": "03a049b3e37f",
+   "ctx": "demoSteps",
+   "t": "If accepted, Rs.13,000 for each eligible child is credited to your account in the second round (30 August in 2026)."
+  },
+  {
+   "k": "fa7a216da2ad",
+   "ctx": "demoSteps",
+   "t": "For help, ask the Welfare and Education Assistant at the office or call 1902."
+  },
+  {
+   "k": "5bf26bffeb4a",
+   "ctx": "helpline",
+   "t": "1902 — AP government citizen helpline (Swarna Gramam / Swarna Ward and Secretariat services)"
+  },
+  {
+   "k": "d2f40c74cdd3",
+   "ctx": "title",
+   "t": "AP Building and Other Construction Workers Registration (Construction Worker Card)"
+  },
+  {
+   "k": "4aa6817c93a1",
+   "ctx": "department",
+   "t": "AP Building and Other Construction Workers Welfare Board, Labour Department, Government of Andhra Pradesh"
+  },
+  {
+   "k": "c975099be084",
+   "ctx": "brief",
+   "t": "Masons, helpers, carpenters, painters, plumbers, electricians and other construction workers register with the state construction workers' welfare board and get an ID card. Card holders and their families can claim money for marriage, childbirth, natural death and funeral. These benefits were restored from 1 March 2026. Registration costs Rs.50 once plus Rs.12 a year, and claims are made through the Village or Ward Secretariat."
+  },
+  {
+   "k": "5eba0d5a1011",
+   "ctx": "benefit",
+   "t": "Rs.20,000 marriage gift, Rs.20,000 maternity help, Rs.60,000 on natural death, Rs.20,000 funeral expenses"
+  },
+  {
+   "k": "703b183ca6d7",
+   "ctx": "eligibility",
+   "t": "Age 18 to 59 at the time of registration"
+  },
+  {
+   "k": "5bf815552cea",
+   "ctx": "eligibility",
+   "t": "Worked at least 90 days in the past 12 months in building or other construction work in Andhra Pradesh: mason, helper, carpenter, painter, plumber, electrician, centring, tiles and similar trades"
+  },
+  {
+   "k": "18381436a3ac",
+   "ctx": "eligibility",
+   "t": "Road workers employed for more than 90 days and mining workers can also register"
+  },
+  {
+   "k": "fa08c894ef51",
+   "ctx": "eligibility",
+   "t": "Registration fee of Rs.50 once, plus a contribution of Rs.12 a year; the card must be renewed to stay valid"
+  },
+  {
+   "k": "6d9eda85f442",
+   "ctx": "eligibility",
+   "t": "Benefits are paid only to workers holding a valid, renewed card. Marriage help covers a woman worker and two daughters, and maternity help covers a woman worker, the wife and two daughters"
+  },
+  {
+   "k": "bfbca7675b55",
+   "ctx": "documents",
+   "t": "Certificate of 90 days of construction work, signed by the employer or builder, a registered trade union, or the labour officer"
+  },
+  {
+   "k": "12934e67ab15",
+   "ctx": "documents",
+   "t": "Passport-size photograph and signature"
+  },
+  {
+   "k": "055155d3e535",
+   "ctx": "documents",
+   "t": "Bank passbook showing account number and IFSC"
+  },
+  {
+   "k": "43162899a808",
+   "ctx": "documents",
+   "t": "Rice card and age proof"
+  },
+  {
+   "k": "5edfcb7197f6",
+   "ctx": "documents",
+   "t": "Names, ages and relation of family members, and the nominee"
+  },
+  {
+   "k": "158e64c28250",
+   "ctx": "documents",
+   "t": "Registration fee of Rs.50 plus Rs.12 for each year"
+  },
+  {
+   "k": "0b258c3b0143",
+   "ctx": "portalName",
+   "t": "AP Building and Other Construction Workers Welfare Board"
+  },
+  {
+   "k": "6178585e220b",
+   "ctx": "submitAt",
+   "t": "Register at the Assistant Labour Officer's office for your mandal or town, or ask the Digital Assistant at your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) to guide you. Take the filled Form XXVII, Aadhaar, the 90-day work certificate, a photo, the bank passbook and the fee. To claim a benefit later, apply at the Secretariat through the Digital Assistant or the Ward Education and Development Secretary on the AP Seva portal, with your worker card and proof of the event."
+  },
+  {
+   "k": "e326ce0da529",
+   "ctx": "hint",
+   "t": "Your own 12 digits. One registration per person."
+  },
+  {
+   "k": "949aeaed90a8",
+   "ctx": "value",
+   "t": "Appala Raju Kandregula, 12-03-1988"
+  },
+  {
+   "k": "08ff23dfcd20",
+   "ctx": "hint",
+   "t": "As on Aadhaar. You must be 18 or older and below 60."
+  },
+  {
+   "k": "451510782afd",
+   "ctx": "label",
+   "t": "Father / Husband name"
+  },
+  {
+   "k": "604991a44772",
+   "ctx": "value",
+   "t": "Kandregula Satyam"
+  },
+  {
+   "k": "203109b93b71",
+   "ctx": "hint",
+   "t": "Write the father's name, or the husband's name for a married woman."
+  },
+  {
+   "k": "a1f4584e0993",
+   "ctx": "label",
+   "t": "Caste and phone number"
+  },
+  {
+   "k": "e3103ab8d4f7",
+   "ctx": "hint",
+   "t": "Tick SC, ST, BC, Minority or Others. Messages about the card and claims come to the phone."
+  },
+  {
+   "k": "80375df05478",
+   "ctx": "label",
+   "t": "Family members and nominee"
+  },
+  {
+   "k": "12822c656d4f",
+   "ctx": "value",
+   "t": "Lakshmi (wife, 33) — nominee 100%; Sravani (daughter, 12); Ganesh (son, 9)"
+  },
+  {
+   "k": "f4cb1c4b9fba",
+   "ctx": "hint",
+   "t": "Name, age and relation of each. The nominee gets the money if you die. Shares must add up to 100%."
+  },
+  {
+   "k": "49cbc651c894",
+   "ctx": "label",
+   "t": "Bank details"
+  },
+  {
+   "k": "c9357727dc00",
+   "ctx": "value",
+   "t": "9999 0033 6620 / IOBA0001234, Indian Overseas Bank, Anakapalli"
+  },
+  {
+   "k": "2f694dafdb37",
+   "ctx": "hint",
+   "t": "An account in your own name. All benefits are paid into it by DBT."
+  },
+  {
+   "k": "0226fe588cbf",
+   "ctx": "value",
+   "t": "Door 4-12, Gandhi Nagar, Anakapalli, Anakapalli district 531001"
+  },
+  {
+   "k": "c5bce1c94e02",
+   "ctx": "hint",
+   "t": "Door number, street, village or town, mandal, district and PIN code."
+  },
+  {
+   "k": "9043176ef857",
+   "ctx": "label",
+   "t": "Are you a VB-G RAM G (rural job card) worker?"
+  },
+  {
+   "k": "78aeba0d434d",
+   "ctx": "hint",
+   "t": "VB-G RAM G is the rural job scheme that replaced MGNREGA. If you hold a job card, give its number."
+  },
+  {
+   "k": "1ad17fc384a0",
+   "ctx": "label",
+   "t": "Name of employer and construction site"
+  },
+  {
+   "k": "f3b3790ddc3f",
+   "ctx": "value",
+   "t": "Sri Venkateswara Builders — apartment site, Sabbavaram Road"
+  },
+  {
+   "k": "4a7d1ed9e8a6",
+   "ctx": "hint",
+   "t": "Where you work now. This employer, a registered union or the labour officer signs your 90-day certificate."
+  },
+  {
+   "k": "c1240ca576ec",
+   "ctx": "label",
+   "t": "Name of trade"
+  },
+  {
+   "k": "adf9adb6a968",
+   "ctx": "value",
+   "t": "Mason"
+  },
+  {
+   "k": "f32c45fae5f5",
+   "ctx": "hint",
+   "t": "Mason, helper, carpenter, painter, plumber, electrician, centring, tiles, welder and so on."
+  },
+  {
+   "k": "1a3455118670",
+   "ctx": "demoSteps",
+   "t": "Get Form XXVII (the board's PDF, or a copy from the labour office) and fill it in. Have your employer, a registered trade union or the labour officer sign the certificate of 90 days of work on the back."
+  },
+  {
+   "k": "b65ebaad4636",
+   "ctx": "demoSteps",
+   "t": "Take the form, Aadhaar, a photo, the bank passbook and the fee (Rs.50 plus Rs.12 a year) to the Assistant Labour Officer's office. The Secretariat's Digital Assistant can tell you where yours is."
+  },
+  {
+   "k": "4952cde31364",
+   "ctx": "demoSteps",
+   "t": "The labour officer checks your work and enters your details online. Keep the receipt with your registration number."
+  },
+  {
+   "k": "a3e34b47b8a1",
+   "ctx": "demoSteps",
+   "t": "Collect your construction worker ID card, and renew it before it expires. A lapsed card cannot claim any benefit."
+  },
+  {
+   "k": "8d6b0f52e2b6",
+   "ctx": "demoSteps",
+   "t": "When there is a marriage, a birth, or a death in the family, apply soon afterwards at your Village or Ward Secretariat. The Digital Assistant or the Ward Education and Development Secretary files it on AP Seva with your card and the marriage, birth or death certificate."
+  },
+  {
+   "k": "4c8a626177a2",
+   "ctx": "demoSteps",
+   "t": "The labour officer verifies the claim and the board sends the money to the bank account by Aadhaar-linked DBT."
+  },
+  {
+   "k": "d2ad18a75e7a",
+   "ctx": "demoSteps",
+   "t": "To check whether your registration is active, ask at the labour office or the Secretariat, or call 1902."
+  },
+  {
+   "k": "b2ee2cd345b8",
+   "ctx": "helpline",
+   "t": "0866-2436311 — Commissioner of Labour, Vijayawada / 1902 — AP government citizen helpline"
+  },
+  {
+   "k": "06c4a0f1c500",
+   "ctx": "title",
+   "t": "Dr. NTR Vaidya Seva (Aarogyasri Health Card)"
+  },
+  {
+   "k": "0bfa5b57e268",
+   "ctx": "department",
+   "t": "Dr. NTR Vaidya Seva Trust, Health, Medical & Family Welfare Department, Government of Andhra Pradesh"
+  }
+ ]
+}

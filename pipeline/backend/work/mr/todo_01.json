@@ -1,0 +1,1094 @@
+{
+ "lang": "mr",
+ "language": "Marathi",
+ "script": "Devanagari",
+ "instructions": "# How to translate this chunk\n\nThis file holds `items`, a list of `{\"k\", \"ctx\", \"t\"}`. `t` is English text\nthat a reader of an Indian app or website sees. `ctx` is the field it came\nfrom, such as label, hint, button, documents, brief or title. Use it to judge\ntone and length: a label stays short, a hint can be a sentence.\n\nWrite `{\"items\": [{\"k\": ..., \"t\": ...}, ...]}` to the path in `write_to`.\nKeep every `k` unchanged and in the same order. Put the translation in `t`.\nLeave out `ctx`. Do not add, merge, split or drop items.\n\n## Keep these exactly as they are\n\n- Placeholders and markup: `{0}`, `{name}`, `%s`, `%d`, `%1$s`, HTML tags, `\\n`.\n- Website addresses, e-mail addresses and links.\n- Every number: phone and toll-free numbers, Aadhaar, account, IFSC, PAN, PIN\n  codes, amounts, dates, percentages. Write digits as 0-9, the Western digits,\n  in every language, including Urdu. People type these into forms that take\n  Western digits.\n- Acronyms people know in Latin letters: OTP, PAN, IFSC, UPI, KYC, e-KYC, DBT,\n  BPL, APL, NFSA, PM-KISAN, SMS, PDF, ID.\n\n## Names\n\n- Product, app, portal and scheme names: transliterate them into the script so\n  they read naturally. Keep any acronym inside them in Latin, so \"APPSC\n  portal\" becomes APPSC followed by the word for portal.\n- A button or menu label quoted from a website, such as 'Apply Online' or\n  'Register', stays in English inside quotes. The reader has to find that exact\n  English word on the screen.\n- People and places in examples are transliterated, never replaced with other\n  names.\n- Government office titles are transliterated so the reader can say them at\n  the counter: Tahsildar, Patwari, Talathi, Mamlatdar, BDO, Collector, Gram\n  Panchayat. The language notes below give the usual local forms.\n\n## Tone\n\nWrite for an ordinary person who may be elderly and may have had little\nschooling. Use everyday spoken language, not heavy official vocabulary. Where\npeople really say the English word, write it in the script: online, form,\nportal, login, mobile, bank, certificate, download, upload, app. Keep\ninstructions short and direct, in the form \"do this\".\n\n\"Gender\" means sex (male or female). It is never the word for caste.\n\n## Before you write\n\nCheck that you have the same number of items as the input and that every\nnumber and placeholder came through. Write the whole file in ONE Write call,\nas valid UTF-8 JSON with no `\\u` escapes and nothing else in the file.\n\n## Hindi (hi)\n\nScript: Devanagari. Used in UP, MP, Bihar, Rajasthan, Haryana, HP, Uttarakhand,\nJharkhand, Chhattisgarh and Delhi, and understood across the north.\nTone: everyday spoken Hindi (Hindustani). Avoid Sanskritised official words.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बैंक, मोबाइल, OTP, हेल्पलाइन,\nसर्टिफिकेट, डाउनलोड, अपलोड.\nUI: आवेदन करें (Apply), जमा करें (Submit), आगे (Next), पीछे (Back), खोजें (Search),\nशेयर करें (Share), सेटिंग (Settings), भाषा (Language), मदद (Help).\nOffices: तहसीलदार, पटवारी, ग्राम पंचायत, कलेक्टर, ब्लॉक विकास कार्यालय (BDO).\nGender: लिंग (never जाति). Money: रु. 6,000; रु. 8 लाख. September: सितंबर.\n\n## Gujarati (gu)\n\nScript: Gujarati. Used in Gujarat, and spoken in Dadra & Nagar Haveli and\nDaman & Diu.\nTone: everyday spoken Gujarati.\nWords: ઓનલાઇન, ફોર્મ, પોર્ટલ, લૉગિન, આધાર, બેંક, મોબાઇલ, OTP, હેલ્પલાઇન, સર્ટિફિકેટ / દાખલો,\nડાઉનલોડ, અપલોડ.\nUI: અરજી કરો, સબમિટ કરો, આગળ, પાછળ, શોધો, શેર કરો, સેટિંગ્સ, ભાષા, મદદ.\nOffices: મામલતદાર, તલાટી, ગ્રામ પંચાયત, કલેક્ટર, તાલુકા પંચાયત.\nGender: જાતિ is caste; use લિંગ. Money: રૂ. 6,000; રૂ. 8 લાખ. September: સપ્ટેમ્બર.\n\n## Marathi (mr)\n\nScript: Devanagari. Used in Maharashtra, and widely in Goa.\nTone: everyday Marathi as spoken in Maharashtra.\nWords: ऑनलाइन, फॉर्म, पोर्टल, लॉगिन, आधार, बँक, मोबाइल, OTP, हेल्पलाइन, दाखला / सर्टिफिकेट,\nडाउनलोड, अपलोड.\nUI: अर्ज करा, सबमिट करा, पुढे, मागे, शोधा, शेअर करा, सेटिंग्ज, भाषा, मदत.\nOffices: तहसीलदार, तलाठी, ग्रामपंचायत, जिल्हाधिकारी (कलेक्टर), आपले सरकार सेवा केंद्र.\nGender: लिंग. Money: रु. 6,000; रु. 8 लाख. September: सप्टेंबर.",
+ "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/mr/done_01.json",
+ "items": [
+  {
+   "k": "c2be5992017f",
+   "ctx": "title",
+   "t": "Farmer ID (Kisan Pehchaan Patra) — AgriStack Farmer Registry"
+  },
+  {
+   "k": "213981c1cd3a",
+   "ctx": "department",
+   "t": "Ministry of Agriculture & Farmers Welfare (Digital Agriculture Mission), with state Revenue and Agriculture departments"
+  },
+  {
+   "k": "75f1cca62c0e",
+   "ctx": "brief",
+   "t": "A free, lifelong 11-digit Farmer ID for every land-owning farmer, linked to Aadhaar and to the plots in the state's land records. Schemes such as PM-Kisan, crop insurance and Kisan Credit Card can then read your land details from the ID, so you stop carrying land papers for each one. New PM-Kisan applicants in the ten states that started first (UP, MP, Maharashtra, Gujarat, Rajasthan, Bihar, Andhra Pradesh, Chhattisgarh, Odisha and Assam) have needed a Farmer ID since 1 January 2025, and over 10 crore farmers had one by August 2026. You register once, at a village camp, a CSC or yourself on your state's Farmer Registry website."
+  },
+  {
+   "k": "3d4906112819",
+   "ctx": "benefit",
+   "t": "Free lifelong Farmer ID, needed for new PM-Kisan registration and used for crop insurance and KCC"
+  },
+  {
+   "k": "182f44c1f49a",
+   "ctx": "eligibility",
+   "t": "Any farmer who owns farm land recorded in the state's land records in his or her own name"
+  },
+  {
+   "k": "4a58ed8e678a",
+   "ctx": "eligibility",
+   "t": "Each owner of jointly held land registers separately. Land in several villages or states still gets one single Farmer ID"
+  },
+  {
+   "k": "5832f28272b0",
+   "ctx": "eligibility",
+   "t": "The name on Aadhaar must closely match the name in the land record. A big mismatch sends the claim for manual check or rejection"
+  },
+  {
+   "k": "7c0a79582f3f",
+   "ctx": "eligibility",
+   "t": "If the owner has died or the land was bought, the mutation (name transfer) must be done in the land record first"
+  },
+  {
+   "k": "4390d75ea29a",
+   "ctx": "eligibility",
+   "t": "Tenant farmers and sharecroppers do not get the land in their name, but the owner can authorise them for a scheme"
+  },
+  {
+   "k": "b48b0305f6eb",
+   "ctx": "eligibility",
+   "t": "No fee is charged for registration or for the ID"
+  },
+  {
+   "k": "b4ad16bcdaf5",
+   "ctx": "documents",
+   "t": "Mobile number linked to Aadhaar for the OTP (otherwise fingerprint or face check at a camp or CSC)"
+  },
+  {
+   "k": "3ff841246912",
+   "ctx": "documents",
+   "t": "Copy of the land record (khatauni, 7/12, jamabandi, RTC, patta or pahani) showing district, tehsil, village and survey / khasra number"
+  },
+  {
+   "k": "08af9a8162b0",
+   "ctx": "documents",
+   "t": "Khata or owner number, for land held jointly"
+  },
+  {
+   "k": "ca1125f2b4a2",
+   "ctx": "documents",
+   "t": "Mutation order or heirship entry, if the land came to you by inheritance or purchase"
+  },
+  {
+   "k": "d4b9ac444296",
+   "ctx": "submitAt",
+   "t": "A Farmer Registry camp in your village (run by the Patwari / Lekhpal / Talathi, the agriculture assistant or a Krishi Sakhi), the nearest Common Service Centre (CSC), or the tehsil or block agriculture office. Take your Aadhaar, the mobile phone linked to it and a copy of your land record with the survey numbers; there is no paper form to fill. You can also register yourself online on your state's Farmer Registry site, whose address is the state code followed by fr.agristack.gov.in, for example upfr.agristack.gov.in (Uttar Pradesh), mhfr.agristack.gov.in (Maharashtra), gjfr.agristack.gov.in (Gujarat), rjfr.agristack.gov.in (Rajasthan), mpfr.agristack.gov.in (Madhya Pradesh) and bhfr.agristack.gov.in (Bihar)."
+  },
+  {
+   "k": "b5ef8bf80583",
+   "ctx": "hint",
+   "t": "Your own Aadhaar. The OTP for e-KYC goes to the mobile linked with it."
+  },
+  {
+   "k": "e3cd27c8f24d",
+   "ctx": "hint",
+   "t": "The enrolment number and the Farmer ID come by SMS to this number."
+  },
+  {
+   "k": "cf4f3b4aa860",
+   "ctx": "label",
+   "t": "Name as per Aadhaar"
+  },
+  {
+   "k": "ed27a1284a5a",
+   "ctx": "value",
+   "t": "Bhagwan Singh Yadav"
+  },
+  {
+   "k": "b3264cea3337",
+   "ctx": "hint",
+   "t": "Filled in by itself after e-KYC. Check that it matches the name in your land record."
+  },
+  {
+   "k": "a9ef7f3444e4",
+   "ctx": "value",
+   "t": "Ram Prakash Yadav"
+  },
+  {
+   "k": "4a4f17ffb519",
+   "ctx": "hint",
+   "t": "As written in the land record. The system matches both your name and this name."
+  },
+  {
+   "k": "03e625518b81",
+   "ctx": "label",
+   "t": "District / Sub-district / Village of the Land"
+  },
+  {
+   "k": "4de5f49f92cf",
+   "ctx": "value",
+   "t": "Etawah / Bharthana / Nagla Ratan"
+  },
+  {
+   "k": "a3a0352745cb",
+   "ctx": "hint",
+   "t": "Where the land is, not where you live."
+  },
+  {
+   "k": "c3324c4c8411",
+   "ctx": "label",
+   "t": "Survey / Khasra Number (and Sub-survey Number)"
+  },
+  {
+   "k": "3132b9b79af0",
+   "ctx": "hint",
+   "t": "From your khatauni or 7/12. Enter one plot; your other plots in that village usually show up by themselves."
+  },
+  {
+   "k": "d73040429ca3",
+   "ctx": "label",
+   "t": "Select Your Name from the Owners List"
+  },
+  {
+   "k": "05cb1997274e",
+   "ctx": "value",
+   "t": "Bhagwan Singh Yadav s/o Ram Prakash Yadav"
+  },
+  {
+   "k": "c0e370b1fb59",
+   "ctx": "hint",
+   "t": "Pick only your own name. For joint land, each owner registers with his or her own Aadhaar."
+  },
+  {
+   "k": "e3ea40044c2c",
+   "ctx": "label",
+   "t": "Verify Ownership"
+  },
+  {
+   "k": "0813ecf5f445",
+   "ctx": "value",
+   "t": "Verified from land record"
+  },
+  {
+   "k": "bc7b54bbe2c6",
+   "ctx": "hint",
+   "t": "Press Verify. The site checks the plot against the state's land record."
+  },
+  {
+   "k": "16a325d8c272",
+   "ctx": "label",
+   "t": "Consent and e-Sign"
+  },
+  {
+   "k": "31685aaa1c56",
+   "ctx": "value",
+   "t": "Agreed, e-signed with Aadhaar OTP"
+  },
+  {
+   "k": "ec194d09664b",
+   "ctx": "hint",
+   "t": "Your consent lets schemes use your land details. Nothing is shared without it."
+  },
+  {
+   "k": "3be7cd3e6d42",
+   "ctx": "label",
+   "t": "Enrolment ID"
+  },
+  {
+   "k": "3a56e1d31a10",
+   "ctx": "hint",
+   "t": "Write it down. Use it to track your claim until the Farmer ID is issued."
+  },
+  {
+   "k": "7b88e984eb8a",
+   "ctx": "demoSteps",
+   "t": "Go to a Farmer Registry camp or a CSC, or open your state's Farmer Registry site (state code + fr.agristack.gov.in), choose Farmer and create an account with your Aadhaar OTP."
+  },
+  {
+   "k": "8796a8589074",
+   "ctx": "demoSteps",
+   "t": "Finish Aadhaar e-KYC. Your name and details come from Aadhaar; add your mobile number and address."
+  },
+  {
+   "k": "23b30e714b58",
+   "ctx": "demoSteps",
+   "t": "Plots already matched to your Aadhaar appear by themselves. For a missing plot, enter the district, sub-district, village and survey number, pick your name from the owners list and press Verify."
+  },
+  {
+   "k": "d22763a90aca",
+   "ctx": "demoSteps",
+   "t": "Give consent with an Aadhaar e-sign and submit. An enrolment number arrives by SMS."
+  },
+  {
+   "k": "3fc9834cf475",
+   "ctx": "demoSteps",
+   "t": "The Patwari or revenue officer checks the claim against the land record. Once it is approved, the Farmer ID is made against your Aadhaar, usually within a day; check the status on the same site."
+  },
+  {
+   "k": "7b6178081828",
+   "ctx": "demoSteps",
+   "t": "Quote the Farmer ID for PM-Kisan, crop insurance and KCC. If the claim is rejected for a name mismatch or a pending mutation, get the land record or Aadhaar corrected and claim again."
+  },
+  {
+   "k": "0b13b2a5e2eb",
+   "ctx": "helpline",
+   "t": "Tehsil or district agriculture office Farmer Registry help desk; 155261 / 1800-115-526 (PM-Kisan helpline, for linking the Farmer ID to PM-Kisan)"
+  },
+  {
+   "k": "c2bdeba42dfa",
+   "ctx": "title",
+   "t": "Kisan Credit Card (KCC)"
+  },
+  {
+   "k": "91a1525af54e",
+   "ctx": "department",
+   "t": "Ministry of Agriculture & Farmers Welfare, with RBI, NABARD and banks"
+  },
+  {
+   "k": "ab3382c74074",
+   "ctx": "brief",
+   "t": "A cheap farm loan account with a RuPay card, given by banks to farmers for seeds, fertiliser, labour and other farming costs, and also for dairy, poultry, goat rearing and fish farming. Interest is 7% a year, and if you repay on time the government cuts it to 4% on loans up to Rs.3 lakh. No security is needed up to Rs.2 lakh. PM-Kisan farmers can apply with a one-page form at the bank where their PM-Kisan money comes."
+  },
+  {
+   "k": "21266991951f",
+   "ctx": "benefit",
+   "t": "Farm loan at 4% a year if repaid on time (up to Rs.3 lakh); no security up to Rs.2 lakh"
+  },
+  {
+   "k": "361381fd001f",
+   "ctx": "eligibility",
+   "t": "Farmers who cultivate land: owners, tenant farmers, oral lessees and sharecroppers, and farmer groups (SHG / JLG)"
+  },
+  {
+   "k": "326e3486dd4b",
+   "ctx": "eligibility",
+   "t": "Farmers rearing dairy animals, sheep, goats, pigs or poultry, and fish farmers (inland or sea)"
+  },
+  {
+   "k": "889c157ca082",
+   "ctx": "eligibility",
+   "t": "Banks usually lend from age 18 up to 75; above 60 a younger family member joins as co-borrower"
+  },
+  {
+   "k": "0b5ffb11b521",
+   "ctx": "eligibility",
+   "t": "The loan limit is fixed by the crop, the land area and the bank's scale of finance"
+  },
+  {
+   "k": "4284de409061",
+   "ctx": "eligibility",
+   "t": "You should not already hold a KCC at another bank"
+  },
+  {
+   "k": "2224c4e3e541",
+   "ctx": "documents",
+   "t": "Filled KCC application form with a signature or thumb impression"
+  },
+  {
+   "k": "db350d22c931",
+   "ctx": "documents",
+   "t": "Land record (khatauni, 7/12, jamabandi or patta), or a lease or tenancy paper for tenant farmers"
+  },
+  {
+   "k": "a72b818d2fb8",
+   "ctx": "documents",
+   "t": "Bank passbook of the account where PM-Kisan money comes"
+  },
+  {
+   "k": "d90be324be60",
+   "ctx": "documents",
+   "t": "Details of crops to be grown, or of animals and fish ponds for dairy or fisheries KCC"
+  },
+  {
+   "k": "5d70ef790f99",
+   "ctx": "documents",
+   "t": "Details of any existing loan; some banks ask for a no-dues paper from other banks in the area"
+  },
+  {
+   "k": "bd1c02262eab",
+   "ctx": "submitAt",
+   "t": "At the branch of the bank where your PM-Kisan money is credited (or any commercial bank, Regional Rural Bank or cooperative bank branch near your village). Hand the filled form to the field officer or branch manager with your Aadhaar, land record, two photos and passbook, and get the acknowledgement slip at the bottom of the form signed and dated."
+  },
+  {
+   "k": "f6e8e62fc09f",
+   "ctx": "label",
+   "t": "Name of Bank / Branch"
+  },
+  {
+   "k": "a6f406e092e5",
+   "ctx": "value",
+   "t": "Bank of Baroda, Mandvi branch"
+  },
+  {
+   "k": "60e456794dc7",
+   "ctx": "hint",
+   "t": "The bank where your PM-Kisan money comes. Write it at the top of the form."
+  },
+  {
+   "k": "aa80f45d4a50",
+   "ctx": "label",
+   "t": "Type of KCC"
+  },
+  {
+   "k": "69be23dd9b97",
+   "ctx": "value",
+   "t": "Issue of fresh KCC"
+  },
+  {
+   "k": "ff796402d196",
+   "ctx": "hint",
+   "t": "Tick fresh KCC for a new card, or enhancement or activation if you already have an old KCC."
+  },
+  {
+   "k": "d34b23b71b46",
+   "ctx": "label",
+   "t": "Amount of loan required"
+  },
+  {
+   "k": "d970a6c5414c",
+   "ctx": "hint",
+   "t": "What you need for one year of farming. The bank will fix the final limit from your land and crops."
+  },
+  {
+   "k": "fa405e1d5922",
+   "ctx": "value",
+   "t": "Bhikhabhai Rathod"
+  },
+  {
+   "k": "0acf05bb9793",
+   "ctx": "hint",
+   "t": "Your name as on Aadhaar and the land record."
+  },
+  {
+   "k": "6fcec19fe9b0",
+   "ctx": "label",
+   "t": "Account No (PM Kisan Beneficiary)"
+  },
+  {
+   "k": "120878ba7d1c",
+   "ctx": "hint",
+   "t": "The account where your PM-Kisan instalments come. The bank takes your KYC from this account."
+  },
+  {
+   "k": "20c6509a778c",
+   "ctx": "label",
+   "t": "Consent for PMSBY / PMJJBY auto debit"
+  },
+  {
+   "k": "d9a1a23d4b28",
+   "ctx": "value",
+   "t": "PMSBY: Yes, PMJJBY: Yes"
+  },
+  {
+   "k": "ba6b83597296",
+   "ctx": "hint",
+   "t": "Insurance of Rs.2 lakh each for Rs.20 and Rs.436 a year, cut from your account. Tick No if you do not want it."
+  },
+  {
+   "k": "c74e73e2f7f9",
+   "ctx": "label",
+   "t": "Details of existing loans"
+  },
+  {
+   "k": "a8783becd4c6",
+   "ctx": "hint",
+   "t": "Write any loan you have from a bank, cooperative society or other source, with the amount still due."
+  },
+  {
+   "k": "2768773a5733",
+   "ctx": "label",
+   "t": "Land holding: Village / Survey-Khasra No. / Title / Area"
+  },
+  {
+   "k": "78da1dcccce6",
+   "ctx": "value",
+   "t": "Gundiyali / Survey 214 / Owned / 3.5 acres"
+  },
+  {
+   "k": "a5e9ca791b06",
+   "ctx": "hint",
+   "t": "Copy from your land record. Tick Leased or Share Cropper if the land is not yours."
+  },
+  {
+   "k": "14a59842cc3d",
+   "ctx": "label",
+   "t": "Name of crop to be grown"
+  },
+  {
+   "k": "d94ff3096657",
+   "ctx": "value",
+   "t": "Kharif: groundnut; Rabi: wheat"
+  },
+  {
+   "k": "447a3f488a33",
+   "ctx": "hint",
+   "t": "The crops you will sow this year in each season."
+  },
+  {
+   "k": "7cde5e8078cf",
+   "ctx": "label",
+   "t": "KCC for animal husbandry / fisheries"
+  },
+  {
+   "k": "71d207c0b801",
+   "ctx": "value",
+   "t": "2 dairy buffaloes"
+  },
+  {
+   "k": "208e72daf64d",
+   "ctx": "hint",
+   "t": "Fill only if you also want a loan for animals or fish farming."
+  },
+  {
+   "k": "f0aa9cdd8cdd",
+   "ctx": "demoSteps",
+   "t": "Download the KCC form from pmkisan.gov.in (Download KCC Form) or collect it free at the bank, and fill it."
+  },
+  {
+   "k": "7f69b456bcdb",
+   "ctx": "demoSteps",
+   "t": "Take it to your bank branch with Aadhaar, land record, two photos and passbook. Get the acknowledgement at the bottom of the form signed."
+  },
+  {
+   "k": "f1ee666473fb",
+   "ctx": "demoSteps",
+   "t": "The bank officer checks your land record and crops, and may visit the field. The limit is fixed from your crop, land area and needs."
+  },
+  {
+   "k": "ef62e8ccb1df",
+   "ctx": "demoSteps",
+   "t": "Banks are told to decide within 14 days of a complete application. Sign the loan papers. There is no processing fee for loans up to Rs.3 lakh."
+  },
+  {
+   "k": "9709a84fb7f1",
+   "ctx": "demoSteps",
+   "t": "Your KCC account opens and you get a RuPay card. Take out money as you need it, from the branch or an ATM."
+  },
+  {
+   "k": "cadcb2f66426",
+   "ctx": "demoSteps",
+   "t": "Repay within one year, or after harvest, to get the 3% discount, so you pay only 4% interest. The card stays valid for five years with a yearly review."
+  },
+  {
+   "k": "22a5ae61f1e4",
+   "ctx": "demoSteps",
+   "t": "If the bank refuses or delays without reason, complain to the branch manager in writing, then to RBI on 14448 or cms.rbi.org.in."
+  },
+  {
+   "k": "8fd2745bcbc9",
+   "ctx": "helpline",
+   "t": "155261 / 1800-115-526 (PM-Kisan and KCC helpline); 14448 (RBI complaints)"
+  },
+  {
+   "k": "6a8ebd783451",
+   "ctx": "title",
+   "t": "VB-G RAM G Rural Work Guarantee (Gramin Rozgar Guarantee Card)"
+  },
+  {
+   "k": "2309f852b8e8",
+   "ctx": "department",
+   "t": "Ministry of Rural Development — Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025"
+  },
+  {
+   "k": "6e13578533d2",
+   "ctx": "brief",
+   "t": "From 1 July 2026 the VB-G RAM G Act replaced MGNREGA, and the old job card is becoming the Gramin Rozgar Guarantee Card. Every rural household can now ask for up to 125 days of unskilled manual work a year, up from 100, paid at the notified wage into the worker's bank or post office account. An old MGNREGA job card with e-KYC done stays valid until the new card is issued; a household with no card registers free at the Gram Panchayat. Work must be given within 15 days of asking, or an unemployment allowance is due."
+  },
+  {
+   "k": "6f76007b7177",
+   "ctx": "benefit",
+   "t": "125 days of guaranteed wage work per household each year (up from 100 under MGNREGA), paid at the notified wage into the worker's bank or post office account"
+  },
+  {
+   "k": "a82fdd920738",
+   "ctx": "eligibility",
+   "t": "One card per household, listing all the adult members who want work; an old MGNREGA job card with e-KYC done stays valid until the new card comes"
+  },
+  {
+   "k": "c0794e86176a",
+   "ctx": "eligibility",
+   "t": "Single women, persons with disability, people over 60, freed bonded labourers, PVTG members and transgender persons get a Special card of a different colour"
+  },
+  {
+   "k": "2df48abcf695",
+   "ctx": "eligibility",
+   "t": "States can pause works for up to 60 days a year in peak sowing and harvest time; the 125 days are given in the rest of the year"
+  },
+  {
+   "k": "e6f01b6ec648",
+   "ctx": "documents",
+   "t": "Aadhaar cards of all the adult members to be listed — used for e-KYC and face-based attendance at the worksite"
+  },
+  {
+   "k": "242423ba1a9c",
+   "ctx": "documents",
+   "t": "Passport-size photographs of those adult members, which go on the card"
+  },
+  {
+   "k": "4ee78823be3a",
+   "ctx": "documents",
+   "t": "The old MGNREGA job card, if the household has one"
+  },
+  {
+   "k": "df70ec537c6c",
+   "ctx": "hint",
+   "t": "All four, because work is given within 5 km of the village named here as far as possible — if it is further away, inside the Block, you are owed an extra 10 per cent of the wage."
+  },
+  {
+   "k": "1f6090d62be6",
+   "ctx": "hint",
+   "t": "One against each name in the same order. Aadhaar is used for e-KYC and face-based attendance, and wages are paid through Aadhaar-based payment, so a missing number holds up that member's wages."
+  },
+  {
+   "k": "a081040eae59",
+   "ctx": "hint",
+   "t": "Asked for identification only. The scheme has no poverty condition — a household above the poverty line is equally entitled to a card."
+  },
+  {
+   "k": "35603dcadea4",
+   "ctx": "hint",
+   "t": "The photographs go on the card itself, next to each listed member's name."
+  },
+  {
+   "k": "db937fdf1505",
+   "ctx": "hint",
+   "t": "Ask for this dated receipt. It is the proof that fixes the 15-day deadline for issuing the card."
+  },
+  {
+   "k": "0a799c258999",
+   "ctx": "demoSteps",
+   "t": "If your household already has an MGNREGA job card, ask the Gram Rozgar Sevak whether e-KYC is done for every adult on it. Such a card stays valid until the new Gramin Rozgar Guarantee Card is issued, so you do not need to apply again."
+  },
+  {
+   "k": "87966c0a1cb2",
+   "ctx": "demoSteps",
+   "t": "A household with no card applies at the Gram Panchayat: any adult member gives the names, ages and address of the household — orally, on plain paper or on the printed form free at the Panchayat. List every adult who might ever want work."
+  },
+  {
+   "k": "07d0e88a5b51",
+   "ctx": "demoSteps",
+   "t": "Attach Aadhaar copies, the residence proof, the bank passbook copy and one photograph of each listed adult, and take a dated receipt with a registration number. The Panchayat must issue the card within 15 days, and it is valid for three years."
+  },
+  {
+   "k": "1f3d43fa54ed",
+   "ctx": "demoSteps",
+   "t": "Getting the card is not the same as asking for work. Ask for at least six days of work — orally, in writing on Form 6, or through the digital system — at the Gram Panchayat or to the Programme Officer, and take a dated receipt."
+  },
+  {
+   "k": "8de380317fe1",
+   "ctx": "demoSteps",
+   "t": "Work must start within 15 days, as far as possible within 5 km of your village. If it does not, the State owes you an unemployment allowance of at least a quarter of the wage for the first 30 days and half after that."
+  },
+  {
+   "k": "6f2b4b0c9b38",
+   "ctx": "demoSteps",
+   "t": "Attendance at the worksite is taken by face authentication. Wages are paid weekly, or at the latest within 15 days of the muster roll closing, straight into your account; after that you are owed 0.05% of the unpaid wage for each day of delay."
+  },
+  {
+   "k": "be2ddd7ec406",
+   "ctx": "demoSteps",
+   "t": "Check your days and payments on the card, on the Janata Board at the worksite and on vbgramg.dord.gov.in. Never let the Sarpanch, the Rozgar Sevak or anyone else keep your card. For a complaint, go to the Programme Officer at the Block, then the District Programme Coordinator (the Collector)."
+  },
+  {
+   "k": "b25c72f9c270",
+   "ctx": "helpline",
+   "t": "No national toll-free number. Complain to the Programme Officer at the Block office, then the District Programme Coordinator (Collector), or call your state's rural employment helpline; online complaints at pgportal.gov.in"
+  },
+  {
+   "k": "7fb89ad12b64",
+   "ctx": "title",
+   "t": "Ni-kshay Poshan Yojana (Rs.1,000 a month for TB patients)"
+  },
+  {
+   "k": "63d958d1f431",
+   "ctx": "department",
+   "t": "Ministry of Health & Family Welfare — Central TB Division, National TB Elimination Programme"
+  },
+  {
+   "k": "832d257aed55",
+   "ctx": "brief",
+   "t": "Every person being treated for tuberculosis (TB) gets Rs.1,000 a month for food for the whole length of treatment, usually Rs.6,000 for a six-month course, paid straight into a bank account. It covers treatment at a government hospital or by a private doctor, as long as the TB case is notified on the government's Ni-kshay system. Underweight patients also get extra nutrition supplements for the first two months, and families can get food baskets from Ni-kshay Mitra volunteers."
+  },
+  {
+   "k": "257c9e24853a",
+   "ctx": "benefit",
+   "t": "Rs.1,000 a month for the whole TB treatment, by bank transfer"
+  },
+  {
+   "k": "765a14870387",
+   "ctx": "eligibility",
+   "t": "Anyone diagnosed with TB, of any type and any age, whose case is notified on Ni-kshay"
+  },
+  {
+   "k": "350c0fc2ec6e",
+   "ctx": "eligibility",
+   "t": "Treatment at a government facility or by a private doctor or hospital: both are covered"
+  },
+  {
+   "k": "3d3bdecc2917",
+   "ctx": "eligibility",
+   "t": "No income limit and no BPL card needed"
+  },
+  {
+   "k": "60f77b41db45",
+   "ctx": "eligibility",
+   "t": "Paid for every month of treatment until the treatment ends"
+  },
+  {
+   "k": "6ae361c062d8",
+   "ctx": "eligibility",
+   "t": "A child, or a patient without a bank account, can be paid into a parent's or guardian's account"
+  },
+  {
+   "k": "39e870075652",
+   "ctx": "eligibility",
+   "t": "Patients with a BMI below 18.5 also get energy-dense nutrition supplements for the first two months"
+  },
+  {
+   "k": "397fab302a57",
+   "ctx": "documents",
+   "t": "TB treatment card or the Ni-kshay ID given at the centre"
+  },
+  {
+   "k": "8641685dd427",
+   "ctx": "documents",
+   "t": "Bank passbook or cancelled cheque of a savings account in your name (a parent's or guardian's for a child)"
+  },
+  {
+   "k": "3c319708b07b",
+   "ctx": "documents",
+   "t": "Aadhaar card, or the Aadhaar enrolment slip with another photo ID until it comes"
+  },
+  {
+   "k": "f0c07a8056dd",
+   "ctx": "documents",
+   "t": "Mobile number, for the payment SMS"
+  },
+  {
+   "k": "3a60e1fa102b",
+   "ctx": "documents",
+   "t": "For private patients: the doctor's prescription or TB notification slip"
+  },
+  {
+   "k": "d373fb2eff79",
+   "ctx": "submitAt",
+   "t": "Give your bank details to the TB staff at the government health centre or TB Unit where you were diagnosed (the health worker or Senior Treatment Supervisor). If you are treated privately, give them to your doctor or the programme's private-sector staff. Take your bank passbook, Aadhaar and treatment card. The staff enter everything on Ni-kshay, so there is no form for you to fill. Do it in the first two weeks of treatment."
+  },
+  {
+   "k": "328c7dab27fa",
+   "ctx": "label",
+   "t": "Ni-kshay ID"
+  },
+  {
+   "k": "e2c8ed5b6faf",
+   "ctx": "hint",
+   "t": "Written on your TB treatment card, or ask the health worker."
+  },
+  {
+   "k": "ce790932b94a",
+   "ctx": "label",
+   "t": "Patient Name"
+  },
+  {
+   "k": "c1c0c2b1c069",
+   "ctx": "value",
+   "t": "Suresh Mahato"
+  },
+  {
+   "k": "4c62389b085e",
+   "ctx": "hint",
+   "t": "As registered at the TB centre."
+  },
+  {
+   "k": "184f5a730712",
+   "ctx": "hint",
+   "t": "Payment messages and treatment reminders come to this number."
+  },
+  {
+   "k": "d0ea7c9abd85",
+   "ctx": "hint",
+   "t": "The patient's Aadhaar, or the enrolment slip number if it has not come yet."
+  },
+  {
+   "k": "30788c295949",
+   "ctx": "label",
+   "t": "Beneficiary Relationship to Patient"
+  },
+  {
+   "k": "e102517374a8",
+   "ctx": "value",
+   "t": "Self"
+  },
+  {
+   "k": "ccb411068a1d",
+   "ctx": "hint",
+   "t": "Self if the account is yours; Father, Mother or Guardian for a child."
+  },
+  {
+   "k": "403e35e62b0a",
+   "ctx": "label",
+   "t": "Account Holder Name"
+  },
+  {
+   "k": "f9a132c25d09",
+   "ctx": "hint",
+   "t": "Exactly as printed in the passbook. A mismatch stops the payment."
+  },
+  {
+   "k": "4b196b5b30c9",
+   "ctx": "hint",
+   "t": "A savings account that is in use. One account can be linked to only one patient."
+  },
+  {
+   "k": "afb95bbf00c2",
+   "ctx": "hint",
+   "t": "Printed on the passbook or cheque."
+  },
+  {
+   "k": "416e315eadca",
+   "ctx": "label",
+   "t": "Treatment Start Date"
+  },
+  {
+   "k": "fd602038def3",
+   "ctx": "hint",
+   "t": "Payments are counted from this date, Rs.1,000 for each month of treatment."
+  },
+  {
+   "k": "fd3d46c44478",
+   "ctx": "label",
+   "t": "Health Facility / TB Unit"
+  },
+  {
+   "k": "69b55fd61fe0",
+   "ctx": "value",
+   "t": "TB Unit, Sadar Hospital, Dhanbad"
+  },
+  {
+   "k": "6854d4405e2b",
+   "ctx": "hint",
+   "t": "Where your treatment is recorded."
+  },
+  {
+   "k": "de8ac65fc944",
+   "ctx": "demoSteps",
+   "t": "Get tested free at a government health centre. Once TB is confirmed, the case is notified on Ni-kshay and you get a Ni-kshay ID; private doctors must notify too."
+  },
+  {
+   "k": "3d577be3c407",
+   "ctx": "demoSteps",
+   "t": "Give your bank passbook and Aadhaar to the TB health worker, who enters the account on Ni-kshay."
+  },
+  {
+   "k": "f4ae53970712",
+   "ctx": "demoSteps",
+   "t": "The account is checked by the government payment system. If it fails, the staff call you to correct the details."
+  },
+  {
+   "k": "9f8a3541041f",
+   "ctx": "demoSteps",
+   "t": "The first payment comes after the account is approved, and then Rs.1,000 for each month of treatment. An SMS tells you of each credit."
+  },
+  {
+   "k": "d3b68f3845b9",
+   "ctx": "demoSteps",
+   "t": "Take the medicines every day until the doctor ends treatment; the payments run for the whole course. Ask for the nutrition supplement if you are underweight."
+  },
+  {
+   "k": "4375d7d59245",
+   "ctx": "demoSteps",
+   "t": "If the money has not come, call Ni-kshay Sampark on 1800-11-6666 with your Ni-kshay ID."
+  },
+  {
+   "k": "8b105ac590fb",
+   "ctx": "helpline",
+   "t": "1800-11-6666 (Ni-kshay Sampark, national TB helpline, free)"
+  },
+  {
+   "k": "72cace854e47",
+   "ctx": "title",
+   "t": "Pradhan Mantri Awaas Yojana – Gramin (PMAY-G Rural House)"
+  },
+  {
+   "k": "cda55e02a75e",
+   "ctx": "department",
+   "t": "Department of Rural Development, Ministry of Rural Development"
+  },
+  {
+   "k": "1933f287c4e4",
+   "ctx": "brief",
+   "t": "Money to build a pucca house for a village family that has no house or lives in a kutcha one: Rs.1.20 lakh in the plains and Rs.1.30 lakh in hill states, the North-East and difficult areas, paid into the bank account in instalments as the house goes up. On top of that the family gets 90 days of paid labour (95 in hilly areas) on its own house under the rural job scheme, and Rs.12,000 for a toilet. Families are picked from the SECC 2011 list and the new Awaas+ 2024 survey and checked by the Gram Sabha; homeless and destitute families, manual scavengers, primitive tribal groups and freed bonded labourers come first. The scheme runs till March 2029 for 2 crore more houses."
+  },
+  {
+   "k": "281e5cc813d4",
+   "ctx": "benefit",
+   "t": "Rs.1.20 lakh (Rs.1.30 lakh in hill and NE areas), plus 90–95 days' wages and Rs.12,000 for a toilet"
+  },
+  {
+   "k": "61e6a77ae8ec",
+   "ctx": "eligibility",
+   "t": "Village family with no house, or living in a kutcha house (kutcha walls and roof, up to 2 rooms)"
+  },
+  {
+   "k": "ee1f7723869a",
+   "ctx": "eligibility",
+   "t": "Name on the SECC 2011 Permanent Wait List, or found eligible in the Awaas+ 2024 survey and passed by the Gram Sabha"
+  },
+  {
+   "k": "d10e48a8bef9",
+   "ctx": "eligibility",
+   "t": "Ruled out if any member owns a pucca house, a motorised 3- or 4-wheeler or mechanised farm machinery, or has a KCC limit of Rs.50,000 or more"
+  },
+  {
+   "k": "12e799497823",
+   "ctx": "eligibility",
+   "t": "Ruled out if any member is a government employee, earns over Rs.15,000 a month, pays income or professional tax, or runs a government-registered business"
+  },
+  {
+   "k": "03165e13317c",
+   "ctx": "eligibility",
+   "t": "Ruled out if the family owns 2.5 acres or more of irrigated land with irrigation equipment, or 5 acres or more of unirrigated land"
+  },
+  {
+   "k": "192580dd4970",
+   "ctx": "eligibility",
+   "t": "Owning a two-wheeler, fridge, landline or motorised fishing boat no longer rules a family out (changed in 2024)"
+  },
+  {
+   "k": "9d3a384f5ffa",
+   "ctx": "documents",
+   "t": "Aadhaar card of the head of family and members (face e-KYC is done during the survey)"
+  },
+  {
+   "k": "7e14545bc0d1",
+   "ctx": "documents",
+   "t": "Bank or post office account seeded with Aadhaar"
+  },
+  {
+   "k": "7188618ee129",
+   "ctx": "documents",
+   "t": "Job card under the rural employment scheme"
+  },
+  {
+   "k": "183eeff1da22",
+   "ctx": "documents",
+   "t": "Swachh Bharat Mission (SBM) number, if the family already has one"
+  },
+  {
+   "k": "a326c498ac15",
+   "ctx": "documents",
+   "t": "Paper for the plot where the house will be built (patta or possession proof); landless families are given land by the state"
+  },
+  {
+   "k": "9b9d81f0526b",
+   "ctx": "submitAt",
+   "t": "Gram Panchayat office: tell the Panchayat Secretary or the Gram Rozgar Sahayak that you want to be surveyed under Awaas+ 2024, and take your Aadhaar, job card, bank passbook and mobile phone. The Block Development Office (BDO) registers the approved names; complaints go to the BDO or the District Rural Development Agency."
+  },
+  {
+   "k": "228a389cc02b",
+   "ctx": "label",
+   "t": "Aadhaar number of head of household"
+  },
+  {
+   "k": "a8ed57619db0",
+   "ctx": "hint",
+   "t": "Checked by a face scan through the AadhaarFaceRD app; no fingerprint or OTP is needed."
+  },
+  {
+   "k": "b9ab455e6ad3",
+   "ctx": "label",
+   "t": "Name of head of household"
+  },
+  {
+   "k": "35757cb50fe3",
+   "ctx": "value",
+   "t": "Shanti Devi"
+  },
+  {
+   "k": "b12319c7b54f",
+   "ctx": "hint",
+   "t": "Exactly as on Aadhaar. A woman head of family is welcome; the house is usually sanctioned in the woman's name or jointly."
+  },
+  {
+   "k": "57528797a876",
+   "ctx": "label",
+   "t": "Family members"
+  },
+  {
+   "k": "1ac64ae62d86",
+   "ctx": "value",
+   "t": "4 (Shanti Devi, Ramu, Geeta, Sonu)"
+  },
+  {
+   "k": "2d0d551e28e5",
+   "ctx": "hint",
+   "t": "Add every member living and cooking together, each with Aadhaar."
+  },
+  {
+   "k": "79d4503466f2",
+   "ctx": "label",
+   "t": "Social category"
+  },
+  {
+   "k": "c43dbe153bd9",
+   "ctx": "hint",
+   "t": "SC, ST, minority or other. This decides which priority list your family goes into."
+  },
+  {
+   "k": "daf2d7c3f2e7",
+   "ctx": "label",
+   "t": "Type of present house"
+  },
+  {
+   "k": "99ad3e187259",
+   "ctx": "value",
+   "t": "Kutcha walls and kutcha roof, 1 room"
+  },
+  {
+   "k": "242698e05ace",
+   "ctx": "hint",
+   "t": "Describe the house as it is today. More than 2 rooms with a pucca roof makes the family ineligible."
+  },
+  {
+   "k": "d80149d75552",
+   "ctx": "label",
+   "t": "Monthly income of highest earner"
+  },
+  {
+   "k": "ce32942b6314",
+   "ctx": "value",
+   "t": "Rs.8,000"
+  },
+  {
+   "k": "083a6f6888dd",
+   "ctx": "hint",
+   "t": "The member who earns the most. Above Rs.15,000 a month rules the family out."
+  },
+  {
+   "k": "c263132c558f",
+   "ctx": "label",
+   "t": "Land owned"
+  },
+  {
+   "k": "f0ed7783370b",
+   "ctx": "value",
+   "t": "0.5 acre unirrigated"
+  },
+  {
+   "k": "aeab7c170f0c",
+   "ctx": "hint",
+   "t": "Write irrigated and unirrigated land separately, as in the land record."
+  },
+  {
+   "k": "52367dbb54f6",
+   "ctx": "label",
+   "t": "Photo of present house"
+  },
+  {
+   "k": "16b88a99463d",
+   "ctx": "value",
+   "t": "Geo-tagged photo taken in the app"
+  },
+  {
+   "k": "268a1d0f206c",
+   "ctx": "hint",
+   "t": "Taken standing at the house, so the location is recorded with the photo."
+  },
+  {
+   "k": "5a6258584647",
+   "ctx": "label",
+   "t": "Job card number"
+  },
+  {
+   "k": "271bc8ba1bca",
+   "ctx": "hint",
+   "t": "From your rural employment job card. The 90 days of paid work on your house are booked against it."
+  },
+  {
+   "k": "23b51e6717d5",
+   "ctx": "hint",
+   "t": "An account in the beneficiary's own name, seeded with Aadhaar. All instalments come here."
+  },
+  {
+   "k": "5194b2587556",
+   "ctx": "demoSteps",
+   "t": "Ask at the Gram Panchayat whether your name is already on the Permanent Wait List, or look up the Panchayat-wise list on the PMAY-G website."
+  },
+  {
+   "k": "5b41f12be2a8",
+   "ctx": "demoSteps",
+   "t": "If it is not, get surveyed under Awaas+ 2024: the Panchayat surveyor fills the form on the AwaasPlus app, or you survey yourself on the app with a face scan where your state's survey is open."
+  },
+  {
+   "k": "5a97e4343794",
+   "ctx": "demoSteps",
+   "t": "The Gram Sabha reads out and checks the list, objections are heard at the block and district, and approved families are ranked by priority."
+  },
+  {
+   "k": "3665a79d90b0",
+   "ctx": "demoSteps",
+   "t": "When your turn comes, the Block office registers you on AwaasSoft, geo-tags your old house and plot, and issues the sanction order. The first instalment comes into your Aadhaar-seeded account."
+  },
+  {
+   "k": "b951bf7ad915",
+   "ctx": "demoSteps",
+   "t": "Build the house, at least 25 sq m with a kitchen. At each stage (plinth, lintel, roof) the official takes a geo-tagged photo and the next instalment is released."
+  },
+  {
+   "k": "e53513737f7c",
+   "ctx": "demoSteps",
+   "t": "Work on your own house under the rural job scheme for 90 (or 95) days' wages, and claim Rs.12,000 for the toilet through the Panchayat."
+  },
+  {
+   "k": "f7cb175729e6",
+   "ctx": "demoSteps",
+   "t": "Finish within 12 months. Track payments with Search Beneficiary or FTO Tracking on the PMAY-G site, and go to the BDO if an instalment is stuck."
+  },
+  {
+   "k": "6102bec099d1",
+   "ctx": "helpline",
+   "t": "1800-11-6446 (PMAY-G helpline) / support-pmayg@gov.in; Block Development Office for local complaints"
+  },
+  {
+   "k": "3003d9e51efc",
+   "ctx": "title",
+   "t": "Pradhan Mantri Divyangjan Pension Yojana (formerly IGNDPS)"
+  },
+  {
+   "k": "89633602396b",
+   "ctx": "department",
+   "t": "Ministry of Rural Development — Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP)"
+  },
+  {
+   "k": "c30b36a1d060",
+   "ctx": "brief",
+   "t": "A monthly pension for persons with severe disability who belong to a below-poverty-line household. It was called the Indira Gandhi National Disability Pension Scheme (IGNDPS) until the Union Cabinet renamed it on 14 October 2026, as part of the Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP). The Cabinet also approved Rs.375 a month (Rs.625 from age 80), a 40 per cent disability limit instead of 80, and no minimum age; these start once the new guidelines are issued, due by mid-January 2027. Until then the old rules apply — age 18 or more and a certificate showing 80 per cent or more — and the state adds its own top-up."
+  },
+  {
+   "k": "6ddc1e95979a",
+   "ctx": "benefit",
+   "t": "Rs.300/month (Rs.500 after age 80) from the Centre, plus the state top-up; rising to Rs.375 (Rs.625 after age 80) once the new guidelines are issued"
+  },
+  {
+   "k": "08ed5b4ea346",
+   "ctx": "eligibility",
+   "t": "Age 18 years or more on the date of application (no minimum age once the new guidelines are issued)"
+  },
+  {
+   "k": "def7ad4ecd0a",
+   "ctx": "eligibility",
+   "t": "Severe or multiple disability of 80 per cent or more, certified by the competent medical authority (40 per cent or more once the new guidelines are issued)"
+  },
+  {
+   "k": "bbabfd95ca00",
+   "ctx": "documents",
+   "t": "Disability certificate showing 80 per cent or more (40 per cent once the new guidelines are issued), issued by the Chief Medical Officer or a district medical board"
+  },
+  {
+   "k": "3f6862c2bb92",
+   "ctx": "hint",
+   "t": "Under the current rules you must be 18 or above. Once the new guidelines are issued, there is no minimum age."
+  },
+  {
+   "k": "8088091b90b1",
+   "ctx": "hint",
+   "t": "Under the current rules it must read 80 per cent or more, or the Block office refuses it. Once the new guidelines are issued (due by mid-January 2027), 40 per cent or more qualifies."
+  }
+ ]
+}
