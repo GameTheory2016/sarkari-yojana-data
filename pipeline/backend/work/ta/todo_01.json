@@ -6,809 +6,909 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ta/done_01.json",
  "items": [
   {
-   "k": "c2be5992017f",
-   "ctx": "title",
-   "t": "Farmer ID (Kisan Pehchaan Patra) — AgriStack Farmer Registry"
-  },
-  {
-   "k": "213981c1cd3a",
-   "ctx": "department",
-   "t": "Ministry of Agriculture & Farmers Welfare (Digital Agriculture Mission), with state Revenue and Agriculture departments"
-  },
-  {
-   "k": "75f1cca62c0e",
-   "ctx": "brief",
-   "t": "A free, lifelong 11-digit Farmer ID for every land-owning farmer, linked to Aadhaar and to the plots in the state's land records. Schemes such as PM-Kisan, crop insurance and Kisan Credit Card can then read your land details from the ID, so you stop carrying land papers for each one. New PM-Kisan applicants in the ten states that started first (UP, MP, Maharashtra, Gujarat, Rajasthan, Bihar, Andhra Pradesh, Chhattisgarh, Odisha and Assam) have needed a Farmer ID since 1 January 2025, and over 10 crore farmers had one by August 2026. You register once, at a village camp, a CSC or yourself on your state's Farmer Registry website."
-  },
-  {
-   "k": "3d4906112819",
-   "ctx": "benefit",
-   "t": "Free lifelong Farmer ID, needed for new PM-Kisan registration and used for crop insurance and KCC"
-  },
-  {
-   "k": "182f44c1f49a",
-   "ctx": "eligibility",
-   "t": "Any farmer who owns farm land recorded in the state's land records in his or her own name"
-  },
-  {
-   "k": "4a58ed8e678a",
-   "ctx": "eligibility",
-   "t": "Each owner of jointly held land registers separately. Land in several villages or states still gets one single Farmer ID"
-  },
-  {
-   "k": "5832f28272b0",
-   "ctx": "eligibility",
-   "t": "The name on Aadhaar must closely match the name in the land record. A big mismatch sends the claim for manual check or rejection"
-  },
-  {
-   "k": "7c0a79582f3f",
-   "ctx": "eligibility",
-   "t": "If the owner has died or the land was bought, the mutation (name transfer) must be done in the land record first"
-  },
-  {
-   "k": "4390d75ea29a",
-   "ctx": "eligibility",
-   "t": "Tenant farmers and sharecroppers do not get the land in their name, but the owner can authorise them for a scheme"
-  },
-  {
-   "k": "b48b0305f6eb",
-   "ctx": "eligibility",
-   "t": "No fee is charged for registration or for the ID"
-  },
-  {
-   "k": "b4ad16bcdaf5",
-   "ctx": "documents",
-   "t": "Mobile number linked to Aadhaar for the OTP (otherwise fingerprint or face check at a camp or CSC)"
-  },
-  {
-   "k": "3ff841246912",
-   "ctx": "documents",
-   "t": "Copy of the land record (khatauni, 7/12, jamabandi, RTC, patta or pahani) showing district, tehsil, village and survey / khasra number"
-  },
-  {
-   "k": "08af9a8162b0",
-   "ctx": "documents",
-   "t": "Khata or owner number, for land held jointly"
-  },
-  {
-   "k": "ca1125f2b4a2",
-   "ctx": "documents",
-   "t": "Mutation order or heirship entry, if the land came to you by inheritance or purchase"
-  },
-  {
-   "k": "d4b9ac444296",
-   "ctx": "submitAt",
-   "t": "A Farmer Registry camp in your village (run by the Patwari / Lekhpal / Talathi, the agriculture assistant or a Krishi Sakhi), the nearest Common Service Centre (CSC), or the tehsil or block agriculture office. Take your Aadhaar, the mobile phone linked to it and a copy of your land record with the survey numbers; there is no paper form to fill. You can also register yourself online on your state's Farmer Registry site, whose address is the state code followed by fr.agristack.gov.in, for example upfr.agristack.gov.in (Uttar Pradesh), mhfr.agristack.gov.in (Maharashtra), gjfr.agristack.gov.in (Gujarat), rjfr.agristack.gov.in (Rajasthan), mpfr.agristack.gov.in (Madhya Pradesh) and bhfr.agristack.gov.in (Bihar)."
-  },
-  {
-   "k": "b5ef8bf80583",
-   "ctx": "hint",
-   "t": "Your own Aadhaar. The OTP for e-KYC goes to the mobile linked with it."
-  },
-  {
-   "k": "e3cd27c8f24d",
-   "ctx": "hint",
-   "t": "The enrolment number and the Farmer ID come by SMS to this number."
-  },
-  {
-   "k": "cf4f3b4aa860",
-   "ctx": "label",
-   "t": "Name as per Aadhaar"
-  },
-  {
-   "k": "ed27a1284a5a",
+   "k": "fc62f399e37c",
    "ctx": "value",
-   "t": "Bhagwan Singh Yadav"
+   "t": "e-Shram card holder"
   },
   {
-   "k": "b3264cea3337",
+   "k": "e9c882c55225",
    "ctx": "hint",
-   "t": "Filled in by itself after e-KYC. Check that it matches the name in your land record."
+   "t": "Pick the one group you can prove - SC, ST, NFSA or BPL card, PMJAY card, e-Shram, MGNREGA, farmer or disability - or give the income certificate."
   },
   {
-   "k": "a9ef7f3444e4",
+   "k": "9012f41f10f6",
+   "ctx": "label",
+   "t": "Number of live children"
+  },
+  {
+   "k": "9c90edad2754",
    "ctx": "value",
-   "t": "Ram Prakash Yadav"
+   "t": "0 (first pregnancy)"
   },
   {
-   "k": "4a4f17ffb519",
+   "k": "a02623e89e93",
    "ctx": "hint",
-   "t": "As written in the land record. The system matches both your name and this name."
+   "t": "The help is only for the first two live children, so give the true number."
   },
   {
-   "k": "03e625518b81",
+   "k": "378f81d1c403",
+   "ctx": "hint",
+   "t": "Account in the woman's own name, seeded with Aadhaar. A closed or dormant account is the main reason money does not arrive."
+  },
+  {
+   "k": "0da95c6206d0",
    "ctx": "label",
-   "t": "District / Sub-district / Village of the Land"
+   "t": "Village / health centre"
   },
   {
-   "k": "4de5f49f92cf",
+   "k": "b93f0aba09ce",
    "ctx": "value",
-   "t": "Etawah / Bharthana / Nagla Ratan"
+   "t": "Bechraji, PHC Bechraji, district Mehsana"
   },
   {
-   "k": "a3a0352745cb",
+   "k": "01f043cf0d58",
    "ctx": "hint",
-   "t": "Where the land is, not where you live."
+   "t": "Where she lives now and the centre she goes to for check-ups."
   },
   {
-   "k": "c3324c4c8411",
-   "ctx": "label",
-   "t": "Survey / Khasra Number (and Sub-survey Number)"
-  },
-  {
-   "k": "3132b9b79af0",
-   "ctx": "hint",
-   "t": "From your khatauni or 7/12. Enter one plot; your other plots in that village usually show up by themselves."
-  },
-  {
-   "k": "d73040429ca3",
-   "ctx": "label",
-   "t": "Select Your Name from the Owners List"
-  },
-  {
-   "k": "05cb1997274e",
-   "ctx": "value",
-   "t": "Bhagwan Singh Yadav s/o Ram Prakash Yadav"
-  },
-  {
-   "k": "c0e370b1fb59",
-   "ctx": "hint",
-   "t": "Pick only your own name. For joint land, each owner registers with his or her own Aadhaar."
-  },
-  {
-   "k": "e3ea40044c2c",
-   "ctx": "label",
-   "t": "Verify Ownership"
-  },
-  {
-   "k": "0813ecf5f445",
-   "ctx": "value",
-   "t": "Verified from land record"
-  },
-  {
-   "k": "bc7b54bbe2c6",
-   "ctx": "hint",
-   "t": "Press Verify. The site checks the plot against the state's land record."
-  },
-  {
-   "k": "16a325d8c272",
-   "ctx": "label",
-   "t": "Consent and e-Sign"
-  },
-  {
-   "k": "31685aaa1c56",
-   "ctx": "value",
-   "t": "Agreed, e-signed with Aadhaar OTP"
-  },
-  {
-   "k": "ec194d09664b",
-   "ctx": "hint",
-   "t": "Your consent lets schemes use your land details. Nothing is shared without it."
-  },
-  {
-   "k": "3be7cd3e6d42",
-   "ctx": "label",
-   "t": "Enrolment ID"
-  },
-  {
-   "k": "3a56e1d31a10",
-   "ctx": "hint",
-   "t": "Write it down. Use it to track your claim until the Farmer ID is issued."
-  },
-  {
-   "k": "7b88e984eb8a",
+   "k": "5ea6e6a3914d",
    "ctx": "demoSteps",
-   "t": "Go to a Farmer Registry camp or a CSC, or open your state's Farmer Registry site (state code + fr.agristack.gov.in), choose Farmer and create an account with your Aadhaar OTP."
+   "t": "As soon as you know you are pregnant, meet your ASHA worker or go to the nearest PHC or Urban Health Centre for the first check-up. You get a Mamta card there."
   },
   {
-   "k": "8796a8589074",
+   "k": "159a411e25fd",
    "ctx": "demoSteps",
-   "t": "Finish Aadhaar e-KYC. Your name and details come from Aadhaar; add your mobile number and address."
+   "t": "Ask the ANM to register you under Namo Shri. Give Aadhaar, passbook, Mamta card and your group proof or income certificate, and check that your bank details are typed correctly."
   },
   {
-   "k": "23b30e714b58",
+   "k": "2ec2d215e510",
    "ctx": "demoSteps",
-   "t": "Plots already matched to your Aadhaar appear by themselves. For a missing plot, enter the district, sub-district, village and survey number, pick your name from the owners list and press Verify."
+   "t": "The first instalment of Rs.5,000 comes to your account after registration (part central PM Matru Vandana money, part state)."
   },
   {
-   "k": "d22763a90aca",
+   "k": "2701d9447b45",
    "ctx": "demoSteps",
-   "t": "Give consent with an Aadhaar e-sign and submit. An enrolment number arrives by SMS."
+   "t": "After six months of pregnancy and the check-ups, Rs.2,000 more comes."
   },
   {
-   "k": "3fc9834cf475",
+   "k": "0e9b9e05ed88",
    "ctx": "demoSteps",
-   "t": "The Patwari or revenue officer checks the claim against the land record. Once it is approved, the Farmer ID is made against your Aadhaar, usually within a day; check the status on the same site."
+   "t": "Deliver in a hospital - the 108 ambulance is free. After a hospital delivery Rs.3,000 comes."
   },
   {
-   "k": "7b6178081828",
+   "k": "753ca713644c",
    "ctx": "demoSteps",
-   "t": "Quote the Farmer ID for PM-Kisan, crop insurance and KCC. If the claim is rejected for a name mismatch or a pending mutation, get the land record or Aadhaar corrected and claim again."
+   "t": "Register the baby's birth and get the vaccines up to 14 weeks written on the Mamta card. The last Rs.2,000 then comes."
   },
   {
-   "k": "0b13b2a5e2eb",
+   "k": "1b9b55d47f67",
+   "ctx": "demoSteps",
+   "t": "If an instalment does not arrive, ask the ANM to check the status first. Most delays are a bank account not linked with Aadhaar."
+  },
+  {
+   "k": "e3bd97f0aa9d",
    "ctx": "helpline",
-   "t": "Tehsil or district agriculture office Farmer Registry help desk; 155261 / 1800-115-526 (PM-Kisan helpline, for linking the Farmer ID to PM-Kisan)"
+   "t": "Your ASHA worker or the ANM at the health centre; Gujarat health helpline 104"
   },
   {
-   "k": "c2bdeba42dfa",
+   "k": "1bbe393003e0",
    "ctx": "title",
-   "t": "Kisan Credit Card (KCC)"
+   "t": "Manav Kalyan Yojana (Free Tool Kit by e-Voucher)"
   },
   {
-   "k": "91a1525af54e",
+   "k": "4e5913f2db78",
    "ctx": "department",
-   "t": "Ministry of Agriculture & Farmers Welfare, with RBI, NABARD and banks"
+   "t": "Commissioner of Cottage & Rural Industries, Industries & Mines Department, Gujarat"
   },
   {
-   "k": "ab3382c74074",
+   "k": "362520a847a8",
    "ctx": "brief",
-   "t": "A cheap farm loan account with a RuPay card, given by banks to farmers for seeds, fertiliser, labour and other farming costs, and also for dairy, poultry, goat rearing and fish farming. Interest is 7% a year, and if you repay on time the government cuts it to 4% on loans up to Rs.3 lakh. No security is needed up to Rs.2 lakh. PM-Kisan farmers can apply with a one-page form at the bank where their PM-Kisan money comes."
+   "t": "A free tool kit for starting a small trade: beauty parlour, embroidery, plumbing, vehicle servicing and repair, papad making, pickle making, electric appliance repair, milk and curd selling, puncture repair or centring work. Since 2024 the kit comes as an e-voucher (a QR code) that you use at an approved dealer, and you can also choose 5 days of training paid at Rs.500 a day. The old Manav Garima Yojana has been merged into this scheme; tailoring, carpentry, cobbler, barber and some other trades moved to PM Vishwakarma. You apply on the e-Kutir portal when the yearly window opens (the 2026-27 window opened on 17 June 2026), and when there are more applicants than kits a computerised draw decides."
   },
   {
-   "k": "21266991951f",
+   "k": "1691a3a7bbba",
    "ctx": "benefit",
-   "t": "Farm loan at 4% a year if repaid on time (up to Rs.3 lakh); no security up to Rs.2 lakh"
+   "t": "A free tool kit for one of 10 trades through an e-voucher, plus optional training at Rs.500 a day"
   },
   {
-   "k": "361381fd001f",
+   "k": "256505c48ffe",
    "ctx": "eligibility",
-   "t": "Farmers who cultivate land: owners, tenant farmers, oral lessees and sharecroppers, and farmer groups (SHG / JLG)"
+   "t": "Family income up to Rs.6 lakh a year, in villages and cities alike; no income limit for the 12 most backward SC castes and the most backward, nomadic and denotified SEBC groups"
   },
   {
-   "k": "326e3486dd4b",
+   "k": "d33a7d570fc5",
    "ctx": "eligibility",
-   "t": "Farmers rearing dairy animals, sheep, goats, pigs or poultry, and fish farmers (inland or sea)"
+   "t": "One kit per family, only once"
   },
   {
-   "k": "889c157ca082",
+   "k": "5cc9f076b2fb",
    "ctx": "eligibility",
-   "t": "Banks usually lend from age 18 up to 75; above 60 a younger family member joins as co-borrower"
+   "t": "No member of the family should be a government employee"
   },
   {
-   "k": "0b5ffb11b521",
+   "k": "cec359ca6109",
    "ctx": "eligibility",
-   "t": "The loan limit is fixed by the crop, the land area and the bank's scale of finance"
+   "t": "Must have an e-Shram card"
   },
   {
-   "k": "4284de409061",
+   "k": "62071a3da71a",
    "ctx": "eligibility",
-   "t": "You should not already hold a KCC at another bank"
+   "t": "Widows, BPL card holders (score 0 to 16) and the lowest incomes get priority, and 5% of kits are kept for disabled applicants"
   },
   {
-   "k": "2224c4e3e541",
+   "k": "dd28e83bce8c",
    "ctx": "documents",
-   "t": "Filled KCC application form with a signature or thumb impression"
+   "t": "e-Shram card"
   },
   {
-   "k": "db350d22c931",
+   "k": "0444418197f1",
    "ctx": "documents",
-   "t": "Land record (khatauni, 7/12, jamabandi or patta), or a lease or tenancy paper for tenant farmers"
+   "t": "Income certificate up to Rs.6 lakh from the Mamlatdar, TDO, Nagarpalika Chief Officer or Municipal Corporation officer (not needed for the groups with no income limit)"
   },
   {
-   "k": "a72b818d2fb8",
+   "k": "43cde80c4ad0",
    "ctx": "documents",
-   "t": "Bank passbook of the account where PM-Kisan money comes"
+   "t": "BPL card or ration card, if you have one"
   },
   {
-   "k": "d90be324be60",
+   "k": "e24d0400f39d",
    "ctx": "documents",
-   "t": "Details of crops to be grown, or of animals and fish ponds for dairy or fisheries KCC"
+   "t": "Husband's death certificate, for widows claiming priority"
   },
   {
-   "k": "5d70ef790f99",
-   "ctx": "documents",
-   "t": "Details of any existing loan; some banks ask for a no-dues paper from other banks in the area"
+   "k": "5f2d65449701",
+   "ctx": "portalName",
+   "t": "e-Kutir portal"
   },
   {
-   "k": "bd1c02262eab",
-   "ctx": "submitAt",
-   "t": "At the branch of the bank where your PM-Kisan money is credited (or any commercial bank, Regional Rural Bank or cooperative bank branch near your village). Hand the filled form to the field officer or branch manager with your Aadhaar, land record, two photos and passbook, and get the acknowledgement slip at the bottom of the form signed and dated."
-  },
-  {
-   "k": "f6e8e62fc09f",
+   "k": "43c1319f6111",
    "ctx": "label",
-   "t": "Name of Bank / Branch"
+   "t": "Full name (in English, as per Aadhaar)"
   },
   {
-   "k": "a6f406e092e5",
+   "k": "7cc14a287995",
    "ctx": "value",
-   "t": "Bank of Baroda, Mandvi branch"
+   "t": "Sangitaben Ramanbhai Vasava"
   },
   {
-   "k": "60e456794dc7",
+   "k": "3de5700c4bcd",
    "ctx": "hint",
-   "t": "The bank where your PM-Kisan money comes. Write it at the top of the form."
+   "t": "Exactly as on Aadhaar. The form can be switched to Gujarati from the language option."
   },
   {
-   "k": "aa80f45d4a50",
+   "k": "3e2492e1d7e9",
    "ctx": "label",
-   "t": "Type of KCC"
+   "t": "Aadhaar card number"
   },
   {
-   "k": "69be23dd9b97",
+   "k": "68be34e59d9f",
+   "ctx": "hint",
+   "t": "Your own number. Forgot your user ID later? It can be found with Aadhaar and birth date."
+  },
+  {
+   "k": "3326d8674bcb",
+   "ctx": "hint",
+   "t": "Pick as on Aadhaar."
+  },
+  {
+   "k": "81213f26c4ee",
+   "ctx": "hint",
+   "t": "DD/MM/YYYY. You must be between 18 and 60."
+  },
+  {
+   "k": "fbbfc2fb653b",
+   "ctx": "hint",
+   "t": "Your user ID and password come here by SMS, and later the e-voucher and dealer OTPs."
+  },
+  {
+   "k": "44aaf33a95d9",
+   "ctx": "hint",
+   "t": "Make your own and keep it. If the VCE fills the form for you, still keep the user ID and password yourself."
+  },
+  {
+   "k": "945aee40de8a",
+   "ctx": "label",
+   "t": "Trade (tool kit) chosen"
+  },
+  {
+   "k": "a45958503bb0",
    "ctx": "value",
-   "t": "Issue of fresh KCC"
+   "t": "Beauty parlour"
   },
   {
-   "k": "ff796402d196",
+   "k": "2795f2e277da",
    "ctx": "hint",
-   "t": "Tick fresh KCC for a new card, or enhancement or activation if you already have an old KCC."
+   "t": "Asked in the Manav Kalyan form after login. Pick one of the 10 trades; it cannot be changed after submitting."
   },
   {
-   "k": "d34b23b71b46",
+   "k": "c5c15baae9dc",
    "ctx": "label",
-   "t": "Amount of loan required"
+   "t": "e-Shram card number"
   },
   {
-   "k": "d970a6c5414c",
+   "k": "8deb5c75043a",
    "ctx": "hint",
-   "t": "What you need for one year of farming. The bank will fix the final limit from your land and crops."
+   "t": "Required. If you have no e-Shram card, the form gives a link to make one first."
   },
   {
-   "k": "fa405e1d5922",
+   "k": "07ab996e5f63",
+   "ctx": "label",
+   "t": "Caste and income certificate"
+  },
+  {
+   "k": "67dc14b5d790",
    "ctx": "value",
-   "t": "Bhikhabhai Rathod"
+   "t": "ST - income certificate MAM/NRM/2026/3381"
   },
   {
-   "k": "0acf05bb9793",
+   "k": "8d7002e3e131",
    "ctx": "hint",
-   "t": "Your name as on Aadhaar and the land record."
+   "t": "Upload clear photos of the originals as PDF or JPEG. Income must be up to Rs.6 lakh unless your caste group has no limit."
   },
   {
-   "k": "6fcec19fe9b0",
+   "k": "e4bb741d2ba9",
    "ctx": "label",
-   "t": "Account No (PM Kisan Beneficiary)"
+   "t": "Want basic training?"
   },
   {
-   "k": "120878ba7d1c",
+   "k": "7392322d1782",
    "ctx": "hint",
-   "t": "The account where your PM-Kisan instalments come. The bank takes your KYC from this account."
+   "t": "Choose Yes for 5 days of training with Rs.500 a day for attendance. Choose No to get the e-voucher directly."
   },
   {
-   "k": "20c6509a778c",
-   "ctx": "label",
-   "t": "Consent for PMSBY / PMJJBY auto debit"
-  },
-  {
-   "k": "d9a1a23d4b28",
-   "ctx": "value",
-   "t": "PMSBY: Yes, PMJJBY: Yes"
-  },
-  {
-   "k": "ba6b83597296",
-   "ctx": "hint",
-   "t": "Insurance of Rs.2 lakh each for Rs.20 and Rs.436 a year, cut from your account. Tick No if you do not want it."
-  },
-  {
-   "k": "c74e73e2f7f9",
-   "ctx": "label",
-   "t": "Details of existing loans"
-  },
-  {
-   "k": "a8783becd4c6",
-   "ctx": "hint",
-   "t": "Write any loan you have from a bank, cooperative society or other source, with the amount still due."
-  },
-  {
-   "k": "2768773a5733",
-   "ctx": "label",
-   "t": "Land holding: Village / Survey-Khasra No. / Title / Area"
-  },
-  {
-   "k": "78da1dcccce6",
-   "ctx": "value",
-   "t": "Gundiyali / Survey 214 / Owned / 3.5 acres"
-  },
-  {
-   "k": "a5e9ca791b06",
-   "ctx": "hint",
-   "t": "Copy from your land record. Tick Leased or Share Cropper if the land is not yours."
-  },
-  {
-   "k": "14a59842cc3d",
-   "ctx": "label",
-   "t": "Name of crop to be grown"
-  },
-  {
-   "k": "d94ff3096657",
-   "ctx": "value",
-   "t": "Kharif: groundnut; Rabi: wheat"
-  },
-  {
-   "k": "447a3f488a33",
-   "ctx": "hint",
-   "t": "The crops you will sow this year in each season."
-  },
-  {
-   "k": "7cde5e8078cf",
-   "ctx": "label",
-   "t": "KCC for animal husbandry / fisheries"
-  },
-  {
-   "k": "71d207c0b801",
-   "ctx": "value",
-   "t": "2 dairy buffaloes"
-  },
-  {
-   "k": "208e72daf64d",
-   "ctx": "hint",
-   "t": "Fill only if you also want a loan for animals or fish farming."
-  },
-  {
-   "k": "f0aa9cdd8cdd",
+   "k": "261969e6db19",
    "ctx": "demoSteps",
-   "t": "Download the KCC form from pmkisan.gov.in (Download KCC Form) or collect it free at the bank, and fill it."
+   "t": "When the yearly window is open, go to e-kutir.gujarat.gov.in and register as a new individual with your name, Aadhaar, birth date and mobile. The village VCE can also fill it for you free of cost."
   },
   {
-   "k": "7f69b456bcdb",
+   "k": "63852dbf48f6",
    "ctx": "demoSteps",
-   "t": "Take it to your bank branch with Aadhaar, land record, two photos and passbook. Get the acknowledgement at the bottom of the form signed."
+   "t": "Log in, complete the profile, open Manav Kalyan Yojana, choose one trade, fill the form and upload Aadhaar, e-Shram card, caste and income certificates and age proof. Submit - until you submit, it stays only as a draft."
   },
   {
-   "k": "f1ee666473fb",
+   "k": "7f21f8c5051b",
    "ctx": "demoSteps",
-   "t": "The bank officer checks your land record and crops, and may visit the field. The limit is fixed from your crop, land area and needs."
+   "t": "The District Industries Centre checks the application, and selection is made by an online draw before a district committee. Track it under Application Status."
   },
   {
-   "k": "ef62e8ccb1df",
+   "k": "045dd4afe351",
    "ctx": "demoSteps",
-   "t": "Banks are told to decide within 14 days of a complete application. Sign the loan papers. There is no processing fee for loans up to Rs.3 lakh."
+   "t": "If selected, an e-voucher (QR code) with the kit's value comes by SMS and in your login or the e-Kutir app, which also lists approved dealers."
   },
   {
-   "k": "9709a84fb7f1",
+   "k": "103e0a19dfaa",
    "ctx": "demoSteps",
-   "t": "Your KCC account opens and you get a RuPay card. Take out money as you need it, from the branch or an ATM."
+   "t": "Go to any approved dealer, show the QR code and give the OTP sent to your phone. Pick the tools you want within the limit; you pay only if you choose tools costing more."
   },
   {
-   "k": "cadcb2f66426",
+   "k": "fb52cfa28d13",
    "ctx": "demoSteps",
-   "t": "Repay within one year, or after harvest, to get the 3% discount, so you pay only 4% interest. The card stays valid for five years with a yearly review."
+   "t": "A verification team will visit your home to see the kit and take a photo. Keep and use the tools - if they are sold or missing, the money is taken back."
   },
   {
-   "k": "22a5ae61f1e4",
+   "k": "685b8fc07884",
    "ctx": "demoSteps",
-   "t": "If the bank refuses or delays without reason, complain to the branch manager in writing, then to RBI on 14448 or cms.rbi.org.in."
+   "t": "Never share your e-voucher or OTP with anyone except the approved dealer at the time of buying."
   },
   {
-   "k": "8fd2745bcbc9",
+   "k": "a4222164d769",
    "ctx": "helpline",
-   "t": "155261 / 1800-115-526 (PM-Kisan and KCC helpline); 14448 (RBI complaints)"
+   "t": "Manav Kalyan help desk 99099 26280 / 99099 26180; your District Industries Centre (DIC)"
   },
   {
-   "k": "6a8ebd783451",
+   "k": "abb3565500ab",
    "ctx": "title",
-   "t": "VB-G RAM G Rural Work Guarantee (Gramin Rozgar Guarantee Card)"
+   "t": "e-Nirman Card - Construction Worker Registration (BOCW)"
   },
   {
-   "k": "2309f852b8e8",
+   "k": "fa695436457e",
    "ctx": "department",
-   "t": "Ministry of Rural Development — Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025"
+   "t": "Gujarat Building & Other Construction Workers' Welfare Board, Labour, Skill Development & Employment Department"
   },
   {
-   "k": "6e13578533d2",
+   "k": "3a3b5656c227",
    "ctx": "brief",
-   "t": "From 1 July 2026 the VB-G RAM G Act replaced MGNREGA, and the old job card is becoming the Gramin Rozgar Guarantee Card. Every rural household can now ask for up to 125 days of unskilled manual work a year, up from 100, paid at the notified wage into the worker's bank or post office account. An old MGNREGA job card with e-KYC done stays valid until the new card is issued; a household with no card registers free at the Gram Panchayat. Work must be given within 15 days of asking, or an unemployment allowance is due."
+   "t": "The e-Nirman card registers a construction worker with the Gujarat construction workers' welfare board. With it you and your family can eat a full meal for Rs.5 at Shramik Annapurna centres, you are covered under the PMJAY-MA health card, and you can apply on the Sanman portal for the board's schemes - maternity help, children's education, housing help, illness and accident help. You can register yourself on the e-Nirman portal or app, or at a CSC, e-Gram centre, e-Shram Seva Kendra or Dhanvantari Arogya Rath. The card is valid for 3 years and is renewed with a fresh 90-day work certificate."
   },
   {
-   "k": "6f76007b7177",
+   "k": "12c4b3e20712",
    "ctx": "benefit",
-   "t": "125 days of guaranteed wage work per household each year (up from 100 under MGNREGA), paid at the notified wage into the worker's bank or post office account"
+   "t": "Rs.5 meals, Rs.7,500 maternity help for women workers, up to Rs.1.6 lakh extra housing help and more"
   },
   {
-   "k": "a82fdd920738",
+   "k": "7cb1e1d22214",
    "ctx": "eligibility",
-   "t": "One card per household, listing all the adult members who want work; an old MGNREGA job card with e-KYC done stays valid until the new card comes"
+   "t": "Did construction work for more than 90 days in the last 12 months (a self-declared or employer's certificate)"
   },
   {
-   "k": "c0794e86176a",
+   "k": "73b1db91149b",
    "ctx": "eligibility",
-   "t": "Single women, persons with disability, people over 60, freed bonded labourers, PVTG members and transgender persons get a Special card of a different colour"
+   "t": "Does physical work on building or other construction - mason, labourer, carpenter, plumber, electrician, welder, tiles, painting, centring, road and MGNREGA work and the other listed jobs"
   },
   {
-   "k": "2df48abcf695",
+   "k": "3c24c5462d19",
    "ctx": "eligibility",
-   "t": "States can pause works for up to 60 days a year in peak sowing and harvest time; the 125 days are given in the rest of the year"
+   "t": "No income limit for manual workers; office staff, supervisors and independent contractors cannot register"
   },
   {
-   "k": "e6f01b6ec648",
+   "k": "43c475799813",
+   "ctx": "eligibility",
+   "t": "The card must be renewed every 3 years with a new 90-day work certificate to keep getting benefits"
+  },
+  {
+   "k": "b476541843b4",
    "ctx": "documents",
-   "t": "Aadhaar cards of all the adult members to be listed — used for e-KYC and face-based attendance at the worksite"
+   "t": "Recent passport-size photo"
   },
   {
-   "k": "242423ba1a9c",
+   "k": "d3c4422908eb",
    "ctx": "documents",
-   "t": "Passport-size photographs of those adult members, which go on the card"
+   "t": "Proof of age - birth certificate, school leaving certificate, voter ID or driving licence"
   },
   {
-   "k": "4ee78823be3a",
+   "k": "82e452758258",
    "ctx": "documents",
-   "t": "The old MGNREGA job card, if the household has one"
+   "t": "Ration card or other proof of address"
   },
   {
-   "k": "df70ec537c6c",
+   "k": "222eebfcfafe",
+   "ctx": "documents",
+   "t": "90-day work certificate from the employer or contractor, or a self-declaration"
+  },
+  {
+   "k": "2cfaaa5f4621",
+   "ctx": "documents",
+   "t": "Bank passbook or cancelled cheque"
+  },
+  {
+   "k": "95beb07dbc09",
+   "ctx": "documents",
+   "t": "Caste certificate, if you have one"
+  },
+  {
+   "k": "cfc9a79de9d7",
+   "ctx": "portalName",
+   "t": "e-Nirman portal (Gujarat BOCW Welfare Board)"
+  },
+  {
+   "k": "55ed3baf03c2",
+   "ctx": "label",
+   "t": "Full Name (as per Aadhaar)"
+  },
+  {
+   "k": "c54e7e869221",
+   "ctx": "value",
+   "t": "Mukeshbhai Kanabhai Rathva"
+  },
+  {
+   "k": "9b1150f11e09",
    "ctx": "hint",
-   "t": "All four, because work is given within 5 km of the village named here as far as possible — if it is further away, inside the Block, you are owed an extra 10 per cent of the wage."
+   "t": "Write it exactly as on the Aadhaar card, in English letters."
   },
   {
-   "k": "1f6090d62be6",
+   "k": "388a2a1612f2",
+   "ctx": "label",
+   "t": "Aadhaar Card Number"
+  },
+  {
+   "k": "fd596a6cb1ad",
    "ctx": "hint",
-   "t": "One against each name in the same order. Aadhaar is used for e-KYC and face-based attendance, and wages are paid through Aadhaar-based payment, so a missing number holds up that member's wages."
+   "t": "Your own 12-digit number. One Aadhaar can be registered only once."
   },
   {
-   "k": "a081040eae59",
+   "k": "6167db00587c",
    "ctx": "hint",
-   "t": "Asked for identification only. The scheme has no poverty condition — a household above the poverty line is equally entitled to a card."
+   "t": "Women workers should register too - several schemes, such as maternity help, are only for them."
   },
   {
-   "k": "35603dcadea4",
+   "k": "ab5815528f10",
+   "ctx": "label",
+   "t": "Birthdate"
+  },
+  {
+   "k": "a94a4b6c1baa",
    "ctx": "hint",
-   "t": "The photographs go on the card itself, next to each listed member's name."
+   "t": "As on Aadhaar, in DD/MM/YYYY. You must be between 18 and 60."
   },
   {
-   "k": "db937fdf1505",
+   "k": "18ac2a704f50",
    "ctx": "hint",
-   "t": "Ask for this dated receipt. It is the proof that fixes the 15-day deadline for issuing the card."
+   "t": "Your user ID, password reset and approval messages come to this number."
   },
   {
-   "k": "0a799c258999",
+   "k": "f1f5f7ac7ed5",
+   "ctx": "label",
+   "t": "Email ID (not mandatory)"
+  },
+  {
+   "k": "c5b89fbce508",
+   "ctx": "value",
+   "t": "Left empty"
+  },
+  {
+   "k": "611b2e0f96ea",
+   "ctx": "hint",
+   "t": "Leave it empty if you do not have one."
+  },
+  {
+   "k": "0f3e97a9c5a3",
+   "ctx": "hint",
+   "t": "Make one you will remember and do not share it with the agent or contractor."
+  },
+  {
+   "k": "1ef9d5884d25",
+   "ctx": "label",
+   "t": "User Type"
+  },
+  {
+   "k": "e1fc1d68d654",
+   "ctx": "value",
+   "t": "Construction Worker"
+  },
+  {
+   "k": "ac866ed715ad",
+   "ctx": "hint",
+   "t": "Choose Construction Worker. Builders who pay the cess use a different login."
+  },
+  {
+   "k": "db92cd786124",
+   "ctx": "label",
+   "t": "Type of work and days worked"
+  },
+  {
+   "k": "8fcfe96d2f7b",
+   "ctx": "value",
+   "t": "Mason (kadiya) - 120 days in the last 12 months"
+  },
+  {
+   "k": "64f802ebd2dc",
+   "ctx": "hint",
+   "t": "Asked in the registration application after you log in. Upload the 90-day certificate signed by the contractor, or the self-declaration."
+  },
+  {
+   "k": "89b4635bb2ce",
+   "ctx": "hint",
+   "t": "In your own name. The board pays all scheme money straight into this account."
+  },
+  {
+   "k": "b6abb2b0fcd5",
    "ctx": "demoSteps",
-   "t": "If your household already has an MGNREGA job card, ask the Gram Rozgar Sevak whether e-KYC is done for every adult on it. Such a card stays valid until the new Gramin Rozgar Guarantee Card is issued, so you do not need to apply again."
+   "t": "Open the e-Nirman portal or the e-Nirman app and tap Register Yourself. Fill name, Aadhaar, gender, birth date, mobile, choose Construction Worker and set a password. Or get it done at a CSC, e-Gram centre, e-Shram Seva Kendra or the Dhanvantari Arogya Rath."
   },
   {
-   "k": "87966c0a1cb2",
+   "k": "687a1b8200a7",
    "ctx": "demoSteps",
-   "t": "A household with no card applies at the Gram Panchayat: any adult member gives the names, ages and address of the household — orally, on plain paper or on the printed form free at the Panchayat. List every adult who might ever want work."
+   "t": "Log in and complete your profile - address, family members and bank account."
   },
   {
-   "k": "07d0e88a5b51",
+   "k": "cb52139154c5",
    "ctx": "demoSteps",
-   "t": "Attach Aadhaar copies, the residence proof, the bank passbook copy and one photograph of each listed adult, and take a dated receipt with a registration number. The Panchayat must issue the card within 15 days, and it is valid for three years."
+   "t": "Open the application for Registration, fill your type of work and employer, and upload Aadhaar, photo, age proof, the 90-day work certificate and passbook. Submit and note the application number."
   },
   {
-   "k": "1f3d43fa54ed",
+   "k": "084f7ef21d5a",
    "ctx": "demoSteps",
-   "t": "Getting the card is not the same as asking for work. Ask for at least six days of work — orally, in writing on Form 6, or through the digital system — at the Gram Panchayat or to the Programme Officer, and take a dated receipt."
+   "t": "Check progress under View Citizen Application Status. The board's district office verifies the application."
   },
   {
-   "k": "8de380317fe1",
+   "k": "506d3e3b7e1c",
    "ctx": "demoSteps",
-   "t": "Work must start within 15 days, as far as possible within 5 km of your village. If it does not, the State owes you an unemployment allowance of at least a quarter of the wage for the first 30 days and half after that."
+   "t": "When approved, download and print the e-Nirman card, or collect the print from the centre where you applied."
   },
   {
-   "k": "6f2b4b0c9b38",
+   "k": "62c8d736c0c2",
    "ctx": "demoSteps",
-   "t": "Attendance at the worksite is taken by face authentication. Wages are paid weekly, or at the latest within 15 days of the muster roll closing, straight into your account; after that you are owed 0.05% of the unpaid wage for each day of delay."
+   "t": "Show the card at any Shramik Annapurna centre for a Rs.5 meal, and apply for maternity, education, housing and other help on sanman.gujarat.gov.in."
   },
   {
-   "k": "be2ddd7ec406",
+   "k": "cc0626bac81e",
    "ctx": "demoSteps",
-   "t": "Check your days and payments on the card, on the Janata Board at the worksite and on vbgramg.dord.gov.in. Never let the Sarpanch, the Rozgar Sevak or anyone else keep your card. For a complaint, go to the Programme Officer at the Block, then the District Programme Coordinator (the Collector)."
+   "t": "Renew the card before 3 years are over with a new 90-day work certificate, or the benefits stop."
   },
   {
-   "k": "b25c72f9c270",
+   "k": "ea343757e8bb",
    "ctx": "helpline",
-   "t": "No national toll-free number. Complain to the Programme Officer at the Block office, then the District Programme Coordinator (Collector), or call your state's rural employment helpline; online complaints at pgportal.gov.in"
+   "t": "Gujarat BOCW Welfare Board toll-free 1800-233-2324; board office 079-25502271"
   },
   {
-   "k": "7fb89ad12b64",
+   "k": "9f063d00fca3",
    "ctx": "title",
-   "t": "Ni-kshay Poshan Yojana (Rs.1,000 a month for TB patients)"
+   "t": "PMJAY-MA Yojana - Mukhyamantri Amrutum (MA Card)"
   },
   {
-   "k": "63d958d1f431",
+   "k": "d838182afe23",
    "ctx": "department",
-   "t": "Ministry of Health & Family Welfare — Central TB Division, National TB Elimination Programme"
+   "t": "Health & Family Welfare Department, Gujarat (State Health Agency, PMJAY-MA)"
   },
   {
-   "k": "832d257aed55",
+   "k": "dc9131e53143",
    "ctx": "brief",
-   "t": "Every person being treated for tuberculosis (TB) gets Rs.1,000 a month for food for the whole length of treatment, usually Rs.6,000 for a six-month course, paid straight into a bank account. It covers treatment at a government hospital or by a private doctor, as long as the TB case is notified on the government's Ni-kshay system. Underweight patients also get extra nutrition supplements for the first two months, and families can get food baskets from Ni-kshay Mitra volunteers."
+   "t": "Gujarat's own health cover, joined with Ayushman Bharat: cashless treatment of up to Rs.10 lakh a year for the whole family at empanelled government and private hospitals. The old MA (Mukhyamantri Amrutum) and MA Vatsalya cards were merged into it in 2021 under the name PMJAY-MA, and in 2023 the cover was doubled from Rs.5 lakh to Rs.10 lakh. Gujarat covers many more families than the central list, including families earning up to Rs.4 lakh a year and senior citizens in families earning up to Rs.6 lakh. The card is the same Ayushman card, and you can make it yourself on the phone or at the kiosk of any government health centre or empanelled hospital."
   },
   {
-   "k": "257c9e24853a",
+   "k": "177c1371da3b",
    "ctx": "benefit",
-   "t": "Rs.1,000 a month for the whole TB treatment, by bank transfer"
+   "t": "Rs.10 lakh a year per family, cashless"
   },
   {
-   "k": "765a14870387",
+   "k": "1a781f501134",
    "ctx": "eligibility",
-   "t": "Anyone diagnosed with TB, of any type and any age, whose case is notified on Ni-kshay"
+   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
   },
   {
-   "k": "350c0fc2ec6e",
+   "k": "6b3b66fa5faa",
    "ctx": "eligibility",
-   "t": "Treatment at a government facility or by a private doctor or hospital: both are covered"
+   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
   },
   {
-   "k": "3d3bdecc2917",
+   "k": "6d5280574a3e",
    "ctx": "eligibility",
-   "t": "No income limit and no BPL card needed"
+   "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
   },
   {
-   "k": "60f77b41db45",
+   "k": "941ea7a3d8f9",
    "ctx": "eligibility",
-   "t": "Paid for every month of treatment until the treatment ends"
+   "t": "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees"
   },
   {
-   "k": "6ae361c062d8",
+   "k": "57aea47a8795",
    "ctx": "eligibility",
-   "t": "A child, or a patient without a bank account, can be paid into a parent's or guardian's account"
+   "t": "Gujarat government regular employees and pensioners, through their HRPN or PPO number"
   },
   {
-   "k": "39e870075652",
+   "k": "1fccd972f146",
    "ctx": "eligibility",
-   "t": "Patients with a BMI below 18.5 also get energy-dense nutrition supplements for the first two months"
+   "t": "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
   },
   {
-   "k": "397fab302a57",
+   "k": "e3146b133fa3",
    "ctx": "documents",
-   "t": "TB treatment card or the Ni-kshay ID given at the centre"
+   "t": "Aadhaar card of each family member being enrolled (needed for e-KYC)"
   },
   {
-   "k": "8641685dd427",
+   "k": "6d4c6ea51155",
    "ctx": "documents",
-   "t": "Bank passbook or cancelled cheque of a savings account in your name (a parent's or guardian's for a child)"
+   "t": "Ration card, for the family details"
   },
   {
-   "k": "3c319708b07b",
+   "k": "4d17d795c486",
    "ctx": "documents",
-   "t": "Aadhaar card, or the Aadhaar enrolment slip with another photo ID until it comes"
+   "t": "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)"
   },
   {
-   "k": "f0c07a8056dd",
+   "k": "60b83f7b9449",
    "ctx": "documents",
-   "t": "Mobile number, for the payment SMS"
+   "t": "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family"
   },
   {
-   "k": "3a60e1fa102b",
+   "k": "78dc42c5ee94",
    "ctx": "documents",
-   "t": "For private patients: the doctor's prescription or TB notification slip"
+   "t": "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number"
   },
   {
-   "k": "d373fb2eff79",
-   "ctx": "submitAt",
-   "t": "Give your bank details to the TB staff at the government health centre or TB Unit where you were diagnosed (the health worker or Senior Treatment Supervisor). If you are treated privately, give them to your doctor or the programme's private-sector staff. Take your bank passbook, Aadhaar and treatment card. The staff enter everything on Ni-kshay, so there is no form for you to fill. Do it in the first two weeks of treatment."
-  },
-  {
-   "k": "328c7dab27fa",
-   "ctx": "label",
-   "t": "Ni-kshay ID"
-  },
-  {
-   "k": "e2c8ed5b6faf",
+   "k": "c2199c54fa0f",
    "ctx": "hint",
-   "t": "Written on your TB treatment card, or ask the health worker."
+   "t": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
   },
   {
-   "k": "ce790932b94a",
-   "ctx": "label",
-   "t": "Patient Name"
+   "k": "215193346df7",
+   "ctx": "hint",
+   "t": "Any working number you keep with you. The login OTP and the approval SMS come here."
   },
   {
-   "k": "c1c0c2b1c069",
+   "k": "72b0fb23f131",
    "ctx": "value",
-   "t": "Suresh Mahato"
+   "t": "PMJAY / Gujarat"
   },
   {
-   "k": "4c62389b085e",
+   "k": "3fa8781a3c7e",
    "ctx": "hint",
-   "t": "As registered at the TB centre."
+   "t": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
   },
   {
-   "k": "184f5a730712",
+   "k": "8834be4c604c",
    "ctx": "hint",
-   "t": "Payment messages and treatment reminders come to this number."
+   "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
   },
   {
-   "k": "d0ea7c9abd85",
+   "k": "ac5965f48967",
    "ctx": "hint",
-   "t": "The patient's Aadhaar, or the enrolment slip number if it has not come yet."
+   "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
   },
   {
-   "k": "30788c295949",
-   "ctx": "label",
-   "t": "Beneficiary Relationship to Patient"
+   "k": "34dbd876279a",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
   },
   {
-   "k": "e102517374a8",
+   "k": "6d5bce5a3657",
+   "ctx": "hint",
+   "t": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "k": "4e5f01b1a886",
    "ctx": "value",
-   "t": "Self"
+   "t": "Taken on phone camera"
   },
   {
-   "k": "ccb411068a1d",
+   "k": "93e44aae243f",
    "ctx": "hint",
-   "t": "Self if the account is yours; Father, Mother or Guardian for a child."
+   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
   },
   {
-   "k": "403e35e62b0a",
-   "ctx": "label",
-   "t": "Account Holder Name"
-  },
-  {
-   "k": "f9a132c25d09",
-   "ctx": "hint",
-   "t": "Exactly as printed in the passbook. A mismatch stops the payment."
-  },
-  {
-   "k": "4b196b5b30c9",
-   "ctx": "hint",
-   "t": "A savings account that is in use. One account can be linked to only one patient."
-  },
-  {
-   "k": "afb95bbf00c2",
-   "ctx": "hint",
-   "t": "Printed on the passbook or cheque."
-  },
-  {
-   "k": "416e315eadca",
-   "ctx": "label",
-   "t": "Treatment Start Date"
-  },
-  {
-   "k": "fd602038def3",
-   "ctx": "hint",
-   "t": "Payments are counted from this date, Rs.1,000 for each month of treatment."
-  },
-  {
-   "k": "fd3d46c44478",
-   "ctx": "label",
-   "t": "Health Facility / TB Unit"
-  },
-  {
-   "k": "69b55fd61fe0",
+   "k": "80fe607c8889",
    "ctx": "value",
-   "t": "TB Unit, Sadar Hospital, Dhanbad"
+   "t": "Mehsana / 384002"
   },
   {
-   "k": "6854d4405e2b",
+   "k": "92f0b5c3c707",
    "ctx": "hint",
-   "t": "Where your treatment is recorded."
+   "t": "Where you live now, so the nearest empanelled hospitals are shown to you."
   },
   {
-   "k": "de8ac65fc944",
+   "k": "4cb4e06ad562",
    "ctx": "demoSteps",
-   "t": "Get tested free at a government health centre. Once TB is confirmed, the case is notified on Ni-kshay and you get a Ni-kshay ID; private doctors must notify too."
+   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar."
   },
   {
-   "k": "3d577be3c407",
+   "k": "bae821feb9a5",
    "ctx": "demoSteps",
-   "t": "Give your bank passbook and Aadhaar to the TB health worker, who enters the account on Ni-kshay."
+   "t": "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit."
   },
   {
-   "k": "f4ae53970712",
+   "k": "47e1b1651592",
    "ctx": "demoSteps",
-   "t": "The account is checked by the government payment system. If it fails, the staff call you to correct the details."
+   "t": "If your family does not appear but you qualify by income (up to Rs.4 lakh, or Rs.6 lakh for 60+) or as a construction worker or other listed group, go to the PMJAY-MA kiosk at the nearest government health centre (PHC, CHC, UHC, sub-district or district hospital) or at any empanelled hospital with your ration card, every member's Aadhaar and the income certificate or category proof."
   },
   {
-   "k": "9f8a3541041f",
+   "k": "a8e7a0fa6a6f",
    "ctx": "demoSteps",
-   "t": "The first payment comes after the account is approved, and then Rs.1,000 for each month of treatment. An SMS tells you of each credit."
+   "t": "The State Health Agency checks the request. Approval usually comes by SMS within a few days."
   },
   {
-   "k": "d3b68f3845b9",
+   "k": "04b130de1449",
    "ctx": "demoSteps",
-   "t": "Take the medicines every day until the doctor ends treatment; the payments run for the whole course. Ask for the nutrition supplement if you are underweight."
+   "t": "Log in again, open Download Card, verify with OTP and save the card for each family member on your phone, or take a printout."
   },
   {
-   "k": "4375d7d59245",
+   "k": "37d2b2c22ef9",
    "ctx": "demoSteps",
-   "t": "If the money has not come, call Ni-kshay Sampark on 1800-11-6666 with your Ni-kshay ID."
+   "t": "Find an empanelled hospital on ma.gujarat.gov.in (Search - Empanelled Hospital). At the hospital, go to the PMJAY-MA or Ayushman Mitra desk with the card and Aadhaar."
   },
   {
-   "k": "8b105ac590fb",
+   "k": "687784895f0c",
+   "ctx": "demoSteps",
+   "t": "Treatment for listed illnesses is cashless up to Rs.10 lakh a year for the family. Never pay cash for it - if a hospital asks, call 1800-233-1022."
+  },
+  {
+   "k": "4e8f7d2e248f",
    "ctx": "helpline",
-   "t": "1800-11-6666 (Ni-kshay Sampark, national TB helpline, free)"
+   "t": "PMJAY-MA toll-free 1800-233-1022 / Ayushman Bharat national helpline 14555"
   },
   {
-   "k": "72cace854e47",
+   "k": "39e5358d38c3",
    "ctx": "title",
-   "t": "Pradhan Mantri Awaas Yojana – Gramin (PMAY-G Rural House)"
+   "t": "Mukhyamantri Matrushakti Yojana (Free Monthly Nutrition Kit)"
   },
   {
-   "k": "cda55e02a75e",
+   "k": "eb28810b3843",
    "ctx": "department",
-   "t": "Department of Rural Development, Ministry of Rural Development"
+   "t": "Women & Child Development Department (ICDS), Gujarat"
+  },
+  {
+   "k": "b95d4035c012",
+   "ctx": "brief",
+   "t": "A free nutrition kit every month for a woman in her first pregnancy and until her first child turns two - the first 1000 days. Each month's kit has 2 kg chana, 1 kg tuver dal and 1 litre of groundnut oil, given at the Anganwadi against an OTP on your phone. The health worker first registers the pregnancy in the health department's TeCHO system; you then register yourself on the Matrushakti portal, or the Anganwadi worker does it for you. A ration card is no longer needed - Aadhaar is enough."
+  },
+  {
+   "k": "7e6bbac5f512",
+   "ctx": "benefit",
+   "t": "Every month: 2 kg chana, 1 kg tuver dal and 1 litre groundnut oil, free"
+  },
+  {
+   "k": "102243b96d4d",
+   "ctx": "eligibility",
+   "t": "Woman pregnant with her first child - from registration of the pregnancy until delivery"
+  },
+  {
+   "k": "9d30e72786a1",
+   "ctx": "eligibility",
+   "t": "Mother of a first child - from the birth until the child is 2 years old"
+  },
+  {
+   "k": "82c5873ebbc6",
+   "ctx": "eligibility",
+   "t": "Has an Aadhaar card"
+  },
+  {
+   "k": "cc1035fd247a",
+   "ctx": "eligibility",
+   "t": "The pregnancy or child is registered by the ASHA or ANM in the health department's TeCHO system (the eMamta / unique number)"
+  },
+  {
+   "k": "51506e8026aa",
+   "ctx": "eligibility",
+   "t": "Registered with the local Anganwadi; there is no income or caste condition"
+  },
+  {
+   "k": "21983c37563c",
+   "ctx": "documents",
+   "t": "Mobile number linked with Aadhaar, for the OTP"
+  },
+  {
+   "k": "54e1da820ce6",
+   "ctx": "documents",
+   "t": "eMamta / TeCHO unique number from the Mamta card given by the health worker"
+  },
+  {
+   "k": "08bc0d90aa46",
+   "ctx": "documents",
+   "t": "Name of your Anganwadi and the Anganwadi worker"
+  },
+  {
+   "k": "ec01c74db111",
+   "ctx": "documents",
+   "t": "Ration card member ID (optional - it helps fill the details)"
+  },
+  {
+   "k": "59a2760417e4",
+   "ctx": "portalName",
+   "t": "Mukhyamantri Matrushakti Yojana portal"
+  },
+  {
+   "k": "57bbe35113ad",
+   "ctx": "label",
+   "t": "Aadhaar card number (beneficiary)"
+  },
+  {
+   "k": "35870c2305cd",
+   "ctx": "hint",
+   "t": "The pregnant woman's or mother's own Aadhaar."
+  },
+  {
+   "k": "80f0c234503f",
+   "ctx": "label",
+   "t": "Beneficiary name (in English, as per Aadhaar)"
+  },
+  {
+   "k": "d5fa73c018b6",
+   "ctx": "value",
+   "t": "Nirmalaben Jagdishbhai Solanki"
+  },
+  {
+   "k": "632526590f58",
+   "ctx": "hint",
+   "t": "Exactly as printed on Aadhaar, or the Aadhaar check fails."
+  },
+  {
+   "k": "668bfce3778b",
+   "ctx": "label",
+   "t": "Date of birth / year of birth"
+  },
+  {
+   "k": "afd803db6c5d",
+   "ctx": "hint",
+   "t": "Choose full date or only the year, whichever is on your Aadhaar. Then tick the consent box and press Validate Aadhaar."
+  },
+  {
+   "k": "0271ac3f0462",
+   "ctx": "label",
+   "t": "Ration card member ID"
+  },
+  {
+   "k": "bdd3eaa804db",
+   "ctx": "value",
+   "t": "Filled automatically"
+  },
+  {
+   "k": "e8eb29696743",
+   "ctx": "hint",
+   "t": "Comes up by itself if your name is on an NFSA ration card. It is fine if it stays empty."
+  },
+  {
+   "k": "128441e60636",
+   "ctx": "value",
+   "t": "Bhavnagar / Mahuva / Bagdana"
+  },
+  {
+   "k": "0a36503e7f60",
+   "ctx": "hint",
+   "t": "Where you live now, so the right Anganwadi list appears."
+  },
+  {
+   "k": "3fbb838df100",
+   "ctx": "label",
+   "t": "Anganwadi name"
+  },
+  {
+   "k": "102873a4e360",
+   "ctx": "value",
+   "t": "Bagdana-3"
+  },
+  {
+   "k": "2a5d2fe0a289",
+   "ctx": "hint",
+   "t": "If your Anganwadi is not in the list, use Search to find it."
+  },
+  {
+   "k": "92dbc570a816",
+   "ctx": "label",
+   "t": "Worker / helper name"
+  },
+  {
+   "k": "0ba44bf29c42",
+   "ctx": "hint",
+   "t": "The Anganwadi worker's name appears once you pick the Anganwadi."
+  },
+  {
+   "k": "c11fe2ed78c8",
+   "ctx": "label",
+   "t": "Mobile number linked with Aadhaar"
+  },
+  {
+   "k": "e1d8a34d6db2",
+   "ctx": "hint",
+   "t": "Press Send OTP and type the 4-digit OTP. Each month's kit is also given against an OTP on this number."
+  },
+  {
+   "k": "6913776dab6d",
+   "ctx": "label",
+   "t": "Beneficiary ID (eMamta / unique number)"
+  },
+  {
+   "k": "8b9f3cbb9674",
+   "ctx": "hint",
+   "t": "Step 2 of the form. It is on your Mamta card. After Search, the health centre and due date fill in by themselves."
+  },
+  {
+   "k": "b63258ee587f",
+   "ctx": "demoSteps",
+   "t": "Register your pregnancy with the ASHA or ANM at the health centre and get the Mamta card with your eMamta / unique number."
+  },
+  {
+   "k": "a94cfbd09041",
+   "ctx": "demoSteps",
+   "t": "Open 1000d.gujarat.gov.in, choose Self Registration, enter your Aadhaar, name and birth date, tick the consent and press Validate Aadhaar."
+  },
+  {
+   "k": "c3561d5adda2",
+   "ctx": "demoSteps",
+   "t": "Pick your district, taluka, village and Anganwadi, enter the Aadhaar-linked mobile, press Send OTP, type the OTP and press Save & Next."
+  },
+  {
+   "k": "3c95719a3662",
+   "ctx": "demoSteps",
+   "t": "In step 2 enter the eMamta / unique number and press Search; the health centre and due date fill in. Press Confirm and Submit and print the receipt."
+  },
+  {
+   "k": "b6b03a87d41f",
+   "ctx": "demoSteps",
+   "t": "Check Beneficiary Registration Status until it shows Approved. The Anganwadi worker can also do all of this for you."
+  },
+  {
+   "k": "6fc9cff7df51",
+   "ctx": "demoSteps",
+   "t": "Every month, collect the kit at your Anganwadi and give the OTP that comes to your phone."
+  },
+  {
+   "k": "b1ae40d36105",
+   "ctx": "demoSteps",
+   "t": "The kit continues after delivery until the child is 2. If your mobile number changes, update it on the portal so the OTP keeps reaching you."
+  },
+  {
+   "k": "a26c4d1c24b1",
+   "ctx": "helpline",
+   "t": "Women & Child Development Department 079-23257942; your Anganwadi worker or the taluka ICDS (CDPO) office"
+  },
+  {
+   "k": "936c0d784f13",
+   "ctx": "title",
+   "t": "Ayushman Bharat Chirayu Haryana (Chirayu Card)"
+  },
+  {
+   "k": "5931ddc756f5",
+   "ctx": "department",
+   "t": "Ayushman Bharat Haryana Health Protection Authority, Health Department, Haryana"
   }
  ]
 }

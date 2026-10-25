@@ -6,1094 +6,1054 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_03.json",
  "items": [
   {
-   "k": "4021a984b04e",
-   "ctx": "eligibility",
-   "t": "Women from poor rural households, picked out by the village itself or from the SECC deprivation list"
-  },
-  {
-   "k": "bd323f2af6e8",
-   "ctx": "eligibility",
-   "t": "One woman from each household, in one group"
-  },
-  {
-   "k": "4a618325bdd9",
-   "ctx": "eligibility",
-   "t": "A group has 10 to 20 members (fewer in hilly or remote areas and in groups of persons with disabilities)"
-  },
-  {
-   "k": "a438c4d4c84e",
-   "ctx": "eligibility",
-   "t": "The group must meet, save, lend, repay on time and keep books regularly (the 'Panchasutra') to get the Revolving Fund"
-  },
-  {
-   "k": "bc71c02569a3",
-   "ctx": "eligibility",
-   "t": "Community Investment Fund and bank loans follow once the group is graded by the mission and the bank"
-  },
-  {
-   "k": "21831824c25e",
-   "ctx": "eligibility",
-   "t": "Lakhpati Didi support usually goes to members who have been in an SHG for at least two years and have used the CIF"
-  },
-  {
-   "k": "ea49ed181c0e",
-   "ctx": "documents",
-   "t": "Aadhaar card of each member"
-  },
-  {
-   "k": "0b6885feea75",
-   "ctx": "documents",
-   "t": "Passport-size photographs of the members"
-  },
-  {
-   "k": "55c2a0624d3f",
-   "ctx": "documents",
-   "t": "Savings account opened in the group's name, with a resolution signed by all members"
-  },
-  {
-   "k": "6599a76a6f70",
-   "ctx": "documents",
-   "t": "ID proof of the three office-bearers who will operate the group account"
-  },
-  {
-   "k": "34fd168d6b98",
-   "ctx": "documents",
-   "t": "Bank passbook of each member"
-  },
-  {
-   "k": "c40929b7eeb9",
-   "ctx": "documents",
-   "t": "Group meeting register and savings and loan ledger, kept by the group's bookkeeper"
-  },
-  {
-   "k": "51f371cf97b5",
-   "ctx": "submitAt",
-   "t": "Speak to the Community Resource Person (CRP, the SHG didi or sakhi) or the Village Organisation in your village, or go to the Block Mission Management Unit of your State Rural Livelihoods Mission at the block office. Join an existing group or form a new one with 10–20 women from nearby households; the CRP helps open the group's bank account at the nearest branch and enters the group in the mission's records. Take your Aadhaar, photographs and bank passbook."
-  },
-  {
-   "k": "b990117ce6d3",
-   "ctx": "label",
-   "t": "Name of SHG"
-  },
-  {
-   "k": "3febcbf9c59a",
-   "ctx": "value",
-   "t": "Jai Maa Durga Aajeevika Swayam Sahayata Samuh"
-  },
-  {
-   "k": "2f20fddba771",
-   "ctx": "hint",
-   "t": "The name the members agree on at the first meeting."
-  },
-  {
-   "k": "e633f4740f78",
-   "ctx": "value",
-   "t": "Kanhauli / Kanhauli / Sakra / Muzaffarpur, Bihar"
-  },
-  {
-   "k": "93ff27ac346a",
-   "ctx": "hint",
-   "t": "Where the members live."
-  },
-  {
-   "k": "8cef8d8889d0",
-   "ctx": "label",
-   "t": "Member Name"
-  },
-  {
-   "k": "9d9f8479d8f6",
-   "ctx": "value",
-   "t": "Rinku Devi"
-  },
-  {
-   "k": "9717ce479cdb",
-   "ctx": "value",
-   "t": "Manoj Sahni"
-  },
-  {
-   "k": "99dc85eb6485",
-   "ctx": "value",
-   "t": "12-03-1992 / 34 years"
-  },
-  {
-   "k": "24f2c894b518",
-   "ctx": "hint",
-   "t": "From Aadhaar or another age proof."
-  },
-  {
-   "k": "a971561bb62e",
-   "ctx": "label",
-   "t": "Social Category"
-  },
-  {
-   "k": "fe935440a62e",
-   "ctx": "hint",
-   "t": "SC, ST, OBC, General or Minority."
-  },
-  {
-   "k": "61057739c385",
-   "ctx": "label",
-   "t": "Poverty Status"
-  },
-  {
-   "k": "81733a594b7b",
-   "ctx": "value",
-   "t": "Poor (village identification)"
-  },
-  {
-   "k": "ca928f8d6925",
-   "ctx": "hint",
-   "t": "As decided in the village's identification of poor families, or the SECC list."
-  },
-  {
-   "k": "04c7bf1d82fd",
-   "ctx": "hint",
-   "t": "Each member's own number."
-  },
-  {
-   "k": "6ade30ff7e43",
-   "ctx": "label",
-   "t": "Weekly Savings Amount"
-  },
-  {
-   "k": "af98ac49c13a",
-   "ctx": "value",
-   "t": "Rs.20 a week"
-  },
-  {
-   "k": "514e87fd046c",
-   "ctx": "hint",
-   "t": "Fixed by all members together; the same for everyone."
-  },
-  {
-   "k": "d219236aef3a",
-   "ctx": "label",
-   "t": "Designation in SHG"
-  },
-  {
-   "k": "78444dc427b2",
-   "ctx": "value",
-   "t": "Treasurer"
-  },
-  {
-   "k": "d695eddc77cc",
-   "ctx": "hint",
-   "t": "President, Secretary and Treasurer operate the bank account; others are members."
-  },
-  {
-   "k": "46f61bdd080f",
+   "k": "269bb8508266",
    "ctx": "demoSteps",
-   "t": "Meet the CRP or Village Organisation. With 10–20 women from nearby poor households, hold the first meeting, name the group and fix the weekly saving."
+   "t": "Get your bank account seeded with Aadhaar for DBT at your branch. Without it the payment waits, though it keeps adding up."
   },
   {
-   "k": "27559345bba2",
+   "k": "1cbaad1c380d",
    "ctx": "demoSteps",
-   "t": "Open a savings account in the group's name with the three office-bearers as signatories; the CRP records the group and each member with the mission."
+   "t": "Your employer files PF every month. Check in UMANG or on the EPFO member portal that your contributions are showing."
   },
   {
-   "k": "4ea4b1cfc866",
+   "k": "9f95d2706a42",
    "ctx": "demoSteps",
-   "t": "Meet every week, save, lend among yourselves, repay on time and keep the books for about three months."
+   "t": "After 6 completed months with the same employer, the first instalment, half of one month's PF wage up to Rs.7,500, comes to your Aadhaar-seeded account."
   },
   {
-   "k": "2e8a9133b9b7",
+   "k": "84489186dc47",
    "ctx": "demoSteps",
-   "t": "The group gets the Revolving Fund of Rs.20,000–30,000 in its account and joins the Village Organisation."
+   "t": "Finish the free online financial literacy course on the EPFO portal before your 12th month."
   },
   {
-   "k": "f4ca4fa52fb4",
+   "k": "da756c624b4a",
    "ctx": "demoSteps",
-   "t": "Through the village federation the group can borrow from the Community Investment Fund, up to Rs.2.5 lakh per SHG, against the members' credit plan."
+   "t": "After 12 completed months, the second instalment (the rest, total up to Rs.15,000) is put into a savings deposit in your name, to be paid out later."
   },
   {
-   "k": "529055f485f8",
+   "k": "eefe4afe9c34",
    "ctx": "demoSteps",
-   "t": "The bank gives the group loans without collateral, at 7% for loans up to Rs.3 lakh, with bigger loans after each repayment. Members use them for dairy, farming, shops or other work."
+   "t": "If nothing arrives, call the EPFO help desk or file a grievance on EPFiGMS with your UAN."
   },
   {
-   "k": "b10e7924fae8",
-   "ctx": "demoSteps",
-   "t": "Members are trained under the Lakhpati Didi plan, and the CRP records household income in the Digital Aajeevika Register."
-  },
-  {
-   "k": "8610bf9e12e5",
+   "k": "8b5426483abd",
    "ctx": "helpline",
-   "t": "Block Mission Management Unit of your State Rural Livelihoods Mission; DAY-NRLM, Ministry of Rural Development 011-23461708; Lakhpati Didi portal support 0120-5202521 (Mon–Sat, 9 am–6 pm)"
+   "t": "14480 / 1800-180-1850 (EPFO toll-free help desk)"
   },
   {
-   "k": "694073082ca4",
+   "k": "012b0dba3d25",
    "ctx": "title",
-   "t": "Janani Suraksha Yojana (JSY)"
+   "t": "Ayushman Vay Vandana Card (Ayushman Card for 70+)"
   },
   {
-   "k": "6a26915c3da1",
-   "ctx": "department",
-   "t": "National Health Mission, Ministry of Health & Family Welfare"
-  },
-  {
-   "k": "2ec2fd5c076d",
+   "k": "f995a7d222c4",
    "ctx": "brief",
-   "t": "Cash given to a mother who delivers her baby in a government hospital, or in an approved private hospital if she is from a BPL, SC or ST family. The village ASHA helps you register, takes you for check-ups and gets the payment made. Under a separate scheme (JSSK) the delivery itself is free, even a caesarean, along with medicines, food and the ambulance. JSY money is extra, paid into your bank account after the delivery."
+   "t": "Every person aged 70 or above can get free hospital treatment of up to Rs.5 lakh a year, whatever the family income. It is part of Ayushman Bharat PM-JAY, and treatment is cashless at any empanelled government or private hospital. If your family already has Ayushman cards, you still get your own extra Rs.5 lakh. You can make the card yourself on the Ayushman website or app with just your Aadhaar."
   },
   {
-   "k": "7d175b25bf3e",
+   "k": "150bc44c47d3",
    "ctx": "benefit",
-   "t": "Rs.1,400 (village) or Rs.1,000 (town) in low-performing states; Rs.700 or Rs.600 elsewhere"
+   "t": "Rs.5 lakh a year cashless treatment for every person aged 70+"
   },
   {
-   "k": "f57a8337205a",
+   "k": "db6427d9b534",
    "ctx": "eligibility",
-   "t": "In Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Jharkhand, Chhattisgarh, Odisha, Assam, Uttarakhand and Jammu & Kashmir: every pregnant woman who delivers in a government hospital or health centre"
+   "t": "Every person aged 70 or above, by the year of birth on Aadhaar, rich or poor"
   },
   {
-   "k": "18b9e2d32912",
+   "k": "981e879c6ffc",
    "ctx": "eligibility",
-   "t": "In all other states: women from BPL, SC or ST families who deliver in a government hospital or health centre"
+   "t": "If your family already has Ayushman (PM-JAY) cards, you get a separate top-up of up to Rs.5 lakh a year just for yourself"
   },
   {
-   "k": "335b99cdee51",
+   "k": "c23260a49e9b",
    "ctx": "eligibility",
-   "t": "In every state: BPL, SC or ST women who deliver in an approved (accredited) private hospital"
+   "t": "In a new family, husband and wife who are both 70+ share Rs.5 lakh a year between them"
   },
   {
-   "k": "7e7c26d82ba8",
+   "k": "7ee2a1d14faa",
    "ctx": "eligibility",
-   "t": "There is no age limit and no limit on the number of children for a hospital delivery"
+   "t": "People with private health insurance or ESIC can also join"
   },
   {
-   "k": "1176130cb918",
+   "k": "07e8013c7a8e",
    "ctx": "eligibility",
-   "t": "BPL women who deliver at home get Rs.500"
+   "t": "CGHS, ECHS and CAPF members must choose either their own scheme or this one, not both"
   },
   {
-   "k": "eaabf6214a97",
+   "k": "206de9fa82c3",
+   "ctx": "eligibility",
+   "t": "Available in the states and UTs that run Ayushman Bharat PM-JAY"
+  },
+  {
+   "k": "86f1fe85236e",
    "ctx": "documents",
-   "t": "Mother and Child Protection (MCP) card or JSY card given at registration"
+   "t": "Aadhaar card (the age is taken from Aadhaar, no other age proof needed)"
   },
   {
-   "k": "8ff2ff383f1c",
+   "k": "691d86410437",
    "ctx": "documents",
-   "t": "Aadhaar card of the mother"
+   "t": "Mobile number for login OTP"
   },
   {
-   "k": "b9604884a20a",
+   "k": "c79ea8bdca23",
    "ctx": "documents",
-   "t": "Bank account passbook in the mother's name, linked to Aadhaar"
+   "t": "Aadhaar-linked mobile for Aadhaar OTP, or face authentication if the mobile is not linked"
   },
   {
-   "k": "07a9fdbacfce",
+   "k": "8b03316dce60",
    "ctx": "documents",
-   "t": "BPL ration card, or SC/ST caste certificate (needed outside the low-performing states, and for a private hospital delivery)"
+   "t": "CGHS, ECHS or CAPF card number, only if you hold one"
   },
   {
-   "k": "2a383ab1b91d",
+   "k": "88dba747fc1f",
    "ctx": "documents",
-   "t": "Discharge slip or delivery record from the hospital"
+   "t": "Present address with PIN code"
   },
   {
-   "k": "04a8040dcb0a",
-   "ctx": "portalName",
-   "t": "National Health Mission"
+   "k": "1cc5416d12d3",
+   "ctx": "hint",
+   "t": "Choose Beneficiary. A son or daughter can log in with their own mobile to make the card for a parent."
   },
   {
-   "k": "f6fe91d56d0a",
-   "ctx": "submitAt",
-   "t": "At the government hospital or health centre where you deliver: before going home, hand your MCP card, Aadhaar copy, bank passbook copy and (where needed) the BPL ration card or caste certificate to the JSY desk or labour-room staff. Your village ASHA can collect and submit them for you. For a home delivery, give them to the ASHA or the ANM at the sub-centre."
+   "k": "7fdc03747f47",
+   "ctx": "hint",
+   "t": "Any working number. The login OTP comes here, and the message when the card is ready."
   },
   {
-   "k": "528b8cc457f8",
+   "k": "e7221694aa07",
    "ctx": "label",
-   "t": "Name of mother"
+   "t": "Enrolment for"
   },
   {
-   "k": "d4fe163fd0a1",
+   "k": "e42842675e42",
    "ctx": "value",
-   "t": "Sunita Kumari"
+   "t": "Ayushman Vay Vandana (70+)"
   },
   {
-   "k": "fb5355fcf978",
+   "k": "ea061dfe2b95",
    "ctx": "hint",
-   "t": "The mother's own name, as written on her Aadhaar and bank passbook."
+   "t": "After logging in, choose the Vay Vandana enrolment option, not the normal family search."
   },
   {
-   "k": "390df1365241",
+   "k": "a72502067518",
    "ctx": "label",
-   "t": "Husband's name"
+   "t": "State"
   },
   {
-   "k": "a1acd140e0a4",
+   "k": "ba4ce17f5a0b",
    "ctx": "value",
-   "t": "Ramesh Paswan"
+   "t": "Rajasthan"
   },
   {
-   "k": "2d45e09103a3",
+   "k": "bf29a0863be0",
    "ctx": "hint",
-   "t": "Write it as on the ration card, so the family can be matched."
+   "t": "The state written in the address on the senior's Aadhaar."
   },
   {
-   "k": "c25105820ad3",
+   "k": "63889170d98e",
+   "ctx": "hint",
+   "t": "Aadhaar of the person aged 70 or above. Tick the consent box to share Aadhaar details."
+  },
+  {
+   "k": "0b7e91769307",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar. Otherwise scan the face with the Aadhaar FaceRD app."
+  },
+  {
+   "k": "2eeb0948701d",
    "ctx": "label",
-   "t": "Age of mother"
+   "t": "Beneficiary category"
   },
   {
-   "k": "f1a644333c99",
+   "k": "03d21df30963",
    "ctx": "value",
-   "t": "24 years"
+   "t": "Self declaration"
   },
   {
-   "k": "6e9a580975fa",
+   "k": "34ee6fe5e9a8",
    "ctx": "hint",
-   "t": "Your age now. There is no lower or upper limit for a hospital delivery."
+   "t": "Choose Self declaration, or CGHS, ECHS or CAPF if the senior is in one of these. That choice cannot be changed later."
   },
   {
-   "k": "f2a934eb2928",
+   "k": "efc4c5f191b8",
+   "ctx": "hint",
+   "t": "Face straight, good light, no cap or dark glasses."
+  },
+  {
+   "k": "d2ac1b7b18f2",
    "ctx": "label",
-   "t": "MCP card / RCH ID number"
+   "t": "Spouse aged 70+"
   },
   {
-   "k": "2c015df28cfd",
-   "ctx": "hint",
-   "t": "The number on your MCP card, given when the ANM registered your pregnancy."
-  },
-  {
-   "k": "b38fd97f30c7",
-   "ctx": "hint",
-   "t": "BPL, SC, ST or General. Attach the ration card or caste certificate if you tick BPL, SC or ST."
-  },
-  {
-   "k": "1aeace15d087",
-   "ctx": "hint",
-   "t": "The mother's Aadhaar, for checking her identity and for the bank payment."
-  },
-  {
-   "k": "55fb81af2f1c",
-   "ctx": "label",
-   "t": "Date and place of delivery"
-  },
-  {
-   "k": "c6940afa3492",
+   "k": "4adcd32aea6c",
    "ctx": "value",
-   "t": "14-03-2026, Community Health Centre, Bikram"
+   "t": "Added: Kamla Devi, 9999 2208 7790"
   },
   {
-   "k": "b616f513dd64",
+   "k": "fcfc77f3a1e4",
    "ctx": "hint",
-   "t": "Filled by the hospital staff from the labour-room register."
+   "t": "Add the husband or wife here only if they are also 70 or above. Their e-KYC is done the same way."
   },
   {
-   "k": "6f2c5ec8dde6",
-   "ctx": "hint",
-   "t": "Copy both from the first page of the passbook. The account must be in the mother's own name."
-  },
-  {
-   "k": "95312492d254",
-   "ctx": "label",
-   "t": "Name of ASHA"
-  },
-  {
-   "k": "89773628cee9",
+   "k": "eee35313ade3",
    "ctx": "value",
-   "t": "Kiran Devi, Ward 6, Bikram"
+   "t": "Ajmer / 305001"
   },
   {
-   "k": "36e0409adbca",
+   "k": "f7177f636feb",
    "ctx": "hint",
-   "t": "The ASHA who helped you. She is paid separately for helping you."
+   "t": "Where the senior lives now, so nearby empanelled hospitals are shown."
   },
   {
-   "k": "7d6eb2405dc5",
+   "k": "5de2b7970e75",
    "ctx": "demoSteps",
-   "t": "As soon as you know you are pregnant, tell the village ASHA or go to the sub-centre. The ANM registers you and gives you the MCP card."
+   "t": "Open beneficiary.nha.gov.in or the Ayushman app and log in as Beneficiary with your mobile number and OTP."
   },
   {
-   "k": "a0aa716223c4",
+   "k": "09bb5ae8c02f",
    "ctx": "demoSteps",
-   "t": "Go for the pregnancy check-ups written on the card. Ask for the BPL or caste certificate to be noted if you live outside the low-performing states."
+   "t": "Choose the Ayushman Vay Vandana enrolment option, pick the state and enter the senior's Aadhaar number."
   },
   {
-   "k": "998cd0393e98",
+   "k": "b81412169624",
    "ctx": "demoSteps",
-   "t": "When labour starts, call 102 or 108 for the free ambulance and go to a government hospital or health centre with the MCP card."
+   "t": "Verify with Aadhaar OTP or face authentication, then take the live photo."
   },
   {
-   "k": "9d5cd29a85ef",
+   "k": "9b33ebb94acb",
    "ctx": "demoSteps",
-   "t": "Before leaving the hospital, give your Aadhaar, bank passbook copy and MCP card to the JSY desk or labour-room staff, or hand them to the ASHA."
+   "t": "Choose the category, fill the mobile number and address, add the spouse if also 70+, and submit."
   },
   {
-   "k": "7cf9b9c97f0b",
+   "k": "bae0c9fe32cf",
    "ctx": "demoSteps",
-   "t": "The hospital enters your claim. The money is sent straight to your bank account, usually within a few weeks."
+   "t": "Approval usually comes the same day or within a day or two. Log in again and download the Vay Vandana card."
   },
   {
-   "k": "4464e2ae014a",
+   "k": "47cc0b59413e",
    "ctx": "demoSteps",
-   "t": "If it has not come in a month, ask the ASHA or the hospital's JSY clerk, or call 104 with your MCP card number."
+   "t": "At an empanelled hospital, go to the Ayushman Mitra desk and show the card. Treatment is cashless, so never pay for a covered treatment. You can also get the card made free at that desk."
   },
   {
-   "k": "dd55c5d62bb4",
+   "k": "6e21edebd96b",
    "ctx": "helpline",
-   "t": "104 (state health helpline) / 102 (free ambulance for pregnant women) / 108"
+   "t": "14555 / 1800-111-565 (Ayushman Bharat helpline)"
   },
   {
-   "k": "afc044e0a76a",
+   "k": "c1ddb407f9d8",
    "ctx": "title",
-   "t": "Sukanya Samriddhi Yojana (SSY / Sukanya Account)"
+   "t": "Swachh Bharat Mission (Grameen) Toilet Incentive (IHHL, Rs.12,000)"
   },
   {
-   "k": "aa31f99ad0c2",
+   "k": "4553f714a899",
    "ctx": "department",
-   "t": "Department of Economic Affairs, Ministry of Finance; run through India Post and authorised banks"
+   "t": "Ministry of Jal Shakti — Department of Drinking Water and Sanitation"
   },
   {
-   "k": "6bd104f61f63",
+   "k": "f21304aa1c0e",
    "ctx": "brief",
-   "t": "A savings account in a girl's name that pays one of the highest safe interest rates in the country, 8.2% a year for October to December 2026, completely tax-free. A parent opens it before the girl turns 10, at a post office or authorised bank, with as little as Rs.250, and keeps depositing for 15 years; the account matures 21 years after opening. Half the money can be taken out after she turns 18 for her studies. Rs.1,000 a month for 15 years grows to about Rs.5.5 lakh at today's rate."
+   "t": "Rs.12,000 to a village family with no toilet of its own, to build one at home with a water store for hand-washing and cleaning. In the current phase (running to March 2027) the money goes only to newly formed or left-out households that qualify, and the state may pay it in one go or in parts as the work progresses. You can apply online with just a mobile number or through the Gram Panchayat, and the incentive reaches your bank account after the finished toilet is photographed and checked."
   },
   {
-   "k": "6bdae11b0e0b",
+   "k": "77aab7de6b2a",
    "ctx": "benefit",
-   "t": "8.2% tax-free interest; deposit Rs.250 to Rs.1.5 lakh a year"
+   "t": "Rs.12,000 per household for one toilet, paid into the bank account"
   },
   {
-   "k": "bca6b4d51fdb",
+   "k": "8b78d25cc841",
    "ctx": "eligibility",
-   "t": "Girl child below 10 years of age, resident in India"
+   "t": "A rural household with no toilet of its own"
   },
   {
-   "k": "39e6ecdcced5",
+   "k": "5ade7626403c",
    "ctx": "eligibility",
-   "t": "Opened by the girl's parent or legal guardian; accounts opened by grandparents must be moved to a parent's name"
+   "t": "Every below-poverty-line (BPL) household"
   },
   {
-   "k": "129af1344f87",
+   "k": "3d7c49b03686",
    "ctx": "eligibility",
-   "t": "One account per girl, and at most two girls per family (a third only for twins or triplets)"
+   "t": "Above-poverty-line households only if SC/ST, a small or marginal farmer, a landless labourer with a homestead, a household with a person with disability, or a woman-headed household"
   },
   {
-   "k": "aec5c72939b8",
+   "k": "40891467f25c",
    "ctx": "eligibility",
-   "t": "Minimum Rs.250 and maximum Rs.1.5 lakh in a financial year, paid for 15 years from opening"
+   "t": "Only new or left-out households: a family that already got a toilet incentive earlier cannot get it again"
   },
   {
-   "k": "752abbf16d74",
+   "k": "922e81eb76ca",
    "ctx": "eligibility",
-   "t": "A year without the minimum deposit can be made good by paying Rs.250 for that year plus Rs.50 penalty"
+   "t": "Families in towns and cities apply under Swachh Bharat Mission (Urban) instead"
   },
   {
-   "k": "a7dcbfbd5ad1",
+   "k": "c3710902fdde",
    "ctx": "documents",
-   "t": "Account opening form with Sukanya Samriddhi Account ticked"
+   "t": "Mobile number for the OTP login"
   },
   {
-   "k": "45f962c90527",
+   "k": "0b941ee60bdd",
    "ctx": "documents",
-   "t": "Girl's birth certificate"
+   "t": "Bank passbook in the applicant's name, with account number and IFSC"
   },
   {
-   "k": "5d710d644d10",
+   "k": "5647cbec14c4",
    "ctx": "documents",
-   "t": "Parent's Aadhaar card"
+   "t": "BPL ration card, or for APL families proof of the category: caste certificate, disability certificate, or land record for small and marginal farmers"
   },
   {
-   "k": "d92d0ab9d8b7",
+   "k": "212b170a6d7f",
    "ctx": "documents",
-   "t": "Parent's PAN card, or Form 60 if you have no PAN"
+   "t": "Proof that you live in the village: ration card, voter ID or Panchayat family register entry"
   },
   {
-   "k": "12cdfcc67382",
-   "ctx": "documents",
-   "t": "Passport-size photos of the parent (and of the girl where the office asks)"
-  },
-  {
-   "k": "a3b7e153167a",
-   "ctx": "documents",
-   "t": "Address proof, if the address on Aadhaar is different"
-  },
-  {
-   "k": "85857a48f4e1",
-   "ctx": "documents",
-   "t": "First deposit of at least Rs.250, in cash or by cheque"
-  },
-  {
-   "k": "efc1d656d82f",
+   "k": "53a6fa7668b5",
    "ctx": "portalName",
-   "t": "India Post"
+   "t": "Swachh Bharat Mission (Grameen)"
   },
   {
-   "k": "a03c5b622495",
-   "ctx": "submitAt",
-   "t": "Any post office with a savings bank counter, or a branch of an authorised bank such as SBI, Punjab National Bank, Bank of Baroda, Canara Bank or ICICI Bank. Take the filled form, the girl's birth certificate, your Aadhaar and PAN with originals for checking, two photos and the first deposit of at least Rs.250; the passbook is handed to you at the counter."
-  },
-  {
-   "k": "7fbb44bead71",
+   "k": "336cb95a0ba5",
    "ctx": "label",
-   "t": "Name of Post Office"
+   "t": "Mobile No. (as Login Id)"
   },
   {
-   "k": "f031158c3fd1",
+   "k": "52fc573c1628",
+   "ctx": "hint",
+   "t": "Register with this number first. Every login is by OTP, and only 5 OTP tries are allowed a day."
+  },
+  {
+   "k": "355d4a9c1d99",
+   "ctx": "label",
+   "t": "Name of Applicant"
+  },
+  {
+   "k": "e583edb1d18d",
    "ctx": "value",
-   "t": "Hazratganj Head Post Office, Lucknow"
+   "t": "Kamla Bai Meena"
   },
   {
-   "k": "24f471957af9",
+   "k": "9ff71dfb6223",
    "ctx": "hint",
-   "t": "The post office or bank branch where you are opening the account. It can be moved to any other place in India later."
+   "t": "As on Aadhaar and the bank passbook."
   },
   {
-   "k": "e043d0ff4d13",
-   "ctx": "label",
-   "t": "Type of account"
+   "k": "c952f302f82a",
+   "ctx": "hint",
+   "t": "Pick the applicant's gender."
   },
   {
-   "k": "0d9ed5025774",
+   "k": "5569030c75d2",
    "ctx": "value",
-   "t": "Sukanya Samriddhi Account (SSA)"
+   "t": "Shankar Lal Meena"
   },
   {
-   "k": "46501374293f",
+   "k": "0d4ac7605ca2",
    "ctx": "hint",
-   "t": "The same form is used for every post office savings scheme, so tick SSA."
+   "t": "The applicant's own 12-digit number."
   },
   {
-   "k": "c4644a63537f",
+   "k": "98fdb9579bfb",
    "ctx": "label",
-   "t": "Name of account holder (girl)"
+   "t": "State / District / Block / Gram Panchayat / Village"
   },
   {
-   "k": "08cfed22f1ea",
+   "k": "2dd7e55b00ab",
    "ctx": "value",
-   "t": "Anaya Verma"
+   "t": "Rajasthan / Tonk / Uniara / Banetha / Banetha"
   },
   {
-   "k": "a578774514c1",
+   "k": "5a7fec5973f4",
    "ctx": "hint",
-   "t": "The girl's name exactly as written on her birth certificate."
+   "t": "Where the house that needs the toilet stands."
   },
   {
-   "k": "12f3caf1ff39",
+   "k": "dc32017ee761",
    "ctx": "label",
-   "t": "Date of birth of the girl"
+   "t": "Household Category"
   },
   {
-   "k": "19cf28c1e262",
-   "ctx": "hint",
-   "t": "She must be under 10 on the day the account is opened."
-  },
-  {
-   "k": "d7d7ce5ea16c",
-   "ctx": "label",
-   "t": "Name of guardian and relation"
-  },
-  {
-   "k": "e5592614b422",
+   "k": "5cece80882d7",
    "ctx": "value",
-   "t": "Sunita Verma / Mother"
+   "t": "APL – Women headed household"
   },
   {
-   "k": "1327b500feb7",
+   "k": "fccc8b79c156",
    "ctx": "hint",
-   "t": "The parent who will run the account until the girl turns 18."
+   "t": "Choose BPL if you are on the BPL list; otherwise the APL group that fits you."
   },
   {
-   "k": "9c0593a61845",
-   "ctx": "label",
-   "t": "Guardian's Aadhaar number"
-  },
-  {
-   "k": "3c5978d1b14c",
+   "k": "ef6739a1469b",
    "ctx": "hint",
-   "t": "Aadhaar of the parent filling the form; show the original at the counter."
+   "t": "SC, ST, OBC or General."
   },
   {
-   "k": "bb948de95b0e",
+   "k": "8b91106b08bb",
    "ctx": "label",
-   "t": "Guardian's PAN"
+   "t": "Bank Name, Branch and IFSC"
   },
   {
-   "k": "62287d90bc35",
-   "ctx": "hint",
-   "t": "If you do not have a PAN, write Form 60 and fill that form instead."
-  },
-  {
-   "k": "317ba48d1fdb",
-   "ctx": "label",
-   "t": "Mobile number and address"
-  },
-  {
-   "k": "c06d030aeca1",
+   "k": "8e9200efa06c",
    "ctx": "value",
-   "t": "98390 12345 / 12 Nishatganj, Lucknow 226006"
+   "t": "Bank of Baroda, Uniara / BARB0099999"
   },
   {
-   "k": "ccf2f4aafc78",
+   "k": "c390aef60510",
    "ctx": "hint",
-   "t": "Messages about deposits and interest come to this number."
+   "t": "IFSC is printed on the passbook's first page."
   },
   {
-   "k": "bf65d45cf9ab",
-   "ctx": "label",
-   "t": "Amount of first deposit"
-  },
-  {
-   "k": "41ca33c17f08",
-   "ctx": "value",
-   "t": "Rs.1,000 (cash)"
-  },
-  {
-   "k": "f7fc81f0d5ba",
+   "k": "cbd64da02fc2",
    "ctx": "hint",
-   "t": "At least Rs.250. Later deposits can be any amount in multiples of Rs.50, up to Rs.1.5 lakh a year."
+   "t": "Must be in the applicant's own name. The Rs.12,000 is paid here."
   },
   {
-   "k": "e64425a80c3d",
+   "k": "736273b16fa2",
    "ctx": "demoSteps",
-   "t": "Take the account opening form at the post office counter, or download it from the India Post forms page, and tick Sukanya Samriddhi Account."
+   "t": "Open the SBM-G citizen page, tap Citizen Registration, enter your mobile number and the OTP."
   },
   {
-   "k": "bbd1ff359a3c",
+   "k": "adf7863fe51a",
    "ctx": "demoSteps",
-   "t": "Fill in the girl's details from her birth certificate and your own as parent, and attach copies of the birth certificate, your Aadhaar and PAN, with photos."
+   "t": "Log in with mobile and OTP, open the toilet (IHHL) application, fill in applicant, address, category and bank details, submit, and note the application number."
   },
   {
-   "k": "71f2c53d152a",
+   "k": "a21dd4394a3c",
    "ctx": "demoSteps",
-   "t": "Hand it in with the first deposit. The clerk checks the originals and gives you a passbook with the account number."
+   "t": "The Gram Panchayat and block check that your household has no toilet and qualifies; new households are approved through the Gram Sabha and the district."
   },
   {
-   "k": "35db45f6429d",
+   "k": "e52e1126e35d",
    "ctx": "demoSteps",
-   "t": "Deposit at least Rs.250 every financial year for 15 years, at the counter, through the India Post or IPPB app, or by standing instruction."
+   "t": "After approval, build the toilet with a safe pit (twin pit, or septic tank with soak pit), a superstructure and a water store for hand-washing."
   },
   {
-   "k": "eb35140d689e",
+   "k": "5b4da4fdef6c",
    "ctx": "demoSteps",
-   "t": "Interest, 8.2% for October to December 2026 and revised every quarter, is added every 31 March and is tax-free. Deposits also count under section 80C in the old tax regime."
+   "t": "Block or cluster staff take a geo-tagged photo of the finished toilet on the government mobile app."
   },
   {
-   "k": "53ca375e78ea",
+   "k": "7c88186dbd70",
    "ctx": "demoSteps",
-   "t": "When she turns 18 or passes Class 10, up to half of the balance can be withdrawn for higher studies with the admission letter or fee slip."
+   "t": "After the check, the Rs.12,000 is paid into your bank account (some states pay part during construction). Log in again to see the status."
   },
   {
-   "k": "0892fb215771",
+   "k": "6303ee9765cc",
    "ctx": "demoSteps",
-   "t": "At 21 years from opening, or at her marriage after 18, fill the closure form and the full amount is paid into her bank account."
+   "t": "If nothing moves, go to the Gram Panchayat secretary or the block SBM coordinator, then file a complaint on CPGRAMS."
   },
   {
-   "k": "221ed430726a",
+   "k": "4295c0da83b9",
    "ctx": "helpline",
-   "t": "1800-266-6868 (India Post customer care); your bank branch if the account is with a bank"
+   "t": "No national toll-free line for the incentive: Gram Panchayat secretary or Block Development Office (SBM-G block coordinator); complaints on CPGRAMS (pgportal.gov.in)"
   },
   {
-   "k": "6f598204f311",
+   "k": "fbaa680654e3",
    "ctx": "title",
-   "t": "PM SVANidhi (Street Vendor Loan)"
+   "t": "Atal Pension Yojana (APY)"
   },
   {
-   "k": "39222f002e3a",
+   "k": "61b8f5765584",
    "ctx": "department",
-   "t": "Ministry of Housing & Urban Affairs, with SIDBI"
+   "t": "Pension Fund Regulatory and Development Authority (PFRDA), Department of Financial Services, Ministry of Finance"
   },
   {
-   "k": "f16b3f1f17ef",
+   "k": "eab36b363549",
    "ctx": "brief",
-   "t": "A working-capital loan for street vendors with no collateral: Rs.15,000 first, then Rs.25,000 and Rs.50,000 once each loan is repaid. Repaying on time earns a 7% interest subsidy credited to your loan account, and taking and making payments by UPI or QR code earns cashback of up to Rs.1,600; vendors who repay the second loan can get a UPI-linked RuPay credit card. The scheme was restructured and extended in August 2025, and loans are given till 31 March 2030. You can apply yourself on the portal, or through a CSC or your municipal office."
+   "t": "A guaranteed pension of Rs.1,000, 2,000, 3,000, 4,000 or 5,000 a month from age 60, for anyone aged 18 to 40 who has a savings account and does not pay income tax. You choose the pension, and a fixed amount is auto-debited from your bank account until you turn 60; the younger you join, the less you pay. After you, your husband or wife gets the same pension, and after both of you the nominee gets the saved amount. The Cabinet extended the scheme up to 2030-31 in January 2026; you can join online on eAPY if your bank is listed there, through your bank's net banking, or at your bank or post office branch."
   },
   {
-   "k": "3c1b4e132e99",
+   "k": "66c10928d7ef",
    "ctx": "benefit",
-   "t": "Loans of Rs.15,000, Rs.25,000 and Rs.50,000 without collateral, with 7% interest subsidy"
+   "t": "Guaranteed pension of Rs.1,000 to Rs.5,000 a month from age 60"
   },
   {
-   "k": "d0878d0761b0",
+   "k": "6c31d0fd22b8",
    "ctx": "eligibility",
-   "t": "Street vendor selling in a town or city, with a Certificate of Vending or ID card from the municipality or Town Vending Committee"
+   "t": "Indian citizen aged 18 to 40 years"
   },
   {
-   "k": "b43cdb37a020",
+   "k": "8896117050af",
    "ctx": "eligibility",
-   "t": "Or named in the municipality's vendor survey (Survey Reference Number), even if no certificate was issued"
+   "t": "Has a savings bank or post office savings account; only one APY account per person"
   },
   {
-   "k": "5d603f529bdc",
+   "k": "a8d4feee033d",
    "ctx": "eligibility",
-   "t": "Vendors left out of the survey, or from nearby villages and peri-urban areas who sell within town limits, can apply with a Letter of Recommendation (LoR) from the municipality"
+   "t": "Not an income tax payer now or in the past (rule from 1 October 2022); if found later, the account is closed and the money returned"
   },
   {
-   "k": "3814776b41d7",
+   "k": "76ad097d329a",
    "ctx": "eligibility",
-   "t": "Without an LoR, you must be a member of a vendors' association or have received the one-time Covid assistance"
+   "t": "Pays every month, quarter or half-year until age 60, so at least 20 years of payments"
   },
   {
-   "k": "638412280775",
+   "k": "2967e4d7ec6d",
    "ctx": "eligibility",
-   "t": "The Rs.25,000 and Rs.50,000 loans are given only after the previous loan is fully repaid"
+   "t": "Monthly amount depends on joining age: Rs.42 to Rs.210 at age 18, Rs.291 to Rs.1,454 at age 40"
   },
   {
-   "k": "ff8d52cb22a5",
+   "k": "ad9bc5f8c691",
    "ctx": "documents",
-   "t": "Aadhaar card, with your mobile number linked to it (needed for e-KYC)"
+   "t": "Savings bank account number and IFSC (passbook)"
   },
   {
-   "k": "6864f401ba1f",
+   "k": "5eae80e82813",
    "ctx": "documents",
-   "t": "Certificate of Vending or vendor ID card, or Survey Reference Number, or Letter of Recommendation"
+   "t": "Mobile number registered with Aadhaar"
   },
   {
-   "k": "5a693bddead3",
+   "k": "7e3129970a7f",
    "ctx": "documents",
-   "t": "Savings bank account passbook"
+   "t": "Spouse's name, and the nominee's name, relation and date of birth"
   },
   {
-   "k": "d5022c7f0278",
+   "k": "3a63f4d98fc1",
    "ctx": "documents",
-   "t": "Passport-size photo"
+   "t": "For eAPY: Aadhaar OTP, Virtual ID, or the Aadhaar offline e-KYC ZIP file with its share code"
   },
   {
-   "k": "10de89dc4969",
-   "ctx": "documents",
-   "t": "Proof of membership of a vendors' association, if you have no LoR"
-  },
-  {
-   "k": "abe264f0ebab",
+   "k": "0f51f9b1064b",
    "ctx": "portalName",
-   "t": "PM SVANidhi portal"
+   "t": "Protean CRA (eAPY online registration)"
   },
   {
-   "k": "813d0159ff6d",
-   "ctx": "hint",
-   "t": "Your Aadhaar-linked mobile. Fill the captcha and tap Request OTP; the OTP comes here."
-  },
-  {
-   "k": "f1c6420798bd",
+   "k": "d7accc1c2aa1",
    "ctx": "label",
-   "t": "Vendor category"
+   "t": "Whether Income Tax Payer"
   },
   {
-   "k": "2f5a8d8d2bfc",
+   "k": "968de7e2da68",
+   "ctx": "hint",
+   "t": "Choose No. Anyone who has ever paid income tax cannot join APY."
+  },
+  {
+   "k": "ae2eca551d48",
+   "ctx": "label",
+   "t": "Select your Bank"
+  },
+  {
+   "k": "ae18b54b7ec7",
    "ctx": "value",
-   "t": "In the survey, no certificate issued"
+   "t": "Punjab National Bank"
   },
   {
-   "k": "8c48e28607e5",
+   "k": "837932e2d006",
    "ctx": "hint",
-   "t": "Pick the line that fits you: have a certificate or ID card, in the survey without one, have an LoR, or none of these."
+   "t": "The bank where your savings account is. If your bank is not in the list (for example SBI), join through its net banking or at the branch."
   },
   {
-   "k": "177ac9c5242f",
+   "k": "49b19edb0a81",
    "ctx": "label",
-   "t": "Survey Reference Number (SRN)"
+   "t": "NLCC/Branch Name"
   },
   {
-   "k": "763fae32c427",
-   "ctx": "hint",
-   "t": "Find it with the survey status search on the portal. With a certificate, give its number; with an LoR, upload it."
-  },
-  {
-   "k": "e674f748f061",
-   "ctx": "hint",
-   "t": "Verified by OTP; your name, date of birth and address are taken from Aadhaar."
-  },
-  {
-   "k": "ef611c623b36",
-   "ctx": "label",
-   "t": "Father's / husband's name"
-  },
-  {
-   "k": "4f4e801dac70",
+   "k": "9183266de183",
    "ctx": "value",
-   "t": "Mohan Lal"
+   "t": "Civil Lines, Gorakhpur"
   },
   {
-   "k": "e78acd713545",
+   "k": "aad0a91f4612",
    "ctx": "hint",
-   "t": "As on your Aadhaar or vending certificate."
+   "t": "The branch where your account is, as printed on the passbook."
   },
   {
-   "k": "4e3cf8b91a37",
-   "ctx": "hint",
-   "t": "General, SC, ST, OBC or minority, as you belong."
-  },
-  {
-   "k": "379d1e8973f5",
+   "k": "8d77acca59ec",
    "ctx": "label",
-   "t": "Vending details"
+   "t": "Bank Account Type"
   },
   {
-   "k": "a2d3f29108fd",
+   "k": "cf0b7964ce3f",
    "ctx": "value",
-   "t": "Fixed spot, Lajpat Nagar market, New Delhi"
+   "t": "Saving Account"
   },
   {
-   "k": "5e7fa3d6898f",
+   "k": "a5ba9e256d15",
    "ctx": "hint",
-   "t": "Where you sell and whether you sit at one place or move with a cart."
+   "t": "APY works only with a savings account."
   },
   {
-   "k": "ddff69528fd9",
+   "k": "2d81055316ce",
+   "ctx": "hint",
+   "t": "Copy it from the passbook. The monthly amount is debited from this account until you turn 60."
+  },
+  {
+   "k": "505353f95a53",
    "ctx": "label",
-   "t": "Goods sold"
+   "t": "Bank IFS Code"
   },
   {
-   "k": "b1e41d3b1fa2",
-   "ctx": "value",
-   "t": "Vegetables and fruits"
-  },
-  {
-   "k": "34bdd0230887",
+   "k": "3f2f01227e29",
    "ctx": "hint",
-   "t": "What you mainly sell, for example tea, snacks, clothes, flowers or repairs."
+   "t": "The 11-character branch code printed on the passbook or cheque."
   },
   {
-   "k": "00fc3b7ee4fa",
+   "k": "49c9776cffae",
    "ctx": "label",
-   "t": "Lender and branch"
+   "t": "Please Select option (KYC)"
   },
   {
-   "k": "4eb5a0996578",
-   "ctx": "value",
-   "t": "Punjab National Bank, Lajpat Nagar"
-  },
-  {
-   "k": "f1b2bd7a7c11",
+   "k": "b0a7e7b3dab0",
    "ctx": "hint",
-   "t": "Choose the bank where you have your savings account; the loan is credited there."
+   "t": "Aadhaar or Virtual ID sends an OTP. Offline KYC needs the ZIP file downloaded from the UIDAI site and its share code."
   },
   {
-   "k": "61b36bbaa7e6",
+   "k": "421ba9916e36",
    "ctx": "label",
-   "t": "Loan amount"
+   "t": "Aadhaar Registered Mobile Number"
   },
   {
-   "k": "ce9287a9c65e",
-   "ctx": "value",
-   "t": "Rs.15,000"
-  },
-  {
-   "k": "059f554ad1c8",
+   "k": "8b745e608719",
    "ctx": "hint",
-   "t": "The first loan is Rs.15,000. Rs.25,000 and then Rs.50,000 follow after repayment."
+   "t": "The number linked to your Aadhaar; the OTP comes here."
   },
   {
-   "k": "449d444a99a6",
+   "k": "00334c33d50e",
+   "ctx": "label",
+   "t": "Pension Amount"
+  },
+  {
+   "k": "5f6938c5654a",
+   "ctx": "hint",
+   "t": "The pension you want at 60. A bigger pension means a bigger monthly payment; the exact amount for your age is shown before you submit."
+  },
+  {
+   "k": "d1b2640818a7",
+   "ctx": "label",
+   "t": "Periodicity of Contribution"
+  },
+  {
+   "k": "903442a647cf",
+   "ctx": "hint",
+   "t": "Monthly, quarterly or half-yearly. Monthly is easiest to keep up with on a small income."
+  },
+  {
+   "k": "91b1759a20bb",
    "ctx": "demoSteps",
-   "t": "Check your name in the vendor survey on the portal and keep your SRN, certificate or LoR ready. Make sure your mobile number is linked to Aadhaar."
+   "t": "Open the eAPY page and choose New Registration. Answer No to income tax, and pick your bank, branch, account type, account number and IFSC."
   },
   {
-   "k": "195bcb5b05a6",
+   "k": "ae963d2aa0ef",
    "ctx": "demoSteps",
-   "t": "Open the PM SVANidhi login page, enter your mobile number and captcha, and log in with the OTP. A CSC or your municipal office can do this for you."
+   "t": "Choose Aadhaar, Virtual ID or offline KYC, enter your Aadhaar-registered mobile number and verify with the OTP; your details are taken from Aadhaar."
   },
   {
-   "k": "9298095ef813",
+   "k": "8b58b4ae99aa",
    "ctx": "demoSteps",
-   "t": "Choose your vendor category, complete Aadhaar e-KYC, fill in your vending and bank details, and submit. Note the application number."
+   "t": "Pick the pension amount and how often you will pay, tick the consent for auto-debit, and fill the captcha."
   },
   {
-   "k": "d40a69428a72",
+   "k": "f22503b5bb68",
    "ctx": "demoSteps",
-   "t": "The municipality verifies you; if you have no certificate, it issues the Letter of Recommendation online."
+   "t": "On the next pages add your spouse and nominee, then confirm with OTP or eSign. Save the acknowledgement number that comes by SMS or email."
   },
   {
-   "k": "03bc3c496219",
+   "k": "7b8ec5924018",
    "ctx": "demoSteps",
-   "t": "The bank approves the application and credits Rs.15,000 to your account. Repay it in monthly instalments over 12 months."
+   "t": "Once the bank verifies your account, you get a PRAN (Permanent Retirement Account Number) and the first amount is debited, so keep enough balance."
   },
   {
-   "k": "9e562fc1eb4d",
+   "k": "94f9e45d82a4",
    "ctx": "demoSteps",
-   "t": "For on-time repayment, the 7% interest subsidy is credited to your loan account every quarter. Use UPI or QR for sales to earn the cashback."
+   "t": "Keep money in the account on the debit date every time. A late payment draws a small penalty."
   },
   {
-   "k": "1db12098441d",
+   "k": "37fa1160c214",
    "ctx": "demoSteps",
-   "t": "After repaying, use Apply for 25k (18 months) and then Apply for 50k (36 months) on the portal; after the second loan you can apply for the RuPay credit card."
+   "t": "From age 60 the chosen pension comes to your account every month. After you, your spouse gets the same pension; after both, the nominee gets Rs.1.7 lakh to Rs.8.5 lakh."
   },
   {
-   "k": "4198c5c5dc2b",
+   "k": "1033e146c42c",
    "ctx": "helpline",
-   "t": "1800-11-1979 (PM SVANidhi toll-free) / pmsvanidhi.support@sidbi.in (technical help)"
+   "t": "1800-889-1030 (APY toll-free, Protean CRA); your bank branch for debit problems"
   },
   {
-   "k": "6714d72cc849",
+   "k": "93b5e72b9ece",
    "ctx": "title",
-   "t": "PM Viksit Bharat Rozgar Yojana (PM-VBRY, First Job Rs.15,000)"
+   "t": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM Pension)"
   },
   {
-   "k": "78e8eea72ebe",
+   "k": "87f287925fe8",
    "ctx": "department",
-   "t": "Ministry of Labour & Employment, through EPFO"
+   "t": "Ministry of Labour & Employment (enrolment through Common Service Centres, pension paid by LIC)"
   },
   {
-   "k": "d954e2487790",
+   "k": "c615dc0c48a6",
    "ctx": "brief",
-   "t": "A one-time payment of up to Rs.15,000 for people in their first PF-covered job: anyone who joins an EPFO-registered employer between 1 August 2025 and 31 July 2027, has never had PF deducted before, and earns up to Rs.1 lakh a month. There is no application form; the money comes from your employer's monthly PF filing, but only if your UAN was made with face authentication on the UMANG app and your bank account is seeded with Aadhaar. Half is paid after 6 months of work, and the rest after 12 months and a short online financial literacy course, kept in a savings deposit for a fixed period. It was announced in Budget 2024-25 as the Employment Linked Incentive (ELI) scheme."
+   "t": "A pension of Rs.3,000 a month from age 60 for workers who have no employer pension: labourers, street vendors, domestic workers, rickshaw pullers, farm hands, home-based workers and the like. You pay a small fixed amount every month from your bank account, from Rs.55 to Rs.200 depending on the age at which you join, and the Centre puts in the same amount again. You can join yourself on the Maandhan portal with a mobile OTP, or at any CSC with your Aadhaar and bank passbook."
   },
   {
-   "k": "d30911a46662",
+   "k": "ef5f59102d61",
    "ctx": "benefit",
-   "t": "Up to Rs.15,000 (one month's PF wage) in two instalments"
+   "t": "Rs.3,000 a month pension from age 60; the Centre matches every payment you make"
   },
   {
-   "k": "fa544dc84301",
+   "k": "8b646029f55f",
    "ctx": "eligibility",
-   "t": "First job with PF: you were never a contributing EPF member before 1 August 2025"
+   "t": "Unorganised worker aged 18 to 40 years on the day of joining"
   },
   {
-   "k": "abd6dc9a051f",
+   "k": "d7f0eb48e18d",
    "ctx": "eligibility",
-   "t": "Joined an EPFO-registered employer between 1 August 2025 and 31 July 2027"
+   "t": "Monthly income of Rs.15,000 or less"
   },
   {
-   "k": "76cd13f019eb",
+   "k": "378c99e69179",
    "ctx": "eligibility",
-   "t": "Gross salary up to Rs.1 lakh a month at the time of joining"
+   "t": "Not a member of EPF, ESIC or the government-funded NPS, and not an income tax payer"
   },
   {
-   "k": "2affa5076d3d",
+   "k": "eda33ca77833",
    "ctx": "eligibility",
-   "t": "UAN generated or verified with face authentication on the UMANG app"
+   "t": "Must have a savings bank or Jan Dhan account with IFSC, and a mobile phone"
   },
   {
-   "k": "2b54afad3416",
+   "k": "773a0ecad97c",
    "ctx": "eligibility",
-   "t": "Stay with the same employer for 6 completed months (first instalment) and 12 months (second instalment)"
+   "t": "Husband and wife can each join separately, and each gets a pension of their own"
   },
   {
-   "k": "3c1d1dc05b48",
-   "ctx": "eligibility",
-   "t": "Bank account seeded with Aadhaar; until it is, the money is held back"
-  },
-  {
-   "k": "71e57ef30adf",
+   "k": "1d8c96d37e41",
    "ctx": "documents",
-   "t": "Smartphone with the UMANG and AadhaarFaceRD apps for the face scan"
+   "t": "Savings bank or Jan Dhan passbook showing the account number and IFSC"
   },
   {
-   "k": "3b85ddff1bd1",
+   "k": "c51fdcf302a6",
    "ctx": "documents",
-   "t": "Bank account seeded with Aadhaar for DBT (ask your bank to link Aadhaar and enable DBT)"
+   "t": "Mobile number (the OTP and payment messages come here)"
   },
   {
-   "k": "ab688ee2ce60",
+   "k": "fe424ed4d143",
    "ctx": "documents",
-   "t": "Your UAN, given to the employer when you join"
+   "t": "Name and date of birth of your spouse and of your nominee"
   },
   {
-   "k": "bdde2f220bee",
+   "k": "e2733e127285",
+   "ctx": "documents",
+   "t": "Cash for the first month's contribution if you join at a CSC (later months are auto-debited)"
+  },
+  {
+   "k": "3387520b06b4",
    "ctx": "portalName",
-   "t": "PM Viksit Bharat Rozgar Yojana portal (EPFO)"
+   "t": "Maandhan portal"
   },
   {
-   "k": "7b35012dc011",
+   "k": "dd4a49e699be",
+   "ctx": "value",
+   "t": "Self Enrollment (Using Mobile Number OTP)"
+  },
+  {
+   "k": "5676900f078c",
+   "ctx": "hint",
+   "t": "Choose Self Enrollment. CSC VLE is only for the CSC operator, and Admin Login is for officials."
+  },
+  {
+   "k": "b1d702459399",
    "ctx": "label",
-   "t": "UMANG service"
+   "t": "Mobile"
   },
   {
-   "k": "4a271da5aee8",
-   "ctx": "value",
-   "t": "EPFO > UAN Allotment and Activation"
-  },
-  {
-   "k": "11954d00c462",
+   "k": "04c2630f509e",
    "ctx": "hint",
-   "t": "Open the UMANG app, search for EPFO and choose UAN Allotment and Activation."
+   "t": "A number you always carry. The login OTP and every debit message come to this phone."
   },
   {
-   "k": "e65ac7d90a25",
-   "ctx": "hint",
-   "t": "Your own Aadhaar. The UAN is tied to it for life, so you keep the same UAN in every job."
-  },
-  {
-   "k": "07c9bbc3898e",
-   "ctx": "hint",
-   "t": "The number linked to your Aadhaar; the OTP and later the UAN come here."
-  },
-  {
-   "k": "909d19989084",
-   "ctx": "value",
-   "t": "Ticked"
-  },
-  {
-   "k": "bf4af61c90f3",
-   "ctx": "hint",
-   "t": "You agree to share your Aadhaar details with EPFO."
-  },
-  {
-   "k": "8444696c317c",
-   "ctx": "value",
-   "t": "6-digit OTP from SMS"
-  },
-  {
-   "k": "169035d80c29",
-   "ctx": "hint",
-   "t": "Type the OTP within the time shown on the screen."
-  },
-  {
-   "k": "3f139c23383b",
+   "k": "990897a59f17",
    "ctx": "label",
-   "t": "Face authentication"
+   "t": "Scheme"
   },
   {
-   "k": "db0c7410fe8f",
+   "k": "0b214844d97a",
    "ctx": "value",
-   "t": "Done in AadhaarFaceRD app"
+   "t": "PM-SYM (Pradhan Mantri Shram Yogi Maandhan)"
   },
   {
-   "k": "aa408564c454",
+   "k": "62892a8cd130",
    "ctx": "hint",
-   "t": "Install AadhaarFaceRD from the Play Store first. Look straight at the camera in good light and blink when asked."
+   "t": "Pick PM-SYM. The other choice on the same portal, NPS-Traders, is for shopkeepers and small traders."
   },
   {
-   "k": "fd5226cab3cd",
+   "k": "4fabdbbacf00",
    "ctx": "hint",
-   "t": "Comes by SMS. Give it to your employer's office so your PF and this payment are filed under it."
+   "t": "Your own Aadhaar. After the Aadhaar OTP, your name, date of birth and gender fill in by themselves, so check them."
   },
   {
-   "k": "83410f2e104e",
+   "k": "5ea1f83d38b9",
    "ctx": "label",
-   "t": "Date of joining"
+   "t": "Occupation"
   },
   {
-   "k": "d6d4f0267192",
-   "ctx": "hint",
-   "t": "Filled in by the employer. It must fall between 1 August 2025 and 31 July 2027."
-  },
-  {
-   "k": "214220123b21",
-   "ctx": "label",
-   "t": "Aadhaar-seeded bank account"
-  },
-  {
-   "k": "65beb6f135cf",
+   "k": "98fe8e37b6b7",
    "ctx": "value",
-   "t": "State Bank of India, account ending 9999"
+   "t": "Domestic worker"
   },
   {
-   "k": "911a9909b2f0",
+   "k": "20662bc345c6",
    "ctx": "hint",
-   "t": "The money goes by Aadhaar to the account your Aadhaar is mapped to for DBT, which may not be the account in your PF record."
+   "t": "The work you actually do every day, for example construction labourer, street vendor, rickshaw puller or farm labourer."
   },
   {
-   "k": "e054f6dfb2ae",
+   "k": "ace11ec76c3a",
    "ctx": "label",
-   "t": "Financial literacy course"
+   "t": "Monthly income"
   },
   {
-   "k": "c939374c6186",
+   "k": "5d9fde3147b1",
    "ctx": "value",
-   "t": "Completed on the EPFO portal"
+   "t": "Rs.9,000"
   },
   {
-   "k": "3048c303d9c5",
+   "k": "0f7fe41d3d69",
    "ctx": "hint",
-   "t": "Free and online. It must be done before the second instalment can be paid."
+   "t": "What you earn in a normal month. It must be Rs.15,000 or less."
   },
   {
-   "k": "85cf244aeea4",
+   "k": "4f1c5a669fb9",
+   "ctx": "label",
+   "t": "Bank IFSC and account number"
+  },
+  {
+   "k": "9c6fd6cc19cf",
+   "ctx": "hint",
+   "t": "Your own savings or Jan Dhan account. The monthly amount is auto-debited from here, so keep enough balance."
+  },
+  {
+   "k": "49d36285fa24",
+   "ctx": "label",
+   "t": "Spouse name"
+  },
+  {
+   "k": "36bd8c8439db",
+   "ctx": "hint",
+   "t": "Husband's or wife's name. If you die before 60, your spouse can carry on paying or take the money out."
+  },
+  {
+   "k": "01b498aae767",
+   "ctx": "label",
+   "t": "Nominee name and relation"
+  },
+  {
+   "k": "351347bb6f7b",
+   "ctx": "value",
+   "t": "Pooja Yadav / Daughter"
+  },
+  {
+   "k": "07055797293c",
+   "ctx": "hint",
+   "t": "The person who gets the savings if both you and your spouse die."
+  },
+  {
+   "k": "55d704e09d37",
+   "ctx": "label",
+   "t": "Self-declaration"
+  },
+  {
+   "k": "4eff01af5cae",
+   "ctx": "hint",
+   "t": "You confirm you are not in EPF, ESIC or NPS and do not pay income tax. A false declaration gets the account closed."
+  },
+  {
+   "k": "b2703441f514",
    "ctx": "demoSteps",
-   "t": "On your first job, make your UAN yourself in the UMANG app (EPFO > UAN Allotment and Activation) with Aadhaar, OTP and a face scan, and give the UAN to your employer."
+   "t": "Open the Maandhan login page, choose Self Enrollment and log in with your mobile number and OTP. Or go to a CSC with your Aadhaar and passbook, and the operator enrols you with your fingerprint."
+  },
+  {
+   "k": "80617a64ad17",
+   "ctx": "demoSteps",
+   "t": "Choose PM-SYM, enter your Aadhaar number and verify it with the Aadhaar OTP."
+  },
+  {
+   "k": "19694a4da996",
+   "ctx": "demoSteps",
+   "t": "Fill in your occupation, monthly income, bank account with IFSC, spouse and nominee, and tick the self-declaration."
+  },
+  {
+   "k": "74c26e54f353",
+   "ctx": "demoSteps",
+   "t": "The portal shows your monthly amount for your age: Rs.55 at 18, Rs.100 at 29, Rs.200 at 40. Pay the first month and approve the auto-debit from your bank account."
+  },
+  {
+   "k": "3d1cfb4cf50a",
+   "ctx": "demoSteps",
+   "t": "Your Shram Yogi card with its Shram Yogi Pension Account Number (SPAN) is created. Download and keep it; an SMS confirms the enrolment."
+  },
+  {
+   "k": "504185ddfb0b",
+   "ctx": "demoSteps",
+   "t": "Every month the same amount is auto-debited and the Centre adds an equal amount. Keep money in the account; missed months have to be paid later with a penalty."
+  },
+  {
+   "k": "7dbd33fc7334",
+   "ctx": "demoSteps",
+   "t": "From age 60, Rs.3,000 comes into your bank account every month. If you die after that, your spouse gets Rs.1,500 a month for life."
+  },
+  {
+   "k": "ce37196791bb",
+   "ctx": "helpline",
+   "t": "1800-267-6888 (PM-SYM toll-free) / 14434 (Labour Ministry helpline)"
+  },
+  {
+   "k": "7fa2432e1c28",
+   "ctx": "title",
+   "t": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+  },
+  {
+   "k": "edf9c2901481",
+   "ctx": "department",
+   "t": "Ministry of Women & Child Development (Mission Shakti)"
+  },
+  {
+   "k": "1a912612ab8d",
+   "ctx": "brief",
+   "t": "Cash help for a pregnant woman or new mother, so she can rest before and after the birth instead of losing wages. For the first child you get Rs.5,000 in two parts, and for a second child you get Rs.6,000 in one go if the baby is a girl. The money goes straight into your Aadhaar-linked bank or post office account. You can apply yourself on the PMMVY portal, or your Anganwadi worker or ASHA can fill the form for you."
+  },
+  {
+   "k": "f07067a5e03b",
+   "ctx": "benefit",
+   "t": "Rs.5,000 for the first child (Rs.3,000 + Rs.2,000); Rs.6,000 if the second child is a girl"
+  },
+  {
+   "k": "74a60224e955",
+   "ctx": "eligibility",
+   "t": "Pregnant women and new mothers aged between 18 years 7 months and 55 years when the baby is born"
+  },
+  {
+   "k": "9615c70ec79c",
+   "ctx": "eligibility",
+   "t": "You must fit at least one of these: SC or ST; BPL or NFSA ration card; Ayushman card; e-Shram card; MGNREGA job card; woman farmer getting PM-Kisan; 40% or more disability; family income below Rs.8 lakh a year; pregnant or breastfeeding Anganwadi worker, helper or ASHA"
+  },
+  {
+   "k": "727c768bb35d",
+   "ctx": "eligibility",
+   "t": "Money is given for the first living child, and for the second child only if it is a girl"
+  },
+  {
+   "k": "242cbfbb40b6",
+   "ctx": "eligibility",
+   "t": "You can apply any time from the start of pregnancy up to 270 days after the birth"
+  },
+  {
+   "k": "4867ee57b8bd",
+   "ctx": "eligibility",
+   "t": "Not for women in regular government or PSU jobs who get paid maternity leave"
+  },
+  {
+   "k": "571630769b1e",
+   "ctx": "eligibility",
+   "t": "Not run in Telangana, which has its own maternity scheme. In Odisha it runs jointly with the state's MAMATA scheme as MAMATA-PMMVY (since April 2025), paying Rs.10,000 for a boy and Rs.12,000 for a girl for up to two births; register at your Anganwadi centre"
+  },
+  {
+   "k": "8972c55cfc4e",
+   "ctx": "documents",
+   "t": "Aadhaar card of the woman (the husband's Aadhaar is not needed)"
+  },
+  {
+   "k": "810e66429488",
+   "ctx": "documents",
+   "t": "Bank or post office account linked to Aadhaar for direct payment (DBT)"
+  },
+  {
+   "k": "3d7ff9987b5c",
+   "ctx": "documents",
+   "t": "Mother and Child Protection (MCP) card with the last period (LMP) date and check-up dates"
+  },
+  {
+   "k": "1f9d72c2485a",
+   "ctx": "documents",
+   "t": "One eligibility proof: e-Shram card, ration card, job card, Ayushman card, caste certificate, disability certificate or income certificate"
+  },
+  {
+   "k": "439946e6c4f4",
+   "ctx": "documents",
+   "t": "Mobile number for OTP and payment messages"
+  },
+  {
+   "k": "719b7d5562c2",
+   "ctx": "documents",
+   "t": "For the second part or a second girl child: the baby's birth certificate and vaccination record (14 weeks)"
+  },
+  {
+   "k": "a5328a59b8fa",
+   "ctx": "portalName",
+   "t": "PMMVY portal (PMMVYsoft)"
+  },
+  {
+   "k": "2d7550c0f85f",
+   "ctx": "label",
+   "t": "Login type"
+  },
+  {
+   "k": "343cfd9fa327",
+   "ctx": "value",
+   "t": "Citizen Login"
+  },
+  {
+   "k": "9fb8fcc4c12f",
+   "ctx": "hint",
+   "t": "Press Login at the top right and choose Citizen. Anganwadi and ASHA workers use the other login."
+  },
+  {
+   "k": "c1b7257ddd3a",
+   "ctx": "hint",
+   "t": "A number you keep with you. The OTP comes here now, and later the message when money is sent."
+  },
+  {
+   "k": "44d8999ae372",
+   "ctx": "value",
+   "t": "Uttar Pradesh / Sitapur / Biswan / Rampur Kalan"
+  },
+  {
+   "k": "ba5d9aec0159",
+   "ctx": "hint",
+   "t": "Where you live now. Your application goes to the Anganwadi centre of this village for checking."
+  },
+  {
+   "k": "1cdbfabc6800",
+   "ctx": "label",
+   "t": "Beneficiary Aadhaar number"
+  },
+  {
+   "k": "dbafe1ba10bb",
+   "ctx": "hint",
+   "t": "The pregnant woman's own Aadhaar, not the husband's. Tick the consent box and verify with the Aadhaar OTP."
+  },
+  {
+   "k": "54348242ed54",
+   "ctx": "value",
+   "t": "Pooja Devi"
+  },
+  {
+   "k": "98a46c2ab1a8",
+   "ctx": "hint",
+   "t": "Write the name exactly as printed on Aadhaar, letter by letter, or the payment can fail."
+  },
+  {
+   "k": "94ebc59af0d6",
+   "ctx": "label",
+   "t": "Eligibility document"
+  },
+  {
+   "k": "a9bd8c1b1e5d",
+   "ctx": "value",
+   "t": "e-Shram card / UP99-9999-0012"
+  },
+  {
+   "k": "10570078d0de",
+   "ctx": "hint",
+   "t": "Pick any one category you belong to, write its number and upload a clear photo of that card."
+  },
+  {
+   "k": "85d715db2363",
+   "ctx": "label",
+   "t": "LMP date (last period)"
+  },
+  {
+   "k": "45385986fb36",
+   "ctx": "hint",
+   "t": "The first day of your last period, as written on the MCP card by the ANM."
+  },
+  {
+   "k": "5a4aca7ed9f6",
+   "ctx": "label",
+   "t": "MCP card registration and ANC date"
   }
  ]
 }

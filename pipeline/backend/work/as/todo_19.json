@@ -6,246 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_19.json",
  "items": [
   {
-   "k": "d0bb3fd2d0a1",
-   "ctx": "demoSteps",
-   "t": "At any listed government or private hospital, show the Sehat Card at the help desk. The hospital checks your details digitally and treats you cashless up to Rs 10 lakh a year."
-  },
-  {
-   "k": "e4a46a247a94",
-   "ctx": "helpline",
-   "t": "104 (Sehat Card, hospital and grievance helpline, State Health Agency Punjab)"
-  },
-  {
-   "k": "c8707931c992",
-   "ctx": "title",
-   "t": "Ashirwad Scheme (Shagun for Daughter's Marriage)"
-  },
-  {
-   "k": "7ba0ecd2e2f2",
-   "ctx": "department",
-   "t": "Department of Social Justice, Empowerment & Minorities, Punjab"
-  },
-  {
-   "k": "00fca0c32623",
-   "ctx": "brief",
-   "t": "Rs 51,000 from the Punjab government for the marriage of a daughter from a poor Scheduled Caste, Christian, Backward Class or economically weaker family, or the daughter of a widow of any caste. It was earlier called the Shagun scheme. Since 28 January 2026 applications are taken only at Sewa Kendras, before the wedding or within 60 days after it, and the money goes straight to the bank account."
-  },
-  {
-   "k": "135b8253c8d2",
-   "ctx": "benefit",
-   "t": "Rs 51,000 per daughter, for up to two daughters"
-  },
-  {
-   "k": "65ccbd685d59",
-   "ctx": "eligibility",
-   "t": "Daughters of Scheduled Caste, Christian, Backward Class and economically weaker families, and daughters of widows of any caste. Scheduled Caste widows and divorced women also get it when they remarry"
-  },
-  {
-   "k": "461ad1201256",
-   "ctx": "eligibility",
-   "t": "Family income from all sources must not be more than Rs 32,790 a year"
-  },
-  {
-   "k": "7f8ee7c83a9b",
-   "ctx": "eligibility",
-   "t": "The girl must be at least 18 years old on the wedding day"
-  },
-  {
-   "k": "e58c65d3cefb",
-   "ctx": "eligibility",
-   "t": "Her parents or guardian must be permanent residents of Punjab"
-  },
-  {
-   "k": "5db3e3841de3",
-   "ctx": "eligibility",
-   "t": "Apply before the wedding date or within 60 days after it"
-  },
-  {
-   "k": "6714b60e9c5e",
-   "ctx": "eligibility",
-   "t": "At most two daughters of one family can get the money"
-  },
-  {
-   "k": "065c2120a3e2",
-   "ctx": "documents",
-   "t": "Aadhaar card of the applicant (parent or guardian) and of the bride"
-  },
-  {
-   "k": "4a852d3142e5",
-   "ctx": "documents",
-   "t": "Caste certificate (SC or BC) and proof of address in Punjab"
-  },
-  {
-   "k": "0a0218359bf6",
-   "ctx": "documents",
-   "t": "Proof of the girl's age: birth certificate or school certificate"
-  },
-  {
-   "k": "fa8ec82a170d",
-   "ctx": "documents",
-   "t": "Self-declaration of family income"
-  },
-  {
-   "k": "4cffb4cca0f2",
-   "ctx": "documents",
-   "t": "Bank passbook of the applicant, showing account number and IFSC"
-  },
-  {
-   "k": "35a2220fc298",
-   "ctx": "documents",
-   "t": "Wedding card, and the marriage certificate from the gurdwara, temple, church or other religious place"
-  },
-  {
-   "k": "6e9bcebd3c7b",
-   "ctx": "documents",
-   "t": "Family BPL or blue ration card, if you have one"
-  },
-  {
-   "k": "d1b5b1680a64",
-   "ctx": "documents",
-   "t": "Photos of the applicant, the bride and the groom"
-  },
-  {
-   "k": "dbc23f2dd938",
-   "ctx": "portalName",
-   "t": "Ashirwad Portal (Punjab)"
-  },
-  {
-   "k": "9ee4f6e889fc",
-   "ctx": "submitAt",
-   "t": "Any Sewa Kendra in Punjab. Take a token at the counter, or book a slot first on connect.punjab.gov.in. Since 28 January 2026 Ashirwad applications are accepted only at Sewa Kendras, so do not pay anyone to apply elsewhere. Take the originals and copies of all documents and the photos. There is no fee."
-  },
-  {
-   "k": "0373b60d9a7d",
-   "ctx": "value",
-   "t": "Sukhwinder Kaur"
-  },
-  {
-   "k": "db6f81172f59",
-   "ctx": "hint",
-   "t": "The mother, father or guardian who is applying, as written on Aadhaar. For a widow's daughter, the mother applies."
-  },
-  {
-   "k": "3c9e82b50a91",
-   "ctx": "label",
-   "t": "Relation with the bride"
-  },
-  {
-   "k": "4895cd64a1dd",
-   "ctx": "hint",
-   "t": "How the applicant is related to the girl getting married."
-  },
-  {
-   "k": "53c6505c14e7",
-   "ctx": "label",
-   "t": "Applicant's Aadhaar number"
-  },
-  {
-   "k": "d9da31404a1a",
-   "ctx": "hint",
-   "t": "The 12 digits on the applicant's own Aadhaar card."
-  },
-  {
-   "k": "1d52003972a4",
-   "ctx": "hint",
-   "t": "SC, Christian, BC, economically weaker, or daughter of a widow. It decides which certificate is checked."
-  },
-  {
-   "k": "4321df36bb63",
-   "ctx": "value",
-   "t": "Rs 30,000"
-  },
-  {
-   "k": "de363c434352",
-   "ctx": "hint",
-   "t": "Everyone's earnings in the family for a full year. Above Rs 32,790 the file is rejected."
-  },
-  {
-   "k": "dd7a4a8d3b11",
-   "ctx": "label",
-   "t": "Bride's name and date of birth"
-  },
-  {
-   "k": "c0fab5620bb9",
-   "ctx": "value",
-   "t": "Simranjit Kaur / 14-03-2003"
-  },
-  {
-   "k": "bb2f6c69c000",
-   "ctx": "hint",
-   "t": "Must match her birth or school certificate. She must be 18 or older on the wedding day."
-  },
-  {
-   "k": "42b740795bc5",
-   "ctx": "hint",
-   "t": "Apply before this date or within 60 days after it. Later applications are not taken."
-  },
-  {
-   "k": "fb6678c6a7d9",
-   "ctx": "label",
-   "t": "Groom's name and address"
-  },
-  {
-   "k": "737da5f14bd1",
-   "ctx": "value",
-   "t": "Jaspreet Singh, Village Bhaini Kalan, Ludhiana"
-  },
-  {
-   "k": "4e3d3bcccadc",
-   "ctx": "hint",
-   "t": "As printed on the wedding card."
-  },
-  {
-   "k": "a687ab4aff07",
-   "ctx": "hint",
-   "t": "An account in the applicant's own name, linked to Aadhaar. The Rs 51,000 is sent here."
-  },
-  {
-   "k": "0b347e3c691f",
-   "ctx": "hint",
-   "t": "Updates on the application and the payment SMS come to this number."
-  },
-  {
-   "k": "163560f93167",
-   "ctx": "demoSteps",
-   "t": "Collect all the documents and photos. Get the caste certificate and the income self-declaration ready before the wedding."
-  },
-  {
-   "k": "e3f235cfd87d",
-   "ctx": "demoSteps",
-   "t": "Go to the nearest Sewa Kendra, take a token and ask for the Ashirwad Scheme. The operator fills in the application and scans your documents."
-  },
-  {
-   "k": "96dcb0610fc1",
-   "ctx": "demoSteps",
-   "t": "Keep the receipt with the application number. Track it on connect.punjab.gov.in under Track, or by calling 1100."
-  },
-  {
-   "k": "4b55c9ae8996",
-   "ctx": "demoSteps",
-   "t": "The Tehsil and District Welfare Officers check the papers, and the district committee headed by the Deputy Commissioner approves it. The service time is about 47 days."
-  },
-  {
-   "k": "a37b156f3a39",
-   "ctx": "demoSteps",
-   "t": "After sanction, Rs 51,000 is sent by DBT straight into the applicant's bank account, and an SMS comes when it is credited."
-  },
-  {
-   "k": "e061f2cfb118",
-   "ctx": "helpline",
-   "t": "1100 (Punjab Sewa Kendra and Connect helpline) / District and Tehsil Welfare Officer (list under Contact Details on ashirwad.punjab.gov.in)"
-  },
-  {
-   "k": "7115aff917a4",
-   "ctx": "title",
-   "t": "Old Age Pension Scheme (Budhapa Pension)"
-  },
-  {
-   "k": "d406307ae0eb",
-   "ctx": "department",
-   "t": "Department of Social Security and Women & Child Development, Punjab"
-  },
-  {
    "k": "96addbef88f6",
    "ctx": "brief",
    "t": "A pension of Rs 1,500 every month for women aged 58 and above and men aged 65 and above in Punjab whose income is low. The money is paid into the pensioner's bank account. You can apply online on Connect Punjab, at any Sewa Kendra, or by calling 1076 for an operator to come home. There is no fee and no paper form."
@@ -1174,6 +934,216 @@
    "k": "0baaee03e544",
    "ctx": "label",
    "t": "Gender and mobile number"
+  },
+  {
+   "k": "0e1e82b88d02",
+   "ctx": "value",
+   "t": "Male / 90000 31862"
+  },
+  {
+   "k": "d257c41d1020",
+   "ctx": "hint",
+   "t": "Approval and payment messages come to this number."
+  },
+  {
+   "k": "36591490c615",
+   "ctx": "label",
+   "t": "Present address — district, block, gram panchayat, village"
+  },
+  {
+   "k": "5ed0168ce3db",
+   "ctx": "value",
+   "t": "Bhilwara / Mandal / Bhagwanpura / Bhagwanpura"
+  },
+  {
+   "k": "3e8d7dc669a2",
+   "ctx": "hint",
+   "t": "Where you live now. Your labour office is chosen from this."
+  },
+  {
+   "k": "bbe6eb6c2f87",
+   "ctx": "label",
+   "t": "Category, date of birth, marital status"
+  },
+  {
+   "k": "0b5534d81acb",
+   "ctx": "value",
+   "t": "OBC / 12-07-1988 / Married"
+  },
+  {
+   "k": "3152fcfaa960",
+   "ctx": "hint",
+   "t": "You must be between 18 and 60. Age is worked out from the date of birth."
+  },
+  {
+   "k": "e2ea06fea766",
+   "ctx": "hint",
+   "t": "Your own 12-digit Aadhaar."
+  },
+  {
+   "k": "91b038a8b604",
+   "ctx": "label",
+   "t": "Construction worker certificate issued by"
+  },
+  {
+   "k": "504c80f1a811",
+   "ctx": "value",
+   "t": "Employer / contractor — Shree Ganesh Builders, Bhilwara"
+  },
+  {
+   "k": "1565b1049819",
+   "ctx": "hint",
+   "t": "Choose who signed your 90-day certificate and fill in their name, address and Aadhaar."
+  },
+  {
+   "k": "1d4ee476389f",
+   "ctx": "label",
+   "t": "Employers in the last 12 months (site, work, days)"
+  },
+  {
+   "k": "fbe0353305c6",
+   "ctx": "value",
+   "t": "Housing site, Pur Road — mason — 140 days"
+  },
+  {
+   "k": "f32b545e961b",
+   "ctx": "hint",
+   "t": "List every site, the work you did and the days worked. The total must be at least 90."
+  },
+  {
+   "k": "7dc477c5f1b4",
+   "ctx": "value",
+   "t": "Geeta Devi, wife, 34, 100%"
+  },
+  {
+   "k": "f678c6f0307c",
+   "ctx": "hint",
+   "t": "Up to three nominees. They receive the money if something happens to you."
+  },
+  {
+   "k": "9cb199dd7c9e",
+   "ctx": "demoSteps",
+   "t": "Get the 90-day construction worker certificate signed and sealed by your contractor, a registered union, the Panchayat executive officer or the labour inspector."
+  },
+  {
+   "k": "783c3c4106a7",
+   "ctx": "demoSteps",
+   "t": "Log in at sso.rajasthan.gov.in (make a free SSO ID with Jan Aadhaar if needed) and open LDMS, or go to an e-Mitra kiosk."
+  },
+  {
+   "k": "d42bdc70633d",
+   "ctx": "demoSteps",
+   "t": "In LDMS choose BOCW Welfare Board, then Beneficiary Registration, and fill in Form V: your details, address, employers of the last 12 months, family and nominee."
+  },
+  {
+   "k": "1e4d3cb1a23b",
+   "ctx": "demoSteps",
+   "t": "Upload the photo, age proof and worker certificate, choose your labour office, tick the declaration and submit. Save the application number."
+  },
+  {
+   "k": "78ea13cc0798",
+   "ctx": "demoSteps",
+   "t": "The labour office checks the form. If it asks for a missing paper, upload it from the same login. When approved, it asks you to pay the Rs 25 registration fee and Rs 60 contribution online or at e-Mitra."
+  },
+  {
+   "k": "b549316071cc",
+   "ctx": "demoSteps",
+   "t": "After payment, print your beneficiary identity card (shramik card) from Print Identity Card in LDMS."
+  },
+  {
+   "k": "f8886fe4a73f",
+   "ctx": "demoSteps",
+   "t": "Apply for schemes from Apply for Scheme in the same login, for example maternity help within 90 days of the delivery. Keep the contribution paid so claims are not refused."
+  },
+  {
+   "k": "069e85463875",
+   "ctx": "helpline",
+   "t": "1800-1800-999 — Labour Department helpline; 0141-2222961 / 0141-2220334 — construction worker schemes; 0141-2450793 — LDMS help"
+  },
+  {
+   "k": "13a435cfb30d",
+   "ctx": "title",
+   "t": "Mukhyamantri Ayushman Arogya Yojana (MAA Card)"
+  },
+  {
+   "k": "8172d98a1657",
+   "ctx": "department",
+   "t": "Medical, Health & Family Welfare Department — Rajasthan State Health Assurance Agency (RSHAA), Government of Rajasthan"
+  },
+  {
+   "k": "2f73b2c56e01",
+   "ctx": "brief",
+   "t": "Rajasthan's own health cover, earlier called the Chiranjeevi Yojana and renamed MAA Yojana in 2024. A covered family gets cashless treatment of up to Rs 25 lakh a year when admitted to a government hospital or an empanelled private hospital, with no limit on family size or age. NFSA and SECC families, small and marginal farmers and government contract workers are covered free; any other family that is not a government employee or pensioner can join by paying Rs 850 a year."
+  },
+  {
+   "k": "64bf35ee064d",
+   "ctx": "benefit",
+   "t": "Cashless hospital treatment up to Rs 25 lakh per family per year"
+  },
+  {
+   "k": "70810847afee",
+   "ctx": "eligibility",
+   "t": "Family living in Rajasthan with a Jan Aadhaar card; every member listed on the Jan Aadhaar is covered"
+  },
+  {
+   "k": "b10f50191a77",
+   "ctx": "eligibility",
+   "t": "Free, no registration needed: families under the Food Security Act (NFSA) and SECC 2011 families"
+  },
+  {
+   "k": "c20fd156c69b",
+   "ctx": "eligibility",
+   "t": "Free after registration: small and marginal farmers, contract workers of state departments, boards and corporations, and destitute families who got the Covid-19 ex-gratia"
+  },
+  {
+   "k": "40fee8e8e5fe",
+   "ctx": "eligibility",
+   "t": "All other families can join by paying Rs 850 a year, half the premium; the state pays the other half"
+  },
+  {
+   "k": "3926224fd3d0",
+   "ctx": "eligibility",
+   "t": "Not for government employees or pensioners who get medical benefits under the Medical Attendance Rules"
+  },
+  {
+   "k": "7d965a15c8e5",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age; a baby up to one year old is treated even before its name is on the Jan Aadhaar"
+  },
+  {
+   "k": "cafacb7eb2a6",
+   "ctx": "documents",
+   "t": "Jan Aadhaar card, Jan Aadhaar number or Jan Aadhaar enrolment receipt number"
+  },
+  {
+   "k": "3fd6df7ddf81",
+   "ctx": "documents",
+   "t": "Aadhaar number of the member who registers, with the mobile number linked to it for the OTP"
+  },
+  {
+   "k": "9e60ed47d7f8",
+   "ctx": "documents",
+   "t": "Land holding seeded in the Jan Aadhaar, for small and marginal farmers (done at e-Mitra)"
+  },
+  {
+   "k": "e107bb8ba6c6",
+   "ctx": "documents",
+   "t": "Department verification by the nodal officer, for contract workers"
+  },
+  {
+   "k": "805c24e4def8",
+   "ctx": "documents",
+   "t": "Rs 850 premium, only for families in the paid category"
+  },
+  {
+   "k": "a80203e6e647",
+   "ctx": "documents",
+   "t": "At the hospital: Jan Aadhaar card or the MAA policy document, and the patient's Aadhaar card"
+  },
+  {
+   "k": "04223e268148",
+   "ctx": "portalName",
+   "t": "Mukhyamantri Ayushman Arogya Yojana portal (through SSO Rajasthan)"
   }
  ]
 }

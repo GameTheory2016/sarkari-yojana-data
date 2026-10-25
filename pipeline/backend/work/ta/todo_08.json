@@ -6,924 +6,864 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ta/done_08.json",
  "items": [
   {
-   "k": "243798532f76",
-   "ctx": "brief",
-   "t": "When floods, heavy rain, drought or hail destroy more than a third of a crop, Bihar pays farmers in the notified panchayats an input subsidy for each hectare lost, straight into the bank. To get this, or any other farm subsidy such as diesel, seed or machines, a farmer first registers once on the DBT Agriculture portal and gets a 13-digit registration number. The latest round, for crops lost in the floods of August and September 2026, took applications in October 2026; a new round opens after each notified disaster, usually for about a week."
-  },
-  {
-   "k": "5a8e0cf3b720",
-   "ctx": "benefit",
-   "t": "Rs 8,500 a hectare (rain-fed), Rs 17,000 (irrigated), Rs 22,500 (perennial crops), up to 2 hectares"
-  },
-  {
-   "k": "d115c635e40d",
-   "ctx": "eligibility",
-   "t": "Your land is in a panchayat notified as affected for that round; the list of panchayats is published on the portal"
-  },
-  {
-   "k": "2e688b0099b6",
-   "ctx": "eligibility",
-   "t": "More than 33 per cent of the crop was lost because of the notified flood, heavy rain, drought or hail"
-  },
-  {
-   "k": "515cc7e8b74a",
-   "ctx": "eligibility",
-   "t": "Registered on the DBT Agriculture portal, with a bank account linked to Aadhaar and NPCI"
-  },
-  {
-   "k": "29d8f5ae1bfa",
-   "ctx": "eligibility",
-   "t": "Landowners, tenant or sharecropping farmers (vastavik khetihar), or both may apply, but only one person is paid for one field"
-  },
-  {
-   "k": "4c1451539de5",
-   "ctx": "eligibility",
-   "t": "One application per family (husband, wife and minor children), paid for at most 2 hectares (494 decimal); the least paid is Rs 1,000, Rs 2,000 or Rs 2,500 depending on the land type"
-  },
-  {
-   "k": "a7c1c7298029",
-   "ctx": "eligibility",
-   "t": "A farmer found burning straw (parali) in the field is refused"
-  },
-  {
-   "k": "b96ccfd48b12",
-   "ctx": "documents",
-   "t": "Aadhaar card, checked by OTP, fingerprint or iris during registration"
-  },
-  {
-   "k": "070e06d94c37",
-   "ctx": "documents",
-   "t": "Bank passbook of an account linked to Aadhaar and NPCI"
-  },
-  {
-   "k": "3324bd9ff839",
-   "ctx": "documents",
-   "t": "For landowners: rent receipt (lagan rasid) of 2023-24, 2024-25 or 2025-26, or a recent LPC; a family tree (vanshavali) is not accepted"
-  },
-  {
-   "k": "075ea00955a0",
-   "ctx": "documents",
-   "t": "For tenant farmers: the self-declaration form certified jointly by the ward member, mukhiya or sarpanch and the Krishi Samanvayak"
-  },
-  {
-   "k": "475f55d2985b",
-   "ctx": "documents",
-   "t": "Thana, khata and khesra numbers of the damaged field and the names of two neighbouring farmers"
-  },
-  {
-   "k": "5c0543c831a2",
-   "ctx": "label",
-   "t": "Choose Authentication Type"
-  },
-  {
-   "k": "1bfa3b408577",
+   "k": "0bab9a729e6c",
    "ctx": "hint",
-   "t": "Choose OTP if your mobile is linked to Aadhaar. Otherwise choose Bio-Auth or Iris and get it done at a CSC or the block agriculture office."
+   "t": "You can also search by family, name or PMJAY ID. If nothing comes up, check at the ration shop that your name is on the NFSA slip."
   },
   {
-   "k": "1f65e21d818d",
-   "ctx": "label",
-   "t": "Aadhaar number and name as on Aadhaar"
+   "k": "997444d5a4b4",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face with the phone camera."
   },
   {
-   "k": "c99ece6c74fb",
+   "k": "4d980bd2b278",
+   "ctx": "hint",
+   "t": "How this member is related to the person named first in the family record."
+  },
+  {
+   "k": "243716a57346",
    "ctx": "value",
-   "t": "9999 6021 8473 / Rajendra Prasad Yadav"
+   "t": "Sehore / 466001"
   },
   {
-   "k": "b96e6c009ca3",
+   "k": "594a820f296b",
    "ctx": "hint",
-   "t": "The name must match Aadhaar letter for letter, or authentication fails."
+   "t": "Where you live now, so the nearest empanelled hospitals are shown."
   },
   {
-   "k": "b26e6e6a57d3",
-   "ctx": "label",
-   "t": "Have you taken a Kisan Credit Card? (KCC)"
-  },
-  {
-   "k": "38f3995ab9da",
-   "ctx": "hint",
-   "t": "Answer Yes only if you hold a KCC; then its details are asked."
-  },
-  {
-   "k": "21310f12485a",
-   "ctx": "label",
-   "t": "District / block / panchayat / village"
-  },
-  {
-   "k": "de991bab3148",
-   "ctx": "value",
-   "t": "Khagaria / Gogri / Pasraha / Pasraha"
-  },
-  {
-   "k": "fe42958ddbc5",
-   "ctx": "hint",
-   "t": "Where your land is. Only farmers of the notified panchayats can claim the input subsidy."
-  },
-  {
-   "k": "b3b26278140a",
-   "ctx": "hint",
-   "t": "An Aadhaar-linked account. The portal warns that a wrong account number blocks your registration, so copy it from the passbook."
-  },
-  {
-   "k": "8f02ecd462e1",
-   "ctx": "label",
-   "t": "Registration number (13 digits)"
-  },
-  {
-   "k": "9ff67d42ec85",
-   "ctx": "hint",
-   "t": "The number you got after registering. Enter it on the Krishi Input Anudan form and your details appear by themselves."
-  },
-  {
-   "k": "292d4a603f99",
-   "ctx": "label",
-   "t": "Farmer type (Kisan ka prakar)"
-  },
-  {
-   "k": "923ee8efd1ec",
-   "ctx": "value",
-   "t": "Swayam bhudhari + Vastavik khetihar"
-  },
-  {
-   "k": "d1813acedf60",
-   "ctx": "hint",
-   "t": "Own land, land taken on rent or share, or both. You can apply under only one type."
-  },
-  {
-   "k": "6fe018ec4507",
-   "ctx": "value",
-   "t": "Thana 214 / Khata 57 / Khesra 1123"
-  },
-  {
-   "k": "2a75eb23eed7",
-   "ctx": "hint",
-   "t": "Copy them from your rent receipt or LPC."
-  },
-  {
-   "k": "da0e81dd1a11",
-   "ctx": "label",
-   "t": "Total land and damaged area (in decimal)"
-  },
-  {
-   "k": "e6823367d204",
-   "ctx": "value",
-   "t": "Total 180 decimal; damaged 150 decimal (maize)"
-  },
-  {
-   "k": "3982d9707906",
-   "ctx": "hint",
-   "t": "1 acre is 100 decimal and 1 hectare is 247 decimal. The subsidy is paid for at most 494 decimal."
-  },
-  {
-   "k": "d3dfc8fd09cc",
-   "ctx": "value",
-   "t": "Shivnandan Singh, Mahesh Paswan"
-  },
-  {
-   "k": "ee0b73b0de02",
-   "ctx": "hint",
-   "t": "Names of farmers whose fields touch yours. The Krishi Samanvayak may ask them about your crop."
-  },
-  {
-   "k": "30276783dc97",
+   "k": "bd09f950f181",
    "ctx": "demoSteps",
-   "t": "Register once: open dbtagriculture.bihar.gov.in, click Kisan Panjikaran, verify your Aadhaar, fill in your farmer, land and bank details and note the 13-digit registration number. The block agriculture office (e-Kisan Bhawan) does it free; a CSC or Vasudha Kendra can also do it."
+   "t": "Check whether your family is listed: on beneficiary.nha.gov.in or the Ayushman app, or ask at the ration shop, gram panchayat or ASHA worker. If you have an NFSA food-grain slip, you should qualify."
   },
   {
-   "k": "9c943f96fc9e",
+   "k": "c750f13a484a",
    "ctx": "demoSteps",
-   "t": "After a flood or drought, check the panchayat list on the portal. If your panchayat is listed, open Krishi Input Anudan under online services within the dates shown, usually about a week."
+   "t": "Log in as Beneficiary with your mobile number and OTP, choose PMJAY and Madhya Pradesh, and search for your family by Aadhaar."
   },
   {
-   "k": "79e8fceb68f8",
+   "k": "cef1e7317b02",
    "ctx": "demoSteps",
-   "t": "Enter the 13-digit number, choose your farmer type, fill in the total and damaged land in decimal, the thana-khata-khesra numbers and two neighbours' names, enter the captcha and the OTP, upload the rent receipt, LPC or certified self-declaration, and submit. The application number comes by SMS."
+   "t": "Pick the member marked eKYC pending, verify with Aadhaar OTP or face scan, take the live photo, and fill in the relation, district and PIN code. Submit."
   },
   {
-   "k": "f2647a396e30",
+   "k": "328fa7f5c492",
    "ctx": "demoSteps",
-   "t": "The Krishi Samanvayak visits the field within 2 to 4 days, photographs the plot and forwards or rejects the claim with a reason. The sub-divisional and district agriculture officers and the district disaster officer then approve it."
+   "t": "The State Health Agency usually approves within a day or two. Log in again and download the card. It is also made free at a Lok Seva Kendra, CSC, government hospital or Aapke Dwar Niramayam camp."
   },
   {
-   "k": "ed1d3d6208c9",
+   "k": "5b1e02702dd5",
    "ctx": "demoSteps",
-   "t": "The approved amount is paid into your Aadhaar-linked bank account by DBT and an SMS tells you. Use Print and Status on the portal with your registration number to follow it."
+   "t": "At the hospital, go to the Ayushman Mitra desk with the card or Aadhaar. Treatment listed under the scheme is cashless up to Rs 5 lakh a year. Find empanelled hospitals at hem.nha.gov.in."
   },
   {
-   "k": "46c6ad54552f",
+   "k": "0b14db19a6d6",
+   "ctx": "demoSteps",
+   "t": "If any hospital asks you for money for a covered treatment, call 14555 or the CM Helpline 181."
+  },
+  {
+   "k": "48c21ade3057",
+   "ctx": "helpline",
+   "t": "14555 (Ayushman Bharat MP helpline), 1800-233-2085 (Ayushman Bharat), CM Helpline 181"
+  },
+  {
+   "k": "0a40dcadaa65",
    "ctx": "title",
-   "t": "Bihar Building Workers Registration (BOCW Labour Card)"
+   "t": "Mukhyamantri Ladli Laxmi Yojana (Ladli Laxmi 2.0)"
   },
   {
-   "k": "9b6c41438835",
+   "k": "9d4ef095368f",
    "ctx": "department",
-   "t": "Bihar Building & Other Construction Workers Welfare Board, Labour Resources Department, Government of Bihar"
+   "t": "Department of Women and Child Development, Madhya Pradesh"
   },
   {
-   "k": "082d0ddc62c5",
+   "k": "51ec81a32eda",
    "ctx": "brief",
-   "t": "Masons, labourers, carpenters, painters, plumbers and other construction workers who register with the Bihar BOCW Welfare Board get a labour card that opens more than a dozen benefits: Rs 50,000 for a daughter's marriage, maternity and paternity money, a bicycle grant, help with children's studies, Rs 3,000 a year for medical costs, a Rs 1,000 monthly pension at 60, and Rs 2 to 4 lakh to the family if the worker dies. Registration is done online with Aadhaar on the board's portal, or at a CSC or the block labour office. The fee is small: Rs 20 for registration plus the membership fee, Rs 50 in all for five years."
+   "t": "When a girl is born in Madhya Pradesh and registered under this scheme, the state issues a certificate in her name promising Rs 1,43,000 in stages. She gets scholarships when she joins classes 6, 9, 11 and 12, Rs 25,000 when she joins college, and Rs 1 lakh at age 21. The state also pays her college tuition fees. Parents should apply within one year of her birth, either online themselves or through the anganwadi."
   },
   {
-   "k": "52b93070830f",
+   "k": "3caf2e9a431c",
    "ctx": "benefit",
-   "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
+   "t": "Rs 1,43,000 in stages: Rs 18,000 school scholarships, Rs 25,000 for college, Rs 1 lakh at 21"
   },
   {
-   "k": "03cbf1accd4d",
+   "k": "626af5acf94b",
    "ctx": "eligibility",
-   "t": "Aged 18 to 60 years"
+   "t": "Girl born on or after 1 January 2006 and registered at the local anganwadi centre"
   },
   {
-   "k": "b098fbf81018",
+   "k": "bdafb564451b",
    "ctx": "eligibility",
-   "t": "Worked at least 90 days in building or other construction work in the last 12 months"
+   "t": "Parents are original residents of Madhya Pradesh and do not pay income tax"
   },
   {
-   "k": "7d29b166ca4e",
+   "k": "a0f00fdf853b",
    "ctx": "eligibility",
-   "t": "The 90 days are certified by the employer or contractor, the Labour Enforcement Officer, a registered trade union officer, or your own self-declaration"
+   "t": "Parents have two children or fewer. The first girl qualifies without any condition. For the second girl, the mother or father must have adopted family planning after the second child"
   },
   {
-   "k": "1468a4984691",
+   "k": "75decab37e35",
    "ctx": "eligibility",
-   "t": "Not registered with any other labour welfare board"
+   "t": "Apply within one year of the girl's birth. Late cases, orphans, adopted girls and girls who have lost a parent can be registered up to age 5 as special cases"
   },
   {
-   "k": "0ed70605f2c4",
+   "k": "617f7be41e39",
    "ctx": "eligibility",
-   "t": "Most benefits need some time as a member: 1 year for maternity, bicycle and study help; 3 years for marriage help and house repair; 5 years for the pension"
+   "t": "The final Rs 1 lakh is paid only if she has appeared for the class 12 exam and was not married before 18"
   },
   {
-   "k": "524abd6d60af",
-   "ctx": "eligibility",
-   "t": "Keep the membership renewed; benefits stop while it has lapsed"
-  },
-  {
-   "k": "225529b5d75f",
+   "k": "0425d1a52072",
    "ctx": "documents",
-   "t": "Aadhaar card, checked by OTP"
+   "t": "Samagra family ID, with the girl added as a member and her 9-digit Samagra member ID"
   },
   {
-   "k": "6bb8f35876db",
+   "k": "098b0c9c9def",
    "ctx": "documents",
-   "t": "Recent photograph"
+   "t": "Photo of the girl with her mother or father (JPG or PNG, 40 to 200 KB)"
   },
   {
-   "k": "19fc14c3f01e",
+   "k": "8386489259d8",
    "ctx": "documents",
-   "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
+   "t": "Family planning (sterilisation) certificate, if this is the second girl"
   },
   {
-   "k": "ba5b6ec96ec9",
+   "k": "336416bed3a3",
    "ctx": "documents",
-   "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
+   "t": "Aadhaar card of the mother or father, with e-KYC done in Samagra"
   },
   {
-   "k": "0ddd86465050",
+   "k": "28f11626dce6",
    "ctx": "portalName",
-   "t": "Bihar BOCW Welfare Board portal (BiharWMS)"
+   "t": "Mukhyamantri Ladli Laxmi Yojana portal"
   },
   {
-   "k": "b1cb80f00c7a",
-   "ctx": "hint",
-   "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
+   "k": "9ea1c2c296ce",
+   "ctx": "label",
+   "t": "Case type (प्रकरण का प्रकार)"
   },
   {
-   "k": "65676032b1e1",
+   "k": "488d1fd31b60",
    "ctx": "value",
-   "t": "Manoj Kumar Ram"
+   "t": "Normal (सामान्य)"
   },
   {
-   "k": "9e8a4f513145",
+   "k": "a1a8cda659cd",
    "ctx": "hint",
-   "t": "Exactly as printed on your Aadhaar card."
+   "t": "Choose Normal for a girl under one year old. Choose Special only for a delay of more than a year, an orphan or adopted girl, or a girl whose mother or father has died."
   },
   {
-   "k": "a18c796d89c1",
-   "ctx": "label",
-   "t": "Mobile Number (with OTP verification)"
-  },
-  {
-   "k": "6b31a79771e7",
+   "k": "0ba1fd4c47f1",
    "ctx": "hint",
-   "t": "Your own number. The registration number and every update come here by SMS."
+   "t": "A phone you keep with you. The OTP comes here now, and the messages about approval and payments come here later."
   },
   {
-   "k": "2cfc793a20c3",
+   "k": "b363a1db7d6d",
+   "ctx": "hint",
+   "t": "Type the code within a few minutes. If it expires, ask for a new OTP."
+  },
+  {
+   "k": "423e9ca3d9f9",
    "ctx": "label",
-   "t": "Area / District"
+   "t": "Girl's Samagra member ID"
   },
   {
-   "k": "87701531c352",
+   "k": "3a9513ddb9b6",
+   "ctx": "hint",
+   "t": "The baby's own 9-digit number. If she has not been added to the family Samagra yet, get that done at the gram panchayat or ward office first."
+  },
+  {
+   "k": "7c5333f2906f",
+   "ctx": "label",
+   "t": "Family Samagra ID"
+  },
+  {
+   "k": "a4351f2e1201",
+   "ctx": "hint",
+   "t": "The 8-digit family number printed on the Samagra slip or card."
+  },
+  {
+   "k": "263f7c423f41",
+   "ctx": "label",
+   "t": "Girl's name and date of birth"
+  },
+  {
+   "k": "ab027f532ebd",
    "ctx": "value",
-   "t": "RURAL / Nalanda"
+   "t": "Kavya Yadav, 14/03/2026"
   },
   {
-   "k": "1bf4f0b824c2",
+   "k": "3e58c4fa3f7d",
    "ctx": "hint",
-   "t": "Choose Rural or Urban and the district where you live."
+   "t": "These come from Samagra. If anything is wrong, have Samagra corrected first, because the form takes the details from there."
   },
   {
-   "k": "809d2fd7743a",
-   "ctx": "label",
-   "t": "Mother Name / Marital Status / Category"
-  },
-  {
-   "k": "687d0df27563",
+   "k": "ede9035dc3a4",
    "ctx": "value",
-   "t": "Shanti Devi / Married / EBC"
+   "t": "Anganwadi Kendra 2, Khajuri Kalan"
   },
   {
-   "k": "fe742f5abd13",
+   "k": "57196c10d3ac",
    "ctx": "hint",
-   "t": "Your mother's name, whether you are single or married, and your caste category."
+   "t": "The centre where the girl is registered. The anganwadi worker there checks your application."
   },
   {
-   "k": "c7a8e9e07f63",
+   "k": "de46243a2d65",
    "ctx": "label",
-   "t": "Educational Qualifications"
+   "t": "Number of children"
   },
   {
-   "k": "b4762551e06f",
+   "k": "f8a8b14f27e1",
    "ctx": "value",
-   "t": "Matric Fail"
+   "t": "2 (second daughter)"
   },
   {
-   "k": "462cdf27b23e",
+   "k": "d05f15e1f812",
    "ctx": "hint",
-   "t": "Choose the nearest: literate, matric fail, matric pass and so on."
+   "t": "Count all living children. If this is the second child, family planning details are needed."
   },
   {
-   "k": "8e51af0dc16b",
-   "ctx": "hint",
-   "t": "Copy it from your ration card."
-  },
-  {
-   "k": "176501039da7",
+   "k": "1726f6f8983b",
    "ctx": "label",
-   "t": "Whether registered under any other labour welfare board"
+   "t": "Family planning adopted"
   },
   {
-   "k": "a56d0d3cb657",
-   "ctx": "hint",
-   "t": "Answer truthfully. A worker on another board cannot register here."
-  },
-  {
-   "k": "c240d1d9b9ce",
-   "ctx": "label",
-   "t": "Employer details (last 12 months)"
-  },
-  {
-   "k": "267028e8f709",
+   "k": "eb40a0e702ce",
    "ctx": "value",
-   "t": "Shri Ram Construction, Biharsharif / 05-11-2025 to 30-04-2026 / 160 days / Mason (Rajmistri)"
+   "t": "Yes, mother, 02/05/2026"
   },
   {
-   "k": "03f860dfde43",
+   "k": "ddf315fdb1a3",
    "ctx": "hint",
-   "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
+   "t": "Needed for the second girl. Upload the certificate from the hospital where the operation was done."
   },
   {
-   "k": "3db18476497a",
+   "k": "958e740d9834",
    "ctx": "label",
-   "t": "Certifying Authority"
+   "t": "Photo of girl with parent"
   },
   {
-   "k": "c978e679ac1a",
-   "ctx": "value",
-   "t": "Self Declaration"
-  },
-  {
-   "k": "3ebe09aa598a",
+   "k": "3a3253d46fcb",
    "ctx": "hint",
-   "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
+   "t": "A clear photo of the baby with her mother or father. Only JPG, JPEG, PNG or GIF, between 40 KB and 200 KB."
   },
   {
-   "k": "6c92a04d1766",
+   "k": "c0fcf8f9b254",
    "ctx": "demoSteps",
-   "t": "Open bocwscheme.bihar.gov.in, click Labour Registration, enter your Aadhaar number and name and authenticate with the OTP. If your mobile is not linked to Aadhaar, a CSC or the block Labour Enforcement Officer can do it with your fingerprint."
+   "t": "Get the baby added to your family Samagra ID with e-KYC, at the gram panchayat or ward office or on samagra.gov.in, and register her at the anganwadi."
   },
   {
-   "k": "0ac03082fd62",
+   "k": "305a2352ff7f",
    "ctx": "demoSteps",
-   "t": "Verify your mobile number with OTP and fill in your personal details: area, district, mother's name, marital status, category, education and ration card number."
+   "t": "Open ladlilaxmi.mp.gov.in and tap Apply (आवेदन करें). Read the eligibility, then tick the self-declarations. The anganwadi worker, a Lok Seva Kendra or an MPOnline kiosk can also do this for you."
   },
   {
-   "k": "f0d042a396cb",
+   "k": "da40fe94326c",
    "ctx": "demoSteps",
-   "t": "Add the employers you worked for in the last 12 months (at least 90 days in all), choose the certifying authority and upload the certificate or self-declaration."
+   "t": "Choose Normal case, enter your mobile number and the OTP, and tap Proceed. Fill in the Samagra IDs, check the details, upload the photo and submit. Note the application number."
   },
   {
-   "k": "4f34a906fbf4",
+   "k": "e5f2cb2aca7f",
    "ctx": "demoSteps",
-   "t": "Add family members and choose a nominee with a share, upload your photo, pay the fee online, then Preview and Submit. Note the application number."
+   "t": "The anganwadi supervisor checks the case and the Project Officer (CDPO) of Women and Child Development approves it."
   },
   {
-   "k": "99a7422cc860",
+   "k": "f330fc2fa1f2",
    "ctx": "demoSteps",
-   "t": "The Labour Enforcement Officer checks and approves the application, and the registration number comes by SMS. Log in with that number and your year of birth to download the labour card and fee receipt."
+   "t": "Download the Rs 1,43,000 assurance certificate from the Certificate (प्रमाण पत्र) link on the home page. Keep it safely with her birth certificate."
   },
   {
-   "k": "d5aa301a23f1",
+   "k": "22de8b22adde",
    "ctx": "demoSteps",
-   "t": "To claim a benefit later, log in as Labour, choose the scheme, fill in the details and upload the proof (marriage card, birth certificate, mark sheet and so on). Approved money comes to your bank account. Renew the membership before it runs out."
+   "t": "When she joins classes 6, 9, 11 and 12, the scholarship of Rs 2,000, Rs 4,000, Rs 6,000 and Rs 6,000 is paid after the school records her admission. Keep her Samagra and bank details up to date."
   },
   {
-   "k": "58a09107e18e",
+   "k": "b857e9be3cd1",
+   "ctx": "demoSteps",
+   "t": "After class 12, when she joins a college or professional course of at least two years, apply under the graduation incentive link (प्रोत्साहन राशि) with her Ladli registration number for Rs 25,000, paid in two halves in the first and last year. At 21 she gets Rs 1 lakh."
+  },
+  {
+   "k": "fe6b06d1e6c7",
    "ctx": "helpline",
-   "t": "Labour Enforcement Officer (LEO) at your block office, or the Labour Superintendent office in your district"
+   "t": "0755-2700800 (portal helpdesk), CM Helpline 181"
   },
   {
-   "k": "dee681608bcd",
+   "k": "6b42940bf4f1",
    "ctx": "title",
-   "t": "Mukhyamantri Jan Arogya Yojana Bihar (Ayushman Card for Ration Card Holders)"
+   "t": "Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY / Ayushman Card)"
   },
   {
-   "k": "bedc8e53a82c",
+   "k": "6d6449e49280",
    "ctx": "department",
-   "t": "Bihar Swasthya Suraksha Samiti, Health Department, Government of Bihar, with the National Health Authority"
+   "t": "Public Health Department, Government of Maharashtra (State Health Assurance Society)"
   },
   {
-   "k": "5fa5911c5630",
+   "k": "4b762fd52586",
    "ctx": "brief",
-   "t": "Bihar pays for the same free hospital cover of Rs 5 lakh a year as Ayushman Bharat for ration-card families that the central PM-JAY list left out. Since 2024 every family holding an NFSA ration card in Bihar is covered, either under PM-JAY or under this state scheme, and both use the same Ayushman card at any empanelled hospital. The card is made free with the ration card and Aadhaar, on the Ayushman app or website, at a CSC, or at camps held at ration shops."
+   "t": "Free, cashless hospital treatment for every family in Maharashtra, up to Rs.5 lakh a family each year, at government and private hospitals that have joined the scheme. Since 1 July 2024 it runs together with the central Ayushman Bharat PM-JAY, so one Ayushman card works for both, and families with a white ration card, or with no ration card but a Maharashtra domicile certificate, are covered as well. It was earlier called Rajiv Gandhi Jeevandayee Arogya Yojana. There is nothing to apply for in advance: at the hospital, the Arogyamitra desk registers the patient with the ration card and Aadhaar."
   },
   {
-   "k": "587590c3533a",
+   "k": "be956550978d",
    "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless, at empanelled hospitals"
+   "t": "Rs.5 lakh a year per family, cashless, at network hospitals"
   },
   {
-   "k": "b00b5e819451",
+   "k": "deaa85160614",
    "ctx": "eligibility",
-   "t": "The family holds a Bihar ration card under the National Food Security Act (priority household or Antyodaya)"
+   "t": "Every family living in Maharashtra, whatever its income (universal cover since 1 July 2024)"
   },
   {
-   "k": "3fa868d846b1",
+   "k": "58956cd7d971",
    "ctx": "eligibility",
-   "t": "Families already on the central PM-JAY list are covered by PM-JAY; the other ration-card families are covered by this state scheme, with the same card"
+   "t": "Families with a yellow, Antyodaya (AAY), Annapurna, orange or white ration card"
   },
   {
-   "k": "d99e6b416e93",
+   "k": "d5c2399d41e8",
    "ctx": "eligibility",
-   "t": "Every member named on the ration card is covered, with no limit on family size or age"
+   "t": "A family with no ration card is covered if it holds a Maharashtra domicile certificate"
   },
   {
-   "k": "9bdd37fbee5b",
+   "k": "66e3d353a7be",
    "ctx": "eligibility",
-   "t": "Illnesses you already have are covered from the first day"
+   "t": "The Rs.5 lakh is shared by the whole family in a year (family floater), and illnesses you already have are covered from the first day"
   },
   {
-   "k": "0278ddb5c74e",
+   "k": "07897b58c491",
    "ctx": "eligibility",
-   "t": "Each member needs his or her own card, made after Aadhaar e-KYC"
+   "t": "Covers listed surgeries and hospital treatments in 34 specialities at network hospitals in Maharashtra; in 2025 the state approved widening the list from 1,356 to 2,399 procedures"
   },
   {
-   "k": "262591ba4ada",
+   "k": "bec6027c5091",
    "ctx": "documents",
-   "t": "Ration card (NFSA); the family is searched by the ration card number"
+   "t": "Ration card of any colour (yellow, orange, white, AAY or Annapurna)"
   },
   {
-   "k": "114aeed99aea",
+   "k": "812e80101486",
    "ctx": "documents",
-   "t": "Aadhaar card of each member whose card is being made"
+   "t": "Aadhaar card of the patient"
   },
   {
-   "k": "54964a6d6374",
-   "ctx": "hint",
-   "t": "Choose Beneficiary when you are making the card for yourself or your family."
-  },
-  {
-   "k": "8723df3876b0",
-   "ctx": "hint",
-   "t": "Any working number you hold. The login OTP and the approval message come here."
-  },
-  {
-   "k": "8b33cb85419b",
-   "ctx": "value",
-   "t": "PMJAY / Bihar"
-  },
-  {
-   "k": "bdc546a37a5a",
-   "ctx": "hint",
-   "t": "Choose Bihar. Ration-card families covered by the state scheme are found through the same search."
-  },
-  {
-   "k": "b1fc90c1b304",
-   "ctx": "hint",
-   "t": "Searching by ration card number brings up everyone on the card at once."
-  },
-  {
-   "k": "de19d00ef603",
-   "ctx": "hint",
-   "t": "Copy the number from your ration card. If nothing is found, search again by Aadhaar."
-  },
-  {
-   "k": "3cd505cec28c",
-   "ctx": "hint",
-   "t": "Aadhaar of the member whose card you are making now. Do one member at a time."
-  },
-  {
-   "k": "b9ae0f593731",
-   "ctx": "hint",
-   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication."
-  },
-  {
-   "k": "1ebcd8e24bb2",
-   "ctx": "hint",
-   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request rejected."
-  },
-  {
-   "k": "32317e929a0e",
-   "ctx": "value",
-   "t": "Saran / 841301"
-  },
-  {
-   "k": "f72c93ef2dd2",
-   "ctx": "hint",
-   "t": "Where you live now, so that nearby empanelled hospitals are shown."
-  },
-  {
-   "k": "5095ada62e37",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, and choose the state Bihar."
-  },
-  {
-   "k": "3c988b2e89d3",
-   "ctx": "demoSteps",
-   "t": "Search by your ration card number. All members on the card appear; if your family is not found, search by Aadhaar."
-  },
-  {
-   "k": "0fa56cb13bde",
-   "ctx": "demoSteps",
-   "t": "Pick the member whose card is pending, complete Aadhaar OTP or face e-KYC, take the live photo, add the relation, district and PIN code, and submit."
-  },
-  {
-   "k": "a1fdcba051fa",
-   "ctx": "demoSteps",
-   "t": "Bihar Swasthya Suraksha Samiti approves the request, usually within a day or two. Log in again and download the card. You can also get it made free at a CSC, a government hospital or a camp at your ration shop."
-  },
-  {
-   "k": "37d8090a6a84",
-   "ctx": "demoSteps",
-   "t": "At the hospital, go to the Ayushman Mitra desk with the card and Aadhaar. Empanelled hospitals are listed at hospitals.pmjay.gov.in. Never pay cash for a treatment covered by the scheme."
-  },
-  {
-   "k": "6e4d7519db3f",
-   "ctx": "helpline",
-   "t": "14555 (Ayushman Bharat helpline) / 104 (Bihar health helpline)"
-  },
-  {
-   "k": "d591c6bc8f8f",
-   "ctx": "title",
-   "t": "Chandigarh Old Age Pension"
-  },
-  {
-   "k": "dde5906ba5d7",
-   "ctx": "department",
-   "t": "Department of Social Welfare, Women & Child Development, Chandigarh Administration"
-  },
-  {
-   "k": "c257b8d57c6e",
-   "ctx": "brief",
-   "t": "A monthly pension for Chandigarh residents aged 60 and above whose family income is up to Rs.1.5 lakh a year. The UT pays Rs.1,000 a month, and with the central share the pensioner gets Rs.1,200, or Rs.1,500 from age 80. You apply at any Sampark centre, where the operator scans your documents and files the application online. The pension is paid every month into your Aadhaar-seeded bank account. About 18,600 people get it."
-  },
-  {
-   "k": "2bc748b9243d",
-   "ctx": "benefit",
-   "t": "Rs.1,200 a month (Rs.1,500 from age 80), including the central share"
-  },
-  {
-   "k": "280f51da08db",
-   "ctx": "eligibility",
-   "t": "Total family income not above Rs.1.5 lakh a year"
-  },
-  {
-   "k": "3686a0800989",
-   "ctx": "eligibility",
-   "t": "Living in Chandigarh for more than 3 years"
-  },
-  {
-   "k": "1b58fa95aff1",
-   "ctx": "eligibility",
-   "t": "Not already getting another pension (the form asks for the amount and source if you do)"
-  },
-  {
-   "k": "4ae920029e40",
+   "k": "039b2ec51cae",
    "ctx": "documents",
-   "t": "Two passport-size photographs, one cross-signed on the form"
+   "t": "Maharashtra domicile certificate, if the family has no ration card"
   },
   {
-   "k": "bf5c6b6c9e75",
+   "k": "2938c5ab5dcf",
    "ctx": "documents",
-   "t": "Residence proof for the last three years (voter card, ration card, electricity bill, house allotment letter or residence certificate)"
+   "t": "Mobile number for the OTP during Aadhaar e-KYC"
   },
   {
-   "k": "95c9ceedaa60",
+   "k": "799a1c3cd823",
    "ctx": "documents",
-   "t": "Date of birth proof (birth certificate, school leaving certificate, passport, PAN card or senior citizen card)"
+   "t": "Ayushman card, if already made (it is not needed to start treatment)"
   },
   {
-   "k": "6efb60c043e7",
-   "ctx": "documents",
-   "t": "Income certificate from the competent authority"
-  },
-  {
-   "k": "fc765b35720e",
-   "ctx": "documents",
-   "t": "Mobile number and bank account details for the Aadhaar-seeded pension account"
-  },
-  {
-   "k": "0ffa4c95a647",
-   "ctx": "portalName",
-   "t": "Social Welfare, Women & Child Development, Chandigarh"
-  },
-  {
-   "k": "ad8da7ddb3f0",
+   "k": "d2b9cfc9d3b5",
    "ctx": "submitAt",
-   "t": "Any Sampark centre in Chandigarh. Take the filled form with the cross-signed photograph, the signed self-undertaking and the Aadhaar consent page, plus the originals of your Aadhaar, three-year residence proof, age proof and income certificate. The operator checks and scans them and files the online application on the e-District system. If you have no birth proof, get your age certified first by the Principal Medical Officer at GMSH-16 or GMCH-32. For questions, go to the Department of Social Welfare, Additional Town Hall Building, 3rd Floor, Sector 17-C."
+   "t": "The Arogyamitra desk at any MJPJAY network (empanelled) hospital in Maharashtra, government or private; it is usually near the main reception. Take the original ration card (or the domicile certificate) and the patient's Aadhaar card. The list of network hospitals is on jeevandayee.gov.in and is also given on the toll-free number 155388. The Ayushman card itself can be made beforehand at a CSC (Aaple Sarkar Seva Kendra), through the ASHA worker, or at the same hospital desk."
   },
   {
-   "k": "321c7352eccf",
+   "k": "ed8d30987999",
+   "ctx": "hint",
+   "t": "The 12-digit number printed on the ration card. The Arogyamitra uses it to find your whole family in the scheme list."
+  },
+  {
+   "k": "6f43a1831df2",
+   "ctx": "label",
+   "t": "Ration card colour"
+  },
+  {
+   "k": "09fb6aaba794",
    "ctx": "value",
-   "t": "Gurdev Kaur"
+   "t": "Orange"
   },
   {
-   "k": "b94204753380",
+   "k": "53d299459e4a",
    "ctx": "hint",
-   "t": "The person in whose name the pension order will be issued."
+   "t": "Yellow, orange, white, AAY or Annapurna are all accepted. If you have no ration card, show the Maharashtra domicile certificate instead."
   },
   {
-   "k": "153050beda93",
+   "k": "e6bb8a722077",
+   "ctx": "label",
+   "t": "Patient's name (as on Aadhaar)"
+  },
+  {
+   "k": "16afead2a4d8",
    "ctx": "value",
-   "t": "Late Harbans Singh"
+   "t": "Vithabai Dnyandeo Shinde"
   },
   {
-   "k": "3637483262c1",
+   "k": "4bd702c92f03",
    "ctx": "hint",
-   "t": "As on your Aadhaar or voter card."
+   "t": "Exactly as printed on the patient's Aadhaar card, so that the e-KYC matches."
   },
   {
-   "k": "b59ce15a8b10",
+   "k": "48f2f33c8c30",
+   "ctx": "label",
+   "t": "Patient's Aadhaar number"
+  },
+  {
+   "k": "3566ff7f296f",
+   "ctx": "hint",
+   "t": "The patient's own Aadhaar, not the head of family's. An OTP, fingerprint or face scan confirms it."
+  },
+  {
+   "k": "79da9eaa3469",
    "ctx": "value",
-   "t": "05-02-1964, 62 years"
+   "t": "Mother"
   },
   {
-   "k": "d319b1369beb",
+   "k": "9a2fae35fcf8",
    "ctx": "hint",
-   "t": "Must be 60 or more. Attach the date of birth proof."
+   "t": "How the patient is related to the person named first on the ration card."
   },
   {
-   "k": "dc2887b6cb61",
+   "k": "a5af4caad68b",
+   "ctx": "hint",
+   "t": "A number someone in the family keeps with them; messages about approval and discharge come here."
+  },
+  {
+   "k": "55854cde5abc",
    "ctx": "label",
-   "t": "Aadhaar No."
+   "t": "District / Taluka"
   },
   {
-   "k": "c45af124738c",
-   "ctx": "hint",
-   "t": "The pension is linked to this Aadhaar and paid to the account seeded with it."
-  },
-  {
-   "k": "060f9a490eb7",
-   "ctx": "label",
-   "t": "Mobile No."
-  },
-  {
-   "k": "71fbe5e601ee",
-   "ctx": "hint",
-   "t": "SMS updates on your application come here."
-  },
-  {
-   "k": "45b9115e4525",
-   "ctx": "hint",
-   "t": "Tick Male, Female or Transgender."
-  },
-  {
-   "k": "aea8ea24d318",
-   "ctx": "label",
-   "t": "Belong to SC / OBC"
-  },
-  {
-   "k": "b62d24f785a9",
-   "ctx": "hint",
-   "t": "Tick only if it applies to you."
-  },
-  {
-   "k": "a427b15c45c7",
-   "ctx": "label",
-   "t": "House No. / Sector or Village"
-  },
-  {
-   "k": "b486497eb840",
+   "k": "e6a0ee06c853",
    "ctx": "value",
-   "t": "House 1187, Sector 41-B"
+   "t": "Solapur / Pandharpur"
   },
   {
-   "k": "3e7de6f4131e",
-   "ctx": "hint",
-   "t": "Where you have lived for the last three years. It must match your residence proof."
-  },
-  {
-   "k": "9397b4606c53",
+   "k": "ac71e1702bec",
    "ctx": "label",
-   "t": "Present total family monthly income"
+   "t": "Treatment needed"
   },
   {
-   "k": "3ff09d3d3967",
+   "k": "4c3527d55676",
+   "ctx": "value",
+   "t": "Gall bladder stone operation"
+  },
+  {
+   "k": "5739f11e48e1",
    "ctx": "hint",
-   "t": "Add up everyone's income. A year's total must not be above Rs.1.5 lakh."
+   "t": "The doctor writes this after examining the patient. The hospital then asks the scheme for approval of that package."
   },
   {
-   "k": "8e5455c539a3",
+   "k": "f09d57248a94",
    "ctx": "label",
-   "t": "Whether in receipt of any pension"
+   "t": "Admission type"
   },
   {
-   "k": "2ba912b104cd",
+   "k": "efb33fe48905",
+   "ctx": "value",
+   "t": "Planned (not emergency)"
+  },
+  {
+   "k": "8703557d2354",
    "ctx": "hint",
-   "t": "If Yes, write the monthly amount and who pays it."
+   "t": "In an emergency the hospital starts treatment at once and informs the scheme by phone or email; the papers can follow."
   },
   {
-   "k": "b0cbfbe03df7",
+   "k": "7660ab49c691",
    "ctx": "demoSteps",
-   "t": "Download the old age pension form, or take one at the Sampark centre, and fill in your details."
+   "t": "When a doctor says the patient needs an operation or admission, ask whether the hospital is an MJPJAY / Ayushman network hospital. If you are not sure, call 155388 or look up the hospital list on jeevandayee.gov.in."
   },
   {
-   "k": "364aa1662fd1",
+   "k": "879141bef181",
    "ctx": "demoSteps",
-   "t": "Paste the photograph, cross-sign it, and sign the self-undertaking and the Aadhaar consent page."
+   "t": "Go to the Arogyamitra desk with the ration card and the patient's Aadhaar. The Arogyamitra registers the patient on the scheme portal and does the Aadhaar e-KYC by OTP, fingerprint or face scan."
   },
   {
-   "k": "d7128f9d775a",
+   "k": "387bdef0e90b",
    "ctx": "demoSteps",
-   "t": "Go to a Sampark centre with the originals. The operator scans them, files your application online and gives you the application number."
+   "t": "The doctor examines the patient, and the hospital sends a pre-authorisation request online to the State Health Assurance Society with the reports. Approval usually comes within hours; in an emergency, treatment starts first."
   },
   {
-   "k": "32455f990d59",
+   "k": "154afd333873",
    "ctx": "demoSteps",
-   "t": "The Social Welfare Department verifies the papers and sanctions the pension. Track it on the e-District status page with your application number."
+   "t": "Once approved, the listed treatment, operation, medicines, tests, bed and food are free. Do not pay cash or sign any paper promising to pay for a listed treatment."
   },
   {
-   "k": "770e0a34fd97",
+   "k": "06afd1a26472",
    "ctx": "demoSteps",
-   "t": "The pension is paid every month into your Aadhaar-seeded bank account."
+   "t": "At discharge you receive the discharge summary. The hospital's bill goes to the government, not to you."
   },
   {
-   "k": "9b7fcee37c37",
+   "k": "1545d4536a2a",
    "ctx": "demoSteps",
-   "t": "Give your life certificate to the department each year so the pension does not stop."
+   "t": "If a hospital asks for money for a covered treatment, call 155388 or 1800-233-2200 before paying and tell them the hospital's name."
   },
   {
-   "k": "025c04ea3854",
+   "k": "dfe7832d84fe",
+   "ctx": "demoSteps",
+   "t": "To make the next visit quicker, get the Ayushman card made for every family member at a CSC, through the ASHA worker or at the Arogyamitra desk."
+  },
+  {
+   "k": "213867ba5161",
    "ctx": "helpline",
-   "t": "0172-2700372 — Department of Social Welfare, Women & Child Development, Chandigarh; 181 — Women and Child Helpline"
+   "t": "155388 / 1800-233-2200 (MJPJAY toll-free call centre); 14555 (Ayushman Bharat PM-JAY)"
   },
   {
-   "k": "55185d27f6e5",
+   "k": "e9b305af050d",
    "ctx": "title",
-   "t": "Krishak Unnati Yojana (Paddy Difference Amount)"
+   "t": "Sanjay Gandhi Niradhar Anudan Yojana (Niradhar Pension)"
   },
   {
-   "k": "1fa4e3bdf2a0",
+   "k": "6cdd5f15eb22",
    "ctx": "department",
-   "t": "Agriculture Development & Farmers Welfare Department, Government of Chhattisgarh, with the Food Department and cooperative societies (paddy procurement)"
+   "t": "Social Justice and Special Assistance Department, Government of Maharashtra (through the Tehsildar)"
   },
   {
-   "k": "7027c08b1519",
+   "k": "eacb8742989a",
    "ctx": "brief",
-   "t": "Chhattisgarh pays its farmers Rs 3,100 a quintal for paddy. The cooperative society pays the central MSP when you sell, and Krishak Unnati Yojana later pays the gap between MSP and Rs 3,100, on up to 21 quintals an acre, straight into your bank account. You do not fill a separate form for it. You only need to be registered at your cooperative society for paddy sale and sell your paddy there in the procurement season. Farmers who sold paddy earlier and now sow pulses, oilseeds or maize instead also get per-acre help under the same scheme."
+   "t": "A monthly pension of Rs.1,500 for people under 65 who have no one to support them: persons with 40% or more disability, people with serious illnesses such as cancer, TB, HIV or leprosy, widows, divorced or abandoned women, orphan children and transgender persons, among others. Disabled beneficiaries get Rs.2,500 a month from October 2025. The money comes every month by DBT into an Aadhaar-linked bank account. You apply through the talathi or the tehsil office; the state has also opened online applications on the MahaDBT portal."
   },
   {
-   "k": "6bfbe178c843",
+   "k": "7f37d76808fb",
    "ctx": "benefit",
-   "t": "Gap between MSP and Rs 3,100 a quintal on up to 21 quintals an acre: Rs 731 a quintal (Rs 15,351 an acre) for common paddy in kharif 2025-26"
+   "t": "Rs.1,500 a month (Rs.2,500 for disabled beneficiaries)"
   },
   {
-   "k": "9261cb35ea8e",
+   "k": "2f6201a622c3",
    "ctx": "eligibility",
-   "t": "A farmer in Chhattisgarh registered for paddy sale at a primary cooperative society (sewa sahkari samiti or LAMPS)"
+   "t": "Living in Maharashtra for at least 15 years; aged 18 to below 65 (orphan or disabled children under 18 get it through a guardian)"
   },
   {
-   "k": "fac2213100d0",
+   "k": "fbea8cf0d0e9",
    "ctx": "eligibility",
-   "t": "From the 2026-27 season the AgriStack Farmer ID is the registration; the society enters your land, bank and nominee details. The last date given for 2026-27 was 31 October 2026"
+   "t": "Family income up to Rs.21,000 a year, or up to Rs.50,000 a year if the applicant is disabled; or the family is on the BPL list"
   },
   {
-   "k": "482065137f4e",
+   "k": "c00dee3636b7",
    "ctx": "eligibility",
-   "t": "You must actually sell your paddy at the society's procurement centre in the season (mid-November to January). The limit is 21 quintals an acre, on the area shown in the Digital Crop Survey"
+   "t": "Belongs to a destitute group: disabled (40% or more, UDID card needed), serious illness, widow, divorced or abandoned woman, woman whose divorce is pending, unmarried woman of 35 or more with no support, orphan child, transgender person, or the family of a farmer who died by suicide"
   },
   {
-   "k": "df80536e64b7",
+   "k": "7cd77d960486",
    "ctx": "eligibility",
-   "t": "Sharecroppers (adhiya, rega), forest rights patta holders, village kotwars and registered institutions can also register; they were exempted from AgriStack in 2025-26"
+   "t": "Not drawing a regular monthly benefit from any government, semi-government or local body"
   },
   {
-   "k": "cce20c2cd929",
+   "k": "352f6be5d6eb",
    "ctx": "eligibility",
-   "t": "Farmers who sold paddy at MSP the previous year and now grow pulses, oilseeds or maize instead get input help per acre after the crop area is checked"
+   "t": "At 65 the beneficiary moves to the Shravanbal or the central old-age pension"
   },
   {
-   "k": "3fc998c60eb3",
+   "k": "37300c9eab50",
    "ctx": "documents",
-   "t": "Aadhaar card, with the mobile number linked to it"
+   "t": "Aadhaar card, and MGNREGA job card if you have one"
   },
   {
-   "k": "a40742ed3334",
+   "k": "b1e9bfd2da17",
    "ctx": "documents",
-   "t": "AgriStack Farmer ID (Kisan ID)"
+   "t": "Residence certificate from the gram panchayat or talathi, and the ration card"
   },
   {
-   "k": "212d53186dc3",
+   "k": "a33b60073a58",
    "ctx": "documents",
-   "t": "B-1 and khasra (P-II) copy of your land, and the Kisan Kitab (Rin Pustika)"
+   "t": "Age proof: birth certificate or school leaving certificate"
   },
   {
-   "k": "88d19bb01dcf",
+   "k": "47dc2d5107d8",
    "ctx": "documents",
-   "t": "Bank passbook of an account in the farmer's own name, linked to Aadhaar"
+   "t": "Income certificate from the tehsildar, or BPL certificate"
   },
   {
-   "k": "8d38b9da86a7",
+   "k": "2f78b1ab92ef",
    "ctx": "documents",
-   "t": "Name and Aadhaar of a nominee"
+   "t": "Proof of your category: UDID card, husband's death certificate, court divorce papers, orphan certificate, medical certificate of the illness, or transgender certificate"
   },
   {
-   "k": "f064cc1cb02b",
+   "k": "7a6ebd34a785",
    "ctx": "documents",
-   "t": "Sharecroppers: the written adhiya or rega agreement with the land owner; forest land: the van adhikar patra"
+   "t": "First page of an Aadhaar-linked bank passbook in your own name"
   },
   {
-   "k": "f8b7d40b06cb",
+   "k": "f203fd138c8c",
+   "ctx": "documents",
+   "t": "Signed self-declaration with a passport-size photograph"
+  },
+  {
+   "k": "fca11f125c11",
    "ctx": "submitAt",
-   "t": "Go to the primary cooperative society (sewa sahkari samiti or LAMPS) where your village sells paddy, before the registration deadline (31 October for the 2026-27 season). Take your Aadhaar card, AgriStack Farmer ID, B-1 and khasra copy, Kisan Kitab and bank passbook. If you do not have a Farmer ID yet, the society operator can make it for you on the spot, or you can make it at a CSC or yourself on cgfr.agristack.gov.in. Farmers who sold at the society last year are already on its list and only need to check that their land and bank details are correct."
+   "t": "The talathi (gram mahsul adhikari) of your village, or the Sanjay Gandhi Yojana branch of the tehsil office; in a city, the tehsil office of your area. The prescribed application is Form 3 of Annexure 1 (page 20) of the government resolution linked here, and the tehsil office and Setu or Aaple Sarkar Seva Kendras also keep blank forms. Hand in two copies of the form and of each certificate, carry the originals for checking, and ask for a dated acknowledgement."
   },
   {
-   "k": "e7f76c9eb51e",
+   "k": "896ce1e1b29c",
    "ctx": "label",
-   "t": "Name of farmer"
+   "t": "To: Tehsildar, Taluka / District"
   },
   {
-   "k": "b4e86952d33a",
+   "k": "a7272c42e22f",
    "ctx": "value",
-   "t": "Ramesh Kumar Sahu"
+   "t": "Tehsildar, Taluka Paithan / District Chhatrapati Sambhajinagar"
   },
   {
-   "k": "7a0750286fd5",
+   "k": "6c104441b756",
    "ctx": "hint",
-   "t": "Your name exactly as on the land record (B-1) and Aadhaar."
+   "t": "The tehsil where you live now."
   },
   {
-   "k": "cbde1bf11493",
+   "k": "e12563e26031",
+   "ctx": "label",
+   "t": "Applicant's full name"
+  },
+  {
+   "k": "bda8cc0e98ed",
    "ctx": "value",
-   "t": "Shri Govind Ram Sahu"
+   "t": "Mangal Rajendra Waghmare"
   },
   {
-   "k": "f2ae66b28da2",
+   "k": "d1084a816d09",
    "ctx": "hint",
-   "t": "As written in the land record."
+   "t": "As on Aadhaar, with husband's or father's name in the middle."
   },
   {
-   "k": "a37cb95fe3c7",
-   "ctx": "hint",
-   "t": "Your own Aadhaar. The OTP goes to the mobile linked to it."
-  },
-  {
-   "k": "d856382aced1",
-   "ctx": "label",
-   "t": "AgriStack Farmer ID"
-  },
-  {
-   "k": "5568ed1b6940",
-   "ctx": "hint",
-   "t": "The Kisan ID from the farmer registry. The society cannot register you for 2026-27 without it."
-  },
-  {
-   "k": "c4c7d2ef8b35",
-   "ctx": "hint",
-   "t": "Token messages and payment messages come to this number."
-  },
-  {
-   "k": "3d6095525d8a",
-   "ctx": "label",
-   "t": "Village and society"
-  },
-  {
-   "k": "e464ac4f392d",
+   "k": "fd1cfb727e7a",
    "ctx": "value",
-   "t": "Kharora / Sewa Sahkari Samiti Kharora"
+   "t": "At post Pachod, Tal. Paithan"
   },
   {
-   "k": "717542551333",
+   "k": "6c2abbfe3ec6",
    "ctx": "hint",
-   "t": "The society where your village's paddy is bought."
+   "t": "Your present address, with village or ward."
   },
   {
-   "k": "a7fc41d1029c",
+   "k": "50d0bf70ea75",
+   "ctx": "value",
+   "t": "05/03/1978, 48 years"
+  },
+  {
+   "k": "71313a27ca2d",
+   "ctx": "hint",
+   "t": "You must be at least 18 and below 65."
+  },
+  {
+   "k": "672bcdf09582",
    "ctx": "label",
-   "t": "Khasra numbers and area"
+   "t": "Residence in Maharashtra"
+  },
+  {
+   "k": "8c7bf9541321",
+   "ctx": "value",
+   "t": "Since birth (48 years)"
+  },
+  {
+   "k": "a0fe05aff993",
+   "ctx": "hint",
+   "t": "At least 15 years is required. The residence certificate is the proof."
+  },
+  {
+   "k": "9f46c8709908",
+   "ctx": "hint",
+   "t": "Attach a copy. The pension is paid only to an account linked with this Aadhaar."
+  },
+  {
+   "k": "7ac1596f8dce",
+   "ctx": "label",
+   "t": "Number of family members"
+  },
+  {
+   "k": "c6a33ce90cc9",
+   "ctx": "hint",
+   "t": "Everyone living and eating together in the household."
+  },
+  {
+   "k": "2382add5933b",
+   "ctx": "label",
+   "t": "Total yearly family income from all sources"
+  },
+  {
+   "k": "b0bef2183c1e",
+   "ctx": "value",
+   "t": "Rs.18,000"
+  },
+  {
+   "k": "754cdd58dad1",
+   "ctx": "hint",
+   "t": "Add up all earnings, including support from grown sons. It must be Rs.21,000 or less (Rs.50,000 if you are disabled), as shown on the income certificate."
+  },
+  {
+   "k": "05a09590aefb",
+   "ctx": "label",
+   "t": "Category of destitute"
+  },
+  {
+   "k": "24b75fd0e2e5",
+   "ctx": "hint",
+   "t": "Tick one: disabled, illness, destitute woman, widow, divorced, abandoned, orphan child, transgender, family of a farmer who died by suicide."
+  },
+  {
+   "k": "62a91cb589f2",
+   "ctx": "label",
+   "t": "Aadhaar-linked bank account number and IFSC"
+  },
+  {
+   "k": "7e6ba353c246",
+   "ctx": "hint",
+   "t": "An account in your own name. If it is not linked with Aadhaar the money does not arrive, so check at the bank first."
+  },
+  {
+   "k": "319267e20aab",
+   "ctx": "demoSteps",
+   "t": "Collect the papers first: income certificate from the tehsildar (apply at a Setu or Aaple Sarkar Seva Kendra), residence certificate, age proof and the proof of your category, such as the UDID card or husband's death certificate."
+  },
+  {
+   "k": "487b1eedc4a9",
+   "ctx": "demoSteps",
+   "t": "Get the form from the talathi, the tehsil office or a Setu kendra. Fill it in, sign or put your thumb impression in front of a witness, and attach the self-declaration with a photo."
+  },
+  {
+   "k": "b18a73926470",
+   "ctx": "demoSteps",
+   "t": "Hand it to the talathi or at the tehsil's Sanjay Gandhi Yojana branch and take the acknowledgement. The talathi visits your home to check the papers and family income and uploads a photo of the visit."
+  },
+  {
+   "k": "5bf1d6346ac6",
+   "ctx": "demoSteps",
+   "t": "The tehsildar checks the file and places it before the Sanjay Gandhi Niradhar Anudan Yojana committee, which meets every month. The lists of approved and rejected names are put on the notice board and read in the gram sabha."
+  },
+  {
+   "k": "54c8d8ed52b1",
+   "ctx": "demoSteps",
+   "t": "Once approved, the pension starts from the month after the online process is complete and comes by DBT into your Aadhaar-linked account every month."
+  },
+  {
+   "k": "bb5de2389840",
+   "ctx": "demoSteps",
+   "t": "Keep your Aadhaar and bank linking in order, because payments that fail for Aadhaar or bank reasons are the beneficiary's responsibility. Give the life certificate each year when the tehsil asks; if the pension stopped, giving it in the same financial year restarts it."
+  },
+  {
+   "k": "751f21423fa7",
+   "ctx": "demoSteps",
+   "t": "If nothing happens for two or three months, go to the tehsil office with your acknowledgement and ask for the committee's decision."
+  },
+  {
+   "k": "96f50b1215f0",
+   "ctx": "helpline",
+   "t": "Sanjay Gandhi Yojana branch of your tehsil office; 1800-120-8040 (Aaple Sarkar helpline)"
+  },
+  {
+   "k": "d3ed43650b61",
+   "ctx": "title",
+   "t": "Shravanbal Seva Rajya Nivruttivetan Yojana (Shravanbal Pension)"
+  },
+  {
+   "k": "23f911a61fee",
+   "ctx": "brief",
+   "t": "A monthly pension of Rs.1,500 for poor men and women aged 65 and above in Maharashtra. If the family is not on the BPL list but earns up to Rs.21,000 a year, the whole Rs.1,500 comes from the state (Group A). If the family is on the BPL list, the person gets the central Indira Gandhi old-age pension plus a Shravanbal top-up, again Rs.1,500 in all (Group B). Each eligible person is counted separately, so husband and wife can both get it, applying with one form each at the talathi or tehsil office; the money comes monthly by DBT."
+  },
+  {
+   "k": "22c624b43a3c",
+   "ctx": "benefit",
+   "t": "Rs.1,500 a month per person"
+  },
+  {
+   "k": "0760798f0e5a",
+   "ctx": "eligibility",
+   "t": "Aged 65 or above"
+  },
+  {
+   "k": "0eab939525fc",
+   "ctx": "eligibility",
+   "t": "Living in Maharashtra for at least 15 years"
+  },
+  {
+   "k": "6d707a0a82c7",
+   "ctx": "eligibility",
+   "t": "Group A: family not on the BPL list, with yearly family income up to Rs.21,000 (Rs.50,000 if the applicant is disabled)"
+  },
+  {
+   "k": "aff28b88431f",
+   "ctx": "eligibility",
+   "t": "Group B: family on the BPL list; gets the central old-age pension with the state top-up"
+  },
+  {
+   "k": "cd327bbf1216",
+   "ctx": "eligibility",
+   "t": "Not drawing a regular monthly benefit or pension from any other government scheme"
+  },
+  {
+   "k": "c413a8974d36",
+   "ctx": "documents",
+   "t": "Age proof: birth certificate, school leaving certificate, or an age certificate from a government medical officer"
+  },
+  {
+   "k": "4bd80dd5a7f5",
+   "ctx": "documents",
+   "t": "Income certificate from the tehsildar, or BPL certificate or BPL list extract"
+  },
+  {
+   "k": "d9bfc0018cf3",
+   "ctx": "documents",
+   "t": "UDID card, if the applicant is disabled"
+  },
+  {
+   "k": "c3c071cbae48",
+   "ctx": "submitAt",
+   "t": "The talathi (gram mahsul adhikari) of your village, or the Sanjay Gandhi Yojana branch of the tehsil office, which also handles Shravanbal; in a city, the tehsil office of your area. The prescribed application is Form 3 of Annexure 1 (page 20) of the government resolution linked here, the same form as for the Niradhar pension, and the tehsil office and Setu or Aaple Sarkar Seva Kendras keep blank forms. Hand in two copies of the form and of each certificate, carry the originals, and ask for a dated acknowledgement."
+  },
+  {
+   "k": "a46bba713f0f",
+   "ctx": "value",
+   "t": "Tehsildar, Taluka Sangamner / District Ahilyanagar"
+  },
+  {
+   "k": "ed87c4e748a2",
+   "ctx": "value",
+   "t": "Kashinath Bhiku More"
+  },
+  {
+   "k": "93376524d4db",
+   "ctx": "value",
+   "t": "At post Ghargaon, Tal. Sangamner"
+  },
+  {
+   "k": "825ebef47f01",
+   "ctx": "value",
+   "t": "01/06/1955, 71 years"
+  },
+  {
+   "k": "bf21ce7ef4df",
+   "ctx": "hint",
+   "t": "You must have completed 65. If no paper shows your age, a government medical officer can give an age certificate."
+  },
+  {
+   "k": "0a113e09d1bf",
+   "ctx": "value",
+   "t": "Since birth (71 years)"
+  },
+  {
+   "k": "b62dc4b66b5b",
+   "ctx": "hint",
+   "t": "At least 15 years is required."
+  },
+  {
+   "k": "76523df9b46c",
+   "ctx": "label",
+   "t": "Is the family below the poverty line?"
+  },
+  {
+   "k": "fcac54932699",
+   "ctx": "hint",
+   "t": "Yes if the family is on the BPL list (Group B), No otherwise (Group A). The amount is the same either way."
+  },
+  {
+   "k": "a01fb3356e3d",
+   "ctx": "hint",
+   "t": "Needed for Group A. Count all earnings, including help from sons. It must be Rs.21,000 or less, as shown on the income certificate."
+  },
+  {
+   "k": "994558b6302b",
+   "ctx": "value",
+   "t": "Elderly"
+  },
+  {
+   "k": "fe082ba1d0c9",
+   "ctx": "hint",
+   "t": "Tick elderly. Also mention a disability, if any, and attach the UDID card."
+  },
+  {
+   "k": "97dfcf46c865",
+   "ctx": "hint",
+   "t": "An account in your own name. Husband and wife should each give their own account."
   }
  ]
 }

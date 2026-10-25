@@ -9792,7 +9792,7 @@
     },
     {
      "label": "আঁচনি আৰু ৰাজ্য",
-     "value": "PMJAY / Gujarat",
+     "value": "PMJAY / गुजरात",
      "hint": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
     },
     {
@@ -9817,7 +9817,7 @@
     },
     {
      "label": "লাইভ ফটো",
-     "value": "Taken on phone camera",
+     "value": "फोन के कैमरे से ली गई",
      "hint": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
     },
     {
@@ -9827,7 +9827,7 @@
     },
     {
      "label": "জিলা আৰু পিন ক'ড",
-     "value": "Mehsana / 384002",
+     "value": "मेहसाणा / 384002",
      "hint": "Where you live now, so the nearest empanelled hospitals are shown to you."
     }
    ],
@@ -10184,13 +10184,13 @@
   {
    "id": "gj-matrushakti",
    "title": "Mukhyamantri Matrushakti Yojana (Free Monthly Nutrition Kit)",
-   "department": "Women & Child Development Department (ICDS), Gujarat",
+   "department": "महिला एवं बाल विकास विभाग (ICDS), गुजरात",
    "brief": "A free nutrition kit every month for a woman in her first pregnancy and until her first child turns two - the first 1000 days. Each month's kit has 2 kg chana, 1 kg tuver dal and 1 litre of groundnut oil, given at the Anganwadi against an OTP on your phone. The health worker first registers the pregnancy in the health department's TeCHO system; you then register yourself on the Matrushakti portal, or the Anganwadi worker does it for you. A ration card is no longer needed - Aadhaar is enough.",
    "benefit": "Every month: 2 kg chana, 1 kg tuver dal and 1 litre groundnut oil, free",
    "eligibility": [
     "Woman pregnant with her first child - from registration of the pregnancy until delivery",
     "Mother of a first child - from the birth until the child is 2 years old",
-    "Has an Aadhaar card",
+    "आधार कार्ड हो",
     "The pregnancy or child is registered by the ASHA or ANM in the health department's TeCHO system (the eMamta / unique number)",
     "Registered with the local Anganwadi; there is no income or caste condition"
    ],
@@ -10201,16 +10201,16 @@
     "Name of your Anganwadi and the Anganwadi worker",
     "Ration card member ID (optional - it helps fill the details)"
    ],
-   "portalName": "Mukhyamantri Matrushakti Yojana portal",
+   "portalName": "मुख्यमंत्री मातृशक्ति योजना पोर्टल",
    "demoFields": [
     {
-     "label": "Aadhaar card number (beneficiary)",
+     "label": "आधार कार्ड नंबर (लाभार्थी)",
      "value": "9999 3471 0926",
      "hint": "The pregnant woman's or mother's own Aadhaar."
     },
     {
      "label": "Beneficiary name (in English, as per Aadhaar)",
-     "value": "Nirmalaben Jagdishbhai Solanki",
+     "value": "निर्मलाबेन जगदीशभाई सोलंकी",
      "hint": "Exactly as printed on Aadhaar, or the Aadhaar check fails."
     },
     {
@@ -10219,32 +10219,32 @@
      "hint": "Choose full date or only the year, whichever is on your Aadhaar. Then tick the consent box and press Validate Aadhaar."
     },
     {
-     "label": "Ration card member ID",
-     "value": "Filled automatically",
+     "label": "राशन कार्ड सदस्य ID",
+     "value": "अपने आप भर जाता है",
      "hint": "Comes up by itself if your name is on an NFSA ration card. It is fine if it stays empty."
     },
     {
      "label": "জিলা / তালুকা / গাঁও",
-     "value": "Bhavnagar / Mahuva / Bagdana",
+     "value": "भावनगर / महुवा / बगदाणा",
      "hint": "Where you live now, so the right Anganwadi list appears."
     },
     {
-     "label": "Anganwadi name",
-     "value": "Bagdana-3",
+     "label": "आंगनवाड़ी का नाम",
+     "value": "बगदाणा-3",
      "hint": "If your Anganwadi is not in the list, use Search to find it."
     },
     {
-     "label": "Worker / helper name",
-     "value": "Filled automatically",
+     "label": "कार्यकर्ता / सहायिका का नाम",
+     "value": "अपने आप भर जाता है",
      "hint": "The Anganwadi worker's name appears once you pick the Anganwadi."
     },
     {
-     "label": "Mobile number linked with Aadhaar",
+     "label": "आधार से लिंक मोबाइल नंबर",
      "value": "93270 55804",
      "hint": "Press Send OTP and type the 4-digit OTP. Each month's kit is also given against an OTP on this number."
     },
     {
-     "label": "Beneficiary ID (eMamta / unique number)",
+     "label": "लाभार्थी ID (eMamta / यूनिक नंबर)",
      "value": "2407 1198 3365",
      "hint": "Step 2 of the form. It is on your Mamta card. After Search, the health centre and due date fill in by themselves."
     }
@@ -10516,16 +10516,16 @@
     "No limit on family size or age. Every member on the Family ID is covered"
    ],
    "documents": [
-    "Family ID (PPP) number, with income verified",
+    "फैमिली ID (PPP) नंबर, वेरिफाइड आय के साथ",
     "Mobile number registered in the Family ID, for the OTP",
     "Aadhaar card of each member, for the card e-KYC",
     "UPI, debit card or net banking to pay the fee, or cash at a CSC",
     "Payment receipt or reference number, as proof that you paid"
    ],
-   "portalName": "Chirayu Haryana PMJAY contribution portal",
+   "portalName": "चिरायु हरियाणा PMJAY अंशदान पोर्टल",
    "demoFields": [
     {
-     "label": "Your PPP ID / Aadhaar Number",
+     "label": "आपकी PPP ID / आधार नंबर",
      "value": "PPP ID",
      "hint": "Choose whether to search by Family ID or Aadhaar. If you have forgotten the Family ID, use I forgot my PPP ID and search with Aadhaar."
     },
@@ -10536,41 +10536,41 @@
     },
     {
      "label": "OTP",
-     "value": "6-digit code",
+     "value": "6-अंकों का कोड",
      "hint": "Sent to the mobile number registered in the Family ID, not any other number."
     },
     {
-     "label": "Terms and conditions",
-     "value": "Agree & Continue",
+     "label": "नियम और शर्तें",
+     "value": "सहमत हैं और आगे बढ़ें (Agree & Continue)",
      "hint": "Read the fee table and the dates, tick the box and continue."
     },
     {
-     "label": "Linked Member Info",
-     "value": "6 members shown",
+     "label": "लिंक किए गए सदस्यों की जानकारी",
+     "value": "6 सदस्य दिखाए गए हैं",
      "hint": "Check that every member is listed. A missing member must first be added in the Family ID."
     },
     {
-     "label": "Family Head Name",
-     "value": "Rajesh Kumar",
+     "label": "परिवार के मुखिया का नाम",
+     "value": "राजेश कुमार",
      "hint": "Shown after Check Eligibility, with your verified income band."
     },
     {
-     "label": "Amount to be paid",
-     "value": "Rs 1,500",
+     "label": "भुगतान की जाने वाली राशि",
+     "value": "1,500 रु.",
      "hint": "Set by the verified income: Rs 1,500, Rs 4,000 or Rs 5,000 a year."
     },
     {
-     "label": "Payment partner",
-     "value": "Canara Bank",
+     "label": "पेमेंट पार्टनर",
+     "value": "केनरा बैंक",
      "hint": "Choose Canara Bank to pay yourself, or CSC (Digital Seva Connect) if a CSC operator is paying for you."
     },
     {
-     "label": "Payment mode",
+     "label": "भुगतान का तरीका",
      "value": "UPI",
      "hint": "UPI and RuPay debit cards have no extra charge. Other cards may add a small bank fee."
     },
     {
-     "label": "Reference number",
+     "label": "रेफरेंस नंबर",
      "value": "CHR9999000123",
      "hint": "Save it. Use Check Payment Status on the home page to see the payment and download the receipt."
     }
@@ -10668,7 +10668,7 @@
   },
   {
    "id": "hr-parivar-pehchan-patra",
-   "title": "Parivar Pehchan Patra (Family ID / PPP)",
+   "title": "परिवार पहचान पत्र (फैमिली ID / PPP)",
    "department": "Haryana Parivar Pehchan Authority, Citizen Resources Information Department (CRID), Haryana",
    "brief": "An 8-digit Family ID for every family living in Haryana, holding each member's details, income and bank account in one record. Almost every Haryana scheme uses it, from pensions and ration cards to Chirayu health cover and Lado Lakshmi, so once it is verified you need not prove the same things again. Making or updating it is free. You can create it yourself online, or get it made at a CSC, Saral Kendra or PPP operator.",
    "benefit": "Free Family ID that opens Haryana schemes and selects you for benefits automatically",
@@ -10695,19 +10695,19 @@
      "hint": "Choose NO to make a new Family ID. Choose YES if your family already has one and you want to see or update it."
     },
     {
-     "label": "Search With Aadhar No.",
+     "label": "आधार नंबर से खोजें (Search With Aadhar No.)",
      "value": "9999 7310 5524",
      "hint": "Aadhaar of the head of family. The system first checks whether you are already in some Family ID."
     },
     {
      "label": "OTP",
-     "value": "6-digit code",
+     "value": "6-अंकों का कोड",
      "hint": "Sent to the mobile number linked with that Aadhaar."
     },
     {
      "label": "Head of family: name, date of birth, gender",
-     "value": "Ramesh Kumar / 12-07-1980 / Male",
-     "hint": "Exactly as on Aadhaar."
+     "value": "रमेश कुमार / 12-07-1980 / पुरुष",
+     "hint": "बिल्कुल वैसा ही जैसा आधार पर है।"
     },
     {
      "label": "মবাইল নম্বৰ",
@@ -10716,7 +10716,7 @@
     },
     {
      "label": "Address (district, block or town, village or ward, house no.)",
-     "value": "Hisar / Barwala / Village Khera Jattan / 45",
+     "value": "हिसार / बरवाला / गाँव खेड़ा जट्टान / 45",
      "hint": "Where the family lives now."
     },
     {
@@ -10725,8 +10725,8 @@
      "hint": "Choose General, SC, BC-A or BC-B. It is checked against your caste certificate."
     },
     {
-     "label": "Annual income of each member",
-     "value": "Ramesh Kumar: Rs 96,000 (farming)",
+     "label": "हर सदस्य की वार्षिक आय",
+     "value": "रमेश कुमार: 96,000 रु. (खेती)",
      "hint": "Give true income. Schemes like Chirayu and Lado Lakshmi use the verified family income."
     },
     {
@@ -10735,8 +10735,8 @@
      "hint": "Pensions and other scheme money are sent to the account recorded here."
     },
     {
-     "label": "Family members (name, relation, Aadhaar)",
-     "value": "Sunita Devi, wife, 9999 7310 6611",
+     "label": "परिवार के सदस्य (नाम, संबंध, आधार)",
+     "value": "सुनीता देवी, पत्नी, 9999 7310 6611",
      "hint": "Add everyone who lives and eats together. Married daughters go to their husband's Family ID."
     }
    ],
@@ -10767,13 +10767,13 @@
    "documents": [
     "Family ID (Parivar Pehchan Patra) with verified income",
     "Aadhaar card of the applicant, and Aadhaar details of family members",
-    "Haryana residence certificate (15 years)",
+    "हरियाणा निवास प्रमाण पत्र (15 साल)",
     "Savings bank account in the woman's own name",
-    "Electricity connection (consumer account) number",
+    "बिजली कनेक्शन (उपभोक्ता खाता) नंबर",
     "Vehicle ownership details and HKRN ID, if any",
     "A smartphone, with the mobile number for OTP and the monthly face check"
    ],
-   "portalName": "Lado Lakshmi App (SEWA Department, Haryana)",
+   "portalName": "लाडो लक्ष्मी ऐप (सेवा विभाग, हरियाणा)",
    "demoFields": [
     {
      "label": "মবাইল নম্বৰ",
@@ -10781,32 +10781,32 @@
      "hint": "Type your number in the app and enter the OTP. The eligibility and payment SMS come here."
     },
     {
-     "label": "Family ID (PPP)",
+     "label": "फैमिली ID (PPP)",
      "value": "99991234",
      "hint": "The 8-digit Family ID. Your income and family details are taken from it."
     },
     {
-     "label": "Select applicant",
-     "value": "Sunita Devi (wife of head)",
+     "label": "आवेदक चुनें",
+     "value": "सुनीता देवी (मुखिया की पत्नी)",
      "hint": "The app shows the members on the Family ID. Pick the woman who is applying. She must be 23 or older."
     },
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 5521 8840",
-     "hint": "The applicant's own Aadhaar number."
+     "hint": "आवेदक का अपना आधार नंबर।"
     },
     {
-     "label": "Residence in Haryana",
-     "value": "15+ years, residence certificate",
+     "label": "हरियाणा में निवास",
+     "value": "15+ साल, निवास प्रमाण पत्र",
      "hint": "If you married into Haryana from another state, your husband's 15 years of residence counts."
     },
     {
-     "label": "Electricity consumer account number",
+     "label": "बिजली उपभोक्ता खाता नंबर",
      "value": "9999123456",
-     "hint": "Printed on your electricity bill."
+     "hint": "आपके बिजली बिल पर छपा होता है।"
     },
     {
-     "label": "Vehicle owned",
+     "label": "स्वामित्व वाला वाहन",
      "value": "নাই",
      "hint": "Give any car or other vehicle owned by the family. It is checked against transport records."
     },
@@ -10821,8 +10821,8 @@
      "hint": "Must be in the woman's own name. PFMS checks it before the first payment."
     },
     {
-     "label": "Monthly amount you choose",
-     "value": "Rs 2,100 (full amount)",
+     "label": "आपके द्वारा चुनी गई मासिक राशि",
+     "value": "2,100 रु. (पूरी राशि)",
      "hint": "Asked by SMS after verification. If you choose Rs 1,500 or less, Rs 500 is paid and Rs 1,000 still goes into the RD."
     }
    ],
@@ -10842,7 +10842,7 @@
    "title": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana (Rs 1,500 for Women)",
    "department": "Department of Social Justice & Empowerment (Directorate of Empowerment of SCs, OBCs, Minorities & Specially Abled), Government of Himachal Pradesh",
    "brief": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification.",
-   "benefit": "Rs 1,500 a month (Rs 18,000 a year), by DBT",
+   "benefit": "1,500 रु. महीना (18,000 रु. साल), DBT के ज़रिए",
    "eligibility": [
     "A woman who is a permanent (bonafide) resident of Himachal Pradesh, aged 21 to 59",
     "Family income below Rs 2 lakh a year; BPL families get priority",
@@ -10852,7 +10852,7 @@
     "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
    ],
    "documents": [
-    "Bonafide Himachali (permanent residence) certificate",
+    "बोनाफाइड हिमाचली (स्थायी निवासी) सर्टिफिकेट",
     "Proof of age (birth certificate, school certificate or Aadhaar)",
     "Family income certificate showing income below Rs 2 lakh",
     "Aadhaar card of the woman",
@@ -10863,18 +10863,18 @@
    "submitAt": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat.",
    "demoFields": [
     {
-     "label": "Name of applicant",
-     "value": "Sunita Thakur",
+     "label": "आवेदक का नाम",
+     "value": "सुनीता ठाकुर",
      "hint": "The woman's own name, as on Aadhaar and the bank passbook."
     },
     {
      "label": "Husband's / father's name",
-     "value": "Shri Rajinder Singh",
+     "value": "श्री राजिंदर सिंह",
      "hint": "As written in the Parivar Register or ration card."
     },
     {
      "label": "জন্মৰ তাৰিখ / বয়স",
-     "value": "12-04-1984 / 42 years",
+     "value": "12-04-1984 / 42 साल",
      "hint": "You must be at least 21 and not over 59. Attach the age proof."
     },
     {
@@ -10884,18 +10884,18 @@
     },
     {
      "label": "পৰিয়ালৰ বাৰ্ষিক আয়",
-     "value": "Rs 1,40,000",
+     "value": "रु. 1,40,000",
      "hint": "Income of the whole family from all sources, as in the income certificate. It must be below Rs 2 lakh."
     },
     {
-     "label": "BPL family",
+     "label": "BPL परिवार",
      "value": "হয়",
      "hint": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
     },
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 3381 6045",
-     "hint": "The applicant's own Aadhaar."
+     "hint": "आवेदक का अपना आधार।"
     },
     {
      "label": "বেংক একাউণ্ট নম্বৰ আৰু IFSC",
@@ -10903,13 +10903,13 @@
      "hint": "An account in your own name; the Rs 1,500 is paid here every month."
     },
     {
-     "label": "Parivar Register / ration card number",
-     "value": "PR No. 99/18",
+     "label": "परिवार रजिस्टर / राशन कार्ड नंबर",
+     "value": "PR नंबर 99/18",
      "hint": "Villages give the Parivar Register copy, towns give the ration card."
     },
     {
      "label": "ঘোষণা",
-     "value": "Signed",
+     "value": "हस्ताक्षरित",
      "hint": "You declare that no one in the family is a government employee, pensioner, ASHA or Anganwadi worker or in the other excluded groups, and that no other woman of the family gets this money."
     }
    ],
@@ -10938,39 +10938,39 @@
     "18 to 27 years: the course must be in a government college, university or institution in Himachal (degree, PG, diploma, PhD, JBT, NTT, nursing or a professional course)"
    ],
    "documents": [
-    "Bonafide Himachali certificate",
+    "बोनाफाइड हिमाचली सर्टिफिकेट",
     "আয়ৰ প্ৰমাণপত্ৰ",
     "Proof of the child's date of birth (birth certificate or 10th certificate)",
     "Death certificate of the father or spouse; or the FIR and report that he has been missing for 7 years; or proof of divorce; or the BDO or municipal report declaring the woman destitute or abandoned",
     "Medical certificate of 70% or more permanent disability, for a disabled parent",
-    "Copy of the Parivar Register",
-    "Bank account details",
+    "परिवार रजिस्टर की कॉपी",
+    "बैंक अकाउंट का विवरण",
     "For 18 to 27 years: detailed proof of fees and hostel expenses, verified by the head of the institution"
    ],
    "portalName": "হিমসেৱা হিমাচল প্ৰদেশ",
    "demoFields": [
     {
-     "label": "Login",
+     "label": "लॉगिन",
      "value": "Him Access SSO",
      "hint": "Log in with your Him Access account using Aadhaar or mobile OTP. A Lok Mitra Kendra can apply for you."
     },
     {
-     "label": "Name of mother / applicant",
-     "value": "Reena Devi",
+     "label": "माता / आवेदक का नाम",
+     "value": "रीना देवी",
      "hint": "The mother or the disabled parent who is applying for the child."
     },
     {
-     "label": "Applicant category",
+     "label": "आवेदक की श्रेणी",
      "value": "বিধৱা",
      "hint": "Widow, divorced, destitute or abandoned woman, husband missing for 7 years, or parent with 70% disability. Upload the matching proof."
     },
     {
-     "label": "Name of child",
-     "value": "Aarti",
+     "label": "बच्चे का नाम",
+     "value": "आरती",
      "hint": "One application for each child, with the child's own details."
     },
     {
-     "label": "Child's date of birth",
+     "label": "बच्चे की जन्म तिथि",
      "value": "05-08-2014",
      "hint": "From the birth certificate or 10th certificate. Up to 18 you get Rs 1,000 a month."
     },
@@ -10980,14 +10980,14 @@
      "hint": "From the income certificate. It must not be more than Rs 1 lakh."
     },
     {
-     "label": "School or college and class",
-     "value": "GSSS Bhoranj, Class 7",
+     "label": "स्कूल या कॉलेज और कक्षा",
+     "value": "GSSS भोरंज, कक्षा 7",
      "hint": "For 18 to 27, give the government college and course, and upload the fee and hostel proof signed by the principal."
     },
     {
      "label": "ঠিকনা",
      "value": "Village Lambloo, Panchayat Lambloo, Block Bhoranj, District Hamirpur",
-     "hint": "As in the Parivar Register."
+     "hint": "जैसा परिवार रजिस्टर में है।"
     },
     {
      "label": "আধাৰ নম্বৰ",
@@ -11033,21 +11033,21 @@
     "Undertaking that no family member is covered by a government employees' or pensioners' medical scheme",
     "Online payment of the premium, if your category has one"
    ],
-   "portalName": "HP Swasthya Bima Yojna Society (HIMCARE)",
+   "portalName": "HP स्वास्थ्य बीमा योजना सोसाइटी (HIMCARE)",
    "demoFields": [
     {
-     "label": "Login",
+     "label": "लॉगिन",
      "value": "Him Access SSO",
      "hint": "Log in with your Himachal Him Access account, using Aadhaar or mobile OTP. At a Lok Mitra Kendra or CSC the operator does this for Rs 50."
     },
     {
-     "label": "Application type",
-     "value": "Fresh enrollment",
+     "label": "आवेदन का प्रकार",
+     "value": "नया नामांकन",
      "hint": "Choose fresh enrollment for a new card. Use Renewal of Card on hpsbys.in if you already have one."
     },
     {
      "label": "শ্ৰেণী",
-     "value": "Category III — Rs 1,000 a year",
+     "value": "श्रेणी III — रु. 1,000 सालाना",
      "hint": "Pick the category you really belong to. A premium paid under the wrong category is not refunded."
     },
     {
@@ -11056,7 +11056,7 @@
      "hint": "Type the number without the letters HP. It must match the scanned card exactly."
     },
     {
-     "label": "Head of family",
+     "label": "परिवार का मुखिया",
      "value": "কমলা দেৱী",
      "hint": "Name as on the ration card and Aadhaar."
     },
@@ -11071,18 +11071,18 @@
      "hint": "Up to five members on one card, each with name, relation and Aadhaar."
     },
     {
-     "label": "District and block",
-     "value": "Mandi / Sundernagar",
+     "label": "जिला और ब्लॉक",
+     "value": "मंडी / सुंदरनगर",
      "hint": "Where the family lives; it is printed on the card."
     },
     {
-     "label": "Documents upload",
+     "label": "दस्तावेज अपलोड",
      "value": "Ration card front and back, category proof",
      "hint": "Upload clear scans of the original documents. Blurred or mismatched documents get the application rejected."
     },
     {
-     "label": "Undertaking and premium",
-     "value": "Accepted / Rs 1,000 paid online",
+     "label": "वचन पत्र (undertaking) और प्रीमियम",
+     "value": "स्वीकार किया गया / रु. 1,000 ऑनलाइन भुगतान किया गया",
      "hint": "Tick the undertaking and pay within 30 days of confirming, or the application lapses."
     }
    ],
@@ -11342,7 +11342,7 @@
   },
   {
    "id": "jk-sehat",
-   "title": "Ayushman Bharat PM-JAY SEHAT (Golden Card)",
+   "title": "आयुष्मान भारत PM-JAY SEHAT (गोल्डन कार्ड)",
    "department": "State Health Agency, Health & Medical Education Department, Jammu & Kashmir",
    "brief": "Free health cover of Rs.5 lakh a year for every family living in Jammu & Kashmir, whatever its income, including government employees and pensioners. Treatment is cashless at empanelled government and private hospitals in J&K, and at PM-JAY hospitals across India. The card, called the Golden Card or Ayushman card, is made on the family's ration card, and you can make it yourself on the phone.",
    "benefit": "Rs.5 lakh a year per family, cashless, no premium",
@@ -11375,7 +11375,7 @@
     },
     {
      "label": "আঁচনি আৰু ৰাজ্য",
-     "value": "PMJAY / Jammu and Kashmir",
+     "value": "PMJAY / जम्मू और कश्मीर",
      "hint": "SEHAT runs through PM-JAY, so choose PMJAY and then Jammu and Kashmir."
     },
     {
@@ -11410,7 +11410,7 @@
     },
     {
      "label": "জিলা আৰু পিন ক'ড",
-     "value": "Anantnag / 192101",
+     "value": "अनंतनाग / 192101",
      "hint": "Where you actually live now, so the nearest empanelled hospitals are shown to you."
     }
    ],
@@ -11507,7 +11507,7 @@
   },
   {
    "id": "jk-ladli-beti",
-   "title": "Ladli Beti Scheme, Jammu & Kashmir",
+   "title": "लाडली बेटी योजना, जम्मू और कश्मीर",
    "department": "Department of Social Welfare, Jammu & Kashmir",
    "brief": "For a girl born on or after 1 April 2015 into a low-income family in Jammu & Kashmir, the government puts Rs.1,000 a month into an account in her name until she turns 14. The money then stays in a term deposit, and at 21 she receives about Rs.6.5 lakh for her studies or marriage. Parents apply online on JanSugam (also reached through e-UNNAT); the CDPO checks the application and the Deputy Commissioner sanctions it.",
    "benefit": "Rs.1,000 a month till she is 14; about Rs.6.5 lakh paid to her at 21",
@@ -11518,18 +11518,18 @@
     "The money is held in the girl's own account and paid to her only at age 21"
    ],
    "documents": [
-    "Birth certificate of the girl",
+    "लड़की का जन्म सर्टिफिकेट",
     "Income certificate of the parents, showing less than Rs.75,000 a year",
     "Aadhaar card of the girl and of the parents",
-    "Domicile certificate of the parents",
+    "माता-पिता का डोमिसाइल सर्टिफिकेट",
     "Ration card or other address proof",
     "J&K Bank account details in the girl's name, once the sanction letter asks for them"
    ],
-   "portalName": "JanSugam (ServicePlus) Jammu & Kashmir",
+   "portalName": "JanSugam (ServicePlus) जम्मू और कश्मीर",
    "demoFields": [
     {
-     "label": "Name of the girl child",
-     "value": "Zoya Bashir",
+     "label": "बालिका का नाम",
+     "value": "ज़ोया बशीर",
      "hint": "Exactly as written on her birth certificate."
     },
     {
@@ -11538,22 +11538,22 @@
      "hint": "Must be on or after 01/04/2015. Apply soon after the birth certificate is issued."
     },
     {
-     "label": "Place of birth",
-     "value": "District Hospital, Pulwama",
+     "label": "जन्म स्थान",
+     "value": "जिला अस्पताल, पुलवामा",
      "hint": "The hospital or place named on the birth certificate."
     },
     {
      "label": "দেউতাকৰ নাম",
-     "value": "Bashir Ahmad Lone",
+     "value": "बशीर अहमद लोन",
      "hint": "তেওঁৰ আধাৰ কাৰ্ডত থকাৰ দৰে।"
     },
     {
      "label": "মাতৃৰ নাম",
-     "value": "Shazia Bano",
-     "hint": "As on her Aadhaar card."
+     "value": "शाज़िया बानो",
+     "hint": "जैसा उसके आधार कार्ड पर है।"
     },
     {
-     "label": "Aadhaar number of parent",
+     "label": "माता-पिता का आधार नंबर",
      "value": "9999 4521 7730",
      "hint": "The 12 digits on the mother's or father's own Aadhaar card."
     },
@@ -11563,13 +11563,13 @@
      "hint": "Total from all sources, the same figure as on the income certificate. It must be below Rs.75,000."
     },
     {
-     "label": "District and ICDS project",
-     "value": "Pulwama / ICDS Project Pampore",
+     "label": "जिला और ICDS प्रोजेक्ट",
+     "value": "पुलवामा / ICDS प्रोजेक्ट पांपोर",
      "hint": "The block ICDS project where you live. Its CDPO checks your form."
     },
     {
      "label": "ঠিকনা",
-     "value": "Ward 4, Lethpora, Pulwama",
+     "value": "वार्ड 4, लेथपोरा, पुलवामा",
      "hint": "Where the family lives now."
     },
     {
@@ -11591,7 +11591,7 @@
   },
   {
    "id": "jh-abua-awas",
-   "title": "Abua Awas Yojana (Abua Awas)",
+   "title": "अबुआ आवास योजना (अबुआ आवास)",
    "department": "Rural Development Department, Government of Jharkhand",
    "brief": "Jharkhand's own rural housing scheme: Rs.2 lakh to build a pucca house with three rooms and a kitchen, for families who have no house or live in a kutcha house and did not get one under PM Awas Yojana-Gramin. The state received about 30 lakh applications at the 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camps, found about 20 lakh genuine, and is building houses for them in phases. The money comes in instalments into the beneficiary's bank account as each stage of the house is geo-tagged, plus 95 days of MGNREGA wages for the family's own labour.",
    "benefit": "Rs.2 lakh in instalments for a 3-room pucca house with kitchen, plus 95 days of MGNREGA wages",
@@ -11608,7 +11608,7 @@
     "Bank passbook of an Aadhaar-linked account in the applicant's name",
     "MGNREGA job card, for the 95 days of wages",
     "Land paper for the plot where the house will be built (khatiyan or rent receipt)",
-    "Caste certificate, if SC, ST or PVTG",
+    "जाति सर्टिफिकेट, यदि SC, ST या PVTG हो",
     "মবাইল নম্বৰ"
    ],
    "portalName": "Abua Awas Yojana portal, Rural Development Department",
@@ -11616,36 +11616,36 @@
    "demoFields": [
     {
      "label": "আবেদনকাৰীৰ নাম",
-     "value": "Somari Munda",
+     "value": "सोमरी मुंडा",
      "hint": "As on Aadhaar. The sanction and payments are in this name."
     },
     {
      "label": "Father's / husband's name",
-     "value": "Etwa Munda",
+     "value": "एतवा मुंडा",
      "hint": "Husband's name if married, otherwise father's name."
     },
     {
-     "label": "Village, panchayat, block, district",
+     "label": "गाँव, पंचायत, ब्लॉक, जिला",
      "value": "Hesal, Hesal panchayat, Torpa block, Khunti district",
      "hint": "Where the family lives and where the new house will be built."
     },
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 7310 4482",
-     "hint": "The applicant's 12-digit Aadhaar number."
+     "hint": "आवेदक का 12-अंकों वाला आधार नंबर।"
     },
     {
      "label": "ৰেচন কাৰ্ড নম্বৰ",
      "value": "202099998877",
-     "hint": "The family's ration card number."
+     "hint": "परिवार का राशन कार्ड नंबर।"
     },
     {
      "label": "Social category",
-     "value": "ST (PVTG: No)",
+     "value": "ST (PVTG: नहीं)",
      "hint": "Write SC, ST, OBC or General, and say if the family belongs to a PVTG group."
     },
     {
-     "label": "Present house",
+     "label": "वर्तमान घर",
      "value": "Kutcha, mud walls with tiled roof",
      "hint": "Describe the house you live in now, or write 'no house'."
     },
@@ -11660,7 +11660,7 @@
      "hint": "An Aadhaar-linked account in the applicant's own name. Every instalment comes here."
     },
     {
-     "label": "MGNREGA job card number",
+     "label": "MGNREGA जॉब कार्ड नंबर",
      "value": "JH-99-001-002-003/123",
      "hint": "Needed for the 95 days of wages for building your own house."
     }
@@ -12517,9 +12517,9 @@
    "brief": "Construction workers in Karnataka who register with the Welfare Board get a labour card, now a digital e-card, which opens the board's help: Rs.50,000 for each of a woman worker's first two deliveries, Rs.60,000 for a marriage, up to Rs.2 lakh for a major illness, education help for children, accident cover and a pension at 60. You register on the board's Karmika Seva Kendra (KSK) portal with your Aadhaar mobile number and a 90-day work certificate. Workers who already hold an old Seva Sindhu or e-Karmika card move it to the new portal with their registration and reference numbers.",
    "benefit": "Labour e-card for board help: Rs.50,000 per delivery, Rs.60,000 for marriage, up to Rs.2 lakh medical aid, pension up to Rs.3,000 a month at 60",
    "eligibility": [
-    "Aged 18 to 60",
+    "उम्र 18 से 60 वर्ष",
     "Worked at least 90 days as a building or construction worker in the last 12 months: mason, helper, carpenter, painter, plumber, electrician, bar bender, tile layer and similar work",
-    "Working in Karnataka",
+    "कर्नाटक में काम कर रहे हैं",
     "The e-card is valid for one year. Renew it on the portal with a fresh work certificate, or the benefits stop",
     "For the pension, you must have been registered for at least 3 years before turning 60"
    ],
@@ -12533,11 +12533,11 @@
     "Ayushman Bharat card number, if you have one",
     "Your old Seva Sindhu or e-Karmika card, if you already have one"
    ],
-   "portalName": "Karmika Seva Kendra (KSK) portal",
+   "portalName": "Karmika Seva Kendra (KSK) पोर्टल",
    "demoFields": [
     {
-     "label": "Registration type",
-     "value": "Register as a New Construction Worker",
+     "label": "पंजीकरण का प्रकार",
+     "value": "नए निर्माण श्रमिक के रूप में पंजीकरण करें",
      "hint": "If you already have an old card, choose 'Already Existing Seva Sindhu/E-Karmika Construction Worker' instead and type its registration and reference numbers exactly as printed."
     },
     {
@@ -12546,17 +12546,17 @@
      "hint": "The OTP comes here. The Aadhaar e-KYC then fills in your name, date of birth and photo."
     },
     {
-     "label": "Caste, religion and education",
-     "value": "OBC, Hindu, 7th standard",
+     "label": "जाति, धर्म और शिक्षा",
+     "value": "OBC, हिंदू, 7वीं कक्षा",
      "hint": "An education certificate is needed only if you studied beyond SSLC."
     },
     {
      "label": "Present address",
-     "value": "Ward 9, Kote Road, Raichur 584101",
+     "value": "वार्ड 9, कोटे रोड, रायचूर 584101",
      "hint": "Where you live now, if it is different from the address on Aadhaar."
     },
     {
-     "label": "Family and nominee",
+     "label": "परिवार और नॉमिनी",
      "value": "Wife Renuka (31), son Kiran (9), daughter Pooja (6)",
      "hint": "The nominee receives the death and funeral help. Add your children too; education and marriage help is given for them."
     },
@@ -12571,13 +12571,13 @@
      "hint": "Upload a copy of the card as well."
     },
     {
-     "label": "Employer / owner details",
+     "label": "नियोक्ता / मालिक का विवरण",
      "value": "Shivashakti Builders, site in-charge Mahantesh, 90000 18834",
      "hint": "Name of the employer, the company, and the mobile number of the person in charge of the site."
     },
     {
-     "label": "Work site address and PIN code",
-     "value": "Site no. 42, Ashapur Road, Raichur 584103",
+     "label": "कार्य स्थल का पता और PIN कोड",
+     "value": "साइट नंबर 42, आशापुर रोड, रायचूर 584103",
      "hint": "Where you did the 90 days of work."
     },
     {
@@ -12616,7 +12616,7 @@
     "Degree, postgraduate or diploma marks cards and the provisional or final certificate",
     "SSLC and PUC marks cards, as proof of study in Karnataka",
     "Bank passbook of an account in your own name, Aadhaar-seeded",
-    "Mobile number and email ID",
+    "मोबाइल नंबर और ईमेल ID",
     "Self-declaration that you are not employed or studying (made on the portal)"
    ],
    "portalName": "Seva One (Seva Sindhu)",
@@ -12632,27 +12632,27 @@
      "hint": "Payment messages and the three-monthly declaration reminders come here."
     },
     {
-     "label": "Qualification",
+     "label": "योग्यता",
      "value": "স্নাতক (B.Com)",
      "hint": "Graduates and postgraduates get Rs.3,000; diploma holders get Rs.1,500. Choose what you actually passed."
     },
     {
-     "label": "University / Board",
-     "value": "Karnatak University, Dharwad",
+     "label": "विश्वविद्यालय / बोर्ड",
+     "value": "कर्नाटक विश्वविद्यालय, धारवाड़",
      "hint": "The body that awarded the degree or diploma."
     },
     {
-     "label": "Register number / USN",
+     "label": "रजिस्टर नंबर / USN",
      "value": "21KUBC99457",
      "hint": "As printed on your final marks card."
     },
     {
-     "label": "Year and date of result",
-     "value": "2025 — result declared on 14-07-2025",
+     "label": "परिणाम का वर्ष और तिथि",
+     "value": "2025 — परिणाम 14-07-2025 को घोषित किया गया",
      "hint": "The 180 days without a job are counted from this date. Apply only after they are over."
     },
     {
-     "label": "SSLC and PUC register numbers and years",
+     "label": "SSLC और PUC रजिस्टर नंबर और वर्ष",
      "value": "SSLC 2019, 99K1902233; PUC 2021, 99P2104410",
      "hint": "These prove that you studied in Karnataka."
     },
@@ -12668,7 +12668,7 @@
     },
     {
      "label": "District / Taluk",
-     "value": "Gadag / Ron",
+     "value": "गदग / रोन",
      "hint": "Where you live. The district employment officer handles your file."
     }
    ],
@@ -12861,15 +12861,15 @@
     "The bill need not be in your name: tenants and family members choose their type in the form",
     "Tenants: a rent agreement or other proof of living at that address, if the office asks for it"
    ],
-   "portalName": "Guarantee Schemes portal (Seva Sindhu)",
+   "portalName": "गारंटी योजना पोर्टल (Seva Sindhu)",
    "demoFields": [
     {
-     "label": "Preferred Language",
+     "label": "पसंदीदा भाषा",
      "value": "English",
      "hint": "English or Kannada. The labels of the form change to the language you pick."
     },
     {
-     "label": "ESCOM name",
+     "label": "ESCOM का नाम",
      "value": "HESCOM",
      "hint": "The company named at the top of your bill: BESCOM, MESCOM, CESC, HESCOM, GESCOM or Hukkeri Society."
     },
@@ -12879,18 +12879,18 @@
      "hint": "The account or connection ID printed on your bill, not the meter number. The name and address then fill in from the ESCOM's records."
     },
     {
-     "label": "Account holder's name as in ESCOM",
-     "value": "Basappa Mallappa Kotur",
+     "label": "ESCOM के अनुसार अकाउंट धारक का नाम",
+     "value": "बसप्पा मल्लप्पा कोटूर",
      "hint": "Comes from the ESCOM record. It may be the landlord's name or a late parent's name; that is fine."
     },
     {
-     "label": "Account holder's address as in ESCOM",
-     "value": "No. 14, 3rd Cross, Vidyanagar, Hubballi",
+     "label": "ESCOM के अनुसार अकाउंट धारक का पता",
+     "value": "नंबर 14, तीसरी क्रॉस, विद्यानगर, हुब्बल्ली",
      "hint": "Filled in automatically. Check that it is the house you actually live in."
     },
     {
-     "label": "User type",
-     "value": "Tenant",
+     "label": "उपयोगकर्ता का प्रकार",
+     "value": "किराएदार",
      "hint": "Owner, Tenant, or Family member (for example, when the bill is in your father's name)."
     },
     {
@@ -12900,17 +12900,17 @@
     },
     {
      "label": "আবেদনকাৰীৰ নাম",
-     "value": "Savitha Ramesh Patil",
+     "value": "सविता रमेश पाटिल",
      "hint": "Exactly as on your Aadhaar. The OTP check matches it."
     },
     {
-     "label": "Phone number for communication",
+     "label": "संचार के लिए फोन नंबर",
      "value": "90000 41187",
      "hint": "The acknowledgement and later messages about the scheme come here."
     },
     {
      "label": "ঘোষণা",
-     "value": "I Agree",
+     "value": "मैं सहमत हूँ",
      "hint": "You confirm the connection is used only for the house. Commercial use cancels the benefit, and the free amount is recovered with interest."
     }
    ],
@@ -13098,7 +13098,7 @@
     "Membership application form from the Board's district office",
     "Age proof: birth certificate, school certificate or Aadhaar",
     "Certificate of at least 90 days' construction work in the last 12 months, from your employer or contractor",
-    "Aadhaar card copy",
+    "आधार कार्ड की कॉपी",
     "Copy of a bank passbook in the worker's own name",
     "Passport-size photos and your nominee's details",
     "For each benefit later: the Board's claim form for it (Form 34 for pension, Form 38 for disability pension, Form 36 for death benefit) with the Welfare Fund ID card and passbook"
@@ -13106,8 +13106,8 @@
    "submitAt": "The district office of the Kerala Building and Other Construction Workers Welfare Board (District Executive Officer) in your district. Collect the membership form there, attach the copies, pay the first subscription and take a receipt. Head office: Nirman Bhavan, Mettukada, Thycaud, Thiruvananthapuram.",
    "demoFields": [
     {
-     "label": "Name of worker",
-     "value": "Shibu Thankappan",
+     "label": "श्रमिक का नाम",
+     "value": "शिबू थंकप्पन",
      "hint": "As on your Aadhaar card."
     },
     {
@@ -13116,18 +13116,18 @@
      "hint": "Must match your age proof. You must be between 18 and 59 to join."
     },
     {
-     "label": "Address and local body",
+     "label": "पता और स्थानीय निकाय",
      "value": "Thekkethil House, Ward 9, Pallickal Grama Panchayat, Kollam",
      "hint": "Where you live now. The district office of this district handles your file."
     },
     {
-     "label": "Type of work",
+     "label": "काम का प्रकार",
      "value": "Mason",
      "hint": "Your main construction trade, such as mason, carpenter, helper, painter, plumber or electrician."
     },
     {
-     "label": "90 days' work certified by",
-     "value": "M. Rajan, building contractor, Karunagappally",
+     "label": "90 दिनों का काम इनके द्वारा प्रमाणित",
+     "value": "एम. राजन, भवन ठेकेदार, करुणागापल्ली",
      "hint": "The employer or contractor who signs that you worked at least 90 days in the last 12 months."
     },
     {
@@ -13141,8 +13141,8 @@
      "hint": "An account in your own name. All benefits are paid into it."
     },
     {
-     "label": "Nominee and relation",
-     "value": "Sindhu S., wife",
+     "label": "नॉमिनी और संबंध",
+     "value": "सिंधु एस., पत्नी",
      "hint": "The person who gets the death benefit and the refund if something happens to you."
     },
     {
@@ -13151,8 +13151,8 @@
      "hint": "A number you keep with you, for messages from the Board."
     },
     {
-     "label": "Monthly subscription",
-     "value": "Rs.50",
+     "label": "मासिक अंशदान",
+     "value": "रु. 50",
      "hint": "Pay it every month and see that it is entered in your Welfare Fund passbook."
     }
    ],
@@ -13169,7 +13169,7 @@
   },
   {
    "id": "kl-kasp",
-   "title": "Karunya Arogya Suraksha Padhathi (KASP Card)",
+   "title": "कारुण्य आरोग्य सुरक्षा पद्धति (KASP Card)",
    "department": "State Health Agency Kerala, Department of Health and Family Welfare, Government of Kerala",
    "brief": "Kerala's free health cover, run together with Ayushman Bharat PM-JAY. About 42 lakh poorer families get treatment worth up to Rs.5 lakh a year per family, cashless, at about 180 government and 365 private empanelled hospitals. The KASP card is made at the KASP help desk of an empanelled hospital or at an Akshaya centre after an Aadhaar check. The new government plans to merge KASP into a bigger Oommen Chandy Health Insurance Scheme, but until that is notified KASP cards keep working as before.",
    "benefit": "Up to Rs.5 lakh a year per family, cashless, at empanelled hospitals",
@@ -13190,7 +13190,7 @@
    "submitAt": "The KASP (PM-JAY) help desk at any empanelled government or private hospital, such as a medical college, district or taluk hospital, or any Akshaya e-Kendra. Take the Aadhaar card of every member who needs a card, the ration card and a mobile phone. There is no paper form: the staff search your family on the computer and check each member's Aadhaar.",
    "demoFields": [
     {
-     "label": "Search family by",
+     "label": "परिवार खोजें",
      "value": "ৰেচন কাৰ্ড নম্বৰ",
      "hint": "The ration card finds the whole family at once. If nothing comes up, the staff try with your Aadhaar number."
     },
@@ -13200,13 +13200,13 @@
      "hint": "The 10-digit number printed on your ration card."
     },
     {
-     "label": "Family found in",
-     "value": "KASP (state list)",
+     "label": "परिवार यहाँ मिला",
+     "value": "KASP (राज्य सूची)",
      "hint": "Shows whether your family is on the PM-JAY list or the state KASP list. Both get the same Rs.5 lakh cover."
     },
     {
      "label": "Member selected",
-     "value": "Saramma Varghese, 63, Female",
+     "value": "सरम्मा वर्गीस, 63, महिला",
      "hint": "Each member is done one by one. Check the name and age before the card is printed."
     },
     {
@@ -13226,17 +13226,17 @@
     },
     {
      "label": "লাইভ ফটো",
-     "value": "Taken at the desk",
+     "value": "डेस्क पर ली गई",
      "hint": "Face the camera straight, without cap or dark glasses."
     },
     {
      "label": "জিলা",
-     "value": "Kottayam",
-     "hint": "Where you live now."
+     "value": "कोट्टायम",
+     "hint": "जहाँ आप अभी रहते हैं।"
     },
     {
-     "label": "Card status",
-     "value": "Approved, card printed",
+     "label": "कार्ड की स्थिति",
+     "value": "स्वीकृत, कार्ड प्रिंट हो गया",
      "hint": "Keep the card or a photo of it on your phone. It is valid at every empanelled hospital in the country."
     }
    ],
@@ -13704,7 +13704,7 @@
      "hint": "The operator finds your family with this number. Bring the card itself, not just a photo of it."
     },
     {
-     "label": "Head of family",
+     "label": "परिवार का मुखिया",
      "value": "Tsering Dorjay",
      "hint": "The person named first on the ration card."
     },
@@ -13736,11 +13736,11 @@
     {
      "label": "District and tehsil",
      "value": "Leh / Khaltsi",
-     "hint": "Where you live now."
+     "hint": "जहाँ आप अभी रहते हैं।"
     },
     {
      "label": "Photo",
-     "value": "Taken at the desk",
+     "value": "डेस्क पर ली गई",
      "hint": "Face straight, no cap or dark glasses."
     }
    ],
@@ -14021,7 +14021,7 @@
    "submitAt": "The office of the Executive Officer of the Village (Dweep) Panchayat on your island. The form is given there free. Hand it back with photocopies of your documents and show the originals. After the VDP Evaluation Committee checks it, the VDP sends it to the Chief Executive Officer, District Panchayat (HQ), Kavaratti.",
    "demoFields": [
     {
-     "label": "Name of applicant",
+     "label": "आवेदक का नाम",
      "value": "Kunhibi P.",
      "hint": "As on your Aadhaar card. The form is collected at your VDP office; these are the details it asks for."
     },
@@ -15076,7 +15076,7 @@
     "Samagra family ID, with the girl added as a member and her 9-digit Samagra member ID",
     "Photo of the girl with her mother or father (JPG or PNG, 40 to 200 KB)",
     "Family planning (sterilisation) certificate, if this is the second girl",
-    "Birth certificate of the girl",
+    "लड़की का जन्म सर्टिफिकेट",
     "Aadhaar card of the mother or father, with e-KYC done in Samagra",
     "OTPৰ বাবে মবাইল নম্বৰ"
    ],
@@ -17514,7 +17514,7 @@
      "hint": "The farmer ID you got when your land was added to the Farmer Registry. Ask the Village Agriculture Worker if you do not have one."
     },
     {
-     "label": "Applicant category",
+     "label": "आवेदक की श्रेणी",
      "value": "Small & Marginal Farmer (SMF)",
      "hint": "Choose Landless Agricultural Household (LAH) if you own no farm land but work on farms."
     },
@@ -19057,7 +19057,7 @@
     {
      "label": "Farmer name and gender",
      "value": "Ramkishan Gurjar, Male",
-     "hint": "Exactly as on Aadhaar."
+     "hint": "बिल्कुल वैसा ही जैसा आधार पर है।"
     },
     {
      "label": "Category and farmer type",
@@ -19296,7 +19296,7 @@
      "hint": "Your Rajasthan SSO login. If you have none, make one free on the same page using your Jan Aadhaar."
     },
     {
-     "label": "Registration type",
+     "label": "पंजीकरण का प्रकार",
      "value": "Free",
      "hint": "Free is for small and marginal farmers, contract workers and Covid ex-gratia families. Every other family chooses Paid and pays Rs 850. NFSA ration-card families do not register at all."
     },
@@ -19704,7 +19704,7 @@
      "hint": "As on the child's Aadhaar card."
     },
     {
-     "label": "Child's date of birth",
+     "label": "बच्चे की जन्म तिथि",
      "value": "05-09-2017 (age 9)",
      "hint": "Decides the rate: up to 6 years or 6–18 years. Get any error fixed in Jan Aadhaar first."
     },
@@ -21230,7 +21230,7 @@
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 7531 8642",
-     "hint": "The applicant's own Aadhaar."
+     "hint": "आवेदक का अपना आधार।"
     },
     {
      "label": "ৰেচন কাৰ্ড নম্বৰ",
@@ -22745,7 +22745,7 @@
     {
      "label": "জিলা আৰু পিন ক'ড",
      "value": "West Tripura / 799001",
-     "hint": "Where you live now."
+     "hint": "जहाँ आप अभी रहते हैं।"
     }
    ],
    "demoSteps": [
@@ -25198,7 +25198,7 @@
      "hint": "These come filled in from the Swasthya Sathi record. Change them only if the family now lives somewhere else."
     },
     {
-     "label": "Family Head Name",
+     "label": "परिवार के मुखिया का नाम",
      "value": "Shefali Mondal",
      "hint": "Usually the eldest woman of the family, in whose name the Swasthya Sathi card was made."
     },

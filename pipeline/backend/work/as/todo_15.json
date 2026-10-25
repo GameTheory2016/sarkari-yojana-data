@@ -6,271 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_15.json",
  "items": [
   {
-   "k": "024512411083",
-   "ctx": "value",
-   "t": "Unmarried (कन्या)"
-  },
-  {
-   "k": "54ebcd046cde",
-   "ctx": "hint",
-   "t": "Choose widow or divorced if that applies, and attach the death certificate or the court order."
-  },
-  {
-   "k": "4d9fa354f308",
-   "ctx": "label",
-   "t": "Groom's name and father's name"
-  },
-  {
-   "k": "01a9b6f9c70f",
-   "ctx": "value",
-   "t": "Rahul Jatav, son of Ramesh Jatav"
-  },
-  {
-   "k": "6a7bb3a2ed27",
-   "ctx": "hint",
-   "t": "As on the groom's Aadhaar card."
-  },
-  {
-   "k": "2b5e87a15027",
-   "ctx": "label",
-   "t": "Groom's date of birth"
-  },
-  {
-   "k": "6ea0a9fbbc07",
-   "ctx": "value",
-   "t": "18/08/2001 (25 years)"
-  },
-  {
-   "k": "c7b04b64cc9f",
-   "ctx": "hint",
-   "t": "He must have completed 21 years. Attach one age proof."
-  },
-  {
-   "k": "5213f606a24d",
-   "ctx": "label",
-   "t": "Groom's Samagra ID and address"
-  },
-  {
-   "k": "596a70b2372b",
-   "ctx": "value",
-   "t": "419027365, village Bilkisganj, Sehore"
-  },
-  {
-   "k": "179e1273d457",
-   "ctx": "hint",
-   "t": "A groom from outside Madhya Pradesh writes only his full address; Samagra is not needed."
-  },
-  {
-   "k": "958433aaf0f5",
-   "ctx": "demoSteps",
-   "t": "Find out the mass wedding dates fixed for your area at the Janpad Panchayat or municipal office. Upcoming events are also listed on vivahportal.mp.gov.in."
-  },
-  {
-   "k": "778f478482cd",
-   "ctx": "demoSteps",
-   "t": "Collect the free form there or download it. The bride and groom fill it in together and sign their declarations."
-  },
-  {
-   "k": "8e54396e3f83",
-   "ctx": "demoSteps",
-   "t": "Hand it in at least 15 days before the date, with the documents and photos, and keep the receipt (pavti)."
-  },
-  {
-   "k": "5e329098b933",
-   "ctx": "demoSteps",
-   "t": "A committee checks the papers and enters the result on the Vivah Portal at least 7 days before the wedding. Eligible couples get an approval order and an invitation letter."
-  },
-  {
-   "k": "1b86d9f3c46c",
-   "ctx": "demoSteps",
-   "t": "Attend the mass wedding on the fixed date. The marriage certificate is issued online through the portal."
-  },
-  {
-   "k": "8e6bc7c3e929",
-   "ctx": "demoSteps",
-   "t": "The bride receives the Rs 49,000 account payee cheque in her name; deposit it in her own bank account. Track the application on vivahportal.mp.gov.in under Track Application."
-  },
-  {
-   "k": "8722ec22ede3",
-   "ctx": "helpline",
-   "t": "0755-2556916 (Commissioner, Social Justice, Bhopal), CM Helpline 181"
-  },
-  {
-   "k": "b5e2d9b1d9d0",
-   "ctx": "title",
-   "t": "Mukhyamantri Kisan Kalyan Yojana (CM Kisan Kalyan)"
-  },
-  {
-   "k": "90f9a8b6baf3",
-   "ctx": "department",
-   "t": "Department of Farmer Welfare and Agriculture Development, with the Revenue Department, Madhya Pradesh"
-  },
-  {
-   "k": "876a93e34e74",
-   "ctx": "brief",
-   "t": "Madhya Pradesh adds Rs 6,000 a year to the Rs 6,000 farmers get from PM-Kisan, so a farmer family gets Rs 12,000 a year in all. The state pays it in three instalments of Rs 2,000 straight into the bank account. There is no separate form. Every MP farmer approved under PM-Kisan is added automatically once the Patwari has verified the land. This SAARA page shows whether you are active and when each instalment was paid."
-  },
-  {
-   "k": "c3251f65e663",
-   "ctx": "benefit",
-   "t": "Rs 6,000 a year (3 instalments of Rs 2,000) on top of PM-Kisan"
-  },
-  {
-   "k": "617ff8cff55f",
-   "ctx": "eligibility",
-   "t": "Farmer families in Madhya Pradesh who are approved beneficiaries of PM-Kisan"
-  },
-  {
-   "k": "d1fde1508517",
-   "ctx": "eligibility",
-   "t": "Farm land recorded in the farmer's own name in MP land records (khasra or B-1)"
-  },
-  {
-   "k": "8a16f630df4d",
-   "ctx": "eligibility",
-   "t": "PM-Kisan e-KYC done, and a bank account that is Aadhaar-seeded and DBT-enabled"
-  },
-  {
-   "k": "d5888f039813",
-   "ctx": "eligibility",
-   "t": "Not eligible: income tax payers, serving or retired government employees (except Group D), pensioners getting Rs 10,000 or more a month, practising doctors, engineers, lawyers and CAs, and present or former MPs, MLAs and ministers"
-  },
-  {
-   "k": "803c6eb93ab2",
-   "ctx": "eligibility",
-   "t": "Each instalment is checked by the Patwari and approved by the Tehsildar before payment"
-  },
-  {
-   "k": "6959fd916f69",
-   "ctx": "documents",
-   "t": "Aadhaar card, with the mobile number linked for e-KYC OTP"
-  },
-  {
-   "k": "b49850954824",
-   "ctx": "documents",
-   "t": "Khasra or B-1 land record showing the land in your name"
-  },
-  {
-   "k": "361e0c49b762",
-   "ctx": "documents",
-   "t": "Bank passbook of an Aadhaar-seeded, DBT-enabled account"
-  },
-  {
-   "k": "348bdbd66799",
-   "ctx": "documents",
-   "t": "PM-Kisan registration number, if you are already registered"
-  },
-  {
-   "k": "feafedf03cb4",
-   "ctx": "portalName",
-   "t": "SAARA portal (Revenue Department, MP)"
-  },
-  {
-   "k": "a9350808f186",
-   "ctx": "value",
-   "t": "Aadhaar number (आधार नंबर)"
-  },
-  {
-   "k": "d0a8e8ec93a0",
-   "ctx": "hint",
-   "t": "You can also search by bank account number or PM-Kisan ID. Aadhaar is the easiest."
-  },
-  {
-   "k": "ec73aff1f7af",
-   "ctx": "hint",
-   "t": "The farmer's own 12-digit Aadhaar, the same one given for PM-Kisan."
-  },
-  {
-   "k": "e7aa0115cba6",
-   "ctx": "label",
-   "t": "Captcha (कृपया कैप्चा डालें)"
-  },
-  {
-   "k": "ef5406632f63",
-   "ctx": "hint",
-   "t": "Copy the letters in the picture exactly. Reload the picture if you cannot read it."
-  },
-  {
-   "k": "20aabf842b33",
-   "ctx": "label",
-   "t": "Active / Inactive (सक्रिय/निष्क्रिय)"
-  },
-  {
-   "k": "a733b809d2f1",
-   "ctx": "value",
-   "t": "Active"
-  },
-  {
-   "k": "f7c95f979ff8",
-   "ctx": "hint",
-   "t": "Active means instalments will come. If it says Inactive, the next box tells you why."
-  },
-  {
-   "k": "1127dd91a580",
-   "ctx": "label",
-   "t": "Reason if inactive"
-  },
-  {
-   "k": "23cb2a0f728b",
-   "ctx": "hint",
-   "t": "Common reasons are e-KYC not done, land not seeded, or a name mismatch between Aadhaar, bank and land record. Take your papers to the Patwari or tehsil office to fix it."
-  },
-  {
-   "k": "ff3fed5280ac",
-   "ctx": "label",
-   "t": "Khasra number (खसरा क्रमांक)"
-  },
-  {
-   "k": "3a2224aa95ef",
-   "ctx": "value",
-   "t": "214/2, village Pipalkheda"
-  },
-  {
-   "k": "8f540ca540cb",
-   "ctx": "hint",
-   "t": "Check that every piece of your land is listed. If a khasra is missing, tell the Patwari."
-  },
-  {
-   "k": "3535af368d46",
-   "ctx": "label",
-   "t": "Patwari verification date"
-  },
-  {
-   "k": "4f0479f23a24",
-   "ctx": "hint",
-   "t": "The date the Patwari checked your land for this instalment. If it is blank, the instalment has not moved yet."
-  },
-  {
-   "k": "acc9f18b6072",
-   "ctx": "label",
-   "t": "Tehsildar approval date"
-  },
-  {
-   "k": "b886fd564e07",
-   "ctx": "hint",
-   "t": "After this date the payment order is made."
-  },
-  {
-   "k": "8f48d0763582",
-   "ctx": "label",
-   "t": "Payment status and UTR number"
-  },
-  {
-   "k": "fa1cfa18ef8e",
-   "ctx": "value",
-   "t": "Success, UTR SBIN826190045533"
-  },
-  {
-   "k": "1625dcc923cc",
-   "ctx": "hint",
-   "t": "Success with a UTR number means the money has gone to the bank account shown. Quote the UTR at the bank if it does not appear."
-  },
-  {
-   "k": "bb262262f35d",
-   "ctx": "demoSteps",
-   "t": "First check whether you already get PM-Kisan. If you do, you need not apply for this scheme; the state adds you automatically."
-  },
-  {
    "k": "331b8694c681",
    "ctx": "demoSteps",
    "t": "If you are not on PM-Kisan, register for it: New Farmer Registration on pmkisan.gov.in, or through the Patwari, a CSC or Lok Seva Kendra. Your land must be in your name in MP."
@@ -1109,6 +844,221 @@
    "k": "dfe7832d84fe",
    "ctx": "demoSteps",
    "t": "To make the next visit quicker, get the Ayushman card made for every family member at a CSC, through the ASHA worker or at the Arogyamitra desk."
+  },
+  {
+   "k": "213867ba5161",
+   "ctx": "helpline",
+   "t": "155388 / 1800-233-2200 (MJPJAY toll-free call centre); 14555 (Ayushman Bharat PM-JAY)"
+  },
+  {
+   "k": "e9b305af050d",
+   "ctx": "title",
+   "t": "Sanjay Gandhi Niradhar Anudan Yojana (Niradhar Pension)"
+  },
+  {
+   "k": "6cdd5f15eb22",
+   "ctx": "department",
+   "t": "Social Justice and Special Assistance Department, Government of Maharashtra (through the Tehsildar)"
+  },
+  {
+   "k": "eacb8742989a",
+   "ctx": "brief",
+   "t": "A monthly pension of Rs.1,500 for people under 65 who have no one to support them: persons with 40% or more disability, people with serious illnesses such as cancer, TB, HIV or leprosy, widows, divorced or abandoned women, orphan children and transgender persons, among others. Disabled beneficiaries get Rs.2,500 a month from October 2025. The money comes every month by DBT into an Aadhaar-linked bank account. You apply through the talathi or the tehsil office; the state has also opened online applications on the MahaDBT portal."
+  },
+  {
+   "k": "7f37d76808fb",
+   "ctx": "benefit",
+   "t": "Rs.1,500 a month (Rs.2,500 for disabled beneficiaries)"
+  },
+  {
+   "k": "2f6201a622c3",
+   "ctx": "eligibility",
+   "t": "Living in Maharashtra for at least 15 years; aged 18 to below 65 (orphan or disabled children under 18 get it through a guardian)"
+  },
+  {
+   "k": "fbea8cf0d0e9",
+   "ctx": "eligibility",
+   "t": "Family income up to Rs.21,000 a year, or up to Rs.50,000 a year if the applicant is disabled; or the family is on the BPL list"
+  },
+  {
+   "k": "c00dee3636b7",
+   "ctx": "eligibility",
+   "t": "Belongs to a destitute group: disabled (40% or more, UDID card needed), serious illness, widow, divorced or abandoned woman, woman whose divorce is pending, unmarried woman of 35 or more with no support, orphan child, transgender person, or the family of a farmer who died by suicide"
+  },
+  {
+   "k": "7cd77d960486",
+   "ctx": "eligibility",
+   "t": "Not drawing a regular monthly benefit from any government, semi-government or local body"
+  },
+  {
+   "k": "352f6be5d6eb",
+   "ctx": "eligibility",
+   "t": "At 65 the beneficiary moves to the Shravanbal or the central old-age pension"
+  },
+  {
+   "k": "37300c9eab50",
+   "ctx": "documents",
+   "t": "Aadhaar card, and MGNREGA job card if you have one"
+  },
+  {
+   "k": "b1e9bfd2da17",
+   "ctx": "documents",
+   "t": "Residence certificate from the gram panchayat or talathi, and the ration card"
+  },
+  {
+   "k": "a33b60073a58",
+   "ctx": "documents",
+   "t": "Age proof: birth certificate or school leaving certificate"
+  },
+  {
+   "k": "47dc2d5107d8",
+   "ctx": "documents",
+   "t": "Income certificate from the tehsildar, or BPL certificate"
+  },
+  {
+   "k": "2f78b1ab92ef",
+   "ctx": "documents",
+   "t": "Proof of your category: UDID card, husband's death certificate, court divorce papers, orphan certificate, medical certificate of the illness, or transgender certificate"
+  },
+  {
+   "k": "7a6ebd34a785",
+   "ctx": "documents",
+   "t": "First page of an Aadhaar-linked bank passbook in your own name"
+  },
+  {
+   "k": "f203fd138c8c",
+   "ctx": "documents",
+   "t": "Signed self-declaration with a passport-size photograph"
+  },
+  {
+   "k": "fca11f125c11",
+   "ctx": "submitAt",
+   "t": "The talathi (gram mahsul adhikari) of your village, or the Sanjay Gandhi Yojana branch of the tehsil office; in a city, the tehsil office of your area. The prescribed application is Form 3 of Annexure 1 (page 20) of the government resolution linked here, and the tehsil office and Setu or Aaple Sarkar Seva Kendras also keep blank forms. Hand in two copies of the form and of each certificate, carry the originals for checking, and ask for a dated acknowledgement."
+  },
+  {
+   "k": "896ce1e1b29c",
+   "ctx": "label",
+   "t": "To: Tehsildar, Taluka / District"
+  },
+  {
+   "k": "a7272c42e22f",
+   "ctx": "value",
+   "t": "Tehsildar, Taluka Paithan / District Chhatrapati Sambhajinagar"
+  },
+  {
+   "k": "6c104441b756",
+   "ctx": "hint",
+   "t": "The tehsil where you live now."
+  },
+  {
+   "k": "e12563e26031",
+   "ctx": "label",
+   "t": "Applicant's full name"
+  },
+  {
+   "k": "bda8cc0e98ed",
+   "ctx": "value",
+   "t": "Mangal Rajendra Waghmare"
+  },
+  {
+   "k": "d1084a816d09",
+   "ctx": "hint",
+   "t": "As on Aadhaar, with husband's or father's name in the middle."
+  },
+  {
+   "k": "fd1cfb727e7a",
+   "ctx": "value",
+   "t": "At post Pachod, Tal. Paithan"
+  },
+  {
+   "k": "6c2abbfe3ec6",
+   "ctx": "hint",
+   "t": "Your present address, with village or ward."
+  },
+  {
+   "k": "50d0bf70ea75",
+   "ctx": "value",
+   "t": "05/03/1978, 48 years"
+  },
+  {
+   "k": "71313a27ca2d",
+   "ctx": "hint",
+   "t": "You must be at least 18 and below 65."
+  },
+  {
+   "k": "672bcdf09582",
+   "ctx": "label",
+   "t": "Residence in Maharashtra"
+  },
+  {
+   "k": "8c7bf9541321",
+   "ctx": "value",
+   "t": "Since birth (48 years)"
+  },
+  {
+   "k": "a0fe05aff993",
+   "ctx": "hint",
+   "t": "At least 15 years is required. The residence certificate is the proof."
+  },
+  {
+   "k": "9f46c8709908",
+   "ctx": "hint",
+   "t": "Attach a copy. The pension is paid only to an account linked with this Aadhaar."
+  },
+  {
+   "k": "7ac1596f8dce",
+   "ctx": "label",
+   "t": "Number of family members"
+  },
+  {
+   "k": "c6a33ce90cc9",
+   "ctx": "hint",
+   "t": "Everyone living and eating together in the household."
+  },
+  {
+   "k": "2382add5933b",
+   "ctx": "label",
+   "t": "Total yearly family income from all sources"
+  },
+  {
+   "k": "b0bef2183c1e",
+   "ctx": "value",
+   "t": "Rs.18,000"
+  },
+  {
+   "k": "754cdd58dad1",
+   "ctx": "hint",
+   "t": "Add up all earnings, including support from grown sons. It must be Rs.21,000 or less (Rs.50,000 if you are disabled), as shown on the income certificate."
+  },
+  {
+   "k": "05a09590aefb",
+   "ctx": "label",
+   "t": "Category of destitute"
+  },
+  {
+   "k": "24b75fd0e2e5",
+   "ctx": "hint",
+   "t": "Tick one: disabled, illness, destitute woman, widow, divorced, abandoned, orphan child, transgender, family of a farmer who died by suicide."
+  },
+  {
+   "k": "62a91cb589f2",
+   "ctx": "label",
+   "t": "Aadhaar-linked bank account number and IFSC"
+  },
+  {
+   "k": "7e6ba353c246",
+   "ctx": "hint",
+   "t": "An account in your own name. If it is not linked with Aadhaar the money does not arrive, so check at the bank first."
+  },
+  {
+   "k": "319267e20aab",
+   "ctx": "demoSteps",
+   "t": "Collect the papers first: income certificate from the tehsildar (apply at a Setu or Aaple Sarkar Seva Kendra), residence certificate, age proof and the proof of your category, such as the UDID card or husband's death certificate."
+  },
+  {
+   "k": "487b1eedc4a9",
+   "ctx": "demoSteps",
+   "t": "Get the form from the talathi, the tehsil office or a Setu kendra. Fill it in, sign or put your thumb impression in front of a witness, and attach the self-declaration with a photo."
   }
  ]
 }

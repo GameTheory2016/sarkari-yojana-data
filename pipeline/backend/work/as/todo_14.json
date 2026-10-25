@@ -6,241 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_14.json",
  "items": [
   {
-   "k": "fec057d6bc00",
-   "ctx": "brief",
-   "t": "Kerala's monthly welfare pension, Rs.2,000 since November 2025, for poor elderly people, widows, persons with disabilities, unmarried women over 50 and old agricultural labourers. About 52 lakh people get it. Your grama panchayat, municipality or corporation takes the paper form, checks your case and must decide within 45 days. The money comes every month to your bank account, or a co-operative bank agent hands it over at your home. The new government has promised to raise it to Rs.3,000, but no date has been fixed yet."
-  },
-  {
-   "k": "5ca716f49fe8",
-   "ctx": "benefit",
-   "t": "Rs.2,000 a month"
-  },
-  {
-   "k": "5ebd42c0de23",
-   "ctx": "eligibility",
-   "t": "Family income not above Rs.1 lakh a year, and not an income tax payer"
-  },
-  {
-   "k": "ca6ab14fb1c6",
-   "ctx": "eligibility",
-   "t": "Old age pension: 60 or above. Agricultural labourer pension: 60 or above, at least 10 years as a farm labourer and a member of the Agricultural Workers' Welfare Fund"
-  },
-  {
-   "k": "a90103186438",
-   "ctx": "eligibility",
-   "t": "Widow pension: widows who have not remarried, and women of 50 or more whose husband has been missing or has left them for over 7 years. Unmarried women's pension: unmarried women aged 50 or more"
-  },
-  {
-   "k": "17e0832c7fb4",
-   "ctx": "eligibility",
-   "t": "Disability pension: persons with 40% or more disability certified by a medical board"
-  },
-  {
-   "k": "9bb3bab782a4",
-   "ctx": "eligibility",
-   "t": "Not eligible: land over 2 acres (except ST families), a car over 1000 cc that is not a taxi, a concrete house over 2,000 sq ft with modern flooring, or a government or PSU service or family pension (ex-gratia or NPS pension up to Rs.4,000 is allowed)"
-  },
-  {
-   "k": "f3792270c367",
-   "ctx": "eligibility",
-   "t": "Only one social security pension per person (except persons with disability), applied for in the local body where you live permanently"
-  },
-  {
-   "k": "5ce498d9ecc9",
-   "ctx": "documents",
-   "t": "Age proof: school certificate, birth certificate, church or mosque record, voter ID or Aadhaar"
-  },
-  {
-   "k": "2bd0cfcbb8a7",
-   "ctx": "documents",
-   "t": "Income certificate from the Village Office"
-  },
-  {
-   "k": "49fdaa092956",
-   "ctx": "documents",
-   "t": "Certificate of permanent residence"
-  },
-  {
-   "k": "629a1c671f8f",
-   "ctx": "documents",
-   "t": "Aadhaar card and voter ID card (copy of both sides)"
-  },
-  {
-   "k": "ffe7ae83d243",
-   "ctx": "documents",
-   "t": "Ration card (copy of the first page and the page with your name)"
-  },
-  {
-   "k": "115460697ca3",
-   "ctx": "documents",
-   "t": "Bank passbook copy, if you want the pension in a bank"
-  },
-  {
-   "k": "c33c2d10dd4a",
-   "ctx": "documents",
-   "t": "Widows: husband's death certificate. Disability pension: medical board disability certificate"
-  },
-  {
-   "k": "98100dc9fa58",
-   "ctx": "documents",
-   "t": "EPF passbook, only if you get an EPF pension below Rs.4,000"
-  },
-  {
-   "k": "150dd36a7f8c",
-   "ctx": "submitAt",
-   "t": "The front office of your grama panchayat, municipality or corporation, addressed to the Secretary. The linked form is for the old age pension; the forms for widow, disability, unmarried women and agricultural labourer pensions are on welfarepension.lsgkerala.gov.in under Application Forms. Fill the form, paste a passport photo taken within the last 6 months, sign it, attach self-attested copies of the documents and take a receipt."
-  },
-  {
-   "k": "0b32d37e8bd0",
-   "ctx": "label",
-   "t": "Gender and category"
-  },
-  {
-   "k": "1653ba387ebc",
-   "ctx": "value",
-   "t": "Female, General"
-  },
-  {
-   "k": "5adae5eb807f",
-   "ctx": "hint",
-   "t": "Tick woman, man or transgender, and General, SC or ST."
-  },
-  {
-   "k": "8c713e14440f",
-   "ctx": "label",
-   "t": "Name (in English and in Malayalam)"
-  },
-  {
-   "k": "bbc4d2faeb55",
-   "ctx": "value",
-   "t": "Kunjamma Joseph"
-  },
-  {
-   "k": "b15732c27dfa",
-   "ctx": "hint",
-   "t": "Write the name exactly as on Aadhaar, once in English and once in Malayalam."
-  },
-  {
-   "k": "2ba57f7b2b7f",
-   "ctx": "label",
-   "t": "Ward number, ward name and house number"
-  },
-  {
-   "k": "4a4f5211efc0",
-   "ctx": "value",
-   "t": "Ward 7, Kizhakkekara, House No. 7/214"
-  },
-  {
-   "k": "369cc8636465",
-   "ctx": "hint",
-   "t": "From your house tax receipt. The ward member of this ward is asked to confirm your details."
-  },
-  {
-   "k": "e99aa8f716b4",
-   "ctx": "label",
-   "t": "Address, PIN code and post office"
-  },
-  {
-   "k": "6df30103d4c8",
-   "ctx": "value",
-   "t": "Puthenpurayil House, Kizhakkekara, 686 999, Kuravilangad PO"
-  },
-  {
-   "k": "0b49d76f827b",
-   "ctx": "hint",
-   "t": "The home where you live permanently."
-  },
-  {
-   "k": "52e681c8ed16",
-   "ctx": "hint",
-   "t": "Your own Aadhaar. Pension is paid only to an Aadhaar-verified person."
-  },
-  {
-   "k": "a2913e719600",
-   "ctx": "hint",
-   "t": "Attach a copy of the first page and the page with your name."
-  },
-  {
-   "k": "d2c627af4eb3",
-   "ctx": "label",
-   "t": "Annual income"
-  },
-  {
-   "k": "d79a06384303",
-   "ctx": "value",
-   "t": "Rs.48,000"
-  },
-  {
-   "k": "6e456c7b8f58",
-   "ctx": "hint",
-   "t": "The family income shown on your Village Office income certificate. Also write its number and date at the end of the form."
-  },
-  {
-   "k": "ca344bdfdada",
-   "ctx": "label",
-   "t": "How you want the pension"
-  },
-  {
-   "k": "805ba198cbc9",
-   "ctx": "value",
-   "t": "Direct to home"
-  },
-  {
-   "k": "97a574172b7d",
-   "ctx": "hint",
-   "t": "Choose bank account, money order (EMO) or direct to home, where a co-operative bank agent brings the cash."
-  },
-  {
-   "k": "bcd5de1aa558",
-   "ctx": "label",
-   "t": "Service pension, income tax, EPF pension?"
-  },
-  {
-   "k": "36c838312d59",
-   "ctx": "value",
-   "t": "No, No, No"
-  },
-  {
-   "k": "c55cedee4da3",
-   "ctx": "hint",
-   "t": "Answer truthfully. A wrong answer later means the pension is stopped and the money recovered."
-  },
-  {
-   "k": "c237277ebf14",
-   "ctx": "label",
-   "t": "Land owned by you or your family"
-  },
-  {
-   "k": "7bbd3a5bd343",
-   "ctx": "value",
-   "t": "0 acres 12 cents"
-  },
-  {
-   "k": "3db03d4f38c2",
-   "ctx": "hint",
-   "t": "All land in your or your family's name. More than 2 acres makes you ineligible, except for ST families."
-  },
-  {
-   "k": "a0f9ef34f3d9",
-   "ctx": "demoSteps",
-   "t": "Get an income certificate from the Village Office, online on e-District or through an Akshaya centre."
-  },
-  {
-   "k": "b4b5464f69b1",
-   "ctx": "demoSteps",
-   "t": "Download and fill the form for your pension type, paste a recent passport photo, sign it and attach the copies."
-  },
-  {
-   "k": "4ced7321b91f",
-   "ctx": "demoSteps",
-   "t": "Hand it in at the front office of your panchayat, municipality or corporation and keep the receipt."
-  },
-  {
-   "k": "c62d7b302ed0",
-   "ctx": "demoSteps",
-   "t": "Local body staff check the details and may visit your house. The Secretary must decide within 45 days; if it is refused, you can appeal to the District Collector within 30 days."
-  },
-  {
    "k": "b082d5187700",
    "ctx": "demoSteps",
    "t": "Once approved and digitally signed, the pension is due from that month and is paid by DBT to your bank or at your home."
@@ -1244,6 +1009,271 @@
    "k": "05a711196de3",
    "ctx": "label",
    "t": "Bride's status"
+  },
+  {
+   "k": "024512411083",
+   "ctx": "value",
+   "t": "Unmarried (कन्या)"
+  },
+  {
+   "k": "54ebcd046cde",
+   "ctx": "hint",
+   "t": "Choose widow or divorced if that applies, and attach the death certificate or the court order."
+  },
+  {
+   "k": "4d9fa354f308",
+   "ctx": "label",
+   "t": "Groom's name and father's name"
+  },
+  {
+   "k": "01a9b6f9c70f",
+   "ctx": "value",
+   "t": "Rahul Jatav, son of Ramesh Jatav"
+  },
+  {
+   "k": "6a7bb3a2ed27",
+   "ctx": "hint",
+   "t": "As on the groom's Aadhaar card."
+  },
+  {
+   "k": "2b5e87a15027",
+   "ctx": "label",
+   "t": "Groom's date of birth"
+  },
+  {
+   "k": "6ea0a9fbbc07",
+   "ctx": "value",
+   "t": "18/08/2001 (25 years)"
+  },
+  {
+   "k": "c7b04b64cc9f",
+   "ctx": "hint",
+   "t": "He must have completed 21 years. Attach one age proof."
+  },
+  {
+   "k": "5213f606a24d",
+   "ctx": "label",
+   "t": "Groom's Samagra ID and address"
+  },
+  {
+   "k": "596a70b2372b",
+   "ctx": "value",
+   "t": "419027365, village Bilkisganj, Sehore"
+  },
+  {
+   "k": "179e1273d457",
+   "ctx": "hint",
+   "t": "A groom from outside Madhya Pradesh writes only his full address; Samagra is not needed."
+  },
+  {
+   "k": "958433aaf0f5",
+   "ctx": "demoSteps",
+   "t": "Find out the mass wedding dates fixed for your area at the Janpad Panchayat or municipal office. Upcoming events are also listed on vivahportal.mp.gov.in."
+  },
+  {
+   "k": "778f478482cd",
+   "ctx": "demoSteps",
+   "t": "Collect the free form there or download it. The bride and groom fill it in together and sign their declarations."
+  },
+  {
+   "k": "8e54396e3f83",
+   "ctx": "demoSteps",
+   "t": "Hand it in at least 15 days before the date, with the documents and photos, and keep the receipt (pavti)."
+  },
+  {
+   "k": "5e329098b933",
+   "ctx": "demoSteps",
+   "t": "A committee checks the papers and enters the result on the Vivah Portal at least 7 days before the wedding. Eligible couples get an approval order and an invitation letter."
+  },
+  {
+   "k": "1b86d9f3c46c",
+   "ctx": "demoSteps",
+   "t": "Attend the mass wedding on the fixed date. The marriage certificate is issued online through the portal."
+  },
+  {
+   "k": "8e6bc7c3e929",
+   "ctx": "demoSteps",
+   "t": "The bride receives the Rs 49,000 account payee cheque in her name; deposit it in her own bank account. Track the application on vivahportal.mp.gov.in under Track Application."
+  },
+  {
+   "k": "8722ec22ede3",
+   "ctx": "helpline",
+   "t": "0755-2556916 (Commissioner, Social Justice, Bhopal), CM Helpline 181"
+  },
+  {
+   "k": "b5e2d9b1d9d0",
+   "ctx": "title",
+   "t": "Mukhyamantri Kisan Kalyan Yojana (CM Kisan Kalyan)"
+  },
+  {
+   "k": "90f9a8b6baf3",
+   "ctx": "department",
+   "t": "Department of Farmer Welfare and Agriculture Development, with the Revenue Department, Madhya Pradesh"
+  },
+  {
+   "k": "876a93e34e74",
+   "ctx": "brief",
+   "t": "Madhya Pradesh adds Rs 6,000 a year to the Rs 6,000 farmers get from PM-Kisan, so a farmer family gets Rs 12,000 a year in all. The state pays it in three instalments of Rs 2,000 straight into the bank account. There is no separate form. Every MP farmer approved under PM-Kisan is added automatically once the Patwari has verified the land. This SAARA page shows whether you are active and when each instalment was paid."
+  },
+  {
+   "k": "c3251f65e663",
+   "ctx": "benefit",
+   "t": "Rs 6,000 a year (3 instalments of Rs 2,000) on top of PM-Kisan"
+  },
+  {
+   "k": "617ff8cff55f",
+   "ctx": "eligibility",
+   "t": "Farmer families in Madhya Pradesh who are approved beneficiaries of PM-Kisan"
+  },
+  {
+   "k": "d1fde1508517",
+   "ctx": "eligibility",
+   "t": "Farm land recorded in the farmer's own name in MP land records (khasra or B-1)"
+  },
+  {
+   "k": "8a16f630df4d",
+   "ctx": "eligibility",
+   "t": "PM-Kisan e-KYC done, and a bank account that is Aadhaar-seeded and DBT-enabled"
+  },
+  {
+   "k": "d5888f039813",
+   "ctx": "eligibility",
+   "t": "Not eligible: income tax payers, serving or retired government employees (except Group D), pensioners getting Rs 10,000 or more a month, practising doctors, engineers, lawyers and CAs, and present or former MPs, MLAs and ministers"
+  },
+  {
+   "k": "803c6eb93ab2",
+   "ctx": "eligibility",
+   "t": "Each instalment is checked by the Patwari and approved by the Tehsildar before payment"
+  },
+  {
+   "k": "6959fd916f69",
+   "ctx": "documents",
+   "t": "Aadhaar card, with the mobile number linked for e-KYC OTP"
+  },
+  {
+   "k": "b49850954824",
+   "ctx": "documents",
+   "t": "Khasra or B-1 land record showing the land in your name"
+  },
+  {
+   "k": "361e0c49b762",
+   "ctx": "documents",
+   "t": "Bank passbook of an Aadhaar-seeded, DBT-enabled account"
+  },
+  {
+   "k": "348bdbd66799",
+   "ctx": "documents",
+   "t": "PM-Kisan registration number, if you are already registered"
+  },
+  {
+   "k": "feafedf03cb4",
+   "ctx": "portalName",
+   "t": "SAARA portal (Revenue Department, MP)"
+  },
+  {
+   "k": "a9350808f186",
+   "ctx": "value",
+   "t": "Aadhaar number (आधार नंबर)"
+  },
+  {
+   "k": "d0a8e8ec93a0",
+   "ctx": "hint",
+   "t": "You can also search by bank account number or PM-Kisan ID. Aadhaar is the easiest."
+  },
+  {
+   "k": "ec73aff1f7af",
+   "ctx": "hint",
+   "t": "The farmer's own 12-digit Aadhaar, the same one given for PM-Kisan."
+  },
+  {
+   "k": "e7aa0115cba6",
+   "ctx": "label",
+   "t": "Captcha (कृपया कैप्चा डालें)"
+  },
+  {
+   "k": "ef5406632f63",
+   "ctx": "hint",
+   "t": "Copy the letters in the picture exactly. Reload the picture if you cannot read it."
+  },
+  {
+   "k": "20aabf842b33",
+   "ctx": "label",
+   "t": "Active / Inactive (सक्रिय/निष्क्रिय)"
+  },
+  {
+   "k": "a733b809d2f1",
+   "ctx": "value",
+   "t": "Active"
+  },
+  {
+   "k": "f7c95f979ff8",
+   "ctx": "hint",
+   "t": "Active means instalments will come. If it says Inactive, the next box tells you why."
+  },
+  {
+   "k": "1127dd91a580",
+   "ctx": "label",
+   "t": "Reason if inactive"
+  },
+  {
+   "k": "23cb2a0f728b",
+   "ctx": "hint",
+   "t": "Common reasons are e-KYC not done, land not seeded, or a name mismatch between Aadhaar, bank and land record. Take your papers to the Patwari or tehsil office to fix it."
+  },
+  {
+   "k": "ff3fed5280ac",
+   "ctx": "label",
+   "t": "Khasra number (खसरा क्रमांक)"
+  },
+  {
+   "k": "3a2224aa95ef",
+   "ctx": "value",
+   "t": "214/2, village Pipalkheda"
+  },
+  {
+   "k": "8f540ca540cb",
+   "ctx": "hint",
+   "t": "Check that every piece of your land is listed. If a khasra is missing, tell the Patwari."
+  },
+  {
+   "k": "3535af368d46",
+   "ctx": "label",
+   "t": "Patwari verification date"
+  },
+  {
+   "k": "4f0479f23a24",
+   "ctx": "hint",
+   "t": "The date the Patwari checked your land for this instalment. If it is blank, the instalment has not moved yet."
+  },
+  {
+   "k": "acc9f18b6072",
+   "ctx": "label",
+   "t": "Tehsildar approval date"
+  },
+  {
+   "k": "b886fd564e07",
+   "ctx": "hint",
+   "t": "After this date the payment order is made."
+  },
+  {
+   "k": "8f48d0763582",
+   "ctx": "label",
+   "t": "Payment status and UTR number"
+  },
+  {
+   "k": "fa1cfa18ef8e",
+   "ctx": "value",
+   "t": "Success, UTR SBIN826190045533"
+  },
+  {
+   "k": "1625dcc923cc",
+   "ctx": "hint",
+   "t": "Success with a UTR number means the money has gone to the bank account shown. Quote the UTR at the bank if it does not appear."
+  },
+  {
+   "k": "bb262262f35d",
+   "ctx": "demoSteps",
+   "t": "First check whether you already get PM-Kisan. If you do, you need not apply for this scheme; the state adds you automatically."
   }
  ]
 }

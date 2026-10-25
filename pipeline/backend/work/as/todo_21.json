@@ -6,241 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_21.json",
  "items": [
   {
-   "k": "bd8d761ac9de",
-   "ctx": "hint",
-   "t": "The student's own Aadhaar, not a parent's."
-  },
-  {
-   "k": "752cb48d24bc",
-   "ctx": "label",
-   "t": "EMIS number"
-  },
-  {
-   "k": "b1dde0c6bff6",
-   "ctx": "hint",
-   "t": "Your student ID from the school's EMIS records. Ask your old school if you do not have it."
-  },
-  {
-   "k": "92fb6eb587b3",
-   "ctx": "label",
-   "t": "School where you studied Classes 6 to 12"
-  },
-  {
-   "k": "6225b9a81b58",
-   "ctx": "value",
-   "t": "Government Boys Higher Secondary School, Kalamedu"
-  },
-  {
-   "k": "57b4bcdc99bc",
-   "ctx": "hint",
-   "t": "Name every school if you changed schools. For an aided school, the medium must be Tamil."
-  },
-  {
-   "k": "b4ac88ee196c",
-   "ctx": "label",
-   "t": "Medium of instruction"
-  },
-  {
-   "k": "86c2b6275f07",
-   "ctx": "value",
-   "t": "Tamil"
-  },
-  {
-   "k": "e152d7e27eda",
-   "ctx": "hint",
-   "t": "Needed when any of the schools was a government-aided school."
-  },
-  {
-   "k": "3bb00ca898d4",
-   "ctx": "label",
-   "t": "College name"
-  },
-  {
-   "k": "5e43231916de",
-   "ctx": "value",
-   "t": "Government Polytechnic College, Puliyur"
-  },
-  {
-   "k": "75203a714c5a",
-   "ctx": "hint",
-   "t": "The college or ITI where you are studying now."
-  },
-  {
-   "k": "a1b3da2a5c67",
-   "ctx": "label",
-   "t": "Course and year of admission"
-  },
-  {
-   "k": "94745357849b",
-   "ctx": "value",
-   "t": "Diploma in Mechanical Engineering, first year, 2026"
-  },
-  {
-   "k": "fee6cbcf3d1e",
-   "ctx": "hint",
-   "t": "Only your first course after school is eligible."
-  },
-  {
-   "k": "384cffe8546c",
-   "ctx": "hint",
-   "t": "Your own number. Messages about the scheme come here."
-  },
-  {
-   "k": "e761f058f737",
-   "ctx": "hint",
-   "t": "An account in your own name, linked with your Aadhaar."
-  },
-  {
-   "k": "cd6a1cccd3e5",
-   "ctx": "hint",
-   "t": "Printed on the first page of the passbook."
-  },
-  {
-   "k": "85f20fb31c58",
-   "ctx": "demoSteps",
-   "t": "After joining college, meet the Tamil Pudhalvan nodal officer in the scholarship section during the first weeks."
-  },
-  {
-   "k": "f19639a4a17e",
-   "ctx": "demoSteps",
-   "t": "Hand over your Aadhaar, bank passbook, 10th and 12th mark sheets, school transfer certificate and EMIS number. Open an Aadhaar-linked account first if you have none."
-  },
-  {
-   "k": "a6ad0b843376",
-   "ctx": "demoSteps",
-   "t": "The nodal officer enters your details on the UMIS portal, where your schooling is matched with the EMIS records. Ask for your UMIS ID or application number and keep it safe."
-  },
-  {
-   "k": "4f9a4681efbb",
-   "ctx": "demoSteps",
-   "t": "Once approved, Rs 1,000 comes into your bank account every month by DBT."
-  },
-  {
-   "k": "acc4b66055af",
-   "ctx": "demoSteps",
-   "t": "Every six months, on 30 June and 31 December, the college confirms that you are still studying. The payment continues only while you stay on the rolls."
-  },
-  {
-   "k": "41234d9b2b2c",
-   "ctx": "demoSteps",
-   "t": "If the money stops, first check at your bank that Aadhaar is linked to the account, then ask the nodal officer to check your record on UMIS."
-  },
-  {
-   "k": "1b7590c9441a",
-   "ctx": "helpline",
-   "t": "Your college's Tamil Pudhalvan nodal officer / District Social Welfare Officer at the Collectorate / 1100 — Tamil Nadu citizen helpline for complaints"
-  },
-  {
-   "k": "71b7c663ebe0",
-   "ctx": "title",
-   "t": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS Card)"
-  },
-  {
-   "k": "ef41abc5a856",
-   "ctx": "department",
-   "t": "Health and Family Welfare Department, Tamil Nadu Health Systems Project (TNHSP)"
-  },
-  {
-   "k": "d7992f9571e5",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment for low-income families in Tamil Nadu, at government hospitals and empanelled private hospitals, up to Rs 5 lakh per family a year. In Tamil Nadu it runs together with Ayushman Bharat PM-JAY (CMCHIS-PMJAY), so one card covers both. In August 2026 the Chief Minister announced that the yearly cover will rise to Rs 25 lakh; ask the helpline whether the higher cover has started. You enrol once, at the CMCHIS card centre in the District Collector's office."
-  },
-  {
-   "k": "2d6c54697f0e",
-   "ctx": "benefit",
-   "t": "Up to Rs 5 lakh a year per family, cashless (Rs 25 lakh cover announced in August 2026)"
-  },
-  {
-   "k": "a24309f7b286",
-   "ctx": "eligibility",
-   "t": "Annual family income below Rs 1,20,000, certified by the Village Administrative Officer (VAO)"
-  },
-  {
-   "k": "bbc2ef753e58",
-   "ctx": "eligibility",
-   "t": "The family holds a Tamil Nadu ration (smart family) card, and everyone to be covered is named on it"
-  },
-  {
-   "k": "bfef3be45c55",
-   "ctx": "eligibility",
-   "t": "Covers the head of the family, the legal spouse, children and dependent parents"
-  },
-  {
-   "k": "d652c74005a9",
-   "ctx": "eligibility",
-   "t": "Some groups join with their own ID card instead of an income certificate: differently-abled card holders, old-age and widow pensioners, handloom workers' board members, recognised journalists, transgender persons, Sri Lankan Tamil refugees and orphans"
-  },
-  {
-   "k": "d5c4bf51adb1",
-   "ctx": "eligibility",
-   "t": "There is no age limit, and the family pays no premium"
-  },
-  {
-   "k": "53c403d11bb4",
-   "ctx": "documents",
-   "t": "Filled CMCHIS enrolment form"
-  },
-  {
-   "k": "6e3271bf77e4",
-   "ctx": "documents",
-   "t": "Income certificate from the VAO showing a yearly family income under Rs 1,20,000 (the VAO can also sign the box on the form itself)"
-  },
-  {
-   "k": "7f368d269607",
-   "ctx": "documents",
-   "t": "Original family ration (smart) card"
-  },
-  {
-   "k": "3c0db612cbd2",
-   "ctx": "documents",
-   "t": "Aadhaar cards of the head of the family and of the members to be covered"
-  },
-  {
-   "k": "9a040a41a4b4",
-   "ctx": "documents",
-   "t": "For the special groups: the welfare board, pension or other ID card in place of the income certificate"
-  },
-  {
-   "k": "12b111c03819",
-   "ctx": "portalName",
-   "t": "CMCHIS (cmchistn.com)"
-  },
-  {
-   "k": "341b680d40ec",
-   "ctx": "submitAt",
-   "t": "The CMCHIS card centre (enrolment kiosk) at your District Collector's office. The head of the family should go in person with the filled form, the VAO income certificate, the original ration card and the Aadhaar cards of all members; the photo and fingerprint are taken there."
-  },
-  {
-   "k": "d6ceea9beaff",
-   "ctx": "value",
-   "t": "Murugan Pandian"
-  },
-  {
-   "k": "804f1dd09423",
-   "ctx": "hint",
-   "t": "Write the name exactly as it is printed first on your ration card."
-  },
-  {
-   "k": "fea0ef3bf4a1",
-   "ctx": "value",
-   "t": "Pandian K"
-  },
-  {
-   "k": "0eda9b252df0",
-   "ctx": "hint",
-   "t": "For a married woman who heads the family, write the husband's name."
-  },
-  {
-   "k": "91675fff4cd7",
-   "ctx": "label",
-   "t": "Gender, date of birth / age"
-  },
-  {
-   "k": "daee8c4a9691",
-   "ctx": "value",
-   "t": "Male, 12-04-1979, 47 years"
-  },
-  {
    "k": "3146cce56863",
    "ctx": "hint",
    "t": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
@@ -1119,6 +884,216 @@
    "k": "06e7d57e10e8",
    "ctx": "eligibility",
    "t": "Pattadar (land owner) whose farmland is recorded in the Bhu Bharati (earlier Dharani) land records"
+  },
+  {
+   "k": "2d737e42607c",
+   "ctx": "eligibility",
+   "t": "Tribal farmers holding forest-rights (ROFR) pattas are also eligible"
+  },
+  {
+   "k": "fde7b207a94c",
+   "ctx": "eligibility",
+   "t": "Money is paid only for land fit for farming. House plots, layouts, real-estate ventures, mines, roads and land taken for projects are left out"
+  },
+  {
+   "k": "dae000062020",
+   "ctx": "eligibility",
+   "t": "A bank account in the farmer's own name, linked with Aadhaar"
+  },
+  {
+   "k": "b188573642a2",
+   "ctx": "eligibility",
+   "t": "Tenant farmers are not covered. Landless farm labourers have a separate scheme (Indiramma Atmiya Bharosa)"
+  },
+  {
+   "k": "daebbd6cb057",
+   "ctx": "documents",
+   "t": "Pattadar passbook (PPB), copy"
+  },
+  {
+   "k": "97d26d00f1a1",
+   "ctx": "documents",
+   "t": "Bank passbook front page with account number and IFSC"
+  },
+  {
+   "k": "a56ea310d4b1",
+   "ctx": "documents",
+   "t": "Aadhaar consent form, signed (the AEO gives it)"
+  },
+  {
+   "k": "a22a83d7550b",
+   "ctx": "documents",
+   "t": "Mutation / Bhu Bharati record if the land was bought or inherited recently"
+  },
+  {
+   "k": "50e743264a31",
+   "ctx": "submitAt",
+   "t": "Give the filled Rythu Bharosa Bank Details Collection Form to the Agriculture Extension Officer (AEO) of your cluster at the Rythu Vedika, or at the Mandal Agriculture Office. Attach copies of the pattadar passbook, Aadhaar and bank passbook, and sign the Aadhaar consent form. The AEO checks the details, signs the form and uploads it on the Rythu Bharosa portal. AEO mobile numbers are under Contact Us on rythubharosa.telangana.gov.in."
+  },
+  {
+   "k": "d4c7de6d1c06",
+   "ctx": "value",
+   "t": "Siddipet / Gajwel / Chinna Rampur"
+  },
+  {
+   "k": "bf7d5b3b1b76",
+   "ctx": "hint",
+   "t": "Where the land is, as printed in the pattadar passbook."
+  },
+  {
+   "k": "e2f6b27d443c",
+   "ctx": "label",
+   "t": "Farmer name"
+  },
+  {
+   "k": "18e8aadbb525",
+   "ctx": "value",
+   "t": "Gaddam Venkataiah"
+  },
+  {
+   "k": "216e703ce7e6",
+   "ctx": "hint",
+   "t": "Exactly as in the pattadar passbook."
+  },
+  {
+   "k": "28ba516e4e54",
+   "ctx": "label",
+   "t": "Father / husband name"
+  },
+  {
+   "k": "bcf1c9376c90",
+   "ctx": "value",
+   "t": "Gaddam Mallaiah"
+  },
+  {
+   "k": "f84a19c7abdc",
+   "ctx": "hint",
+   "t": "As in the passbook."
+  },
+  {
+   "k": "9aece7c54a25",
+   "ctx": "hint",
+   "t": "The farmer's own Aadhaar. It must be the same one linked to the bank account."
+  },
+  {
+   "k": "81ac1045ff20",
+   "ctx": "label",
+   "t": "PPB (pattadar passbook) number"
+  },
+  {
+   "k": "ed798afe0878",
+   "ctx": "hint",
+   "t": "The number on the front of your pattadar passbook."
+  },
+  {
+   "k": "fd3639ad06de",
+   "ctx": "hint",
+   "t": "The bank's SMS for each payment comes to this number."
+  },
+  {
+   "k": "6d83c93a905b",
+   "ctx": "label",
+   "t": "Bank name"
+  },
+  {
+   "k": "4985968327f3",
+   "ctx": "value",
+   "t": "State Bank of India"
+  },
+  {
+   "k": "0b512aed2e9f",
+   "ctx": "hint",
+   "t": "The bank where you want the money."
+  },
+  {
+   "k": "748f3d06e790",
+   "ctx": "label",
+   "t": "Branch name"
+  },
+  {
+   "k": "643d8272817e",
+   "ctx": "value",
+   "t": "Gajwel"
+  },
+  {
+   "k": "39f51de03a0c",
+   "ctx": "hint",
+   "t": "As printed in the bank passbook."
+  },
+  {
+   "k": "9007647fc63d",
+   "ctx": "hint",
+   "t": "Check every digit against the passbook. A wrong digit is the most common reason money does not arrive."
+  },
+  {
+   "k": "822d78721fc1",
+   "ctx": "hint",
+   "t": "11 letters and numbers printed in the passbook."
+  },
+  {
+   "k": "47902f08fb71",
+   "ctx": "demoSteps",
+   "t": "Make sure your land is correctly recorded in Bhu Bharati and you have the pattadar passbook. Mutation of bought or inherited land must be finished first."
+  },
+  {
+   "k": "8993f9c1e9a5",
+   "ctx": "demoSteps",
+   "t": "Get the Bank Details Collection Form from the AEO, or download it. Fill in your name, Aadhaar, passbook number, mobile number and bank details, and sign it."
+  },
+  {
+   "k": "dc2b6662e7f2",
+   "ctx": "demoSteps",
+   "t": "Give it to the AEO at your Rythu Vedika with copies of the passbook, Aadhaar and bank passbook. The AEO checks and uploads it on the portal."
+  },
+  {
+   "k": "b1df26d06888",
+   "ctx": "demoSteps",
+   "t": "Before each season the government releases the money, usually to small holdings first and then to larger ones. Rs.6,000 per acre is credited to your account by DBT."
+  },
+  {
+   "k": "63e04648621f",
+   "ctx": "demoSteps",
+   "t": "Check the bank SMS or your passbook. If neighbours were paid and you were not, ask the AEO to check your status on the portal. The usual reasons are an Aadhaar-bank mismatch or a closed account."
+  },
+  {
+   "k": "46afc0f3780e",
+   "ctx": "demoSteps",
+   "t": "If the problem stays, complain to the Mandal Agriculture Officer, then to the District Agriculture Officer or the Collector's grievance cell."
+  },
+  {
+   "k": "b3de2645f58a",
+   "ctx": "helpline",
+   "t": "Your cluster AEO and Mandal Agriculture Officer (numbers under Contact Us on rythubharosa.telangana.gov.in); Kisan Call Centre 1800-180-1551"
+  },
+  {
+   "k": "3b181569150d",
+   "ctx": "title",
+   "t": "Telangana Construction Workers Registration (BOCW Labour Card)"
+  },
+  {
+   "k": "2fea0218734e",
+   "ctx": "department",
+   "t": "Telangana Building & Other Construction Workers Welfare Board, Labour Department"
+  },
+  {
+   "k": "1a343b61feb7",
+   "ctx": "brief",
+   "t": "A construction worker registered with the Telangana Building and Other Construction Workers Welfare Board gets an identity card and the board's benefits: Rs.6 lakh if the worker dies in an accident, Rs.1 lakh on natural death, up to Rs.5 lakh for permanent disability, Rs.30,000 for the marriage of a woman worker or of up to two daughters, and Rs.30,000 for each of up to two deliveries. Masons, helpers, painters, carpenters, plumbers, electricians, brick-kiln and road workers and over 50 other trades can register. Fill Form XXVII and give it at the Assistant Labour Officer's office with a work certificate and the Rs.50 fee; membership then costs Rs.12 a year."
+  },
+  {
+   "k": "277ca87a8e34",
+   "ctx": "benefit",
+   "t": "Rs.6 lakh if the worker dies in an accident; Rs.30,000 each for marriage and for delivery"
+  },
+  {
+   "k": "ced2dc70ccaf",
+   "ctx": "eligibility",
+   "t": "Works as a mason, helper or coolie, painter, carpenter, plumber, electrician, bar bender or centering worker, or in tiles, road, brick-kiln, quarry or another listed construction trade"
+  },
+  {
+   "k": "712611d3804d",
+   "ctx": "eligibility",
+   "t": "Works in Telangana; migrant workers from other states can also register"
   }
  ]
 }

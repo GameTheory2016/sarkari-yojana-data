@@ -6,144 +6,14 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_11.json",
  "items": [
   {
-   "k": "8270332a1a3e",
-   "ctx": "eligibility",
-   "t": "Not eligible if anyone in the family is an Anganwadi worker or helper, ASHA, mid-day meal or multi-task worker, gets a social security pension, pays income tax or is registered for GST"
-  },
-  {
-   "k": "5907b31e0924",
-   "ctx": "eligibility",
-   "t": "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
-  },
-  {
-   "k": "51b6d9af61b9",
-   "ctx": "documents",
-   "t": "Bonafide Himachali (permanent residence) certificate"
-  },
-  {
-   "k": "41b72165e684",
-   "ctx": "documents",
-   "t": "Proof of age (birth certificate, school certificate or Aadhaar)"
-  },
-  {
-   "k": "cb73dbbdde37",
-   "ctx": "documents",
-   "t": "Family income certificate showing income below Rs 2 lakh"
-  },
-  {
-   "k": "77c682df9b62",
-   "ctx": "documents",
-   "t": "Copy of the bank passbook with IFSC"
-  },
-  {
-   "k": "64bbac60bf61",
-   "ctx": "documents",
-   "t": "Ration card (towns) or copy of the Parivar Register (villages)"
-  },
-  {
-   "k": "ceeaef53ea80",
-   "ctx": "documents",
-   "t": "Buddhist nuns: a certificate from the chief chomo of the monastery"
-  },
-  {
-   "k": "8dfafea0d21c",
-   "ctx": "submitAt",
-   "t": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat."
-  },
-  {
-   "k": "c1cff2a9d3a0",
-   "ctx": "label",
-   "t": "Name of applicant"
-  },
-  {
-   "k": "4ce7fb8b56bc",
-   "ctx": "value",
-   "t": "Sunita Thakur"
-  },
-  {
-   "k": "d76d2dd4570a",
-   "ctx": "hint",
-   "t": "The woman's own name, as on Aadhaar and the bank passbook."
-  },
-  {
-   "k": "daf1d3e84be5",
-   "ctx": "value",
-   "t": "Shri Rajinder Singh"
-  },
-  {
-   "k": "87d8aac6ad28",
-   "ctx": "hint",
-   "t": "As written in the Parivar Register or ration card."
-  },
-  {
-   "k": "b4c943b845e0",
-   "ctx": "value",
-   "t": "12-04-1984 / 42 years"
-  },
-  {
-   "k": "ee70810424cf",
-   "ctx": "hint",
-   "t": "You must be at least 21 and not over 59. Attach the age proof."
-  },
-  {
-   "k": "eb3805fcd825",
-   "ctx": "value",
-   "t": "Village Dhalli, Panchayat Bhatta, Tehsil Theog, District Shimla"
-  },
-  {
-   "k": "90a7dd7e8512",
-   "ctx": "hint",
-   "t": "Village, panchayat, tehsil and district where you live permanently."
-  },
-  {
-   "k": "a4aef4a4b1a6",
-   "ctx": "value",
-   "t": "Rs 1,40,000"
-  },
-  {
-   "k": "92353b263003",
-   "ctx": "hint",
-   "t": "Income of the whole family from all sources, as in the income certificate. It must be below Rs 2 lakh."
-  },
-  {
-   "k": "7a7e64014a85",
-   "ctx": "label",
-   "t": "BPL family"
-  },
-  {
-   "k": "3fd76cf7cc45",
-   "ctx": "hint",
-   "t": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
-  },
-  {
-   "k": "0cebc5ee9d3a",
-   "ctx": "hint",
-   "t": "The applicant's own Aadhaar."
-  },
-  {
    "k": "dbe6f062a1cd",
    "ctx": "hint",
    "t": "An account in your own name; the Rs 1,500 is paid here every month."
   },
   {
-   "k": "cd422f4228cb",
-   "ctx": "label",
-   "t": "Parivar Register / ration card number"
-  },
-  {
-   "k": "9a99d79673fd",
-   "ctx": "value",
-   "t": "PR No. 99/18"
-  },
-  {
    "k": "c9655a3070f0",
    "ctx": "hint",
    "t": "Villages give the Parivar Register copy, towns give the ration card."
-  },
-  {
-   "k": "6e3665d85fde",
-   "ctx": "value",
-   "t": "Signed"
   },
   {
    "k": "1c0cfe70dbe1",
@@ -231,11 +101,6 @@
    "t": "18 to 27 years: the course must be in a government college, university or institution in Himachal (degree, PG, diploma, PhD, JBT, NTT, nursing or a professional course)"
   },
   {
-   "k": "9bf0a187d9e1",
-   "ctx": "documents",
-   "t": "Bonafide Himachali certificate"
-  },
-  {
    "k": "3ad27db2ba73",
    "ctx": "documents",
    "t": "Proof of the child's date of birth (birth certificate or 10th certificate)"
@@ -251,29 +116,9 @@
    "t": "Medical certificate of 70% or more permanent disability, for a disabled parent"
   },
   {
-   "k": "ad83da60e607",
-   "ctx": "documents",
-   "t": "Copy of the Parivar Register"
-  },
-  {
-   "k": "624c4fb712be",
-   "ctx": "documents",
-   "t": "Bank account details"
-  },
-  {
    "k": "f548b79a5158",
    "ctx": "documents",
    "t": "For 18 to 27 years: detailed proof of fees and hostel expenses, verified by the head of the institution"
-  },
-  {
-   "k": "4e5a2893bdcc",
-   "ctx": "label",
-   "t": "Login"
-  },
-  {
-   "k": "360851651dec",
-   "ctx": "value",
-   "t": "Him Access SSO"
   },
   {
    "k": "75b26e800ebd",
@@ -281,24 +126,9 @@
    "t": "Log in with your Him Access account using Aadhaar or mobile OTP. A Lok Mitra Kendra can apply for you."
   },
   {
-   "k": "6d512c3f2058",
-   "ctx": "label",
-   "t": "Name of mother / applicant"
-  },
-  {
-   "k": "ba9c893dd88d",
-   "ctx": "value",
-   "t": "Reena Devi"
-  },
-  {
    "k": "7d9f3a212773",
    "ctx": "hint",
    "t": "The mother or the disabled parent who is applying for the child."
-  },
-  {
-   "k": "003fbceeb7d9",
-   "ctx": "label",
-   "t": "Applicant category"
   },
   {
    "k": "c66bb86ddb93",
@@ -306,24 +136,9 @@
    "t": "Widow, divorced, destitute or abandoned woman, husband missing for 7 years, or parent with 70% disability. Upload the matching proof."
   },
   {
-   "k": "5731e4b6d1b1",
-   "ctx": "label",
-   "t": "Name of child"
-  },
-  {
-   "k": "88eee7a4e925",
-   "ctx": "value",
-   "t": "Aarti"
-  },
-  {
    "k": "812e2fd98650",
    "ctx": "hint",
    "t": "One application for each child, with the child's own details."
-  },
-  {
-   "k": "d47f2dd38939",
-   "ctx": "label",
-   "t": "Child's date of birth"
   },
   {
    "k": "380c4ba115b0",
@@ -336,16 +151,6 @@
    "t": "From the income certificate. It must not be more than Rs 1 lakh."
   },
   {
-   "k": "fc0abd0f169b",
-   "ctx": "label",
-   "t": "School or college and class"
-  },
-  {
-   "k": "29a07942f96a",
-   "ctx": "value",
-   "t": "GSSS Bhoranj, Class 7"
-  },
-  {
    "k": "752cee86ec3e",
    "ctx": "hint",
    "t": "For 18 to 27, give the government college and course, and upload the fee and hostel proof signed by the principal."
@@ -354,11 +159,6 @@
    "k": "9389db0610ef",
    "ctx": "value",
    "t": "Village Lambloo, Panchayat Lambloo, Block Bhoranj, District Hamirpur"
-  },
-  {
-   "k": "60506a287642",
-   "ctx": "hint",
-   "t": "As in the Parivar Register."
   },
   {
    "k": "0f1f84b67559",
@@ -486,34 +286,14 @@
    "t": "Online payment of the premium, if your category has one"
   },
   {
-   "k": "3dc0bece62d2",
-   "ctx": "portalName",
-   "t": "HP Swasthya Bima Yojna Society (HIMCARE)"
-  },
-  {
    "k": "c18ea6d38233",
    "ctx": "hint",
    "t": "Log in with your Himachal Him Access account, using Aadhaar or mobile OTP. At a Lok Mitra Kendra or CSC the operator does this for Rs 50."
   },
   {
-   "k": "026c39a25799",
-   "ctx": "label",
-   "t": "Application type"
-  },
-  {
-   "k": "07200af74acb",
-   "ctx": "value",
-   "t": "Fresh enrollment"
-  },
-  {
    "k": "0284bc66cb02",
    "ctx": "hint",
    "t": "Choose fresh enrollment for a new card. Use Renewal of Card on hpsbys.in if you already have one."
-  },
-  {
-   "k": "825dfc1e52a0",
-   "ctx": "value",
-   "t": "Category III — Rs 1,000 a year"
   },
   {
    "k": "07f1139b7800",
@@ -524,11 +304,6 @@
    "k": "94c100025b5d",
    "ctx": "hint",
    "t": "Type the number without the letters HP. It must match the scanned card exactly."
-  },
-  {
-   "k": "3113a72d1773",
-   "ctx": "label",
-   "t": "Head of family"
   },
   {
    "k": "49961f53eae5",
@@ -551,24 +326,9 @@
    "t": "Up to five members on one card, each with name, relation and Aadhaar."
   },
   {
-   "k": "e670eeee37c6",
-   "ctx": "label",
-   "t": "District and block"
-  },
-  {
-   "k": "013b19228875",
-   "ctx": "value",
-   "t": "Mandi / Sundernagar"
-  },
-  {
    "k": "fdeecfe38107",
    "ctx": "hint",
    "t": "Where the family lives; it is printed on the card."
-  },
-  {
-   "k": "9ac4cf37bd68",
-   "ctx": "label",
-   "t": "Documents upload"
   },
   {
    "k": "241aa8ede0d0",
@@ -579,16 +339,6 @@
    "k": "9660be858252",
    "ctx": "hint",
    "t": "Upload clear scans of the original documents. Blurred or mismatched documents get the application rejected."
-  },
-  {
-   "k": "bd7ea786dc90",
-   "ctx": "label",
-   "t": "Undertaking and premium"
-  },
-  {
-   "k": "2c0fcda77373",
-   "ctx": "value",
-   "t": "Accepted / Rs 1,000 paid online"
   },
   {
    "k": "31cf1f0d8e33",
@@ -629,11 +379,6 @@
    "k": "566e9f299857",
    "ctx": "helpline",
    "t": "1800-202-1311 (PMJAY/HIMCARE toll-free) / 70186-06884, 70086-05212 (card approvals) / 80917-73886 (technical support, working days)"
-  },
-  {
-   "k": "ba88ce8c278f",
-   "ctx": "title",
-   "t": "Ayushman Bharat PM-JAY SEHAT (Golden Card)"
   },
   {
    "k": "6a222025a490",
@@ -701,11 +446,6 @@
    "t": "Any working number you hold. The OTP comes here, and so does the message when the card is approved."
   },
   {
-   "k": "f32fb9affe2f",
-   "ctx": "value",
-   "t": "PMJAY / Jammu and Kashmir"
-  },
-  {
    "k": "db1a1c64c3a3",
    "ctx": "hint",
    "t": "SEHAT runs through PM-JAY, so choose PMJAY and then Jammu and Kashmir."
@@ -734,11 +474,6 @@
    "k": "4879aa988bac",
    "ctx": "hint",
    "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request rejected."
-  },
-  {
-   "k": "f373e131c49c",
-   "ctx": "value",
-   "t": "Anantnag / 192101"
   },
   {
    "k": "1e3c969967d3",
@@ -781,11 +516,6 @@
    "t": "104 — J&K health helpline, also for complaints when treatment is refused / 14555 or 1800-111-565 — Ayushman Bharat national helpline"
   },
   {
-   "k": "74eb1f9961d3",
-   "ctx": "title",
-   "t": "Ladli Beti Scheme, Jammu & Kashmir"
-  },
-  {
    "k": "d49a85d286a5",
    "ctx": "department",
    "t": "Department of Social Welfare, Jammu & Kashmir"
@@ -821,11 +551,6 @@
    "t": "The money is held in the girl's own account and paid to her only at age 21"
   },
   {
-   "k": "1cc20a935025",
-   "ctx": "documents",
-   "t": "Birth certificate of the girl"
-  },
-  {
    "k": "bfec52301306",
    "ctx": "documents",
    "t": "Income certificate of the parents, showing less than Rs.75,000 a year"
@@ -834,11 +559,6 @@
    "k": "98160693ffde",
    "ctx": "documents",
    "t": "Aadhaar card of the girl and of the parents"
-  },
-  {
-   "k": "b67cf449ce08",
-   "ctx": "documents",
-   "t": "Domicile certificate of the parents"
   },
   {
    "k": "fadf85f16497",
@@ -851,21 +571,6 @@
    "t": "J&K Bank account details in the girl's name, once the sanction letter asks for them"
   },
   {
-   "k": "30155c457d5f",
-   "ctx": "portalName",
-   "t": "JanSugam (ServicePlus) Jammu & Kashmir"
-  },
-  {
-   "k": "b4c47d5a6cea",
-   "ctx": "label",
-   "t": "Name of the girl child"
-  },
-  {
-   "k": "8b3d4f619f52",
-   "ctx": "value",
-   "t": "Zoya Bashir"
-  },
-  {
    "k": "62f337572b0e",
    "ctx": "hint",
    "t": "Exactly as written on her birth certificate."
@@ -876,39 +581,9 @@
    "t": "Must be on or after 01/04/2015. Apply soon after the birth certificate is issued."
   },
   {
-   "k": "5e54a862871a",
-   "ctx": "label",
-   "t": "Place of birth"
-  },
-  {
-   "k": "bf39325b9cc7",
-   "ctx": "value",
-   "t": "District Hospital, Pulwama"
-  },
-  {
    "k": "5df5d09f9e19",
    "ctx": "hint",
    "t": "The hospital or place named on the birth certificate."
-  },
-  {
-   "k": "867ad42acccc",
-   "ctx": "value",
-   "t": "Bashir Ahmad Lone"
-  },
-  {
-   "k": "4a7e0a1e49a1",
-   "ctx": "value",
-   "t": "Shazia Bano"
-  },
-  {
-   "k": "ca0bd4a11218",
-   "ctx": "hint",
-   "t": "As on her Aadhaar card."
-  },
-  {
-   "k": "a7d7954955d6",
-   "ctx": "label",
-   "t": "Aadhaar number of parent"
   },
   {
    "k": "2def7c7dd33a",
@@ -921,24 +596,9 @@
    "t": "Total from all sources, the same figure as on the income certificate. It must be below Rs.75,000."
   },
   {
-   "k": "776490a88996",
-   "ctx": "label",
-   "t": "District and ICDS project"
-  },
-  {
-   "k": "2acffb73d0b7",
-   "ctx": "value",
-   "t": "Pulwama / ICDS Project Pampore"
-  },
-  {
    "k": "eb75a09a7626",
    "ctx": "hint",
    "t": "The block ICDS project where you live. Its CDPO checks your form."
-  },
-  {
-   "k": "a87361220314",
-   "ctx": "value",
-   "t": "Ward 4, Lethpora, Pulwama"
   },
   {
    "k": "daf7f566a70d",
@@ -979,11 +639,6 @@
    "k": "fbc8be1b52bb",
    "ctx": "helpline",
    "t": "0194-2479645 — Directorate of Social Welfare, Kashmir / your District Social Welfare Officer or CDPO (ICDS) office"
-  },
-  {
-   "k": "b73688c8f6fc",
-   "ctx": "title",
-   "t": "Abua Awas Yojana (Abua Awas)"
   },
   {
    "k": "1910919f8c3a",
@@ -1041,11 +696,6 @@
    "t": "Land paper for the plot where the house will be built (khatiyan or rent receipt)"
   },
   {
-   "k": "06a2b38e681c",
-   "ctx": "documents",
-   "t": "Caste certificate, if SC, ST or PVTG"
-  },
-  {
    "k": "2c593036df1f",
    "ctx": "portalName",
    "t": "Abua Awas Yojana portal, Rural Development Department"
@@ -1056,29 +706,14 @@
    "t": "The 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camp in your panchayat when one is held, or the Panchayat Sachiv or the Block Development Officer (BDO) at the block office. Take Aadhaar, ration card, bank passbook, MGNREGA job card and land papers. If you already applied at a camp, check your name in the list at the Panchayat Bhawan, because houses are sanctioned from that list in order. There is no fee, so never pay a middleman who promises a house."
   },
   {
-   "k": "a7d202a92fc5",
-   "ctx": "value",
-   "t": "Somari Munda"
-  },
-  {
    "k": "91063fbfb19f",
    "ctx": "hint",
    "t": "As on Aadhaar. The sanction and payments are in this name."
   },
   {
-   "k": "2bd2ffa6a632",
-   "ctx": "value",
-   "t": "Etwa Munda"
-  },
-  {
    "k": "11c8ea938afb",
    "ctx": "hint",
    "t": "Husband's name if married, otherwise father's name."
-  },
-  {
-   "k": "6eb17ff3fc8a",
-   "ctx": "label",
-   "t": "Village, panchayat, block, district"
   },
   {
    "k": "d6d6a47a7ccd",
@@ -1091,29 +726,9 @@
    "t": "Where the family lives and where the new house will be built."
   },
   {
-   "k": "a3e53bed9d89",
-   "ctx": "hint",
-   "t": "The applicant's 12-digit Aadhaar number."
-  },
-  {
-   "k": "261d4e2f8a10",
-   "ctx": "hint",
-   "t": "The family's ration card number."
-  },
-  {
-   "k": "bc92949a3ad4",
-   "ctx": "value",
-   "t": "ST (PVTG: No)"
-  },
-  {
    "k": "d6d64c289b56",
    "ctx": "hint",
    "t": "Write SC, ST, OBC or General, and say if the family belongs to a PVTG group."
-  },
-  {
-   "k": "8b500a96c91c",
-   "ctx": "label",
-   "t": "Present house"
   },
   {
    "k": "371efb978b6c",
@@ -1139,11 +754,6 @@
    "k": "bb1f32585e2b",
    "ctx": "hint",
    "t": "An Aadhaar-linked account in the applicant's own name. Every instalment comes here."
-  },
-  {
-   "k": "2dc25b094487",
-   "ctx": "label",
-   "t": "MGNREGA job card number"
   },
   {
    "k": "71ac2f23c4c4",
@@ -1194,6 +804,166 @@
    "k": "b8c5e4feaea1",
    "ctx": "department",
    "t": "Department of Women, Child Development & Social Security, Government of Jharkhand"
+  },
+  {
+   "k": "afc9f212c488",
+   "ctx": "brief",
+   "t": "Rs.2,500 a month for women aged 18 to 50 in Jharkhand, paid into their own Aadhaar-linked bank account by the 15th of every month. It started in August 2024 at Rs.1,000 and was raised to Rs.2,500 from December 2024. Applications are taken at camps held across the state; there is no online form to fill yourself. Women already getting the money must finish the physical verification (satyapan) and Aadhaar e-KYC, or the next instalments are held back."
+  },
+  {
+   "k": "dd0b4a511297",
+   "ctx": "benefit",
+   "t": "Rs.2,500 a month (Rs.30,000 a year) into the woman's own bank account"
+  },
+  {
+   "k": "ade8c7b13c9f",
+   "ctx": "eligibility",
+   "t": "Resident of Jharkhand, aged 18 or above and below 50 on the day of applying"
+  },
+  {
+   "k": "310af3b0defd",
+   "ctx": "eligibility",
+   "t": "Her family holds a yellow Antyodaya, pink Priority Household, white K-Oil or green state ration card"
+  },
+  {
+   "k": "86171da46ec7",
+   "ctx": "eligibility",
+   "t": "She has her own Aadhaar and a single bank account linked to Aadhaar"
+  },
+  {
+   "k": "ad81176d29d5",
+   "ctx": "eligibility",
+   "t": "Not for a woman who, or whose husband (father, if she is unmarried), works for the central or state government, a PSU, local body or government-aided institution as regular, contract or honorarium staff, or draws a government pension"
+  },
+  {
+   "k": "1d11df2e563e",
+   "ctx": "eligibility",
+   "t": "Not if a family member is a present or former MP or MLA, if the family pays income tax, or if she is an EPF member"
+  },
+  {
+   "k": "b8b5a2fb3147",
+   "ctx": "eligibility",
+   "t": "Not if she already gets another social security pension from the department"
+  },
+  {
+   "k": "7f85b1449e9b",
+   "ctx": "documents",
+   "t": "Ration card of the family (yellow, pink, white or green)"
+  },
+  {
+   "k": "53facba965ef",
+   "ctx": "documents",
+   "t": "Passbook of the Aadhaar-linked bank account in her own name"
+  },
+  {
+   "k": "1351b73a98f3",
+   "ctx": "documents",
+   "t": "PAN card, if she has one (optional)"
+  },
+  {
+   "k": "550a68667f80",
+   "ctx": "documents",
+   "t": "One colour passport-size photo"
+  },
+  {
+   "k": "1bfd25704cc9",
+   "ctx": "documents",
+   "t": "Signed self-declaration, which is part of the form"
+  },
+  {
+   "k": "439284d63620",
+   "ctx": "portalName",
+   "t": "Mukhyamantri Maiya Samman Yojana portal"
+  },
+  {
+   "k": "c1ec4dc258cd",
+   "ctx": "submitAt",
+   "t": "The Maiya Samman camp held in your panchayat or urban ward. The department takes applications through camps across Jharkhand, announced by the Anganwadi worker, Panchayat Sachiv and block office; between camps, ask at your Anganwadi centre or the block (Prakhand) or circle (Anchal) office. The form is free (the printed summary on the 2024 form still says Rs.1,000; the amount is now Rs.2,500). Go yourself, because your Aadhaar and photo are checked on the spot. Take the original Aadhaar, ration card, Aadhaar-linked bank passbook and voter ID, a colour photo and self-attested copies, and keep the acknowledgement."
+  },
+  {
+   "k": "97b7a057048a",
+   "ctx": "label",
+   "t": "आवेदिका का नाम (Applicant's name)"
+  },
+  {
+   "k": "637cc24c79bb",
+   "ctx": "value",
+   "t": "Sunita Devi Oraon"
+  },
+  {
+   "k": "39385133682d",
+   "ctx": "hint",
+   "t": "Exactly as on Aadhaar. The money goes only to this woman."
+  },
+  {
+   "k": "a2b78ebc415d",
+   "ctx": "label",
+   "t": "पिता/पति का नाम (Father's / husband's name)"
+  },
+  {
+   "k": "dbc35a409797",
+   "ctx": "value",
+   "t": "Ramesh Oraon"
+  },
+  {
+   "k": "2de417396e87",
+   "ctx": "label",
+   "t": "पता (Village/mohalla, police station, panchayat/ward, block/circle, district)"
+  },
+  {
+   "k": "eaf67669f084",
+   "ctx": "value",
+   "t": "Tetartoli, PS Kanke, Panchayat Sarwa, Block Kanke, District Ranchi"
+  },
+  {
+   "k": "63f61adf73cf",
+   "ctx": "hint",
+   "t": "Your present address in Jharkhand, as on the ration card."
+  },
+  {
+   "k": "59180ee22ac9",
+   "ctx": "label",
+   "t": "आधार संख्या (Aadhaar number)"
+  },
+  {
+   "k": "0ee81a50c27f",
+   "ctx": "hint",
+   "t": "Her own 12-digit Aadhaar number, one digit per box."
+  },
+  {
+   "k": "36917ae87b34",
+   "ctx": "label",
+   "t": "खाता संख्या (Bank account number)"
+  },
+  {
+   "k": "087821da5526",
+   "ctx": "hint",
+   "t": "Her own single account. A joint account or someone else's account will be rejected."
+  },
+  {
+   "k": "fc431326d725",
+   "ctx": "label",
+   "t": "खाता आधार लिंक्ड है (Is the account linked to Aadhaar?)"
+  },
+  {
+   "k": "4a15b824f7ed",
+   "ctx": "value",
+   "t": "हाँ (Yes)"
+  },
+  {
+   "k": "183ad9803472",
+   "ctx": "hint",
+   "t": "Payment is made only to an Aadhaar-linked account. Get it linked at the bank before the camp."
+  },
+  {
+   "k": "5cd797247ec0",
+   "ctx": "label",
+   "t": "बैंक का नाम (शाखा सहित) / IFSC Code"
+  },
+  {
+   "k": "881df1ea5c89",
+   "ctx": "value",
+   "t": "Bank of India, Kanke branch / BKID0099999"
   }
  ]
 }
