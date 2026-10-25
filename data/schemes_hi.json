@@ -1,6 +1,91 @@
 {
  "schemes": [
   {
+   "id": "farmer-id",
+   "title": "Farmer ID (Kisan Pehchaan Patra) — AgriStack Farmer Registry",
+   "department": "Ministry of Agriculture & Farmers Welfare (Digital Agriculture Mission), with state Revenue and Agriculture departments",
+   "brief": "A free, lifelong 11-digit Farmer ID for every land-owning farmer, linked to Aadhaar and to the plots in the state's land records. Schemes such as PM-Kisan, crop insurance and Kisan Credit Card can then read your land details from the ID, so you stop carrying land papers for each one. New PM-Kisan applicants in the ten states that started first (UP, MP, Maharashtra, Gujarat, Rajasthan, Bihar, Andhra Pradesh, Chhattisgarh, Odisha and Assam) have needed a Farmer ID since 1 January 2025, and over 10 crore farmers had one by August 2026. You register once, at a village camp, a CSC or yourself on your state's Farmer Registry website.",
+   "benefit": "Free lifelong Farmer ID, needed for new PM-Kisan registration and used for crop insurance and KCC",
+   "eligibility": [
+    "Any farmer who owns farm land recorded in the state's land records in his or her own name",
+    "Each owner of jointly held land registers separately. Land in several villages or states still gets one single Farmer ID",
+    "The name on Aadhaar must closely match the name in the land record. A big mismatch sends the claim for manual check or rejection",
+    "If the owner has died or the land was bought, the mutation (name transfer) must be done in the land record first",
+    "Tenant farmers and sharecroppers do not get the land in their name, but the owner can authorise them for a scheme",
+    "No fee is charged for registration or for the ID"
+   ],
+   "documents": [
+    "आधार कार्ड",
+    "Mobile number linked to Aadhaar for the OTP (otherwise fingerprint or face check at a camp or CSC)",
+    "Copy of the land record (khatauni, 7/12, jamabandi, RTC, patta or pahani) showing district, tehsil, village and survey / khasra number",
+    "Khata or owner number, for land held jointly",
+    "Mutation order or heirship entry, if the land came to you by inheritance or purchase"
+   ],
+   "submitAt": "A Farmer Registry camp in your village (run by the Patwari / Lekhpal / Talathi, the agriculture assistant or a Krishi Sakhi), the nearest Common Service Centre (CSC), or the tehsil or block agriculture office. Take your Aadhaar, the mobile phone linked to it and a copy of your land record with the survey numbers; there is no paper form to fill. You can also register yourself online on your state's Farmer Registry site, whose address is the state code followed by fr.agristack.gov.in, for example upfr.agristack.gov.in (Uttar Pradesh), mhfr.agristack.gov.in (Maharashtra), gjfr.agristack.gov.in (Gujarat), rjfr.agristack.gov.in (Rajasthan), mpfr.agristack.gov.in (Madhya Pradesh) and bhfr.agristack.gov.in (Bihar).",
+   "demoFields": [
+    {
+     "label": "आधार नंबर",
+     "value": "9999 6612 4083",
+     "hint": "Your own Aadhaar. The OTP for e-KYC goes to the mobile linked with it."
+    },
+    {
+     "label": "मोबाइल नंबर",
+     "value": "90000 12345",
+     "hint": "The enrolment number and the Farmer ID come by SMS to this number."
+    },
+    {
+     "label": "Name as per Aadhaar",
+     "value": "Bhagwan Singh Yadav",
+     "hint": "Filled in by itself after e-KYC. Check that it matches the name in your land record."
+    },
+    {
+     "label": "पिता / पति का नाम",
+     "value": "Ram Prakash Yadav",
+     "hint": "As written in the land record. The system matches both your name and this name."
+    },
+    {
+     "label": "District / Sub-district / Village of the Land",
+     "value": "Etawah / Bharthana / Nagla Ratan",
+     "hint": "Where the land is, not where you live."
+    },
+    {
+     "label": "Survey / Khasra Number (and Sub-survey Number)",
+     "value": "214/2",
+     "hint": "From your khatauni or 7/12. Enter one plot; your other plots in that village usually show up by themselves."
+    },
+    {
+     "label": "Select Your Name from the Owners List",
+     "value": "Bhagwan Singh Yadav s/o Ram Prakash Yadav",
+     "hint": "Pick only your own name. For joint land, each owner registers with his or her own Aadhaar."
+    },
+    {
+     "label": "Verify Ownership",
+     "value": "Verified from land record",
+     "hint": "Press Verify. The site checks the plot against the state's land record."
+    },
+    {
+     "label": "Consent and e-Sign",
+     "value": "Agreed, e-signed with Aadhaar OTP",
+     "hint": "Your consent lets schemes use your land details. Nothing is shared without it."
+    },
+    {
+     "label": "Enrolment ID",
+     "value": "UP-999-99999-00042",
+     "hint": "Write it down. Use it to track your claim until the Farmer ID is issued."
+    }
+   ],
+   "demoSteps": [
+    "Go to a Farmer Registry camp or a CSC, or open your state's Farmer Registry site (state code + fr.agristack.gov.in), choose Farmer and create an account with your Aadhaar OTP.",
+    "Finish Aadhaar e-KYC. Your name and details come from Aadhaar; add your mobile number and address.",
+    "Plots already matched to your Aadhaar appear by themselves. For a missing plot, enter the district, sub-district, village and survey number, pick your name from the owners list and press Verify.",
+    "Give consent with an Aadhaar e-sign and submit. An enrolment number arrives by SMS.",
+    "The Patwari or revenue officer checks the claim against the land record. Once it is approved, the Farmer ID is made against your Aadhaar, usually within a day; check the status on the same site.",
+    "Quote the Farmer ID for PM-Kisan, crop insurance and KCC. If the claim is rejected for a name mismatch or a pending mutation, get the land record or Aadhaar corrected and claim again."
+   ],
+   "helpline": "Tehsil or district agriculture office Farmer Registry help desk; 155261 / 1800-115-526 (PM-Kisan helpline, for linking the Farmer ID to PM-Kisan)",
+   "lastVerified": "अक्टूबर 2026"
+  },
+  {
    "id": "kcc",
    "title": "Kisan Credit Card (KCC)",
    "department": "Ministry of Agriculture & Farmers Welfare, with RBI, NABARD and banks",
@@ -182,6 +267,91 @@
     "Check your days and payments on the card, on the Janata Board at the worksite and on vbgramg.dord.gov.in. Never let the Sarpanch, the Rozgar Sevak or anyone else keep your card. For a complaint, go to the Programme Officer at the Block, then the District Programme Coordinator (the Collector)."
    ],
    "helpline": "No national toll-free number. Complain to the Programme Officer at the Block office, then the District Programme Coordinator (Collector), or call your state's rural employment helpline; online complaints at pgportal.gov.in",
+   "lastVerified": "अक्टूबर 2026"
+  },
+  {
+   "id": "nikshay-poshan",
+   "title": "Ni-kshay Poshan Yojana (Rs.1,000 a month for TB patients)",
+   "department": "Ministry of Health & Family Welfare — Central TB Division, National TB Elimination Programme",
+   "brief": "Every person being treated for tuberculosis (TB) gets Rs.1,000 a month for food for the whole length of treatment, usually Rs.6,000 for a six-month course, paid straight into a bank account. It covers treatment at a government hospital or by a private doctor, as long as the TB case is notified on the government's Ni-kshay system. Underweight patients also get extra nutrition supplements for the first two months, and families can get food baskets from Ni-kshay Mitra volunteers.",
+   "benefit": "Rs.1,000 a month for the whole TB treatment, by bank transfer",
+   "eligibility": [
+    "Anyone diagnosed with TB, of any type and any age, whose case is notified on Ni-kshay",
+    "Treatment at a government facility or by a private doctor or hospital: both are covered",
+    "No income limit and no BPL card needed",
+    "Paid for every month of treatment until the treatment ends",
+    "A child, or a patient without a bank account, can be paid into a parent's or guardian's account",
+    "Patients with a BMI below 18.5 also get energy-dense nutrition supplements for the first two months"
+   ],
+   "documents": [
+    "TB treatment card or the Ni-kshay ID given at the centre",
+    "Bank passbook or cancelled cheque of a savings account in your name (a parent's or guardian's for a child)",
+    "Aadhaar card, or the Aadhaar enrolment slip with another photo ID until it comes",
+    "Mobile number, for the payment SMS",
+    "For private patients: the doctor's prescription or TB notification slip"
+   ],
+   "submitAt": "Give your bank details to the TB staff at the government health centre or TB Unit where you were diagnosed (the health worker or Senior Treatment Supervisor). If you are treated privately, give them to your doctor or the programme's private-sector staff. Take your bank passbook, Aadhaar and treatment card. The staff enter everything on Ni-kshay, so there is no form for you to fill. Do it in the first two weeks of treatment.",
+   "demoFields": [
+    {
+     "label": "Ni-kshay ID",
+     "value": "99990012",
+     "hint": "Written on your TB treatment card, or ask the health worker."
+    },
+    {
+     "label": "Patient Name",
+     "value": "Suresh Mahato",
+     "hint": "As registered at the TB centre."
+    },
+    {
+     "label": "मोबाइल नंबर",
+     "value": "90000 34567",
+     "hint": "Payment messages and treatment reminders come to this number."
+    },
+    {
+     "label": "आधार नंबर",
+     "value": "9999 7781 0326",
+     "hint": "The patient's Aadhaar, or the enrolment slip number if it has not come yet."
+    },
+    {
+     "label": "Beneficiary Relationship to Patient",
+     "value": "Self",
+     "hint": "Self if the account is yours; Father, Mother or Guardian for a child."
+    },
+    {
+     "label": "Account Holder Name",
+     "value": "Suresh Mahato",
+     "hint": "Exactly as printed in the passbook. A mismatch stops the payment."
+    },
+    {
+     "label": "बैंक खाता नंबर",
+     "value": "99990045678901",
+     "hint": "A savings account that is in use. One account can be linked to only one patient."
+    },
+    {
+     "label": "IFSC कोड",
+     "value": "UBIN0999999",
+     "hint": "Printed on the passbook or cheque."
+    },
+    {
+     "label": "Treatment Start Date",
+     "value": "02-09-2026",
+     "hint": "Payments are counted from this date, Rs.1,000 for each month of treatment."
+    },
+    {
+     "label": "Health Facility / TB Unit",
+     "value": "TB Unit, Sadar Hospital, Dhanbad",
+     "hint": "Where your treatment is recorded."
+    }
+   ],
+   "demoSteps": [
+    "Get tested free at a government health centre. Once TB is confirmed, the case is notified on Ni-kshay and you get a Ni-kshay ID; private doctors must notify too.",
+    "Give your bank passbook and Aadhaar to the TB health worker, who enters the account on Ni-kshay.",
+    "The account is checked by the government payment system. If it fails, the staff call you to correct the details.",
+    "The first payment comes after the account is approved, and then Rs.1,000 for each month of treatment. An SMS tells you of each credit.",
+    "Take the medicines every day until the doctor ends treatment; the payments run for the whole course. Ask for the nutrition supplement if you are underweight.",
+    "If the money has not come, call Ni-kshay Sampark on 1800-11-6666 with your Ni-kshay ID."
+   ],
+   "helpline": "1800-11-6666 (Ni-kshay Sampark, national TB helpline, free)",
    "lastVerified": "अक्टूबर 2026"
   },
   {
@@ -903,6 +1073,93 @@
    "lastVerified": "अक्टूबर 2026"
   },
   {
+   "id": "pm-parivar-labh",
+   "title": "Pradhan Mantri Parivar Labh Yojana (National Family Benefit Scheme, NFBS)",
+   "department": "Ministry of Rural Development — National Social Assistance Programme (Pradhan Mantri Samajik Sahayata Yojana)",
+   "brief": "A one-time payment of Rs.20,000 to a poor (BPL) family when its main earning member dies between the ages of 18 and 59, from illness, accident or any other cause. A woman who runs the home counts as a breadwinner too. The money goes to the family member who, after a local inquiry, becomes the new head of the household. This is the old National Family Benefit Scheme (NFBS), renamed Pradhan Mantri Parivar Labh Yojana by the Cabinet on 14 October 2026 with the benefit unchanged, so local offices may still use the old name.",
+   "benefit": "Rs.20,000 one-time payment to the family, into the bank account",
+   "eligibility": [
+    "The family is below the poverty line (BPL) on the state's list. An eligible poor family missing from the list should still be considered",
+    "The person who died was the main earner of the household. A woman who looked after the home also counts",
+    "The death happened when that person was more than 18 and less than 60 years old",
+    "Any cause of death counts: illness, accident or anything else",
+    "Paid once for each such death, to the surviving member found to be the new head of the household (spouse, minor children, unmarried daughters and dependent parents make up the household)"
+   ],
+   "documents": [
+    "Death certificate of the breadwinner from the Registrar of Births and Deaths",
+    "Age proof of the person who died (birth or school certificate, Aadhaar or voter ID) showing an age between 18 and 59",
+    "BPL ration card, or the family's BPL list number",
+    "आवेदक का आधार कार्ड",
+    "First page of the bank or post-office passbook in the applicant's own name",
+    "FIR and post-mortem report, if the death was an accident",
+    "Residence proof and two passport-size photographs",
+    "Income certificate or legal heir / family certificate, where the state asks for it"
+   ],
+   "submitAt": "The office your state has named for this scheme: usually the Tehsil or SDM office, the Block Development Office, or the District / Tehsil Social Welfare Officer. In a village the Gram Panchayat secretary can take it and forward it; in a town, the municipal office. Most offices give their own form free; the government's model form is Annexe III (page 47) of the NSAP guidelines PDF. Take the filled form with the death certificate, the age proof of the person who died, the BPL ration card, your Aadhaar, your passbook and two photos, plus the FIR and post-mortem report for an accidental death. Some states also take this application online through their e-District or social welfare portal, or at a CSC.",
+   "demoFields": [
+    {
+     "label": "Name of the Deceased (Primary Breadwinner)",
+     "value": "Ramesh Kumar Paswan",
+     "hint": "Copy it letter by letter from the death certificate. The two are compared."
+    },
+    {
+     "label": "Gender and Age at the Time of Death",
+     "value": "Male, 42 years",
+     "hint": "The age must be more than 18 and less than 60. Take it from the age proof you attach, not from memory."
+    },
+    {
+     "label": "Date and Cause of Death",
+     "value": "14-07-2026, road accident",
+     "hint": "Date as on the death certificate. For an accident, attach the FIR and post-mortem report."
+    },
+    {
+     "label": "आवेदक का नाम",
+     "value": "सुनैना देवी",
+     "hint": "The family member who is now head of the household, usually the widow or widower."
+    },
+    {
+     "label": "Father's / Husband's Name of the Applicant",
+     "value": "Late Ramesh Kumar Paswan",
+     "hint": "As on your Aadhaar card."
+    },
+    {
+     "label": "Relationship of the Applicant with the Deceased",
+     "value": "Wife",
+     "hint": "Wife, husband, son, daughter, father or mother."
+    },
+    {
+     "label": "Address (Village, Gram Panchayat / Ward, Block, District, PIN)",
+     "value": "Village Bhagwanpur, GP Bhagwanpur, Block Mahnar, Dist. Vaishali, Bihar – 844506",
+     "hint": "Where the family lives now."
+    },
+    {
+     "label": "BPL Details (Survey Year, Family ID, Member ID) / Ration Card No.",
+     "value": "BPL 2002, Family ID 9999-0417, Member ID 02 / RC BR-99-999887",
+     "hint": "Copy from the BPL ration card or the BPL list kept at the Panchayat."
+    },
+    {
+     "label": "Dependents (name, age, relation)",
+     "value": "Pooja (15, daughter), Aman (11, son), Kalavati Devi (68, mother-in-law)",
+     "hint": "Everyone in the household who depended on the person who died."
+    },
+    {
+     "label": "Aadhaar and Bank Account of the Applicant",
+     "value": "9999 4410 2387 / SBI Mahnar, A/c 99990001234567, IFSC SBIN0099999",
+     "hint": "The account must be in the applicant's own name. The Rs.20,000 is paid only into it."
+    }
+   ],
+   "demoSteps": [
+    "Get the death registered and collect the death certificate from the Panchayat or municipal Registrar. Nothing can be sanctioned without it.",
+    "Collect the free form at the Tehsil, Block or Social Welfare office (or the Gram Panchayat), fill it and attach the documents.",
+    "Get the verification part signed by the Sarpanch or ward member, submit the form at the named office, and take a dated receipt with an inward number.",
+    "A verification officer checks the facts, normally within two weeks. The case is then placed before the Gram Sabha or ward sabha and sent to the sanctioning officer (BDO, Tehsildar / SDM or District Social Welfare Officer).",
+    "The guidelines say the decision should come within 60 days of applying. You get a sanction order and Rs.20,000 is sent to your bank account.",
+    "If it is rejected, the reason must be given to you in writing. Appeal to the appellate officer your state names, usually the SDM or a district officer."
+   ],
+   "helpline": "No national toll-free line: Block Development Office, Tehsil / SDM office or District Social Welfare Officer. Unresolved complaints: NSAP Division, Ministry of Rural Development 011-24663519, or CPGRAMS (pgportal.gov.in)",
+   "lastVerified": "अक्टूबर 2026"
+  },
+  {
    "id": "ignwps",
    "title": "Pradhan Mantri Vidhawa Pension Yojana (formerly IGNWPS)",
    "department": "Ministry of Rural Development — Pradhan Mantri Samajik Sahayata Yojana (formerly NSAP)",
@@ -1125,6 +1382,93 @@
     "तीन महीने में कुछ न आए तो ब्लॉक दफ्तर में आवक नंबर लिखकर रिमाइंडर दें, और उसके बाद BDO को RTI की अर्जी (रु.10) लगाकर पूछें कि उस अर्जी का क्या हुआ और मंजूरी का आदेश कब हुआ।"
    ],
    "helpline": "ब्लॉक विकास कार्यालय; ज़िला समाज कल्याण अधिकारी का नंबर ग्राम पंचायत के सूचना पट्ट पर लगा होता है",
+   "lastVerified": "अक्टूबर 2026"
+  },
+  {
+   "id": "day-nrlm-shg",
+   "title": "DAY-NRLM Self-Help Group (Aajeevika SHG / Lakhpati Didi)",
+   "department": "Ministry of Rural Development — Deendayal Antyodaya Yojana-National Rural Livelihoods Mission, through each State Rural Livelihoods Mission",
+   "brief": "Women from poor village families join a self-help group (SHG) of 10 to 20 women who save a small sum every week and lend to each other. A group that runs well gets a Revolving Fund of Rs.20,000–30,000, can borrow up to Rs.2.5 lakh from the Community Investment Fund through its village federation, and gets bank loans without collateral at a low rate. Members are trained and supported to take up dairy, farming or small businesses, with the aim of earning Rs.1 lakh a year as a 'Lakhpati Didi'. About 10 crore women are in these groups; you join through your village organisation or the block office of your state's livelihood mission, such as JEEViKA in Bihar, UMED in Maharashtra or Kudumbashree in Kerala.",
+   "benefit": "Revolving Fund Rs.20,000–30,000 per group, up to Rs.2.5 lakh CIF per group, bank loans at 7% up to Rs.3 lakh",
+   "eligibility": [
+    "Women from poor rural households, picked out by the village itself or from the SECC deprivation list",
+    "One woman from each household, in one group",
+    "A group has 10 to 20 members (fewer in hilly or remote areas and in groups of persons with disabilities)",
+    "The group must meet, save, lend, repay on time and keep books regularly (the 'Panchasutra') to get the Revolving Fund",
+    "Community Investment Fund and bank loans follow once the group is graded by the mission and the bank",
+    "Lakhpati Didi support usually goes to members who have been in an SHG for at least two years and have used the CIF"
+   ],
+   "documents": [
+    "Aadhaar card of each member",
+    "Passport-size photographs of the members",
+    "Savings account opened in the group's name, with a resolution signed by all members",
+    "ID proof of the three office-bearers who will operate the group account",
+    "Bank passbook of each member",
+    "Group meeting register and savings and loan ledger, kept by the group's bookkeeper"
+   ],
+   "submitAt": "Speak to the Community Resource Person (CRP, the SHG didi or sakhi) or the Village Organisation in your village, or go to the Block Mission Management Unit of your State Rural Livelihoods Mission at the block office. Join an existing group or form a new one with 10–20 women from nearby households; the CRP helps open the group's bank account at the nearest branch and enters the group in the mission's records. Take your Aadhaar, photographs and bank passbook.",
+   "demoFields": [
+    {
+     "label": "Name of SHG",
+     "value": "Jai Maa Durga Aajeevika Swayam Sahayata Samuh",
+     "hint": "The name the members agree on at the first meeting."
+    },
+    {
+     "label": "गाँव / ग्राम पंचायत / ब्लॉक / जिला",
+     "value": "Kanhauli / Kanhauli / Sakra / Muzaffarpur, Bihar",
+     "hint": "Where the members live."
+    },
+    {
+     "label": "Member Name",
+     "value": "Rinku Devi",
+     "hint": "जैसा आधार में है।"
+    },
+    {
+     "label": "पिता / पति का नाम",
+     "value": "Manoj Sahni",
+     "hint": "जैसा आधार में है।"
+    },
+    {
+     "label": "जन्म तारीख / उम्र",
+     "value": "12-03-1992 / 34 years",
+     "hint": "From Aadhaar or another age proof."
+    },
+    {
+     "label": "Social Category",
+     "value": "OBC",
+     "hint": "SC, ST, OBC, General or Minority."
+    },
+    {
+     "label": "Poverty Status",
+     "value": "Poor (village identification)",
+     "hint": "As decided in the village's identification of poor families, or the SECC list."
+    },
+    {
+     "label": "आधार नंबर",
+     "value": "9999 5532 1870",
+     "hint": "Each member's own number."
+    },
+    {
+     "label": "Weekly Savings Amount",
+     "value": "Rs.20 a week",
+     "hint": "Fixed by all members together; the same for everyone."
+    },
+    {
+     "label": "Designation in SHG",
+     "value": "Treasurer",
+     "hint": "President, Secretary and Treasurer operate the bank account; others are members."
+    }
+   ],
+   "demoSteps": [
+    "Meet the CRP or Village Organisation. With 10–20 women from nearby poor households, hold the first meeting, name the group and fix the weekly saving.",
+    "Open a savings account in the group's name with the three office-bearers as signatories; the CRP records the group and each member with the mission.",
+    "Meet every week, save, lend among yourselves, repay on time and keep the books for about three months.",
+    "The group gets the Revolving Fund of Rs.20,000–30,000 in its account and joins the Village Organisation.",
+    "Through the village federation the group can borrow from the Community Investment Fund, up to Rs.2.5 lakh per SHG, against the members' credit plan.",
+    "The bank gives the group loans without collateral, at 7% for loans up to Rs.3 lakh, with bigger loans after each repayment. Members use them for dairy, farming, shops or other work.",
+    "Members are trained under the Lakhpati Didi plan, and the CRP records household income in the Digital Aajeevika Register."
+   ],
+   "helpline": "Block Mission Management Unit of your State Rural Livelihoods Mission; DAY-NRLM, Ministry of Rural Development 011-23461708; Lakhpati Didi portal support 0120-5202521 (Mon–Sat, 9 am–6 pm)",
    "lastVerified": "अक्टूबर 2026"
   },
   {
@@ -2775,6 +3119,91 @@
     "उसी साइट पर 'Search Beneficiary' में अपनी फाइल देखते रहें। काम जैसे-जैसे ऊपर उठता है पैसा किस्तों में आता है, इसलिए हर चरण पर माँगी गई फोटो भेजते रहें।"
    ],
    "helpline": "1800-11-3377 / 1800-11-3388 / 1800-11-6163",
+   "lastVerified": "अक्टूबर 2026"
+  },
+  {
+   "id": "sbm-g-toilet",
+   "title": "Swachh Bharat Mission (Grameen) Toilet Incentive (IHHL, Rs.12,000)",
+   "department": "Ministry of Jal Shakti — Department of Drinking Water and Sanitation",
+   "brief": "Rs.12,000 to a village family with no toilet of its own, to build one at home with a water store for hand-washing and cleaning. In the current phase (running to March 2027) the money goes only to newly formed or left-out households that qualify, and the state may pay it in one go or in parts as the work progresses. You can apply online with just a mobile number or through the Gram Panchayat, and the incentive reaches your bank account after the finished toilet is photographed and checked.",
+   "benefit": "Rs.12,000 per household for one toilet, paid into the bank account",
+   "eligibility": [
+    "A rural household with no toilet of its own",
+    "Every below-poverty-line (BPL) household",
+    "Above-poverty-line households only if SC/ST, a small or marginal farmer, a landless labourer with a homestead, a household with a person with disability, or a woman-headed household",
+    "Only new or left-out households: a family that already got a toilet incentive earlier cannot get it again",
+    "Families in towns and cities apply under Swachh Bharat Mission (Urban) instead"
+   ],
+   "documents": [
+    "आवेदक का आधार कार्ड",
+    "Mobile number for the OTP login",
+    "Bank passbook in the applicant's name, with account number and IFSC",
+    "BPL ration card, or for APL families proof of the category: caste certificate, disability certificate, or land record for small and marginal farmers",
+    "Proof that you live in the village: ration card, voter ID or Panchayat family register entry"
+   ],
+   "portalName": "Swachh Bharat Mission (Grameen)",
+   "demoFields": [
+    {
+     "label": "Mobile No. (as Login Id)",
+     "value": "90000 23456",
+     "hint": "Register with this number first. Every login is by OTP, and only 5 OTP tries are allowed a day."
+    },
+    {
+     "label": "Name of Applicant",
+     "value": "Kamla Bai Meena",
+     "hint": "As on Aadhaar and the bank passbook."
+    },
+    {
+     "label": "लिंग",
+     "value": "महिला",
+     "hint": "Pick the applicant's gender."
+    },
+    {
+     "label": "पिता / पति का नाम",
+     "value": "Shankar Lal Meena",
+     "hint": "जैसा आधार में है।"
+    },
+    {
+     "label": "आधार नंबर",
+     "value": "9999 2201 7845",
+     "hint": "The applicant's own 12-digit number."
+    },
+    {
+     "label": "State / District / Block / Gram Panchayat / Village",
+     "value": "Rajasthan / Tonk / Uniara / Banetha / Banetha",
+     "hint": "Where the house that needs the toilet stands."
+    },
+    {
+     "label": "Household Category",
+     "value": "APL – Women headed household",
+     "hint": "Choose BPL if you are on the BPL list; otherwise the APL group that fits you."
+    },
+    {
+     "label": "Social Category",
+     "value": "ST",
+     "hint": "SC, ST, OBC or General."
+    },
+    {
+     "label": "Bank Name, Branch and IFSC",
+     "value": "Bank of Baroda, Uniara / BARB0099999",
+     "hint": "IFSC is printed on the passbook's first page."
+    },
+    {
+     "label": "बैंक खाता नंबर",
+     "value": "99990012345678",
+     "hint": "Must be in the applicant's own name. The Rs.12,000 is paid here."
+    }
+   ],
+   "demoSteps": [
+    "Open the SBM-G citizen page, tap Citizen Registration, enter your mobile number and the OTP.",
+    "Log in with mobile and OTP, open the toilet (IHHL) application, fill in applicant, address, category and bank details, submit, and note the application number.",
+    "The Gram Panchayat and block check that your household has no toilet and qualifies; new households are approved through the Gram Sabha and the district.",
+    "After approval, build the toilet with a safe pit (twin pit, or septic tank with soak pit), a superstructure and a water store for hand-washing.",
+    "Block or cluster staff take a geo-tagged photo of the finished toilet on the government mobile app.",
+    "After the check, the Rs.12,000 is paid into your bank account (some states pay part during construction). Log in again to see the status.",
+    "If nothing moves, go to the Gram Panchayat secretary or the block SBM coordinator, then file a complaint on CPGRAMS."
+   ],
+   "helpline": "No national toll-free line for the incentive: Gram Panchayat secretary or Block Development Office (SBM-G block coordinator); complaints on CPGRAMS (pgportal.gov.in)",
    "lastVerified": "अक्टूबर 2026"
   },
   {
