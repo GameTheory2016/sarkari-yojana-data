@@ -41,7 +41,9 @@ KEYS = ("title,department,brief,benefit,portalName,submitAt,helpline,lastVerifie
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+# Empty means: pick the newest Flash model the key can use (Google retires
+# old models, and a fixed name would stop the pipeline one day).
+MODEL = os.environ.get("GEMINI_MODEL", "")
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MAX_SCHEMES = 15
 # The free tier allows a few hundred requests a day. Each run stops here and
@@ -96,17 +98,52 @@ def fetch_text(url):
     return " ".join(html.unescape(re.sub(r"(?s)<[^>]+>", " ", raw)).split())
 
 
+_candidates = None  # usable models, best first; filled on first use
+FLASH = re.compile(r"gemini-(\d+(?:\.\d+)?)-flash(-preview[\w-]*|-\d{3})?")
+
+
+def next_model(dead=None):
+    """The best Flash model still worth trying: stable before preview, newest first."""
+    global _candidates
+    if _candidates is None:
+        names = []
+        try:
+            req = urllib.request.Request(
+                "https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000",
+                headers={"x-goog-api-key": KEY})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                for m in json.load(r).get("models", []):
+                    n = m["name"].split("/")[-1]
+                    if (FLASH.fullmatch(n)
+                            and "generateContent" in m.get("supportedGenerationMethods", [])):
+                        names.append(n)
+        except Exception as e:
+            print(f"  Gemini model list failed: {e}")
+        names.sort(key=lambda n: ("preview" not in n,
+                                  [int(x) for x in FLASH.fullmatch(n)[1].split(".")]),
+                   reverse=True)
+        _candidates = ([MODEL] if MODEL else []) + names + ["gemini-flash-latest"]
+    _candidates = [c for c in _candidates if c != dead]
+    return _candidates[0] if _candidates else None
+
+
 def gemini(prompt, retries=4):
     """One JSON answer from Gemini, or None. Paced for the free tier."""
-    global _requests
+    global _requests, MODEL
     if _requests >= MAX_REQUESTS:
         return None
+    if not MODEL:
+        MODEL = next_model()
+        print(f"  using {MODEL}")
+    if not MODEL or MODEL == "none":
+        return None
     _requests += 1
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"responseMimeType": "application/json",
                                             "temperature": 0.2}}).encode()
-    for attempt in range(retries):
+    attempt = 0
+    while attempt < retries:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
         req = urllib.request.Request(url, data=body, headers={
             "Content-Type": "application/json", "x-goog-api-key": KEY})
         try:
@@ -114,20 +151,30 @@ def gemini(prompt, retries=4):
                 data = json.load(r)
             return json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
         except urllib.error.HTTPError as e:
-            msg = e.read()[:300]
+            msg = e.read()[:3000]
+            if e.code == 404 or (e.code == 429 and b"limit: 0" in msg):
+                # Retired, or no free quota on this model: move to the next one.
+                MODEL = next_model(MODEL) or "none"
+                print(f"  Gemini HTTP {e.code}; switching to {MODEL}")
+                if MODEL == "none":
+                    return None
+                continue
             if e.code in (429, 500, 503) and attempt < retries - 1:
                 time.sleep(40 * (attempt + 1))
+                attempt += 1
                 continue
-            print(f"  Gemini HTTP {e.code}: {msg}")
+            print(f"  Gemini HTTP {e.code}: {msg[:300]}")
             return None
         except Exception as e:  # network, malformed answer
             if attempt < retries - 1:
                 time.sleep(15)
+                attempt += 1
                 continue
             print(f"  Gemini failed: {e}")
             return None
         finally:
             time.sleep(7)  # the free tier allows about ten requests a minute
+    return None
 
 
 # ---- step 1: content changes -----------------------------------------------
