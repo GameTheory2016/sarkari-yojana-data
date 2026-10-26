@@ -6,11 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_24.json",
  "items": [
   {
-   "k": "10cfd7660245",
-   "ctx": "hint",
-   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar. Otherwise choose face authentication on the phone camera."
-  },
-  {
    "k": "d27e2439b7c4",
    "ctx": "hint",
    "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets rejected."
@@ -1129,6 +1124,11 @@
    "k": "46170b793614",
    "ctx": "documents",
    "t": "Aadhaar card - compulsory"
+  },
+  {
+   "k": "9374f367b5c1",
+   "ctx": "documents",
+   "t": "Latest RoR (khatian), agricultural or forest patta, or barga record"
   }
  ]
 }

@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_12.json",
  "items": [
   {
-   "k": "66a830e4ecba",
-   "ctx": "hint",
-   "t": "Copy the bank name, branch and IFSC from the first page of the passbook."
-  },
-  {
-   "k": "244503394bb1",
-   "ctx": "label",
-   "t": "राशन कार्ड संख्या (Ration card number)"
-  },
-  {
-   "k": "eaeaf9c3f4df",
-   "ctx": "hint",
-   "t": "Her name should be on this yellow, pink, white or green card."
-  },
-  {
-   "k": "0e1ddd31d7dc",
-   "ctx": "label",
-   "t": "आयु / जन्म तिथि (Age / date of birth)"
-  },
-  {
-   "k": "f8662d492d3c",
-   "ctx": "hint",
-   "t": "She must be 18 or above and below 50. Use the date on Aadhaar."
-  },
-  {
-   "k": "2790f5c548eb",
-   "ctx": "label",
-   "t": "आवेदिका का मोबाइल नंबर (Mobile number)"
-  },
-  {
-   "k": "2d2ba0e0095a",
-   "ctx": "hint",
-   "t": "Payment and verification messages come to this number."
-  },
-  {
-   "k": "c5565da2665b",
-   "ctx": "demoSteps",
-   "t": "Find out the date of the Maiya Samman camp in your panchayat or ward from the Anganwadi worker, Panchayat Sachiv or block office, and get the free form there (or print the official form)."
-  },
-  {
-   "k": "996c5a726c37",
-   "ctx": "demoSteps",
-   "t": "Fill the form, tick that the account is Aadhaar-linked, paste the photo, sign the declaration and attach self-attested copies of Aadhaar, ration card, bank passbook and voter ID."
-  },
-  {
-   "k": "e13ace1748bf",
-   "ctx": "demoSteps",
-   "t": "Go to the camp yourself. The operator enters the form on the portal and checks your Aadhaar and photo. Keep the acknowledgement."
-  },
-  {
    "k": "38b037bf3248",
    "ctx": "demoSteps",
    "t": "Block and district officials verify the application. Once approved, Rs.2,500 arrives in your Aadhaar-linked account by the 15th of every month."
@@ -1169,6 +1119,51 @@
    "k": "5280da7229da",
    "ctx": "hint",
    "t": "Aadhaar-seeded accounts. Upload the passbook page for each."
+  },
+  {
+   "k": "c47929cc6d38",
+   "ctx": "hint",
+   "t": "Upload a copy of the card as well."
+  },
+  {
+   "k": "c75ccaef8a2a",
+   "ctx": "value",
+   "t": "Shivashakti Builders, site in-charge Mahantesh, 90000 18834"
+  },
+  {
+   "k": "abaae148c8aa",
+   "ctx": "hint",
+   "t": "Name of the employer, the company, and the mobile number of the person in charge of the site."
+  },
+  {
+   "k": "2bf25b7f6a82",
+   "ctx": "hint",
+   "t": "Where you did the 90 days of work."
+  },
+  {
+   "k": "f97e8404c121",
+   "ctx": "label",
+   "t": "Nature of work and certificate issuer"
+  },
+  {
+   "k": "9eb23eb357f3",
+   "ctx": "value",
+   "t": "Mason — certificate by a registered construction workers' union"
+  },
+  {
+   "k": "2d3976bf30d2",
+   "ctx": "hint",
+   "t": "Upload the 90-day certificate and the self-declaration. The labour inspector checks them, sometimes at the site."
+  },
+  {
+   "k": "e4d2fbc47734",
+   "ctx": "demoSteps",
+   "t": "Get the 90-day work certificate in the board's format (the KSK portal has the template), signed by your employer or contractor, a registered construction workers' union, or the labour inspector."
+  },
+  {
+   "k": "8a5f13d88344",
+   "ctx": "demoSteps",
+   "t": "Open kbocwwb.karnataka.gov.in, choose Apply for Registration, select 'Register as a New Construction Worker' and verify your Aadhaar-linked mobile with the OTP. Without a smartphone, go to the Karmika Seva Kendra or labour inspector's office in your taluk."
   }
  ]
 }

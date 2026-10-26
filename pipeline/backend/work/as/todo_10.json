@@ -6,26 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_10.json",
  "items": [
   {
-   "k": "dc9131e53143",
-   "ctx": "brief",
-   "t": "Gujarat's own health cover, joined with Ayushman Bharat: cashless treatment of up to Rs.10 lakh a year for the whole family at empanelled government and private hospitals. The old MA (Mukhyamantri Amrutum) and MA Vatsalya cards were merged into it in 2021 under the name PMJAY-MA, and in 2023 the cover was doubled from Rs.5 lakh to Rs.10 lakh. Gujarat covers many more families than the central list, including families earning up to Rs.4 lakh a year and senior citizens in families earning up to Rs.6 lakh. The card is the same Ayushman card, and you can make it yourself on the phone or at the kiosk of any government health centre or empanelled hospital."
-  },
-  {
-   "k": "177c1371da3b",
-   "ctx": "benefit",
-   "t": "Rs.10 lakh a year per family, cashless"
-  },
-  {
-   "k": "1a781f501134",
-   "ctx": "eligibility",
-   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
-  },
-  {
-   "k": "6b3b66fa5faa",
-   "ctx": "eligibility",
-   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
-  },
-  {
    "k": "6d5280574a3e",
    "ctx": "eligibility",
    "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
@@ -874,6 +854,46 @@
    "k": "3fd76cf7cc45",
    "ctx": "hint",
    "t": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
+  },
+  {
+   "k": "dbe6f062a1cd",
+   "ctx": "hint",
+   "t": "An account in your own name; the Rs 1,500 is paid here every month."
+  },
+  {
+   "k": "c9655a3070f0",
+   "ctx": "hint",
+   "t": "Villages give the Parivar Register copy, towns give the ration card."
+  },
+  {
+   "k": "1c0cfe70dbe1",
+   "ctx": "hint",
+   "t": "You declare that no one in the family is a government employee, pensioner, ASHA or Anganwadi worker or in the other excluded groups, and that no other woman of the family gets this money."
+  },
+  {
+   "k": "405c96121be6",
+   "ctx": "demoSteps",
+   "t": "Get your bonafide Himachali certificate and an income certificate (below Rs 2 lakh) from a Lok Mitra Kendra or the tehsil."
+  },
+  {
+   "k": "1fcadf2c9bcf",
+   "ctx": "demoSteps",
+   "t": "Collect the free form at the Tehsil Welfare Officer's office."
+  },
+  {
+   "k": "c12af0e0634e",
+   "ctx": "demoSteps",
+   "t": "Fill it, attach the documents, and hand it in at the same office. Ask for a receipt."
+  },
+  {
+   "k": "838a00894b46",
+   "ctx": "demoSteps",
+   "t": "The Tehsil Welfare Officer checks the form and documents and sends the list of eligible women for approval."
+  },
+  {
+   "k": "d035b91d8c77",
+   "ctx": "demoSteps",
+   "t": "Once approved, Rs 1,500 is paid into your bank account every month. Payments are being started area by area, so ask the welfare office when your area's turn comes."
   }
  ]
 }

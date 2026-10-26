@@ -6,81 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_04.json",
  "items": [
   {
-   "k": "2d81055316ce",
-   "ctx": "hint",
-   "t": "Copy it from the passbook. The monthly amount is debited from this account until you turn 60."
-  },
-  {
-   "k": "505353f95a53",
-   "ctx": "label",
-   "t": "Bank IFS Code"
-  },
-  {
-   "k": "3f2f01227e29",
-   "ctx": "hint",
-   "t": "The 11-character branch code printed on the passbook or cheque."
-  },
-  {
-   "k": "49c9776cffae",
-   "ctx": "label",
-   "t": "Please Select option (KYC)"
-  },
-  {
-   "k": "b0a7e7b3dab0",
-   "ctx": "hint",
-   "t": "Aadhaar or Virtual ID sends an OTP. Offline KYC needs the ZIP file downloaded from the UIDAI site and its share code."
-  },
-  {
-   "k": "421ba9916e36",
-   "ctx": "label",
-   "t": "Aadhaar Registered Mobile Number"
-  },
-  {
-   "k": "8b745e608719",
-   "ctx": "hint",
-   "t": "The number linked to your Aadhaar; the OTP comes here."
-  },
-  {
-   "k": "00334c33d50e",
-   "ctx": "label",
-   "t": "Pension Amount"
-  },
-  {
-   "k": "5f6938c5654a",
-   "ctx": "hint",
-   "t": "The pension you want at 60. A bigger pension means a bigger monthly payment; the exact amount for your age is shown before you submit."
-  },
-  {
-   "k": "d1b2640818a7",
-   "ctx": "label",
-   "t": "Periodicity of Contribution"
-  },
-  {
-   "k": "903442a647cf",
-   "ctx": "hint",
-   "t": "Monthly, quarterly or half-yearly. Monthly is easiest to keep up with on a small income."
-  },
-  {
-   "k": "91b1759a20bb",
-   "ctx": "demoSteps",
-   "t": "Open the eAPY page and choose New Registration. Answer No to income tax, and pick your bank, branch, account type, account number and IFSC."
-  },
-  {
-   "k": "ae963d2aa0ef",
-   "ctx": "demoSteps",
-   "t": "Choose Aadhaar, Virtual ID or offline KYC, enter your Aadhaar-registered mobile number and verify with the OTP; your details are taken from Aadhaar."
-  },
-  {
-   "k": "8b58b4ae99aa",
-   "ctx": "demoSteps",
-   "t": "Pick the pension amount and how often you will pay, tick the consent for auto-debit, and fill the captcha."
-  },
-  {
-   "k": "f22503b5bb68",
-   "ctx": "demoSteps",
-   "t": "On the next pages add your spouse and nominee, then confirm with OTP or eSign. Save the acknowledgement number that comes by SMS or email."
-  },
-  {
    "k": "7b8ec5924018",
    "ctx": "demoSteps",
    "t": "Once the bank verifies your account, you get a PRAN (Permanent Retirement Account Number) and the first amount is debited, so keep enough balance."
@@ -1209,6 +1134,51 @@
    "k": "bb0cf76984d0",
    "ctx": "demoSteps",
    "t": "Keep your bank account Aadhaar-seeded and NPCI-mapped. Ask the bank or post office to check it."
+  },
+  {
+   "k": "7b4d665ce257",
+   "ctx": "demoSteps",
+   "t": "When the money is released (late July in 2026), check your passbook and look for your name on the eligible list at the Swarna Gramam / Swarna Ward office."
+  },
+  {
+   "k": "6cf8f4bb168f",
+   "ctx": "demoSteps",
+   "t": "If you are left out or shown ineligible, file a grievance at that office within the window it announces (22 July to 3 August in 2026). Take Aadhaar, the rice card, the passbook and proof against the reason. Keep the grievance number."
+  },
+  {
+   "k": "64ec4b4e2f01",
+   "ctx": "demoSteps",
+   "t": "Staff verify the grievance at your home or with records and prepare a supplementary list."
+  },
+  {
+   "k": "03a049b3e37f",
+   "ctx": "demoSteps",
+   "t": "If accepted, Rs.13,000 for each eligible child is credited to your account in the second round (30 August in 2026)."
+  },
+  {
+   "k": "fa7a216da2ad",
+   "ctx": "demoSteps",
+   "t": "For help, ask the Welfare and Education Assistant at the office or call 1902."
+  },
+  {
+   "k": "5bf26bffeb4a",
+   "ctx": "helpline",
+   "t": "1902 — AP government citizen helpline (Swarna Gramam / Swarna Ward and Secretariat services)"
+  },
+  {
+   "k": "d2f40c74cdd3",
+   "ctx": "title",
+   "t": "AP Building and Other Construction Workers Registration (Construction Worker Card)"
+  },
+  {
+   "k": "4aa6817c93a1",
+   "ctx": "department",
+   "t": "AP Building and Other Construction Workers Welfare Board, Labour Department, Government of Andhra Pradesh"
+  },
+  {
+   "k": "c975099be084",
+   "ctx": "brief",
+   "t": "Masons, helpers, carpenters, painters, plumbers, electricians and other construction workers register with the state construction workers' welfare board and get an ID card. Card holders and their families can claim money for marriage, childbirth, natural death and funeral. These benefits were restored from 1 March 2026. Registration costs Rs.50 once plus Rs.12 a year, and claims are made through the Village or Ward Secretariat."
   }
  ]
 }

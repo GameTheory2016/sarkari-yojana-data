@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_20.json",
  "items": [
   {
-   "k": "cfc46c0f7227",
-   "ctx": "hint",
-   "t": "Your Rajasthan SSO login. If you have none, make one free on the same page using your Jan Aadhaar."
-  },
-  {
-   "k": "75f527181b57",
-   "ctx": "value",
-   "t": "Free"
-  },
-  {
-   "k": "99c4f0f9c6b5",
-   "ctx": "hint",
-   "t": "Free is for small and marginal farmers, contract workers and Covid ex-gratia families. Every other family chooses Paid and pays Rs 850. NFSA ration-card families do not register at all."
-  },
-  {
-   "k": "4c789aa399c9",
-   "ctx": "label",
-   "t": "Free category"
-  },
-  {
-   "k": "ab7e38d5dd24",
-   "ctx": "value",
-   "t": "SMF (small and marginal farmer)"
-  },
-  {
-   "k": "9fc701904fde",
-   "ctx": "hint",
-   "t": "Farmers choose SMF, government contract staff choose Contractual, and destitute families who got the Covid aid choose Covid 19 ex Gratia."
-  },
-  {
-   "k": "11dc9e241912",
-   "ctx": "label",
-   "t": "Jan Aadhaar number or enrolment receipt number"
-  },
-  {
-   "k": "30a802b56d26",
-   "ctx": "hint",
-   "t": "The 10-digit family number on the Jan Aadhaar card. If the card is still being made, the enrolment receipt number also works."
-  },
-  {
-   "k": "aabaf3fd2677",
-   "ctx": "label",
-   "t": "Family member who e-signs"
-  },
-  {
-   "k": "de0a515a69ba",
-   "ctx": "value",
-   "t": "Bhanwar Lal Saini (head of family)"
-  },
-  {
    "k": "551869b04bd5",
    "ctx": "hint",
    "t": "All members appear on screen. Pick any one adult whose Aadhaar has a working mobile number linked to it."
@@ -1219,6 +1169,61 @@
    "k": "daee8c4a9691",
    "ctx": "value",
    "t": "Male, 12-04-1979, 47 years"
+  },
+  {
+   "k": "3146cce56863",
+   "ctx": "hint",
+   "t": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
+  },
+  {
+   "k": "50925e6464af",
+   "ctx": "value",
+   "t": "Daily-wage farm worker"
+  },
+  {
+   "k": "6682d76cac64",
+   "ctx": "hint",
+   "t": "Your main work, in simple words, for example coolie, weaver, auto driver or homemaker."
+  },
+  {
+   "k": "4597696bf510",
+   "ctx": "label",
+   "t": "Ration card number and ration shop number"
+  },
+  {
+   "k": "804f2ed2fab6",
+   "ctx": "value",
+   "t": "3399 0000 1122 / Shop TR-112"
+  },
+  {
+   "k": "3836dbb6f498",
+   "ctx": "hint",
+   "t": "Both numbers are on the smart card. The kiosk checks this number online, so copy it carefully."
+  },
+  {
+   "k": "d9994dbff24f",
+   "ctx": "hint",
+   "t": "Aadhaar of the head of the family. Members' Aadhaar is checked at the kiosk."
+  },
+  {
+   "k": "fb67a186435e",
+   "ctx": "label",
+   "t": "Permanent address (door, street, village, taluk, district, PIN)"
+  },
+  {
+   "k": "f116d65b07ee",
+   "ctx": "value",
+   "t": "12, Kovil Street, Sevalpatti village, Peraiyur taluk, Madurai 625799"
+  },
+  {
+   "k": "4f1d5812e714",
+   "ctx": "hint",
+   "t": "The address on the ration card. Write the village, taluk and district in full."
+  },
+  {
+   "k": "8961d3bf56ef",
+   "ctx": "label",
+   "t": "Phone number"
   }
  ]
 }

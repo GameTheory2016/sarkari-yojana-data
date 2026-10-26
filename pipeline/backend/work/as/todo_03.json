@@ -6,51 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_03.json",
  "items": [
   {
-   "k": "9d5cd29a85ef",
-   "ctx": "demoSteps",
-   "t": "Before leaving the hospital, give your Aadhaar, bank passbook copy and MCP card to the JSY desk or labour-room staff, or hand them to the ASHA."
-  },
-  {
-   "k": "7cf9b9c97f0b",
-   "ctx": "demoSteps",
-   "t": "The hospital enters your claim. The money is sent straight to your bank account, usually within a few weeks."
-  },
-  {
-   "k": "4464e2ae014a",
-   "ctx": "demoSteps",
-   "t": "If it has not come in a month, ask the ASHA or the hospital's JSY clerk, or call 104 with your MCP card number."
-  },
-  {
-   "k": "dd55c5d62bb4",
-   "ctx": "helpline",
-   "t": "104 (state health helpline) / 102 (free ambulance for pregnant women) / 108"
-  },
-  {
-   "k": "afc044e0a76a",
-   "ctx": "title",
-   "t": "Sukanya Samriddhi Yojana (SSY / Sukanya Account)"
-  },
-  {
-   "k": "aa31f99ad0c2",
-   "ctx": "department",
-   "t": "Department of Economic Affairs, Ministry of Finance; run through India Post and authorised banks"
-  },
-  {
-   "k": "6bd104f61f63",
-   "ctx": "brief",
-   "t": "A savings account in a girl's name that pays one of the highest safe interest rates in the country, 8.2% a year for October to December 2026, completely tax-free. A parent opens it before the girl turns 10, at a post office or authorised bank, with as little as Rs.250, and keeps depositing for 15 years; the account matures 21 years after opening. Half the money can be taken out after she turns 18 for her studies. Rs.1,000 a month for 15 years grows to about Rs.5.5 lakh at today's rate."
-  },
-  {
-   "k": "6bdae11b0e0b",
-   "ctx": "benefit",
-   "t": "8.2% tax-free interest; deposit Rs.250 to Rs.1.5 lakh a year"
-  },
-  {
-   "k": "bca6b4d51fdb",
-   "ctx": "eligibility",
-   "t": "Girl child below 10 years of age, resident in India"
-  },
-  {
    "k": "39e6ecdcced5",
    "ctx": "eligibility",
    "t": "Opened by the girl's parent or legal guardian; accounts opened by grandparents must be moved to a parent's name"
@@ -1249,6 +1204,81 @@
    "k": "a5ba9e256d15",
    "ctx": "hint",
    "t": "APY works only with a savings account."
+  },
+  {
+   "k": "2d81055316ce",
+   "ctx": "hint",
+   "t": "Copy it from the passbook. The monthly amount is debited from this account until you turn 60."
+  },
+  {
+   "k": "505353f95a53",
+   "ctx": "label",
+   "t": "Bank IFS Code"
+  },
+  {
+   "k": "3f2f01227e29",
+   "ctx": "hint",
+   "t": "The 11-character branch code printed on the passbook or cheque."
+  },
+  {
+   "k": "49c9776cffae",
+   "ctx": "label",
+   "t": "Please Select option (KYC)"
+  },
+  {
+   "k": "b0a7e7b3dab0",
+   "ctx": "hint",
+   "t": "Aadhaar or Virtual ID sends an OTP. Offline KYC needs the ZIP file downloaded from the UIDAI site and its share code."
+  },
+  {
+   "k": "421ba9916e36",
+   "ctx": "label",
+   "t": "Aadhaar Registered Mobile Number"
+  },
+  {
+   "k": "8b745e608719",
+   "ctx": "hint",
+   "t": "The number linked to your Aadhaar; the OTP comes here."
+  },
+  {
+   "k": "00334c33d50e",
+   "ctx": "label",
+   "t": "Pension Amount"
+  },
+  {
+   "k": "5f6938c5654a",
+   "ctx": "hint",
+   "t": "The pension you want at 60. A bigger pension means a bigger monthly payment; the exact amount for your age is shown before you submit."
+  },
+  {
+   "k": "d1b2640818a7",
+   "ctx": "label",
+   "t": "Periodicity of Contribution"
+  },
+  {
+   "k": "903442a647cf",
+   "ctx": "hint",
+   "t": "Monthly, quarterly or half-yearly. Monthly is easiest to keep up with on a small income."
+  },
+  {
+   "k": "91b1759a20bb",
+   "ctx": "demoSteps",
+   "t": "Open the eAPY page and choose New Registration. Answer No to income tax, and pick your bank, branch, account type, account number and IFSC."
+  },
+  {
+   "k": "ae963d2aa0ef",
+   "ctx": "demoSteps",
+   "t": "Choose Aadhaar, Virtual ID or offline KYC, enter your Aadhaar-registered mobile number and verify with the OTP; your details are taken from Aadhaar."
+  },
+  {
+   "k": "8b58b4ae99aa",
+   "ctx": "demoSteps",
+   "t": "Pick the pension amount and how often you will pay, tick the consent for auto-debit, and fill the captcha."
+  },
+  {
+   "k": "f22503b5bb68",
+   "ctx": "demoSteps",
+   "t": "On the next pages add your spouse and nominee, then confirm with OTP or eSign. Save the acknowledgement number that comes by SMS or email."
   }
  ]
 }

@@ -6,11 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_23.json",
  "items": [
   {
-   "k": "c70a19d651f4",
-   "ctx": "department",
-   "t": "Social Welfare & Social Education Department, Government of Tripura"
-  },
-  {
    "k": "aa0b62c5f475",
    "ctx": "brief",
    "t": "Tripura gives Rs.50,000 once for the marriage of a girl from an Antyodaya (poorest) family, when the bride is at least 18 and the groom at least 21. Up to two girls in one family can get it. You apply at the CDPO office, which checks the papers and sends them to the Sub-Divisional Magistrate within 15 days. The SDM pays once the marriage is confirmed and registered. The scheme was notified in August 2025 and covers about 2,000 girls a year."
@@ -1169,6 +1164,11 @@
    "k": "79af72fc8e6c",
    "ctx": "hint",
    "t": "The Aadhaar of the member whose card you are making now. Each member is done one at a time."
+  },
+  {
+   "k": "10cfd7660245",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar. Otherwise choose face authentication on the phone camera."
   }
  ]
 }

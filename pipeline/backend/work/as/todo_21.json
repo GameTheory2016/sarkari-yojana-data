@@ -6,61 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_21.json",
  "items": [
   {
-   "k": "3146cce56863",
-   "ctx": "hint",
-   "t": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
-  },
-  {
-   "k": "50925e6464af",
-   "ctx": "value",
-   "t": "Daily-wage farm worker"
-  },
-  {
-   "k": "6682d76cac64",
-   "ctx": "hint",
-   "t": "Your main work, in simple words, for example coolie, weaver, auto driver or homemaker."
-  },
-  {
-   "k": "4597696bf510",
-   "ctx": "label",
-   "t": "Ration card number and ration shop number"
-  },
-  {
-   "k": "804f2ed2fab6",
-   "ctx": "value",
-   "t": "3399 0000 1122 / Shop TR-112"
-  },
-  {
-   "k": "3836dbb6f498",
-   "ctx": "hint",
-   "t": "Both numbers are on the smart card. The kiosk checks this number online, so copy it carefully."
-  },
-  {
-   "k": "d9994dbff24f",
-   "ctx": "hint",
-   "t": "Aadhaar of the head of the family. Members' Aadhaar is checked at the kiosk."
-  },
-  {
-   "k": "fb67a186435e",
-   "ctx": "label",
-   "t": "Permanent address (door, street, village, taluk, district, PIN)"
-  },
-  {
-   "k": "f116d65b07ee",
-   "ctx": "value",
-   "t": "12, Kovil Street, Sevalpatti village, Peraiyur taluk, Madurai 625799"
-  },
-  {
-   "k": "4f1d5812e714",
-   "ctx": "hint",
-   "t": "The address on the ration card. Write the village, taluk and district in full."
-  },
-  {
-   "k": "8961d3bf56ef",
-   "ctx": "label",
-   "t": "Phone number"
-  },
-  {
    "k": "6c4cae1be7e9",
    "ctx": "hint",
    "t": "A number you always keep with you. Messages about the card and hospital approvals come here."
@@ -1094,6 +1039,41 @@
    "k": "712611d3804d",
    "ctx": "eligibility",
    "t": "Works in Telangana; migrant workers from other states can also register"
+  },
+  {
+   "k": "908d40e81444",
+   "ctx": "eligibility",
+   "t": "Keeps membership renewed (Rs.12 a year or Rs.60 for five years) to stay eligible for benefits"
+  },
+  {
+   "k": "6e33c9f6fff5",
+   "ctx": "documents",
+   "t": "Filled Form XXVII with two passport-size photos"
+  },
+  {
+   "k": "c0d653afca77",
+   "ctx": "documents",
+   "t": "Ration card and voter ID (copies)"
+  },
+  {
+   "k": "cfca1f135d79",
+   "ctx": "documents",
+   "t": "Age proof: school certificate or doctor's certificate"
+  },
+  {
+   "k": "63589764d466",
+   "ctx": "documents",
+   "t": "Certificate of 90 days' work from the Assistant Labour Officer, a construction workers' union, or a registered builder or establishment"
+  },
+  {
+   "k": "d0112e62969a",
+   "ctx": "documents",
+   "t": "Bank passbook (account number, bank and branch)"
+  },
+  {
+   "k": "582bb9d13003",
+   "ctx": "documents",
+   "t": "Rs.50 registration fee plus Rs.12 for one year (or Rs.60 for five years)"
   }
  ]
 }

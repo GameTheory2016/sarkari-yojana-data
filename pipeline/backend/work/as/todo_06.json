@@ -6,51 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_06.json",
  "items": [
   {
-   "k": "ac9101590a90",
-   "ctx": "demoSteps",
-   "t": "Check whether your family is on the list by asking your ASHA worker or calling 14555 with the ration card number. NFSA families not under PM-JAY fall under AA-MMJAY."
-  },
-  {
-   "k": "4aa9a9182506",
-   "ctx": "demoSteps",
-   "t": "Get the e-KYC done by the ASHA, MPW, Bima Sakhi or Digipay Sakhi at home or at a camp, or at the Ayushman desk of an empanelled hospital or the district kiosk."
-  },
-  {
-   "k": "ea50c449ba74",
-   "ctx": "demoSteps",
-   "t": "The operator finds your family, verifies each member with Aadhaar OTP or a face scan, and takes a live photo."
-  },
-  {
-   "k": "669aa86db63a",
-   "ctx": "demoSteps",
-   "t": "The request goes to the Atal Amrit Abhiyan Society for approval. Once approved, the operator gives you the Ayushman card."
-  },
-  {
-   "k": "19dd6a812ac4",
-   "ctx": "demoSteps",
-   "t": "When you need treatment, go to the Arogya Mitra desk of an empanelled hospital with the card or Aadhaar. The hospital takes approval before treatment, and you pay nothing for a listed procedure."
-  },
-  {
-   "k": "aa0a1d7521db",
-   "ctx": "demoSteps",
-   "t": "If a hospital asks for money or refuses the card, call 1800-103-9975 or 14555."
-  },
-  {
-   "k": "08d1c0d47262",
-   "ctx": "helpline",
-   "t": "1800-103-9975 — Atal Amrit Abhiyan toll-free (PM-JAY and MMJAY) / 14555 — national Ayushman helpline / 0361-2333603 — Atal Amrit Abhiyan Society office, Guwahati"
-  },
-  {
-   "k": "35e725eb57d1",
-   "ctx": "title",
-   "t": "Orunodoi 3.0 (Orunodoi Scheme)"
-  },
-  {
-   "k": "3db860f76d4e",
-   "ctx": "department",
-   "t": "Finance (Institutional Finance) Department, Government of Assam"
-  },
-  {
    "k": "6c111b22b556",
    "ctx": "brief",
    "t": "Assam's monthly cash support for poor families, paid straight into the bank account of one woman the family nominates. It pays Rs.1,250 a month to about 37 to 40 lakh families, and for October 2026 alone the government raised it to Rs.1,500 for the Puja season. Orunodoi 3.0 replaced the earlier versions 1.0 and 2.0, so every family, old beneficiaries included, had to apply afresh. Names are first picked at the Gaon Panchayat, VCDC or ward level, and the family needs an Aadhaar-seeded NFSA ration card."
@@ -1039,6 +994,61 @@
    "k": "5a8e0cf3b720",
    "ctx": "benefit",
    "t": "Rs 8,500 a hectare (rain-fed), Rs 17,000 (irrigated), Rs 22,500 (perennial crops), up to 2 hectares"
+  },
+  {
+   "k": "d115c635e40d",
+   "ctx": "eligibility",
+   "t": "Your land is in a panchayat notified as affected for that round; the list of panchayats is published on the portal"
+  },
+  {
+   "k": "2e688b0099b6",
+   "ctx": "eligibility",
+   "t": "More than 33 per cent of the crop was lost because of the notified flood, heavy rain, drought or hail"
+  },
+  {
+   "k": "515cc7e8b74a",
+   "ctx": "eligibility",
+   "t": "Registered on the DBT Agriculture portal, with a bank account linked to Aadhaar and NPCI"
+  },
+  {
+   "k": "29d8f5ae1bfa",
+   "ctx": "eligibility",
+   "t": "Landowners, tenant or sharecropping farmers (vastavik khetihar), or both may apply, but only one person is paid for one field"
+  },
+  {
+   "k": "4c1451539de5",
+   "ctx": "eligibility",
+   "t": "One application per family (husband, wife and minor children), paid for at most 2 hectares (494 decimal); the least paid is Rs 1,000, Rs 2,000 or Rs 2,500 depending on the land type"
+  },
+  {
+   "k": "a7c1c7298029",
+   "ctx": "eligibility",
+   "t": "A farmer found burning straw (parali) in the field is refused"
+  },
+  {
+   "k": "b96ccfd48b12",
+   "ctx": "documents",
+   "t": "Aadhaar card, checked by OTP, fingerprint or iris during registration"
+  },
+  {
+   "k": "070e06d94c37",
+   "ctx": "documents",
+   "t": "Bank passbook of an account linked to Aadhaar and NPCI"
+  },
+  {
+   "k": "3324bd9ff839",
+   "ctx": "documents",
+   "t": "For landowners: rent receipt (lagan rasid) of 2023-24, 2024-25 or 2025-26, or a recent LPC; a family tree (vanshavali) is not accepted"
+  },
+  {
+   "k": "075ea00955a0",
+   "ctx": "documents",
+   "t": "For tenant farmers: the self-declaration form certified jointly by the ward member, mukhiya or sarpanch and the Krishi Samanvayak"
+  },
+  {
+   "k": "475f55d2985b",
+   "ctx": "documents",
+   "t": "Thana, khata and khesra numbers of the damaged field and the names of two neighbouring farmers"
   }
  ]
 }

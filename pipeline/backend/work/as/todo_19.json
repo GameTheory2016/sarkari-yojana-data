@@ -6,31 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_19.json",
  "items": [
   {
-   "k": "96addbef88f6",
-   "ctx": "brief",
-   "t": "A pension of Rs 1,500 every month for women aged 58 and above and men aged 65 and above in Punjab whose income is low. The money is paid into the pensioner's bank account. You can apply online on Connect Punjab, at any Sewa Kendra, or by calling 1076 for an operator to come home. There is no fee and no paper form."
-  },
-  {
-   "k": "59e731d31376",
-   "ctx": "benefit",
-   "t": "Rs 1,500 a month, paid into your bank account"
-  },
-  {
-   "k": "3026056ad7d5",
-   "ctx": "eligibility",
-   "t": "Women aged 58 or above, men aged 65 or above"
-  },
-  {
-   "k": "eabace3dc1ad",
-   "ctx": "eligibility",
-   "t": "Total yearly income not more than Rs 60,000, counting business, rent and interest"
-  },
-  {
-   "k": "7757a86a8f2d",
-   "ctx": "eligibility",
-   "t": "Husband and wife together may own up to 2.5 acres of canal or well-irrigated (nehri/chahi) land, or up to 5 acres of barani or waterlogged land"
-  },
-  {
    "k": "6feabc306e5d",
    "ctx": "eligibility",
    "t": "You must be a resident of Punjab"
@@ -1144,6 +1119,56 @@
    "k": "04223e268148",
    "ctx": "portalName",
    "t": "Mukhyamantri Ayushman Arogya Yojana portal (through SSO Rajasthan)"
+  },
+  {
+   "k": "cfc46c0f7227",
+   "ctx": "hint",
+   "t": "Your Rajasthan SSO login. If you have none, make one free on the same page using your Jan Aadhaar."
+  },
+  {
+   "k": "75f527181b57",
+   "ctx": "value",
+   "t": "Free"
+  },
+  {
+   "k": "99c4f0f9c6b5",
+   "ctx": "hint",
+   "t": "Free is for small and marginal farmers, contract workers and Covid ex-gratia families. Every other family chooses Paid and pays Rs 850. NFSA ration-card families do not register at all."
+  },
+  {
+   "k": "4c789aa399c9",
+   "ctx": "label",
+   "t": "Free category"
+  },
+  {
+   "k": "ab7e38d5dd24",
+   "ctx": "value",
+   "t": "SMF (small and marginal farmer)"
+  },
+  {
+   "k": "9fc701904fde",
+   "ctx": "hint",
+   "t": "Farmers choose SMF, government contract staff choose Contractual, and destitute families who got the Covid aid choose Covid 19 ex Gratia."
+  },
+  {
+   "k": "11dc9e241912",
+   "ctx": "label",
+   "t": "Jan Aadhaar number or enrolment receipt number"
+  },
+  {
+   "k": "30a802b56d26",
+   "ctx": "hint",
+   "t": "The 10-digit family number on the Jan Aadhaar card. If the card is still being made, the enrolment receipt number also works."
+  },
+  {
+   "k": "aabaf3fd2677",
+   "ctx": "label",
+   "t": "Family member who e-signs"
+  },
+  {
+   "k": "de0a515a69ba",
+   "ctx": "value",
+   "t": "Bhanwar Lal Saini (head of family)"
   }
  ]
 }

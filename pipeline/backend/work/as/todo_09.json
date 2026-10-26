@@ -6,111 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_09.json",
  "items": [
   {
-   "k": "03f6aa824477",
-   "ctx": "documents",
-   "t": "For the fee concession: caste certificate (with income certificate below Rs.6 lakh for OBC) or disability certificate"
-  },
-  {
-   "k": "6d097f5d9a2d",
-   "ctx": "label",
-   "t": "Eligible person (head of family)"
-  },
-  {
-   "k": "cb57b0aa07a2",
-   "ctx": "value",
-   "t": "Savita Naik"
-  },
-  {
-   "k": "3a951df9aea3",
-   "ctx": "hint",
-   "t": "The family member whose 5-year Goa residence proof you will attach. Name as on Aadhaar."
-  },
-  {
-   "k": "7f6a71d94193",
-   "ctx": "hint",
-   "t": "As on the Aadhaar card."
-  },
-  {
-   "k": "2bf527f1a6dc",
-   "ctx": "hint",
-   "t": "The 12 digits on the eligible person's own Aadhaar card."
-  },
-  {
-   "k": "71724a594766",
-   "ctx": "hint",
-   "t": "Approval and card messages come here by SMS."
-  },
-  {
-   "k": "6d10a6f7e4a7",
-   "ctx": "label",
-   "t": "Residence proof"
-  },
-  {
-   "k": "2d50ea4404ab",
-   "ctx": "value",
-   "t": "Voter ID, issued 2011"
-  },
-  {
-   "k": "fde48ca56ffd",
-   "ctx": "hint",
-   "t": "Must have been issued in Goa at least 5 years ago, and the issue date must be visible on the scan."
-  },
-  {
-   "k": "175403f255bc",
-   "ctx": "label",
-   "t": "Family member 1"
-  },
-  {
-   "k": "0122cd14925c",
-   "ctx": "value",
-   "t": "Rohan Naik — Husband — 9999 7781 2290"
-  },
-  {
-   "k": "a8c1d9d88510",
-   "ctx": "hint",
-   "t": "Name, relation and Aadhaar of each member. Add every member; a family cannot be split."
-  },
-  {
-   "k": "f681e55bc4e7",
-   "ctx": "label",
-   "t": "Family member 2"
-  },
-  {
-   "k": "bcb705af36aa",
-   "ctx": "value",
-   "t": "Tanvi Naik — Daughter, 9 years — 9999 1120 5544"
-  },
-  {
-   "k": "4676f231c529",
-   "ctx": "hint",
-   "t": "For a child under 5 without Aadhaar, attach the birth certificate instead."
-  },
-  {
-   "k": "fca65ec38e1d",
-   "ctx": "label",
-   "t": "Family member 3"
-  },
-  {
-   "k": "bf5d7223facf",
-   "ctx": "value",
-   "t": "Rukmini Naik — Mother-in-law (dependent)"
-  },
-  {
-   "k": "8c583f5da06e",
-   "ctx": "hint",
-   "t": "A woman eligible person can add dependent parents-in-law. Four members means Rs.6 lakh cover and a Rs.300 fee."
-  },
-  {
-   "k": "d5ad54bb7482",
-   "ctx": "label",
-   "t": "Concession category"
-  },
-  {
-   "k": "4c68a607efb3",
-   "ctx": "value",
-   "t": "General — no concession"
-  },
-  {
    "k": "b9c09302588d",
    "ctx": "hint",
    "t": "Choose OBC (non-creamy layer), SC, ST or differently abled only if you upload the certificate; the fee is then halved."
@@ -1199,6 +1094,26 @@
    "k": "d838182afe23",
    "ctx": "department",
    "t": "Health & Family Welfare Department, Gujarat (State Health Agency, PMJAY-MA)"
+  },
+  {
+   "k": "dc9131e53143",
+   "ctx": "brief",
+   "t": "Gujarat's own health cover, joined with Ayushman Bharat: cashless treatment of up to Rs.10 lakh a year for the whole family at empanelled government and private hospitals. The old MA (Mukhyamantri Amrutum) and MA Vatsalya cards were merged into it in 2021 under the name PMJAY-MA, and in 2023 the cover was doubled from Rs.5 lakh to Rs.10 lakh. Gujarat covers many more families than the central list, including families earning up to Rs.4 lakh a year and senior citizens in families earning up to Rs.6 lakh. The card is the same Ayushman card, and you can make it yourself on the phone or at the kiosk of any government health centre or empanelled hospital."
+  },
+  {
+   "k": "177c1371da3b",
+   "ctx": "benefit",
+   "t": "Rs.10 lakh a year per family, cashless"
+  },
+  {
+   "k": "1a781f501134",
+   "ctx": "eligibility",
+   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
+  },
+  {
+   "k": "6b3b66fa5faa",
+   "ctx": "eligibility",
+   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
   }
  ]
 }

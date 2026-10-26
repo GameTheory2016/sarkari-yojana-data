@@ -6,21 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_16.json",
  "items": [
   {
-   "k": "b18a73926470",
-   "ctx": "demoSteps",
-   "t": "Hand it to the talathi or at the tehsil's Sanjay Gandhi Yojana branch and take the acknowledgement. The talathi visits your home to check the papers and family income and uploads a photo of the visit."
-  },
-  {
-   "k": "5bf1d6346ac6",
-   "ctx": "demoSteps",
-   "t": "The tehsildar checks the file and places it before the Sanjay Gandhi Niradhar Anudan Yojana committee, which meets every month. The lists of approved and rejected names are put on the notice board and read in the gram sabha."
-  },
-  {
-   "k": "54c8d8ed52b1",
-   "ctx": "demoSteps",
-   "t": "Once approved, the pension starts from the month after the online process is complete and comes by DBT into your Aadhaar-linked account every month."
-  },
-  {
    "k": "bb5de2389840",
    "ctx": "demoSteps",
    "t": "Keep your Aadhaar and bank linking in order, because payments that fail for Aadhaar or bank reasons are the beneficiary's responsibility. Give the life certificate each year when the tehsil asks; if the pension stopped, giving it in the same financial year restarts it."
@@ -1004,6 +989,56 @@
    "k": "08729e509663",
    "ctx": "value",
    "t": "Thokchom Sanatombi (Daughter), Thokchom Bikram (Son)"
+  },
+  {
+   "k": "d93d25af51bf",
+   "ctx": "hint",
+   "t": "Everyone who lives and eats with you. Carry each member's Aadhaar."
+  },
+  {
+   "k": "051ead67d036",
+   "ctx": "label",
+   "t": "District and address"
+  },
+  {
+   "k": "b0be09fb1504",
+   "ctx": "value",
+   "t": "Imphal East, Khurai Lamlong"
+  },
+  {
+   "k": "1faed53de9bf",
+   "ctx": "hint",
+   "t": "The approval message for DC-verification cases comes here."
+  },
+  {
+   "k": "227eb1ec75f6",
+   "ctx": "label",
+   "t": "Declaration: no family member in government service"
+  },
+  {
+   "k": "6e04e3ed8afc",
+   "ctx": "value",
+   "t": "Signed at the counter"
+  },
+  {
+   "k": "c8a15ee2b75a",
+   "ctx": "hint",
+   "t": "Filled in at the kiosk before the card is made. Do not sign if anyone in the family is a government employee."
+  },
+  {
+   "k": "bd5195da6f8f",
+   "ctx": "value",
+   "t": "Taken at the kiosk"
+  },
+  {
+   "k": "c6540263536d",
+   "ctx": "hint",
+   "t": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
+  },
+  {
+   "k": "9344af888075",
+   "ctx": "demoSteps",
+   "t": "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking."
   }
  ]
 }

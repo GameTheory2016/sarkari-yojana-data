@@ -6,61 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_07.json",
  "items": [
   {
-   "k": "d115c635e40d",
-   "ctx": "eligibility",
-   "t": "Your land is in a panchayat notified as affected for that round; the list of panchayats is published on the portal"
-  },
-  {
-   "k": "2e688b0099b6",
-   "ctx": "eligibility",
-   "t": "More than 33 per cent of the crop was lost because of the notified flood, heavy rain, drought or hail"
-  },
-  {
-   "k": "515cc7e8b74a",
-   "ctx": "eligibility",
-   "t": "Registered on the DBT Agriculture portal, with a bank account linked to Aadhaar and NPCI"
-  },
-  {
-   "k": "29d8f5ae1bfa",
-   "ctx": "eligibility",
-   "t": "Landowners, tenant or sharecropping farmers (vastavik khetihar), or both may apply, but only one person is paid for one field"
-  },
-  {
-   "k": "4c1451539de5",
-   "ctx": "eligibility",
-   "t": "One application per family (husband, wife and minor children), paid for at most 2 hectares (494 decimal); the least paid is Rs 1,000, Rs 2,000 or Rs 2,500 depending on the land type"
-  },
-  {
-   "k": "a7c1c7298029",
-   "ctx": "eligibility",
-   "t": "A farmer found burning straw (parali) in the field is refused"
-  },
-  {
-   "k": "b96ccfd48b12",
-   "ctx": "documents",
-   "t": "Aadhaar card, checked by OTP, fingerprint or iris during registration"
-  },
-  {
-   "k": "070e06d94c37",
-   "ctx": "documents",
-   "t": "Bank passbook of an account linked to Aadhaar and NPCI"
-  },
-  {
-   "k": "3324bd9ff839",
-   "ctx": "documents",
-   "t": "For landowners: rent receipt (lagan rasid) of 2023-24, 2024-25 or 2025-26, or a recent LPC; a family tree (vanshavali) is not accepted"
-  },
-  {
-   "k": "075ea00955a0",
-   "ctx": "documents",
-   "t": "For tenant farmers: the self-declaration form certified jointly by the ward member, mukhiya or sarpanch and the Krishi Samanvayak"
-  },
-  {
-   "k": "475f55d2985b",
-   "ctx": "documents",
-   "t": "Thana, khata and khesra numbers of the damaged field and the names of two neighbouring farmers"
-  },
-  {
    "k": "5c0543c831a2",
    "ctx": "label",
    "t": "Choose Authentication Type"
@@ -1074,6 +1019,56 @@
    "k": "602e199c008f",
    "ctx": "value",
    "t": "PMJAY / Chhattisgarh"
+  },
+  {
+   "k": "553222c2af3f",
+   "ctx": "hint",
+   "t": "Choose the state Chhattisgarh. The state scheme cards are made on the same Ayushman system."
+  },
+  {
+   "k": "165dd12924bf",
+   "ctx": "hint",
+   "t": "The ration card number brings up the whole family at once. If nothing comes, search with your Aadhaar number."
+  },
+  {
+   "k": "b60463f74a39",
+   "ctx": "hint",
+   "t": "Copy it from your ration card. If your family is not found, go to the Ayushman desk of any empanelled hospital with the ration card and Aadhaar."
+  },
+  {
+   "k": "a2d5711f2efa",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Each member is done one at a time."
+  },
+  {
+   "k": "2c811dbb9be5",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication."
+  },
+  {
+   "k": "b4f6a6efbf88",
+   "ctx": "value",
+   "t": "Durg / 491001"
+  },
+  {
+   "k": "42547f155dbc",
+   "ctx": "demoSteps",
+   "t": "Choose Chhattisgarh and search for your family by ration card number or Aadhaar."
+  },
+  {
+   "k": "6503aa60e612",
+   "ctx": "demoSteps",
+   "t": "Next to each member whose e-KYC is pending, verify with Aadhaar OTP or face authentication and take the live photo."
+  },
+  {
+   "k": "832c842d4803",
+   "ctx": "demoSteps",
+   "t": "Submit. The state agency checks the request, usually within a day or two, and you get an SMS."
+  },
+  {
+   "k": "e3a037969743",
+   "ctx": "demoSteps",
+   "t": "Log in again and download the Ayushman card. If you cannot do it on the phone, the Ayushman desk at any empanelled hospital, a CSC or a choice centre makes it free."
   }
  ]
 }

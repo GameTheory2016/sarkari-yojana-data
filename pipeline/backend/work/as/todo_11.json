@@ -6,46 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_11.json",
  "items": [
   {
-   "k": "dbe6f062a1cd",
-   "ctx": "hint",
-   "t": "An account in your own name; the Rs 1,500 is paid here every month."
-  },
-  {
-   "k": "c9655a3070f0",
-   "ctx": "hint",
-   "t": "Villages give the Parivar Register copy, towns give the ration card."
-  },
-  {
-   "k": "1c0cfe70dbe1",
-   "ctx": "hint",
-   "t": "You declare that no one in the family is a government employee, pensioner, ASHA or Anganwadi worker or in the other excluded groups, and that no other woman of the family gets this money."
-  },
-  {
-   "k": "405c96121be6",
-   "ctx": "demoSteps",
-   "t": "Get your bonafide Himachali certificate and an income certificate (below Rs 2 lakh) from a Lok Mitra Kendra or the tehsil."
-  },
-  {
-   "k": "1fcadf2c9bcf",
-   "ctx": "demoSteps",
-   "t": "Collect the free form at the Tehsil Welfare Officer's office."
-  },
-  {
-   "k": "c12af0e0634e",
-   "ctx": "demoSteps",
-   "t": "Fill it, attach the documents, and hand it in at the same office. Ask for a receipt."
-  },
-  {
-   "k": "838a00894b46",
-   "ctx": "demoSteps",
-   "t": "The Tehsil Welfare Officer checks the form and documents and sends the list of eligible women for approval."
-  },
-  {
-   "k": "d035b91d8c77",
-   "ctx": "demoSteps",
-   "t": "Once approved, Rs 1,500 is paid into your bank account every month. Payments are being started area by area, so ask the welfare office when your area's turn comes."
-  },
-  {
    "k": "b84f6659c204",
    "ctx": "demoSteps",
    "t": "For status, contact the Tehsil Welfare Officer. Complaints can be made on the CM Seva Sankalp helpline 1100."
@@ -964,6 +924,56 @@
    "k": "881df1ea5c89",
    "ctx": "value",
    "t": "Bank of India, Kanke branch / BKID0099999"
+  },
+  {
+   "k": "66a830e4ecba",
+   "ctx": "hint",
+   "t": "Copy the bank name, branch and IFSC from the first page of the passbook."
+  },
+  {
+   "k": "244503394bb1",
+   "ctx": "label",
+   "t": "राशन कार्ड संख्या (Ration card number)"
+  },
+  {
+   "k": "eaeaf9c3f4df",
+   "ctx": "hint",
+   "t": "Her name should be on this yellow, pink, white or green card."
+  },
+  {
+   "k": "0e1ddd31d7dc",
+   "ctx": "label",
+   "t": "आयु / जन्म तिथि (Age / date of birth)"
+  },
+  {
+   "k": "f8662d492d3c",
+   "ctx": "hint",
+   "t": "She must be 18 or above and below 50. Use the date on Aadhaar."
+  },
+  {
+   "k": "2790f5c548eb",
+   "ctx": "label",
+   "t": "आवेदिका का मोबाइल नंबर (Mobile number)"
+  },
+  {
+   "k": "2d2ba0e0095a",
+   "ctx": "hint",
+   "t": "Payment and verification messages come to this number."
+  },
+  {
+   "k": "c5565da2665b",
+   "ctx": "demoSteps",
+   "t": "Find out the date of the Maiya Samman camp in your panchayat or ward from the Anganwadi worker, Panchayat Sachiv or block office, and get the free form there (or print the official form)."
+  },
+  {
+   "k": "996c5a726c37",
+   "ctx": "demoSteps",
+   "t": "Fill the form, tick that the account is Aadhaar-linked, paste the photo, sign the declaration and attach self-attested copies of Aadhaar, ration card, bank passbook and voter ID."
+  },
+  {
+   "k": "e13ace1748bf",
+   "ctx": "demoSteps",
+   "t": "Go to the camp yourself. The operator enters the form on the portal and checks your Aadhaar and photo. Keep the acknowledgement."
   }
  ]
 }

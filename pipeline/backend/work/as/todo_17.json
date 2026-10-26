@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_17.json",
  "items": [
   {
-   "k": "d93d25af51bf",
-   "ctx": "hint",
-   "t": "Everyone who lives and eats with you. Carry each member's Aadhaar."
-  },
-  {
-   "k": "051ead67d036",
-   "ctx": "label",
-   "t": "District and address"
-  },
-  {
-   "k": "b0be09fb1504",
-   "ctx": "value",
-   "t": "Imphal East, Khurai Lamlong"
-  },
-  {
-   "k": "1faed53de9bf",
-   "ctx": "hint",
-   "t": "The approval message for DC-verification cases comes here."
-  },
-  {
-   "k": "227eb1ec75f6",
-   "ctx": "label",
-   "t": "Declaration: no family member in government service"
-  },
-  {
-   "k": "6e04e3ed8afc",
-   "ctx": "value",
-   "t": "Signed at the counter"
-  },
-  {
-   "k": "c8a15ee2b75a",
-   "ctx": "hint",
-   "t": "Filled in at the kiosk before the card is made. Do not sign if anyone in the family is a government employee."
-  },
-  {
-   "k": "bd5195da6f8f",
-   "ctx": "value",
-   "t": "Taken at the kiosk"
-  },
-  {
-   "k": "c6540263536d",
-   "ctx": "hint",
-   "t": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
-  },
-  {
-   "k": "9344af888075",
-   "ctx": "demoSteps",
-   "t": "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking."
-  },
-  {
    "k": "804ea4666016",
    "ctx": "demoSteps",
    "t": "Go to the CMHT kiosk at your District Hospital (or RIMS or JNIMS in Imphal, or a village enrolment camp) with the originals and every member's Aadhaar."
@@ -1084,6 +1034,41 @@
    "k": "16ba3a37bcf7",
    "ctx": "hint",
    "t": "These come up from your Krushak Odisha record. Check that the khata and plot are really yours before going on."
+  },
+  {
+   "k": "8918932d3b4d",
+   "ctx": "label",
+   "t": "Bank account (Aadhaar-linked)"
+  },
+  {
+   "k": "8cfd0a932673",
+   "ctx": "value",
+   "t": "Odisha Grameen Bank, Ghatagaon — a/c 0000 4455 6677"
+  },
+  {
+   "k": "4858f2433cbc",
+   "ctx": "hint",
+   "t": "The money goes only to the account linked to your Aadhaar. Get it linked at your branch first."
+  },
+  {
+   "k": "aee299b85840",
+   "ctx": "value",
+   "t": "Aadhaar, ration card, passbook page, RoR"
+  },
+  {
+   "k": "7ed7f3183f75",
+   "ctx": "hint",
+   "t": "Clear photos or scans. Landless households upload the MGNREGA job card instead of the RoR."
+  },
+  {
+   "k": "46c69fe83146",
+   "ctx": "demoSteps",
+   "t": "Before applying, register your land on Krushak Odisha and get your AgriStack Farmer ID (the Village Agriculture Worker or a CSC helps), and link Aadhaar to your bank account at the branch."
+  },
+  {
+   "k": "eb3098f4edc7",
+   "ctx": "demoSteps",
+   "t": "Open cmkisan.odisha.gov.in and click Farmer Registration. Read the instructions, tick the declaration, then verify your Aadhaar and mobile number with OTP."
   }
  ]
 }
