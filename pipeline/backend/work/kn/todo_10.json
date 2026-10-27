@@ -6,651 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/kn/done_10.json",
  "items": [
   {
-   "k": "9ebff3d6579b",
-   "ctx": "hint",
-   "t": "Option 2 puts the whole Rs 2,500 into the deposit, locked till 31 July 2029."
-  },
-  {
-   "k": "3018a3a8c4c6",
-   "ctx": "label",
-   "t": "MP/MLA endorsement"
-  },
-  {
-   "k": "57fef79307bb",
-   "ctx": "value",
-   "t": "Signed form uploaded (MLA of the area)"
-  },
-  {
-   "k": "e3db341206ed",
-   "ctx": "hint",
-   "t": "After the preview, download the QR-coded form, get it signed and stamped by your area MLA or MP, and upload it."
-  },
-  {
-   "k": "9f15a9949323",
-   "ctx": "demoSteps",
-   "t": "Open dly.delhi.gov.in and tap Register. Enter your Aadhaar number, name as on Aadhaar, date of birth and the captcha, and verify with the OTP to create your login."
-  },
-  {
-   "k": "28b6311abc74",
-   "ctx": "demoSteps",
-   "t": "Log in, answer the eligibility questions, then fill your personal details, every family member, your bank account, and the payment option."
-  },
-  {
-   "k": "56d2abbfe3c3",
-   "ctx": "demoSteps",
-   "t": "Upload Aadhaar, voter ID, 10-year residence proof, age proof, photo and signature. Preview everything and submit."
-  },
-  {
-   "k": "227844c0e488",
-   "ctx": "demoSteps",
-   "t": "Download the QR-coded form, get it signed and stamped by your MLA or MP, upload it, and save the acknowledgement slip."
-  },
-  {
-   "k": "ff968acf3221",
-   "ctx": "demoSteps",
-   "t": "The district Women and Child Development office checks the papers and the district committee approves. You get SMS updates, and Track Application on the portal shows the status by mobile number."
-  },
-  {
-   "k": "3a8fda24a43e",
-   "ctx": "demoSteps",
-   "t": "Payment starts from the month after you apply (apply by 31 July, paid from August). Each month Rs 1,000 reaches the CBDC wallet and Rs 1,500 the deposit, or Rs 2,500 the deposit if you chose option 2."
-  },
-  {
-   "k": "f4a8135f7008",
-   "ctx": "helpline",
-   "t": "011-23862652 (Director's office, Women and Child Development Dept, Kashmere Gate) / email wcd@nic.in / complaints on cmjansunwai.delhi.gov.in"
-  },
-  {
-   "k": "28d355b96e7a",
-   "ctx": "title",
-   "t": "Dayanand Social Security Scheme (DSSS Pension)"
-  },
-  {
-   "k": "4fc4aa2fc145",
-   "ctx": "department",
-   "t": "Directorate of Social Welfare, Government of Goa"
-  },
-  {
-   "k": "2bccc1aaf04c",
-   "ctx": "brief",
-   "t": "Goa's monthly pension for senior citizens, widows, single women, persons with disabilities and people living with HIV/AIDS, from families earning up to Rs.1.5 lakh a year. It pays Rs.2,000 to Rs.4,000 a month straight into the bank account, by the 10th of each month. The form is handed in at the Directorate of Social Welfare in Panaji or the District Welfare Office in Margao. An increase of at least Rs.500 a month was proposed in 2026 but had not been notified when this was checked."
-  },
-  {
-   "k": "5f7d91d6ad9b",
-   "ctx": "benefit",
-   "t": "Rs.2,000 a month; Rs.2,500 for widows and single women; up to Rs.4,000"
-  },
-  {
-   "k": "2d5e5fcc947c",
-   "ctx": "eligibility",
-   "t": "Senior citizen aged 60 or above on the day of applying"
-  },
-  {
-   "k": "6c1bb235bade",
-   "ctx": "eligibility",
-   "t": "Widow aged 18 or above (Rs.4,000 if her youngest child is under 21); divorced, deserted or separated woman aged 18 or above; unmarried woman above 50"
-  },
-  {
-   "k": "8a3314e3c65d",
-   "ctx": "eligibility",
-   "t": "Person with a disability under the RPwD Act 2016 (Rs.2,500 for a child, Rs.3,500 for 90–100% disability), or a person living with HIV/AIDS"
-  },
-  {
-   "k": "d3bdb2da2cca",
-   "ctx": "eligibility",
-   "t": "Resident of Goa by birth, or by domicile of 15 years"
-  },
-  {
-   "k": "8f20cb6e0a44",
-   "ctx": "eligibility",
-   "t": "A Griha Aadhar holder must sign an undertaking to cancel Griha Aadhar once DSSS is sanctioned"
-  },
-  {
-   "k": "a05f8d19a7cc",
-   "ctx": "documents",
-   "t": "Birth certificate or other age proof notified by the government"
-  },
-  {
-   "k": "d43e9f4cbc7f",
-   "ctx": "documents",
-   "t": "15-year residence certificate"
-  },
-  {
-   "k": "6677cf6a448f",
-   "ctx": "documents",
-   "t": "Income certificate, or a self-declaration on Rs.50 stamp paper in the set format"
-  },
-  {
-   "k": "b995a9efa71a",
-   "ctx": "documents",
-   "t": "Verification certificate"
-  },
-  {
-   "k": "a37d1b522c38",
-   "ctx": "documents",
-   "t": "Aadhaar card and bank passbook copy"
-  },
-  {
-   "k": "1fbd34f3d579",
-   "ctx": "documents",
-   "t": "Disability certificate (persons with disability); spouse's death certificate and marriage certificate (widows)"
-  },
-  {
-   "k": "e5ce02e77fdf",
-   "ctx": "documents",
-   "t": "Self-declaration on Rs.50 stamp paper (unmarried single women); legal guardianship certificate (intellectual disability or autism)"
-  },
-  {
-   "k": "e6ee2e6ff098",
-   "ctx": "submitAt",
-   "t": "Directorate of Social Welfare, 18th June Road, opposite Salcete Pharmacy, Panaji (North Goa, 0832-2232257), or the District Welfare Office, Mathany Saldanha Administrative Complex, Ground Floor, Block 21, Margao (South Goa, 0832-2794021). Ask for the DSSS form at the counter, attach self-attested copies of the documents, carry the originals for checking, pay the Rs.200 registration fee and keep the receipt."
-  },
-  {
-   "k": "77e944d41408",
-   "ctx": "value",
-   "t": "Senior Citizen"
-  },
-  {
-   "k": "325e9dc6ea12",
-   "ctx": "hint",
-   "t": "Senior citizen, single woman, widow, person with disability or HIV/AIDS. Tick only one."
-  },
-  {
-   "k": "f87d72c43745",
-   "ctx": "value",
-   "t": "Gopal Shet Gaonkar"
-  },
-  {
-   "k": "400894d72e29",
-   "ctx": "hint",
-   "t": "As on your Aadhaar and bank passbook."
-  },
-  {
-   "k": "20a94a8c496e",
-   "ctx": "value",
-   "t": "02/01/1964 — 62 years"
-  },
-  {
-   "k": "cf8de085ead5",
-   "ctx": "hint",
-   "t": "As on your birth certificate or other age proof. Seniors must be 60 on the day of applying."
-  },
-  {
-   "k": "6bf0001302f9",
-   "ctx": "label",
-   "t": "Address and constituency"
-  },
-  {
-   "k": "1300be9ce530",
-   "ctx": "value",
-   "t": "H.No. 45, Sanquelim / Sanquelim"
-  },
-  {
-   "k": "3123fd578659",
-   "ctx": "hint",
-   "t": "Your full address in Goa and your assembly constituency."
-  },
-  {
-   "k": "4cf75236c336",
-   "ctx": "value",
-   "t": "Since birth (residence certificate attached)"
-  },
-  {
-   "k": "aba06b0b8ef2",
-   "ctx": "hint",
-   "t": "Born in Goa, or living here for at least 15 years, shown by the residence certificate."
-  },
-  {
-   "k": "0698331115cb",
-   "ctx": "label",
-   "t": "Annual family income (Rs.)"
-  },
-  {
-   "k": "9e4c85f0cb80",
-   "ctx": "hint",
-   "t": "Total family income from all sources. It must not be above Rs.1,50,000."
-  },
-  {
-   "k": "d9ba5a20d617",
-   "ctx": "hint",
-   "t": "Your own 12-digit Aadhaar; the bank account should be linked to it."
-  },
-  {
-   "k": "88bf6cb19c3c",
-   "ctx": "hint",
-   "t": "A savings account in your own name. The pension is paid only here."
-  },
-  {
-   "k": "404da16d5129",
-   "ctx": "hint",
-   "t": "So the department can call you about the field check or sanction."
-  },
-  {
-   "k": "00f2d55c2bf4",
-   "ctx": "demoSteps",
-   "t": "Get the income certificate (or the Rs.50 stamp-paper declaration) and the 15-year residence certificate ready, then collect the DSSS form at the Directorate in Panaji or the District Welfare Office in Margao."
-  },
-  {
-   "k": "d912c8221278",
-   "ctx": "demoSteps",
-   "t": "Fill in the form, attach self-attested copies, and get the verification certificate signed."
-  },
-  {
-   "k": "9481a467eca0",
-   "ctx": "demoSteps",
-   "t": "Submit it with the Rs.200 registration fee and keep the receipt. If the scheme's limit is full, you are put on a waiting list, first come, first served."
-  },
-  {
-   "k": "caef9b10bcf8",
-   "ctx": "demoSteps",
-   "t": "The department checks your papers and issues a sanction order with your DSS sanction number."
-  },
-  {
-   "k": "350ce3009ad2",
-   "ctx": "demoSteps",
-   "t": "The pension is credited to your bank account by the 10th of every month."
-  },
-  {
-   "k": "3657aa6a810c",
-   "ctx": "demoSteps",
-   "t": "Every year between 1 April and 30 May, give a life certificate (signed before a Gazetted Officer, MLA, MP, Sarpanch, municipal chairperson or bank manager) and an income certificate, or the pension stops."
-  },
-  {
-   "k": "bb95315b1761",
-   "ctx": "helpline",
-   "t": "8882988000 — Dayanand Social Security Scheme helpline / 0832-2232257 — Directorate of Social Welfare, Panaji / 0832-2794021 — District Welfare Office, Margao"
-  },
-  {
-   "k": "b4cdc3e23598",
-   "ctx": "title",
-   "t": "Deen Dayal Swasthya Seva Yojana (DDSSY Card)"
-  },
-  {
-   "k": "d8b279f3b97a",
-   "ctx": "department",
-   "t": "Directorate of Health Services, Government of Goa"
-  },
-  {
-   "k": "87fa4f06945c",
-   "ctx": "brief",
-   "t": "Goa's own health insurance for almost every family that has lived in the state for five years or more. Since July 2026 it pays up to Rs.4 lakh a year for a family of up to three, and Rs.6 lakh for a family of four or more, cashless at empanelled government and private hospitals. You pay only a small registration fee, and the card must be renewed every policy year (1 April to 31 March) on Goa Online."
-  },
-  {
-   "k": "091ace17d3f9",
-   "ctx": "benefit",
-   "t": "Rs.4 lakh a year (up to 3 members) or Rs.6 lakh (4 or more), cashless"
-  },
-  {
-   "k": "3529a70e03ce",
-   "ctx": "eligibility",
-   "t": "Anyone who has lived in Goa for five years or more, together with their family"
-  },
-  {
-   "k": "a701079bd894",
-   "ctx": "eligibility",
-   "t": "Family means spouse, unmarried children and dependent parents (or parents-in-law if the eligible person is a woman); one family cannot be split across two cards"
-  },
-  {
-   "k": "fa48b15295f8",
-   "ctx": "eligibility",
-   "t": "There is no income limit"
-  },
-  {
-   "k": "c797822e7334",
-   "ctx": "eligibility",
-   "t": "Central and State government employees covered by government medical reimbursement are not eligible"
-  },
-  {
-   "k": "ef0322d78ffe",
-   "ctx": "eligibility",
-   "t": "Fee: Rs.200 for 3 or fewer members, Rs.300 for 4 or more; OBC (non-creamy layer), SC, ST and differently abled families pay half"
-  },
-  {
-   "k": "9d3e2b98577f",
-   "ctx": "documents",
-   "t": "Aadhaar card (or enrolment slip) of every family member above 5 years"
-  },
-  {
-   "k": "409588c42b20",
-   "ctx": "documents",
-   "t": "Residence proof of the eligible person issued at least 5 years ago in Goa: passport, residence certificate, voter ID, driving licence or Aadhaar, with the issue date visible"
-  },
-  {
-   "k": "430655c64c35",
-   "ctx": "documents",
-   "t": "Ration card, to show who is in the family"
-  },
-  {
-   "k": "eb0d01ec929e",
-   "ctx": "documents",
-   "t": "Without a ration card: marriage certificate for the spouse, birth or school leaving certificate for children, and a declaration that the parents are not employed"
-  },
-  {
-   "k": "43a4ba5ad9d9",
-   "ctx": "documents",
-   "t": "Birth certificate for a minor who has no Aadhaar"
-  },
-  {
-   "k": "03f6aa824477",
-   "ctx": "documents",
-   "t": "For the fee concession: caste certificate (with income certificate below Rs.6 lakh for OBC) or disability certificate"
-  },
-  {
-   "k": "6d097f5d9a2d",
-   "ctx": "label",
-   "t": "Eligible person (head of family)"
-  },
-  {
-   "k": "cb57b0aa07a2",
-   "ctx": "value",
-   "t": "Savita Naik"
-  },
-  {
-   "k": "3a951df9aea3",
-   "ctx": "hint",
-   "t": "The family member whose 5-year Goa residence proof you will attach. Name as on Aadhaar."
-  },
-  {
-   "k": "7f6a71d94193",
-   "ctx": "hint",
-   "t": "As on the Aadhaar card."
-  },
-  {
-   "k": "2bf527f1a6dc",
-   "ctx": "hint",
-   "t": "The 12 digits on the eligible person's own Aadhaar card."
-  },
-  {
-   "k": "71724a594766",
-   "ctx": "hint",
-   "t": "Approval and card messages come here by SMS."
-  },
-  {
-   "k": "6d10a6f7e4a7",
-   "ctx": "label",
-   "t": "Residence proof"
-  },
-  {
-   "k": "2d50ea4404ab",
-   "ctx": "value",
-   "t": "Voter ID, issued 2011"
-  },
-  {
-   "k": "fde48ca56ffd",
-   "ctx": "hint",
-   "t": "Must have been issued in Goa at least 5 years ago, and the issue date must be visible on the scan."
-  },
-  {
-   "k": "175403f255bc",
-   "ctx": "label",
-   "t": "Family member 1"
-  },
-  {
-   "k": "0122cd14925c",
-   "ctx": "value",
-   "t": "Rohan Naik — Husband — 9999 7781 2290"
-  },
-  {
-   "k": "a8c1d9d88510",
-   "ctx": "hint",
-   "t": "Name, relation and Aadhaar of each member. Add every member; a family cannot be split."
-  },
-  {
-   "k": "f681e55bc4e7",
-   "ctx": "label",
-   "t": "Family member 2"
-  },
-  {
-   "k": "bcb705af36aa",
-   "ctx": "value",
-   "t": "Tanvi Naik — Daughter, 9 years — 9999 1120 5544"
-  },
-  {
-   "k": "4676f231c529",
-   "ctx": "hint",
-   "t": "For a child under 5 without Aadhaar, attach the birth certificate instead."
-  },
-  {
-   "k": "fca65ec38e1d",
-   "ctx": "label",
-   "t": "Family member 3"
-  },
-  {
-   "k": "bf5d7223facf",
-   "ctx": "value",
-   "t": "Rukmini Naik — Mother-in-law (dependent)"
-  },
-  {
-   "k": "8c583f5da06e",
-   "ctx": "hint",
-   "t": "A woman eligible person can add dependent parents-in-law. Four members means Rs.6 lakh cover and a Rs.300 fee."
-  },
-  {
-   "k": "d5ad54bb7482",
-   "ctx": "label",
-   "t": "Concession category"
-  },
-  {
-   "k": "4c68a607efb3",
-   "ctx": "value",
-   "t": "General — no concession"
-  },
-  {
-   "k": "b9c09302588d",
-   "ctx": "hint",
-   "t": "Choose OBC (non-creamy layer), SC, ST or differently abled only if you upload the certificate; the fee is then halved."
-  },
-  {
-   "k": "06e4fa517dbc",
-   "ctx": "label",
-   "t": "Office to collect the card"
-  },
-  {
-   "k": "61df34e8bc18",
-   "ctx": "value",
-   "t": "Community Health Centre, Ponda"
-  },
-  {
-   "k": "d4a5b465ef80",
-   "ctx": "hint",
-   "t": "Pick the health office nearest your home. Collect the card there within 30 days of approval."
-  },
-  {
-   "k": "1afa0220d233",
-   "ctx": "demoSteps",
-   "t": "Register on goaonline.gov.in with your mobile OTP and log in. Open Services, All Services, then Deen Dayal Swasthya Seva Yojana (DDSSY) - New Enrollment."
-  },
-  {
-   "k": "a30c31f94d87",
-   "ctx": "demoSteps",
-   "t": "Fill in the eligible person's details, add each family member with Aadhaar, and upload the self-attested 5-year residence proof."
-  },
-  {
-   "k": "57ed84a31669",
-   "ctx": "demoSteps",
-   "t": "Choose a concession category if you have one, pay the fee (Rs.200 for up to 3 members, Rs.300 for 4 or more) and note the acknowledgement number."
-  },
-  {
-   "k": "b322f932f039",
-   "ctx": "demoSteps",
-   "t": "If the application is marked for compliance, reply within 30 days, or it is rejected and the fee is forfeited."
-  },
-  {
-   "k": "6298734cc1d0",
-   "ctx": "demoSteps",
-   "t": "When the SMS says it is approved, download the e-card and collect the DDSSY card from the office you chose within 30 days."
-  },
-  {
-   "k": "d66b977f9bb1",
-   "ctx": "demoSteps",
-   "t": "Show the card at the DDSSY desk of an empanelled hospital for cashless treatment. Renew it every year before 31 March through DDSSY - Renewal, using the card number and OTP."
-  },
-  {
-   "k": "4c31d37fd085",
-   "ctx": "helpline",
-   "t": "8882988000 — Goa Online helpline for DDSSY enrolment and renewal (9:45 am to 5:30 pm) / 0832-2225561 — Directorate of Health Services, Panaji"
-  },
-  {
-   "k": "8bf4e5027f9a",
-   "ctx": "title",
-   "t": "Griha Aadhar (Homemaker Allowance)"
-  },
-  {
-   "k": "b4ed20eafea1",
-   "ctx": "department",
-   "t": "Directorate of Women & Child Development, Government of Goa"
-  },
-  {
-   "k": "7b691d7ab1a0",
-   "ctx": "brief",
-   "t": "Rs.1,500 every month in the bank account of a Goan homemaker whose family earns up to Rs.3 lakh a year, to help with household costs. It is for married women, widows and divorcees who have lived in Goa for 15 years. Apply on Goa Online; the money arrives by the 10th of each month. The 2026-27 budget announced an increase, but the new amount had not been notified when this was checked."
-  },
-  {
-   "k": "26fc025b507b",
-   "ctx": "benefit",
-   "t": "Rs.1,500 a month, credited by the 10th"
-  },
-  {
-   "k": "714d1f66d87a",
-   "ctx": "eligibility",
-   "t": "Married woman, widow or divorcee aged 18 or above"
-  },
-  {
-   "k": "1a6b234f03e0",
-   "ctx": "eligibility",
-   "t": "Resident of Goa for at least 15 years; if she was born outside Goa, the husband's 15-year residence is checked too"
-  },
-  {
-   "k": "cd6ba6857c98",
-   "ctx": "eligibility",
-   "t": "Combined gross income of wife and husband not above Rs.3 lakh a year"
-  },
-  {
-   "k": "89a4b6a79a82",
-   "ctx": "eligibility",
-   "t": "Not for women who are, or whose husbands are, regular government or listed public-sector employees"
-  },
-  {
-   "k": "39005af07677",
-   "ctx": "eligibility",
-   "t": "Cannot be drawn together with the Dayanand Social Security pension, except by some widows with young children"
-  },
-  {
-   "k": "6a1b11daebb2",
-   "ctx": "documents",
-   "t": "Birth certificate of the applicant"
-  },
-  {
-   "k": "7e3b6216de99",
-   "ctx": "documents",
-   "t": "Marriage certificate (husband's death certificate for a widow, divorce order for a divorcee)"
-  },
-  {
-   "k": "99ff842dc531",
-   "ctx": "documents",
-   "t": "Residence certificate showing 15 years in Goa (husband's birth and residence certificates if you were born outside Goa)"
-  },
-  {
-   "k": "8f9772da44c2",
-   "ctx": "documents",
-   "t": "Voter ID or Aadhaar card"
-  },
-  {
-   "k": "ad3cd0ecad44",
-   "ctx": "documents",
-   "t": "Income proof, with the self-declaration of occupation and income"
-  },
-  {
-   "k": "492aa315d43a",
-   "ctx": "documents",
-   "t": "Savings bank account details, with the account linked to Aadhaar"
-  },
-  {
-   "k": "b74174bcf9ef",
-   "ctx": "documents",
-   "t": "Photo and signature of the applicant"
-  },
-  {
-   "k": "848a187cc512",
-   "ctx": "documents",
-   "t": "Verification report signed by a Gazetted Officer, MLA or MP (format on the Goa Online page)"
-  },
-  {
-   "k": "2297f8f939b2",
-   "ctx": "value",
-   "t": "Married / 15+ years in Goa / income below Rs.3 lakh / husband not in government service"
-  },
-  {
-   "k": "af17e4864d11",
-   "ctx": "hint",
-   "t": "Answer honestly. The form opens only if every answer fits the rules."
-  },
-  {
-   "k": "68f9f77b1876",
-   "ctx": "label",
-   "t": "Applicant name"
-  },
-  {
-   "k": "129d9a311776",
-   "ctx": "value",
-   "t": "Maria Fernandes"
-  },
-  {
-   "k": "82b86bc747dc",
-   "ctx": "hint",
-   "t": "As on your Aadhaar and bank passbook, so the money is not held up."
-  },
-  {
-   "k": "906fc1ae1418",
-   "ctx": "hint",
-   "t": "As on your birth certificate."
-  },
-  {
-   "k": "b3633b7db9e8",
-   "ctx": "hint",
-   "t": "Married, widow or divorcee. Widows and divorcees upload the death certificate or divorce order."
-  },
-  {
-   "k": "e49fda77a7fa",
-   "ctx": "value",
-   "t": "Anthony Fernandes"
-  },
-  {
-   "k": "4f5bfe63a762",
-   "ctx": "hint",
-   "t": "As on the marriage certificate."
-  },
-  {
-   "k": "275e6f667097",
-   "ctx": "label",
-   "t": "Taluka and village"
-  },
-  {
-   "k": "82ede28e428f",
-   "ctx": "value",
-   "t": "Salcete / Curtorim"
-  },
-  {
-   "k": "6afe16766e75",
-   "ctx": "hint",
-   "t": "Where you live now; the field check is done here."
-  },
-  {
-   "k": "c96d131d4d43",
-   "ctx": "label",
-   "t": "Combined annual income (Rs.)"
-  },
-  {
-   "k": "0ce9ad724fa4",
-   "ctx": "hint",
-   "t": "Your income and your husband's together, before deductions. It must not be above Rs.3,00,000."
-  },
-  {
-   "k": "f1be359a90ca",
-   "ctx": "hint",
-   "t": "Your own 12-digit Aadhaar. The bank account must be linked to it or payment is stopped."
-  },
-  {
    "k": "bf13d7dff0cb",
    "ctx": "hint",
    "t": "A savings account in your own name. Copy the IFSC from the passbook."
@@ -1009,6 +364,446 @@
    "k": "2fa8c51ccaf6",
    "ctx": "label",
    "t": "Group (category)"
+  },
+  {
+   "k": "e9c882c55225",
+   "ctx": "hint",
+   "t": "Pick the one group you can prove - SC, ST, NFSA or BPL card, PMJAY card, e-Shram, MGNREGA, farmer or disability - or give the income certificate."
+  },
+  {
+   "k": "a02623e89e93",
+   "ctx": "hint",
+   "t": "The help is only for the first two live children, so give the true number."
+  },
+  {
+   "k": "378f81d1c403",
+   "ctx": "hint",
+   "t": "Account in the woman's own name, seeded with Aadhaar. A closed or dormant account is the main reason money does not arrive."
+  },
+  {
+   "k": "01f043cf0d58",
+   "ctx": "hint",
+   "t": "Where she lives now and the centre she goes to for check-ups."
+  },
+  {
+   "k": "5ea6e6a3914d",
+   "ctx": "demoSteps",
+   "t": "As soon as you know you are pregnant, meet your ASHA worker or go to the nearest PHC or Urban Health Centre for the first check-up. You get a Mamta card there."
+  },
+  {
+   "k": "159a411e25fd",
+   "ctx": "demoSteps",
+   "t": "Ask the ANM to register you under Namo Shri. Give Aadhaar, passbook, Mamta card and your group proof or income certificate, and check that your bank details are typed correctly."
+  },
+  {
+   "k": "2ec2d215e510",
+   "ctx": "demoSteps",
+   "t": "The first instalment of Rs.5,000 comes to your account after registration (part central PM Matru Vandana money, part state)."
+  },
+  {
+   "k": "2701d9447b45",
+   "ctx": "demoSteps",
+   "t": "After six months of pregnancy and the check-ups, Rs.2,000 more comes."
+  },
+  {
+   "k": "0e9b9e05ed88",
+   "ctx": "demoSteps",
+   "t": "Deliver in a hospital - the 108 ambulance is free. After a hospital delivery Rs.3,000 comes."
+  },
+  {
+   "k": "753ca713644c",
+   "ctx": "demoSteps",
+   "t": "Register the baby's birth and get the vaccines up to 14 weeks written on the Mamta card. The last Rs.2,000 then comes."
+  },
+  {
+   "k": "1b9b55d47f67",
+   "ctx": "demoSteps",
+   "t": "If an instalment does not arrive, ask the ANM to check the status first. Most delays are a bank account not linked with Aadhaar."
+  },
+  {
+   "k": "e3bd97f0aa9d",
+   "ctx": "helpline",
+   "t": "Your ASHA worker or the ANM at the health centre; Gujarat health helpline 104"
+  },
+  {
+   "k": "1bbe393003e0",
+   "ctx": "title",
+   "t": "Manav Kalyan Yojana (Free Tool Kit by e-Voucher)"
+  },
+  {
+   "k": "4e5913f2db78",
+   "ctx": "department",
+   "t": "Commissioner of Cottage & Rural Industries, Industries & Mines Department, Gujarat"
+  },
+  {
+   "k": "362520a847a8",
+   "ctx": "brief",
+   "t": "A free tool kit for starting a small trade: beauty parlour, embroidery, plumbing, vehicle servicing and repair, papad making, pickle making, electric appliance repair, milk and curd selling, puncture repair or centring work. Since 2024 the kit comes as an e-voucher (a QR code) that you use at an approved dealer, and you can also choose 5 days of training paid at Rs.500 a day. The old Manav Garima Yojana has been merged into this scheme; tailoring, carpentry, cobbler, barber and some other trades moved to PM Vishwakarma. You apply on the e-Kutir portal when the yearly window opens (the 2026-27 window opened on 17 June 2026), and when there are more applicants than kits a computerised draw decides."
+  },
+  {
+   "k": "1691a3a7bbba",
+   "ctx": "benefit",
+   "t": "A free tool kit for one of 10 trades through an e-voucher, plus optional training at Rs.500 a day"
+  },
+  {
+   "k": "256505c48ffe",
+   "ctx": "eligibility",
+   "t": "Family income up to Rs.6 lakh a year, in villages and cities alike; no income limit for the 12 most backward SC castes and the most backward, nomadic and denotified SEBC groups"
+  },
+  {
+   "k": "d33a7d570fc5",
+   "ctx": "eligibility",
+   "t": "One kit per family, only once"
+  },
+  {
+   "k": "5cc9f076b2fb",
+   "ctx": "eligibility",
+   "t": "No member of the family should be a government employee"
+  },
+  {
+   "k": "62071a3da71a",
+   "ctx": "eligibility",
+   "t": "Widows, BPL card holders (score 0 to 16) and the lowest incomes get priority, and 5% of kits are kept for disabled applicants"
+  },
+  {
+   "k": "0444418197f1",
+   "ctx": "documents",
+   "t": "Income certificate up to Rs.6 lakh from the Mamlatdar, TDO, Nagarpalika Chief Officer or Municipal Corporation officer (not needed for the groups with no income limit)"
+  },
+  {
+   "k": "43cde80c4ad0",
+   "ctx": "documents",
+   "t": "BPL card or ration card, if you have one"
+  },
+  {
+   "k": "e24d0400f39d",
+   "ctx": "documents",
+   "t": "Husband's death certificate, for widows claiming priority"
+  },
+  {
+   "k": "43c1319f6111",
+   "ctx": "label",
+   "t": "Full name (in English, as per Aadhaar)"
+  },
+  {
+   "k": "3de5700c4bcd",
+   "ctx": "hint",
+   "t": "Exactly as on Aadhaar. The form can be switched to Gujarati from the language option."
+  },
+  {
+   "k": "68be34e59d9f",
+   "ctx": "hint",
+   "t": "Your own number. Forgot your user ID later? It can be found with Aadhaar and birth date."
+  },
+  {
+   "k": "fbbfc2fb653b",
+   "ctx": "hint",
+   "t": "Your user ID and password come here by SMS, and later the e-voucher and dealer OTPs."
+  },
+  {
+   "k": "44aaf33a95d9",
+   "ctx": "hint",
+   "t": "Make your own and keep it. If the VCE fills the form for you, still keep the user ID and password yourself."
+  },
+  {
+   "k": "2795f2e277da",
+   "ctx": "hint",
+   "t": "Asked in the Manav Kalyan form after login. Pick one of the 10 trades; it cannot be changed after submitting."
+  },
+  {
+   "k": "8deb5c75043a",
+   "ctx": "hint",
+   "t": "Required. If you have no e-Shram card, the form gives a link to make one first."
+  },
+  {
+   "k": "8d7002e3e131",
+   "ctx": "hint",
+   "t": "Upload clear photos of the originals as PDF or JPEG. Income must be up to Rs.6 lakh unless your caste group has no limit."
+  },
+  {
+   "k": "7392322d1782",
+   "ctx": "hint",
+   "t": "Choose Yes for 5 days of training with Rs.500 a day for attendance. Choose No to get the e-voucher directly."
+  },
+  {
+   "k": "261969e6db19",
+   "ctx": "demoSteps",
+   "t": "When the yearly window is open, go to e-kutir.gujarat.gov.in and register as a new individual with your name, Aadhaar, birth date and mobile. The village VCE can also fill it for you free of cost."
+  },
+  {
+   "k": "63852dbf48f6",
+   "ctx": "demoSteps",
+   "t": "Log in, complete the profile, open Manav Kalyan Yojana, choose one trade, fill the form and upload Aadhaar, e-Shram card, caste and income certificates and age proof. Submit - until you submit, it stays only as a draft."
+  },
+  {
+   "k": "7f21f8c5051b",
+   "ctx": "demoSteps",
+   "t": "The District Industries Centre checks the application, and selection is made by an online draw before a district committee. Track it under Application Status."
+  },
+  {
+   "k": "045dd4afe351",
+   "ctx": "demoSteps",
+   "t": "If selected, an e-voucher (QR code) with the kit's value comes by SMS and in your login or the e-Kutir app, which also lists approved dealers."
+  },
+  {
+   "k": "103e0a19dfaa",
+   "ctx": "demoSteps",
+   "t": "Go to any approved dealer, show the QR code and give the OTP sent to your phone. Pick the tools you want within the limit; you pay only if you choose tools costing more."
+  },
+  {
+   "k": "fb52cfa28d13",
+   "ctx": "demoSteps",
+   "t": "A verification team will visit your home to see the kit and take a photo. Keep and use the tools - if they are sold or missing, the money is taken back."
+  },
+  {
+   "k": "685b8fc07884",
+   "ctx": "demoSteps",
+   "t": "Never share your e-voucher or OTP with anyone except the approved dealer at the time of buying."
+  },
+  {
+   "k": "a4222164d769",
+   "ctx": "helpline",
+   "t": "Manav Kalyan help desk 99099 26280 / 99099 26180; your District Industries Centre (DIC)"
+  },
+  {
+   "k": "fa695436457e",
+   "ctx": "department",
+   "t": "Gujarat Building & Other Construction Workers' Welfare Board, Labour, Skill Development & Employment Department"
+  },
+  {
+   "k": "3a3b5656c227",
+   "ctx": "brief",
+   "t": "The e-Nirman card registers a construction worker with the Gujarat construction workers' welfare board. With it you and your family can eat a full meal for Rs.5 at Shramik Annapurna centres, you are covered under the PMJAY-MA health card, and you can apply on the Sanman portal for the board's schemes - maternity help, children's education, housing help, illness and accident help. You can register yourself on the e-Nirman portal or app, or at a CSC, e-Gram centre, e-Shram Seva Kendra or Dhanvantari Arogya Rath. The card is valid for 3 years and is renewed with a fresh 90-day work certificate."
+  },
+  {
+   "k": "12c4b3e20712",
+   "ctx": "benefit",
+   "t": "Rs.5 meals, Rs.7,500 maternity help for women workers, up to Rs.1.6 lakh extra housing help and more"
+  },
+  {
+   "k": "7cb1e1d22214",
+   "ctx": "eligibility",
+   "t": "Did construction work for more than 90 days in the last 12 months (a self-declared or employer's certificate)"
+  },
+  {
+   "k": "73b1db91149b",
+   "ctx": "eligibility",
+   "t": "Does physical work on building or other construction - mason, labourer, carpenter, plumber, electrician, welder, tiles, painting, centring, road and MGNREGA work and the other listed jobs"
+  },
+  {
+   "k": "3c24c5462d19",
+   "ctx": "eligibility",
+   "t": "No income limit for manual workers; office staff, supervisors and independent contractors cannot register"
+  },
+  {
+   "k": "43c475799813",
+   "ctx": "eligibility",
+   "t": "The card must be renewed every 3 years with a new 90-day work certificate to keep getting benefits"
+  },
+  {
+   "k": "d3c4422908eb",
+   "ctx": "documents",
+   "t": "Proof of age - birth certificate, school leaving certificate, voter ID or driving licence"
+  },
+  {
+   "k": "82e452758258",
+   "ctx": "documents",
+   "t": "Ration card or other proof of address"
+  },
+  {
+   "k": "222eebfcfafe",
+   "ctx": "documents",
+   "t": "90-day work certificate from the employer or contractor, or a self-declaration"
+  },
+  {
+   "k": "95beb07dbc09",
+   "ctx": "documents",
+   "t": "Caste certificate, if you have one"
+  },
+  {
+   "k": "9b1150f11e09",
+   "ctx": "hint",
+   "t": "Write it exactly as on the Aadhaar card, in English letters."
+  },
+  {
+   "k": "fd596a6cb1ad",
+   "ctx": "hint",
+   "t": "Your own 12-digit number. One Aadhaar can be registered only once."
+  },
+  {
+   "k": "6167db00587c",
+   "ctx": "hint",
+   "t": "Women workers should register too - several schemes, such as maternity help, are only for them."
+  },
+  {
+   "k": "a94a4b6c1baa",
+   "ctx": "hint",
+   "t": "As on Aadhaar, in DD/MM/YYYY. You must be between 18 and 60."
+  },
+  {
+   "k": "18ac2a704f50",
+   "ctx": "hint",
+   "t": "Your user ID, password reset and approval messages come to this number."
+  },
+  {
+   "k": "611b2e0f96ea",
+   "ctx": "hint",
+   "t": "Leave it empty if you do not have one."
+  },
+  {
+   "k": "0f3e97a9c5a3",
+   "ctx": "hint",
+   "t": "Make one you will remember and do not share it with the agent or contractor."
+  },
+  {
+   "k": "ac866ed715ad",
+   "ctx": "hint",
+   "t": "Choose Construction Worker. Builders who pay the cess use a different login."
+  },
+  {
+   "k": "db92cd786124",
+   "ctx": "label",
+   "t": "Type of work and days worked"
+  },
+  {
+   "k": "8fcfe96d2f7b",
+   "ctx": "value",
+   "t": "Mason (kadiya) - 120 days in the last 12 months"
+  },
+  {
+   "k": "64f802ebd2dc",
+   "ctx": "hint",
+   "t": "Asked in the registration application after you log in. Upload the 90-day certificate signed by the contractor, or the self-declaration."
+  },
+  {
+   "k": "89b4635bb2ce",
+   "ctx": "hint",
+   "t": "In your own name. The board pays all scheme money straight into this account."
+  },
+  {
+   "k": "b6abb2b0fcd5",
+   "ctx": "demoSteps",
+   "t": "Open the e-Nirman portal or the e-Nirman app and tap Register Yourself. Fill name, Aadhaar, gender, birth date, mobile, choose Construction Worker and set a password. Or get it done at a CSC, e-Gram centre, e-Shram Seva Kendra or the Dhanvantari Arogya Rath."
+  },
+  {
+   "k": "687a1b8200a7",
+   "ctx": "demoSteps",
+   "t": "Log in and complete your profile - address, family members and bank account."
+  },
+  {
+   "k": "cb52139154c5",
+   "ctx": "demoSteps",
+   "t": "Open the application for Registration, fill your type of work and employer, and upload Aadhaar, photo, age proof, the 90-day work certificate and passbook. Submit and note the application number."
+  },
+  {
+   "k": "084f7ef21d5a",
+   "ctx": "demoSteps",
+   "t": "Check progress under View Citizen Application Status. The board's district office verifies the application."
+  },
+  {
+   "k": "506d3e3b7e1c",
+   "ctx": "demoSteps",
+   "t": "When approved, download and print the e-Nirman card, or collect the print from the centre where you applied."
+  },
+  {
+   "k": "62c8d736c0c2",
+   "ctx": "demoSteps",
+   "t": "Show the card at any Shramik Annapurna centre for a Rs.5 meal, and apply for maternity, education, housing and other help on sanman.gujarat.gov.in."
+  },
+  {
+   "k": "cc0626bac81e",
+   "ctx": "demoSteps",
+   "t": "Renew the card before 3 years are over with a new 90-day work certificate, or the benefits stop."
+  },
+  {
+   "k": "ea343757e8bb",
+   "ctx": "helpline",
+   "t": "Gujarat BOCW Welfare Board toll-free 1800-233-2324; board office 079-25502271"
+  },
+  {
+   "k": "d838182afe23",
+   "ctx": "department",
+   "t": "Health & Family Welfare Department, Gujarat (State Health Agency, PMJAY-MA)"
+  },
+  {
+   "k": "dc9131e53143",
+   "ctx": "brief",
+   "t": "Gujarat's own health cover, joined with Ayushman Bharat: cashless treatment of up to Rs.10 lakh a year for the whole family at empanelled government and private hospitals. The old MA (Mukhyamantri Amrutum) and MA Vatsalya cards were merged into it in 2021 under the name PMJAY-MA, and in 2023 the cover was doubled from Rs.5 lakh to Rs.10 lakh. Gujarat covers many more families than the central list, including families earning up to Rs.4 lakh a year and senior citizens in families earning up to Rs.6 lakh. The card is the same Ayushman card, and you can make it yourself on the phone or at the kiosk of any government health centre or empanelled hospital."
+  },
+  {
+   "k": "177c1371da3b",
+   "ctx": "benefit",
+   "t": "Rs.10 lakh a year per family, cashless"
+  },
+  {
+   "k": "1a781f501134",
+   "ctx": "eligibility",
+   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
+  },
+  {
+   "k": "6b3b66fa5faa",
+   "ctx": "eligibility",
+   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
+  },
+  {
+   "k": "6d5280574a3e",
+   "ctx": "eligibility",
+   "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
+  },
+  {
+   "k": "941ea7a3d8f9",
+   "ctx": "eligibility",
+   "t": "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees"
+  },
+  {
+   "k": "57aea47a8795",
+   "ctx": "eligibility",
+   "t": "Gujarat government regular employees and pensioners, through their HRPN or PPO number"
+  },
+  {
+   "k": "1fccd972f146",
+   "ctx": "eligibility",
+   "t": "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
+  },
+  {
+   "k": "e3146b133fa3",
+   "ctx": "documents",
+   "t": "Aadhaar card of each family member being enrolled (needed for e-KYC)"
+  },
+  {
+   "k": "6d4c6ea51155",
+   "ctx": "documents",
+   "t": "Ration card, for the family details"
+  },
+  {
+   "k": "4d17d795c486",
+   "ctx": "documents",
+   "t": "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)"
+  },
+  {
+   "k": "60b83f7b9449",
+   "ctx": "documents",
+   "t": "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family"
+  },
+  {
+   "k": "78dc42c5ee94",
+   "ctx": "documents",
+   "t": "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number"
+  },
+  {
+   "k": "c2199c54fa0f",
+   "ctx": "hint",
+   "t": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
+  },
+  {
+   "k": "215193346df7",
+   "ctx": "hint",
+   "t": "Any working number you keep with you. The login OTP and the approval SMS come here."
+  },
+  {
+   "k": "3fa8781a3c7e",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
   }
  ]
 }

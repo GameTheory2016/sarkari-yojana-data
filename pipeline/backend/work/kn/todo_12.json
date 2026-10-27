@@ -6,686 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/kn/done_12.json",
  "items": [
   {
-   "k": "a417979c83c6",
-   "ctx": "brief",
-   "t": "Haryana's extension of Ayushman Bharat: Rs 5 lakh a year of cashless hospital treatment for the whole family. Families whose income in the Family ID (PPP) is up to Rs 1.80 lakh are covered free. Families above that can join by paying a yearly fee online: Rs 1,500 for income up to Rs 3 lakh, Rs 4,000 up to Rs 6 lakh and Rs 5,000 above Rs 6 lakh. For the cover year 1 November 2026 to 31 October 2027, the fee portal is open until 30 November 2026."
-  },
-  {
-   "k": "53d9eb4888ac",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless; free up to Rs 1.80 lakh income"
-  },
-  {
-   "k": "88ebc47782e9",
-   "ctx": "eligibility",
-   "t": "Families living in Haryana with a Family ID (PPP). Eligibility and the fee go by the verified income in the PPP"
-  },
-  {
-   "k": "75ee2241acb6",
-   "ctx": "eligibility",
-   "t": "Verified income up to Rs 1.80 lakh a year: covered free"
-  },
-  {
-   "k": "075ed4a4b5ca",
-   "ctx": "eligibility",
-   "t": "Above Rs 1.80 lakh up to Rs 3 lakh: Rs 1,500 a year per family"
-  },
-  {
-   "k": "4852045510c0",
-   "ctx": "eligibility",
-   "t": "Above Rs 3 lakh up to Rs 6 lakh: Rs 4,000 a year. Above Rs 6 lakh: Rs 5,000 a year"
-  },
-  {
-   "k": "01ccb861497f",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age. Every member on the Family ID is covered"
-  },
-  {
-   "k": "325bb157de17",
-   "ctx": "documents",
-   "t": "Family ID (PPP) number, with income verified"
-  },
-  {
-   "k": "414d01229a90",
-   "ctx": "documents",
-   "t": "Mobile number registered in the Family ID, for the OTP"
-  },
-  {
-   "k": "138d1383a006",
-   "ctx": "documents",
-   "t": "Aadhaar card of each member, for the card e-KYC"
-  },
-  {
-   "k": "f9dad75a8e51",
-   "ctx": "documents",
-   "t": "UPI, debit card or net banking to pay the fee, or cash at a CSC"
-  },
-  {
-   "k": "848c171e9a44",
-   "ctx": "documents",
-   "t": "Payment receipt or reference number, as proof that you paid"
-  },
-  {
-   "k": "6e363d25a806",
-   "ctx": "portalName",
-   "t": "Chirayu Haryana PMJAY contribution portal"
-  },
-  {
-   "k": "245ac08e503b",
-   "ctx": "label",
-   "t": "Your PPP ID / Aadhaar Number"
-  },
-  {
-   "k": "ea840ba01928",
-   "ctx": "hint",
-   "t": "Choose whether to search by Family ID or Aadhaar. If you have forgotten the Family ID, use I forgot my PPP ID and search with Aadhaar."
-  },
-  {
-   "k": "d9ada9825615",
-   "ctx": "hint",
-   "t": "The 8-digit Family ID of your family."
-  },
-  {
-   "k": "0c52ea2c403b",
-   "ctx": "value",
-   "t": "6-digit code"
-  },
-  {
-   "k": "193929c255be",
-   "ctx": "hint",
-   "t": "Sent to the mobile number registered in the Family ID, not any other number."
-  },
-  {
-   "k": "92d0286da122",
-   "ctx": "label",
-   "t": "Terms and conditions"
-  },
-  {
-   "k": "67615cd28e25",
-   "ctx": "value",
-   "t": "Agree & Continue"
-  },
-  {
-   "k": "962e8f7ea020",
-   "ctx": "hint",
-   "t": "Read the fee table and the dates, tick the box and continue."
-  },
-  {
-   "k": "bcb17a98d053",
-   "ctx": "label",
-   "t": "Linked Member Info"
-  },
-  {
-   "k": "629a04cf1b2e",
-   "ctx": "value",
-   "t": "6 members shown"
-  },
-  {
-   "k": "27b65de02e06",
-   "ctx": "hint",
-   "t": "Check that every member is listed. A missing member must first be added in the Family ID."
-  },
-  {
-   "k": "1fe0f379f74e",
-   "ctx": "label",
-   "t": "Family Head Name"
-  },
-  {
-   "k": "0fd229950323",
-   "ctx": "value",
-   "t": "Rajesh Kumar"
-  },
-  {
-   "k": "34aac58e16c5",
-   "ctx": "hint",
-   "t": "Shown after Check Eligibility, with your verified income band."
-  },
-  {
-   "k": "c91f15f49286",
-   "ctx": "label",
-   "t": "Amount to be paid"
-  },
-  {
-   "k": "810554f1ff2b",
-   "ctx": "value",
-   "t": "Rs 1,500"
-  },
-  {
-   "k": "f9b3fabe0925",
-   "ctx": "hint",
-   "t": "Set by the verified income: Rs 1,500, Rs 4,000 or Rs 5,000 a year."
-  },
-  {
-   "k": "72d9d3703701",
-   "ctx": "label",
-   "t": "Payment partner"
-  },
-  {
-   "k": "abe83732a0cc",
-   "ctx": "value",
-   "t": "Canara Bank"
-  },
-  {
-   "k": "ff6245f3ae15",
-   "ctx": "hint",
-   "t": "Choose Canara Bank to pay yourself, or CSC (Digital Seva Connect) if a CSC operator is paying for you."
-  },
-  {
-   "k": "8fbf2ec0ddd6",
-   "ctx": "label",
-   "t": "Payment mode"
-  },
-  {
-   "k": "3c91e7775c4f",
-   "ctx": "hint",
-   "t": "UPI and RuPay debit cards have no extra charge. Other cards may add a small bank fee."
-  },
-  {
-   "k": "ea10bb628600",
-   "ctx": "label",
-   "t": "Reference number"
-  },
-  {
-   "k": "27840605a26c",
-   "ctx": "hint",
-   "t": "Save it. Use Check Payment Status on the home page to see the payment and download the receipt."
-  },
-  {
-   "k": "0f7a61af77fe",
-   "ctx": "demoSteps",
-   "t": "If your Family ID income is up to Rs 1.80 lakh you pay nothing: get the Ayushman (Chirayu) card made at a CSC, Saral Kendra or empanelled hospital, or yourself on beneficiary.nha.gov.in with Aadhaar e-KYC."
-  },
-  {
-   "k": "ef5dd7ff2cd6",
-   "ctx": "demoSteps",
-   "t": "If your income is above Rs 1.80 lakh, open chirayuayushmanharyana.in before 30 November 2026 and tap the apply button."
-  },
-  {
-   "k": "f889a48765f8",
-   "ctx": "demoSteps",
-   "t": "Accept the terms, enter the Family ID (or Aadhaar) and the OTP sent to the registered mobile, then check the members and the eligibility shown."
-  },
-  {
-   "k": "cd989c416cd1",
-   "ctx": "demoSteps",
-   "t": "Pay the fee shown (Rs 1,500, Rs 4,000 or Rs 5,000) through Canara Bank by UPI, card or net banking, or at a CSC, and download the receipt."
-  },
-  {
-   "k": "47a657b183c7",
-   "ctx": "demoSteps",
-   "t": "Your cover runs from 1 November 2026 to 31 October 2027. Get each member's card made with Aadhaar e-KYC on beneficiary.nha.gov.in, the Ayushman app or at a CSC."
-  },
-  {
-   "k": "0ea09b5597ba",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, go to the Ayushman Mitra desk with the card. Treatment up to Rs 5 lakh a year is cashless, so do not pay cash for a covered treatment."
-  },
-  {
-   "k": "a23d5ee8117e",
-   "ctx": "helpline",
-   "t": "1800-180-2036 (Ayushman Bharat Haryana toll-free) / 14555 (Ayushman Bharat national helpline)"
-  },
-  {
-   "k": "422fb3db55a2",
-   "ctx": "title",
-   "t": "Parivar Pehchan Patra (Family ID / PPP)"
-  },
-  {
-   "k": "c9071b99937e",
-   "ctx": "department",
-   "t": "Haryana Parivar Pehchan Authority, Citizen Resources Information Department (CRID), Haryana"
-  },
-  {
-   "k": "caeabc6bca8b",
-   "ctx": "brief",
-   "t": "An 8-digit Family ID for every family living in Haryana, holding each member's details, income and bank account in one record. Almost every Haryana scheme uses it, from pensions and ration cards to Chirayu health cover and Lado Lakshmi, so once it is verified you need not prove the same things again. Making or updating it is free. You can create it yourself online, or get it made at a CSC, Saral Kendra or PPP operator."
-  },
-  {
-   "k": "6e0888c30734",
-   "ctx": "benefit",
-   "t": "Free Family ID that opens Haryana schemes and selects you for benefits automatically"
-  },
-  {
-   "k": "4dd71d16f77d",
-   "ctx": "eligibility",
-   "t": "Every family living in Haryana should enrol. It gets a permanent 8-digit Family ID"
-  },
-  {
-   "k": "f051c9ca684d",
-   "ctx": "eligibility",
-   "t": "A family living outside Haryana that needs a Haryana service gets a 9-digit temporary ID starting with T"
-  },
-  {
-   "k": "f214ce393b9a",
-   "ctx": "eligibility",
-   "t": "Creating, updating and downloading the Family ID are free, even at an operator. Never pay a fee"
-  },
-  {
-   "k": "c5865cb2979d",
-   "ctx": "eligibility",
-   "t": "Income, caste and other details are verified by the department. Verified details cannot be edited later"
-  },
-  {
-   "k": "6a4354dd3d64",
-   "ctx": "eligibility",
-   "t": "Births, deaths and marriages are linked to it, so the record updates itself"
-  },
-  {
-   "k": "1b8f8a337730",
-   "ctx": "documents",
-   "t": "Mobile number of the head of family, for OTP"
-  },
-  {
-   "k": "a1a5d8d97670",
-   "ctx": "documents",
-   "t": "Bank passbook of the head of family and earning members"
-  },
-  {
-   "k": "330b25881b0b",
-   "ctx": "documents",
-   "t": "Income details of every earning member (salary, farming, business)"
-  },
-  {
-   "k": "e3f37a8cb010",
-   "ctx": "documents",
-   "t": "Caste certificate, if you belong to SC, BC or another category"
-  },
-  {
-   "k": "f3d14d77cc9d",
-   "ctx": "documents",
-   "t": "Disability certificate, if any member is Divyang"
-  },
-  {
-   "k": "eae362c00ecc",
-   "ctx": "portalName",
-   "t": "Parivar Pehchan Patra (Mera Parivar portal)"
-  },
-  {
-   "k": "d69642524a73",
-   "ctx": "label",
-   "t": "Do you Know Parivar Pehchan Patra (Family ID)?"
-  },
-  {
-   "k": "8ef25c0538f9",
-   "ctx": "hint",
-   "t": "Choose NO to make a new Family ID. Choose YES if your family already has one and you want to see or update it."
-  },
-  {
-   "k": "993b494785a8",
-   "ctx": "label",
-   "t": "Search With Aadhar No."
-  },
-  {
-   "k": "e1af3f3ae8c4",
-   "ctx": "hint",
-   "t": "Aadhaar of the head of family. The system first checks whether you are already in some Family ID."
-  },
-  {
-   "k": "15b236675743",
-   "ctx": "hint",
-   "t": "Sent to the mobile number linked with that Aadhaar."
-  },
-  {
-   "k": "a831ed2462e8",
-   "ctx": "label",
-   "t": "Head of family: name, date of birth, gender"
-  },
-  {
-   "k": "0c349a5f8367",
-   "ctx": "value",
-   "t": "Ramesh Kumar / 12-07-1980 / Male"
-  },
-  {
-   "k": "ffc7e6ac1a35",
-   "ctx": "hint",
-   "t": "Exactly as on Aadhaar."
-  },
-  {
-   "k": "84bdb1c86370",
-   "ctx": "hint",
-   "t": "This number gets every OTP for the Family ID later, so give one you will keep."
-  },
-  {
-   "k": "3dfc98e5b136",
-   "ctx": "label",
-   "t": "Address (district, block or town, village or ward, house no.)"
-  },
-  {
-   "k": "bb03266e31ec",
-   "ctx": "value",
-   "t": "Hisar / Barwala / Village Khera Jattan / 45"
-  },
-  {
-   "k": "612dbc443af0",
-   "ctx": "hint",
-   "t": "Choose General, SC, BC-A or BC-B. It is checked against your caste certificate."
-  },
-  {
-   "k": "057f121952dc",
-   "ctx": "label",
-   "t": "Annual income of each member"
-  },
-  {
-   "k": "ccbf90127d95",
-   "ctx": "value",
-   "t": "Ramesh Kumar: Rs 96,000 (farming)"
-  },
-  {
-   "k": "755efde2dfe0",
-   "ctx": "hint",
-   "t": "Give true income. Schemes like Chirayu and Lado Lakshmi use the verified family income."
-  },
-  {
-   "k": "3287d2ba8bcc",
-   "ctx": "label",
-   "t": "Bank account and IFSC (head of family)"
-  },
-  {
-   "k": "878774f1a52f",
-   "ctx": "hint",
-   "t": "Pensions and other scheme money are sent to the account recorded here."
-  },
-  {
-   "k": "95b833e17134",
-   "ctx": "label",
-   "t": "Family members (name, relation, Aadhaar)"
-  },
-  {
-   "k": "70a915ba616f",
-   "ctx": "value",
-   "t": "Sunita Devi, wife, 9999 7310 6611"
-  },
-  {
-   "k": "8c354e3cc505",
-   "ctx": "hint",
-   "t": "Add everyone who lives and eats together. Married daughters go to their husband's Family ID."
-  },
-  {
-   "k": "c0fba6bde077",
-   "ctx": "demoSteps",
-   "t": "Open meraparivar.haryana.gov.in and choose I want to create my PPP, or open the PPP citizen login page and answer NO."
-  },
-  {
-   "k": "93676c329b00",
-   "ctx": "demoSteps",
-   "t": "Search with the head of family's Aadhaar and verify the OTP. Then fill in the head's details, address, caste, income and bank account, and add each member with Aadhaar."
-  },
-  {
-   "k": "2a2511fc4410",
-   "ctx": "demoSteps",
-   "t": "Submit and note the acknowledgement number. If the portal asks, download the filled PPP form, have the head of family sign it and upload it. After this, only one change is allowed."
-  },
-  {
-   "k": "a0853627c69c",
-   "ctx": "demoSteps",
-   "t": "The department verifies income and other details through records and field checks. Checked details are marked Verified."
-  },
-  {
-   "k": "37fe13a38c0a",
-   "ctx": "demoSteps",
-   "t": "The 8-digit Family ID comes by SMS. Download it any time on meraparivar.haryana.gov.in with the Family ID and an OTP."
-  },
-  {
-   "k": "97a9e4b605a9",
-   "ctx": "demoSteps",
-   "t": "If you cannot do it yourself, a CSC, Antyodaya Saral Kendra or PPP operator does it free. For wrong income or caste, use the correction module or Report Grievance on the PPP site."
-  },
-  {
-   "k": "7895f377d561",
-   "ctx": "helpline",
-   "t": "0172-4880500 (Family ID helpline, 9 am to 6 pm, Monday to Saturday) / 98886 33322 (PPP helpline)"
-  },
-  {
-   "k": "0da3401388ab",
-   "ctx": "title",
-   "t": "Deen Dayal Lado Lakshmi Yojana (Lado Lakshmi)"
-  },
-  {
-   "k": "a970702c6014",
-   "ctx": "department",
-   "t": "SEWA Department (Social Justice, Empowerment, Welfare of SCs & BCs and Antyodaya), Haryana"
-  },
-  {
-   "k": "a655500aa7ff",
-   "ctx": "brief",
-   "t": "Rs 2,100 a month for women aged 23 and above from the poorest families of Haryana. From the second month, Rs 1,100 comes to your savings account and Rs 1,000 is saved for you in a government recurring deposit, paid back with interest when it matures (within five years). You apply only on the official Lado Lakshmi mobile app using your Family ID (PPP). There is no paper form, and any other link or form is fake."
-  },
-  {
-   "k": "ea35ab6499d0",
-   "ctx": "benefit",
-   "t": "Rs 2,100 a month (Rs 1,100 in hand + Rs 1,000 saved in a government RD)"
-  },
-  {
-   "k": "34f1edbbd1b0",
-   "ctx": "eligibility",
-   "t": "Woman aged 23 or above. Any number of eligible women in one family can apply"
-  },
-  {
-   "k": "a778e1091e54",
-   "ctx": "eligibility",
-   "t": "Family income verified in the Family ID (PPP) not more than Rs 1 lakh a year, and the family endorsed as poorest of the poor by the Gram Sabha or Ward Committee"
-  },
-  {
-   "k": "291dff76e5c1",
-   "ctx": "eligibility",
-   "t": "Or family income up to Rs 1.80 lakh if a child in a government school scored over 80% in Class 10 or 12, reached the NIPUN grade level in Classes 1 to 4, or was brought out of malnutrition (SAM/MAM). Mothers of more than three children cannot use this route"
-  },
-  {
-   "k": "c5cf16bf6efe",
-   "ctx": "eligibility",
-   "t": "She, or her husband if she married into Haryana from another state, has lived in Haryana for at least 15 years"
-  },
-  {
-   "k": "b1d9431eaf68",
-   "ctx": "eligibility",
-   "t": "Not for women already getting the old age, widow, Divyang or Ladli allowance or any other government pension, government employees whose family income is above the limit, or income tax payers"
-  },
-  {
-   "k": "c37fae3f3243",
-   "ctx": "documents",
-   "t": "Family ID (Parivar Pehchan Patra) with verified income"
-  },
-  {
-   "k": "279da53a3a73",
-   "ctx": "documents",
-   "t": "Aadhaar card of the applicant, and Aadhaar details of family members"
-  },
-  {
-   "k": "4fd8125b46c0",
-   "ctx": "documents",
-   "t": "Haryana residence certificate (15 years)"
-  },
-  {
-   "k": "e6c67e94edf3",
-   "ctx": "documents",
-   "t": "Savings bank account in the woman's own name"
-  },
-  {
-   "k": "c1cc8f3ecf01",
-   "ctx": "documents",
-   "t": "Electricity connection (consumer account) number"
-  },
-  {
-   "k": "11aa2d630c15",
-   "ctx": "documents",
-   "t": "Vehicle ownership details and HKRN ID, if any"
-  },
-  {
-   "k": "e8a347eb8671",
-   "ctx": "documents",
-   "t": "A smartphone, with the mobile number for OTP and the monthly face check"
-  },
-  {
-   "k": "f559548b07f4",
-   "ctx": "portalName",
-   "t": "Lado Lakshmi App (SEWA Department, Haryana)"
-  },
-  {
-   "k": "88c271641af4",
-   "ctx": "hint",
-   "t": "Type your number in the app and enter the OTP. The eligibility and payment SMS come here."
-  },
-  {
-   "k": "8727e634a42b",
-   "ctx": "label",
-   "t": "Family ID (PPP)"
-  },
-  {
-   "k": "1c8df2dc7fad",
-   "ctx": "hint",
-   "t": "The 8-digit Family ID. Your income and family details are taken from it."
-  },
-  {
-   "k": "0d2ea2769eed",
-   "ctx": "label",
-   "t": "Select applicant"
-  },
-  {
-   "k": "d437afefed58",
-   "ctx": "value",
-   "t": "Sunita Devi (wife of head)"
-  },
-  {
-   "k": "aa5f1578ac3c",
-   "ctx": "hint",
-   "t": "The app shows the members on the Family ID. Pick the woman who is applying. She must be 23 or older."
-  },
-  {
-   "k": "de5d81497256",
-   "ctx": "hint",
-   "t": "The applicant's own Aadhaar number."
-  },
-  {
-   "k": "7c96cbcdf650",
-   "ctx": "label",
-   "t": "Residence in Haryana"
-  },
-  {
-   "k": "6dd9fc500a2c",
-   "ctx": "value",
-   "t": "15+ years, residence certificate"
-  },
-  {
-   "k": "6add2789117e",
-   "ctx": "hint",
-   "t": "If you married into Haryana from another state, your husband's 15 years of residence counts."
-  },
-  {
-   "k": "0cf3256fa5da",
-   "ctx": "label",
-   "t": "Electricity consumer account number"
-  },
-  {
-   "k": "64bdbf1510f8",
-   "ctx": "hint",
-   "t": "Printed on your electricity bill."
-  },
-  {
-   "k": "6c6c0eb0472c",
-   "ctx": "label",
-   "t": "Vehicle owned"
-  },
-  {
-   "k": "6a19f4998625",
-   "ctx": "hint",
-   "t": "Give any car or other vehicle owned by the family. It is checked against transport records."
-  },
-  {
-   "k": "209206107a30",
-   "ctx": "hint",
-   "t": "Only if you or a family member work through Haryana Kaushal Rozgar Nigam."
-  },
-  {
-   "k": "b91e94f9a2ff",
-   "ctx": "hint",
-   "t": "Must be in the woman's own name. PFMS checks it before the first payment."
-  },
-  {
-   "k": "bfecea59217b",
-   "ctx": "label",
-   "t": "Monthly amount you choose"
-  },
-  {
-   "k": "8ee83ad14d1f",
-   "ctx": "value",
-   "t": "Rs 2,100 (full amount)"
-  },
-  {
-   "k": "e4d06a40b276",
-   "ctx": "hint",
-   "t": "Asked by SMS after verification. If you choose Rs 1,500 or less, Rs 500 is paid and Rs 1,000 still goes into the RD."
-  },
-  {
-   "k": "20bb5a24f509",
-   "ctx": "demoSteps",
-   "t": "Install the Lado Lakshmi app (made by HARTRON for the Haryana government) from Google Play or the App Store. Do not use any other app, link or form."
-  },
-  {
-   "k": "e8fcefdc884c",
-   "ctx": "demoSteps",
-   "t": "Register with your mobile number and OTP, choose Apply for the Scheme, enter the Family ID and pick the woman who is applying."
-  },
-  {
-   "k": "594bc176a696",
-   "ctx": "demoSteps",
-   "t": "Fill in the Aadhaar, residence, electricity, vehicle and bank details and submit. Note the Registration ID shown on screen."
-  },
-  {
-   "k": "13a5b09bdcb8",
-   "ctx": "demoSteps",
-   "t": "CRID checks your details against Family ID records within 15 days. If you are eligible, an SMS asks you to choose the monthly amount: confirm it and give consent in the app with your Registration ID."
-  },
-  {
-   "k": "ebbb9611261a",
-   "ctx": "demoSteps",
-   "t": "The District Social Welfare Officer creates your DDLLY ID and PFMS checks the bank account. Payment starts the next month: Rs 2,100 in full the first month, then Rs 1,100 to the account and Rs 1,000 to the RD."
-  },
-  {
-   "k": "99bc06cae0e2",
-   "ctx": "demoSteps",
-   "t": "After the first payment, do the face check (Blink to Click) in the app every month, or the money stops. Raise any complaint in the app's grievance window: the DSWO must act within 7 days."
-  },
-  {
-   "k": "698d5cd25173",
-   "ctx": "helpline",
-   "t": "1800-180-2231 (toll-free Lado Lakshmi helpline) / 0172-4880500 (Family ID and verification helpline)"
-  },
-  {
-   "k": "48643a1afd96",
-   "ctx": "title",
-   "t": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana (Rs 1,500 for Women)"
-  },
-  {
-   "k": "de6f523880bd",
-   "ctx": "department",
-   "t": "Department of Social Justice & Empowerment (Directorate of Empowerment of SCs, OBCs, Minorities & Specially Abled), Government of Himachal Pradesh"
-  },
-  {
-   "k": "5b896d832bda",
-   "ctx": "brief",
-   "t": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification."
-  },
-  {
-   "k": "022a6d3d7a57",
-   "ctx": "benefit",
-   "t": "Rs 1,500 a month (Rs 18,000 a year), by DBT"
-  },
-  {
-   "k": "064a1f59eb9a",
-   "ctx": "eligibility",
-   "t": "A woman who is a permanent (bonafide) resident of Himachal Pradesh, aged 21 to 59"
-  },
-  {
-   "k": "f55067c599dd",
-   "ctx": "eligibility",
-   "t": "Family income below Rs 2 lakh a year; BPL families get priority"
-  },
-  {
-   "k": "a7ba02ec616f",
-   "ctx": "eligibility",
-   "t": "Only one woman in a family can get the money"
-  },
-  {
    "k": "5db3d8f42099",
    "ctx": "eligibility",
    "t": "Not eligible if anyone in the family is a regular, contract, outsourced or daily-wage government employee or a pensioner, a serving or retired soldier or a soldier's widow, or works for a panchayat, urban body, board or corporation"
@@ -984,6 +304,711 @@
    "k": "003fbceeb7d9",
    "ctx": "label",
    "t": "Applicant category"
+  },
+  {
+   "k": "c66bb86ddb93",
+   "ctx": "hint",
+   "t": "Widow, divorced, destitute or abandoned woman, husband missing for 7 years, or parent with 70% disability. Upload the matching proof."
+  },
+  {
+   "k": "5731e4b6d1b1",
+   "ctx": "label",
+   "t": "Name of child"
+  },
+  {
+   "k": "88eee7a4e925",
+   "ctx": "value",
+   "t": "Aarti"
+  },
+  {
+   "k": "812e2fd98650",
+   "ctx": "hint",
+   "t": "One application for each child, with the child's own details."
+  },
+  {
+   "k": "d47f2dd38939",
+   "ctx": "label",
+   "t": "Child's date of birth"
+  },
+  {
+   "k": "380c4ba115b0",
+   "ctx": "hint",
+   "t": "From the birth certificate or 10th certificate. Up to 18 you get Rs 1,000 a month."
+  },
+  {
+   "k": "24604503fa8e",
+   "ctx": "hint",
+   "t": "From the income certificate. It must not be more than Rs 1 lakh."
+  },
+  {
+   "k": "fc0abd0f169b",
+   "ctx": "label",
+   "t": "School or college and class"
+  },
+  {
+   "k": "29a07942f96a",
+   "ctx": "value",
+   "t": "GSSS Bhoranj, Class 7"
+  },
+  {
+   "k": "752cee86ec3e",
+   "ctx": "hint",
+   "t": "For 18 to 27, give the government college and course, and upload the fee and hostel proof signed by the principal."
+  },
+  {
+   "k": "9389db0610ef",
+   "ctx": "value",
+   "t": "Village Lambloo, Panchayat Lambloo, Block Bhoranj, District Hamirpur"
+  },
+  {
+   "k": "60506a287642",
+   "ctx": "hint",
+   "t": "As in the Parivar Register."
+  },
+  {
+   "k": "0f1f84b67559",
+   "ctx": "hint",
+   "t": "Aadhaar of the applicant; the child's Aadhaar is asked for too."
+  },
+  {
+   "k": "81f09fd76523",
+   "ctx": "hint",
+   "t": "The account where the monthly money will come. Keep it linked to Aadhaar."
+  },
+  {
+   "k": "f8c793b21129",
+   "ctx": "demoSteps",
+   "t": "Get the bonafide Himachali certificate, income certificate and Parivar Register copy first; all three can be applied for on HimSeva or at a Lok Mitra Kendra."
+  },
+  {
+   "k": "34c3d95db488",
+   "ctx": "demoSteps",
+   "t": "Open himseva.hp.gov.in, click Indira Gandhi Sukh Siksha Yojana and log in with Him Access."
+  },
+  {
+   "k": "641939095315",
+   "ctx": "demoSteps",
+   "t": "Fill in the mother's and child's details, upload the documents and submit. Note the application number."
+  },
+  {
+   "k": "c661ce2c5f7f",
+   "ctx": "demoSteps",
+   "t": "The Women and Child Development office (CDPO or District Programme Officer) checks the application and sanctions it."
+  },
+  {
+   "k": "a4c46342f18b",
+   "ctx": "demoSteps",
+   "t": "The money is paid straight into the bank account. Track the application on HimSeva with the application number."
+  },
+  {
+   "k": "ce821aa2e4a9",
+   "ctx": "demoSteps",
+   "t": "For a child aged 18 to 27, send the fee and hostel proof signed by the head of the institution each year so the expenses are paid."
+  },
+  {
+   "k": "9e92ed7f3ad4",
+   "ctx": "helpline",
+   "t": "1100 — CM Seva Sankalp helpline. For the application, the CDPO office of your block or the District Programme Officer, Women & Child Development"
+  },
+  {
+   "k": "075d157fe846",
+   "ctx": "title",
+   "t": "Mukhya Mantri Himachal Health Care Scheme (HIMCARE Card)"
+  },
+  {
+   "k": "2ace7c2abd28",
+   "ctx": "department",
+   "t": "Himachal Pradesh Swasthya Bima Yojna Society, Health & Family Welfare Department, Government of Himachal Pradesh"
+  },
+  {
+   "k": "418c60826c5a",
+   "ctx": "brief",
+   "t": "Free hospital treatment up to Rs 5 lakh a year for Himachal families who are not covered by Ayushman Bharat and have no government-employee medical cover. You pay a small yearly premium (nothing at all for BPL, MGNREGA and some other families) and get a HIMCARE e-card for up to five members. Treatment is cashless at empanelled government and private hospitals in Himachal, and at PGIMER and GMCH Sector 32 in Chandigarh. New cards are made only in March, June, September and December, and each card is valid for one year."
+  },
+  {
+   "k": "a3b02d3e5cb4",
+   "ctx": "benefit",
+   "t": "Rs 5 lakh a year per family, cashless; premium Rs 0, Rs 365 or Rs 1,000 a year"
+  },
+  {
+   "k": "cb7e2dd0ad85",
+   "ctx": "eligibility",
+   "t": "Families of Himachal Pradesh whose ration card is not covered under Ayushman Bharat PM-JAY"
+  },
+  {
+   "k": "e70f68b6b5d5",
+   "ctx": "eligibility",
+   "t": "No family member may be a government employee or pensioner covered by government medical reimbursement; you sign an undertaking"
+  },
+  {
+   "k": "81983229744a",
+   "ctx": "eligibility",
+   "t": "Free (category I): BPL families, registered street vendors, MGNREGA workers with 50 days of work in the previous or current year, children in orphanages"
+  },
+  {
+   "k": "4238d7e7caa5",
+   "ctx": "eligibility",
+   "t": "Rs 365 a year (category II): ekal naari, people with 40% or more disability, mid-day meal workers, and daily-wage, part-time, contract and outsourced workers of state government bodies"
+  },
+  {
+   "k": "c9e0875cf720",
+   "ctx": "eligibility",
+   "t": "Rs 1,000 a year (category III): all other eligible families"
+  },
+  {
+   "k": "acd350c1ea72",
+   "ctx": "eligibility",
+   "t": "One card covers five members; a bigger family is enrolled as a second unit"
+  },
+  {
+   "k": "dca9f95d0ba3",
+   "ctx": "documents",
+   "t": "Ration card, scanned front and back"
+  },
+  {
+   "k": "4033ac19d5e4",
+   "ctx": "documents",
+   "t": "Aadhaar card of every member being enrolled"
+  },
+  {
+   "k": "89596e0d55d9",
+   "ctx": "documents",
+   "t": "Mobile number for the OTP and approval message"
+  },
+  {
+   "k": "6c61aeb3016a",
+   "ctx": "documents",
+   "t": "Category proof: BPL certificate attested by the panchayat secretary within the last month, MGNREGA job card with the 50-day report, street-vendor certificate, ekal naari certificate from the CDPO, disability certificate, or a certificate from your department"
+  },
+  {
+   "k": "fe0992c75162",
+   "ctx": "documents",
+   "t": "Undertaking that no family member is covered by a government employees' or pensioners' medical scheme"
+  },
+  {
+   "k": "f05eb9e824c2",
+   "ctx": "documents",
+   "t": "Online payment of the premium, if your category has one"
+  },
+  {
+   "k": "3dc0bece62d2",
+   "ctx": "portalName",
+   "t": "HP Swasthya Bima Yojna Society (HIMCARE)"
+  },
+  {
+   "k": "c18ea6d38233",
+   "ctx": "hint",
+   "t": "Log in with your Himachal Him Access account, using Aadhaar or mobile OTP. At a Lok Mitra Kendra or CSC the operator does this for Rs 50."
+  },
+  {
+   "k": "026c39a25799",
+   "ctx": "label",
+   "t": "Application type"
+  },
+  {
+   "k": "07200af74acb",
+   "ctx": "value",
+   "t": "Fresh enrollment"
+  },
+  {
+   "k": "0284bc66cb02",
+   "ctx": "hint",
+   "t": "Choose fresh enrollment for a new card. Use Renewal of Card on hpsbys.in if you already have one."
+  },
+  {
+   "k": "825dfc1e52a0",
+   "ctx": "value",
+   "t": "Category III — Rs 1,000 a year"
+  },
+  {
+   "k": "07f1139b7800",
+   "ctx": "hint",
+   "t": "Pick the category you really belong to. A premium paid under the wrong category is not refunded."
+  },
+  {
+   "k": "94c100025b5d",
+   "ctx": "hint",
+   "t": "Type the number without the letters HP. It must match the scanned card exactly."
+  },
+  {
+   "k": "3113a72d1773",
+   "ctx": "label",
+   "t": "Head of family"
+  },
+  {
+   "k": "49961f53eae5",
+   "ctx": "hint",
+   "t": "Name as on the ration card and Aadhaar."
+  },
+  {
+   "k": "e18a757d560b",
+   "ctx": "hint",
+   "t": "Aadhaar of the head of family. Each member's Aadhaar is added below."
+  },
+  {
+   "k": "bfb8d3f26de6",
+   "ctx": "value",
+   "t": "Kamla Devi (self), Prem Chand (husband), Neha (daughter), Rohit (son)"
+  },
+  {
+   "k": "33eabe3eccd7",
+   "ctx": "hint",
+   "t": "Up to five members on one card, each with name, relation and Aadhaar."
+  },
+  {
+   "k": "e670eeee37c6",
+   "ctx": "label",
+   "t": "District and block"
+  },
+  {
+   "k": "013b19228875",
+   "ctx": "value",
+   "t": "Mandi / Sundernagar"
+  },
+  {
+   "k": "fdeecfe38107",
+   "ctx": "hint",
+   "t": "Where the family lives; it is printed on the card."
+  },
+  {
+   "k": "9ac4cf37bd68",
+   "ctx": "label",
+   "t": "Documents upload"
+  },
+  {
+   "k": "241aa8ede0d0",
+   "ctx": "value",
+   "t": "Ration card front and back, category proof"
+  },
+  {
+   "k": "9660be858252",
+   "ctx": "hint",
+   "t": "Upload clear scans of the original documents. Blurred or mismatched documents get the application rejected."
+  },
+  {
+   "k": "bd7ea786dc90",
+   "ctx": "label",
+   "t": "Undertaking and premium"
+  },
+  {
+   "k": "2c0fcda77373",
+   "ctx": "value",
+   "t": "Accepted / Rs 1,000 paid online"
+  },
+  {
+   "k": "31cf1f0d8e33",
+   "ctx": "hint",
+   "t": "Tick the undertaking and pay within 30 days of confirming, or the application lapses."
+  },
+  {
+   "k": "b4fc82f50d9f",
+   "ctx": "demoSteps",
+   "t": "In March, June, September or December, open hpsbys.in and click SSO Login, or go to a Lok Mitra Kendra or CSC."
+  },
+  {
+   "k": "17e59670eac2",
+   "ctx": "demoSteps",
+   "t": "Log in with Him Access, choose fresh HIMCARE enrollment and your category, enter the ration card number without HP and add the family members."
+  },
+  {
+   "k": "3527b93c586d",
+   "ctx": "demoSteps",
+   "t": "Upload the ration card and category proof, accept the undertaking, confirm, and pay the premium online within 30 days. Note the reference number."
+  },
+  {
+   "k": "eeef37b9b2ed",
+   "ctx": "demoSteps",
+   "t": "The society approves the application within about 3 days and sends an SMS. Check progress on HIMCARE Enrollment Status with the reference or ration card number."
+  },
+  {
+   "k": "2c815792c47c",
+   "ctx": "demoSteps",
+   "t": "Open Get My HIMCARE Card on hpsbys.in, search by HIMCARE number, ration card or Aadhaar, and download or print the card."
+  },
+  {
+   "k": "fb98f36a8a2a",
+   "ctx": "demoSteps",
+   "t": "At an empanelled hospital, show the card; your identity is checked by Aadhaar face authentication on the hospital's app. Renew the card online before it expires each year."
+  },
+  {
+   "k": "566e9f299857",
+   "ctx": "helpline",
+   "t": "1800-202-1311 (PMJAY/HIMCARE toll-free) / 70186-06884, 70086-05212 (card approvals) / 80917-73886 (technical support, working days)"
+  },
+  {
+   "k": "ba88ce8c278f",
+   "ctx": "title",
+   "t": "Ayushman Bharat PM-JAY SEHAT (Golden Card)"
+  },
+  {
+   "k": "6a222025a490",
+   "ctx": "department",
+   "t": "State Health Agency, Health & Medical Education Department, Jammu & Kashmir"
+  },
+  {
+   "k": "b898568a4dca",
+   "ctx": "brief",
+   "t": "Free health cover of Rs.5 lakh a year for every family living in Jammu & Kashmir, whatever its income, including government employees and pensioners. Treatment is cashless at empanelled government and private hospitals in J&K, and at PM-JAY hospitals across India. The card, called the Golden Card or Ayushman card, is made on the family's ration card, and you can make it yourself on the phone."
+  },
+  {
+   "k": "2474c037141f",
+   "ctx": "benefit",
+   "t": "Rs.5 lakh a year per family, cashless, no premium"
+  },
+  {
+   "k": "af3bc99ec1b5",
+   "ctx": "eligibility",
+   "t": "Every family living in the Union Territory of Jammu & Kashmir, with no income limit"
+  },
+  {
+   "k": "d76e69c7e3dc",
+   "ctx": "eligibility",
+   "t": "The family must hold a J&K ration card; every member named on it is covered"
+  },
+  {
+   "k": "3db5e928b1aa",
+   "ctx": "eligibility",
+   "t": "Government employees, pensioners and their families are covered too"
+  },
+  {
+   "k": "5293b28a51c0",
+   "ctx": "eligibility",
+   "t": "Families already in the PM-JAY list get the same Rs.5 lakh card under that list"
+  },
+  {
+   "k": "53140a7f6cfc",
+   "ctx": "eligibility",
+   "t": "Everyone aged 70 or above can also get the Ayushman Vay Vandana card"
+  },
+  {
+   "k": "6b11d84a6e52",
+   "ctx": "eligibility",
+   "t": "Illnesses you already have are covered from day one, with 3 days of costs before admission and 15 days after"
+  },
+  {
+   "k": "eb1ac564a57b",
+   "ctx": "documents",
+   "t": "Aadhaar card of each family member"
+  },
+  {
+   "k": "3c2cf05bca55",
+   "ctx": "documents",
+   "t": "J&K ration card (inner and outer pages), which links the whole family"
+  },
+  {
+   "k": "97c17d79ec10",
+   "ctx": "documents",
+   "t": "Domicile certificate, if the CSC or hospital desk asks for proof of residence"
+  },
+  {
+   "k": "a6876cc46b9a",
+   "ctx": "hint",
+   "t": "Any working number you hold. The OTP comes here, and so does the message when the card is approved."
+  },
+  {
+   "k": "f32fb9affe2f",
+   "ctx": "value",
+   "t": "PMJAY / Jammu and Kashmir"
+  },
+  {
+   "k": "db1a1c64c3a3",
+   "ctx": "hint",
+   "t": "SEHAT runs through PM-JAY, so choose PMJAY and then Jammu and Kashmir."
+  },
+  {
+   "k": "e3952f582c97",
+   "ctx": "hint",
+   "t": "The ration card number finds everyone in the family at once. You can also search by Aadhaar."
+  },
+  {
+   "k": "7189a5425840",
+   "ctx": "hint",
+   "t": "Copy it from the ration card. If nothing is found, search again with your Aadhaar number."
+  },
+  {
+   "k": "4d860a792456",
+   "ctx": "hint",
+   "t": "Aadhaar of the family member whose card you are making now. Each member is done one at a time."
+  },
+  {
+   "k": "abdf5b983670",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "k": "4879aa988bac",
+   "ctx": "hint",
+   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request rejected."
+  },
+  {
+   "k": "f373e131c49c",
+   "ctx": "value",
+   "t": "Anantnag / 192101"
+  },
+  {
+   "k": "1e3c969967d3",
+   "ctx": "hint",
+   "t": "Where you actually live now, so the nearest empanelled hospitals are shown to you."
+  },
+  {
+   "k": "1b7b8851eaa9",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in (or the Ayushman app) and log in as Beneficiary with your mobile number and OTP."
+  },
+  {
+   "k": "4d05d090344a",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and the state Jammu and Kashmir, then search for your family by ration card number or Aadhaar."
+  },
+  {
+   "k": "c182f66e14ca",
+   "ctx": "demoSteps",
+   "t": "Find the member marked eKYC pending, verify with Aadhaar OTP or face authentication, and take the live photo."
+  },
+  {
+   "k": "372051da808a",
+   "ctx": "demoSteps",
+   "t": "Fill in the relation, district and PIN code and submit. The State Health Agency usually approves it within a day or two."
+  },
+  {
+   "k": "d9f231df670a",
+   "ctx": "demoSteps",
+   "t": "Log in again, open Download Card and save the Golden Card. If your family is not found, go to a CSC or the Ayushman Mitra desk of a SEHAT hospital with your ration card and Aadhaar."
+  },
+  {
+   "k": "6d738095c8d8",
+   "ctx": "demoSteps",
+   "t": "At the hospital, show the card at the Ayushman Mitra desk and pay nothing for a covered treatment. If an empanelled hospital refuses, call 104."
+  },
+  {
+   "k": "b0b95e33cb66",
+   "ctx": "helpline",
+   "t": "104 — J&K health helpline, also for complaints when treatment is refused / 14555 or 1800-111-565 — Ayushman Bharat national helpline"
+  },
+  {
+   "k": "74eb1f9961d3",
+   "ctx": "title",
+   "t": "Ladli Beti Scheme, Jammu & Kashmir"
+  },
+  {
+   "k": "d49a85d286a5",
+   "ctx": "department",
+   "t": "Department of Social Welfare, Jammu & Kashmir"
+  },
+  {
+   "k": "88b66c4f6d17",
+   "ctx": "brief",
+   "t": "For a girl born on or after 1 April 2015 into a low-income family in Jammu & Kashmir, the government puts Rs.1,000 a month into an account in her name until she turns 14. The money then stays in a term deposit, and at 21 she receives about Rs.6.5 lakh for her studies or marriage. Parents apply online on JanSugam (also reached through e-UNNAT); the CDPO checks the application and the Deputy Commissioner sanctions it."
+  },
+  {
+   "k": "3d0e86fc9b1d",
+   "ctx": "benefit",
+   "t": "Rs.1,000 a month till she is 14; about Rs.6.5 lakh paid to her at 21"
+  },
+  {
+   "k": "30030ba37248",
+   "ctx": "eligibility",
+   "t": "The girl was born on or after 1 April 2015"
+  },
+  {
+   "k": "dc9fac4bc87d",
+   "ctx": "eligibility",
+   "t": "The parents' total income from all sources is below Rs.75,000 a year"
+  },
+  {
+   "k": "97e696bbf6e1",
+   "ctx": "eligibility",
+   "t": "The girl and her parents are residents of Jammu & Kashmir"
+  },
+  {
+   "k": "541fb6645427",
+   "ctx": "eligibility",
+   "t": "The money is held in the girl's own account and paid to her only at age 21"
+  },
+  {
+   "k": "1cc20a935025",
+   "ctx": "documents",
+   "t": "Birth certificate of the girl"
+  },
+  {
+   "k": "bfec52301306",
+   "ctx": "documents",
+   "t": "Income certificate of the parents, showing less than Rs.75,000 a year"
+  },
+  {
+   "k": "98160693ffde",
+   "ctx": "documents",
+   "t": "Aadhaar card of the girl and of the parents"
+  },
+  {
+   "k": "b67cf449ce08",
+   "ctx": "documents",
+   "t": "Domicile certificate of the parents"
+  },
+  {
+   "k": "fadf85f16497",
+   "ctx": "documents",
+   "t": "Ration card or other address proof"
+  },
+  {
+   "k": "b11d33784fae",
+   "ctx": "documents",
+   "t": "J&K Bank account details in the girl's name, once the sanction letter asks for them"
+  },
+  {
+   "k": "30155c457d5f",
+   "ctx": "portalName",
+   "t": "JanSugam (ServicePlus) Jammu & Kashmir"
+  },
+  {
+   "k": "b4c47d5a6cea",
+   "ctx": "label",
+   "t": "Name of the girl child"
+  },
+  {
+   "k": "8b3d4f619f52",
+   "ctx": "value",
+   "t": "Zoya Bashir"
+  },
+  {
+   "k": "62f337572b0e",
+   "ctx": "hint",
+   "t": "Exactly as written on her birth certificate."
+  },
+  {
+   "k": "f417c6ce6c7c",
+   "ctx": "hint",
+   "t": "Must be on or after 01/04/2015. Apply soon after the birth certificate is issued."
+  },
+  {
+   "k": "5e54a862871a",
+   "ctx": "label",
+   "t": "Place of birth"
+  },
+  {
+   "k": "bf39325b9cc7",
+   "ctx": "value",
+   "t": "District Hospital, Pulwama"
+  },
+  {
+   "k": "5df5d09f9e19",
+   "ctx": "hint",
+   "t": "The hospital or place named on the birth certificate."
+  },
+  {
+   "k": "867ad42acccc",
+   "ctx": "value",
+   "t": "Bashir Ahmad Lone"
+  },
+  {
+   "k": "4a7e0a1e49a1",
+   "ctx": "value",
+   "t": "Shazia Bano"
+  },
+  {
+   "k": "ca0bd4a11218",
+   "ctx": "hint",
+   "t": "As on her Aadhaar card."
+  },
+  {
+   "k": "a7d7954955d6",
+   "ctx": "label",
+   "t": "Aadhaar number of parent"
+  },
+  {
+   "k": "2def7c7dd33a",
+   "ctx": "hint",
+   "t": "The 12 digits on the mother's or father's own Aadhaar card."
+  },
+  {
+   "k": "0e0d634c7ada",
+   "ctx": "hint",
+   "t": "Total from all sources, the same figure as on the income certificate. It must be below Rs.75,000."
+  },
+  {
+   "k": "776490a88996",
+   "ctx": "label",
+   "t": "District and ICDS project"
+  },
+  {
+   "k": "2acffb73d0b7",
+   "ctx": "value",
+   "t": "Pulwama / ICDS Project Pampore"
+  },
+  {
+   "k": "eb75a09a7626",
+   "ctx": "hint",
+   "t": "The block ICDS project where you live. Its CDPO checks your form."
+  },
+  {
+   "k": "a87361220314",
+   "ctx": "value",
+   "t": "Ward 4, Lethpora, Pulwama"
+  },
+  {
+   "k": "daf7f566a70d",
+   "ctx": "hint",
+   "t": "Application updates and the sanction message come here by SMS."
+  },
+  {
+   "k": "90e46fb17465",
+   "ctx": "demoSteps",
+   "t": "Register on jansugam.jk.gov.in (or open it from e-UNNAT) with your mobile number, then log in."
+  },
+  {
+   "k": "23dbc6a4d67a",
+   "ctx": "demoSteps",
+   "t": "Under Social Welfare, choose Application for obtaining Financial Assistance under Ladli Beti Scheme and fill in the girl's and parents' details."
+  },
+  {
+   "k": "eb156975d256",
+   "ctx": "demoSteps",
+   "t": "Upload the birth, income and domicile certificates and the Aadhaar cards, submit, and note the application number from the SMS."
+  },
+  {
+   "k": "6f01d335d25f",
+   "ctx": "demoSteps",
+   "t": "The CDPO checks the form within 15 days, then the District Programme Officer and the Deputy Commissioner take it up; the whole process is meant to finish within 45 days."
+  },
+  {
+   "k": "9d620c7321b9",
+   "ctx": "demoSteps",
+   "t": "After sanction, open the girl's account at J&K Bank if the sanction letter asks, and add the account number on the portal."
+  },
+  {
+   "k": "cec8a4a73e71",
+   "ctx": "demoSteps",
+   "t": "Rs.1,000 is credited every month until she turns 14. At 21 the matured amount, about Rs.6.5 lakh, is paid to her."
+  },
+  {
+   "k": "fbc8be1b52bb",
+   "ctx": "helpline",
+   "t": "0194-2479645 — Directorate of Social Welfare, Kashmir / your District Social Welfare Officer or CDPO (ICDS) office"
+  },
+  {
+   "k": "b73688c8f6fc",
+   "ctx": "title",
+   "t": "Abua Awas Yojana (Abua Awas)"
+  },
+  {
+   "k": "1910919f8c3a",
+   "ctx": "department",
+   "t": "Rural Development Department, Government of Jharkhand"
+  },
+  {
+   "k": "7e4ab822a6b5",
+   "ctx": "brief",
+   "t": "Jharkhand's own rural housing scheme: Rs.2 lakh to build a pucca house with three rooms and a kitchen, for families who have no house or live in a kutcha house and did not get one under PM Awas Yojana-Gramin. The state received about 30 lakh applications at the 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camps, found about 20 lakh genuine, and is building houses for them in phases. The money comes in instalments into the beneficiary's bank account as each stage of the house is geo-tagged, plus 95 days of MGNREGA wages for the family's own labour."
+  },
+  {
+   "k": "5270fc1579fa",
+   "ctx": "benefit",
+   "t": "Rs.2 lakh in instalments for a 3-room pucca house with kitchen, plus 95 days of MGNREGA wages"
+  },
+  {
+   "k": "24da11c0a827",
+   "ctx": "eligibility",
+   "t": "Rural families in Jharkhand with no house, or living in a kutcha or broken house"
   }
  ]
 }

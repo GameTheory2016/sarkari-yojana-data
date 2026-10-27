@@ -6,666 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/kn/done_20.json",
  "items": [
   {
-   "k": "804ea4666016",
-   "ctx": "demoSteps",
-   "t": "Go to the CMHT kiosk at your District Hospital (or RIMS or JNIMS in Imphal, or a village enrolment camp) with the originals and every member's Aadhaar."
-  },
-  {
-   "k": "b0bd42351b58",
-   "ctx": "demoSteps",
-   "t": "The Health Coordinator enters your details, takes the photo and the Aadhaar consent, and you sign the government-service declaration."
-  },
-  {
-   "k": "b2f983314360",
-   "ctx": "demoSteps",
-   "t": "Listed categories get the CMHT-Manipur Health Card on the spot, with a unique family number. For 'other poor families', the details go to the DC for verification, and you are told the result before the card is issued."
-  },
-  {
-   "k": "9a5175e748ce",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, show the card at the CMHT desk. The Health Coordinator guides you from admission to discharge, and treatment is cashless."
-  },
-  {
-   "k": "838cb3771e92",
-   "ctx": "demoSteps",
-   "t": "For the travel allowance, give your bank details when you are admitted. Inside Manipur it is Rs.300 a visit, up to Rs.3,000 a year. Outside Manipur it is the cheapest airfare for the patient and one attendant (up to Rs.30,000 a year) plus Rs.1,000 a day (up to Rs.10,000), all within the Rs.5 lakh."
-  },
-  {
-   "k": "ff7461876d9d",
-   "ctx": "helpline",
-   "t": "1800 103 2015 — CMHT toll-free helpline (24x7) / 14555 — Ayushman Bharat national helpline"
-  },
-  {
-   "k": "fc412aa1fc0b",
-   "ctx": "title",
-   "t": "Megha Health Insurance Scheme (MHIS Card)"
-  },
-  {
-   "k": "34a875aa77e0",
-   "ctx": "department",
-   "t": "State Nodal Agency, Megha Health Insurance Scheme, Department of Health & Family Welfare, Government of Meghalaya"
-  },
-  {
-   "k": "d13f175469cd",
-   "ctx": "brief",
-   "t": "Meghalaya's universal health insurance, run together with Ayushman Bharat PM-JAY, now in its sixth phase (MHIS VI). Every resident family except state and central government employees gets Rs.5.3 lakh a year, shared by the family, cashless at almost every hospital in the state and at PM-JAY hospitals across India, plus some outpatient care such as maternity, child care and tests. Registration is free and open all year at District Kiosks and hospital registration centres. A family head whose name is missing from the list (newly married, orphan, or not in the data) can send the request online."
-  },
-  {
-   "k": "8a1b34bf4469",
-   "ctx": "benefit",
-   "t": "Rs.5.3 lakh a year per family, cashless; registration free"
-  },
-  {
-   "k": "4436062450b2",
-   "ctx": "eligibility",
-   "t": "Every resident of Meghalaya, with no income limit"
-  },
-  {
-   "k": "72ca16bd2a3c",
-   "ctx": "eligibility",
-   "t": "Not for State or Central Government employees, who have their own medical reimbursement"
-  },
-  {
-   "k": "ea0bf9404ab8",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age"
-  },
-  {
-   "k": "6ca95021cd88",
-   "ctx": "eligibility",
-   "t": "A newborn is covered from birth under the mother's or father's card for the rest of the policy year"
-  },
-  {
-   "k": "4353f36899fb",
-   "ctx": "eligibility",
-   "t": "If your family is not in the MHIS or PM-JAY data (newly married, orphan, or name missing), apply through the online Head of Family request. The SHA office approves it"
-  },
-  {
-   "k": "91c5f924edf1",
-   "ctx": "documents",
-   "t": "Voter ID (EPIC), front and back. This is mandatory for the Head of Family request"
-  },
-  {
-   "k": "bfc68f0f47e1",
-   "ctx": "documents",
-   "t": "Any one more ID if asked: ration card, MGNREGA job card, birth certificate or other government photo ID"
-  },
-  {
-   "k": "0439fd7837e2",
-   "ctx": "documents",
-   "t": "Proof of relation to add members: marriage certificate, birth certificate, ration card, headman's certificate or adoption certificate"
-  },
-  {
-   "k": "b6a13f88ff15",
-   "ctx": "documents",
-   "t": "Old MHIS or RSBY card, if you have one"
-  },
-  {
-   "k": "509e0d934e79",
-   "ctx": "documents",
-   "t": "A mobile number"
-  },
-  {
-   "k": "278a773b3547",
-   "ctx": "portalName",
-   "t": "Megha Health Insurance Scheme"
-  },
-  {
-   "k": "b4b92af81985",
-   "ctx": "value",
-   "t": "Newly Married"
-  },
-  {
-   "k": "a55a13ff171b",
-   "ctx": "hint",
-   "t": "Newly Married, Name not there in the database, Orphans, or Others."
-  },
-  {
-   "k": "a75df8e46354",
-   "ctx": "value",
-   "t": "Banshai Lyngdoh"
-  },
-  {
-   "k": "501fa911eee0",
-   "ctx": "hint",
-   "t": "Spell it exactly as on Aadhaar and EPIC, or verification gets delayed."
-  },
-  {
-   "k": "9d6a9ff73dc7",
-   "ctx": "label",
-   "t": "Father's/Mother's/Spouse Name"
-  },
-  {
-   "k": "e816233ac6b3",
-   "ctx": "value",
-   "t": "Spouse — Ibapynhun Kharkongor"
-  },
-  {
-   "k": "613a6690eee3",
-   "ctx": "hint",
-   "t": "Pick the relation first, then type the name."
-  },
-  {
-   "k": "3360c0ca3fc3",
-   "ctx": "label",
-   "t": "House number as per EPIC"
-  },
-  {
-   "k": "2fad8719a72f",
-   "ctx": "value",
-   "t": "H. No. 99"
-  },
-  {
-   "k": "c22898fb4ab4",
-   "ctx": "hint",
-   "t": "As printed on your voter ID."
-  },
-  {
-   "k": "337d97eb0cfe",
-   "ctx": "label",
-   "t": "Address as per EPIC"
-  },
-  {
-   "k": "a3f3fd7a01cc",
-   "ctx": "value",
-   "t": "Mawlai Mawroh, Shillong"
-  },
-  {
-   "k": "3b625638f9b7",
-   "ctx": "hint",
-   "t": "Copy the address from the voter ID."
-  },
-  {
-   "k": "216035482caa",
-   "ctx": "label",
-   "t": "District / Name of block / Rural or Urban"
-  },
-  {
-   "k": "b9b5a42a07f6",
-   "ctx": "value",
-   "t": "East Khasi Hills / Mylliem / Urban"
-  },
-  {
-   "k": "73c64efc714c",
-   "ctx": "hint",
-   "t": "Where you live now, from the drop-down lists."
-  },
-  {
-   "k": "8578b945cef0",
-   "ctx": "label",
-   "t": "Phone No"
-  },
-  {
-   "k": "43dc58b742ff",
-   "ctx": "hint",
-   "t": "A number you keep with you, so the office can reach you."
-  },
-  {
-   "k": "4410f970ba57",
-   "ctx": "label",
-   "t": "EPIC Number / Aadhaar Number"
-  },
-  {
-   "k": "414c58e18907",
-   "ctx": "hint",
-   "t": "Voter ID number is mandatory. Aadhaar helps the check go faster."
-  },
-  {
-   "k": "5b7873e07194",
-   "ctx": "label",
-   "t": "Upload EPIC front side / back side"
-  },
-  {
-   "k": "d749e8a3a0df",
-   "ctx": "hint",
-   "t": "Clear photos of both sides of the voter ID. Aadhaar upload is optional."
-  },
-  {
-   "k": "eb834b4c442f",
-   "ctx": "demoSteps",
-   "t": "First check if your family is already in the list: call 1800 102 4762 or ask at a District Kiosk. If it is, just walk into any District Kiosk or hospital registration centre with a photo ID, and the card is printed there for free."
-  },
-  {
-   "k": "d06c8be90f74",
-   "ctx": "demoSteps",
-   "t": "If your name is missing, open the MHIS Head of Family form and choose your category: Newly Married, Name not there in the database, Orphans, or Others."
-  },
-  {
-   "k": "aee532aa21fd",
-   "ctx": "demoSteps",
-   "t": "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number."
-  },
-  {
-   "k": "7e0fbe120204",
-   "ctx": "demoSteps",
-   "t": "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval."
-  },
-  {
-   "k": "228dee72293e",
-   "ctx": "demoSteps",
-   "t": "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card."
-  },
-  {
-   "k": "0a700f4b14e2",
-   "ctx": "demoSteps",
-   "t": "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
-  },
-  {
-   "k": "562f4e3cfef5",
-   "ctx": "helpline",
-   "t": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline"
-  },
-  {
-   "k": "39717556c60a",
-   "ctx": "title",
-   "t": "Mizoram Universal Health Care Scheme (MUHCS Card)"
-  },
-  {
-   "k": "ae5f7eef3925",
-   "ctx": "department",
-   "t": "Mizoram State Health Care Society, Department of Health & Family Welfare, Government of Mizoram"
-  },
-  {
-   "k": "0f871bc1e503",
-   "ctx": "brief",
-   "t": "From 1 April 2025 MUHCS replaced the old Mizoram State Health Care Scheme (MSHCS), and it covers every bona fide resident of Mizoram. Families outside government service pay a yearly fee of Rs.2,500, Rs.5,000 or Rs.10,000 for Rs.5 lakh of cashless hospital cover; the higher fee buys a better ward, while AB PM-JAY (Golden Card) families pay nothing and government employees pay monthly from their salary. The paid enrolment opens once a year (for 2026-27 it ran from 16 February to 15 May 2026), mostly online, with offline forms at sub-centres where there is no internet. After that you apply for the MUHCS card online and download it once approved."
-  },
-  {
-   "k": "60e6cf2e56d8",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family, cashless, for a yearly family fee of Rs.2,500, Rs.5,000 or Rs.10,000"
-  },
-  {
-   "k": "71a24bc9e605",
-   "ctx": "eligibility",
-   "t": "Every bona fide resident of Mizoram listed in the state ration card (PDS) database"
-  },
-  {
-   "k": "476f58fa99ba",
-   "ctx": "eligibility",
-   "t": "General families pay a yearly fee: Rs.2,500 (general ward), Rs.5,000 (semi-private shared ward) or Rs.10,000 (private ward). The cover is Rs.5 lakh in each plan"
-  },
-  {
-   "k": "1291cfec07f9",
-   "ctx": "eligibility",
-   "t": "AB PM-JAY (Golden Card) families pay nothing and use their Golden Card. They do not need a MUHCS card"
-  },
-  {
-   "k": "e77021d5842c",
-   "ctx": "eligibility",
-   "t": "State government employees and provisional or muster roll staff pay Rs.200 to Rs.1,500 a month from their salary, by pay level. They do not enrol, they only make the card"
-  },
-  {
-   "k": "ff458eca9ce3",
-   "ctx": "eligibility",
-   "t": "Civil pensioners and GIA employees are covered through their subscription form, but the MUHCS card is not yet issued to them (circular of 13 May 2026)"
-  },
-  {
-   "k": "0bd7e9e87ed1",
-   "ctx": "eligibility",
-   "t": "Children under 5 use a parent's card. The fee is paid only in the yearly enrolment window and is not refunded except as notified"
-  },
-  {
-   "k": "90121ebcc3f0",
-   "ctx": "documents",
-   "t": "Ration card. Without one, a Village Council or Local Council letter listing the family members"
-  },
-  {
-   "k": "4119f4b4b7ea",
-   "ctx": "documents",
-   "t": "A clear chest-up photo of each member, to upload for the card"
-  },
-  {
-   "k": "e1ad70f395fd",
-   "ctx": "documents",
-   "t": "A mobile number for the OTP login"
-  },
-  {
-   "k": "4bddb1dea20f",
-   "ctx": "documents",
-   "t": "UPI, debit or credit card, or net banking, to pay the yearly fee (general families)"
-  },
-  {
-   "k": "68a5f24cefc0",
-   "ctx": "portalName",
-   "t": "Mizoram Universal Healthcare Scheme (MUHCS)"
-  },
-  {
-   "k": "f3c5f0cc581c",
-   "ctx": "hint",
-   "t": "Choose Beneficiary, not Operator."
-  },
-  {
-   "k": "b6b90ae0a8ff",
-   "ctx": "hint",
-   "t": "Your own working number. The OTP comes here every time you log in."
-  },
-  {
-   "k": "8294ada5cb62",
-   "ctx": "label",
-   "t": "Enter Captcha / OTP"
-  },
-  {
-   "k": "8826cffd22ba",
-   "ctx": "hint",
-   "t": "Type the letters shown in the picture, then the OTP sent to your phone."
-  },
-  {
-   "k": "f81edde45363",
-   "ctx": "hint",
-   "t": "The family is taken from the ration card. Without one, upload the Village or Local Council letter."
-  },
-  {
-   "k": "038992f5d66f",
-   "ctx": "label",
-   "t": "Plan option"
-  },
-  {
-   "k": "54567bf496e3",
-   "ctx": "value",
-   "t": "General — Rs.2,500 (general ward)"
-  },
-  {
-   "k": "c4fbe69cc90e",
-   "ctx": "hint",
-   "t": "Standard Rs.5,000 gives a shared semi-private ward, Private Rs.10,000 a private ward. The cover is Rs.5 lakh in all three."
-  },
-  {
-   "k": "44f90c0204b3",
-   "ctx": "label",
-   "t": "Head of family name"
-  },
-  {
-   "k": "2b356fdbbc06",
-   "ctx": "value",
-   "t": "Lalremruati"
-  },
-  {
-   "k": "389f102b9b64",
-   "ctx": "label",
-   "t": "Aadhaar of each member"
-  },
-  {
-   "k": "283f5c942129",
-   "ctx": "value",
-   "t": "9999 8106 2245 (and one per member)"
-  },
-  {
-   "k": "4c74544544a4",
-   "ctx": "hint",
-   "t": "Every member aged 5 or above needs their own Aadhaar for the card."
-  },
-  {
-   "k": "0b535b7fd695",
-   "ctx": "label",
-   "t": "Photo of each member"
-  },
-  {
-   "k": "3e403a366205",
-   "ctx": "value",
-   "t": "Chest-up photo uploaded"
-  },
-  {
-   "k": "1acea155679b",
-   "ctx": "hint",
-   "t": "Clear, face straight, from the chest up. A blurred photo gets the card rejected."
-  },
-  {
-   "k": "b41a92bed032",
-   "ctx": "label",
-   "t": "Payment"
-  },
-  {
-   "k": "833ebbefcc00",
-   "ctx": "value",
-   "t": "UPI — receipt saved"
-  },
-  {
-   "k": "2c6940baea06",
-   "ctx": "hint",
-   "t": "Pay online and keep the receipt. You need it for any later query or refund request."
-  },
-  {
-   "k": "3f8947eaa6e3",
-   "ctx": "demoSteps",
-   "t": "During the yearly enrolment window (for 2026-27 it was 16 February to 15 May 2026), open the MUHCS portal, choose Beneficiary and log in with your mobile number, the captcha and the OTP."
-  },
-  {
-   "k": "e3563a39e01e",
-   "ctx": "demoSteps",
-   "t": "Enter your ration card details, add all family members and choose a plan: General Rs.2,500, Standard Rs.5,000 or Private Rs.10,000."
-  },
-  {
-   "k": "d790a08f64fe",
-   "ctx": "demoSteps",
-   "t": "Pay the fee online by UPI, card or net banking and save the receipt. In villages without internet, fill in the offline form at the health sub-centre instead."
-  },
-  {
-   "k": "9713a0e43fcb",
-   "ctx": "demoSteps",
-   "t": "Apply for the MUHCS card from the same login. Upload each member's Aadhaar and a clear chest-up photo. Children under 5 do not need a card."
-  },
-  {
-   "k": "a7e2e76c02c9",
-   "ctx": "demoSteps",
-   "t": "The Mizoram State Health Care Society checks and approves the request. Then log in again and download the card."
-  },
-  {
-   "k": "ef50a92e638c",
-   "ctx": "demoSteps",
-   "t": "At an empanelled government or private hospital, show the MUHCS card (or your Golden Card) and get cashless treatment up to Rs.5 lakh. Re-enrol every year in the window."
-  },
-  {
-   "k": "16eefdcf283a",
-   "ctx": "helpline",
-   "t": "08065293906 — MUHCS Chhawntu call centre / 0389-2328223 — Mizoram State Health Care Society office / 7628839899 — MUHCS grievance / 14555 — Ayushman Bharat toll-free"
-  },
-  {
-   "k": "05e7f18331da",
-   "ctx": "title",
-   "t": "Chief Minister Health Insurance Scheme (CMHIS Card)"
-  },
-  {
-   "k": "69113ce1d721",
-   "ctx": "department",
-   "t": "Nagaland Health Protection Society, Department of Health & Family Welfare, Government of Nagaland"
-  },
-  {
-   "k": "0a4a6292b283",
-   "ctx": "brief",
-   "t": "Nagaland's own health insurance, run together with PM-JAY as AB PM-JAY CMHIS: the General Category gives Rs.5 lakh a year per family of cashless hospital treatment to indigenous inhabitants and permanent residents who are not covered by PM-JAY. Government employees and pensioners get Rs.20 lakh. A family registers online on the CMHIS portal or at a registration centre, the district administration approves it, and the Ayushman CMHIS card is then made after Aadhaar e-KYC at a centre. Registration is free."
-  },
-  {
-   "k": "4ebb3819940e",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family (General Category); Rs.20 lakh for government employees and pensioners"
-  },
-  {
-   "k": "c9a2788b3574",
-   "ctx": "eligibility",
-   "t": "Indigenous inhabitants or permanent residents of Nagaland not covered by AB PM-JAY or any other public health insurance (General Category)"
-  },
-  {
-   "k": "48e6b65e90a7",
-   "ctx": "eligibility",
-   "t": "Contractual, ad-hoc and fixed-pay state employees with a valid PIMS code, and accredited journalists, also come under the General Category"
-  },
-  {
-   "k": "74189471c51c",
-   "ctx": "eligibility",
-   "t": "Regular state government employees, legislators, PSU employees and pensioners, with their dependants, come under CMHIS (EP) with Rs.20 lakh cover"
-  },
-  {
-   "k": "9b436c3ecc49",
-   "ctx": "eligibility",
-   "t": "Ration card holders need not register as a new household. Their card is made against the existing ration card"
-  },
-  {
-   "k": "39dc40fb2ac1",
-   "ctx": "eligibility",
-   "t": "A household means people who live together and share one kitchen. There is no income limit"
-  },
-  {
-   "k": "5f38dd6a0b45",
-   "ctx": "documents",
-   "t": "Indigenous Inhabitant Certificate (IIC) or Permanent Resident Certificate (PRC) issued after 2016, for the head of the household"
-  },
-  {
-   "k": "e606804beb66",
-   "ctx": "documents",
-   "t": "System-generated self-declaration form, signed by the applicant and the Village, Ward or Colony Chairman"
-  },
-  {
-   "k": "f26665ccc58f",
-   "ctx": "documents",
-   "t": "Aadhaar card of every member, for e-KYC"
-  },
-  {
-   "k": "f38a541ac3b9",
-   "ctx": "documents",
-   "t": "A mobile number and an email ID (both verified by OTP)"
-  },
-  {
-   "k": "0ec77b203866",
-   "ctx": "documents",
-   "t": "Proof of relationship for every dependant except the spouse"
-  },
-  {
-   "k": "0ef16dd8efa8",
-   "ctx": "documents",
-   "t": "Employees: PIMS code. Pensioners: PPO number and the first 3 pages of the PPO book as a PDF"
-  },
-  {
-   "k": "088b973b10ff",
-   "ctx": "portalName",
-   "t": "CMHIS Nagaland"
-  },
-  {
-   "k": "61950eb27e8c",
-   "ctx": "value",
-   "t": "General Category"
-  },
-  {
-   "k": "a8e475c5b97e",
-   "ctx": "hint",
-   "t": "Government employees use Register with PIMS Code, pensioners use Register as Pensioner."
-  },
-  {
-   "k": "2ffaf6ab7edc",
-   "ctx": "value",
-   "t": "Vikheto Sumi"
-  },
-  {
-   "k": "802f6e04b8fe",
-   "ctx": "hint",
-   "t": "Give your FULL NAME exactly as on your Aadhaar card."
-  },
-  {
-   "k": "a7a4b5cdf01a",
-   "ctx": "hint",
-   "t": "Verified by OTP. You will log in with it later."
-  },
-  {
-   "k": "84add5b29527",
-   "ctx": "label",
-   "t": "Email"
-  },
-  {
-   "k": "f8b66127a738",
-   "ctx": "hint",
-   "t": "The email of any family member can be used. It is needed for password reset and is verified too."
-  },
-  {
-   "k": "27a436e6d1c1",
-   "ctx": "label",
-   "t": "IIC / PRC number and issuing district"
-  },
-  {
-   "k": "3164844f3e69",
-   "ctx": "value",
-   "t": "IIC/ZBTO/2021/99999 — Zunheboto"
-  },
-  {
-   "k": "dfa468e7f247",
-   "ctx": "hint",
-   "t": "It must be issued after 2016. The application goes to the district administration that issued it."
-  },
-  {
-   "k": "7b7f5d435ea4",
-   "ctx": "label",
-   "t": "Household members"
-  },
-  {
-   "k": "ad9412025796",
-   "ctx": "value",
-   "t": "Atoli Sumi (Spouse), Hokiye Sumi (Son)"
-  },
-  {
-   "k": "994ca0575626",
-   "ctx": "hint",
-   "t": "Everyone who lives with you and shares one kitchen."
-  },
-  {
-   "k": "d9fc33c14411",
-   "ctx": "label",
-   "t": "Proof of relationship"
-  },
-  {
-   "k": "c0fa0ea5b4fc",
-   "ctx": "value",
-   "t": "Birth certificate of son uploaded"
-  },
-  {
-   "k": "d953058537fc",
-   "ctx": "hint",
-   "t": "Needed for every dependant except the spouse."
-  },
-  {
-   "k": "5ae060969198",
-   "ctx": "label",
-   "t": "Self Declaration Form"
-  },
-  {
-   "k": "2cf269765e41",
-   "ctx": "value",
-   "t": "Signed copy uploaded"
-  },
-  {
-   "k": "381d4018b437",
-   "ctx": "hint",
-   "t": "Download the system-generated form, get it signed by you and your Village, Ward or Colony Chairman, and upload it."
-  },
-  {
-   "k": "2cf95c1a8ac8",
-   "ctx": "demoSteps",
-   "t": "Open the CMHIS registration page and choose General Category. Employees use their PIMS code, pensioners their PPO number."
-  },
-  {
-   "k": "43f9f4c60ec3",
-   "ctx": "demoSteps",
-   "t": "Enter your full name as on Aadhaar, and verify your mobile number and email with the OTPs."
-  },
-  {
-   "k": "01b345162bee",
-   "ctx": "demoSteps",
-   "t": "Add your household members and upload the IIC or PRC and the relationship proofs. Download the self-declaration form, get it signed by the Village, Ward or Colony Chairman, and upload it."
-  },
-  {
-   "k": "2e3b79db234a",
-   "ctx": "demoSteps",
-   "t": "Submit. The district administration that issued your IIC or PRC checks it. On approval you get an SMS and email with your Household ID."
-  },
-  {
-   "k": "9ecc097ad04d",
-   "ctx": "demoSteps",
-   "t": "Take the Household ID and every member's Aadhaar to a registration centre (district hospital, CHC, PHC, DC office or CSC) for Aadhaar e-KYC, and collect the Ayushman CMHIS card. Ration card holders can go straight to this step."
-  },
-  {
-   "k": "6ba5e3370d11",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, show the card. Treatment is cashless up to Rs.5 lakh a year for the family."
-  },
-  {
    "k": "c9803c289387",
    "ctx": "helpline",
    "t": "1800 202 3380 — CMHIS helpdesk, Nagaland Health Protection Society / 14555 — Ayushman Bharat national helpline"
@@ -904,6 +244,596 @@
    "k": "0ebfbe5d3c77",
    "ctx": "department",
    "t": "Department of Agriculture & Farmers' Empowerment, Government of Odisha (Directorate of Agriculture & Food Production)"
+  },
+  {
+   "k": "2667ed7e1510",
+   "ctx": "brief",
+   "t": "Odisha's own cash help for farmers, which replaced the KALIA scheme in September 2024. Small and marginal farmers get Rs 4,000 a year, Rs 2,000 before each crop season, on top of PM-KISAN's Rs 6,000, so most get Rs 10,000 a year in all. Landless farm-labour households in villages get Rs 12,500 in three instalments to start goat, poultry, duck, fishery, mushroom, bee or dairy work. One online registration on the CM KISAN portal covers both CM-KISAN and PM-KISAN, and from July 2026 an AgriStack Farmer ID is required."
+  },
+  {
+   "k": "76b55e658520",
+   "ctx": "benefit",
+   "t": "Rs 4,000 a year (Rs 2,000 per crop season) for small and marginal farmers; Rs 12,500 in three instalments for landless households"
+  },
+  {
+   "k": "3926966a79c7",
+   "ctx": "eligibility",
+   "t": "Small and marginal farmers, including sharecroppers who actually till the land, who are permanent residents of Odisha"
+  },
+  {
+   "k": "0f2b81282bcf",
+   "ctx": "eligibility",
+   "t": "Landless agricultural households in villages who live mainly on farm work, with an MGNREGA job card"
+  },
+  {
+   "k": "389fef831701",
+   "ctx": "eligibility",
+   "t": "Applicant must be 18 or older, and the family must hold a valid ration card. Only one member per family is paid; the family is worked out from the ration card"
+  },
+  {
+   "k": "620fdaaa46e3",
+   "ctx": "eligibility",
+   "t": "Land must be registered on Krushak Odisha, and an AgriStack Farmer ID is needed to register"
+  },
+  {
+   "k": "27697b47d817",
+   "ctx": "eligibility",
+   "t": "Medium and large farmers get only PM-KISAN through the same portal, not CM-KISAN"
+  },
+  {
+   "k": "4de138bf85a4",
+   "ctx": "eligibility",
+   "t": "Not for families with an income-tax payer, a government or PSU employee or pensioner, a present or former MP, MLA or minister, or a registered doctor, engineer, lawyer, CA or architect"
+  },
+  {
+   "k": "392b11ff563b",
+   "ctx": "documents",
+   "t": "Aadhaar card, for OTP or fingerprint e-KYC"
+  },
+  {
+   "k": "597f6aac9a2f",
+   "ctx": "documents",
+   "t": "Bank passbook first page; the savings account must be linked to Aadhaar"
+  },
+  {
+   "k": "75bd4a2ee373",
+   "ctx": "documents",
+   "t": "Land record (RoR) registered on Krushak Odisha, for small and marginal farmers"
+  },
+  {
+   "k": "2fccf2b45464",
+   "ctx": "documents",
+   "t": "MGNREGA job card, for landless agricultural households"
+  },
+  {
+   "k": "9493fb4865d7",
+   "ctx": "documents",
+   "t": "A mobile number of your own that no other applicant has used"
+  },
+  {
+   "k": "586ce3b20455",
+   "ctx": "portalName",
+   "t": "CM KISAN portal"
+  },
+  {
+   "k": "3bf845ffc215",
+   "ctx": "hint",
+   "t": "Your own Aadhaar. A wrong or someone else's Aadhaar gets the application rejected. e-KYC is by OTP, or by fingerprint at a CSC or post office."
+  },
+  {
+   "k": "f1a453739c92",
+   "ctx": "hint",
+   "t": "A number in your own use that no other farmer has registered with. The OTP and payment messages come here."
+  },
+  {
+   "k": "f38c12e61028",
+   "ctx": "hint",
+   "t": "The farmer ID you got when your land was added to the Farmer Registry. Ask the Village Agriculture Worker if you do not have one."
+  },
+  {
+   "k": "793f1445e2e9",
+   "ctx": "value",
+   "t": "Small & Marginal Farmer (SMF)"
+  },
+  {
+   "k": "3c53af8cc061",
+   "ctx": "hint",
+   "t": "Choose Landless Agricultural Household (LAH) if you own no farm land but work on farms."
+  },
+  {
+   "k": "a1f8f29ad8ca",
+   "ctx": "hint",
+   "t": "Your family's ration card number. Only one person from a ration card can get CM-KISAN."
+  },
+  {
+   "k": "972f845b13e6",
+   "ctx": "label",
+   "t": "District / Block / Gram Panchayat / Village"
+  },
+  {
+   "k": "0cd6440f8b57",
+   "ctx": "value",
+   "t": "Kendujhar / Ghatagaon / Baria / Baria"
+  },
+  {
+   "k": "32da5ecfc25c",
+   "ctx": "hint",
+   "t": "Where your family lives."
+  },
+  {
+   "k": "0a92af1a7538",
+   "ctx": "label",
+   "t": "Land details (from Krushak Odisha)"
+  },
+  {
+   "k": "487d7bd1552c",
+   "ctx": "value",
+   "t": "Khata 112, Plot 450, 1.20 acres"
+  },
+  {
+   "k": "16ba3a37bcf7",
+   "ctx": "hint",
+   "t": "These come up from your Krushak Odisha record. Check that the khata and plot are really yours before going on."
+  },
+  {
+   "k": "8918932d3b4d",
+   "ctx": "label",
+   "t": "Bank account (Aadhaar-linked)"
+  },
+  {
+   "k": "8cfd0a932673",
+   "ctx": "value",
+   "t": "Odisha Grameen Bank, Ghatagaon — a/c 0000 4455 6677"
+  },
+  {
+   "k": "4858f2433cbc",
+   "ctx": "hint",
+   "t": "The money goes only to the account linked to your Aadhaar. Get it linked at your branch first."
+  },
+  {
+   "k": "aee299b85840",
+   "ctx": "value",
+   "t": "Aadhaar, ration card, passbook page, RoR"
+  },
+  {
+   "k": "7ed7f3183f75",
+   "ctx": "hint",
+   "t": "Clear photos or scans. Landless households upload the MGNREGA job card instead of the RoR."
+  },
+  {
+   "k": "46c69fe83146",
+   "ctx": "demoSteps",
+   "t": "Before applying, register your land on Krushak Odisha and get your AgriStack Farmer ID (the Village Agriculture Worker or a CSC helps), and link Aadhaar to your bank account at the branch."
+  },
+  {
+   "k": "eb3098f4edc7",
+   "ctx": "demoSteps",
+   "t": "Open cmkisan.odisha.gov.in and click Farmer Registration. Read the instructions, tick the declaration, then verify your Aadhaar and mobile number with OTP."
+  },
+  {
+   "k": "61010dd13d24",
+   "ctx": "demoSteps",
+   "t": "Choose your category, fill in the ration card, address, land and bank details, upload the documents and submit. Note the token number shown."
+  },
+  {
+   "k": "2ff640b69f2c",
+   "ctx": "demoSteps",
+   "t": "The application is checked by the Village Agriculture Worker, the Block Agriculture Officer and the Chief District Agriculture Officer, and the Collector gives final approval. If a paper is wrong, the VAW sends it back for you to correct."
+  },
+  {
+   "k": "20f453fed4bf",
+   "ctx": "demoSteps",
+   "t": "Track it under Check Status and e-KYC Status on the same portal, using the token number or Aadhaar."
+  },
+  {
+   "k": "babaa23cccbc",
+   "ctx": "demoSteps",
+   "t": "Once approved, Rs 2,000 comes by DBT before the Kharif season (around Akshaya Tritiya) and Rs 2,000 before the Rabi season (around Nuakhai). PM-KISAN money comes separately from the same registration."
+  },
+  {
+   "k": "f408e3597b16",
+   "ctx": "helpline",
+   "t": "155333 (Krushi Samrudhi Helpline, Agriculture Department) / 155261 or 1800-115-526 (PM-KISAN helpline)"
+  },
+  {
+   "k": "9fe5ecac0d71",
+   "ctx": "title",
+   "t": "Nirman Shramik Registration — OB&OCWW Board (Construction Worker Card)"
+  },
+  {
+   "k": "b213d41d870a",
+   "ctx": "department",
+   "t": "Odisha Building & Other Construction Workers' Welfare Board, Labour & ESI Department, Government of Odisha"
+  },
+  {
+   "k": "3f38edcac6df",
+   "ctx": "brief",
+   "t": "Registers a construction worker with the Odisha welfare board and gives an identity card with a registration number. After one year on the register, the worker and family can claim the board's help: Rs 10,000 for each of two deliveries for women workers, Rs 50,000 for a daughter's or her own marriage, Rs 2,000 to Rs 40,000 a year for two children's studies, up to Rs 3 lakh for major illness, tools and bicycle money, and Rs 2 lakh (Rs 4 lakh if killed at work) to the family on death. Registration costs Rs 20 plus Rs 50 a year, and is done online on the NirmanShramik portal."
+  },
+  {
+   "k": "893e8af7fb53",
+   "ctx": "benefit",
+   "t": "Worker card for board help — Rs 10,000 maternity, Rs 50,000 marriage, Rs 2,000–40,000 a year education, Rs 2–4 lakh death benefit"
+  },
+  {
+   "k": "b26086b28c8a",
+   "ctx": "eligibility",
+   "t": "Building or construction worker who has completed 18 years and not yet 60"
+  },
+  {
+   "k": "20370975ac67",
+   "ctx": "eligibility",
+   "t": "At least 90 days of building or other construction work in the last 12 months"
+  },
+  {
+   "k": "b55536e64501",
+   "ctx": "eligibility",
+   "t": "Not working in a factory or mine covered by the Factories Act or the Mines Act"
+  },
+  {
+   "k": "4c22861e4e28",
+   "ctx": "eligibility",
+   "t": "Not a member of any other welfare fund, and not registered with another district or state's construction board"
+  },
+  {
+   "k": "baffa3d4a8e6",
+   "ctx": "eligibility",
+   "t": "Workers from Odisha working in other states can also register"
+  },
+  {
+   "k": "ef9b3e226454",
+   "ctx": "eligibility",
+   "t": "Pay Rs 50 every year to stay a member; missing three years in a row ends membership. Most benefits start after one year of registration"
+  },
+  {
+   "k": "ddbadbc300b9",
+   "ctx": "documents",
+   "t": "Certificate of 90 days' work from the employer, a registered trade union or the labour inspector, or a self-certificate giving sites, employers and days worked (model formats are on the portal)"
+  },
+  {
+   "k": "ba2e216f0d38",
+   "ctx": "documents",
+   "t": "Bank passbook first page showing the IFSC code"
+  },
+  {
+   "k": "b74e8a3df1fc",
+   "ctx": "documents",
+   "t": "Proof of age"
+  },
+  {
+   "k": "ab8a89cd5ea0",
+   "ctx": "documents",
+   "t": "Recent passport-size colour photographs"
+  },
+  {
+   "k": "4500a56d70e9",
+   "ctx": "documents",
+   "t": "Nominee details (Form XXXI): name, relation, age and share"
+  },
+  {
+   "k": "0441caeb52f1",
+   "ctx": "documents",
+   "t": "Rs 20 registration fee, and Rs 50 yearly contribution"
+  },
+  {
+   "k": "9c6e8eed6f3d",
+   "ctx": "portalName",
+   "t": "NirmanShramik — Odisha Building & Other Construction Workers' Welfare Board"
+  },
+  {
+   "k": "fc9093593f2e",
+   "ctx": "label",
+   "t": "First name as per Aadhaar"
+  },
+  {
+   "k": "b13a19415ce1",
+   "ctx": "value",
+   "t": "Bijay"
+  },
+  {
+   "k": "713e236b3801",
+   "ctx": "hint",
+   "t": "Write it exactly as on your Aadhaar card."
+  },
+  {
+   "k": "a1dd758002dc",
+   "ctx": "label",
+   "t": "Surname as per Aadhaar"
+  },
+  {
+   "k": "9a6d1bdb0a4c",
+   "ctx": "value",
+   "t": "Nayak"
+  },
+  {
+   "k": "776fce3e122a",
+   "ctx": "hint",
+   "t": "Your family name as on Aadhaar."
+  },
+  {
+   "k": "e397833d2c62",
+   "ctx": "hint",
+   "t": "Choose Male, Female or Other."
+  },
+  {
+   "k": "dbd2b4af1cb6",
+   "ctx": "hint",
+   "t": "A number you keep with you. Login OTPs and approval messages come here."
+  },
+  {
+   "k": "872cede6289b",
+   "ctx": "label",
+   "t": "Are you a registered construction worker?"
+  },
+  {
+   "k": "cbae8fa788d3",
+   "ctx": "hint",
+   "t": "Choose No for a new registration. Choose Yes only if you already have a board registration number."
+  },
+  {
+   "k": "d8eaf04f6523",
+   "ctx": "hint",
+   "t": "You must be 18 or older and below 60."
+  },
+  {
+   "k": "aaa9d271cee6",
+   "ctx": "label",
+   "t": "Permanent address (village, post office, GP, block, district)"
+  },
+  {
+   "k": "501b38bb78f0",
+   "ctx": "value",
+   "t": "Kusupur, Kusupur, Kusupur, Binjharpur, Jajpur"
+  },
+  {
+   "k": "cee15784f653",
+   "ctx": "hint",
+   "t": "Your home address in Odisha. Your labour office is decided from this."
+  },
+  {
+   "k": "af42f6cdc3d2",
+   "ctx": "label",
+   "t": "Establishments worked in last year, and days"
+  },
+  {
+   "k": "928fd5327c44",
+   "ctx": "value",
+   "t": "Maa Tarini Constructions, Jajpur Road — mason — 120 days"
+  },
+  {
+   "k": "b299e42b3688",
+   "ctx": "hint",
+   "t": "Each site or employer, the work you did and the days. The total must be at least 90."
+  },
+  {
+   "k": "24c5b16b9f6e",
+   "ctx": "label",
+   "t": "Bank account number / branch"
+  },
+  {
+   "k": "cc42466f25af",
+   "ctx": "value",
+   "t": "0000 3344 5566 / Odisha Grameen Bank, Binjharpur"
+  },
+  {
+   "k": "c9c19bdd18c9",
+   "ctx": "label",
+   "t": "Nominee (name, relation, age, share)"
+  },
+  {
+   "k": "d0b6be992f1d",
+   "ctx": "value",
+   "t": "Sabita Nayak, wife, 32, 100%"
+  },
+  {
+   "k": "ec8c56264673",
+   "ctx": "hint",
+   "t": "The person who receives the money if something happens to you."
+  },
+  {
+   "k": "f11adb520e4d",
+   "ctx": "demoSteps",
+   "t": "Get your 90-day work certificate signed by your employer, a registered trade union or the labour inspector, or fill the self-certificate. Model formats are under Downloads on nirmanshramik.odisha.gov.in."
+  },
+  {
+   "k": "99774538b4e8",
+   "ctx": "demoSteps",
+   "t": "Open Construction Worker Login and click One Time Registration. Read the eligibility, tick the declaration, enter your name, sex and mobile number, and verify with OTP."
+  },
+  {
+   "k": "36789fc7445b",
+   "ctx": "demoSteps",
+   "t": "Log in with the OTP and fill the registration form: personal details, address, family, work done, bank account and nominee. Upload the photo, Aadhaar, voter ID, work certificate and passbook, then submit and note the application number."
+  },
+  {
+   "k": "bc4dcb704685",
+   "ctx": "demoSteps",
+   "t": "The labour office (District or Assistant Labour Officer) checks the application. Pay the Rs 20 registration fee and the Rs 50 contribution when asked, and follow progress under Application Tracking."
+  },
+  {
+   "k": "95a977b3fb52",
+   "ctx": "demoSteps",
+   "t": "Once approved you get a registration number and identity card. This is your construction worker card."
+  },
+  {
+   "k": "20fd85c1dc2a",
+   "ctx": "demoSteps",
+   "t": "Pay Rs 50 every year under Pay Annual Contribution. After one year, apply from your login for maternity, marriage, education, tools, bicycle or medical help; the money comes to your bank account."
+  },
+  {
+   "k": "2a6148aea65f",
+   "ctx": "helpline",
+   "t": "155368 (Shramik Sahayata helpline, toll-free, 24x7, inside Odisha) / 1800-345-6703 (for Odia workers outside the state) / 0674-3120552 (OB&OCWW Board office, Bhubaneswar)"
+  },
+  {
+   "k": "5455edd0872f",
+   "ctx": "title",
+   "t": "Gopabandhu Jan Arogya Yojana (AB PM-JAY GJAY Card)"
+  },
+  {
+   "k": "4890da0f1d79",
+   "ctx": "department",
+   "t": "Health & Family Welfare Department, Government of Odisha (State Health Assurance Society), with the National Health Authority"
+  },
+  {
+   "k": "4fb6190bd5a6",
+   "ctx": "brief",
+   "t": "Odisha's free hospital cover, run together with Ayushman Bharat PM-JAY since April 2025. It replaced the old Biju Swasthya Kalyan Yojana (BSKY) card. Each family with an NFSA or state food security ration card gets cashless treatment of up to Rs 5 lakh a year at empanelled private and government hospitals in Odisha and outside, and women in the family get Rs 5 lakh more once the family limit is used up. Treatment in Odisha government hospitals is free for everyone, with or without a card. The card is the co-branded Ayushman (PMJAY-GJAY) card, which you can make yourself on the Ayushman portal or free at a CSC or a hospital's Ayushman desk."
+  },
+  {
+   "k": "cef1ac30ea4c",
+   "ctx": "benefit",
+   "t": "Rs 5 lakh a year per family, plus Rs 5 lakh more for women members (up to Rs 10 lakh), cashless"
+  },
+  {
+   "k": "9425a51a5cf2",
+   "ctx": "eligibility",
+   "t": "Families holding an NFSA or State Food Security Scheme (SFSS) ration card in Odisha"
+  },
+  {
+   "k": "a5d96c219040",
+   "ctx": "eligibility",
+   "t": "Families on the central PM-JAY list (SECC 2011), and families who already hold a PMJAY-GJAY card"
+  },
+  {
+   "k": "69c278fe140f",
+   "ctx": "eligibility",
+   "t": "Every person aged 70 and above, whatever the income, under the Ayushman Vay Vandana card"
+  },
+  {
+   "k": "f99dc76af082",
+   "ctx": "eligibility",
+   "t": "Women members get an extra Rs 5 lakh after the family's Rs 5 lakh for the year is used up"
+  },
+  {
+   "k": "bda3ee229529",
+   "ctx": "eligibility",
+   "t": "Anyone, card or no card, gets free medicines, tests, dialysis, chemotherapy, ICU and admission in Odisha government hospitals, from sub-centre to medical college"
+  },
+  {
+   "k": "b86366f4b740",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age; illnesses you already have are covered"
+  },
+  {
+   "k": "feb19ca22480",
+   "ctx": "documents",
+   "t": "NFSA or SFSS ration card of the family"
+  },
+  {
+   "k": "ad92c53101f0",
+   "ctx": "documents",
+   "t": "A live photo, taken on the phone or at the centre during e-KYC"
+  },
+  {
+   "k": "729bd975e2ff",
+   "ctx": "documents",
+   "t": "At the hospital: the PMJAY-GJAY card, with photocopies of the ration card and Aadhaar card"
+  },
+  {
+   "k": "3952c058e52c",
+   "ctx": "hint",
+   "t": "Any number you keep with you. The login OTP comes here, and so does the message when the card is approved."
+  },
+  {
+   "k": "75cb36c367f6",
+   "ctx": "value",
+   "t": "PMJAY / Odisha"
+  },
+  {
+   "k": "a860715f30e4",
+   "ctx": "hint",
+   "t": "Choose PMJAY and the state Odisha. In Odisha the same card is printed as the PMJAY-GJAY card."
+  },
+  {
+   "k": "7ea5b618e620",
+   "ctx": "hint",
+   "t": "The ration card number brings up the whole family at once. If nothing comes, search again with your Aadhaar number."
+  },
+  {
+   "k": "98b440836b50",
+   "ctx": "hint",
+   "t": "Copy the number from your NFSA or SFSS ration card exactly."
+  },
+  {
+   "k": "0a7c51e6b302",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication and scan the face with the phone camera."
+  },
+  {
+   "k": "7f41b587c125",
+   "ctx": "value",
+   "t": "Taken on the phone camera"
+  },
+  {
+   "k": "89fc85f68a79",
+   "ctx": "hint",
+   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request sent back."
+  },
+  {
+   "k": "a76b5f8ebc6b",
+   "ctx": "value",
+   "t": "Ganjam / 761100"
+  },
+  {
+   "k": "35216d58b158",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in (gjay.odisha.gov.in links to it under Know Your ABPMJAY GJAY Health Card Number) and log in as Beneficiary with your mobile number and OTP."
+  },
+  {
+   "k": "1e3d225275a9",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and Odisha, then search for your family by ration card number or Aadhaar. Members marked eKYC pending still need a card."
+  },
+  {
+   "k": "022871e8fb85",
+   "ctx": "demoSteps",
+   "t": "For each member, verify with Aadhaar OTP or face authentication, take the live photo and fill in mobile, relation, district and PIN code, then submit."
+  },
+  {
+   "k": "8cc6b9f483f1",
+   "ctx": "demoSteps",
+   "t": "The state health agency checks the request and an SMS comes when it is approved. Log in again and download the card. If you have no smartphone, a CSC or the Ayushman desk of an empanelled hospital makes the card free."
+  },
+  {
+   "k": "c9b3bba064e2",
+   "ctx": "demoSteps",
+   "t": "At an empanelled hospital, go to the Ayushman Bharat counter with the card, ration card and Aadhaar. Your fingerprint or iris is checked at admission and again at discharge."
+  },
+  {
+   "k": "ef98c1c47a2a",
+   "ctx": "demoSteps",
+   "t": "The hospital bills the government directly. Never pay cash for a treatment covered by the scheme. In Odisha government hospitals all treatment is free even without the card."
+  },
+  {
+   "k": "7885ee5e5c46",
+   "ctx": "helpline",
+   "t": "104 (GJAY and state health helpline, toll-free) / 14555 (Ayushman Bharat PM-JAY helpline)"
+  },
+  {
+   "k": "c834fc9fb204",
+   "ctx": "title",
+   "t": "Monthly Financial Assistance to Women Heads of BPL Families (Rs.2,500)"
+  },
+  {
+   "k": "458df691eab8",
+   "ctx": "department",
+   "t": "Department of Women and Child Development, Government of Puducherry"
+  },
+  {
+   "k": "d1b6acf4665e",
+   "ctx": "brief",
+   "t": "Puducherry pays Rs.2,500 a month to the woman who heads a BPL (red) ration card family, aged 21 to 55. It was Rs.1,000 until a January 2026 notification raised it. There is no separate application now. The department picks eligible women every month from the Civil Supplies ration-card data, checks them against other schemes, and pays straight into the woman's Aadhaar-linked bank account. Being shown as head on a BPL card, with Aadhaar seeded, is what gets you in."
+  },
+  {
+   "k": "72aabc4ebd4b",
+   "ctx": "benefit",
+   "t": "Rs.2,500 a month, paid into the woman's own bank account"
+  },
+  {
+   "k": "250e5e65e1c4",
+   "ctx": "eligibility",
+   "t": "Head of a BPL family ration card (AAY or PHH), aged 21 to 55"
   }
  ]
 }

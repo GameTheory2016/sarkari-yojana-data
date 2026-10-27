@@ -6,974 +6,759 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/pa/done_25.json",
  "items": [
   {
-   "k": "733ba46bf359",
+   "k": "798b1fb34729",
+   "ctx": "label",
+   "t": "Name of my Occupation / Self-employment"
+  },
+  {
+   "k": "8c926378db33",
+   "ctx": "hint",
+   "t": "Your work, from the listed industries or self-employed jobs. Give the employer's address if you work for one."
+  },
+  {
+   "k": "07d266b25774",
+   "ctx": "label",
+   "t": "My monthly family income from all sources"
+  },
+  {
+   "k": "412f92a1c933",
+   "ctx": "hint",
+   "t": "Total earnings of the family in a month, averaged over the last 12 months. It must not be above Rs.6,500 (except construction and transport workers)."
+  },
+  {
+   "k": "24d4a1c858d5",
    "ctx": "demoSteps",
-   "t": "To claim marriage, maternity, accident or death help, download the claim form from the board site and give it at the ALO office with your card and proof. Track it with Check Claim Status. The money is paid to your bank account."
+   "t": "Collect Form-I at the Labour Welfare Facilitation Centre in your block or municipality office, or from the SLO of your area."
   },
   {
-   "k": "5ea9a1212e45",
+   "k": "961da13bcd67",
+   "ctx": "demoSteps",
+   "t": "Fill Parts I to III (your details, family members and nominee), and get Part IV signed by your employer, Pradhan or councillor. Construction and transport workers also fill Part V."
+  },
+  {
+   "k": "a96c07d47437",
+   "ctx": "demoSteps",
+   "t": "Hand it in with the documents and photos, and keep the receipt with the application number."
+  },
+  {
+   "k": "3a48b60637bf",
+   "ctx": "demoSteps",
+   "t": "The Labour Inspector checks it and registers you. You get the Samajik Mukti Card with your SSIN, and the state starts putting Rs.55 a month into your PF account."
+  },
+  {
+   "k": "2168da6e91cc",
+   "ctx": "demoSteps",
+   "t": "For treatment or surgery (up to Rs.20,000 and Rs.60,000 a year), disability, death (Rs.2 lakh for accidental death, Rs.50,000 for normal death) or children's studies (Rs.4,000 to Rs.30,000 a year), apply in Form-V to the same office, within 3 months of discharge, accident or death."
+  },
+  {
+   "k": "b6b6c672e296",
+   "ctx": "demoSteps",
+   "t": "The Assistant Labour Commissioner sanctions the claim and the money is sent to the bank account."
+  },
+  {
+   "k": "1d9fb3bc7aeb",
+   "ctx": "demoSteps",
+   "t": "At 60, apply in Form-V for the full PF amount with interest."
+  },
+  {
+   "k": "6cd29644aba1",
    "ctx": "helpline",
-   "t": "TBOCWW Board customer care 080-69434343; Board office 040-23447738 / 040-23447739; your Assistant Labour Officer"
+   "t": "1800-103-0009 (Shramik Sathi toll-free helpline, Labour Commissionerate); 033-2248-8150 (BMSSY helpdesk, New Secretariat Building, Kolkata)"
   },
   {
-   "k": "24f1da7c77b2",
+   "k": "5a3cb71f0c95",
    "ctx": "title",
-   "t": "Rajiv Aarogyasri Health Scheme (Aarogyasri Card)"
+   "t": "Annapurna Yojana (Annapurna Bhandar, formerly Lakshmir Bhandar)"
   },
   {
-   "k": "f83f21081a3b",
-   "ctx": "department",
-   "t": "Aarogyasri Health Care Trust, Health, Medical & Family Welfare Department, Telangana"
-  },
-  {
-   "k": "56731ba7bb6c",
+   "k": "b5b7479d86cc",
    "ctx": "brief",
-   "t": "Free treatment worth up to Rs.10 lakh a year per family for serious illnesses and operations, such as heart, cancer, kidney, brain and accident cases, covering about 1,835 listed treatments, at government hospitals and at private hospitals that have joined the scheme (network hospitals) in Telangana. Treatment is cashless: the Aarogyasri Trust pays the hospital, not you. There is no form to fill: your white ration card (Food Security Card) is your proof, and the Aarogyamitra at the hospital desk registers you on the spot."
+   "t": "Annapurna Yojana pays Rs.3,000 every month to women of West Bengal aged 25 to 60, by DBT into her own bank account. It replaced Lakshmir Bhandar in 2026 under the new state government and is often called Annapurna Bhandar; the amount is now the same for every caste category. You hand in the Family Level Data Collection form at the Block Development Office, the Sub-Divisional Office or a Kolkata Municipal Corporation ward office, or submit it online on the state's social registry portal, where you can also check the status and file a grievance."
   },
   {
-   "k": "9e7b4543464b",
+   "k": "6fca209c23eb",
    "ctx": "benefit",
-   "t": "Up to Rs.10 lakh a year per family, cashless, for listed treatments"
+   "t": "Rs.3,000 a month for every eligible woman"
   },
   {
-   "k": "c56b59cf2508",
+   "k": "c3e40ca567e7",
    "ctx": "eligibility",
-   "t": "Families holding a Telangana Food Security Card (white ration card), or an Aarogyasri health card already issued to the family"
+   "t": "Must not be an illegal immigrant; a voter ID card (EPIC) is required"
   },
   {
-   "k": "c6a1ebf64a04",
-   "ctx": "eligibility",
-   "t": "Every member named on the card is covered: head of family, spouse, children and dependent parents"
-  },
-  {
-   "k": "ce004600e497",
-   "ctx": "eligibility",
-   "t": "Orphan children are being given their own Aarogyasri cards through the Women & Child Welfare Department"
-  },
-  {
-   "k": "9f1157d2555c",
-   "ctx": "eligibility",
-   "t": "Only treatments on the Aarogyasri list are covered, at a government or network hospital. Ordinary OPD visits are not covered"
-  },
-  {
-   "k": "12ae7eedeb9b",
-   "ctx": "eligibility",
-   "t": "Government employees and pensioners are not covered here. They use the separate Employees Health Scheme (EHS)"
-  },
-  {
-   "k": "7372c66eff81",
+   "k": "a155c1601f72",
    "ctx": "documents",
-   "t": "Food Security Card (white ration card) or Aarogyasri health card, the original"
+   "t": "Active mobile number, for the OTP and payment messages"
   },
   {
-   "k": "2b26f0d78630",
+   "k": "46c3c256c956",
    "ctx": "documents",
-   "t": "Aadhaar card of the patient (the original, for fingerprint or face check)"
+   "t": "Bank passbook first page, in her own single name"
   },
   {
-   "k": "b20bb68d10d5",
-   "ctx": "documents",
-   "t": "Mobile number for updates"
-  },
-  {
-   "k": "9a82e31364e2",
-   "ctx": "documents",
-   "t": "Old prescriptions, scan and test reports, if you have any"
-  },
-  {
-   "k": "ca2291d34349",
-   "ctx": "documents",
-   "t": "Referral letter from a PHC, government hospital or health camp, if you have one"
-  },
-  {
-   "k": "5b8982f7bbd4",
+   "k": "f8aab61381dd",
    "ctx": "submitAt",
-   "t": "Go to the Aarogyamitra help desk (Aarogyasri counter) at any government hospital (Area, District or Teaching hospital) or at an Aarogyasri network private hospital. The Aarogyamitra at your PHC can tell you which hospitals are in the scheme. Take the original white ration card or Aarogyasri card, the patient's Aadhaar and any old reports. The Aarogyamitra checks the card online, takes the patient's photo and fingerprint, and registers the case. For a listed treatment, you pay nothing at any stage."
+   "t": "The Block Development Office (BDO) in rural areas, the Sub-Divisional Office (SDO), or the ward office in the Kolkata Municipal Corporation area. Take your voter ID card (EPIC), Aadhaar and your mobile phone. The form can also be submitted online at socialregistry.wb.gov.in."
   },
   {
-   "k": "72579637e468",
-   "ctx": "label",
-   "t": "Food Security Card number"
-  },
-  {
-   "k": "dab5144ca67d",
-   "ctx": "hint",
-   "t": "Printed on your white ration card. Once the Aarogyamitra types it in, everyone on the card comes up."
-  },
-  {
-   "k": "a9ae46c39b53",
-   "ctx": "label",
-   "t": "Patient name (as on the card)"
-  },
-  {
-   "k": "4a973f68577a",
-   "ctx": "value",
-   "t": "Bhukya Lakshmi"
-  },
-  {
-   "k": "977393dc0e7b",
-   "ctx": "hint",
-   "t": "Must match the name on the ration card. If the spelling differs, show your Aadhaar as well."
-  },
-  {
-   "k": "49652ee7a044",
-   "ctx": "label",
-   "t": "Relation to head of family"
-  },
-  {
-   "k": "9c2974c13d19",
-   "ctx": "label",
-   "t": "Patient Aadhaar number"
-  },
-  {
-   "k": "66d68f44ec63",
-   "ctx": "hint",
-   "t": "The fingerprint or face check is done on this Aadhaar, so bring the original card."
-  },
-  {
-   "k": "84c941ee6c45",
-   "ctx": "label",
-   "t": "Age / gender"
-  },
-  {
-   "k": "0130d054600a",
-   "ctx": "value",
-   "t": "46 / Female"
-  },
-  {
-   "k": "d84cf160cd3e",
-   "ctx": "hint",
-   "t": "Updates about approval and discharge come to this number."
-  },
-  {
-   "k": "35bb1d639c1c",
-   "ctx": "value",
-   "t": "Nalgonda / Devarakonda / Pedda Thanda"
-  },
-  {
-   "k": "5580875a8964",
-   "ctx": "label",
-   "t": "Complaint / illness"
-  },
-  {
-   "k": "80fffba4057e",
-   "ctx": "value",
-   "t": "Chest pain and breathlessness"
-  },
-  {
-   "k": "b99520019729",
-   "ctx": "hint",
-   "t": "Say it in your own words. The doctor writes down the illness after checking the patient."
-  },
-  {
-   "k": "a2b3144c3084",
-   "ctx": "label",
-   "t": "Hospital / department"
-  },
-  {
-   "k": "186ed497a200",
-   "ctx": "value",
-   "t": "District Hospital, Nalgonda - Cardiology"
-  },
-  {
-   "k": "568c77eca04e",
-   "ctx": "hint",
-   "t": "Filled in by the Aarogyamitra according to the department you are sent to."
-  },
-  {
-   "k": "5a4e8e78d195",
-   "ctx": "demoSteps",
-   "t": "Keep the white ration card and the patient's Aadhaar ready. If you are not sure a hospital is in Aarogyasri, ask the Aarogyamitra at your PHC or call 104."
-  },
-  {
-   "k": "ad7e62460df3",
-   "ctx": "demoSteps",
-   "t": "At the hospital, go to the Aarogyamitra desk first, not the cash counter. Show the card. The Aarogyamitra registers the patient online, with a photo and fingerprint."
-  },
-  {
-   "k": "4f60f7c737b8",
-   "ctx": "demoSteps",
-   "t": "The doctor examines the patient and orders tests. If the treatment is on the list, the hospital asks the Aarogyasri Trust online for approval (pre-authorisation)."
-  },
-  {
-   "k": "60fcaec9b12b",
-   "ctx": "demoSteps",
-   "t": "Approval usually comes within hours, and at once in an emergency. The Aarogyamitra tells you when it is approved."
-  },
-  {
-   "k": "fe5ded1dd4dd",
-   "ctx": "demoSteps",
-   "t": "The operation, medicines and hospital stay are free. Do not pay any money. If anyone asks you to pay, refuse and call 104."
-  },
-  {
-   "k": "554408e4145e",
-   "ctx": "demoSteps",
-   "t": "At discharge, sign the discharge papers and collect your medicines and the date of your follow-up visit. Follow-up check-ups for the same treatment are also free."
-  },
-  {
-   "k": "cebc21ad252a",
+   "k": "1d607a02df6a",
    "ctx": "helpline",
-   "t": "Aarogyasri call centre 104; Aarogyasri Health Care Trust, Hyderabad 040-23547107"
+   "t": "Ask at the Block Development Office or the SDO office; check the status and file a grievance on socialregistry.wb.gov.in by logging in with your mobile number and OTP"
   },
   {
-   "k": "08dfc6e18b02",
+   "k": "e9997103e1e9",
    "ctx": "department",
-   "t": "Energy Department, Telangana: TGSPDCL, TGNPDCL and CESS Sircilla"
+   "t": "Department of Women & Child Development and Social Welfare, West Bengal"
   },
   {
-   "k": "81e0e9f3c061",
+   "k": "85afe9efda16",
    "ctx": "brief",
-   "t": "Your home gets a zero electricity bill for every month it uses 200 units or less. It covers one home connection for each family with a white ration card linked to Aadhaar, and the bill stays in the house owner's name, so tenants get it too. If a month's use goes above 200 units, the whole month's bill must be paid, not only the extra units. Families who applied in Praja Palana were added automatically; others apply at the MPDO or municipal office."
+   "t": "Money for girls who stay in school and stay unmarried. A girl aged 13 to 18 in Class VIII or above gets a yearly grant (K1), and at 18, if she is still studying and unmarried, a one-time grant (K2), both paid into her own bank account. The scheme was called Kanyashree Prakalpa until 14 August 2026, when the state renamed it Kanyaratna and announced that the yearly grant will double to Rs.2,000 from the 2027 school year and the one-time grant will rise to Rs.50,000; the website, forms and application IDs still say Kanyashree. Girls apply through their school or college, not on their own."
   },
   {
-   "k": "97ed1cd4b05a",
+   "k": "c4545e4086bc",
    "ctx": "benefit",
-   "t": "Zero bill for every month the home uses 200 units or less"
+   "t": "Rs.1,000 a year (Rs.2,000 from 2027) + one-time Rs.25,000 at 18 (Rs.50,000 announced)"
   },
   {
-   "k": "8d1f2feb3359",
+   "k": "3f693cbcf246",
    "ctx": "eligibility",
-   "t": "Family holds a Telangana Food Security Card (white ration card) linked with Aadhaar"
+   "t": "Girls aged 13 to 18 for the yearly grant (K1), and 18 to 19 for the one-time grant (K2)"
   },
   {
-   "k": "55f9fb14e709",
+   "k": "4221ab123184",
    "ctx": "eligibility",
-   "t": "One home (domestic) electricity connection per family. The house can be rented"
+   "t": "Studying in Class VIII or above in a school, madrasah or open school, or in a college, university or vocational or technical training course. The Class VIII rule is relaxed for girls with 40% or more disability"
   },
   {
-   "k": "28bf9e7681d7",
+   "k": "eaebb878e6d3",
    "ctx": "eligibility",
-   "t": "The application is entered in the Praja Palana portal with the ration card and the connection's USC number"
+   "t": "Her family lives in West Bengal"
   },
   {
-   "k": "3097d32725d0",
+   "k": "e757738367e7",
    "ctx": "eligibility",
-   "t": "The connection is used only for the home. Using it for a shop or business is an offence"
+   "t": "There is no family income limit (the old Rs.1.2 lakh limit was removed in 2018), and girls who get other scholarships can still apply"
   },
   {
-   "k": "9038e47fb7b8",
-   "ctx": "eligibility",
-   "t": "Monthly use is 200 units or less. Above 200 units the full bill is payable for that month"
-  },
-  {
-   "k": "4babffc79f1b",
+   "k": "36297d9a2920",
    "ctx": "documents",
-   "t": "Latest electricity bill showing the USC (unique service connection) number"
+   "t": "Birth certificate issued by the Panchayat or Municipality, copy signed by a parent"
   },
   {
-   "k": "234b1140ea5b",
+   "k": "f24b842e2c22",
    "ctx": "documents",
-   "t": "Food Security Card (white ration card)"
+   "t": "Parent's or guardian's declaration that the girl is unmarried (part of the form)"
   },
   {
-   "k": "12a9041ffcde",
+   "k": "1eba60a9634b",
    "ctx": "documents",
-   "t": "Aadhaar card of the head of the family"
+   "t": "Voter ID card of the parent or legal guardian, self-attested"
   },
   {
-   "k": "6e8ecf8b7cad",
+   "k": "8cc54a9b29f9",
    "ctx": "documents",
-   "t": "Praja Palana receipt number, if you applied earlier"
+   "t": "First page of the bank passbook in the girl's own name, self-attested"
   },
   {
-   "k": "4334c316adb8",
+   "k": "345f69658d4d",
+   "ctx": "documents",
+   "t": "Aadhaar card of the girl, if she has one, self-attested"
+  },
+  {
+   "k": "88b41516f2ce",
+   "ctx": "documents",
+   "t": "Recent photo of the girl on a white background"
+  },
+  {
+   "k": "dbc1abb66ff0",
+   "ctx": "documents",
+   "t": "Disability certificate, only if she is 13 or older but studying below Class VIII"
+  },
+  {
+   "k": "90c2e23c3360",
    "ctx": "submitAt",
-   "t": "Give the Praja Palana (Gruha Jyothi) application at the Praja Palana counter in your MPDO office (villages) or the municipal office or GHMC circle office (towns). Attach copies of the white ration card, Aadhaar and the latest electricity bill showing the USC number. If you applied before but still get a bill, ask the same office to correct the ration card or USC number in Praja Palana. Take the receipt and show it at your electricity section office (AE office)."
+   "t": "Her own school, madrasah or college. Ask the Head of the Institution (HOI) or the Kanyashree teacher for the free K1 form (or the K2 form when she turns 18). Hand in the filled form with self-attested copies; the HOI checks it, signs and uploads it on the Kanyashree portal, and gives back the acknowledgement slip with the 20-digit Application ID. If the school does not help, go to the Block Development Officer (village) or Sub-Divisional Officer (town), or the Kanyashree cell in the District Magistrate's office."
   },
   {
-   "k": "65b9df7d2898",
-   "ctx": "value",
-   "t": "Pulla Ramulu"
-  },
-  {
-   "k": "664292866ec2",
+   "k": "8f2bdc1d4523",
    "ctx": "hint",
-   "t": "As on the ration card."
+   "t": "The full name of the school or college where she studies now."
   },
   {
-   "k": "5b980380ef76",
+   "k": "6763c17597cb",
    "ctx": "hint",
-   "t": "Aadhaar of the head of the family."
+   "t": "In English capital letters, spelt exactly as in her bank passbook, or the money will not reach the account."
   },
   {
-   "k": "6b019a63f53e",
+   "k": "1fc16550be2a",
    "ctx": "hint",
-   "t": "From the white ration card. Without it the scheme cannot be linked."
+   "t": "As on the birth certificate, in day/month/year."
   },
   {
-   "k": "80be8523c495",
+   "k": "846594c16c13",
    "ctx": "hint",
-   "t": "A number you use."
+   "t": "Tick the class she is studying in this year."
   },
   {
-   "k": "dd8423a06959",
-   "ctx": "value",
-   "t": "H.No 2-118, Ward 12, Armoor, Nizamabad"
-  },
-  {
-   "k": "4577cb27ccb3",
+   "k": "6f08eb395b67",
    "ctx": "hint",
-   "t": "The address where this electricity connection is."
+   "t": "Write both names in full, in capital letters."
   },
   {
-   "k": "e1c67eb7d283",
-   "ctx": "label",
-   "t": "Monthly power consumption (units)"
-  },
-  {
-   "k": "062c06c0e62d",
+   "k": "4cee234500d0",
    "ctx": "hint",
-   "t": "See 'units consumed' on your bill. Only months of 200 units or less get a zero bill."
+   "t": "Tick the right box for each."
   },
   {
-   "k": "9f28f0ef5661",
-   "ctx": "label",
-   "t": "Electricity service connection (USC) number"
-  },
-  {
-   "k": "853ef31cff0a",
+   "k": "a1007d66ef36",
    "ctx": "hint",
-   "t": "The USC number printed on the bill, not the meter number. One mistake here and the zero bill does not come."
+   "t": "The girl's own Aadhaar number. If she has none yet, leave it blank."
   },
   {
-   "k": "52e7a8523d27",
-   "ctx": "label",
-   "t": "Name on the electricity bill"
-  },
-  {
-   "k": "8d96bc0c9442",
-   "ctx": "value",
-   "t": "K. Srinivas (house owner)"
-  },
-  {
-   "k": "7f0ef2c44d89",
+   "k": "02a64f508135",
    "ctx": "hint",
-   "t": "If you rent, this can be the owner's name. The name on the bill is not changed."
+   "t": "The voter card number of the mother, father or legal guardian."
   },
   {
-   "k": "b8b308e4f33e",
+   "k": "b428d258a187",
+   "ctx": "hint",
+   "t": "A number the family always keeps. SMS updates about the application come here."
+  },
+  {
+   "k": "e9fa5f8c47b2",
+   "ctx": "hint",
+   "t": "The account must be in the girl's own name, not a joint or parent's account."
+  },
+  {
+   "k": "fc2a77df487b",
    "ctx": "demoSteps",
-   "t": "Find the USC number on your latest electricity bill, and keep the white ration card and Aadhaar ready."
+   "t": "When a girl is 13 and in Class VIII or above, ask the Head of the school for the free K1 form. Open a savings account in her own name first if she has none."
   },
   {
-   "k": "ba3ed37a9891",
+   "k": "292cc558b9cb",
    "ctx": "demoSteps",
-   "t": "Go to the Praja Palana counter at the MPDO or municipal office. Fill the form with the units you use and the USC number, attach copies and take the receipt."
+   "t": "Fill the form in English capital letters, let a parent sign the declaration that she is unmarried, paste the photo and attach the copies."
   },
   {
-   "k": "76a0a044dff6",
+   "k": "0d72fadeb867",
    "ctx": "demoSteps",
-   "t": "The office enters it in the Praja Palana portal, and the power company links your ration card to your connection."
+   "t": "Hand it in at school. Keep the acknowledgement slip with the 20-digit Application ID."
   },
   {
-   "k": "51da3931af99",
+   "k": "aa80fbce6102",
    "ctx": "demoSteps",
-   "t": "From the next billing month, the meter reader gives a zero bill whenever the month's use is 200 units or less."
+   "t": "The block or municipality checks the application and the district sanctions it. The money is sent to her bank account and an SMS comes to the mobile."
   },
   {
-   "k": "a4be64882ed7",
+   "k": "f7c4d2e03204",
    "ctx": "demoSteps",
-   "t": "Watch your use. If it crosses 200 units, that whole month's bill must be paid. The zero bill comes back the next month you stay within 200."
+   "t": "Track it on kanyashree.wb.gov.in under Track Application, with the year, the Application ID and her date of birth."
   },
   {
-   "k": "f66452e181fb",
+   "k": "01bb254369ba",
    "ctx": "demoSteps",
-   "t": "Still getting a bill? Take the receipt to your electricity section (AE) office, or call 1912, and ask them to link your connection."
+   "t": "Renew K1 every year through the school until she is 18. If she changes school, the old Head must mark her as transferred on the portal."
   },
   {
-   "k": "ca6bcb32e8c9",
+   "k": "c9a017feca32",
+   "ctx": "demoSteps",
+   "t": "When she turns 18, if she is still studying and unmarried, the school applies for the one-time K2 grant by upgrading her old ID."
+  },
+  {
+   "k": "4c565e2114c8",
    "ctx": "helpline",
-   "t": "Electricity complaints 1912; TGNPDCL toll free 1800-425-0028; your MPDO or municipal office for the application"
+   "t": "181 (Women Helpline, also for schoolgirls under Kanyaratna); 033-2337-3846 (Kanyashree portal support, Women & Child Development Department); her school's Head or the Kanyashree cell at the DM office"
   },
   {
-   "k": "2b8e2d93ee5f",
-   "ctx": "title",
-   "t": "Mahalakshmi (Free Bus Travel for Women and Rs.500 Gas Cylinder)"
-  },
-  {
-   "k": "445171cffa4e",
-   "ctx": "department",
-   "t": "Government of Telangana: TGSRTC (free bus) and Civil Supplies Department (gas subsidy)"
-  },
-  {
-   "k": "a60068a59478",
+   "k": "aeb65d164110",
    "ctx": "brief",
-   "t": "Under Mahalakshmi, one of Telangana's six guarantees, since 9 December 2023 women, girls and transgender persons living in Telangana have travelled free in TGSRTC Palle Velugu, Express, City Ordinary and Metro Express buses: show an ID and take the zero ticket. Families with a white ration card who applied through Praja Palana get each LPG cylinder for Rs.500: you pay the full price on delivery and the rest comes back to your bank account. The promised Rs.2,500 a month for women heads of family has not started yet, and there is no application open for it (October 2026)."
+   "t": "A one-time grant of Rs.25,000 from the West Bengal government for the first marriage of an adult woman from a poor family. The money goes straight into the bride's own bank account before the wedding date. You fill a free paper form at your block, sub-division or municipal corporation office about one to two months before the wedding; officers then visit your area to check, and the BDO, SDO or Commissioner sanctions it. The new state government kept the scheme in 2026 and added voter-list details to the form."
   },
   {
-   "k": "9171cec735bf",
+   "k": "d9c6b4978f81",
    "ctx": "benefit",
-   "t": "Free state bus travel for women; LPG cylinder for Rs.500"
+   "t": "Rs.25,000 once, into the bride's bank account before the wedding"
   },
   {
-   "k": "91b580e97056",
+   "k": "73b7e42dcaf3",
    "ctx": "eligibility",
-   "t": "Free bus: any woman, girl or transgender person living in Telangana, of any age or income, for travel within Telangana"
+   "t": "The bride must be at least 18 and the groom at least 21"
   },
   {
-   "k": "a31de52ce77d",
+   "k": "3394bdeaf42d",
    "ctx": "eligibility",
-   "t": "Free bus is valid in Palle Velugu, Express, City Ordinary and Metro Express buses, not in Deluxe, Super Luxury or AC buses"
+   "t": "It must be her first marriage and she must be unmarried"
   },
   {
-   "k": "8ff3c4f5c260",
+   "k": "eff20b2c6216",
    "ctx": "eligibility",
-   "t": "Rs.500 gas: the family holds a Telangana Food Security Card (white ration card)"
+   "t": "Family income not more than Rs.1.5 lakh a year"
   },
   {
-   "k": "86bc0eced635",
+   "k": "0d2724e3f759",
    "ctx": "eligibility",
-   "t": "Rs.500 gas: the family has an active domestic LPG connection and applied for this in Praja Palana or later at the MPDO / municipal office"
+   "t": "Resident of West Bengal: born in the state, or her parents are permanent residents, or she has lived here for the last 5 years"
   },
   {
-   "k": "9d54553a791f",
+   "k": "3ef16f19311a",
    "ctx": "eligibility",
-   "t": "Rs.500 gas: the number of cylinders is limited to what the family used on average in the last three years"
+   "t": "An active bank account in her name alone, able to receive Rs.25,000 at a time"
   },
   {
-   "k": "2341ae3e6af9",
+   "k": "a1901642d309",
+   "ctx": "eligibility",
+   "t": "From 2026: her name, or a parent's or sibling's name, must be in the final voter list, or she must have applied to be enrolled"
+  },
+  {
+   "k": "30b554cf1bd0",
    "ctx": "documents",
-   "t": "Bus: Aadhaar card or any government photo ID with a Telangana address (voter ID, driving licence)"
+   "t": "Filled application form with coloured passport-size photos of the bride and the groom"
   },
   {
-   "k": "e74dea8c396f",
+   "k": "ff1c799f46bd",
    "ctx": "documents",
-   "t": "Gas: Food Security Card (white ration card)"
+   "t": "Bride's age proof, any one: birth certificate, voter ID, Aadhaar, PAN, school leaving certificate or Madhyamik admit card"
   },
   {
-   "k": "3dc3b9b4c20f",
+   "k": "a6d0c8be2684",
    "ctx": "documents",
-   "t": "Gas: Aadhaar card of the applicant"
+   "t": "Groom's age proof, any one of the same documents"
   },
   {
-   "k": "ce98346057ac",
+   "k": "50cfa213f73b",
    "ctx": "documents",
-   "t": "Gas: gas consumer book or latest cylinder bill showing the consumer number and agency"
+   "t": "Proof of the wedding, any one: invitation card, marriage registration notice, or a self-declaration"
   },
   {
-   "k": "860504a876cf",
+   "k": "3de32fb18ab1",
    "ctx": "documents",
-   "t": "Gas: bank passbook of the account linked to the gas connection"
+   "t": "Bank passbook page showing her name, account number and IFSC"
   },
   {
-   "k": "45b3544fc473",
+   "k": "c92c29268b88",
    "ctx": "documents",
-   "t": "Gas: Praja Palana receipt number, if you applied earlier"
+   "t": "Copy of her Aadhaar card, with the signed consent on the form"
   },
   {
-   "k": "4b31a8482499",
+   "k": "11242c2bf0a0",
+   "ctx": "documents",
+   "t": "Voter ID (EPIC) details of the bride, or of a parent or sibling, or the acknowledgement number of a new voter enrolment"
+  },
+  {
+   "k": "932796def492",
    "ctx": "submitAt",
-   "t": "Free bus: there is nothing to apply for. Get into a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero-fare Mahalakshmi ticket. Rs.500 gas: if your family was left out, fill the Praja Palana application (tick Mahalakshmi, Rs.500 gas cylinder) at the Praja Palana counter in your MPDO office (villages) or municipal / GHMC circle office (towns). Attach copies of the white ration card, Aadhaar, gas consumer book and bank passbook, and keep the receipt with the application number."
+   "t": "The Rupashree desk at the Block Development Office if you live in a village, the Sub-Divisional Office if you live in a municipality, or the Municipal Corporation office if you live in a corporation area. Blank forms are free there all year. Hand it in 30 to 60 days before the wedding with self-attested copies, carry the originals for checking, and take the acknowledgement slip with the application number."
   },
   {
-   "k": "0a9dec99111d",
+   "k": "5b07b5908809",
+   "ctx": "hint",
+   "t": "In English capital letters, spelt exactly as in your Aadhaar-linked bank account."
+  },
+  {
+   "k": "dec6b6adb1f0",
+   "ctx": "hint",
+   "t": "As on your age proof. You must be 18 or older."
+  },
+  {
+   "k": "6627ae2b8f43",
+   "ctx": "hint",
+   "t": "The wedding date. Apply one to two months before it."
+  },
+  {
+   "k": "6bf9fcc9d6ef",
    "ctx": "label",
-   "t": "Applicant name (woman of the house)"
+   "t": "Address of the Venue for the Proposed Wedding Ceremony"
   },
   {
-   "k": "3f12e8266782",
+   "k": "84c64f48106f",
    "ctx": "value",
-   "t": "Kethavath Saroja"
+   "t": "Kalitala village, Kalitala GP, Raina-II, Purba Bardhaman, 713421"
   },
   {
-   "k": "e42921b4f145",
+   "k": "ae3944993e0a",
    "ctx": "hint",
-   "t": "The applicant's own 12-digit Aadhaar."
+   "t": "Where the wedding will take place. Officers may check this during the enquiry."
   },
   {
-   "k": "c2a96dc0a664",
+   "k": "f493e453fd29",
+   "ctx": "hint",
+   "t": "SMS messages about your application come to this number."
+  },
+  {
+   "k": "a20327eb5e70",
+   "ctx": "hint",
+   "t": "Your voter details from the final voter list. If your name is not there, give a parent's or sibling's details and tick who it is, or write the acknowledgement number of your new enrolment."
+  },
+  {
+   "k": "55feb76f053b",
+   "ctx": "hint",
+   "t": "An active account in your name alone. An account not used for months may be blocked and the money will bounce."
+  },
+  {
+   "k": "6b383d15655a",
    "ctx": "label",
-   "t": "Ration card (Food Security Card) number"
+   "t": "Groom's Name in full / Date of Birth"
   },
   {
-   "k": "cb309c8ed64c",
+   "k": "3d6db1e2084f",
    "ctx": "hint",
-   "t": "From your white ration card. The gas benefit is given only with a white card."
+   "t": "The groom must be at least 21. Attach his age proof."
   },
   {
-   "k": "9ba47afa502a",
+   "k": "06ac791e80ea",
    "ctx": "hint",
-   "t": "A number you use. Messages about the application come here."
+   "t": "Tick one: invitation card, marriage registration notice, or self-declaration, and attach it."
   },
   {
-   "k": "a8968a883f89",
-   "ctx": "label",
-   "t": "Address (as per Aadhaar)"
-  },
-  {
-   "k": "247d3bb3b12f",
-   "ctx": "value",
-   "t": "H.No 3-41, Ward 7, Wyra, Khammam"
-  },
-  {
-   "k": "3eb7ee273af2",
-   "ctx": "hint",
-   "t": "House number, ward or village, mandal and district."
-  },
-  {
-   "k": "6c94616b4c87",
-   "ctx": "label",
-   "t": "Mahalakshmi: choose benefit"
-  },
-  {
-   "k": "176869c71b2b",
-   "ctx": "value",
-   "t": "Rs.500 gas cylinder"
-  },
-  {
-   "k": "8325dc1cab48",
-   "ctx": "hint",
-   "t": "Tick the Rs.500 gas cylinder box. The Rs.2,500 box is on the form, but that payment has not started."
-  },
-  {
-   "k": "e68fdfea38eb",
-   "ctx": "hint",
-   "t": "The consumer number printed in your gas book or on the cylinder bill."
-  },
-  {
-   "k": "db9fa05f2e21",
-   "ctx": "label",
-   "t": "Gas company / agency name"
-  },
-  {
-   "k": "6d2fa0b7ce00",
-   "ctx": "value",
-   "t": "HP Gas, Sri Sai Gas Agency, Wyra"
-  },
-  {
-   "k": "240c7ebaa91e",
-   "ctx": "hint",
-   "t": "The company (HP, Bharat or Indane) and the agency that delivers to you."
-  },
-  {
-   "k": "e4601e789923",
-   "ctx": "label",
-   "t": "Cylinders used in a year"
-  },
-  {
-   "k": "6da6b58afe24",
-   "ctx": "hint",
-   "t": "About how many cylinders your family uses in a year. The subsidy is limited to your average use."
-  },
-  {
-   "k": "8b43adb18fc0",
+   "k": "a5824abe62ec",
    "ctx": "demoSteps",
-   "t": "Free bus: board a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero ticket. Girls of any age travel free too."
+   "t": "One to two months before the wedding, collect the free form from your BDO, SDO or Municipal Corporation office."
   },
   {
-   "k": "7c2917f585e9",
+   "k": "c31c83bc0c21",
    "ctx": "demoSteps",
-   "t": "Rs.500 gas: check that your white ration card is linked with Aadhaar and that your gas connection is active."
+   "t": "Fill it in English capital letters, add your voter details, paste both photos, and sign the declarations and the Aadhaar consent."
   },
   {
-   "k": "f18cf56433c5",
+   "k": "4e1ba668f9d5",
    "ctx": "demoSteps",
-   "t": "If you did not apply in Praja Palana, fill the form at the MPDO or municipal office. Tick Rs.500 gas cylinder, write the gas consumer number, the company and how many cylinders you use a year, attach copies and take the receipt."
+   "t": "Attach the copies and hand it in at the Rupashree desk. Keep the acknowledgement with the application number."
   },
   {
-   "k": "06cb405b79c2",
+   "k": "354da77643b3",
    "ctx": "demoSteps",
-   "t": "Officials check the ration card and gas connection. Your name is then added to the Mahalakshmi gas list that goes to the oil companies."
+   "t": "Officers visit your area to check your age, that you are unmarried, the family income, residence and the wedding date."
   },
   {
-   "k": "7b274ea816b7",
+   "k": "0e72dd9796d8",
    "ctx": "demoSteps",
-   "t": "Book the cylinder as usual and pay the full price to the delivery person."
+   "t": "The BDO, SDO or Commissioner sanctions it, and the Rs.25,000 is sent to your bank account, normally at least 5 days before the wedding date. An SMS comes to your mobile."
   },
   {
-   "k": "213f2bd6f332",
+   "k": "613e113fd3e8",
    "ctx": "demoSteps",
-   "t": "Within a few days, the amount above Rs.500 is credited to the bank account linked to your gas connection. If it does not come, ask at the gas agency and the MPDO office."
+   "t": "You can check the status on rupashree.wb.gov.in under Track Application."
   },
   {
-   "k": "b847aa4ba37d",
+   "k": "d3558de47c3f",
+   "ctx": "demoSteps",
+   "t": "After the wedding, register your marriage with the Marriage Registration Officer; the certificate is needed later for ration card, passport and other papers."
+  },
+  {
+   "k": "deec5fd65ab3",
    "ctx": "helpline",
-   "t": "TGSRTC enquiry 040-69440000 / 040-23450033; Civil Supplies toll free 1967 (gas subsidy and ration card)"
+   "t": "The Rupashree desk at your BDO, SDO or Municipal Corporation office; 033-2337-3846 (Rupashree portal support, Women & Child Development Department); 181 (Women Helpline)"
   },
   {
-   "k": "f71cf7e2a068",
-   "ctx": "title",
-   "t": "Kalyana Lakshmi Pathakam (Rs.1,00,116 Marriage Help)"
-  },
-  {
-   "k": "a2009dec4252",
+   "k": "005899372b6f",
    "ctx": "department",
-   "t": "SC Development, Tribal Welfare and BC Welfare Departments, Telangana"
+   "t": "Higher Education Department, Government of West Bengal"
   },
   {
-   "k": "4eb3326d30b6",
+   "k": "d2fef6d03b26",
    "ctx": "brief",
-   "t": "The Telangana government gives a one-time Rs.1,00,116 for the marriage of a girl from an SC, ST, BC or EBC family, or Rs.1,25,145 if the bride has a disability. The money is paid into the bride's mother's bank account. Apply after the wedding on the Telangana ePASS site, yourself or at a MeeSeva centre, then take the printout and documents to the Tahsildar's office for checking. Brides from minority communities apply under Shaadi Mubarak instead."
+   "t": "An education loan of up to Rs.10 lakh with no collateral and 4% simple interest, for students from West Bengal from Class X up to PhD, studying in the state, elsewhere in India or abroad, or preparing at a coaching centre for medical, engineering, law or UPSC, PSC and SSC exams. Fees are paid straight to the institution and living costs to the student's account. You apply online with a parent or guardian as co-borrower; your institution checks the documents and the bank you choose sanctions the loan and gives the card. The loan is repaid over up to 15 years, starting a year after the course ends or you get a job."
   },
   {
-   "k": "8651e673e648",
+   "k": "ab95aa12ab4b",
    "ctx": "benefit",
-   "t": "Rs.1,00,116 one time (Rs.1,25,145 for a bride with a disability)"
+   "t": "Loan up to Rs.10 lakh at 4% simple interest, no collateral"
   },
   {
-   "k": "561947caa2d7",
+   "k": "6813572ada52",
    "ctx": "eligibility",
-   "t": "The bride is from an SC, ST, BC or EBC family and lives in Telangana"
+   "t": "The student or the family has lived in West Bengal for at least the last 10 years (a self-declaration in the form is enough)"
   },
   {
-   "k": "d6c0162e7345",
+   "k": "2da7ec03d70c",
    "ctx": "eligibility",
-   "t": "Parents' total income: SC and ST up to Rs.2,00,000 a year; BC and EBC up to Rs.2,00,000 in towns and Rs.1,50,000 in villages"
+   "t": "Passed Class IX and studying in Class X, XI or XII, a diploma, UG, PG or PhD, in or outside the state or abroad, or at a coaching centre for entrance or competitive exams"
   },
   {
-   "k": "817b4c0add20",
+   "k": "4135489fa9a8",
    "ctx": "eligibility",
-   "t": "The bride is at least 18 and the groom at least 21 on the wedding day"
+   "t": "No income limit and no minimum marks"
   },
   {
-   "k": "fa6bca145e83",
+   "k": "00a42ea011a8",
    "ctx": "eligibility",
-   "t": "Only for the bride's first marriage"
+   "t": "Must apply jointly with a parent, guardian or other co-borrower"
   },
   {
-   "k": "f2e430c370bb",
+   "k": "7506ccd7d33d",
    "ctx": "eligibility",
-   "t": "The bride's mother needs a bank account in her own name. A bride whose parents have died uses her own account"
+   "t": "No margin money up to Rs.4 lakh; above that, 5%, against which a scholarship such as SVMCM can be counted"
   },
   {
-   "k": "ac38116446dd",
+   "k": "e3c461601013",
    "ctx": "documents",
-   "t": "Aadhaar of the bride, her mother and the groom"
+   "t": "Prospectus or certificate from the institution showing admission, exam, hostel and other fees"
   },
   {
-   "k": "abe3fab1e017",
+   "k": "d8142b362525",
    "ctx": "documents",
-   "t": "Caste-cum-nativity certificate and income certificate from MeeSeva (you enter their numbers in the form)"
+   "t": "Marksheet or certificate of the last exam passed"
   },
   {
-   "k": "3463c3b37038",
+   "k": "10452b33cef2",
    "ctx": "documents",
-   "t": "Bride's age proof: SSC hall ticket number, or a birth certificate"
+   "t": "PAN card of the student and of the guardian, or an undertaking if there is none"
   },
   {
-   "k": "e214b708a147",
+   "k": "aeb8c188755f",
    "ctx": "documents",
-   "t": "Marriage certificate (registration), one wedding photo, and the wedding card if available"
+   "t": "Address proof of the co-borrower"
   },
   {
-   "k": "e09c3eda8674",
+   "k": "d106514fea85",
    "ctx": "documents",
-   "t": "First-marriage confirmation certificate and the VRO / Panchayat Secretary certificate"
+   "t": "Colour photos and signatures of the student and the co-borrower (JPG, 20 to 50 KB)"
   },
   {
-   "k": "81af3e87e2bf",
-   "ctx": "documents",
-   "t": "Bank passbooks of the bride's mother and the bride"
+   "k": "6cf578a139ba",
+   "ctx": "portalName",
+   "t": "West Bengal Student Credit Card (WBSCC) portal"
   },
   {
-   "k": "d06e31f0e84d",
-   "ctx": "documents",
-   "t": "Bride's photo; SADAREM disability certificate if the bride has a disability"
-  },
-  {
-   "k": "6ffc4cf6156f",
+   "k": "ab19c621d3e1",
    "ctx": "label",
-   "t": "SSC or equivalent details available / Hall ticket no."
+   "t": "Are You Filling The Application From Jan Kalyan Shivir"
   },
   {
-   "k": "a9fd607fb05e",
+   "k": "d428e0eb27aa",
+   "ctx": "hint",
+   "t": "Choose YES only if you are filling it at a government camp; then give the camp registration number, district and block."
+  },
+  {
+   "k": "c9e7b68cc816",
+   "ctx": "hint",
+   "t": "The student's name as in the Class X certificate."
+  },
+  {
+   "k": "8d7cf9a69623",
+   "ctx": "hint",
+   "t": "As on the Class X admit card or certificate."
+  },
+  {
+   "k": "c624d3202511",
    "ctx": "value",
-   "t": "Yes - SSC Regular, 2019, 9999012345"
+   "t": "West Bengal Board of Secondary Education, WBBSE"
   },
   {
-   "k": "ba98bdc26a86",
+   "k": "8c7e2f7f7f13",
    "ctx": "hint",
-   "t": "With the hall ticket number and pass year, the bride's details are taken from the SSC records. Choose No if she did not write SSC."
+   "t": "The board you passed Madhyamik or Class X from."
   },
   {
-   "k": "1cd0f53fda73",
+   "k": "0fbeb24e9a8d",
    "ctx": "label",
-   "t": "Name (bride)"
+   "t": "Registration Number / Year of passing of 10th standard"
   },
   {
-   "k": "8ba86b50cad6",
+   "k": "a08c87bef39e",
    "ctx": "value",
-   "t": "Erra Swapna"
+   "t": "1234567 of 2021 / 2023"
   },
   {
-   "k": "8eb2cd687f9c",
+   "k": "8b6519f2bd40",
    "ctx": "hint",
-   "t": "As on Aadhaar and the SSC memo."
+   "t": "Copy the board registration number from your Class X registration certificate."
   },
   {
-   "k": "e68550f6bc43",
+   "k": "021a1e6cfa8c",
    "ctx": "hint",
-   "t": "She must have been 18 or older on the wedding day."
+   "t": "The course you are studying now or have taken admission in."
   },
   {
-   "k": "8070f8237f45",
-   "ctx": "hint",
-   "t": "The bride's own Aadhaar."
-  },
-  {
-   "k": "82b8323f4422",
-   "ctx": "label",
-   "t": "Caste / Sub-caste"
-  },
-  {
-   "k": "2cd4b1e24dd5",
+   "k": "33f882d924d4",
    "ctx": "value",
-   "t": "BC-B / Padmashali"
+   "t": "West Bengal / Paschim Bardhaman / Example Institute of Technology"
   },
   {
-   "k": "d085fefb985d",
+   "k": "cb1aacd3c2f7",
    "ctx": "hint",
-   "t": "As written on the MeeSeva caste certificate."
+   "t": "Pick your institution from the list. If it is missing, email the help desk before applying."
   },
   {
-   "k": "e1785287af43",
-   "ctx": "label",
-   "t": "Belongs to (Urban / Rural) area"
-  },
-  {
-   "k": "d0f1523ed17d",
+   "k": "cfe01422b884",
    "ctx": "hint",
-   "t": "This decides the income limit for BC/EBC: Rs.1.5 lakh in villages, Rs.2 lakh in towns."
+   "t": "Your own mobile and email. The OTP, your Registration ID and every update come here."
   },
   {
-   "k": "3ff50196692b",
-   "ctx": "label",
-   "t": "Income certificate MeeSeva No."
-  },
-  {
-   "k": "26c015aba947",
-   "ctx": "hint",
-   "t": "Number on the MeeSeva income certificate. The name, mandal and income then fill in by themselves."
-  },
-  {
-   "k": "f5da97747e20",
-   "ctx": "label",
-   "t": "Mother's account details"
-  },
-  {
-   "k": "42988e8eddba",
-   "ctx": "value",
-   "t": "Erra Padma - SBI, Jagtial - A/c 99990011223344"
-  },
-  {
-   "k": "153670e84072",
-   "ctx": "hint",
-   "t": "An account in the mother's own name, with IFSC. The money is paid here."
-  },
-  {
-   "k": "5d9c67e0032a",
-   "ctx": "label",
-   "t": "Name of the bride groom / Date of birth"
-  },
-  {
-   "k": "49b1ab5a4007",
-   "ctx": "value",
-   "t": "Bandi Naresh / 02-01-1998"
-  },
-  {
-   "k": "e5e7b6890277",
-   "ctx": "hint",
-   "t": "He must have been 21 or older on the wedding day."
-  },
-  {
-   "k": "239542e0ee88",
-   "ctx": "label",
-   "t": "Date and place of marriage / registration"
-  },
-  {
-   "k": "65bc0c5c3a09",
-   "ctx": "value",
-   "t": "11-05-2026, Sri Venkateswara Temple, Jagtial; SRO Jagtial, Doc No. 9999/2026"
-  },
-  {
-   "k": "9d02e8fcf720",
-   "ctx": "hint",
-   "t": "From the marriage registration certificate."
-  },
-  {
-   "k": "904a22bc111f",
+   "k": "ba6a4a7d82dd",
    "ctx": "demoSteps",
-   "t": "Get the caste-cum-nativity and income certificates from MeeSeva and register the marriage. Scan every document from the original (JPG, 50 to 150 KB)."
+   "t": "Open wbscc.wb.gov.in and click Student Registration. Fill the details, set a password and verify the OTP; your Registration ID comes by SMS."
   },
   {
-   "k": "0de163d88cfd",
+   "k": "f2b6686918d9",
    "ctx": "demoSteps",
-   "t": "Open telanganaepass.cgg.gov.in, go to Kalyana Lakshmi and click Registration, or ask a MeeSeva centre to apply for you."
+   "t": "Log in with Student Login and complete the form: course, fees, loan amount needed, co-borrower details, and a bank branch in your home district."
   },
   {
-   "k": "1e731dd9eb78",
+   "k": "9dfd9c7c07b7",
    "ctx": "demoSteps",
-   "t": "Fill in the bride's details, the mother's bank details, the groom's details and the marriage details, and enter the MeeSeva certificate numbers. Upload the files and submit, then note the application ID and print it."
+   "t": "Upload the documents in the sizes shown and submit. You cannot edit after the final submit."
   },
   {
-   "k": "9d29f257a1e1",
+   "k": "2145002cb254",
    "ctx": "demoSteps",
-   "t": "Take the printout and copies of the documents to the Tahsildar (MRO) office. The Revenue Inspector checks them and the RDO approves."
+   "t": "Your institution checks the documents, then the Higher Education Department, and the application goes to the bank."
   },
   {
-   "k": "2cc0e392079a",
+   "k": "194ae2f887fb",
    "ctx": "demoSteps",
-   "t": "Track the application with Print/Status on the same page. If there is an objection, correct it through Edit/Uploads."
+   "t": "The bank checks it, you and the co-borrower sign the loan agreement, and the loan is sanctioned. SMS and email tell you, and the bank gives you the card."
   },
   {
-   "k": "d6172ee9ffa0",
+   "k": "b8e86b9d7b52",
    "ctx": "demoSteps",
-   "t": "After sanction, the money is released to the bride's mother's bank account. The local MLA often hands over the sanction at a programme."
+   "t": "Fees go directly to the institution and living costs to your account. Repay over up to 15 years, starting one year after the course or job; paying the interest during studies earns a 1% interest concession."
   },
   {
-   "k": "d52eab0d85cf",
+   "k": "7fc36f603e5d",
    "ctx": "helpline",
-   "t": "ePASS technical help 040-23120311 / 040-23120312 (10:30 am to 5 pm, working days); your Tahsildar office or District SC / BC / Tribal Welfare Officer"
+   "t": "1800-102-8014 (WBSCC State Help Desk, toll-free); SCC Grievance app on Google Play for complaints"
   },
   {
-   "k": "ece64b9d8b1a",
+   "k": "e17ab2254eb2",
    "ctx": "title",
-   "t": "Shaadi Mubarak (Rs.1,00,116 Marriage Help for Minorities)"
+   "t": "Mukhya Mantri Swasthya Bima Yojana (MMSBY Card, formerly Swasthya Sathi)"
   },
   {
-   "k": "0fe9b1604852",
+   "k": "5eb95e92ed03",
    "ctx": "department",
-   "t": "Minorities Welfare Department, Telangana"
+   "t": "State Health Agency, Health & Family Welfare Department, West Bengal"
   },
   {
-   "k": "c534ae41a303",
+   "k": "44bfebe00bd3",
    "ctx": "brief",
-   "t": "The Telangana government gives a one-time Rs.1,00,116 for the marriage of a girl from a Muslim, Christian, Sikh, Jain, Buddhist or Parsi family, or Rs.1,25,145 if the bride has a disability. It works like Kalyana Lakshmi: apply online after the nikah or wedding on the Telangana ePASS site or at MeeSeva, then take the printout and documents to the Tahsildar's office. The money is paid into the bride's mother's bank account."
+   "t": "West Bengal's own health cover for families who had a Swasthya Sathi card but are not on the central Ayushman Bharat (PM-JAY) list. It gives cashless treatment of up to Rs.5 lakh a year for the whole family at empanelled government and private hospitals, in the state and outside it. Swasthya Sathi is being replaced since Ayushman Bharat started in West Bengal on 16 August 2026: families on the PM-JAY list get the Ayushman card, and the rest move to MMSBY. You check which one is yours with your Aadhaar number on the State Health Agency website, then enrol with your Swasthya Sathi card number."
   },
   {
-   "k": "ee5353d3bbd4",
+   "k": "c0cab39bf489",
+   "ctx": "benefit",
+   "t": "Up to Rs.5 lakh a year per family, cashless"
+  },
+  {
+   "k": "14f4df021a0d",
    "ctx": "eligibility",
-   "t": "The bride is from a minority community (Muslim, Christian, Sikh, Jain, Buddhist or Parsi) and lives in Telangana"
+   "t": "Your family was enrolled under Swasthya Sathi and you have the 17-character number (URN) printed on the Swasthya Sathi card"
   },
   {
-   "k": "5b01d11cccb1",
+   "k": "ec0d8f067e8e",
    "ctx": "eligibility",
-   "t": "Parents' total income up to Rs.2,00,000 a year"
+   "t": "Your family is not on the Ayushman Bharat PM-JAY list. If it is, you get the Ayushman card instead, not MMSBY"
   },
   {
-   "k": "b425c78a62f5",
+   "k": "d4a3229e58d4",
    "ctx": "eligibility",
-   "t": "The bride is at least 18 and the groom at least 21 on the date of marriage"
+   "t": "Permanent resident of West Bengal. Families earning more than Rs.8 lakh a year are left out"
   },
   {
-   "k": "1b7d455fa8e9",
+   "k": "ed0aeeac0a48",
+   "ctx": "eligibility",
+   "t": "Not for families covered by WBHS, CGHS, ESI or a PSU or government group medical scheme, or employees and pensioners who get a medical allowance"
+  },
+  {
+   "k": "de038898ef8d",
+   "ctx": "eligibility",
+   "t": "Members aged 70 and above get the separate Ayushman Vay Vandana card instead"
+  },
+  {
+   "k": "bccf04f31546",
+   "ctx": "eligibility",
+   "t": "No limit on family size, and illnesses you already have are covered from the first day"
+  },
+  {
+   "k": "0a46640932d8",
    "ctx": "documents",
-   "t": "Integrated certificate (caste-cum-nativity-cum-date of birth) and income certificate from MeeSeva"
+   "t": "Aadhaar card of each family member being enrolled"
   },
   {
-   "k": "4ff3a56e69d0",
+   "k": "86717a718115",
    "ctx": "documents",
-   "t": "Marriage certificate: Nikahnama from the Qazi, or the church or registration certificate"
+   "t": "Swasthya Sathi card, for the 17-character URN number"
   },
   {
-   "k": "ac817547166a",
+   "k": "8d57f214bc80",
    "ctx": "documents",
-   "t": "Letter from the religious head who performed the marriage"
+   "t": "The mobile number registered with the Swasthya Sathi card, for the OTP"
   },
   {
-   "k": "3282d3241b4d",
+   "k": "345e4516cf71",
    "ctx": "documents",
-   "t": "One marriage photo and the bride's photo"
+   "t": "Aadhaar-linked mobile number of each member, for creating the ABHA health ID"
   },
   {
-   "k": "9ecb52ccc1be",
+   "k": "ac499658a03e",
    "ctx": "documents",
-   "t": "SADAREM disability certificate, if the bride has a disability"
+   "t": "Voter ID card (EPIC) of each adult member, with the AC, part and serial number from the voter list"
   },
   {
-   "k": "f60b0196afcd",
-   "ctx": "value",
-   "t": "Yes - TS Regular, 2020, 9999065432"
+   "k": "183d68a996db",
+   "ctx": "documents",
+   "t": "Digital ration card number and its category (RKSY-I or RKSY-II), if you have one"
   },
   {
-   "k": "86b32b785864",
+   "k": "d206ace67a7c",
    "ctx": "hint",
-   "t": "Gives the bride's details from SSC records. Choose No if she did not write SSC."
+   "t": "Type any family member's Aadhaar and press Check Status first. The answer tells you whether your family is under PM-JAY or can enrol in MMSBY."
   },
   {
-   "k": "302785109f60",
-   "ctx": "value",
-   "t": "Ayesha Siddiqua"
-  },
-  {
-   "k": "d0a8287987f8",
+   "k": "ff57cbbc9f27",
    "ctx": "hint",
-   "t": "She must have been 18 or older on the date of the nikah."
+   "t": "The 17-character number on your Swasthya Sathi smart card. An OTP is sent to the mobile number that was given when the card was made."
   },
   {
-   "k": "4607d42a7db8",
-   "ctx": "hint",
-   "t": "Choose as on your MeeSeva certificate: BC-E for BC-E Muslim groups, OC (Christian), OC (Sikh) and so on."
-  },
-  {
-   "k": "377808db9dd0",
-   "ctx": "hint",
-   "t": "The income on the certificate must be Rs.2 lakh a year or less."
-  },
-  {
-   "k": "b89674ee97d4",
+   "k": "1e8ec3b8590d",
    "ctx": "label",
-   "t": "Integrated certificate MeeSeva No."
+   "t": "District / Block or ULB / Gram Panchayat or Ward"
   },
   {
-   "k": "7bcd52039f14",
+   "k": "87575f634723",
    "ctx": "hint",
-   "t": "The caste-cum-nativity-cum-date of birth certificate number from MeeSeva."
+   "t": "These come filled in from the Swasthya Sathi record. Change them only if the family now lives somewhere else."
   },
   {
-   "k": "5d02bdfbac3e",
-   "ctx": "value",
-   "t": "Shaheen Begum - Union Bank, Bodhan - A/c 99990055667788"
-  },
-  {
-   "k": "53126547611c",
-   "ctx": "value",
-   "t": "Mohammed Imran / 10-03-1999"
-  },
-  {
-   "k": "f7770aa6b2d6",
+   "k": "929548144b06",
    "ctx": "hint",
-   "t": "He must have been 21 or older on the date of marriage."
+   "t": "Usually the eldest woman of the family, in whose name the Swasthya Sathi card was made."
   },
   {
-   "k": "d22e0ff10a53",
-   "ctx": "label",
-   "t": "Date and place of marriage"
-  },
-  {
-   "k": "ed9df66b0caf",
-   "ctx": "value",
-   "t": "15-03-2026, Al-Noor Function Hall, Bodhan"
-  },
-  {
-   "k": "00f6c1e43ca2",
+   "k": "4c033b828e20",
    "ctx": "hint",
-   "t": "As written in the Nikahnama or marriage certificate."
+   "t": "For each member card, type that person's Aadhaar and press Validate. Members who are not eligible are struck off automatically."
   },
   {
-   "k": "a9401bd492cf",
-   "ctx": "demoSteps",
-   "t": "Get the integrated and income certificates from MeeSeva and the Nikahnama or marriage certificate. Scan everything from the originals (JPG, 50 to 150 KB)."
+   "k": "682dfb676837",
+   "ctx": "hint",
+   "t": "The category and number printed on your digital ration card. If you choose a category, the ration card number becomes compulsory."
   },
   {
-   "k": "f83f8f281cd5",
-   "ctx": "demoSteps",
-   "t": "Open telanganaepass.cgg.gov.in, go to Shaadi Mubarak and click Registration, or ask a MeeSeva centre to apply for you."
+   "k": "f5d2440916a1",
+   "ctx": "hint",
+   "t": "The mobile number linked to this member's Aadhaar. The OTP for the ABHA health ID comes here."
   },
   {
-   "k": "29e3d4b6d774",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's details, the mother's bank details, the groom's details and the marriage details, and enter the MeeSeva numbers. Upload the files, submit, and print the application with its ID."
+   "k": "4e69981d1e0f",
+   "ctx": "hint",
+   "t": "Press Create ABHA ID for every member and enter the OTP. The form will not submit until each eligible member has an ABHA ID."
   },
   {
-   "k": "7ec11c9b283d",
-   "ctx": "demoSteps",
-   "t": "Track the application with Print/Status. If there is an objection, correct it through Edit/Uploads."
+   "k": "7ea2a5a8ed90",
+   "ctx": "hint",
+   "t": "Copy these from the voter card and the voter list (the AC, part and serial number are shown on the voter slip or the ECI website)."
   },
   {
-   "k": "e744c7a430fc",
-   "ctx": "demoSteps",
-   "t": "After sanction, the money is released to the bride's mother's bank account. It is often handed over at a programme by the local MLA."
+   "k": "ae947bef3438",
+   "ctx": "value",
+   "t": "Bina Roy / Health Assistant / 90000 72811"
+  },
+  {
+   "k": "5c6c8fc5dc45",
+   "ctx": "hint",
+   "t": "The official or help-desk staff taking your enrolment, for example at a camp or hospital desk, fills in their own details. If you are applying alone and unsure, call 1800-345-5384 before you submit."
   }
  ]
 }

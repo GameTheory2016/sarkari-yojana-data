@@ -6,71 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_10.json",
  "items": [
   {
-   "k": "6d5280574a3e",
-   "ctx": "eligibility",
-   "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
-  },
-  {
-   "k": "941ea7a3d8f9",
-   "ctx": "eligibility",
-   "t": "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees"
-  },
-  {
-   "k": "57aea47a8795",
-   "ctx": "eligibility",
-   "t": "Gujarat government regular employees and pensioners, through their HRPN or PPO number"
-  },
-  {
-   "k": "1fccd972f146",
-   "ctx": "eligibility",
-   "t": "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
-  },
-  {
-   "k": "e3146b133fa3",
-   "ctx": "documents",
-   "t": "Aadhaar card of each family member being enrolled (needed for e-KYC)"
-  },
-  {
-   "k": "6d4c6ea51155",
-   "ctx": "documents",
-   "t": "Ration card, for the family details"
-  },
-  {
-   "k": "4d17d795c486",
-   "ctx": "documents",
-   "t": "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)"
-  },
-  {
-   "k": "60b83f7b9449",
-   "ctx": "documents",
-   "t": "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family"
-  },
-  {
-   "k": "78dc42c5ee94",
-   "ctx": "documents",
-   "t": "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number"
-  },
-  {
-   "k": "c2199c54fa0f",
-   "ctx": "hint",
-   "t": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
-  },
-  {
-   "k": "215193346df7",
-   "ctx": "hint",
-   "t": "Any working number you keep with you. The login OTP and the approval SMS come here."
-  },
-  {
-   "k": "3fa8781a3c7e",
-   "ctx": "hint",
-   "t": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
-  },
-  {
-   "k": "8834be4c604c",
-   "ctx": "hint",
-   "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
-  },
-  {
    "k": "ac5965f48967",
    "ctx": "hint",
    "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
@@ -894,6 +829,51 @@
    "k": "d035b91d8c77",
    "ctx": "demoSteps",
    "t": "Once approved, Rs 1,500 is paid into your bank account every month. Payments are being started area by area, so ask the welfare office when your area's turn comes."
+  },
+  {
+   "k": "38b037bf3248",
+   "ctx": "demoSteps",
+   "t": "Block and district officials verify the application. Once approved, Rs.2,500 arrives in your Aadhaar-linked account by the 15th of every month."
+  },
+  {
+   "k": "f3898c2c684b",
+   "ctx": "demoSteps",
+   "t": "When the Anganwadi worker or block office calls you for satyapan or e-KYC, complete it. Names that are not verified do not get the next instalment."
+  },
+  {
+   "k": "50c16735fccb",
+   "ctx": "demoSteps",
+   "t": "If the money stops, check at the bank that the account is still linked to Aadhaar, then call 1800-890-0215 or complain at the block office."
+  },
+  {
+   "k": "d7fe5f951f4f",
+   "ctx": "helpline",
+   "t": "1800-890-0215 — toll-free, Department of Women, Child Development & Social Security, Jharkhand"
+  },
+  {
+   "k": "5b7f1ba3054a",
+   "ctx": "department",
+   "t": "Directorate of Social Welfare, Department of Women, Child Development & Social Security, Government of Jharkhand"
+  },
+  {
+   "k": "42a24640590a",
+   "ctx": "brief",
+   "t": "Money for girls in Jharkhand to stay in school and not be married off early: Rs.2,500 in Class 8, Rs.2,500 in Class 9, Rs.5,000 each in Classes 10, 11 and 12, and a one-time Rs.20,000 at age 18 to 19, Rs.40,000 in all. It goes to the first two daughters of a mother who study in government or government-aided schools. For school girls the school applies, by sending the girl's details from e-Vidya Vahini to the scheme portal. Others apply with the official form at the CDPO office."
+  },
+  {
+   "k": "798b947702c7",
+   "ctx": "benefit",
+   "t": "Up to Rs.40,000: Rs.2,500 (Class 8), Rs.2,500 (Class 9), Rs.5,000 each (Classes 10, 11, 12), Rs.20,000 at 18–19"
+  },
+  {
+   "k": "32c4d0740a78",
+   "ctx": "eligibility",
+   "t": "Girls living in Jharkhand, enrolled in Class 8 to 12 in a government, government-aided, welfare-department or NCLP school"
+  },
+  {
+   "k": "4fb0c150ec9b",
+   "ctx": "eligibility",
+   "t": "Only the first two daughters of a mother; the mother gives a self-declaration"
   }
  ]
 }

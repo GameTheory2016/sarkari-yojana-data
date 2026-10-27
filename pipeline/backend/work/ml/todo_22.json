@@ -6,1004 +6,759 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_22.json",
  "items": [
   {
-   "k": "94b94faf7862",
-   "ctx": "hint",
-   "t": "Your village or town in Punjab."
-  },
-  {
-   "k": "d868af3393ec",
-   "ctx": "value",
-   "t": "Sangrur"
-  },
-  {
-   "k": "4698b442f38b",
-   "ctx": "hint",
-   "t": "The district of that village or town."
-  },
-  {
-   "k": "8c05827e1620",
-   "ctx": "label",
-   "t": "Member 1: Name / Relation / Age"
-  },
-  {
-   "k": "9236c49a4742",
-   "ctx": "value",
-   "t": "Gurpreet Singh / Self / 46"
-  },
-  {
-   "k": "e1e02a90174d",
-   "ctx": "hint",
-   "t": "Start with yourself, then add every member who lives with you. The form has room for 8 members."
-  },
-  {
-   "k": "6d50d402fefa",
-   "ctx": "label",
-   "t": "Member 2: Name / Relation / Age"
-  },
-  {
-   "k": "1d2cfec30427",
-   "ctx": "value",
-   "t": "Manjit Kaur / Wife / 42"
-  },
-  {
-   "k": "70078058a73d",
-   "ctx": "hint",
-   "t": "Relation is how this person is related to you, the declarant."
-  },
-  {
-   "k": "b3bd0108f898",
-   "ctx": "label",
-   "t": "Voter ID no. (last column)"
-  },
-  {
-   "k": "ba7141e7fb62",
-   "ctx": "hint",
-   "t": "Write each adult's Voter ID number. Children have none: leave it blank and carry their Aadhaar cards."
-  },
-  {
-   "k": "b46ebd35a779",
-   "ctx": "label",
-   "t": "Voter ID of Declarant (front and back)"
-  },
-  {
-   "k": "045e5d9d616d",
-   "ctx": "value",
-   "t": "Photocopy pasted in both boxes"
-  },
-  {
-   "k": "d23d0ccab621",
-   "ctx": "hint",
-   "t": "Paste only your Voter ID copy here. The form says not to attach any other document."
-  },
-  {
-   "k": "c27380ee5844",
-   "ctx": "label",
-   "t": "Dated / Place / Signature"
-  },
-  {
-   "k": "036c4b7fa5ed",
-   "ctx": "value",
-   "t": "12-11-2026 / Sangrur / signed"
-  },
-  {
-   "k": "391128232c8c",
-   "ctx": "hint",
-   "t": "Sign only after checking every name. A false entry can cancel the family's cover."
-  },
-  {
-   "k": "05e3fa014694",
-   "ctx": "demoSteps",
-   "t": "Check whether your family is already listed: open sha.punjab.gov.in, choose Check for Eligibility and search with your Aadhaar."
-  },
-  {
-   "k": "a0bad91f0a99",
-   "ctx": "demoSteps",
-   "t": "If the family is new, download the Family Declaration Form from the Resources menu on sha.punjab.gov.in, fill in every member and paste the head's Voter ID copy."
-  },
-  {
-   "k": "3585c3ac1dd8",
-   "ctx": "demoSteps",
-   "t": "Go to the nearest CSC with all members' Aadhaar cards and the adults' Voter IDs. The operator does Aadhaar e-KYC for each member by fingerprint or OTP."
-  },
-  {
-   "k": "ca586497fb31",
-   "ctx": "demoSteps",
-   "t": "An SMS confirming the registration and your benefits comes at once. Keep this message."
-  },
-  {
-   "k": "fb7ef674a7b6",
-   "ctx": "demoSteps",
-   "t": "The printed Sehat Card is given at the same CSC within 2 to 3 weeks. You can also download it from Download Health Card on sha.punjab.gov.in."
-  },
-  {
-   "k": "d0bb3fd2d0a1",
-   "ctx": "demoSteps",
-   "t": "At any listed government or private hospital, show the Sehat Card at the help desk. The hospital checks your details digitally and treats you cashless up to Rs 10 lakh a year."
-  },
-  {
-   "k": "e4a46a247a94",
-   "ctx": "helpline",
-   "t": "104 (Sehat Card, hospital and grievance helpline, State Health Agency Punjab)"
-  },
-  {
-   "k": "c8707931c992",
-   "ctx": "title",
-   "t": "Ashirwad Scheme (Shagun for Daughter's Marriage)"
-  },
-  {
-   "k": "7ba0ecd2e2f2",
-   "ctx": "department",
-   "t": "Department of Social Justice, Empowerment & Minorities, Punjab"
-  },
-  {
-   "k": "00fca0c32623",
+   "k": "d7992f9571e5",
    "ctx": "brief",
-   "t": "Rs 51,000 from the Punjab government for the marriage of a daughter from a poor Scheduled Caste, Christian, Backward Class or economically weaker family, or the daughter of a widow of any caste. It was earlier called the Shagun scheme. Since 28 January 2026 applications are taken only at Sewa Kendras, before the wedding or within 60 days after it, and the money goes straight to the bank account."
+   "t": "Free, cashless hospital treatment for low-income families in Tamil Nadu, at government hospitals and empanelled private hospitals, up to Rs 5 lakh per family a year. In Tamil Nadu it runs together with Ayushman Bharat PM-JAY (CMCHIS-PMJAY), so one card covers both. In August 2026 the Chief Minister announced that the yearly cover will rise to Rs 25 lakh; ask the helpline whether the higher cover has started. You enrol once, at the CMCHIS card centre in the District Collector's office."
   },
   {
-   "k": "135b8253c8d2",
+   "k": "2d6c54697f0e",
    "ctx": "benefit",
-   "t": "Rs 51,000 per daughter, for up to two daughters"
+   "t": "Up to Rs 5 lakh a year per family, cashless (Rs 25 lakh cover announced in August 2026)"
   },
   {
-   "k": "65ccbd685d59",
+   "k": "a24309f7b286",
    "ctx": "eligibility",
-   "t": "Daughters of Scheduled Caste, Christian, Backward Class and economically weaker families, and daughters of widows of any caste. Scheduled Caste widows and divorced women also get it when they remarry"
+   "t": "Annual family income below Rs 1,20,000, certified by the Village Administrative Officer (VAO)"
   },
   {
-   "k": "461ad1201256",
+   "k": "bbc2ef753e58",
    "ctx": "eligibility",
-   "t": "Family income from all sources must not be more than Rs 32,790 a year"
+   "t": "The family holds a Tamil Nadu ration (smart family) card, and everyone to be covered is named on it"
   },
   {
-   "k": "7f8ee7c83a9b",
+   "k": "bfef3be45c55",
    "ctx": "eligibility",
-   "t": "The girl must be at least 18 years old on the wedding day"
+   "t": "Covers the head of the family, the legal spouse, children and dependent parents"
   },
   {
-   "k": "e58c65d3cefb",
+   "k": "d652c74005a9",
    "ctx": "eligibility",
-   "t": "Her parents or guardian must be permanent residents of Punjab"
+   "t": "Some groups join with their own ID card instead of an income certificate: differently-abled card holders, old-age and widow pensioners, handloom workers' board members, recognised journalists, transgender persons, Sri Lankan Tamil refugees and orphans"
   },
   {
-   "k": "5db3e3841de3",
+   "k": "d5c4bf51adb1",
    "ctx": "eligibility",
-   "t": "Apply before the wedding date or within 60 days after it"
+   "t": "There is no age limit, and the family pays no premium"
   },
   {
-   "k": "6714b60e9c5e",
+   "k": "6e3271bf77e4",
+   "ctx": "documents",
+   "t": "Income certificate from the VAO showing a yearly family income under Rs 1,20,000 (the VAO can also sign the box on the form itself)"
+  },
+  {
+   "k": "3c0db612cbd2",
+   "ctx": "documents",
+   "t": "Aadhaar cards of the head of the family and of the members to be covered"
+  },
+  {
+   "k": "9a040a41a4b4",
+   "ctx": "documents",
+   "t": "For the special groups: the welfare board, pension or other ID card in place of the income certificate"
+  },
+  {
+   "k": "341b680d40ec",
+   "ctx": "submitAt",
+   "t": "The CMCHIS card centre (enrolment kiosk) at your District Collector's office. The head of the family should go in person with the filled form, the VAO income certificate, the original ration card and the Aadhaar cards of all members; the photo and fingerprint are taken there."
+  },
+  {
+   "k": "804f1dd09423",
+   "ctx": "hint",
+   "t": "Write the name exactly as it is printed first on your ration card."
+  },
+  {
+   "k": "0eda9b252df0",
+   "ctx": "hint",
+   "t": "For a married woman who heads the family, write the husband's name."
+  },
+  {
+   "k": "3146cce56863",
+   "ctx": "hint",
+   "t": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
+  },
+  {
+   "k": "6682d76cac64",
+   "ctx": "hint",
+   "t": "Your main work, in simple words, for example coolie, weaver, auto driver or homemaker."
+  },
+  {
+   "k": "4597696bf510",
+   "ctx": "label",
+   "t": "Ration card number and ration shop number"
+  },
+  {
+   "k": "3836dbb6f498",
+   "ctx": "hint",
+   "t": "Both numbers are on the smart card. The kiosk checks this number online, so copy it carefully."
+  },
+  {
+   "k": "d9994dbff24f",
+   "ctx": "hint",
+   "t": "Aadhaar of the head of the family. Members' Aadhaar is checked at the kiosk."
+  },
+  {
+   "k": "fb67a186435e",
+   "ctx": "label",
+   "t": "Permanent address (door, street, village, taluk, district, PIN)"
+  },
+  {
+   "k": "f116d65b07ee",
+   "ctx": "value",
+   "t": "12, Kovil Street, Sevalpatti village, Peraiyur taluk, Madurai 625799"
+  },
+  {
+   "k": "4f1d5812e714",
+   "ctx": "hint",
+   "t": "The address on the ration card. Write the village, taluk and district in full."
+  },
+  {
+   "k": "6c4cae1be7e9",
+   "ctx": "hint",
+   "t": "A number you always keep with you. Messages about the card and hospital approvals come here."
+  },
+  {
+   "k": "59cd5b9ea167",
+   "ctx": "label",
+   "t": "Family members (name, age, gender, relation)"
+  },
+  {
+   "k": "7f30544613f6",
+   "ctx": "value",
+   "t": "Lakshmi, 42, F, wife; Karthik, 17, M, son; Ponnammal, 68, F, mother"
+  },
+  {
+   "k": "32883a19346c",
+   "ctx": "hint",
+   "t": "List everyone to be covered. Only people named on the ration card can be added."
+  },
+  {
+   "k": "462501bf91ea",
+   "ctx": "label",
+   "t": "VAO income certificate (box at the bottom)"
+  },
+  {
+   "k": "30c913a062ab",
+   "ctx": "value",
+   "t": "Annual family income Rs 84,000, signed and sealed by the VAO"
+  },
+  {
+   "k": "cdae0460268a",
+   "ctx": "hint",
+   "t": "The VAO writes the yearly income, signs and puts the office seal. It must be below Rs 1,20,000."
+  },
+  {
+   "k": "be8abf14a725",
+   "ctx": "demoSteps",
+   "t": "Download the CMCHIS enrolment form or collect it at the kiosk, and fill in the head of the family, the ration card and Aadhaar numbers and every member to be covered."
+  },
+  {
+   "k": "77ba5e8d8442",
+   "ctx": "demoSteps",
+   "t": "Take the form to your Village Administrative Officer, who certifies the yearly family income in the box at the bottom. It must be under Rs 1,20,000. An income certificate made through e-Sevai also works."
+  },
+  {
+   "k": "33a211c875b8",
+   "ctx": "demoSteps",
+   "t": "Go to the CMCHIS card centre at the District Collector's office with the form, the original ration card and all members' Aadhaar cards. The staff check the ration card online, take the photo and fingerprint and note your enrolment number."
+  },
+  {
+   "k": "b8a3521db588",
+   "ctx": "demoSteps",
+   "t": "Collect the CMCHIS card. You can later download the e-card from the CMCHIS website by searching with your ration card number. The website also has a CMCHIS-PMJAY Apply Now page where you can enrol online with the ration card number and an uploaded income certificate."
+  },
+  {
+   "k": "ab4401a7f892",
+   "ctx": "demoSteps",
+   "t": "When you need treatment, go to a government or empanelled private hospital and show the card and ration card at the CMCHIS desk. The hospital takes approval from the insurer and you pay nothing for a covered treatment."
+  },
+  {
+   "k": "116cbfe5b172",
+   "ctx": "demoSteps",
+   "t": "If a hospital asks for money for a covered treatment, or the card is not accepted, call the toll-free helpline 1800 425 3993 at once."
+  },
+  {
+   "k": "177e53f937b5",
+   "ctx": "helpline",
+   "t": "1800 425 3993 — CMCHIS 24x7 toll-free helpline / 14555 — Ayushman Bharat PM-JAY national helpline"
+  },
+  {
+   "k": "a48ef95548f5",
+   "ctx": "title",
+   "t": "Dr Muthulakshmi Reddy Maternity Benefit Scheme (Rs 18,000 for Pregnant Women)"
+  },
+  {
+   "k": "e026c568fe31",
+   "ctx": "department",
+   "t": "Directorate of Public Health and Preventive Medicine, Health and Family Welfare Department, Government of Tamil Nadu"
+  },
+  {
+   "k": "3b4d6bed12c9",
+   "ctx": "brief",
+   "t": "Rs 18,000 for a pregnant woman in Tamil Nadu: Rs 14,000 in three cash instalments into her own bank account, and two nutrition kits worth Rs 2,000 each. You register the pregnancy with the Village Health Nurse (VHN) and get a 12-digit PICME (RCH) number, and the VHN files the application before delivery; the same application also covers the central PM Matru Vandana Yojana. For the later instalments the delivery must be in a government hospital and the baby's vaccines must be on time."
+  },
+  {
+   "k": "2abe5d4b34c6",
+   "ctx": "benefit",
+   "t": "Rs 18,000 — Rs 14,000 cash in 3 instalments plus 2 nutrition kits of Rs 2,000"
+  },
+  {
+   "k": "605bc1c75dcf",
    "ctx": "eligibility",
-   "t": "At most two daughters of one family can get the money"
+   "t": "Pregnant woman aged 18 to 55 living in Tamil Nadu, with the pregnancy registered on PICME"
   },
   {
-   "k": "065c2120a3e2",
+   "k": "1366041a0e3a",
+   "ctx": "eligibility",
+   "t": "Given for the first two deliveries; for a third or later child, only if the mother or husband has had a permanent sterilisation"
+  },
+  {
+   "k": "6f3b1b169f82",
+   "ctx": "eligibility",
+   "t": "Neither the mother nor the husband is a government employee"
+  },
+  {
+   "k": "40eb9560d199",
+   "ctx": "eligibility",
+   "t": "The application must be made before delivery; the first instalment starts about 4 months (120 days) after the last period"
+  },
+  {
+   "k": "fbf0b4a64776",
+   "ctx": "eligibility",
+   "t": "Delivery in a government hospital, at least two antenatal check-ups and the baby's vaccines on time are needed for the later instalments"
+  },
+  {
+   "k": "6ea614703cc3",
+   "ctx": "eligibility",
+   "t": "Bank account in the mother's own name, linked with her Aadhaar"
+  },
+  {
+   "k": "77d39fc6e8dd",
    "ctx": "documents",
-   "t": "Aadhaar card of the applicant (parent or guardian) and of the bride"
+   "t": "Bank passbook of an account in the mother's own name, linked with Aadhaar"
   },
   {
-   "k": "4a852d3142e5",
+   "k": "f0b3c0330092",
    "ctx": "documents",
-   "t": "Caste certificate (SC or BC) and proof of address in Punjab"
+   "t": "PICME (RCH) number and the Mother and Child Protection (MCP) card given at registration"
   },
   {
-   "k": "0a0218359bf6",
+   "k": "a6dc1f09a131",
    "ctx": "documents",
-   "t": "Proof of the girl's age: birth certificate or school certificate"
+   "t": "One PMMVY proof, such as the ration card, CMCHIS or Ayushman card, MGNREGA job card or e-Shram card"
   },
   {
-   "k": "fa8ec82a170d",
+   "k": "f97ae056a4a3",
    "ctx": "documents",
-   "t": "Self-declaration of family income"
+   "t": "Husband's name, both parents' occupations and a mobile number"
   },
   {
-   "k": "4cffb4cca0f2",
-   "ctx": "documents",
-   "t": "Bank passbook of the applicant, showing account number and IFSC"
-  },
-  {
-   "k": "35a2220fc298",
-   "ctx": "documents",
-   "t": "Wedding card, and the marriage certificate from the gurdwara, temple, church or other religious place"
-  },
-  {
-   "k": "6e9bcebd3c7b",
-   "ctx": "documents",
-   "t": "Family BPL or blue ration card, if you have one"
-  },
-  {
-   "k": "d1b5b1680a64",
-   "ctx": "documents",
-   "t": "Photos of the applicant, the bride and the groom"
-  },
-  {
-   "k": "dbc23f2dd938",
+   "k": "af9b08312a50",
    "ctx": "portalName",
-   "t": "Ashirwad Portal (Punjab)"
+   "t": "PICME (Pregnancy and Infant Cohort Monitoring and Evaluation)"
   },
   {
-   "k": "9ee4f6e889fc",
+   "k": "14ecd9aae560",
    "ctx": "submitAt",
-   "t": "Any Sewa Kendra in Punjab. Take a token at the counter, or book a slot first on connect.punjab.gov.in. Since 28 January 2026 Ashirwad applications are accepted only at Sewa Kendras, so do not pay anyone to apply elsewhere. Take the originals and copies of all documents and the photos. There is no fee."
+   "t": "Register the pregnancy with the Village Health Nurse at your Health Sub Centre or at the nearest Primary Health Centre (in towns, the Urban Primary Health Centre), as early as possible and ideally before 12 weeks. Take your Aadhaar, bank passbook, ration card and address proof; the VHN gives the PICME (RCH) number and enters the maternity benefit application on the PICME portal before delivery."
   },
   {
-   "k": "0373b60d9a7d",
-   "ctx": "value",
-   "t": "Sukhwinder Kaur"
-  },
-  {
-   "k": "db6f81172f59",
+   "k": "2383563eccdb",
    "ctx": "hint",
-   "t": "The mother, father or guardian who is applying, as written on Aadhaar. For a widow's daughter, the mother applies."
+   "t": "The 12-digit number you get when the pregnancy is registered. Every payment is linked to it."
   },
   {
-   "k": "3c9e82b50a91",
+   "k": "03369d791eae",
+   "ctx": "hint",
+   "t": "The mother's name exactly as in her Aadhaar."
+  },
+  {
+   "k": "2da7f1fe2a02",
+   "ctx": "hint",
+   "t": "As in the husband's Aadhaar or the ration card."
+  },
+  {
+   "k": "df473eb06907",
+   "ctx": "hint",
+   "t": "First day of your last period. The due date and instalment dates are worked out from this."
+  },
+  {
+   "k": "8601b2615357",
    "ctx": "label",
-   "t": "Relation with the bride"
+   "t": "Mother's date of birth and age"
   },
   {
-   "k": "4895cd64a1dd",
+   "k": "26d8d30db7b9",
    "ctx": "hint",
-   "t": "How the applicant is related to the girl getting married."
+   "t": "From Aadhaar. The mother must be between 18 and 55."
   },
   {
-   "k": "53c6505c14e7",
-   "ctx": "label",
-   "t": "Applicant's Aadhaar number"
-  },
-  {
-   "k": "d9da31404a1a",
+   "k": "47c6cfdc703f",
    "ctx": "hint",
-   "t": "The 12 digits on the applicant's own Aadhaar card."
+   "t": "Count every pregnancy, including this one. The benefit is for the first two deliveries."
   },
   {
-   "k": "1d52003972a4",
+   "k": "23728b75b6c3",
    "ctx": "hint",
-   "t": "SC, Christian, BC, economically weaker, or daughter of a widow. It decides which certificate is checked."
+   "t": "Must be filled for both. Government employees are not eligible."
   },
   {
-   "k": "4321df36bb63",
+   "k": "14abd8366782",
+   "ctx": "hint",
+   "t": "Her own account, linked with her Aadhaar. A joint or husband's account is not accepted."
+  },
+  {
+   "k": "a19138d7c9dd",
    "ctx": "value",
-   "t": "Rs 30,000"
+   "t": "5, Nehru Street, Kalavoor, Usilampatti taluk, Madurai district"
   },
   {
-   "k": "de363c434352",
+   "k": "319a22d7e13c",
    "ctx": "hint",
-   "t": "Everyone's earnings in the family for a full year. Above Rs 32,790 the file is rejected."
+   "t": "Where you live now. Upload or show proof of this address."
   },
   {
-   "k": "dd7a4a8d3b11",
-   "ctx": "label",
-   "t": "Bride's name and date of birth"
-  },
-  {
-   "k": "c0fab5620bb9",
-   "ctx": "value",
-   "t": "Simranjit Kaur / 14-03-2003"
-  },
-  {
-   "k": "bb2f6c69c000",
+   "k": "f32d01eefb77",
    "ctx": "hint",
-   "t": "Must match her birth or school certificate. She must be 18 or older on the wedding day."
+   "t": "One document such as the ration card, CMCHIS or Ayushman card, job card or e-Shram card."
   },
   {
-   "k": "42b740795bc5",
-   "ctx": "hint",
-   "t": "Apply before this date or within 60 days after it. Later applications are not taken."
-  },
-  {
-   "k": "fb6678c6a7d9",
-   "ctx": "label",
-   "t": "Groom's name and address"
-  },
-  {
-   "k": "737da5f14bd1",
-   "ctx": "value",
-   "t": "Jaspreet Singh, Village Bhaini Kalan, Ludhiana"
-  },
-  {
-   "k": "4e3d3bcccadc",
-   "ctx": "hint",
-   "t": "As printed on the wedding card."
-  },
-  {
-   "k": "a687ab4aff07",
-   "ctx": "hint",
-   "t": "An account in the applicant's own name, linked to Aadhaar. The Rs 51,000 is sent here."
-  },
-  {
-   "k": "0b347e3c691f",
-   "ctx": "hint",
-   "t": "Updates on the application and the payment SMS come to this number."
-  },
-  {
-   "k": "163560f93167",
+   "k": "00daa071b31f",
    "ctx": "demoSteps",
-   "t": "Collect all the documents and photos. Get the caste certificate and the income self-declaration ready before the wedding."
+   "t": "As soon as you know you are pregnant, go to the Village Health Nurse at the Health Sub Centre or PHC and register. You get the MCP card and the 12-digit PICME (RCH) number."
   },
   {
-   "k": "e3f235cfd87d",
+   "k": "af2e0b0369ae",
    "ctx": "demoSteps",
-   "t": "Go to the nearest Sewa Kendra, take a token and ask for the Ashirwad Scheme. The operator fills in the application and scans your documents."
+   "t": "Give the VHN your Aadhaar, bank passbook, address proof and one PMMVY proof. She enters the application on PICME before delivery, and it is checked by the Sector Health Nurse, the PHC Medical Officer and the Block Medical Officer."
   },
   {
-   "k": "96dcb0610fc1",
+   "k": "21b973ec5e19",
    "ctx": "demoSteps",
-   "t": "Keep the receipt with the application number. Track it on connect.punjab.gov.in under Track, or by calling 1100."
+   "t": "Collect the first nutrition kit at the PHC around the third month. After the fourth month of pregnancy, the first instalment of Rs 6,000 comes into your account."
   },
   {
-   "k": "4b55c9ae8996",
+   "k": "95e66c066b18",
    "ctx": "demoSteps",
-   "t": "The Tehsil and District Welfare Officers check the papers, and the district committee headed by the Deputy Commissioner approves it. The service time is about 47 days."
+   "t": "Go for at least two antenatal check-ups and have the delivery in a government hospital. Get the baby's birth-dose vaccines (BCG, OPV, Hepatitis B) before leaving the hospital."
   },
   {
-   "k": "a37b156f3a39",
+   "k": "69b72d82df97",
    "ctx": "demoSteps",
-   "t": "After sanction, Rs 51,000 is sent by DBT straight into the applicant's bank account, and an SMS comes when it is credited."
+   "t": "About four months after delivery, once the baby's vaccines up to 14 weeks are done, the second instalment of Rs 6,000 is paid."
   },
   {
-   "k": "e061f2cfb118",
+   "k": "9871e42bb191",
+   "ctx": "demoSteps",
+   "t": "After the measles-rubella (MR) vaccine at 9 months, the last Rs 2,000 is paid. The second nutrition kit is given at the PHC as well."
+  },
+  {
+   "k": "554a0349af58",
+   "ctx": "demoSteps",
+   "t": "If a payment is late, ask your VHN first, or call the PICME helpdesk with your RCH number."
+  },
+  {
+   "k": "528b9c7bc8cd",
    "ctx": "helpline",
-   "t": "1100 (Punjab Sewa Kendra and Connect helpline) / District and Tehsil Welfare Officer (list under Contact Details on ashirwad.punjab.gov.in)"
+   "t": "044-29510307 / 94890 48910 — PICME helpdesk, Directorate of Public Health / 102 — free ambulance and pregnancy help"
   },
   {
-   "k": "7115aff917a4",
+   "k": "ce91e09a0769",
    "ctx": "title",
-   "t": "Old Age Pension Scheme (Budhapa Pension)"
+   "t": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)"
   },
   {
-   "k": "d406307ae0eb",
-   "ctx": "department",
-   "t": "Department of Social Security and Women & Child Development, Punjab"
-  },
-  {
-   "k": "96addbef88f6",
+   "k": "fa8b6f5c1df6",
    "ctx": "brief",
-   "t": "A pension of Rs 1,500 every month for women aged 58 and above and men aged 65 and above in Punjab whose income is low. The money is paid into the pensioner's bank account. You can apply online on Connect Punjab, at any Sewa Kendra, or by calling 1076 for an operator to come home. There is no fee and no paper form."
+   "t": "Rs 1,000 every month, paid straight into the bank account, for girls who studied Classes 6 to 12 in a Tamil Nadu government school and have joined college. It is paid until they finish their first degree, diploma or ITI course, on top of any other scholarship. Officially it is the Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme, which replaced the old Moovalur Ramamirtham marriage assistance scheme, and since December 2024 girls from government-aided schools are covered too. You apply through your college, which enters your details on the UMIS portal."
   },
   {
-   "k": "59e731d31376",
+   "k": "37e9ff703aad",
+   "ctx": "eligibility",
+   "t": "Girl who studied Classes 6 to 12 in a Tamil Nadu government school, or in a government-aided school (added in December 2024)"
+  },
+  {
+   "k": "ee1f3e4b7339",
+   "ctx": "eligibility",
+   "t": "Only the first higher-education course counts; a second degree is not paid"
+  },
+  {
+   "k": "0af9f8ece89e",
+   "ctx": "eligibility",
+   "t": "No family income limit, and any number of girls in one family can get it"
+  },
+  {
+   "k": "0aef5a6dd8a2",
+   "ctx": "documents",
+   "t": "Bank passbook of an account in the student's own name, linked with Aadhaar (the college helps open a zero-balance account)"
+  },
+  {
+   "k": "7769beb1293f",
+   "ctx": "documents",
+   "t": "Transfer certificate from the school, showing study in a government or government-aided school"
+  },
+  {
+   "k": "9abb5bdcfbe8",
+   "ctx": "submitAt",
+   "t": "Your college's Pudhumai Penn nodal officer, usually in the scholarship section, in the first weeks of the course. Take your Aadhaar, bank passbook, 10th and 12th mark sheets, school transfer certificate and EMIS number; the nodal officer enters and verifies your details on the UMIS portal."
+  },
+  {
+   "k": "15c035a212a9",
+   "ctx": "value",
+   "t": "Government Girls Higher Secondary School, Vellaimalai"
+  },
+  {
+   "k": "04badaacdb50",
+   "ctx": "hint",
+   "t": "Name every school if you changed schools. All must be government or government-aided schools."
+  },
+  {
+   "k": "bffaa046b815",
+   "ctx": "value",
+   "t": "Government Arts and Science College, Pudhur"
+  },
+  {
+   "k": "cf80343b8269",
+   "ctx": "hint",
+   "t": "The college where you are studying now."
+  },
+  {
+   "k": "f51728df528a",
+   "ctx": "hint",
+   "t": "From your college ID card or admission slip."
+  },
+  {
+   "k": "6642f3b5528d",
+   "ctx": "demoSteps",
+   "t": "After joining college, meet the Pudhumai Penn nodal officer in the scholarship section during the first weeks."
+  },
+  {
+   "k": "49d32d7d9565",
+   "ctx": "demoSteps",
+   "t": "Hand over your Aadhaar, bank passbook, 10th and 12th mark sheets, school transfer certificate and EMIS number. If you have no bank account, open a zero-balance account through the college."
+  },
+  {
+   "k": "abe7815438ac",
+   "ctx": "helpline",
+   "t": "Your college's Pudhumai Penn nodal officer / District Social Welfare Officer at the Collectorate / 1100 — Tamil Nadu citizen helpline for complaints"
+  },
+  {
+   "k": "7aff7c774aaf",
+   "ctx": "title",
+   "t": "Tamil Nadu Construction Workers Welfare Board Registration (Construction Worker Card)"
+  },
+  {
+   "k": "67b30b834a91",
+   "ctx": "department",
+   "t": "Tamil Nadu Construction Workers Welfare Board, Labour Welfare and Skill Development Department"
+  },
+  {
+   "k": "5b58e8344c8d",
+   "ctx": "brief",
+   "t": "Registering with the Tamil Nadu Construction Workers Welfare Board gives masons, helpers, carpenters, painters, plumbers, electricians and other building workers a registration card that unlocks the board's benefits: education help for children, marriage and maternity money, a monthly pension at 60, accident and death cover, and help to build a house. Registration, renewal and claims are free and done online on the Unorganised Workers Welfare Boards portal, using your mobile number and ration card number. The Assistant Commissioner of Labour (Social Security Scheme) checks the application, and the permanent registration number comes by SMS."
+  },
+  {
+   "k": "73be063114df",
    "ctx": "benefit",
-   "t": "Rs 1,500 a month, paid into your bank account"
+   "t": "Pension Rs 1,200 a month at 60; marriage Rs 20,000; maternity Rs 18,000; up to Rs 5 lakh on death at a worksite"
   },
   {
-   "k": "3026056ad7d5",
+   "k": "6f4487126b93",
    "ctx": "eligibility",
-   "t": "Women aged 58 or above, men aged 65 or above"
+   "t": "Working in one of the 54 construction trades listed by the board, such as mason, helper, carpenter, painter, plumber, electrician, bar bender, tile layer, or road and well work"
   },
   {
-   "k": "eabace3dc1ad",
+   "k": "5f59e06eb021",
    "ctx": "eligibility",
-   "t": "Total yearly income not more than Rs 60,000, counting business, rent and interest"
+   "t": "A work certificate in the board's format, signed by an employer, registered contractor, registered trade union office-bearer, the VAO (Revenue Inspector in Chennai) or a labour inspector"
   },
   {
-   "k": "7757a86a8f2d",
+   "k": "6a42534d27e4",
    "ctx": "eligibility",
-   "t": "Husband and wife together may own up to 2.5 acres of canal or well-irrigated (nehri/chahi) land, or up to 5 acres of barani or waterlogged land"
+   "t": "Not a member of any other welfare board"
   },
   {
-   "k": "6feabc306e5d",
+   "k": "c6e65c46d64c",
    "ctx": "eligibility",
-   "t": "You must be a resident of Punjab"
+   "t": "Resident of Tamil Nadu with a ration card; workers from other states register separately on the same portal"
   },
   {
-   "k": "fcffc4b63164",
+   "k": "fdc09087a472",
    "ctx": "eligibility",
-   "t": "The CDPO verifies the case within a month and the District Social Security Officer sanctions it"
+   "t": "Registration and all claims are free; renew the registration on time or benefits stop"
   },
   {
-   "k": "3b95cae83d81",
+   "k": "1ec4b471a56a",
    "ctx": "documents",
-   "t": "Aadhaar card (proof of identity, address and age)"
+   "t": "Work certificate in the board's format, signed by the employer, union, contractor or VAO"
   },
   {
-   "k": "d846c027bf59",
+   "k": "52404e15432b",
    "ctx": "documents",
-   "t": "A second proof of age: voter card or voter list entry, birth certificate or matriculation certificate"
+   "t": "Age proof: driving licence, school certificate, voter ID or a doctor's certificate"
   },
   {
-   "k": "ad271daccc0e",
+   "k": "2698febbe7cf",
    "ctx": "documents",
-   "t": "First page of the bank passbook"
+   "t": "Proof of relationship with the nominee"
   },
   {
-   "k": "749c7353d304",
-   "ctx": "documents",
-   "t": "Village: land report from the Patwari. City: property verification from the Executive Officer of the Municipal Council"
-  },
-  {
-   "k": "99c5b1014c13",
-   "ctx": "documents",
-   "t": "Mobile number, for OTP and SMS updates"
-  },
-  {
-   "k": "683a5526206b",
+   "k": "10dbd20d367b",
    "ctx": "portalName",
-   "t": "Connect Punjab"
+   "t": "Tamil Nadu Unorganised Workers Welfare Boards portal"
   },
   {
-   "k": "9c6e44eae82d",
+   "k": "a5da2648ad6d",
+   "ctx": "hint",
+   "t": "Your own number. Until the officer approves, you can log in only with the OTP sent here."
+  },
+  {
+   "k": "81b9ee393aaa",
+   "ctx": "hint",
+   "t": "From your family smart card. Family members are taken from this card."
+  },
+  {
+   "k": "ecf696dfdda6",
+   "ctx": "hint",
+   "t": "Type it within the time shown, or press Resend OTP."
+  },
+  {
+   "k": "395cb91a238b",
    "ctx": "value",
-   "t": "Balbir Kaur"
+   "t": "Tamil Nadu Construction Workers Welfare Board"
   },
   {
-   "k": "f352c038d3ae",
+   "k": "5524e53bd858",
    "ctx": "hint",
-   "t": "The elderly person who will get the pension, as written on Aadhaar."
+   "t": "Choose the construction board, not the manual workers' board."
   },
   {
-   "k": "0d40d24f7c64",
-   "ctx": "value",
-   "t": "Late Gurdev Singh"
-  },
-  {
-   "k": "4f75cb0a030f",
+   "k": "63b850460928",
    "ctx": "hint",
-   "t": "As written on your Aadhaar or voter card."
+   "t": "Pick the trade written on your work certificate."
   },
   {
-   "k": "d9fbd943fefd",
+   "k": "4fb2a17aaf03",
    "ctx": "hint",
-   "t": "Women can apply from 58, men from 65."
+   "t": "From the age proof you upload. You must be between 18 and 60."
   },
   {
-   "k": "7a1dbdf3beee",
+   "k": "d7142f551ec7",
    "ctx": "hint",
-   "t": "Must match the Aadhaar and your second age proof, such as the voter list or matric certificate."
+   "t": "An account in your own name. Every benefit is paid into it."
   },
   {
-   "k": "183bcb9c0ee3",
-   "ctx": "hint",
-   "t": "Aadhaar e-KYC is done for this service, so give the pensioner's own number."
-  },
-  {
-   "k": "eebaf0d74ee3",
-   "ctx": "hint",
-   "t": "OTP and messages about the pension come here. A son's or daughter's number is fine."
-  },
-  {
-   "k": "723165de5abd",
+   "k": "0b37e7ac1cad",
    "ctx": "label",
-   "t": "Address (village, tehsil, district)"
+   "t": "Nominee and family members (name, relation, age)"
   },
   {
-   "k": "958ffd715f6a",
-   "ctx": "value",
-   "t": "Village Rampura Kalan, Tehsil Malout, Sri Muktsar Sahib"
-  },
-  {
-   "k": "6ef337b71f50",
+   "k": "635cc798a793",
    "ctx": "hint",
-   "t": "Where you live now. The CDPO of this area verifies the case."
+   "t": "Enter every member with the correct age. Education and marriage help for children is decided by age."
   },
   {
-   "k": "c98b787ffab4",
-   "ctx": "label",
-   "t": "Annual income from all sources"
-  },
-  {
-   "k": "dc4deb497a2e",
-   "ctx": "value",
-   "t": "Rs 36,000"
-  },
-  {
-   "k": "d2a1a01e123c",
-   "ctx": "hint",
-   "t": "Include rent, business and bank interest. The limit is Rs 60,000 a year."
-  },
-  {
-   "k": "ec705dfcf73d",
-   "ctx": "label",
-   "t": "Land owned (husband and wife)"
-  },
-  {
-   "k": "7cc90b0428d8",
-   "ctx": "value",
-   "t": "1 acre nehri"
-  },
-  {
-   "k": "3ef6ca0c4f26",
-   "ctx": "hint",
-   "t": "Up to 2.5 acres nehri/chahi or 5 acres barani is allowed. The Patwari's report must say the same."
-  },
-  {
-   "k": "2f6c2a03b89f",
-   "ctx": "hint",
-   "t": "The pensioner's own account. Upload the first page of this passbook."
-  },
-  {
-   "k": "9e7c7c8cce0c",
+   "k": "29e26d2ae368",
    "ctx": "demoSteps",
-   "t": "Open connect.punjab.gov.in, find Old Age Pension Scheme in the services list and tap Click to apply service. If you cannot go online, call 1076 and an operator will come home, or visit a Sewa Kendra."
+   "t": "Get the work certificate filled and signed in the board's format by your employer, union, contractor or VAO, and keep photos or scans of all documents ready."
   },
   {
-   "k": "db87d588ea3a",
+   "k": "cf5e94dc09cc",
    "ctx": "demoSteps",
-   "t": "Log in or register with your mobile number and OTP, and complete Aadhaar e-KYC for the person applying."
+   "t": "Open the portal, click New Registration, enter your mobile number and ration card number and verify the OTP."
   },
   {
-   "k": "455f196cb078",
+   "k": "040bfb505d58",
    "ctx": "demoSteps",
-   "t": "Fill in the form, upload the age proof, passbook page, self-declaration and the land or property report, and submit. There is no fee."
+   "t": "Choose the Construction Workers Welfare Board and your trade, fill in your personal, bank, nominee and family details, upload the documents and submit. The application number comes by SMS."
   },
   {
-   "k": "010b56a27cbb",
+   "k": "4d2b559a6338",
    "ctx": "demoSteps",
-   "t": "Note the application number on the receipt and follow it under Track on Connect Punjab."
+   "t": "The Assistant Commissioner of Labour (Social Security Scheme) office checks it. If anything is missing you get an SMS: log in with OTP, correct it and submit again."
   },
   {
-   "k": "8695310631e9",
+   "k": "82398265e62d",
    "ctx": "demoSteps",
-   "t": "The CDPO verifies your details and the District Social Security Officer sanctions the pension. The service time is 32 days online and 34 days at a Sewa Kendra."
+   "t": "On approval, the permanent registration number and password come by SMS. Log in and download your registration certificate."
   },
   {
-   "k": "f7446f41ec81",
+   "k": "da0363c4e9dc",
    "ctx": "demoSteps",
-   "t": "After sanction, Rs 1,500 a month is credited to your bank account. For problems, contact the District Social Security Officer."
+   "t": "For each benefit, such as education help, marriage, maternity or the pension at 60, log in and file a Claim with the proof. The money is paid into your bank account."
   },
   {
-   "k": "10b42f4c59ef",
+   "k": "afd039479a21",
+   "ctx": "demoSteps",
+   "t": "Renew the registration on the portal before it expires so that your benefits continue."
+  },
+  {
+   "k": "1401110f6395",
    "ctx": "helpline",
-   "t": "1100 (Connect Punjab and Sewa Kendra helpline) / 1076 (doorstep service) / 0172-2608746 (Social Security head office) / 14567 (elderly helpline)"
+   "t": "No toll-free number: call or visit the Assistant Commissioner of Labour (Social Security Scheme) office in your district; complaints can also be filed under Grievance Form on the board's portal"
   },
   {
-   "k": "5e8f59956308",
+   "k": "f6d71036b002",
    "ctx": "title",
-   "t": "Lado Protsahan Yojana (Lado Sankalp Patra)"
+   "t": "Tamil Nadu Social Security Pension (Old Age, Widow and Disability Pension)"
   },
   {
-   "k": "7f19ccf81f95",
+   "k": "a33ff759bd19",
    "ctx": "department",
-   "t": "Directorate of Women Empowerment, Women & Child Development Department, Government of Rajasthan"
+   "t": "Revenue and Disaster Management Department (Social Security Scheme), Government of Tamil Nadu"
   },
   {
-   "k": "50d4b45e52ec",
+   "k": "34b65eb2a062",
    "ctx": "brief",
-   "t": "A girl born in a government hospital or a JSY-approved private hospital in Rajasthan is promised Rs 1.5 lakh, paid in seven instalments from birth until she graduates at 21. The scheme began on 1 August 2024, replaced the old Mukhyamantri Rajshri Yojana (Rajshri girls get their remaining instalments under Lado), and was raised from Rs 1 lakh to Rs 1.5 lakh in 2025. There is no form: the hospital, the school and the college record her details, and every instalment goes by DBT."
+   "t": "A monthly pension from the Tamil Nadu government for poor elderly people, widows, deserted women, unmarried poor women over 50, landless farm workers over 60 and persons with disabilities. Most get Rs 1,200 a month, and persons with disabilities get Rs 1,500, paid into the bank account; the central old-age, widow and disability pensions are included in this amount. You apply online through e-Sevai, yourself or at an e-Sevai centre. The VAO and Revenue Inspector verify the application, and the Special Tahsildar (Social Security Scheme) at the taluk office sanctions it."
   },
   {
-   "k": "2afba34e1399",
+   "k": "3d7383e775f9",
    "ctx": "benefit",
-   "t": "Rs 1,50,000 in 7 instalments — Rs 2,500 at birth up to Rs 1 lakh at graduation"
+   "t": "Rs 1,200 a month (Rs 1,500 for persons with disabilities)"
   },
   {
-   "k": "9b50ffb08078",
+   "k": "9ec72e4c4a99",
    "ctx": "eligibility",
-   "t": "The mother is a resident of Rajasthan and has an Aadhaar card and a Jan Aadhaar card"
+   "t": "Old age pension: aged 60 or above, destitute and from a below-poverty-line family"
   },
   {
-   "k": "5d97a58288f0",
+   "k": "09e5f2d0f57b",
    "ctx": "eligibility",
-   "t": "The girl is born in a government hospital or in a private hospital approved under Janani Suraksha Yojana (JSY)"
+   "t": "Widow pension: a destitute widow aged 18 or above"
   },
   {
-   "k": "32290c80896f",
+   "k": "3098ba7da9ea",
    "ctx": "eligibility",
-   "t": "The guidelines set no income or caste condition, and no limit on the number of children for the 3rd instalment onwards"
+   "t": "Disability pension: 40% disability or more, aged 18 or above, and unemployed or earning under Rs 3 lakh a year"
   },
   {
-   "k": "7e2600cf83a7",
+   "k": "8df309de12c6",
    "ctx": "eligibility",
-   "t": "Instalments 3 to 6 need admission in a government school or a state-recognised private school"
+   "t": "Also for deserted women aged 30 or above, unmarried poor women aged 50 or above, and landless farm workers aged 60 or above (Chief Minister's Uzhavar Pathukappu scheme)"
   },
   {
-   "k": "ec0145f3880b",
+   "k": "9e4a7429f89d",
    "ctx": "eligibility",
-   "t": "The last instalment needs graduation from a recognised institution and age 21 completed"
+   "t": "Immovable property worth no more than Rs 1,00,000, not counting a house given free by the government"
   },
   {
-   "k": "51e0d8733693",
-   "ctx": "eligibility",
-   "t": "A mother living in Rajasthan who delivered outside the state and got JSY can claim the first instalment at her local government hospital"
-  },
-  {
-   "k": "39fc69dd1353",
+   "k": "333d06641029",
    "ctx": "documents",
-   "t": "Mother's Aadhaar card"
+   "t": "Age proof, such as a birth certificate, school certificate or a doctor's age certificate"
   },
   {
-   "k": "96d85fc16d8c",
+   "k": "14330c7681eb",
    "ctx": "documents",
-   "t": "Jan Aadhaar card of the family; add the girl's name after birth"
+   "t": "Bank passbook of an account in the applicant's own name"
   },
   {
-   "k": "8cc2669b62d4",
+   "k": "8baab4d68727",
    "ctx": "documents",
-   "t": "Bank passbook of the mother (father or guardian if the mother has died)"
+   "t": "Husband's death certificate for a widow, or the disability certificate or UDID card for a person with disability"
   },
   {
-   "k": "5403fcad354f",
-   "ctx": "documents",
-   "t": "Pregnancy (ANC) registration done with the ANM or government hospital"
+   "k": "4393cebf7461",
+   "ctx": "hint",
+   "t": "Your Common Account Number on e-Sevai. If you have none, create it free with your Aadhaar and mobile number first."
   },
   {
-   "k": "eac6d393bb07",
-   "ctx": "documents",
-   "t": "Mamta card showing all vaccinations done by 9–12 months, for the 2nd instalment"
-  },
-  {
-   "k": "da08b338bb69",
-   "ctx": "documents",
-   "t": "School admission entry on Shala Darpan or the private school portal, for instalments 3 to 6"
-  },
-  {
-   "k": "d30ac5ba5230",
-   "ctx": "documents",
-   "t": "Graduation marksheet, for the 7th instalment"
-  },
-  {
-   "k": "2454ba79fced",
-   "ctx": "submitAt",
-   "t": "No form and no fee. During pregnancy, register at the ANC check-up with the ANM, ASHA or government hospital and give the mother's Aadhaar, Jan Aadhaar and bank details for the PCTS entry. Deliver in a government hospital or a JSY-approved private hospital. School instalments come through the school's Shala Darpan entry and the last one through the college. For a missing instalment, ask the ANM or the Block Chief Medical Officer for the first two, the school head for instalments 3 to 6, or the district Women Empowerment office."
-  },
-  {
-   "k": "b63fb1f6f04e",
-   "ctx": "label",
-   "t": "Mother's name (as on Aadhaar)"
-  },
-  {
-   "k": "d34645101839",
+   "k": "2e48b7f90d5a",
    "ctx": "value",
-   "t": "Sunita Meghwal"
+   "t": "Indira Gandhi National Old Age Pension Scheme"
   },
   {
-   "k": "cb006cad9cc3",
+   "k": "43135f6e5f75",
    "ctx": "hint",
-   "t": "Exactly as on the Aadhaar and the bank account, or the payment can bounce."
+   "t": "Choose old age, widow, disability, deserted women, unmarried women or Uzhavar Pathukappu, whichever fits you."
   },
   {
-   "k": "2bcc623769f0",
+   "k": "19d91bb0d7a7",
    "ctx": "hint",
-   "t": "The ANM enters this at the first pregnancy check-up."
+   "t": "From the age proof you upload."
   },
   {
-   "k": "d2fd01c019aa",
-   "ctx": "hint",
-   "t": "The family's 10-digit Jan Aadhaar. If the family has none, get it made at e-Mitra before the delivery."
-  },
-  {
-   "k": "61bd56ed33e4",
-   "ctx": "label",
-   "t": "Bank account and IFSC (mother)"
-  },
-  {
-   "k": "fee723ebd6f4",
-   "ctx": "hint",
-   "t": "An account in the mother's own name. The first six instalments go to the parent; the last one goes to the girl."
-  },
-  {
-   "k": "32891e4f2bc0",
-   "ctx": "hint",
-   "t": "Payment messages come here."
-  },
-  {
-   "k": "1c85ef131b53",
-   "ctx": "label",
-   "t": "ANC registration (place and date)"
-  },
-  {
-   "k": "0f91bd8d6fb9",
+   "k": "144fcd9a7360",
    "ctx": "value",
-   "t": "Sub-centre Bhopalgarh, 14-03-2026"
+   "t": "No regular income; no land or house of her own"
   },
   {
-   "k": "3ab832e8d80c",
+   "k": "b344de3c89e6",
    "ctx": "hint",
-   "t": "Register early in pregnancy with the ANM; this PCTS entry is what starts the scheme."
+   "t": "Write the truth. The VAO checks this, and property above Rs 1 lakh, apart from a free government house, makes you ineligible."
   },
   {
-   "k": "bd1bf63c641d",
-   "ctx": "label",
-   "t": "Place of delivery"
+   "k": "93fba1f15eb8",
+   "ctx": "hint",
+   "t": "An account in the applicant's own name. The pension is paid here every month."
   },
   {
-   "k": "0e5a62406529",
+   "k": "3333be060f8d",
    "ctx": "value",
-   "t": "Community Health Centre, Bilara (government)"
+   "t": "3, Mariamman Kovil Street, Keezhapudur, Paramakudi taluk, Ramanathapuram"
   },
   {
-   "k": "c10997c49cdb",
+   "k": "b892fd880cf3",
    "ctx": "hint",
-   "t": "Only a government hospital or a JSY-approved private hospital counts. A home birth is not covered."
+   "t": "Where you live now. The VAO of this village does the verification."
   },
   {
-   "k": "126db981f5ab",
-   "ctx": "label",
-   "t": "Girl's PCTS / unique ID"
-  },
-  {
-   "k": "4e99f46d1c2e",
-   "ctx": "hint",
-   "t": "Given at birth. Quote it for every instalment and at school admission."
-  },
-  {
-   "k": "fcb9e07dce8b",
-   "ctx": "label",
-   "t": "Full vaccination (Mamta card)"
-  },
-  {
-   "k": "21bea9ad078b",
+   "k": "dc4501e79f6c",
    "ctx": "value",
-   "t": "Completed on 12-02-2027"
+   "t": "Aadhaar, ration card, photo, age proof"
   },
   {
-   "k": "565d3a8499cb",
+   "k": "262b397bc9ab",
    "ctx": "hint",
-   "t": "All vaccines due by 9–12 months. The second Rs 2,500 is paid once this shows on PCTS."
+   "t": "Clear photos or scans. A widow adds the husband's death certificate; a person with disability adds the disability certificate."
   },
   {
-   "k": "0e9b76285992",
-   "ctx": "label",
-   "t": "School and class (later instalments)"
-  },
-  {
-   "k": "8a397d314d9d",
-   "ctx": "value",
-   "t": "Govt. Senior Secondary School, Bilara — Class 1"
-  },
-  {
-   "k": "5a36169f76da",
-   "ctx": "hint",
-   "t": "The school enters her on Shala Darpan at Class 1, 6, 10 and 12, using her PCTS ID, Jan Aadhaar or APAAR ID."
-  },
-  {
-   "k": "2ad79a6c6361",
+   "k": "07ac2d076277",
    "ctx": "demoSteps",
-   "t": "Register the pregnancy at the first check-up with the ANM, ASHA or government hospital, and give the mother's Aadhaar, Jan Aadhaar, bank account and mobile number."
+   "t": "Log in on the e-Sevai citizen portal with your CAN number, or go to any e-Sevai centre, where the operator applies for you."
   },
   {
-   "k": "2ca81020e70e",
+   "k": "c0a1c0c636d3",
    "ctx": "demoSteps",
-   "t": "Deliver in a government hospital or a JSY-approved private hospital. The girl gets a PCTS ID and the family gets the Rs 1.5 lakh Sankalp Patra."
+   "t": "Choose the Revenue Department social security pension service, pick the right scheme, fill in the details and upload the documents."
   },
   {
-   "k": "3a7d3405f301",
+   "k": "8a54067ff46e",
    "ctx": "demoSteps",
-   "t": "The first Rs 2,500 is credited to the mother's account after the hospital birth, without any application."
+   "t": "Submit and keep the application number from the receipt or SMS."
   },
   {
-   "k": "65c229c12ba7",
+   "k": "b78ef80ca3b0",
    "ctx": "demoSteps",
-   "t": "Complete all vaccinations by 9–12 months on the Mamta card. When PCTS is updated, the second Rs 2,500 is paid; no proof that the child is alive is asked."
+   "t": "The VAO and the Revenue Inspector visit or call to check your age, income and property, and the Special Tahsildar (Social Security Scheme) at the taluk office decides."
   },
   {
-   "k": "5ed027765100",
+   "k": "9179b25edc58",
    "ctx": "demoSteps",
-   "t": "Add the girl to the Jan Aadhaar. On admission to Class 1, 6, 10 and 12 the school records her, and the Education Department pays Rs 4,000, Rs 5,000, Rs 11,000 and Rs 25,000."
+   "t": "Once sanctioned, the pension is paid into your bank account every month. You can check the status on e-Sevai with the application number."
   },
   {
-   "k": "97d6cc201f8e",
+   "k": "fd128de3d6f7",
    "ctx": "demoSteps",
-   "t": "After she passes graduation and turns 21, Rs 1 lakh goes to her own account. Missing one stage does not stop the later instalments."
+   "t": "If it is rejected or delayed, meet the Special Tahsildar (Social Security Scheme) at the taluk office, or complain on the 1100 helpline."
   },
   {
-   "k": "687afe7458b1",
-   "ctx": "demoSteps",
-   "t": "If a payment does not arrive, ask the ANM or the school to check the entry, or complain on 181."
-  },
-  {
-   "k": "9bd374fdfde8",
+   "k": "6d89ddf9e67e",
    "ctx": "helpline",
-   "t": "181 — Rajasthan Sampark (state helpline for complaints about any scheme)"
+   "t": "1100 — Tamil Nadu citizen helpline / Special Tahsildar (Social Security Scheme) at your taluk office"
   },
   {
-   "k": "a06049dfd0d6",
+   "k": "4c0b5adf91f7",
    "ctx": "title",
-   "t": "Mukhyamantri Matritva Poshan Yojana (MMMPY)"
+   "t": "Rythu Bharosa (Rs.12,000 per Acre for Farmers)"
   },
   {
-   "k": "0cb75fcd4ad1",
-   "ctx": "department",
-   "t": "Directorate of Integrated Child Development Services (ICDS), Women & Child Development Department, Government of Rajasthan"
-  },
-  {
-   "k": "3c2b8f53d132",
+   "k": "4e1c56d54448",
    "ctx": "brief",
-   "t": "Gives Rs 6,000 in three instalments to a woman pregnant with her second child, for better food and care. It was earlier called the Indira Gandhi Matritva Poshan Yojana; only the name changed and the rules are the same. If the second baby is a boy, the third instalment is Rs 4,000; if it is a girl, she gets Rs 6,000 under the central PM Matru Vandana Yojana instead, making Rs 8,000 in all. There is no form: the Anganwadi worker or ANM records the pregnancy on PCTS and the money comes by DBT."
+   "t": "Telangana gives farmers Rs.12,000 per acre a year for crop costs, paid as Rs.6,000 per acre before each season (Vanakalam and Yasangi) straight into the farmer's bank account. Rythu Bharosa replaced the old Rythu Bandhu scheme from 26 January 2025. Every pattadar whose farmland is recorded in Bhu Bharati (earlier Dharani) is included automatically, with no new application each season. A new farmer, or one whose money is not coming, gives bank and passbook details to the Agriculture Extension Officer (AEO) of the cluster."
   },
   {
-   "k": "17b5f82525aa",
+   "k": "faa72f608344",
    "ctx": "benefit",
-   "t": "Rs 6,000 in 3 instalments for the second child (Rs 8,000 in all if it is a girl)"
-  },
-  {
-   "k": "4a8cabe52464",
-   "ctx": "eligibility",
-   "t": "Woman pregnant with her second child on or after 1 April 2022 (1 November 2020 in Pratapgarh, Dungarpur, Banswara, Udaipur and Baran)"
-  },
-  {
-   "k": "27fbb61b1a00",
-   "ctx": "eligibility",
-   "t": "Runs in all districts; pregnant or breastfeeding Anganwadi workers, helpers, ASHA sahyoginis and saathins are also eligible"
-  },
-  {
-   "k": "d56220c3c3ea",
-   "ctx": "eligibility",
-   "t": "Not for women regularly employed by the Centre, the state or a PSU, or getting the same kind of benefit under another law"
-  },
-  {
-   "k": "501245e1f036",
-   "ctx": "eligibility",
-   "t": "Not eligible if the first pregnancy gave twins, or if after remarriage either partner already has more than one child"
-  },
-  {
-   "k": "d81b32a0364c",
-   "ctx": "eligibility",
-   "t": "Cannot take MMMPY and PM Matru Vandana instalments for the same conditions"
-  },
-  {
-   "k": "c0e17cf5f99f",
-   "ctx": "eligibility",
-   "t": "After a miscarriage or still birth, she stays eligible in a later pregnancy"
-  },
-  {
-   "k": "4086bf6148aa",
-   "ctx": "documents",
-   "t": "Jan Aadhaar card (it will be made at registration if the family has none)"
-  },
-  {
-   "k": "a407a8ff3a5d",
-   "ctx": "documents",
-   "t": "Mamta card (mother and child protection card) — photocopy"
-  },
-  {
-   "k": "1a883eff9f46",
-   "ctx": "documents",
-   "t": "Bank passbook copy of the account linked to the Jan Aadhaar"
-  },
-  {
-   "k": "1c87daf728b2",
-   "ctx": "submitAt",
-   "t": "No form and no fee. Register the pregnancy at the Anganwadi centre, or with the ANM at the sub-centre or government hospital, within 120 days of the last period. Give the Jan Aadhaar, Mamta card, bank passbook and mobile number for the PCTS entry; the instalments then come on their own as the check-ups and the hospital delivery are recorded. For a missing instalment, ask the Anganwadi worker or the CDPO (ICDS project office) of your block."
-  },
-  {
-   "k": "66cceea58332",
-   "ctx": "value",
-   "t": "Pooja Kanwar"
-  },
-  {
-   "k": "beacc7b591ad",
-   "ctx": "hint",
-   "t": "As on the Jan Aadhaar and the bank account."
-  },
-  {
-   "k": "4b95233fdb34",
-   "ctx": "value",
-   "t": "Vikram Singh"
-  },
-  {
-   "k": "1faef154a8e4",
-   "ctx": "hint",
-   "t": "As on the Jan Aadhaar."
-  },
-  {
-   "k": "e040c4b7cd41",
-   "ctx": "hint",
-   "t": "Must be given at registration. If the family has none, the Anganwadi worker will help get it made."
-  },
-  {
-   "k": "65a17662c113",
-   "ctx": "hint",
-   "t": "The first instalment needs registration within 120 days of this date."
-  },
-  {
-   "k": "4752f50319f0",
-   "ctx": "label",
-   "t": "Pregnancy number and living children"
-  },
-  {
-   "k": "0eb086fb0651",
-   "ctx": "value",
-   "t": "Second pregnancy — 1 living child (son, 4 years)"
-  },
-  {
-   "k": "de6e664a95ea",
-   "ctx": "hint",
-   "t": "MMMPY is for the second child only. The first child is covered under PM Matru Vandana Yojana."
-  },
-  {
-   "k": "619693c7aa60",
-   "ctx": "label",
-   "t": "ANC registration date and place"
-  },
-  {
-   "k": "74264c972d86",
-   "ctx": "value",
-   "t": "Anganwadi Kendra, Ward 7, Ajmer — 10-07-2026"
-  },
-  {
-   "k": "baf2a5f5b31d",
-   "ctx": "hint",
-   "t": "Register as early as you can; this PCTS entry is your application."
-  },
-  {
-   "k": "48a4672ed23a",
-   "ctx": "label",
-   "t": "Mamta card number"
-  },
-  {
-   "k": "715438c01a29",
-   "ctx": "hint",
-   "t": "Every check-up and vaccine is written on this card. Keep it safe."
-  },
-  {
-   "k": "29da49bb73b9",
-   "ctx": "hint",
-   "t": "Your own account linked to the Jan Aadhaar. The money is paid only by DBT."
-  },
-  {
-   "k": "3a736b2bc3ba",
-   "ctx": "value",
-   "t": "Satellite Hospital, Ajmer (government)"
-  },
-  {
-   "k": "b0a0d7d2e50d",
-   "ctx": "hint",
-   "t": "The third instalment needs a hospital delivery."
-  },
-  {
-   "k": "5e5a664eda5a",
-   "ctx": "demoSteps",
-   "t": "As soon as you know you are pregnant, and within 120 days of the last period, go to the Anganwadi worker or ANM and register. Give your Jan Aadhaar and mobile number."
-  },
-  {
-   "k": "454494a7b551",
-   "ctx": "demoSteps",
-   "t": "Get your Mamta card. Your details go on PCTS; there is no form to fill."
-  },
-  {
-   "k": "76ca6e358d24",
-   "ctx": "demoSteps",
-   "t": "First instalment: Rs 1,000 is paid after registration within 120 days."
-  },
-  {
-   "k": "a741a62bab2f",
-   "ctx": "demoSteps",
-   "t": "Second instalment: Rs 1,000 after at least two check-ups within the first six months of pregnancy."
-  },
-  {
-   "k": "f4dc26560504",
-   "ctx": "demoSteps",
-   "t": "Deliver in a hospital. For a boy (or transgender child) the third instalment is Rs 4,000; for a girl, Rs 6,000 comes in one go under PM Matru Vandana Yojana instead."
-  },
-  {
-   "k": "08aa76976b23",
-   "ctx": "demoSteps",
-   "t": "The money goes to the account linked to your Jan Aadhaar, with an SMS. If an instalment is missing, ask the Anganwadi worker to check the PCTS entry, or call 181."
-  },
-  {
-   "k": "e4a2b15a1093",
-   "ctx": "helpline",
-   "t": "181 — Rajasthan Sampark; your Anganwadi worker or the block CDPO office for PCTS entries"
-  },
-  {
-   "k": "9360c7ddcc0b",
-   "ctx": "title",
-   "t": "Mukhyamantri Kisan Samman Nidhi (Rajasthan top-up to PM-Kisan)"
-  },
-  {
-   "k": "0d8d17a265f3",
-   "ctx": "department",
-   "t": "Agriculture Department, Government of Rajasthan"
-  },
-  {
-   "k": "890f4426f4fd",
-   "ctx": "brief",
-   "t": "Rajasthan adds its own money to PM-Kisan. Every Rajasthan farmer family that receives PM-Kisan also gets Rs 3,000 a year from the state, paid in instalments of Rs 1,000, so the total becomes Rs 9,000 a year with the Centre's Rs 6,000. There is no separate state form: a farmer registered and active in PM-Kisan gets the state money by DBT automatically."
-  },
-  {
-   "k": "e99dc7544f90",
-   "ctx": "benefit",
-   "t": "Rs 3,000 a year from the state on top of PM-Kisan's Rs 6,000 (Rs 9,000 in all)"
-  },
-  {
-   "k": "acc09efb66de",
-   "ctx": "eligibility",
-   "t": "Rajasthan farmer family that is an active PM-Kisan beneficiary"
-  },
-  {
-   "k": "706dde61df19",
-   "ctx": "eligibility",
-   "t": "Farm land in own name as on 1 February 2019; land got later only by inheritance counts"
+   "t": "Rs.12,000 per acre a year (Rs.6,000 per acre each season)"
   }
  ]
 }
