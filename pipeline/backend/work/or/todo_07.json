@@ -6,116 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_07.json",
  "items": [
   {
-   "k": "79e8fceb68f8",
-   "ctx": "demoSteps",
-   "t": "Enter the 13-digit number, choose your farmer type, fill in the total and damaged land in decimal, the thana-khata-khesra numbers and two neighbours' names, enter the captcha and the OTP, upload the rent receipt, LPC or certified self-declaration, and submit. The application number comes by SMS."
-  },
-  {
-   "k": "f2647a396e30",
-   "ctx": "demoSteps",
-   "t": "The Krishi Samanvayak visits the field within 2 to 4 days, photographs the plot and forwards or rejects the claim with a reason. The sub-divisional and district agriculture officers and the district disaster officer then approve it."
-  },
-  {
-   "k": "ed1d3d6208c9",
-   "ctx": "demoSteps",
-   "t": "The approved amount is paid into your Aadhaar-linked bank account by DBT and an SMS tells you. Use Print and Status on the portal with your registration number to follow it."
-  },
-  {
-   "k": "46c6ad54552f",
-   "ctx": "title",
-   "t": "Bihar Building Workers Registration (BOCW Labour Card)"
-  },
-  {
-   "k": "9b6c41438835",
-   "ctx": "department",
-   "t": "Bihar Building & Other Construction Workers Welfare Board, Labour Resources Department, Government of Bihar"
-  },
-  {
-   "k": "082d0ddc62c5",
-   "ctx": "brief",
-   "t": "Masons, labourers, carpenters, painters, plumbers and other construction workers who register with the Bihar BOCW Welfare Board get a labour card that opens more than a dozen benefits: Rs 50,000 for a daughter's marriage, maternity and paternity money, a bicycle grant, help with children's studies, Rs 3,000 a year for medical costs, a Rs 1,000 monthly pension at 60, and Rs 2 to 4 lakh to the family if the worker dies. Registration is done online with Aadhaar on the board's portal, or at a CSC or the block labour office. The fee is small: Rs 20 for registration plus the membership fee, Rs 50 in all for five years."
-  },
-  {
-   "k": "52b93070830f",
-   "ctx": "benefit",
-   "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
-  },
-  {
-   "k": "03cbf1accd4d",
-   "ctx": "eligibility",
-   "t": "Aged 18 to 60 years"
-  },
-  {
-   "k": "b098fbf81018",
-   "ctx": "eligibility",
-   "t": "Worked at least 90 days in building or other construction work in the last 12 months"
-  },
-  {
-   "k": "7d29b166ca4e",
-   "ctx": "eligibility",
-   "t": "The 90 days are certified by the employer or contractor, the Labour Enforcement Officer, a registered trade union officer, or your own self-declaration"
-  },
-  {
-   "k": "1468a4984691",
-   "ctx": "eligibility",
-   "t": "Not registered with any other labour welfare board"
-  },
-  {
-   "k": "0ed70605f2c4",
-   "ctx": "eligibility",
-   "t": "Most benefits need some time as a member: 1 year for maternity, bicycle and study help; 3 years for marriage help and house repair; 5 years for the pension"
-  },
-  {
-   "k": "524abd6d60af",
-   "ctx": "eligibility",
-   "t": "Keep the membership renewed; benefits stop while it has lapsed"
-  },
-  {
-   "k": "225529b5d75f",
-   "ctx": "documents",
-   "t": "Aadhaar card, checked by OTP"
-  },
-  {
-   "k": "6bb8f35876db",
-   "ctx": "documents",
-   "t": "Recent photograph"
-  },
-  {
-   "k": "19fc14c3f01e",
-   "ctx": "documents",
-   "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
-  },
-  {
-   "k": "ba5b6ec96ec9",
-   "ctx": "documents",
-   "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
-  },
-  {
-   "k": "0ddd86465050",
-   "ctx": "portalName",
-   "t": "Bihar BOCW Welfare Board portal (BiharWMS)"
-  },
-  {
-   "k": "b1cb80f00c7a",
-   "ctx": "hint",
-   "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
-  },
-  {
-   "k": "65676032b1e1",
-   "ctx": "value",
-   "t": "Manoj Kumar Ram"
-  },
-  {
-   "k": "9e8a4f513145",
-   "ctx": "hint",
-   "t": "Exactly as printed on your Aadhaar card."
-  },
-  {
-   "k": "a18c796d89c1",
-   "ctx": "label",
-   "t": "Mobile Number (with OTP verification)"
-  },
-  {
    "k": "6b31a79771e7",
    "ctx": "hint",
    "t": "Your own number. The registration number and every update come here by SMS."
@@ -869,6 +759,111 @@
    "k": "165dd12924bf",
    "ctx": "hint",
    "t": "The ration card number brings up the whole family at once. If nothing comes, search with your Aadhaar number."
+  },
+  {
+   "k": "b60463f74a39",
+   "ctx": "hint",
+   "t": "Copy it from your ration card. If your family is not found, go to the Ayushman desk of any empanelled hospital with the ration card and Aadhaar."
+  },
+  {
+   "k": "a2d5711f2efa",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Each member is done one at a time."
+  },
+  {
+   "k": "2c811dbb9be5",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication."
+  },
+  {
+   "k": "42547f155dbc",
+   "ctx": "demoSteps",
+   "t": "Choose Chhattisgarh and search for your family by ration card number or Aadhaar."
+  },
+  {
+   "k": "6503aa60e612",
+   "ctx": "demoSteps",
+   "t": "Next to each member whose e-KYC is pending, verify with Aadhaar OTP or face authentication and take the live photo."
+  },
+  {
+   "k": "832c842d4803",
+   "ctx": "demoSteps",
+   "t": "Submit. The state agency checks the request, usually within a day or two, and you get an SMS."
+  },
+  {
+   "k": "e3a037969743",
+   "ctx": "demoSteps",
+   "t": "Log in again and download the Ayushman card. If you cannot do it on the phone, the Ayushman desk at any empanelled hospital, a CSC or a choice centre makes it free."
+  },
+  {
+   "k": "3cdc4967824a",
+   "ctx": "demoSteps",
+   "t": "At the hospital, go to the Ayushman Mitra desk with the card, ration card and Aadhaar. Do not pay cash for a treatment covered by the scheme; call 104 if anyone asks for money."
+  },
+  {
+   "k": "41daa19c6389",
+   "ctx": "helpline",
+   "t": "104 (Ayushman Chhattisgarh helpline) / 14555 (Ayushman Bharat national helpline)"
+  },
+  {
+   "k": "eaabd44420d2",
+   "ctx": "title",
+   "t": "Pension Scheme to Old Age Persons (Senior Citizen) — DNH and Daman & Diu"
+  },
+  {
+   "k": "d25459ec0003",
+   "ctx": "department",
+   "t": "Social Welfare Department, UT of Dadra & Nagar Haveli and Daman & Diu (through District Panchayats and Municipal Councils)"
+  },
+  {
+   "k": "aa6b3fbed4bf",
+   "ctx": "brief",
+   "t": "Senior citizens of Dadra & Nagar Haveli, Daman and Diu get Rs.1,500 a month from age 60 and Rs.2,000 a month from age 70, by direct transfer to the bank. It is for domiciles of the UT with a family income up to Rs.1.5 lakh a year. You hand in the form at your Gram Panchayat, District Panchayat or Municipal Council. The application should be decided within 30 days, and the pension arrives by the 5th of every month."
+  },
+  {
+   "k": "daf45411aa71",
+   "ctx": "benefit",
+   "t": "Rs.1,500 a month at 60-69; Rs.2,000 a month at 70 and above"
+  },
+  {
+   "k": "1cf24593de7e",
+   "ctx": "eligibility",
+   "t": "Domicile of Dadra & Nagar Haveli and Daman & Diu"
+  },
+  {
+   "k": "e51624507ae9",
+   "ctx": "eligibility",
+   "t": "Annual family income not above Rs.1.5 lakh"
+  },
+  {
+   "k": "061afd83279c",
+   "ctx": "eligibility",
+   "t": "Not getting money under any other old age pension scheme"
+  },
+  {
+   "k": "76b9d5a0114f",
+   "ctx": "eligibility",
+   "t": "The form asks whether you have applied for a Portuguese or other foreign passport. Answer truthfully"
+  },
+  {
+   "k": "0c4780f49615",
+   "ctx": "documents",
+   "t": "Age certificate (proof that you are 60 or above)"
+  },
+  {
+   "k": "3d7a2b6c6933",
+   "ctx": "documents",
+   "t": "Income certificate showing family income below Rs.1.5 lakh"
+  },
+  {
+   "k": "a4f49927481e",
+   "ctx": "documents",
+   "t": "Copy of the bank passbook (account linked to Aadhaar)"
+  },
+  {
+   "k": "3640d854e1b5",
+   "ctx": "documents",
+   "t": "Signed undertaking (printed with the form)"
   }
  ]
 }

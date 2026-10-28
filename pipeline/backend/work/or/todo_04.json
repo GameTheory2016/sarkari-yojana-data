@@ -6,111 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_04.json",
  "items": [
   {
-   "k": "e0a5041378a3",
-   "ctx": "hint",
-   "t": "The date your pregnancy was registered and the check-up was done, also on the MCP card."
-  },
-  {
-   "k": "311784333c6a",
-   "ctx": "value",
-   "t": "Aadhaar-seeded account at Bank of India, Biswan"
-  },
-  {
-   "k": "622d66077314",
-   "ctx": "hint",
-   "t": "Money is sent to whichever account is linked with your Aadhaar. Ask your bank to link it first if it is not."
-  },
-  {
-   "k": "a5d2719c95b9",
-   "ctx": "hint",
-   "t": "Choose the Anganwadi centre near your house. Its worker will visit to confirm your details."
-  },
-  {
-   "k": "5ae3786d4be3",
-   "ctx": "demoSteps",
-   "t": "Register your pregnancy at the Anganwadi centre or government health centre, get the MCP card and do the check-up (ANC)."
-  },
-  {
-   "k": "7a05a9020026",
-   "ctx": "demoSteps",
-   "t": "Open pmmvy.wcd.gov.in, press Login, choose Citizen, verify your mobile with OTP and create your profile. If you cannot do it, ask your Anganwadi worker or ASHA to fill the form for you on her app."
-  },
-  {
-   "k": "17ddc22e7ed3",
-   "ctx": "demoSteps",
-   "t": "Choose Beneficiary Registration, verify Aadhaar with OTP, fill the eligibility proof, LMP and check-up dates and the Anganwadi centre, then submit and note the registration number."
-  },
-  {
-   "k": "8b3a9c436022",
-   "ctx": "demoSteps",
-   "t": "The Anganwadi worker checks your details and the block officer approves. Rs.3,000 is then sent to your Aadhaar-linked account."
-  },
-  {
-   "k": "1d37e931f9af",
-   "ctx": "demoSteps",
-   "t": "After the birth, register the baby's birth and get the 14-week vaccines. Then log in again, or ask the Anganwadi worker, to fill the child's details. Rs.2,000 is sent next."
-  },
-  {
-   "k": "525abdb6ca1c",
-   "ctx": "demoSteps",
-   "t": "If your second child is a girl, apply after her birth and 14-week vaccines. Rs.6,000 is sent in one payment."
-  },
-  {
-   "k": "24819b81f80f",
-   "ctx": "demoSteps",
-   "t": "Check progress under Track Application Status on the portal. For a delay, use Lodge Grievance on the same site or call 1515."
-  },
-  {
-   "k": "a90a5ba91252",
-   "ctx": "title",
-   "t": "Andaman & Nicobar Old Age Pension (Social Security Pension)"
-  },
-  {
-   "k": "4e1d33a85a51",
-   "ctx": "department",
-   "t": "Directorate of Social Welfare, Andaman & Nicobar Administration"
-  },
-  {
-   "k": "569e2fe5e5c6",
-   "ctx": "brief",
-   "t": "Old people in the islands get Rs.2,500 a month from 60, and Rs.3,000 a month from 80, paid into their bank account. It is for people who have lived in the islands for at least 10 years and whose household earns less than Rs.48,000 a year. One common form covers the old age, widow, destitute and disability pensions. You hand it in at the CDPO office of your area. More than 15,600 people get this pension."
-  },
-  {
-   "k": "baafac1115f1",
-   "ctx": "benefit",
-   "t": "Rs.2,500 a month (Rs.3,000 a month from age 80)"
-  },
-  {
-   "k": "f7dfd69424b0",
-   "ctx": "eligibility",
-   "t": "Living in the islands continuously for at least 10 years (local certificate or resident identity card)"
-  },
-  {
-   "k": "84b663486f11",
-   "ctx": "eligibility",
-   "t": "Household income less than Rs.48,000 a year (Rs.4,000 a month)"
-  },
-  {
-   "k": "883b5f695b53",
-   "ctx": "eligibility",
-   "t": "Not getting any other pension, allowance or grant from the government"
-  },
-  {
-   "k": "26c8cedaa4fc",
-   "ctx": "eligibility",
-   "t": "From age 80 the pension rises to Rs.3,000 a month"
-  },
-  {
-   "k": "98e9c23e0965",
-   "ctx": "documents",
-   "t": "Income and residence certificate from the Tehsildar (printed on the form)"
-  },
-  {
-   "k": "f753a6bb6ae7",
-   "ctx": "documents",
-   "t": "Age certificate from a Medical Officer (printed on the form)"
-  },
-  {
    "k": "c2e4fdebf7f5",
    "ctx": "documents",
    "t": "Certificate from your Pradhan or Councillor (printed on the form)"
@@ -774,6 +669,101 @@
    "k": "b2cd5bec3430",
    "ctx": "documents",
    "t": "Mobile number and a recent family photograph"
+  },
+  {
+   "k": "d711dd0ba82b",
+   "ctx": "submitAt",
+   "t": "Your Village or Ward Secretariat (now called the Swarna Gramam / Swarna Ward office). Ask the Digital Assistant for the NTR Vaidya Seva health card. Take Aadhaar for every member, the rice card or an income certificate, and the pattadar passbook or property tax receipt. Your household must already appear in the Secretariat's household survey. For treatment, go to the Aarogya Mithra desk at any network hospital or PHC."
+  },
+  {
+   "k": "20ae63ab1520",
+   "ctx": "label",
+   "t": "Name of the head of the family"
+  },
+  {
+   "k": "fce4c84238d6",
+   "ctx": "hint",
+   "t": "As printed on Aadhaar. The card is made for the whole family under this name."
+  },
+  {
+   "k": "fadd5d277a2c",
+   "ctx": "hint",
+   "t": "The head of the family's 12-digit number. The Digital Assistant checks it with your thumbprint."
+  },
+  {
+   "k": "54b1369aaefa",
+   "ctx": "hint",
+   "t": "The Secretariat finds it from your Aadhaar. If your family is missing from the survey, ask for it to be added first."
+  },
+  {
+   "k": "0ae54a157dc2",
+   "ctx": "hint",
+   "t": "If your family has a rice card, you are covered already and do not need to apply. Just show it at the hospital."
+  },
+  {
+   "k": "3e65656bc1e7",
+   "ctx": "value",
+   "t": "Srinivas Palli (husband, 44), Divya (daughter, 15), Kiran (son, 11)"
+  },
+  {
+   "k": "429d52f48373",
+   "ctx": "hint",
+   "t": "Everyone who lives and eats with you. Each person needs their own Aadhaar."
+  },
+  {
+   "k": "db1e81a280c5",
+   "ctx": "value",
+   "t": "Rs.3,60,000; salary certificate from Sri Sai Textiles, Guntur"
+  },
+  {
+   "k": "524976f3e2e4",
+   "ctx": "hint",
+   "t": "It must be Rs.5 lakh or less. Attach the salary certificate, income certificate or income-tax return."
+  },
+  {
+   "k": "af9b275d7c14",
+   "ctx": "hint",
+   "t": "Copy it from the pattadar passbook. Wet land must be under 12 acres and dry land under 35 acres."
+  },
+  {
+   "k": "8ec531b769a5",
+   "ctx": "hint",
+   "t": "Only for towns. It is on your property tax receipt and must be under 3,000 sq ft."
+  },
+  {
+   "k": "94df7d624a20",
+   "ctx": "hint",
+   "t": "One car is allowed. A family with two or more cars cannot get the card."
+  },
+  {
+   "k": "fe3811f5aa47",
+   "ctx": "hint",
+   "t": "Messages about the application and the card come to this number."
+  },
+  {
+   "k": "837bee1a1494",
+   "ctx": "demoSteps",
+   "t": "If your family has a rice card, you are covered already. Skip to the hospital step."
+  },
+  {
+   "k": "4be44303b671",
+   "ctx": "demoSteps",
+   "t": "Otherwise, go to your Village or Ward Secretariat with Aadhaar for every member, an income certificate and your land or property tax papers. The Digital Assistant applies for the Vaidya Seva card. Keep the acknowledgement number."
+  },
+  {
+   "k": "a06607148f71",
+   "ctx": "demoSteps",
+   "t": "Secretariat staff check income, land, property and vehicles. Once approved, the card is issued to the family through the Secretariat."
+  },
+  {
+   "k": "49640a1076f4",
+   "ctx": "demoSteps",
+   "t": "When you need treatment, go to a PHC, a government hospital or any network hospital listed on drntrvaidyaseva.ap.gov.in. Meet the Aarogya Mithra at the help desk and show the card, rice card or Aadhaar. Your fingerprint is taken."
+  },
+  {
+   "k": "8aef60fa3cbc",
+   "ctx": "demoSteps",
+   "t": "The hospital asks the Trust for approval before the operation. Tests, surgery, medicines and two meals a day are all free, so do not pay anything."
   }
  ]
 }

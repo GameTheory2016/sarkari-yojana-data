@@ -6,99 +6,9 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_18.json",
  "items": [
   {
-   "k": "3c2b8f53d132",
-   "ctx": "brief",
-   "t": "Gives Rs 6,000 in three instalments to a woman pregnant with her second child, for better food and care. It was earlier called the Indira Gandhi Matritva Poshan Yojana; only the name changed and the rules are the same. If the second baby is a boy, the third instalment is Rs 4,000; if it is a girl, she gets Rs 6,000 under the central PM Matru Vandana Yojana instead, making Rs 8,000 in all. There is no form: the Anganwadi worker or ANM records the pregnancy on PCTS and the money comes by DBT."
-  },
-  {
-   "k": "17b5f82525aa",
-   "ctx": "benefit",
-   "t": "Rs 6,000 in 3 instalments for the second child (Rs 8,000 in all if it is a girl)"
-  },
-  {
-   "k": "4a8cabe52464",
-   "ctx": "eligibility",
-   "t": "Woman pregnant with her second child on or after 1 April 2022 (1 November 2020 in Pratapgarh, Dungarpur, Banswara, Udaipur and Baran)"
-  },
-  {
-   "k": "27fbb61b1a00",
-   "ctx": "eligibility",
-   "t": "Runs in all districts; pregnant or breastfeeding Anganwadi workers, helpers, ASHA sahyoginis and saathins are also eligible"
-  },
-  {
-   "k": "d56220c3c3ea",
-   "ctx": "eligibility",
-   "t": "Not for women regularly employed by the Centre, the state or a PSU, or getting the same kind of benefit under another law"
-  },
-  {
-   "k": "501245e1f036",
-   "ctx": "eligibility",
-   "t": "Not eligible if the first pregnancy gave twins, or if after remarriage either partner already has more than one child"
-  },
-  {
-   "k": "d81b32a0364c",
-   "ctx": "eligibility",
-   "t": "Cannot take MMMPY and PM Matru Vandana instalments for the same conditions"
-  },
-  {
-   "k": "c0e17cf5f99f",
-   "ctx": "eligibility",
-   "t": "After a miscarriage or still birth, she stays eligible in a later pregnancy"
-  },
-  {
-   "k": "4086bf6148aa",
-   "ctx": "documents",
-   "t": "Jan Aadhaar card (it will be made at registration if the family has none)"
-  },
-  {
-   "k": "a407a8ff3a5d",
-   "ctx": "documents",
-   "t": "Mamta card (mother and child protection card) — photocopy"
-  },
-  {
-   "k": "1a883eff9f46",
-   "ctx": "documents",
-   "t": "Bank passbook copy of the account linked to the Jan Aadhaar"
-  },
-  {
-   "k": "1c87daf728b2",
-   "ctx": "submitAt",
-   "t": "No form and no fee. Register the pregnancy at the Anganwadi centre, or with the ANM at the sub-centre or government hospital, within 120 days of the last period. Give the Jan Aadhaar, Mamta card, bank passbook and mobile number for the PCTS entry; the instalments then come on their own as the check-ups and the hospital delivery are recorded. For a missing instalment, ask the Anganwadi worker or the CDPO (ICDS project office) of your block."
-  },
-  {
-   "k": "66cceea58332",
-   "ctx": "value",
-   "t": "Pooja Kanwar"
-  },
-  {
-   "k": "beacc7b591ad",
-   "ctx": "hint",
-   "t": "As on the Jan Aadhaar and the bank account."
-  },
-  {
-   "k": "4b95233fdb34",
-   "ctx": "value",
-   "t": "Vikram Singh"
-  },
-  {
-   "k": "1faef154a8e4",
-   "ctx": "hint",
-   "t": "As on the Jan Aadhaar."
-  },
-  {
-   "k": "e040c4b7cd41",
-   "ctx": "hint",
-   "t": "Must be given at registration. If the family has none, the Anganwadi worker will help get it made."
-  },
-  {
    "k": "65a17662c113",
    "ctx": "hint",
    "t": "The first instalment needs registration within 120 days of this date."
-  },
-  {
-   "k": "4752f50319f0",
-   "ctx": "label",
-   "t": "Pregnancy number and living children"
   },
   {
    "k": "0eb086fb0651",
@@ -111,24 +21,9 @@
    "t": "MMMPY is for the second child only. The first child is covered under PM Matru Vandana Yojana."
   },
   {
-   "k": "619693c7aa60",
-   "ctx": "label",
-   "t": "ANC registration date and place"
-  },
-  {
-   "k": "74264c972d86",
-   "ctx": "value",
-   "t": "Anganwadi Kendra, Ward 7, Ajmer — 10-07-2026"
-  },
-  {
    "k": "baf2a5f5b31d",
    "ctx": "hint",
    "t": "Register as early as you can; this PCTS entry is your application."
-  },
-  {
-   "k": "48a4672ed23a",
-   "ctx": "label",
-   "t": "Mamta card number"
   },
   {
    "k": "715438c01a29",
@@ -139,11 +34,6 @@
    "k": "29da49bb73b9",
    "ctx": "hint",
    "t": "Your own account linked to the Jan Aadhaar. The money is paid only by DBT."
-  },
-  {
-   "k": "3a736b2bc3ba",
-   "ctx": "value",
-   "t": "Satellite Hospital, Ajmer (government)"
   },
   {
    "k": "b0a0d7d2e50d",
@@ -189,11 +79,6 @@
    "k": "9360c7ddcc0b",
    "ctx": "title",
    "t": "Mukhyamantri Kisan Samman Nidhi (Rajasthan top-up to PM-Kisan)"
-  },
-  {
-   "k": "0d8d17a265f3",
-   "ctx": "department",
-   "t": "Agriculture Department, Government of Rajasthan"
   },
   {
    "k": "890f4426f4fd",
@@ -251,11 +136,6 @@
    "t": "Bank passbook of an Aadhaar-linked account open for DBT"
   },
   {
-   "k": "5155088b2eda",
-   "ctx": "portalName",
-   "t": "PM-KISAN portal (state share paid automatically)"
-  },
-  {
    "k": "cc4b6acd5ddd",
    "ctx": "hint",
    "t": "The farmer's own 12-digit Aadhaar. The name on the land record must match it."
@@ -271,49 +151,14 @@
    "t": "Choose Rajasthan; only then is the state's Rs 3,000 added."
   },
   {
-   "k": "1a2ff9848eb8",
-   "ctx": "label",
-   "t": "Farmer ID"
-  },
-  {
    "k": "166513ddade8",
    "ctx": "hint",
    "t": "From the Rajasthan Farmer Registry. Get it at e-Mitra, a CSC or a camp if you do not have one."
   },
   {
-   "k": "d09057d55744",
-   "ctx": "label",
-   "t": "District / tehsil / village"
-  },
-  {
-   "k": "d4851e5db8b9",
-   "ctx": "value",
-   "t": "Tonk / Niwai / Barothi"
-  },
-  {
    "k": "1c9c17dc6364",
    "ctx": "hint",
    "t": "Where the farm land is, not where you live now."
-  },
-  {
-   "k": "bb50f1e40637",
-   "ctx": "label",
-   "t": "Farmer name and gender"
-  },
-  {
-   "k": "fa5498f11f6f",
-   "ctx": "value",
-   "t": "Ramkishan Gurjar, Male"
-  },
-  {
-   "k": "66f1a2a418e8",
-   "ctx": "label",
-   "t": "Category and farmer type"
-  },
-  {
-   "k": "260b77322936",
-   "ctx": "value",
-   "t": "OBC / Small farmer"
   },
   {
    "k": "35c461a98218",
@@ -324,16 +169,6 @@
    "k": "cf7247610b6c",
    "ctx": "hint",
    "t": "The account must be linked to Aadhaar for DBT, or the money fails."
-  },
-  {
-   "k": "361075645a7c",
-   "ctx": "label",
-   "t": "Land details (khata, khasra, area)"
-  },
-  {
-   "k": "bc3a0536a95b",
-   "ctx": "value",
-   "t": "Khata 88, khasra 1207, 1.42 hectare"
   },
   {
    "k": "5dd828bee17e",
@@ -379,11 +214,6 @@
    "k": "b03a608fb894",
    "ctx": "demoSteps",
    "t": "Check payments on pmkisan.gov.in under Know Your Status, or on the Jan Soochna portal."
-  },
-  {
-   "k": "879858a678f5",
-   "ctx": "helpline",
-   "t": "155261 / 011-24300606 — PM-Kisan helpline; 181 — Rajasthan Sampark"
   },
   {
    "k": "18415ee19f13",
@@ -476,29 +306,9 @@
    "t": "Name of applicant (from Jan Aadhaar)"
   },
   {
-   "k": "d94e59aed09e",
-   "ctx": "value",
-   "t": "Mohan Lal Prajapat"
-  },
-  {
    "k": "ce2c808f3271",
    "ctx": "hint",
    "t": "Pick your own name from the family list."
-  },
-  {
-   "k": "b08c6a4da1e2",
-   "ctx": "value",
-   "t": "Kanhaiya Lal Prajapat"
-  },
-  {
-   "k": "0baaee03e544",
-   "ctx": "label",
-   "t": "Gender and mobile number"
-  },
-  {
-   "k": "0e1e82b88d02",
-   "ctx": "value",
-   "t": "Male / 90000 31862"
   },
   {
    "k": "d257c41d1020",
@@ -511,11 +321,6 @@
    "t": "Present address — district, block, gram panchayat, village"
   },
   {
-   "k": "5ed0168ce3db",
-   "ctx": "value",
-   "t": "Bhilwara / Mandal / Bhagwanpura / Bhagwanpura"
-  },
-  {
    "k": "3e8d7dc669a2",
    "ctx": "hint",
    "t": "Where you live now. Your labour office is chosen from this."
@@ -526,24 +331,9 @@
    "t": "Category, date of birth, marital status"
   },
   {
-   "k": "0b5534d81acb",
-   "ctx": "value",
-   "t": "OBC / 12-07-1988 / Married"
-  },
-  {
    "k": "3152fcfaa960",
    "ctx": "hint",
    "t": "You must be between 18 and 60. Age is worked out from the date of birth."
-  },
-  {
-   "k": "e2ea06fea766",
-   "ctx": "hint",
-   "t": "Your own 12-digit Aadhaar."
-  },
-  {
-   "k": "91b038a8b604",
-   "ctx": "label",
-   "t": "Construction worker certificate issued by"
   },
   {
    "k": "504c80f1a811",
@@ -569,11 +359,6 @@
    "k": "f32b545e961b",
    "ctx": "hint",
    "t": "List every site, the work you did and the days worked. The total must be at least 90."
-  },
-  {
-   "k": "7dc477c5f1b4",
-   "ctx": "value",
-   "t": "Geeta Devi, wife, 34, 100%"
   },
   {
    "k": "f678c6f0307c",
@@ -619,11 +404,6 @@
    "k": "069e85463875",
    "ctx": "helpline",
    "t": "1800-1800-999 — Labour Department helpline; 0141-2222961 / 0141-2220334 — construction worker schemes; 0141-2450793 — LDMS help"
-  },
-  {
-   "k": "13a435cfb30d",
-   "ctx": "title",
-   "t": "Mukhyamantri Ayushman Arogya Yojana (MAA Card)"
   },
   {
    "k": "8172d98a1657",
@@ -711,24 +491,9 @@
    "t": "Your Rajasthan SSO login. If you have none, make one free on the same page using your Jan Aadhaar."
   },
   {
-   "k": "75f527181b57",
-   "ctx": "value",
-   "t": "Free"
-  },
-  {
    "k": "99c4f0f9c6b5",
    "ctx": "hint",
    "t": "Free is for small and marginal farmers, contract workers and Covid ex-gratia families. Every other family chooses Paid and pays Rs 850. NFSA ration-card families do not register at all."
-  },
-  {
-   "k": "4c789aa399c9",
-   "ctx": "label",
-   "t": "Free category"
-  },
-  {
-   "k": "ab7e38d5dd24",
-   "ctx": "value",
-   "t": "SMF (small and marginal farmer)"
   },
   {
    "k": "9fc701904fde",
@@ -744,11 +509,6 @@
    "k": "30a802b56d26",
    "ctx": "hint",
    "t": "The 10-digit family number on the Jan Aadhaar card. If the card is still being made, the enrolment receipt number also works."
-  },
-  {
-   "k": "aabaf3fd2677",
-   "ctx": "label",
-   "t": "Family member who e-signs"
   },
   {
    "k": "de0a515a69ba",
@@ -1054,6 +814,146 @@
    "k": "0776d6b1ca6c",
    "ctx": "eligibility",
    "t": "Regular government servants and their dependants are not covered"
+  },
+  {
+   "k": "7befde054f04",
+   "ctx": "eligibility",
+   "t": "Patients under 20 qualify through their birth certificate and the father's SSC or COI. A woman married to an SSC or COI holder needs her own COI and a marriage certificate"
+  },
+  {
+   "k": "71895afd8e8e",
+   "ctx": "eligibility",
+   "t": "BPL patients use the SSIAF limit of Rs.1.5 lakh first, then up to Rs.1.5 lakh more from MMJRK"
+  },
+  {
+   "k": "1a4d1dfbd666",
+   "ctx": "documents",
+   "t": "Referral certificate from the State Medical Board, STNM Hospital"
+  },
+  {
+   "k": "accba50bc639",
+   "ctx": "documents",
+   "t": "Attested copy of the patient's Sikkim Subject Certificate or COI"
+  },
+  {
+   "k": "54468140b51f",
+   "ctx": "documents",
+   "t": "For a patient under 20: birth certificate and father's SSC or COI"
+  },
+  {
+   "k": "5e251b258d13",
+   "ctx": "documents",
+   "t": "For a married woman: her COI and marriage certificate"
+  },
+  {
+   "k": "34042e1e55c5",
+   "ctx": "documents",
+   "t": "Doctor's estimate or hospital bills for the treatment"
+  },
+  {
+   "k": "5bd4723a7846",
+   "ctx": "documents",
+   "t": "Aadhaar card and bank passbook of the patient or attendant"
+  },
+  {
+   "k": "148ef038628c",
+   "ctx": "submitAt",
+   "t": "First get the referral from the State Medical Board at STNM Hospital, Sochakgang, Gangtok. Then take the referral certificate, the attested SSC or COI copy (and BPL proof) to the Health & Family Welfare Department. The department approves the amount before you travel. Cashless treatment is only at empanelled hospitals. Elsewhere you claim a reimbursement with the bills. In a life-threatening emergency you can be treated first and claim within six months."
+  },
+  {
+   "k": "58cbff3bbb29",
+   "ctx": "hint",
+   "t": "As written on the patient's SSC or COI."
+  },
+  {
+   "k": "389fe20f2931",
+   "ctx": "hint",
+   "t": "Patients under 20 must add a birth certificate and the father's SSC or COI."
+  },
+  {
+   "k": "fcf9c4139ca4",
+   "ctx": "hint",
+   "t": "Copy it from the certificate and attach an attested copy."
+  },
+  {
+   "k": "1a81ce8caa02",
+   "ctx": "hint",
+   "t": "APL or BPL. BPL patients get the SSIAF amount first, then MMJRK on top."
+  },
+  {
+   "k": "edfeaeb39c34",
+   "ctx": "hint",
+   "t": "Copy it from the State Medical Board referral."
+  },
+  {
+   "k": "f272b039223b",
+   "ctx": "hint",
+   "t": "From the referral given by the State Medical Board at STNM Hospital."
+  },
+  {
+   "k": "77aa9dc19ece",
+   "ctx": "hint",
+   "t": "Choose an empanelled hospital to get cashless treatment."
+  },
+  {
+   "k": "146b692cfb73",
+   "ctx": "hint",
+   "t": "The family member who will travel with the patient."
+  },
+  {
+   "k": "f12bd72f354c",
+   "ctx": "hint",
+   "t": "A number the department can call about the approval."
+  },
+  {
+   "k": "7a07a5544aaf",
+   "ctx": "hint",
+   "t": "Needed only if you pay first and claim the money back."
+  },
+  {
+   "k": "eede1c4dadef",
+   "ctx": "demoSteps",
+   "t": "Your doctor in Sikkim sends your case to the State Medical Board at STNM Hospital, which gives a referral certificate."
+  },
+  {
+   "k": "d86b2f98bbb8",
+   "ctx": "demoSteps",
+   "t": "Take the referral and your attested SSC or COI (and BPL proof if you have one) to the Health & Family Welfare Department."
+  },
+  {
+   "k": "989cc1434f97",
+   "ctx": "demoSteps",
+   "t": "The department checks your papers and approves the amount for your illness, up to Rs.2 lakh, or Rs.3 lakh for BPL patients."
+  },
+  {
+   "k": "a9fed4038afc",
+   "ctx": "demoSteps",
+   "t": "Go to the empanelled hospital. Treatment there is cashless up to the approved amount. Anything above it the family pays."
+  },
+  {
+   "k": "b894dbe60286",
+   "ctx": "demoSteps",
+   "t": "If you were treated in an emergency or at a non-cashless hospital, submit the bills within six months for a reimbursement into your bank account."
+  },
+  {
+   "k": "42616650a2af",
+   "ctx": "demoSteps",
+   "t": "For a follow-up visit, ask the department whether a balance is left from your first approval."
+  },
+  {
+   "k": "41e5c2545ca8",
+   "ctx": "helpline",
+   "t": "03592-202633 — Health & Family Welfare Department, Government of Sikkim"
+  },
+  {
+   "k": "8fae53bd06bf",
+   "ctx": "title",
+   "t": "Sikkim Aama Sashaktikaran Yojana (Aama Yojana)"
+  },
+  {
+   "k": "90952e2c89bf",
+   "ctx": "department",
+   "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Government of Sikkim"
   }
  ]
 }

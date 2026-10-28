@@ -6,131 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_03.json",
  "items": [
   {
-   "k": "269bb8508266",
-   "ctx": "demoSteps",
-   "t": "Get your bank account seeded with Aadhaar for DBT at your branch. Without it the payment waits, though it keeps adding up."
-  },
-  {
-   "k": "1cbaad1c380d",
-   "ctx": "demoSteps",
-   "t": "Your employer files PF every month. Check in UMANG or on the EPFO member portal that your contributions are showing."
-  },
-  {
-   "k": "9f95d2706a42",
-   "ctx": "demoSteps",
-   "t": "After 6 completed months with the same employer, the first instalment, half of one month's PF wage up to Rs.7,500, comes to your Aadhaar-seeded account."
-  },
-  {
-   "k": "84489186dc47",
-   "ctx": "demoSteps",
-   "t": "Finish the free online financial literacy course on the EPFO portal before your 12th month."
-  },
-  {
-   "k": "da756c624b4a",
-   "ctx": "demoSteps",
-   "t": "After 12 completed months, the second instalment (the rest, total up to Rs.15,000) is put into a savings deposit in your name, to be paid out later."
-  },
-  {
-   "k": "eefe4afe9c34",
-   "ctx": "demoSteps",
-   "t": "If nothing arrives, call the EPFO help desk or file a grievance on EPFiGMS with your UAN."
-  },
-  {
-   "k": "8b5426483abd",
-   "ctx": "helpline",
-   "t": "14480 / 1800-180-1850 (EPFO toll-free help desk)"
-  },
-  {
-   "k": "012b0dba3d25",
-   "ctx": "title",
-   "t": "Ayushman Vay Vandana Card (Ayushman Card for 70+)"
-  },
-  {
-   "k": "f995a7d222c4",
-   "ctx": "brief",
-   "t": "Every person aged 70 or above can get free hospital treatment of up to Rs.5 lakh a year, whatever the family income. It is part of Ayushman Bharat PM-JAY, and treatment is cashless at any empanelled government or private hospital. If your family already has Ayushman cards, you still get your own extra Rs.5 lakh. You can make the card yourself on the Ayushman website or app with just your Aadhaar."
-  },
-  {
-   "k": "150bc44c47d3",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year cashless treatment for every person aged 70+"
-  },
-  {
-   "k": "db6427d9b534",
-   "ctx": "eligibility",
-   "t": "Every person aged 70 or above, by the year of birth on Aadhaar, rich or poor"
-  },
-  {
-   "k": "981e879c6ffc",
-   "ctx": "eligibility",
-   "t": "If your family already has Ayushman (PM-JAY) cards, you get a separate top-up of up to Rs.5 lakh a year just for yourself"
-  },
-  {
-   "k": "c23260a49e9b",
-   "ctx": "eligibility",
-   "t": "In a new family, husband and wife who are both 70+ share Rs.5 lakh a year between them"
-  },
-  {
-   "k": "7ee2a1d14faa",
-   "ctx": "eligibility",
-   "t": "People with private health insurance or ESIC can also join"
-  },
-  {
-   "k": "07e8013c7a8e",
-   "ctx": "eligibility",
-   "t": "CGHS, ECHS and CAPF members must choose either their own scheme or this one, not both"
-  },
-  {
-   "k": "206de9fa82c3",
-   "ctx": "eligibility",
-   "t": "Available in the states and UTs that run Ayushman Bharat PM-JAY"
-  },
-  {
-   "k": "86f1fe85236e",
-   "ctx": "documents",
-   "t": "Aadhaar card (the age is taken from Aadhaar, no other age proof needed)"
-  },
-  {
-   "k": "691d86410437",
-   "ctx": "documents",
-   "t": "Mobile number for login OTP"
-  },
-  {
-   "k": "c79ea8bdca23",
-   "ctx": "documents",
-   "t": "Aadhaar-linked mobile for Aadhaar OTP, or face authentication if the mobile is not linked"
-  },
-  {
-   "k": "8b03316dce60",
-   "ctx": "documents",
-   "t": "CGHS, ECHS or CAPF card number, only if you hold one"
-  },
-  {
-   "k": "88dba747fc1f",
-   "ctx": "documents",
-   "t": "Present address with PIN code"
-  },
-  {
-   "k": "1cc5416d12d3",
-   "ctx": "hint",
-   "t": "Choose Beneficiary. A son or daughter can log in with their own mobile to make the card for a parent."
-  },
-  {
-   "k": "7fdc03747f47",
-   "ctx": "hint",
-   "t": "Any working number. The login OTP comes here, and the message when the card is ready."
-  },
-  {
-   "k": "e7221694aa07",
-   "ctx": "label",
-   "t": "Enrolment for"
-  },
-  {
-   "k": "e42842675e42",
-   "ctx": "value",
-   "t": "Ayushman Vay Vandana (70+)"
-  },
-  {
    "k": "ea061dfe2b95",
    "ctx": "hint",
    "t": "After logging in, choose the Vay Vandana enrolment option, not the normal family search."
@@ -1054,6 +929,111 @@
    "k": "5a4aca7ed9f6",
    "ctx": "label",
    "t": "MCP card registration and ANC date"
+  },
+  {
+   "k": "e0a5041378a3",
+   "ctx": "hint",
+   "t": "The date your pregnancy was registered and the check-up was done, also on the MCP card."
+  },
+  {
+   "k": "311784333c6a",
+   "ctx": "value",
+   "t": "Aadhaar-seeded account at Bank of India, Biswan"
+  },
+  {
+   "k": "622d66077314",
+   "ctx": "hint",
+   "t": "Money is sent to whichever account is linked with your Aadhaar. Ask your bank to link it first if it is not."
+  },
+  {
+   "k": "a5d2719c95b9",
+   "ctx": "hint",
+   "t": "Choose the Anganwadi centre near your house. Its worker will visit to confirm your details."
+  },
+  {
+   "k": "5ae3786d4be3",
+   "ctx": "demoSteps",
+   "t": "Register your pregnancy at the Anganwadi centre or government health centre, get the MCP card and do the check-up (ANC)."
+  },
+  {
+   "k": "7a05a9020026",
+   "ctx": "demoSteps",
+   "t": "Open pmmvy.wcd.gov.in, press Login, choose Citizen, verify your mobile with OTP and create your profile. If you cannot do it, ask your Anganwadi worker or ASHA to fill the form for you on her app."
+  },
+  {
+   "k": "17ddc22e7ed3",
+   "ctx": "demoSteps",
+   "t": "Choose Beneficiary Registration, verify Aadhaar with OTP, fill the eligibility proof, LMP and check-up dates and the Anganwadi centre, then submit and note the registration number."
+  },
+  {
+   "k": "8b3a9c436022",
+   "ctx": "demoSteps",
+   "t": "The Anganwadi worker checks your details and the block officer approves. Rs.3,000 is then sent to your Aadhaar-linked account."
+  },
+  {
+   "k": "1d37e931f9af",
+   "ctx": "demoSteps",
+   "t": "After the birth, register the baby's birth and get the 14-week vaccines. Then log in again, or ask the Anganwadi worker, to fill the child's details. Rs.2,000 is sent next."
+  },
+  {
+   "k": "525abdb6ca1c",
+   "ctx": "demoSteps",
+   "t": "If your second child is a girl, apply after her birth and 14-week vaccines. Rs.6,000 is sent in one payment."
+  },
+  {
+   "k": "24819b81f80f",
+   "ctx": "demoSteps",
+   "t": "Check progress under Track Application Status on the portal. For a delay, use Lodge Grievance on the same site or call 1515."
+  },
+  {
+   "k": "a90a5ba91252",
+   "ctx": "title",
+   "t": "Andaman & Nicobar Old Age Pension (Social Security Pension)"
+  },
+  {
+   "k": "4e1d33a85a51",
+   "ctx": "department",
+   "t": "Directorate of Social Welfare, Andaman & Nicobar Administration"
+  },
+  {
+   "k": "569e2fe5e5c6",
+   "ctx": "brief",
+   "t": "Old people in the islands get Rs.2,500 a month from 60, and Rs.3,000 a month from 80, paid into their bank account. It is for people who have lived in the islands for at least 10 years and whose household earns less than Rs.48,000 a year. One common form covers the old age, widow, destitute and disability pensions. You hand it in at the CDPO office of your area. More than 15,600 people get this pension."
+  },
+  {
+   "k": "baafac1115f1",
+   "ctx": "benefit",
+   "t": "Rs.2,500 a month (Rs.3,000 a month from age 80)"
+  },
+  {
+   "k": "f7dfd69424b0",
+   "ctx": "eligibility",
+   "t": "Living in the islands continuously for at least 10 years (local certificate or resident identity card)"
+  },
+  {
+   "k": "84b663486f11",
+   "ctx": "eligibility",
+   "t": "Household income less than Rs.48,000 a year (Rs.4,000 a month)"
+  },
+  {
+   "k": "883b5f695b53",
+   "ctx": "eligibility",
+   "t": "Not getting any other pension, allowance or grant from the government"
+  },
+  {
+   "k": "26c8cedaa4fc",
+   "ctx": "eligibility",
+   "t": "From age 80 the pension rises to Rs.3,000 a month"
+  },
+  {
+   "k": "98e9c23e0965",
+   "ctx": "documents",
+   "t": "Income and residence certificate from the Tehsildar (printed on the form)"
+  },
+  {
+   "k": "f753a6bb6ae7",
+   "ctx": "documents",
+   "t": "Age certificate from a Medical Officer (printed on the form)"
   }
  ]
 }

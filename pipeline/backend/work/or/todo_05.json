@@ -6,101 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_05.json",
  "items": [
   {
-   "k": "d711dd0ba82b",
-   "ctx": "submitAt",
-   "t": "Your Village or Ward Secretariat (now called the Swarna Gramam / Swarna Ward office). Ask the Digital Assistant for the NTR Vaidya Seva health card. Take Aadhaar for every member, the rice card or an income certificate, and the pattadar passbook or property tax receipt. Your household must already appear in the Secretariat's household survey. For treatment, go to the Aarogya Mithra desk at any network hospital or PHC."
-  },
-  {
-   "k": "20ae63ab1520",
-   "ctx": "label",
-   "t": "Name of the head of the family"
-  },
-  {
-   "k": "fce4c84238d6",
-   "ctx": "hint",
-   "t": "As printed on Aadhaar. The card is made for the whole family under this name."
-  },
-  {
-   "k": "fadd5d277a2c",
-   "ctx": "hint",
-   "t": "The head of the family's 12-digit number. The Digital Assistant checks it with your thumbprint."
-  },
-  {
-   "k": "54b1369aaefa",
-   "ctx": "hint",
-   "t": "The Secretariat finds it from your Aadhaar. If your family is missing from the survey, ask for it to be added first."
-  },
-  {
-   "k": "0ae54a157dc2",
-   "ctx": "hint",
-   "t": "If your family has a rice card, you are covered already and do not need to apply. Just show it at the hospital."
-  },
-  {
-   "k": "3e65656bc1e7",
-   "ctx": "value",
-   "t": "Srinivas Palli (husband, 44), Divya (daughter, 15), Kiran (son, 11)"
-  },
-  {
-   "k": "429d52f48373",
-   "ctx": "hint",
-   "t": "Everyone who lives and eats with you. Each person needs their own Aadhaar."
-  },
-  {
-   "k": "db1e81a280c5",
-   "ctx": "value",
-   "t": "Rs.3,60,000; salary certificate from Sri Sai Textiles, Guntur"
-  },
-  {
-   "k": "524976f3e2e4",
-   "ctx": "hint",
-   "t": "It must be Rs.5 lakh or less. Attach the salary certificate, income certificate or income-tax return."
-  },
-  {
-   "k": "af9b275d7c14",
-   "ctx": "hint",
-   "t": "Copy it from the pattadar passbook. Wet land must be under 12 acres and dry land under 35 acres."
-  },
-  {
-   "k": "8ec531b769a5",
-   "ctx": "hint",
-   "t": "Only for towns. It is on your property tax receipt and must be under 3,000 sq ft."
-  },
-  {
-   "k": "94df7d624a20",
-   "ctx": "hint",
-   "t": "One car is allowed. A family with two or more cars cannot get the card."
-  },
-  {
-   "k": "fe3811f5aa47",
-   "ctx": "hint",
-   "t": "Messages about the application and the card come to this number."
-  },
-  {
-   "k": "837bee1a1494",
-   "ctx": "demoSteps",
-   "t": "If your family has a rice card, you are covered already. Skip to the hospital step."
-  },
-  {
-   "k": "4be44303b671",
-   "ctx": "demoSteps",
-   "t": "Otherwise, go to your Village or Ward Secretariat with Aadhaar for every member, an income certificate and your land or property tax papers. The Digital Assistant applies for the Vaidya Seva card. Keep the acknowledgement number."
-  },
-  {
-   "k": "a06607148f71",
-   "ctx": "demoSteps",
-   "t": "Secretariat staff check income, land, property and vehicles. Once approved, the card is issued to the family through the Secretariat."
-  },
-  {
-   "k": "49640a1076f4",
-   "ctx": "demoSteps",
-   "t": "When you need treatment, go to a PHC, a government hospital or any network hospital listed on drntrvaidyaseva.ap.gov.in. Meet the Aarogya Mithra at the help desk and show the card, rice card or Aadhaar. Your fingerprint is taken."
-  },
-  {
-   "k": "8aef60fa3cbc",
-   "ctx": "demoSteps",
-   "t": "The hospital asks the Trust for approval before the operation. Tests, surgery, medicines and two meals a day are all free, so do not pay anything."
-  },
-  {
    "k": "8236f80c2c9a",
    "ctx": "demoSteps",
    "t": "At discharge you get 10 days of medicines and bus fare home, and you sign a letter saying you paid nothing. For listed surgeries, the Aarogya Aasara recovery allowance goes to your bank account."
@@ -744,6 +649,106 @@
    "k": "0d3ebbfe6da2",
    "ctx": "demoSteps",
    "t": "The Gaon Panchayat, VCDC or town body checks each family against the eligibility checklist. The District Level Monitoring Committee under the Deputy Commissioner then finalises the list."
+  },
+  {
+   "k": "2b8175f04654",
+   "ctx": "demoSteps",
+   "t": "The approved list is published and the Finance Department checks the bank details. If an SMS says your details are wrong, correct them at the Gaon Panchayat or ward office."
+  },
+  {
+   "k": "f0ea67664237",
+   "ctx": "demoSteps",
+   "t": "Rs.1,250 then arrives in her bank account every month by DBT. Keep the account seeded with Aadhaar, or the payment is held back."
+  },
+  {
+   "k": "4467cfd6dbf4",
+   "ctx": "demoSteps",
+   "t": "If the money stops or the name is missing, call the Orunodoi helpdesk on 1800-202-6256 (working days, 10 am to 6 pm) or meet the Orunodoi Sarothi."
+  },
+  {
+   "k": "e5c876f513f6",
+   "ctx": "helpline",
+   "t": "1800-202-6256 — Orunodoi 3.0 helpdesk, Finance Department, Assam (working days, 10 am to 6 pm)"
+  },
+  {
+   "k": "fc1656306d33",
+   "ctx": "title",
+   "t": "Mukhya Mantrir Nijut Moina Aasoni (Nijut Moina)"
+  },
+  {
+   "k": "1d546b590169",
+   "ctx": "department",
+   "t": "Directorate of Higher Education, Higher Education Department, Government of Assam"
+  },
+  {
+   "k": "fc9cc48ea165",
+   "ctx": "brief",
+   "t": "A monthly allowance for girl students in Assam, paid for 10 months a year so that girls keep studying instead of being married off early. A girl in Class 11 or 12 gets Rs.1,000 a month, a degree student Rs.1,250 and a postgraduate or B.Ed student Rs.2,500, whatever the family income. Now in its second phase (Nijut Moina 2.0), it opens every August: the college gives out the form, and the student then submits an online application on the Samarth student portal (degree and PG) or the AHSEC DARPAN portal (Class 11 and 12)."
+  },
+  {
+   "k": "b9dc056b5bd7",
+   "ctx": "benefit",
+   "t": "Rs.1,000 (HS), Rs.1,250 (degree) or Rs.2,500 (PG and B.Ed) a month for 10 months a year"
+  },
+  {
+   "k": "6057ec6ef77f",
+   "ctx": "eligibility",
+   "t": "Girl students domiciled in Assam, whatever the family income"
+  },
+  {
+   "k": "5075f9981050",
+   "ctx": "eligibility",
+   "t": "Studying in HS 1st or 2nd year, a degree course, PG or B.Ed in a government or provincialised institution. Girls in polytechnic courses are covered from 2026-27"
+  },
+  {
+   "k": "bb4f53becc2a",
+   "ctx": "eligibility",
+   "t": "She must be unmarried. Married girls are allowed only in PG and B.Ed courses"
+  },
+  {
+   "k": "d753f0035107",
+   "ctx": "eligibility",
+   "t": "Not for daughters of Ministers, MPs or MLAs, or for in-service teachers sent to B.Ed on deputation"
+  },
+  {
+   "k": "51298754de7d",
+   "ctx": "eligibility",
+   "t": "HS and degree girls who take the Dr. Banikanta Kakati merit scooter cannot get it (they may give up the scooter instead), nor can PG students on the CM's Jibon Prerona scheme"
+  },
+  {
+   "k": "9ae17a48591f",
+   "ctx": "eligibility",
+   "t": "She must have sat the final exam of the previous year and keep regular attendance and discipline"
+  },
+  {
+   "k": "1581657ba5d9",
+   "ctx": "documents",
+   "t": "Passbook of her own bank account, seeded with Aadhaar and enabled for Aadhaar-based payment"
+  },
+  {
+   "k": "d0a52d77d15a",
+   "ctx": "documents",
+   "t": "Mobile number linked to her Aadhaar, for the OTP"
+  },
+  {
+   "k": "c637a257ed4e",
+   "ctx": "documents",
+   "t": "Admission receipt or college or school identity card"
+  },
+  {
+   "k": "a3e726673eb3",
+   "ctx": "documents",
+   "t": "Signed undertaking, declaration and Aadhaar consent form, signed by the student and a parent"
+  },
+  {
+   "k": "ffa48622a11d",
+   "ctx": "documents",
+   "t": "Samarth enrolment number (degree and PG) or DARPAN login (HS), from the college"
+  },
+  {
+   "k": "83c476eed3ba",
+   "ctx": "documents",
+   "t": "Mark sheet of the last examination, where the college asks for it"
   }
  ]
 }

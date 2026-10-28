@@ -6,131 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_11.json",
  "items": [
   {
-   "k": "37fe13a38c0a",
-   "ctx": "demoSteps",
-   "t": "The 8-digit Family ID comes by SMS. Download it any time on meraparivar.haryana.gov.in with the Family ID and an OTP."
-  },
-  {
-   "k": "97a9e4b605a9",
-   "ctx": "demoSteps",
-   "t": "If you cannot do it yourself, a CSC, Antyodaya Saral Kendra or PPP operator does it free. For wrong income or caste, use the correction module or Report Grievance on the PPP site."
-  },
-  {
-   "k": "7895f377d561",
-   "ctx": "helpline",
-   "t": "0172-4880500 (Family ID helpline, 9 am to 6 pm, Monday to Saturday) / 98886 33322 (PPP helpline)"
-  },
-  {
-   "k": "0da3401388ab",
-   "ctx": "title",
-   "t": "Deen Dayal Lado Lakshmi Yojana (Lado Lakshmi)"
-  },
-  {
-   "k": "a970702c6014",
-   "ctx": "department",
-   "t": "SEWA Department (Social Justice, Empowerment, Welfare of SCs & BCs and Antyodaya), Haryana"
-  },
-  {
-   "k": "a655500aa7ff",
-   "ctx": "brief",
-   "t": "Rs 2,100 a month for women aged 23 and above from the poorest families of Haryana. From the second month, Rs 1,100 comes to your savings account and Rs 1,000 is saved for you in a government recurring deposit, paid back with interest when it matures (within five years). You apply only on the official Lado Lakshmi mobile app using your Family ID (PPP). There is no paper form, and any other link or form is fake."
-  },
-  {
-   "k": "ea35ab6499d0",
-   "ctx": "benefit",
-   "t": "Rs 2,100 a month (Rs 1,100 in hand + Rs 1,000 saved in a government RD)"
-  },
-  {
-   "k": "34f1edbbd1b0",
-   "ctx": "eligibility",
-   "t": "Woman aged 23 or above. Any number of eligible women in one family can apply"
-  },
-  {
-   "k": "a778e1091e54",
-   "ctx": "eligibility",
-   "t": "Family income verified in the Family ID (PPP) not more than Rs 1 lakh a year, and the family endorsed as poorest of the poor by the Gram Sabha or Ward Committee"
-  },
-  {
-   "k": "291dff76e5c1",
-   "ctx": "eligibility",
-   "t": "Or family income up to Rs 1.80 lakh if a child in a government school scored over 80% in Class 10 or 12, reached the NIPUN grade level in Classes 1 to 4, or was brought out of malnutrition (SAM/MAM). Mothers of more than three children cannot use this route"
-  },
-  {
-   "k": "c5cf16bf6efe",
-   "ctx": "eligibility",
-   "t": "She, or her husband if she married into Haryana from another state, has lived in Haryana for at least 15 years"
-  },
-  {
-   "k": "b1d9431eaf68",
-   "ctx": "eligibility",
-   "t": "Not for women already getting the old age, widow, Divyang or Ladli allowance or any other government pension, government employees whose family income is above the limit, or income tax payers"
-  },
-  {
-   "k": "c37fae3f3243",
-   "ctx": "documents",
-   "t": "Family ID (Parivar Pehchan Patra) with verified income"
-  },
-  {
-   "k": "279da53a3a73",
-   "ctx": "documents",
-   "t": "Aadhaar card of the applicant, and Aadhaar details of family members"
-  },
-  {
-   "k": "4fd8125b46c0",
-   "ctx": "documents",
-   "t": "Haryana residence certificate (15 years)"
-  },
-  {
-   "k": "e6c67e94edf3",
-   "ctx": "documents",
-   "t": "Savings bank account in the woman's own name"
-  },
-  {
-   "k": "c1cc8f3ecf01",
-   "ctx": "documents",
-   "t": "Electricity connection (consumer account) number"
-  },
-  {
-   "k": "11aa2d630c15",
-   "ctx": "documents",
-   "t": "Vehicle ownership details and HKRN ID, if any"
-  },
-  {
-   "k": "e8a347eb8671",
-   "ctx": "documents",
-   "t": "A smartphone, with the mobile number for OTP and the monthly face check"
-  },
-  {
-   "k": "f559548b07f4",
-   "ctx": "portalName",
-   "t": "Lado Lakshmi App (SEWA Department, Haryana)"
-  },
-  {
-   "k": "88c271641af4",
-   "ctx": "hint",
-   "t": "Type your number in the app and enter the OTP. The eligibility and payment SMS come here."
-  },
-  {
-   "k": "8727e634a42b",
-   "ctx": "label",
-   "t": "Family ID (PPP)"
-  },
-  {
-   "k": "1c8df2dc7fad",
-   "ctx": "hint",
-   "t": "The 8-digit Family ID. Your income and family details are taken from it."
-  },
-  {
-   "k": "0d2ea2769eed",
-   "ctx": "label",
-   "t": "Select applicant"
-  },
-  {
-   "k": "d437afefed58",
-   "ctx": "value",
-   "t": "Sunita Devi (wife of head)"
-  },
-  {
    "k": "aa5f1578ac3c",
    "ctx": "hint",
    "t": "The app shows the members on the Family ID. Pick the woman who is applying. She must be 23 or older."
@@ -894,6 +769,121 @@
    "k": "e3952f582c97",
    "ctx": "hint",
    "t": "The ration card number finds everyone in the family at once. You can also search by Aadhaar."
+  },
+  {
+   "k": "7189a5425840",
+   "ctx": "hint",
+   "t": "Copy it from the ration card. If nothing is found, search again with your Aadhaar number."
+  },
+  {
+   "k": "4d860a792456",
+   "ctx": "hint",
+   "t": "Aadhaar of the family member whose card you are making now. Each member is done one at a time."
+  },
+  {
+   "k": "abdf5b983670",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "k": "4879aa988bac",
+   "ctx": "hint",
+   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request rejected."
+  },
+  {
+   "k": "1e3c969967d3",
+   "ctx": "hint",
+   "t": "Where you actually live now, so the nearest empanelled hospitals are shown to you."
+  },
+  {
+   "k": "1b7b8851eaa9",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in (or the Ayushman app) and log in as Beneficiary with your mobile number and OTP."
+  },
+  {
+   "k": "4d05d090344a",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and the state Jammu and Kashmir, then search for your family by ration card number or Aadhaar."
+  },
+  {
+   "k": "c182f66e14ca",
+   "ctx": "demoSteps",
+   "t": "Find the member marked eKYC pending, verify with Aadhaar OTP or face authentication, and take the live photo."
+  },
+  {
+   "k": "372051da808a",
+   "ctx": "demoSteps",
+   "t": "Fill in the relation, district and PIN code and submit. The State Health Agency usually approves it within a day or two."
+  },
+  {
+   "k": "d9f231df670a",
+   "ctx": "demoSteps",
+   "t": "Log in again, open Download Card and save the Golden Card. If your family is not found, go to a CSC or the Ayushman Mitra desk of a SEHAT hospital with your ration card and Aadhaar."
+  },
+  {
+   "k": "6d738095c8d8",
+   "ctx": "demoSteps",
+   "t": "At the hospital, show the card at the Ayushman Mitra desk and pay nothing for a covered treatment. If an empanelled hospital refuses, call 104."
+  },
+  {
+   "k": "b0b95e33cb66",
+   "ctx": "helpline",
+   "t": "104 — J&K health helpline, also for complaints when treatment is refused / 14555 or 1800-111-565 — Ayushman Bharat national helpline"
+  },
+  {
+   "k": "d49a85d286a5",
+   "ctx": "department",
+   "t": "Department of Social Welfare, Jammu & Kashmir"
+  },
+  {
+   "k": "88b66c4f6d17",
+   "ctx": "brief",
+   "t": "For a girl born on or after 1 April 2015 into a low-income family in Jammu & Kashmir, the government puts Rs.1,000 a month into an account in her name until she turns 14. The money then stays in a term deposit, and at 21 she receives about Rs.6.5 lakh for her studies or marriage. Parents apply online on JanSugam (also reached through e-UNNAT); the CDPO checks the application and the Deputy Commissioner sanctions it."
+  },
+  {
+   "k": "3d0e86fc9b1d",
+   "ctx": "benefit",
+   "t": "Rs.1,000 a month till she is 14; about Rs.6.5 lakh paid to her at 21"
+  },
+  {
+   "k": "30030ba37248",
+   "ctx": "eligibility",
+   "t": "The girl was born on or after 1 April 2015"
+  },
+  {
+   "k": "dc9fac4bc87d",
+   "ctx": "eligibility",
+   "t": "The parents' total income from all sources is below Rs.75,000 a year"
+  },
+  {
+   "k": "97e696bbf6e1",
+   "ctx": "eligibility",
+   "t": "The girl and her parents are residents of Jammu & Kashmir"
+  },
+  {
+   "k": "541fb6645427",
+   "ctx": "eligibility",
+   "t": "The money is held in the girl's own account and paid to her only at age 21"
+  },
+  {
+   "k": "bfec52301306",
+   "ctx": "documents",
+   "t": "Income certificate of the parents, showing less than Rs.75,000 a year"
+  },
+  {
+   "k": "98160693ffde",
+   "ctx": "documents",
+   "t": "Aadhaar card of the girl and of the parents"
+  },
+  {
+   "k": "fadf85f16497",
+   "ctx": "documents",
+   "t": "Ration card or other address proof"
+  },
+  {
+   "k": "b11d33784fae",
+   "ctx": "documents",
+   "t": "J&K Bank account details in the girl's name, once the sanction letter asks for them"
   }
  ]
 }

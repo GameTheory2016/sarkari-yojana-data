@@ -6,86 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_14.json",
  "items": [
   {
-   "k": "9b0933b9b7ef",
-   "ctx": "demoSteps",
-   "t": "On a death, the panchayat secretary or ward in-charge pays Rs 5,000 funeral help at once. The family applies at the Janpad or municipal office for the Rs 2 lakh or Rs 4 lakh, which is paid into the nominee's account."
-  },
-  {
-   "k": "6988fed68a0d",
-   "ctx": "department",
-   "t": "State Health Agency (Deendayal Swasthya Suraksha Parishad), Public Health and Family Welfare Department, Madhya Pradesh"
-  },
-  {
-   "k": "8a5b1c3d9f5f",
-   "ctx": "brief",
-   "t": "Madhya Pradesh runs Ayushman Bharat PM-JAY under the name Niramayam, and the state pays for many more families than the central list covers. Every family holding an NFSA food-grain slip (khadyann parchi) qualifies, as do Sambal and construction workers, ASHA and anganwadi workers, and everyone aged 70 or above. Each family gets free, cashless treatment up to Rs 5 lakh a year in empanelled government and private hospitals. You can make the card yourself on the Ayushman portal or app, or free at a Lok Seva Kendra, CSC or the hospital's Ayushman Mitra desk."
-  },
-  {
-   "k": "a5c04525a673",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless, in empanelled hospitals"
-  },
-  {
-   "k": "9db15dc2c958",
-   "ctx": "eligibility",
-   "t": "Families holding an NFSA food-grain eligibility slip (khadyann parchi) in Madhya Pradesh"
-  },
-  {
-   "k": "7b7557f8ac65",
-   "ctx": "eligibility",
-   "t": "Families in the SECC 2011 list (the central PM-JAY list)"
-  },
-  {
-   "k": "cd9db6c3102c",
-   "ctx": "eligibility",
-   "t": "Workers registered under Sambal or with the Building and Other Construction Workers Board, and their families"
-  },
-  {
-   "k": "9d89463fd0fa",
-   "ctx": "eligibility",
-   "t": "ASHA workers, anganwadi workers and helpers, PVTG families (Baiga, Bharia, Sahariya), Bhopal gas tragedy victims and Dharti Aaba (DAJGUA) beneficiaries"
-  },
-  {
-   "k": "3460cad54bcd",
-   "ctx": "eligibility",
-   "t": "Every person aged 70 or above, whatever the income (Ayushman Vay Vandana card)"
-  },
-  {
-   "k": "02c38409c521",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age; illnesses you already have are covered from day one"
-  },
-  {
-   "k": "f389ff93c0ed",
-   "ctx": "documents",
-   "t": "Aadhaar card of each family member who needs a card"
-  },
-  {
-   "k": "9439b0dfa6a8",
-   "ctx": "documents",
-   "t": "Samagra ID and the NFSA food-grain slip or ration card"
-  },
-  {
-   "k": "f2202a93b39c",
-   "ctx": "documents",
-   "t": "Sambal card or construction worker card, if you qualify through it"
-  },
-  {
-   "k": "d512d3d8f383",
-   "ctx": "hint",
-   "t": "Choose Beneficiary when making the card for yourself or your family."
-  },
-  {
-   "k": "48bf416472b3",
-   "ctx": "hint",
-   "t": "Choose PMJAY and Madhya Pradesh. Niramayam is the state's name for the same scheme."
-  },
-  {
-   "k": "0bab9a729e6c",
-   "ctx": "hint",
-   "t": "You can also search by family, name or PMJAY ID. If nothing comes up, check at the ration shop that your name is on the NFSA slip."
-  },
-  {
    "k": "997444d5a4b4",
    "ctx": "hint",
    "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face with the phone camera."
@@ -774,6 +694,96 @@
    "k": "1f8ca87f7339",
    "ctx": "eligibility",
    "t": "The bank account must be in Maharashtra; for the last Rs.75,000 the girl must be 18, unmarried and on the voter list"
+  },
+  {
+   "k": "afb0cdd8140e",
+   "ctx": "documents",
+   "t": "Girl's birth certificate (register the birth with the gram panchayat or municipality first)"
+  },
+  {
+   "k": "6e5f1efcf009",
+   "ctx": "documents",
+   "t": "Income certificate from the tehsildar showing yearly family income up to Rs.1 lakh"
+  },
+  {
+   "k": "b9380067d622",
+   "ctx": "documents",
+   "t": "Attested copy of the yellow or orange ration card"
+  },
+  {
+   "k": "3ba460bc02f9",
+   "ctx": "documents",
+   "t": "Aadhaar of the parents, and of the girl (not needed for the first instalment)"
+  },
+  {
+   "k": "fdc4253ec9aa",
+   "ctx": "documents",
+   "t": "First page of the passbook of the joint account of the girl and her mother"
+  },
+  {
+   "k": "33710530512b",
+   "ctx": "documents",
+   "t": "For later instalments: school bonafide certificate, family planning certificate, and at 18 her voter ID and a self-declaration that she is unmarried"
+  },
+  {
+   "k": "557baf20e799",
+   "ctx": "submitAt",
+   "t": "The anganwadi sevika of your area, at the anganwadi centre. The application form is printed at the end of the scheme GR linked here (pages 9 to 12), and blank forms are also kept at every Child Development Project Officer (CDPO) office, the Zilla Parishad District Programme Officer's office and the District Women and Child Development Officer's office. Take the filled form with copies of the documents, carry the originals for checking, and ask the sevika for the signed receipt (pohoch pavti) at the bottom of the form. Apply the same way for each later instalment."
+  },
+  {
+   "k": "55d0c66028bd",
+   "ctx": "label",
+   "t": "Applying for (first child / second child / twins)"
+  },
+  {
+   "k": "c53b86c7f3b3",
+   "ctx": "hint",
+   "t": "Tick the one that fits this girl. For twins born at the second delivery, tick twins."
+  },
+  {
+   "k": "d6b088364ee4",
+   "ctx": "hint",
+   "t": "The girl's name as written on her birth certificate."
+  },
+  {
+   "k": "15fd5669746c",
+   "ctx": "hint",
+   "t": "The girl's Aadhaar is not needed for the first instalment. Get it made before the Class 1 instalment."
+  },
+  {
+   "k": "eeeed89fd99d",
+   "ctx": "hint",
+   "t": "Usually the mother, because the money goes to the joint account of the girl and her mother."
+  },
+  {
+   "k": "4959b9b0575b",
+   "ctx": "hint",
+   "t": "Attach a copy of this Aadhaar. Messages about the payment come to the mobile."
+  },
+  {
+   "k": "8596c9ce4210",
+   "ctx": "value",
+   "t": "House 14, Shivaji Chowk, Malegaon BK, Tal. Baramati, Dist. Pune 413115"
+  },
+  {
+   "k": "8ee4a4d23de4",
+   "ctx": "hint",
+   "t": "Where the family lives now: house number, village, post office, taluka, district and PIN code."
+  },
+  {
+   "k": "deeb75590a11",
+   "ctx": "label",
+   "t": "Number of living children when applying"
+  },
+  {
+   "k": "5658c7132f57",
+   "ctx": "hint",
+   "t": "Count all living children, sons and daughters."
+  },
+  {
+   "k": "1cff9b5a750a",
+   "ctx": "label",
+   "t": "Joint bank account number (girl and mother)"
   }
  ]
 }

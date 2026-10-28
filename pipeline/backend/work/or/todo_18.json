@@ -6,111 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_18.json",
  "items": [
   {
-   "k": "edd52e57ad8f",
-   "ctx": "eligibility",
-   "t": "Families holding an AAY (Antyodaya) ration card, widows, and persons with disability"
-  },
-  {
-   "k": "75e4e2a752d0",
-   "ctx": "eligibility",
-   "t": "ASHAs, Anganwadi workers and helpers, Ima Keithel (Ima Market) women vendors, newspaper hawkers and local media persons"
-  },
-  {
-   "k": "d0f5014babce",
-   "ctx": "eligibility",
-   "t": "Internally displaced persons holding an IDP certificate from the Deputy Commissioner"
-  },
-  {
-   "k": "ba6cdc42bae2",
-   "ctx": "eligibility",
-   "t": "Other poor families outside these groups can also apply. The Deputy Commissioner checks their economic status before the card is approved"
-  },
-  {
-   "k": "f0467dab5a6c",
-   "ctx": "eligibility",
-   "t": "Up to 5 names are printed on the card, and any extra members are noted as '2 more' and so on. There is no limit on family size"
-  },
-  {
-   "k": "11579ceeaa47",
-   "ctx": "documents",
-   "t": "Original Aadhaar card of the applicant and of every family member, with the Aadhaar consent form"
-  },
-  {
-   "k": "c6bb6ac26abd",
-   "ctx": "documents",
-   "t": "Photo ID: voter ID, PAN, driving licence, ration card, passport or government ID card"
-  },
-  {
-   "k": "5ae06753fc48",
-   "ctx": "documents",
-   "t": "Membership letter from NHM, the Social Welfare Department, Imphal Municipal Corporation or the authorised association (ASHAs, Anganwadi staff, Ima Keithel vendors, hawkers, media persons)"
-  },
-  {
-   "k": "893b8a8fa17e",
-   "ctx": "documents",
-   "t": "IDP certificate from the Deputy Commissioner (displaced persons)"
-  },
-  {
-   "k": "c8052d0fb09b",
-   "ctx": "submitAt",
-   "t": "CMHT enrolment kiosk (Health Coordinator help desk) at the reception of your District Hospital, or at RIMS or JNIMS in Imphal; enrolment camps are also held at DC offices and in villages. Take all original documents and the Aadhaar cards of every family member. Fill in the declaration that nobody in the family is in government service at the counter. A card fee of Rs.50 per family may be charged; AAY card holders, persons with disability and widows pay nothing."
-  },
-  {
-   "k": "e5a07a5df55e",
-   "ctx": "hint",
-   "t": "AAY, Widow, Disabled, ASHA, Anganwadi Worker/Helper, Ima Keithel Vendor, Hawker, Local Media, IDP, or Other Poor Family (DC verification)."
-  },
-  {
-   "k": "f45126790bc9",
-   "ctx": "hint",
-   "t": "As written on the Aadhaar card."
-  },
-  {
-   "k": "a6b97b7761c7",
-   "ctx": "hint",
-   "t": "The head's 12-digit Aadhaar. At least one member must give Aadhaar to enrol the family."
-  },
-  {
-   "k": "b6e4556bd3b8",
-   "ctx": "hint",
-   "t": "AAY card, disability certificate, death certificate, membership letter or IDP certificate, as your category needs."
-  },
-  {
-   "k": "ddf42da40eda",
-   "ctx": "hint",
-   "t": "Any one government photo ID, shown in original."
-  },
-  {
-   "k": "08729e509663",
-   "ctx": "value",
-   "t": "Thokchom Sanatombi (Daughter), Thokchom Bikram (Son)"
-  },
-  {
-   "k": "d93d25af51bf",
-   "ctx": "hint",
-   "t": "Everyone who lives and eats with you. Carry each member's Aadhaar."
-  },
-  {
-   "k": "1faed53de9bf",
-   "ctx": "hint",
-   "t": "The approval message for DC-verification cases comes here."
-  },
-  {
-   "k": "227eb1ec75f6",
-   "ctx": "label",
-   "t": "Declaration: no family member in government service"
-  },
-  {
-   "k": "c8a15ee2b75a",
-   "ctx": "hint",
-   "t": "Filled in at the kiosk before the card is made. Do not sign if anyone in the family is a government employee."
-  },
-  {
-   "k": "c6540263536d",
-   "ctx": "hint",
-   "t": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
-  },
-  {
    "k": "9344af888075",
    "ctx": "demoSteps",
    "t": "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking."
@@ -714,6 +609,101 @@
    "k": "0205e565e724",
    "ctx": "demoSteps",
    "t": "Give the Anganwadi worker your Aadhaar, passbook, mobile number, MCP card, ABHA number and one eligibility proof. She registers you on the MAMATA-PMMVY app, and an SMS confirms the application."
+  },
+  {
+   "k": "263963afed3c",
+   "ctx": "demoSteps",
+   "t": "After verification by the ICDS project office, the first instalment of Rs 6,000 comes by DBT into your Aadhaar-linked account."
+  },
+  {
+   "k": "ed3684d1d337",
+   "ctx": "demoSteps",
+   "t": "Have the baby, get the birth registered at the health centre or Anganwadi, and complete all vaccines up to 14 weeks (at birth, 6, 10 and 14 weeks), all entered in the MCP card."
+  },
+  {
+   "k": "803c81c08941",
+   "ctx": "demoSteps",
+   "t": "The Anganwadi worker sends the claim for the second instalment: Rs 4,000 more for a boy or Rs 6,000 more for a girl, again straight to your account."
+  },
+  {
+   "k": "e695a3b79a74",
+   "ctx": "demoSteps",
+   "t": "Ask the Anganwadi worker for the status, or check it on the app. If money is late, tell the Anganwadi worker or the CDPO, or call 181."
+  },
+  {
+   "k": "41b1723f8584",
+   "ctx": "helpline",
+   "t": "181 (Mamata and women's helpline, toll-free) / 1515 (PMMVY toll-free helpline)"
+  },
+  {
+   "k": "0ebfbe5d3c77",
+   "ctx": "department",
+   "t": "Department of Agriculture & Farmers' Empowerment, Government of Odisha (Directorate of Agriculture & Food Production)"
+  },
+  {
+   "k": "94b94faf7862",
+   "ctx": "hint",
+   "t": "Your village or town in Punjab."
+  },
+  {
+   "k": "4698b442f38b",
+   "ctx": "hint",
+   "t": "The district of that village or town."
+  },
+  {
+   "k": "e1e02a90174d",
+   "ctx": "hint",
+   "t": "Start with yourself, then add every member who lives with you. The form has room for 8 members."
+  },
+  {
+   "k": "70078058a73d",
+   "ctx": "hint",
+   "t": "Relation is how this person is related to you, the declarant."
+  },
+  {
+   "k": "ba7141e7fb62",
+   "ctx": "hint",
+   "t": "Write each adult's Voter ID number. Children have none: leave it blank and carry their Aadhaar cards."
+  },
+  {
+   "k": "b46ebd35a779",
+   "ctx": "label",
+   "t": "Voter ID of Declarant (front and back)"
+  },
+  {
+   "k": "d23d0ccab621",
+   "ctx": "hint",
+   "t": "Paste only your Voter ID copy here. The form says not to attach any other document."
+  },
+  {
+   "k": "391128232c8c",
+   "ctx": "hint",
+   "t": "Sign only after checking every name. A false entry can cancel the family's cover."
+  },
+  {
+   "k": "05e3fa014694",
+   "ctx": "demoSteps",
+   "t": "Check whether your family is already listed: open sha.punjab.gov.in, choose Check for Eligibility and search with your Aadhaar."
+  },
+  {
+   "k": "a0bad91f0a99",
+   "ctx": "demoSteps",
+   "t": "If the family is new, download the Family Declaration Form from the Resources menu on sha.punjab.gov.in, fill in every member and paste the head's Voter ID copy."
+  },
+  {
+   "k": "3585c3ac1dd8",
+   "ctx": "demoSteps",
+   "t": "Go to the nearest CSC with all members' Aadhaar cards and the adults' Voter IDs. The operator does Aadhaar e-KYC for each member by fingerprint or OTP."
+  },
+  {
+   "k": "ca586497fb31",
+   "ctx": "demoSteps",
+   "t": "An SMS confirming the registration and your benefits comes at once. Keep this message."
+  },
+  {
+   "k": "fb7ef674a7b6",
+   "ctx": "demoSteps",
+   "t": "The printed Sehat Card is given at the same CSC within 2 to 3 weeks. You can also download it from Download Health Card on sha.punjab.gov.in."
   }
  ]
 }

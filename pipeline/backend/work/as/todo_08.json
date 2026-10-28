@@ -6,71 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_08.json",
  "items": [
   {
-   "k": "3cdc4967824a",
-   "ctx": "demoSteps",
-   "t": "At the hospital, go to the Ayushman Mitra desk with the card, ration card and Aadhaar. Do not pay cash for a treatment covered by the scheme; call 104 if anyone asks for money."
-  },
-  {
-   "k": "41daa19c6389",
-   "ctx": "helpline",
-   "t": "104 (Ayushman Chhattisgarh helpline) / 14555 (Ayushman Bharat national helpline)"
-  },
-  {
-   "k": "eaabd44420d2",
-   "ctx": "title",
-   "t": "Pension Scheme to Old Age Persons (Senior Citizen) — DNH and Daman & Diu"
-  },
-  {
-   "k": "d25459ec0003",
-   "ctx": "department",
-   "t": "Social Welfare Department, UT of Dadra & Nagar Haveli and Daman & Diu (through District Panchayats and Municipal Councils)"
-  },
-  {
-   "k": "aa6b3fbed4bf",
-   "ctx": "brief",
-   "t": "Senior citizens of Dadra & Nagar Haveli, Daman and Diu get Rs.1,500 a month from age 60 and Rs.2,000 a month from age 70, by direct transfer to the bank. It is for domiciles of the UT with a family income up to Rs.1.5 lakh a year. You hand in the form at your Gram Panchayat, District Panchayat or Municipal Council. The application should be decided within 30 days, and the pension arrives by the 5th of every month."
-  },
-  {
-   "k": "daf45411aa71",
-   "ctx": "benefit",
-   "t": "Rs.1,500 a month at 60-69; Rs.2,000 a month at 70 and above"
-  },
-  {
-   "k": "1cf24593de7e",
-   "ctx": "eligibility",
-   "t": "Domicile of Dadra & Nagar Haveli and Daman & Diu"
-  },
-  {
-   "k": "e51624507ae9",
-   "ctx": "eligibility",
-   "t": "Annual family income not above Rs.1.5 lakh"
-  },
-  {
-   "k": "061afd83279c",
-   "ctx": "eligibility",
-   "t": "Not getting money under any other old age pension scheme"
-  },
-  {
-   "k": "76b9d5a0114f",
-   "ctx": "eligibility",
-   "t": "The form asks whether you have applied for a Portuguese or other foreign passport. Answer truthfully"
-  },
-  {
-   "k": "0c4780f49615",
-   "ctx": "documents",
-   "t": "Age certificate (proof that you are 60 or above)"
-  },
-  {
-   "k": "3d7a2b6c6933",
-   "ctx": "documents",
-   "t": "Income certificate showing family income below Rs.1.5 lakh"
-  },
-  {
-   "k": "73f8b50579bc",
-   "ctx": "documents",
-   "t": "Domicile certificate"
-  },
-  {
    "k": "a4f49927481e",
    "ctx": "documents",
    "t": "Copy of the bank passbook (account linked to Aadhaar)"
@@ -1184,6 +1119,56 @@
    "k": "4c68a607efb3",
    "ctx": "value",
    "t": "General — no concession"
+  },
+  {
+   "k": "b9c09302588d",
+   "ctx": "hint",
+   "t": "Choose OBC (non-creamy layer), SC, ST or differently abled only if you upload the certificate; the fee is then halved."
+  },
+  {
+   "k": "d4a5b465ef80",
+   "ctx": "hint",
+   "t": "Pick the health office nearest your home. Collect the card there within 30 days of approval."
+  },
+  {
+   "k": "1afa0220d233",
+   "ctx": "demoSteps",
+   "t": "Register on goaonline.gov.in with your mobile OTP and log in. Open Services, All Services, then Deen Dayal Swasthya Seva Yojana (DDSSY) - New Enrollment."
+  },
+  {
+   "k": "a30c31f94d87",
+   "ctx": "demoSteps",
+   "t": "Fill in the eligible person's details, add each family member with Aadhaar, and upload the self-attested 5-year residence proof."
+  },
+  {
+   "k": "57ed84a31669",
+   "ctx": "demoSteps",
+   "t": "Choose a concession category if you have one, pay the fee (Rs.200 for up to 3 members, Rs.300 for 4 or more) and note the acknowledgement number."
+  },
+  {
+   "k": "b322f932f039",
+   "ctx": "demoSteps",
+   "t": "If the application is marked for compliance, reply within 30 days, or it is rejected and the fee is forfeited."
+  },
+  {
+   "k": "6298734cc1d0",
+   "ctx": "demoSteps",
+   "t": "When the SMS says it is approved, download the e-card and collect the DDSSY card from the office you chose within 30 days."
+  },
+  {
+   "k": "d66b977f9bb1",
+   "ctx": "demoSteps",
+   "t": "Show the card at the DDSSY desk of an empanelled hospital for cashless treatment. Renew it every year before 31 March through DDSSY - Renewal, using the card number and OTP."
+  },
+  {
+   "k": "4c31d37fd085",
+   "ctx": "helpline",
+   "t": "8882988000 — Goa Online helpline for DDSSY enrolment and renewal (9:45 am to 5:30 pm) / 0832-2225561 — Directorate of Health Services, Panaji"
+  },
+  {
+   "k": "b4ed20eafea1",
+   "ctx": "department",
+   "t": "Directorate of Women & Child Development, Government of Goa"
   }
  ]
 }

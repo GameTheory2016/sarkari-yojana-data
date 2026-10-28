@@ -6,161 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_16.json",
  "items": [
   {
-   "k": "ff458eca9ce3",
-   "ctx": "eligibility",
-   "t": "Civil pensioners and GIA employees are covered through their subscription form, but the MUHCS card is not yet issued to them (circular of 13 May 2026)"
-  },
-  {
-   "k": "0bd7e9e87ed1",
-   "ctx": "eligibility",
-   "t": "Children under 5 use a parent's card. The fee is paid only in the yearly enrolment window and is not refunded except as notified"
-  },
-  {
-   "k": "90121ebcc3f0",
-   "ctx": "documents",
-   "t": "Ration card. Without one, a Village Council or Local Council letter listing the family members"
-  },
-  {
-   "k": "4119f4b4b7ea",
-   "ctx": "documents",
-   "t": "A clear chest-up photo of each member, to upload for the card"
-  },
-  {
-   "k": "e1ad70f395fd",
-   "ctx": "documents",
-   "t": "A mobile number for the OTP login"
-  },
-  {
-   "k": "4bddb1dea20f",
-   "ctx": "documents",
-   "t": "UPI, debit or credit card, or net banking, to pay the yearly fee (general families)"
-  },
-  {
-   "k": "68a5f24cefc0",
-   "ctx": "portalName",
-   "t": "Mizoram Universal Healthcare Scheme (MUHCS)"
-  },
-  {
-   "k": "f3c5f0cc581c",
-   "ctx": "hint",
-   "t": "Choose Beneficiary, not Operator."
-  },
-  {
-   "k": "b6b90ae0a8ff",
-   "ctx": "hint",
-   "t": "Your own working number. The OTP comes here every time you log in."
-  },
-  {
-   "k": "8294ada5cb62",
-   "ctx": "label",
-   "t": "Enter Captcha / OTP"
-  },
-  {
-   "k": "8826cffd22ba",
-   "ctx": "hint",
-   "t": "Type the letters shown in the picture, then the OTP sent to your phone."
-  },
-  {
-   "k": "f81edde45363",
-   "ctx": "hint",
-   "t": "The family is taken from the ration card. Without one, upload the Village or Local Council letter."
-  },
-  {
-   "k": "038992f5d66f",
-   "ctx": "label",
-   "t": "Plan option"
-  },
-  {
-   "k": "54567bf496e3",
-   "ctx": "value",
-   "t": "General — Rs.2,500 (general ward)"
-  },
-  {
-   "k": "c4fbe69cc90e",
-   "ctx": "hint",
-   "t": "Standard Rs.5,000 gives a shared semi-private ward, Private Rs.10,000 a private ward. The cover is Rs.5 lakh in all three."
-  },
-  {
-   "k": "44f90c0204b3",
-   "ctx": "label",
-   "t": "Head of family name"
-  },
-  {
-   "k": "2b356fdbbc06",
-   "ctx": "value",
-   "t": "Lalremruati"
-  },
-  {
-   "k": "389f102b9b64",
-   "ctx": "label",
-   "t": "Aadhaar of each member"
-  },
-  {
-   "k": "283f5c942129",
-   "ctx": "value",
-   "t": "9999 8106 2245 (and one per member)"
-  },
-  {
-   "k": "4c74544544a4",
-   "ctx": "hint",
-   "t": "Every member aged 5 or above needs their own Aadhaar for the card."
-  },
-  {
-   "k": "0b535b7fd695",
-   "ctx": "label",
-   "t": "Photo of each member"
-  },
-  {
-   "k": "3e403a366205",
-   "ctx": "value",
-   "t": "Chest-up photo uploaded"
-  },
-  {
-   "k": "1acea155679b",
-   "ctx": "hint",
-   "t": "Clear, face straight, from the chest up. A blurred photo gets the card rejected."
-  },
-  {
-   "k": "b41a92bed032",
-   "ctx": "label",
-   "t": "Payment"
-  },
-  {
-   "k": "833ebbefcc00",
-   "ctx": "value",
-   "t": "UPI — receipt saved"
-  },
-  {
-   "k": "2c6940baea06",
-   "ctx": "hint",
-   "t": "Pay online and keep the receipt. You need it for any later query or refund request."
-  },
-  {
-   "k": "3f8947eaa6e3",
-   "ctx": "demoSteps",
-   "t": "During the yearly enrolment window (for 2026-27 it was 16 February to 15 May 2026), open the MUHCS portal, choose Beneficiary and log in with your mobile number, the captcha and the OTP."
-  },
-  {
-   "k": "e3563a39e01e",
-   "ctx": "demoSteps",
-   "t": "Enter your ration card details, add all family members and choose a plan: General Rs.2,500, Standard Rs.5,000 or Private Rs.10,000."
-  },
-  {
-   "k": "d790a08f64fe",
-   "ctx": "demoSteps",
-   "t": "Pay the fee online by UPI, card or net banking and save the receipt. In villages without internet, fill in the offline form at the health sub-centre instead."
-  },
-  {
-   "k": "9713a0e43fcb",
-   "ctx": "demoSteps",
-   "t": "Apply for the MUHCS card from the same login. Upload each member's Aadhaar and a clear chest-up photo. Children under 5 do not need a card."
-  },
-  {
-   "k": "a7e2e76c02c9",
-   "ctx": "demoSteps",
-   "t": "The Mizoram State Health Care Society checks and approves the request. Then log in again and download the card."
-  },
-  {
    "k": "ef50a92e638c",
    "ctx": "demoSteps",
    "t": "At an empanelled government or private hospital, show the MUHCS card (or your Golden Card) and get cashless treatment up to Rs.5 lakh. Re-enrol every year in the window."
@@ -1024,6 +869,86 @@
    "k": "ad92c53101f0",
    "ctx": "documents",
    "t": "A live photo, taken on the phone or at the centre during e-KYC"
+  },
+  {
+   "k": "729bd975e2ff",
+   "ctx": "documents",
+   "t": "At the hospital: the PMJAY-GJAY card, with photocopies of the ration card and Aadhaar card"
+  },
+  {
+   "k": "3952c058e52c",
+   "ctx": "hint",
+   "t": "Any number you keep with you. The login OTP comes here, and so does the message when the card is approved."
+  },
+  {
+   "k": "a860715f30e4",
+   "ctx": "hint",
+   "t": "Choose PMJAY and the state Odisha. In Odisha the same card is printed as the PMJAY-GJAY card."
+  },
+  {
+   "k": "7ea5b618e620",
+   "ctx": "hint",
+   "t": "The ration card number brings up the whole family at once. If nothing comes, search again with your Aadhaar number."
+  },
+  {
+   "k": "98b440836b50",
+   "ctx": "hint",
+   "t": "Copy the number from your NFSA or SFSS ration card exactly."
+  },
+  {
+   "k": "0a7c51e6b302",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication and scan the face with the phone camera."
+  },
+  {
+   "k": "89fc85f68a79",
+   "ctx": "hint",
+   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request sent back."
+  },
+  {
+   "k": "35216d58b158",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in (gjay.odisha.gov.in links to it under Know Your ABPMJAY GJAY Health Card Number) and log in as Beneficiary with your mobile number and OTP."
+  },
+  {
+   "k": "1e3d225275a9",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and Odisha, then search for your family by ration card number or Aadhaar. Members marked eKYC pending still need a card."
+  },
+  {
+   "k": "022871e8fb85",
+   "ctx": "demoSteps",
+   "t": "For each member, verify with Aadhaar OTP or face authentication, take the live photo and fill in mobile, relation, district and PIN code, then submit."
+  },
+  {
+   "k": "8cc6b9f483f1",
+   "ctx": "demoSteps",
+   "t": "The state health agency checks the request and an SMS comes when it is approved. Log in again and download the card. If you have no smartphone, a CSC or the Ayushman desk of an empanelled hospital makes the card free."
+  },
+  {
+   "k": "c9b3bba064e2",
+   "ctx": "demoSteps",
+   "t": "At an empanelled hospital, go to the Ayushman Bharat counter with the card, ration card and Aadhaar. Your fingerprint or iris is checked at admission and again at discharge."
+  },
+  {
+   "k": "ef98c1c47a2a",
+   "ctx": "demoSteps",
+   "t": "The hospital bills the government directly. Never pay cash for a treatment covered by the scheme. In Odisha government hospitals all treatment is free even without the card."
+  },
+  {
+   "k": "7885ee5e5c46",
+   "ctx": "helpline",
+   "t": "104 (GJAY and state health helpline, toll-free) / 14555 (Ayushman Bharat PM-JAY helpline)"
+  },
+  {
+   "k": "c834fc9fb204",
+   "ctx": "title",
+   "t": "Monthly Financial Assistance to Women Heads of BPL Families (Rs.2,500)"
+  },
+  {
+   "k": "458df691eab8",
+   "ctx": "department",
+   "t": "Department of Women and Child Development, Government of Puducherry"
   }
  ]
 }

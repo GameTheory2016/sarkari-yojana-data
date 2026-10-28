@@ -6,106 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_06.json",
  "items": [
   {
-   "k": "2b8175f04654",
-   "ctx": "demoSteps",
-   "t": "The approved list is published and the Finance Department checks the bank details. If an SMS says your details are wrong, correct them at the Gaon Panchayat or ward office."
-  },
-  {
-   "k": "f0ea67664237",
-   "ctx": "demoSteps",
-   "t": "Rs.1,250 then arrives in her bank account every month by DBT. Keep the account seeded with Aadhaar, or the payment is held back."
-  },
-  {
-   "k": "4467cfd6dbf4",
-   "ctx": "demoSteps",
-   "t": "If the money stops or the name is missing, call the Orunodoi helpdesk on 1800-202-6256 (working days, 10 am to 6 pm) or meet the Orunodoi Sarothi."
-  },
-  {
-   "k": "e5c876f513f6",
-   "ctx": "helpline",
-   "t": "1800-202-6256 — Orunodoi 3.0 helpdesk, Finance Department, Assam (working days, 10 am to 6 pm)"
-  },
-  {
-   "k": "fc1656306d33",
-   "ctx": "title",
-   "t": "Mukhya Mantrir Nijut Moina Aasoni (Nijut Moina)"
-  },
-  {
-   "k": "1d546b590169",
-   "ctx": "department",
-   "t": "Directorate of Higher Education, Higher Education Department, Government of Assam"
-  },
-  {
-   "k": "fc9cc48ea165",
-   "ctx": "brief",
-   "t": "A monthly allowance for girl students in Assam, paid for 10 months a year so that girls keep studying instead of being married off early. A girl in Class 11 or 12 gets Rs.1,000 a month, a degree student Rs.1,250 and a postgraduate or B.Ed student Rs.2,500, whatever the family income. Now in its second phase (Nijut Moina 2.0), it opens every August: the college gives out the form, and the student then submits an online application on the Samarth student portal (degree and PG) or the AHSEC DARPAN portal (Class 11 and 12)."
-  },
-  {
-   "k": "b9dc056b5bd7",
-   "ctx": "benefit",
-   "t": "Rs.1,000 (HS), Rs.1,250 (degree) or Rs.2,500 (PG and B.Ed) a month for 10 months a year"
-  },
-  {
-   "k": "6057ec6ef77f",
-   "ctx": "eligibility",
-   "t": "Girl students domiciled in Assam, whatever the family income"
-  },
-  {
-   "k": "5075f9981050",
-   "ctx": "eligibility",
-   "t": "Studying in HS 1st or 2nd year, a degree course, PG or B.Ed in a government or provincialised institution. Girls in polytechnic courses are covered from 2026-27"
-  },
-  {
-   "k": "bb4f53becc2a",
-   "ctx": "eligibility",
-   "t": "She must be unmarried. Married girls are allowed only in PG and B.Ed courses"
-  },
-  {
-   "k": "d753f0035107",
-   "ctx": "eligibility",
-   "t": "Not for daughters of Ministers, MPs or MLAs, or for in-service teachers sent to B.Ed on deputation"
-  },
-  {
-   "k": "51298754de7d",
-   "ctx": "eligibility",
-   "t": "HS and degree girls who take the Dr. Banikanta Kakati merit scooter cannot get it (they may give up the scooter instead), nor can PG students on the CM's Jibon Prerona scheme"
-  },
-  {
-   "k": "9ae17a48591f",
-   "ctx": "eligibility",
-   "t": "She must have sat the final exam of the previous year and keep regular attendance and discipline"
-  },
-  {
-   "k": "1581657ba5d9",
-   "ctx": "documents",
-   "t": "Passbook of her own bank account, seeded with Aadhaar and enabled for Aadhaar-based payment"
-  },
-  {
-   "k": "d0a52d77d15a",
-   "ctx": "documents",
-   "t": "Mobile number linked to her Aadhaar, for the OTP"
-  },
-  {
-   "k": "c637a257ed4e",
-   "ctx": "documents",
-   "t": "Admission receipt or college or school identity card"
-  },
-  {
-   "k": "a3e726673eb3",
-   "ctx": "documents",
-   "t": "Signed undertaking, declaration and Aadhaar consent form, signed by the student and a parent"
-  },
-  {
-   "k": "ffa48622a11d",
-   "ctx": "documents",
-   "t": "Samarth enrolment number (degree and PG) or DARPAN login (HS), from the college"
-  },
-  {
-   "k": "83c476eed3ba",
-   "ctx": "documents",
-   "t": "Mark sheet of the last examination, where the college asks for it"
-  },
-  {
    "k": "d91b35e262ba",
    "ctx": "portalName",
    "t": "Assam State Higher Education Student Portal (Samarth)"
@@ -764,6 +664,116 @@
    "k": "9c943f96fc9e",
    "ctx": "demoSteps",
    "t": "After a flood or drought, check the panchayat list on the portal. If your panchayat is listed, open Krishi Input Anudan under online services within the dates shown, usually about a week."
+  },
+  {
+   "k": "79e8fceb68f8",
+   "ctx": "demoSteps",
+   "t": "Enter the 13-digit number, choose your farmer type, fill in the total and damaged land in decimal, the thana-khata-khesra numbers and two neighbours' names, enter the captcha and the OTP, upload the rent receipt, LPC or certified self-declaration, and submit. The application number comes by SMS."
+  },
+  {
+   "k": "f2647a396e30",
+   "ctx": "demoSteps",
+   "t": "The Krishi Samanvayak visits the field within 2 to 4 days, photographs the plot and forwards or rejects the claim with a reason. The sub-divisional and district agriculture officers and the district disaster officer then approve it."
+  },
+  {
+   "k": "ed1d3d6208c9",
+   "ctx": "demoSteps",
+   "t": "The approved amount is paid into your Aadhaar-linked bank account by DBT and an SMS tells you. Use Print and Status on the portal with your registration number to follow it."
+  },
+  {
+   "k": "46c6ad54552f",
+   "ctx": "title",
+   "t": "Bihar Building Workers Registration (BOCW Labour Card)"
+  },
+  {
+   "k": "9b6c41438835",
+   "ctx": "department",
+   "t": "Bihar Building & Other Construction Workers Welfare Board, Labour Resources Department, Government of Bihar"
+  },
+  {
+   "k": "082d0ddc62c5",
+   "ctx": "brief",
+   "t": "Masons, labourers, carpenters, painters, plumbers and other construction workers who register with the Bihar BOCW Welfare Board get a labour card that opens more than a dozen benefits: Rs 50,000 for a daughter's marriage, maternity and paternity money, a bicycle grant, help with children's studies, Rs 3,000 a year for medical costs, a Rs 1,000 monthly pension at 60, and Rs 2 to 4 lakh to the family if the worker dies. Registration is done online with Aadhaar on the board's portal, or at a CSC or the block labour office. The fee is small: Rs 20 for registration plus the membership fee, Rs 50 in all for five years."
+  },
+  {
+   "k": "52b93070830f",
+   "ctx": "benefit",
+   "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
+  },
+  {
+   "k": "03cbf1accd4d",
+   "ctx": "eligibility",
+   "t": "Aged 18 to 60 years"
+  },
+  {
+   "k": "b098fbf81018",
+   "ctx": "eligibility",
+   "t": "Worked at least 90 days in building or other construction work in the last 12 months"
+  },
+  {
+   "k": "7d29b166ca4e",
+   "ctx": "eligibility",
+   "t": "The 90 days are certified by the employer or contractor, the Labour Enforcement Officer, a registered trade union officer, or your own self-declaration"
+  },
+  {
+   "k": "1468a4984691",
+   "ctx": "eligibility",
+   "t": "Not registered with any other labour welfare board"
+  },
+  {
+   "k": "0ed70605f2c4",
+   "ctx": "eligibility",
+   "t": "Most benefits need some time as a member: 1 year for maternity, bicycle and study help; 3 years for marriage help and house repair; 5 years for the pension"
+  },
+  {
+   "k": "524abd6d60af",
+   "ctx": "eligibility",
+   "t": "Keep the membership renewed; benefits stop while it has lapsed"
+  },
+  {
+   "k": "225529b5d75f",
+   "ctx": "documents",
+   "t": "Aadhaar card, checked by OTP"
+  },
+  {
+   "k": "6bb8f35876db",
+   "ctx": "documents",
+   "t": "Recent photograph"
+  },
+  {
+   "k": "19fc14c3f01e",
+   "ctx": "documents",
+   "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
+  },
+  {
+   "k": "ba5b6ec96ec9",
+   "ctx": "documents",
+   "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
+  },
+  {
+   "k": "0ddd86465050",
+   "ctx": "portalName",
+   "t": "Bihar BOCW Welfare Board portal (BiharWMS)"
+  },
+  {
+   "k": "b1cb80f00c7a",
+   "ctx": "hint",
+   "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
+  },
+  {
+   "k": "65676032b1e1",
+   "ctx": "value",
+   "t": "Manoj Kumar Ram"
+  },
+  {
+   "k": "9e8a4f513145",
+   "ctx": "hint",
+   "t": "Exactly as printed on your Aadhaar card."
+  },
+  {
+   "k": "a18c796d89c1",
+   "ctx": "label",
+   "t": "Mobile Number (with OTP verification)"
   }
  ]
 }

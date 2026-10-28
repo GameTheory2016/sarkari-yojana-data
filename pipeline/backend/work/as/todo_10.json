@@ -6,41 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_10.json",
  "items": [
   {
-   "k": "ac5965f48967",
-   "ctx": "hint",
-   "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
-  },
-  {
-   "k": "34dbd876279a",
-   "ctx": "hint",
-   "t": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
-  },
-  {
-   "k": "6d5bce5a3657",
-   "ctx": "hint",
-   "t": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
-  },
-  {
-   "k": "93e44aae243f",
-   "ctx": "hint",
-   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
-  },
-  {
-   "k": "92f0b5c3c707",
-   "ctx": "hint",
-   "t": "Where you live now, so the nearest empanelled hospitals are shown to you."
-  },
-  {
-   "k": "4cb4e06ad562",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar."
-  },
-  {
-   "k": "bae821feb9a5",
-   "ctx": "demoSteps",
-   "t": "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit."
-  },
-  {
    "k": "47e1b1651592",
    "ctx": "demoSteps",
    "t": "If your family does not appear but you qualify by income (up to Rs.4 lakh, or Rs.6 lakh for 60+) or as a construction worker or other listed group, go to the PMJAY-MA kiosk at the nearest government health centre (PHC, CHC, UHC, sub-district or district hospital) or at any empanelled hospital with your ration card, every member's Aadhaar and the income certificate or category proof."
@@ -874,6 +839,46 @@
    "k": "4fb0c150ec9b",
    "ctx": "eligibility",
    "t": "Only the first two daughters of a mother; the mother gives a self-declaration"
+  },
+  {
+   "k": "8361240b8104",
+   "ctx": "eligibility",
+   "t": "Parents must not be permanent or retired central or state government or PSU employees, or draw a government pension or family pension"
+  },
+  {
+   "k": "f21e627cd527",
+   "ctx": "eligibility",
+   "t": "Parents must not pay income tax"
+  },
+  {
+   "k": "0dfb9cbcfe57",
+   "ctx": "eligibility",
+   "t": "For the Rs.20,000 grant she must be 18 or 19 years old when applying, and a voter ID is needed"
+  },
+  {
+   "k": "b93e47ca8b8f",
+   "ctx": "documents",
+   "t": "Aadhaar card of the mother (of the father, if the mother has died)"
+  },
+  {
+   "k": "59a8d8330c64",
+   "ctx": "documents",
+   "t": "Bank or post office passbook in the girl's name"
+  },
+  {
+   "k": "6db29dfe5483",
+   "ctx": "documents",
+   "t": "Mother's self-declaration on birth order, and the parents' self-declaration that they are not taxpayers or government employees"
+  },
+  {
+   "k": "36cec6b97386",
+   "ctx": "documents",
+   "t": "Principal's certificate that she studies in the school; for orphans, the parents' death certificate and a Child Welfare Committee certificate"
+  },
+  {
+   "k": "94ccaebf3f55",
+   "ctx": "portalName",
+   "t": "Savitribai Phule Kishori Samriddhi Yojana portal"
   }
  ]
 }

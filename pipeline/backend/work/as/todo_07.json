@@ -6,106 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_07.json",
  "items": [
   {
-   "k": "5c0543c831a2",
-   "ctx": "label",
-   "t": "Choose Authentication Type"
-  },
-  {
-   "k": "1bfa3b408577",
-   "ctx": "hint",
-   "t": "Choose OTP if your mobile is linked to Aadhaar. Otherwise choose Bio-Auth or Iris and get it done at a CSC or the block agriculture office."
-  },
-  {
-   "k": "1f65e21d818d",
-   "ctx": "label",
-   "t": "Aadhaar number and name as on Aadhaar"
-  },
-  {
-   "k": "c99ece6c74fb",
-   "ctx": "value",
-   "t": "9999 6021 8473 / Rajendra Prasad Yadav"
-  },
-  {
-   "k": "b96e6c009ca3",
-   "ctx": "hint",
-   "t": "The name must match Aadhaar letter for letter, or authentication fails."
-  },
-  {
-   "k": "b26e6e6a57d3",
-   "ctx": "label",
-   "t": "Have you taken a Kisan Credit Card? (KCC)"
-  },
-  {
-   "k": "38f3995ab9da",
-   "ctx": "hint",
-   "t": "Answer Yes only if you hold a KCC; then its details are asked."
-  },
-  {
-   "k": "21310f12485a",
-   "ctx": "label",
-   "t": "District / block / panchayat / village"
-  },
-  {
-   "k": "de991bab3148",
-   "ctx": "value",
-   "t": "Khagaria / Gogri / Pasraha / Pasraha"
-  },
-  {
-   "k": "fe42958ddbc5",
-   "ctx": "hint",
-   "t": "Where your land is. Only farmers of the notified panchayats can claim the input subsidy."
-  },
-  {
-   "k": "b3b26278140a",
-   "ctx": "hint",
-   "t": "An Aadhaar-linked account. The portal warns that a wrong account number blocks your registration, so copy it from the passbook."
-  },
-  {
-   "k": "8f02ecd462e1",
-   "ctx": "label",
-   "t": "Registration number (13 digits)"
-  },
-  {
-   "k": "9ff67d42ec85",
-   "ctx": "hint",
-   "t": "The number you got after registering. Enter it on the Krishi Input Anudan form and your details appear by themselves."
-  },
-  {
-   "k": "292d4a603f99",
-   "ctx": "label",
-   "t": "Farmer type (Kisan ka prakar)"
-  },
-  {
-   "k": "923ee8efd1ec",
-   "ctx": "value",
-   "t": "Swayam bhudhari + Vastavik khetihar"
-  },
-  {
-   "k": "d1813acedf60",
-   "ctx": "hint",
-   "t": "Own land, land taken on rent or share, or both. You can apply under only one type."
-  },
-  {
-   "k": "6fe018ec4507",
-   "ctx": "value",
-   "t": "Thana 214 / Khata 57 / Khesra 1123"
-  },
-  {
-   "k": "2a75eb23eed7",
-   "ctx": "hint",
-   "t": "Copy them from your rent receipt or LPC."
-  },
-  {
-   "k": "da0e81dd1a11",
-   "ctx": "label",
-   "t": "Total land and damaged area (in decimal)"
-  },
-  {
-   "k": "e6823367d204",
-   "ctx": "value",
-   "t": "Total 180 decimal; damaged 150 decimal (maize)"
-  },
-  {
    "k": "3982d9707906",
    "ctx": "hint",
    "t": "1 acre is 100 decimal and 1 hectare is 247 decimal. The subsidy is paid for at most 494 decimal."
@@ -1069,6 +969,71 @@
    "k": "e3a037969743",
    "ctx": "demoSteps",
    "t": "Log in again and download the Ayushman card. If you cannot do it on the phone, the Ayushman desk at any empanelled hospital, a CSC or a choice centre makes it free."
+  },
+  {
+   "k": "3cdc4967824a",
+   "ctx": "demoSteps",
+   "t": "At the hospital, go to the Ayushman Mitra desk with the card, ration card and Aadhaar. Do not pay cash for a treatment covered by the scheme; call 104 if anyone asks for money."
+  },
+  {
+   "k": "41daa19c6389",
+   "ctx": "helpline",
+   "t": "104 (Ayushman Chhattisgarh helpline) / 14555 (Ayushman Bharat national helpline)"
+  },
+  {
+   "k": "eaabd44420d2",
+   "ctx": "title",
+   "t": "Pension Scheme to Old Age Persons (Senior Citizen) — DNH and Daman & Diu"
+  },
+  {
+   "k": "d25459ec0003",
+   "ctx": "department",
+   "t": "Social Welfare Department, UT of Dadra & Nagar Haveli and Daman & Diu (through District Panchayats and Municipal Councils)"
+  },
+  {
+   "k": "aa6b3fbed4bf",
+   "ctx": "brief",
+   "t": "Senior citizens of Dadra & Nagar Haveli, Daman and Diu get Rs.1,500 a month from age 60 and Rs.2,000 a month from age 70, by direct transfer to the bank. It is for domiciles of the UT with a family income up to Rs.1.5 lakh a year. You hand in the form at your Gram Panchayat, District Panchayat or Municipal Council. The application should be decided within 30 days, and the pension arrives by the 5th of every month."
+  },
+  {
+   "k": "daf45411aa71",
+   "ctx": "benefit",
+   "t": "Rs.1,500 a month at 60-69; Rs.2,000 a month at 70 and above"
+  },
+  {
+   "k": "1cf24593de7e",
+   "ctx": "eligibility",
+   "t": "Domicile of Dadra & Nagar Haveli and Daman & Diu"
+  },
+  {
+   "k": "e51624507ae9",
+   "ctx": "eligibility",
+   "t": "Annual family income not above Rs.1.5 lakh"
+  },
+  {
+   "k": "061afd83279c",
+   "ctx": "eligibility",
+   "t": "Not getting money under any other old age pension scheme"
+  },
+  {
+   "k": "76b9d5a0114f",
+   "ctx": "eligibility",
+   "t": "The form asks whether you have applied for a Portuguese or other foreign passport. Answer truthfully"
+  },
+  {
+   "k": "0c4780f49615",
+   "ctx": "documents",
+   "t": "Age certificate (proof that you are 60 or above)"
+  },
+  {
+   "k": "3d7a2b6c6933",
+   "ctx": "documents",
+   "t": "Income certificate showing family income below Rs.1.5 lakh"
+  },
+  {
+   "k": "73f8b50579bc",
+   "ctx": "documents",
+   "t": "Domicile certificate"
   }
  ]
 }

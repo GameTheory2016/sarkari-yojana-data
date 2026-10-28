@@ -6,126 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_10.json",
  "items": [
   {
-   "k": "3a3b5656c227",
-   "ctx": "brief",
-   "t": "The e-Nirman card registers a construction worker with the Gujarat construction workers' welfare board. With it you and your family can eat a full meal for Rs.5 at Shramik Annapurna centres, you are covered under the PMJAY-MA health card, and you can apply on the Sanman portal for the board's schemes - maternity help, children's education, housing help, illness and accident help. You can register yourself on the e-Nirman portal or app, or at a CSC, e-Gram centre, e-Shram Seva Kendra or Dhanvantari Arogya Rath. The card is valid for 3 years and is renewed with a fresh 90-day work certificate."
-  },
-  {
-   "k": "12c4b3e20712",
-   "ctx": "benefit",
-   "t": "Rs.5 meals, Rs.7,500 maternity help for women workers, up to Rs.1.6 lakh extra housing help and more"
-  },
-  {
-   "k": "7cb1e1d22214",
-   "ctx": "eligibility",
-   "t": "Did construction work for more than 90 days in the last 12 months (a self-declared or employer's certificate)"
-  },
-  {
-   "k": "73b1db91149b",
-   "ctx": "eligibility",
-   "t": "Does physical work on building or other construction - mason, labourer, carpenter, plumber, electrician, welder, tiles, painting, centring, road and MGNREGA work and the other listed jobs"
-  },
-  {
-   "k": "3c24c5462d19",
-   "ctx": "eligibility",
-   "t": "No income limit for manual workers; office staff, supervisors and independent contractors cannot register"
-  },
-  {
-   "k": "43c475799813",
-   "ctx": "eligibility",
-   "t": "The card must be renewed every 3 years with a new 90-day work certificate to keep getting benefits"
-  },
-  {
-   "k": "d3c4422908eb",
-   "ctx": "documents",
-   "t": "Proof of age - birth certificate, school leaving certificate, voter ID or driving licence"
-  },
-  {
-   "k": "82e452758258",
-   "ctx": "documents",
-   "t": "Ration card or other proof of address"
-  },
-  {
-   "k": "222eebfcfafe",
-   "ctx": "documents",
-   "t": "90-day work certificate from the employer or contractor, or a self-declaration"
-  },
-  {
-   "k": "95beb07dbc09",
-   "ctx": "documents",
-   "t": "Caste certificate, if you have one"
-  },
-  {
-   "k": "9b1150f11e09",
-   "ctx": "hint",
-   "t": "Write it exactly as on the Aadhaar card, in English letters."
-  },
-  {
-   "k": "fd596a6cb1ad",
-   "ctx": "hint",
-   "t": "Your own 12-digit number. One Aadhaar can be registered only once."
-  },
-  {
-   "k": "6167db00587c",
-   "ctx": "hint",
-   "t": "Women workers should register too - several schemes, such as maternity help, are only for them."
-  },
-  {
-   "k": "a94a4b6c1baa",
-   "ctx": "hint",
-   "t": "As on Aadhaar, in DD/MM/YYYY. You must be between 18 and 60."
-  },
-  {
-   "k": "18ac2a704f50",
-   "ctx": "hint",
-   "t": "Your user ID, password reset and approval messages come to this number."
-  },
-  {
-   "k": "611b2e0f96ea",
-   "ctx": "hint",
-   "t": "Leave it empty if you do not have one."
-  },
-  {
-   "k": "0f3e97a9c5a3",
-   "ctx": "hint",
-   "t": "Make one you will remember and do not share it with the agent or contractor."
-  },
-  {
-   "k": "ac866ed715ad",
-   "ctx": "hint",
-   "t": "Choose Construction Worker. Builders who pay the cess use a different login."
-  },
-  {
-   "k": "db92cd786124",
-   "ctx": "label",
-   "t": "Type of work and days worked"
-  },
-  {
-   "k": "8fcfe96d2f7b",
-   "ctx": "value",
-   "t": "Mason (kadiya) - 120 days in the last 12 months"
-  },
-  {
-   "k": "64f802ebd2dc",
-   "ctx": "hint",
-   "t": "Asked in the registration application after you log in. Upload the 90-day certificate signed by the contractor, or the self-declaration."
-  },
-  {
-   "k": "89b4635bb2ce",
-   "ctx": "hint",
-   "t": "In your own name. The board pays all scheme money straight into this account."
-  },
-  {
-   "k": "b6abb2b0fcd5",
-   "ctx": "demoSteps",
-   "t": "Open the e-Nirman portal or the e-Nirman app and tap Register Yourself. Fill name, Aadhaar, gender, birth date, mobile, choose Construction Worker and set a password. Or get it done at a CSC, e-Gram centre, e-Shram Seva Kendra or the Dhanvantari Arogya Rath."
-  },
-  {
-   "k": "687a1b8200a7",
-   "ctx": "demoSteps",
-   "t": "Log in and complete your profile - address, family members and bank account."
-  },
-  {
    "k": "cb52139154c5",
    "ctx": "demoSteps",
    "t": "Open the application for Registration, fill your type of work and employer, and upload Aadhaar, photo, age proof, the 90-day work certificate and passbook. Submit and note the application number."
@@ -884,6 +764,131 @@
    "k": "a0853627c69c",
    "ctx": "demoSteps",
    "t": "The department verifies income and other details through records and field checks. Checked details are marked Verified."
+  },
+  {
+   "k": "37fe13a38c0a",
+   "ctx": "demoSteps",
+   "t": "The 8-digit Family ID comes by SMS. Download it any time on meraparivar.haryana.gov.in with the Family ID and an OTP."
+  },
+  {
+   "k": "97a9e4b605a9",
+   "ctx": "demoSteps",
+   "t": "If you cannot do it yourself, a CSC, Antyodaya Saral Kendra or PPP operator does it free. For wrong income or caste, use the correction module or Report Grievance on the PPP site."
+  },
+  {
+   "k": "7895f377d561",
+   "ctx": "helpline",
+   "t": "0172-4880500 (Family ID helpline, 9 am to 6 pm, Monday to Saturday) / 98886 33322 (PPP helpline)"
+  },
+  {
+   "k": "0da3401388ab",
+   "ctx": "title",
+   "t": "Deen Dayal Lado Lakshmi Yojana (Lado Lakshmi)"
+  },
+  {
+   "k": "a970702c6014",
+   "ctx": "department",
+   "t": "SEWA Department (Social Justice, Empowerment, Welfare of SCs & BCs and Antyodaya), Haryana"
+  },
+  {
+   "k": "a655500aa7ff",
+   "ctx": "brief",
+   "t": "Rs 2,100 a month for women aged 23 and above from the poorest families of Haryana. From the second month, Rs 1,100 comes to your savings account and Rs 1,000 is saved for you in a government recurring deposit, paid back with interest when it matures (within five years). You apply only on the official Lado Lakshmi mobile app using your Family ID (PPP). There is no paper form, and any other link or form is fake."
+  },
+  {
+   "k": "ea35ab6499d0",
+   "ctx": "benefit",
+   "t": "Rs 2,100 a month (Rs 1,100 in hand + Rs 1,000 saved in a government RD)"
+  },
+  {
+   "k": "34f1edbbd1b0",
+   "ctx": "eligibility",
+   "t": "Woman aged 23 or above. Any number of eligible women in one family can apply"
+  },
+  {
+   "k": "a778e1091e54",
+   "ctx": "eligibility",
+   "t": "Family income verified in the Family ID (PPP) not more than Rs 1 lakh a year, and the family endorsed as poorest of the poor by the Gram Sabha or Ward Committee"
+  },
+  {
+   "k": "291dff76e5c1",
+   "ctx": "eligibility",
+   "t": "Or family income up to Rs 1.80 lakh if a child in a government school scored over 80% in Class 10 or 12, reached the NIPUN grade level in Classes 1 to 4, or was brought out of malnutrition (SAM/MAM). Mothers of more than three children cannot use this route"
+  },
+  {
+   "k": "c5cf16bf6efe",
+   "ctx": "eligibility",
+   "t": "She, or her husband if she married into Haryana from another state, has lived in Haryana for at least 15 years"
+  },
+  {
+   "k": "b1d9431eaf68",
+   "ctx": "eligibility",
+   "t": "Not for women already getting the old age, widow, Divyang or Ladli allowance or any other government pension, government employees whose family income is above the limit, or income tax payers"
+  },
+  {
+   "k": "c37fae3f3243",
+   "ctx": "documents",
+   "t": "Family ID (Parivar Pehchan Patra) with verified income"
+  },
+  {
+   "k": "279da53a3a73",
+   "ctx": "documents",
+   "t": "Aadhaar card of the applicant, and Aadhaar details of family members"
+  },
+  {
+   "k": "4fd8125b46c0",
+   "ctx": "documents",
+   "t": "Haryana residence certificate (15 years)"
+  },
+  {
+   "k": "e6c67e94edf3",
+   "ctx": "documents",
+   "t": "Savings bank account in the woman's own name"
+  },
+  {
+   "k": "c1cc8f3ecf01",
+   "ctx": "documents",
+   "t": "Electricity connection (consumer account) number"
+  },
+  {
+   "k": "11aa2d630c15",
+   "ctx": "documents",
+   "t": "Vehicle ownership details and HKRN ID, if any"
+  },
+  {
+   "k": "e8a347eb8671",
+   "ctx": "documents",
+   "t": "A smartphone, with the mobile number for OTP and the monthly face check"
+  },
+  {
+   "k": "f559548b07f4",
+   "ctx": "portalName",
+   "t": "Lado Lakshmi App (SEWA Department, Haryana)"
+  },
+  {
+   "k": "88c271641af4",
+   "ctx": "hint",
+   "t": "Type your number in the app and enter the OTP. The eligibility and payment SMS come here."
+  },
+  {
+   "k": "8727e634a42b",
+   "ctx": "label",
+   "t": "Family ID (PPP)"
+  },
+  {
+   "k": "1c8df2dc7fad",
+   "ctx": "hint",
+   "t": "The 8-digit Family ID. Your income and family details are taken from it."
+  },
+  {
+   "k": "0d2ea2769eed",
+   "ctx": "label",
+   "t": "Select applicant"
+  },
+  {
+   "k": "d437afefed58",
+   "ctx": "value",
+   "t": "Sunita Devi (wife of head)"
   }
  ]
 }

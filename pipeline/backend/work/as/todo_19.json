@@ -6,146 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_19.json",
  "items": [
   {
-   "k": "7befde054f04",
-   "ctx": "eligibility",
-   "t": "Patients under 20 qualify through their birth certificate and the father's SSC or COI. A woman married to an SSC or COI holder needs her own COI and a marriage certificate"
-  },
-  {
-   "k": "71895afd8e8e",
-   "ctx": "eligibility",
-   "t": "BPL patients use the SSIAF limit of Rs.1.5 lakh first, then up to Rs.1.5 lakh more from MMJRK"
-  },
-  {
-   "k": "1a4d1dfbd666",
-   "ctx": "documents",
-   "t": "Referral certificate from the State Medical Board, STNM Hospital"
-  },
-  {
-   "k": "accba50bc639",
-   "ctx": "documents",
-   "t": "Attested copy of the patient's Sikkim Subject Certificate or COI"
-  },
-  {
-   "k": "54468140b51f",
-   "ctx": "documents",
-   "t": "For a patient under 20: birth certificate and father's SSC or COI"
-  },
-  {
-   "k": "5e251b258d13",
-   "ctx": "documents",
-   "t": "For a married woman: her COI and marriage certificate"
-  },
-  {
-   "k": "34042e1e55c5",
-   "ctx": "documents",
-   "t": "Doctor's estimate or hospital bills for the treatment"
-  },
-  {
-   "k": "5bd4723a7846",
-   "ctx": "documents",
-   "t": "Aadhaar card and bank passbook of the patient or attendant"
-  },
-  {
-   "k": "148ef038628c",
-   "ctx": "submitAt",
-   "t": "First get the referral from the State Medical Board at STNM Hospital, Sochakgang, Gangtok. Then take the referral certificate, the attested SSC or COI copy (and BPL proof) to the Health & Family Welfare Department. The department approves the amount before you travel. Cashless treatment is only at empanelled hospitals. Elsewhere you claim a reimbursement with the bills. In a life-threatening emergency you can be treated first and claim within six months."
-  },
-  {
-   "k": "58cbff3bbb29",
-   "ctx": "hint",
-   "t": "As written on the patient's SSC or COI."
-  },
-  {
-   "k": "389fe20f2931",
-   "ctx": "hint",
-   "t": "Patients under 20 must add a birth certificate and the father's SSC or COI."
-  },
-  {
-   "k": "fcf9c4139ca4",
-   "ctx": "hint",
-   "t": "Copy it from the certificate and attach an attested copy."
-  },
-  {
-   "k": "1a81ce8caa02",
-   "ctx": "hint",
-   "t": "APL or BPL. BPL patients get the SSIAF amount first, then MMJRK on top."
-  },
-  {
-   "k": "edfeaeb39c34",
-   "ctx": "hint",
-   "t": "Copy it from the State Medical Board referral."
-  },
-  {
-   "k": "f272b039223b",
-   "ctx": "hint",
-   "t": "From the referral given by the State Medical Board at STNM Hospital."
-  },
-  {
-   "k": "77aa9dc19ece",
-   "ctx": "hint",
-   "t": "Choose an empanelled hospital to get cashless treatment."
-  },
-  {
-   "k": "146b692cfb73",
-   "ctx": "hint",
-   "t": "The family member who will travel with the patient."
-  },
-  {
-   "k": "f12bd72f354c",
-   "ctx": "hint",
-   "t": "A number the department can call about the approval."
-  },
-  {
-   "k": "7a07a5544aaf",
-   "ctx": "hint",
-   "t": "Needed only if you pay first and claim the money back."
-  },
-  {
-   "k": "eede1c4dadef",
-   "ctx": "demoSteps",
-   "t": "Your doctor in Sikkim sends your case to the State Medical Board at STNM Hospital, which gives a referral certificate."
-  },
-  {
-   "k": "d86b2f98bbb8",
-   "ctx": "demoSteps",
-   "t": "Take the referral and your attested SSC or COI (and BPL proof if you have one) to the Health & Family Welfare Department."
-  },
-  {
-   "k": "989cc1434f97",
-   "ctx": "demoSteps",
-   "t": "The department checks your papers and approves the amount for your illness, up to Rs.2 lakh, or Rs.3 lakh for BPL patients."
-  },
-  {
-   "k": "a9fed4038afc",
-   "ctx": "demoSteps",
-   "t": "Go to the empanelled hospital. Treatment there is cashless up to the approved amount. Anything above it the family pays."
-  },
-  {
-   "k": "b894dbe60286",
-   "ctx": "demoSteps",
-   "t": "If you were treated in an emergency or at a non-cashless hospital, submit the bills within six months for a reimbursement into your bank account."
-  },
-  {
-   "k": "42616650a2af",
-   "ctx": "demoSteps",
-   "t": "For a follow-up visit, ask the department whether a balance is left from your first approval."
-  },
-  {
-   "k": "41e5c2545ca8",
-   "ctx": "helpline",
-   "t": "03592-202633 — Health & Family Welfare Department, Government of Sikkim"
-  },
-  {
-   "k": "8fae53bd06bf",
-   "ctx": "title",
-   "t": "Sikkim Aama Sashaktikaran Yojana (Aama Yojana)"
-  },
-  {
-   "k": "90952e2c89bf",
-   "ctx": "department",
-   "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Government of Sikkim"
-  },
-  {
    "k": "ad5523d368d6",
    "ctx": "brief",
    "t": "Mothers in Sikkim who have no job get Rs.40,000 a year, paid in two instalments of Rs.20,000 straight into their own bank account through the State Bank of Sikkim. It started in 2021-22 as the Aama Yojana at Rs.20,000 a year. It was later renamed and the amount doubled. Married, unmarried, widowed, divorced and separated mothers can all get it. You collect the form at your Block Development Office, the Gram Sabha or Ward Sabha passes your name, and officials check it before the money is released."
@@ -934,6 +794,146 @@
    "k": "67b30b834a91",
    "ctx": "department",
    "t": "Tamil Nadu Construction Workers Welfare Board, Labour Welfare and Skill Development Department"
+  },
+  {
+   "k": "5b58e8344c8d",
+   "ctx": "brief",
+   "t": "Registering with the Tamil Nadu Construction Workers Welfare Board gives masons, helpers, carpenters, painters, plumbers, electricians and other building workers a registration card that unlocks the board's benefits: education help for children, marriage and maternity money, a monthly pension at 60, accident and death cover, and help to build a house. Registration, renewal and claims are free and done online on the Unorganised Workers Welfare Boards portal, using your mobile number and ration card number. The Assistant Commissioner of Labour (Social Security Scheme) checks the application, and the permanent registration number comes by SMS."
+  },
+  {
+   "k": "73be063114df",
+   "ctx": "benefit",
+   "t": "Pension Rs 1,200 a month at 60; marriage Rs 20,000; maternity Rs 18,000; up to Rs 5 lakh on death at a worksite"
+  },
+  {
+   "k": "6f4487126b93",
+   "ctx": "eligibility",
+   "t": "Working in one of the 54 construction trades listed by the board, such as mason, helper, carpenter, painter, plumber, electrician, bar bender, tile layer, or road and well work"
+  },
+  {
+   "k": "5f59e06eb021",
+   "ctx": "eligibility",
+   "t": "A work certificate in the board's format, signed by an employer, registered contractor, registered trade union office-bearer, the VAO (Revenue Inspector in Chennai) or a labour inspector"
+  },
+  {
+   "k": "6a42534d27e4",
+   "ctx": "eligibility",
+   "t": "Not a member of any other welfare board"
+  },
+  {
+   "k": "c6e65c46d64c",
+   "ctx": "eligibility",
+   "t": "Resident of Tamil Nadu with a ration card; workers from other states register separately on the same portal"
+  },
+  {
+   "k": "fdc09087a472",
+   "ctx": "eligibility",
+   "t": "Registration and all claims are free; renew the registration on time or benefits stop"
+  },
+  {
+   "k": "1ec4b471a56a",
+   "ctx": "documents",
+   "t": "Work certificate in the board's format, signed by the employer, union, contractor or VAO"
+  },
+  {
+   "k": "52404e15432b",
+   "ctx": "documents",
+   "t": "Age proof: driving licence, school certificate, voter ID or a doctor's certificate"
+  },
+  {
+   "k": "2698febbe7cf",
+   "ctx": "documents",
+   "t": "Proof of relationship with the nominee"
+  },
+  {
+   "k": "10dbd20d367b",
+   "ctx": "portalName",
+   "t": "Tamil Nadu Unorganised Workers Welfare Boards portal"
+  },
+  {
+   "k": "a5da2648ad6d",
+   "ctx": "hint",
+   "t": "Your own number. Until the officer approves, you can log in only with the OTP sent here."
+  },
+  {
+   "k": "81b9ee393aaa",
+   "ctx": "hint",
+   "t": "From your family smart card. Family members are taken from this card."
+  },
+  {
+   "k": "ecf696dfdda6",
+   "ctx": "hint",
+   "t": "Type it within the time shown, or press Resend OTP."
+  },
+  {
+   "k": "395cb91a238b",
+   "ctx": "value",
+   "t": "Tamil Nadu Construction Workers Welfare Board"
+  },
+  {
+   "k": "5524e53bd858",
+   "ctx": "hint",
+   "t": "Choose the construction board, not the manual workers' board."
+  },
+  {
+   "k": "63b850460928",
+   "ctx": "hint",
+   "t": "Pick the trade written on your work certificate."
+  },
+  {
+   "k": "4fb2a17aaf03",
+   "ctx": "hint",
+   "t": "From the age proof you upload. You must be between 18 and 60."
+  },
+  {
+   "k": "d7142f551ec7",
+   "ctx": "hint",
+   "t": "An account in your own name. Every benefit is paid into it."
+  },
+  {
+   "k": "0b37e7ac1cad",
+   "ctx": "label",
+   "t": "Nominee and family members (name, relation, age)"
+  },
+  {
+   "k": "635cc798a793",
+   "ctx": "hint",
+   "t": "Enter every member with the correct age. Education and marriage help for children is decided by age."
+  },
+  {
+   "k": "29e26d2ae368",
+   "ctx": "demoSteps",
+   "t": "Get the work certificate filled and signed in the board's format by your employer, union, contractor or VAO, and keep photos or scans of all documents ready."
+  },
+  {
+   "k": "cf5e94dc09cc",
+   "ctx": "demoSteps",
+   "t": "Open the portal, click New Registration, enter your mobile number and ration card number and verify the OTP."
+  },
+  {
+   "k": "040bfb505d58",
+   "ctx": "demoSteps",
+   "t": "Choose the Construction Workers Welfare Board and your trade, fill in your personal, bank, nominee and family details, upload the documents and submit. The application number comes by SMS."
+  },
+  {
+   "k": "4d2b559a6338",
+   "ctx": "demoSteps",
+   "t": "The Assistant Commissioner of Labour (Social Security Scheme) office checks it. If anything is missing you get an SMS: log in with OTP, correct it and submit again."
+  },
+  {
+   "k": "82398265e62d",
+   "ctx": "demoSteps",
+   "t": "On approval, the permanent registration number and password come by SMS. Log in and download your registration certificate."
+  },
+  {
+   "k": "da0363c4e9dc",
+   "ctx": "demoSteps",
+   "t": "For each benefit, such as education help, marriage, maternity or the pension at 60, log in and file a Claim with the proof. The money is paid into your bank account."
+  },
+  {
+   "k": "afd039479a21",
+   "ctx": "demoSteps",
+   "t": "Renew the registration on the portal before it expires so that your benefits continue."
   }
  ]
 }

@@ -6,86 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_17.json",
  "items": [
   {
-   "k": "729bd975e2ff",
-   "ctx": "documents",
-   "t": "At the hospital: the PMJAY-GJAY card, with photocopies of the ration card and Aadhaar card"
-  },
-  {
-   "k": "3952c058e52c",
-   "ctx": "hint",
-   "t": "Any number you keep with you. The login OTP comes here, and so does the message when the card is approved."
-  },
-  {
-   "k": "a860715f30e4",
-   "ctx": "hint",
-   "t": "Choose PMJAY and the state Odisha. In Odisha the same card is printed as the PMJAY-GJAY card."
-  },
-  {
-   "k": "7ea5b618e620",
-   "ctx": "hint",
-   "t": "The ration card number brings up the whole family at once. If nothing comes, search again with your Aadhaar number."
-  },
-  {
-   "k": "98b440836b50",
-   "ctx": "hint",
-   "t": "Copy the number from your NFSA or SFSS ration card exactly."
-  },
-  {
-   "k": "0a7c51e6b302",
-   "ctx": "hint",
-   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar, otherwise choose face authentication and scan the face with the phone camera."
-  },
-  {
-   "k": "89fc85f68a79",
-   "ctx": "hint",
-   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request sent back."
-  },
-  {
-   "k": "35216d58b158",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in (gjay.odisha.gov.in links to it under Know Your ABPMJAY GJAY Health Card Number) and log in as Beneficiary with your mobile number and OTP."
-  },
-  {
-   "k": "1e3d225275a9",
-   "ctx": "demoSteps",
-   "t": "Choose PMJAY and Odisha, then search for your family by ration card number or Aadhaar. Members marked eKYC pending still need a card."
-  },
-  {
-   "k": "022871e8fb85",
-   "ctx": "demoSteps",
-   "t": "For each member, verify with Aadhaar OTP or face authentication, take the live photo and fill in mobile, relation, district and PIN code, then submit."
-  },
-  {
-   "k": "8cc6b9f483f1",
-   "ctx": "demoSteps",
-   "t": "The state health agency checks the request and an SMS comes when it is approved. Log in again and download the card. If you have no smartphone, a CSC or the Ayushman desk of an empanelled hospital makes the card free."
-  },
-  {
-   "k": "c9b3bba064e2",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, go to the Ayushman Bharat counter with the card, ration card and Aadhaar. Your fingerprint or iris is checked at admission and again at discharge."
-  },
-  {
-   "k": "ef98c1c47a2a",
-   "ctx": "demoSteps",
-   "t": "The hospital bills the government directly. Never pay cash for a treatment covered by the scheme. In Odisha government hospitals all treatment is free even without the card."
-  },
-  {
-   "k": "7885ee5e5c46",
-   "ctx": "helpline",
-   "t": "104 (GJAY and state health helpline, toll-free) / 14555 (Ayushman Bharat PM-JAY helpline)"
-  },
-  {
-   "k": "c834fc9fb204",
-   "ctx": "title",
-   "t": "Monthly Financial Assistance to Women Heads of BPL Families (Rs.2,500)"
-  },
-  {
-   "k": "458df691eab8",
-   "ctx": "department",
-   "t": "Department of Women and Child Development, Government of Puducherry"
-  },
-  {
    "k": "d1b6acf4665e",
    "ctx": "brief",
    "t": "Puducherry pays Rs.2,500 a month to the woman who heads a BPL (red) ration card family, aged 21 to 55. It was Rs.1,000 until a January 2026 notification raised it. There is no separate application now. The department picks eligible women every month from the Civil Supplies ration-card data, checks them against other schemes, and pays straight into the woman's Aadhaar-linked bank account. Being shown as head on a BPL card, with Aadhaar seeded, is what gets you in."
@@ -1039,6 +959,76 @@
    "k": "0cb75fcd4ad1",
    "ctx": "department",
    "t": "Directorate of Integrated Child Development Services (ICDS), Women & Child Development Department, Government of Rajasthan"
+  },
+  {
+   "k": "3c2b8f53d132",
+   "ctx": "brief",
+   "t": "Gives Rs 6,000 in three instalments to a woman pregnant with her second child, for better food and care. It was earlier called the Indira Gandhi Matritva Poshan Yojana; only the name changed and the rules are the same. If the second baby is a boy, the third instalment is Rs 4,000; if it is a girl, she gets Rs 6,000 under the central PM Matru Vandana Yojana instead, making Rs 8,000 in all. There is no form: the Anganwadi worker or ANM records the pregnancy on PCTS and the money comes by DBT."
+  },
+  {
+   "k": "17b5f82525aa",
+   "ctx": "benefit",
+   "t": "Rs 6,000 in 3 instalments for the second child (Rs 8,000 in all if it is a girl)"
+  },
+  {
+   "k": "4a8cabe52464",
+   "ctx": "eligibility",
+   "t": "Woman pregnant with her second child on or after 1 April 2022 (1 November 2020 in Pratapgarh, Dungarpur, Banswara, Udaipur and Baran)"
+  },
+  {
+   "k": "27fbb61b1a00",
+   "ctx": "eligibility",
+   "t": "Runs in all districts; pregnant or breastfeeding Anganwadi workers, helpers, ASHA sahyoginis and saathins are also eligible"
+  },
+  {
+   "k": "d56220c3c3ea",
+   "ctx": "eligibility",
+   "t": "Not for women regularly employed by the Centre, the state or a PSU, or getting the same kind of benefit under another law"
+  },
+  {
+   "k": "501245e1f036",
+   "ctx": "eligibility",
+   "t": "Not eligible if the first pregnancy gave twins, or if after remarriage either partner already has more than one child"
+  },
+  {
+   "k": "d81b32a0364c",
+   "ctx": "eligibility",
+   "t": "Cannot take MMMPY and PM Matru Vandana instalments for the same conditions"
+  },
+  {
+   "k": "c0e17cf5f99f",
+   "ctx": "eligibility",
+   "t": "After a miscarriage or still birth, she stays eligible in a later pregnancy"
+  },
+  {
+   "k": "4086bf6148aa",
+   "ctx": "documents",
+   "t": "Jan Aadhaar card (it will be made at registration if the family has none)"
+  },
+  {
+   "k": "a407a8ff3a5d",
+   "ctx": "documents",
+   "t": "Mamta card (mother and child protection card) — photocopy"
+  },
+  {
+   "k": "1a883eff9f46",
+   "ctx": "documents",
+   "t": "Bank passbook copy of the account linked to the Jan Aadhaar"
+  },
+  {
+   "k": "1c87daf728b2",
+   "ctx": "submitAt",
+   "t": "No form and no fee. Register the pregnancy at the Anganwadi centre, or with the ANM at the sub-centre or government hospital, within 120 days of the last period. Give the Jan Aadhaar, Mamta card, bank passbook and mobile number for the PCTS entry; the instalments then come on their own as the check-ups and the hospital delivery are recorded. For a missing instalment, ask the Anganwadi worker or the CDPO (ICDS project office) of your block."
+  },
+  {
+   "k": "beacc7b591ad",
+   "ctx": "hint",
+   "t": "As on the Jan Aadhaar and the bank account."
+  },
+  {
+   "k": "e040c4b7cd41",
+   "ctx": "hint",
+   "t": "Must be given at registration. If the family has none, the Anganwadi worker will help get it made."
   }
  ]
 }

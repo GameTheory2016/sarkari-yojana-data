@@ -6,121 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_12.json",
  "items": [
   {
-   "k": "7189a5425840",
-   "ctx": "hint",
-   "t": "Copy it from the ration card. If nothing is found, search again with your Aadhaar number."
-  },
-  {
-   "k": "4d860a792456",
-   "ctx": "hint",
-   "t": "Aadhaar of the family member whose card you are making now. Each member is done one at a time."
-  },
-  {
-   "k": "abdf5b983670",
-   "ctx": "hint",
-   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face on the phone camera."
-  },
-  {
-   "k": "4879aa988bac",
-   "ctx": "hint",
-   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets the request rejected."
-  },
-  {
-   "k": "1e3c969967d3",
-   "ctx": "hint",
-   "t": "Where you actually live now, so the nearest empanelled hospitals are shown to you."
-  },
-  {
-   "k": "1b7b8851eaa9",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in (or the Ayushman app) and log in as Beneficiary with your mobile number and OTP."
-  },
-  {
-   "k": "4d05d090344a",
-   "ctx": "demoSteps",
-   "t": "Choose PMJAY and the state Jammu and Kashmir, then search for your family by ration card number or Aadhaar."
-  },
-  {
-   "k": "c182f66e14ca",
-   "ctx": "demoSteps",
-   "t": "Find the member marked eKYC pending, verify with Aadhaar OTP or face authentication, and take the live photo."
-  },
-  {
-   "k": "372051da808a",
-   "ctx": "demoSteps",
-   "t": "Fill in the relation, district and PIN code and submit. The State Health Agency usually approves it within a day or two."
-  },
-  {
-   "k": "d9f231df670a",
-   "ctx": "demoSteps",
-   "t": "Log in again, open Download Card and save the Golden Card. If your family is not found, go to a CSC or the Ayushman Mitra desk of a SEHAT hospital with your ration card and Aadhaar."
-  },
-  {
-   "k": "6d738095c8d8",
-   "ctx": "demoSteps",
-   "t": "At the hospital, show the card at the Ayushman Mitra desk and pay nothing for a covered treatment. If an empanelled hospital refuses, call 104."
-  },
-  {
-   "k": "b0b95e33cb66",
-   "ctx": "helpline",
-   "t": "104 — J&K health helpline, also for complaints when treatment is refused / 14555 or 1800-111-565 — Ayushman Bharat national helpline"
-  },
-  {
-   "k": "d49a85d286a5",
-   "ctx": "department",
-   "t": "Department of Social Welfare, Jammu & Kashmir"
-  },
-  {
-   "k": "88b66c4f6d17",
-   "ctx": "brief",
-   "t": "For a girl born on or after 1 April 2015 into a low-income family in Jammu & Kashmir, the government puts Rs.1,000 a month into an account in her name until she turns 14. The money then stays in a term deposit, and at 21 she receives about Rs.6.5 lakh for her studies or marriage. Parents apply online on JanSugam (also reached through e-UNNAT); the CDPO checks the application and the Deputy Commissioner sanctions it."
-  },
-  {
-   "k": "3d0e86fc9b1d",
-   "ctx": "benefit",
-   "t": "Rs.1,000 a month till she is 14; about Rs.6.5 lakh paid to her at 21"
-  },
-  {
-   "k": "30030ba37248",
-   "ctx": "eligibility",
-   "t": "The girl was born on or after 1 April 2015"
-  },
-  {
-   "k": "dc9fac4bc87d",
-   "ctx": "eligibility",
-   "t": "The parents' total income from all sources is below Rs.75,000 a year"
-  },
-  {
-   "k": "97e696bbf6e1",
-   "ctx": "eligibility",
-   "t": "The girl and her parents are residents of Jammu & Kashmir"
-  },
-  {
-   "k": "541fb6645427",
-   "ctx": "eligibility",
-   "t": "The money is held in the girl's own account and paid to her only at age 21"
-  },
-  {
-   "k": "bfec52301306",
-   "ctx": "documents",
-   "t": "Income certificate of the parents, showing less than Rs.75,000 a year"
-  },
-  {
-   "k": "98160693ffde",
-   "ctx": "documents",
-   "t": "Aadhaar card of the girl and of the parents"
-  },
-  {
-   "k": "fadf85f16497",
-   "ctx": "documents",
-   "t": "Ration card or other address proof"
-  },
-  {
-   "k": "b11d33784fae",
-   "ctx": "documents",
-   "t": "J&K Bank account details in the girl's name, once the sanction letter asks for them"
-  },
-  {
    "k": "62f337572b0e",
    "ctx": "hint",
    "t": "Exactly as written on her birth certificate."
@@ -764,6 +649,106 @@
    "k": "f23e9f61c022",
    "ctx": "documents",
    "t": "Earlier prescriptions, test reports and discharge papers, if any"
+  },
+  {
+   "k": "2ec14977cec8",
+   "ctx": "submitAt",
+   "t": "At the registration (Arogya Mitra) counter of any government hospital: Primary Health Centre, Community Health Centre, taluk or district hospital, or medical college hospital. Take every member's Aadhaar card and the ration card, and Rs.10 per card. Grama One, Karnataka One and Bangalore One centres also issue the card."
+  },
+  {
+   "k": "30abe025cb5b",
+   "ctx": "hint",
+   "t": "The patient's own Aadhaar. Each family member is enrolled one by one."
+  },
+  {
+   "k": "00510062e778",
+   "ctx": "hint",
+   "t": "Fingerprint on the biometric device. If it fails, the staff can use an OTP to the Aadhaar mobile or the QR code on the Aadhaar card."
+  },
+  {
+   "k": "1ad40fd0a9c5",
+   "ctx": "hint",
+   "t": "From the ration card. It links you to your family in the food department's records."
+  },
+  {
+   "k": "2fc0763eb4e6",
+   "ctx": "hint",
+   "t": "Filled automatically: Priority Household or Antyodaya card = Eligible; APL card or no card = General."
+  },
+  {
+   "k": "623cc7d5ccb4",
+   "ctx": "hint",
+   "t": "Taken from the Aadhaar e-KYC. Check the spelling before the card is printed."
+  },
+  {
+   "k": "a97ca7a241e1",
+   "ctx": "value",
+   "t": "Signed — no other health insurance scheme"
+  },
+  {
+   "k": "d8b2c2edff0b",
+   "ctx": "hint",
+   "t": "A printed form: you allow your Aadhaar to be used for enrolment and state that you are not covered by another scheme."
+  },
+  {
+   "k": "7d893bd47d4f",
+   "ctx": "hint",
+   "t": "Your ration card number, a dash and your member number. It is printed on the card."
+  },
+  {
+   "k": "519f7996ed92",
+   "ctx": "hint",
+   "t": "Paid once. A reprint of a lost card costs Rs.20."
+  },
+  {
+   "k": "c5785d03919f",
+   "ctx": "demoSteps",
+   "t": "Go to the registration counter of a government hospital (PHC, CHC, taluk or district hospital) with your Aadhaar and ration card."
+  },
+  {
+   "k": "a048f6848e24",
+   "ctx": "demoSteps",
+   "t": "The staff check your Aadhaar by fingerprint (or OTP or QR code), and your ration card decides your category: Eligible (BPL) or General."
+  },
+  {
+   "k": "383bf48c241a",
+   "ctx": "demoSteps",
+   "t": "Sign the consent and self-declaration, pay Rs.10, and collect the printed card with your ArK ID. Repeat this for each family member."
+  },
+  {
+   "k": "280cfcc9ec7c",
+   "ctx": "demoSteps",
+   "t": "When you fall ill, go first to a government hospital. If it cannot give the treatment, ask the doctor for a referral to a private hospital empanelled under AB-ArK."
+  },
+  {
+   "k": "bdce6f86bdae",
+   "ctx": "demoSteps",
+   "t": "At the private hospital, go to the Arogya Mitra desk with the card, your Aadhaar and the referral letter. The hospital takes approval from SAST; for eligible families the treatment is cashless."
+  },
+  {
+   "k": "2ee3fa80e3ac",
+   "ctx": "demoSteps",
+   "t": "In an emergency covered by the listed emergency procedures, go straight to the nearest empanelled hospital. No referral is needed."
+  },
+  {
+   "k": "dfd653b9be26",
+   "ctx": "demoSteps",
+   "t": "If a hospital asks a BPL card holder to pay for a covered treatment, call 104 or 1800 425 8330 before paying."
+  },
+  {
+   "k": "67d79b2c1b9f",
+   "ctx": "helpline",
+   "t": "104 — Arogya Sahayavani (toll free); 1800 425 8330 — Arogya Karnataka helpline"
+  },
+  {
+   "k": "697546d7409b",
+   "ctx": "title",
+   "t": "Karnataka Social Security Pensions (Old Age, Sandhya Suraksha, Widow and Disability Pension)"
+  },
+  {
+   "k": "b541f788cc03",
+   "ctx": "department",
+   "t": "Directorate of Social Security and Pensions, Revenue Department, Government of Karnataka"
   }
  ]
 }

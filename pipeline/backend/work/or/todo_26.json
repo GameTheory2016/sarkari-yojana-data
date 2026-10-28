@@ -6,101 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_26.json",
  "items": [
   {
-   "k": "060a836dd92f",
-   "ctx": "submitAt",
-   "t": "The Krishak Bandhu desk at the office of the Assistant Director of Agriculture (ADA) of your block, applying in the block or Gram Panchayat where you hold most of your land. A Bangla Sahayata Kendra (BSK) can also enter the enrolment. The form is page 3 of the PDF linked here and the self-declaration for land not in your name is page 1; blank forms are free at the ADA office. Fill it in Bengali (English or Nepali in the hills), take the originals and one photocopy of each document, and keep the counterfoil with the Acknowledgement ID that the staff give you."
-  },
-  {
-   "k": "a41e42d9048f",
-   "ctx": "hint",
-   "t": "Your name in capital English letters, the same as in your bank passbook."
-  },
-  {
-   "k": "c903685b2217",
-   "ctx": "hint",
-   "t": "Your name exactly as written on the land parcha (khatian)."
-  },
-  {
-   "k": "65ce6cc4319b",
-   "ctx": "hint",
-   "t": "Where you live. The land can be in another mouza; that goes in the land table below."
-  },
-  {
-   "k": "5ea21878a00e",
-   "ctx": "hint",
-   "t": "Owner if the land is recorded in your name, Bargadar if you are a recorded share-cropper, Pattadar if you hold a government patta."
-  },
-  {
-   "k": "0b476afeae61",
-   "ctx": "hint",
-   "t": "The number linked to both your bank account and Aadhaar. Payment SMSs come here."
-  },
-  {
-   "k": "fe5dc531a8b2",
-   "ctx": "hint",
-   "t": "The 12 digits on your own Aadhaar card."
-  },
-  {
-   "k": "b5672d693622",
-   "ctx": "hint",
-   "t": "The number on your voter ID card."
-  },
-  {
-   "k": "bd02d0363223",
-   "ctx": "label",
-   "t": "Land: Mouza / J.L. No. / Khatian No. / Area (acre)"
-  },
-  {
-   "k": "56cad2f8c2df",
-   "ctx": "hint",
-   "t": "Copy from the RoR. Add one row for each plot and the total at the bottom. 0.66 acre is about 66 decimal."
-  },
-  {
-   "k": "07462930a393",
-   "ctx": "hint",
-   "t": "From the first page of your passbook. Tick SB for a savings account."
-  },
-  {
-   "k": "fd5d61ba5c62",
-   "ctx": "hint",
-   "t": "The person who should get the Rs.2 lakh death benefit if something happens to you."
-  },
-  {
-   "k": "fb91b2546d8b",
-   "ctx": "demoSteps",
-   "t": "Download the form from the link above or collect it free at the block ADA office, and fill page 3. If the land is still in a dead parent's name, also fill the self-declaration on page 1 and get a warison certificate from the Pradhan."
-  },
-  {
-   "k": "1e3fe5db061e",
-   "ctx": "demoSteps",
-   "t": "Attach the photocopies and paste your photo. Sign or give your thumb impression."
-  },
-  {
-   "k": "d9f0b1635199",
-   "ctx": "demoSteps",
-   "t": "Hand it in at the Krishak Bandhu desk of the ADA office. Keep the counterfoil with the Acknowledgement ID."
-  },
-  {
-   "k": "64f6cc48cf29",
-   "ctx": "demoSteps",
-   "t": "Agriculture officers check your land against the land records and approve it; you get a KB ID. Check the status on krishakbandhu.wb.gov.in (Farmer Search) or on WhatsApp 9830383383."
-  },
-  {
-   "k": "1c76cff30cd4",
-   "ctx": "demoSteps",
-   "t": "The money comes into your bank account in two equal instalments, for Kharif and Rabi, with an SMS on your mobile."
-  },
-  {
-   "k": "e5be829d61aa",
-   "ctx": "demoSteps",
-   "t": "During the 2026 re-check, fill the verification form at the block office when asked, with your spouse's Aadhaar and bank details, so that your payments continue."
-  },
-  {
-   "k": "c7c6c4593cf7",
-   "ctx": "demoSteps",
-   "t": "If the farmer dies between 18 and 60, the family applies at the block ADA office with the death certificate, the farmer's voter or Aadhaar card, the eligible claimant certificate and the RoR, for the Rs.2 lakh."
-  },
-  {
    "k": "01e6026d5ad8",
    "ctx": "helpline",
    "t": "033-2357-0021 (Krishak Bandhu helpline, 10 am to 5 pm); WhatsApp 9830383383 (payment status chatbot); the Assistant Director of Agriculture office of your block"
@@ -764,6 +669,206 @@
    "k": "005899372b6f",
    "ctx": "department",
    "t": "Higher Education Department, Government of West Bengal"
+  },
+  {
+   "k": "d2fef6d03b26",
+   "ctx": "brief",
+   "t": "An education loan of up to Rs.10 lakh with no collateral and 4% simple interest, for students from West Bengal from Class X up to PhD, studying in the state, elsewhere in India or abroad, or preparing at a coaching centre for medical, engineering, law or UPSC, PSC and SSC exams. Fees are paid straight to the institution and living costs to the student's account. You apply online with a parent or guardian as co-borrower; your institution checks the documents and the bank you choose sanctions the loan and gives the card. The loan is repaid over up to 15 years, starting a year after the course ends or you get a job."
+  },
+  {
+   "k": "ab95aa12ab4b",
+   "ctx": "benefit",
+   "t": "Loan up to Rs.10 lakh at 4% simple interest, no collateral"
+  },
+  {
+   "k": "6813572ada52",
+   "ctx": "eligibility",
+   "t": "The student or the family has lived in West Bengal for at least the last 10 years (a self-declaration in the form is enough)"
+  },
+  {
+   "k": "2da7ec03d70c",
+   "ctx": "eligibility",
+   "t": "Passed Class IX and studying in Class X, XI or XII, a diploma, UG, PG or PhD, in or outside the state or abroad, or at a coaching centre for entrance or competitive exams"
+  },
+  {
+   "k": "6e6b238b69f8",
+   "ctx": "eligibility",
+   "t": "Age 40 or less when applying"
+  },
+  {
+   "k": "4135489fa9a8",
+   "ctx": "eligibility",
+   "t": "No income limit and no minimum marks"
+  },
+  {
+   "k": "00a42ea011a8",
+   "ctx": "eligibility",
+   "t": "Must apply jointly with a parent, guardian or other co-borrower"
+  },
+  {
+   "k": "7506ccd7d33d",
+   "ctx": "eligibility",
+   "t": "No margin money up to Rs.4 lakh; above that, 5%, against which a scholarship such as SVMCM can be counted"
+  },
+  {
+   "k": "8fce7cf7667b",
+   "ctx": "documents",
+   "t": "Student's Aadhaar card (PDF, 50 to 400 KB)"
+  },
+  {
+   "k": "edb3ade6a668",
+   "ctx": "documents",
+   "t": "Age proof of the student"
+  },
+  {
+   "k": "581c1ca23ddb",
+   "ctx": "documents",
+   "t": "Admission receipt"
+  },
+  {
+   "k": "e3c461601013",
+   "ctx": "documents",
+   "t": "Prospectus or certificate from the institution showing admission, exam, hostel and other fees"
+  },
+  {
+   "k": "d8142b362525",
+   "ctx": "documents",
+   "t": "Marksheet or certificate of the last exam passed"
+  },
+  {
+   "k": "10452b33cef2",
+   "ctx": "documents",
+   "t": "PAN card of the student and of the guardian, or an undertaking if there is none"
+  },
+  {
+   "k": "aeb8c188755f",
+   "ctx": "documents",
+   "t": "Address proof of the co-borrower"
+  },
+  {
+   "k": "d106514fea85",
+   "ctx": "documents",
+   "t": "Colour photos and signatures of the student and the co-borrower (JPG, 20 to 50 KB)"
+  },
+  {
+   "k": "6cf578a139ba",
+   "ctx": "portalName",
+   "t": "West Bengal Student Credit Card (WBSCC) portal"
+  },
+  {
+   "k": "ab19c621d3e1",
+   "ctx": "label",
+   "t": "Are You Filling The Application From Jan Kalyan Shivir"
+  },
+  {
+   "k": "d428e0eb27aa",
+   "ctx": "hint",
+   "t": "Choose YES only if you are filling it at a government camp; then give the camp registration number, district and block."
+  },
+  {
+   "k": "8350949b1235",
+   "ctx": "label",
+   "t": "Applicant Name (First / Middle / Last)"
+  },
+  {
+   "k": "e0c8542e85e9",
+   "ctx": "value",
+   "t": "Arindam Ghosh"
+  },
+  {
+   "k": "c9e7b68cc816",
+   "ctx": "hint",
+   "t": "The student's name as in the Class X certificate."
+  },
+  {
+   "k": "8d7cf9a69623",
+   "ctx": "hint",
+   "t": "As on the Class X admit card or certificate."
+  },
+  {
+   "k": "154286f680b0",
+   "ctx": "hint",
+   "t": "Choose from the list."
+  },
+  {
+   "k": "e0cfeb803521",
+   "ctx": "hint",
+   "t": "The student's own Aadhaar number."
+  },
+  {
+   "k": "ed19860c0602",
+   "ctx": "label",
+   "t": "Name of 10th standard Board"
+  },
+  {
+   "k": "c624d3202511",
+   "ctx": "value",
+   "t": "West Bengal Board of Secondary Education, WBBSE"
+  },
+  {
+   "k": "8c7e2f7f7f13",
+   "ctx": "hint",
+   "t": "The board you passed Madhyamik or Class X from."
+  },
+  {
+   "k": "0fbeb24e9a8d",
+   "ctx": "label",
+   "t": "Registration Number / Year of passing of 10th standard"
+  },
+  {
+   "k": "a08c87bef39e",
+   "ctx": "value",
+   "t": "1234567 of 2021 / 2023"
+  },
+  {
+   "k": "8b6519f2bd40",
+   "ctx": "hint",
+   "t": "Copy the board registration number from your Class X registration certificate."
+  },
+  {
+   "k": "3fd1dc65f1dc",
+   "ctx": "label",
+   "t": "Programme Type / Programme Name"
+  },
+  {
+   "k": "1e316c2eaa9b",
+   "ctx": "value",
+   "t": "Undergraduate / B.Tech in Civil Engineering"
+  },
+  {
+   "k": "021a1e6cfa8c",
+   "ctx": "hint",
+   "t": "The course you are studying now or have taken admission in."
+  },
+  {
+   "k": "6dcf08ec8f86",
+   "ctx": "label",
+   "t": "State / District / Name of Institution"
+  },
+  {
+   "k": "33f882d924d4",
+   "ctx": "value",
+   "t": "West Bengal / Paschim Bardhaman / Example Institute of Technology"
+  },
+  {
+   "k": "cb1aacd3c2f7",
+   "ctx": "hint",
+   "t": "Pick your institution from the list. If it is missing, email the help desk before applying."
+  },
+  {
+   "k": "0dbc0d064d5d",
+   "ctx": "label",
+   "t": "Mobile No / Email ID"
+  },
+  {
+   "k": "cfe01422b884",
+   "ctx": "hint",
+   "t": "Your own mobile and email. The OTP, your Registration ID and every update come here."
+  },
+  {
+   "k": "ba6a4a7d82dd",
+   "ctx": "demoSteps",
+   "t": "Open wbscc.wb.gov.in and click Student Registration. Fill the details, set a password and verify the OTP; your Registration ID comes by SMS."
   }
  ]
 }

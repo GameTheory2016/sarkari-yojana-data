@@ -6,81 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_21.json",
  "items": [
   {
-   "k": "ad5523d368d6",
-   "ctx": "brief",
-   "t": "Mothers in Sikkim who have no job get Rs.40,000 a year, paid in two instalments of Rs.20,000 straight into their own bank account through the State Bank of Sikkim. It started in 2021-22 as the Aama Yojana at Rs.20,000 a year. It was later renamed and the amount doubled. Married, unmarried, widowed, divorced and separated mothers can all get it. You collect the form at your Block Development Office, the Gram Sabha or Ward Sabha passes your name, and officials check it before the money is released."
-  },
-  {
-   "k": "c91f6d77cbe7",
-   "ctx": "benefit",
-   "t": "Rs.40,000 a year, paid in two instalments of Rs.20,000"
-  },
-  {
-   "k": "d8765726abbc",
-   "ctx": "eligibility",
-   "t": "A mother aged 18 to 59 with no regular job or income. This includes married, unmarried, widowed, divorced and separated mothers, and mothers of a legally adopted child"
-  },
-  {
-   "k": "2b7edae0731b",
-   "ctx": "eligibility",
-   "t": "Holds a Sikkim Subject Certificate, a Certificate of Identification (COI) or a Residential Certificate"
-  },
-  {
-   "k": "ff68fbd0c378",
-   "ctx": "eligibility",
-   "t": "Her name is on the voter list for a ward of her Gram Panchayat or urban local body"
-  },
-  {
-   "k": "b25dafe16196",
-   "ctx": "eligibility",
-   "t": "The family holds a Priority Household (PHH) or Antyodaya (AAY) ration card"
-  },
-  {
-   "k": "fafe08fead04",
-   "ctx": "eligibility",
-   "t": "Not eligible if she gets any government pension, if anyone in the household has a regular government, PSU or bank job, or if she or her husband is an enlisted government contractor or supplier"
-  },
-  {
-   "k": "1b98357fb1fc",
-   "ctx": "documents",
-   "t": "Attested copy of the Sikkim Subject Certificate, COI or Residential Certificate"
-  },
-  {
-   "k": "ba58aae63ae2",
-   "ctx": "documents",
-   "t": "Voter card (EPIC), with an attested copy"
-  },
-  {
-   "k": "55ccc6a98657",
-   "ctx": "documents",
-   "t": "Front page of the bank passbook (savings account in the mother's own name)"
-  },
-  {
-   "k": "d86cfdbf8cc8",
-   "ctx": "documents",
-   "t": "Gram Sabha or Ward Sabha resolution recommending her name"
-  },
-  {
-   "k": "733e7dba81df",
-   "ctx": "portalName",
-   "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Sikkim"
-  },
-  {
-   "k": "59d561914e43",
-   "ctx": "submitAt",
-   "t": "Get the form from the Block Development Office (BDO) at your Block Administrative Centre and hand it back there with all the photocopies, three photographs and the Gram Sabha or Ward Sabha resolution. Take the originals of your certificate of identity, voter card and ration card to show. Ask for a receipt."
-  },
-  {
-   "k": "c0ff944e3678",
-   "ctx": "label",
-   "t": "Name of mother (as per Aadhaar)"
-  },
-  {
-   "k": "898ecd00d391",
-   "ctx": "hint",
-   "t": "Write the name exactly as it is on your Aadhaar card. The beneficiary list is made from it."
-  },
-  {
    "k": "adbd3fc30ff9",
    "ctx": "hint",
    "t": "Your husband's name, or your father's name if you are unmarried, widowed or separated."
@@ -794,6 +719,106 @@
    "k": "67b30b834a91",
    "ctx": "department",
    "t": "Tamil Nadu Construction Workers Welfare Board, Labour Welfare and Skill Development Department"
+  },
+  {
+   "k": "5b58e8344c8d",
+   "ctx": "brief",
+   "t": "Registering with the Tamil Nadu Construction Workers Welfare Board gives masons, helpers, carpenters, painters, plumbers, electricians and other building workers a registration card that unlocks the board's benefits: education help for children, marriage and maternity money, a monthly pension at 60, accident and death cover, and help to build a house. Registration, renewal and claims are free and done online on the Unorganised Workers Welfare Boards portal, using your mobile number and ration card number. The Assistant Commissioner of Labour (Social Security Scheme) checks the application, and the permanent registration number comes by SMS."
+  },
+  {
+   "k": "73be063114df",
+   "ctx": "benefit",
+   "t": "Pension Rs 1,200 a month at 60; marriage Rs 20,000; maternity Rs 18,000; up to Rs 5 lakh on death at a worksite"
+  },
+  {
+   "k": "6f4487126b93",
+   "ctx": "eligibility",
+   "t": "Working in one of the 54 construction trades listed by the board, such as mason, helper, carpenter, painter, plumber, electrician, bar bender, tile layer, or road and well work"
+  },
+  {
+   "k": "5f59e06eb021",
+   "ctx": "eligibility",
+   "t": "A work certificate in the board's format, signed by an employer, registered contractor, registered trade union office-bearer, the VAO (Revenue Inspector in Chennai) or a labour inspector"
+  },
+  {
+   "k": "6a42534d27e4",
+   "ctx": "eligibility",
+   "t": "Not a member of any other welfare board"
+  },
+  {
+   "k": "c6e65c46d64c",
+   "ctx": "eligibility",
+   "t": "Resident of Tamil Nadu with a ration card; workers from other states register separately on the same portal"
+  },
+  {
+   "k": "fdc09087a472",
+   "ctx": "eligibility",
+   "t": "Registration and all claims are free; renew the registration on time or benefits stop"
+  },
+  {
+   "k": "1ec4b471a56a",
+   "ctx": "documents",
+   "t": "Work certificate in the board's format, signed by the employer, union, contractor or VAO"
+  },
+  {
+   "k": "52404e15432b",
+   "ctx": "documents",
+   "t": "Age proof: driving licence, school certificate, voter ID or a doctor's certificate"
+  },
+  {
+   "k": "2698febbe7cf",
+   "ctx": "documents",
+   "t": "Proof of relationship with the nominee"
+  },
+  {
+   "k": "10dbd20d367b",
+   "ctx": "portalName",
+   "t": "Tamil Nadu Unorganised Workers Welfare Boards portal"
+  },
+  {
+   "k": "a5da2648ad6d",
+   "ctx": "hint",
+   "t": "Your own number. Until the officer approves, you can log in only with the OTP sent here."
+  },
+  {
+   "k": "81b9ee393aaa",
+   "ctx": "hint",
+   "t": "From your family smart card. Family members are taken from this card."
+  },
+  {
+   "k": "ecf696dfdda6",
+   "ctx": "hint",
+   "t": "Type it within the time shown, or press Resend OTP."
+  },
+  {
+   "k": "395cb91a238b",
+   "ctx": "value",
+   "t": "Tamil Nadu Construction Workers Welfare Board"
+  },
+  {
+   "k": "5524e53bd858",
+   "ctx": "hint",
+   "t": "Choose the construction board, not the manual workers' board."
+  },
+  {
+   "k": "63b850460928",
+   "ctx": "hint",
+   "t": "Pick the trade written on your work certificate."
+  },
+  {
+   "k": "4fb2a17aaf03",
+   "ctx": "hint",
+   "t": "From the age proof you upload. You must be between 18 and 60."
+  },
+  {
+   "k": "d7142f551ec7",
+   "ctx": "hint",
+   "t": "An account in your own name. Every benefit is paid into it."
+  },
+  {
+   "k": "0b37e7ac1cad",
+   "ctx": "label",
+   "t": "Nominee and family members (name, relation, age)"
   }
  ]
 }

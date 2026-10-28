@@ -6,111 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_14.json",
  "items": [
   {
-   "k": "70b4a34753ef",
-   "ctx": "eligibility",
-   "t": "Old unpaid electricity dues must be cleared. Homes on Bhagya Jyothi, Kutira Jyothi and Amrut Jyothi are included in Gruha Jyothi"
-  },
-  {
-   "k": "ba99681992e6",
-   "ctx": "documents",
-   "t": "Aadhaar card of the person applying"
-  },
-  {
-   "k": "92ba91050722",
-   "ctx": "documents",
-   "t": "Latest electricity bill, for the ESCOM name and the Account ID (connection ID)"
-  },
-  {
-   "k": "bb298c1318ae",
-   "ctx": "documents",
-   "t": "Mobile number linked to Aadhaar, for the OTP"
-  },
-  {
-   "k": "115c67fbedab",
-   "ctx": "documents",
-   "t": "The bill need not be in your name: tenants and family members choose their type in the form"
-  },
-  {
-   "k": "d13c64481934",
-   "ctx": "documents",
-   "t": "Tenants: a rent agreement or other proof of living at that address, if the office asks for it"
-  },
-  {
-   "k": "2d2c88a6b54e",
-   "ctx": "hint",
-   "t": "English or Kannada. The labels of the form change to the language you pick."
-  },
-  {
-   "k": "24dc88a494f8",
-   "ctx": "hint",
-   "t": "The company named at the top of your bill: BESCOM, MESCOM, CESC, HESCOM, GESCOM or Hukkeri Society."
-  },
-  {
-   "k": "826d01fb34ee",
-   "ctx": "hint",
-   "t": "The account or connection ID printed on your bill, not the meter number. The name and address then fill in from the ESCOM's records."
-  },
-  {
-   "k": "2d69a0c84302",
-   "ctx": "hint",
-   "t": "Comes from the ESCOM record. It may be the landlord's name or a late parent's name; that is fine."
-  },
-  {
-   "k": "7a323f895077",
-   "ctx": "hint",
-   "t": "Filled in automatically. Check that it is the house you actually live in."
-  },
-  {
-   "k": "22bc9ff136ea",
-   "ctx": "hint",
-   "t": "Owner, Tenant, or Family member (for example, when the bill is in your father's name)."
-  },
-  {
-   "k": "05843dc804ae",
-   "ctx": "hint",
-   "t": "Your own Aadhaar. One Aadhaar can be linked to only one connection in the whole state."
-  },
-  {
-   "k": "60565ec59a61",
-   "ctx": "hint",
-   "t": "Exactly as on your Aadhaar. The OTP check matches it."
-  },
-  {
-   "k": "c2fddc9462dd",
-   "ctx": "hint",
-   "t": "The acknowledgement and later messages about the scheme come here."
-  },
-  {
-   "k": "f3093d983960",
-   "ctx": "hint",
-   "t": "You confirm the connection is used only for the house. Commercial use cancels the benefit, and the free amount is recovered with interest."
-  },
-  {
-   "k": "c493688111a3",
-   "ctx": "demoSteps",
-   "t": "Keep your latest electricity bill ready and find the ESCOM name and the Account ID on it."
-  },
-  {
-   "k": "385a6d43a349",
-   "ctx": "demoSteps",
-   "t": "Open sevasindhugs.karnataka.gov.in, choose Gruha Jyothi and click to register. The form opens without any login. A Grama One, Karnataka One or Bangalore One centre, or your ESCOM office, will also register you free."
-  },
-  {
-   "k": "b6a1e4bdaa6c",
-   "ctx": "demoSteps",
-   "t": "Select your ESCOM, type the Account ID and check the name and address that appear. Choose Owner, Tenant or Family member, then enter your Aadhaar and verify it with the OTP."
-  },
-  {
-   "k": "3fadf84bd92a",
-   "ctx": "demoSteps",
-   "t": "Tick the declaration, submit, and note the acknowledgement number. You can check the status later on the Seva Sindhu 'Track Status' page."
-  },
-  {
-   "k": "8db8fc27b01a",
-   "ctx": "demoSteps",
-   "t": "From the next bill, your bill shows your free limit (eligible units). Within it the bill is zero; above it you pay only for the extra units; above 200 units you pay the whole bill."
-  },
-  {
    "k": "4016e3c46feb",
    "ctx": "demoSteps",
    "t": "Tenants moving house: use the Gruha Jyothi De-link option on the same portal to free your Aadhaar from the old connection, then register again at the new house."
@@ -789,6 +684,101 @@
    "k": "61d7a2350773",
    "ctx": "department",
    "t": "Department of Agriculture Development and Farmers' Welfare, Government of Kerala, through Krishi Bhavans"
+  },
+  {
+   "k": "059f0b5ef881",
+   "ctx": "brief",
+   "t": "Kerala's own crop insurance. For a small premium, such as Rs.2 a year for a yielding coconut tree or Re.1 a cent for paddy, you get fixed compensation if the crop is fully destroyed by flood, drought, landslide, storm, lightning, sea erosion, wildfire or wild animals; paddy is also covered against pests and disease. You apply and pay on the AIMS portal or app, and the Krishi Bhavan checks the field. Farmers without insurance can still claim the smaller natural-calamity relief on AIMS, for example Rs.700 for a yielding coconut tree. In March 2026 papaya, rambutan and other fruits, flowers and bee boxes were added."
+  },
+  {
+   "k": "a5a295d4d058",
+   "ctx": "benefit",
+   "t": "For total loss: Rs.2,000 per yielding coconut tree, Rs.35,000 per hectare of paddy, Rs.300 per bunched Nendran banana"
+  },
+  {
+   "k": "f7e080087df0",
+   "ctx": "eligibility",
+   "t": "Any farmer in Kerala who cultivates own or leased land. Paddy farmers can also join as a padasekharam group"
+  },
+  {
+   "k": "a4588229e4c7",
+   "ctx": "eligibility",
+   "t": "Minimum to insure: 10 coconut or arecanut trees, 10 banana plants, 25 rubber trees, or 0.1 hectare (about 25 cents) of paddy"
+  },
+  {
+   "k": "3948fcd4af00",
+   "ctx": "eligibility",
+   "t": "Insure within the crop's window: paddy 15 to 45 days after sowing or transplanting, banana 1 to 5 months after planting; yielding tree crops at any time"
+  },
+  {
+   "k": "9a560bb21bda",
+   "ctx": "eligibility",
+   "t": "Insure the whole crop in that plot, not part of it. Old or low-yielding trees are not accepted"
+  },
+  {
+   "k": "057a81693f33",
+   "ctx": "eligibility",
+   "t": "Cover starts 7 days after the premium is paid. Only total loss is paid: paddy loss above 50% counts as total, and for vegetables, ginger, tapioca and similar crops at least 10% of the insured area must be lost"
+  },
+  {
+   "k": "56441080dfe7",
+   "ctx": "documents",
+   "t": "Aadhaar card and the mobile number linked to it, for the OTP"
+  },
+  {
+   "k": "92d0408d84c3",
+   "ctx": "documents",
+   "t": "Land tax receipt or other land record; a lease agreement if the land is leased"
+  },
+  {
+   "k": "950130e0f6f0",
+   "ctx": "documents",
+   "t": "Passbook of a bank account in the farmer's own name"
+  },
+  {
+   "k": "77768905c07b",
+   "ctx": "documents",
+   "t": "Crop details: number of trees or plants, or the area, and the planting date"
+  },
+  {
+   "k": "c32197f6cc57",
+   "ctx": "documents",
+   "t": "UPI, debit card or net banking to pay the premium online"
+  },
+  {
+   "k": "07c5846574a0",
+   "ctx": "documents",
+   "t": "For a claim: photos of the damaged crop"
+  },
+  {
+   "k": "53581638542d",
+   "ctx": "hint",
+   "t": "Registration starts with your Aadhaar and an OTP. You register only once; the same login is used for every AIMS service."
+  },
+  {
+   "k": "79f5604f6671",
+   "ctx": "hint",
+   "t": "The Krishi Bhavan of the panchayat where the land is. Its staff will check your field."
+  },
+  {
+   "k": "e01219921ad5",
+   "ctx": "label",
+   "t": "Land: village, survey number and area"
+  },
+  {
+   "k": "91c6c40a1245",
+   "ctx": "hint",
+   "t": "Copy these from your land tax receipt. Add the land and the crops on it before applying for insurance."
+  },
+  {
+   "k": "b2b96d61588b",
+   "ctx": "hint",
+   "t": "If you farm leased land, choose leased and upload the lease agreement."
+  },
+  {
+   "k": "4db8ec02a6d6",
+   "ctx": "hint",
+   "t": "Under Services, open the State Crop Insurance link and press Apply next to the crop."
   }
  ]
 }

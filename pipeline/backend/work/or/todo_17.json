@@ -6,81 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_17.json",
  "items": [
   {
-   "k": "b18a73926470",
-   "ctx": "demoSteps",
-   "t": "Hand it to the talathi or at the tehsil's Sanjay Gandhi Yojana branch and take the acknowledgement. The talathi visits your home to check the papers and family income and uploads a photo of the visit."
-  },
-  {
-   "k": "5bf1d6346ac6",
-   "ctx": "demoSteps",
-   "t": "The tehsildar checks the file and places it before the Sanjay Gandhi Niradhar Anudan Yojana committee, which meets every month. The lists of approved and rejected names are put on the notice board and read in the gram sabha."
-  },
-  {
-   "k": "54c8d8ed52b1",
-   "ctx": "demoSteps",
-   "t": "Once approved, the pension starts from the month after the online process is complete and comes by DBT into your Aadhaar-linked account every month."
-  },
-  {
-   "k": "bb5de2389840",
-   "ctx": "demoSteps",
-   "t": "Keep your Aadhaar and bank linking in order, because payments that fail for Aadhaar or bank reasons are the beneficiary's responsibility. Give the life certificate each year when the tehsil asks; if the pension stopped, giving it in the same financial year restarts it."
-  },
-  {
-   "k": "751f21423fa7",
-   "ctx": "demoSteps",
-   "t": "If nothing happens for two or three months, go to the tehsil office with your acknowledgement and ask for the committee's decision."
-  },
-  {
-   "k": "96f50b1215f0",
-   "ctx": "helpline",
-   "t": "Sanjay Gandhi Yojana branch of your tehsil office; 1800-120-8040 (Aaple Sarkar helpline)"
-  },
-  {
-   "k": "d3ed43650b61",
-   "ctx": "title",
-   "t": "Shravanbal Seva Rajya Nivruttivetan Yojana (Shravanbal Pension)"
-  },
-  {
-   "k": "23f911a61fee",
-   "ctx": "brief",
-   "t": "A monthly pension of Rs.1,500 for poor men and women aged 65 and above in Maharashtra. If the family is not on the BPL list but earns up to Rs.21,000 a year, the whole Rs.1,500 comes from the state (Group A). If the family is on the BPL list, the person gets the central Indira Gandhi old-age pension plus a Shravanbal top-up, again Rs.1,500 in all (Group B). Each eligible person is counted separately, so husband and wife can both get it, applying with one form each at the talathi or tehsil office; the money comes monthly by DBT."
-  },
-  {
-   "k": "0eab939525fc",
-   "ctx": "eligibility",
-   "t": "Living in Maharashtra for at least 15 years"
-  },
-  {
-   "k": "6d707a0a82c7",
-   "ctx": "eligibility",
-   "t": "Group A: family not on the BPL list, with yearly family income up to Rs.21,000 (Rs.50,000 if the applicant is disabled)"
-  },
-  {
-   "k": "aff28b88431f",
-   "ctx": "eligibility",
-   "t": "Group B: family on the BPL list; gets the central old-age pension with the state top-up"
-  },
-  {
-   "k": "cd327bbf1216",
-   "ctx": "eligibility",
-   "t": "Not drawing a regular monthly benefit or pension from any other government scheme"
-  },
-  {
-   "k": "c413a8974d36",
-   "ctx": "documents",
-   "t": "Age proof: birth certificate, school leaving certificate, or an age certificate from a government medical officer"
-  },
-  {
-   "k": "4bd80dd5a7f5",
-   "ctx": "documents",
-   "t": "Income certificate from the tehsildar, or BPL certificate or BPL list extract"
-  },
-  {
-   "k": "d9bfc0018cf3",
-   "ctx": "documents",
-   "t": "UDID card, if the applicant is disabled"
-  },
-  {
    "k": "c3c071cbae48",
    "ctx": "submitAt",
    "t": "The talathi (gram mahsul adhikari) of your village, or the Sanjay Gandhi Yojana branch of the tehsil office, which also handles Shravanbal; in a city, the tehsil office of your area. The prescribed application is Form 3 of Annexure 1 (page 20) of the government resolution linked here, the same form as for the Niradhar pension, and the tehsil office and Setu or Aaple Sarkar Seva Kendras keep blank forms. Hand in two copies of the form and of each certificate, carry the originals, and ask for a dated acknowledgement."
@@ -684,6 +609,111 @@
    "k": "d1e294d12a22",
    "ctx": "eligibility",
    "t": "Bona fide citizen of Manipur, with no family member in government service (a declaration is signed at the counter)"
+  },
+  {
+   "k": "edd52e57ad8f",
+   "ctx": "eligibility",
+   "t": "Families holding an AAY (Antyodaya) ration card, widows, and persons with disability"
+  },
+  {
+   "k": "75e4e2a752d0",
+   "ctx": "eligibility",
+   "t": "ASHAs, Anganwadi workers and helpers, Ima Keithel (Ima Market) women vendors, newspaper hawkers and local media persons"
+  },
+  {
+   "k": "d0f5014babce",
+   "ctx": "eligibility",
+   "t": "Internally displaced persons holding an IDP certificate from the Deputy Commissioner"
+  },
+  {
+   "k": "ba6cdc42bae2",
+   "ctx": "eligibility",
+   "t": "Other poor families outside these groups can also apply. The Deputy Commissioner checks their economic status before the card is approved"
+  },
+  {
+   "k": "f0467dab5a6c",
+   "ctx": "eligibility",
+   "t": "Up to 5 names are printed on the card, and any extra members are noted as '2 more' and so on. There is no limit on family size"
+  },
+  {
+   "k": "11579ceeaa47",
+   "ctx": "documents",
+   "t": "Original Aadhaar card of the applicant and of every family member, with the Aadhaar consent form"
+  },
+  {
+   "k": "c6bb6ac26abd",
+   "ctx": "documents",
+   "t": "Photo ID: voter ID, PAN, driving licence, ration card, passport or government ID card"
+  },
+  {
+   "k": "5ae06753fc48",
+   "ctx": "documents",
+   "t": "Membership letter from NHM, the Social Welfare Department, Imphal Municipal Corporation or the authorised association (ASHAs, Anganwadi staff, Ima Keithel vendors, hawkers, media persons)"
+  },
+  {
+   "k": "893b8a8fa17e",
+   "ctx": "documents",
+   "t": "IDP certificate from the Deputy Commissioner (displaced persons)"
+  },
+  {
+   "k": "c8052d0fb09b",
+   "ctx": "submitAt",
+   "t": "CMHT enrolment kiosk (Health Coordinator help desk) at the reception of your District Hospital, or at RIMS or JNIMS in Imphal; enrolment camps are also held at DC offices and in villages. Take all original documents and the Aadhaar cards of every family member. Fill in the declaration that nobody in the family is in government service at the counter. A card fee of Rs.50 per family may be charged; AAY card holders, persons with disability and widows pay nothing."
+  },
+  {
+   "k": "e5a07a5df55e",
+   "ctx": "hint",
+   "t": "AAY, Widow, Disabled, ASHA, Anganwadi Worker/Helper, Ima Keithel Vendor, Hawker, Local Media, IDP, or Other Poor Family (DC verification)."
+  },
+  {
+   "k": "f45126790bc9",
+   "ctx": "hint",
+   "t": "As written on the Aadhaar card."
+  },
+  {
+   "k": "a6b97b7761c7",
+   "ctx": "hint",
+   "t": "The head's 12-digit Aadhaar. At least one member must give Aadhaar to enrol the family."
+  },
+  {
+   "k": "b6e4556bd3b8",
+   "ctx": "hint",
+   "t": "AAY card, disability certificate, death certificate, membership letter or IDP certificate, as your category needs."
+  },
+  {
+   "k": "ddf42da40eda",
+   "ctx": "hint",
+   "t": "Any one government photo ID, shown in original."
+  },
+  {
+   "k": "08729e509663",
+   "ctx": "value",
+   "t": "Thokchom Sanatombi (Daughter), Thokchom Bikram (Son)"
+  },
+  {
+   "k": "d93d25af51bf",
+   "ctx": "hint",
+   "t": "Everyone who lives and eats with you. Carry each member's Aadhaar."
+  },
+  {
+   "k": "1faed53de9bf",
+   "ctx": "hint",
+   "t": "The approval message for DC-verification cases comes here."
+  },
+  {
+   "k": "227eb1ec75f6",
+   "ctx": "label",
+   "t": "Declaration: no family member in government service"
+  },
+  {
+   "k": "c8a15ee2b75a",
+   "ctx": "hint",
+   "t": "Filled in at the kiosk before the card is made. Do not sign if anyone in the family is a government employee."
+  },
+  {
+   "k": "c6540263536d",
+   "ctx": "hint",
+   "t": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
   }
  ]
 }

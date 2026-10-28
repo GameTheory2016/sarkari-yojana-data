@@ -6,26 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_12.json",
  "items": [
   {
-   "k": "29387bd760b8",
-   "ctx": "demoSteps",
-   "t": "Open the Yuva Nidhi service on Seva One (sevaone.karnataka.gov.in), log in or register with your mobile number and OTP, and complete the Aadhaar e-KYC. A Grama One, Karnataka One or Bangalore One centre can do this for you."
-  },
-  {
-   "k": "3c17028750f6",
-   "ctx": "demoSteps",
-   "t": "Fill in your qualification, register number, year of passing and SSLC and PUC details, upload the marks cards, and give your Aadhaar-seeded bank account."
-  },
-  {
-   "k": "827de91b962a",
-   "ctx": "demoSteps",
-   "t": "Submit and note the application number. The district employment officer checks your certificates; follow it with 'Yuvanidhi Application Status Check' on the portal."
-  },
-  {
-   "k": "4ad415b50ee5",
-   "ctx": "demoSteps",
-   "t": "Once approved, the allowance is paid into your account every month by DBT. The department may also ask you to register on the Kaushalkar skills portal for training."
-  },
-  {
    "k": "24cc25ec6dbf",
    "ctx": "demoSteps",
    "t": "Every three months, submit the 'Unemployment Self Declaration' on the portal. If you miss it, the payment stops until you submit it."
@@ -776,29 +756,9 @@
    "t": "There is no form and nowhere to apply. Board a KSRTC ordinary bus marked 'Priyadarshini Scheme', tell the conductor your destination and ask for the zero-fare ticket."
   },
   {
-   "k": "30a11eb2b45f",
-   "ctx": "label",
-   "t": "Bus type"
-  },
-  {
-   "k": "75efbb138ec8",
-   "ctx": "value",
-   "t": "KSRTC Ordinary"
-  },
-  {
    "k": "3fa08a0aa562",
    "ctx": "hint",
    "t": "Only ordinary services are free. Fast Passenger, City Fast and higher-class buses charge the normal fare."
-  },
-  {
-   "k": "9d23befc0ea0",
-   "ctx": "label",
-   "t": "Board on the bus"
-  },
-  {
-   "k": "a820a08c240f",
-   "ctx": "value",
-   "t": "Priyadarshini Scheme"
   },
   {
    "k": "97629613a45c",
@@ -806,24 +766,9 @@
    "t": "Written on both sides and the front of every bus in the scheme."
   },
   {
-   "k": "dac8ac45652b",
-   "ctx": "value",
-   "t": "Kottarakkara"
-  },
-  {
-   "k": "6ca23682cf43",
-   "ctx": "value",
-   "t": "Punalur"
-  },
-  {
    "k": "b5324e8b789c",
    "ctx": "hint",
    "t": "Any distance on the bus's route."
-  },
-  {
-   "k": "a913b7ce9c91",
-   "ctx": "value",
-   "t": "Zero fare, Rs.0 to pay"
   },
   {
    "k": "1981dc900f96",
@@ -841,19 +786,9 @@
    "t": "Each woman and girl gets her own zero-fare ticket. Men get separate paid tickets."
   },
   {
-   "k": "6172bebc6ac8",
-   "ctx": "value",
-   "t": "None needed"
-  },
-  {
    "k": "f42b7e9f5d3b",
    "ctx": "hint",
    "t": "You do not have to show Aadhaar or any other card."
-  },
-  {
-   "k": "b6bd8cb22ca2",
-   "ctx": "label",
-   "t": "Luggage"
   },
   {
    "k": "9725a69ba185",
@@ -919,6 +854,31 @@
    "k": "a5a295d4d058",
    "ctx": "benefit",
    "t": "For total loss: Rs.2,000 per yielding coconut tree, Rs.35,000 per hectare of paddy, Rs.300 per bunched Nendran banana"
+  },
+  {
+   "k": "f7e080087df0",
+   "ctx": "eligibility",
+   "t": "Any farmer in Kerala who cultivates own or leased land. Paddy farmers can also join as a padasekharam group"
+  },
+  {
+   "k": "a4588229e4c7",
+   "ctx": "eligibility",
+   "t": "Minimum to insure: 10 coconut or arecanut trees, 10 banana plants, 25 rubber trees, or 0.1 hectare (about 25 cents) of paddy"
+  },
+  {
+   "k": "3948fcd4af00",
+   "ctx": "eligibility",
+   "t": "Insure within the crop's window: paddy 15 to 45 days after sowing or transplanting, banana 1 to 5 months after planting; yielding tree crops at any time"
+  },
+  {
+   "k": "9a560bb21bda",
+   "ctx": "eligibility",
+   "t": "Insure the whole crop in that plot, not part of it. Old or low-yielding trees are not accepted"
+  },
+  {
+   "k": "057a81693f33",
+   "ctx": "eligibility",
+   "t": "Cover starts 7 days after the premium is paid. Only total loss is paid: paddy loss above 50% counts as total, and for vegetables, ginger, tapioca and similar crops at least 10% of the insured area must be lost"
   }
  ]
 }

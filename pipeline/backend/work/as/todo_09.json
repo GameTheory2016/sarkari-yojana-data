@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_09.json",
  "items": [
   {
-   "k": "b9c09302588d",
-   "ctx": "hint",
-   "t": "Choose OBC (non-creamy layer), SC, ST or differently abled only if you upload the certificate; the fee is then halved."
-  },
-  {
-   "k": "d4a5b465ef80",
-   "ctx": "hint",
-   "t": "Pick the health office nearest your home. Collect the card there within 30 days of approval."
-  },
-  {
-   "k": "1afa0220d233",
-   "ctx": "demoSteps",
-   "t": "Register on goaonline.gov.in with your mobile OTP and log in. Open Services, All Services, then Deen Dayal Swasthya Seva Yojana (DDSSY) - New Enrollment."
-  },
-  {
-   "k": "a30c31f94d87",
-   "ctx": "demoSteps",
-   "t": "Fill in the eligible person's details, add each family member with Aadhaar, and upload the self-attested 5-year residence proof."
-  },
-  {
-   "k": "57ed84a31669",
-   "ctx": "demoSteps",
-   "t": "Choose a concession category if you have one, pay the fee (Rs.200 for up to 3 members, Rs.300 for 4 or more) and note the acknowledgement number."
-  },
-  {
-   "k": "b322f932f039",
-   "ctx": "demoSteps",
-   "t": "If the application is marked for compliance, reply within 30 days, or it is rejected and the fee is forfeited."
-  },
-  {
-   "k": "6298734cc1d0",
-   "ctx": "demoSteps",
-   "t": "When the SMS says it is approved, download the e-card and collect the DDSSY card from the office you chose within 30 days."
-  },
-  {
-   "k": "d66b977f9bb1",
-   "ctx": "demoSteps",
-   "t": "Show the card at the DDSSY desk of an empanelled hospital for cashless treatment. Renew it every year before 31 March through DDSSY - Renewal, using the card number and OTP."
-  },
-  {
-   "k": "4c31d37fd085",
-   "ctx": "helpline",
-   "t": "8882988000 — Goa Online helpline for DDSSY enrolment and renewal (9:45 am to 5:30 pm) / 0832-2225561 — Directorate of Health Services, Panaji"
-  },
-  {
-   "k": "b4ed20eafea1",
-   "ctx": "department",
-   "t": "Directorate of Women & Child Development, Government of Goa"
-  },
-  {
    "k": "7b691d7ab1a0",
    "ctx": "brief",
    "t": "Rs.1,500 every month in the bank account of a Goan homemaker whose family earns up to Rs.3 lakh a year, to help with household costs. It is for married women, widows and divorcees who have lived in Goa for 15 years. Apply on Goa Online; the money arrives by the 10th of each month. The 2026-27 budget announced an increase, but the new amount had not been notified when this was checked."
@@ -884,6 +834,41 @@
    "k": "8834be4c604c",
    "ctx": "hint",
    "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
+  },
+  {
+   "k": "ac5965f48967",
+   "ctx": "hint",
+   "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
+  },
+  {
+   "k": "34dbd876279a",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
+  },
+  {
+   "k": "6d5bce5a3657",
+   "ctx": "hint",
+   "t": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "k": "93e44aae243f",
+   "ctx": "hint",
+   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
+  },
+  {
+   "k": "92f0b5c3c707",
+   "ctx": "hint",
+   "t": "Where you live now, so the nearest empanelled hospitals are shown to you."
+  },
+  {
+   "k": "4cb4e06ad562",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar."
+  },
+  {
+   "k": "bae821feb9a5",
+   "ctx": "demoSteps",
+   "t": "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit."
   }
  ]
 }

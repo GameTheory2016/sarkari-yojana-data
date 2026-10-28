@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_23.json",
  "items": [
   {
-   "k": "28bf9e7681d7",
-   "ctx": "eligibility",
-   "t": "The application is entered in the Praja Palana portal with the ration card and the connection's USC number"
-  },
-  {
-   "k": "3097d32725d0",
-   "ctx": "eligibility",
-   "t": "The connection is used only for the home. Using it for a shop or business is an offence"
-  },
-  {
-   "k": "9038e47fb7b8",
-   "ctx": "eligibility",
-   "t": "Monthly use is 200 units or less. Above 200 units the full bill is payable for that month"
-  },
-  {
-   "k": "4babffc79f1b",
-   "ctx": "documents",
-   "t": "Latest electricity bill showing the USC (unique service connection) number"
-  },
-  {
-   "k": "234b1140ea5b",
-   "ctx": "documents",
-   "t": "Food Security Card (white ration card)"
-  },
-  {
-   "k": "12a9041ffcde",
-   "ctx": "documents",
-   "t": "Aadhaar card of the head of the family"
-  },
-  {
-   "k": "6e8ecf8b7cad",
-   "ctx": "documents",
-   "t": "Praja Palana receipt number, if you applied earlier"
-  },
-  {
-   "k": "4334c316adb8",
-   "ctx": "submitAt",
-   "t": "Give the Praja Palana (Gruha Jyothi) application at the Praja Palana counter in your MPDO office (villages) or the municipal office or GHMC circle office (towns). Attach copies of the white ration card, Aadhaar and the latest electricity bill showing the USC number. If you applied before but still get a bill, ask the same office to correct the ration card or USC number in Praja Palana. Take the receipt and show it at your electricity section office (AE office)."
-  },
-  {
-   "k": "5b980380ef76",
-   "ctx": "hint",
-   "t": "Aadhaar of the head of the family."
-  },
-  {
-   "k": "6b019a63f53e",
-   "ctx": "hint",
-   "t": "From the white ration card. Without it the scheme cannot be linked."
-  },
-  {
-   "k": "4577cb27ccb3",
-   "ctx": "hint",
-   "t": "The address where this electricity connection is."
-  },
-  {
-   "k": "062c06c0e62d",
-   "ctx": "hint",
-   "t": "See 'units consumed' on your bill. Only months of 200 units or less get a zero bill."
-  },
-  {
-   "k": "853ef31cff0a",
-   "ctx": "hint",
-   "t": "The USC number printed on the bill, not the meter number. One mistake here and the zero bill does not come."
-  },
-  {
-   "k": "7f0ef2c44d89",
-   "ctx": "hint",
-   "t": "If you rent, this can be the owner's name. The name on the bill is not changed."
-  },
-  {
-   "k": "b8b308e4f33e",
-   "ctx": "demoSteps",
-   "t": "Find the USC number on your latest electricity bill, and keep the white ration card and Aadhaar ready."
-  },
-  {
-   "k": "ba3ed37a9891",
-   "ctx": "demoSteps",
-   "t": "Go to the Praja Palana counter at the MPDO or municipal office. Fill the form with the units you use and the USC number, attach copies and take the receipt."
-  },
-  {
-   "k": "76a0a044dff6",
-   "ctx": "demoSteps",
-   "t": "The office enters it in the Praja Palana portal, and the power company links your ration card to your connection."
-  },
-  {
-   "k": "51da3931af99",
-   "ctx": "demoSteps",
-   "t": "From the next billing month, the meter reader gives a zero bill whenever the month's use is 200 units or less."
-  },
-  {
    "k": "a4be64882ed7",
    "ctx": "demoSteps",
    "t": "Watch your use. If it crosses 200 units, that whole month's bill must be paid. The zero bill comes back the next month you stay within 200."
@@ -636,11 +546,6 @@
    "t": "Aadhaar card and address proof of the groom"
   },
   {
-   "k": "c35a7455e526",
-   "ctx": "documents",
-   "t": "Age proof of the groom"
-  },
-  {
    "k": "5c2eb0d5f0f8",
    "ctx": "documents",
    "t": "Passport-size photographs of bride and groom"
@@ -649,11 +554,6 @@
    "k": "4ac64921732a",
    "ctx": "documents",
    "t": "Self-declaration on marital status, signed by both bride and groom (form attached)"
-  },
-  {
-   "k": "bc0f7fe8e2e9",
-   "ctx": "documents",
-   "t": "Bride's bank account details"
   },
   {
    "k": "b271acd6c2ae",
@@ -676,16 +576,6 @@
    "t": "Capital letters, exactly as on her Aadhaar card."
   },
   {
-   "k": "19c596c0be9a",
-   "ctx": "label",
-   "t": "Father's / Mother's / Guardian's name"
-  },
-  {
-   "k": "adf4888822a8",
-   "ctx": "value",
-   "t": "Sukhen Debbarma"
-  },
-  {
    "k": "68656e7ef01c",
    "ctx": "hint",
    "t": "The parent or guardian named on the ration card."
@@ -696,19 +586,9 @@
    "t": "Permanent address (as per Antyodaya ration card)"
   },
   {
-   "k": "3796ce8af6c2",
-   "ctx": "value",
-   "t": "Ward 2, Khowai Bazar, Khowai"
-  },
-  {
    "k": "595138e64b64",
    "ctx": "hint",
    "t": "Copy it from the Antyodaya card. It is used as address proof."
-  },
-  {
-   "k": "99e6ac4bba9c",
-   "ctx": "label",
-   "t": "Antyodaya ration card number"
   },
   {
    "k": "fc0570a60385",
@@ -726,11 +606,6 @@
    "t": "The money is paid into the bride's own account, so give her account number and IFSC."
   },
   {
-   "k": "2b8803c6d420",
-   "ctx": "label",
-   "t": "PRTC number"
-  },
-  {
    "k": "93808c9fd705",
    "ctx": "hint",
    "t": "The bride's Permanent Resident of Tripura Certificate. Attach a copy."
@@ -741,24 +616,9 @@
    "t": "Age and date of birth of bride"
   },
   {
-   "k": "077f3fb4e18b",
-   "ctx": "value",
-   "t": "20 years, 03-01-2006"
-  },
-  {
    "k": "69d627fc52b0",
    "ctx": "hint",
    "t": "She must be 18 or more on the wedding day. Attach the birth or school leaving certificate."
-  },
-  {
-   "k": "8230c62b1d13",
-   "ctx": "label",
-   "t": "Name of the groom"
-  },
-  {
-   "k": "0ef94c713e5b",
-   "ctx": "value",
-   "t": "Bikash Reang"
   },
   {
    "k": "4ddf72d23fc8",
@@ -771,11 +631,6 @@
    "t": "Age and date of birth of groom"
   },
   {
-   "k": "d08a29eb263e",
-   "ctx": "value",
-   "t": "24 years, 17-08-2002"
-  },
-  {
    "k": "26cf5e34758f",
    "ctx": "hint",
    "t": "He must be 21 or more on the wedding day."
@@ -784,11 +639,6 @@
    "k": "a7edae5434b7",
    "ctx": "label",
    "t": "Date and venue of marriage (if already held)"
-  },
-  {
-   "k": "89ced34a3d96",
-   "ctx": "value",
-   "t": "Not yet held"
   },
   {
    "k": "99fd857850c2",
@@ -896,16 +746,6 @@
    "t": "Any number you hold. The login OTP and the approval message come here."
   },
   {
-   "k": "0e03a87fc739",
-   "ctx": "label",
-   "t": "State and scheme"
-  },
-  {
-   "k": "cfa347ee70c2",
-   "ctx": "value",
-   "t": "Tripura / CM-JAY"
-  },
-  {
    "k": "a6bb2ac7e1c6",
    "ctx": "hint",
    "t": "Choose Tripura and the state scheme CM-JAY. If your family does not show, search again under PMJAY, because a family is in only one of the two."
@@ -934,6 +774,91 @@
    "k": "2243dab2a2ef",
    "ctx": "hint",
    "t": "Good light, face straight, no cap or dark glasses."
+  },
+  {
+   "k": "6fb98761c01e",
+   "ctx": "hint",
+   "t": "How this member is related to the head named on the ration card."
+  },
+  {
+   "k": "e6789cd1a73f",
+   "ctx": "value",
+   "t": "West Tripura / 799001"
+  },
+  {
+   "k": "66afab1fb1e9",
+   "ctx": "demoSteps",
+   "t": "Open the Ayushman beneficiary portal (or the Ayushman app) and log in as Beneficiary with your mobile number and the OTP."
+  },
+  {
+   "k": "fc9f64d1481e",
+   "ctx": "demoSteps",
+   "t": "Choose Tripura and the CM-JAY scheme, then search for your family by ration card number or Aadhaar."
+  },
+  {
+   "k": "c42311ffe48b",
+   "ctx": "demoSteps",
+   "t": "Find the member marked eKYC pending, verify with an Aadhaar OTP or face authentication, and take the live photo."
+  },
+  {
+   "k": "d048ee744ef3",
+   "ctx": "demoSteps",
+   "t": "Fill in the relation to the head of the family, the district and the PIN code, and submit. The State Health Agency usually approves within a day or two."
+  },
+  {
+   "k": "c77b239cf813",
+   "ctx": "demoSteps",
+   "t": "Log in again and download the CM-JAY card. Do this for every member. If you get stuck, a CSC or the Ayushman desk at an empanelled hospital will make it for free."
+  },
+  {
+   "k": "bd54414c2914",
+   "ctx": "demoSteps",
+   "t": "At the hospital, show the card at the Ayushman desk. Treatment is cashless up to Rs.5 lakh a year, so never pay cash for a covered treatment."
+  },
+  {
+   "k": "cb4d17e09cc1",
+   "ctx": "helpline",
+   "t": "14555 — Ayushman Bharat / CM-JAY national helpline / 1800-345-3797 — State Health Agency Tripura toll-free"
+  },
+  {
+   "k": "2f1ae339faae",
+   "ctx": "title",
+   "t": "Ujjwala Free LPG Refill on Holi and Diwali (Muft Gas Cylinder)"
+  },
+  {
+   "k": "607a24910a5c",
+   "ctx": "department",
+   "t": "Food & Civil Supplies Department, Government of Uttar Pradesh, with Indian Oil, Bharat Petroleum and HP Gas"
+  },
+  {
+   "k": "9c16f4be873b",
+   "ctx": "brief",
+   "t": "Families in Uttar Pradesh with a PM Ujjwala gas connection get the money for two 14.2 kg refills a year back from the state government: one between October and December (Diwali) and one between January and March (Holi). You book and pay for the cylinder as usual, and the money comes back into your Aadhaar-linked bank account in about 3 to 4 days. There is no form. The only condition is that the connection holder's Aadhaar authentication is done at the gas agency. The UP cabinet approved the 2026–27 round on 9 October 2026."
+  },
+  {
+   "k": "c1d7d45f1632",
+   "ctx": "benefit",
+   "t": "Two 14.2 kg refills a year free, with the money credited back to your bank account"
+  },
+  {
+   "k": "dfddc0dd7b06",
+   "ctx": "eligibility",
+   "t": "A PM Ujjwala (PMUY) gas connection in Uttar Pradesh"
+  },
+  {
+   "k": "0613b9a62a4e",
+   "ctx": "eligibility",
+   "t": "Aadhaar authentication (e-KYC) of the connection holder done at the gas agency"
+  },
+  {
+   "k": "90c24391c800",
+   "ctx": "eligibility",
+   "t": "A bank account linked to Aadhaar, because the money goes only to the Aadhaar-linked account"
+  },
+  {
+   "k": "f671789a78fb",
+   "ctx": "eligibility",
+   "t": "One free refill in October–December and one in January–March. A refill outside these months is not refunded"
   }
  ]
 }

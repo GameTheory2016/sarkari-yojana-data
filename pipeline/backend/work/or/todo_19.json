@@ -6,101 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_19.json",
  "items": [
   {
-   "k": "263963afed3c",
-   "ctx": "demoSteps",
-   "t": "After verification by the ICDS project office, the first instalment of Rs 6,000 comes by DBT into your Aadhaar-linked account."
-  },
-  {
-   "k": "ed3684d1d337",
-   "ctx": "demoSteps",
-   "t": "Have the baby, get the birth registered at the health centre or Anganwadi, and complete all vaccines up to 14 weeks (at birth, 6, 10 and 14 weeks), all entered in the MCP card."
-  },
-  {
-   "k": "803c81c08941",
-   "ctx": "demoSteps",
-   "t": "The Anganwadi worker sends the claim for the second instalment: Rs 4,000 more for a boy or Rs 6,000 more for a girl, again straight to your account."
-  },
-  {
-   "k": "e695a3b79a74",
-   "ctx": "demoSteps",
-   "t": "Ask the Anganwadi worker for the status, or check it on the app. If money is late, tell the Anganwadi worker or the CDPO, or call 181."
-  },
-  {
-   "k": "41b1723f8584",
-   "ctx": "helpline",
-   "t": "181 (Mamata and women's helpline, toll-free) / 1515 (PMMVY toll-free helpline)"
-  },
-  {
-   "k": "0ebfbe5d3c77",
-   "ctx": "department",
-   "t": "Department of Agriculture & Farmers' Empowerment, Government of Odisha (Directorate of Agriculture & Food Production)"
-  },
-  {
-   "k": "94b94faf7862",
-   "ctx": "hint",
-   "t": "Your village or town in Punjab."
-  },
-  {
-   "k": "4698b442f38b",
-   "ctx": "hint",
-   "t": "The district of that village or town."
-  },
-  {
-   "k": "e1e02a90174d",
-   "ctx": "hint",
-   "t": "Start with yourself, then add every member who lives with you. The form has room for 8 members."
-  },
-  {
-   "k": "70078058a73d",
-   "ctx": "hint",
-   "t": "Relation is how this person is related to you, the declarant."
-  },
-  {
-   "k": "ba7141e7fb62",
-   "ctx": "hint",
-   "t": "Write each adult's Voter ID number. Children have none: leave it blank and carry their Aadhaar cards."
-  },
-  {
-   "k": "b46ebd35a779",
-   "ctx": "label",
-   "t": "Voter ID of Declarant (front and back)"
-  },
-  {
-   "k": "d23d0ccab621",
-   "ctx": "hint",
-   "t": "Paste only your Voter ID copy here. The form says not to attach any other document."
-  },
-  {
-   "k": "391128232c8c",
-   "ctx": "hint",
-   "t": "Sign only after checking every name. A false entry can cancel the family's cover."
-  },
-  {
-   "k": "05e3fa014694",
-   "ctx": "demoSteps",
-   "t": "Check whether your family is already listed: open sha.punjab.gov.in, choose Check for Eligibility and search with your Aadhaar."
-  },
-  {
-   "k": "a0bad91f0a99",
-   "ctx": "demoSteps",
-   "t": "If the family is new, download the Family Declaration Form from the Resources menu on sha.punjab.gov.in, fill in every member and paste the head's Voter ID copy."
-  },
-  {
-   "k": "3585c3ac1dd8",
-   "ctx": "demoSteps",
-   "t": "Go to the nearest CSC with all members' Aadhaar cards and the adults' Voter IDs. The operator does Aadhaar e-KYC for each member by fingerprint or OTP."
-  },
-  {
-   "k": "ca586497fb31",
-   "ctx": "demoSteps",
-   "t": "An SMS confirming the registration and your benefits comes at once. Keep this message."
-  },
-  {
-   "k": "fb7ef674a7b6",
-   "ctx": "demoSteps",
-   "t": "The printed Sehat Card is given at the same CSC within 2 to 3 weeks. You can also download it from Download Health Card on sha.punjab.gov.in."
-  },
-  {
    "k": "d0bb3fd2d0a1",
    "ctx": "demoSteps",
    "t": "At any listed government or private hospital, show the Sehat Card at the help desk. The hospital checks your details digitally and treats you cashless up to Rs 10 lakh a year."
@@ -809,6 +714,106 @@
    "k": "e16063274331",
    "ctx": "documents",
    "t": "Farmer ID (Rajasthan Farmer Registry), made free at e-Mitra, a CSC or a registry camp"
+  },
+  {
+   "k": "a629f6fbf98f",
+   "ctx": "documents",
+   "t": "Jamabandi (land record) copy showing the land in your name"
+  },
+  {
+   "k": "4bffbb161772",
+   "ctx": "documents",
+   "t": "Bank passbook of an Aadhaar-linked account open for DBT"
+  },
+  {
+   "k": "cc4b6acd5ddd",
+   "ctx": "hint",
+   "t": "The farmer's own 12-digit Aadhaar. The name on the land record must match it."
+  },
+  {
+   "k": "dfc7eb28cc9a",
+   "ctx": "hint",
+   "t": "The OTP and every payment SMS come here."
+  },
+  {
+   "k": "6349b619243d",
+   "ctx": "hint",
+   "t": "Choose Rajasthan; only then is the state's Rs 3,000 added."
+  },
+  {
+   "k": "166513ddade8",
+   "ctx": "hint",
+   "t": "From the Rajasthan Farmer Registry. Get it at e-Mitra, a CSC or a camp if you do not have one."
+  },
+  {
+   "k": "1c9c17dc6364",
+   "ctx": "hint",
+   "t": "Where the farm land is, not where you live now."
+  },
+  {
+   "k": "35c461a98218",
+   "ctx": "hint",
+   "t": "Small means 1 to 2 hectares and marginal means under 1 hectare. Every landholding size is eligible."
+  },
+  {
+   "k": "cf7247610b6c",
+   "ctx": "hint",
+   "t": "The account must be linked to Aadhaar for DBT, or the money fails."
+  },
+  {
+   "k": "5dd828bee17e",
+   "ctx": "hint",
+   "t": "Copy them from your jamabandi. The patwari checks them against the land record."
+  },
+  {
+   "k": "2bb3c6ff92da",
+   "ctx": "hint",
+   "t": "You confirm that you are not in an excluded group such as an income-tax payer or a government employee."
+  },
+  {
+   "k": "93c0224fbca4",
+   "ctx": "demoSteps",
+   "t": "Already in PM-Kisan? Check Know Your Status on pmkisan.gov.in. If you are active and e-KYC is done, the state money will come on its own; do nothing more."
+  },
+  {
+   "k": "74bb81473c33",
+   "ctx": "demoSteps",
+   "t": "Not registered? First get a Farmer ID at e-Mitra, a CSC or a Farmer Registry camp, carrying Aadhaar and the jamabandi."
+  },
+  {
+   "k": "d9a96acbf6d0",
+   "ctx": "demoSteps",
+   "t": "Open New Farmer Registration on pmkisan.gov.in, enter Aadhaar and mobile, choose Rajasthan, verify the OTP, fill in the land and bank details and submit. Note the registration number. e-Mitra or a CSC can do this for you."
+  },
+  {
+   "k": "fe344023324a",
+   "ctx": "demoSteps",
+   "t": "The patwari and the tehsil verify the land, and the state approves the record."
+  },
+  {
+   "k": "4ff91cf4a0f1",
+   "ctx": "demoSteps",
+   "t": "Finish e-KYC with an Aadhaar OTP, face authentication or a fingerprint at a CSC, and make sure the bank account is linked to Aadhaar."
+  },
+  {
+   "k": "6759e397a10b",
+   "ctx": "demoSteps",
+   "t": "Once active, PM-Kisan pays Rs 2,000 three times a year and the state pays its Rs 1,000 instalments separately, all by DBT."
+  },
+  {
+   "k": "b03a608fb894",
+   "ctx": "demoSteps",
+   "t": "Check payments on pmkisan.gov.in under Know Your Status, or on the Jan Soochna portal."
+  },
+  {
+   "k": "18415ee19f13",
+   "ctx": "title",
+   "t": "Nirman Shramik Panjiyan — BOCW Welfare Board (Shramik Card)"
+  },
+  {
+   "k": "25874a4386d1",
+   "ctx": "department",
+   "t": "Rajasthan Building & Other Construction Workers Welfare Board, Labour Department, Government of Rajasthan"
   }
  ]
 }

@@ -6,106 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_20.json",
  "items": [
   {
-   "k": "a629f6fbf98f",
-   "ctx": "documents",
-   "t": "Jamabandi (land record) copy showing the land in your name"
-  },
-  {
-   "k": "4bffbb161772",
-   "ctx": "documents",
-   "t": "Bank passbook of an Aadhaar-linked account open for DBT"
-  },
-  {
-   "k": "cc4b6acd5ddd",
-   "ctx": "hint",
-   "t": "The farmer's own 12-digit Aadhaar. The name on the land record must match it."
-  },
-  {
-   "k": "dfc7eb28cc9a",
-   "ctx": "hint",
-   "t": "The OTP and every payment SMS come here."
-  },
-  {
-   "k": "6349b619243d",
-   "ctx": "hint",
-   "t": "Choose Rajasthan; only then is the state's Rs 3,000 added."
-  },
-  {
-   "k": "166513ddade8",
-   "ctx": "hint",
-   "t": "From the Rajasthan Farmer Registry. Get it at e-Mitra, a CSC or a camp if you do not have one."
-  },
-  {
-   "k": "1c9c17dc6364",
-   "ctx": "hint",
-   "t": "Where the farm land is, not where you live now."
-  },
-  {
-   "k": "35c461a98218",
-   "ctx": "hint",
-   "t": "Small means 1 to 2 hectares and marginal means under 1 hectare. Every landholding size is eligible."
-  },
-  {
-   "k": "cf7247610b6c",
-   "ctx": "hint",
-   "t": "The account must be linked to Aadhaar for DBT, or the money fails."
-  },
-  {
-   "k": "5dd828bee17e",
-   "ctx": "hint",
-   "t": "Copy them from your jamabandi. The patwari checks them against the land record."
-  },
-  {
-   "k": "2bb3c6ff92da",
-   "ctx": "hint",
-   "t": "You confirm that you are not in an excluded group such as an income-tax payer or a government employee."
-  },
-  {
-   "k": "93c0224fbca4",
-   "ctx": "demoSteps",
-   "t": "Already in PM-Kisan? Check Know Your Status on pmkisan.gov.in. If you are active and e-KYC is done, the state money will come on its own; do nothing more."
-  },
-  {
-   "k": "74bb81473c33",
-   "ctx": "demoSteps",
-   "t": "Not registered? First get a Farmer ID at e-Mitra, a CSC or a Farmer Registry camp, carrying Aadhaar and the jamabandi."
-  },
-  {
-   "k": "d9a96acbf6d0",
-   "ctx": "demoSteps",
-   "t": "Open New Farmer Registration on pmkisan.gov.in, enter Aadhaar and mobile, choose Rajasthan, verify the OTP, fill in the land and bank details and submit. Note the registration number. e-Mitra or a CSC can do this for you."
-  },
-  {
-   "k": "fe344023324a",
-   "ctx": "demoSteps",
-   "t": "The patwari and the tehsil verify the land, and the state approves the record."
-  },
-  {
-   "k": "4ff91cf4a0f1",
-   "ctx": "demoSteps",
-   "t": "Finish e-KYC with an Aadhaar OTP, face authentication or a fingerprint at a CSC, and make sure the bank account is linked to Aadhaar."
-  },
-  {
-   "k": "6759e397a10b",
-   "ctx": "demoSteps",
-   "t": "Once active, PM-Kisan pays Rs 2,000 three times a year and the state pays its Rs 1,000 instalments separately, all by DBT."
-  },
-  {
-   "k": "b03a608fb894",
-   "ctx": "demoSteps",
-   "t": "Check payments on pmkisan.gov.in under Know Your Status, or on the Jan Soochna portal."
-  },
-  {
-   "k": "18415ee19f13",
-   "ctx": "title",
-   "t": "Nirman Shramik Panjiyan — BOCW Welfare Board (Shramik Card)"
-  },
-  {
-   "k": "25874a4386d1",
-   "ctx": "department",
-   "t": "Rajasthan Building & Other Construction Workers Welfare Board, Labour Department, Government of Rajasthan"
-  },
-  {
    "k": "af80054c8965",
    "ctx": "brief",
    "t": "Registers a construction worker with the state welfare board and gives a beneficiary identity card, the shramik card. With it the worker and family can claim the board's schemes: Rs 55,000 under Shubhshakti for a woman worker or an adult unmarried daughter, Rs 21,000 maternity help for a girl and Rs 20,000 for a boy, scholarships for children, up to Rs 1.5 lakh towards a house, and Rs 5 lakh if the worker dies in an accident. Registration is online through SSO and the Labour Department's LDMS, by the worker or at an e-Mitra kiosk."
@@ -834,6 +734,81 @@
    "k": "90952e2c89bf",
    "ctx": "department",
    "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Government of Sikkim"
+  },
+  {
+   "k": "ad5523d368d6",
+   "ctx": "brief",
+   "t": "Mothers in Sikkim who have no job get Rs.40,000 a year, paid in two instalments of Rs.20,000 straight into their own bank account through the State Bank of Sikkim. It started in 2021-22 as the Aama Yojana at Rs.20,000 a year. It was later renamed and the amount doubled. Married, unmarried, widowed, divorced and separated mothers can all get it. You collect the form at your Block Development Office, the Gram Sabha or Ward Sabha passes your name, and officials check it before the money is released."
+  },
+  {
+   "k": "c91f6d77cbe7",
+   "ctx": "benefit",
+   "t": "Rs.40,000 a year, paid in two instalments of Rs.20,000"
+  },
+  {
+   "k": "d8765726abbc",
+   "ctx": "eligibility",
+   "t": "A mother aged 18 to 59 with no regular job or income. This includes married, unmarried, widowed, divorced and separated mothers, and mothers of a legally adopted child"
+  },
+  {
+   "k": "2b7edae0731b",
+   "ctx": "eligibility",
+   "t": "Holds a Sikkim Subject Certificate, a Certificate of Identification (COI) or a Residential Certificate"
+  },
+  {
+   "k": "ff68fbd0c378",
+   "ctx": "eligibility",
+   "t": "Her name is on the voter list for a ward of her Gram Panchayat or urban local body"
+  },
+  {
+   "k": "b25dafe16196",
+   "ctx": "eligibility",
+   "t": "The family holds a Priority Household (PHH) or Antyodaya (AAY) ration card"
+  },
+  {
+   "k": "fafe08fead04",
+   "ctx": "eligibility",
+   "t": "Not eligible if she gets any government pension, if anyone in the household has a regular government, PSU or bank job, or if she or her husband is an enlisted government contractor or supplier"
+  },
+  {
+   "k": "1b98357fb1fc",
+   "ctx": "documents",
+   "t": "Attested copy of the Sikkim Subject Certificate, COI or Residential Certificate"
+  },
+  {
+   "k": "ba58aae63ae2",
+   "ctx": "documents",
+   "t": "Voter card (EPIC), with an attested copy"
+  },
+  {
+   "k": "55ccc6a98657",
+   "ctx": "documents",
+   "t": "Front page of the bank passbook (savings account in the mother's own name)"
+  },
+  {
+   "k": "d86cfdbf8cc8",
+   "ctx": "documents",
+   "t": "Gram Sabha or Ward Sabha resolution recommending her name"
+  },
+  {
+   "k": "733e7dba81df",
+   "ctx": "portalName",
+   "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Sikkim"
+  },
+  {
+   "k": "59d561914e43",
+   "ctx": "submitAt",
+   "t": "Get the form from the Block Development Office (BDO) at your Block Administrative Centre and hand it back there with all the photocopies, three photographs and the Gram Sabha or Ward Sabha resolution. Take the originals of your certificate of identity, voter card and ration card to show. Ask for a receipt."
+  },
+  {
+   "k": "c0ff944e3678",
+   "ctx": "label",
+   "t": "Name of mother (as per Aadhaar)"
+  },
+  {
+   "k": "898ecd00d391",
+   "ctx": "hint",
+   "t": "Write the name exactly as it is on your Aadhaar card. The beneficiary list is made from it."
   }
  ]
 }

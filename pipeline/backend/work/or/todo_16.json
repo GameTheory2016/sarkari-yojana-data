@@ -6,121 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_16.json",
  "items": [
   {
-   "k": "42dc081daefb",
-   "ctx": "eligibility",
-   "t": "Not an income tax payer and not in government service"
-  },
-  {
-   "k": "8974f17aa37e",
-   "ctx": "eligibility",
-   "t": "Does not hold more than 1 hectare of farm land"
-  },
-  {
-   "k": "c26723053138",
-   "ctx": "eligibility",
-   "t": "Death and disability help is for registered workers aged 18 to 60. Maternity help is for a registered woman worker who delivers in a government hospital, for up to two births"
-  },
-  {
-   "k": "abc33b0134f7",
-   "ctx": "documents",
-   "t": "Samagra member ID and family ID, with Aadhaar e-KYC done on Samagra"
-  },
-  {
-   "k": "126b779b5af7",
-   "ctx": "documents",
-   "t": "Aadhaar card, with the mobile number linked for OTP"
-  },
-  {
-   "k": "3e8f76ef6fb0",
-   "ctx": "documents",
-   "t": "Bank passbook of an Aadhaar-seeded account, with IFSC"
-  },
-  {
-   "k": "3faa19745098",
-   "ctx": "documents",
-   "t": "Name, date of birth and relation of the nominee (a family member in the same Samagra)"
-  },
-  {
-   "k": "104f2ce9b026",
-   "ctx": "documents",
-   "t": "For maternity help later: the pregnancy (MCP) card and the hospital discharge slip"
-  },
-  {
-   "k": "2037264df6fc",
-   "ctx": "hint",
-   "t": "The worker's own 9-digit Samagra member number, not the family number."
-  },
-  {
-   "k": "63b4cc07c588",
-   "ctx": "hint",
-   "t": "The 8-digit family number from the same Samagra slip. Your name, age and address are then filled in from Samagra."
-  },
-  {
-   "k": "03b75528e66e",
-   "ctx": "hint",
-   "t": "Copy the letters in the box exactly, then press search."
-  },
-  {
-   "k": "4e4b62900c2e",
-   "ctx": "hint",
-   "t": "Pick the work you actually do for a living. Gig workers, such as delivery riders, can choose platform work."
-  },
-  {
-   "k": "01fd06e9e931",
-   "ctx": "hint",
-   "t": "The family member who will receive the money if something happens to you. Pick someone from your own Samagra family."
-  },
-  {
-   "k": "67dcf8ec6a89",
-   "ctx": "hint",
-   "t": "As in the nominee's Samagra record."
-  },
-  {
-   "k": "f3c2845c2832",
-   "ctx": "hint",
-   "t": "How the nominee is related to you: wife, husband, son, daughter, mother or father."
-  },
-  {
-   "k": "2610fdb89fc6",
-   "ctx": "hint",
-   "t": "From the first page of your passbook. The account must be in your own name and Aadhaar-seeded."
-  },
-  {
-   "k": "8456e2f20ec4",
-   "ctx": "hint",
-   "t": "Type it twice exactly. A wrong digit sends the help money back."
-  },
-  {
-   "k": "a8f48cc72d62",
-   "ctx": "demoSteps",
-   "t": "Make sure your Samagra record is e-KYC'd with Aadhaar, on samagra.gov.in or at the gram panchayat or ward office."
-  },
-  {
-   "k": "27c5d33b5fad",
-   "ctx": "demoSteps",
-   "t": "Open sambal.mp.gov.in and choose Apply for registration (पंजीयन हेतु आवेदन करें). Enter your Samagra ID, family ID and the captcha. The panchayat or ward office can also do this for you."
-  },
-  {
-   "k": "4e2d2ae6ab67",
-   "ctx": "demoSteps",
-   "t": "Fill in the type of work, the nominee and the bank details, then submit. Note the application number and the name of the inquiry officer shown on screen."
-  },
-  {
-   "k": "66f3f0ae128d",
-   "ctx": "demoSteps",
-   "t": "The inquiry officer, usually the panchayat secretary or ward in-charge, checks your details. Then the Janpad Panchayat or municipal office approves the application. Track it under Application status (संबल आवेदन की स्थिति)."
-  },
-  {
-   "k": "498e12357b35",
-   "ctx": "demoSteps",
-   "t": "Once approved, download your Sambal card from the portal. If you are rejected, you can appeal online to the SDM (पंजीयन अपील)."
-  },
-  {
-   "k": "5d2b51fd959a",
-   "ctx": "demoSteps",
-   "t": "For maternity help, register the pregnancy at the government hospital or with the ANM. Rs 4,000 comes after the checkups and Rs 12,000 after delivery in a government hospital, straight into your bank account."
-  },
-  {
    "k": "9b0933b9b7ef",
    "ctx": "demoSteps",
    "t": "On a death, the panchayat secretary or ward in-charge pays Rs 5,000 funeral help at once. The family applies at the Janpad or municipal office for the Rs 2 lakh or Rs 4 lakh, which is paid into the nominee's account."
@@ -714,6 +599,81 @@
    "k": "487b1eedc4a9",
    "ctx": "demoSteps",
    "t": "Get the form from the talathi, the tehsil office or a Setu kendra. Fill it in, sign or put your thumb impression in front of a witness, and attach the self-declaration with a photo."
+  },
+  {
+   "k": "b18a73926470",
+   "ctx": "demoSteps",
+   "t": "Hand it to the talathi or at the tehsil's Sanjay Gandhi Yojana branch and take the acknowledgement. The talathi visits your home to check the papers and family income and uploads a photo of the visit."
+  },
+  {
+   "k": "5bf1d6346ac6",
+   "ctx": "demoSteps",
+   "t": "The tehsildar checks the file and places it before the Sanjay Gandhi Niradhar Anudan Yojana committee, which meets every month. The lists of approved and rejected names are put on the notice board and read in the gram sabha."
+  },
+  {
+   "k": "54c8d8ed52b1",
+   "ctx": "demoSteps",
+   "t": "Once approved, the pension starts from the month after the online process is complete and comes by DBT into your Aadhaar-linked account every month."
+  },
+  {
+   "k": "bb5de2389840",
+   "ctx": "demoSteps",
+   "t": "Keep your Aadhaar and bank linking in order, because payments that fail for Aadhaar or bank reasons are the beneficiary's responsibility. Give the life certificate each year when the tehsil asks; if the pension stopped, giving it in the same financial year restarts it."
+  },
+  {
+   "k": "751f21423fa7",
+   "ctx": "demoSteps",
+   "t": "If nothing happens for two or three months, go to the tehsil office with your acknowledgement and ask for the committee's decision."
+  },
+  {
+   "k": "96f50b1215f0",
+   "ctx": "helpline",
+   "t": "Sanjay Gandhi Yojana branch of your tehsil office; 1800-120-8040 (Aaple Sarkar helpline)"
+  },
+  {
+   "k": "d3ed43650b61",
+   "ctx": "title",
+   "t": "Shravanbal Seva Rajya Nivruttivetan Yojana (Shravanbal Pension)"
+  },
+  {
+   "k": "23f911a61fee",
+   "ctx": "brief",
+   "t": "A monthly pension of Rs.1,500 for poor men and women aged 65 and above in Maharashtra. If the family is not on the BPL list but earns up to Rs.21,000 a year, the whole Rs.1,500 comes from the state (Group A). If the family is on the BPL list, the person gets the central Indira Gandhi old-age pension plus a Shravanbal top-up, again Rs.1,500 in all (Group B). Each eligible person is counted separately, so husband and wife can both get it, applying with one form each at the talathi or tehsil office; the money comes monthly by DBT."
+  },
+  {
+   "k": "0eab939525fc",
+   "ctx": "eligibility",
+   "t": "Living in Maharashtra for at least 15 years"
+  },
+  {
+   "k": "6d707a0a82c7",
+   "ctx": "eligibility",
+   "t": "Group A: family not on the BPL list, with yearly family income up to Rs.21,000 (Rs.50,000 if the applicant is disabled)"
+  },
+  {
+   "k": "aff28b88431f",
+   "ctx": "eligibility",
+   "t": "Group B: family on the BPL list; gets the central old-age pension with the state top-up"
+  },
+  {
+   "k": "cd327bbf1216",
+   "ctx": "eligibility",
+   "t": "Not drawing a regular monthly benefit or pension from any other government scheme"
+  },
+  {
+   "k": "c413a8974d36",
+   "ctx": "documents",
+   "t": "Age proof: birth certificate, school leaving certificate, or an age certificate from a government medical officer"
+  },
+  {
+   "k": "4bd80dd5a7f5",
+   "ctx": "documents",
+   "t": "Income certificate from the tehsildar, or BPL certificate or BPL list extract"
+  },
+  {
+   "k": "d9bfc0018cf3",
+   "ctx": "documents",
+   "t": "UDID card, if the applicant is disabled"
   }
  ]
 }

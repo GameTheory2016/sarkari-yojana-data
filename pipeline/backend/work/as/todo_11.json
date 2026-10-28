@@ -6,46 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_11.json",
  "items": [
   {
-   "k": "8361240b8104",
-   "ctx": "eligibility",
-   "t": "Parents must not be permanent or retired central or state government or PSU employees, or draw a government pension or family pension"
-  },
-  {
-   "k": "f21e627cd527",
-   "ctx": "eligibility",
-   "t": "Parents must not pay income tax"
-  },
-  {
-   "k": "0dfb9cbcfe57",
-   "ctx": "eligibility",
-   "t": "For the Rs.20,000 grant she must be 18 or 19 years old when applying, and a voter ID is needed"
-  },
-  {
-   "k": "b93e47ca8b8f",
-   "ctx": "documents",
-   "t": "Aadhaar card of the mother (of the father, if the mother has died)"
-  },
-  {
-   "k": "59a8d8330c64",
-   "ctx": "documents",
-   "t": "Bank or post office passbook in the girl's name"
-  },
-  {
-   "k": "6db29dfe5483",
-   "ctx": "documents",
-   "t": "Mother's self-declaration on birth order, and the parents' self-declaration that they are not taxpayers or government employees"
-  },
-  {
-   "k": "36cec6b97386",
-   "ctx": "documents",
-   "t": "Principal's certificate that she studies in the school; for orphans, the parents' death certificate and a Child Welfare Committee certificate"
-  },
-  {
-   "k": "94ccaebf3f55",
-   "ctx": "portalName",
-   "t": "Savitribai Phule Kishori Samriddhi Yojana portal"
-  },
-  {
    "k": "778bdafa0674",
    "ctx": "submitAt",
    "t": "Girls in Class 8 to 12: ask the headmaster or class teacher. The school sends the girl's details from e-Vidya Vahini to the Savitribai portal, adds her Aadhaar, bank account and declarations, and forwards it to the CDPO. Girls of 18 to 19 who have left school, and anyone the school has not covered: fill the official form and hand it in at the Child Development Project Officer (CDPO) office of your block, yourself or through your Anganwadi worker. Attach self-attested copies of the ration card, Aadhaar, voter ID and bank passbook, the self-declarations and the principal's certificate. Girls still in school at 18 to 19 can apply through the school."
@@ -964,6 +924,26 @@
    "k": "fc892024afe6",
    "ctx": "demoSteps",
    "t": "Wait until 180 days have passed since your result date, with no job and no further studies."
+  },
+  {
+   "k": "29387bd760b8",
+   "ctx": "demoSteps",
+   "t": "Open the Yuva Nidhi service on Seva One (sevaone.karnataka.gov.in), log in or register with your mobile number and OTP, and complete the Aadhaar e-KYC. A Grama One, Karnataka One or Bangalore One centre can do this for you."
+  },
+  {
+   "k": "3c17028750f6",
+   "ctx": "demoSteps",
+   "t": "Fill in your qualification, register number, year of passing and SSLC and PUC details, upload the marks cards, and give your Aadhaar-seeded bank account."
+  },
+  {
+   "k": "827de91b962a",
+   "ctx": "demoSteps",
+   "t": "Submit and note the application number. The district employment officer checks your certificates; follow it with 'Yuvanidhi Application Status Check' on the portal."
+  },
+  {
+   "k": "4ad415b50ee5",
+   "ctx": "demoSteps",
+   "t": "Once approved, the allowance is paid into your account every month by DBT. The department may also ask you to register on the Kaushalkar skills portal for training."
   }
  ]
 }

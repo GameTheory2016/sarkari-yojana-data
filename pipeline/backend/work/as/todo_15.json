@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_15.json",
  "items": [
   {
-   "k": "afb0cdd8140e",
-   "ctx": "documents",
-   "t": "Girl's birth certificate (register the birth with the gram panchayat or municipality first)"
-  },
-  {
-   "k": "6e5f1efcf009",
-   "ctx": "documents",
-   "t": "Income certificate from the tehsildar showing yearly family income up to Rs.1 lakh"
-  },
-  {
-   "k": "b9380067d622",
-   "ctx": "documents",
-   "t": "Attested copy of the yellow or orange ration card"
-  },
-  {
-   "k": "3ba460bc02f9",
-   "ctx": "documents",
-   "t": "Aadhaar of the parents, and of the girl (not needed for the first instalment)"
-  },
-  {
-   "k": "fdc4253ec9aa",
-   "ctx": "documents",
-   "t": "First page of the passbook of the joint account of the girl and her mother"
-  },
-  {
-   "k": "33710530512b",
-   "ctx": "documents",
-   "t": "For later instalments: school bonafide certificate, family planning certificate, and at 18 her voter ID and a self-declaration that she is unmarried"
-  },
-  {
-   "k": "557baf20e799",
-   "ctx": "submitAt",
-   "t": "The anganwadi sevika of your area, at the anganwadi centre. The application form is printed at the end of the scheme GR linked here (pages 9 to 12), and blank forms are also kept at every Child Development Project Officer (CDPO) office, the Zilla Parishad District Programme Officer's office and the District Women and Child Development Officer's office. Take the filled form with copies of the documents, carry the originals for checking, and ask the sevika for the signed receipt (pohoch pavti) at the bottom of the form. Apply the same way for each later instalment."
-  },
-  {
-   "k": "55d0c66028bd",
-   "ctx": "label",
-   "t": "Applying for (first child / second child / twins)"
-  },
-  {
-   "k": "c53b86c7f3b3",
-   "ctx": "hint",
-   "t": "Tick the one that fits this girl. For twins born at the second delivery, tick twins."
-  },
-  {
-   "k": "d6b088364ee4",
-   "ctx": "hint",
-   "t": "The girl's name as written on her birth certificate."
-  },
-  {
-   "k": "15fd5669746c",
-   "ctx": "hint",
-   "t": "The girl's Aadhaar is not needed for the first instalment. Get it made before the Class 1 instalment."
-  },
-  {
-   "k": "eeeed89fd99d",
-   "ctx": "hint",
-   "t": "Usually the mother, because the money goes to the joint account of the girl and her mother."
-  },
-  {
-   "k": "4959b9b0575b",
-   "ctx": "hint",
-   "t": "Attach a copy of this Aadhaar. Messages about the payment come to the mobile."
-  },
-  {
-   "k": "8596c9ce4210",
-   "ctx": "value",
-   "t": "House 14, Shivaji Chowk, Malegaon BK, Tal. Baramati, Dist. Pune 413115"
-  },
-  {
-   "k": "8ee4a4d23de4",
-   "ctx": "hint",
-   "t": "Where the family lives now: house number, village, post office, taluka, district and PIN code."
-  },
-  {
-   "k": "deeb75590a11",
-   "ctx": "label",
-   "t": "Number of living children when applying"
-  },
-  {
-   "k": "5658c7132f57",
-   "ctx": "hint",
-   "t": "Count all living children, sons and daughters."
-  },
-  {
-   "k": "1cff9b5a750a",
-   "ctx": "label",
-   "t": "Joint bank account number (girl and mother)"
-  },
-  {
    "k": "3621c5570616",
    "ctx": "hint",
    "t": "Open a joint account in the names of the girl and her mother. If the mother has died, open it with the father and attach her death certificate."
@@ -651,11 +561,6 @@
    "t": "1800 103 2015 — CMHT toll-free helpline (24x7) / 14555 — Ayushman Bharat national helpline"
   },
   {
-   "k": "fc412aa1fc0b",
-   "ctx": "title",
-   "t": "Megha Health Insurance Scheme (MHIS Card)"
-  },
-  {
    "k": "34a875aa77e0",
    "ctx": "department",
    "t": "State Nodal Agency, Megha Health Insurance Scheme, Department of Health & Family Welfare, Government of Meghalaya"
@@ -716,29 +621,9 @@
    "t": "Old MHIS or RSBY card, if you have one"
   },
   {
-   "k": "509e0d934e79",
-   "ctx": "documents",
-   "t": "A mobile number"
-  },
-  {
-   "k": "278a773b3547",
-   "ctx": "portalName",
-   "t": "Megha Health Insurance Scheme"
-  },
-  {
-   "k": "b4b92af81985",
-   "ctx": "value",
-   "t": "Newly Married"
-  },
-  {
    "k": "a55a13ff171b",
    "ctx": "hint",
    "t": "Newly Married, Name not there in the database, Orphans, or Others."
-  },
-  {
-   "k": "a75df8e46354",
-   "ctx": "value",
-   "t": "Banshai Lyngdoh"
   },
   {
    "k": "501fa911eee0",
@@ -746,44 +631,9 @@
    "t": "Spell it exactly as on Aadhaar and EPIC, or verification gets delayed."
   },
   {
-   "k": "9d6a9ff73dc7",
-   "ctx": "label",
-   "t": "Father's/Mother's/Spouse Name"
-  },
-  {
-   "k": "e816233ac6b3",
-   "ctx": "value",
-   "t": "Spouse — Ibapynhun Kharkongor"
-  },
-  {
    "k": "613a6690eee3",
    "ctx": "hint",
    "t": "Pick the relation first, then type the name."
-  },
-  {
-   "k": "3360c0ca3fc3",
-   "ctx": "label",
-   "t": "House number as per EPIC"
-  },
-  {
-   "k": "2fad8719a72f",
-   "ctx": "value",
-   "t": "H. No. 99"
-  },
-  {
-   "k": "c22898fb4ab4",
-   "ctx": "hint",
-   "t": "As printed on your voter ID."
-  },
-  {
-   "k": "337d97eb0cfe",
-   "ctx": "label",
-   "t": "Address as per EPIC"
-  },
-  {
-   "k": "a3f3fd7a01cc",
-   "ctx": "value",
-   "t": "Mawlai Mawroh, Shillong"
   },
   {
    "k": "3b625638f9b7",
@@ -796,19 +646,9 @@
    "t": "District / Name of block / Rural or Urban"
   },
   {
-   "k": "b9b5a42a07f6",
-   "ctx": "value",
-   "t": "East Khasi Hills / Mylliem / Urban"
-  },
-  {
    "k": "73c64efc714c",
    "ctx": "hint",
    "t": "Where you live now, from the drop-down lists."
-  },
-  {
-   "k": "8578b945cef0",
-   "ctx": "label",
-   "t": "Phone No"
   },
   {
    "k": "43dc58b742ff",
@@ -816,19 +656,9 @@
    "t": "A number you keep with you, so the office can reach you."
   },
   {
-   "k": "4410f970ba57",
-   "ctx": "label",
-   "t": "EPIC Number / Aadhaar Number"
-  },
-  {
    "k": "414c58e18907",
    "ctx": "hint",
    "t": "Voter ID number is mandatory. Aadhaar helps the check go faster."
-  },
-  {
-   "k": "5b7873e07194",
-   "ctx": "label",
-   "t": "Upload EPIC front side / back side"
   },
   {
    "k": "d749e8a3a0df",
@@ -909,6 +739,161 @@
    "k": "e77021d5842c",
    "ctx": "eligibility",
    "t": "State government employees and provisional or muster roll staff pay Rs.200 to Rs.1,500 a month from their salary, by pay level. They do not enrol, they only make the card"
+  },
+  {
+   "k": "ff458eca9ce3",
+   "ctx": "eligibility",
+   "t": "Civil pensioners and GIA employees are covered through their subscription form, but the MUHCS card is not yet issued to them (circular of 13 May 2026)"
+  },
+  {
+   "k": "0bd7e9e87ed1",
+   "ctx": "eligibility",
+   "t": "Children under 5 use a parent's card. The fee is paid only in the yearly enrolment window and is not refunded except as notified"
+  },
+  {
+   "k": "90121ebcc3f0",
+   "ctx": "documents",
+   "t": "Ration card. Without one, a Village Council or Local Council letter listing the family members"
+  },
+  {
+   "k": "4119f4b4b7ea",
+   "ctx": "documents",
+   "t": "A clear chest-up photo of each member, to upload for the card"
+  },
+  {
+   "k": "e1ad70f395fd",
+   "ctx": "documents",
+   "t": "A mobile number for the OTP login"
+  },
+  {
+   "k": "4bddb1dea20f",
+   "ctx": "documents",
+   "t": "UPI, debit or credit card, or net banking, to pay the yearly fee (general families)"
+  },
+  {
+   "k": "68a5f24cefc0",
+   "ctx": "portalName",
+   "t": "Mizoram Universal Healthcare Scheme (MUHCS)"
+  },
+  {
+   "k": "f3c5f0cc581c",
+   "ctx": "hint",
+   "t": "Choose Beneficiary, not Operator."
+  },
+  {
+   "k": "b6b90ae0a8ff",
+   "ctx": "hint",
+   "t": "Your own working number. The OTP comes here every time you log in."
+  },
+  {
+   "k": "8294ada5cb62",
+   "ctx": "label",
+   "t": "Enter Captcha / OTP"
+  },
+  {
+   "k": "8826cffd22ba",
+   "ctx": "hint",
+   "t": "Type the letters shown in the picture, then the OTP sent to your phone."
+  },
+  {
+   "k": "f81edde45363",
+   "ctx": "hint",
+   "t": "The family is taken from the ration card. Without one, upload the Village or Local Council letter."
+  },
+  {
+   "k": "038992f5d66f",
+   "ctx": "label",
+   "t": "Plan option"
+  },
+  {
+   "k": "54567bf496e3",
+   "ctx": "value",
+   "t": "General — Rs.2,500 (general ward)"
+  },
+  {
+   "k": "c4fbe69cc90e",
+   "ctx": "hint",
+   "t": "Standard Rs.5,000 gives a shared semi-private ward, Private Rs.10,000 a private ward. The cover is Rs.5 lakh in all three."
+  },
+  {
+   "k": "44f90c0204b3",
+   "ctx": "label",
+   "t": "Head of family name"
+  },
+  {
+   "k": "2b356fdbbc06",
+   "ctx": "value",
+   "t": "Lalremruati"
+  },
+  {
+   "k": "389f102b9b64",
+   "ctx": "label",
+   "t": "Aadhaar of each member"
+  },
+  {
+   "k": "283f5c942129",
+   "ctx": "value",
+   "t": "9999 8106 2245 (and one per member)"
+  },
+  {
+   "k": "4c74544544a4",
+   "ctx": "hint",
+   "t": "Every member aged 5 or above needs their own Aadhaar for the card."
+  },
+  {
+   "k": "0b535b7fd695",
+   "ctx": "label",
+   "t": "Photo of each member"
+  },
+  {
+   "k": "3e403a366205",
+   "ctx": "value",
+   "t": "Chest-up photo uploaded"
+  },
+  {
+   "k": "1acea155679b",
+   "ctx": "hint",
+   "t": "Clear, face straight, from the chest up. A blurred photo gets the card rejected."
+  },
+  {
+   "k": "b41a92bed032",
+   "ctx": "label",
+   "t": "Payment"
+  },
+  {
+   "k": "833ebbefcc00",
+   "ctx": "value",
+   "t": "UPI — receipt saved"
+  },
+  {
+   "k": "2c6940baea06",
+   "ctx": "hint",
+   "t": "Pay online and keep the receipt. You need it for any later query or refund request."
+  },
+  {
+   "k": "3f8947eaa6e3",
+   "ctx": "demoSteps",
+   "t": "During the yearly enrolment window (for 2026-27 it was 16 February to 15 May 2026), open the MUHCS portal, choose Beneficiary and log in with your mobile number, the captcha and the OTP."
+  },
+  {
+   "k": "e3563a39e01e",
+   "ctx": "demoSteps",
+   "t": "Enter your ration card details, add all family members and choose a plan: General Rs.2,500, Standard Rs.5,000 or Private Rs.10,000."
+  },
+  {
+   "k": "d790a08f64fe",
+   "ctx": "demoSteps",
+   "t": "Pay the fee online by UPI, card or net banking and save the receipt. In villages without internet, fill in the offline form at the health sub-centre instead."
+  },
+  {
+   "k": "9713a0e43fcb",
+   "ctx": "demoSteps",
+   "t": "Apply for the MUHCS card from the same login. Upload each member's Aadhaar and a clear chest-up photo. Children under 5 do not need a card."
+  },
+  {
+   "k": "a7e2e76c02c9",
+   "ctx": "demoSteps",
+   "t": "The Mizoram State Health Care Society checks and approves the request. Then log in again and download the card."
   }
  ]
 }

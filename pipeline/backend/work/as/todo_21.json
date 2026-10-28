@@ -6,216 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_21.json",
  "items": [
   {
-   "k": "a4be64882ed7",
-   "ctx": "demoSteps",
-   "t": "Watch your use. If it crosses 200 units, that whole month's bill must be paid. The zero bill comes back the next month you stay within 200."
-  },
-  {
-   "k": "f66452e181fb",
-   "ctx": "demoSteps",
-   "t": "Still getting a bill? Take the receipt to your electricity section (AE) office, or call 1912, and ask them to link your connection."
-  },
-  {
-   "k": "ca6bcb32e8c9",
-   "ctx": "helpline",
-   "t": "Electricity complaints 1912; TGNPDCL toll free 1800-425-0028; your MPDO or municipal office for the application"
-  },
-  {
-   "k": "2b8e2d93ee5f",
-   "ctx": "title",
-   "t": "Mahalakshmi (Free Bus Travel for Women and Rs.500 Gas Cylinder)"
-  },
-  {
-   "k": "445171cffa4e",
-   "ctx": "department",
-   "t": "Government of Telangana: TGSRTC (free bus) and Civil Supplies Department (gas subsidy)"
-  },
-  {
-   "k": "a60068a59478",
-   "ctx": "brief",
-   "t": "Under Mahalakshmi, one of Telangana's six guarantees, since 9 December 2023 women, girls and transgender persons living in Telangana have travelled free in TGSRTC Palle Velugu, Express, City Ordinary and Metro Express buses: show an ID and take the zero ticket. Families with a white ration card who applied through Praja Palana get each LPG cylinder for Rs.500: you pay the full price on delivery and the rest comes back to your bank account. The promised Rs.2,500 a month for women heads of family has not started yet, and there is no application open for it (October 2026)."
-  },
-  {
-   "k": "9171cec735bf",
-   "ctx": "benefit",
-   "t": "Free state bus travel for women; LPG cylinder for Rs.500"
-  },
-  {
-   "k": "91b580e97056",
-   "ctx": "eligibility",
-   "t": "Free bus: any woman, girl or transgender person living in Telangana, of any age or income, for travel within Telangana"
-  },
-  {
-   "k": "a31de52ce77d",
-   "ctx": "eligibility",
-   "t": "Free bus is valid in Palle Velugu, Express, City Ordinary and Metro Express buses, not in Deluxe, Super Luxury or AC buses"
-  },
-  {
-   "k": "8ff3c4f5c260",
-   "ctx": "eligibility",
-   "t": "Rs.500 gas: the family holds a Telangana Food Security Card (white ration card)"
-  },
-  {
-   "k": "86bc0eced635",
-   "ctx": "eligibility",
-   "t": "Rs.500 gas: the family has an active domestic LPG connection and applied for this in Praja Palana or later at the MPDO / municipal office"
-  },
-  {
-   "k": "9d54553a791f",
-   "ctx": "eligibility",
-   "t": "Rs.500 gas: the number of cylinders is limited to what the family used on average in the last three years"
-  },
-  {
-   "k": "2341ae3e6af9",
-   "ctx": "documents",
-   "t": "Bus: Aadhaar card or any government photo ID with a Telangana address (voter ID, driving licence)"
-  },
-  {
-   "k": "e74dea8c396f",
-   "ctx": "documents",
-   "t": "Gas: Food Security Card (white ration card)"
-  },
-  {
-   "k": "3dc3b9b4c20f",
-   "ctx": "documents",
-   "t": "Gas: Aadhaar card of the applicant"
-  },
-  {
-   "k": "ce98346057ac",
-   "ctx": "documents",
-   "t": "Gas: gas consumer book or latest cylinder bill showing the consumer number and agency"
-  },
-  {
-   "k": "860504a876cf",
-   "ctx": "documents",
-   "t": "Gas: bank passbook of the account linked to the gas connection"
-  },
-  {
-   "k": "45b3544fc473",
-   "ctx": "documents",
-   "t": "Gas: Praja Palana receipt number, if you applied earlier"
-  },
-  {
-   "k": "4b31a8482499",
-   "ctx": "submitAt",
-   "t": "Free bus: there is nothing to apply for. Get into a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero-fare Mahalakshmi ticket. Rs.500 gas: if your family was left out, fill the Praja Palana application (tick Mahalakshmi, Rs.500 gas cylinder) at the Praja Palana counter in your MPDO office (villages) or municipal / GHMC circle office (towns). Attach copies of the white ration card, Aadhaar, gas consumer book and bank passbook, and keep the receipt with the application number."
-  },
-  {
-   "k": "0a9dec99111d",
-   "ctx": "label",
-   "t": "Applicant name (woman of the house)"
-  },
-  {
-   "k": "3f12e8266782",
-   "ctx": "value",
-   "t": "Kethavath Saroja"
-  },
-  {
-   "k": "e42921b4f145",
-   "ctx": "hint",
-   "t": "The applicant's own 12-digit Aadhaar."
-  },
-  {
-   "k": "c2a96dc0a664",
-   "ctx": "label",
-   "t": "Ration card (Food Security Card) number"
-  },
-  {
-   "k": "cb309c8ed64c",
-   "ctx": "hint",
-   "t": "From your white ration card. The gas benefit is given only with a white card."
-  },
-  {
-   "k": "9ba47afa502a",
-   "ctx": "hint",
-   "t": "A number you use. Messages about the application come here."
-  },
-  {
-   "k": "a8968a883f89",
-   "ctx": "label",
-   "t": "Address (as per Aadhaar)"
-  },
-  {
-   "k": "247d3bb3b12f",
-   "ctx": "value",
-   "t": "H.No 3-41, Ward 7, Wyra, Khammam"
-  },
-  {
-   "k": "3eb7ee273af2",
-   "ctx": "hint",
-   "t": "House number, ward or village, mandal and district."
-  },
-  {
-   "k": "6c94616b4c87",
-   "ctx": "label",
-   "t": "Mahalakshmi: choose benefit"
-  },
-  {
-   "k": "176869c71b2b",
-   "ctx": "value",
-   "t": "Rs.500 gas cylinder"
-  },
-  {
-   "k": "8325dc1cab48",
-   "ctx": "hint",
-   "t": "Tick the Rs.500 gas cylinder box. The Rs.2,500 box is on the form, but that payment has not started."
-  },
-  {
-   "k": "e68fdfea38eb",
-   "ctx": "hint",
-   "t": "The consumer number printed in your gas book or on the cylinder bill."
-  },
-  {
-   "k": "db9fa05f2e21",
-   "ctx": "label",
-   "t": "Gas company / agency name"
-  },
-  {
-   "k": "6d2fa0b7ce00",
-   "ctx": "value",
-   "t": "HP Gas, Sri Sai Gas Agency, Wyra"
-  },
-  {
-   "k": "240c7ebaa91e",
-   "ctx": "hint",
-   "t": "The company (HP, Bharat or Indane) and the agency that delivers to you."
-  },
-  {
-   "k": "e4601e789923",
-   "ctx": "label",
-   "t": "Cylinders used in a year"
-  },
-  {
-   "k": "6da6b58afe24",
-   "ctx": "hint",
-   "t": "About how many cylinders your family uses in a year. The subsidy is limited to your average use."
-  },
-  {
-   "k": "8b43adb18fc0",
-   "ctx": "demoSteps",
-   "t": "Free bus: board a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero ticket. Girls of any age travel free too."
-  },
-  {
-   "k": "7c2917f585e9",
-   "ctx": "demoSteps",
-   "t": "Rs.500 gas: check that your white ration card is linked with Aadhaar and that your gas connection is active."
-  },
-  {
-   "k": "f18cf56433c5",
-   "ctx": "demoSteps",
-   "t": "If you did not apply in Praja Palana, fill the form at the MPDO or municipal office. Tick Rs.500 gas cylinder, write the gas consumer number, the company and how many cylinders you use a year, attach copies and take the receipt."
-  },
-  {
-   "k": "06cb405b79c2",
-   "ctx": "demoSteps",
-   "t": "Officials check the ration card and gas connection. Your name is then added to the Mahalakshmi gas list that goes to the oil companies."
-  },
-  {
-   "k": "7b274ea816b7",
-   "ctx": "demoSteps",
-   "t": "Book the cylinder as usual and pay the full price to the delivery person."
-  },
-  {
    "k": "213f2bd6f332",
    "ctx": "demoSteps",
    "t": "Within a few days, the amount above Rs.500 is credited to the bank account linked to your gas connection. If it does not come, ask at the gas agency and the MPDO office."
@@ -311,24 +101,9 @@
    "t": "SSC or equivalent details available / Hall ticket no."
   },
   {
-   "k": "a9fd607fb05e",
-   "ctx": "value",
-   "t": "Yes - SSC Regular, 2019, 9999012345"
-  },
-  {
    "k": "ba98bdc26a86",
    "ctx": "hint",
    "t": "With the hall ticket number and pass year, the bride's details are taken from the SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "1cd0f53fda73",
-   "ctx": "label",
-   "t": "Name (bride)"
-  },
-  {
-   "k": "8ba86b50cad6",
-   "ctx": "value",
-   "t": "Erra Swapna"
   },
   {
    "k": "8eb2cd687f9c",
@@ -341,29 +116,9 @@
    "t": "She must have been 18 or older on the wedding day."
   },
   {
-   "k": "8070f8237f45",
-   "ctx": "hint",
-   "t": "The bride's own Aadhaar."
-  },
-  {
-   "k": "82b8323f4422",
-   "ctx": "label",
-   "t": "Caste / Sub-caste"
-  },
-  {
-   "k": "2cd4b1e24dd5",
-   "ctx": "value",
-   "t": "BC-B / Padmashali"
-  },
-  {
    "k": "d085fefb985d",
    "ctx": "hint",
    "t": "As written on the MeeSeva caste certificate."
-  },
-  {
-   "k": "e1785287af43",
-   "ctx": "label",
-   "t": "Belongs to (Urban / Rural) area"
   },
   {
    "k": "d0f1523ed17d",
@@ -371,24 +126,9 @@
    "t": "This decides the income limit for BC/EBC: Rs.1.5 lakh in villages, Rs.2 lakh in towns."
   },
   {
-   "k": "3ff50196692b",
-   "ctx": "label",
-   "t": "Income certificate MeeSeva No."
-  },
-  {
    "k": "26c015aba947",
    "ctx": "hint",
    "t": "Number on the MeeSeva income certificate. The name, mandal and income then fill in by themselves."
-  },
-  {
-   "k": "f5da97747e20",
-   "ctx": "label",
-   "t": "Mother's account details"
-  },
-  {
-   "k": "42988e8eddba",
-   "ctx": "value",
-   "t": "Erra Padma - SBI, Jagtial - A/c 99990011223344"
   },
   {
    "k": "153670e84072",
@@ -399,11 +139,6 @@
    "k": "5d9c67e0032a",
    "ctx": "label",
    "t": "Name of the bride groom / Date of birth"
-  },
-  {
-   "k": "49b1ab5a4007",
-   "ctx": "value",
-   "t": "Bandi Naresh / 02-01-1998"
   },
   {
    "k": "e5e7b6890277",
@@ -419,11 +154,6 @@
    "k": "65bc0c5c3a09",
    "ctx": "value",
    "t": "11-05-2026, Sri Venkateswara Temple, Jagtial; SRO Jagtial, Doc No. 9999/2026"
-  },
-  {
-   "k": "9d02e8fcf720",
-   "ctx": "hint",
-   "t": "From the marriage registration certificate."
   },
   {
    "k": "904a22bc111f",
@@ -464,11 +194,6 @@
    "k": "ece64b9d8b1a",
    "ctx": "title",
    "t": "Shaadi Mubarak (Rs.1,00,116 Marriage Help for Minorities)"
-  },
-  {
-   "k": "0fe9b1604852",
-   "ctx": "department",
-   "t": "Minorities Welfare Department, Telangana"
   },
   {
    "k": "c534ae41a303",
@@ -516,19 +241,9 @@
    "t": "SADAREM disability certificate, if the bride has a disability"
   },
   {
-   "k": "f60b0196afcd",
-   "ctx": "value",
-   "t": "Yes - TS Regular, 2020, 9999065432"
-  },
-  {
    "k": "86b32b785864",
    "ctx": "hint",
    "t": "Gives the bride's details from SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "302785109f60",
-   "ctx": "value",
-   "t": "Ayesha Siddiqua"
   },
   {
    "k": "d0a8287987f8",
@@ -546,39 +261,14 @@
    "t": "The income on the certificate must be Rs.2 lakh a year or less."
   },
   {
-   "k": "b89674ee97d4",
-   "ctx": "label",
-   "t": "Integrated certificate MeeSeva No."
-  },
-  {
    "k": "7bcd52039f14",
    "ctx": "hint",
    "t": "The caste-cum-nativity-cum-date of birth certificate number from MeeSeva."
   },
   {
-   "k": "5d02bdfbac3e",
-   "ctx": "value",
-   "t": "Shaheen Begum - Union Bank, Bodhan - A/c 99990055667788"
-  },
-  {
-   "k": "53126547611c",
-   "ctx": "value",
-   "t": "Mohammed Imran / 10-03-1999"
-  },
-  {
    "k": "f7770aa6b2d6",
    "ctx": "hint",
    "t": "He must have been 21 or older on the date of marriage."
-  },
-  {
-   "k": "d22e0ff10a53",
-   "ctx": "label",
-   "t": "Date and place of marriage"
-  },
-  {
-   "k": "ed9df66b0caf",
-   "ctx": "value",
-   "t": "15-03-2026, Al-Noor Function Hall, Bodhan"
   },
   {
    "k": "00f6c1e43ca2",
@@ -629,11 +319,6 @@
    "k": "d27e2439b7c4",
    "ctx": "hint",
    "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets rejected."
-  },
-  {
-   "k": "d104bde760ae",
-   "ctx": "value",
-   "t": "Bahraich / 271801"
   },
   {
    "k": "ca86fa49ae4e",
@@ -736,11 +421,6 @@
    "t": "Bank passbook of the mother (the father's or guardian's if she is not alive; the girl's own for Stage 6)"
   },
   {
-   "k": "2dbacf46c04a",
-   "ctx": "documents",
-   "t": "Recent photo of the girl"
-  },
-  {
    "k": "943cc54edb3e",
    "ctx": "documents",
    "t": "Stage 1: birth certificate number. Stage 2: vaccination card"
@@ -761,16 +441,6 @@
    "t": "Death certificate if the mother or father has died"
   },
   {
-   "k": "3c9a7615498d",
-   "ctx": "portalName",
-   "t": "Mukhyamantri Kanya Sumangala Yojana portal"
-  },
-  {
-   "k": "58c8c76ae618",
-   "ctx": "label",
-   "t": "Applicant type"
-  },
-  {
    "k": "7d5b724764c2",
    "ctx": "hint",
    "t": "Who is applying: mother, father or guardian. A grown-up girl can apply for herself, but only for Stage 6."
@@ -786,11 +456,6 @@
    "t": "A number you keep. The OTP, your login ID and password, and every status message come here. One number can be used for only one family."
   },
   {
-   "k": "aeaaece0dffd",
-   "ctx": "value",
-   "t": "Barabanki / Haidergarh"
-  },
-  {
    "k": "63466ee64812",
    "ctx": "hint",
    "t": "Where the family lives now. Choose your town or nagar panchayat instead of a block if you live in a town."
@@ -801,19 +466,9 @@
    "t": "The mother's 12-digit Aadhaar. The father's Aadhaar is asked for in the next box."
   },
   {
-   "k": "4625fcb6f0ed",
-   "ctx": "label",
-   "t": "Father's Aadhaar number"
-  },
-  {
    "k": "08431a13d830",
    "ctx": "hint",
    "t": "Needed even when the mother is the applicant. If the father has died, upload his death certificate instead."
-  },
-  {
-   "k": "bd4cdaab1677",
-   "ctx": "value",
-   "t": "Anaya / 14-02-2026"
   },
   {
    "k": "d54e3e7ca379",
@@ -821,24 +476,9 @@
    "t": "Write it as on the birth certificate. Always use the same spelling at every later stage."
   },
   {
-   "k": "445340178786",
-   "ctx": "label",
-   "t": "Category (stage)"
-  },
-  {
-   "k": "3f8215afc0c3",
-   "ctx": "value",
-   "t": "Stage 1: Birth (Rs.5,000)"
-  },
-  {
    "k": "42fa01595fbd",
    "ctx": "hint",
    "t": "Choose the stage the girl has reached now. Apply in the same school year as the admission."
-  },
-  {
-   "k": "394bcdcf773a",
-   "ctx": "label",
-   "t": "Birth certificate number"
   },
   {
    "k": "c99e7d0ca078",
@@ -951,16 +591,6 @@
    "t": "Income certificate (family income up to Rs.3 lakh a year)"
   },
   {
-   "k": "1c476a226d3d",
-   "ctx": "documents",
-   "t": "Residence proof of Uttar Pradesh"
-  },
-  {
-   "k": "052bd1a3f6d0",
-   "ctx": "documents",
-   "t": "Caste certificate (for SC, ST and OBC)"
-  },
-  {
    "k": "0103d87d7a33",
    "ctx": "documents",
    "t": "Bride's bank passbook, for an account in her own name linked to Aadhaar"
@@ -976,16 +606,6 @@
    "t": "For remarriage: the former husband's death certificate or the court's divorce decree"
   },
   {
-   "k": "e008c2b9b876",
-   "ctx": "portalName",
-   "t": "Mukhyamantri Samuhik Vivah Yojana portal"
-  },
-  {
-   "k": "2c21f68832ba",
-   "ctx": "label",
-   "t": "Document Type"
-  },
-  {
    "k": "95a5e9fc5b9a",
    "ctx": "hint",
    "t": "Choose Aadhaar. Use the 16-digit VID or a driving licence only if you cannot use the Aadhaar number."
@@ -994,11 +614,6 @@
    "k": "bf17b9c0dff2",
    "ctx": "hint",
    "t": "The bride's own Aadhaar, not her father's. The form is filled in the bride's name."
-  },
-  {
-   "k": "4d701bd2597a",
-   "ctx": "label",
-   "t": "Contact mobile number"
   },
   {
    "k": "7394c9b110a5",
@@ -1011,16 +626,6 @@
    "t": "You confirm that no other government scheme is giving marriage money for this wedding. If this is found false, the money is recovered."
   },
   {
-   "k": "fc43c3beda4e",
-   "ctx": "label",
-   "t": "Bride's name / Father's name"
-  },
-  {
-   "k": "70f1d10aedea",
-   "ctx": "value",
-   "t": "Pooja Kumari / Shivnath"
-  },
-  {
    "k": "052812856235",
    "ctx": "hint",
    "t": "Write both exactly as on Aadhaar."
@@ -1029,16 +634,6 @@
    "k": "06fc8e902186",
    "ctx": "hint",
    "t": "She must be 18 or older on the wedding date. Upload the age proof that shows this date."
-  },
-  {
-   "k": "631beb6982bb",
-   "ctx": "label",
-   "t": "District / Block or urban body"
-  },
-  {
-   "k": "c6961fdeccb6",
-   "ctx": "value",
-   "t": "Gorakhpur / Pipraich block"
   },
   {
    "k": "544ba0cf9666",
@@ -1054,11 +649,6 @@
    "k": "b7e2916a6a3a",
    "ctx": "label",
    "t": "Groom's name / Aadhaar / date of birth"
-  },
-  {
-   "k": "ba8cba2c98d8",
-   "ctx": "value",
-   "t": "Rahul Kumar / 9999 2718 2818 / 11-03-2000"
   },
   {
    "k": "fb0c99a84f09",
@@ -1114,6 +704,281 @@
    "k": "937b84556a10",
    "ctx": "department",
    "t": "State Health Authority, Uttarakhand (Medical Health & Family Welfare Department)"
+  },
+  {
+   "k": "506876439ef5",
+   "ctx": "brief",
+   "t": "Free, cashless hospital treatment up to Rs 5 lakh a year per family for almost every family in Uttarakhand. Families on the central PM-JAY list are covered by PM-JAY, and the state covers all the other resident families under Atal Ayushman on the same terms, hospitals and packages. The Ayushman (golden) card is made from your ration card or family register, on the phone or at a Jan Seva Kendra (CSC)."
+  },
+  {
+   "k": "edb7f352abbf",
+   "ctx": "eligibility",
+   "t": "Uttarakhand families found in any of these lists: NFSA ration card data, the old Mukhyamantri Swasthya Bima Yojana, SECC 2011 or SECC Plus"
+  },
+  {
+   "k": "522aaf228c1d",
+   "ctx": "eligibility",
+   "t": "No income limit and no limit on family size; every member is covered"
+  },
+  {
+   "k": "576cab25b214",
+   "ctx": "eligibility",
+   "t": "Not for people covered by CGHS, ECHS, ESIC or the State Government Health Scheme (state employees and pensioners have their own SGHS card)"
+  },
+  {
+   "k": "0eeb01c57412",
+   "ctx": "eligibility",
+   "t": "Illnesses you already have are covered from day one"
+  },
+  {
+   "k": "6ae371279728",
+   "ctx": "eligibility",
+   "t": "Atal Ayushman uses a referral system, so planned treatment at a private hospital may first need a referral from a government hospital"
+  },
+  {
+   "k": "eee5f7937aa5",
+   "ctx": "documents",
+   "t": "Family ID: ration card (new or old) or a copy of the family register (Parivar Register)"
+  },
+  {
+   "k": "a5a9da847146",
+   "ctx": "documents",
+   "t": "If you have neither: an ID such as voter ID, birth certificate, permanent residence certificate, PAN or passport showing your father's, mother's or spouse's name"
+  },
+  {
+   "k": "4af330ef59e6",
+   "ctx": "hint",
+   "t": "Any working number you hold. The OTP and approval message come here."
+  },
+  {
+   "k": "4a698b249c05",
+   "ctx": "hint",
+   "t": "Pick Uttarakhand. Atal Ayushman families are on the same Ayushman system, so the search works for both."
+  },
+  {
+   "k": "2f3e938fb94a",
+   "ctx": "hint",
+   "t": "The ration card number brings up the whole family. You can also search by Aadhaar."
+  },
+  {
+   "k": "7111406f2e9a",
+   "ctx": "hint",
+   "t": "Copy it from your ration card. If your family is not found, try Aadhaar or go to a Jan Seva Kendra."
+  },
+  {
+   "k": "cf4f2a2f2e99",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making. Each member is done separately."
+  },
+  {
+   "k": "22efd78c0f7a",
+   "ctx": "hint",
+   "t": "Good for elderly people whose fingerprints do not scan. Use Aadhaar OTP if the mobile is linked to Aadhaar."
+  },
+  {
+   "k": "14647e6f595c",
+   "ctx": "hint",
+   "t": "Relation to the person named first on the ration card."
+  },
+  {
+   "k": "56961ba1804d",
+   "ctx": "demoSteps",
+   "t": "Choose Uttarakhand and search your family by ration card number or Aadhaar."
+  },
+  {
+   "k": "21c4ec372404",
+   "ctx": "demoSteps",
+   "t": "Pick the member, verify with Aadhaar OTP or face authentication, take the live photo, fill the details and submit."
+  },
+  {
+   "k": "75a661f46a8c",
+   "ctx": "demoSteps",
+   "t": "The State Health Authority approves it, usually within a day or two. Log in again and download the card."
+  },
+  {
+   "k": "a212bff58f02",
+   "ctx": "demoSteps",
+   "t": "If your name is not found or e-KYC fails, take Aadhaar and the ration card or family register to a Jan Seva Kendra (CSC) or the Arogya Mitra desk of an empanelled hospital."
+  },
+  {
+   "k": "ad7046b3a3be",
+   "ctx": "demoSteps",
+   "t": "When you need treatment, get a government hospital referral where required, then show the card at the Arogya Mitra desk. Treatment is cashless."
+  },
+  {
+   "k": "1b8c4ea1c373",
+   "ctx": "helpline",
+   "t": "155368 / 1800-180-5368 (State Health Authority, Uttarakhand) / 14555 (Ayushman Bharat national helpline)"
+  },
+  {
+   "k": "65284ce6c9ae",
+   "ctx": "title",
+   "t": "Uttarakhand Old Age Pension (Vridhavastha Pension)"
+  },
+  {
+   "k": "6f810b30ffc9",
+   "ctx": "brief",
+   "t": "Rs 1,500 a month for people aged 60 and above in Uttarakhand who are BPL or whose monthly income is up to Rs 4,000. Husband and wife can both get it if each qualifies. You apply online on the Social Welfare Department's pension portal (eSPAN), and the money is paid into your bank account every three months. About 6 lakh elderly people get it now."
+  },
+  {
+   "k": "3a34869bc695",
+   "ctx": "benefit",
+   "t": "Rs 1,500 a month, paid every 3 months (June, September, December, March)"
+  },
+  {
+   "k": "d691565b984d",
+   "ctx": "eligibility",
+   "t": "Aged 60 or above and living in Uttarakhand"
+  },
+  {
+   "k": "d05ebb1c4909",
+   "ctx": "eligibility",
+   "t": "From a BPL family, or with monthly income up to Rs 4,000 on a Tehsildar's income certificate"
+  },
+  {
+   "k": "b102a8e08de7",
+   "ctx": "eligibility",
+   "t": "Husband and wife can both receive it if each qualifies"
+  },
+  {
+   "k": "f6e322c110dc",
+   "ctx": "eligibility",
+   "t": "Not getting any other central or state government pension"
+  },
+  {
+   "k": "a563888fd129",
+   "ctx": "eligibility",
+   "t": "Bank account in your own name (not a joint or loan account), linked to Aadhaar"
+  },
+  {
+   "k": "529de3788466",
+   "ctx": "documents",
+   "t": "BPL certificate, or income certificate from the Tehsildar (monthly income not above Rs 4,000)"
+  },
+  {
+   "k": "3ec31353bfb2",
+   "ctx": "documents",
+   "t": "Resolution of the Gram Sabha open meeting (in villages)"
+  },
+  {
+   "k": "b09691be2a38",
+   "ctx": "documents",
+   "t": "Copy of the family register (Parivar Register)"
+  },
+  {
+   "k": "db5a4da88e32",
+   "ctx": "documents",
+   "t": "Voter ID (its number is asked in the form)"
+  },
+  {
+   "k": "57cc4fad673e",
+   "ctx": "portalName",
+   "t": "Social Security State Portal (eSPAN), Social Welfare Department Uttarakhand"
+  },
+  {
+   "k": "aa1cc43ffdf3",
+   "ctx": "hint",
+   "t": "Choose the old age pension from the list. The scheme cannot be changed after saving."
+  },
+  {
+   "k": "a24cbbc259b0",
+   "ctx": "hint",
+   "t": "Type in English; the portal writes the Hindi itself. It must match Aadhaar and the bank passbook."
+  },
+  {
+   "k": "ac4dc357f67a",
+   "ctx": "label",
+   "t": "Category, date of birth and age"
+  },
+  {
+   "k": "7a87e53d67b2",
+   "ctx": "hint",
+   "t": "Your age must be 60 or more."
+  },
+  {
+   "k": "2d734f185b4e",
+   "ctx": "hint",
+   "t": "Your login ID and password come here by SMS. Give the number linked to Aadhaar."
+  },
+  {
+   "k": "fda6529cb3a8",
+   "ctx": "hint",
+   "t": "How many years you have lived in the state."
+  },
+  {
+   "k": "20232069e7bc",
+   "ctx": "hint",
+   "t": "Both are required. Tick the box allowing the department to use Aadhaar for the pension."
+  },
+  {
+   "k": "69d593935377",
+   "ctx": "label",
+   "t": "District, area type, tehsil, block, panchayat, village"
+  },
+  {
+   "k": "c8f5f403b479",
+   "ctx": "value",
+   "t": "Pauri Garhwal / Rural / Kotdwar / Dugadda / Sendhikhal / Sendhikhal"
+  },
+  {
+   "k": "4791444e9118",
+   "ctx": "hint",
+   "t": "Fill carefully. These cannot be corrected by you later."
+  },
+  {
+   "k": "d5850aca5eae",
+   "ctx": "hint",
+   "t": "Enter each twice. Use your own account linked to Aadhaar, not a joint or loan account."
+  },
+  {
+   "k": "b56a1d418ab8",
+   "ctx": "label",
+   "t": "BPL ID or income certificate number, date and monthly income"
+  },
+  {
+   "k": "dd32aa9861fb",
+   "ctx": "hint",
+   "t": "Monthly income cannot be more than Rs 4,000, or the form will not accept it."
+  },
+  {
+   "k": "e819dd49ed19",
+   "ctx": "demoSteps",
+   "t": "Open ssp.uk.gov.in, go to Online Application and click New Online Application. Choose Old Age Pension, fill the form, enter the captcha and save."
+  },
+  {
+   "k": "1efb3ff1fd36",
+   "ctx": "demoSteps",
+   "t": "Your applicant login ID and password come by SMS. Log in through Applicant Login."
+  },
+  {
+   "k": "9720e4040c06",
+   "ctx": "demoSteps",
+   "t": "Under Upload Documents, upload each document as a PDF under 1 MB, then print the application."
+  },
+  {
+   "k": "3f027f8dd151",
+   "ctx": "demoSteps",
+   "t": "The verifying officers check it and the District Social Welfare Office sanctions it. Follow it under Application Status on the portal."
+  },
+  {
+   "k": "51200678e3c4",
+   "ctx": "demoSteps",
+   "t": "Once sanctioned, Rs 1,500 a month is paid every quarter (June, September, December, March) into your Aadhaar-linked account. The online pension passbook shows each payment."
+  },
+  {
+   "k": "8587efce1c52",
+   "ctx": "helpline",
+   "t": "1800-180-4236 (toll-free) / 6395221188 (WhatsApp and mobile) / 0135-2669764 (IT cell, Social Welfare Department)"
+  },
+  {
+   "k": "df88a8489c56",
+   "ctx": "title",
+   "t": "Nanda Gaura Yojana (Rs 11,000 at Birth + Rs 51,000 after Class 12)"
+  },
+  {
+   "k": "f13efb70a9fe",
+   "ctx": "department",
+   "t": "Women Empowerment and Child Development Department, Uttarakhand"
   }
  ]
 }

@@ -6,31 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_13.json",
  "items": [
   {
-   "k": "f7e080087df0",
-   "ctx": "eligibility",
-   "t": "Any farmer in Kerala who cultivates own or leased land. Paddy farmers can also join as a padasekharam group"
-  },
-  {
-   "k": "a4588229e4c7",
-   "ctx": "eligibility",
-   "t": "Minimum to insure: 10 coconut or arecanut trees, 10 banana plants, 25 rubber trees, or 0.1 hectare (about 25 cents) of paddy"
-  },
-  {
-   "k": "3948fcd4af00",
-   "ctx": "eligibility",
-   "t": "Insure within the crop's window: paddy 15 to 45 days after sowing or transplanting, banana 1 to 5 months after planting; yielding tree crops at any time"
-  },
-  {
-   "k": "9a560bb21bda",
-   "ctx": "eligibility",
-   "t": "Insure the whole crop in that plot, not part of it. Old or low-yielding trees are not accepted"
-  },
-  {
-   "k": "057a81693f33",
-   "ctx": "eligibility",
-   "t": "Cover starts 7 days after the premium is paid. Only total loss is paid: paddy loss above 50% counts as total, and for vegetables, ginger, tapioca and similar crops at least 10% of the insured area must be lost"
-  },
-  {
    "k": "56441080dfe7",
    "ctx": "documents",
    "t": "Aadhaar card and the mobile number linked to it, for the OTP"
@@ -61,29 +36,9 @@
    "t": "For a claim: photos of the damaged crop"
   },
   {
-   "k": "65555d5d317e",
-   "ctx": "portalName",
-   "t": "AIMS — Agriculture Information Management System"
-  },
-  {
-   "k": "670cc41fee2a",
-   "ctx": "label",
-   "t": "Aadhaar number (farmer registration)"
-  },
-  {
    "k": "53581638542d",
    "ctx": "hint",
    "t": "Registration starts with your Aadhaar and an OTP. You register only once; the same login is used for every AIMS service."
-  },
-  {
-   "k": "0965fb03a295",
-   "ctx": "label",
-   "t": "Krishi Bhavan"
-  },
-  {
-   "k": "d7f8225a709c",
-   "ctx": "value",
-   "t": "Kumarakom"
   },
   {
    "k": "79f5604f6671",
@@ -96,24 +51,9 @@
    "t": "Land: village, survey number and area"
   },
   {
-   "k": "eee798e275da",
-   "ctx": "value",
-   "t": "Kumarakom, Sy. No. 412/3, 0.40 hectare"
-  },
-  {
    "k": "91c6c40a1245",
    "ctx": "hint",
    "t": "Copy these from your land tax receipt. Add the land and the crops on it before applying for insurance."
-  },
-  {
-   "k": "3e90e4cbf473",
-   "ctx": "label",
-   "t": "Ownership"
-  },
-  {
-   "k": "838a07ee3cff",
-   "ctx": "value",
-   "t": "Own land"
   },
   {
    "k": "b2b96d61588b",
@@ -121,24 +61,9 @@
    "t": "If you farm leased land, choose leased and upload the lease agreement."
   },
   {
-   "k": "7f2434ee3bdc",
-   "ctx": "label",
-   "t": "Crop to insure"
-  },
-  {
-   "k": "dc6e5fb71ebf",
-   "ctx": "value",
-   "t": "Coconut, yielding (above 7 years)"
-  },
-  {
    "k": "4db8ec02a6d6",
    "ctx": "hint",
    "t": "Under Services, open the State Crop Insurance link and press Apply next to the crop."
-  },
-  {
-   "k": "93a85ca71adf",
-   "ctx": "label",
-   "t": "Number of trees"
   },
   {
    "k": "48983b14aba0",
@@ -146,29 +71,9 @@
    "t": "Insure all the coconut trees in that plot; at least 10 are needed."
   },
   {
-   "k": "e56a2d620598",
-   "ctx": "label",
-   "t": "Insurance period"
-  },
-  {
-   "k": "23b9fe21ce24",
-   "ctx": "value",
-   "t": "3 years"
-  },
-  {
    "k": "569ce9eb32c5",
    "ctx": "hint",
    "t": "For yielding coconut it is Rs.2 per tree for one year, or Rs.5 per tree for three years paid together."
-  },
-  {
-   "k": "66570d5e5366",
-   "ctx": "label",
-   "t": "Premium shown"
-  },
-  {
-   "k": "de1b94c0f150",
-   "ctx": "value",
-   "t": "Rs.200"
   },
   {
    "k": "6bcc35b78ea8",
@@ -179,16 +84,6 @@
    "k": "4719828f1c15",
    "ctx": "hint",
    "t": "Tick the box above Submit Application, or the application will not go."
-  },
-  {
-   "k": "d7de445a0a2d",
-   "ctx": "label",
-   "t": "Premium payment (e-Treasury)"
-  },
-  {
-   "k": "11f5498afe74",
-   "ctx": "value",
-   "t": "UPI, GRN saved"
   },
   {
    "k": "eea94ae60e16",
@@ -241,11 +136,6 @@
    "t": "Ladakh Universal Health Care Scheme (Golden Card)"
   },
   {
-   "k": "3059b5d75418",
-   "ctx": "department",
-   "t": "Health & Medical Education Department, UT Ladakh"
-  },
-  {
    "k": "011ef95249fb",
    "ctx": "brief",
    "t": "Ladakh's own free health insurance, started in December 2020 alongside Ayushman Bharat PM-JAY so that families left out of the PM-JAY list are covered too. Every ration card household gets a Golden Card worth Rs.5 lakh a year for hospital treatment, tests and medicines, cashless at empanelled hospitals. The card is made at the Ayushman desk of a government hospital, at an enrolment camp or at a CSC, using the ration card and Aadhaar."
@@ -281,11 +171,6 @@
    "t": "If your family is missing from the list or a name is wrong, apply first at the Tehsildar's office"
   },
   {
-   "k": "d746487247a4",
-   "ctx": "documents",
-   "t": "Ladakh ration card"
-  },
-  {
    "k": "971c976fb4fe",
    "ctx": "documents",
    "t": "Birth certificate for a newborn or a child without Aadhaar"
@@ -306,24 +191,9 @@
    "t": "The operator finds your family with this number. Bring the card itself, not just a photo of it."
   },
   {
-   "k": "3f7891ed1f64",
-   "ctx": "value",
-   "t": "Tsering Dorjay"
-  },
-  {
    "k": "39456b48cd72",
    "ctx": "hint",
    "t": "The person named first on the ration card."
-  },
-  {
-   "k": "8ad4039c1722",
-   "ctx": "label",
-   "t": "Member being enrolled"
-  },
-  {
-   "k": "5f098f2bfcf5",
-   "ctx": "value",
-   "t": "Padma Angmo"
   },
   {
    "k": "4608dd17e573",
@@ -336,39 +206,14 @@
    "t": "The 12 digits on this member's own Aadhaar card."
   },
   {
-   "k": "fc7481906e3b",
-   "ctx": "label",
-   "t": "Verification method"
-  },
-  {
    "k": "841e0a035543",
    "ctx": "hint",
    "t": "OTP goes to the mobile linked to Aadhaar. If none is linked, fingerprint or face scan is used at the desk."
   },
   {
-   "k": "b21740a0f009",
-   "ctx": "hint",
-   "t": "The approval message comes here."
-  },
-  {
    "k": "a311e64fe453",
    "ctx": "hint",
    "t": "How this member is related to the head of the family on the ration card."
-  },
-  {
-   "k": "09e8e4317160",
-   "ctx": "label",
-   "t": "District and tehsil"
-  },
-  {
-   "k": "87fa046206ce",
-   "ctx": "value",
-   "t": "Leh / Khaltsi"
-  },
-  {
-   "k": "d01d900383e4",
-   "ctx": "label",
-   "t": "Photo"
   },
   {
    "k": "833032b2b0a5",
@@ -426,11 +271,6 @@
    "t": "Lakshadweep pays Rs.1,500 a month to permanent residents above 60 who have no income of their own. The same state pension also covers widows, abandoned people and persons with disabilities. You apply at your island's Village (Dweep) Panchayat office. The application is checked there and again at the District Panchayat, Kavaratti, and the money is paid every month into your Aadhaar-linked bank account. About 3,500 islanders get it."
   },
   {
-   "k": "bcbf5c431dd9",
-   "ctx": "benefit",
-   "t": "Rs.1,500 a month (Rs.18,000 a year)"
-  },
-  {
    "k": "3c56786bf705",
    "ctx": "eligibility",
    "t": "Permanent resident of the Union territory of Lakshadweep"
@@ -481,39 +321,14 @@
    "t": "The office of the Executive Officer of the Village (Dweep) Panchayat on your island. The form is given there free. Hand it back with photocopies of your documents and show the originals. After the VDP Evaluation Committee checks it, the VDP sends it to the Chief Executive Officer, District Panchayat (HQ), Kavaratti."
   },
   {
-   "k": "f92b9295b7cb",
-   "ctx": "value",
-   "t": "Kunhibi P."
-  },
-  {
    "k": "2489a8eb2430",
    "ctx": "hint",
    "t": "As on your Aadhaar card. The form is collected at your VDP office; these are the details it asks for."
   },
   {
-   "k": "f37380e4ff37",
-   "ctx": "value",
-   "t": "Late Koya P."
-  },
-  {
-   "k": "1a86d0492f35",
-   "ctx": "label",
-   "t": "Island and Village (Dweep) Panchayat"
-  },
-  {
-   "k": "174c094c09cc",
-   "ctx": "value",
-   "t": "Androth, Androth VDP"
-  },
-  {
    "k": "c4da0518c8c7",
    "ctx": "hint",
    "t": "The island where you live and its Village Panchayat."
-  },
-  {
-   "k": "47b716d06076",
-   "ctx": "value",
-   "t": "21-05-1961, 65 years"
   },
   {
    "k": "1c15a669dcc5",
@@ -531,24 +346,9 @@
    "t": "Write your own monthly income. Above Rs.1,500 makes you ineligible."
   },
   {
-   "k": "289a3323e5e7",
-   "ctx": "label",
-   "t": "Family support"
-  },
-  {
-   "k": "d13099b13bba",
-   "ctx": "value",
-   "t": "Lives alone, no earning member"
-  },
-  {
    "k": "e7a7f5ebe0d9",
    "ctx": "hint",
    "t": "People with no support from family are given priority."
-  },
-  {
-   "k": "2c2abbe87cdf",
-   "ctx": "label",
-   "t": "Getting any other pension?"
   },
   {
    "k": "29ae360e31cc",
@@ -559,11 +359,6 @@
    "k": "bd4576bcae05",
    "ctx": "hint",
    "t": "An Aadhaar-linked account in your own name."
-  },
-  {
-   "k": "fd4ab828159a",
-   "ctx": "hint",
-   "t": "A number the VDP office can call."
   },
   {
    "k": "d816ae34c47c",
@@ -686,11 +481,6 @@
    "t": "Copy of the construction worker (BOCW) card, if the family is registered"
   },
   {
-   "k": "55f13f88f40d",
-   "ctx": "portalName",
-   "t": "Vivah Portal"
-  },
-  {
    "k": "48f3ddd7aee5",
    "ctx": "submitAt",
    "t": "In a village: the Janpad Panchayat office that is holding the mass wedding (forms are free there, and the gram panchayat can help). In a town: the Nagar Nigam, Nagar Palika or Nagar Parishad office. The bride and groom apply together at least 15 days before the wedding date, with copies of all documents and photos. Take the receipt (pavti) the same day."
@@ -701,24 +491,9 @@
    "t": "Mass wedding date and organising body"
   },
   {
-   "k": "498c38ffd2e5",
-   "ctx": "value",
-   "t": "12/05/2026, Janpad Panchayat Ichhawar"
-  },
-  {
    "k": "75d1768ac03b",
    "ctx": "hint",
    "t": "Pick a date from the list the Janpad or municipal office puts up. You must apply to the same body that is holding that wedding."
-  },
-  {
-   "k": "a249f91a9ebb",
-   "ctx": "label",
-   "t": "Bride's name (वधू का नाम)"
-  },
-  {
-   "k": "fa4f4b5ea8ae",
-   "ctx": "value",
-   "t": "Pooja Ahirwar"
   },
   {
    "k": "3f8d6df05fe2",
@@ -726,24 +501,9 @@
    "t": "Exactly as on her Aadhaar and Samagra. The cheque is made out in this name."
   },
   {
-   "k": "2fe0dd2d2cc3",
-   "ctx": "label",
-   "t": "Bride's father or guardian"
-  },
-  {
-   "k": "ec4b22fbe932",
-   "ctx": "value",
-   "t": "Mohan Lal Ahirwar"
-  },
-  {
    "k": "df078ea004ba",
    "ctx": "hint",
    "t": "Write the guardian's name if the father has died."
-  },
-  {
-   "k": "836d37d7d03e",
-   "ctx": "value",
-   "t": "05/01/2005 (21 years)"
   },
   {
    "k": "9aa46f17c33e",
@@ -751,19 +511,9 @@
    "t": "She must have completed 18 years on the wedding day. Attach one age proof."
   },
   {
-   "k": "b445a031353c",
-   "ctx": "label",
-   "t": "Bride's Samagra member ID"
-  },
-  {
    "k": "215c96522cee",
    "ctx": "hint",
    "t": "Her own 9-digit number. If she has none, the panchayat or municipal office will make one."
-  },
-  {
-   "k": "c26107bce169",
-   "ctx": "label",
-   "t": "Bride's Aadhaar number"
   },
   {
    "k": "4fef668025f7",
@@ -771,24 +521,9 @@
    "t": "Attach a photocopy of her Aadhaar card."
   },
   {
-   "k": "05a711196de3",
-   "ctx": "label",
-   "t": "Bride's status"
-  },
-  {
-   "k": "024512411083",
-   "ctx": "value",
-   "t": "Unmarried (कन्या)"
-  },
-  {
    "k": "54ebcd046cde",
    "ctx": "hint",
    "t": "Choose widow or divorced if that applies, and attach the death certificate or the court order."
-  },
-  {
-   "k": "4d9fa354f308",
-   "ctx": "label",
-   "t": "Groom's name and father's name"
   },
   {
    "k": "01a9b6f9c70f",
@@ -801,29 +536,9 @@
    "t": "As on the groom's Aadhaar card."
   },
   {
-   "k": "2b5e87a15027",
-   "ctx": "label",
-   "t": "Groom's date of birth"
-  },
-  {
-   "k": "6ea0a9fbbc07",
-   "ctx": "value",
-   "t": "18/08/2001 (25 years)"
-  },
-  {
    "k": "c7b04b64cc9f",
    "ctx": "hint",
    "t": "He must have completed 21 years. Attach one age proof."
-  },
-  {
-   "k": "5213f606a24d",
-   "ctx": "label",
-   "t": "Groom's Samagra ID and address"
-  },
-  {
-   "k": "596a70b2372b",
-   "ctx": "value",
-   "t": "419027365, village Bilkisganj, Sehore"
   },
   {
    "k": "179e1273d457",
@@ -859,11 +574,6 @@
    "k": "8e6bc7c3e929",
    "ctx": "demoSteps",
    "t": "The bride receives the Rs 49,000 account payee cheque in her name; deposit it in her own bank account. Track the application on vivahportal.mp.gov.in under Track Application."
-  },
-  {
-   "k": "8722ec22ede3",
-   "ctx": "helpline",
-   "t": "0755-2556916 (Commissioner, Social Justice, Bhopal), CM Helpline 181"
   },
   {
    "k": "b5e2d9b1d9d0",
@@ -931,16 +641,6 @@
    "t": "PM-Kisan registration number, if you are already registered"
   },
   {
-   "k": "feafedf03cb4",
-   "ctx": "portalName",
-   "t": "SAARA portal (Revenue Department, MP)"
-  },
-  {
-   "k": "a9350808f186",
-   "ctx": "value",
-   "t": "Aadhaar number (आधार नंबर)"
-  },
-  {
    "k": "d0a8e8ec93a0",
    "ctx": "hint",
    "t": "You can also search by bank account number or PM-Kisan ID. Aadhaar is the easiest."
@@ -951,24 +651,9 @@
    "t": "The farmer's own 12-digit Aadhaar, the same one given for PM-Kisan."
   },
   {
-   "k": "e7aa0115cba6",
-   "ctx": "label",
-   "t": "Captcha (कृपया कैप्चा डालें)"
-  },
-  {
    "k": "ef5406632f63",
    "ctx": "hint",
    "t": "Copy the letters in the picture exactly. Reload the picture if you cannot read it."
-  },
-  {
-   "k": "20aabf842b33",
-   "ctx": "label",
-   "t": "Active / Inactive (सक्रिय/निष्क्रिय)"
-  },
-  {
-   "k": "a733b809d2f1",
-   "ctx": "value",
-   "t": "Active"
   },
   {
    "k": "f7c95f979ff8",
@@ -976,24 +661,9 @@
    "t": "Active means instalments will come. If it says Inactive, the next box tells you why."
   },
   {
-   "k": "1127dd91a580",
-   "ctx": "label",
-   "t": "Reason if inactive"
-  },
-  {
    "k": "23cb2a0f728b",
    "ctx": "hint",
    "t": "Common reasons are e-KYC not done, land not seeded, or a name mismatch between Aadhaar, bank and land record. Take your papers to the Patwari or tehsil office to fix it."
-  },
-  {
-   "k": "ff3fed5280ac",
-   "ctx": "label",
-   "t": "Khasra number (खसरा क्रमांक)"
-  },
-  {
-   "k": "3a2224aa95ef",
-   "ctx": "value",
-   "t": "214/2, village Pipalkheda"
   },
   {
    "k": "8f540ca540cb",
@@ -1001,34 +671,14 @@
    "t": "Check that every piece of your land is listed. If a khasra is missing, tell the Patwari."
   },
   {
-   "k": "3535af368d46",
-   "ctx": "label",
-   "t": "Patwari verification date"
-  },
-  {
    "k": "4f0479f23a24",
    "ctx": "hint",
    "t": "The date the Patwari checked your land for this instalment. If it is blank, the instalment has not moved yet."
   },
   {
-   "k": "acc9f18b6072",
-   "ctx": "label",
-   "t": "Tehsildar approval date"
-  },
-  {
    "k": "b886fd564e07",
    "ctx": "hint",
    "t": "After this date the payment order is made."
-  },
-  {
-   "k": "8f48d0763582",
-   "ctx": "label",
-   "t": "Payment status and UTR number"
-  },
-  {
-   "k": "fa1cfa18ef8e",
-   "ctx": "value",
-   "t": "Success, UTR SBIN826190045533"
   },
   {
    "k": "1625dcc923cc",
@@ -1219,6 +869,86 @@
    "k": "5d2b51fd959a",
    "ctx": "demoSteps",
    "t": "For maternity help, register the pregnancy at the government hospital or with the ANM. Rs 4,000 comes after the checkups and Rs 12,000 after delivery in a government hospital, straight into your bank account."
+  },
+  {
+   "k": "9b0933b9b7ef",
+   "ctx": "demoSteps",
+   "t": "On a death, the panchayat secretary or ward in-charge pays Rs 5,000 funeral help at once. The family applies at the Janpad or municipal office for the Rs 2 lakh or Rs 4 lakh, which is paid into the nominee's account."
+  },
+  {
+   "k": "6988fed68a0d",
+   "ctx": "department",
+   "t": "State Health Agency (Deendayal Swasthya Suraksha Parishad), Public Health and Family Welfare Department, Madhya Pradesh"
+  },
+  {
+   "k": "8a5b1c3d9f5f",
+   "ctx": "brief",
+   "t": "Madhya Pradesh runs Ayushman Bharat PM-JAY under the name Niramayam, and the state pays for many more families than the central list covers. Every family holding an NFSA food-grain slip (khadyann parchi) qualifies, as do Sambal and construction workers, ASHA and anganwadi workers, and everyone aged 70 or above. Each family gets free, cashless treatment up to Rs 5 lakh a year in empanelled government and private hospitals. You can make the card yourself on the Ayushman portal or app, or free at a Lok Seva Kendra, CSC or the hospital's Ayushman Mitra desk."
+  },
+  {
+   "k": "a5c04525a673",
+   "ctx": "benefit",
+   "t": "Rs 5 lakh a year per family, cashless, in empanelled hospitals"
+  },
+  {
+   "k": "9db15dc2c958",
+   "ctx": "eligibility",
+   "t": "Families holding an NFSA food-grain eligibility slip (khadyann parchi) in Madhya Pradesh"
+  },
+  {
+   "k": "7b7557f8ac65",
+   "ctx": "eligibility",
+   "t": "Families in the SECC 2011 list (the central PM-JAY list)"
+  },
+  {
+   "k": "cd9db6c3102c",
+   "ctx": "eligibility",
+   "t": "Workers registered under Sambal or with the Building and Other Construction Workers Board, and their families"
+  },
+  {
+   "k": "9d89463fd0fa",
+   "ctx": "eligibility",
+   "t": "ASHA workers, anganwadi workers and helpers, PVTG families (Baiga, Bharia, Sahariya), Bhopal gas tragedy victims and Dharti Aaba (DAJGUA) beneficiaries"
+  },
+  {
+   "k": "3460cad54bcd",
+   "ctx": "eligibility",
+   "t": "Every person aged 70 or above, whatever the income (Ayushman Vay Vandana card)"
+  },
+  {
+   "k": "02c38409c521",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age; illnesses you already have are covered from day one"
+  },
+  {
+   "k": "f389ff93c0ed",
+   "ctx": "documents",
+   "t": "Aadhaar card of each family member who needs a card"
+  },
+  {
+   "k": "9439b0dfa6a8",
+   "ctx": "documents",
+   "t": "Samagra ID and the NFSA food-grain slip or ration card"
+  },
+  {
+   "k": "f2202a93b39c",
+   "ctx": "documents",
+   "t": "Sambal card or construction worker card, if you qualify through it"
+  },
+  {
+   "k": "d512d3d8f383",
+   "ctx": "hint",
+   "t": "Choose Beneficiary when making the card for yourself or your family."
+  },
+  {
+   "k": "48bf416472b3",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Madhya Pradesh. Niramayam is the state's name for the same scheme."
+  },
+  {
+   "k": "0bab9a729e6c",
+   "ctx": "hint",
+   "t": "You can also search by family, name or PMJAY ID. If nothing comes up, check at the ration shop that your name is on the NFSA slip."
   }
  ]
 }

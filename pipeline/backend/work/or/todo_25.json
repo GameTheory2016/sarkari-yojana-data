@@ -6,106 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_25.json",
  "items": [
   {
-   "k": "96b6d80028f1",
-   "ctx": "documents",
-   "t": "Bank passbook of the mother (the father's or guardian's if she is not alive; the girl's own for Stage 6)"
-  },
-  {
-   "k": "943cc54edb3e",
-   "ctx": "documents",
-   "t": "Stage 1: birth certificate number. Stage 2: vaccination card"
-  },
-  {
-   "k": "b75b27f267be",
-   "ctx": "documents",
-   "t": "Stages 3 to 5: admission certificate from the school, or only the Student Unique ID if it is a government school"
-  },
-  {
-   "k": "ee285522d311",
-   "ctx": "documents",
-   "t": "Stage 6: Class 10 or 12 marksheet, the institute ID and the admission fee receipt"
-  },
-  {
-   "k": "3a7fe8f990d9",
-   "ctx": "documents",
-   "t": "Death certificate if the mother or father has died"
-  },
-  {
-   "k": "7d5b724764c2",
-   "ctx": "hint",
-   "t": "Who is applying: mother, father or guardian. A grown-up girl can apply for herself, but only for Stage 6."
-  },
-  {
-   "k": "167576ab2b51",
-   "ctx": "hint",
-   "t": "Write it exactly as on the applicant's Aadhaar card."
-  },
-  {
-   "k": "667b13811c51",
-   "ctx": "hint",
-   "t": "A number you keep. The OTP, your login ID and password, and every status message come here. One number can be used for only one family."
-  },
-  {
-   "k": "63466ee64812",
-   "ctx": "hint",
-   "t": "Where the family lives now. Choose your town or nagar panchayat instead of a block if you live in a town."
-  },
-  {
-   "k": "858e898fd8c1",
-   "ctx": "hint",
-   "t": "The mother's 12-digit Aadhaar. The father's Aadhaar is asked for in the next box."
-  },
-  {
-   "k": "08431a13d830",
-   "ctx": "hint",
-   "t": "Needed even when the mother is the applicant. If the father has died, upload his death certificate instead."
-  },
-  {
-   "k": "d54e3e7ca379",
-   "ctx": "hint",
-   "t": "Write it as on the birth certificate. Always use the same spelling at every later stage."
-  },
-  {
-   "k": "42fa01595fbd",
-   "ctx": "hint",
-   "t": "Choose the stage the girl has reached now. Apply in the same school year as the admission."
-  },
-  {
-   "k": "c99e7d0ca078",
-   "ctx": "hint",
-   "t": "Copy it from the online birth certificate. The portal checks this number by itself."
-  },
-  {
-   "k": "93b7e4743dcc",
-   "ctx": "hint",
-   "t": "The mother's own account, linked to her Aadhaar. Copy both numbers from the first page of the passbook."
-  },
-  {
-   "k": "415d387e8839",
-   "ctx": "demoSteps",
-   "t": "Open mksy.up.gov.in and tap Citizen Services Portal (Apply Here). Tick I agree, tap Continue and register with your mobile number and OTP. Your login ID and password come by SMS."
-  },
-  {
-   "k": "6933b9e20d22",
-   "ctx": "demoSteps",
-   "t": "Log in and fill in the form: applicant, Aadhaar of the father and mother, address, income declaration, bank account, the girl's details and the stage you are applying for."
-  },
-  {
-   "k": "d7ba2ea4c341",
-   "ctx": "demoSteps",
-   "t": "Upload the girl's photo and the documents for that stage, then submit. Write down the application number."
-  },
-  {
-   "k": "2a7a846f297c",
-   "ctx": "demoSteps",
-   "t": "The block office (villages) or the tehsil (towns) checks the form, and the District Probation Officer's office approves it. You can see the status after you log in."
-  },
-  {
-   "k": "d21bbb2ed919",
-   "ctx": "demoSteps",
-   "t": "After approval the money is paid through PFMS into the mother's account. Check the bank passbook or SMS."
-  },
-  {
    "k": "6c8d98ae3257",
    "ctx": "demoSteps",
    "t": "When the girl reaches the next stage, log in again with the same ID and apply for that stage in the same school year. Do not make a new registration for the same girl, or every application for her gets rejected."
@@ -789,6 +689,101 @@
    "k": "79cfec832959",
    "ctx": "documents",
    "t": "Mobile number linked with the bank account and Aadhaar"
+  },
+  {
+   "k": "060a836dd92f",
+   "ctx": "submitAt",
+   "t": "The Krishak Bandhu desk at the office of the Assistant Director of Agriculture (ADA) of your block, applying in the block or Gram Panchayat where you hold most of your land. A Bangla Sahayata Kendra (BSK) can also enter the enrolment. The form is page 3 of the PDF linked here and the self-declaration for land not in your name is page 1; blank forms are free at the ADA office. Fill it in Bengali (English or Nepali in the hills), take the originals and one photocopy of each document, and keep the counterfoil with the Acknowledgement ID that the staff give you."
+  },
+  {
+   "k": "a41e42d9048f",
+   "ctx": "hint",
+   "t": "Your name in capital English letters, the same as in your bank passbook."
+  },
+  {
+   "k": "c903685b2217",
+   "ctx": "hint",
+   "t": "Your name exactly as written on the land parcha (khatian)."
+  },
+  {
+   "k": "65ce6cc4319b",
+   "ctx": "hint",
+   "t": "Where you live. The land can be in another mouza; that goes in the land table below."
+  },
+  {
+   "k": "5ea21878a00e",
+   "ctx": "hint",
+   "t": "Owner if the land is recorded in your name, Bargadar if you are a recorded share-cropper, Pattadar if you hold a government patta."
+  },
+  {
+   "k": "0b476afeae61",
+   "ctx": "hint",
+   "t": "The number linked to both your bank account and Aadhaar. Payment SMSs come here."
+  },
+  {
+   "k": "fe5dc531a8b2",
+   "ctx": "hint",
+   "t": "The 12 digits on your own Aadhaar card."
+  },
+  {
+   "k": "b5672d693622",
+   "ctx": "hint",
+   "t": "The number on your voter ID card."
+  },
+  {
+   "k": "bd02d0363223",
+   "ctx": "label",
+   "t": "Land: Mouza / J.L. No. / Khatian No. / Area (acre)"
+  },
+  {
+   "k": "56cad2f8c2df",
+   "ctx": "hint",
+   "t": "Copy from the RoR. Add one row for each plot and the total at the bottom. 0.66 acre is about 66 decimal."
+  },
+  {
+   "k": "07462930a393",
+   "ctx": "hint",
+   "t": "From the first page of your passbook. Tick SB for a savings account."
+  },
+  {
+   "k": "fd5d61ba5c62",
+   "ctx": "hint",
+   "t": "The person who should get the Rs.2 lakh death benefit if something happens to you."
+  },
+  {
+   "k": "fb91b2546d8b",
+   "ctx": "demoSteps",
+   "t": "Download the form from the link above or collect it free at the block ADA office, and fill page 3. If the land is still in a dead parent's name, also fill the self-declaration on page 1 and get a warison certificate from the Pradhan."
+  },
+  {
+   "k": "1e3fe5db061e",
+   "ctx": "demoSteps",
+   "t": "Attach the photocopies and paste your photo. Sign or give your thumb impression."
+  },
+  {
+   "k": "d9f0b1635199",
+   "ctx": "demoSteps",
+   "t": "Hand it in at the Krishak Bandhu desk of the ADA office. Keep the counterfoil with the Acknowledgement ID."
+  },
+  {
+   "k": "64f6cc48cf29",
+   "ctx": "demoSteps",
+   "t": "Agriculture officers check your land against the land records and approve it; you get a KB ID. Check the status on krishakbandhu.wb.gov.in (Farmer Search) or on WhatsApp 9830383383."
+  },
+  {
+   "k": "1c76cff30cd4",
+   "ctx": "demoSteps",
+   "t": "The money comes into your bank account in two equal instalments, for Kharif and Rabi, with an SMS on your mobile."
+  },
+  {
+   "k": "e5be829d61aa",
+   "ctx": "demoSteps",
+   "t": "During the 2026 re-check, fill the verification form at the block office when asked, with your spouse's Aadhaar and bank details, so that your payments continue."
+  },
+  {
+   "k": "c7c6c4593cf7",
+   "ctx": "demoSteps",
+   "t": "If the farmer dies between 18 and 60, the family applies at the block ADA office with the death certificate, the farmer's voter or Aadhaar card, the eligible claimant certificate and the RoR, for the Rs.2 lakh."
   }
  ]
 }

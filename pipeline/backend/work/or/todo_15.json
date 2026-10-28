@@ -6,101 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_15.json",
  "items": [
   {
-   "k": "059f0b5ef881",
-   "ctx": "brief",
-   "t": "Kerala's own crop insurance. For a small premium, such as Rs.2 a year for a yielding coconut tree or Re.1 a cent for paddy, you get fixed compensation if the crop is fully destroyed by flood, drought, landslide, storm, lightning, sea erosion, wildfire or wild animals; paddy is also covered against pests and disease. You apply and pay on the AIMS portal or app, and the Krishi Bhavan checks the field. Farmers without insurance can still claim the smaller natural-calamity relief on AIMS, for example Rs.700 for a yielding coconut tree. In March 2026 papaya, rambutan and other fruits, flowers and bee boxes were added."
-  },
-  {
-   "k": "a5a295d4d058",
-   "ctx": "benefit",
-   "t": "For total loss: Rs.2,000 per yielding coconut tree, Rs.35,000 per hectare of paddy, Rs.300 per bunched Nendran banana"
-  },
-  {
-   "k": "f7e080087df0",
-   "ctx": "eligibility",
-   "t": "Any farmer in Kerala who cultivates own or leased land. Paddy farmers can also join as a padasekharam group"
-  },
-  {
-   "k": "a4588229e4c7",
-   "ctx": "eligibility",
-   "t": "Minimum to insure: 10 coconut or arecanut trees, 10 banana plants, 25 rubber trees, or 0.1 hectare (about 25 cents) of paddy"
-  },
-  {
-   "k": "3948fcd4af00",
-   "ctx": "eligibility",
-   "t": "Insure within the crop's window: paddy 15 to 45 days after sowing or transplanting, banana 1 to 5 months after planting; yielding tree crops at any time"
-  },
-  {
-   "k": "9a560bb21bda",
-   "ctx": "eligibility",
-   "t": "Insure the whole crop in that plot, not part of it. Old or low-yielding trees are not accepted"
-  },
-  {
-   "k": "057a81693f33",
-   "ctx": "eligibility",
-   "t": "Cover starts 7 days after the premium is paid. Only total loss is paid: paddy loss above 50% counts as total, and for vegetables, ginger, tapioca and similar crops at least 10% of the insured area must be lost"
-  },
-  {
-   "k": "56441080dfe7",
-   "ctx": "documents",
-   "t": "Aadhaar card and the mobile number linked to it, for the OTP"
-  },
-  {
-   "k": "92d0408d84c3",
-   "ctx": "documents",
-   "t": "Land tax receipt or other land record; a lease agreement if the land is leased"
-  },
-  {
-   "k": "950130e0f6f0",
-   "ctx": "documents",
-   "t": "Passbook of a bank account in the farmer's own name"
-  },
-  {
-   "k": "77768905c07b",
-   "ctx": "documents",
-   "t": "Crop details: number of trees or plants, or the area, and the planting date"
-  },
-  {
-   "k": "c32197f6cc57",
-   "ctx": "documents",
-   "t": "UPI, debit card or net banking to pay the premium online"
-  },
-  {
-   "k": "07c5846574a0",
-   "ctx": "documents",
-   "t": "For a claim: photos of the damaged crop"
-  },
-  {
-   "k": "53581638542d",
-   "ctx": "hint",
-   "t": "Registration starts with your Aadhaar and an OTP. You register only once; the same login is used for every AIMS service."
-  },
-  {
-   "k": "79f5604f6671",
-   "ctx": "hint",
-   "t": "The Krishi Bhavan of the panchayat where the land is. Its staff will check your field."
-  },
-  {
-   "k": "e01219921ad5",
-   "ctx": "label",
-   "t": "Land: village, survey number and area"
-  },
-  {
-   "k": "91c6c40a1245",
-   "ctx": "hint",
-   "t": "Copy these from your land tax receipt. Add the land and the crops on it before applying for insurance."
-  },
-  {
-   "k": "b2b96d61588b",
-   "ctx": "hint",
-   "t": "If you farm leased land, choose leased and upload the lease agreement."
-  },
-  {
-   "k": "4db8ec02a6d6",
-   "ctx": "hint",
-   "t": "Under Services, open the State Crop Insurance link and press Apply next to the crop."
-  },
-  {
    "k": "48983b14aba0",
    "ctx": "hint",
    "t": "Insure all the coconut trees in that plot; at least 10 are needed."
@@ -789,6 +694,121 @@
    "k": "6e4e2958b56f",
    "ctx": "eligibility",
    "t": "Works in the unorganised sector (36 listed kinds of work, such as farm labour, hawking, domestic work, tendu leaf collection, gig and platform work) and gets no PF, ESI or gratuity"
+  },
+  {
+   "k": "42dc081daefb",
+   "ctx": "eligibility",
+   "t": "Not an income tax payer and not in government service"
+  },
+  {
+   "k": "8974f17aa37e",
+   "ctx": "eligibility",
+   "t": "Does not hold more than 1 hectare of farm land"
+  },
+  {
+   "k": "c26723053138",
+   "ctx": "eligibility",
+   "t": "Death and disability help is for registered workers aged 18 to 60. Maternity help is for a registered woman worker who delivers in a government hospital, for up to two births"
+  },
+  {
+   "k": "abc33b0134f7",
+   "ctx": "documents",
+   "t": "Samagra member ID and family ID, with Aadhaar e-KYC done on Samagra"
+  },
+  {
+   "k": "126b779b5af7",
+   "ctx": "documents",
+   "t": "Aadhaar card, with the mobile number linked for OTP"
+  },
+  {
+   "k": "3e8f76ef6fb0",
+   "ctx": "documents",
+   "t": "Bank passbook of an Aadhaar-seeded account, with IFSC"
+  },
+  {
+   "k": "3faa19745098",
+   "ctx": "documents",
+   "t": "Name, date of birth and relation of the nominee (a family member in the same Samagra)"
+  },
+  {
+   "k": "104f2ce9b026",
+   "ctx": "documents",
+   "t": "For maternity help later: the pregnancy (MCP) card and the hospital discharge slip"
+  },
+  {
+   "k": "2037264df6fc",
+   "ctx": "hint",
+   "t": "The worker's own 9-digit Samagra member number, not the family number."
+  },
+  {
+   "k": "63b4cc07c588",
+   "ctx": "hint",
+   "t": "The 8-digit family number from the same Samagra slip. Your name, age and address are then filled in from Samagra."
+  },
+  {
+   "k": "03b75528e66e",
+   "ctx": "hint",
+   "t": "Copy the letters in the box exactly, then press search."
+  },
+  {
+   "k": "4e4b62900c2e",
+   "ctx": "hint",
+   "t": "Pick the work you actually do for a living. Gig workers, such as delivery riders, can choose platform work."
+  },
+  {
+   "k": "01fd06e9e931",
+   "ctx": "hint",
+   "t": "The family member who will receive the money if something happens to you. Pick someone from your own Samagra family."
+  },
+  {
+   "k": "67dcf8ec6a89",
+   "ctx": "hint",
+   "t": "As in the nominee's Samagra record."
+  },
+  {
+   "k": "f3c2845c2832",
+   "ctx": "hint",
+   "t": "How the nominee is related to you: wife, husband, son, daughter, mother or father."
+  },
+  {
+   "k": "2610fdb89fc6",
+   "ctx": "hint",
+   "t": "From the first page of your passbook. The account must be in your own name and Aadhaar-seeded."
+  },
+  {
+   "k": "8456e2f20ec4",
+   "ctx": "hint",
+   "t": "Type it twice exactly. A wrong digit sends the help money back."
+  },
+  {
+   "k": "a8f48cc72d62",
+   "ctx": "demoSteps",
+   "t": "Make sure your Samagra record is e-KYC'd with Aadhaar, on samagra.gov.in or at the gram panchayat or ward office."
+  },
+  {
+   "k": "27c5d33b5fad",
+   "ctx": "demoSteps",
+   "t": "Open sambal.mp.gov.in and choose Apply for registration (पंजीयन हेतु आवेदन करें). Enter your Samagra ID, family ID and the captcha. The panchayat or ward office can also do this for you."
+  },
+  {
+   "k": "4e2d2ae6ab67",
+   "ctx": "demoSteps",
+   "t": "Fill in the type of work, the nominee and the bank details, then submit. Note the application number and the name of the inquiry officer shown on screen."
+  },
+  {
+   "k": "66f3f0ae128d",
+   "ctx": "demoSteps",
+   "t": "The inquiry officer, usually the panchayat secretary or ward in-charge, checks your details. Then the Janpad Panchayat or municipal office approves the application. Track it under Application status (संबल आवेदन की स्थिति)."
+  },
+  {
+   "k": "498e12357b35",
+   "ctx": "demoSteps",
+   "t": "Once approved, download your Sambal card from the portal. If you are rejected, you can appeal online to the SDM (पंजीयन अपील)."
+  },
+  {
+   "k": "5d2b51fd959a",
+   "ctx": "demoSteps",
+   "t": "For maternity help, register the pregnancy at the government hospital or with the ANM. Rs 4,000 comes after the checkups and Rs 12,000 after delivery in a government hospital, straight into your bank account."
   }
  ]
 }
