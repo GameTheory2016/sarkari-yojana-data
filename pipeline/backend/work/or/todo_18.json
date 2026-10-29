@@ -6,131 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_18.json",
  "items": [
   {
-   "k": "9344af888075",
-   "ctx": "demoSteps",
-   "t": "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking."
-  },
-  {
-   "k": "804ea4666016",
-   "ctx": "demoSteps",
-   "t": "Go to the CMHT kiosk at your District Hospital (or RIMS or JNIMS in Imphal, or a village enrolment camp) with the originals and every member's Aadhaar."
-  },
-  {
-   "k": "b0bd42351b58",
-   "ctx": "demoSteps",
-   "t": "The Health Coordinator enters your details, takes the photo and the Aadhaar consent, and you sign the government-service declaration."
-  },
-  {
-   "k": "b2f983314360",
-   "ctx": "demoSteps",
-   "t": "Listed categories get the CMHT-Manipur Health Card on the spot, with a unique family number. For 'other poor families', the details go to the DC for verification, and you are told the result before the card is issued."
-  },
-  {
-   "k": "9a5175e748ce",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, show the card at the CMHT desk. The Health Coordinator guides you from admission to discharge, and treatment is cashless."
-  },
-  {
-   "k": "838cb3771e92",
-   "ctx": "demoSteps",
-   "t": "For the travel allowance, give your bank details when you are admitted. Inside Manipur it is Rs.300 a visit, up to Rs.3,000 a year. Outside Manipur it is the cheapest airfare for the patient and one attendant (up to Rs.30,000 a year) plus Rs.1,000 a day (up to Rs.10,000), all within the Rs.5 lakh."
-  },
-  {
-   "k": "ff7461876d9d",
-   "ctx": "helpline",
-   "t": "1800 103 2015 — CMHT toll-free helpline (24x7) / 14555 — Ayushman Bharat national helpline"
-  },
-  {
-   "k": "34a875aa77e0",
-   "ctx": "department",
-   "t": "State Nodal Agency, Megha Health Insurance Scheme, Department of Health & Family Welfare, Government of Meghalaya"
-  },
-  {
-   "k": "d13f175469cd",
-   "ctx": "brief",
-   "t": "Meghalaya's universal health insurance, run together with Ayushman Bharat PM-JAY, now in its sixth phase (MHIS VI). Every resident family except state and central government employees gets Rs.5.3 lakh a year, shared by the family, cashless at almost every hospital in the state and at PM-JAY hospitals across India, plus some outpatient care such as maternity, child care and tests. Registration is free and open all year at District Kiosks and hospital registration centres. A family head whose name is missing from the list (newly married, orphan, or not in the data) can send the request online."
-  },
-  {
-   "k": "8a1b34bf4469",
-   "ctx": "benefit",
-   "t": "Rs.5.3 lakh a year per family, cashless; registration free"
-  },
-  {
-   "k": "4436062450b2",
-   "ctx": "eligibility",
-   "t": "Every resident of Meghalaya, with no income limit"
-  },
-  {
-   "k": "72ca16bd2a3c",
-   "ctx": "eligibility",
-   "t": "Not for State or Central Government employees, who have their own medical reimbursement"
-  },
-  {
-   "k": "ea0bf9404ab8",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age"
-  },
-  {
-   "k": "6ca95021cd88",
-   "ctx": "eligibility",
-   "t": "A newborn is covered from birth under the mother's or father's card for the rest of the policy year"
-  },
-  {
-   "k": "4353f36899fb",
-   "ctx": "eligibility",
-   "t": "If your family is not in the MHIS or PM-JAY data (newly married, orphan, or name missing), apply through the online Head of Family request. The SHA office approves it"
-  },
-  {
-   "k": "91c5f924edf1",
-   "ctx": "documents",
-   "t": "Voter ID (EPIC), front and back. This is mandatory for the Head of Family request"
-  },
-  {
-   "k": "bfc68f0f47e1",
-   "ctx": "documents",
-   "t": "Any one more ID if asked: ration card, MGNREGA job card, birth certificate or other government photo ID"
-  },
-  {
-   "k": "0439fd7837e2",
-   "ctx": "documents",
-   "t": "Proof of relation to add members: marriage certificate, birth certificate, ration card, headman's certificate or adoption certificate"
-  },
-  {
-   "k": "b6a13f88ff15",
-   "ctx": "documents",
-   "t": "Old MHIS or RSBY card, if you have one"
-  },
-  {
-   "k": "a55a13ff171b",
-   "ctx": "hint",
-   "t": "Newly Married, Name not there in the database, Orphans, or Others."
-  },
-  {
-   "k": "501fa911eee0",
-   "ctx": "hint",
-   "t": "Spell it exactly as on Aadhaar and EPIC, or verification gets delayed."
-  },
-  {
-   "k": "613a6690eee3",
-   "ctx": "hint",
-   "t": "Pick the relation first, then type the name."
-  },
-  {
-   "k": "3b625638f9b7",
-   "ctx": "hint",
-   "t": "Copy the address from the voter ID."
-  },
-  {
-   "k": "216035482caa",
-   "ctx": "label",
-   "t": "District / Name of block / Rural or Urban"
-  },
-  {
-   "k": "73c64efc714c",
-   "ctx": "hint",
-   "t": "Where you live now, from the drop-down lists."
-  },
-  {
    "k": "43dc58b742ff",
    "ctx": "hint",
    "t": "A number you keep with you, so the office can reach you."
@@ -704,6 +579,176 @@
    "k": "fb7ef674a7b6",
    "ctx": "demoSteps",
    "t": "The printed Sehat Card is given at the same CSC within 2 to 3 weeks. You can also download it from Download Health Card on sha.punjab.gov.in."
+  },
+  {
+   "k": "d0bb3fd2d0a1",
+   "ctx": "demoSteps",
+   "t": "At any listed government or private hospital, show the Sehat Card at the help desk. The hospital checks your details digitally and treats you cashless up to Rs 10 lakh a year."
+  },
+  {
+   "k": "e4a46a247a94",
+   "ctx": "helpline",
+   "t": "104 (Sehat Card, hospital and grievance helpline, State Health Agency Punjab)"
+  },
+  {
+   "k": "c8707931c992",
+   "ctx": "title",
+   "t": "Ashirwad Scheme (Shagun for Daughter's Marriage)"
+  },
+  {
+   "k": "7ba0ecd2e2f2",
+   "ctx": "department",
+   "t": "Department of Social Justice, Empowerment & Minorities, Punjab"
+  },
+  {
+   "k": "00fca0c32623",
+   "ctx": "brief",
+   "t": "Rs 51,000 from the Punjab government for the marriage of a daughter from a poor Scheduled Caste, Christian, Backward Class or economically weaker family, or the daughter of a widow of any caste. It was earlier called the Shagun scheme. Since 28 January 2026 applications are taken only at Sewa Kendras, before the wedding or within 60 days after it, and the money goes straight to the bank account."
+  },
+  {
+   "k": "135b8253c8d2",
+   "ctx": "benefit",
+   "t": "Rs 51,000 per daughter, for up to two daughters"
+  },
+  {
+   "k": "65ccbd685d59",
+   "ctx": "eligibility",
+   "t": "Daughters of Scheduled Caste, Christian, Backward Class and economically weaker families, and daughters of widows of any caste. Scheduled Caste widows and divorced women also get it when they remarry"
+  },
+  {
+   "k": "461ad1201256",
+   "ctx": "eligibility",
+   "t": "Family income from all sources must not be more than Rs 32,790 a year"
+  },
+  {
+   "k": "7f8ee7c83a9b",
+   "ctx": "eligibility",
+   "t": "The girl must be at least 18 years old on the wedding day"
+  },
+  {
+   "k": "e58c65d3cefb",
+   "ctx": "eligibility",
+   "t": "Her parents or guardian must be permanent residents of Punjab"
+  },
+  {
+   "k": "5db3e3841de3",
+   "ctx": "eligibility",
+   "t": "Apply before the wedding date or within 60 days after it"
+  },
+  {
+   "k": "6714b60e9c5e",
+   "ctx": "eligibility",
+   "t": "At most two daughters of one family can get the money"
+  },
+  {
+   "k": "065c2120a3e2",
+   "ctx": "documents",
+   "t": "Aadhaar card of the applicant (parent or guardian) and of the bride"
+  },
+  {
+   "k": "4a852d3142e5",
+   "ctx": "documents",
+   "t": "Caste certificate (SC or BC) and proof of address in Punjab"
+  },
+  {
+   "k": "0a0218359bf6",
+   "ctx": "documents",
+   "t": "Proof of the girl's age: birth certificate or school certificate"
+  },
+  {
+   "k": "4cffb4cca0f2",
+   "ctx": "documents",
+   "t": "Bank passbook of the applicant, showing account number and IFSC"
+  },
+  {
+   "k": "35a2220fc298",
+   "ctx": "documents",
+   "t": "Wedding card, and the marriage certificate from the gurdwara, temple, church or other religious place"
+  },
+  {
+   "k": "6e9bcebd3c7b",
+   "ctx": "documents",
+   "t": "Family BPL or blue ration card, if you have one"
+  },
+  {
+   "k": "d1b5b1680a64",
+   "ctx": "documents",
+   "t": "Photos of the applicant, the bride and the groom"
+  },
+  {
+   "k": "9ee4f6e889fc",
+   "ctx": "submitAt",
+   "t": "Any Sewa Kendra in Punjab. Take a token at the counter, or book a slot first on connect.punjab.gov.in. Since 28 January 2026 Ashirwad applications are accepted only at Sewa Kendras, so do not pay anyone to apply elsewhere. Take the originals and copies of all documents and the photos. There is no fee."
+  },
+  {
+   "k": "db6f81172f59",
+   "ctx": "hint",
+   "t": "The mother, father or guardian who is applying, as written on Aadhaar. For a widow's daughter, the mother applies."
+  },
+  {
+   "k": "4895cd64a1dd",
+   "ctx": "hint",
+   "t": "How the applicant is related to the girl getting married."
+  },
+  {
+   "k": "d9da31404a1a",
+   "ctx": "hint",
+   "t": "The 12 digits on the applicant's own Aadhaar card."
+  },
+  {
+   "k": "1d52003972a4",
+   "ctx": "hint",
+   "t": "SC, Christian, BC, economically weaker, or daughter of a widow. It decides which certificate is checked."
+  },
+  {
+   "k": "de363c434352",
+   "ctx": "hint",
+   "t": "Everyone's earnings in the family for a full year. Above Rs 32,790 the file is rejected."
+  },
+  {
+   "k": "dd7a4a8d3b11",
+   "ctx": "label",
+   "t": "Bride's name and date of birth"
+  },
+  {
+   "k": "bb2f6c69c000",
+   "ctx": "hint",
+   "t": "Must match her birth or school certificate. She must be 18 or older on the wedding day."
+  },
+  {
+   "k": "42b740795bc5",
+   "ctx": "hint",
+   "t": "Apply before this date or within 60 days after it. Later applications are not taken."
+  },
+  {
+   "k": "737da5f14bd1",
+   "ctx": "value",
+   "t": "Jaspreet Singh, Village Bhaini Kalan, Ludhiana"
+  },
+  {
+   "k": "4e3d3bcccadc",
+   "ctx": "hint",
+   "t": "As printed on the wedding card."
+  },
+  {
+   "k": "a687ab4aff07",
+   "ctx": "hint",
+   "t": "An account in the applicant's own name, linked to Aadhaar. The Rs 51,000 is sent here."
+  },
+  {
+   "k": "0b347e3c691f",
+   "ctx": "hint",
+   "t": "Updates on the application and the payment SMS come to this number."
+  },
+  {
+   "k": "163560f93167",
+   "ctx": "demoSteps",
+   "t": "Collect all the documents and photos. Get the caste certificate and the income self-declaration ready before the wedding."
+  },
+  {
+   "k": "e3f235cfd87d",
+   "ctx": "demoSteps",
+   "t": "Go to the nearest Sewa Kendra, take a token and ask for the Ashirwad Scheme. The operator fills in the application and scans your documents."
   }
  ]
 }

@@ -6,16 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_06.json",
  "items": [
   {
-   "k": "d91b35e262ba",
-   "ctx": "portalName",
-   "t": "Assam State Higher Education Student Portal (Samarth)"
-  },
-  {
-   "k": "7e0ee7d5f0ee",
-   "ctx": "hint",
-   "t": "Your Samarth enrolment number from admission. The first time, click Register; the OTP goes to the email you gave at admission."
-  },
-  {
    "k": "33ecacff157f",
    "ctx": "hint",
    "t": "The bank where your Aadhaar-seeded account is. Money cannot be sent to any other account."
@@ -541,11 +531,6 @@
    "t": "Thana, khata and khesra numbers of the damaged field and the names of two neighbouring farmers"
   },
   {
-   "k": "5c0543c831a2",
-   "ctx": "label",
-   "t": "Choose Authentication Type"
-  },
-  {
    "k": "1bfa3b408577",
    "ctx": "hint",
    "t": "Choose OTP if your mobile is linked to Aadhaar. Otherwise choose Bio-Auth or Iris and get it done at a CSC or the block agriculture office."
@@ -554,11 +539,6 @@
    "k": "1f65e21d818d",
    "ctx": "label",
    "t": "Aadhaar number and name as on Aadhaar"
-  },
-  {
-   "k": "c99ece6c74fb",
-   "ctx": "value",
-   "t": "9999 6021 8473 / Rajendra Prasad Yadav"
   },
   {
    "k": "b96e6c009ca3",
@@ -576,16 +556,6 @@
    "t": "Answer Yes only if you hold a KCC; then its details are asked."
   },
   {
-   "k": "21310f12485a",
-   "ctx": "label",
-   "t": "District / block / panchayat / village"
-  },
-  {
-   "k": "de991bab3148",
-   "ctx": "value",
-   "t": "Khagaria / Gogri / Pasraha / Pasraha"
-  },
-  {
    "k": "fe42958ddbc5",
    "ctx": "hint",
    "t": "Where your land is. Only farmers of the notified panchayats can claim the input subsidy."
@@ -596,34 +566,14 @@
    "t": "An Aadhaar-linked account. The portal warns that a wrong account number blocks your registration, so copy it from the passbook."
   },
   {
-   "k": "8f02ecd462e1",
-   "ctx": "label",
-   "t": "Registration number (13 digits)"
-  },
-  {
    "k": "9ff67d42ec85",
    "ctx": "hint",
    "t": "The number you got after registering. Enter it on the Krishi Input Anudan form and your details appear by themselves."
   },
   {
-   "k": "292d4a603f99",
-   "ctx": "label",
-   "t": "Farmer type (Kisan ka prakar)"
-  },
-  {
-   "k": "923ee8efd1ec",
-   "ctx": "value",
-   "t": "Swayam bhudhari + Vastavik khetihar"
-  },
-  {
    "k": "d1813acedf60",
    "ctx": "hint",
    "t": "Own land, land taken on rent or share, or both. You can apply under only one type."
-  },
-  {
-   "k": "6fe018ec4507",
-   "ctx": "value",
-   "t": "Thana 214 / Khata 57 / Khesra 1123"
   },
   {
    "k": "2a75eb23eed7",
@@ -636,19 +586,9 @@
    "t": "Total land and damaged area (in decimal)"
   },
   {
-   "k": "e6823367d204",
-   "ctx": "value",
-   "t": "Total 180 decimal; damaged 150 decimal (maize)"
-  },
-  {
    "k": "3982d9707906",
    "ctx": "hint",
    "t": "1 acre is 100 decimal and 1 hectare is 247 decimal. The subsidy is paid for at most 494 decimal."
-  },
-  {
-   "k": "d3dfc8fd09cc",
-   "ctx": "value",
-   "t": "Shivnandan Singh, Mahesh Paswan"
   },
   {
    "k": "ee0b73b0de02",
@@ -701,11 +641,6 @@
    "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
   },
   {
-   "k": "03cbf1accd4d",
-   "ctx": "eligibility",
-   "t": "Aged 18 to 60 years"
-  },
-  {
    "k": "b098fbf81018",
    "ctx": "eligibility",
    "t": "Worked at least 90 days in building or other construction work in the last 12 months"
@@ -731,16 +666,6 @@
    "t": "Keep the membership renewed; benefits stop while it has lapsed"
   },
   {
-   "k": "225529b5d75f",
-   "ctx": "documents",
-   "t": "Aadhaar card, checked by OTP"
-  },
-  {
-   "k": "6bb8f35876db",
-   "ctx": "documents",
-   "t": "Recent photograph"
-  },
-  {
    "k": "19fc14c3f01e",
    "ctx": "documents",
    "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
@@ -751,19 +676,9 @@
    "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
   },
   {
-   "k": "0ddd86465050",
-   "ctx": "portalName",
-   "t": "Bihar BOCW Welfare Board portal (BiharWMS)"
-  },
-  {
    "k": "b1cb80f00c7a",
    "ctx": "hint",
    "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
-  },
-  {
-   "k": "65676032b1e1",
-   "ctx": "value",
-   "t": "Manoj Kumar Ram"
   },
   {
    "k": "9e8a4f513145",
@@ -771,9 +686,49 @@
    "t": "Exactly as printed on your Aadhaar card."
   },
   {
-   "k": "a18c796d89c1",
+   "k": "6b31a79771e7",
+   "ctx": "hint",
+   "t": "Your own number. The registration number and every update come here by SMS."
+  },
+  {
+   "k": "1bf4f0b824c2",
+   "ctx": "hint",
+   "t": "Choose Rural or Urban and the district where you live."
+  },
+  {
+   "k": "fe742f5abd13",
+   "ctx": "hint",
+   "t": "Your mother's name, whether you are single or married, and your caste category."
+  },
+  {
+   "k": "462cdf27b23e",
+   "ctx": "hint",
+   "t": "Choose the nearest: literate, matric fail, matric pass and so on."
+  },
+  {
+   "k": "8e51af0dc16b",
+   "ctx": "hint",
+   "t": "Copy it from your ration card."
+  },
+  {
+   "k": "176501039da7",
    "ctx": "label",
-   "t": "Mobile Number (with OTP verification)"
+   "t": "Whether registered under any other labour welfare board"
+  },
+  {
+   "k": "a56d0d3cb657",
+   "ctx": "hint",
+   "t": "Answer truthfully. A worker on another board cannot register here."
+  },
+  {
+   "k": "267028e8f709",
+   "ctx": "value",
+   "t": "Shri Ram Construction, Biharsharif / 05-11-2025 to 30-04-2026 / 160 days / Mason (Rajmistri)"
+  },
+  {
+   "k": "03f860dfde43",
+   "ctx": "hint",
+   "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
   }
  ]
 }

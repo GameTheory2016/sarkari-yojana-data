@@ -6,76 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ta/done_02.json",
  "items": [
   {
-   "k": "a417979c83c6",
-   "ctx": "brief",
-   "t": "Haryana's extension of Ayushman Bharat: Rs 5 lakh a year of cashless hospital treatment for the whole family. Families whose income in the Family ID (PPP) is up to Rs 1.80 lakh are covered free. Families above that can join by paying a yearly fee online: Rs 1,500 for income up to Rs 3 lakh, Rs 4,000 up to Rs 6 lakh and Rs 5,000 above Rs 6 lakh. For the cover year 1 November 2026 to 31 October 2027, the fee portal is open until 30 November 2026."
-  },
-  {
-   "k": "53d9eb4888ac",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless; free up to Rs 1.80 lakh income"
-  },
-  {
-   "k": "88ebc47782e9",
-   "ctx": "eligibility",
-   "t": "Families living in Haryana with a Family ID (PPP). Eligibility and the fee go by the verified income in the PPP"
-  },
-  {
-   "k": "75ee2241acb6",
-   "ctx": "eligibility",
-   "t": "Verified income up to Rs 1.80 lakh a year: covered free"
-  },
-  {
-   "k": "075ed4a4b5ca",
-   "ctx": "eligibility",
-   "t": "Above Rs 1.80 lakh up to Rs 3 lakh: Rs 1,500 a year per family"
-  },
-  {
-   "k": "4852045510c0",
-   "ctx": "eligibility",
-   "t": "Above Rs 3 lakh up to Rs 6 lakh: Rs 4,000 a year. Above Rs 6 lakh: Rs 5,000 a year"
-  },
-  {
-   "k": "01ccb861497f",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age. Every member on the Family ID is covered"
-  },
-  {
-   "k": "325bb157de17",
-   "ctx": "documents",
-   "t": "Family ID (PPP) number, with income verified"
-  },
-  {
-   "k": "414d01229a90",
-   "ctx": "documents",
-   "t": "Mobile number registered in the Family ID, for the OTP"
-  },
-  {
-   "k": "138d1383a006",
-   "ctx": "documents",
-   "t": "Aadhaar card of each member, for the card e-KYC"
-  },
-  {
-   "k": "f9dad75a8e51",
-   "ctx": "documents",
-   "t": "UPI, debit card or net banking to pay the fee, or cash at a CSC"
-  },
-  {
-   "k": "848c171e9a44",
-   "ctx": "documents",
-   "t": "Payment receipt or reference number, as proof that you paid"
-  },
-  {
-   "k": "6e363d25a806",
-   "ctx": "portalName",
-   "t": "Chirayu Haryana PMJAY contribution portal"
-  },
-  {
-   "k": "245ac08e503b",
-   "ctx": "label",
-   "t": "Your PPP ID / Aadhaar Number"
-  },
-  {
    "k": "ea840ba01928",
    "ctx": "hint",
    "t": "Choose whether to search by Family ID or Aadhaar. If you have forgotten the Family ID, use I forgot my PPP ID and search with Aadhaar."
@@ -86,24 +16,9 @@
    "t": "The 8-digit Family ID of your family."
   },
   {
-   "k": "0c52ea2c403b",
-   "ctx": "value",
-   "t": "6-digit code"
-  },
-  {
    "k": "193929c255be",
    "ctx": "hint",
    "t": "Sent to the mobile number registered in the Family ID, not any other number."
-  },
-  {
-   "k": "92d0286da122",
-   "ctx": "label",
-   "t": "Terms and conditions"
-  },
-  {
-   "k": "67615cd28e25",
-   "ctx": "value",
-   "t": "Agree & Continue"
   },
   {
    "k": "962e8f7ea020",
@@ -111,29 +26,9 @@
    "t": "Read the fee table and the dates, tick the box and continue."
   },
   {
-   "k": "bcb17a98d053",
-   "ctx": "label",
-   "t": "Linked Member Info"
-  },
-  {
-   "k": "629a04cf1b2e",
-   "ctx": "value",
-   "t": "6 members shown"
-  },
-  {
    "k": "27b65de02e06",
    "ctx": "hint",
    "t": "Check that every member is listed. A missing member must first be added in the Family ID."
-  },
-  {
-   "k": "1fe0f379f74e",
-   "ctx": "label",
-   "t": "Family Head Name"
-  },
-  {
-   "k": "0fd229950323",
-   "ctx": "value",
-   "t": "Rajesh Kumar"
   },
   {
    "k": "34aac58e16c5",
@@ -141,29 +36,9 @@
    "t": "Shown after Check Eligibility, with your verified income band."
   },
   {
-   "k": "c91f15f49286",
-   "ctx": "label",
-   "t": "Amount to be paid"
-  },
-  {
-   "k": "810554f1ff2b",
-   "ctx": "value",
-   "t": "Rs 1,500"
-  },
-  {
    "k": "f9b3fabe0925",
    "ctx": "hint",
    "t": "Set by the verified income: Rs 1,500, Rs 4,000 or Rs 5,000 a year."
-  },
-  {
-   "k": "72d9d3703701",
-   "ctx": "label",
-   "t": "Payment partner"
-  },
-  {
-   "k": "abe83732a0cc",
-   "ctx": "value",
-   "t": "Canara Bank"
   },
   {
    "k": "ff6245f3ae15",
@@ -171,19 +46,9 @@
    "t": "Choose Canara Bank to pay yourself, or CSC (Digital Seva Connect) if a CSC operator is paying for you."
   },
   {
-   "k": "8fbf2ec0ddd6",
-   "ctx": "label",
-   "t": "Payment mode"
-  },
-  {
    "k": "3c91e7775c4f",
    "ctx": "hint",
    "t": "UPI and RuPay debit cards have no extra charge. Other cards may add a small bank fee."
-  },
-  {
-   "k": "ea10bb628600",
-   "ctx": "label",
-   "t": "Reference number"
   },
   {
    "k": "27840605a26c",
@@ -224,11 +89,6 @@
    "k": "a23d5ee8117e",
    "ctx": "helpline",
    "t": "1800-180-2036 (Ayushman Bharat Haryana toll-free) / 14555 (Ayushman Bharat national helpline)"
-  },
-  {
-   "k": "422fb3db55a2",
-   "ctx": "title",
-   "t": "Parivar Pehchan Patra (Family ID / PPP)"
   },
   {
    "k": "c9071b99937e",
@@ -311,11 +171,6 @@
    "t": "Choose NO to make a new Family ID. Choose YES if your family already has one and you want to see or update it."
   },
   {
-   "k": "993b494785a8",
-   "ctx": "label",
-   "t": "Search With Aadhar No."
-  },
-  {
    "k": "e1af3f3ae8c4",
    "ctx": "hint",
    "t": "Aadhaar of the head of family. The system first checks whether you are already in some Family ID."
@@ -331,16 +186,6 @@
    "t": "Head of family: name, date of birth, gender"
   },
   {
-   "k": "0c349a5f8367",
-   "ctx": "value",
-   "t": "Ramesh Kumar / 12-07-1980 / Male"
-  },
-  {
-   "k": "ffc7e6ac1a35",
-   "ctx": "hint",
-   "t": "Exactly as on Aadhaar."
-  },
-  {
    "k": "84bdb1c86370",
    "ctx": "hint",
    "t": "This number gets every OTP for the Family ID later, so give one you will keep."
@@ -351,24 +196,9 @@
    "t": "Address (district, block or town, village or ward, house no.)"
   },
   {
-   "k": "bb03266e31ec",
-   "ctx": "value",
-   "t": "Hisar / Barwala / Village Khera Jattan / 45"
-  },
-  {
    "k": "612dbc443af0",
    "ctx": "hint",
    "t": "Choose General, SC, BC-A or BC-B. It is checked against your caste certificate."
-  },
-  {
-   "k": "057f121952dc",
-   "ctx": "label",
-   "t": "Annual income of each member"
-  },
-  {
-   "k": "ccbf90127d95",
-   "ctx": "value",
-   "t": "Ramesh Kumar: Rs 96,000 (farming)"
   },
   {
    "k": "755efde2dfe0",
@@ -384,16 +214,6 @@
    "k": "878774f1a52f",
    "ctx": "hint",
    "t": "Pensions and other scheme money are sent to the account recorded here."
-  },
-  {
-   "k": "95b833e17134",
-   "ctx": "label",
-   "t": "Family members (name, relation, Aadhaar)"
-  },
-  {
-   "k": "70a915ba616f",
-   "ctx": "value",
-   "t": "Sunita Devi, wife, 9999 7310 6611"
   },
   {
    "k": "8c354e3cc505",
@@ -491,19 +311,9 @@
    "t": "Aadhaar card of the applicant, and Aadhaar details of family members"
   },
   {
-   "k": "4fd8125b46c0",
-   "ctx": "documents",
-   "t": "Haryana residence certificate (15 years)"
-  },
-  {
    "k": "e6c67e94edf3",
    "ctx": "documents",
    "t": "Savings bank account in the woman's own name"
-  },
-  {
-   "k": "c1cc8f3ecf01",
-   "ctx": "documents",
-   "t": "Electricity connection (consumer account) number"
   },
   {
    "k": "11aa2d630c15",
@@ -516,19 +326,9 @@
    "t": "A smartphone, with the mobile number for OTP and the monthly face check"
   },
   {
-   "k": "f559548b07f4",
-   "ctx": "portalName",
-   "t": "Lado Lakshmi App (SEWA Department, Haryana)"
-  },
-  {
    "k": "88c271641af4",
    "ctx": "hint",
    "t": "Type your number in the app and enter the OTP. The eligibility and payment SMS come here."
-  },
-  {
-   "k": "8727e634a42b",
-   "ctx": "label",
-   "t": "Family ID (PPP)"
   },
   {
    "k": "1c8df2dc7fad",
@@ -536,54 +336,14 @@
    "t": "The 8-digit Family ID. Your income and family details are taken from it."
   },
   {
-   "k": "0d2ea2769eed",
-   "ctx": "label",
-   "t": "Select applicant"
-  },
-  {
-   "k": "d437afefed58",
-   "ctx": "value",
-   "t": "Sunita Devi (wife of head)"
-  },
-  {
    "k": "aa5f1578ac3c",
    "ctx": "hint",
    "t": "The app shows the members on the Family ID. Pick the woman who is applying. She must be 23 or older."
   },
   {
-   "k": "de5d81497256",
-   "ctx": "hint",
-   "t": "The applicant's own Aadhaar number."
-  },
-  {
-   "k": "7c96cbcdf650",
-   "ctx": "label",
-   "t": "Residence in Haryana"
-  },
-  {
-   "k": "6dd9fc500a2c",
-   "ctx": "value",
-   "t": "15+ years, residence certificate"
-  },
-  {
    "k": "6add2789117e",
    "ctx": "hint",
    "t": "If you married into Haryana from another state, your husband's 15 years of residence counts."
-  },
-  {
-   "k": "0cf3256fa5da",
-   "ctx": "label",
-   "t": "Electricity consumer account number"
-  },
-  {
-   "k": "64bdbf1510f8",
-   "ctx": "hint",
-   "t": "Printed on your electricity bill."
-  },
-  {
-   "k": "6c6c0eb0472c",
-   "ctx": "label",
-   "t": "Vehicle owned"
   },
   {
    "k": "6a19f4998625",
@@ -599,16 +359,6 @@
    "k": "b91e94f9a2ff",
    "ctx": "hint",
    "t": "Must be in the woman's own name. PFMS checks it before the first payment."
-  },
-  {
-   "k": "bfecea59217b",
-   "ctx": "label",
-   "t": "Monthly amount you choose"
-  },
-  {
-   "k": "8ee83ad14d1f",
-   "ctx": "value",
-   "t": "Rs 2,100 (full amount)"
   },
   {
    "k": "e4d06a40b276",
@@ -666,11 +416,6 @@
    "t": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification."
   },
   {
-   "k": "022a6d3d7a57",
-   "ctx": "benefit",
-   "t": "Rs 1,500 a month (Rs 18,000 a year), by DBT"
-  },
-  {
    "k": "064a1f59eb9a",
    "ctx": "eligibility",
    "t": "A woman who is a permanent (bonafide) resident of Himachal Pradesh, aged 21 to 59"
@@ -699,11 +444,6 @@
    "k": "5907b31e0924",
    "ctx": "eligibility",
    "t": "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
-  },
-  {
-   "k": "51b6d9af61b9",
-   "ctx": "documents",
-   "t": "Bonafide Himachali (permanent residence) certificate"
   },
   {
    "k": "41b72165e684",
@@ -736,34 +476,14 @@
    "t": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat."
   },
   {
-   "k": "c1cff2a9d3a0",
-   "ctx": "label",
-   "t": "Name of applicant"
-  },
-  {
-   "k": "4ce7fb8b56bc",
-   "ctx": "value",
-   "t": "Sunita Thakur"
-  },
-  {
    "k": "d76d2dd4570a",
    "ctx": "hint",
    "t": "The woman's own name, as on Aadhaar and the bank passbook."
   },
   {
-   "k": "daf1d3e84be5",
-   "ctx": "value",
-   "t": "Shri Rajinder Singh"
-  },
-  {
    "k": "87d8aac6ad28",
    "ctx": "hint",
    "t": "As written in the Parivar Register or ration card."
-  },
-  {
-   "k": "b4c943b845e0",
-   "ctx": "value",
-   "t": "12-04-1984 / 42 years"
   },
   {
    "k": "ee70810424cf",
@@ -781,19 +501,9 @@
    "t": "Village, panchayat, tehsil and district where you live permanently."
   },
   {
-   "k": "a4aef4a4b1a6",
-   "ctx": "value",
-   "t": "Rs 1,40,000"
-  },
-  {
    "k": "92353b263003",
    "ctx": "hint",
    "t": "Income of the whole family from all sources, as in the income certificate. It must be below Rs 2 lakh."
-  },
-  {
-   "k": "7a7e64014a85",
-   "ctx": "label",
-   "t": "BPL family"
   },
   {
    "k": "3fd76cf7cc45",
@@ -801,34 +511,14 @@
    "t": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
   },
   {
-   "k": "0cebc5ee9d3a",
-   "ctx": "hint",
-   "t": "The applicant's own Aadhaar."
-  },
-  {
    "k": "dbe6f062a1cd",
    "ctx": "hint",
    "t": "An account in your own name; the Rs 1,500 is paid here every month."
   },
   {
-   "k": "cd422f4228cb",
-   "ctx": "label",
-   "t": "Parivar Register / ration card number"
-  },
-  {
-   "k": "9a99d79673fd",
-   "ctx": "value",
-   "t": "PR No. 99/18"
-  },
-  {
    "k": "c9655a3070f0",
    "ctx": "hint",
    "t": "Villages give the Parivar Register copy, towns give the ration card."
-  },
-  {
-   "k": "6e3665d85fde",
-   "ctx": "value",
-   "t": "Signed"
   },
   {
    "k": "1c0cfe70dbe1",
@@ -916,11 +606,6 @@
    "t": "18 to 27 years: the course must be in a government college, university or institution in Himachal (degree, PG, diploma, PhD, JBT, NTT, nursing or a professional course)"
   },
   {
-   "k": "9bf0a187d9e1",
-   "ctx": "documents",
-   "t": "Bonafide Himachali certificate"
-  },
-  {
    "k": "3ad27db2ba73",
    "ctx": "documents",
    "t": "Proof of the child's date of birth (birth certificate or 10th certificate)"
@@ -936,29 +621,9 @@
    "t": "Medical certificate of 70% or more permanent disability, for a disabled parent"
   },
   {
-   "k": "ad83da60e607",
-   "ctx": "documents",
-   "t": "Copy of the Parivar Register"
-  },
-  {
-   "k": "624c4fb712be",
-   "ctx": "documents",
-   "t": "Bank account details"
-  },
-  {
    "k": "f548b79a5158",
    "ctx": "documents",
    "t": "For 18 to 27 years: detailed proof of fees and hostel expenses, verified by the head of the institution"
-  },
-  {
-   "k": "4e5a2893bdcc",
-   "ctx": "label",
-   "t": "Login"
-  },
-  {
-   "k": "360851651dec",
-   "ctx": "value",
-   "t": "Him Access SSO"
   },
   {
    "k": "75b26e800ebd",
@@ -966,24 +631,119 @@
    "t": "Log in with your Him Access account using Aadhaar or mobile OTP. A Lok Mitra Kendra can apply for you."
   },
   {
-   "k": "6d512c3f2058",
-   "ctx": "label",
-   "t": "Name of mother / applicant"
-  },
-  {
-   "k": "ba9c893dd88d",
-   "ctx": "value",
-   "t": "Reena Devi"
-  },
-  {
    "k": "7d9f3a212773",
    "ctx": "hint",
    "t": "The mother or the disabled parent who is applying for the child."
   },
   {
-   "k": "003fbceeb7d9",
-   "ctx": "label",
-   "t": "Applicant category"
+   "k": "c66bb86ddb93",
+   "ctx": "hint",
+   "t": "Widow, divorced, destitute or abandoned woman, husband missing for 7 years, or parent with 70% disability. Upload the matching proof."
+  },
+  {
+   "k": "812e2fd98650",
+   "ctx": "hint",
+   "t": "One application for each child, with the child's own details."
+  },
+  {
+   "k": "380c4ba115b0",
+   "ctx": "hint",
+   "t": "From the birth certificate or 10th certificate. Up to 18 you get Rs 1,000 a month."
+  },
+  {
+   "k": "24604503fa8e",
+   "ctx": "hint",
+   "t": "From the income certificate. It must not be more than Rs 1 lakh."
+  },
+  {
+   "k": "752cee86ec3e",
+   "ctx": "hint",
+   "t": "For 18 to 27, give the government college and course, and upload the fee and hostel proof signed by the principal."
+  },
+  {
+   "k": "9389db0610ef",
+   "ctx": "value",
+   "t": "Village Lambloo, Panchayat Lambloo, Block Bhoranj, District Hamirpur"
+  },
+  {
+   "k": "0f1f84b67559",
+   "ctx": "hint",
+   "t": "Aadhaar of the applicant; the child's Aadhaar is asked for too."
+  },
+  {
+   "k": "81f09fd76523",
+   "ctx": "hint",
+   "t": "The account where the monthly money will come. Keep it linked to Aadhaar."
+  },
+  {
+   "k": "f8c793b21129",
+   "ctx": "demoSteps",
+   "t": "Get the bonafide Himachali certificate, income certificate and Parivar Register copy first; all three can be applied for on HimSeva or at a Lok Mitra Kendra."
+  },
+  {
+   "k": "34c3d95db488",
+   "ctx": "demoSteps",
+   "t": "Open himseva.hp.gov.in, click Indira Gandhi Sukh Siksha Yojana and log in with Him Access."
+  },
+  {
+   "k": "641939095315",
+   "ctx": "demoSteps",
+   "t": "Fill in the mother's and child's details, upload the documents and submit. Note the application number."
+  },
+  {
+   "k": "c661ce2c5f7f",
+   "ctx": "demoSteps",
+   "t": "The Women and Child Development office (CDPO or District Programme Officer) checks the application and sanctions it."
+  },
+  {
+   "k": "a4c46342f18b",
+   "ctx": "demoSteps",
+   "t": "The money is paid straight into the bank account. Track the application on HimSeva with the application number."
+  },
+  {
+   "k": "ce821aa2e4a9",
+   "ctx": "demoSteps",
+   "t": "For a child aged 18 to 27, send the fee and hostel proof signed by the head of the institution each year so the expenses are paid."
+  },
+  {
+   "k": "9e92ed7f3ad4",
+   "ctx": "helpline",
+   "t": "1100 — CM Seva Sankalp helpline. For the application, the CDPO office of your block or the District Programme Officer, Women & Child Development"
+  },
+  {
+   "k": "075d157fe846",
+   "ctx": "title",
+   "t": "Mukhya Mantri Himachal Health Care Scheme (HIMCARE Card)"
+  },
+  {
+   "k": "2ace7c2abd28",
+   "ctx": "department",
+   "t": "Himachal Pradesh Swasthya Bima Yojna Society, Health & Family Welfare Department, Government of Himachal Pradesh"
+  },
+  {
+   "k": "418c60826c5a",
+   "ctx": "brief",
+   "t": "Free hospital treatment up to Rs 5 lakh a year for Himachal families who are not covered by Ayushman Bharat and have no government-employee medical cover. You pay a small yearly premium (nothing at all for BPL, MGNREGA and some other families) and get a HIMCARE e-card for up to five members. Treatment is cashless at empanelled government and private hospitals in Himachal, and at PGIMER and GMCH Sector 32 in Chandigarh. New cards are made only in March, June, September and December, and each card is valid for one year."
+  },
+  {
+   "k": "a3b02d3e5cb4",
+   "ctx": "benefit",
+   "t": "Rs 5 lakh a year per family, cashless; premium Rs 0, Rs 365 or Rs 1,000 a year"
+  },
+  {
+   "k": "cb7e2dd0ad85",
+   "ctx": "eligibility",
+   "t": "Families of Himachal Pradesh whose ration card is not covered under Ayushman Bharat PM-JAY"
+  },
+  {
+   "k": "e70f68b6b5d5",
+   "ctx": "eligibility",
+   "t": "No family member may be a government employee or pensioner covered by government medical reimbursement; you sign an undertaking"
+  },
+  {
+   "k": "81983229744a",
+   "ctx": "eligibility",
+   "t": "Free (category I): BPL families, registered street vendors, MGNREGA workers with 50 days of work in the previous or current year, children in orphanages"
   }
  ]
 }

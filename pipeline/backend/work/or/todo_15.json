@@ -6,121 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_15.json",
  "items": [
   {
-   "k": "48983b14aba0",
-   "ctx": "hint",
-   "t": "Insure all the coconut trees in that plot; at least 10 are needed."
-  },
-  {
-   "k": "569ce9eb32c5",
-   "ctx": "hint",
-   "t": "For yielding coconut it is Rs.2 per tree for one year, or Rs.5 per tree for three years paid together."
-  },
-  {
-   "k": "6bcc35b78ea8",
-   "ctx": "hint",
-   "t": "Worked out automatically from the number of trees and the period."
-  },
-  {
-   "k": "4719828f1c15",
-   "ctx": "hint",
-   "t": "Tick the box above Submit Application, or the application will not go."
-  },
-  {
-   "k": "eea94ae60e16",
-   "ctx": "hint",
-   "t": "Pay only after the Krishi Bhavan approves and you get the SMS. Note the GRN number shown after payment."
-  },
-  {
-   "k": "078de6e39cf4",
-   "ctx": "demoSteps",
-   "t": "Register once on AIMS with your Aadhaar and OTP, then add your land and crop details."
-  },
-  {
-   "k": "4db9decd062d",
-   "ctx": "demoSteps",
-   "t": "Open Services, then State Crop Insurance, press Apply next to the crop, enter the number of trees or the area and the period, tick the declaration and submit. The application goes to your Krishi Bhavan."
-  },
-  {
-   "k": "1a77f74ece52",
-   "ctx": "demoSteps",
-   "t": "Krishi Bhavan staff inspect the field within 10 days. When the premium is approved you get an SMS."
-  },
-  {
-   "k": "5b8985d369d9",
-   "ctx": "demoSteps",
-   "t": "Pay the premium on AIMS within 10 days through e-Treasury (UPI, card or net banking). The policy appears under Policy Issued; download it and the receipt."
-  },
-  {
-   "k": "5466584f7557",
-   "ctx": "demoSteps",
-   "t": "If the crop is destroyed, tell the Krishi Bhavan at once or use Report Calamity in AIMS, so the loss is entered. Then apply for the claim on AIMS within 15 days with photos, and leave the damaged crop as it is until the officer inspects it."
-  },
-  {
-   "k": "966a8bc7cfc3",
-   "ctx": "demoSteps",
-   "t": "The compensation is paid straight into your bank account when funds are released."
-  },
-  {
-   "k": "d29e04a4dab6",
-   "ctx": "demoSteps",
-   "t": "If the crop was not insured, apply on AIMS in the same way for natural-calamity relief at the government's lower rates."
-  },
-  {
-   "k": "589656fb3711",
-   "ctx": "helpline",
-   "t": "AIMS help desk: 0471-2968122, 0471-2303990, 0471-2309122; Directorate of Agriculture: 0471-2304481; Kisan Call Centre: 1800-180-1551"
-  },
-  {
-   "k": "dc5d7b354921",
-   "ctx": "title",
-   "t": "Ladakh Universal Health Care Scheme (Golden Card)"
-  },
-  {
-   "k": "011ef95249fb",
-   "ctx": "brief",
-   "t": "Ladakh's own free health insurance, started in December 2020 alongside Ayushman Bharat PM-JAY so that families left out of the PM-JAY list are covered too. Every ration card household gets a Golden Card worth Rs.5 lakh a year for hospital treatment, tests and medicines, cashless at empanelled hospitals. The card is made at the Ayushman desk of a government hospital, at an enrolment camp or at a CSC, using the ration card and Aadhaar."
-  },
-  {
-   "k": "e66a1fea744d",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per household, cashless and free"
-  },
-  {
-   "k": "96640e3947c8",
-   "ctx": "eligibility",
-   "t": "Every family in UT Ladakh that holds a ration card"
-  },
-  {
-   "k": "06bd3fa7d4ef",
-   "ctx": "eligibility",
-   "t": "Families already in the PM-JAY list get the PM-JAY card; all others are covered by the UT's own scheme"
-  },
-  {
-   "k": "ad255aa24830",
-   "ctx": "eligibility",
-   "t": "No income limit and no premium"
-  },
-  {
-   "k": "f4d1f9fd08a0",
-   "ctx": "eligibility",
-   "t": "Newborn babies can be given a Golden Card at birth in the hospital"
-  },
-  {
-   "k": "52a7a4035bc1",
-   "ctx": "eligibility",
-   "t": "If your family is missing from the list or a name is wrong, apply first at the Tehsildar's office"
-  },
-  {
-   "k": "971c976fb4fe",
-   "ctx": "documents",
-   "t": "Birth certificate for a newborn or a child without Aadhaar"
-  },
-  {
-   "k": "22e05e50d03e",
-   "ctx": "documents",
-   "t": "For inclusion or name correction: a written application at the Tehsildar's office with copies of the ration card and Aadhaar"
-  },
-  {
    "k": "30d6779791a1",
    "ctx": "submitAt",
    "t": "The Ayushman (PM-JAY) desk at SNM Hospital Leh, District Hospital Kargil or your nearest Community Health Centre, or a Common Service Centre or Golden Card camp in your block. Take the ration card, every member's Aadhaar card and the mobile phone linked to Aadhaar; each member to be enrolled should come along for the fingerprint, OTP or photo. If your family is not found or a name is wrong, first give an application with the same documents at your Tehsildar's office."
@@ -809,6 +694,116 @@
    "k": "5d2b51fd959a",
    "ctx": "demoSteps",
    "t": "For maternity help, register the pregnancy at the government hospital or with the ANM. Rs 4,000 comes after the checkups and Rs 12,000 after delivery in a government hospital, straight into your bank account."
+  },
+  {
+   "k": "9b0933b9b7ef",
+   "ctx": "demoSteps",
+   "t": "On a death, the panchayat secretary or ward in-charge pays Rs 5,000 funeral help at once. The family applies at the Janpad or municipal office for the Rs 2 lakh or Rs 4 lakh, which is paid into the nominee's account."
+  },
+  {
+   "k": "6988fed68a0d",
+   "ctx": "department",
+   "t": "State Health Agency (Deendayal Swasthya Suraksha Parishad), Public Health and Family Welfare Department, Madhya Pradesh"
+  },
+  {
+   "k": "8a5b1c3d9f5f",
+   "ctx": "brief",
+   "t": "Madhya Pradesh runs Ayushman Bharat PM-JAY under the name Niramayam, and the state pays for many more families than the central list covers. Every family holding an NFSA food-grain slip (khadyann parchi) qualifies, as do Sambal and construction workers, ASHA and anganwadi workers, and everyone aged 70 or above. Each family gets free, cashless treatment up to Rs 5 lakh a year in empanelled government and private hospitals. You can make the card yourself on the Ayushman portal or app, or free at a Lok Seva Kendra, CSC or the hospital's Ayushman Mitra desk."
+  },
+  {
+   "k": "a5c04525a673",
+   "ctx": "benefit",
+   "t": "Rs 5 lakh a year per family, cashless, in empanelled hospitals"
+  },
+  {
+   "k": "9db15dc2c958",
+   "ctx": "eligibility",
+   "t": "Families holding an NFSA food-grain eligibility slip (khadyann parchi) in Madhya Pradesh"
+  },
+  {
+   "k": "7b7557f8ac65",
+   "ctx": "eligibility",
+   "t": "Families in the SECC 2011 list (the central PM-JAY list)"
+  },
+  {
+   "k": "cd9db6c3102c",
+   "ctx": "eligibility",
+   "t": "Workers registered under Sambal or with the Building and Other Construction Workers Board, and their families"
+  },
+  {
+   "k": "9d89463fd0fa",
+   "ctx": "eligibility",
+   "t": "ASHA workers, anganwadi workers and helpers, PVTG families (Baiga, Bharia, Sahariya), Bhopal gas tragedy victims and Dharti Aaba (DAJGUA) beneficiaries"
+  },
+  {
+   "k": "3460cad54bcd",
+   "ctx": "eligibility",
+   "t": "Every person aged 70 or above, whatever the income (Ayushman Vay Vandana card)"
+  },
+  {
+   "k": "02c38409c521",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age; illnesses you already have are covered from day one"
+  },
+  {
+   "k": "f389ff93c0ed",
+   "ctx": "documents",
+   "t": "Aadhaar card of each family member who needs a card"
+  },
+  {
+   "k": "9439b0dfa6a8",
+   "ctx": "documents",
+   "t": "Samagra ID and the NFSA food-grain slip or ration card"
+  },
+  {
+   "k": "f2202a93b39c",
+   "ctx": "documents",
+   "t": "Sambal card or construction worker card, if you qualify through it"
+  },
+  {
+   "k": "d512d3d8f383",
+   "ctx": "hint",
+   "t": "Choose Beneficiary when making the card for yourself or your family."
+  },
+  {
+   "k": "48bf416472b3",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Madhya Pradesh. Niramayam is the state's name for the same scheme."
+  },
+  {
+   "k": "0bab9a729e6c",
+   "ctx": "hint",
+   "t": "You can also search by family, name or PMJAY ID. If nothing comes up, check at the ration shop that your name is on the NFSA slip."
+  },
+  {
+   "k": "997444d5a4b4",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face with the phone camera."
+  },
+  {
+   "k": "4d980bd2b278",
+   "ctx": "hint",
+   "t": "How this member is related to the person named first in the family record."
+  },
+  {
+   "k": "594a820f296b",
+   "ctx": "hint",
+   "t": "Where you live now, so the nearest empanelled hospitals are shown."
+  },
+  {
+   "k": "bd09f950f181",
+   "ctx": "demoSteps",
+   "t": "Check whether your family is listed: on beneficiary.nha.gov.in or the Ayushman app, or ask at the ration shop, gram panchayat or ASHA worker. If you have an NFSA food-grain slip, you should qualify."
+  },
+  {
+   "k": "c750f13a484a",
+   "ctx": "demoSteps",
+   "t": "Log in as Beneficiary with your mobile number and OTP, choose PMJAY and Madhya Pradesh, and search for your family by Aadhaar."
+  },
+  {
+   "k": "cef1e7317b02",
+   "ctx": "demoSteps",
+   "t": "Pick the member marked eKYC pending, verify with Aadhaar OTP or face scan, take the live photo, and fill in the relation, district and PIN code. Submit."
   }
  ]
 }

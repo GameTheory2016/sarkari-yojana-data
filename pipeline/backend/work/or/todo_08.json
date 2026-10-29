@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_08.json",
  "items": [
   {
-   "k": "13a62ce638ad",
-   "ctx": "submitAt",
-   "t": "Address the form to the Chief Executive Officer of the District Panchayat (villages) or the Chief Officer of the Municipal Council (towns). Hand it in at your Gram Panchayat, or at the District Panchayat or Municipal Council office in Silvassa, Daman or Diu, with all the documents. In villages the Gram Sevak recommends it, it is read in the Gram Sabha, and the Sarpanch and Panchayat Secretary approve it before it goes up."
-  },
-  {
-   "k": "36618b26b4c6",
-   "ctx": "hint",
-   "t": "Tick Old Age. The same form is used for widow and Divyang pensions."
-  },
-  {
-   "k": "a0e225383326",
-   "ctx": "hint",
-   "t": "Your full address and a working mobile number."
-  },
-  {
-   "k": "88081205fd84",
-   "ctx": "hint",
-   "t": "Your Gram Panchayat, or write the Municipal Council if you live in a town."
-  },
-  {
-   "k": "119fcdbb74dc",
-   "ctx": "label",
-   "t": "Age, date of birth and gender"
-  },
-  {
-   "k": "82f1574afdc7",
-   "ctx": "hint",
-   "t": "At 70 or above you get Rs.2,000 a month."
-  },
-  {
-   "k": "a936ac509504",
-   "ctx": "hint",
-   "t": "Must not be above Rs.1.5 lakh. Attach the income certificate."
-  },
-  {
-   "k": "8f2b7db3ded2",
-   "ctx": "label",
-   "t": "Receiving financial assistance from any other agency?"
-  },
-  {
-   "k": "cbcb79002652",
-   "ctx": "hint",
-   "t": "Anyone already getting another old age pension is not eligible."
-  },
-  {
-   "k": "34453ba135e6",
-   "ctx": "label",
-   "t": "Name of bank, account number and IFSC"
-  },
-  {
-   "k": "1699573dd039",
-   "ctx": "hint",
-   "t": "The account must be linked to Aadhaar. The pension is credited here."
-  },
-  {
-   "k": "3411364df696",
-   "ctx": "label",
-   "t": "Applied for Portugal or any other passport?"
-  },
-  {
-   "k": "55def21336e0",
-   "ctx": "hint",
-   "t": "Answer Yes or No truthfully. This question is on the official form."
-  },
-  {
-   "k": "cd5cbefd6aa0",
-   "ctx": "demoSteps",
-   "t": "Download the form, or collect it at the District Panchayat or Municipal Council office, and fill in Part 1."
-  },
-  {
-   "k": "ec51702bbc00",
-   "ctx": "demoSteps",
-   "t": "Attach the age, income and domicile certificates, Aadhaar and the bank passbook copy, and sign the undertaking."
-  },
-  {
-   "k": "3ad3675372bc",
-   "ctx": "demoSteps",
-   "t": "Submit it at your Gram Panchayat, District Panchayat or Municipal Council office and keep the receipt."
-  },
-  {
-   "k": "89d4e6b23b4c",
-   "ctx": "demoSteps",
-   "t": "Field staff verify your papers. In villages the application is read in the Gram Sabha, and the CEO or Chief Officer approves it, usually within 30 days."
-  },
-  {
-   "k": "c500d45d75bc",
-   "ctx": "demoSteps",
-   "t": "The pension is credited to your bank account by the 5th of every month."
-  },
-  {
    "k": "73564bc74ed1",
    "ctx": "demoSteps",
    "t": "Give a life certificate to the field staff every year to keep the pension running."
@@ -814,6 +724,61 @@
    "k": "bf5d7223facf",
    "ctx": "value",
    "t": "Rukmini Naik — Mother-in-law (dependent)"
+  },
+  {
+   "k": "8c583f5da06e",
+   "ctx": "hint",
+   "t": "A woman eligible person can add dependent parents-in-law. Four members means Rs.6 lakh cover and a Rs.300 fee."
+  },
+  {
+   "k": "b9c09302588d",
+   "ctx": "hint",
+   "t": "Choose OBC (non-creamy layer), SC, ST or differently abled only if you upload the certificate; the fee is then halved."
+  },
+  {
+   "k": "d4a5b465ef80",
+   "ctx": "hint",
+   "t": "Pick the health office nearest your home. Collect the card there within 30 days of approval."
+  },
+  {
+   "k": "1afa0220d233",
+   "ctx": "demoSteps",
+   "t": "Register on goaonline.gov.in with your mobile OTP and log in. Open Services, All Services, then Deen Dayal Swasthya Seva Yojana (DDSSY) - New Enrollment."
+  },
+  {
+   "k": "a30c31f94d87",
+   "ctx": "demoSteps",
+   "t": "Fill in the eligible person's details, add each family member with Aadhaar, and upload the self-attested 5-year residence proof."
+  },
+  {
+   "k": "57ed84a31669",
+   "ctx": "demoSteps",
+   "t": "Choose a concession category if you have one, pay the fee (Rs.200 for up to 3 members, Rs.300 for 4 or more) and note the acknowledgement number."
+  },
+  {
+   "k": "b322f932f039",
+   "ctx": "demoSteps",
+   "t": "If the application is marked for compliance, reply within 30 days, or it is rejected and the fee is forfeited."
+  },
+  {
+   "k": "6298734cc1d0",
+   "ctx": "demoSteps",
+   "t": "When the SMS says it is approved, download the e-card and collect the DDSSY card from the office you chose within 30 days."
+  },
+  {
+   "k": "d66b977f9bb1",
+   "ctx": "demoSteps",
+   "t": "Show the card at the DDSSY desk of an empanelled hospital for cashless treatment. Renew it every year before 31 March through DDSSY - Renewal, using the card number and OTP."
+  },
+  {
+   "k": "4c31d37fd085",
+   "ctx": "helpline",
+   "t": "8882988000 — Goa Online helpline for DDSSY enrolment and renewal (9:45 am to 5:30 pm) / 0832-2225561 — Directorate of Health Services, Panaji"
+  },
+  {
+   "k": "b4ed20eafea1",
+   "ctx": "department",
+   "t": "Directorate of Women & Child Development, Government of Goa"
   }
  ]
 }

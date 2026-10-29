@@ -6,211 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_10.json",
  "items": [
   {
-   "k": "47e1b1651592",
-   "ctx": "demoSteps",
-   "t": "If your family does not appear but you qualify by income (up to Rs.4 lakh, or Rs.6 lakh for 60+) or as a construction worker or other listed group, go to the PMJAY-MA kiosk at the nearest government health centre (PHC, CHC, UHC, sub-district or district hospital) or at any empanelled hospital with your ration card, every member's Aadhaar and the income certificate or category proof."
-  },
-  {
-   "k": "a8e7a0fa6a6f",
-   "ctx": "demoSteps",
-   "t": "The State Health Agency checks the request. Approval usually comes by SMS within a few days."
-  },
-  {
-   "k": "04b130de1449",
-   "ctx": "demoSteps",
-   "t": "Log in again, open Download Card, verify with OTP and save the card for each family member on your phone, or take a printout."
-  },
-  {
-   "k": "37d2b2c22ef9",
-   "ctx": "demoSteps",
-   "t": "Find an empanelled hospital on ma.gujarat.gov.in (Search - Empanelled Hospital). At the hospital, go to the PMJAY-MA or Ayushman Mitra desk with the card and Aadhaar."
-  },
-  {
-   "k": "687784895f0c",
-   "ctx": "demoSteps",
-   "t": "Treatment for listed illnesses is cashless up to Rs.10 lakh a year for the family. Never pay cash for it - if a hospital asks, call 1800-233-1022."
-  },
-  {
-   "k": "4e8f7d2e248f",
-   "ctx": "helpline",
-   "t": "PMJAY-MA toll-free 1800-233-1022 / Ayushman Bharat national helpline 14555"
-  },
-  {
-   "k": "39e5358d38c3",
-   "ctx": "title",
-   "t": "Mukhyamantri Matrushakti Yojana (Free Monthly Nutrition Kit)"
-  },
-  {
-   "k": "b95d4035c012",
-   "ctx": "brief",
-   "t": "A free nutrition kit every month for a woman in her first pregnancy and until her first child turns two - the first 1000 days. Each month's kit has 2 kg chana, 1 kg tuver dal and 1 litre of groundnut oil, given at the Anganwadi against an OTP on your phone. The health worker first registers the pregnancy in the health department's TeCHO system; you then register yourself on the Matrushakti portal, or the Anganwadi worker does it for you. A ration card is no longer needed - Aadhaar is enough."
-  },
-  {
-   "k": "7e6bbac5f512",
-   "ctx": "benefit",
-   "t": "Every month: 2 kg chana, 1 kg tuver dal and 1 litre groundnut oil, free"
-  },
-  {
-   "k": "102243b96d4d",
-   "ctx": "eligibility",
-   "t": "Woman pregnant with her first child - from registration of the pregnancy until delivery"
-  },
-  {
-   "k": "9d30e72786a1",
-   "ctx": "eligibility",
-   "t": "Mother of a first child - from the birth until the child is 2 years old"
-  },
-  {
-   "k": "cc1035fd247a",
-   "ctx": "eligibility",
-   "t": "The pregnancy or child is registered by the ASHA or ANM in the health department's TeCHO system (the eMamta / unique number)"
-  },
-  {
-   "k": "51506e8026aa",
-   "ctx": "eligibility",
-   "t": "Registered with the local Anganwadi; there is no income or caste condition"
-  },
-  {
-   "k": "21983c37563c",
-   "ctx": "documents",
-   "t": "Mobile number linked with Aadhaar, for the OTP"
-  },
-  {
-   "k": "54e1da820ce6",
-   "ctx": "documents",
-   "t": "eMamta / TeCHO unique number from the Mamta card given by the health worker"
-  },
-  {
-   "k": "08bc0d90aa46",
-   "ctx": "documents",
-   "t": "Name of your Anganwadi and the Anganwadi worker"
-  },
-  {
-   "k": "ec01c74db111",
-   "ctx": "documents",
-   "t": "Ration card member ID (optional - it helps fill the details)"
-  },
-  {
-   "k": "35870c2305cd",
-   "ctx": "hint",
-   "t": "The pregnant woman's or mother's own Aadhaar."
-  },
-  {
-   "k": "80f0c234503f",
-   "ctx": "label",
-   "t": "Beneficiary name (in English, as per Aadhaar)"
-  },
-  {
-   "k": "632526590f58",
-   "ctx": "hint",
-   "t": "Exactly as printed on Aadhaar, or the Aadhaar check fails."
-  },
-  {
-   "k": "668bfce3778b",
-   "ctx": "label",
-   "t": "Date of birth / year of birth"
-  },
-  {
-   "k": "afd803db6c5d",
-   "ctx": "hint",
-   "t": "Choose full date or only the year, whichever is on your Aadhaar. Then tick the consent box and press Validate Aadhaar."
-  },
-  {
-   "k": "e8eb29696743",
-   "ctx": "hint",
-   "t": "Comes up by itself if your name is on an NFSA ration card. It is fine if it stays empty."
-  },
-  {
-   "k": "0a36503e7f60",
-   "ctx": "hint",
-   "t": "Where you live now, so the right Anganwadi list appears."
-  },
-  {
-   "k": "2a5d2fe0a289",
-   "ctx": "hint",
-   "t": "If your Anganwadi is not in the list, use Search to find it."
-  },
-  {
-   "k": "0ba44bf29c42",
-   "ctx": "hint",
-   "t": "The Anganwadi worker's name appears once you pick the Anganwadi."
-  },
-  {
-   "k": "e1d8a34d6db2",
-   "ctx": "hint",
-   "t": "Press Send OTP and type the 4-digit OTP. Each month's kit is also given against an OTP on this number."
-  },
-  {
-   "k": "8b9f3cbb9674",
-   "ctx": "hint",
-   "t": "Step 2 of the form. It is on your Mamta card. After Search, the health centre and due date fill in by themselves."
-  },
-  {
-   "k": "b63258ee587f",
-   "ctx": "demoSteps",
-   "t": "Register your pregnancy with the ASHA or ANM at the health centre and get the Mamta card with your eMamta / unique number."
-  },
-  {
-   "k": "a94cfbd09041",
-   "ctx": "demoSteps",
-   "t": "Open 1000d.gujarat.gov.in, choose Self Registration, enter your Aadhaar, name and birth date, tick the consent and press Validate Aadhaar."
-  },
-  {
-   "k": "c3561d5adda2",
-   "ctx": "demoSteps",
-   "t": "Pick your district, taluka, village and Anganwadi, enter the Aadhaar-linked mobile, press Send OTP, type the OTP and press Save & Next."
-  },
-  {
-   "k": "3c95719a3662",
-   "ctx": "demoSteps",
-   "t": "In step 2 enter the eMamta / unique number and press Search; the health centre and due date fill in. Press Confirm and Submit and print the receipt."
-  },
-  {
-   "k": "b6b03a87d41f",
-   "ctx": "demoSteps",
-   "t": "Check Beneficiary Registration Status until it shows Approved. The Anganwadi worker can also do all of this for you."
-  },
-  {
-   "k": "6fc9cff7df51",
-   "ctx": "demoSteps",
-   "t": "Every month, collect the kit at your Anganwadi and give the OTP that comes to your phone."
-  },
-  {
-   "k": "b1ae40d36105",
-   "ctx": "demoSteps",
-   "t": "The kit continues after delivery until the child is 2. If your mobile number changes, update it on the portal so the OTP keeps reaching you."
-  },
-  {
-   "k": "a26c4d1c24b1",
-   "ctx": "helpline",
-   "t": "Women & Child Development Department 079-23257942; your Anganwadi worker or the taluka ICDS (CDPO) office"
-  },
-  {
-   "k": "936c0d784f13",
-   "ctx": "title",
-   "t": "Ayushman Bharat Chirayu Haryana (Chirayu Card)"
-  },
-  {
-   "k": "5931ddc756f5",
-   "ctx": "department",
-   "t": "Ayushman Bharat Haryana Health Protection Authority, Health Department, Haryana"
-  },
-  {
-   "k": "a417979c83c6",
-   "ctx": "brief",
-   "t": "Haryana's extension of Ayushman Bharat: Rs 5 lakh a year of cashless hospital treatment for the whole family. Families whose income in the Family ID (PPP) is up to Rs 1.80 lakh are covered free. Families above that can join by paying a yearly fee online: Rs 1,500 for income up to Rs 3 lakh, Rs 4,000 up to Rs 6 lakh and Rs 5,000 above Rs 6 lakh. For the cover year 1 November 2026 to 31 October 2027, the fee portal is open until 30 November 2026."
-  },
-  {
-   "k": "53d9eb4888ac",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless; free up to Rs 1.80 lakh income"
-  },
-  {
-   "k": "88ebc47782e9",
-   "ctx": "eligibility",
-   "t": "Families living in Haryana with a Family ID (PPP). Eligibility and the fee go by the verified income in the PPP"
-  },
-  {
    "k": "75ee2241acb6",
    "ctx": "eligibility",
    "t": "Verified income up to Rs 1.80 lakh a year: covered free"
@@ -879,6 +674,226 @@
    "k": "94ccaebf3f55",
    "ctx": "portalName",
    "t": "Savitribai Phule Kishori Samriddhi Yojana portal"
+  },
+  {
+   "k": "778bdafa0674",
+   "ctx": "submitAt",
+   "t": "Girls in Class 8 to 12: ask the headmaster or class teacher. The school sends the girl's details from e-Vidya Vahini to the Savitribai portal, adds her Aadhaar, bank account and declarations, and forwards it to the CDPO. Girls of 18 to 19 who have left school, and anyone the school has not covered: fill the official form and hand it in at the Child Development Project Officer (CDPO) office of your block, yourself or through your Anganwadi worker. Attach self-attested copies of the ration card, Aadhaar, voter ID and bank passbook, the self-declarations and the principal's certificate. Girls still in school at 18 to 19 can apply through the school."
+  },
+  {
+   "k": "cf68bb672953",
+   "ctx": "hint",
+   "t": "As on her Aadhaar and school register."
+  },
+  {
+   "k": "5950104e4a76",
+   "ctx": "hint",
+   "t": "The mother's name comes first. A guardian is written only for an orphan."
+  },
+  {
+   "k": "e9f3bfeaf62e",
+   "ctx": "value",
+   "t": "Barwadih, Barwadih panchayat, Chas block, Bokaro district"
+  },
+  {
+   "k": "487d80a76220",
+   "ctx": "hint",
+   "t": "In a town, write the nagar nigam, nagar panchayat or nagar parishad instead of the block."
+  },
+  {
+   "k": "9cecf4c713e1",
+   "ctx": "hint",
+   "t": "Only if you know it. The Anganwadi worker can tell you."
+  },
+  {
+   "k": "d8d93c34cc01",
+   "ctx": "label",
+   "t": "जन्म तिथि / जन्म प्रमाण पत्र संख्या (Date of birth / birth certificate number)"
+  },
+  {
+   "k": "95bc094ffdd6",
+   "ctx": "hint",
+   "t": "Attach a copy of the birth certificate. For the 18–19 grant, also give the voter ID number."
+  },
+  {
+   "k": "8a77bbe67fd1",
+   "ctx": "hint",
+   "t": "Only the first or second daughter can apply. The mother signs a declaration on this."
+  },
+  {
+   "k": "97d6ace29eb3",
+   "ctx": "hint",
+   "t": "The girl's own 12-digit Aadhaar number."
+  },
+  {
+   "k": "2cc12402ddaf",
+   "ctx": "label",
+   "t": "बैंक/पोस्ट ऑफिस खाता संख्या, शाखा, IFSC (Bank or post office account, branch, IFSC)"
+  },
+  {
+   "k": "7fd8a400b385",
+   "ctx": "hint",
+   "t": "An account in the girl's own name. The money is sent here by DBT."
+  },
+  {
+   "k": "6db33680d775",
+   "ctx": "value",
+   "t": "Govt. High School Barwadih, Class 9, Roll 27"
+  },
+  {
+   "k": "9a1d93e5b2da",
+   "ctx": "hint",
+   "t": "The principal signs a certificate that she studies in this class."
+  },
+  {
+   "k": "230b00d2a5cc",
+   "ctx": "hint",
+   "t": "Tick the one class she is in now, or 18–19 years for the Rs.20,000 grant."
+  },
+  {
+   "k": "ce259da6c778",
+   "ctx": "demoSteps",
+   "t": "At the start of the school year, tell the class teacher that she wants the Savitribai benefit, and give copies of her Aadhaar, the mother's Aadhaar, the birth certificate, the bank passbook and the ration card."
+  },
+  {
+   "k": "4e5a92f77a5e",
+   "ctx": "demoSteps",
+   "t": "The school sends her details from e-Vidya Vahini to the Savitribai portal, adds the Aadhaar, bank account and declarations, and forwards the application to the CDPO."
+  },
+  {
+   "k": "8779daec7c70",
+   "ctx": "demoSteps",
+   "t": "For the Rs.20,000 grant at 18 or 19 after leaving school, fill the official form, attach the self-declarations and voter ID, and submit it at the CDPO office or through the Anganwadi worker. Keep the receipt."
+  },
+  {
+   "k": "0802a3a64f9e",
+   "ctx": "demoSteps",
+   "t": "The CDPO checks the application and the District Social Welfare Officer approves it. Wrong details are sent back to the school for correction."
+  },
+  {
+   "k": "599e3d97eff4",
+   "ctx": "demoSteps",
+   "t": "The money for that class comes by DBT into the girl's account. Check the status on savitribaipksy.jharkhand.gov.in under Track Beneficiary Status."
+  },
+  {
+   "k": "883c6dab4e01",
+   "ctx": "demoSteps",
+   "t": "Repeat every year from Class 8 to Class 12, then apply for the Rs.20,000 grant at age 18 or 19."
+  },
+  {
+   "k": "c87995dc6811",
+   "ctx": "helpline",
+   "t": "0651-2400757 / 0651-2223544 — Directorate of Social Welfare, Ranchi (technical help, savitribaihelpdesk@gmail.com) / 1800-890-0215 — department toll-free"
+  },
+  {
+   "k": "6ab2ddd6fa08",
+   "ctx": "title",
+   "t": "Ayushman Bharat – Arogya Karnataka (AB-ArK Health Card)"
+  },
+  {
+   "k": "329502fb4f0d",
+   "ctx": "department",
+   "t": "Department of Health and Family Welfare, Government of Karnataka — Suvarna Arogya Suraksha Trust (SAST)"
+  },
+  {
+   "k": "ddf692dcc326",
+   "ctx": "brief",
+   "t": "Karnataka's health cover, run together with the central Ayushman Bharat PM-JAY. Families with a BPL (Priority Household or Antyodaya) ration card get free treatment up to Rs.5 lakh a year for the whole family; other families get 30% of the treatment cost paid, up to Rs.1.5 lakh a year. Treatment starts at a government hospital, which refers you to a listed private hospital if it cannot treat you; listed emergencies can go straight to a listed hospital. The card is made at a government hospital counter for Rs.10 with your Aadhaar and ration card."
+  },
+  {
+   "k": "53b1b259aeeb",
+   "ctx": "benefit",
+   "t": "BPL families: up to Rs.5 lakh a year free; other families: 30% of the cost, up to Rs.1.5 lakh a year"
+  },
+  {
+   "k": "affaf9ecf620",
+   "ctx": "eligibility",
+   "t": "Every resident of Karnataka with an Aadhaar card can enrol"
+  },
+  {
+   "k": "3ed458fa1ceb",
+   "ctx": "eligibility",
+   "t": "Eligible category (free treatment up to Rs.5 lakh per family per year): families with a Priority Household (BPL) or Antyodaya ration card under the Food Security Act"
+  },
+  {
+   "k": "dcc0d31dcfcc",
+   "ctx": "eligibility",
+   "t": "General category (APL card or no ration card): the government pays 30% of the package rate, up to Rs.1.5 lakh per family per year, and the family pays the rest"
+  },
+  {
+   "k": "c9349e30b950",
+   "ctx": "eligibility",
+   "t": "Simpler treatments are given only in government hospitals. A private hospital needs a referral from a government hospital, except for the listed emergencies"
+  },
+  {
+   "k": "f9c8daf36775",
+   "ctx": "eligibility",
+   "t": "Aadhaar authentication is compulsory before a referral to a private hospital"
+  },
+  {
+   "k": "830e591d2ace",
+   "ctx": "documents",
+   "t": "Aadhaar card of the patient (each member of the family enrols separately)"
+  },
+  {
+   "k": "af207c9e207b",
+   "ctx": "documents",
+   "t": "Ration card, which decides whether you are in the eligible or the general category"
+  },
+  {
+   "k": "72ebe5ea03db",
+   "ctx": "documents",
+   "t": "Mobile number, for the SMS with your ArK ID"
+  },
+  {
+   "k": "87fffe455901",
+   "ctx": "documents",
+   "t": "Rs.10 for the card (Rs.20 for a reprint if it is lost)"
+  },
+  {
+   "k": "0cb787e3263c",
+   "ctx": "documents",
+   "t": "Referral letter from the government hospital, when going to a private hospital"
+  },
+  {
+   "k": "f23e9f61c022",
+   "ctx": "documents",
+   "t": "Earlier prescriptions, test reports and discharge papers, if any"
+  },
+  {
+   "k": "2ec14977cec8",
+   "ctx": "submitAt",
+   "t": "At the registration (Arogya Mitra) counter of any government hospital: Primary Health Centre, Community Health Centre, taluk or district hospital, or medical college hospital. Take every member's Aadhaar card and the ration card, and Rs.10 per card. Grama One, Karnataka One and Bangalore One centres also issue the card."
+  },
+  {
+   "k": "30abe025cb5b",
+   "ctx": "hint",
+   "t": "The patient's own Aadhaar. Each family member is enrolled one by one."
+  },
+  {
+   "k": "00510062e778",
+   "ctx": "hint",
+   "t": "Fingerprint on the biometric device. If it fails, the staff can use an OTP to the Aadhaar mobile or the QR code on the Aadhaar card."
+  },
+  {
+   "k": "1ad40fd0a9c5",
+   "ctx": "hint",
+   "t": "From the ration card. It links you to your family in the food department's records."
+  },
+  {
+   "k": "2fc0763eb4e6",
+   "ctx": "hint",
+   "t": "Filled automatically: Priority Household or Antyodaya card = Eligible; APL card or no card = General."
+  },
+  {
+   "k": "623cc7d5ccb4",
+   "ctx": "hint",
+   "t": "Taken from the Aadhaar e-KYC. Check the spelling before the card is printed."
+  },
+  {
+   "k": "a97ca7a241e1",
+   "ctx": "value",
+   "t": "Signed — no other health insurance scheme"
   }
  ]
 }

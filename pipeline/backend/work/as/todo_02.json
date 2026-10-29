@@ -6,41 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_02.json",
  "items": [
   {
-   "k": "23b51e6717d5",
-   "ctx": "hint",
-   "t": "An account in the beneficiary's own name, seeded with Aadhaar. All instalments come here."
-  },
-  {
-   "k": "5194b2587556",
-   "ctx": "demoSteps",
-   "t": "Ask at the Gram Panchayat whether your name is already on the Permanent Wait List, or look up the Panchayat-wise list on the PMAY-G website."
-  },
-  {
-   "k": "5b41f12be2a8",
-   "ctx": "demoSteps",
-   "t": "If it is not, get surveyed under Awaas+ 2024: the Panchayat surveyor fills the form on the AwaasPlus app, or you survey yourself on the app with a face scan where your state's survey is open."
-  },
-  {
-   "k": "5a97e4343794",
-   "ctx": "demoSteps",
-   "t": "The Gram Sabha reads out and checks the list, objections are heard at the block and district, and approved families are ranked by priority."
-  },
-  {
-   "k": "3665a79d90b0",
-   "ctx": "demoSteps",
-   "t": "When your turn comes, the Block office registers you on AwaasSoft, geo-tags your old house and plot, and issues the sanction order. The first instalment comes into your Aadhaar-seeded account."
-  },
-  {
-   "k": "b951bf7ad915",
-   "ctx": "demoSteps",
-   "t": "Build the house, at least 25 sq m with a kitchen. At each stage (plinth, lintel, roof) the official takes a geo-tagged photo and the next instalment is released."
-  },
-  {
-   "k": "e53513737f7c",
-   "ctx": "demoSteps",
-   "t": "Work on your own house under the rural job scheme for 90 (or 95) days' wages, and claim Rs.12,000 for the toilet through the Panchayat."
-  },
-  {
    "k": "f7cb175729e6",
    "ctx": "demoSteps",
    "t": "Finish within 12 months. Track payments with Search Beneficiary or FTO Tracking on the PMAY-G site, and go to the BDO if an instalment is stuck."
@@ -799,6 +764,66 @@
    "k": "bca6b4d51fdb",
    "ctx": "eligibility",
    "t": "Girl child below 10 years of age, resident in India"
+  },
+  {
+   "k": "39e6ecdcced5",
+   "ctx": "eligibility",
+   "t": "Opened by the girl's parent or legal guardian; accounts opened by grandparents must be moved to a parent's name"
+  },
+  {
+   "k": "129af1344f87",
+   "ctx": "eligibility",
+   "t": "One account per girl, and at most two girls per family (a third only for twins or triplets)"
+  },
+  {
+   "k": "aec5c72939b8",
+   "ctx": "eligibility",
+   "t": "Minimum Rs.250 and maximum Rs.1.5 lakh in a financial year, paid for 15 years from opening"
+  },
+  {
+   "k": "752abbf16d74",
+   "ctx": "eligibility",
+   "t": "A year without the minimum deposit can be made good by paying Rs.250 for that year plus Rs.50 penalty"
+  },
+  {
+   "k": "a7dcbfbd5ad1",
+   "ctx": "documents",
+   "t": "Account opening form with Sukanya Samriddhi Account ticked"
+  },
+  {
+   "k": "45f962c90527",
+   "ctx": "documents",
+   "t": "Girl's birth certificate"
+  },
+  {
+   "k": "5d710d644d10",
+   "ctx": "documents",
+   "t": "Parent's Aadhaar card"
+  },
+  {
+   "k": "d92d0ab9d8b7",
+   "ctx": "documents",
+   "t": "Parent's PAN card, or Form 60 if you have no PAN"
+  },
+  {
+   "k": "12cdfcc67382",
+   "ctx": "documents",
+   "t": "Passport-size photos of the parent (and of the girl where the office asks)"
+  },
+  {
+   "k": "a3b7e153167a",
+   "ctx": "documents",
+   "t": "Address proof, if the address on Aadhaar is different"
+  },
+  {
+   "k": "85857a48f4e1",
+   "ctx": "documents",
+   "t": "First deposit of at least Rs.250, in cash or by cheque"
+  },
+  {
+   "k": "efc1d656d82f",
+   "ctx": "portalName",
+   "t": "India Post"
   }
  ]
 }

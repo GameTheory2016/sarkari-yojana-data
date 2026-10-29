@@ -6,136 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_13.json",
  "items": [
   {
-   "k": "f8dcb22fa668",
-   "ctx": "brief",
-   "t": "Karnataka pays a monthly pension to poor elderly people, widows and people with disabilities, straight into a bank or post office account. The old age pension is Rs.600 a month from 60 to 64 and Rs.1,200 from 65; Sandhya Suraksha gives Rs.1,200 to farmers, labourers, weavers and fishermen aged 65 and above; widows get Rs.800; people with disabilities get Rs.800 to Rs.2,000. One common form covers all of them, and you hand it in at the Atalji Janasnehi Kendra (Nadakacheri) for your area."
-  },
-  {
-   "k": "17a3af5127c5",
-   "ctx": "benefit",
-   "t": "Rs.600 to Rs.2,000 a month depending on the pension; Rs.1,200 for most people aged 65 and above"
-  },
-  {
-   "k": "cfc677fd95f9",
-   "ctx": "eligibility",
-   "t": "Resident of Karnataka, with a family income below Rs.32,000 a year"
-  },
-  {
-   "k": "60b7bbcc3819",
-   "ctx": "eligibility",
-   "t": "Old age pension (IGNOAPS): BPL, aged 60 or above. Rs.600 a month at 60 to 64, Rs.1,200 at 65 and above"
-  },
-  {
-   "k": "4acec45c0b04",
-   "ctx": "eligibility",
-   "t": "Sandhya Suraksha: aged 65 or above; small or marginal farmer, farm labourer, weaver, fisherman or unorganised worker (not construction-board workers); husband and wife's deposits together not above Rs.10,000. Rs.1,200 a month"
-  },
-  {
-   "k": "b20bfd66af7e",
-   "ctx": "eligibility",
-   "t": "Widow pension: destitute widow aged 18 to 64. Rs.800 a month, until remarriage or a job that takes income above the limit"
-  },
-  {
-   "k": "9058d64bfef7",
-   "ctx": "eligibility",
-   "t": "Disability pension: 40% disability or more, certified by a medical board, Rs.800; 75% or more, Rs.1,400; 75% or more mental disability, Rs.2,000"
-  },
-  {
-   "k": "a63089d07068",
-   "ctx": "eligibility",
-   "t": "Not already drawing another pension. Having sons does not disqualify you if they do not support you"
-  },
-  {
-   "k": "24b212119bf4",
-   "ctx": "documents",
-   "t": "Age proof: birth certificate, voter ID with date of birth, or a doctor's age certificate"
-  },
-  {
-   "k": "d67eeb5d4a97",
-   "ctx": "documents",
-   "t": "Bank or post office passbook, first page"
-  },
-  {
-   "k": "cc9ab88b692d",
-   "ctx": "documents",
-   "t": "As needed: husband's death certificate (widow), medical board disability certificate (disability), occupation certificate from the Tahsildar (Sandhya Suraksha)"
-  },
-  {
-   "k": "22ebc454f41e",
-   "ctx": "submitAt",
-   "t": "The Atalji Janasnehi Kendra (Nadakacheri counter) at your hobli or taluk office. Take the filled form, signed or with your thumb impression, with copies of Aadhaar, age proof, residence and income certificates, the bank or post office passbook and the ration card, plus the death, disability or occupation certificate your pension needs. The counter charges a small service fee; ask for the printed acknowledgement."
-  },
-  {
-   "k": "62edb02eeb0b",
-   "ctx": "hint",
-   "t": "Written at the top of the form. It decides which village officer verifies your application."
-  },
-  {
-   "k": "e7f5e5ac8ebf",
-   "ctx": "hint",
-   "t": "Husband's name for a married woman or a widow, father's name otherwise."
-  },
-  {
-   "k": "918cebed8f01",
-   "ctx": "label",
-   "t": "Full postal address (present and permanent)"
-  },
-  {
-   "k": "74d3382dc879",
-   "ctx": "value",
-   "t": "Door no. 7, Hosahalli, Sira taluk, Tumakuru 572137"
-  },
-  {
-   "k": "7af4d2711897",
-   "ctx": "hint",
-   "t": "Write both if you live away from your permanent home."
-  },
-  {
-   "k": "7d43602783f6",
-   "ctx": "label",
-   "t": "Age on the date of application"
-  },
-  {
-   "k": "fbaf523ea9dd",
-   "ctx": "hint",
-   "t": "Write which age proof you are attaching."
-  },
-  {
-   "k": "a1c857073e48",
-   "ctx": "hint",
-   "t": "Tick one box: old age, widow, disability, Sandhya Suraksha, Manaswini, Maithri, acid attack victim, farmer's widow or endosulfan victim."
-  },
-  {
-   "k": "a219f3a952f8",
-   "ctx": "hint",
-   "t": "Must be below Rs.32,000. Attach the income certificate."
-  },
-  {
-   "k": "ec7921c1caf9",
-   "ctx": "label",
-   "t": "Combined deposits of husband and wife"
-  },
-  {
-   "k": "70367c62edaf",
-   "ctx": "value",
-   "t": "Rs.4,500, savings account, Sira branch of a co-operative bank"
-  },
-  {
-   "k": "587326a2dc2d",
-   "ctx": "hint",
-   "t": "Amount, type of deposit and the bank. For Sandhya Suraksha it must not be above Rs.10,000."
-  },
-  {
-   "k": "fa2cb99e8538",
-   "ctx": "value",
-   "t": "No other pension; farm labourer (Tahsildar's certificate attached)"
-  },
-  {
-   "k": "c61b3b3029a1",
-   "ctx": "hint",
-   "t": "Another pension makes you ineligible. The occupation certificate is needed for Sandhya Suraksha."
-  },
-  {
    "k": "48d87910c720",
    "ctx": "demoSteps",
    "t": "Download the common pension form from dssp.karnataka.gov.in, or ask for it at the Nadakacheri counter."
@@ -819,6 +689,131 @@
    "k": "8db8fc27b01a",
    "ctx": "demoSteps",
    "t": "From the next bill, your bill shows your free limit (eligible units). Within it the bill is zero; above it you pay only for the extra units; above 200 units you pay the whole bill."
+  },
+  {
+   "k": "4016e3c46feb",
+   "ctx": "demoSteps",
+   "t": "Tenants moving house: use the Gruha Jyothi De-link option on the same portal to free your Aadhaar from the old connection, then register again at the new house."
+  },
+  {
+   "k": "88892545cf26",
+   "ctx": "demoSteps",
+   "t": "If the bill is not zero, first check the eligible-units line on it, then call 1912 or visit the ESCOM sub-division office with your acknowledgement number."
+  },
+  {
+   "k": "802b0852f37a",
+   "ctx": "helpline",
+   "t": "1912 — ESCOM electricity helpline (24x7); 1902 — Karnataka guarantee schemes helpline; 080-22279954 / 87926 62814 — guarantee scheme application help"
+  },
+  {
+   "k": "7cf063176912",
+   "ctx": "title",
+   "t": "Kerala Construction Workers Welfare Board Membership (Nirmana Thozhilali Kshemanidhi)"
+  },
+  {
+   "k": "d1da1f6589cd",
+   "ctx": "department",
+   "t": "Kerala Building and Other Construction Workers Welfare Board, Labour and Skills Department, Government of Kerala"
+  },
+  {
+   "k": "2db9d44fc065",
+   "ctx": "brief",
+   "t": "Membership for masons, carpenters, helpers, painters, electricians, plumbers and other building workers aged 18 to 59. Members pay Rs.50 a month and get a pension after 60, and help at childbirth and marriage, for children's education, medical treatment, disability and death. You join at the Board's district office with proof of age and of 90 days' construction work. The Board has about 20 lakh members but is short of money: in June 2026 the Labour Minister told the Assembly that pensions have been pending since June 2025."
+  },
+  {
+   "k": "23779aff2179",
+   "ctx": "benefit",
+   "t": "Pension Rs.1,600 a month after 60, plus maternity, marriage, education, treatment and death aid"
+  },
+  {
+   "k": "41a446114550",
+   "ctx": "eligibility",
+   "t": "Aged 18 to 59 and working in building or other construction work in Kerala"
+  },
+  {
+   "k": "15baae76e57d",
+   "ctx": "eligibility",
+   "t": "Worked at least 90 days in construction work in the last 12 months"
+  },
+  {
+   "k": "55c955a8046f",
+   "ctx": "eligibility",
+   "t": "Pay the Rs.50 monthly subscription to keep the membership active; a break can stop your benefits"
+  },
+  {
+   "k": "8ede29e0623f",
+   "ctx": "eligibility",
+   "t": "Pension: 60 or older with at least 5 years of active membership"
+  },
+  {
+   "k": "7e214d96f867",
+   "ctx": "eligibility",
+   "t": "Maternity aid: women members with at least 1 year of membership, for up to two deliveries"
+  },
+  {
+   "k": "6878ce8f3776",
+   "ctx": "eligibility",
+   "t": "After a member's or pensioner's death, the nominee or spouse can claim the death benefit or family pension"
+  },
+  {
+   "k": "d7f1525f1183",
+   "ctx": "documents",
+   "t": "Membership application form from the Board's district office"
+  },
+  {
+   "k": "f21c72490652",
+   "ctx": "documents",
+   "t": "Age proof: birth certificate, school certificate or Aadhaar"
+  },
+  {
+   "k": "c0f694fefce5",
+   "ctx": "documents",
+   "t": "Certificate of at least 90 days' construction work in the last 12 months, from your employer or contractor"
+  },
+  {
+   "k": "5cd93ad37ac9",
+   "ctx": "documents",
+   "t": "Copy of a bank passbook in the worker's own name"
+  },
+  {
+   "k": "e5e04da3d4f5",
+   "ctx": "documents",
+   "t": "Passport-size photos and your nominee's details"
+  },
+  {
+   "k": "392068147220",
+   "ctx": "documents",
+   "t": "For each benefit later: the Board's claim form for it (Form 34 for pension, Form 38 for disability pension, Form 36 for death benefit) with the Welfare Fund ID card and passbook"
+  },
+  {
+   "k": "15585abbd336",
+   "ctx": "submitAt",
+   "t": "The district office of the Kerala Building and Other Construction Workers Welfare Board (District Executive Officer) in your district. Collect the membership form there, attach the copies, pay the first subscription and take a receipt. Head office: Nirman Bhavan, Mettukada, Thycaud, Thiruvananthapuram."
+  },
+  {
+   "k": "44774f8f5728",
+   "ctx": "hint",
+   "t": "Must match your age proof. You must be between 18 and 59 to join."
+  },
+  {
+   "k": "cae10c7ab46e",
+   "ctx": "value",
+   "t": "Thekkethil House, Ward 9, Pallickal Grama Panchayat, Kollam"
+  },
+  {
+   "k": "36885f923183",
+   "ctx": "hint",
+   "t": "Where you live now. The district office of this district handles your file."
+  },
+  {
+   "k": "155f732e7773",
+   "ctx": "hint",
+   "t": "Your main construction trade, such as mason, carpenter, helper, painter, plumber or electrician."
+  },
+  {
+   "k": "35c8afe6fa69",
+   "ctx": "hint",
+   "t": "The employer or contractor who signs that you worked at least 90 days in the last 12 months."
   }
  ]
 }

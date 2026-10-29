@@ -6,471 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/pa/done_22.json",
  "items": [
   {
-   "k": "4b31a8482499",
-   "ctx": "submitAt",
-   "t": "Free bus: there is nothing to apply for. Get into a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero-fare Mahalakshmi ticket. Rs.500 gas: if your family was left out, fill the Praja Palana application (tick Mahalakshmi, Rs.500 gas cylinder) at the Praja Palana counter in your MPDO office (villages) or municipal / GHMC circle office (towns). Attach copies of the white ration card, Aadhaar, gas consumer book and bank passbook, and keep the receipt with the application number."
-  },
-  {
-   "k": "0a9dec99111d",
-   "ctx": "label",
-   "t": "Applicant name (woman of the house)"
-  },
-  {
-   "k": "c2a96dc0a664",
-   "ctx": "label",
-   "t": "Ration card (Food Security Card) number"
-  },
-  {
-   "k": "cb309c8ed64c",
-   "ctx": "hint",
-   "t": "From your white ration card. The gas benefit is given only with a white card."
-  },
-  {
-   "k": "9ba47afa502a",
-   "ctx": "hint",
-   "t": "A number you use. Messages about the application come here."
-  },
-  {
-   "k": "3eb7ee273af2",
-   "ctx": "hint",
-   "t": "House number, ward or village, mandal and district."
-  },
-  {
-   "k": "8325dc1cab48",
-   "ctx": "hint",
-   "t": "Tick the Rs.500 gas cylinder box. The Rs.2,500 box is on the form, but that payment has not started."
-  },
-  {
-   "k": "e68fdfea38eb",
-   "ctx": "hint",
-   "t": "The consumer number printed in your gas book or on the cylinder bill."
-  },
-  {
-   "k": "6d2fa0b7ce00",
-   "ctx": "value",
-   "t": "HP Gas, Sri Sai Gas Agency, Wyra"
-  },
-  {
-   "k": "240c7ebaa91e",
-   "ctx": "hint",
-   "t": "The company (HP, Bharat or Indane) and the agency that delivers to you."
-  },
-  {
-   "k": "6da6b58afe24",
-   "ctx": "hint",
-   "t": "About how many cylinders your family uses in a year. The subsidy is limited to your average use."
-  },
-  {
-   "k": "8b43adb18fc0",
-   "ctx": "demoSteps",
-   "t": "Free bus: board a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero ticket. Girls of any age travel free too."
-  },
-  {
-   "k": "7c2917f585e9",
-   "ctx": "demoSteps",
-   "t": "Rs.500 gas: check that your white ration card is linked with Aadhaar and that your gas connection is active."
-  },
-  {
-   "k": "f18cf56433c5",
-   "ctx": "demoSteps",
-   "t": "If you did not apply in Praja Palana, fill the form at the MPDO or municipal office. Tick Rs.500 gas cylinder, write the gas consumer number, the company and how many cylinders you use a year, attach copies and take the receipt."
-  },
-  {
-   "k": "06cb405b79c2",
-   "ctx": "demoSteps",
-   "t": "Officials check the ration card and gas connection. Your name is then added to the Mahalakshmi gas list that goes to the oil companies."
-  },
-  {
-   "k": "7b274ea816b7",
-   "ctx": "demoSteps",
-   "t": "Book the cylinder as usual and pay the full price to the delivery person."
-  },
-  {
-   "k": "213f2bd6f332",
-   "ctx": "demoSteps",
-   "t": "Within a few days, the amount above Rs.500 is credited to the bank account linked to your gas connection. If it does not come, ask at the gas agency and the MPDO office."
-  },
-  {
-   "k": "b847aa4ba37d",
-   "ctx": "helpline",
-   "t": "TGSRTC enquiry 040-69440000 / 040-23450033; Civil Supplies toll free 1967 (gas subsidy and ration card)"
-  },
-  {
-   "k": "f71cf7e2a068",
-   "ctx": "title",
-   "t": "Kalyana Lakshmi Pathakam (Rs.1,00,116 Marriage Help)"
-  },
-  {
-   "k": "a2009dec4252",
-   "ctx": "department",
-   "t": "SC Development, Tribal Welfare and BC Welfare Departments, Telangana"
-  },
-  {
-   "k": "4eb3326d30b6",
-   "ctx": "brief",
-   "t": "The Telangana government gives a one-time Rs.1,00,116 for the marriage of a girl from an SC, ST, BC or EBC family, or Rs.1,25,145 if the bride has a disability. The money is paid into the bride's mother's bank account. Apply after the wedding on the Telangana ePASS site, yourself or at a MeeSeva centre, then take the printout and documents to the Tahsildar's office for checking. Brides from minority communities apply under Shaadi Mubarak instead."
-  },
-  {
-   "k": "8651e673e648",
-   "ctx": "benefit",
-   "t": "Rs.1,00,116 one time (Rs.1,25,145 for a bride with a disability)"
-  },
-  {
-   "k": "561947caa2d7",
-   "ctx": "eligibility",
-   "t": "The bride is from an SC, ST, BC or EBC family and lives in Telangana"
-  },
-  {
-   "k": "d6c0162e7345",
-   "ctx": "eligibility",
-   "t": "Parents' total income: SC and ST up to Rs.2,00,000 a year; BC and EBC up to Rs.2,00,000 in towns and Rs.1,50,000 in villages"
-  },
-  {
-   "k": "817b4c0add20",
-   "ctx": "eligibility",
-   "t": "The bride is at least 18 and the groom at least 21 on the wedding day"
-  },
-  {
-   "k": "fa6bca145e83",
-   "ctx": "eligibility",
-   "t": "Only for the bride's first marriage"
-  },
-  {
-   "k": "f2e430c370bb",
-   "ctx": "eligibility",
-   "t": "The bride's mother needs a bank account in her own name. A bride whose parents have died uses her own account"
-  },
-  {
-   "k": "ac38116446dd",
-   "ctx": "documents",
-   "t": "Aadhaar of the bride, her mother and the groom"
-  },
-  {
-   "k": "abe3fab1e017",
-   "ctx": "documents",
-   "t": "Caste-cum-nativity certificate and income certificate from MeeSeva (you enter their numbers in the form)"
-  },
-  {
-   "k": "3463c3b37038",
-   "ctx": "documents",
-   "t": "Bride's age proof: SSC hall ticket number, or a birth certificate"
-  },
-  {
-   "k": "e214b708a147",
-   "ctx": "documents",
-   "t": "Marriage certificate (registration), one wedding photo, and the wedding card if available"
-  },
-  {
-   "k": "e09c3eda8674",
-   "ctx": "documents",
-   "t": "First-marriage confirmation certificate and the VRO / Panchayat Secretary certificate"
-  },
-  {
-   "k": "81af3e87e2bf",
-   "ctx": "documents",
-   "t": "Bank passbooks of the bride's mother and the bride"
-  },
-  {
-   "k": "d06e31f0e84d",
-   "ctx": "documents",
-   "t": "Bride's photo; SADAREM disability certificate if the bride has a disability"
-  },
-  {
-   "k": "6ffc4cf6156f",
-   "ctx": "label",
-   "t": "SSC or equivalent details available / Hall ticket no."
-  },
-  {
-   "k": "ba98bdc26a86",
-   "ctx": "hint",
-   "t": "With the hall ticket number and pass year, the bride's details are taken from the SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "8eb2cd687f9c",
-   "ctx": "hint",
-   "t": "As on Aadhaar and the SSC memo."
-  },
-  {
-   "k": "e68550f6bc43",
-   "ctx": "hint",
-   "t": "She must have been 18 or older on the wedding day."
-  },
-  {
-   "k": "d085fefb985d",
-   "ctx": "hint",
-   "t": "As written on the MeeSeva caste certificate."
-  },
-  {
-   "k": "d0f1523ed17d",
-   "ctx": "hint",
-   "t": "This decides the income limit for BC/EBC: Rs.1.5 lakh in villages, Rs.2 lakh in towns."
-  },
-  {
-   "k": "26c015aba947",
-   "ctx": "hint",
-   "t": "Number on the MeeSeva income certificate. The name, mandal and income then fill in by themselves."
-  },
-  {
-   "k": "153670e84072",
-   "ctx": "hint",
-   "t": "An account in the mother's own name, with IFSC. The money is paid here."
-  },
-  {
-   "k": "5d9c67e0032a",
-   "ctx": "label",
-   "t": "Name of the bride groom / Date of birth"
-  },
-  {
-   "k": "e5e7b6890277",
-   "ctx": "hint",
-   "t": "He must have been 21 or older on the wedding day."
-  },
-  {
-   "k": "239542e0ee88",
-   "ctx": "label",
-   "t": "Date and place of marriage / registration"
-  },
-  {
-   "k": "65bc0c5c3a09",
-   "ctx": "value",
-   "t": "11-05-2026, Sri Venkateswara Temple, Jagtial; SRO Jagtial, Doc No. 9999/2026"
-  },
-  {
-   "k": "904a22bc111f",
-   "ctx": "demoSteps",
-   "t": "Get the caste-cum-nativity and income certificates from MeeSeva and register the marriage. Scan every document from the original (JPG, 50 to 150 KB)."
-  },
-  {
-   "k": "0de163d88cfd",
-   "ctx": "demoSteps",
-   "t": "Open telanganaepass.cgg.gov.in, go to Kalyana Lakshmi and click Registration, or ask a MeeSeva centre to apply for you."
-  },
-  {
-   "k": "1e731dd9eb78",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's details, the mother's bank details, the groom's details and the marriage details, and enter the MeeSeva certificate numbers. Upload the files and submit, then note the application ID and print it."
-  },
-  {
-   "k": "9d29f257a1e1",
-   "ctx": "demoSteps",
-   "t": "Take the printout and copies of the documents to the Tahsildar (MRO) office. The Revenue Inspector checks them and the RDO approves."
-  },
-  {
-   "k": "2cc0e392079a",
-   "ctx": "demoSteps",
-   "t": "Track the application with Print/Status on the same page. If there is an objection, correct it through Edit/Uploads."
-  },
-  {
-   "k": "d6172ee9ffa0",
-   "ctx": "demoSteps",
-   "t": "After sanction, the money is released to the bride's mother's bank account. The local MLA often hands over the sanction at a programme."
-  },
-  {
-   "k": "d52eab0d85cf",
-   "ctx": "helpline",
-   "t": "ePASS technical help 040-23120311 / 040-23120312 (10:30 am to 5 pm, working days); your Tahsildar office or District SC / BC / Tribal Welfare Officer"
-  },
-  {
-   "k": "ece64b9d8b1a",
-   "ctx": "title",
-   "t": "Shaadi Mubarak (Rs.1,00,116 Marriage Help for Minorities)"
-  },
-  {
-   "k": "c534ae41a303",
-   "ctx": "brief",
-   "t": "The Telangana government gives a one-time Rs.1,00,116 for the marriage of a girl from a Muslim, Christian, Sikh, Jain, Buddhist or Parsi family, or Rs.1,25,145 if the bride has a disability. It works like Kalyana Lakshmi: apply online after the nikah or wedding on the Telangana ePASS site or at MeeSeva, then take the printout and documents to the Tahsildar's office. The money is paid into the bride's mother's bank account."
-  },
-  {
-   "k": "ee5353d3bbd4",
-   "ctx": "eligibility",
-   "t": "The bride is from a minority community (Muslim, Christian, Sikh, Jain, Buddhist or Parsi) and lives in Telangana"
-  },
-  {
-   "k": "5b01d11cccb1",
-   "ctx": "eligibility",
-   "t": "Parents' total income up to Rs.2,00,000 a year"
-  },
-  {
-   "k": "b425c78a62f5",
-   "ctx": "eligibility",
-   "t": "The bride is at least 18 and the groom at least 21 on the date of marriage"
-  },
-  {
-   "k": "1b7d455fa8e9",
-   "ctx": "documents",
-   "t": "Integrated certificate (caste-cum-nativity-cum-date of birth) and income certificate from MeeSeva"
-  },
-  {
-   "k": "4ff3a56e69d0",
-   "ctx": "documents",
-   "t": "Marriage certificate: Nikahnama from the Qazi, or the church or registration certificate"
-  },
-  {
-   "k": "ac817547166a",
-   "ctx": "documents",
-   "t": "Letter from the religious head who performed the marriage"
-  },
-  {
-   "k": "3282d3241b4d",
-   "ctx": "documents",
-   "t": "One marriage photo and the bride's photo"
-  },
-  {
-   "k": "9ecb52ccc1be",
-   "ctx": "documents",
-   "t": "SADAREM disability certificate, if the bride has a disability"
-  },
-  {
-   "k": "86b32b785864",
-   "ctx": "hint",
-   "t": "Gives the bride's details from SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "d0a8287987f8",
-   "ctx": "hint",
-   "t": "She must have been 18 or older on the date of the nikah."
-  },
-  {
-   "k": "4607d42a7db8",
-   "ctx": "hint",
-   "t": "Choose as on your MeeSeva certificate: BC-E for BC-E Muslim groups, OC (Christian), OC (Sikh) and so on."
-  },
-  {
-   "k": "377808db9dd0",
-   "ctx": "hint",
-   "t": "The income on the certificate must be Rs.2 lakh a year or less."
-  },
-  {
-   "k": "7bcd52039f14",
-   "ctx": "hint",
-   "t": "The caste-cum-nativity-cum-date of birth certificate number from MeeSeva."
-  },
-  {
-   "k": "f7770aa6b2d6",
-   "ctx": "hint",
-   "t": "He must have been 21 or older on the date of marriage."
-  },
-  {
-   "k": "00f6c1e43ca2",
-   "ctx": "hint",
-   "t": "As written in the Nikahnama or marriage certificate."
-  },
-  {
-   "k": "a9401bd492cf",
-   "ctx": "demoSteps",
-   "t": "Get the integrated and income certificates from MeeSeva and the Nikahnama or marriage certificate. Scan everything from the originals (JPG, 50 to 150 KB)."
-  },
-  {
-   "k": "f83f8f281cd5",
-   "ctx": "demoSteps",
-   "t": "Open telanganaepass.cgg.gov.in, go to Shaadi Mubarak and click Registration, or ask a MeeSeva centre to apply for you."
-  },
-  {
-   "k": "29e3d4b6d774",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's details, the mother's bank details, the groom's details and the marriage details, and enter the MeeSeva numbers. Upload the files, submit, and print the application with its ID."
-  },
-  {
-   "k": "7ec11c9b283d",
-   "ctx": "demoSteps",
-   "t": "Track the application with Print/Status. If there is an objection, correct it through Edit/Uploads."
-  },
-  {
-   "k": "e744c7a430fc",
-   "ctx": "demoSteps",
-   "t": "After sanction, the money is released to the bride's mother's bank account. It is often handed over at a programme by the local MLA."
-  },
-  {
-   "k": "26c7df86b1bb",
-   "ctx": "helpline",
-   "t": "ePASS technical help 040-23120311 / 040-23120312 (10:30 am to 5 pm, working days); your Tahsildar office or District Minority Welfare Officer"
-  },
-  {
-   "k": "923d840e2593",
-   "ctx": "title",
-   "t": "Mukhyamantri Konya Bibaha Yojana (MKBY, Girls' Marriage Help)"
-  },
-  {
-   "k": "c70a19d651f4",
-   "ctx": "department",
-   "t": "Social Welfare & Social Education Department, Government of Tripura"
-  },
-  {
-   "k": "aa0b62c5f475",
-   "ctx": "brief",
-   "t": "Tripura gives Rs.50,000 once for the marriage of a girl from an Antyodaya (poorest) family, when the bride is at least 18 and the groom at least 21. Up to two girls in one family can get it. You apply at the CDPO office, which checks the papers and sends them to the Sub-Divisional Magistrate within 15 days. The SDM pays once the marriage is confirmed and registered. The scheme was notified in August 2025 and covers about 2,000 girls a year."
-  },
-  {
-   "k": "db0c8844942e",
-   "ctx": "benefit",
-   "t": "Rs.50,000 once, for each eligible girl (up to two girls per family)"
-  },
-  {
-   "k": "ab37d5823567",
-   "ctx": "eligibility",
-   "t": "The bride must be 18 or older and the groom 21 or older on the date of marriage"
-  },
-  {
-   "k": "d9271e691f41",
-   "ctx": "eligibility",
-   "t": "The bride's family must be in the state's Antyodaya database (Antyodaya ration card)"
-  },
-  {
-   "k": "5cb7da58d4b1",
-   "ctx": "eligibility",
-   "t": "The bride must be a permanent resident of Tripura (PRTC holder)"
-  },
-  {
-   "k": "f63300e2540e",
-   "ctx": "eligibility",
-   "t": "Neither bride nor groom may have a living spouse, unless the earlier marriage was legally dissolved by divorce"
-  },
-  {
-   "k": "c39746b4a70c",
-   "ctx": "eligibility",
-   "t": "Help is given once per girl, for at most two girls in a family"
-  },
-  {
-   "k": "30ba8b27d278",
-   "ctx": "eligibility",
-   "t": "The marriage is registered at the venue or right after it"
-  },
-  {
-   "k": "4854a4ded137",
-   "ctx": "documents",
-   "t": "Aadhaar card and PRTC of the bride"
-  },
-  {
-   "k": "b3e5947902d3",
-   "ctx": "documents",
-   "t": "Age proof of the bride (birth certificate or school leaving certificate)"
-  },
-  {
-   "k": "faae122cbb55",
-   "ctx": "documents",
-   "t": "Antyodaya ration card of the bride's family"
-  },
-  {
-   "k": "8ed6a95c31bf",
-   "ctx": "documents",
-   "t": "Aadhaar card and address proof of the groom"
-  },
-  {
-   "k": "5c2eb0d5f0f8",
-   "ctx": "documents",
-   "t": "Passport-size photographs of bride and groom"
-  },
-  {
-   "k": "4ac64921732a",
-   "ctx": "documents",
-   "t": "Self-declaration on marital status, signed by both bride and groom (form attached)"
-  },
-  {
-   "k": "b271acd6c2ae",
-   "ctx": "portalName",
-   "t": "Directorate of Social Welfare & Social Education, Tripura"
-  },
-  {
    "k": "6f56e7a5f25a",
    "ctx": "submitAt",
    "t": "The Child Development Project Office (CDPO) of the ICDS project where the bride lives. Hand in the filled form with photocopies of every document and the self-declaration signed by both bride and groom, and keep the originals to show. The CDPO forwards it to the Sub-Divisional Magistrate (SDM) within 15 days. If you are refused, appeal to the District Magistrate & Collector, who must decide within 10 days."
@@ -859,6 +394,401 @@
    "k": "91301794f0bc",
    "ctx": "demoSteps",
    "t": "Between January and March, book one more refill the same way for the Holi refund."
+  },
+  {
+   "k": "6efced561245",
+   "ctx": "demoSteps",
+   "t": "If the money does not come, call the Ujjwala helpline 14438 or the UP food department toll-free number, with your consumer number and delivery date ready."
+  },
+  {
+   "k": "8e1f1dc1a9e0",
+   "ctx": "helpline",
+   "t": "14438 (Ujjwala helpline) / 1906 (LPG emergency) / 1800-1800-150 (UP Food & Civil Supplies toll-free)"
+  },
+  {
+   "k": "2138f70d29d9",
+   "ctx": "title",
+   "t": "Krishi Yantra Anudan — Farm Machinery Subsidy (Yantra Token Booking)"
+  },
+  {
+   "k": "264a1b20ea5e",
+   "ctx": "department",
+   "t": "Agriculture Department (Krishi Vibhag), Government of Uttar Pradesh"
+  },
+  {
+   "k": "cf59e95f023a",
+   "ctx": "brief",
+   "t": "The UP Agriculture Department pays 40–50% of the price of farm machines such as rotavators, seed drills, threshers, sprayers, super seeders, happy seeders and agricultural drones. Farmer groups setting up a farm machinery bank or custom hiring centre get up to 80%. Booking opens online on the Agri Darshan portal a few times a year: in 2026 it opened in February–March and again in July. Selected farmers get a token, buy the machine from a listed dealer, and upload the bill and a photo. After a check, the subsidy is paid into their bank account."
+  },
+  {
+   "k": "00681d479c8d",
+   "ctx": "benefit",
+   "t": "40–50% of the machine price for farmers; up to 80% for farmer groups and machinery banks"
+  },
+  {
+   "k": "217a42a559d1",
+   "ctx": "eligibility",
+   "t": "A farmer of Uttar Pradesh registered with the Agriculture Department, with the registration linked to Aadhaar, land record and bank account"
+  },
+  {
+   "k": "08745188434d",
+   "ctx": "eligibility",
+   "t": "Farm land in your own name, as shown in the Khatauni"
+  },
+  {
+   "k": "8e547400fef3",
+   "ctx": "eligibility",
+   "t": "Small and marginal, SC/ST and women farmers get the higher 50% share. Other farmers get 40%"
+  },
+  {
+   "k": "8b9bbe3fd220",
+   "ctx": "eligibility",
+   "t": "A refundable security deposit is paid when booking: Rs.2,500 if the subsidy is Rs.10,001 to Rs.1 lakh, and Rs.5,000 if it is above Rs.1 lakh"
+  },
+  {
+   "k": "279832d341a0",
+   "ctx": "eligibility",
+   "t": "One booking per mobile number in each window. Farmers are picked first-come-first-served, or by e-lottery when bookings exceed the district target"
+  },
+  {
+   "k": "92d6c495797f",
+   "ctx": "eligibility",
+   "t": "The machine must be bought within the days given on the token, or the token is cancelled"
+  },
+  {
+   "k": "8228b2a1dd2c",
+   "ctx": "documents",
+   "t": "Farmer registration number from the Agriculture Department"
+  },
+  {
+   "k": "60aa7fb1df11",
+   "ctx": "documents",
+   "t": "Bank passbook of the Aadhaar-linked account in the farmer's name"
+  },
+  {
+   "k": "35f52ef73dab",
+   "ctx": "documents",
+   "t": "After buying: the dealer's GST bill and a photo of the farmer with the machine, showing its serial number"
+  },
+  {
+   "k": "d9e56225e020",
+   "ctx": "hint",
+   "t": "Your farmer registration number with the Agriculture Department. If you do not have one, register first with Aadhaar, Khatauni and bank details."
+  },
+  {
+   "k": "89819446c338",
+   "ctx": "hint",
+   "t": "The OTP comes here. Only one booking is allowed per mobile number, but you may use the number of a parent, brother, sister, son or daughter."
+  },
+  {
+   "k": "e8946aa3b93b",
+   "ctx": "hint",
+   "t": "Where your land is. Targets are fixed district by district."
+  },
+  {
+   "k": "abbc2f9f5fdb",
+   "ctx": "hint",
+   "t": "Choose the crop residue scheme (CRM) for super seeders, happy seeders, mulchers and balers."
+  },
+  {
+   "k": "fe369d01159e",
+   "ctx": "hint",
+   "t": "Choose the exact machine and size. The subsidy amount for it is shown on the screen."
+  },
+  {
+   "k": "719b2b8a91ba",
+   "ctx": "hint",
+   "t": "Small and marginal, SC/ST and women farmers get the higher share. It must match your land record and certificates."
+  },
+  {
+   "k": "0a229dd6bbdf",
+   "ctx": "hint",
+   "t": "The fixed subsidy for that machine. You pay the full price to the dealer and this amount comes back to you."
+  },
+  {
+   "k": "a2223a571126",
+   "ctx": "hint",
+   "t": "Rs.2,500 for a subsidy of Rs.10,001 to Rs.1 lakh, Rs.5,000 above that. It is refunded as the rules say."
+  },
+  {
+   "k": "4f9e661e9ebd",
+   "ctx": "hint",
+   "t": "Buy only from a dealer listed on the portal for that machine, or the subsidy is not paid."
+  },
+  {
+   "k": "61900fe34b8e",
+   "ctx": "demoSteps",
+   "t": "If you are not yet registered, register as a farmer on agridarshan.up.gov.in with Aadhaar, Khatauni and bank details, and note your registration number."
+  },
+  {
+   "k": "70eaf174943f",
+   "ctx": "demoSteps",
+   "t": "When booking opens (watch the news or ask the block agriculture office), open the portal, go to Kisan Corner, choose Yantra Booking, log in with the registration number and OTP, pick the scheme and machine, and pay the security amount."
+  },
+  {
+   "k": "c8436561bc52",
+   "ctx": "demoSteps",
+   "t": "Your token is confirmed by SMS, either straight away (first-come-first-served) or after the district e-lottery."
+  },
+  {
+   "k": "c10958160c74",
+   "ctx": "demoSteps",
+   "t": "Within the days given on the token, buy the machine from a listed dealer at full price and take a GST bill."
+  },
+  {
+   "k": "5a5c09ef3abf",
+   "ctx": "demoSteps",
+   "t": "Upload the bill and a photo of yourself with the machine on the portal. The block or district team checks the machine in person."
+  },
+  {
+   "k": "cfa9156e1e7d",
+   "ctx": "demoSteps",
+   "t": "After the check, the subsidy is paid into your Aadhaar-linked bank account by DBT, and the security amount is refunded as the scheme rules say."
+  },
+  {
+   "k": "3d8ced4000fa",
+   "ctx": "helpline",
+   "t": "1800-180-1551 (Kisan Call Centre) / 1076 (CM Helpline); Deputy Director Agriculture office in your district"
+  },
+  {
+   "k": "ed1ddd5bf0dc",
+   "ctx": "title",
+   "t": "UP BOCW Shramik Panjikaran (Construction Worker Labour Card)"
+  },
+  {
+   "k": "2097d9fdd274",
+   "ctx": "department",
+   "t": "Uttar Pradesh Building and Other Construction Workers Welfare Board (UPBOCW), Labour Department"
+  },
+  {
+   "k": "8bd1d10a4a23",
+   "ctx": "brief",
+   "t": "Registering with the UP construction workers' board gives a construction worker a labour card. The card opens the family's main benefits: Rs.65,000 for a daughter's marriage, money at childbirth, school and college help for two children, a Rs.1,000 monthly pension after 60, and up to Rs.5 lakh if the worker dies in an accident. Masons, helpers, carpenters, bar benders, plumbers, electricians, painters, tile workers and road and building labourers can all register. You register online with Aadhaar e-KYC (or at a CSC) and renew the card to keep the benefits."
+  },
+  {
+   "k": "b350c79685f3",
+   "ctx": "benefit",
+   "t": "Rs.65,000 for a daughter's marriage, Rs.20,000–25,000 at childbirth, Rs.1,000 monthly pension, Rs.5 lakh on accidental death"
+  },
+  {
+   "k": "b839b08f8eaa",
+   "ctx": "eligibility",
+   "t": "Has done at least 90 days of building or other construction work in the last 12 months"
+  },
+  {
+   "k": "a37d3367f502",
+   "ctx": "eligibility",
+   "t": "Works in Uttar Pradesh and is not registered with the construction board of another state"
+  },
+  {
+   "k": "b0268461fc13",
+   "ctx": "eligibility",
+   "t": "Pays a Rs.20 registration fee once, plus Rs.20 for each year of membership chosen (1, 2 or 3 years). One year costs Rs.40 in all"
+  },
+  {
+   "k": "22cf133e9c81",
+   "ctx": "eligibility",
+   "t": "Most benefits (marriage, maternity, serious illness) start after 1 year of membership. The pension needs 10 years of membership and age 60"
+  },
+  {
+   "k": "38bad3002042",
+   "ctx": "eligibility",
+   "t": "Benefits go to at most two children, and you must apply within 1 year of the event"
+  },
+  {
+   "k": "a968ff348d55",
+   "ctx": "documents",
+   "t": "Aadhaar card, with OTP on the Aadhaar-linked mobile for e-KYC"
+  },
+  {
+   "k": "1522f101aff5",
+   "ctx": "documents",
+   "t": "Certificate of 90 days of work from the contractor or employer, or the board's self-declaration form"
+  },
+  {
+   "k": "025517abc300",
+   "ctx": "documents",
+   "t": "Family ID or ration card, to add family members"
+  },
+  {
+   "k": "2b8c546c65da",
+   "ctx": "documents",
+   "t": "Bank passbook of an account in the worker's own name"
+  },
+  {
+   "k": "6afd3aab8015",
+   "ctx": "hint",
+   "t": "The worker's own Aadhaar. Your name, date of birth and address are filled in from Aadhaar after the OTP."
+  },
+  {
+   "k": "8805232d9dc5",
+   "ctx": "hint",
+   "t": "The OTP goes to the mobile linked with Aadhaar. If that number is lost, get it updated at an Aadhaar centre first."
+  },
+  {
+   "k": "48ecf356ef28",
+   "ctx": "hint",
+   "t": "Your Aadhaar-linked number or any other number you keep. The approval SMS and login messages come here."
+  },
+  {
+   "k": "982a0ae6f7c7",
+   "ctx": "hint",
+   "t": "Pick Family ID or Ration Card, enter the number, and the family members appear. Tick each member who should be linked to your card."
+  },
+  {
+   "k": "5d89bf73d634",
+   "ctx": "hint",
+   "t": "Where you live and work now, if it is different from the address on Aadhaar."
+  },
+  {
+   "k": "022665b10b29",
+   "ctx": "hint",
+   "t": "The construction work you actually do, for example helper, carpenter, plumber, painter or bar bender."
+  },
+  {
+   "k": "08642f6a50e9",
+   "ctx": "hint",
+   "t": "It must be 90 days or more. The work certificate you upload has to show the same number."
+  },
+  {
+   "k": "172d500dd57a",
+   "ctx": "hint",
+   "t": "The contractor or employer who gave you the 90-day certificate. The office may call this number."
+  },
+  {
+   "k": "9ca8becb651d",
+   "ctx": "hint",
+   "t": "Your own account. Benefit money is paid only by DBT into this account."
+  },
+  {
+   "k": "861b88904b55",
+   "ctx": "hint",
+   "t": "Choose 1, 2 or 3 years. Each year costs Rs.20 more. The Rs.20 registration fee is paid only once."
+  },
+  {
+   "k": "2965cbffef0e",
+   "ctx": "demoSteps",
+   "t": "Open labour.upbocw.in and tap Register. Enter your Aadhaar number, tick the consent and verify with the OTP. Your details come from Aadhaar. Then enter a mobile number and set a password."
+  },
+  {
+   "k": "a05e21c2c767",
+   "ctx": "demoSteps",
+   "t": "Log in and complete each part of the profile: personal details, family ID or ration card members, present address, work details and bank details."
+  },
+  {
+   "k": "5d7f7f7ee3cd",
+   "ctx": "demoSteps",
+   "t": "Upload your photo and the 90-day work certificate, then tick the self-declaration."
+  },
+  {
+   "k": "65054891cd26",
+   "ctx": "demoSteps",
+   "t": "Choose 1, 2 or 3 years and pay the fee online. Save the application number and the payment receipt."
+  },
+  {
+   "k": "aebf6380fb98",
+   "ctx": "demoSteps",
+   "t": "The Labour Enforcement Officer at the district labour office checks the application. You get an SMS when it is approved."
+  },
+  {
+   "k": "0172659fd592",
+   "ctx": "demoSteps",
+   "t": "Log in and download your labour card. Renew it up to one month before it expires, because benefits stop on an expired card."
+  },
+  {
+   "k": "1c595e03c65e",
+   "ctx": "demoSteps",
+   "t": "After one year of membership, apply for benefits (daughter's marriage, maternity, children's education) from the same login or at a CSC, within 1 year of the event."
+  },
+  {
+   "k": "11ef2e6d351d",
+   "ctx": "helpline",
+   "t": "1800-180-5412 (UPBOCW toll-free); district Labour Office (Shram Karyalaya)"
+  },
+  {
+   "k": "6d349e7c2589",
+   "ctx": "title",
+   "t": "Mukhyamantri Jan Arogya Abhiyan (MMJAA Ayushman Card)"
+  },
+  {
+   "k": "f51179e65781",
+   "ctx": "department",
+   "t": "State Agency for Comprehensive Health and Integrated Services (SACHIS), Medical Health & Family Welfare Department, Government of Uttar Pradesh"
+  },
+  {
+   "k": "d9e300c706fb",
+   "ctx": "brief",
+   "t": "Uttar Pradesh's own health cover for poor families who were left out of Ayushman Bharat PM-JAY. It gives the same Rs.5 lakh a year of free, cashless hospital treatment for the whole family at empanelled government and private hospitals, fully paid by the state. Covered families get the same Ayushman card, made free on the Ayushman portal or app, at a CSC, or at the Ayushman Mitra desk of an empanelled hospital. It has run since 1 March 2019 and is managed by SACHIS."
+  },
+  {
+   "k": "8e67362cfeb9",
+   "ctx": "benefit",
+   "t": "Rs.5 lakh a year per family, cashless, same as the Ayushman card"
+  },
+  {
+   "k": "2fff88d1a0b2",
+   "ctx": "eligibility",
+   "t": "Poor families who should have been covered by PM-JAY but were missed in the SECC 2011 list, and were later found in the state's own surveys"
+  },
+  {
+   "k": "2fba5f0ca9ad",
+   "ctx": "eligibility",
+   "t": "All Antyodaya (AAY) ration card families of Uttar Pradesh, added in July 2021"
+  },
+  {
+   "k": "85c45dd190e2",
+   "ctx": "eligibility",
+   "t": "Construction workers registered with the UP BOCW board, and other groups the state government notifies"
+  },
+  {
+   "k": "1764fee2ace8",
+   "ctx": "eligibility",
+   "t": "There is no limit on family size or age. Illnesses you already have are covered from day one"
+  },
+  {
+   "k": "e87a2827a396",
+   "ctx": "eligibility",
+   "t": "You cannot sign up on your own: the family's name must already be in the list. Check with Am I Eligible on the Ayushman portal or call 1800-1800-4444"
+  },
+  {
+   "k": "1a14d0102eca",
+   "ctx": "eligibility",
+   "t": "Everyone aged 70 and above, whatever the income, gets the separate Ayushman Vay Vandana card"
+  },
+  {
+   "k": "6fcea14a1b08",
+   "ctx": "documents",
+   "t": "Aadhaar card of the member whose card is being made"
+  },
+  {
+   "k": "238dfa4e761f",
+   "ctx": "documents",
+   "t": "Ration card (Antyodaya) or UP Family ID, to find the family in the list"
+  },
+  {
+   "k": "128d45486db6",
+   "ctx": "documents",
+   "t": "Labour card, if the family is covered as a registered construction worker"
+  },
+  {
+   "k": "1b98670ec837",
+   "ctx": "hint",
+   "t": "Any working number you keep. The login OTP and the approval message come here."
+  },
+  {
+   "k": "41194e081ab9",
+   "ctx": "hint",
+   "t": "Choose the state Uttar Pradesh. State scheme families are searched from the same Ayushman list. If MMJAA appears in the scheme list for UP, choose that."
+  },
+  {
+   "k": "5b51b91d1f82",
+   "ctx": "hint",
+   "t": "Antyodaya families can search by ration card number. Others can search by Aadhaar, Family ID or name."
+  },
+  {
+   "k": "ed2a4a869dee",
+   "ctx": "hint",
+   "t": "Copy it from the ration card. If nothing is found, search again with the Aadhaar number of the head of the family."
   }
  ]
 }

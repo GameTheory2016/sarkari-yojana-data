@@ -6,16 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_17.json",
  "items": [
   {
-   "k": "33710530512b",
-   "ctx": "documents",
-   "t": "For later instalments: school bonafide certificate, family planning certificate, and at 18 her voter ID and a self-declaration that she is unmarried"
-  },
-  {
-   "k": "557baf20e799",
-   "ctx": "submitAt",
-   "t": "The anganwadi sevika of your area, at the anganwadi centre. The application form is printed at the end of the scheme GR linked here (pages 9 to 12), and blank forms are also kept at every Child Development Project Officer (CDPO) office, the Zilla Parishad District Programme Officer's office and the District Women and Child Development Officer's office. Take the filled form with copies of the documents, carry the originals for checking, and ask the sevika for the signed receipt (pohoch pavti) at the bottom of the form. Apply the same way for each later instalment."
-  },
-  {
    "k": "55d0c66028bd",
    "ctx": "label",
    "t": "Applying for (first child / second child / twins)"
@@ -556,11 +546,6 @@
    "t": "AAY card, disability certificate, death certificate, membership letter or IDP certificate, as your category needs."
   },
   {
-   "k": "087f8fa47b2c",
-   "ctx": "value",
-   "t": "Voter ID MN/01/999/123456"
-  },
-  {
    "k": "ddf42da40eda",
    "ctx": "hint",
    "t": "Any one government photo ID, shown in original."
@@ -744,6 +729,31 @@
    "k": "d06c8be90f74",
    "ctx": "demoSteps",
    "t": "If your name is missing, open the MHIS Head of Family form and choose your category: Newly Married, Name not there in the database, Orphans, or Others."
+  },
+  {
+   "k": "aee532aa21fd",
+   "ctx": "demoSteps",
+   "t": "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number."
+  },
+  {
+   "k": "7e0fbe120204",
+   "ctx": "demoSteps",
+   "t": "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval."
+  },
+  {
+   "k": "228dee72293e",
+   "ctx": "demoSteps",
+   "t": "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card."
+  },
+  {
+   "k": "0a700f4b14e2",
+   "ctx": "demoSteps",
+   "t": "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
+  },
+  {
+   "k": "562f4e3cfef5",
+   "ctx": "helpline",
+   "t": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline"
   }
  ]
 }

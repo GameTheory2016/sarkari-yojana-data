@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_07.json",
  "items": [
   {
-   "k": "6b31a79771e7",
-   "ctx": "hint",
-   "t": "Your own number. The registration number and every update come here by SMS."
-  },
-  {
-   "k": "2cfc793a20c3",
-   "ctx": "label",
-   "t": "Area / District"
-  },
-  {
-   "k": "87701531c352",
-   "ctx": "value",
-   "t": "RURAL / Nalanda"
-  },
-  {
-   "k": "1bf4f0b824c2",
-   "ctx": "hint",
-   "t": "Choose Rural or Urban and the district where you live."
-  },
-  {
-   "k": "809d2fd7743a",
-   "ctx": "label",
-   "t": "Mother Name / Marital Status / Category"
-  },
-  {
-   "k": "687d0df27563",
-   "ctx": "value",
-   "t": "Shanti Devi / Married / EBC"
-  },
-  {
-   "k": "fe742f5abd13",
-   "ctx": "hint",
-   "t": "Your mother's name, whether you are single or married, and your caste category."
-  },
-  {
-   "k": "c7a8e9e07f63",
-   "ctx": "label",
-   "t": "Educational Qualifications"
-  },
-  {
-   "k": "b4762551e06f",
-   "ctx": "value",
-   "t": "Matric Fail"
-  },
-  {
-   "k": "462cdf27b23e",
-   "ctx": "hint",
-   "t": "Choose the nearest: literate, matric fail, matric pass and so on."
-  },
-  {
-   "k": "8e51af0dc16b",
-   "ctx": "hint",
-   "t": "Copy it from your ration card."
-  },
-  {
-   "k": "176501039da7",
-   "ctx": "label",
-   "t": "Whether registered under any other labour welfare board"
-  },
-  {
-   "k": "a56d0d3cb657",
-   "ctx": "hint",
-   "t": "Answer truthfully. A worker on another board cannot register here."
-  },
-  {
-   "k": "c240d1d9b9ce",
-   "ctx": "label",
-   "t": "Employer details (last 12 months)"
-  },
-  {
-   "k": "267028e8f709",
-   "ctx": "value",
-   "t": "Shri Ram Construction, Biharsharif / 05-11-2025 to 30-04-2026 / 160 days / Mason (Rajmistri)"
-  },
-  {
-   "k": "03f860dfde43",
-   "ctx": "hint",
-   "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
-  },
-  {
-   "k": "3db18476497a",
-   "ctx": "label",
-   "t": "Certifying Authority"
-  },
-  {
-   "k": "c978e679ac1a",
-   "ctx": "value",
-   "t": "Self Declaration"
-  },
-  {
    "k": "3ebe09aa598a",
    "ctx": "hint",
    "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
@@ -201,11 +111,6 @@
    "t": "Any working number you hold. The login OTP and the approval message come here."
   },
   {
-   "k": "8b33cb85419b",
-   "ctx": "value",
-   "t": "PMJAY / Bihar"
-  },
-  {
    "k": "bdc546a37a5a",
    "ctx": "hint",
    "t": "Choose Bihar. Ration-card families covered by the state scheme are found through the same search."
@@ -234,11 +139,6 @@
    "k": "1ebcd8e24bb2",
    "ctx": "hint",
    "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request rejected."
-  },
-  {
-   "k": "32317e929a0e",
-   "ctx": "value",
-   "t": "Saran / 841301"
   },
   {
    "k": "f72c93ef2dd2",
@@ -274,11 +174,6 @@
    "k": "6e4d7519db3f",
    "ctx": "helpline",
    "t": "14555 (Ayushman Bharat helpline) / 104 (Bihar health helpline)"
-  },
-  {
-   "k": "d591c6bc8f8f",
-   "ctx": "title",
-   "t": "Chandigarh Old Age Pension"
   },
   {
    "k": "dde5906ba5d7",
@@ -346,19 +241,9 @@
    "t": "Any Sampark centre in Chandigarh. Take the filled form with the cross-signed photograph, the signed self-undertaking and the Aadhaar consent page, plus the originals of your Aadhaar, three-year residence proof, age proof and income certificate. The operator checks and scans them and files the online application on the e-District system. If you have no birth proof, get your age certified first by the Principal Medical Officer at GMSH-16 or GMCH-32. For questions, go to the Department of Social Welfare, Additional Town Hall Building, 3rd Floor, Sector 17-C."
   },
   {
-   "k": "321c7352eccf",
-   "ctx": "value",
-   "t": "Gurdev Kaur"
-  },
-  {
    "k": "b94204753380",
    "ctx": "hint",
    "t": "The person in whose name the pension order will be issued."
-  },
-  {
-   "k": "153050beda93",
-   "ctx": "value",
-   "t": "Late Harbans Singh"
   },
   {
    "k": "3637483262c1",
@@ -366,19 +251,9 @@
    "t": "As on your Aadhaar or voter card."
   },
   {
-   "k": "b59ce15a8b10",
-   "ctx": "value",
-   "t": "05-02-1964, 62 years"
-  },
-  {
    "k": "d319b1369beb",
    "ctx": "hint",
    "t": "Must be 60 or more. Attach the date of birth proof."
-  },
-  {
-   "k": "dc2887b6cb61",
-   "ctx": "label",
-   "t": "Aadhaar No."
   },
   {
    "k": "c45af124738c",
@@ -386,24 +261,9 @@
    "t": "The pension is linked to this Aadhaar and paid to the account seeded with it."
   },
   {
-   "k": "060f9a490eb7",
-   "ctx": "label",
-   "t": "Mobile No."
-  },
-  {
    "k": "71fbe5e601ee",
    "ctx": "hint",
    "t": "SMS updates on your application come here."
-  },
-  {
-   "k": "45b9115e4525",
-   "ctx": "hint",
-   "t": "Tick Male, Female or Transgender."
-  },
-  {
-   "k": "aea8ea24d318",
-   "ctx": "label",
-   "t": "Belong to SC / OBC"
   },
   {
    "k": "b62d24f785a9",
@@ -411,24 +271,9 @@
    "t": "Tick only if it applies to you."
   },
   {
-   "k": "a427b15c45c7",
-   "ctx": "label",
-   "t": "House No. / Sector or Village"
-  },
-  {
-   "k": "b486497eb840",
-   "ctx": "value",
-   "t": "House 1187, Sector 41-B"
-  },
-  {
    "k": "3e7de6f4131e",
    "ctx": "hint",
    "t": "Where you have lived for the last three years. It must match your residence proof."
-  },
-  {
-   "k": "9397b4606c53",
-   "ctx": "label",
-   "t": "Present total family monthly income"
   },
   {
    "k": "3ff09d3d3967",
@@ -531,11 +376,6 @@
    "t": "Aadhaar card, with the mobile number linked to it"
   },
   {
-   "k": "a40742ed3334",
-   "ctx": "documents",
-   "t": "AgriStack Farmer ID (Kisan ID)"
-  },
-  {
    "k": "212d53186dc3",
    "ctx": "documents",
    "t": "B-1 and khasra (P-II) copy of your land, and the Kisan Kitab (Rin Pustika)"
@@ -544,11 +384,6 @@
    "k": "88d19bb01dcf",
    "ctx": "documents",
    "t": "Bank passbook of an account in the farmer's own name, linked to Aadhaar"
-  },
-  {
-   "k": "8d38b9da86a7",
-   "ctx": "documents",
-   "t": "Name and Aadhaar of a nominee"
   },
   {
    "k": "f064cc1cb02b",
@@ -561,24 +396,9 @@
    "t": "Go to the primary cooperative society (sewa sahkari samiti or LAMPS) where your village sells paddy, before the registration deadline (31 October for the 2026-27 season). Take your Aadhaar card, AgriStack Farmer ID, B-1 and khasra copy, Kisan Kitab and bank passbook. If you do not have a Farmer ID yet, the society operator can make it for you on the spot, or you can make it at a CSC or yourself on cgfr.agristack.gov.in. Farmers who sold at the society last year are already on its list and only need to check that their land and bank details are correct."
   },
   {
-   "k": "e7f76c9eb51e",
-   "ctx": "label",
-   "t": "Name of farmer"
-  },
-  {
-   "k": "b4e86952d33a",
-   "ctx": "value",
-   "t": "Ramesh Kumar Sahu"
-  },
-  {
    "k": "7a0750286fd5",
    "ctx": "hint",
    "t": "Your name exactly as on the land record (B-1) and Aadhaar."
-  },
-  {
-   "k": "cbde1bf11493",
-   "ctx": "value",
-   "t": "Shri Govind Ram Sahu"
   },
   {
    "k": "f2ae66b28da2",
@@ -591,11 +411,6 @@
    "t": "Your own Aadhaar. The OTP goes to the mobile linked to it."
   },
   {
-   "k": "d856382aced1",
-   "ctx": "label",
-   "t": "AgriStack Farmer ID"
-  },
-  {
    "k": "5568ed1b6940",
    "ctx": "hint",
    "t": "The Kisan ID from the farmer registry. The society cannot register you for 2026-27 without it."
@@ -606,24 +421,9 @@
    "t": "Token messages and payment messages come to this number."
   },
   {
-   "k": "3d6095525d8a",
-   "ctx": "label",
-   "t": "Village and society"
-  },
-  {
-   "k": "e464ac4f392d",
-   "ctx": "value",
-   "t": "Kharora / Sewa Sahkari Samiti Kharora"
-  },
-  {
    "k": "717542551333",
    "ctx": "hint",
    "t": "The society where your village's paddy is bought."
-  },
-  {
-   "k": "a7fc41d1029c",
-   "ctx": "label",
-   "t": "Khasra numbers and area"
   },
   {
    "k": "52c3367a0b0d",
@@ -864,6 +664,96 @@
    "k": "3640d854e1b5",
    "ctx": "documents",
    "t": "Signed undertaking (printed with the form)"
+  },
+  {
+   "k": "13a62ce638ad",
+   "ctx": "submitAt",
+   "t": "Address the form to the Chief Executive Officer of the District Panchayat (villages) or the Chief Officer of the Municipal Council (towns). Hand it in at your Gram Panchayat, or at the District Panchayat or Municipal Council office in Silvassa, Daman or Diu, with all the documents. In villages the Gram Sevak recommends it, it is read in the Gram Sabha, and the Sarpanch and Panchayat Secretary approve it before it goes up."
+  },
+  {
+   "k": "36618b26b4c6",
+   "ctx": "hint",
+   "t": "Tick Old Age. The same form is used for widow and Divyang pensions."
+  },
+  {
+   "k": "a0e225383326",
+   "ctx": "hint",
+   "t": "Your full address and a working mobile number."
+  },
+  {
+   "k": "88081205fd84",
+   "ctx": "hint",
+   "t": "Your Gram Panchayat, or write the Municipal Council if you live in a town."
+  },
+  {
+   "k": "119fcdbb74dc",
+   "ctx": "label",
+   "t": "Age, date of birth and gender"
+  },
+  {
+   "k": "82f1574afdc7",
+   "ctx": "hint",
+   "t": "At 70 or above you get Rs.2,000 a month."
+  },
+  {
+   "k": "a936ac509504",
+   "ctx": "hint",
+   "t": "Must not be above Rs.1.5 lakh. Attach the income certificate."
+  },
+  {
+   "k": "8f2b7db3ded2",
+   "ctx": "label",
+   "t": "Receiving financial assistance from any other agency?"
+  },
+  {
+   "k": "cbcb79002652",
+   "ctx": "hint",
+   "t": "Anyone already getting another old age pension is not eligible."
+  },
+  {
+   "k": "34453ba135e6",
+   "ctx": "label",
+   "t": "Name of bank, account number and IFSC"
+  },
+  {
+   "k": "1699573dd039",
+   "ctx": "hint",
+   "t": "The account must be linked to Aadhaar. The pension is credited here."
+  },
+  {
+   "k": "3411364df696",
+   "ctx": "label",
+   "t": "Applied for Portugal or any other passport?"
+  },
+  {
+   "k": "55def21336e0",
+   "ctx": "hint",
+   "t": "Answer Yes or No truthfully. This question is on the official form."
+  },
+  {
+   "k": "cd5cbefd6aa0",
+   "ctx": "demoSteps",
+   "t": "Download the form, or collect it at the District Panchayat or Municipal Council office, and fill in Part 1."
+  },
+  {
+   "k": "ec51702bbc00",
+   "ctx": "demoSteps",
+   "t": "Attach the age, income and domicile certificates, Aadhaar and the bank passbook copy, and sign the undertaking."
+  },
+  {
+   "k": "3ad3675372bc",
+   "ctx": "demoSteps",
+   "t": "Submit it at your Gram Panchayat, District Panchayat or Municipal Council office and keep the receipt."
+  },
+  {
+   "k": "89d4e6b23b4c",
+   "ctx": "demoSteps",
+   "t": "Field staff verify your papers. In villages the application is read in the Gram Sabha, and the CEO or Chief Officer approves it, usually within 30 days."
+  },
+  {
+   "k": "c500d45d75bc",
+   "ctx": "demoSteps",
+   "t": "The pension is credited to your bank account by the 5th of every month."
   }
  ]
 }

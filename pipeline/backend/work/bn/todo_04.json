@@ -6,276 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/bn/done_04.json",
  "items": [
   {
-   "k": "7a05a9020026",
-   "ctx": "demoSteps",
-   "t": "Open pmmvy.wcd.gov.in, press Login, choose Citizen, verify your mobile with OTP and create your profile. If you cannot do it, ask your Anganwadi worker or ASHA to fill the form for you on her app."
-  },
-  {
-   "k": "17ddc22e7ed3",
-   "ctx": "demoSteps",
-   "t": "Choose Beneficiary Registration, verify Aadhaar with OTP, fill the eligibility proof, LMP and check-up dates and the Anganwadi centre, then submit and note the registration number."
-  },
-  {
-   "k": "8b3a9c436022",
-   "ctx": "demoSteps",
-   "t": "The Anganwadi worker checks your details and the block officer approves. Rs.3,000 is then sent to your Aadhaar-linked account."
-  },
-  {
-   "k": "1d37e931f9af",
-   "ctx": "demoSteps",
-   "t": "After the birth, register the baby's birth and get the 14-week vaccines. Then log in again, or ask the Anganwadi worker, to fill the child's details. Rs.2,000 is sent next."
-  },
-  {
-   "k": "525abdb6ca1c",
-   "ctx": "demoSteps",
-   "t": "If your second child is a girl, apply after her birth and 14-week vaccines. Rs.6,000 is sent in one payment."
-  },
-  {
-   "k": "24819b81f80f",
-   "ctx": "demoSteps",
-   "t": "Check progress under Track Application Status on the portal. For a delay, use Lodge Grievance on the same site or call 1515."
-  },
-  {
-   "k": "a95c51035e52",
-   "ctx": "helpline",
-   "t": "1515 (POSHAN and PMMVY toll-free helpline; earlier 14408)"
-  },
-  {
-   "k": "a90a5ba91252",
-   "ctx": "title",
-   "t": "Andaman & Nicobar Old Age Pension (Social Security Pension)"
-  },
-  {
-   "k": "4e1d33a85a51",
-   "ctx": "department",
-   "t": "Directorate of Social Welfare, Andaman & Nicobar Administration"
-  },
-  {
-   "k": "569e2fe5e5c6",
-   "ctx": "brief",
-   "t": "Old people in the islands get Rs.2,500 a month from 60, and Rs.3,000 a month from 80, paid into their bank account. It is for people who have lived in the islands for at least 10 years and whose household earns less than Rs.48,000 a year. One common form covers the old age, widow, destitute and disability pensions. You hand it in at the CDPO office of your area. More than 15,600 people get this pension."
-  },
-  {
-   "k": "baafac1115f1",
-   "ctx": "benefit",
-   "t": "Rs.2,500 a month (Rs.3,000 a month from age 80)"
-  },
-  {
-   "k": "1c5c77eb71ff",
-   "ctx": "eligibility",
-   "t": "Age 60 years or above"
-  },
-  {
-   "k": "f7dfd69424b0",
-   "ctx": "eligibility",
-   "t": "Living in the islands continuously for at least 10 years (local certificate or resident identity card)"
-  },
-  {
-   "k": "84b663486f11",
-   "ctx": "eligibility",
-   "t": "Household income less than Rs.48,000 a year (Rs.4,000 a month)"
-  },
-  {
-   "k": "883b5f695b53",
-   "ctx": "eligibility",
-   "t": "Not getting any other pension, allowance or grant from the government"
-  },
-  {
-   "k": "26c8cedaa4fc",
-   "ctx": "eligibility",
-   "t": "From age 80 the pension rises to Rs.3,000 a month"
-  },
-  {
-   "k": "4d6afda93f5a",
-   "ctx": "documents",
-   "t": "Local certificate or domicile certificate"
-  },
-  {
-   "k": "d09402c0dae6",
-   "ctx": "documents",
-   "t": "Bank account number (passbook copy)"
-  },
-  {
-   "k": "98e9c23e0965",
-   "ctx": "documents",
-   "t": "Income and residence certificate from the Tehsildar (printed on the form)"
-  },
-  {
-   "k": "f753a6bb6ae7",
-   "ctx": "documents",
-   "t": "Age certificate from a Medical Officer (printed on the form)"
-  },
-  {
-   "k": "c2e4fdebf7f5",
-   "ctx": "documents",
-   "t": "Certificate from your Pradhan or Councillor (printed on the form)"
-  },
-  {
-   "k": "cb2dab1a18f8",
-   "ctx": "documents",
-   "t": "Signed declaration that you get no other government assistance"
-  },
-  {
-   "k": "dd7a458560d6",
-   "ctx": "portalName",
-   "t": "Directorate of Social Welfare, A&N Administration"
-  },
-  {
-   "k": "2843acaac1a3",
-   "ctx": "submitAt",
-   "t": "The office of the Child Development Project Officer (CDPO) of your area: Urban (Sri Vijaya Puram), Ferrargunj, Rangat, Diglipur or Car Nicobar. Forms are also free at the Directorate of Social Welfare, Goalghar, Sri Vijaya Puram (Port Blair). Before you submit, get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate filled in on the form. Attach the local certificate and an Aadhaar copy."
-  },
-  {
-   "k": "227865edaf07",
-   "ctx": "label",
-   "t": "Name of assistance applied for"
-  },
-  {
-   "k": "dfa971fddd4e",
-   "ctx": "hint",
-   "t": "Tick Old Age Pension. The same form is used for widow, destitute and disability pensions."
-  },
-  {
-   "k": "e928425a2ea0",
-   "ctx": "label",
-   "t": "Name of the applicant"
-  },
-  {
-   "k": "7bc17aa88132",
-   "ctx": "value",
-   "t": "K. Muniyamma"
-  },
-  {
-   "k": "a6a2fbcece85",
-   "ctx": "label",
-   "t": "Father's / Husband's name"
-  },
-  {
-   "k": "8ce2c91983be",
-   "ctx": "value",
-   "t": "Late K. Arumugam"
-  },
-  {
-   "k": "3574a1ae1aa1",
-   "ctx": "hint",
-   "t": "Write 'Late' if he has died."
-  },
-  {
-   "k": "79c38645748a",
-   "ctx": "hint",
-   "t": "Male or Female."
-  },
-  {
-   "k": "6f4763f26fdd",
-   "ctx": "label",
-   "t": "Married / Unmarried / Widow"
-  },
-  {
-   "k": "3ea07b157562",
-   "ctx": "hint",
-   "t": "Your present status."
-  },
-  {
-   "k": "3a175112966c",
-   "ctx": "hint",
-   "t": "Must show you are 60 or more. The Medical Officer certifies your age on the form."
-  },
-  {
-   "k": "ba127e614ba6",
-   "ctx": "label",
-   "t": "Present address"
-  },
-  {
-   "k": "9ea2506763bb",
-   "ctx": "value",
-   "t": "House 42, Garacharma-II, South Andaman"
-  },
-  {
-   "k": "b022defd8b50",
-   "ctx": "hint",
-   "t": "Where you live now, with village or ward."
-  },
-  {
-   "k": "e9d44657fe75",
-   "ctx": "label",
-   "t": "Category (APL / BPL)"
-  },
-  {
-   "k": "39ed2037fe94",
-   "ctx": "hint",
-   "t": "As on your ration card."
-  },
-  {
-   "k": "50589fcd2b01",
-   "ctx": "label",
-   "t": "Details of assistance received from Govt./local bodies"
-  },
-  {
-   "k": "c916da70cd4a",
-   "ctx": "value",
-   "t": "Nil"
-  },
-  {
-   "k": "2d67bc024d92",
-   "ctx": "hint",
-   "t": "Write Nil if you get no pension or grant. Anyone already getting one is not eligible."
-  },
-  {
-   "k": "636ee83204e0",
-   "ctx": "label",
-   "t": "Bank account number and Aadhaar number"
-  },
-  {
-   "k": "d5e523cb6c0f",
-   "ctx": "hint",
-   "t": "The pension is paid into this account every month."
-  },
-  {
-   "k": "f3ba0a8657ae",
-   "ctx": "demoSteps",
-   "t": "Download the pension form or collect it free at the CDPO office or the Directorate of Social Welfare."
-  },
-  {
-   "k": "45b0d1824015",
-   "ctx": "demoSteps",
-   "t": "Get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate on the form."
-  },
-  {
-   "k": "ee5c361baea3",
-   "ctx": "demoSteps",
-   "t": "Sign the declaration and hand in the form with your local certificate and Aadhaar copy at your CDPO office."
-  },
-  {
-   "k": "ad46cfe55123",
-   "ctx": "demoSteps",
-   "t": "The CDPO checks that you get no other assistance and sends the case to the Directorate of Social Welfare for sanction."
-  },
-  {
-   "k": "a064b5172f30",
-   "ctx": "demoSteps",
-   "t": "Once sanctioned, Rs.2,500 (Rs.3,000 from age 80) is paid into your bank account every month."
-  },
-  {
-   "k": "451edf68eccf",
-   "ctx": "demoSteps",
-   "t": "Give a life certificate every year in the prescribed format to your Anganwadi worker or Mukhya Sevika, or the pension is suspended."
-  },
-  {
-   "k": "cfc38501ca60",
-   "ctx": "helpline",
-   "t": "03192-233356 — Directorate of Social Welfare, Sri Vijaya Puram (Port Blair); your CDPO office"
-  },
-  {
-   "k": "c8b75e17b5e2",
-   "ctx": "title",
-   "t": "Annadata Sukhibhava – PM Kisan (Rs.20,000 farmer support)"
-  },
-  {
-   "k": "c0e589142f85",
-   "ctx": "department",
-   "t": "Agriculture Department, Government of Andhra Pradesh, with PM-KISAN, Government of India"
-  },
-  {
    "k": "a9186a7a330e",
    "ctx": "brief",
    "t": "Andhra Pradesh pays farmer families Rs.20,000 a year for crop costs. Rs.14,000 of it comes from the state and Rs.6,000 from PM-Kisan, all sent by DBT in three instalments. It replaced the earlier YSR Rythu Bharosa. Farmers whose land is in the state land records are listed automatically. Anyone missing from the list, and tenant farmers, register or complain at their Rythu Seva Kendram (RSK)."
@@ -311,11 +41,6 @@
    "t": "Aadhaar e-KYC must be complete, and the bank account must be Aadhaar-seeded and NPCI-mapped"
   },
   {
-   "k": "676050bcebf7",
-   "ctx": "documents",
-   "t": "Aadhaar card of the farmer"
-  },
-  {
    "k": "e4a7e940df4c",
    "ctx": "documents",
    "t": "Pattadar passbook, or the 1-B / Adangal extract of the land"
@@ -326,29 +51,9 @@
    "t": "Bank passbook showing account number and IFSC (Aadhaar-seeded account)"
   },
   {
-   "k": "5f2e65741b6e",
-   "ctx": "documents",
-   "t": "CCRC card, for a tenant farmer"
-  },
-  {
-   "k": "765f07605f80",
-   "ctx": "documents",
-   "t": "ROFR title, for forest-rights land"
-  },
-  {
-   "k": "47e16d81f9d7",
-   "ctx": "portalName",
-   "t": "Annadatha Sukhibhava – PM Kisan portal"
-  },
-  {
    "k": "dd4180668556",
    "ctx": "submitAt",
    "t": "The Rythu Seva Kendram (RSK) in your village. Take Aadhaar, the pattadar passbook or 1-B, the bank passbook and, for tenants, the CCRC card. The Village Agriculture Assistant registers you, does your e-KYC and files a grievance if your name is missing from the eligible list."
-  },
-  {
-   "k": "f1d109b29732",
-   "ctx": "value",
-   "t": "Narasimha Rao Kotha"
   },
   {
    "k": "b019a8422604",
@@ -366,19 +71,9 @@
    "t": "The number linked to Aadhaar. OTPs and payment messages come here."
   },
   {
-   "k": "2e4e520ff25f",
-   "ctx": "value",
-   "t": "Land owner"
-  },
-  {
    "k": "99460687bf90",
    "ctx": "hint",
    "t": "Land owner, tenant (CCRC holder) or forest-rights (ROFR) holder."
-  },
-  {
-   "k": "1fc2919e329c",
-   "ctx": "value",
-   "t": "Prakasam / Darsi / Thurpu Veerayapalem"
   },
   {
    "k": "fb9b1a573cae",
@@ -386,44 +81,14 @@
    "t": "The village where the land is, not where you live."
   },
   {
-   "k": "a645802dd224",
-   "ctx": "label",
-   "t": "Khata number and survey number"
-  },
-  {
-   "k": "66342c47335e",
-   "ctx": "value",
-   "t": "Khata 1187, Survey 214/2B"
-  },
-  {
    "k": "b6df5bad9494",
    "ctx": "hint",
    "t": "Copy them from the pattadar passbook or 1-B. The assistant checks them against Webland."
   },
   {
-   "k": "62e389e33859",
-   "ctx": "label",
-   "t": "Extent of land"
-  },
-  {
-   "k": "da60a2ef4207",
-   "ctx": "value",
-   "t": "2.40 acres"
-  },
-  {
    "k": "81f148866da3",
    "ctx": "hint",
    "t": "Your share as shown in the land record. If land is held jointly, only one family member is paid."
-  },
-  {
-   "k": "a4e42b95e0c4",
-   "ctx": "label",
-   "t": "CCRC number (tenants only)"
-  },
-  {
-   "k": "67c4d0506a44",
-   "ctx": "value",
-   "t": "Not applicable"
   },
   {
    "k": "a2627e0b9638",
@@ -434,11 +99,6 @@
    "k": "ef526491ebc8",
    "ctx": "hint",
    "t": "Make sure the account is Aadhaar-seeded and NPCI-mapped. Ask your bank if you are not sure."
-  },
-  {
-   "k": "265b72dddf52",
-   "ctx": "value",
-   "t": "Done by fingerprint at RSK"
   },
   {
    "k": "60956e734296",
@@ -541,11 +201,6 @@
    "t": "Aadhaar card of the mother or guardian"
   },
   {
-   "k": "22f4ddad7175",
-   "ctx": "documents",
-   "t": "Aadhaar card of each child"
-  },
-  {
    "k": "4fa58bee5477",
    "ctx": "documents",
    "t": "Bank or post office passbook in the mother's name, Aadhaar-seeded and NPCI-mapped"
@@ -566,24 +221,9 @@
    "t": "No application is needed. The head of the school enters the child's details, and the Swarna Gramam / Swarna Ward office (Village or Ward Secretariat) checks the family. The eligible and ineligible lists are put up at that office. If you are left out, file a grievance there with the Welfare and Education Assistant or the Digital Assistant. Take the mother's and child's Aadhaar, the rice card, the bank passbook and proof against the reason for rejection."
   },
   {
-   "k": "3c11b819acb5",
-   "ctx": "label",
-   "t": "Mother / guardian name"
-  },
-  {
-   "k": "7a8df8c635db",
-   "ctx": "value",
-   "t": "Rama Devi Gollapalli"
-  },
-  {
    "k": "d650844f7d85",
    "ctx": "hint",
    "t": "As on her Aadhaar. The money goes to the mother; to the father only if she is not there, and to a guardian if neither parent is."
-  },
-  {
-   "k": "32ab941ecb20",
-   "ctx": "label",
-   "t": "Mother's Aadhaar number"
   },
   {
    "k": "3cda3078661c",
@@ -591,24 +231,9 @@
    "t": "She must be in the Secretariat's household database. If only the child is listed, ask for field verification."
   },
   {
-   "k": "d3857f3b46ca",
-   "ctx": "label",
-   "t": "Student name"
-  },
-  {
-   "k": "fc1ffc123082",
-   "ctx": "value",
-   "t": "Pavan Gollapalli"
-  },
-  {
    "k": "598b0c08ebbf",
    "ctx": "hint",
    "t": "Exactly as in the school register. One entry for each child."
-  },
-  {
-   "k": "af4d2c4daf6e",
-   "ctx": "label",
-   "t": "Student Aadhaar number"
   },
   {
    "k": "3641f84e82da",
@@ -616,24 +241,9 @@
    "t": "It must match the school's UDISE record, or the child is dropped as a duplicate."
   },
   {
-   "k": "30dcac5bca0b",
-   "ctx": "label",
-   "t": "School name and class"
-  },
-  {
-   "k": "2667b06e44f5",
-   "ctx": "value",
-   "t": "ZP High School, Kovvur — Class 8"
-  },
-  {
    "k": "542d2c0c8003",
    "ctx": "hint",
    "t": "Any recognised government, aided, private or residential school, or a junior college for Intermediate."
-  },
-  {
-   "k": "1c3ec7a3e34b",
-   "ctx": "label",
-   "t": "Rice card number"
   },
   {
    "k": "1d8c1e10f748",
@@ -646,24 +256,9 @@
    "t": "In the mother's own name. It must be Aadhaar-seeded and NPCI-mapped, or the payment fails."
   },
   {
-   "k": "957498c5a5f0",
-   "ctx": "label",
-   "t": "Reason shown as ineligible"
-  },
-  {
-   "k": "fb37cb396275",
-   "ctx": "value",
-   "t": "Electricity use above 300 units"
-  },
-  {
    "k": "830849fb5cf1",
    "ctx": "hint",
    "t": "Read the reason on the list at the office. Common ones are electricity, land, four-wheeler, government job and income tax."
-  },
-  {
-   "k": "81beb0935d37",
-   "ctx": "label",
-   "t": "Your objection"
   },
   {
    "k": "1594fab644e6",
@@ -766,19 +361,9 @@
    "t": "Certificate of 90 days of construction work, signed by the employer or builder, a registered trade union, or the labour officer"
   },
   {
-   "k": "12934e67ab15",
-   "ctx": "documents",
-   "t": "Passport-size photograph and signature"
-  },
-  {
    "k": "055155d3e535",
    "ctx": "documents",
    "t": "Bank passbook showing account number and IFSC"
-  },
-  {
-   "k": "43162899a808",
-   "ctx": "documents",
-   "t": "Rice card and age proof"
   },
   {
    "k": "5edfcb7197f6",
@@ -806,24 +391,9 @@
    "t": "Your own 12 digits. One registration per person."
   },
   {
-   "k": "949aeaed90a8",
-   "ctx": "value",
-   "t": "Appala Raju Kandregula, 12-03-1988"
-  },
-  {
    "k": "08ff23dfcd20",
    "ctx": "hint",
    "t": "As on Aadhaar. You must be 18 or older and below 60."
-  },
-  {
-   "k": "451510782afd",
-   "ctx": "label",
-   "t": "Father / Husband name"
-  },
-  {
-   "k": "604991a44772",
-   "ctx": "value",
-   "t": "Kandregula Satyam"
   },
   {
    "k": "203109b93b71",
@@ -831,19 +401,9 @@
    "t": "Write the father's name, or the husband's name for a married woman."
   },
   {
-   "k": "a1f4584e0993",
-   "ctx": "label",
-   "t": "Caste and phone number"
-  },
-  {
    "k": "e3103ab8d4f7",
    "ctx": "hint",
    "t": "Tick SC, ST, BC, Minority or Others. Messages about the card and claims come to the phone."
-  },
-  {
-   "k": "80375df05478",
-   "ctx": "label",
-   "t": "Family members and nominee"
   },
   {
    "k": "12822c656d4f",
@@ -854,16 +414,6 @@
    "k": "f4cb1c4b9fba",
    "ctx": "hint",
    "t": "Name, age and relation of each. The nominee gets the money if you die. Shares must add up to 100%."
-  },
-  {
-   "k": "49cbc651c894",
-   "ctx": "label",
-   "t": "Bank details"
-  },
-  {
-   "k": "c9357727dc00",
-   "ctx": "value",
-   "t": "9999 0033 6620 / IOBA0001234, Indian Overseas Bank, Anakapalli"
   },
   {
    "k": "2f694dafdb37",
@@ -904,16 +454,6 @@
    "k": "4a7d1ed9e8a6",
    "ctx": "hint",
    "t": "Where you work now. This employer, a registered union or the labour officer signs your 90-day certificate."
-  },
-  {
-   "k": "c1240ca576ec",
-   "ctx": "label",
-   "t": "Name of trade"
-  },
-  {
-   "k": "adf9adb6a968",
-   "ctx": "value",
-   "t": "Mason"
   },
   {
    "k": "f32c45fae5f5",
@@ -1031,11 +571,6 @@
    "t": "Mobile number and a recent family photograph"
   },
   {
-   "k": "2c486fd3a87c",
-   "ctx": "portalName",
-   "t": "Dr. NTR Vaidya Seva Trust"
-  },
-  {
    "k": "d711dd0ba82b",
    "ctx": "submitAt",
    "t": "Your Village or Ward Secretariat (now called the Swarna Gramam / Swarna Ward office). Ask the Digital Assistant for the NTR Vaidya Seva health card. Take Aadhaar for every member, the rice card or an income certificate, and the pattadar passbook or property tax receipt. Your household must already appear in the Secretariat's household survey. For treatment, go to the Aarogya Mithra desk at any network hospital or PHC."
@@ -1046,11 +581,6 @@
    "t": "Name of the head of the family"
   },
   {
-   "k": "c93b6a6ea5f6",
-   "ctx": "value",
-   "t": "Venkata Lakshmi Palli"
-  },
-  {
    "k": "fce4c84238d6",
    "ctx": "hint",
    "t": "As printed on Aadhaar. The card is made for the whole family under this name."
@@ -1059,11 +589,6 @@
    "k": "fadd5d277a2c",
    "ctx": "hint",
    "t": "The head of the family's 12-digit number. The Digital Assistant checks it with your thumbprint."
-  },
-  {
-   "k": "794e5fce9f06",
-   "ctx": "label",
-   "t": "Household ID (household survey)"
   },
   {
    "k": "54b1369aaefa",
@@ -1086,11 +611,6 @@
    "t": "Everyone who lives and eats with you. Each person needs their own Aadhaar."
   },
   {
-   "k": "8a193c27a6a2",
-   "ctx": "label",
-   "t": "Annual family income and proof"
-  },
-  {
    "k": "db1e81a280c5",
    "ctx": "value",
    "t": "Rs.3,60,000; salary certificate from Sri Sai Textiles, Guntur"
@@ -1101,39 +621,14 @@
    "t": "It must be Rs.5 lakh or less. Attach the salary certificate, income certificate or income-tax return."
   },
   {
-   "k": "12916b8f55d1",
-   "ctx": "label",
-   "t": "Land held"
-  },
-  {
-   "k": "5155c359b06d",
-   "ctx": "value",
-   "t": "Wet 0, Dry 1.5 acres"
-  },
-  {
    "k": "af9b275d7c14",
    "ctx": "hint",
    "t": "Copy it from the pattadar passbook. Wet land must be under 12 acres and dry land under 35 acres."
   },
   {
-   "k": "5d1a43731af7",
-   "ctx": "label",
-   "t": "House area for municipal tax"
-  },
-  {
-   "k": "d29d5e3b5ca2",
-   "ctx": "value",
-   "t": "850 sq ft"
-  },
-  {
    "k": "8ec531b769a5",
    "ctx": "hint",
    "t": "Only for towns. It is on your property tax receipt and must be under 3,000 sq ft."
-  },
-  {
-   "k": "3d1ea7a5846f",
-   "ctx": "label",
-   "t": "Number of four-wheelers owned"
   },
   {
    "k": "94df7d624a20",
@@ -1186,11 +681,6 @@
    "t": "104 — Dr. NTR Vaidya Seva and Aarogya Aasara information and complaints / 108 — emergency ambulance"
   },
   {
-   "k": "378f87c67811",
-   "ctx": "title",
-   "t": "Deepam-2 (3 free LPG gas cylinders a year)"
-  },
-  {
    "k": "98372ef3499e",
    "ctx": "department",
    "t": "Consumer Affairs, Food & Civil Supplies Department, Government of Andhra Pradesh"
@@ -1229,11 +719,6 @@
    "k": "b01ca20959cc",
    "ctx": "eligibility",
    "t": "LPG e-KYC done at the gas agency, and a bank account seeded with the connection holder's Aadhaar"
-  },
-  {
-   "k": "6bce733b209d",
-   "ctx": "documents",
-   "t": "LPG gas book or consumer number"
   },
   {
    "k": "36dfc8f23089",
@@ -1276,24 +761,259 @@
    "t": "Type the letters shown in the picture. Tap refresh if you cannot read them."
   },
   {
-   "k": "8f40f1055516",
-   "ctx": "label",
-   "t": "LPG connection holder"
-  },
-  {
-   "k": "c12d7b205c71",
-   "ctx": "value",
-   "t": "Bhavani Yerramsetti"
-  },
-  {
    "k": "8b081e179184",
    "ctx": "hint",
    "t": "The family member in whose name the gas connection stands. The refund goes to her Aadhaar-seeded account."
   },
   {
-   "k": "d8e28c01088e",
+   "k": "f89c099ef6ee",
+   "ctx": "hint",
+   "t": "Shown from the rice card record. It should be where your family lives."
+  },
+  {
+   "k": "17ffba81d0fe",
+   "ctx": "hint",
+   "t": "If it says IN-ELIGIBLE, the page also shows why, such as electricity, government job or land. Take proof to the Secretariat."
+  },
+  {
+   "k": "451690216322",
+   "ctx": "hint",
+   "t": "The year has three blocks: April–July, August–November and December–March. Book one cylinder in each. An unused block does not carry forward."
+  },
+  {
+   "k": "fe4405a91490",
+   "ctx": "hint",
+   "t": "Book the usual way with your gas agency. Pay the delivery person the printed price."
+  },
+  {
+   "k": "e3c830112c5f",
+   "ctx": "hint",
+   "t": "Usually within 48 hours of delivery, to the bank account seeded with the connection holder's Aadhaar."
+  },
+  {
+   "k": "e54f5bbb43df",
+   "ctx": "demoSteps",
+   "t": "Open bm-sgsw.ap.gov.in/BM/DeepamStatus. Enter your rice card or LPG consumer number and the captcha to see if your family is eligible."
+  },
+  {
+   "k": "7840c1dd0757",
+   "ctx": "demoSteps",
+   "t": "If you are shown ineligible, go to your Village or Ward Secretariat with the rice card, gas book and Aadhaar and ask for it to be checked."
+  },
+  {
+   "k": "ea8445d9ea3f",
+   "ctx": "demoSteps",
+   "t": "Complete LPG e-KYC at your gas agency and make sure the connection holder's bank account is seeded with Aadhaar."
+  },
+  {
+   "k": "997fd231a180",
+   "ctx": "demoSteps",
+   "t": "In each four-month block (April–July, August–November, December–March), book one cylinder with your gas agency in the usual way."
+  },
+  {
+   "k": "247d46e93515",
+   "ctx": "demoSteps",
+   "t": "Pay the delivery person the price printed on the bill and keep the bill."
+  },
+  {
+   "k": "f87e9ebf49c7",
+   "ctx": "demoSteps",
+   "t": "The full amount is refunded to the Aadhaar-seeded bank account, usually within 48 hours. Check your passbook or the bank SMS."
+  },
+  {
+   "k": "6cc7647f8a8c",
+   "ctx": "demoSteps",
+   "t": "If the refund does not come, check the status page again and call the Civil Supplies helpline 1967."
+  },
+  {
+   "k": "d0da0b99d1f0",
+   "ctx": "helpline",
+   "t": "1967 / 1800-425-2977 — AP Civil Supplies helpline / 1902 — AP government citizen helpline"
+  },
+  {
+   "k": "b5a4c84d93d2",
+   "ctx": "title",
+   "t": "Chief Minister Arogya Arunachal Yojana (CMAAY Card)"
+  },
+  {
+   "k": "32eb1391f1a5",
+   "ctx": "department",
+   "t": "State Health Agency (Chief Minister Arogya Arunachal Society), Department of Health & Family Welfare, Government of Arunachal Pradesh"
+  },
+  {
+   "k": "728d044c6b96",
+   "ctx": "brief",
+   "t": "Arunachal's own health cover of Rs.5 lakh a year per family, cashless at empanelled government and private hospitals inside and outside the state. It is for APST families, state government employees and pensioners, non-APST Resident Certificate holders of Changlang, Lohit and Namsai, and accredited journalists, and it runs side by side with Ayushman Bharat PM-JAY. Enrolment is free: apply on the CMAAY portal or the Arogya Arunachal app, or at the CMAAY kiosk in a district hospital or a CSC, then download the e-card. The old APCMUHIS smart card is no longer valid, so families must enrol again under CMAAY."
+  },
+  {
+   "k": "6e2877a05e93",
+   "ctx": "benefit",
+   "t": "Rs.5 lakh a year per family, cashless (Rs.1 lakh secondary care + Rs.4 lakh tertiary care)"
+  },
+  {
+   "k": "604bf9402371",
+   "ctx": "eligibility",
+   "t": "Arunachal Pradesh Scheduled Tribe (APST) families living in the state"
+  },
+  {
+   "k": "e4c66f94f636",
+   "ctx": "eligibility",
+   "t": "Regular state government employees and state pensioners, with their dependent family members"
+  },
+  {
+   "k": "5a965f988fde",
+   "ctx": "eligibility",
+   "t": "Non-APST permanent residents of Changlang, Lohit and Namsai districts who hold a Resident Certificate (RC)"
+  },
+  {
+   "k": "790fc89a2cb4",
+   "ctx": "eligibility",
+   "t": "Working journalists accredited with the Arunachal Pradesh Union of Working Journalists (APUWJ) or the Arunachal Press Club"
+  },
+  {
+   "k": "9a6b324c45c7",
+   "ctx": "eligibility",
+   "t": "Not for Central Government or PSU employees"
+  },
+  {
+   "k": "ef4a8b8b1c17",
+   "ctx": "eligibility",
+   "t": "No income limit. The Rs.1 lakh secondary and Rs.4 lakh tertiary limits cannot be swapped, and treatment outside the state needs a referral from a government hospital, except in emergencies"
+  },
+  {
+   "k": "4525944b508d",
+   "ctx": "documents",
+   "t": "APST (tribe) certificate issued by the Government of Arunachal Pradesh, for APST families"
+  },
+  {
+   "k": "77cd04b32df6",
+   "ctx": "documents",
+   "t": "Resident Certificate (RC), for non-APST families of Changlang, Lohit and Namsai"
+  },
+  {
+   "k": "161823081606",
+   "ctx": "documents",
+   "t": "Ration card or family tree certificate showing the family members"
+  },
+  {
+   "k": "a8299c98722d",
+   "ctx": "documents",
+   "t": "Government employees: employee ID card and the family declaration form countersigned by the DDO or Head of Office; pensioners: PPO"
+  },
+  {
+   "k": "2155f146a8d4",
+   "ctx": "documents",
+   "t": "Journalists: accreditation certificate from APUWJ or the Arunachal Press Club"
+  },
+  {
+   "k": "88664c5e0ba8",
+   "ctx": "hint",
+   "t": "Choose Public for APST and RC families. Government employees, state pensioners and journalists pick their own type."
+  },
+  {
+   "k": "25301e439a90",
+   "ctx": "hint",
+   "t": "Aadhaar of the head of the family. The OTP goes to the mobile linked with it, and you can create or fetch the ABHA number here."
+  },
+  {
+   "k": "6bc9f4fff828",
+   "ctx": "hint",
+   "t": "Exactly as written on the Aadhaar card, in capital letters."
+  },
+  {
+   "k": "7deb8c6f0304",
+   "ctx": "hint",
+   "t": "Father's name, or husband's name for a married woman."
+  },
+  {
+   "k": "57b2754f7214",
+   "ctx": "hint",
+   "t": "As on Aadhaar. The age is filled in by itself."
+  },
+  {
+   "k": "f2efd235e2c3",
+   "ctx": "hint",
+   "t": "Relation is how this person is related to the head of the family. The head is always Self."
+  },
+  {
+   "k": "cd1cc9bd7af7",
+   "ctx": "hint",
+   "t": "A number you keep with you. Messages about approval come here."
+  },
+  {
+   "k": "c94e10c9ee6b",
    "ctx": "label",
-   "t": "District / Mandal"
+   "t": "Ration Card No. / Ration Card Type"
+  },
+  {
+   "k": "b284b6ecd685",
+   "ctx": "hint",
+   "t": "Copy the number from the ration card and tick APL or BPL as printed on it."
+  },
+  {
+   "k": "58a45a535139",
+   "ctx": "label",
+   "t": "Permanent Address, Pin Code, District, Circle, Village"
+  },
+  {
+   "k": "839bdb2cad8b",
+   "ctx": "value",
+   "t": "Doimukh, 791112, Papum Pare, Doimukh Circle, Doimukh"
+  },
+  {
+   "k": "03b9563093e6",
+   "ctx": "hint",
+   "t": "Your permanent address in Arunachal, as on the ST certificate or RC."
+  },
+  {
+   "k": "0a2c61f016a5",
+   "ctx": "value",
+   "t": "ST Certificate, Aadhaar Card, Family Self Declaration"
+  },
+  {
+   "k": "23cf0ce9c46e",
+   "ctx": "hint",
+   "t": "Upload a clear photo or PDF of each. RC holders upload the RC instead of the ST certificate. Employees also upload the DDO certificate."
+  },
+  {
+   "k": "34d31ff6e1e9",
+   "ctx": "demoSteps",
+   "t": "Open the CMAAY portal and click Apply Online under Enrollment. Choose your enrolment type: Public, Government Employee, State Pensioner or State Working Journalist."
+  },
+  {
+   "k": "ce0e647d33da",
+   "ctx": "demoSteps",
+   "t": "Enter the Aadhaar number of the head of the family and verify with the OTP. Create or fetch the ABHA number when asked."
+  },
+  {
+   "k": "6c6d16469ba7",
+   "ctx": "demoSteps",
+   "t": "Fill in the head of the family's details, then add each family member with their own Aadhaar and their relation to the head."
+  },
+  {
+   "k": "f6d8bac4139e",
+   "ctx": "demoSteps",
+   "t": "Upload the ST certificate or RC, the Aadhaar cards and the family declaration, then submit. Note the reference number. Enrolment is free."
+  },
+  {
+   "k": "d6b5ec1bfc4a",
+   "ctx": "demoSteps",
+   "t": "The State Health Agency checks the documents. Use Check Status on the portal, and Reply To Query if they ask for anything more."
+  },
+  {
+   "k": "8f1edfd6cb23",
+   "ctx": "demoSteps",
+   "t": "Once approved, download and print the CMAAY e-card. If you get stuck online, go to the CMAAY kiosk at the district hospital or a CSC with the same documents."
+  },
+  {
+   "k": "9463c9fdda2c",
+   "ctx": "demoSteps",
+   "t": "At an empanelled hospital, show the e-card to the Arogya Mitra. Treatment is cashless. For a hospital outside Arunachal, first get a referral from a government hospital (PHC, CHC or district hospital), unless it is an emergency."
+  },
+  {
+   "k": "8aa5e8ddf5a0",
+   "ctx": "helpline",
+   "t": "1800 233 5558 — CMAAY toll-free / 08956048405 — CMAAY helpline / 9402914555 — CMAAY WhatsApp / 14555 — Ayushman Bharat national helpline"
   }
  ]
 }

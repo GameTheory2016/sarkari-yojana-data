@@ -6,66 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_03.json",
  "items": [
   {
-   "k": "39e6ecdcced5",
-   "ctx": "eligibility",
-   "t": "Opened by the girl's parent or legal guardian; accounts opened by grandparents must be moved to a parent's name"
-  },
-  {
-   "k": "129af1344f87",
-   "ctx": "eligibility",
-   "t": "One account per girl, and at most two girls per family (a third only for twins or triplets)"
-  },
-  {
-   "k": "aec5c72939b8",
-   "ctx": "eligibility",
-   "t": "Minimum Rs.250 and maximum Rs.1.5 lakh in a financial year, paid for 15 years from opening"
-  },
-  {
-   "k": "752abbf16d74",
-   "ctx": "eligibility",
-   "t": "A year without the minimum deposit can be made good by paying Rs.250 for that year plus Rs.50 penalty"
-  },
-  {
-   "k": "a7dcbfbd5ad1",
-   "ctx": "documents",
-   "t": "Account opening form with Sukanya Samriddhi Account ticked"
-  },
-  {
-   "k": "45f962c90527",
-   "ctx": "documents",
-   "t": "Girl's birth certificate"
-  },
-  {
-   "k": "5d710d644d10",
-   "ctx": "documents",
-   "t": "Parent's Aadhaar card"
-  },
-  {
-   "k": "d92d0ab9d8b7",
-   "ctx": "documents",
-   "t": "Parent's PAN card, or Form 60 if you have no PAN"
-  },
-  {
-   "k": "12cdfcc67382",
-   "ctx": "documents",
-   "t": "Passport-size photos of the parent (and of the girl where the office asks)"
-  },
-  {
-   "k": "a3b7e153167a",
-   "ctx": "documents",
-   "t": "Address proof, if the address on Aadhaar is different"
-  },
-  {
-   "k": "85857a48f4e1",
-   "ctx": "documents",
-   "t": "First deposit of at least Rs.250, in cash or by cheque"
-  },
-  {
-   "k": "efc1d656d82f",
-   "ctx": "portalName",
-   "t": "India Post"
-  },
-  {
    "k": "a03c5b622495",
    "ctx": "submitAt",
    "t": "Any post office with a savings bank counter, or a branch of an authorised bank such as SBI, Punjab National Bank, Bank of Baroda, Canara Bank or ICICI Bank. Take the filled form, the girl's birth certificate, your Aadhaar and PAN with originals for checking, two photos and the first deposit of at least Rs.250; the passbook is handed to you at the counter."
@@ -1279,6 +1219,36 @@
    "k": "f22503b5bb68",
    "ctx": "demoSteps",
    "t": "On the next pages add your spouse and nominee, then confirm with OTP or eSign. Save the acknowledgement number that comes by SMS or email."
+  },
+  {
+   "k": "7b8ec5924018",
+   "ctx": "demoSteps",
+   "t": "Once the bank verifies your account, you get a PRAN (Permanent Retirement Account Number) and the first amount is debited, so keep enough balance."
+  },
+  {
+   "k": "94f9e45d82a4",
+   "ctx": "demoSteps",
+   "t": "Keep money in the account on the debit date every time. A late payment draws a small penalty."
+  },
+  {
+   "k": "37fa1160c214",
+   "ctx": "demoSteps",
+   "t": "From age 60 the chosen pension comes to your account every month. After you, your spouse gets the same pension; after both, the nominee gets Rs.1.7 lakh to Rs.8.5 lakh."
+  },
+  {
+   "k": "1033e146c42c",
+   "ctx": "helpline",
+   "t": "1800-889-1030 (APY toll-free, Protean CRA); your bank branch for debit problems"
+  },
+  {
+   "k": "93b5e72b9ece",
+   "ctx": "title",
+   "t": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM Pension)"
+  },
+  {
+   "k": "87f287925fe8",
+   "ctx": "department",
+   "t": "Ministry of Labour & Employment (enrolment through Common Service Centres, pension paid by LIC)"
   }
  ]
 }

@@ -6,31 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_22.json",
  "items": [
   {
-   "k": "d7992f9571e5",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment for low-income families in Tamil Nadu, at government hospitals and empanelled private hospitals, up to Rs 5 lakh per family a year. In Tamil Nadu it runs together with Ayushman Bharat PM-JAY (CMCHIS-PMJAY), so one card covers both. In August 2026 the Chief Minister announced that the yearly cover will rise to Rs 25 lakh; ask the helpline whether the higher cover has started. You enrol once, at the CMCHIS card centre in the District Collector's office."
-  },
-  {
-   "k": "2d6c54697f0e",
-   "ctx": "benefit",
-   "t": "Up to Rs 5 lakh a year per family, cashless (Rs 25 lakh cover announced in August 2026)"
-  },
-  {
-   "k": "a24309f7b286",
-   "ctx": "eligibility",
-   "t": "Annual family income below Rs 1,20,000, certified by the Village Administrative Officer (VAO)"
-  },
-  {
-   "k": "bbc2ef753e58",
-   "ctx": "eligibility",
-   "t": "The family holds a Tamil Nadu ration (smart family) card, and everyone to be covered is named on it"
-  },
-  {
-   "k": "bfef3be45c55",
-   "ctx": "eligibility",
-   "t": "Covers the head of the family, the legal spouse, children and dependent parents"
-  },
-  {
    "k": "d652c74005a9",
    "ctx": "eligibility",
    "t": "Some groups join with their own ID card instead of an income certificate: differently-abled card holders, old-age and widow pensioners, handloom workers' board members, recognised journalists, transgender persons, Sri Lankan Tamil refugees and orphans"
@@ -759,6 +734,46 @@
    "k": "faa72f608344",
    "ctx": "benefit",
    "t": "Rs.12,000 per acre a year (Rs.6,000 per acre each season)"
+  },
+  {
+   "k": "06e7d57e10e8",
+   "ctx": "eligibility",
+   "t": "Pattadar (land owner) whose farmland is recorded in the Bhu Bharati (earlier Dharani) land records"
+  },
+  {
+   "k": "2d737e42607c",
+   "ctx": "eligibility",
+   "t": "Tribal farmers holding forest-rights (ROFR) pattas are also eligible"
+  },
+  {
+   "k": "fde7b207a94c",
+   "ctx": "eligibility",
+   "t": "Money is paid only for land fit for farming. House plots, layouts, real-estate ventures, mines, roads and land taken for projects are left out"
+  },
+  {
+   "k": "dae000062020",
+   "ctx": "eligibility",
+   "t": "A bank account in the farmer's own name, linked with Aadhaar"
+  },
+  {
+   "k": "b188573642a2",
+   "ctx": "eligibility",
+   "t": "Tenant farmers are not covered. Landless farm labourers have a separate scheme (Indiramma Atmiya Bharosa)"
+  },
+  {
+   "k": "97d26d00f1a1",
+   "ctx": "documents",
+   "t": "Bank passbook front page with account number and IFSC"
+  },
+  {
+   "k": "a56ea310d4b1",
+   "ctx": "documents",
+   "t": "Aadhaar consent form, signed (the AEO gives it)"
+  },
+  {
+   "k": "a22a83d7550b",
+   "ctx": "documents",
+   "t": "Mutation / Bhu Bharati record if the land was bought or inherited recently"
   }
  ]
 }

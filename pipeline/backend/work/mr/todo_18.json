@@ -6,1364 +6,429 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/mr/done_18.json",
  "items": [
   {
-   "k": "0bac2abe8fc4",
-   "ctx": "hint",
-   "t": "The adult actually bringing up the child: grandparent, uncle, aunt, elder brother or sister, or the mother in the eligible categories."
-  },
-  {
-   "k": "8de639405810",
-   "ctx": "label",
-   "t": "Category of the child"
-  },
-  {
-   "k": "5136d4d51b54",
-   "ctx": "value",
-   "t": "Orphan (both parents dead)"
-  },
-  {
-   "k": "9e5900e92bf3",
-   "ctx": "hint",
-   "t": "Choose the one category that fits; the amount and the proof needed depend on it."
-  },
-  {
-   "k": "5198643a4f56",
-   "ctx": "label",
-   "t": "Child's name and Aadhaar"
-  },
-  {
-   "k": "dad7e417f031",
-   "ctx": "value",
-   "t": "Rohit Bairwa, 9999 7310 2286"
-  },
-  {
-   "k": "9c9237da6635",
-   "ctx": "hint",
-   "t": "As on the child's Aadhaar card."
-  },
-  {
-   "k": "0c80b68be8cb",
-   "ctx": "value",
-   "t": "05-09-2017 (age 9)"
-  },
-  {
-   "k": "a130b2a3a76a",
-   "ctx": "hint",
-   "t": "Decides the rate: up to 6 years or 6–18 years. Get any error fixed in Jan Aadhaar first."
-  },
-  {
-   "k": "ab068fd96b09",
-   "ctx": "label",
-   "t": "Anganwadi or school and class"
-  },
-  {
-   "k": "817839c539e3",
-   "ctx": "value",
-   "t": "Govt. Upper Primary School, Lalsot — Class 4"
-  },
-  {
-   "k": "c36a49d19107",
-   "ctx": "hint",
-   "t": "Children aged 0–6 must be at an Anganwadi and older children at school; money stops if the child leaves."
-  },
-  {
-   "k": "891b7e206549",
-   "ctx": "value",
-   "t": "Rs 48,000 (Antyodaya card holder)"
-  },
-  {
-   "k": "f84b9efbb3eb",
-   "ctx": "hint",
-   "t": "Up to Rs 1.20 lakh. Antyodaya, BPL and Astha card holders need no income certificate."
-  },
-  {
-   "k": "5ea476c8cdb1",
-   "ctx": "value",
-   "t": "Antyodaya ration card"
-  },
-  {
-   "k": "a814e7879e35",
-   "ctx": "hint",
-   "t": "BPL, Astha, Antyodaya or PDS card holders need no separate domicile certificate."
-  },
-  {
-   "k": "738baf69e723",
-   "ctx": "label",
-   "t": "Category document"
-  },
-  {
-   "k": "7ebeee2574ae",
-   "ctx": "value",
-   "t": "Death certificates of father (2021) and mother (2023)"
-  },
-  {
-   "k": "36e64cc770bb",
-   "ctx": "hint",
-   "t": "Upload the proof for your category, such as a pension PPO for a widow or a disability certificate."
-  },
-  {
-   "k": "2fbb89a9ae50",
-   "ctx": "label",
-   "t": "Bank account (from Jan Aadhaar)"
-  },
-  {
-   "k": "e385d2fa672a",
-   "ctx": "value",
-   "t": "Bank of Baroda, account ending 4417"
-  },
-  {
-   "k": "88ac718e1753",
-   "ctx": "hint",
-   "t": "Taken from the Jan Aadhaar. To change it, update the Jan Aadhaar first, then tell the block office."
-  },
-  {
-   "k": "121879440a6d",
-   "ctx": "demoSteps",
-   "t": "Make sure the child is added to the palanhar's Jan Aadhaar and that the bank details in the Jan Aadhaar are correct."
-  },
-  {
-   "k": "113a8c6ae2b5",
-   "ctx": "demoSteps",
-   "t": "Apply online at the nearest e-Mitra kiosk, through your own SSO login, or on the Palanhar new-application app with Aadhaar face authentication, and attach the category papers."
-  },
-  {
-   "k": "0555823b4b94",
-   "ctx": "demoSteps",
-   "t": "Keep the application number. The Block Social Security Office of the Social Justice department checks the application."
-  },
-  {
-   "k": "6affb6552417",
-   "ctx": "demoSteps",
-   "t": "If an objection is raised, clear it within 90 days at e-Mitra or on the app, or the application is cancelled automatically."
-  },
-  {
-   "k": "43c1507af3b6",
-   "ctx": "demoSteps",
-   "t": "Once sanctioned, the monthly amount goes to the palanhar's account, with Rs 2,000 a year extra (not for widow and nata palanhars)."
-  },
-  {
-   "k": "04cd6f1cbb83",
-   "ctx": "demoSteps",
-   "t": "Every July, renew: the palanhar's life verification and the child's study proof, at e-Mitra or by face authentication on the renewal app, by December at the latest. Without it, payment stops."
-  },
-  {
-   "k": "53c2ad282598",
-   "ctx": "demoSteps",
-   "t": "Check status and payments at sjmsnew.rajasthan.gov.in/palanhaar/Appstatus.aspx using the application number or Jan Aadhaar."
-  },
-  {
-   "k": "bb62f69ec2b7",
-   "ctx": "helpline",
-   "t": "1800-180-6127 — Palanhar / Social Justice helpdesk; 181 — Rajasthan Sampark"
-  },
-  {
-   "k": "4d96eebc00cc",
-   "ctx": "title",
-   "t": "Mukhya Mantri Jeevan Raksha Kosh and SSIAF (Referral Treatment Help)"
-  },
-  {
-   "k": "ee2decd55a88",
-   "ctx": "department",
-   "t": "Health & Family Welfare Department, Government of Sikkim"
-  },
-  {
-   "k": "c51dbfb0f09f",
-   "ctx": "brief",
-   "t": "If the State Medical Board refers a Sikkimese patient for treatment that Sikkim cannot give, the state pays up to Rs.2 lakh. You get cashless treatment at listed hospitals in Delhi, Kolkata, Siliguri, Vellore, Mumbai and inside Sikkim, or a reimbursement. BPL patients first get Rs.1.5 lakh under the Sikkim State Illness Assistance Fund (SSIAF), then another Rs.1.5 lakh from this fund, Rs.3 lakh in all. Regular government servants and their dependants are not covered. Since a 2022 amendment the rules are also called the Mukhya Mantri Swasthya Suvidha Yojana (MMSSY)."
-  },
-  {
-   "k": "dd863175da3f",
-   "ctx": "benefit",
-   "t": "Up to Rs.2 lakh for referred treatment; up to Rs.3 lakh for BPL patients"
-  },
-  {
-   "k": "2d0f1cb15c8d",
-   "ctx": "eligibility",
-   "t": "Holder of a Sikkim Subject Certificate or Certificate of Identification (COI), or a family on the state BPL list"
-  },
-  {
-   "k": "4b888aaddfdd",
-   "ctx": "eligibility",
-   "t": "Referred by the State Medical Board for treatment outside Sikkim or at an empanelled hospital"
-  },
-  {
-   "k": "0776d6b1ca6c",
-   "ctx": "eligibility",
-   "t": "Regular government servants and their dependants are not covered"
-  },
-  {
-   "k": "7befde054f04",
-   "ctx": "eligibility",
-   "t": "Patients under 20 qualify through their birth certificate and the father's SSC or COI. A woman married to an SSC or COI holder needs her own COI and a marriage certificate"
-  },
-  {
-   "k": "71895afd8e8e",
-   "ctx": "eligibility",
-   "t": "BPL patients use the SSIAF limit of Rs.1.5 lakh first, then up to Rs.1.5 lakh more from MMJRK"
-  },
-  {
-   "k": "1a4d1dfbd666",
+   "k": "581c1ca23ddb",
    "ctx": "documents",
-   "t": "Referral certificate from the State Medical Board, STNM Hospital"
+   "t": "Admission receipt"
   },
   {
-   "k": "accba50bc639",
+   "k": "e3c461601013",
    "ctx": "documents",
-   "t": "Attested copy of the patient's Sikkim Subject Certificate or COI"
+   "t": "Prospectus or certificate from the institution showing admission, exam, hostel and other fees"
   },
   {
-   "k": "8bb95311b44b",
+   "k": "d8142b362525",
    "ctx": "documents",
-   "t": "BPL list proof (for SSIAF)"
+   "t": "Marksheet or certificate of the last exam passed"
   },
   {
-   "k": "54468140b51f",
+   "k": "10452b33cef2",
    "ctx": "documents",
-   "t": "For a patient under 20: birth certificate and father's SSC or COI"
+   "t": "PAN card of the student and of the guardian, or an undertaking if there is none"
   },
   {
-   "k": "5e251b258d13",
+   "k": "aeb8c188755f",
    "ctx": "documents",
-   "t": "For a married woman: her COI and marriage certificate"
+   "t": "Address proof of the co-borrower"
   },
   {
-   "k": "34042e1e55c5",
+   "k": "d106514fea85",
    "ctx": "documents",
-   "t": "Doctor's estimate or hospital bills for the treatment"
+   "t": "Colour photos and signatures of the student and the co-borrower (JPG, 20 to 50 KB)"
   },
   {
-   "k": "5bd4723a7846",
-   "ctx": "documents",
-   "t": "Aadhaar card and bank passbook of the patient or attendant"
-  },
-  {
-   "k": "96bec849327c",
+   "k": "6cf578a139ba",
    "ctx": "portalName",
-   "t": "Health & Family Welfare Department, Sikkim"
+   "t": "West Bengal Student Credit Card (WBSCC) portal"
   },
   {
-   "k": "148ef038628c",
-   "ctx": "submitAt",
-   "t": "First get the referral from the State Medical Board at STNM Hospital, Sochakgang, Gangtok. Then take the referral certificate, the attested SSC or COI copy (and BPL proof) to the Health & Family Welfare Department. The department approves the amount before you travel. Cashless treatment is only at empanelled hospitals. Elsewhere you claim a reimbursement with the bills. In a life-threatening emergency you can be treated first and claim within six months."
-  },
-  {
-   "k": "dda04a4e47d1",
+   "k": "ab19c621d3e1",
    "ctx": "label",
-   "t": "Name of patient"
+   "t": "Are You Filling The Application From Jan Kalyan Shivir"
   },
   {
-   "k": "57dfec3ae15c",
+   "k": "d428e0eb27aa",
+   "ctx": "hint",
+   "t": "Choose YES only if you are filling it at a government camp; then give the camp registration number, district and block."
+  },
+  {
+   "k": "8350949b1235",
+   "ctx": "label",
+   "t": "Applicant Name (First / Middle / Last)"
+  },
+  {
+   "k": "e0c8542e85e9",
    "ctx": "value",
-   "t": "Dawa Lepcha"
+   "t": "Arindam Ghosh"
   },
   {
-   "k": "58cbff3bbb29",
+   "k": "c9e7b68cc816",
    "ctx": "hint",
-   "t": "As written on the patient's SSC or COI."
+   "t": "The student's name as in the Class X certificate."
   },
   {
-   "k": "efb9058f06b4",
+   "k": "8d7cf9a69623",
+   "ctx": "hint",
+   "t": "As on the Class X admit card or certificate."
+  },
+  {
+   "k": "154286f680b0",
+   "ctx": "hint",
+   "t": "Choose from the list."
+  },
+  {
+   "k": "e0cfeb803521",
+   "ctx": "hint",
+   "t": "The student's own Aadhaar number."
+  },
+  {
+   "k": "ed19860c0602",
    "ctx": "label",
-   "t": "Age and gender"
+   "t": "Name of 10th standard Board"
   },
   {
-   "k": "8597d2cf4e84",
+   "k": "c624d3202511",
    "ctx": "value",
-   "t": "52, Male"
+   "t": "West Bengal Board of Secondary Education, WBBSE"
   },
   {
-   "k": "389fe20f2931",
+   "k": "8c7e2f7f7f13",
    "ctx": "hint",
-   "t": "Patients under 20 must add a birth certificate and the father's SSC or COI."
+   "t": "The board you passed Madhyamik or Class X from."
   },
   {
-   "k": "c8a8614cc252",
+   "k": "0fbeb24e9a8d",
    "ctx": "label",
-   "t": "SSC / COI number"
+   "t": "Registration Number / Year of passing of 10th standard"
   },
   {
-   "k": "fcf9c4139ca4",
-   "ctx": "hint",
-   "t": "Copy it from the certificate and attach an attested copy."
-  },
-  {
-   "k": "1a81ce8caa02",
-   "ctx": "hint",
-   "t": "APL or BPL. BPL patients get the SSIAF amount first, then MMJRK on top."
-  },
-  {
-   "k": "c7e8b03570c4",
-   "ctx": "label",
-   "t": "Illness and treatment advised"
-  },
-  {
-   "k": "eddc7182e35d",
+   "k": "a08c87bef39e",
    "ctx": "value",
-   "t": "Heart valve replacement"
+   "t": "1234567 of 2021 / 2023"
   },
   {
-   "k": "edfeaeb39c34",
+   "k": "8b6519f2bd40",
    "ctx": "hint",
-   "t": "Copy it from the State Medical Board referral."
+   "t": "Copy the board registration number from your Class X registration certificate."
   },
   {
-   "k": "7f7e54402380",
+   "k": "3fd1dc65f1dc",
    "ctx": "label",
-   "t": "Referral certificate number and date"
+   "t": "Programme Type / Programme Name"
   },
   {
-   "k": "f272b039223b",
-   "ctx": "hint",
-   "t": "From the referral given by the State Medical Board at STNM Hospital."
-  },
-  {
-   "k": "493f5dc89439",
-   "ctx": "label",
-   "t": "Hospital referred to"
-  },
-  {
-   "k": "3bb1d69493de",
+   "k": "1e316c2eaa9b",
    "ctx": "value",
-   "t": "Apollo Gleneagles Hospital, Kolkata"
+   "t": "Undergraduate / B.Tech in Civil Engineering"
   },
   {
-   "k": "77aa9dc19ece",
+   "k": "021a1e6cfa8c",
    "ctx": "hint",
-   "t": "Choose an empanelled hospital to get cashless treatment."
+   "t": "The course you are studying now or have taken admission in."
   },
   {
-   "k": "72a100ee9a24",
+   "k": "6dcf08ec8f86",
    "ctx": "label",
-   "t": "Attendant's name and relation"
+   "t": "State / District / Name of Institution"
   },
   {
-   "k": "351ccddd320b",
+   "k": "33f882d924d4",
    "ctx": "value",
-   "t": "Nim Lhamu Lepcha, wife"
+   "t": "West Bengal / Paschim Bardhaman / Example Institute of Technology"
   },
   {
-   "k": "146b692cfb73",
+   "k": "cb1aacd3c2f7",
    "ctx": "hint",
-   "t": "The family member who will travel with the patient."
+   "t": "Pick your institution from the list. If it is missing, email the help desk before applying."
   },
   {
-   "k": "f12bd72f354c",
-   "ctx": "hint",
-   "t": "A number the department can call about the approval."
-  },
-  {
-   "k": "2c2802f2e72d",
+   "k": "0dbc0d064d5d",
    "ctx": "label",
-   "t": "Bank account and IFSC (for reimbursement)"
+   "t": "Mobile No / Email ID"
   },
   {
-   "k": "7a07a5544aaf",
+   "k": "cfe01422b884",
    "ctx": "hint",
-   "t": "Needed only if you pay first and claim the money back."
+   "t": "Your own mobile and email. The OTP, your Registration ID and every update come here."
   },
   {
-   "k": "eede1c4dadef",
+   "k": "ba6a4a7d82dd",
    "ctx": "demoSteps",
-   "t": "Your doctor in Sikkim sends your case to the State Medical Board at STNM Hospital, which gives a referral certificate."
+   "t": "Open wbscc.wb.gov.in and click Student Registration. Fill the details, set a password and verify the OTP; your Registration ID comes by SMS."
   },
   {
-   "k": "d86b2f98bbb8",
+   "k": "f2b6686918d9",
    "ctx": "demoSteps",
-   "t": "Take the referral and your attested SSC or COI (and BPL proof if you have one) to the Health & Family Welfare Department."
+   "t": "Log in with Student Login and complete the form: course, fees, loan amount needed, co-borrower details, and a bank branch in your home district."
   },
   {
-   "k": "989cc1434f97",
+   "k": "9dfd9c7c07b7",
    "ctx": "demoSteps",
-   "t": "The department checks your papers and approves the amount for your illness, up to Rs.2 lakh, or Rs.3 lakh for BPL patients."
+   "t": "Upload the documents in the sizes shown and submit. You cannot edit after the final submit."
   },
   {
-   "k": "a9fed4038afc",
+   "k": "2145002cb254",
    "ctx": "demoSteps",
-   "t": "Go to the empanelled hospital. Treatment there is cashless up to the approved amount. Anything above it the family pays."
+   "t": "Your institution checks the documents, then the Higher Education Department, and the application goes to the bank."
   },
   {
-   "k": "b894dbe60286",
+   "k": "194ae2f887fb",
    "ctx": "demoSteps",
-   "t": "If you were treated in an emergency or at a non-cashless hospital, submit the bills within six months for a reimbursement into your bank account."
+   "t": "The bank checks it, you and the co-borrower sign the loan agreement, and the loan is sanctioned. SMS and email tell you, and the bank gives you the card."
   },
   {
-   "k": "42616650a2af",
+   "k": "b8e86b9d7b52",
    "ctx": "demoSteps",
-   "t": "For a follow-up visit, ask the department whether a balance is left from your first approval."
+   "t": "Fees go directly to the institution and living costs to your account. Repay over up to 15 years, starting one year after the course or job; paying the interest during studies earns a 1% interest concession."
   },
   {
-   "k": "41e5c2545ca8",
+   "k": "7fc36f603e5d",
    "ctx": "helpline",
-   "t": "03592-202633 — Health & Family Welfare Department, Government of Sikkim"
+   "t": "1800-102-8014 (WBSCC State Help Desk, toll-free); SCC Grievance app on Google Play for complaints"
   },
   {
-   "k": "8fae53bd06bf",
+   "k": "e17ab2254eb2",
    "ctx": "title",
-   "t": "Sikkim Aama Sashaktikaran Yojana (Aama Yojana)"
+   "t": "Mukhya Mantri Swasthya Bima Yojana (MMSBY Card, formerly Swasthya Sathi)"
   },
   {
-   "k": "90952e2c89bf",
+   "k": "5eb95e92ed03",
    "ctx": "department",
-   "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Government of Sikkim"
+   "t": "State Health Agency, Health & Family Welfare Department, West Bengal"
   },
   {
-   "k": "ad5523d368d6",
+   "k": "44bfebe00bd3",
    "ctx": "brief",
-   "t": "Mothers in Sikkim who have no job get Rs.40,000 a year, paid in two instalments of Rs.20,000 straight into their own bank account through the State Bank of Sikkim. It started in 2021-22 as the Aama Yojana at Rs.20,000 a year. It was later renamed and the amount doubled. Married, unmarried, widowed, divorced and separated mothers can all get it. You collect the form at your Block Development Office, the Gram Sabha or Ward Sabha passes your name, and officials check it before the money is released."
+   "t": "West Bengal's own health cover for families who had a Swasthya Sathi card but are not on the central Ayushman Bharat (PM-JAY) list. It gives cashless treatment of up to Rs.5 lakh a year for the whole family at empanelled government and private hospitals, in the state and outside it. Swasthya Sathi is being replaced since Ayushman Bharat started in West Bengal on 16 August 2026: families on the PM-JAY list get the Ayushman card, and the rest move to MMSBY. You check which one is yours with your Aadhaar number on the State Health Agency website, then enrol with your Swasthya Sathi card number."
   },
   {
-   "k": "c91f6d77cbe7",
+   "k": "c0cab39bf489",
    "ctx": "benefit",
-   "t": "Rs.40,000 a year, paid in two instalments of Rs.20,000"
+   "t": "Up to Rs.5 lakh a year per family, cashless"
   },
   {
-   "k": "d8765726abbc",
+   "k": "14f4df021a0d",
    "ctx": "eligibility",
-   "t": "A mother aged 18 to 59 with no regular job or income. This includes married, unmarried, widowed, divorced and separated mothers, and mothers of a legally adopted child"
+   "t": "Your family was enrolled under Swasthya Sathi and you have the 17-character number (URN) printed on the Swasthya Sathi card"
   },
   {
-   "k": "2b7edae0731b",
+   "k": "ec0d8f067e8e",
    "ctx": "eligibility",
-   "t": "Holds a Sikkim Subject Certificate, a Certificate of Identification (COI) or a Residential Certificate"
+   "t": "Your family is not on the Ayushman Bharat PM-JAY list. If it is, you get the Ayushman card instead, not MMSBY"
   },
   {
-   "k": "ff68fbd0c378",
+   "k": "d4a3229e58d4",
    "ctx": "eligibility",
-   "t": "Her name is on the voter list for a ward of her Gram Panchayat or urban local body"
+   "t": "Permanent resident of West Bengal. Families earning more than Rs.8 lakh a year are left out"
   },
   {
-   "k": "b25dafe16196",
+   "k": "ed0aeeac0a48",
    "ctx": "eligibility",
-   "t": "The family holds a Priority Household (PHH) or Antyodaya (AAY) ration card"
+   "t": "Not for families covered by WBHS, CGHS, ESI or a PSU or government group medical scheme, or employees and pensioners who get a medical allowance"
   },
   {
-   "k": "fafe08fead04",
+   "k": "de038898ef8d",
    "ctx": "eligibility",
-   "t": "Not eligible if she gets any government pension, if anyone in the household has a regular government, PSU or bank job, or if she or her husband is an enlisted government contractor or supplier"
+   "t": "Members aged 70 and above get the separate Ayushman Vay Vandana card instead"
   },
   {
-   "k": "1b98357fb1fc",
+   "k": "bccf04f31546",
+   "ctx": "eligibility",
+   "t": "No limit on family size, and illnesses you already have are covered from the first day"
+  },
+  {
+   "k": "0a46640932d8",
    "ctx": "documents",
-   "t": "Attested copy of the Sikkim Subject Certificate, COI or Residential Certificate"
+   "t": "Aadhaar card of each family member being enrolled"
   },
   {
-   "k": "ba58aae63ae2",
+   "k": "86717a718115",
    "ctx": "documents",
-   "t": "Voter card (EPIC), with an attested copy"
+   "t": "Swasthya Sathi card, for the 17-character URN number"
   },
   {
-   "k": "e36015bf7cd0",
+   "k": "8d57f214bc80",
    "ctx": "documents",
-   "t": "PHH or AAY ration card"
+   "t": "The mobile number registered with the Swasthya Sathi card, for the OTP"
   },
   {
-   "k": "2aed3aea60f7",
+   "k": "345e4516cf71",
    "ctx": "documents",
-   "t": "Birth certificate of the child"
+   "t": "Aadhaar-linked mobile number of each member, for creating the ABHA health ID"
   },
   {
-   "k": "55ccc6a98657",
+   "k": "ac499658a03e",
    "ctx": "documents",
-   "t": "Front page of the bank passbook (savings account in the mother's own name)"
+   "t": "Voter ID card (EPIC) of each adult member, with the AC, part and serial number from the voter list"
   },
   {
-   "k": "d86cfdbf8cc8",
+   "k": "183d68a996db",
    "ctx": "documents",
-   "t": "Gram Sabha or Ward Sabha resolution recommending her name"
+   "t": "Digital ration card number and its category (RKSY-I or RKSY-II), if you have one"
   },
   {
-   "k": "4ea2de7b3a35",
+   "k": "5171ffa81b50",
    "ctx": "documents",
-   "t": "Three passport-size photographs"
+   "t": "PAN card number (optional)"
   },
   {
-   "k": "733e7dba81df",
+   "k": "8d329cf91571",
    "ctx": "portalName",
-   "t": "Women, Child, Senior Citizen and Divyangjan Welfare Department, Sikkim"
+   "t": "State Health Agency, West Bengal"
   },
   {
-   "k": "59d561914e43",
-   "ctx": "submitAt",
-   "t": "Get the form from the Block Development Office (BDO) at your Block Administrative Centre and hand it back there with all the photocopies, three photographs and the Gram Sabha or Ward Sabha resolution. Take the originals of your certificate of identity, voter card and ration card to show. Ask for a receipt."
-  },
-  {
-   "k": "c0ff944e3678",
+   "k": "ea77101cafa4",
    "ctx": "label",
-   "t": "Name of mother (as per Aadhaar)"
+   "t": "Aadhaar Number (Check Status)"
   },
   {
-   "k": "cce575709862",
+   "k": "d206ace67a7c",
+   "ctx": "hint",
+   "t": "Type any family member's Aadhaar and press Check Status first. The answer tells you whether your family is under PM-JAY or can enrol in MMSBY."
+  },
+  {
+   "k": "d12df2721d62",
+   "ctx": "label",
+   "t": "Swasthya Sathi URN"
+  },
+  {
+   "k": "ff57cbbc9f27",
+   "ctx": "hint",
+   "t": "The 17-character number on your Swasthya Sathi smart card. An OTP is sent to the mobile number that was given when the card was made."
+  },
+  {
+   "k": "1e8ec3b8590d",
+   "ctx": "label",
+   "t": "District / Block or ULB / Gram Panchayat or Ward"
+  },
+  {
+   "k": "23a6240c74f9",
    "ctx": "value",
-   "t": "Pema Doma Bhutia"
+   "t": "Bankura / Sonamukhi / Rangamati GP"
   },
   {
-   "k": "898ecd00d391",
+   "k": "87575f634723",
    "ctx": "hint",
-   "t": "Write the name exactly as it is on your Aadhaar card. The beneficiary list is made from it."
+   "t": "These come filled in from the Swasthya Sathi record. Change them only if the family now lives somewhere else."
   },
   {
-   "k": "adbd3fc30ff9",
-   "ctx": "hint",
-   "t": "Your husband's name, or your father's name if you are unmarried, widowed or separated."
-  },
-  {
-   "k": "4584a78a5938",
-   "ctx": "label",
-   "t": "Constituency, GPU / Ward"
-  },
-  {
-   "k": "2aafb265277f",
+   "k": "2000351f3887",
    "ctx": "value",
-   "t": "Rhenock / Tarpin GPU, Ward 3"
+   "t": "Shefali Mondal"
   },
   {
-   "k": "a5ffb5eb2614",
+   "k": "929548144b06",
    "ctx": "hint",
-   "t": "Your Assembly constituency and the Gram Panchayat Unit or municipal ward where you vote."
+   "t": "Usually the eldest woman of the family, in whose name the Swasthya Sathi card was made."
   },
   {
-   "k": "408e4247dd52",
+   "k": "3192f16197af",
    "ctx": "label",
-   "t": "SSC / COI / Residential Certificate number"
+   "t": "Member Aadhaar (Validate)"
   },
   {
-   "k": "24cfde16e2a0",
+   "k": "4c033b828e20",
    "ctx": "hint",
-   "t": "Copy the number from your certificate and attach an attested copy."
+   "t": "For each member card, type that person's Aadhaar and press Validate. Members who are not eligible are struck off automatically."
   },
   {
-   "k": "14ca0079b92a",
+   "k": "1bb299a228f7",
    "ctx": "label",
-   "t": "Voter card (EPIC) number"
+   "t": "Category and Ration Card No."
   },
   {
-   "k": "67928e02f42e",
+   "k": "682dfb676837",
    "ctx": "hint",
-   "t": "Your own voter card. It must be registered in the same ward."
+   "t": "The category and number printed on your digital ration card. If you choose a category, the ration card number becomes compulsory."
   },
   {
-   "k": "a23f69d68627",
+   "k": "5af71fe09b48",
    "ctx": "label",
-   "t": "Ration card number and category"
+   "t": "Aadhaar Linked Mobile"
   },
   {
-   "k": "c887282532a0",
+   "k": "f5d2440916a1",
    "ctx": "hint",
-   "t": "Only PHH or AAY cards qualify. Write the category printed on the card."
+   "t": "The mobile number linked to this member's Aadhaar. The OTP for the ABHA health ID comes here."
   },
   {
-   "k": "8fdf15192ac8",
+   "k": "209fdd53ded6",
    "ctx": "label",
-   "t": "Name and date of birth of child"
+   "t": "Create ABHA ID"
   },
   {
-   "k": "eca1351902a5",
+   "k": "8eefdd52ad2d",
    "ctx": "value",
-   "t": "Tenzing Bhutia, 12-06-2021"
+   "t": "Generated"
   },
   {
-   "k": "8e4cffe47e96",
+   "k": "4e69981d1e0f",
    "ctx": "hint",
-   "t": "Your child's name as on the birth certificate you attach."
+   "t": "Press Create ABHA ID for every member and enter the OTP. The form will not submit until each eligible member has an ABHA ID."
   },
   {
-   "k": "fda5b2f6ba3c",
-   "ctx": "hint",
-   "t": "The mother's own 12-digit Aadhaar number."
-  },
-  {
-   "k": "55c3a58e505a",
-   "ctx": "hint",
-   "t": "A savings account in your own name. The money comes here by direct transfer."
-  },
-  {
-   "k": "2ff032404ce3",
+   "k": "feb89256bc3d",
    "ctx": "label",
-   "t": "Are you employed or getting any pension?"
+   "t": "EPIC Number / AC / Part / Serial Number"
   },
   {
-   "k": "4dc892bcec96",
+   "k": "7ea2a5a8ed90",
    "ctx": "hint",
-   "t": "Answer truthfully. A job or pension in your household makes you ineligible, and wrong answers lead to recovery."
+   "t": "Copy these from the voter card and the voter list (the AC, part and serial number are shown on the voter slip or the ECI website)."
   },
   {
-   "k": "b4cb62f50db0",
+   "k": "ebb3e6178434",
+   "ctx": "label",
+   "t": "Receiving Authority Name / Designation / Contact"
+  },
+  {
+   "k": "ae947bef3438",
+   "ctx": "value",
+   "t": "Bina Roy / Health Assistant / 90000 72811"
+  },
+  {
+   "k": "5c6c8fc5dc45",
+   "ctx": "hint",
+   "t": "The official or help-desk staff taking your enrolment, for example at a camp or hospital desk, fills in their own details. If you are applying alone and unsure, call 1800-345-5384 before you submit."
+  },
+  {
+   "k": "696c8b9d568d",
    "ctx": "demoSteps",
-   "t": "Collect the Aama Sashaktikaran form at your Block Development Office and fill in your details."
+   "t": "Open sha.wbhealth.gov.in, tap Apply for MMSBY, type an Aadhaar number of the family and press Check Status. If it says your family is under PM-JAY, make the Ayushman card instead."
   },
   {
-   "k": "c3d70b3a69c8",
+   "k": "8f0179c12dca",
    "ctx": "demoSteps",
-   "t": "Ask your Panchayat or ward councillor to get your name passed in the Gram Sabha or Ward Sabha, and take the resolution copy."
+   "t": "If you can enrol in MMSBY, type the 17-character Swasthya Sathi URN, press Submit URN and enter the OTP sent to the card's registered mobile."
   },
   {
-   "k": "0049f1d013b5",
+   "k": "3ac58436b69f",
    "ctx": "demoSteps",
-   "t": "Submit the form with all photocopies, three photographs and the resolution at the BDO office, and keep the receipt."
+   "t": "The family details appear already filled in. Check the address, district, block and Gram Panchayat or ward."
   },
   {
-   "k": "438a4bdca372",
+   "k": "2526a130e338",
    "ctx": "demoSteps",
-   "t": "The Social Welfare Inspector checks your papers, then the BDO and the district officers verify and the District Collector approves."
+   "t": "For each member, press Validate on the Aadhaar, fill the ration card, mobile, gender, date of birth and voter details, and press Create ABHA ID."
   },
   {
-   "k": "07bf09001738",
+   "k": "390d00cc4aca",
    "ctx": "demoSteps",
-   "t": "Your name appears on the beneficiary list. The Rs.20,000 instalments are paid twice a year into your bank account, often handed over at a constituency cheque camp."
+   "t": "Fill the receiving authority box and press Submit Enrollment. Note down the message shown on the screen."
   },
   {
-   "k": "029266122020",
+   "k": "d8fe13cdd455",
    "ctx": "demoSteps",
-   "t": "If you move out of Sikkim permanently, the payment stops and you must surrender the scheme passbook."
+   "t": "The health department then does field verification and e-KYC. When the card is activated, you can be treated cashless at any empanelled hospital by showing it at the help desk."
   },
   {
-   "k": "557040b3ce1d",
+   "k": "63e8b5ba120b",
+   "ctx": "demoSteps",
+   "t": "If the hospital asks for money for a covered treatment, or you get stuck, call 1800-345-5384 (24 hours)."
+  },
+  {
+   "k": "1332c83d3efd",
    "ctx": "helpline",
-   "t": "181 — Women Helpline, Sikkim; your Block Development Office (Block Administrative Centre)"
-  },
-  {
-   "k": "e2d0b4606706",
-   "ctx": "title",
-   "t": "Tamil Pudhalvan Scheme (Rs 1,000 a Month for College Boys)"
-  },
-  {
-   "k": "ed476e0a110a",
-   "ctx": "department",
-   "t": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu (with the Higher Education Department)"
-  },
-  {
-   "k": "cd2983137048",
-   "ctx": "brief",
-   "t": "Rs 1,000 every month, paid into the bank account, for boys who studied Classes 6 to 12 in a Tamil Nadu government school or a government-aided Tamil-medium school and have joined college. It is the boys' version of Pudhumai Penn, started in August 2024, and is paid until the first degree, diploma or ITI course is finished, on top of other scholarships. You apply through your college, which enters your details on the UMIS portal."
-  },
-  {
-   "k": "8693b64fbce4",
-   "ctx": "benefit",
-   "t": "Rs 1,000 a month by DBT until the first higher-education course is finished"
-  },
-  {
-   "k": "8752e656432f",
-   "ctx": "eligibility",
-   "t": "Boy who studied Classes 6 to 12 in a Tamil Nadu government school, or in a government-aided school in Tamil medium"
-  },
-  {
-   "k": "cb1a3673b38d",
-   "ctx": "eligibility",
-   "t": "Now studying in a recognised college, university, polytechnic or ITI"
-  },
-  {
-   "k": "a9f07a916b5e",
-   "ctx": "eligibility",
-   "t": "Only the first higher-education course counts, paid until it is completed without a break"
-  },
-  {
-   "k": "5bd44321a578",
-   "ctx": "eligibility",
-   "t": "No family income limit, and any number of boys in one family can get it"
-  },
-  {
-   "k": "a087bb3eed76",
-   "ctx": "eligibility",
-   "t": "It can be taken along with other scholarships"
-  },
-  {
-   "k": "2eec027c74b0",
-   "ctx": "eligibility",
-   "t": "Bank account in the student's own name, linked with Aadhaar"
-  },
-  {
-   "k": "3f3709b69f01",
-   "ctx": "documents",
-   "t": "Bank passbook of an account in the student's own name, linked with Aadhaar"
-  },
-  {
-   "k": "eedf25ef58df",
-   "ctx": "documents",
-   "t": "10th and 12th mark sheets"
-  },
-  {
-   "k": "279039674b6c",
-   "ctx": "documents",
-   "t": "Transfer certificate from the school (showing Tamil medium for a government-aided school)"
-  },
-  {
-   "k": "83d7a591aaf1",
-   "ctx": "documents",
-   "t": "EMIS number from your school"
-  },
-  {
-   "k": "55e31a6ebf9e",
-   "ctx": "documents",
-   "t": "College admission slip or bonafide certificate"
-  },
-  {
-   "k": "b58f14676fa0",
-   "ctx": "documents",
-   "t": "A working mobile number"
-  },
-  {
-   "k": "e59c09cddb3d",
-   "ctx": "portalName",
-   "t": "UMIS (through your college)"
-  },
-  {
-   "k": "9eee431ed6e3",
-   "ctx": "submitAt",
-   "t": "Your college's Tamil Pudhalvan nodal officer, usually in the scholarship section, in the first weeks of the course. Take your Aadhaar, bank passbook, 10th and 12th mark sheets, school transfer certificate and EMIS number; the nodal officer enters and verifies your details on the UMIS portal."
-  },
-  {
-   "k": "e16a1402e065",
-   "ctx": "label",
-   "t": "Student name (as in Aadhaar)"
-  },
-  {
-   "k": "74e70410fe93",
-   "ctx": "value",
-   "t": "Arun Kumar M"
-  },
-  {
-   "k": "904556065dee",
-   "ctx": "hint",
-   "t": "Write the name exactly as in Aadhaar, or the money will not reach the bank account."
-  },
-  {
-   "k": "bd8d761ac9de",
-   "ctx": "hint",
-   "t": "The student's own Aadhaar, not a parent's."
-  },
-  {
-   "k": "752cb48d24bc",
-   "ctx": "label",
-   "t": "EMIS number"
-  },
-  {
-   "k": "b1dde0c6bff6",
-   "ctx": "hint",
-   "t": "Your student ID from the school's EMIS records. Ask your old school if you do not have it."
-  },
-  {
-   "k": "92fb6eb587b3",
-   "ctx": "label",
-   "t": "School where you studied Classes 6 to 12"
-  },
-  {
-   "k": "6225b9a81b58",
-   "ctx": "value",
-   "t": "Government Boys Higher Secondary School, Kalamedu"
-  },
-  {
-   "k": "57b4bcdc99bc",
-   "ctx": "hint",
-   "t": "Name every school if you changed schools. For an aided school, the medium must be Tamil."
-  },
-  {
-   "k": "b4ac88ee196c",
-   "ctx": "label",
-   "t": "Medium of instruction"
-  },
-  {
-   "k": "86c2b6275f07",
-   "ctx": "value",
-   "t": "Tamil"
-  },
-  {
-   "k": "e152d7e27eda",
-   "ctx": "hint",
-   "t": "Needed when any of the schools was a government-aided school."
-  },
-  {
-   "k": "3bb00ca898d4",
-   "ctx": "label",
-   "t": "College name"
-  },
-  {
-   "k": "5e43231916de",
-   "ctx": "value",
-   "t": "Government Polytechnic College, Puliyur"
-  },
-  {
-   "k": "75203a714c5a",
-   "ctx": "hint",
-   "t": "The college or ITI where you are studying now."
-  },
-  {
-   "k": "a1b3da2a5c67",
-   "ctx": "label",
-   "t": "Course and year of admission"
-  },
-  {
-   "k": "94745357849b",
-   "ctx": "value",
-   "t": "Diploma in Mechanical Engineering, first year, 2026"
-  },
-  {
-   "k": "fee6cbcf3d1e",
-   "ctx": "hint",
-   "t": "Only your first course after school is eligible."
-  },
-  {
-   "k": "384cffe8546c",
-   "ctx": "hint",
-   "t": "Your own number. Messages about the scheme come here."
-  },
-  {
-   "k": "e761f058f737",
-   "ctx": "hint",
-   "t": "An account in your own name, linked with your Aadhaar."
-  },
-  {
-   "k": "cd6a1cccd3e5",
-   "ctx": "hint",
-   "t": "Printed on the first page of the passbook."
-  },
-  {
-   "k": "85f20fb31c58",
-   "ctx": "demoSteps",
-   "t": "After joining college, meet the Tamil Pudhalvan nodal officer in the scholarship section during the first weeks."
-  },
-  {
-   "k": "f19639a4a17e",
-   "ctx": "demoSteps",
-   "t": "Hand over your Aadhaar, bank passbook, 10th and 12th mark sheets, school transfer certificate and EMIS number. Open an Aadhaar-linked account first if you have none."
-  },
-  {
-   "k": "a6ad0b843376",
-   "ctx": "demoSteps",
-   "t": "The nodal officer enters your details on the UMIS portal, where your schooling is matched with the EMIS records. Ask for your UMIS ID or application number and keep it safe."
-  },
-  {
-   "k": "4f9a4681efbb",
-   "ctx": "demoSteps",
-   "t": "Once approved, Rs 1,000 comes into your bank account every month by DBT."
-  },
-  {
-   "k": "acc4b66055af",
-   "ctx": "demoSteps",
-   "t": "Every six months, on 30 June and 31 December, the college confirms that you are still studying. The payment continues only while you stay on the rolls."
-  },
-  {
-   "k": "41234d9b2b2c",
-   "ctx": "demoSteps",
-   "t": "If the money stops, first check at your bank that Aadhaar is linked to the account, then ask the nodal officer to check your record on UMIS."
-  },
-  {
-   "k": "1b7590c9441a",
-   "ctx": "helpline",
-   "t": "Your college's Tamil Pudhalvan nodal officer / District Social Welfare Officer at the Collectorate / 1100 — Tamil Nadu citizen helpline for complaints"
-  },
-  {
-   "k": "71b7c663ebe0",
-   "ctx": "title",
-   "t": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS Card)"
-  },
-  {
-   "k": "ef41abc5a856",
-   "ctx": "department",
-   "t": "Health and Family Welfare Department, Tamil Nadu Health Systems Project (TNHSP)"
-  },
-  {
-   "k": "d7992f9571e5",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment for low-income families in Tamil Nadu, at government hospitals and empanelled private hospitals, up to Rs 5 lakh per family a year. In Tamil Nadu it runs together with Ayushman Bharat PM-JAY (CMCHIS-PMJAY), so one card covers both. In August 2026 the Chief Minister announced that the yearly cover will rise to Rs 25 lakh; ask the helpline whether the higher cover has started. You enrol once, at the CMCHIS card centre in the District Collector's office."
-  },
-  {
-   "k": "2d6c54697f0e",
-   "ctx": "benefit",
-   "t": "Up to Rs 5 lakh a year per family, cashless (Rs 25 lakh cover announced in August 2026)"
-  },
-  {
-   "k": "a24309f7b286",
-   "ctx": "eligibility",
-   "t": "Annual family income below Rs 1,20,000, certified by the Village Administrative Officer (VAO)"
-  },
-  {
-   "k": "bbc2ef753e58",
-   "ctx": "eligibility",
-   "t": "The family holds a Tamil Nadu ration (smart family) card, and everyone to be covered is named on it"
-  },
-  {
-   "k": "bfef3be45c55",
-   "ctx": "eligibility",
-   "t": "Covers the head of the family, the legal spouse, children and dependent parents"
-  },
-  {
-   "k": "d652c74005a9",
-   "ctx": "eligibility",
-   "t": "Some groups join with their own ID card instead of an income certificate: differently-abled card holders, old-age and widow pensioners, handloom workers' board members, recognised journalists, transgender persons, Sri Lankan Tamil refugees and orphans"
-  },
-  {
-   "k": "d5c4bf51adb1",
-   "ctx": "eligibility",
-   "t": "There is no age limit, and the family pays no premium"
-  },
-  {
-   "k": "53c403d11bb4",
-   "ctx": "documents",
-   "t": "Filled CMCHIS enrolment form"
-  },
-  {
-   "k": "6e3271bf77e4",
-   "ctx": "documents",
-   "t": "Income certificate from the VAO showing a yearly family income under Rs 1,20,000 (the VAO can also sign the box on the form itself)"
-  },
-  {
-   "k": "7f368d269607",
-   "ctx": "documents",
-   "t": "Original family ration (smart) card"
-  },
-  {
-   "k": "3c0db612cbd2",
-   "ctx": "documents",
-   "t": "Aadhaar cards of the head of the family and of the members to be covered"
-  },
-  {
-   "k": "9a040a41a4b4",
-   "ctx": "documents",
-   "t": "For the special groups: the welfare board, pension or other ID card in place of the income certificate"
-  },
-  {
-   "k": "12b111c03819",
-   "ctx": "portalName",
-   "t": "CMCHIS (cmchistn.com)"
-  },
-  {
-   "k": "341b680d40ec",
-   "ctx": "submitAt",
-   "t": "The CMCHIS card centre (enrolment kiosk) at your District Collector's office. The head of the family should go in person with the filled form, the VAO income certificate, the original ration card and the Aadhaar cards of all members; the photo and fingerprint are taken there."
-  },
-  {
-   "k": "d6ceea9beaff",
-   "ctx": "value",
-   "t": "Murugan Pandian"
-  },
-  {
-   "k": "804f1dd09423",
-   "ctx": "hint",
-   "t": "Write the name exactly as it is printed first on your ration card."
-  },
-  {
-   "k": "fea0ef3bf4a1",
-   "ctx": "value",
-   "t": "Pandian K"
-  },
-  {
-   "k": "0eda9b252df0",
-   "ctx": "hint",
-   "t": "For a married woman who heads the family, write the husband's name."
-  },
-  {
-   "k": "91675fff4cd7",
-   "ctx": "label",
-   "t": "Gender, date of birth / age"
-  },
-  {
-   "k": "daee8c4a9691",
-   "ctx": "value",
-   "t": "Male, 12-04-1979, 47 years"
-  },
-  {
-   "k": "3146cce56863",
-   "ctx": "hint",
-   "t": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
-  },
-  {
-   "k": "50925e6464af",
-   "ctx": "value",
-   "t": "Daily-wage farm worker"
-  },
-  {
-   "k": "6682d76cac64",
-   "ctx": "hint",
-   "t": "Your main work, in simple words, for example coolie, weaver, auto driver or homemaker."
-  },
-  {
-   "k": "4597696bf510",
-   "ctx": "label",
-   "t": "Ration card number and ration shop number"
-  },
-  {
-   "k": "804f2ed2fab6",
-   "ctx": "value",
-   "t": "3399 0000 1122 / Shop TR-112"
-  },
-  {
-   "k": "3836dbb6f498",
-   "ctx": "hint",
-   "t": "Both numbers are on the smart card. The kiosk checks this number online, so copy it carefully."
-  },
-  {
-   "k": "d9994dbff24f",
-   "ctx": "hint",
-   "t": "Aadhaar of the head of the family. Members' Aadhaar is checked at the kiosk."
-  },
-  {
-   "k": "fb67a186435e",
-   "ctx": "label",
-   "t": "Permanent address (door, street, village, taluk, district, PIN)"
-  },
-  {
-   "k": "f116d65b07ee",
-   "ctx": "value",
-   "t": "12, Kovil Street, Sevalpatti village, Peraiyur taluk, Madurai 625799"
-  },
-  {
-   "k": "4f1d5812e714",
-   "ctx": "hint",
-   "t": "The address on the ration card. Write the village, taluk and district in full."
-  },
-  {
-   "k": "8961d3bf56ef",
-   "ctx": "label",
-   "t": "Phone number"
-  },
-  {
-   "k": "6c4cae1be7e9",
-   "ctx": "hint",
-   "t": "A number you always keep with you. Messages about the card and hospital approvals come here."
-  },
-  {
-   "k": "59cd5b9ea167",
-   "ctx": "label",
-   "t": "Family members (name, age, gender, relation)"
-  },
-  {
-   "k": "7f30544613f6",
-   "ctx": "value",
-   "t": "Lakshmi, 42, F, wife; Karthik, 17, M, son; Ponnammal, 68, F, mother"
-  },
-  {
-   "k": "32883a19346c",
-   "ctx": "hint",
-   "t": "List everyone to be covered. Only people named on the ration card can be added."
-  },
-  {
-   "k": "462501bf91ea",
-   "ctx": "label",
-   "t": "VAO income certificate (box at the bottom)"
-  },
-  {
-   "k": "30c913a062ab",
-   "ctx": "value",
-   "t": "Annual family income Rs 84,000, signed and sealed by the VAO"
-  },
-  {
-   "k": "cdae0460268a",
-   "ctx": "hint",
-   "t": "The VAO writes the yearly income, signs and puts the office seal. It must be below Rs 1,20,000."
-  },
-  {
-   "k": "be8abf14a725",
-   "ctx": "demoSteps",
-   "t": "Download the CMCHIS enrolment form or collect it at the kiosk, and fill in the head of the family, the ration card and Aadhaar numbers and every member to be covered."
-  },
-  {
-   "k": "77ba5e8d8442",
-   "ctx": "demoSteps",
-   "t": "Take the form to your Village Administrative Officer, who certifies the yearly family income in the box at the bottom. It must be under Rs 1,20,000. An income certificate made through e-Sevai also works."
-  },
-  {
-   "k": "33a211c875b8",
-   "ctx": "demoSteps",
-   "t": "Go to the CMCHIS card centre at the District Collector's office with the form, the original ration card and all members' Aadhaar cards. The staff check the ration card online, take the photo and fingerprint and note your enrolment number."
-  },
-  {
-   "k": "b8a3521db588",
-   "ctx": "demoSteps",
-   "t": "Collect the CMCHIS card. You can later download the e-card from the CMCHIS website by searching with your ration card number. The website also has a CMCHIS-PMJAY Apply Now page where you can enrol online with the ration card number and an uploaded income certificate."
-  },
-  {
-   "k": "ab4401a7f892",
-   "ctx": "demoSteps",
-   "t": "When you need treatment, go to a government or empanelled private hospital and show the card and ration card at the CMCHIS desk. The hospital takes approval from the insurer and you pay nothing for a covered treatment."
-  },
-  {
-   "k": "116cbfe5b172",
-   "ctx": "demoSteps",
-   "t": "If a hospital asks for money for a covered treatment, or the card is not accepted, call the toll-free helpline 1800 425 3993 at once."
-  },
-  {
-   "k": "177e53f937b5",
-   "ctx": "helpline",
-   "t": "1800 425 3993 — CMCHIS 24x7 toll-free helpline / 14555 — Ayushman Bharat PM-JAY national helpline"
-  },
-  {
-   "k": "a48ef95548f5",
-   "ctx": "title",
-   "t": "Dr Muthulakshmi Reddy Maternity Benefit Scheme (Rs 18,000 for Pregnant Women)"
-  },
-  {
-   "k": "e026c568fe31",
-   "ctx": "department",
-   "t": "Directorate of Public Health and Preventive Medicine, Health and Family Welfare Department, Government of Tamil Nadu"
-  },
-  {
-   "k": "3b4d6bed12c9",
-   "ctx": "brief",
-   "t": "Rs 18,000 for a pregnant woman in Tamil Nadu: Rs 14,000 in three cash instalments into her own bank account, and two nutrition kits worth Rs 2,000 each. You register the pregnancy with the Village Health Nurse (VHN) and get a 12-digit PICME (RCH) number, and the VHN files the application before delivery; the same application also covers the central PM Matru Vandana Yojana. For the later instalments the delivery must be in a government hospital and the baby's vaccines must be on time."
-  },
-  {
-   "k": "2abe5d4b34c6",
-   "ctx": "benefit",
-   "t": "Rs 18,000 — Rs 14,000 cash in 3 instalments plus 2 nutrition kits of Rs 2,000"
-  },
-  {
-   "k": "605bc1c75dcf",
-   "ctx": "eligibility",
-   "t": "Pregnant woman aged 18 to 55 living in Tamil Nadu, with the pregnancy registered on PICME"
-  },
-  {
-   "k": "1366041a0e3a",
-   "ctx": "eligibility",
-   "t": "Given for the first two deliveries; for a third or later child, only if the mother or husband has had a permanent sterilisation"
-  },
-  {
-   "k": "6f3b1b169f82",
-   "ctx": "eligibility",
-   "t": "Neither the mother nor the husband is a government employee"
-  },
-  {
-   "k": "40eb9560d199",
-   "ctx": "eligibility",
-   "t": "The application must be made before delivery; the first instalment starts about 4 months (120 days) after the last period"
-  },
-  {
-   "k": "fbf0b4a64776",
-   "ctx": "eligibility",
-   "t": "Delivery in a government hospital, at least two antenatal check-ups and the baby's vaccines on time are needed for the later instalments"
-  },
-  {
-   "k": "6ea614703cc3",
-   "ctx": "eligibility",
-   "t": "Bank account in the mother's own name, linked with her Aadhaar"
-  },
-  {
-   "k": "77d39fc6e8dd",
-   "ctx": "documents",
-   "t": "Bank passbook of an account in the mother's own name, linked with Aadhaar"
-  },
-  {
-   "k": "f0b3c0330092",
-   "ctx": "documents",
-   "t": "PICME (RCH) number and the Mother and Child Protection (MCP) card given at registration"
-  },
-  {
-   "k": "be8802b29117",
-   "ctx": "documents",
-   "t": "Proof of current address"
-  },
-  {
-   "k": "a6dc1f09a131",
-   "ctx": "documents",
-   "t": "One PMMVY proof, such as the ration card, CMCHIS or Ayushman card, MGNREGA job card or e-Shram card"
-  },
-  {
-   "k": "f97ae056a4a3",
-   "ctx": "documents",
-   "t": "Husband's name, both parents' occupations and a mobile number"
-  },
-  {
-   "k": "af9b08312a50",
-   "ctx": "portalName",
-   "t": "PICME (Pregnancy and Infant Cohort Monitoring and Evaluation)"
-  },
-  {
-   "k": "14ecd9aae560",
-   "ctx": "submitAt",
-   "t": "Register the pregnancy with the Village Health Nurse at your Health Sub Centre or at the nearest Primary Health Centre (in towns, the Urban Primary Health Centre), as early as possible and ideally before 12 weeks. Take your Aadhaar, bank passbook, ration card and address proof; the VHN gives the PICME (RCH) number and enters the maternity benefit application on the PICME portal before delivery."
-  },
-  {
-   "k": "2383563eccdb",
-   "ctx": "hint",
-   "t": "The 12-digit number you get when the pregnancy is registered. Every payment is linked to it."
-  },
-  {
-   "k": "2e2176a587e1",
-   "ctx": "label",
-   "t": "Beneficiary name"
-  },
-  {
-   "k": "6b039a063f7b",
-   "ctx": "value",
-   "t": "Priya Senthil"
-  },
-  {
-   "k": "03369d791eae",
-   "ctx": "hint",
-   "t": "The mother's name exactly as in her Aadhaar."
-  },
-  {
-   "k": "a153f35f3e27",
-   "ctx": "value",
-   "t": "Senthil Kumar R"
-  },
-  {
-   "k": "2da7f1fe2a02",
-   "ctx": "hint",
-   "t": "As in the husband's Aadhaar or the ration card."
-  },
-  {
-   "k": "df473eb06907",
-   "ctx": "hint",
-   "t": "First day of your last period. The due date and instalment dates are worked out from this."
-  },
-  {
-   "k": "8601b2615357",
-   "ctx": "label",
-   "t": "Mother's date of birth and age"
-  },
-  {
-   "k": "7e37e12abf6a",
-   "ctx": "value",
-   "t": "15-08-2000, 26 years"
-  },
-  {
-   "k": "26d8d30db7b9",
-   "ctx": "hint",
-   "t": "From Aadhaar. The mother must be between 18 and 55."
-  },
-  {
-   "k": "c2ef7073facc",
-   "ctx": "label",
-   "t": "Gravida (which pregnancy)"
-  },
-  {
-   "k": "c1ae6221a5b1",
-   "ctx": "value",
-   "t": "2 (second pregnancy)"
-  },
-  {
-   "k": "47c6cfdc703f",
-   "ctx": "hint",
-   "t": "Count every pregnancy, including this one. The benefit is for the first two deliveries."
-  },
-  {
-   "k": "c855c0248518",
-   "ctx": "label",
-   "t": "Occupation of mother and husband"
-  },
-  {
-   "k": "5d9f71833615",
-   "ctx": "value",
-   "t": "Homemaker / Auto driver"
-  },
-  {
-   "k": "23728b75b6c3",
-   "ctx": "hint",
-   "t": "Must be filled for both. Government employees are not eligible."
-  },
-  {
-   "k": "abe157e02b4a",
-   "ctx": "label",
-   "t": "Mother's bank account number"
-  },
-  {
-   "k": "14abd8366782",
-   "ctx": "hint",
-   "t": "Her own account, linked with her Aadhaar. A joint or husband's account is not accepted."
-  },
-  {
-   "k": "1ac15fb73fbc",
-   "ctx": "label",
-   "t": "Current address"
-  },
-  {
-   "k": "a19138d7c9dd",
-   "ctx": "value",
-   "t": "5, Nehru Street, Kalavoor, Usilampatti taluk, Madurai district"
-  },
-  {
-   "k": "319a22d7e13c",
-   "ctx": "hint",
-   "t": "Where you live now. Upload or show proof of this address."
-  },
-  {
-   "k": "faae78af2020",
-   "ctx": "label",
-   "t": "PMMVY proof type and number"
-  },
-  {
-   "k": "c7fb5bd58ad7",
-   "ctx": "value",
-   "t": "Ration card, 3399 0000 4455"
-  },
-  {
-   "k": "f32d01eefb77",
-   "ctx": "hint",
-   "t": "One document such as the ration card, CMCHIS or Ayushman card, job card or e-Shram card."
-  },
-  {
-   "k": "00daa071b31f",
-   "ctx": "demoSteps",
-   "t": "As soon as you know you are pregnant, go to the Village Health Nurse at the Health Sub Centre or PHC and register. You get the MCP card and the 12-digit PICME (RCH) number."
-  },
-  {
-   "k": "af2e0b0369ae",
-   "ctx": "demoSteps",
-   "t": "Give the VHN your Aadhaar, bank passbook, address proof and one PMMVY proof. She enters the application on PICME before delivery, and it is checked by the Sector Health Nurse, the PHC Medical Officer and the Block Medical Officer."
-  },
-  {
-   "k": "21b973ec5e19",
-   "ctx": "demoSteps",
-   "t": "Collect the first nutrition kit at the PHC around the third month. After the fourth month of pregnancy, the first instalment of Rs 6,000 comes into your account."
-  },
-  {
-   "k": "95e66c066b18",
-   "ctx": "demoSteps",
-   "t": "Go for at least two antenatal check-ups and have the delivery in a government hospital. Get the baby's birth-dose vaccines (BCG, OPV, Hepatitis B) before leaving the hospital."
-  },
-  {
-   "k": "69b72d82df97",
-   "ctx": "demoSteps",
-   "t": "About four months after delivery, once the baby's vaccines up to 14 weeks are done, the second instalment of Rs 6,000 is paid."
-  },
-  {
-   "k": "9871e42bb191",
-   "ctx": "demoSteps",
-   "t": "After the measles-rubella (MR) vaccine at 9 months, the last Rs 2,000 is paid. The second nutrition kit is given at the PHC as well."
-  },
-  {
-   "k": "554a0349af58",
-   "ctx": "demoSteps",
-   "t": "If a payment is late, ask your VHN first, or call the PICME helpdesk with your RCH number."
-  },
-  {
-   "k": "528b9c7bc8cd",
-   "ctx": "helpline",
-   "t": "044-29510307 / 94890 48910 — PICME helpdesk, Directorate of Public Health / 102 — free ambulance and pregnancy help"
-  },
-  {
-   "k": "ce91e09a0769",
-   "ctx": "title",
-   "t": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)"
-  },
-  {
-   "k": "fa8b6f5c1df6",
-   "ctx": "brief",
-   "t": "Rs 1,000 every month, paid straight into the bank account, for girls who studied Classes 6 to 12 in a Tamil Nadu government school and have joined college. It is paid until they finish their first degree, diploma or ITI course, on top of any other scholarship. Officially it is the Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme, which replaced the old Moovalur Ramamirtham marriage assistance scheme, and since December 2024 girls from government-aided schools are covered too. You apply through your college, which enters your details on the UMIS portal."
-  },
-  {
-   "k": "37e9ff703aad",
-   "ctx": "eligibility",
-   "t": "Girl who studied Classes 6 to 12 in a Tamil Nadu government school, or in a government-aided school (added in December 2024)"
-  },
-  {
-   "k": "ee1f3e4b7339",
-   "ctx": "eligibility",
-   "t": "Only the first higher-education course counts; a second degree is not paid"
-  },
-  {
-   "k": "0af9f8ece89e",
-   "ctx": "eligibility",
-   "t": "No family income limit, and any number of girls in one family can get it"
-  },
-  {
-   "k": "0aef5a6dd8a2",
-   "ctx": "documents",
-   "t": "Bank passbook of an account in the student's own name, linked with Aadhaar (the college helps open a zero-balance account)"
-  },
-  {
-   "k": "7769beb1293f",
-   "ctx": "documents",
-   "t": "Transfer certificate from the school, showing study in a government or government-aided school"
+   "t": "1800-345-5384 (State Health Agency West Bengal, 24x7, toll-free); 14555 (Ayushman Bharat PM-JAY call centre)"
   }
  ]
 }

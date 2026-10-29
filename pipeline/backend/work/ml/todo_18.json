@@ -6,31 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_18.json",
  "items": [
   {
-   "k": "aee532aa21fd",
-   "ctx": "demoSteps",
-   "t": "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number."
-  },
-  {
-   "k": "7e0fbe120204",
-   "ctx": "demoSteps",
-   "t": "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval."
-  },
-  {
-   "k": "228dee72293e",
-   "ctx": "demoSteps",
-   "t": "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card."
-  },
-  {
-   "k": "0a700f4b14e2",
-   "ctx": "demoSteps",
-   "t": "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
-  },
-  {
-   "k": "562f4e3cfef5",
-   "ctx": "helpline",
-   "t": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline"
-  },
-  {
    "k": "39717556c60a",
    "ctx": "title",
    "t": "Mizoram Universal Health Care Scheme (MUHCS Card)"
@@ -674,6 +649,61 @@
    "k": "ef9b3e226454",
    "ctx": "eligibility",
    "t": "Pay Rs 50 every year to stay a member; missing three years in a row ends membership. Most benefits start after one year of registration"
+  },
+  {
+   "k": "ddbadbc300b9",
+   "ctx": "documents",
+   "t": "Certificate of 90 days' work from the employer, a registered trade union or the labour inspector, or a self-certificate giving sites, employers and days worked (model formats are on the portal)"
+  },
+  {
+   "k": "ba2e216f0d38",
+   "ctx": "documents",
+   "t": "Bank passbook first page showing the IFSC code"
+  },
+  {
+   "k": "4500a56d70e9",
+   "ctx": "documents",
+   "t": "Nominee details (Form XXXI): name, relation, age and share"
+  },
+  {
+   "k": "0441caeb52f1",
+   "ctx": "documents",
+   "t": "Rs 20 registration fee, and Rs 50 yearly contribution"
+  },
+  {
+   "k": "9c6e8eed6f3d",
+   "ctx": "portalName",
+   "t": "NirmanShramik — Odisha Building & Other Construction Workers' Welfare Board"
+  },
+  {
+   "k": "713e236b3801",
+   "ctx": "hint",
+   "t": "Write it exactly as on your Aadhaar card."
+  },
+  {
+   "k": "776fce3e122a",
+   "ctx": "hint",
+   "t": "Your family name as on Aadhaar."
+  },
+  {
+   "k": "dbd2b4af1cb6",
+   "ctx": "hint",
+   "t": "A number you keep with you. Login OTPs and approval messages come here."
+  },
+  {
+   "k": "cbae8fa788d3",
+   "ctx": "hint",
+   "t": "Choose No for a new registration. Choose Yes only if you already have a board registration number."
+  },
+  {
+   "k": "d8eaf04f6523",
+   "ctx": "hint",
+   "t": "You must be 18 or older and below 60."
+  },
+  {
+   "k": "aaa9d271cee6",
+   "ctx": "label",
+   "t": "Permanent address (village, post office, GP, block, district)"
   }
  ]
 }

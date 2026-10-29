@@ -6,411 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_21.json",
  "items": [
   {
-   "k": "213f2bd6f332",
-   "ctx": "demoSteps",
-   "t": "Within a few days, the amount above Rs.500 is credited to the bank account linked to your gas connection. If it does not come, ask at the gas agency and the MPDO office."
-  },
-  {
-   "k": "b847aa4ba37d",
-   "ctx": "helpline",
-   "t": "TGSRTC enquiry 040-69440000 / 040-23450033; Civil Supplies toll free 1967 (gas subsidy and ration card)"
-  },
-  {
-   "k": "f71cf7e2a068",
-   "ctx": "title",
-   "t": "Kalyana Lakshmi Pathakam (Rs.1,00,116 Marriage Help)"
-  },
-  {
-   "k": "a2009dec4252",
-   "ctx": "department",
-   "t": "SC Development, Tribal Welfare and BC Welfare Departments, Telangana"
-  },
-  {
-   "k": "4eb3326d30b6",
-   "ctx": "brief",
-   "t": "The Telangana government gives a one-time Rs.1,00,116 for the marriage of a girl from an SC, ST, BC or EBC family, or Rs.1,25,145 if the bride has a disability. The money is paid into the bride's mother's bank account. Apply after the wedding on the Telangana ePASS site, yourself or at a MeeSeva centre, then take the printout and documents to the Tahsildar's office for checking. Brides from minority communities apply under Shaadi Mubarak instead."
-  },
-  {
-   "k": "8651e673e648",
-   "ctx": "benefit",
-   "t": "Rs.1,00,116 one time (Rs.1,25,145 for a bride with a disability)"
-  },
-  {
-   "k": "561947caa2d7",
-   "ctx": "eligibility",
-   "t": "The bride is from an SC, ST, BC or EBC family and lives in Telangana"
-  },
-  {
-   "k": "d6c0162e7345",
-   "ctx": "eligibility",
-   "t": "Parents' total income: SC and ST up to Rs.2,00,000 a year; BC and EBC up to Rs.2,00,000 in towns and Rs.1,50,000 in villages"
-  },
-  {
-   "k": "817b4c0add20",
-   "ctx": "eligibility",
-   "t": "The bride is at least 18 and the groom at least 21 on the wedding day"
-  },
-  {
-   "k": "fa6bca145e83",
-   "ctx": "eligibility",
-   "t": "Only for the bride's first marriage"
-  },
-  {
-   "k": "f2e430c370bb",
-   "ctx": "eligibility",
-   "t": "The bride's mother needs a bank account in her own name. A bride whose parents have died uses her own account"
-  },
-  {
-   "k": "ac38116446dd",
-   "ctx": "documents",
-   "t": "Aadhaar of the bride, her mother and the groom"
-  },
-  {
-   "k": "abe3fab1e017",
-   "ctx": "documents",
-   "t": "Caste-cum-nativity certificate and income certificate from MeeSeva (you enter their numbers in the form)"
-  },
-  {
-   "k": "3463c3b37038",
-   "ctx": "documents",
-   "t": "Bride's age proof: SSC hall ticket number, or a birth certificate"
-  },
-  {
-   "k": "e214b708a147",
-   "ctx": "documents",
-   "t": "Marriage certificate (registration), one wedding photo, and the wedding card if available"
-  },
-  {
-   "k": "e09c3eda8674",
-   "ctx": "documents",
-   "t": "First-marriage confirmation certificate and the VRO / Panchayat Secretary certificate"
-  },
-  {
-   "k": "81af3e87e2bf",
-   "ctx": "documents",
-   "t": "Bank passbooks of the bride's mother and the bride"
-  },
-  {
-   "k": "d06e31f0e84d",
-   "ctx": "documents",
-   "t": "Bride's photo; SADAREM disability certificate if the bride has a disability"
-  },
-  {
-   "k": "6ffc4cf6156f",
-   "ctx": "label",
-   "t": "SSC or equivalent details available / Hall ticket no."
-  },
-  {
-   "k": "ba98bdc26a86",
-   "ctx": "hint",
-   "t": "With the hall ticket number and pass year, the bride's details are taken from the SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "8eb2cd687f9c",
-   "ctx": "hint",
-   "t": "As on Aadhaar and the SSC memo."
-  },
-  {
-   "k": "e68550f6bc43",
-   "ctx": "hint",
-   "t": "She must have been 18 or older on the wedding day."
-  },
-  {
-   "k": "d085fefb985d",
-   "ctx": "hint",
-   "t": "As written on the MeeSeva caste certificate."
-  },
-  {
-   "k": "d0f1523ed17d",
-   "ctx": "hint",
-   "t": "This decides the income limit for BC/EBC: Rs.1.5 lakh in villages, Rs.2 lakh in towns."
-  },
-  {
-   "k": "26c015aba947",
-   "ctx": "hint",
-   "t": "Number on the MeeSeva income certificate. The name, mandal and income then fill in by themselves."
-  },
-  {
-   "k": "153670e84072",
-   "ctx": "hint",
-   "t": "An account in the mother's own name, with IFSC. The money is paid here."
-  },
-  {
-   "k": "5d9c67e0032a",
-   "ctx": "label",
-   "t": "Name of the bride groom / Date of birth"
-  },
-  {
-   "k": "e5e7b6890277",
-   "ctx": "hint",
-   "t": "He must have been 21 or older on the wedding day."
-  },
-  {
-   "k": "239542e0ee88",
-   "ctx": "label",
-   "t": "Date and place of marriage / registration"
-  },
-  {
-   "k": "65bc0c5c3a09",
-   "ctx": "value",
-   "t": "11-05-2026, Sri Venkateswara Temple, Jagtial; SRO Jagtial, Doc No. 9999/2026"
-  },
-  {
-   "k": "904a22bc111f",
-   "ctx": "demoSteps",
-   "t": "Get the caste-cum-nativity and income certificates from MeeSeva and register the marriage. Scan every document from the original (JPG, 50 to 150 KB)."
-  },
-  {
-   "k": "0de163d88cfd",
-   "ctx": "demoSteps",
-   "t": "Open telanganaepass.cgg.gov.in, go to Kalyana Lakshmi and click Registration, or ask a MeeSeva centre to apply for you."
-  },
-  {
-   "k": "1e731dd9eb78",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's details, the mother's bank details, the groom's details and the marriage details, and enter the MeeSeva certificate numbers. Upload the files and submit, then note the application ID and print it."
-  },
-  {
-   "k": "9d29f257a1e1",
-   "ctx": "demoSteps",
-   "t": "Take the printout and copies of the documents to the Tahsildar (MRO) office. The Revenue Inspector checks them and the RDO approves."
-  },
-  {
-   "k": "2cc0e392079a",
-   "ctx": "demoSteps",
-   "t": "Track the application with Print/Status on the same page. If there is an objection, correct it through Edit/Uploads."
-  },
-  {
-   "k": "d6172ee9ffa0",
-   "ctx": "demoSteps",
-   "t": "After sanction, the money is released to the bride's mother's bank account. The local MLA often hands over the sanction at a programme."
-  },
-  {
-   "k": "d52eab0d85cf",
-   "ctx": "helpline",
-   "t": "ePASS technical help 040-23120311 / 040-23120312 (10:30 am to 5 pm, working days); your Tahsildar office or District SC / BC / Tribal Welfare Officer"
-  },
-  {
-   "k": "ece64b9d8b1a",
-   "ctx": "title",
-   "t": "Shaadi Mubarak (Rs.1,00,116 Marriage Help for Minorities)"
-  },
-  {
-   "k": "c534ae41a303",
-   "ctx": "brief",
-   "t": "The Telangana government gives a one-time Rs.1,00,116 for the marriage of a girl from a Muslim, Christian, Sikh, Jain, Buddhist or Parsi family, or Rs.1,25,145 if the bride has a disability. It works like Kalyana Lakshmi: apply online after the nikah or wedding on the Telangana ePASS site or at MeeSeva, then take the printout and documents to the Tahsildar's office. The money is paid into the bride's mother's bank account."
-  },
-  {
-   "k": "ee5353d3bbd4",
-   "ctx": "eligibility",
-   "t": "The bride is from a minority community (Muslim, Christian, Sikh, Jain, Buddhist or Parsi) and lives in Telangana"
-  },
-  {
-   "k": "5b01d11cccb1",
-   "ctx": "eligibility",
-   "t": "Parents' total income up to Rs.2,00,000 a year"
-  },
-  {
-   "k": "b425c78a62f5",
-   "ctx": "eligibility",
-   "t": "The bride is at least 18 and the groom at least 21 on the date of marriage"
-  },
-  {
-   "k": "1b7d455fa8e9",
-   "ctx": "documents",
-   "t": "Integrated certificate (caste-cum-nativity-cum-date of birth) and income certificate from MeeSeva"
-  },
-  {
-   "k": "4ff3a56e69d0",
-   "ctx": "documents",
-   "t": "Marriage certificate: Nikahnama from the Qazi, or the church or registration certificate"
-  },
-  {
-   "k": "ac817547166a",
-   "ctx": "documents",
-   "t": "Letter from the religious head who performed the marriage"
-  },
-  {
-   "k": "3282d3241b4d",
-   "ctx": "documents",
-   "t": "One marriage photo and the bride's photo"
-  },
-  {
-   "k": "9ecb52ccc1be",
-   "ctx": "documents",
-   "t": "SADAREM disability certificate, if the bride has a disability"
-  },
-  {
-   "k": "86b32b785864",
-   "ctx": "hint",
-   "t": "Gives the bride's details from SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "d0a8287987f8",
-   "ctx": "hint",
-   "t": "She must have been 18 or older on the date of the nikah."
-  },
-  {
-   "k": "4607d42a7db8",
-   "ctx": "hint",
-   "t": "Choose as on your MeeSeva certificate: BC-E for BC-E Muslim groups, OC (Christian), OC (Sikh) and so on."
-  },
-  {
-   "k": "377808db9dd0",
-   "ctx": "hint",
-   "t": "The income on the certificate must be Rs.2 lakh a year or less."
-  },
-  {
-   "k": "7bcd52039f14",
-   "ctx": "hint",
-   "t": "The caste-cum-nativity-cum-date of birth certificate number from MeeSeva."
-  },
-  {
-   "k": "f7770aa6b2d6",
-   "ctx": "hint",
-   "t": "He must have been 21 or older on the date of marriage."
-  },
-  {
-   "k": "00f6c1e43ca2",
-   "ctx": "hint",
-   "t": "As written in the Nikahnama or marriage certificate."
-  },
-  {
-   "k": "a9401bd492cf",
-   "ctx": "demoSteps",
-   "t": "Get the integrated and income certificates from MeeSeva and the Nikahnama or marriage certificate. Scan everything from the originals (JPG, 50 to 150 KB)."
-  },
-  {
-   "k": "f83f8f281cd5",
-   "ctx": "demoSteps",
-   "t": "Open telanganaepass.cgg.gov.in, go to Shaadi Mubarak and click Registration, or ask a MeeSeva centre to apply for you."
-  },
-  {
-   "k": "29e3d4b6d774",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's details, the mother's bank details, the groom's details and the marriage details, and enter the MeeSeva numbers. Upload the files, submit, and print the application with its ID."
-  },
-  {
-   "k": "7ec11c9b283d",
-   "ctx": "demoSteps",
-   "t": "Track the application with Print/Status. If there is an objection, correct it through Edit/Uploads."
-  },
-  {
-   "k": "e744c7a430fc",
-   "ctx": "demoSteps",
-   "t": "After sanction, the money is released to the bride's mother's bank account. It is often handed over at a programme by the local MLA."
-  },
-  {
-   "k": "26c7df86b1bb",
-   "ctx": "helpline",
-   "t": "ePASS technical help 040-23120311 / 040-23120312 (10:30 am to 5 pm, working days); your Tahsildar office or District Minority Welfare Officer"
-  },
-  {
-   "k": "923d840e2593",
-   "ctx": "title",
-   "t": "Mukhyamantri Konya Bibaha Yojana (MKBY, Girls' Marriage Help)"
-  },
-  {
-   "k": "c70a19d651f4",
-   "ctx": "department",
-   "t": "Social Welfare & Social Education Department, Government of Tripura"
-  },
-  {
-   "k": "d27e2439b7c4",
-   "ctx": "hint",
-   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets rejected."
-  },
-  {
-   "k": "ca86fa49ae4e",
-   "ctx": "hint",
-   "t": "Where you actually live now, so the nearest empanelled hospitals are shown."
-  },
-  {
-   "k": "c65b86da6463",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in, log in as Beneficiary with your mobile number and OTP, choose Uttar Pradesh, and search for your family by ration card, Aadhaar or Family ID."
-  },
-  {
-   "k": "dab79cedf104",
-   "ctx": "demoSteps",
-   "t": "If your family's names appear, you are covered, whether under PM-JAY or the state's MMJAA. The card and the hospital benefit are the same."
-  },
-  {
-   "k": "8cee9788b7a9",
-   "ctx": "demoSteps",
-   "t": "Tap the Aadhaar icon next to a member marked eKYC pending, verify with an Aadhaar OTP or face authentication, take the live photo and fill in the relation, district and PIN code."
-  },
-  {
-   "k": "2cbecbf21a58",
-   "ctx": "demoSteps",
-   "t": "Submit. SACHIS usually approves it within a day or two. Then open Download Card, verify with OTP and save the card on your phone."
-  },
-  {
-   "k": "f2cbd0f328ed",
-   "ctx": "demoSteps",
-   "t": "If your family is not found, ask at the Ayushman Mitra desk of the nearest government hospital or at a CSC, or call 1800-1800-4444. A family that is not in the list cannot be added online."
-  },
-  {
-   "k": "03ec6c1e90ca",
-   "ctx": "helpline",
-   "t": "1800-1800-4444 (SACHIS, Uttar Pradesh toll-free) / 14555 (national Ayushman helpline)"
-  },
-  {
-   "k": "e3764a248c7a",
-   "ctx": "title",
-   "t": "Mukhyamantri Kanya Sumangala Yojana (Kanya Sumangala)"
-  },
-  {
-   "k": "b178efb70101",
-   "ctx": "department",
-   "t": "Directorate of Women Welfare, Department of Women & Child Development, Government of Uttar Pradesh"
-  },
-  {
-   "k": "7030f417e8e0",
-   "ctx": "brief",
-   "t": "Rs.25,000 for a daughter, paid in six parts from her birth until she joins college, straight into the mother's bank account (the father's or guardian's if the mother is not alive). The family applies online at each stage: birth, full vaccination, and admission to Class 1, Class 6, Class 9 and a degree or diploma. The total was raised from Rs.15,000 to Rs.25,000 from 1 April 2024."
-  },
-  {
-   "k": "c046ff553b0d",
-   "ctx": "benefit",
-   "t": "Rs.25,000 per daughter in six parts: 5,000 + 2,000 + 3,000 + 3,000 + 5,000 + 7,000"
-  },
-  {
-   "k": "e15178e2232a",
-   "ctx": "eligibility",
-   "t": "The family lives permanently in Uttar Pradesh and has proof of residence"
-  },
-  {
-   "k": "ac1b6acfd656",
-   "ctx": "eligibility",
-   "t": "Family income is up to Rs.3 lakh a year"
-  },
-  {
-   "k": "a90d904b0064",
-   "ctx": "eligibility",
-   "t": "Up to two daughters of one family can get it. If the second delivery gives twin girls, all three girls are covered. Legally adopted daughters count within the two"
-  },
-  {
-   "k": "47d3838c115c",
-   "ctx": "eligibility",
-   "t": "Stage 1 (Rs.5,000) is for a girl born on or after 1 April 2019. Stage 2 (Rs.2,000) is for full vaccination, for a girl born on or after 1 April 2018"
-  },
-  {
-   "k": "4b66493a6af9",
-   "ctx": "eligibility",
-   "t": "Stages 3 to 5 (Rs.3,000, Rs.3,000, Rs.5,000) are for admission to Class 1, Class 6 and Class 9 in the current school year. Stage 6 (Rs.7,000) is for admission to a degree or a diploma of at least 2 years after passing Class 10 or 12"
-  },
-  {
-   "k": "be16e7fa9a65",
-   "ctx": "eligibility",
-   "t": "Aadhaar of the applicant, father and mother is compulsory. The girl's own Aadhaar is needed from Stage 3 onward"
-  },
-  {
-   "k": "0d2a600aa015",
-   "ctx": "documents",
-   "t": "Aadhaar card of the applicant, father and mother (and the girl from Stage 3 onward)"
-  },
-  {
    "k": "686f73b5e4fa",
    "ctx": "documents",
    "t": "Proof of permanent residence in Uttar Pradesh"
@@ -979,6 +574,236 @@
    "k": "f13efb70a9fe",
    "ctx": "department",
    "t": "Women Empowerment and Child Development Department, Uttarakhand"
+  },
+  {
+   "k": "8e17617472d6",
+   "ctx": "brief",
+   "t": "Money for daughters of low-income families in Uttarakhand, in two parts: Rs 11,000 when a girl is born in a hospital, and Rs 51,000 when she passes Class 12, joins a degree or diploma course and is unmarried. Up to two living daughters per family can benefit. You apply online on the Nanda Gaura portal, within 6 months of the birth, and by 30 November of the year she passes Class 12. Money is given first come, first served within the yearly budget."
+  },
+  {
+   "k": "2e0a400b7551",
+   "ctx": "benefit",
+   "t": "Rs 11,000 at birth + Rs 51,000 after Class 12 (Rs 62,000 per daughter)"
+  },
+  {
+   "k": "c44d07e32823",
+   "ctx": "eligibility",
+   "t": "Parents are permanent residents of Uttarakhand"
+  },
+  {
+   "k": "02de09fcf3e4",
+   "ctx": "eligibility",
+   "t": "Family income up to Rs 6,000 a month (Rs 72,000 a year), on a Tehsildar's income certificate not older than 1 year"
+  },
+  {
+   "k": "e23f45a99bc3",
+   "ctx": "eligibility",
+   "t": "Only two living daughters of a family can get it"
+  },
+  {
+   "k": "628b40be0c50",
+   "ctx": "eligibility",
+   "t": "Birth stage: born in a hospital or ANM centre, mother registered at the Anganwadi during pregnancy, and the application made within 6 months of birth"
+  },
+  {
+   "k": "24b344e2f682",
+   "ctx": "eligibility",
+   "t": "Class 12 stage: passed Class 12 from a recognised board or NIOS, admitted to a degree or at least a 1-year diploma, unmarried, name on the family ration card; apply by 30 November of the year she passes"
+  },
+  {
+   "k": "f0d3cf529c49",
+   "ctx": "documents",
+   "t": "Aadhaar and PAN card of mother and father (and of the girl for the Class 12 stage); a PAN application receipt is accepted"
+  },
+  {
+   "k": "0bc04a9977de",
+   "ctx": "documents",
+   "t": "Income certificate issued by the Tehsildar"
+  },
+  {
+   "k": "eb68ba25e9a3",
+   "ctx": "documents",
+   "t": "Birth certificate and institutional delivery certificate (birth stage)"
+  },
+  {
+   "k": "8b2ac2c672e0",
+   "ctx": "documents",
+   "t": "Anganwadi worker's certificate and MCP (vaccination) card (birth stage)"
+  },
+  {
+   "k": "3a4645d33f3f",
+   "ctx": "documents",
+   "t": "Class 10 and Class 12 certificates, the principal's certificate and proof of college admission (Class 12 stage)"
+  },
+  {
+   "k": "11a28e9dcc09",
+   "ctx": "documents",
+   "t": "Ration card copy and family register copy (or a certificate from the councillor)"
+  },
+  {
+   "k": "c25be4d27a7f",
+   "ctx": "documents",
+   "t": "Bank passbook (joint account of mother and girl for birth, the girl's own for Class 12; Aadhaar-linked, not a Jan Dhan account), with last year's statements of family accounts and the last 3 electricity bills"
+  },
+  {
+   "k": "ed66fd8d5a59",
+   "ctx": "hint",
+   "t": "The OTP comes here, and this number becomes your login ID."
+  },
+  {
+   "k": "fcf117406707",
+   "ctx": "hint",
+   "t": "Choose the district where the family lives."
+  },
+  {
+   "k": "f8b882b21786",
+   "ctx": "hint",
+   "t": "Type the code to verify the number before the registration form opens."
+  },
+  {
+   "k": "611197d8b453",
+   "ctx": "hint",
+   "t": "Write the daughter's name as on her birth certificate or school records."
+  },
+  {
+   "k": "cc889d2f02fb",
+   "ctx": "hint",
+   "t": "Write it down safely. You log in with the mobile number and this password."
+  },
+  {
+   "k": "e0187877cdb9",
+   "ctx": "hint",
+   "t": "The girl's Aadhaar. For a newborn without Aadhaar, the mother's Aadhaar can be entered."
+  },
+  {
+   "k": "a2762aaef4ed",
+   "ctx": "hint",
+   "t": "The child development project (block) of your area."
+  },
+  {
+   "k": "ca4b8a012b61",
+   "ctx": "hint",
+   "t": "Choose the birth stage within 6 months of birth, or the Class 12 stage after she passes and joins college."
+  },
+  {
+   "k": "8a9a0baff284",
+   "ctx": "hint",
+   "t": "As written on the Tehsildar's income certificate. It must not be above Rs 6,000 a month."
+  },
+  {
+   "k": "0383733eb7f1",
+   "ctx": "hint",
+   "t": "Joint account of mother and girl (or the mother's) for birth; the girl's own account for Class 12. Not a Jan Dhan account."
+  },
+  {
+   "k": "9c1083540180",
+   "ctx": "demoSteps",
+   "t": "Open nandagaurauk.in, click the new applicant registration link, enter your mobile number and district, and verify with the OTP."
+  },
+  {
+   "k": "70efd3fadef3",
+   "ctx": "demoSteps",
+   "t": "Fill the girl's name, password, Aadhaar and block to register, then log in with the mobile number and password."
+  },
+  {
+   "k": "763ae9991207",
+   "ctx": "demoSteps",
+   "t": "Fill the application for the right stage and upload every certificate clearly, each under 200 KB. Submit and note the application number."
+  },
+  {
+   "k": "11a94d9d351f",
+   "ctx": "demoSteps",
+   "t": "The Child Development Project Officer checks the papers, and the district committee chaired by the Chief Development Officer approves eligible cases."
+  },
+  {
+   "k": "796292ce23dc",
+   "ctx": "demoSteps",
+   "t": "The money is sent by DBT: Rs 11,000 to the joint or mother's account, or Rs 51,000 to the girl's account. If the year's budget runs out, approved girls are paid first the next year."
+  },
+  {
+   "k": "f6e3e934cf9d",
+   "ctx": "helpline",
+   "t": "92595 53906 (scheme helpline) / 76681 51041 (technical helpline) / 0135-2775813 (WECD Directorate, Dehradun)"
+  },
+  {
+   "k": "e9997103e1e9",
+   "ctx": "department",
+   "t": "Department of Women & Child Development and Social Welfare, West Bengal"
+  },
+  {
+   "k": "85afe9efda16",
+   "ctx": "brief",
+   "t": "Money for girls who stay in school and stay unmarried. A girl aged 13 to 18 in Class VIII or above gets a yearly grant (K1), and at 18, if she is still studying and unmarried, a one-time grant (K2), both paid into her own bank account. The scheme was called Kanyashree Prakalpa until 14 August 2026, when the state renamed it Kanyaratna and announced that the yearly grant will double to Rs.2,000 from the 2027 school year and the one-time grant will rise to Rs.50,000; the website, forms and application IDs still say Kanyashree. Girls apply through their school or college, not on their own."
+  },
+  {
+   "k": "c4545e4086bc",
+   "ctx": "benefit",
+   "t": "Rs.1,000 a year (Rs.2,000 from 2027) + one-time Rs.25,000 at 18 (Rs.50,000 announced)"
+  },
+  {
+   "k": "4c565e2114c8",
+   "ctx": "helpline",
+   "t": "181 (Women Helpline, also for schoolgirls under Kanyaratna); 033-2337-3846 (Kanyashree portal support, Women & Child Development Department); her school's Head or the Kanyashree cell at the DM office"
+  },
+  {
+   "k": "aeb65d164110",
+   "ctx": "brief",
+   "t": "A one-time grant of Rs.25,000 from the West Bengal government for the first marriage of an adult woman from a poor family. The money goes straight into the bride's own bank account before the wedding date. You fill a free paper form at your block, sub-division or municipal corporation office about one to two months before the wedding; officers then visit your area to check, and the BDO, SDO or Commissioner sanctions it. The new state government kept the scheme in 2026 and added voter-list details to the form."
+  },
+  {
+   "k": "d9c6b4978f81",
+   "ctx": "benefit",
+   "t": "Rs.25,000 once, into the bride's bank account before the wedding"
+  },
+  {
+   "k": "3ef16f19311a",
+   "ctx": "eligibility",
+   "t": "An active bank account in her name alone, able to receive Rs.25,000 at a time"
+  },
+  {
+   "k": "84c64f48106f",
+   "ctx": "value",
+   "t": "Kalitala village, Kalitala GP, Raina-II, Purba Bardhaman, 713421"
+  },
+  {
+   "k": "0e72dd9796d8",
+   "ctx": "demoSteps",
+   "t": "The BDO, SDO or Commissioner sanctions it, and the Rs.25,000 is sent to your bank account, normally at least 5 days before the wedding date. An SMS comes to your mobile."
+  },
+  {
+   "k": "deec5fd65ab3",
+   "ctx": "helpline",
+   "t": "The Rupashree desk at your BDO, SDO or Municipal Corporation office; 033-2337-3846 (Rupashree portal support, Women & Child Development Department); 181 (Women Helpline)"
+  },
+  {
+   "k": "a08c87bef39e",
+   "ctx": "value",
+   "t": "1234567 of 2021 / 2023"
+  },
+  {
+   "k": "7fc36f603e5d",
+   "ctx": "helpline",
+   "t": "1800-102-8014 (WBSCC State Help Desk, toll-free); SCC Grievance app on Google Play for complaints"
+  },
+  {
+   "k": "ae947bef3438",
+   "ctx": "value",
+   "t": "Bina Roy / Health Assistant / 90000 72811"
+  },
+  {
+   "k": "5c6c8fc5dc45",
+   "ctx": "hint",
+   "t": "The official or help-desk staff taking your enrolment, for example at a camp or hospital desk, fills in their own details. If you are applying alone and unsure, call 1800-345-5384 before you submit."
+  },
+  {
+   "k": "63e8b5ba120b",
+   "ctx": "demoSteps",
+   "t": "If the hospital asks for money for a covered treatment, or you get stuck, call 1800-345-5384 (24 hours)."
+  },
+  {
+   "k": "1332c83d3efd",
+   "ctx": "helpline",
+   "t": "1800-345-5384 (State Health Agency West Bengal, 24x7, toll-free); 14555 (Ayushman Bharat PM-JAY call centre)"
   }
  ]
 }

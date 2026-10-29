@@ -6,116 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_16.json",
  "items": [
   {
-   "k": "9b0933b9b7ef",
-   "ctx": "demoSteps",
-   "t": "On a death, the panchayat secretary or ward in-charge pays Rs 5,000 funeral help at once. The family applies at the Janpad or municipal office for the Rs 2 lakh or Rs 4 lakh, which is paid into the nominee's account."
-  },
-  {
-   "k": "6988fed68a0d",
-   "ctx": "department",
-   "t": "State Health Agency (Deendayal Swasthya Suraksha Parishad), Public Health and Family Welfare Department, Madhya Pradesh"
-  },
-  {
-   "k": "8a5b1c3d9f5f",
-   "ctx": "brief",
-   "t": "Madhya Pradesh runs Ayushman Bharat PM-JAY under the name Niramayam, and the state pays for many more families than the central list covers. Every family holding an NFSA food-grain slip (khadyann parchi) qualifies, as do Sambal and construction workers, ASHA and anganwadi workers, and everyone aged 70 or above. Each family gets free, cashless treatment up to Rs 5 lakh a year in empanelled government and private hospitals. You can make the card yourself on the Ayushman portal or app, or free at a Lok Seva Kendra, CSC or the hospital's Ayushman Mitra desk."
-  },
-  {
-   "k": "a5c04525a673",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless, in empanelled hospitals"
-  },
-  {
-   "k": "9db15dc2c958",
-   "ctx": "eligibility",
-   "t": "Families holding an NFSA food-grain eligibility slip (khadyann parchi) in Madhya Pradesh"
-  },
-  {
-   "k": "7b7557f8ac65",
-   "ctx": "eligibility",
-   "t": "Families in the SECC 2011 list (the central PM-JAY list)"
-  },
-  {
-   "k": "cd9db6c3102c",
-   "ctx": "eligibility",
-   "t": "Workers registered under Sambal or with the Building and Other Construction Workers Board, and their families"
-  },
-  {
-   "k": "9d89463fd0fa",
-   "ctx": "eligibility",
-   "t": "ASHA workers, anganwadi workers and helpers, PVTG families (Baiga, Bharia, Sahariya), Bhopal gas tragedy victims and Dharti Aaba (DAJGUA) beneficiaries"
-  },
-  {
-   "k": "3460cad54bcd",
-   "ctx": "eligibility",
-   "t": "Every person aged 70 or above, whatever the income (Ayushman Vay Vandana card)"
-  },
-  {
-   "k": "02c38409c521",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age; illnesses you already have are covered from day one"
-  },
-  {
-   "k": "f389ff93c0ed",
-   "ctx": "documents",
-   "t": "Aadhaar card of each family member who needs a card"
-  },
-  {
-   "k": "9439b0dfa6a8",
-   "ctx": "documents",
-   "t": "Samagra ID and the NFSA food-grain slip or ration card"
-  },
-  {
-   "k": "f2202a93b39c",
-   "ctx": "documents",
-   "t": "Sambal card or construction worker card, if you qualify through it"
-  },
-  {
-   "k": "d512d3d8f383",
-   "ctx": "hint",
-   "t": "Choose Beneficiary when making the card for yourself or your family."
-  },
-  {
-   "k": "48bf416472b3",
-   "ctx": "hint",
-   "t": "Choose PMJAY and Madhya Pradesh. Niramayam is the state's name for the same scheme."
-  },
-  {
-   "k": "0bab9a729e6c",
-   "ctx": "hint",
-   "t": "You can also search by family, name or PMJAY ID. If nothing comes up, check at the ration shop that your name is on the NFSA slip."
-  },
-  {
-   "k": "997444d5a4b4",
-   "ctx": "hint",
-   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face with the phone camera."
-  },
-  {
-   "k": "4d980bd2b278",
-   "ctx": "hint",
-   "t": "How this member is related to the person named first in the family record."
-  },
-  {
-   "k": "594a820f296b",
-   "ctx": "hint",
-   "t": "Where you live now, so the nearest empanelled hospitals are shown."
-  },
-  {
-   "k": "bd09f950f181",
-   "ctx": "demoSteps",
-   "t": "Check whether your family is listed: on beneficiary.nha.gov.in or the Ayushman app, or ask at the ration shop, gram panchayat or ASHA worker. If you have an NFSA food-grain slip, you should qualify."
-  },
-  {
-   "k": "c750f13a484a",
-   "ctx": "demoSteps",
-   "t": "Log in as Beneficiary with your mobile number and OTP, choose PMJAY and Madhya Pradesh, and search for your family by Aadhaar."
-  },
-  {
-   "k": "cef1e7317b02",
-   "ctx": "demoSteps",
-   "t": "Pick the member marked eKYC pending, verify with Aadhaar OTP or face scan, take the live photo, and fill in the relation, district and PIN code. Submit."
-  },
-  {
    "k": "328fa7f5c492",
    "ctx": "demoSteps",
    "t": "The State Health Agency usually approves within a day or two. Log in again and download the card. It is also made free at a Lok Seva Kendra, CSC, government hospital or Aapke Dwar Niramayam camp."
@@ -674,6 +564,96 @@
    "k": "d9bfc0018cf3",
    "ctx": "documents",
    "t": "UDID card, if the applicant is disabled"
+  },
+  {
+   "k": "c3c071cbae48",
+   "ctx": "submitAt",
+   "t": "The talathi (gram mahsul adhikari) of your village, or the Sanjay Gandhi Yojana branch of the tehsil office, which also handles Shravanbal; in a city, the tehsil office of your area. The prescribed application is Form 3 of Annexure 1 (page 20) of the government resolution linked here, the same form as for the Niradhar pension, and the tehsil office and Setu or Aaple Sarkar Seva Kendras keep blank forms. Hand in two copies of the form and of each certificate, carry the originals, and ask for a dated acknowledgement."
+  },
+  {
+   "k": "bf21ce7ef4df",
+   "ctx": "hint",
+   "t": "You must have completed 65. If no paper shows your age, a government medical officer can give an age certificate."
+  },
+  {
+   "k": "76523df9b46c",
+   "ctx": "label",
+   "t": "Is the family below the poverty line?"
+  },
+  {
+   "k": "fcac54932699",
+   "ctx": "hint",
+   "t": "Yes if the family is on the BPL list (Group B), No otherwise (Group A). The amount is the same either way."
+  },
+  {
+   "k": "a01fb3356e3d",
+   "ctx": "hint",
+   "t": "Needed for Group A. Count all earnings, including help from sons. It must be Rs.21,000 or less, as shown on the income certificate."
+  },
+  {
+   "k": "fe082ba1d0c9",
+   "ctx": "hint",
+   "t": "Tick elderly. Also mention a disability, if any, and attach the UDID card."
+  },
+  {
+   "k": "97dfcf46c865",
+   "ctx": "hint",
+   "t": "An account in your own name. Husband and wife should each give their own account."
+  },
+  {
+   "k": "5fca1ab6d89a",
+   "ctx": "demoSteps",
+   "t": "Get the income certificate from the tehsildar through a Setu or Aaple Sarkar Seva Kendra, or a BPL certificate if the family is on the BPL list, and keep the age proof and residence certificate ready."
+  },
+  {
+   "k": "88d52e41fa3d",
+   "ctx": "demoSteps",
+   "t": "Hand it to the talathi or at the tehsil's Sanjay Gandhi Yojana branch and take the acknowledgement. The talathi visits your home to check the papers and family income."
+  },
+  {
+   "k": "ef03178189d3",
+   "ctx": "demoSteps",
+   "t": "The tehsildar places the file before the Sanjay Gandhi Niradhar Anudan Yojana committee, which also decides Shravanbal cases every month. Approved names are put on the notice board and read in the gram sabha."
+  },
+  {
+   "k": "46ad8b141da6",
+   "ctx": "demoSteps",
+   "t": "The pension starts from the month after approval is complete online and comes by DBT into your Aadhaar-linked account every month."
+  },
+  {
+   "k": "b77327c7ff4c",
+   "ctx": "demoSteps",
+   "t": "Give the life certificate each year when the tehsil asks. If the pension stopped, giving it in the same financial year restarts it."
+  },
+  {
+   "k": "d7e22e9cd318",
+   "ctx": "department",
+   "t": "Women and Child Development Department, Government of Maharashtra (ICDS Commissionerate)"
+  },
+  {
+   "k": "8bf4a198363b",
+   "ctx": "brief",
+   "t": "Rs.1,01,000 in five instalments for a girl born on or after 1 April 2023 in a family with a yellow or orange ration card, paid at stages from her birth until she turns 18. It replaced the older Majhi Kanya Bhagyashree scheme. The parents apply through the anganwadi sevika, who fills in the form with them, uploads it to the scheme portal and gives a receipt. The money goes by DBT into a joint bank account of the girl and her mother."
+  },
+  {
+   "k": "13225404ba01",
+   "ctx": "benefit",
+   "t": "Rs.1,01,000 in 5 parts: Rs.5,000 at birth, Rs.6,000 in Class 1, Rs.7,000 in Class 6, Rs.8,000 in Class 11, Rs.75,000 at 18"
+  },
+  {
+   "k": "5d225ce28298",
+   "ctx": "eligibility",
+   "t": "Girl born on or after 1 April 2023 to a family living in Maharashtra"
+  },
+  {
+   "k": "21ccb7d64326",
+   "ctx": "eligibility",
+   "t": "The family holds a yellow or orange ration card and its yearly income is not more than Rs.1 lakh"
+  },
+  {
+   "k": "e79a6a76ee6f",
+   "ctx": "eligibility",
+   "t": "Covers one or two daughters; if the family has a son and a daughter, the daughter gets it; twin girls at the second delivery both get it"
   }
  ]
 }

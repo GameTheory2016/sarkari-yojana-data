@@ -6,244 +6,9 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ta/done_04.json",
  "items": [
   {
-   "k": "a2b78ebc415d",
-   "ctx": "label",
-   "t": "पिता/पति का नाम (Father's / husband's name)"
-  },
-  {
-   "k": "dbc35a409797",
-   "ctx": "value",
-   "t": "Ramesh Oraon"
-  },
-  {
-   "k": "2de417396e87",
-   "ctx": "label",
-   "t": "पता (Village/mohalla, police station, panchayat/ward, block/circle, district)"
-  },
-  {
-   "k": "eaf67669f084",
-   "ctx": "value",
-   "t": "Tetartoli, PS Kanke, Panchayat Sarwa, Block Kanke, District Ranchi"
-  },
-  {
-   "k": "63f61adf73cf",
-   "ctx": "hint",
-   "t": "Your present address in Jharkhand, as on the ration card."
-  },
-  {
-   "k": "59180ee22ac9",
-   "ctx": "label",
-   "t": "आधार संख्या (Aadhaar number)"
-  },
-  {
-   "k": "0ee81a50c27f",
-   "ctx": "hint",
-   "t": "Her own 12-digit Aadhaar number, one digit per box."
-  },
-  {
-   "k": "36917ae87b34",
-   "ctx": "label",
-   "t": "खाता संख्या (Bank account number)"
-  },
-  {
-   "k": "087821da5526",
-   "ctx": "hint",
-   "t": "Her own single account. A joint account or someone else's account will be rejected."
-  },
-  {
-   "k": "fc431326d725",
-   "ctx": "label",
-   "t": "खाता आधार लिंक्ड है (Is the account linked to Aadhaar?)"
-  },
-  {
-   "k": "4a15b824f7ed",
-   "ctx": "value",
-   "t": "हाँ (Yes)"
-  },
-  {
-   "k": "183ad9803472",
-   "ctx": "hint",
-   "t": "Payment is made only to an Aadhaar-linked account. Get it linked at the bank before the camp."
-  },
-  {
-   "k": "5cd797247ec0",
-   "ctx": "label",
-   "t": "बैंक का नाम (शाखा सहित) / IFSC Code"
-  },
-  {
-   "k": "881df1ea5c89",
-   "ctx": "value",
-   "t": "Bank of India, Kanke branch / BKID0099999"
-  },
-  {
-   "k": "66a830e4ecba",
-   "ctx": "hint",
-   "t": "Copy the bank name, branch and IFSC from the first page of the passbook."
-  },
-  {
-   "k": "244503394bb1",
-   "ctx": "label",
-   "t": "राशन कार्ड संख्या (Ration card number)"
-  },
-  {
-   "k": "eaeaf9c3f4df",
-   "ctx": "hint",
-   "t": "Her name should be on this yellow, pink, white or green card."
-  },
-  {
-   "k": "0e1ddd31d7dc",
-   "ctx": "label",
-   "t": "आयु / जन्म तिथि (Age / date of birth)"
-  },
-  {
-   "k": "f8662d492d3c",
-   "ctx": "hint",
-   "t": "She must be 18 or above and below 50. Use the date on Aadhaar."
-  },
-  {
-   "k": "2790f5c548eb",
-   "ctx": "label",
-   "t": "आवेदिका का मोबाइल नंबर (Mobile number)"
-  },
-  {
-   "k": "2d2ba0e0095a",
-   "ctx": "hint",
-   "t": "Payment and verification messages come to this number."
-  },
-  {
-   "k": "c5565da2665b",
-   "ctx": "demoSteps",
-   "t": "Find out the date of the Maiya Samman camp in your panchayat or ward from the Anganwadi worker, Panchayat Sachiv or block office, and get the free form there (or print the official form)."
-  },
-  {
-   "k": "996c5a726c37",
-   "ctx": "demoSteps",
-   "t": "Fill the form, tick that the account is Aadhaar-linked, paste the photo, sign the declaration and attach self-attested copies of Aadhaar, ration card, bank passbook and voter ID."
-  },
-  {
-   "k": "e13ace1748bf",
-   "ctx": "demoSteps",
-   "t": "Go to the camp yourself. The operator enters the form on the portal and checks your Aadhaar and photo. Keep the acknowledgement."
-  },
-  {
-   "k": "38b037bf3248",
-   "ctx": "demoSteps",
-   "t": "Block and district officials verify the application. Once approved, Rs.2,500 arrives in your Aadhaar-linked account by the 15th of every month."
-  },
-  {
-   "k": "f3898c2c684b",
-   "ctx": "demoSteps",
-   "t": "When the Anganwadi worker or block office calls you for satyapan or e-KYC, complete it. Names that are not verified do not get the next instalment."
-  },
-  {
-   "k": "50c16735fccb",
-   "ctx": "demoSteps",
-   "t": "If the money stops, check at the bank that the account is still linked to Aadhaar, then call 1800-890-0215 or complain at the block office."
-  },
-  {
-   "k": "d7fe5f951f4f",
-   "ctx": "helpline",
-   "t": "1800-890-0215 — toll-free, Department of Women, Child Development & Social Security, Jharkhand"
-  },
-  {
-   "k": "1e01b5622d55",
-   "ctx": "title",
-   "t": "Savitribai Phule Kishori Samriddhi Yojana (SPKSY)"
-  },
-  {
-   "k": "5b7f1ba3054a",
-   "ctx": "department",
-   "t": "Directorate of Social Welfare, Department of Women, Child Development & Social Security, Government of Jharkhand"
-  },
-  {
-   "k": "42a24640590a",
-   "ctx": "brief",
-   "t": "Money for girls in Jharkhand to stay in school and not be married off early: Rs.2,500 in Class 8, Rs.2,500 in Class 9, Rs.5,000 each in Classes 10, 11 and 12, and a one-time Rs.20,000 at age 18 to 19, Rs.40,000 in all. It goes to the first two daughters of a mother who study in government or government-aided schools. For school girls the school applies, by sending the girl's details from e-Vidya Vahini to the scheme portal. Others apply with the official form at the CDPO office."
-  },
-  {
-   "k": "798b947702c7",
-   "ctx": "benefit",
-   "t": "Up to Rs.40,000: Rs.2,500 (Class 8), Rs.2,500 (Class 9), Rs.5,000 each (Classes 10, 11, 12), Rs.20,000 at 18–19"
-  },
-  {
-   "k": "32c4d0740a78",
-   "ctx": "eligibility",
-   "t": "Girls living in Jharkhand, enrolled in Class 8 to 12 in a government, government-aided, welfare-department or NCLP school"
-  },
-  {
-   "k": "4fb0c150ec9b",
-   "ctx": "eligibility",
-   "t": "Only the first two daughters of a mother; the mother gives a self-declaration"
-  },
-  {
-   "k": "8361240b8104",
-   "ctx": "eligibility",
-   "t": "Parents must not be permanent or retired central or state government or PSU employees, or draw a government pension or family pension"
-  },
-  {
-   "k": "f21e627cd527",
-   "ctx": "eligibility",
-   "t": "Parents must not pay income tax"
-  },
-  {
-   "k": "0dfb9cbcfe57",
-   "ctx": "eligibility",
-   "t": "For the Rs.20,000 grant she must be 18 or 19 years old when applying, and a voter ID is needed"
-  },
-  {
-   "k": "5bb182f00a37",
-   "ctx": "documents",
-   "t": "Aadhaar card of the girl"
-  },
-  {
-   "k": "b93e47ca8b8f",
-   "ctx": "documents",
-   "t": "Aadhaar card of the mother (of the father, if the mother has died)"
-  },
-  {
-   "k": "9ee17586502c",
-   "ctx": "documents",
-   "t": "Birth certificate"
-  },
-  {
-   "k": "59a8d8330c64",
-   "ctx": "documents",
-   "t": "Bank or post office passbook in the girl's name"
-  },
-  {
-   "k": "00ec827f299a",
-   "ctx": "documents",
-   "t": "Voter ID card (for the 18–19 grant)"
-  },
-  {
-   "k": "6db29dfe5483",
-   "ctx": "documents",
-   "t": "Mother's self-declaration on birth order, and the parents' self-declaration that they are not taxpayers or government employees"
-  },
-  {
-   "k": "36cec6b97386",
-   "ctx": "documents",
-   "t": "Principal's certificate that she studies in the school; for orphans, the parents' death certificate and a Child Welfare Committee certificate"
-  },
-  {
-   "k": "94ccaebf3f55",
-   "ctx": "portalName",
-   "t": "Savitribai Phule Kishori Samriddhi Yojana portal"
-  },
-  {
    "k": "778bdafa0674",
    "ctx": "submitAt",
    "t": "Girls in Class 8 to 12: ask the headmaster or class teacher. The school sends the girl's details from e-Vidya Vahini to the Savitribai portal, adds her Aadhaar, bank account and declarations, and forwards it to the CDPO. Girls of 18 to 19 who have left school, and anyone the school has not covered: fill the official form and hand it in at the Child Development Project Officer (CDPO) office of your block, yourself or through your Anganwadi worker. Attach self-attested copies of the ration card, Aadhaar, voter ID and bank passbook, the self-declarations and the principal's certificate. Girls still in school at 18 to 19 can apply through the school."
-  },
-  {
-   "k": "7d6735f4d054",
-   "ctx": "label",
-   "t": "आवेदिका का नाम (Name of the girl)"
-  },
-  {
-   "k": "378eb17d0db0",
-   "ctx": "value",
-   "t": "Puja Kumari"
   },
   {
    "k": "cf68bb672953",
@@ -251,24 +16,9 @@
    "t": "As on her Aadhaar and school register."
   },
   {
-   "k": "1efb3957425e",
-   "ctx": "label",
-   "t": "माता/पिता/अभिभावक का नाम (Mother's / father's / guardian's name)"
-  },
-  {
-   "k": "183e6951c43e",
-   "ctx": "value",
-   "t": "Sarita Devi / Manoj Mahto"
-  },
-  {
    "k": "5950104e4a76",
    "ctx": "hint",
    "t": "The mother's name comes first. A guardian is written only for an orphan."
-  },
-  {
-   "k": "e58dca9873e0",
-   "ctx": "label",
-   "t": "ग्राम, पंचायत, प्रखंड, जिला (Village, panchayat, block, district)"
   },
   {
    "k": "e9f3bfeaf62e",
@@ -279,16 +29,6 @@
    "k": "487d80a76220",
    "ctx": "hint",
    "t": "In a town, write the nagar nigam, nagar panchayat or nagar parishad instead of the block."
-  },
-  {
-   "k": "cdad591acd73",
-   "ctx": "label",
-   "t": "आंगनवाड़ी केन्द्र का नाम एवं कोड (Anganwadi centre name and code)"
-  },
-  {
-   "k": "3c75f0a177ab",
-   "ctx": "value",
-   "t": "Barwadih-2, code 2010999"
   },
   {
    "k": "9cecf4c713e1",
@@ -306,24 +46,9 @@
    "t": "Attach a copy of the birth certificate. For the 18–19 grant, also give the voter ID number."
   },
   {
-   "k": "3e15cd4b2fb6",
-   "ctx": "label",
-   "t": "आवेदिका का जन्म क्रम (Birth order)"
-  },
-  {
-   "k": "9d585a269cf9",
-   "ctx": "value",
-   "t": "प्रथम पुत्री (First daughter)"
-  },
-  {
    "k": "8a77bbe67fd1",
    "ctx": "hint",
    "t": "Only the first or second daughter can apply. The mother signs a declaration on this."
-  },
-  {
-   "k": "1909d6ef5924",
-   "ctx": "label",
-   "t": "आवेदिका का आधार संख्या (Girl's Aadhaar number)"
   },
   {
    "k": "97d6ace29eb3",
@@ -336,19 +61,9 @@
    "t": "बैंक/पोस्ट ऑफिस खाता संख्या, शाखा, IFSC (Bank or post office account, branch, IFSC)"
   },
   {
-   "k": "56d437b76791",
-   "ctx": "value",
-   "t": "99990123456789, Bank of India Chas, BKID0099999"
-  },
-  {
    "k": "7fd8a400b385",
    "ctx": "hint",
    "t": "An account in the girl's own name. The money is sent here by DBT."
-  },
-  {
-   "k": "448538076618",
-   "ctx": "label",
-   "t": "विद्यालय का नाम, कक्षा, रोल नम्बर (School, class, roll number)"
   },
   {
    "k": "6db33680d775",
@@ -359,16 +74,6 @@
    "k": "9a1d93e5b2da",
    "ctx": "hint",
    "t": "The principal signs a certificate that she studies in this class."
-  },
-  {
-   "k": "eaba72b35baf",
-   "ctx": "label",
-   "t": "लाभ प्राप्ति का वर्ग (Benefit category)"
-  },
-  {
-   "k": "c3b7fcd19822",
-   "ctx": "value",
-   "t": "कक्षा-IX में नामांकित बालिका (Class 9)"
   },
   {
    "k": "230b00d2a5cc",
@@ -496,24 +201,9 @@
    "t": "The patient's own Aadhaar. Each family member is enrolled one by one."
   },
   {
-   "k": "ee1acfa55eb1",
-   "ctx": "label",
-   "t": "Authentication"
-  },
-  {
-   "k": "fed4c9053d8c",
-   "ctx": "value",
-   "t": "Fingerprint"
-  },
-  {
    "k": "00510062e778",
    "ctx": "hint",
    "t": "Fingerprint on the biometric device. If it fails, the staff can use an OTP to the Aadhaar mobile or the QR code on the Aadhaar card."
-  },
-  {
-   "k": "992175e03566",
-   "ctx": "label",
-   "t": "Ration card (PDS) number"
   },
   {
    "k": "1ad40fd0a9c5",
@@ -521,54 +211,14 @@
    "t": "From the ration card. It links you to your family in the food department's records."
   },
   {
-   "k": "81a54dcac318",
-   "ctx": "value",
-   "t": "Eligible patient (Priority Household card)"
-  },
-  {
    "k": "2fc0763eb4e6",
    "ctx": "hint",
    "t": "Filled automatically: Priority Household or Antyodaya card = Eligible; APL card or no card = General."
   },
   {
-   "k": "ae13affdcce7",
-   "ctx": "label",
-   "t": "Name, gender and age"
-  },
-  {
-   "k": "3a23067b8f21",
-   "ctx": "value",
-   "t": "Lakshmamma Hanumanthappa, Female, 58"
-  },
-  {
    "k": "623cc7d5ccb4",
    "ctx": "hint",
    "t": "Taken from the Aadhaar e-KYC. Check the spelling before the card is printed."
-  },
-  {
-   "k": "3dbf41cf382d",
-   "ctx": "hint",
-   "t": "Your ArK ID is sent here by SMS."
-  },
-  {
-   "k": "ceaa71d0b2ae",
-   "ctx": "label",
-   "t": "District / Taluk"
-  },
-  {
-   "k": "7963a092a6c5",
-   "ctx": "value",
-   "t": "Chitradurga / Hiriyur"
-  },
-  {
-   "k": "60c6893188ca",
-   "ctx": "hint",
-   "t": "Where you live."
-  },
-  {
-   "k": "6d8c50e5f4f7",
-   "ctx": "label",
-   "t": "Consent and self-declaration"
   },
   {
    "k": "a97ca7a241e1",
@@ -581,24 +231,9 @@
    "t": "A printed form: you allow your Aadhaar to be used for enrolment and state that you are not covered by another scheme."
   },
   {
-   "k": "f9e37ffc0075",
-   "ctx": "label",
-   "t": "ArK ID (generated)"
-  },
-  {
    "k": "7d893bd47d4f",
    "ctx": "hint",
    "t": "Your ration card number, a dash and your member number. It is printed on the card."
-  },
-  {
-   "k": "c96821abe41a",
-   "ctx": "label",
-   "t": "Card fee"
-  },
-  {
-   "k": "90e6aa368c81",
-   "ctx": "value",
-   "t": "Rs.10 paid"
   },
   {
    "k": "519f7996ed92",
@@ -696,24 +331,9 @@
    "t": "Not already drawing another pension. Having sons does not disqualify you if they do not support you"
   },
   {
-   "k": "36c4f5fc6c35",
-   "ctx": "documents",
-   "t": "The filled application form"
-  },
-  {
    "k": "24b212119bf4",
    "ctx": "documents",
    "t": "Age proof: birth certificate, voter ID with date of birth, or a doctor's age certificate"
-  },
-  {
-   "k": "152f59c9a491",
-   "ctx": "documents",
-   "t": "Residence certificate"
-  },
-  {
-   "k": "b8575ae9b5ae",
-   "ctx": "documents",
-   "t": "Income certificate (below Rs.32,000 a year)"
   },
   {
    "k": "d67eeb5d4a97",
@@ -731,39 +351,9 @@
    "t": "The Atalji Janasnehi Kendra (Nadakacheri counter) at your hobli or taluk office. Take the filled form, signed or with your thumb impression, with copies of Aadhaar, age proof, residence and income certificates, the bank or post office passbook and the ration card, plus the death, disability or occupation certificate your pension needs. The counter charges a small service fee; ask for the printed acknowledgement."
   },
   {
-   "k": "3eb546fef9d7",
-   "ctx": "value",
-   "t": "Tumakuru / Sira / Gowdagere / Hosahalli"
-  },
-  {
    "k": "62edb02eeb0b",
    "ctx": "hint",
    "t": "Written at the top of the form. It decides which village officer verifies your application."
-  },
-  {
-   "k": "f3d57736e5ee",
-   "ctx": "value",
-   "t": "Gangamma Siddappa"
-  },
-  {
-   "k": "75814ec89eae",
-   "ctx": "hint",
-   "t": "As on your Aadhaar."
-  },
-  {
-   "k": "9c1716d4fcb4",
-   "ctx": "label",
-   "t": "Male or female"
-  },
-  {
-   "k": "8579da7d7a81",
-   "ctx": "hint",
-   "t": "Tick or write one."
-  },
-  {
-   "k": "78fc4a769f91",
-   "ctx": "value",
-   "t": "Siddappa (late)"
   },
   {
    "k": "e7f5e5ac8ebf",
@@ -791,39 +381,14 @@
    "t": "Age on the date of application"
   },
   {
-   "k": "e14ec8b45607",
-   "ctx": "value",
-   "t": "67 — voter ID attached"
-  },
-  {
    "k": "fbaf523ea9dd",
    "ctx": "hint",
    "t": "Write which age proof you are attaching."
   },
   {
-   "k": "63e6a0cc2a56",
-   "ctx": "label",
-   "t": "Pension applied for"
-  },
-  {
-   "k": "b66d4c00346b",
-   "ctx": "value",
-   "t": "Sandhya Suraksha"
-  },
-  {
    "k": "a1c857073e48",
    "ctx": "hint",
    "t": "Tick one box: old age, widow, disability, Sandhya Suraksha, Manaswini, Maithri, acid attack victim, farmer's widow or endosulfan victim."
-  },
-  {
-   "k": "7185a1d4be30",
-   "ctx": "label",
-   "t": "Family's annual income"
-  },
-  {
-   "k": "f448bd9508e6",
-   "ctx": "value",
-   "t": "Rs.24,000"
   },
   {
    "k": "a219f3a952f8",
@@ -844,11 +409,6 @@
    "k": "587326a2dc2d",
    "ctx": "hint",
    "t": "Amount, type of deposit and the bank. For Sandhya Suraksha it must not be above Rs.10,000."
-  },
-  {
-   "k": "b8472bc80f57",
-   "ctx": "label",
-   "t": "Any other pension, and occupation"
   },
   {
    "k": "fa2cb99e8538",
@@ -941,11 +501,6 @@
    "t": "Not covered: Rajahamsa, AC buses such as Airavat, Vajra, Vayu Vajra, Ambaari and Flybus, sleeper buses, and interstate routes, even for the Karnataka part of the trip"
   },
   {
-   "k": "e9d20aaefa48",
-   "ctx": "documents",
-   "t": "Aadhaar card, or"
-  },
-  {
    "k": "075a856dcaf3",
    "ctx": "documents",
    "t": "Voter ID, driving licence, passport, or MGNREGA job card with photo and address"
@@ -976,24 +531,9 @@
    "t": "There is no form and nowhere to apply. Board an ordinary or express non-AC bus of KSRTC, BMTC, KKRTC or NWKRTC on a route inside Karnataka, show the conductor an ID with your photo and Karnataka address (original, photocopy or DigiLocker copy), and ask for the Shakti ticket."
   },
   {
-   "k": "229aaba53bbb",
-   "ctx": "label",
-   "t": "Corporation"
-  },
-  {
    "k": "7c053d3c0340",
    "ctx": "hint",
    "t": "Printed at the top of the ticket. KSRTC, BMTC, KKRTC and NWKRTC buses are all covered."
-  },
-  {
-   "k": "a247d631c6fa",
-   "ctx": "label",
-   "t": "Type of bus"
-  },
-  {
-   "k": "fa23b1369115",
-   "ctx": "value",
-   "t": "Express (non-AC)"
   },
   {
    "k": "e2f76b9a5724",
@@ -1001,29 +541,9 @@
    "t": "Ordinary, express and non-AC electric buses are free. Rajahamsa, AC, sleeper and Flybus services are not."
   },
   {
-   "k": "f7bacca9af68",
-   "ctx": "label",
-   "t": "Boarding point"
-  },
-  {
-   "k": "2a3a672eced6",
-   "ctx": "value",
-   "t": "Davanagere"
-  },
-  {
    "k": "e592a09274a3",
    "ctx": "hint",
    "t": "Tell the conductor where you got on."
-  },
-  {
-   "k": "d42713493ca8",
-   "ctx": "label",
-   "t": "Destination"
-  },
-  {
-   "k": "25f6ca625aa3",
-   "ctx": "value",
-   "t": "Chitradurga"
   },
   {
    "k": "60f5ed9eeb39",
@@ -1031,29 +551,9 @@
    "t": "Must be inside Karnataka. On a bus going to another state you pay the full fare."
   },
   {
-   "k": "fbc3e31e5056",
-   "ctx": "label",
-   "t": "ID shown"
-  },
-  {
-   "k": "2d1f48981923",
-   "ctx": "value",
-   "t": "Aadhaar card (DigiLocker copy on phone)"
-  },
-  {
    "k": "cc47eeaee439",
    "ctx": "hint",
    "t": "Any government photo ID that shows a Karnataka address."
-  },
-  {
-   "k": "ab86b441ad93",
-   "ctx": "label",
-   "t": "Passengers"
-  },
-  {
-   "k": "7c38115d1c1d",
-   "ctx": "value",
-   "t": "1 woman, 1 girl student"
   },
   {
    "k": "38c69573e76a",
@@ -1061,9 +561,239 @@
    "t": "Each woman and girl gets her own zero ticket. Men travelling with you buy normal tickets."
   },
   {
-   "k": "74abc784fb47",
+   "k": "885d4a8eb272",
+   "ctx": "hint",
+   "t": "Keep it until you get down. Checking staff can ask for it."
+  },
+  {
+   "k": "ac54225638a8",
+   "ctx": "hint",
+   "t": "The ticket shows what the trip would have cost. The state pays this amount to the bus company."
+  },
+  {
+   "k": "bd51d7fd9243",
+   "ctx": "demoSteps",
+   "t": "Carry one ID with your photo and Karnataka address. Aadhaar is the easiest; a photocopy or the DigiLocker copy on your phone is also accepted."
+  },
+  {
+   "k": "68dd285e2f0d",
+   "ctx": "demoSteps",
+   "t": "Board an ordinary or express non-AC government bus. Check the name on the front: Rajahamsa, Airavat, Vajra, Vayu Vajra, Ambaari, Flybus and sleeper buses are not free."
+  },
+  {
+   "k": "7d71292f5bd6",
+   "ctx": "demoSteps",
+   "t": "Tell the conductor your destination, show the ID and ask for the Shakti ticket."
+  },
+  {
+   "k": "5bd3e7b99fc1",
+   "ctx": "demoSteps",
+   "t": "Take the zero-fare ticket and keep it until you get down. A passenger without a ticket can be fined even on a free trip."
+  },
+  {
+   "k": "e3a08e2fa0c9",
+   "ctx": "demoSteps",
+   "t": "On KSRTC, KKRTC and NWKRTC buses half the seats are kept for men; BMTC city buses have no such split."
+  },
+  {
+   "k": "e08d6364acdd",
+   "ctx": "demoSteps",
+   "t": "If a conductor refuses the free ticket on a covered bus, note the bus number, route and time, and complain to that corporation's helpline."
+  },
+  {
+   "k": "3e1bf3baa187",
+   "ctx": "helpline",
+   "t": "KSRTC call centre (24x7): 080-26252625; BMTC helpline: 080-22483777; 1902 — Karnataka guarantee schemes helpline"
+  },
+  {
+   "k": "0f1814e4626a",
+   "ctx": "title",
+   "t": "Karnataka Construction Workers Labour Card (KBOCWWB e-Card)"
+  },
+  {
+   "k": "6efae1e706f4",
+   "ctx": "department",
+   "t": "Karnataka Building and Other Construction Workers Welfare Board, Labour Department, Government of Karnataka"
+  },
+  {
+   "k": "8ecbd5db3eba",
+   "ctx": "brief",
+   "t": "Construction workers in Karnataka who register with the Welfare Board get a labour card, now a digital e-card, which opens the board's help: Rs.50,000 for each of a woman worker's first two deliveries, Rs.60,000 for a marriage, up to Rs.2 lakh for a major illness, education help for children, accident cover and a pension at 60. You register on the board's Karmika Seva Kendra (KSK) portal with your Aadhaar mobile number and a 90-day work certificate. Workers who already hold an old Seva Sindhu or e-Karmika card move it to the new portal with their registration and reference numbers."
+  },
+  {
+   "k": "af231cdd6201",
+   "ctx": "benefit",
+   "t": "Labour e-card for board help: Rs.50,000 per delivery, Rs.60,000 for marriage, up to Rs.2 lakh medical aid, pension up to Rs.3,000 a month at 60"
+  },
+  {
+   "k": "1d673c7b2c76",
+   "ctx": "eligibility",
+   "t": "Worked at least 90 days as a building or construction worker in the last 12 months: mason, helper, carpenter, painter, plumber, electrician, bar bender, tile layer and similar work"
+  },
+  {
+   "k": "3266b2a8173a",
+   "ctx": "eligibility",
+   "t": "The e-card is valid for one year. Renew it on the portal with a fresh work certificate, or the benefits stop"
+  },
+  {
+   "k": "55ed98715a97",
+   "ctx": "eligibility",
+   "t": "For the pension, you must have been registered for at least 3 years before turning 60"
+  },
+  {
+   "k": "6ead0dafcc32",
+   "ctx": "documents",
+   "t": "Aadhaar card, and the mobile number linked to it"
+  },
+  {
+   "k": "9bd876a9c762",
+   "ctx": "documents",
+   "t": "90-day work certificate in the board's format, signed by your employer or contractor, a registered construction workers' union, or the labour inspector"
+  },
+  {
+   "k": "092a5b1a9e3b",
+   "ctx": "documents",
+   "t": "Ration card number and a copy of the card"
+  },
+  {
+   "k": "7ec14f457037",
+   "ctx": "documents",
+   "t": "Bank passbook of the worker and of the nominee (account number and IFSC)"
+  },
+  {
+   "k": "53a54daa6278",
+   "ctx": "documents",
+   "t": "Nominee's details, and the nominee's own application number if the nominee is also a construction worker"
+  },
+  {
+   "k": "43a839269b28",
+   "ctx": "documents",
+   "t": "Educational certificate, only if you studied beyond SSLC"
+  },
+  {
+   "k": "3dcbdfda779d",
+   "ctx": "documents",
+   "t": "Ayushman Bharat card number, if you have one"
+  },
+  {
+   "k": "bded4b209b36",
+   "ctx": "documents",
+   "t": "Your old Seva Sindhu or e-Karmika card, if you already have one"
+  },
+  {
+   "k": "760497dfcfc7",
+   "ctx": "hint",
+   "t": "If you already have an old card, choose 'Already Existing Seva Sindhu/E-Karmika Construction Worker' instead and type its registration and reference numbers exactly as printed."
+  },
+  {
+   "k": "71d0aa2f573e",
+   "ctx": "hint",
+   "t": "The OTP comes here. The Aadhaar e-KYC then fills in your name, date of birth and photo."
+  },
+  {
+   "k": "c31f392ed08d",
+   "ctx": "hint",
+   "t": "An education certificate is needed only if you studied beyond SSLC."
+  },
+  {
+   "k": "669b86568fb6",
+   "ctx": "hint",
+   "t": "Where you live now, if it is different from the address on Aadhaar."
+  },
+  {
+   "k": "c884ca1a55b9",
+   "ctx": "value",
+   "t": "Wife Renuka (31), son Kiran (9), daughter Pooja (6)"
+  },
+  {
+   "k": "d46409c6d54f",
+   "ctx": "hint",
+   "t": "The nominee receives the death and funeral help. Add your children too; education and marriage help is given for them."
+  },
+  {
+   "k": "dd8f81db56ca",
    "ctx": "label",
-   "t": "Ticket type"
+   "t": "Bank account and IFSC (worker and nominee)"
+  },
+  {
+   "k": "5280da7229da",
+   "ctx": "hint",
+   "t": "Aadhaar-seeded accounts. Upload the passbook page for each."
+  },
+  {
+   "k": "c47929cc6d38",
+   "ctx": "hint",
+   "t": "Upload a copy of the card as well."
+  },
+  {
+   "k": "c75ccaef8a2a",
+   "ctx": "value",
+   "t": "Shivashakti Builders, site in-charge Mahantesh, 90000 18834"
+  },
+  {
+   "k": "abaae148c8aa",
+   "ctx": "hint",
+   "t": "Name of the employer, the company, and the mobile number of the person in charge of the site."
+  },
+  {
+   "k": "2bf25b7f6a82",
+   "ctx": "hint",
+   "t": "Where you did the 90 days of work."
+  },
+  {
+   "k": "f97e8404c121",
+   "ctx": "label",
+   "t": "Nature of work and certificate issuer"
+  },
+  {
+   "k": "9eb23eb357f3",
+   "ctx": "value",
+   "t": "Mason — certificate by a registered construction workers' union"
+  },
+  {
+   "k": "2d3976bf30d2",
+   "ctx": "hint",
+   "t": "Upload the 90-day certificate and the self-declaration. The labour inspector checks them, sometimes at the site."
+  },
+  {
+   "k": "e4d2fbc47734",
+   "ctx": "demoSteps",
+   "t": "Get the 90-day work certificate in the board's format (the KSK portal has the template), signed by your employer or contractor, a registered construction workers' union, or the labour inspector."
+  },
+  {
+   "k": "8a5f13d88344",
+   "ctx": "demoSteps",
+   "t": "Open kbocwwb.karnataka.gov.in, choose Apply for Registration, select 'Register as a New Construction Worker' and verify your Aadhaar-linked mobile with the OTP. Without a smartphone, go to the Karmika Seva Kendra or labour inspector's office in your taluk."
+  },
+  {
+   "k": "a39f10772528",
+   "ctx": "demoSteps",
+   "t": "Fill in your personal, family, nominee, bank and work details as in this sample, and upload the documents (JPG, PNG or PDF, up to 2 MB each)."
+  },
+  {
+   "k": "95a17e0938c6",
+   "ctx": "demoSteps",
+   "t": "Submit and note the acknowledgement number. The labour inspector checks your documents and may visit the work site."
+  },
+  {
+   "k": "0634fa1f31a5",
+   "ctx": "demoSteps",
+   "t": "Once approved, download your e-card (digital labour ID) from your KSK dashboard."
+  },
+  {
+   "k": "f41cc5a4b95a",
+   "ctx": "demoSteps",
+   "t": "Apply for help (delivery, marriage, medical, pension) from the same dashboard. For your children's education help, apply on the State Scholarship Portal, ssp.karnataka.gov.in."
+  },
+  {
+   "k": "641988ee8178",
+   "ctx": "demoSteps",
+   "t": "Renew before the e-card expires: log in, and enter your current employer, work site and a new work certificate. The portal reminds you 15 days before expiry."
+  },
+  {
+   "k": "0deb80a8c9f0",
+   "ctx": "helpline",
+   "t": "155214 — Construction Workers Welfare Board helpline (toll free)"
   }
  ]
 }

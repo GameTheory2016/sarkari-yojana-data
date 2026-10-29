@@ -691,11 +691,6 @@
    "t": "If nothing arrives, call the EPFO help desk or file a grievance on EPFiGMS with your UAN."
   },
   {
-   "k": "8b5426483abd",
-   "ctx": "helpline",
-   "t": "14480 / 1800-180-1850 (EPFO toll-free help desk)"
-  },
-  {
    "k": "012b0dba3d25",
    "ctx": "title",
    "t": "Ayushman Vay Vandana Card (Ayushman Card for 70+)"
@@ -746,11 +741,6 @@
    "t": "Aadhaar card (the age is taken from Aadhaar, no other age proof needed)"
   },
   {
-   "k": "691d86410437",
-   "ctx": "documents",
-   "t": "Mobile number for login OTP"
-  },
-  {
    "k": "c79ea8bdca23",
    "ctx": "documents",
    "t": "Aadhaar-linked mobile for Aadhaar OTP, or face authentication if the mobile is not linked"
@@ -759,11 +749,6 @@
    "k": "8b03316dce60",
    "ctx": "documents",
    "t": "CGHS, ECHS or CAPF card number, only if you hold one"
-  },
-  {
-   "k": "88dba747fc1f",
-   "ctx": "documents",
-   "t": "Present address with PIN code"
   },
   {
    "k": "1cc5416d12d3",
@@ -776,14 +761,24 @@
    "t": "Any working number. The login OTP comes here, and the message when the card is ready."
   },
   {
-   "k": "e7221694aa07",
-   "ctx": "label",
-   "t": "Enrolment for"
+   "k": "ea061dfe2b95",
+   "ctx": "hint",
+   "t": "After logging in, choose the Vay Vandana enrolment option, not the normal family search."
   },
   {
-   "k": "e42842675e42",
+   "k": "a72502067518",
+   "ctx": "label",
+   "t": "State"
+  },
+  {
+   "k": "ba4ce17f5a0b",
    "ctx": "value",
-   "t": "Ayushman Vay Vandana (70+)"
+   "t": "Rajasthan"
+  },
+  {
+   "k": "bf29a0863be0",
+   "ctx": "hint",
+   "t": "The state written in the address on the senior's Aadhaar."
   }
  ]
 }

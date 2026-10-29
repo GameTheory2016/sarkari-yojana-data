@@ -6,46 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_23.json",
  "items": [
   {
-   "k": "06e7d57e10e8",
-   "ctx": "eligibility",
-   "t": "Pattadar (land owner) whose farmland is recorded in the Bhu Bharati (earlier Dharani) land records"
-  },
-  {
-   "k": "2d737e42607c",
-   "ctx": "eligibility",
-   "t": "Tribal farmers holding forest-rights (ROFR) pattas are also eligible"
-  },
-  {
-   "k": "fde7b207a94c",
-   "ctx": "eligibility",
-   "t": "Money is paid only for land fit for farming. House plots, layouts, real-estate ventures, mines, roads and land taken for projects are left out"
-  },
-  {
-   "k": "dae000062020",
-   "ctx": "eligibility",
-   "t": "A bank account in the farmer's own name, linked with Aadhaar"
-  },
-  {
-   "k": "b188573642a2",
-   "ctx": "eligibility",
-   "t": "Tenant farmers are not covered. Landless farm labourers have a separate scheme (Indiramma Atmiya Bharosa)"
-  },
-  {
-   "k": "97d26d00f1a1",
-   "ctx": "documents",
-   "t": "Bank passbook front page with account number and IFSC"
-  },
-  {
-   "k": "a56ea310d4b1",
-   "ctx": "documents",
-   "t": "Aadhaar consent form, signed (the AEO gives it)"
-  },
-  {
-   "k": "a22a83d7550b",
-   "ctx": "documents",
-   "t": "Mutation / Bhu Bharati record if the land was bought or inherited recently"
-  },
-  {
    "k": "50e743264a31",
    "ctx": "submitAt",
    "t": "Give the filled Rythu Bharosa Bank Details Collection Form to the Agriculture Extension Officer (AEO) of your cluster at the Rythu Vedika, or at the Mandal Agriculture Office. Attach copies of the pattadar passbook, Aadhaar and bank passbook, and sign the Aadhaar consent form. The AEO checks the details, signs the form and uploads it on the Rythu Bharosa portal. AEO mobile numbers are under Contact Us on rythubharosa.telangana.gov.in."
@@ -209,11 +169,6 @@
    "k": "8c660b9a162a",
    "ctx": "hint",
    "t": "As on your Aadhaar or ration card."
-  },
-  {
-   "k": "668ac58669f6",
-   "ctx": "label",
-   "t": "Dependants (name, relation, age)"
   },
   {
    "k": "3972e7ca066c",
@@ -739,6 +694,46 @@
    "k": "561947caa2d7",
    "ctx": "eligibility",
    "t": "The bride is from an SC, ST, BC or EBC family and lives in Telangana"
+  },
+  {
+   "k": "d6c0162e7345",
+   "ctx": "eligibility",
+   "t": "Parents' total income: SC and ST up to Rs.2,00,000 a year; BC and EBC up to Rs.2,00,000 in towns and Rs.1,50,000 in villages"
+  },
+  {
+   "k": "817b4c0add20",
+   "ctx": "eligibility",
+   "t": "The bride is at least 18 and the groom at least 21 on the wedding day"
+  },
+  {
+   "k": "fa6bca145e83",
+   "ctx": "eligibility",
+   "t": "Only for the bride's first marriage"
+  },
+  {
+   "k": "f2e430c370bb",
+   "ctx": "eligibility",
+   "t": "The bride's mother needs a bank account in her own name. A bride whose parents have died uses her own account"
+  },
+  {
+   "k": "ac38116446dd",
+   "ctx": "documents",
+   "t": "Aadhaar of the bride, her mother and the groom"
+  },
+  {
+   "k": "abe3fab1e017",
+   "ctx": "documents",
+   "t": "Caste-cum-nativity certificate and income certificate from MeeSeva (you enter their numbers in the form)"
+  },
+  {
+   "k": "3463c3b37038",
+   "ctx": "documents",
+   "t": "Bride's age proof: SSC hall ticket number, or a birth certificate"
+  },
+  {
+   "k": "e214b708a147",
+   "ctx": "documents",
+   "t": "Marriage certificate (registration), one wedding photo, and the wedding card if available"
   }
  ]
 }

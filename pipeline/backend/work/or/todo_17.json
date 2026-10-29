@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_17.json",
  "items": [
   {
-   "k": "c3c071cbae48",
-   "ctx": "submitAt",
-   "t": "The talathi (gram mahsul adhikari) of your village, or the Sanjay Gandhi Yojana branch of the tehsil office, which also handles Shravanbal; in a city, the tehsil office of your area. The prescribed application is Form 3 of Annexure 1 (page 20) of the government resolution linked here, the same form as for the Niradhar pension, and the tehsil office and Setu or Aaple Sarkar Seva Kendras keep blank forms. Hand in two copies of the form and of each certificate, carry the originals, and ask for a dated acknowledgement."
-  },
-  {
-   "k": "bf21ce7ef4df",
-   "ctx": "hint",
-   "t": "You must have completed 65. If no paper shows your age, a government medical officer can give an age certificate."
-  },
-  {
-   "k": "76523df9b46c",
-   "ctx": "label",
-   "t": "Is the family below the poverty line?"
-  },
-  {
-   "k": "fcac54932699",
-   "ctx": "hint",
-   "t": "Yes if the family is on the BPL list (Group B), No otherwise (Group A). The amount is the same either way."
-  },
-  {
-   "k": "a01fb3356e3d",
-   "ctx": "hint",
-   "t": "Needed for Group A. Count all earnings, including help from sons. It must be Rs.21,000 or less, as shown on the income certificate."
-  },
-  {
-   "k": "fe082ba1d0c9",
-   "ctx": "hint",
-   "t": "Tick elderly. Also mention a disability, if any, and attach the UDID card."
-  },
-  {
-   "k": "97dfcf46c865",
-   "ctx": "hint",
-   "t": "An account in your own name. Husband and wife should each give their own account."
-  },
-  {
-   "k": "5fca1ab6d89a",
-   "ctx": "demoSteps",
-   "t": "Get the income certificate from the tehsildar through a Setu or Aaple Sarkar Seva Kendra, or a BPL certificate if the family is on the BPL list, and keep the age proof and residence certificate ready."
-  },
-  {
-   "k": "88d52e41fa3d",
-   "ctx": "demoSteps",
-   "t": "Hand it to the talathi or at the tehsil's Sanjay Gandhi Yojana branch and take the acknowledgement. The talathi visits your home to check the papers and family income."
-  },
-  {
-   "k": "ef03178189d3",
-   "ctx": "demoSteps",
-   "t": "The tehsildar places the file before the Sanjay Gandhi Niradhar Anudan Yojana committee, which also decides Shravanbal cases every month. Approved names are put on the notice board and read in the gram sabha."
-  },
-  {
-   "k": "46ad8b141da6",
-   "ctx": "demoSteps",
-   "t": "The pension starts from the month after approval is complete online and comes by DBT into your Aadhaar-linked account every month."
-  },
-  {
-   "k": "b77327c7ff4c",
-   "ctx": "demoSteps",
-   "t": "Give the life certificate each year when the tehsil asks. If the pension stopped, giving it in the same financial year restarts it."
-  },
-  {
-   "k": "d7e22e9cd318",
-   "ctx": "department",
-   "t": "Women and Child Development Department, Government of Maharashtra (ICDS Commissionerate)"
-  },
-  {
-   "k": "8bf4a198363b",
-   "ctx": "brief",
-   "t": "Rs.1,01,000 in five instalments for a girl born on or after 1 April 2023 in a family with a yellow or orange ration card, paid at stages from her birth until she turns 18. It replaced the older Majhi Kanya Bhagyashree scheme. The parents apply through the anganwadi sevika, who fills in the form with them, uploads it to the scheme portal and gives a receipt. The money goes by DBT into a joint bank account of the girl and her mother."
-  },
-  {
-   "k": "13225404ba01",
-   "ctx": "benefit",
-   "t": "Rs.1,01,000 in 5 parts: Rs.5,000 at birth, Rs.6,000 in Class 1, Rs.7,000 in Class 6, Rs.8,000 in Class 11, Rs.75,000 at 18"
-  },
-  {
-   "k": "5d225ce28298",
-   "ctx": "eligibility",
-   "t": "Girl born on or after 1 April 2023 to a family living in Maharashtra"
-  },
-  {
-   "k": "21ccb7d64326",
-   "ctx": "eligibility",
-   "t": "The family holds a yellow or orange ration card and its yearly income is not more than Rs.1 lakh"
-  },
-  {
-   "k": "e79a6a76ee6f",
-   "ctx": "eligibility",
-   "t": "Covers one or two daughters; if the family has a son and a daughter, the daughter gets it; twin girls at the second delivery both get it"
-  },
-  {
    "k": "5381dd75fe2a",
    "ctx": "eligibility",
    "t": "For the 3rd instalment of the first child, or the 2nd instalment of the second child, the mother or father must give a family planning operation certificate"
@@ -714,6 +624,131 @@
    "k": "c6540263536d",
    "ctx": "hint",
    "t": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
+  },
+  {
+   "k": "9344af888075",
+   "ctx": "demoSteps",
+   "t": "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking."
+  },
+  {
+   "k": "804ea4666016",
+   "ctx": "demoSteps",
+   "t": "Go to the CMHT kiosk at your District Hospital (or RIMS or JNIMS in Imphal, or a village enrolment camp) with the originals and every member's Aadhaar."
+  },
+  {
+   "k": "b0bd42351b58",
+   "ctx": "demoSteps",
+   "t": "The Health Coordinator enters your details, takes the photo and the Aadhaar consent, and you sign the government-service declaration."
+  },
+  {
+   "k": "b2f983314360",
+   "ctx": "demoSteps",
+   "t": "Listed categories get the CMHT-Manipur Health Card on the spot, with a unique family number. For 'other poor families', the details go to the DC for verification, and you are told the result before the card is issued."
+  },
+  {
+   "k": "9a5175e748ce",
+   "ctx": "demoSteps",
+   "t": "At an empanelled hospital, show the card at the CMHT desk. The Health Coordinator guides you from admission to discharge, and treatment is cashless."
+  },
+  {
+   "k": "838cb3771e92",
+   "ctx": "demoSteps",
+   "t": "For the travel allowance, give your bank details when you are admitted. Inside Manipur it is Rs.300 a visit, up to Rs.3,000 a year. Outside Manipur it is the cheapest airfare for the patient and one attendant (up to Rs.30,000 a year) plus Rs.1,000 a day (up to Rs.10,000), all within the Rs.5 lakh."
+  },
+  {
+   "k": "ff7461876d9d",
+   "ctx": "helpline",
+   "t": "1800 103 2015 — CMHT toll-free helpline (24x7) / 14555 — Ayushman Bharat national helpline"
+  },
+  {
+   "k": "34a875aa77e0",
+   "ctx": "department",
+   "t": "State Nodal Agency, Megha Health Insurance Scheme, Department of Health & Family Welfare, Government of Meghalaya"
+  },
+  {
+   "k": "d13f175469cd",
+   "ctx": "brief",
+   "t": "Meghalaya's universal health insurance, run together with Ayushman Bharat PM-JAY, now in its sixth phase (MHIS VI). Every resident family except state and central government employees gets Rs.5.3 lakh a year, shared by the family, cashless at almost every hospital in the state and at PM-JAY hospitals across India, plus some outpatient care such as maternity, child care and tests. Registration is free and open all year at District Kiosks and hospital registration centres. A family head whose name is missing from the list (newly married, orphan, or not in the data) can send the request online."
+  },
+  {
+   "k": "8a1b34bf4469",
+   "ctx": "benefit",
+   "t": "Rs.5.3 lakh a year per family, cashless; registration free"
+  },
+  {
+   "k": "4436062450b2",
+   "ctx": "eligibility",
+   "t": "Every resident of Meghalaya, with no income limit"
+  },
+  {
+   "k": "72ca16bd2a3c",
+   "ctx": "eligibility",
+   "t": "Not for State or Central Government employees, who have their own medical reimbursement"
+  },
+  {
+   "k": "ea0bf9404ab8",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age"
+  },
+  {
+   "k": "6ca95021cd88",
+   "ctx": "eligibility",
+   "t": "A newborn is covered from birth under the mother's or father's card for the rest of the policy year"
+  },
+  {
+   "k": "4353f36899fb",
+   "ctx": "eligibility",
+   "t": "If your family is not in the MHIS or PM-JAY data (newly married, orphan, or name missing), apply through the online Head of Family request. The SHA office approves it"
+  },
+  {
+   "k": "91c5f924edf1",
+   "ctx": "documents",
+   "t": "Voter ID (EPIC), front and back. This is mandatory for the Head of Family request"
+  },
+  {
+   "k": "bfc68f0f47e1",
+   "ctx": "documents",
+   "t": "Any one more ID if asked: ration card, MGNREGA job card, birth certificate or other government photo ID"
+  },
+  {
+   "k": "0439fd7837e2",
+   "ctx": "documents",
+   "t": "Proof of relation to add members: marriage certificate, birth certificate, ration card, headman's certificate or adoption certificate"
+  },
+  {
+   "k": "b6a13f88ff15",
+   "ctx": "documents",
+   "t": "Old MHIS or RSBY card, if you have one"
+  },
+  {
+   "k": "a55a13ff171b",
+   "ctx": "hint",
+   "t": "Newly Married, Name not there in the database, Orphans, or Others."
+  },
+  {
+   "k": "501fa911eee0",
+   "ctx": "hint",
+   "t": "Spell it exactly as on Aadhaar and EPIC, or verification gets delayed."
+  },
+  {
+   "k": "613a6690eee3",
+   "ctx": "hint",
+   "t": "Pick the relation first, then type the name."
+  },
+  {
+   "k": "3b625638f9b7",
+   "ctx": "hint",
+   "t": "Copy the address from the voter ID."
+  },
+  {
+   "k": "216035482caa",
+   "ctx": "label",
+   "t": "District / Name of block / Rural or Urban"
+  },
+  {
+   "k": "73c64efc714c",
+   "ctx": "hint",
+   "t": "Where you live now, from the drop-down lists."
   }
  ]
 }

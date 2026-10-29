@@ -6,76 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_06.json",
  "items": [
   {
-   "k": "6c111b22b556",
-   "ctx": "brief",
-   "t": "Assam's monthly cash support for poor families, paid straight into the bank account of one woman the family nominates. It pays Rs.1,250 a month to about 37 to 40 lakh families, and for October 2026 alone the government raised it to Rs.1,500 for the Puja season. Orunodoi 3.0 replaced the earlier versions 1.0 and 2.0, so every family, old beneficiaries included, had to apply afresh. Names are first picked at the Gaon Panchayat, VCDC or ward level, and the family needs an Aadhaar-seeded NFSA ration card."
-  },
-  {
-   "k": "79f6e1dca06a",
-   "ctx": "benefit",
-   "t": "Rs.1,250 a month by DBT to the woman of the family (Rs.1,500 for October 2026)"
-  },
-  {
-   "k": "c855e2918067",
-   "ctx": "eligibility",
-   "t": "Permanent resident of Assam who lives in the state now"
-  },
-  {
-   "k": "bf6a30075ee9",
-   "ctx": "eligibility",
-   "t": "The family holds an NFSA ration card seeded with Aadhaar, and its income is within the NFSA limit of the Assam Food Security Rules"
-  },
-  {
-   "k": "c18050cd4239",
-   "ctx": "eligibility",
-   "t": "The family nominates one woman aged 18 or above. The money goes only to her own Aadhaar-seeded bank account"
-  },
-  {
-   "k": "e996f32e08c2",
-   "ctx": "eligibility",
-   "t": "Priority for widows, divorced or separated women, unmarried women above 45, families with a divyang or transgender member, and families living with thalassemia, HIV or leprosy"
-  },
-  {
-   "k": "48eb1a2e47ab",
-   "ctx": "eligibility",
-   "t": "Not for families with a serving or retired government or PSU employee, a current or former MP or MLA, a current panchayat or municipal member, or an income-tax payer"
-  },
-  {
-   "k": "e16e20e9b7ae",
-   "ctx": "eligibility",
-   "t": "Also left out: families of doctors, engineers, lawyers and chartered accountants, families owning a motorised four-wheeler, and landholders above the small and marginal farmer category"
-  },
-  {
-   "k": "cca0ba6697bb",
-   "ctx": "documents",
-   "t": "NFSA ration card of the family, seeded with Aadhaar"
-  },
-  {
-   "k": "0dddc37885c7",
-   "ctx": "documents",
-   "t": "Aadhaar card of the nominated woman"
-  },
-  {
-   "k": "1bc42276aafb",
-   "ctx": "documents",
-   "t": "Passbook of her own bank account, seeded with Aadhaar (payments are now made through the Aadhaar-based payment system)"
-  },
-  {
-   "k": "68858f2af0b7",
-   "ctx": "documents",
-   "t": "Mobile number, preferably the one linked to her Aadhaar"
-  },
-  {
-   "k": "9b660f610d94",
-   "ctx": "documents",
-   "t": "Proof for a priority category, if any: husband's death certificate, divorce papers, or disability (UDID) certificate"
-  },
-  {
-   "k": "6f7a0a77aa90",
-   "ctx": "documents",
-   "t": "Signed undertaking on the eligibility conditions, filled at the Gaon Panchayat or ward office"
-  },
-  {
    "k": "cc9832c531d6",
    "ctx": "submitAt",
    "t": "Your Gaon Panchayat office (the VCDC office in Sixth Schedule areas, or the ward or municipal office in towns), when the government opens a round for new names. The form is free there, and the Orunodoi Sarothi of your Assembly constituency helps you fill it. Go with the nominated woman and take the Aadhaar-seeded ration card, her Aadhaar card, her Aadhaar-seeded bank passbook, a mobile phone, and any widow, divorce or disability papers. Get a signed acknowledgement slip. There is no online application, so do not pay anyone who offers to apply online for you."
@@ -786,11 +716,6 @@
    "t": "Thana, khata and khesra numbers of the damaged field and the names of two neighbouring farmers"
   },
   {
-   "k": "5c0543c831a2",
-   "ctx": "label",
-   "t": "Choose Authentication Type"
-  },
-  {
    "k": "1bfa3b408577",
    "ctx": "hint",
    "t": "Choose OTP if your mobile is linked to Aadhaar. Otherwise choose Bio-Auth or Iris and get it done at a CSC or the block agriculture office."
@@ -799,11 +724,6 @@
    "k": "1f65e21d818d",
    "ctx": "label",
    "t": "Aadhaar number and name as on Aadhaar"
-  },
-  {
-   "k": "c99ece6c74fb",
-   "ctx": "value",
-   "t": "9999 6021 8473 / Rajendra Prasad Yadav"
   },
   {
    "k": "b96e6c009ca3",
@@ -821,16 +741,6 @@
    "t": "Answer Yes only if you hold a KCC; then its details are asked."
   },
   {
-   "k": "21310f12485a",
-   "ctx": "label",
-   "t": "District / block / panchayat / village"
-  },
-  {
-   "k": "de991bab3148",
-   "ctx": "value",
-   "t": "Khagaria / Gogri / Pasraha / Pasraha"
-  },
-  {
    "k": "fe42958ddbc5",
    "ctx": "hint",
    "t": "Where your land is. Only farmers of the notified panchayats can claim the input subsidy."
@@ -841,34 +751,14 @@
    "t": "An Aadhaar-linked account. The portal warns that a wrong account number blocks your registration, so copy it from the passbook."
   },
   {
-   "k": "8f02ecd462e1",
-   "ctx": "label",
-   "t": "Registration number (13 digits)"
-  },
-  {
    "k": "9ff67d42ec85",
    "ctx": "hint",
    "t": "The number you got after registering. Enter it on the Krishi Input Anudan form and your details appear by themselves."
   },
   {
-   "k": "292d4a603f99",
-   "ctx": "label",
-   "t": "Farmer type (Kisan ka prakar)"
-  },
-  {
-   "k": "923ee8efd1ec",
-   "ctx": "value",
-   "t": "Swayam bhudhari + Vastavik khetihar"
-  },
-  {
    "k": "d1813acedf60",
    "ctx": "hint",
    "t": "Own land, land taken on rent or share, or both. You can apply under only one type."
-  },
-  {
-   "k": "6fe018ec4507",
-   "ctx": "value",
-   "t": "Thana 214 / Khata 57 / Khesra 1123"
   },
   {
    "k": "2a75eb23eed7",
@@ -881,9 +771,54 @@
    "t": "Total land and damaged area (in decimal)"
   },
   {
-   "k": "e6823367d204",
-   "ctx": "value",
-   "t": "Total 180 decimal; damaged 150 decimal (maize)"
+   "k": "3982d9707906",
+   "ctx": "hint",
+   "t": "1 acre is 100 decimal and 1 hectare is 247 decimal. The subsidy is paid for at most 494 decimal."
+  },
+  {
+   "k": "ee0b73b0de02",
+   "ctx": "hint",
+   "t": "Names of farmers whose fields touch yours. The Krishi Samanvayak may ask them about your crop."
+  },
+  {
+   "k": "30276783dc97",
+   "ctx": "demoSteps",
+   "t": "Register once: open dbtagriculture.bihar.gov.in, click Kisan Panjikaran, verify your Aadhaar, fill in your farmer, land and bank details and note the 13-digit registration number. The block agriculture office (e-Kisan Bhawan) does it free; a CSC or Vasudha Kendra can also do it."
+  },
+  {
+   "k": "9c943f96fc9e",
+   "ctx": "demoSteps",
+   "t": "After a flood or drought, check the panchayat list on the portal. If your panchayat is listed, open Krishi Input Anudan under online services within the dates shown, usually about a week."
+  },
+  {
+   "k": "79e8fceb68f8",
+   "ctx": "demoSteps",
+   "t": "Enter the 13-digit number, choose your farmer type, fill in the total and damaged land in decimal, the thana-khata-khesra numbers and two neighbours' names, enter the captcha and the OTP, upload the rent receipt, LPC or certified self-declaration, and submit. The application number comes by SMS."
+  },
+  {
+   "k": "f2647a396e30",
+   "ctx": "demoSteps",
+   "t": "The Krishi Samanvayak visits the field within 2 to 4 days, photographs the plot and forwards or rejects the claim with a reason. The sub-divisional and district agriculture officers and the district disaster officer then approve it."
+  },
+  {
+   "k": "ed1d3d6208c9",
+   "ctx": "demoSteps",
+   "t": "The approved amount is paid into your Aadhaar-linked bank account by DBT and an SMS tells you. Use Print and Status on the portal with your registration number to follow it."
+  },
+  {
+   "k": "46c6ad54552f",
+   "ctx": "title",
+   "t": "Bihar Building Workers Registration (BOCW Labour Card)"
+  },
+  {
+   "k": "9b6c41438835",
+   "ctx": "department",
+   "t": "Bihar Building & Other Construction Workers Welfare Board, Labour Resources Department, Government of Bihar"
+  },
+  {
+   "k": "082d0ddc62c5",
+   "ctx": "brief",
+   "t": "Masons, labourers, carpenters, painters, plumbers and other construction workers who register with the Bihar BOCW Welfare Board get a labour card that opens more than a dozen benefits: Rs 50,000 for a daughter's marriage, maternity and paternity money, a bicycle grant, help with children's studies, Rs 3,000 a year for medical costs, a Rs 1,000 monthly pension at 60, and Rs 2 to 4 lakh to the family if the worker dies. Registration is done online with Aadhaar on the board's portal, or at a CSC or the block labour office. The fee is small: Rs 20 for registration plus the membership fee, Rs 50 in all for five years."
   }
  ]
 }

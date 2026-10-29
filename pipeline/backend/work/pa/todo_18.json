@@ -6,361 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/pa/done_18.json",
  "items": [
   {
-   "k": "d06c8be90f74",
-   "ctx": "demoSteps",
-   "t": "If your name is missing, open the MHIS Head of Family form and choose your category: Newly Married, Name not there in the database, Orphans, or Others."
-  },
-  {
-   "k": "aee532aa21fd",
-   "ctx": "demoSteps",
-   "t": "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number."
-  },
-  {
-   "k": "7e0fbe120204",
-   "ctx": "demoSteps",
-   "t": "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval."
-  },
-  {
-   "k": "228dee72293e",
-   "ctx": "demoSteps",
-   "t": "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card."
-  },
-  {
-   "k": "0a700f4b14e2",
-   "ctx": "demoSteps",
-   "t": "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
-  },
-  {
-   "k": "562f4e3cfef5",
-   "ctx": "helpline",
-   "t": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline"
-  },
-  {
-   "k": "39717556c60a",
-   "ctx": "title",
-   "t": "Mizoram Universal Health Care Scheme (MUHCS Card)"
-  },
-  {
-   "k": "ae5f7eef3925",
-   "ctx": "department",
-   "t": "Mizoram State Health Care Society, Department of Health & Family Welfare, Government of Mizoram"
-  },
-  {
-   "k": "0f871bc1e503",
-   "ctx": "brief",
-   "t": "From 1 April 2025 MUHCS replaced the old Mizoram State Health Care Scheme (MSHCS), and it covers every bona fide resident of Mizoram. Families outside government service pay a yearly fee of Rs.2,500, Rs.5,000 or Rs.10,000 for Rs.5 lakh of cashless hospital cover; the higher fee buys a better ward, while AB PM-JAY (Golden Card) families pay nothing and government employees pay monthly from their salary. The paid enrolment opens once a year (for 2026-27 it ran from 16 February to 15 May 2026), mostly online, with offline forms at sub-centres where there is no internet. After that you apply for the MUHCS card online and download it once approved."
-  },
-  {
-   "k": "60e6cf2e56d8",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family, cashless, for a yearly family fee of Rs.2,500, Rs.5,000 or Rs.10,000"
-  },
-  {
-   "k": "71a24bc9e605",
-   "ctx": "eligibility",
-   "t": "Every bona fide resident of Mizoram listed in the state ration card (PDS) database"
-  },
-  {
-   "k": "476f58fa99ba",
-   "ctx": "eligibility",
-   "t": "General families pay a yearly fee: Rs.2,500 (general ward), Rs.5,000 (semi-private shared ward) or Rs.10,000 (private ward). The cover is Rs.5 lakh in each plan"
-  },
-  {
-   "k": "1291cfec07f9",
-   "ctx": "eligibility",
-   "t": "AB PM-JAY (Golden Card) families pay nothing and use their Golden Card. They do not need a MUHCS card"
-  },
-  {
-   "k": "e77021d5842c",
-   "ctx": "eligibility",
-   "t": "State government employees and provisional or muster roll staff pay Rs.200 to Rs.1,500 a month from their salary, by pay level. They do not enrol, they only make the card"
-  },
-  {
-   "k": "ff458eca9ce3",
-   "ctx": "eligibility",
-   "t": "Civil pensioners and GIA employees are covered through their subscription form, but the MUHCS card is not yet issued to them (circular of 13 May 2026)"
-  },
-  {
-   "k": "0bd7e9e87ed1",
-   "ctx": "eligibility",
-   "t": "Children under 5 use a parent's card. The fee is paid only in the yearly enrolment window and is not refunded except as notified"
-  },
-  {
-   "k": "90121ebcc3f0",
-   "ctx": "documents",
-   "t": "Ration card. Without one, a Village Council or Local Council letter listing the family members"
-  },
-  {
-   "k": "4119f4b4b7ea",
-   "ctx": "documents",
-   "t": "A clear chest-up photo of each member, to upload for the card"
-  },
-  {
-   "k": "4bddb1dea20f",
-   "ctx": "documents",
-   "t": "UPI, debit or credit card, or net banking, to pay the yearly fee (general families)"
-  },
-  {
-   "k": "b6b90ae0a8ff",
-   "ctx": "hint",
-   "t": "Your own working number. The OTP comes here every time you log in."
-  },
-  {
-   "k": "8826cffd22ba",
-   "ctx": "hint",
-   "t": "Type the letters shown in the picture, then the OTP sent to your phone."
-  },
-  {
-   "k": "f81edde45363",
-   "ctx": "hint",
-   "t": "The family is taken from the ration card. Without one, upload the Village or Local Council letter."
-  },
-  {
-   "k": "c4fbe69cc90e",
-   "ctx": "hint",
-   "t": "Standard Rs.5,000 gives a shared semi-private ward, Private Rs.10,000 a private ward. The cover is Rs.5 lakh in all three."
-  },
-  {
-   "k": "4c74544544a4",
-   "ctx": "hint",
-   "t": "Every member aged 5 or above needs their own Aadhaar for the card."
-  },
-  {
-   "k": "1acea155679b",
-   "ctx": "hint",
-   "t": "Clear, face straight, from the chest up. A blurred photo gets the card rejected."
-  },
-  {
-   "k": "2c6940baea06",
-   "ctx": "hint",
-   "t": "Pay online and keep the receipt. You need it for any later query or refund request."
-  },
-  {
-   "k": "3f8947eaa6e3",
-   "ctx": "demoSteps",
-   "t": "During the yearly enrolment window (for 2026-27 it was 16 February to 15 May 2026), open the MUHCS portal, choose Beneficiary and log in with your mobile number, the captcha and the OTP."
-  },
-  {
-   "k": "e3563a39e01e",
-   "ctx": "demoSteps",
-   "t": "Enter your ration card details, add all family members and choose a plan: General Rs.2,500, Standard Rs.5,000 or Private Rs.10,000."
-  },
-  {
-   "k": "d790a08f64fe",
-   "ctx": "demoSteps",
-   "t": "Pay the fee online by UPI, card or net banking and save the receipt. In villages without internet, fill in the offline form at the health sub-centre instead."
-  },
-  {
-   "k": "9713a0e43fcb",
-   "ctx": "demoSteps",
-   "t": "Apply for the MUHCS card from the same login. Upload each member's Aadhaar and a clear chest-up photo. Children under 5 do not need a card."
-  },
-  {
-   "k": "a7e2e76c02c9",
-   "ctx": "demoSteps",
-   "t": "The Mizoram State Health Care Society checks and approves the request. Then log in again and download the card."
-  },
-  {
-   "k": "ef50a92e638c",
-   "ctx": "demoSteps",
-   "t": "At an empanelled government or private hospital, show the MUHCS card (or your Golden Card) and get cashless treatment up to Rs.5 lakh. Re-enrol every year in the window."
-  },
-  {
-   "k": "16eefdcf283a",
-   "ctx": "helpline",
-   "t": "08065293906 — MUHCS Chhawntu call centre / 0389-2328223 — Mizoram State Health Care Society office / 7628839899 — MUHCS grievance / 14555 — Ayushman Bharat toll-free"
-  },
-  {
-   "k": "05e7f18331da",
-   "ctx": "title",
-   "t": "Chief Minister Health Insurance Scheme (CMHIS Card)"
-  },
-  {
-   "k": "69113ce1d721",
-   "ctx": "department",
-   "t": "Nagaland Health Protection Society, Department of Health & Family Welfare, Government of Nagaland"
-  },
-  {
-   "k": "0a4a6292b283",
-   "ctx": "brief",
-   "t": "Nagaland's own health insurance, run together with PM-JAY as AB PM-JAY CMHIS: the General Category gives Rs.5 lakh a year per family of cashless hospital treatment to indigenous inhabitants and permanent residents who are not covered by PM-JAY. Government employees and pensioners get Rs.20 lakh. A family registers online on the CMHIS portal or at a registration centre, the district administration approves it, and the Ayushman CMHIS card is then made after Aadhaar e-KYC at a centre. Registration is free."
-  },
-  {
-   "k": "4ebb3819940e",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family (General Category); Rs.20 lakh for government employees and pensioners"
-  },
-  {
-   "k": "c9a2788b3574",
-   "ctx": "eligibility",
-   "t": "Indigenous inhabitants or permanent residents of Nagaland not covered by AB PM-JAY or any other public health insurance (General Category)"
-  },
-  {
-   "k": "48e6b65e90a7",
-   "ctx": "eligibility",
-   "t": "Contractual, ad-hoc and fixed-pay state employees with a valid PIMS code, and accredited journalists, also come under the General Category"
-  },
-  {
-   "k": "74189471c51c",
-   "ctx": "eligibility",
-   "t": "Regular state government employees, legislators, PSU employees and pensioners, with their dependants, come under CMHIS (EP) with Rs.20 lakh cover"
-  },
-  {
-   "k": "9b436c3ecc49",
-   "ctx": "eligibility",
-   "t": "Ration card holders need not register as a new household. Their card is made against the existing ration card"
-  },
-  {
-   "k": "39dc40fb2ac1",
-   "ctx": "eligibility",
-   "t": "A household means people who live together and share one kitchen. There is no income limit"
-  },
-  {
-   "k": "5f38dd6a0b45",
-   "ctx": "documents",
-   "t": "Indigenous Inhabitant Certificate (IIC) or Permanent Resident Certificate (PRC) issued after 2016, for the head of the household"
-  },
-  {
-   "k": "e606804beb66",
-   "ctx": "documents",
-   "t": "System-generated self-declaration form, signed by the applicant and the Village, Ward or Colony Chairman"
-  },
-  {
-   "k": "f26665ccc58f",
-   "ctx": "documents",
-   "t": "Aadhaar card of every member, for e-KYC"
-  },
-  {
-   "k": "f38a541ac3b9",
-   "ctx": "documents",
-   "t": "A mobile number and an email ID (both verified by OTP)"
-  },
-  {
-   "k": "0ec77b203866",
-   "ctx": "documents",
-   "t": "Proof of relationship for every dependant except the spouse"
-  },
-  {
-   "k": "0ef16dd8efa8",
-   "ctx": "documents",
-   "t": "Employees: PIMS code. Pensioners: PPO number and the first 3 pages of the PPO book as a PDF"
-  },
-  {
-   "k": "a8e475c5b97e",
-   "ctx": "hint",
-   "t": "Government employees use Register with PIMS Code, pensioners use Register as Pensioner."
-  },
-  {
-   "k": "802f6e04b8fe",
-   "ctx": "hint",
-   "t": "Give your FULL NAME exactly as on your Aadhaar card."
-  },
-  {
-   "k": "a7a4b5cdf01a",
-   "ctx": "hint",
-   "t": "Verified by OTP. You will log in with it later."
-  },
-  {
-   "k": "f8b66127a738",
-   "ctx": "hint",
-   "t": "The email of any family member can be used. It is needed for password reset and is verified too."
-  },
-  {
-   "k": "dfa468e7f247",
-   "ctx": "hint",
-   "t": "It must be issued after 2016. The application goes to the district administration that issued it."
-  },
-  {
-   "k": "ad9412025796",
-   "ctx": "value",
-   "t": "Atoli Sumi (Spouse), Hokiye Sumi (Son)"
-  },
-  {
-   "k": "994ca0575626",
-   "ctx": "hint",
-   "t": "Everyone who lives with you and shares one kitchen."
-  },
-  {
-   "k": "d953058537fc",
-   "ctx": "hint",
-   "t": "Needed for every dependant except the spouse."
-  },
-  {
-   "k": "381d4018b437",
-   "ctx": "hint",
-   "t": "Download the system-generated form, get it signed by you and your Village, Ward or Colony Chairman, and upload it."
-  },
-  {
-   "k": "2cf95c1a8ac8",
-   "ctx": "demoSteps",
-   "t": "Open the CMHIS registration page and choose General Category. Employees use their PIMS code, pensioners their PPO number."
-  },
-  {
-   "k": "43f9f4c60ec3",
-   "ctx": "demoSteps",
-   "t": "Enter your full name as on Aadhaar, and verify your mobile number and email with the OTPs."
-  },
-  {
-   "k": "01b345162bee",
-   "ctx": "demoSteps",
-   "t": "Add your household members and upload the IIC or PRC and the relationship proofs. Download the self-declaration form, get it signed by the Village, Ward or Colony Chairman, and upload it."
-  },
-  {
-   "k": "2e3b79db234a",
-   "ctx": "demoSteps",
-   "t": "Submit. The district administration that issued your IIC or PRC checks it. On approval you get an SMS and email with your Household ID."
-  },
-  {
-   "k": "9ecc097ad04d",
-   "ctx": "demoSteps",
-   "t": "Take the Household ID and every member's Aadhaar to a registration centre (district hospital, CHC, PHC, DC office or CSC) for Aadhaar e-KYC, and collect the Ayushman CMHIS card. Ration card holders can go straight to this step."
-  },
-  {
-   "k": "6ba5e3370d11",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, show the card. Treatment is cashless up to Rs.5 lakh a year for the family."
-  },
-  {
-   "k": "c9803c289387",
-   "ctx": "helpline",
-   "t": "1800 202 3380 — CMHIS helpdesk, Nagaland Health Protection Society / 14555 — Ayushman Bharat national helpline"
-  },
-  {
-   "k": "ca12389d28da",
-   "ctx": "department",
-   "t": "Women & Child Development Department, Government of Odisha (with the Union Ministry of Women & Child Development for PMMVY)"
-  },
-  {
-   "k": "6adc5b05e225",
-   "ctx": "brief",
-   "t": "Cash help for a pregnant woman so she can eat well and rest before and after the birth. Since 1 April 2025 Odisha's old Mamata scheme and the central PMMVY run together as MAMATA-PMMVY, and the amount has gone up to Rs 10,000 for a boy and Rs 12,000 for a girl. It is paid in two instalments, for the first two live births (all births for PVTG families), straight into the mother's Aadhaar-linked account. You register at your Anganwadi Centre; the Anganwadi worker fills the form on the scheme's app, or you can self-register on the app."
-  },
-  {
-   "k": "0c55f374d0f1",
-   "ctx": "benefit",
-   "t": "Rs 10,000 for a boy, Rs 12,000 for a girl, in two instalments (first two live births)"
-  },
-  {
-   "k": "a65c6f495788",
-   "ctx": "eligibility",
-   "t": "Pregnant women and new mothers living in Odisha, aged 18 years 7 months to 55 years on the date of the last period (LMP)"
-  },
-  {
-   "k": "3e8faa6843c1",
-   "ctx": "eligibility",
-   "t": "Must fit any one: SC or ST; 40% or more disability; ration card; Ayushman (PMJAY) card; e-Shram card; woman farmer getting PM-KISAN; MGNREGA job card; family income below Rs 8 lakh; or Anganwadi worker, helper or ASHA"
-  },
-  {
-   "k": "ed8d2531b2d2",
-   "ctx": "eligibility",
-   "t": "Paid for the first two live births. Women of the 13 PVTG communities (Bonda, Juang, Dongria Kondh, Lanjia Saora and others) get it for every birth, until March 2029"
-  },
-  {
-   "k": "014c377999a8",
-   "ctx": "eligibility",
-   "t": "Not for women whose own or husband's job is a regular Central or State government or PSU post, or whose family income is above Rs 8 lakh"
-  },
-  {
    "k": "605ca006b1ed",
    "ctx": "eligibility",
    "t": "First instalment: pregnancy registered at the Anganwadi and at least one check-up (ANC) within six months of the last period. Second: birth registered and all the baby's vaccines up to 14 weeks done"
@@ -759,6 +404,406 @@
    "k": "f678c6f0307c",
    "ctx": "hint",
    "t": "Up to three nominees. They receive the money if something happens to you."
+  },
+  {
+   "k": "9cb199dd7c9e",
+   "ctx": "demoSteps",
+   "t": "Get the 90-day construction worker certificate signed and sealed by your contractor, a registered union, the Panchayat executive officer or the labour inspector."
+  },
+  {
+   "k": "783c3c4106a7",
+   "ctx": "demoSteps",
+   "t": "Log in at sso.rajasthan.gov.in (make a free SSO ID with Jan Aadhaar if needed) and open LDMS, or go to an e-Mitra kiosk."
+  },
+  {
+   "k": "d42bdc70633d",
+   "ctx": "demoSteps",
+   "t": "In LDMS choose BOCW Welfare Board, then Beneficiary Registration, and fill in Form V: your details, address, employers of the last 12 months, family and nominee."
+  },
+  {
+   "k": "1e4d3cb1a23b",
+   "ctx": "demoSteps",
+   "t": "Upload the photo, age proof and worker certificate, choose your labour office, tick the declaration and submit. Save the application number."
+  },
+  {
+   "k": "78ea13cc0798",
+   "ctx": "demoSteps",
+   "t": "The labour office checks the form. If it asks for a missing paper, upload it from the same login. When approved, it asks you to pay the Rs 25 registration fee and Rs 60 contribution online or at e-Mitra."
+  },
+  {
+   "k": "b549316071cc",
+   "ctx": "demoSteps",
+   "t": "After payment, print your beneficiary identity card (shramik card) from Print Identity Card in LDMS."
+  },
+  {
+   "k": "f8886fe4a73f",
+   "ctx": "demoSteps",
+   "t": "Apply for schemes from Apply for Scheme in the same login, for example maternity help within 90 days of the delivery. Keep the contribution paid so claims are not refused."
+  },
+  {
+   "k": "069e85463875",
+   "ctx": "helpline",
+   "t": "1800-1800-999 — Labour Department helpline; 0141-2222961 / 0141-2220334 — construction worker schemes; 0141-2450793 — LDMS help"
+  },
+  {
+   "k": "8172d98a1657",
+   "ctx": "department",
+   "t": "Medical, Health & Family Welfare Department — Rajasthan State Health Assurance Agency (RSHAA), Government of Rajasthan"
+  },
+  {
+   "k": "2f73b2c56e01",
+   "ctx": "brief",
+   "t": "Rajasthan's own health cover, earlier called the Chiranjeevi Yojana and renamed MAA Yojana in 2024. A covered family gets cashless treatment of up to Rs 25 lakh a year when admitted to a government hospital or an empanelled private hospital, with no limit on family size or age. NFSA and SECC families, small and marginal farmers and government contract workers are covered free; any other family that is not a government employee or pensioner can join by paying Rs 850 a year."
+  },
+  {
+   "k": "64bf35ee064d",
+   "ctx": "benefit",
+   "t": "Cashless hospital treatment up to Rs 25 lakh per family per year"
+  },
+  {
+   "k": "70810847afee",
+   "ctx": "eligibility",
+   "t": "Family living in Rajasthan with a Jan Aadhaar card; every member listed on the Jan Aadhaar is covered"
+  },
+  {
+   "k": "b10f50191a77",
+   "ctx": "eligibility",
+   "t": "Free, no registration needed: families under the Food Security Act (NFSA) and SECC 2011 families"
+  },
+  {
+   "k": "c20fd156c69b",
+   "ctx": "eligibility",
+   "t": "Free after registration: small and marginal farmers, contract workers of state departments, boards and corporations, and destitute families who got the Covid-19 ex-gratia"
+  },
+  {
+   "k": "40fee8e8e5fe",
+   "ctx": "eligibility",
+   "t": "All other families can join by paying Rs 850 a year, half the premium; the state pays the other half"
+  },
+  {
+   "k": "3926224fd3d0",
+   "ctx": "eligibility",
+   "t": "Not for government employees or pensioners who get medical benefits under the Medical Attendance Rules"
+  },
+  {
+   "k": "7d965a15c8e5",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age; a baby up to one year old is treated even before its name is on the Jan Aadhaar"
+  },
+  {
+   "k": "cafacb7eb2a6",
+   "ctx": "documents",
+   "t": "Jan Aadhaar card, Jan Aadhaar number or Jan Aadhaar enrolment receipt number"
+  },
+  {
+   "k": "3fd6df7ddf81",
+   "ctx": "documents",
+   "t": "Aadhaar number of the member who registers, with the mobile number linked to it for the OTP"
+  },
+  {
+   "k": "9e60ed47d7f8",
+   "ctx": "documents",
+   "t": "Land holding seeded in the Jan Aadhaar, for small and marginal farmers (done at e-Mitra)"
+  },
+  {
+   "k": "e107bb8ba6c6",
+   "ctx": "documents",
+   "t": "Department verification by the nodal officer, for contract workers"
+  },
+  {
+   "k": "805c24e4def8",
+   "ctx": "documents",
+   "t": "Rs 850 premium, only for families in the paid category"
+  },
+  {
+   "k": "a80203e6e647",
+   "ctx": "documents",
+   "t": "At the hospital: Jan Aadhaar card or the MAA policy document, and the patient's Aadhaar card"
+  },
+  {
+   "k": "04223e268148",
+   "ctx": "portalName",
+   "t": "Mukhyamantri Ayushman Arogya Yojana portal (through SSO Rajasthan)"
+  },
+  {
+   "k": "cfc46c0f7227",
+   "ctx": "hint",
+   "t": "Your Rajasthan SSO login. If you have none, make one free on the same page using your Jan Aadhaar."
+  },
+  {
+   "k": "99c4f0f9c6b5",
+   "ctx": "hint",
+   "t": "Free is for small and marginal farmers, contract workers and Covid ex-gratia families. Every other family chooses Paid and pays Rs 850. NFSA ration-card families do not register at all."
+  },
+  {
+   "k": "9fc701904fde",
+   "ctx": "hint",
+   "t": "Farmers choose SMF, government contract staff choose Contractual, and destitute families who got the Covid aid choose Covid 19 ex Gratia."
+  },
+  {
+   "k": "11dc9e241912",
+   "ctx": "label",
+   "t": "Jan Aadhaar number or enrolment receipt number"
+  },
+  {
+   "k": "30a802b56d26",
+   "ctx": "hint",
+   "t": "The 10-digit family number on the Jan Aadhaar card. If the card is still being made, the enrolment receipt number also works."
+  },
+  {
+   "k": "de0a515a69ba",
+   "ctx": "value",
+   "t": "Bhanwar Lal Saini (head of family)"
+  },
+  {
+   "k": "551869b04bd5",
+   "ctx": "hint",
+   "t": "All members appear on screen. Pick any one adult whose Aadhaar has a working mobile number linked to it."
+  },
+  {
+   "k": "b96024496c50",
+   "ctx": "hint",
+   "t": "The 12 digits on the Aadhaar card of the member you picked."
+  },
+  {
+   "k": "39e20d986057",
+   "ctx": "hint",
+   "t": "The OTP goes to the mobile linked with Aadhaar, which may differ from the number on the Jan Aadhaar."
+  },
+  {
+   "k": "c96013be61f2",
+   "ctx": "hint",
+   "t": "A number you keep with you. Messages about the policy come here."
+  },
+  {
+   "k": "0a34ffb56f9b",
+   "ctx": "value",
+   "t": "Khasra 412, 1.6 hectare, village Kishanpura, tehsil Chomu"
+  },
+  {
+   "k": "5d29daa35942",
+   "ctx": "hint",
+   "t": "Must match the land seeded in your Jan Aadhaar. If it is not seeded yet, get it done at e-Mitra first."
+  },
+  {
+   "k": "404b20d7fc03",
+   "ctx": "hint",
+   "t": "Paid families pay Rs 850 online or in cash at the e-Mitra. The kiosk may not charge anything extra for registering or printing."
+  },
+  {
+   "k": "7809eaafde6b",
+   "ctx": "demoSteps",
+   "t": "Check first: if your family has an NFSA ration card or is in the SECC 2011 list, you are already covered. Just take your Jan Aadhaar or Aadhaar card to the hospital."
+  },
+  {
+   "k": "25c6d9eb6e27",
+   "ctx": "demoSteps",
+   "t": "Everyone else logs in at sso.rajasthan.gov.in and opens the MAA Yojana registration, or goes to an e-Mitra kiosk with the Jan Aadhaar and Aadhaar."
+  },
+  {
+   "k": "d167ec8bec23",
+   "ctx": "demoSteps",
+   "t": "Choose Free (farmer, contract worker, Covid ex-gratia family) or Paid, then enter the Jan Aadhaar number or its enrolment receipt number and search."
+  },
+  {
+   "k": "194f446e7d5c",
+   "ctx": "demoSteps",
+   "t": "The family list appears. One adult member e-signs with the OTP sent to the mobile linked to their Aadhaar, then fills in the details for the chosen category."
+  },
+  {
+   "k": "08bc56c2730d",
+   "ctx": "demoSteps",
+   "t": "Paid families pay Rs 850. Contract workers' forms are checked online by their department's nodal officer."
+  },
+  {
+   "k": "6e9b34a2c4a5",
+   "ctx": "demoSteps",
+   "t": "Print the policy document. It shows your family's cover; keep it with the Jan Aadhaar card."
+  },
+  {
+   "k": "2740e84cb478",
+   "ctx": "demoSteps",
+   "t": "At an empanelled hospital, go to the scheme counter, give the Jan Aadhaar or Aadhaar number and verify with your fingerprint. Listed treatment is free, including the tests and medicines from 5 days before admission to 15 days after discharge."
+  },
+  {
+   "k": "800fa6a744aa",
+   "ctx": "helpline",
+   "t": "181 — Rajasthan Sampark; 1800-180-6127 — MAA Yojana toll-free complaint line"
+  },
+  {
+   "k": "d65d663e59df",
+   "ctx": "title",
+   "t": "Palanhar Yojana (support for orphan and needy children)"
+  },
+  {
+   "k": "ba8909a21381",
+   "ctx": "department",
+   "t": "Social Justice & Empowerment Department, Government of Rajasthan"
+  },
+  {
+   "k": "bf222b6c8495",
+   "ctx": "brief",
+   "t": "Pays a monthly amount to the relative or guardian (the palanhar) who brings up an orphan, or a child in a listed hardship category, at home, so the child stays with family and keeps studying. Orphans get Rs 1,500 a month up to age 6 and Rs 2,500 from 6 to 18; other categories get Rs 750 and Rs 1,500, and most families also get Rs 2,000 a year for books, clothes and shoes. You apply online at an e-Mitra kiosk, through SSO or on the Palanhar app with face authentication, and renew every July."
+  },
+  {
+   "k": "8730bd24546a",
+   "ctx": "benefit",
+   "t": "Rs 750 to Rs 2,500 a month per child, plus Rs 2,000 a year"
+  },
+  {
+   "k": "4082c65b5824",
+   "ctx": "eligibility",
+   "t": "Child under 18 (up to 19 if still in Class 12 or below), enrolled at an Anganwadi (age 0–6) or a school (6–18)"
+  },
+  {
+   "k": "6a3f696ef19e",
+   "ctx": "eligibility",
+   "t": "Orphans; children of parents sentenced to death or life imprisonment; children of a widow or a divorced or abandoned woman who gets a pension; children of a remarried widow"
+  },
+  {
+   "k": "5badbbcea006",
+   "ctx": "eligibility",
+   "t": "Children of parents with HIV/AIDS, leprosy, silicosis or 40% or more disability, and children of a mother who has gone in nata (widow and nata categories: up to 3 children)"
+  },
+  {
+   "k": "8caba00c4289",
+   "ctx": "eligibility",
+   "t": "Palanhar family income up to Rs 1.20 lakh a year; no income proof needed for BPL, Astha or Antyodaya card holders and widow, divorced, abandoned or disability pensioners"
+  },
+  {
+   "k": "41c3eed9f789",
+   "ctx": "eligibility",
+   "t": "Palanhar is a Rajasthan native or has lived in the state at least 3 years; an adult brother or sister can be the palanhar"
+  },
+  {
+   "k": "35672b06061a",
+   "ctx": "eligibility",
+   "t": "Stops if the palanhar takes a government job or family income crosses the limit"
+  },
+  {
+   "k": "9d043fdc7ebc",
+   "ctx": "documents",
+   "t": "Jan Aadhaar card of the palanhar, with the child added to it"
+  },
+  {
+   "k": "e929e113b22c",
+   "ctx": "documents",
+   "t": "Residence proof — domicile certificate, ration card or voter ID (not needed for BPL, Astha, Antyodaya, PDS or pension holders)"
+  },
+  {
+   "k": "ae5558750fac",
+   "ctx": "documents",
+   "t": "Income proof of up to Rs 1.20 lakh a year (not needed for BPL, Astha, Antyodaya or pension holders)"
+  },
+  {
+   "k": "6b93eef85256",
+   "ctx": "documents",
+   "t": "Anganwadi registration or school study certificate (not needed if the school has verified the child on Shala Darpan)"
+  },
+  {
+   "k": "1452c6762385",
+   "ctx": "documents",
+   "t": "Category proof: parents' death certificates, court sentence copy, pension PPO, remarriage certificate, AIDS control society registration, medical or 40% disability certificate, or the SDM's nata certificate"
+  },
+  {
+   "k": "9a0b004e531a",
+   "ctx": "documents",
+   "t": "Bank account details, updated in the Jan Aadhaar"
+  },
+  {
+   "k": "dbfdfdab7077",
+   "ctx": "label",
+   "t": "Jan Aadhaar number of the palanhar"
+  },
+  {
+   "k": "b77f7ec69051",
+   "ctx": "hint",
+   "t": "The child must already be added to this Jan Aadhaar, and the bank details in it must be correct."
+  },
+  {
+   "k": "c92ccfc1de4e",
+   "ctx": "label",
+   "t": "Palanhar name and relation to the child"
+  },
+  {
+   "k": "0bac2abe8fc4",
+   "ctx": "hint",
+   "t": "The adult actually bringing up the child: grandparent, uncle, aunt, elder brother or sister, or the mother in the eligible categories."
+  },
+  {
+   "k": "9e5900e92bf3",
+   "ctx": "hint",
+   "t": "Choose the one category that fits; the amount and the proof needed depend on it."
+  },
+  {
+   "k": "9c9237da6635",
+   "ctx": "hint",
+   "t": "As on the child's Aadhaar card."
+  },
+  {
+   "k": "a130b2a3a76a",
+   "ctx": "hint",
+   "t": "Decides the rate: up to 6 years or 6–18 years. Get any error fixed in Jan Aadhaar first."
+  },
+  {
+   "k": "817839c539e3",
+   "ctx": "value",
+   "t": "Govt. Upper Primary School, Lalsot — Class 4"
+  },
+  {
+   "k": "c36a49d19107",
+   "ctx": "hint",
+   "t": "Children aged 0–6 must be at an Anganwadi and older children at school; money stops if the child leaves."
+  },
+  {
+   "k": "f84b9efbb3eb",
+   "ctx": "hint",
+   "t": "Up to Rs 1.20 lakh. Antyodaya, BPL and Astha card holders need no income certificate."
+  },
+  {
+   "k": "a814e7879e35",
+   "ctx": "hint",
+   "t": "BPL, Astha, Antyodaya or PDS card holders need no separate domicile certificate."
+  },
+  {
+   "k": "7ebeee2574ae",
+   "ctx": "value",
+   "t": "Death certificates of father (2021) and mother (2023)"
+  },
+  {
+   "k": "36e64cc770bb",
+   "ctx": "hint",
+   "t": "Upload the proof for your category, such as a pension PPO for a widow or a disability certificate."
+  },
+  {
+   "k": "88ac718e1753",
+   "ctx": "hint",
+   "t": "Taken from the Jan Aadhaar. To change it, update the Jan Aadhaar first, then tell the block office."
+  },
+  {
+   "k": "121879440a6d",
+   "ctx": "demoSteps",
+   "t": "Make sure the child is added to the palanhar's Jan Aadhaar and that the bank details in the Jan Aadhaar are correct."
+  },
+  {
+   "k": "113a8c6ae2b5",
+   "ctx": "demoSteps",
+   "t": "Apply online at the nearest e-Mitra kiosk, through your own SSO login, or on the Palanhar new-application app with Aadhaar face authentication, and attach the category papers."
+  },
+  {
+   "k": "0555823b4b94",
+   "ctx": "demoSteps",
+   "t": "Keep the application number. The Block Social Security Office of the Social Justice department checks the application."
+  },
+  {
+   "k": "6affb6552417",
+   "ctx": "demoSteps",
+   "t": "If an objection is raised, clear it within 90 days at e-Mitra or on the app, or the application is cancelled automatically."
+  },
+  {
+   "k": "43c1507af3b6",
+   "ctx": "demoSteps",
+   "t": "Once sanctioned, the monthly amount goes to the palanhar's account, with Rs 2,000 a year extra (not for widow and nata palanhars)."
   }
  ]
 }

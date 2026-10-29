@@ -91,24 +91,9 @@
    "t": "The enrolment number and the Farmer ID come by SMS to this number."
   },
   {
-   "k": "cf4f3b4aa860",
-   "ctx": "label",
-   "t": "Name as per Aadhaar"
-  },
-  {
-   "k": "ed27a1284a5a",
-   "ctx": "value",
-   "t": "Bhagwan Singh Yadav"
-  },
-  {
    "k": "b3264cea3337",
    "ctx": "hint",
    "t": "Filled in by itself after e-KYC. Check that it matches the name in your land record."
-  },
-  {
-   "k": "a9ef7f3444e4",
-   "ctx": "value",
-   "t": "Ram Prakash Yadav"
   },
   {
    "k": "4a4f17ffb519",
@@ -119,11 +104,6 @@
    "k": "03e625518b81",
    "ctx": "label",
    "t": "District / Sub-district / Village of the Land"
-  },
-  {
-   "k": "4de5f49f92cf",
-   "ctx": "value",
-   "t": "Etawah / Bharthana / Nagla Ratan"
   },
   {
    "k": "a3a0352745cb",
@@ -156,39 +136,14 @@
    "t": "Pick only your own name. For joint land, each owner registers with his or her own Aadhaar."
   },
   {
-   "k": "e3ea40044c2c",
-   "ctx": "label",
-   "t": "Verify Ownership"
-  },
-  {
-   "k": "0813ecf5f445",
-   "ctx": "value",
-   "t": "Verified from land record"
-  },
-  {
    "k": "bc7b54bbe2c6",
    "ctx": "hint",
    "t": "Press Verify. The site checks the plot against the state's land record."
   },
   {
-   "k": "16a325d8c272",
-   "ctx": "label",
-   "t": "Consent and e-Sign"
-  },
-  {
-   "k": "31685aaa1c56",
-   "ctx": "value",
-   "t": "Agreed, e-signed with Aadhaar OTP"
-  },
-  {
    "k": "ec194d09664b",
    "ctx": "hint",
    "t": "Your consent lets schemes use your land details. Nothing is shared without it."
-  },
-  {
-   "k": "3be7cd3e6d42",
-   "ctx": "label",
-   "t": "Enrolment ID"
   },
   {
    "k": "3a56e1d31a10",
@@ -229,11 +184,6 @@
    "k": "0b13b2a5e2eb",
    "ctx": "helpline",
    "t": "Tehsil or district agriculture office Farmer Registry help desk; 155261 / 1800-115-526 (PM-Kisan helpline, for linking the Farmer ID to PM-Kisan)"
-  },
-  {
-   "k": "c2bdeba42dfa",
-   "ctx": "title",
-   "t": "Kisan Credit Card (KCC)"
   },
   {
    "k": "91a1525af54e",
@@ -306,29 +256,9 @@
    "t": "At the branch of the bank where your PM-Kisan money is credited (or any commercial bank, Regional Rural Bank or cooperative bank branch near your village). Hand the filled form to the field officer or branch manager with your Aadhaar, land record, two photos and passbook, and get the acknowledgement slip at the bottom of the form signed and dated."
   },
   {
-   "k": "f6e8e62fc09f",
-   "ctx": "label",
-   "t": "Name of Bank / Branch"
-  },
-  {
-   "k": "a6f406e092e5",
-   "ctx": "value",
-   "t": "Bank of Baroda, Mandvi branch"
-  },
-  {
    "k": "60e456794dc7",
    "ctx": "hint",
    "t": "The bank where your PM-Kisan money comes. Write it at the top of the form."
-  },
-  {
-   "k": "aa80f45d4a50",
-   "ctx": "label",
-   "t": "Type of KCC"
-  },
-  {
-   "k": "69be23dd9b97",
-   "ctx": "value",
-   "t": "Issue of fresh KCC"
   },
   {
    "k": "ff796402d196",
@@ -336,19 +266,9 @@
    "t": "Tick fresh KCC for a new card, or enhancement or activation if you already have an old KCC."
   },
   {
-   "k": "d34b23b71b46",
-   "ctx": "label",
-   "t": "Amount of loan required"
-  },
-  {
    "k": "d970a6c5414c",
    "ctx": "hint",
    "t": "What you need for one year of farming. The bank will fix the final limit from your land and crops."
-  },
-  {
-   "k": "fa405e1d5922",
-   "ctx": "value",
-   "t": "Bhikhabhai Rathod"
   },
   {
    "k": "0acf05bb9793",
@@ -356,34 +276,14 @@
    "t": "Your name as on Aadhaar and the land record."
   },
   {
-   "k": "6fcec19fe9b0",
-   "ctx": "label",
-   "t": "Account No (PM Kisan Beneficiary)"
-  },
-  {
    "k": "120878ba7d1c",
    "ctx": "hint",
    "t": "The account where your PM-Kisan instalments come. The bank takes your KYC from this account."
   },
   {
-   "k": "20c6509a778c",
-   "ctx": "label",
-   "t": "Consent for PMSBY / PMJJBY auto debit"
-  },
-  {
-   "k": "d9a1a23d4b28",
-   "ctx": "value",
-   "t": "PMSBY: Yes, PMJJBY: Yes"
-  },
-  {
    "k": "ba6b83597296",
    "ctx": "hint",
    "t": "Insurance of Rs.2 lakh each for Rs.20 and Rs.436 a year, cut from your account. Tick No if you do not want it."
-  },
-  {
-   "k": "c74e73e2f7f9",
-   "ctx": "label",
-   "t": "Details of existing loans"
   },
   {
    "k": "a8783becd4c6",
@@ -396,11 +296,6 @@
    "t": "Land holding: Village / Survey-Khasra No. / Title / Area"
   },
   {
-   "k": "78da1dcccce6",
-   "ctx": "value",
-   "t": "Gundiyali / Survey 214 / Owned / 3.5 acres"
-  },
-  {
    "k": "a5e9ca791b06",
    "ctx": "hint",
    "t": "Copy from your land record. Tick Leased or Share Cropper if the land is not yours."
@@ -411,24 +306,9 @@
    "t": "Name of crop to be grown"
   },
   {
-   "k": "d94ff3096657",
-   "ctx": "value",
-   "t": "Kharif: groundnut; Rabi: wheat"
-  },
-  {
    "k": "447a3f488a33",
    "ctx": "hint",
    "t": "The crops you will sow this year in each season."
-  },
-  {
-   "k": "7cde5e8078cf",
-   "ctx": "label",
-   "t": "KCC for animal husbandry / fisheries"
-  },
-  {
-   "k": "71d207c0b801",
-   "ctx": "value",
-   "t": "2 dairy buffaloes"
   },
   {
    "k": "208e72daf64d",
@@ -469,11 +349,6 @@
    "k": "22a5ae61f1e4",
    "ctx": "demoSteps",
    "t": "If the bank refuses or delays without reason, complain to the branch manager in writing, then to RBI on 14448 or cms.rbi.org.in."
-  },
-  {
-   "k": "8fd2745bcbc9",
-   "ctx": "helpline",
-   "t": "155261 / 1800-115-526 (PM-Kisan and KCC helpline); 14448 (RBI complaints)"
   },
   {
    "k": "6a8ebd783451",
@@ -656,11 +531,6 @@
    "t": "Aadhaar card, or the Aadhaar enrolment slip with another photo ID until it comes"
   },
   {
-   "k": "f0c07a8056dd",
-   "ctx": "documents",
-   "t": "Mobile number, for the payment SMS"
-  },
-  {
    "k": "3a60e1fa102b",
    "ctx": "documents",
    "t": "For private patients: the doctor's prescription or TB notification slip"
@@ -671,29 +541,9 @@
    "t": "Give your bank details to the TB staff at the government health centre or TB Unit where you were diagnosed (the health worker or Senior Treatment Supervisor). If you are treated privately, give them to your doctor or the programme's private-sector staff. Take your bank passbook, Aadhaar and treatment card. The staff enter everything on Ni-kshay, so there is no form for you to fill. Do it in the first two weeks of treatment."
   },
   {
-   "k": "328c7dab27fa",
-   "ctx": "label",
-   "t": "Ni-kshay ID"
-  },
-  {
    "k": "e2c8ed5b6faf",
    "ctx": "hint",
    "t": "Written on your TB treatment card, or ask the health worker."
-  },
-  {
-   "k": "ce790932b94a",
-   "ctx": "label",
-   "t": "Patient Name"
-  },
-  {
-   "k": "c1c0c2b1c069",
-   "ctx": "value",
-   "t": "Suresh Mahato"
-  },
-  {
-   "k": "4c62389b085e",
-   "ctx": "hint",
-   "t": "As registered at the TB centre."
   },
   {
    "k": "184f5a730712",
@@ -706,24 +556,9 @@
    "t": "The patient's Aadhaar, or the enrolment slip number if it has not come yet."
   },
   {
-   "k": "30788c295949",
-   "ctx": "label",
-   "t": "Beneficiary Relationship to Patient"
-  },
-  {
-   "k": "e102517374a8",
-   "ctx": "value",
-   "t": "Self"
-  },
-  {
    "k": "ccb411068a1d",
    "ctx": "hint",
    "t": "Self if the account is yours; Father, Mother or Guardian for a child."
-  },
-  {
-   "k": "403e35e62b0a",
-   "ctx": "label",
-   "t": "Account Holder Name"
   },
   {
    "k": "f9a132c25d09",
@@ -741,29 +576,9 @@
    "t": "Printed on the passbook or cheque."
   },
   {
-   "k": "416e315eadca",
-   "ctx": "label",
-   "t": "Treatment Start Date"
-  },
-  {
    "k": "fd602038def3",
    "ctx": "hint",
    "t": "Payments are counted from this date, Rs.1,000 for each month of treatment."
-  },
-  {
-   "k": "fd3d46c44478",
-   "ctx": "label",
-   "t": "Health Facility / TB Unit"
-  },
-  {
-   "k": "69b55fd61fe0",
-   "ctx": "value",
-   "t": "TB Unit, Sadar Hospital, Dhanbad"
-  },
-  {
-   "k": "6854d4405e2b",
-   "ctx": "hint",
-   "t": "Where your treatment is recorded."
   },
   {
    "k": "de8ac65fc944",
@@ -891,29 +706,9 @@
    "t": "Checked by a face scan through the AadhaarFaceRD app; no fingerprint or OTP is needed."
   },
   {
-   "k": "b9ab455e6ad3",
-   "ctx": "label",
-   "t": "Name of head of household"
-  },
-  {
-   "k": "35757cb50fe3",
-   "ctx": "value",
-   "t": "Shanti Devi"
-  },
-  {
    "k": "b12319c7b54f",
    "ctx": "hint",
    "t": "Exactly as on Aadhaar. A woman head of family is welcome; the house is usually sanctioned in the woman's name or jointly."
-  },
-  {
-   "k": "57528797a876",
-   "ctx": "label",
-   "t": "Family members"
-  },
-  {
-   "k": "1ac64ae62d86",
-   "ctx": "value",
-   "t": "4 (Shanti Devi, Ramu, Geeta, Sonu)"
   },
   {
    "k": "2d0d551e28e5",
@@ -921,19 +716,9 @@
    "t": "Add every member living and cooking together, each with Aadhaar."
   },
   {
-   "k": "79d4503466f2",
-   "ctx": "label",
-   "t": "Social category"
-  },
-  {
    "k": "c43dbe153bd9",
    "ctx": "hint",
    "t": "SC, ST, minority or other. This decides which priority list your family goes into."
-  },
-  {
-   "k": "daf2d7c3f2e7",
-   "ctx": "label",
-   "t": "Type of present house"
   },
   {
    "k": "99ad3e187259",
@@ -946,39 +731,14 @@
    "t": "Describe the house as it is today. More than 2 rooms with a pucca roof makes the family ineligible."
   },
   {
-   "k": "d80149d75552",
-   "ctx": "label",
-   "t": "Monthly income of highest earner"
-  },
-  {
-   "k": "ce32942b6314",
-   "ctx": "value",
-   "t": "Rs.8,000"
-  },
-  {
    "k": "083a6f6888dd",
    "ctx": "hint",
    "t": "The member who earns the most. Above Rs.15,000 a month rules the family out."
   },
   {
-   "k": "c263132c558f",
-   "ctx": "label",
-   "t": "Land owned"
-  },
-  {
-   "k": "f0ed7783370b",
-   "ctx": "value",
-   "t": "0.5 acre unirrigated"
-  },
-  {
    "k": "aeab7c170f0c",
    "ctx": "hint",
    "t": "Write irrigated and unirrigated land separately, as in the land record."
-  },
-  {
-   "k": "52367dbb54f6",
-   "ctx": "label",
-   "t": "Photo of present house"
   },
   {
    "k": "16b88a99463d",
@@ -991,14 +751,44 @@
    "t": "Taken standing at the house, so the location is recorded with the photo."
   },
   {
-   "k": "5a6258584647",
-   "ctx": "label",
-   "t": "Job card number"
-  },
-  {
    "k": "271bc8ba1bca",
    "ctx": "hint",
    "t": "From your rural employment job card. The 90 days of paid work on your house are booked against it."
+  },
+  {
+   "k": "23b51e6717d5",
+   "ctx": "hint",
+   "t": "An account in the beneficiary's own name, seeded with Aadhaar. All instalments come here."
+  },
+  {
+   "k": "5194b2587556",
+   "ctx": "demoSteps",
+   "t": "Ask at the Gram Panchayat whether your name is already on the Permanent Wait List, or look up the Panchayat-wise list on the PMAY-G website."
+  },
+  {
+   "k": "5b41f12be2a8",
+   "ctx": "demoSteps",
+   "t": "If it is not, get surveyed under Awaas+ 2024: the Panchayat surveyor fills the form on the AwaasPlus app, or you survey yourself on the app with a face scan where your state's survey is open."
+  },
+  {
+   "k": "5a97e4343794",
+   "ctx": "demoSteps",
+   "t": "The Gram Sabha reads out and checks the list, objections are heard at the block and district, and approved families are ranked by priority."
+  },
+  {
+   "k": "3665a79d90b0",
+   "ctx": "demoSteps",
+   "t": "When your turn comes, the Block office registers you on AwaasSoft, geo-tags your old house and plot, and issues the sanction order. The first instalment comes into your Aadhaar-seeded account."
+  },
+  {
+   "k": "b951bf7ad915",
+   "ctx": "demoSteps",
+   "t": "Build the house, at least 25 sq m with a kitchen. At each stage (plinth, lintel, roof) the official takes a geo-tagged photo and the next instalment is released."
+  },
+  {
+   "k": "e53513737f7c",
+   "ctx": "demoSteps",
+   "t": "Work on your own house under the rural job scheme for 90 (or 95) days' wages, and claim Rs.12,000 for the toilet through the Panchayat."
   }
  ]
 }

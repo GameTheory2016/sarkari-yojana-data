@@ -6,341 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/pa/done_07.json",
  "items": [
   {
-   "k": "5fa5911c5630",
-   "ctx": "brief",
-   "t": "Bihar pays for the same free hospital cover of Rs 5 lakh a year as Ayushman Bharat for ration-card families that the central PM-JAY list left out. Since 2024 every family holding an NFSA ration card in Bihar is covered, either under PM-JAY or under this state scheme, and both use the same Ayushman card at any empanelled hospital. The card is made free with the ration card and Aadhaar, on the Ayushman app or website, at a CSC, or at camps held at ration shops."
-  },
-  {
-   "k": "587590c3533a",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless, at empanelled hospitals"
-  },
-  {
-   "k": "b00b5e819451",
-   "ctx": "eligibility",
-   "t": "The family holds a Bihar ration card under the National Food Security Act (priority household or Antyodaya)"
-  },
-  {
-   "k": "3fa868d846b1",
-   "ctx": "eligibility",
-   "t": "Families already on the central PM-JAY list are covered by PM-JAY; the other ration-card families are covered by this state scheme, with the same card"
-  },
-  {
-   "k": "d99e6b416e93",
-   "ctx": "eligibility",
-   "t": "Every member named on the ration card is covered, with no limit on family size or age"
-  },
-  {
-   "k": "9bdd37fbee5b",
-   "ctx": "eligibility",
-   "t": "Illnesses you already have are covered from the first day"
-  },
-  {
-   "k": "0278ddb5c74e",
-   "ctx": "eligibility",
-   "t": "Each member needs his or her own card, made after Aadhaar e-KYC"
-  },
-  {
-   "k": "262591ba4ada",
-   "ctx": "documents",
-   "t": "Ration card (NFSA); the family is searched by the ration card number"
-  },
-  {
-   "k": "114aeed99aea",
-   "ctx": "documents",
-   "t": "Aadhaar card of each member whose card is being made"
-  },
-  {
-   "k": "54964a6d6374",
-   "ctx": "hint",
-   "t": "Choose Beneficiary when you are making the card for yourself or your family."
-  },
-  {
-   "k": "8723df3876b0",
-   "ctx": "hint",
-   "t": "Any working number you hold. The login OTP and the approval message come here."
-  },
-  {
-   "k": "bdc546a37a5a",
-   "ctx": "hint",
-   "t": "Choose Bihar. Ration-card families covered by the state scheme are found through the same search."
-  },
-  {
-   "k": "b1fc90c1b304",
-   "ctx": "hint",
-   "t": "Searching by ration card number brings up everyone on the card at once."
-  },
-  {
-   "k": "de19d00ef603",
-   "ctx": "hint",
-   "t": "Copy the number from your ration card. If nothing is found, search again by Aadhaar."
-  },
-  {
-   "k": "3cd505cec28c",
-   "ctx": "hint",
-   "t": "Aadhaar of the member whose card you are making now. Do one member at a time."
-  },
-  {
-   "k": "b9ae0f593731",
-   "ctx": "hint",
-   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication."
-  },
-  {
-   "k": "1ebcd8e24bb2",
-   "ctx": "hint",
-   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request rejected."
-  },
-  {
-   "k": "f72c93ef2dd2",
-   "ctx": "hint",
-   "t": "Where you live now, so that nearby empanelled hospitals are shown."
-  },
-  {
-   "k": "5095ada62e37",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, and choose the state Bihar."
-  },
-  {
-   "k": "3c988b2e89d3",
-   "ctx": "demoSteps",
-   "t": "Search by your ration card number. All members on the card appear; if your family is not found, search by Aadhaar."
-  },
-  {
-   "k": "0fa56cb13bde",
-   "ctx": "demoSteps",
-   "t": "Pick the member whose card is pending, complete Aadhaar OTP or face e-KYC, take the live photo, add the relation, district and PIN code, and submit."
-  },
-  {
-   "k": "a1fdcba051fa",
-   "ctx": "demoSteps",
-   "t": "Bihar Swasthya Suraksha Samiti approves the request, usually within a day or two. Log in again and download the card. You can also get it made free at a CSC, a government hospital or a camp at your ration shop."
-  },
-  {
-   "k": "37d8090a6a84",
-   "ctx": "demoSteps",
-   "t": "At the hospital, go to the Ayushman Mitra desk with the card and Aadhaar. Empanelled hospitals are listed at hospitals.pmjay.gov.in. Never pay cash for a treatment covered by the scheme."
-  },
-  {
-   "k": "6e4d7519db3f",
-   "ctx": "helpline",
-   "t": "14555 (Ayushman Bharat helpline) / 104 (Bihar health helpline)"
-  },
-  {
-   "k": "dde5906ba5d7",
-   "ctx": "department",
-   "t": "Department of Social Welfare, Women & Child Development, Chandigarh Administration"
-  },
-  {
-   "k": "c257b8d57c6e",
-   "ctx": "brief",
-   "t": "A monthly pension for Chandigarh residents aged 60 and above whose family income is up to Rs.1.5 lakh a year. The UT pays Rs.1,000 a month, and with the central share the pensioner gets Rs.1,200, or Rs.1,500 from age 80. You apply at any Sampark centre, where the operator scans your documents and files the application online. The pension is paid every month into your Aadhaar-seeded bank account. About 18,600 people get it."
-  },
-  {
-   "k": "2bc748b9243d",
-   "ctx": "benefit",
-   "t": "Rs.1,200 a month (Rs.1,500 from age 80), including the central share"
-  },
-  {
-   "k": "280f51da08db",
-   "ctx": "eligibility",
-   "t": "Total family income not above Rs.1.5 lakh a year"
-  },
-  {
-   "k": "3686a0800989",
-   "ctx": "eligibility",
-   "t": "Living in Chandigarh for more than 3 years"
-  },
-  {
-   "k": "1b58fa95aff1",
-   "ctx": "eligibility",
-   "t": "Not already getting another pension (the form asks for the amount and source if you do)"
-  },
-  {
-   "k": "4ae920029e40",
-   "ctx": "documents",
-   "t": "Two passport-size photographs, one cross-signed on the form"
-  },
-  {
-   "k": "bf5c6b6c9e75",
-   "ctx": "documents",
-   "t": "Residence proof for the last three years (voter card, ration card, electricity bill, house allotment letter or residence certificate)"
-  },
-  {
-   "k": "95c9ceedaa60",
-   "ctx": "documents",
-   "t": "Date of birth proof (birth certificate, school leaving certificate, passport, PAN card or senior citizen card)"
-  },
-  {
-   "k": "6efb60c043e7",
-   "ctx": "documents",
-   "t": "Income certificate from the competent authority"
-  },
-  {
-   "k": "fc765b35720e",
-   "ctx": "documents",
-   "t": "Mobile number and bank account details for the Aadhaar-seeded pension account"
-  },
-  {
-   "k": "0ffa4c95a647",
-   "ctx": "portalName",
-   "t": "Social Welfare, Women & Child Development, Chandigarh"
-  },
-  {
-   "k": "ad8da7ddb3f0",
-   "ctx": "submitAt",
-   "t": "Any Sampark centre in Chandigarh. Take the filled form with the cross-signed photograph, the signed self-undertaking and the Aadhaar consent page, plus the originals of your Aadhaar, three-year residence proof, age proof and income certificate. The operator checks and scans them and files the online application on the e-District system. If you have no birth proof, get your age certified first by the Principal Medical Officer at GMSH-16 or GMCH-32. For questions, go to the Department of Social Welfare, Additional Town Hall Building, 3rd Floor, Sector 17-C."
-  },
-  {
-   "k": "b94204753380",
-   "ctx": "hint",
-   "t": "The person in whose name the pension order will be issued."
-  },
-  {
-   "k": "3637483262c1",
-   "ctx": "hint",
-   "t": "As on your Aadhaar or voter card."
-  },
-  {
-   "k": "d319b1369beb",
-   "ctx": "hint",
-   "t": "Must be 60 or more. Attach the date of birth proof."
-  },
-  {
-   "k": "c45af124738c",
-   "ctx": "hint",
-   "t": "The pension is linked to this Aadhaar and paid to the account seeded with it."
-  },
-  {
-   "k": "71fbe5e601ee",
-   "ctx": "hint",
-   "t": "SMS updates on your application come here."
-  },
-  {
-   "k": "b62d24f785a9",
-   "ctx": "hint",
-   "t": "Tick only if it applies to you."
-  },
-  {
-   "k": "3e7de6f4131e",
-   "ctx": "hint",
-   "t": "Where you have lived for the last three years. It must match your residence proof."
-  },
-  {
-   "k": "3ff09d3d3967",
-   "ctx": "hint",
-   "t": "Add up everyone's income. A year's total must not be above Rs.1.5 lakh."
-  },
-  {
-   "k": "8e5455c539a3",
-   "ctx": "label",
-   "t": "Whether in receipt of any pension"
-  },
-  {
-   "k": "2ba912b104cd",
-   "ctx": "hint",
-   "t": "If Yes, write the monthly amount and who pays it."
-  },
-  {
-   "k": "b0cbfbe03df7",
-   "ctx": "demoSteps",
-   "t": "Download the old age pension form, or take one at the Sampark centre, and fill in your details."
-  },
-  {
-   "k": "364aa1662fd1",
-   "ctx": "demoSteps",
-   "t": "Paste the photograph, cross-sign it, and sign the self-undertaking and the Aadhaar consent page."
-  },
-  {
-   "k": "d7128f9d775a",
-   "ctx": "demoSteps",
-   "t": "Go to a Sampark centre with the originals. The operator scans them, files your application online and gives you the application number."
-  },
-  {
-   "k": "32455f990d59",
-   "ctx": "demoSteps",
-   "t": "The Social Welfare Department verifies the papers and sanctions the pension. Track it on the e-District status page with your application number."
-  },
-  {
-   "k": "770e0a34fd97",
-   "ctx": "demoSteps",
-   "t": "The pension is paid every month into your Aadhaar-seeded bank account."
-  },
-  {
-   "k": "9b7fcee37c37",
-   "ctx": "demoSteps",
-   "t": "Give your life certificate to the department each year so the pension does not stop."
-  },
-  {
-   "k": "025c04ea3854",
-   "ctx": "helpline",
-   "t": "0172-2700372 — Department of Social Welfare, Women & Child Development, Chandigarh; 181 — Women and Child Helpline"
-  },
-  {
-   "k": "55185d27f6e5",
-   "ctx": "title",
-   "t": "Krishak Unnati Yojana (Paddy Difference Amount)"
-  },
-  {
-   "k": "1fa4e3bdf2a0",
-   "ctx": "department",
-   "t": "Agriculture Development & Farmers Welfare Department, Government of Chhattisgarh, with the Food Department and cooperative societies (paddy procurement)"
-  },
-  {
-   "k": "7027c08b1519",
-   "ctx": "brief",
-   "t": "Chhattisgarh pays its farmers Rs 3,100 a quintal for paddy. The cooperative society pays the central MSP when you sell, and Krishak Unnati Yojana later pays the gap between MSP and Rs 3,100, on up to 21 quintals an acre, straight into your bank account. You do not fill a separate form for it. You only need to be registered at your cooperative society for paddy sale and sell your paddy there in the procurement season. Farmers who sold paddy earlier and now sow pulses, oilseeds or maize instead also get per-acre help under the same scheme."
-  },
-  {
-   "k": "6bfbe178c843",
-   "ctx": "benefit",
-   "t": "Gap between MSP and Rs 3,100 a quintal on up to 21 quintals an acre: Rs 731 a quintal (Rs 15,351 an acre) for common paddy in kharif 2025-26"
-  },
-  {
-   "k": "9261cb35ea8e",
-   "ctx": "eligibility",
-   "t": "A farmer in Chhattisgarh registered for paddy sale at a primary cooperative society (sewa sahkari samiti or LAMPS)"
-  },
-  {
-   "k": "fac2213100d0",
-   "ctx": "eligibility",
-   "t": "From the 2026-27 season the AgriStack Farmer ID is the registration; the society enters your land, bank and nominee details. The last date given for 2026-27 was 31 October 2026"
-  },
-  {
-   "k": "482065137f4e",
-   "ctx": "eligibility",
-   "t": "You must actually sell your paddy at the society's procurement centre in the season (mid-November to January). The limit is 21 quintals an acre, on the area shown in the Digital Crop Survey"
-  },
-  {
-   "k": "df80536e64b7",
-   "ctx": "eligibility",
-   "t": "Sharecroppers (adhiya, rega), forest rights patta holders, village kotwars and registered institutions can also register; they were exempted from AgriStack in 2025-26"
-  },
-  {
-   "k": "cce20c2cd929",
-   "ctx": "eligibility",
-   "t": "Farmers who sold paddy at MSP the previous year and now grow pulses, oilseeds or maize instead get input help per acre after the crop area is checked"
-  },
-  {
-   "k": "3fc998c60eb3",
-   "ctx": "documents",
-   "t": "Aadhaar card, with the mobile number linked to it"
-  },
-  {
-   "k": "212d53186dc3",
-   "ctx": "documents",
-   "t": "B-1 and khasra (P-II) copy of your land, and the Kisan Kitab (Rin Pustika)"
-  },
-  {
-   "k": "88d19bb01dcf",
-   "ctx": "documents",
-   "t": "Bank passbook of an account in the farmer's own name, linked to Aadhaar"
-  },
-  {
-   "k": "f064cc1cb02b",
-   "ctx": "documents",
-   "t": "Sharecroppers: the written adhiya or rega agreement with the land owner; forest land: the van adhikar patra"
-  },
-  {
    "k": "f8b7d40b06cb",
    "ctx": "submitAt",
    "t": "Go to the primary cooperative society (sewa sahkari samiti or LAMPS) where your village sells paddy, before the registration deadline (31 October for the 2026-27 season). Take your Aadhaar card, AgriStack Farmer ID, B-1 and khasra copy, Kisan Kitab and bank passbook. If you do not have a Farmer ID yet, the society operator can make it for you on the spot, or you can make it at a CSC or yourself on cgfr.agristack.gov.in. Farmers who sold at the society last year are already on its list and only need to check that their land and bank details are correct."
@@ -759,6 +424,366 @@
    "k": "fc32d2a8532f",
    "ctx": "documents",
    "t": "Delhi ration card number, to find and link the family"
+  },
+  {
+   "k": "f8dc86cb764d",
+   "ctx": "documents",
+   "t": "For the 70+ Vay Vandana card, Aadhaar alone is enough (it shows your age)"
+  },
+  {
+   "k": "0dd70a5bb4ee",
+   "ctx": "hint",
+   "t": "Any working number you hold. The OTP and the approval message come here."
+  },
+  {
+   "k": "46b40c0bae7a",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Delhi. For someone aged 70 or above, use the 70+ (Vay Vandana) option instead; only Aadhaar is needed."
+  },
+  {
+   "k": "4c1aadfd15e1",
+   "ctx": "hint",
+   "t": "The ration card number finds the whole family at once. You can also search by Aadhaar."
+  },
+  {
+   "k": "53fbb2b77b47",
+   "ctx": "hint",
+   "t": "Copy it from the Delhi ration card. If nothing is found, try your Aadhaar number."
+  },
+  {
+   "k": "f87f16d9b8c7",
+   "ctx": "hint",
+   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication on the phone camera."
+  },
+  {
+   "k": "6c93c750712d",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and Delhi and search by ration card or Aadhaar. For a person aged 70 or above, use the 70+ option with just Aadhaar."
+  },
+  {
+   "k": "c55065f8922d",
+   "ctx": "demoSteps",
+   "t": "Find the member marked eKYC pending and verify with Aadhaar OTP or face authentication."
+  },
+  {
+   "k": "a895b8e5828a",
+   "ctx": "demoSteps",
+   "t": "Take the live photo, fill the mobile number, relation, district and PIN code, and submit."
+  },
+  {
+   "k": "56a263de55fe",
+   "ctx": "demoSteps",
+   "t": "Approval usually comes within a day or two by SMS. Log in again and download the card from Download Card."
+  },
+  {
+   "k": "710a6b3a74e2",
+   "ctx": "demoSteps",
+   "t": "If it does not work online, take Aadhaar and the ration card to a government dispensary or the Ayushman Mitra desk of an empanelled hospital and get the card made there."
+  },
+  {
+   "k": "e67f8695f030",
+   "ctx": "demoSteps",
+   "t": "At the hospital, show the card at the Ayushman Mitra desk. Never pay cash for a treatment covered by the scheme."
+  },
+  {
+   "k": "9b6f60fee742",
+   "ctx": "title",
+   "t": "Delhi Old Age Pension (Financial Assistance to Senior Citizens)"
+  },
+  {
+   "k": "d0d2acd990ad",
+   "ctx": "department",
+   "t": "Department of Social Welfare, Govt of NCT of Delhi"
+  },
+  {
+   "k": "2af92980e36f",
+   "ctx": "brief",
+   "t": "A monthly pension for poor Delhi residents aged 60 and above: Rs 2,000 a month from 60 to 69 (Rs 2,500 for SC, ST and minority applicants) and Rs 2,500 a month from 70 onwards. It is paid every month into your own Aadhaar-linked bank account. You apply on the e-District portal or at the District Social Welfare Office, and new pensions are given only when your assembly constituency's quota has a free slot. The government has proposed raising both rates by Rs 500; until that is notified, these rates apply."
+  },
+  {
+   "k": "560e885e1086",
+   "ctx": "benefit",
+   "t": "Rs 2,000 a month (age 60-69), Rs 2,500 (70+); Rs 500 extra for SC/ST/minority aged 60-69"
+  },
+  {
+   "k": "d6f073735f96",
+   "ctx": "eligibility",
+   "t": "Lived in Delhi for at least 5 years before applying"
+  },
+  {
+   "k": "339ee688b0c8",
+   "ctx": "eligibility",
+   "t": "Yearly income of you and your spouse together below Rs 1 lakh from all sources, including rent and interest"
+  },
+  {
+   "k": "756096829423",
+   "ctx": "eligibility",
+   "t": "A single-name (not joint) bank account in Delhi, linked to your Aadhaar"
+  },
+  {
+   "k": "aa54b8aa040e",
+   "ctx": "eligibility",
+   "t": "Not getting any other pension or financial help from the Centre, Delhi government, MCD, NDMC or anywhere else"
+  },
+  {
+   "k": "913c83bce4dd",
+   "ctx": "documents",
+   "t": "Aadhaar card (the online form does not open without it)"
+  },
+  {
+   "k": "f881f1ad6181",
+   "ctx": "documents",
+   "t": "Age proof (any one): birth certificate, Class 10 certificate, voter ID, PAN, passport, ration card or Aadhaar"
+  },
+  {
+   "k": "8a2743f3a40c",
+   "ctx": "documents",
+   "t": "Proof of 5 years in Delhi: old ration card, voter ID, electricity or water bill, bank passbook or similar"
+  },
+  {
+   "k": "ee7ef64c3faa",
+   "ctx": "documents",
+   "t": "Passbook of your single-name bank account in Delhi"
+  },
+  {
+   "k": "ed902633f393",
+   "ctx": "documents",
+   "t": "Income self-declaration in the format given on the portal"
+  },
+  {
+   "k": "94f5a7cedf89",
+   "ctx": "documents",
+   "t": "SC/ST: caste certificate; minority: religion declaration verified by a religious institution (only for age 60-69)"
+  },
+  {
+   "k": "d2c5eb34336f",
+   "ctx": "documents",
+   "t": "Recommendation by an MP, MLA or Gazetted Officer, with attested documents"
+  },
+  {
+   "k": "2d3f1ce271e1",
+   "ctx": "hint",
+   "t": "After logging in, open the Social Welfare department's services and pick the old age pension."
+  },
+  {
+   "k": "dad5c7661a9a",
+   "ctx": "hint",
+   "t": "Your own Aadhaar. The pension goes to the bank account linked with this number."
+  },
+  {
+   "k": "21e0d40d5b80",
+   "ctx": "label",
+   "t": "Applicant name / Father's or husband's name"
+  },
+  {
+   "k": "4fe86876c41b",
+   "ctx": "value",
+   "t": "Kamla Devi / Late Shri Har Prasad"
+  },
+  {
+   "k": "e35213e4849b",
+   "ctx": "hint",
+   "t": "Write the name as on Aadhaar and the bank passbook."
+  },
+  {
+   "k": "0cf7ee035cb6",
+   "ctx": "hint",
+   "t": "Must show you are 60 or above. Upload the age proof that has this date."
+  },
+  {
+   "k": "9cfb68d3a2be",
+   "ctx": "hint",
+   "t": "SC, ST and minority applicants aged 60 to 69 get Rs 500 more; attach the caste certificate or religion declaration."
+  },
+  {
+   "k": "db3516a96fcb",
+   "ctx": "hint",
+   "t": "Pensions are given against each constituency's quota, so choose the right one."
+  },
+  {
+   "k": "92fc385dbd07",
+   "ctx": "hint",
+   "t": "You need at least 5 years. Upload one document that proves it."
+  },
+  {
+   "k": "5e959e64ea76",
+   "ctx": "label",
+   "t": "Annual income of applicant and spouse"
+  },
+  {
+   "k": "502644608d70",
+   "ctx": "hint",
+   "t": "Must be below Rs 1 lakh from all sources together."
+  },
+  {
+   "k": "d309d00926e7",
+   "ctx": "hint",
+   "t": "A single-name account in a Delhi branch, seeded with Aadhaar. Joint accounts are not accepted."
+  },
+  {
+   "k": "8a5795ec61bb",
+   "ctx": "hint",
+   "t": "An MP, MLA or Gazetted Officer must recommend the form and attest the documents."
+  },
+  {
+   "k": "40cdd5723c38",
+   "ctx": "demoSteps",
+   "t": "Open edistrict.delhigovt.nic.in, register as a new user with Aadhaar and mobile number, and log in."
+  },
+  {
+   "k": "4379da51bfb1",
+   "ctx": "demoSteps",
+   "t": "Choose the Social Welfare service for Old Age Assistance and fill in the form."
+  },
+  {
+   "k": "0277b4c3c6dd",
+   "ctx": "demoSteps",
+   "t": "Upload age proof, residence proof, bank passbook, photo, income self-declaration and the recommended pages, then submit and note the application number."
+  },
+  {
+   "k": "631afe0cbff6",
+   "ctx": "demoSteps",
+   "t": "The District Social Welfare Office checks the application and may call you with original documents. A decision normally comes within 45 days."
+  },
+  {
+   "k": "424e4f234784",
+   "ctx": "demoSteps",
+   "t": "If sanctioned, the pension starts from the month after the month you applied and is credited every month to your Aadhaar-linked account."
+  },
+  {
+   "k": "55a6a19fbd71",
+   "ctx": "demoSteps",
+   "t": "Check progress on the Social Welfare website's Online Status of Old Age Pension page. Tell the office within a month if your address or bank changes."
+  },
+  {
+   "k": "8f54a719aff9",
+   "ctx": "helpline",
+   "t": "9289550124 (Deputy Director, Financial Assistance Schemes, Social Welfare Dept) / 14567 (Elderline, senior citizens helpline)"
+  },
+  {
+   "k": "ba527ee3ea6f",
+   "ctx": "title",
+   "t": "Delhi Lakshmi Yojana (Rs 2,500 a Month for Women)"
+  },
+  {
+   "k": "6bdce910ac1f",
+   "ctx": "department",
+   "t": "Department of Women and Child Development, Govt of NCT of Delhi"
+  },
+  {
+   "k": "443401a35d28",
+   "ctx": "brief",
+   "t": "Rs 2,500 a month for women aged 21 to 60 from low-income Delhi families. It was announced as the Mahila Samriddhi Yojana and renamed the Delhi Lakshmi Yojana when it started on 1 August 2026. You choose how the money comes: Rs 1,000 a month into a digital rupee (CBDC) wallet to spend and Rs 1,500 into a locked deposit, or the full Rs 2,500 into the deposit. The deposit stays locked till 31 July 2029, and you apply online on the scheme's own portal."
+  },
+  {
+   "k": "381ba317d999",
+   "ctx": "benefit",
+   "t": "Rs 2,500 a month: Rs 1,000 to spend + Rs 1,500 saved, or all Rs 2,500 saved till July 2029"
+  },
+  {
+   "k": "59370b549a75",
+   "ctx": "eligibility",
+   "t": "Women aged 21 to 60 on the day you apply, who are registered voters in Delhi"
+  },
+  {
+   "k": "e9489e66b08d",
+   "ctx": "eligibility",
+   "t": "Family income of Rs 2.5 lakh a year or less. Only the eldest eligible woman of the family can apply"
+  },
+  {
+   "k": "ff679e1a3a33",
+   "ctx": "eligibility",
+   "t": "You, your husband or one of your parents must have lived in Delhi for at least 10 years"
+  },
+  {
+   "k": "8a9a16e0c670",
+   "ctx": "eligibility",
+   "t": "Not for income-tax payers, GST filers, women already getting any government pension, or families where anyone is a government employee (regular or contract) or owns a four-wheeler"
+  },
+  {
+   "k": "fe9afab339b4",
+   "ctx": "eligibility",
+   "t": "Family electricity use of 2,400 units a year or less, not more than three living children, and no criminal record"
+  },
+  {
+   "k": "0f6f855e1ed5",
+   "ctx": "documents",
+   "t": "Aadhaar card, plus the Aadhaar and voter ID numbers of every family member above 18"
+  },
+  {
+   "k": "f9c30cda1ad7",
+   "ctx": "documents",
+   "t": "Proof of 10 years in Delhi (any one): voter ID, ration card, driving licence, or an electricity or gas bill"
+  },
+  {
+   "k": "4021a99da516",
+   "ctx": "documents",
+   "t": "Age proof (any one): birth certificate, Class 10 certificate, school leaving certificate, PAN, Aadhaar or voter ID"
+  },
+  {
+   "k": "fa5ced4e1136",
+   "ctx": "documents",
+   "t": "Bank account in your name in a listed bank that offers the CBDC wallet (SBI, PNB, Bank of Baroda, Canara, Union, HDFC, ICICI, Axis and others)"
+  },
+  {
+   "k": "8399cf410711",
+   "ctx": "documents",
+   "t": "APAAR ID of school children aged 3 to 18 and ABHA health ID of family members (the form asks for them)"
+  },
+  {
+   "k": "5f4c0a562e53",
+   "ctx": "documents",
+   "t": "The application form printed from the portal, signed and stamped by your area MLA or MP"
+  },
+  {
+   "k": "ce69d5341281",
+   "ctx": "hint",
+   "t": "The 12 digits on your own Aadhaar card. The OTP goes to the mobile number linked with this Aadhaar."
+  },
+  {
+   "k": "9661213e3d2a",
+   "ctx": "hint",
+   "t": "Spell your name exactly as it is printed on Aadhaar, or the check will fail."
+  },
+  {
+   "k": "ad5bdb236c3e",
+   "ctx": "hint",
+   "t": "Only women can apply, so Female is already chosen."
+  },
+  {
+   "k": "c2925f240094",
+   "ctx": "hint",
+   "t": "As written on Aadhaar. You must be between 21 and 60 years old on the day you apply."
+  },
+  {
+   "k": "18cf20e533dd",
+   "ctx": "value",
+   "t": "Family income Rs 1,80,000 a year; four-wheeler: No; government job in family: No"
+  },
+  {
+   "k": "26eb22f1cef9",
+   "ctx": "hint",
+   "t": "Answer every question truthfully. A false answer means the money is recovered and legal action is taken."
+  },
+  {
+   "k": "073cd68abd6f",
+   "ctx": "hint",
+   "t": "You, your husband or a parent must have 10 years in Delhi. Keep one old proof, like a voter ID or ration card, ready to upload."
+  },
+  {
+   "k": "d059fc1a12e1",
+   "ctx": "hint",
+   "t": "Add everyone who shares your kitchen. Give Aadhaar and voter ID of adults and the APAAR ID of children aged 3 to 18."
+  },
+  {
+   "k": "fde1c346a3ce",
+   "ctx": "hint",
+   "t": "Your own account in one of the listed banks with the CBDC wallet facility. If you have none, the partner bank will open one."
+  },
+  {
+   "k": "04fa219fe91a",
+   "ctx": "value",
+   "t": "Option 1: Rs 1,000 to CBDC wallet + Rs 1,500 to RD/FD"
   }
  ]
 }

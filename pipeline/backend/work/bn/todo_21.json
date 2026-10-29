@@ -6,1244 +6,589 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/bn/done_21.json",
  "items": [
   {
-   "k": "5a5c09ef3abf",
-   "ctx": "demoSteps",
-   "t": "Upload the bill and a photo of yourself with the machine on the portal. The block or district team checks the machine in person."
+   "k": "c4ea38014b8a",
+   "ctx": "eligibility",
+   "t": "Works in one of the 46 listed unorganised industries (for example bidi making, tailoring, hotels, rice mills, shops with fewer than 20 workers), or is self-employed in one of 15 listed jobs (hawker, domestic worker, barber, carpenter, fisherman, head-load worker, rickshaw or van puller, waste picker and others), or is a construction or transport worker"
   },
   {
-   "k": "cfa9156e1e7d",
-   "ctx": "demoSteps",
-   "t": "After the check, the subsidy is paid into your Aadhaar-linked bank account by DBT, and the security amount is refunded as the scheme rules say."
+   "k": "f1210f78c957",
+   "ctx": "eligibility",
+   "t": "Family income not more than Rs.6,500 a month. There is no income limit for construction and transport workers"
   },
   {
-   "k": "3d8ced4000fa",
+   "k": "e13f107176f9",
+   "ctx": "eligibility",
+   "t": "Not a member of EPF. The medical help is only for workers without ESI or another government health scheme"
+  },
+  {
+   "k": "3fb433f7f638",
+   "ctx": "eligibility",
+   "t": "Help for children's studies needs at least one year of registration, for up to two children who do not get another scholarship such as SVMCM"
+  },
+  {
+   "k": "9e5211faad22",
+   "ctx": "documents",
+   "t": "Filled Form-I (Parts I to IV), with Part IV certified by your employer, Gram Panchayat Pradhan, councillor or another listed public representative"
+  },
+  {
+   "k": "10d458adcf8b",
+   "ctx": "documents",
+   "t": "Photocopy of the first page of your bank passbook"
+  },
+  {
+   "k": "df1124d44afd",
+   "ctx": "documents",
+   "t": "Two recent colour passport-size photos (one pasted on the form)"
+  },
+  {
+   "k": "b86974efc75d",
+   "ctx": "documents",
+   "t": "Names, ages and Aadhaar numbers of dependent family members and of your nominee"
+  },
+  {
+   "k": "e96ef058f9ab",
+   "ctx": "documents",
+   "t": "For claims later: Form-V with hospital bills and discharge papers, death certificate, or the child's admission certificate and last marksheet"
+  },
+  {
+   "k": "21e3ea3e88a8",
+   "ctx": "submitAt",
+   "t": "The Labour Welfare Facilitation Centre (LWFC) at your Block Development Office or Municipality, or the Regional Labour Office of the Labour Commissionerate. You can also give it to the Self-Employed Labour Organiser (SLO) or Collecting Agent working in your area, or at a registration camp. Form-I is on pages 26 to 28 of the rules notification linked here, and blank forms are also given at the LWFC. Attach the documents, carry the originals, and keep the receipt with the application number. The Labour Inspector registers you and issues the Samajik Mukti Card with your SSIN."
+  },
+  {
+   "k": "f7e88ac39ad8",
+   "ctx": "hint",
+   "t": "Your full name as on your voter card or Aadhaar."
+  },
+  {
+   "k": "cf90513eeaf6",
+   "ctx": "hint",
+   "t": "Write the father's name, or the husband's name if you are married."
+  },
+  {
+   "k": "f4ded9fd70f1",
+   "ctx": "hint",
+   "t": "Your own mobile. Write Y and the BPL number only if your family has a BPL card."
+  },
+  {
+   "k": "584f90f2ccf2",
+   "ctx": "hint",
+   "t": "Your own account. All benefits are paid into it."
+  },
+  {
+   "k": "d5553ff5b1aa",
+   "ctx": "hint",
+   "t": "Your Aadhaar and voter card numbers."
+  },
+  {
+   "k": "f214bf5d187e",
+   "ctx": "label",
+   "t": "Present Address: Block/Municipality and GP/Ward"
+  },
+  {
+   "k": "49700fc4ef0f",
+   "ctx": "hint",
+   "t": "Where you live now. You register in the block or municipality of your permanent home."
+  },
+  {
+   "k": "4d136499a3a6",
+   "ctx": "hint",
+   "t": "If you have a PF or ESI number from a job, write it here."
+  },
+  {
+   "k": "798b1fb34729",
+   "ctx": "label",
+   "t": "Name of my Occupation / Self-employment"
+  },
+  {
+   "k": "8c926378db33",
+   "ctx": "hint",
+   "t": "Your work, from the listed industries or self-employed jobs. Give the employer's address if you work for one."
+  },
+  {
+   "k": "07d266b25774",
+   "ctx": "label",
+   "t": "My monthly family income from all sources"
+  },
+  {
+   "k": "412f92a1c933",
+   "ctx": "hint",
+   "t": "Total earnings of the family in a month, averaged over the last 12 months. It must not be above Rs.6,500 (except construction and transport workers)."
+  },
+  {
+   "k": "24d4a1c858d5",
+   "ctx": "demoSteps",
+   "t": "Collect Form-I at the Labour Welfare Facilitation Centre in your block or municipality office, or from the SLO of your area."
+  },
+  {
+   "k": "961da13bcd67",
+   "ctx": "demoSteps",
+   "t": "Fill Parts I to III (your details, family members and nominee), and get Part IV signed by your employer, Pradhan or councillor. Construction and transport workers also fill Part V."
+  },
+  {
+   "k": "a96c07d47437",
+   "ctx": "demoSteps",
+   "t": "Hand it in with the documents and photos, and keep the receipt with the application number."
+  },
+  {
+   "k": "3a48b60637bf",
+   "ctx": "demoSteps",
+   "t": "The Labour Inspector checks it and registers you. You get the Samajik Mukti Card with your SSIN, and the state starts putting Rs.55 a month into your PF account."
+  },
+  {
+   "k": "2168da6e91cc",
+   "ctx": "demoSteps",
+   "t": "For treatment or surgery (up to Rs.20,000 and Rs.60,000 a year), disability, death (Rs.2 lakh for accidental death, Rs.50,000 for normal death) or children's studies (Rs.4,000 to Rs.30,000 a year), apply in Form-V to the same office, within 3 months of discharge, accident or death."
+  },
+  {
+   "k": "b6b6c672e296",
+   "ctx": "demoSteps",
+   "t": "The Assistant Labour Commissioner sanctions the claim and the money is sent to the bank account."
+  },
+  {
+   "k": "1d9fb3bc7aeb",
+   "ctx": "demoSteps",
+   "t": "At 60, apply in Form-V for the full PF amount with interest."
+  },
+  {
+   "k": "6cd29644aba1",
    "ctx": "helpline",
-   "t": "1800-180-1551 (Kisan Call Centre) / 1076 (CM Helpline); Deputy Director Agriculture office in your district"
+   "t": "1800-103-0009 (Shramik Sathi toll-free helpline, Labour Commissionerate); 033-2248-8150 (BMSSY helpdesk, New Secretariat Building, Kolkata)"
   },
   {
-   "k": "ed1ddd5bf0dc",
+   "k": "5a3cb71f0c95",
    "ctx": "title",
-   "t": "UP BOCW Shramik Panjikaran (Construction Worker Labour Card)"
+   "t": "Annapurna Yojana (Annapurna Bhandar, formerly Lakshmir Bhandar)"
   },
   {
-   "k": "2097d9fdd274",
-   "ctx": "department",
-   "t": "Uttar Pradesh Building and Other Construction Workers Welfare Board (UPBOCW), Labour Department"
-  },
-  {
-   "k": "8bd1d10a4a23",
+   "k": "b5b7479d86cc",
    "ctx": "brief",
-   "t": "Registering with the UP construction workers' board gives a construction worker a labour card. The card opens the family's main benefits: Rs.65,000 for a daughter's marriage, money at childbirth, school and college help for two children, a Rs.1,000 monthly pension after 60, and up to Rs.5 lakh if the worker dies in an accident. Masons, helpers, carpenters, bar benders, plumbers, electricians, painters, tile workers and road and building labourers can all register. You register online with Aadhaar e-KYC (or at a CSC) and renew the card to keep the benefits."
+   "t": "Annapurna Yojana pays Rs.3,000 every month to women of West Bengal aged 25 to 60, by DBT into her own bank account. It replaced Lakshmir Bhandar in 2026 under the new state government and is often called Annapurna Bhandar; the amount is now the same for every caste category. You hand in the Family Level Data Collection form at the Block Development Office, the Sub-Divisional Office or a Kolkata Municipal Corporation ward office, or submit it online on the state's social registry portal, where you can also check the status and file a grievance."
   },
   {
-   "k": "b350c79685f3",
+   "k": "6fca209c23eb",
    "ctx": "benefit",
-   "t": "Rs.65,000 for a daughter's marriage, Rs.20,000–25,000 at childbirth, Rs.1,000 monthly pension, Rs.5 lakh on accidental death"
+   "t": "Rs.3,000 a month for every eligible woman"
   },
   {
-   "k": "b839b08f8eaa",
+   "k": "c3e40ca567e7",
    "ctx": "eligibility",
-   "t": "Has done at least 90 days of building or other construction work in the last 12 months"
+   "t": "Must not be an illegal immigrant; a voter ID card (EPIC) is required"
   },
   {
-   "k": "a37d3367f502",
-   "ctx": "eligibility",
-   "t": "Works in Uttar Pradesh and is not registered with the construction board of another state"
-  },
-  {
-   "k": "b0268461fc13",
-   "ctx": "eligibility",
-   "t": "Pays a Rs.20 registration fee once, plus Rs.20 for each year of membership chosen (1, 2 or 3 years). One year costs Rs.40 in all"
-  },
-  {
-   "k": "22cf133e9c81",
-   "ctx": "eligibility",
-   "t": "Most benefits (marriage, maternity, serious illness) start after 1 year of membership. The pension needs 10 years of membership and age 60"
-  },
-  {
-   "k": "38bad3002042",
-   "ctx": "eligibility",
-   "t": "Benefits go to at most two children, and you must apply within 1 year of the event"
-  },
-  {
-   "k": "a968ff348d55",
+   "k": "a155c1601f72",
    "ctx": "documents",
-   "t": "Aadhaar card, with OTP on the Aadhaar-linked mobile for e-KYC"
+   "t": "Active mobile number, for the OTP and payment messages"
   },
   {
-   "k": "1522f101aff5",
+   "k": "46c3c256c956",
    "ctx": "documents",
-   "t": "Certificate of 90 days of work from the contractor or employer, or the board's self-declaration form"
+   "t": "Bank passbook first page, in her own single name"
   },
   {
-   "k": "025517abc300",
-   "ctx": "documents",
-   "t": "Family ID or ration card, to add family members"
+   "k": "f8aab61381dd",
+   "ctx": "submitAt",
+   "t": "The Block Development Office (BDO) in rural areas, the Sub-Divisional Office (SDO), or the ward office in the Kolkata Municipal Corporation area. Take your voter ID card (EPIC), Aadhaar and your mobile phone. The form can also be submitted online at socialregistry.wb.gov.in."
   },
   {
-   "k": "2b8c546c65da",
-   "ctx": "documents",
-   "t": "Bank passbook of an account in the worker's own name"
-  },
-  {
-   "k": "c1d9fe126e61",
-   "ctx": "documents",
-   "t": "Recent colour photo"
-  },
-  {
-   "k": "6f2db20d4d23",
-   "ctx": "portalName",
-   "t": "UPBOCW labour portal"
-  },
-  {
-   "k": "6afd3aab8015",
-   "ctx": "hint",
-   "t": "The worker's own Aadhaar. Your name, date of birth and address are filled in from Aadhaar after the OTP."
-  },
-  {
-   "k": "d269d806e6f0",
-   "ctx": "label",
-   "t": "Enter 6-digit OTP"
-  },
-  {
-   "k": "4bf890bdf02a",
-   "ctx": "value",
-   "t": "OTP from Aadhaar-linked mobile"
-  },
-  {
-   "k": "8805232d9dc5",
-   "ctx": "hint",
-   "t": "The OTP goes to the mobile linked with Aadhaar. If that number is lost, get it updated at an Aadhaar centre first."
-  },
-  {
-   "k": "48ecf356ef28",
-   "ctx": "hint",
-   "t": "Your Aadhaar-linked number or any other number you keep. The approval SMS and login messages come here."
-  },
-  {
-   "k": "05fe2a7ba2ec",
-   "ctx": "label",
-   "t": "Family ID / Ration Card Number"
-  },
-  {
-   "k": "982a0ae6f7c7",
-   "ctx": "hint",
-   "t": "Pick Family ID or Ration Card, enter the number, and the family members appear. Tick each member who should be linked to your card."
-  },
-  {
-   "k": "94dff50ad2d5",
-   "ctx": "value",
-   "t": "Mohalla Rajapur, Ward 12, Prayagraj"
-  },
-  {
-   "k": "5d89bf73d634",
-   "ctx": "hint",
-   "t": "Where you live and work now, if it is different from the address on Aadhaar."
-  },
-  {
-   "k": "0cf14fb8effd",
-   "ctx": "label",
-   "t": "Nature of Work"
-  },
-  {
-   "k": "a6f5885ea919",
-   "ctx": "value",
-   "t": "Mason (Raj Mistri)"
-  },
-  {
-   "k": "022665b10b29",
-   "ctx": "hint",
-   "t": "The construction work you actually do, for example helper, carpenter, plumber, painter or bar bender."
-  },
-  {
-   "k": "d3065170dc12",
-   "ctx": "label",
-   "t": "Worked Days (last 12 months)"
-  },
-  {
-   "k": "08642f6a50e9",
-   "ctx": "hint",
-   "t": "It must be 90 days or more. The work certificate you upload has to show the same number."
-  },
-  {
-   "k": "298d14a21aa1",
-   "ctx": "label",
-   "t": "Contractor Name / Contractor Mobile No."
-  },
-  {
-   "k": "96a0a1c39b0f",
-   "ctx": "value",
-   "t": "Shiv Builders / 90000 12345"
-  },
-  {
-   "k": "172d500dd57a",
-   "ctx": "hint",
-   "t": "The contractor or employer who gave you the 90-day certificate. The office may call this number."
-  },
-  {
-   "k": "433970ac28dc",
-   "ctx": "label",
-   "t": "IFSC / Account Number"
-  },
-  {
-   "k": "9ca8becb651d",
-   "ctx": "hint",
-   "t": "Your own account. Benefit money is paid only by DBT into this account."
-  },
-  {
-   "k": "688873379d5a",
-   "ctx": "label",
-   "t": "Registration period"
-  },
-  {
-   "k": "989b077eb4c7",
-   "ctx": "value",
-   "t": "1 year: Rs.20 + Rs.20 = Rs.40"
-  },
-  {
-   "k": "861b88904b55",
-   "ctx": "hint",
-   "t": "Choose 1, 2 or 3 years. Each year costs Rs.20 more. The Rs.20 registration fee is paid only once."
-  },
-  {
-   "k": "2965cbffef0e",
-   "ctx": "demoSteps",
-   "t": "Open labour.upbocw.in and tap Register. Enter your Aadhaar number, tick the consent and verify with the OTP. Your details come from Aadhaar. Then enter a mobile number and set a password."
-  },
-  {
-   "k": "a05e21c2c767",
-   "ctx": "demoSteps",
-   "t": "Log in and complete each part of the profile: personal details, family ID or ration card members, present address, work details and bank details."
-  },
-  {
-   "k": "5d7f7f7ee3cd",
-   "ctx": "demoSteps",
-   "t": "Upload your photo and the 90-day work certificate, then tick the self-declaration."
-  },
-  {
-   "k": "65054891cd26",
-   "ctx": "demoSteps",
-   "t": "Choose 1, 2 or 3 years and pay the fee online. Save the application number and the payment receipt."
-  },
-  {
-   "k": "aebf6380fb98",
-   "ctx": "demoSteps",
-   "t": "The Labour Enforcement Officer at the district labour office checks the application. You get an SMS when it is approved."
-  },
-  {
-   "k": "0172659fd592",
-   "ctx": "demoSteps",
-   "t": "Log in and download your labour card. Renew it up to one month before it expires, because benefits stop on an expired card."
-  },
-  {
-   "k": "1c595e03c65e",
-   "ctx": "demoSteps",
-   "t": "After one year of membership, apply for benefits (daughter's marriage, maternity, children's education) from the same login or at a CSC, within 1 year of the event."
-  },
-  {
-   "k": "11ef2e6d351d",
+   "k": "1d607a02df6a",
    "ctx": "helpline",
-   "t": "1800-180-5412 (UPBOCW toll-free); district Labour Office (Shram Karyalaya)"
+   "t": "Ask at the Block Development Office or the SDO office; check the status and file a grievance on socialregistry.wb.gov.in by logging in with your mobile number and OTP"
   },
   {
-   "k": "6d349e7c2589",
-   "ctx": "title",
-   "t": "Mukhyamantri Jan Arogya Abhiyan (MMJAA Ayushman Card)"
-  },
-  {
-   "k": "f51179e65781",
+   "k": "e9997103e1e9",
    "ctx": "department",
-   "t": "State Agency for Comprehensive Health and Integrated Services (SACHIS), Medical Health & Family Welfare Department, Government of Uttar Pradesh"
+   "t": "Department of Women & Child Development and Social Welfare, West Bengal"
   },
   {
-   "k": "d9e300c706fb",
+   "k": "85afe9efda16",
    "ctx": "brief",
-   "t": "Uttar Pradesh's own health cover for poor families who were left out of Ayushman Bharat PM-JAY. It gives the same Rs.5 lakh a year of free, cashless hospital treatment for the whole family at empanelled government and private hospitals, fully paid by the state. Covered families get the same Ayushman card, made free on the Ayushman portal or app, at a CSC, or at the Ayushman Mitra desk of an empanelled hospital. It has run since 1 March 2019 and is managed by SACHIS."
+   "t": "Money for girls who stay in school and stay unmarried. A girl aged 13 to 18 in Class VIII or above gets a yearly grant (K1), and at 18, if she is still studying and unmarried, a one-time grant (K2), both paid into her own bank account. The scheme was called Kanyashree Prakalpa until 14 August 2026, when the state renamed it Kanyaratna and announced that the yearly grant will double to Rs.2,000 from the 2027 school year and the one-time grant will rise to Rs.50,000; the website, forms and application IDs still say Kanyashree. Girls apply through their school or college, not on their own."
   },
   {
-   "k": "8e67362cfeb9",
+   "k": "c4545e4086bc",
    "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family, cashless, same as the Ayushman card"
+   "t": "Rs.1,000 a year (Rs.2,000 from 2027) + one-time Rs.25,000 at 18 (Rs.50,000 announced)"
   },
   {
-   "k": "2fff88d1a0b2",
+   "k": "3f693cbcf246",
    "ctx": "eligibility",
-   "t": "Poor families who should have been covered by PM-JAY but were missed in the SECC 2011 list, and were later found in the state's own surveys"
+   "t": "Girls aged 13 to 18 for the yearly grant (K1), and 18 to 19 for the one-time grant (K2)"
   },
   {
-   "k": "2fba5f0ca9ad",
+   "k": "4221ab123184",
    "ctx": "eligibility",
-   "t": "All Antyodaya (AAY) ration card families of Uttar Pradesh, added in July 2021"
+   "t": "Studying in Class VIII or above in a school, madrasah or open school, or in a college, university or vocational or technical training course. The Class VIII rule is relaxed for girls with 40% or more disability"
   },
   {
-   "k": "85c45dd190e2",
+   "k": "eaebb878e6d3",
    "ctx": "eligibility",
-   "t": "Construction workers registered with the UP BOCW board, and other groups the state government notifies"
+   "t": "Her family lives in West Bengal"
   },
   {
-   "k": "1764fee2ace8",
+   "k": "e757738367e7",
    "ctx": "eligibility",
-   "t": "There is no limit on family size or age. Illnesses you already have are covered from day one"
+   "t": "There is no family income limit (the old Rs.1.2 lakh limit was removed in 2018), and girls who get other scholarships can still apply"
   },
   {
-   "k": "e87a2827a396",
-   "ctx": "eligibility",
-   "t": "You cannot sign up on your own: the family's name must already be in the list. Check with Am I Eligible on the Ayushman portal or call 1800-1800-4444"
-  },
-  {
-   "k": "1a14d0102eca",
-   "ctx": "eligibility",
-   "t": "Everyone aged 70 and above, whatever the income, gets the separate Ayushman Vay Vandana card"
-  },
-  {
-   "k": "6fcea14a1b08",
+   "k": "36297d9a2920",
    "ctx": "documents",
-   "t": "Aadhaar card of the member whose card is being made"
+   "t": "Birth certificate issued by the Panchayat or Municipality, copy signed by a parent"
   },
   {
-   "k": "238dfa4e761f",
+   "k": "f24b842e2c22",
    "ctx": "documents",
-   "t": "Ration card (Antyodaya) or UP Family ID, to find the family in the list"
+   "t": "Parent's or guardian's declaration that the girl is unmarried (part of the form)"
   },
   {
-   "k": "128d45486db6",
+   "k": "1eba60a9634b",
    "ctx": "documents",
-   "t": "Labour card, if the family is covered as a registered construction worker"
+   "t": "Voter ID card of the parent or legal guardian, self-attested"
   },
   {
-   "k": "a13ef31a3881",
-   "ctx": "portalName",
-   "t": "Ayushman beneficiary portal (NHA, linked from SACHIS)"
+   "k": "8cc54a9b29f9",
+   "ctx": "documents",
+   "t": "First page of the bank passbook in the girl's own name, self-attested"
   },
   {
-   "k": "1b98670ec837",
+   "k": "345f69658d4d",
+   "ctx": "documents",
+   "t": "Aadhaar card of the girl, if she has one, self-attested"
+  },
+  {
+   "k": "88b41516f2ce",
+   "ctx": "documents",
+   "t": "Recent photo of the girl on a white background"
+  },
+  {
+   "k": "dbc1abb66ff0",
+   "ctx": "documents",
+   "t": "Disability certificate, only if she is 13 or older but studying below Class VIII"
+  },
+  {
+   "k": "90c2e23c3360",
+   "ctx": "submitAt",
+   "t": "Her own school, madrasah or college. Ask the Head of the Institution (HOI) or the Kanyashree teacher for the free K1 form (or the K2 form when she turns 18). Hand in the filled form with self-attested copies; the HOI checks it, signs and uploads it on the Kanyashree portal, and gives back the acknowledgement slip with the 20-digit Application ID. If the school does not help, go to the Block Development Officer (village) or Sub-Divisional Officer (town), or the Kanyashree cell in the District Magistrate's office."
+  },
+  {
+   "k": "8f2bdc1d4523",
    "ctx": "hint",
-   "t": "Any working number you keep. The login OTP and the approval message come here."
+   "t": "The full name of the school or college where she studies now."
   },
   {
-   "k": "5c62bde3867c",
-   "ctx": "value",
-   "t": "PMJAY / Uttar Pradesh"
-  },
-  {
-   "k": "41194e081ab9",
+   "k": "6763c17597cb",
    "ctx": "hint",
-   "t": "Choose the state Uttar Pradesh. State scheme families are searched from the same Ayushman list. If MMJAA appears in the scheme list for UP, choose that."
+   "t": "In English capital letters, spelt exactly as in her bank passbook, or the money will not reach the account."
   },
   {
-   "k": "5b51b91d1f82",
+   "k": "1fc16550be2a",
    "ctx": "hint",
-   "t": "Antyodaya families can search by ration card number. Others can search by Aadhaar, Family ID or name."
+   "t": "As on the birth certificate, in day/month/year."
   },
   {
-   "k": "a7371728544c",
-   "ctx": "label",
-   "t": "Ration card / family number"
-  },
-  {
-   "k": "ed2a4a869dee",
+   "k": "846594c16c13",
    "ctx": "hint",
-   "t": "Copy it from the ration card. If nothing is found, search again with the Aadhaar number of the head of the family."
+   "t": "Tick the class she is studying in this year."
   },
   {
-   "k": "79af72fc8e6c",
+   "k": "6f08eb395b67",
    "ctx": "hint",
-   "t": "The Aadhaar of the member whose card you are making now. Each member is done one at a time."
+   "t": "Write both names in full, in capital letters."
   },
   {
-   "k": "10cfd7660245",
+   "k": "4cee234500d0",
    "ctx": "hint",
-   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar. Otherwise choose face authentication on the phone camera."
+   "t": "Tick the right box for each."
   },
   {
-   "k": "d27e2439b7c4",
+   "k": "a1007d66ef36",
    "ctx": "hint",
-   "t": "Good light, face straight, no cap or dark glasses. A blurred photo gets rejected."
+   "t": "The girl's own Aadhaar number. If she has none yet, leave it blank."
   },
   {
-   "k": "d104bde760ae",
-   "ctx": "value",
-   "t": "Bahraich / 271801"
-  },
-  {
-   "k": "ca86fa49ae4e",
+   "k": "02a64f508135",
    "ctx": "hint",
-   "t": "Where you actually live now, so the nearest empanelled hospitals are shown."
+   "t": "The voter card number of the mother, father or legal guardian."
   },
   {
-   "k": "c65b86da6463",
+   "k": "b428d258a187",
+   "ctx": "hint",
+   "t": "A number the family always keeps. SMS updates about the application come here."
+  },
+  {
+   "k": "e9fa5f8c47b2",
+   "ctx": "hint",
+   "t": "The account must be in the girl's own name, not a joint or parent's account."
+  },
+  {
+   "k": "fc2a77df487b",
    "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in, log in as Beneficiary with your mobile number and OTP, choose Uttar Pradesh, and search for your family by ration card, Aadhaar or Family ID."
+   "t": "When a girl is 13 and in Class VIII or above, ask the Head of the school for the free K1 form. Open a savings account in her own name first if she has none."
   },
   {
-   "k": "dab79cedf104",
+   "k": "292cc558b9cb",
    "ctx": "demoSteps",
-   "t": "If your family's names appear, you are covered, whether under PM-JAY or the state's MMJAA. The card and the hospital benefit are the same."
+   "t": "Fill the form in English capital letters, let a parent sign the declaration that she is unmarried, paste the photo and attach the copies."
   },
   {
-   "k": "8cee9788b7a9",
+   "k": "0d72fadeb867",
    "ctx": "demoSteps",
-   "t": "Tap the Aadhaar icon next to a member marked eKYC pending, verify with an Aadhaar OTP or face authentication, take the live photo and fill in the relation, district and PIN code."
+   "t": "Hand it in at school. Keep the acknowledgement slip with the 20-digit Application ID."
   },
   {
-   "k": "2cbecbf21a58",
+   "k": "aa80fbce6102",
    "ctx": "demoSteps",
-   "t": "Submit. SACHIS usually approves it within a day or two. Then open Download Card, verify with OTP and save the card on your phone."
+   "t": "The block or municipality checks the application and the district sanctions it. The money is sent to her bank account and an SMS comes to the mobile."
   },
   {
-   "k": "f2cbd0f328ed",
+   "k": "f7c4d2e03204",
    "ctx": "demoSteps",
-   "t": "If your family is not found, ask at the Ayushman Mitra desk of the nearest government hospital or at a CSC, or call 1800-1800-4444. A family that is not in the list cannot be added online."
+   "t": "Track it on kanyashree.wb.gov.in under Track Application, with the year, the Application ID and her date of birth."
   },
   {
-   "k": "03ec6c1e90ca",
+   "k": "01bb254369ba",
+   "ctx": "demoSteps",
+   "t": "Renew K1 every year through the school until she is 18. If she changes school, the old Head must mark her as transferred on the portal."
+  },
+  {
+   "k": "c9a017feca32",
+   "ctx": "demoSteps",
+   "t": "When she turns 18, if she is still studying and unmarried, the school applies for the one-time K2 grant by upgrading her old ID."
+  },
+  {
+   "k": "4c565e2114c8",
    "ctx": "helpline",
-   "t": "1800-1800-4444 (SACHIS, Uttar Pradesh toll-free) / 14555 (national Ayushman helpline)"
+   "t": "181 (Women Helpline, also for schoolgirls under Kanyaratna); 033-2337-3846 (Kanyashree portal support, Women & Child Development Department); her school's Head or the Kanyashree cell at the DM office"
   },
   {
-   "k": "e3764a248c7a",
-   "ctx": "title",
-   "t": "Mukhyamantri Kanya Sumangala Yojana (Kanya Sumangala)"
-  },
-  {
-   "k": "b178efb70101",
-   "ctx": "department",
-   "t": "Directorate of Women Welfare, Department of Women & Child Development, Government of Uttar Pradesh"
-  },
-  {
-   "k": "7030f417e8e0",
+   "k": "aeb65d164110",
    "ctx": "brief",
-   "t": "Rs.25,000 for a daughter, paid in six parts from her birth until she joins college, straight into the mother's bank account (the father's or guardian's if the mother is not alive). The family applies online at each stage: birth, full vaccination, and admission to Class 1, Class 6, Class 9 and a degree or diploma. The total was raised from Rs.15,000 to Rs.25,000 from 1 April 2024."
+   "t": "A one-time grant of Rs.25,000 from the West Bengal government for the first marriage of an adult woman from a poor family. The money goes straight into the bride's own bank account before the wedding date. You fill a free paper form at your block, sub-division or municipal corporation office about one to two months before the wedding; officers then visit your area to check, and the BDO, SDO or Commissioner sanctions it. The new state government kept the scheme in 2026 and added voter-list details to the form."
   },
   {
-   "k": "c046ff553b0d",
+   "k": "d9c6b4978f81",
    "ctx": "benefit",
-   "t": "Rs.25,000 per daughter in six parts: 5,000 + 2,000 + 3,000 + 3,000 + 5,000 + 7,000"
+   "t": "Rs.25,000 once, into the bride's bank account before the wedding"
   },
   {
-   "k": "e15178e2232a",
+   "k": "73b7e42dcaf3",
    "ctx": "eligibility",
-   "t": "The family lives permanently in Uttar Pradesh and has proof of residence"
+   "t": "The bride must be at least 18 and the groom at least 21"
   },
   {
-   "k": "ac1b6acfd656",
+   "k": "3394bdeaf42d",
    "ctx": "eligibility",
-   "t": "Family income is up to Rs.3 lakh a year"
+   "t": "It must be her first marriage and she must be unmarried"
   },
   {
-   "k": "a90d904b0064",
+   "k": "eff20b2c6216",
    "ctx": "eligibility",
-   "t": "Up to two daughters of one family can get it. If the second delivery gives twin girls, all three girls are covered. Legally adopted daughters count within the two"
+   "t": "Family income not more than Rs.1.5 lakh a year"
   },
   {
-   "k": "47d3838c115c",
+   "k": "0d2724e3f759",
    "ctx": "eligibility",
-   "t": "Stage 1 (Rs.5,000) is for a girl born on or after 1 April 2019. Stage 2 (Rs.2,000) is for full vaccination, for a girl born on or after 1 April 2018"
+   "t": "Resident of West Bengal: born in the state, or her parents are permanent residents, or she has lived here for the last 5 years"
   },
   {
-   "k": "4b66493a6af9",
+   "k": "3ef16f19311a",
    "ctx": "eligibility",
-   "t": "Stages 3 to 5 (Rs.3,000, Rs.3,000, Rs.5,000) are for admission to Class 1, Class 6 and Class 9 in the current school year. Stage 6 (Rs.7,000) is for admission to a degree or a diploma of at least 2 years after passing Class 10 or 12"
+   "t": "An active bank account in her name alone, able to receive Rs.25,000 at a time"
   },
   {
-   "k": "be16e7fa9a65",
+   "k": "a1901642d309",
    "ctx": "eligibility",
-   "t": "Aadhaar of the applicant, father and mother is compulsory. The girl's own Aadhaar is needed from Stage 3 onward"
+   "t": "From 2026: her name, or a parent's or sibling's name, must be in the final voter list, or she must have applied to be enrolled"
   },
   {
-   "k": "0d2a600aa015",
+   "k": "30b554cf1bd0",
    "ctx": "documents",
-   "t": "Aadhaar card of the applicant, father and mother (and the girl from Stage 3 onward)"
+   "t": "Filled application form with coloured passport-size photos of the bride and the groom"
   },
   {
-   "k": "686f73b5e4fa",
+   "k": "ff1c799f46bd",
    "ctx": "documents",
-   "t": "Proof of permanent residence in Uttar Pradesh"
+   "t": "Bride's age proof, any one: birth certificate, voter ID, Aadhaar, PAN, school leaving certificate or Madhyamik admit card"
   },
   {
-   "k": "96b6d80028f1",
+   "k": "a6d0c8be2684",
    "ctx": "documents",
-   "t": "Bank passbook of the mother (the father's or guardian's if she is not alive; the girl's own for Stage 6)"
+   "t": "Groom's age proof, any one of the same documents"
   },
   {
-   "k": "2dbacf46c04a",
+   "k": "50cfa213f73b",
    "ctx": "documents",
-   "t": "Recent photo of the girl"
+   "t": "Proof of the wedding, any one: invitation card, marriage registration notice, or a self-declaration"
   },
   {
-   "k": "943cc54edb3e",
+   "k": "3de32fb18ab1",
    "ctx": "documents",
-   "t": "Stage 1: birth certificate number. Stage 2: vaccination card"
+   "t": "Bank passbook page showing her name, account number and IFSC"
   },
   {
-   "k": "b75b27f267be",
+   "k": "c92c29268b88",
    "ctx": "documents",
-   "t": "Stages 3 to 5: admission certificate from the school, or only the Student Unique ID if it is a government school"
+   "t": "Copy of her Aadhaar card, with the signed consent on the form"
   },
   {
-   "k": "ee285522d311",
+   "k": "11242c2bf0a0",
    "ctx": "documents",
-   "t": "Stage 6: Class 10 or 12 marksheet, the institute ID and the admission fee receipt"
+   "t": "Voter ID (EPIC) details of the bride, or of a parent or sibling, or the acknowledgement number of a new voter enrolment"
   },
   {
-   "k": "3a7fe8f990d9",
-   "ctx": "documents",
-   "t": "Death certificate if the mother or father has died"
+   "k": "932796def492",
+   "ctx": "submitAt",
+   "t": "The Rupashree desk at the Block Development Office if you live in a village, the Sub-Divisional Office if you live in a municipality, or the Municipal Corporation office if you live in a corporation area. Blank forms are free there all year. Hand it in 30 to 60 days before the wedding with self-attested copies, carry the originals for checking, and take the acknowledgement slip with the application number."
   },
   {
-   "k": "3c9a7615498d",
-   "ctx": "portalName",
-   "t": "Mukhyamantri Kanya Sumangala Yojana portal"
+   "k": "5b07b5908809",
+   "ctx": "hint",
+   "t": "In English capital letters, spelt exactly as in your Aadhaar-linked bank account."
   },
   {
-   "k": "58c8c76ae618",
+   "k": "dec6b6adb1f0",
+   "ctx": "hint",
+   "t": "As on your age proof. You must be 18 or older."
+  },
+  {
+   "k": "6627ae2b8f43",
+   "ctx": "hint",
+   "t": "The wedding date. Apply one to two months before it."
+  },
+  {
+   "k": "6bf9fcc9d6ef",
    "ctx": "label",
-   "t": "Applicant type"
+   "t": "Address of the Venue for the Proposed Wedding Ceremony"
   },
   {
-   "k": "7d5b724764c2",
-   "ctx": "hint",
-   "t": "Who is applying: mother, father or guardian. A grown-up girl can apply for herself, but only for Stage 6."
-  },
-  {
-   "k": "167576ab2b51",
-   "ctx": "hint",
-   "t": "Write it exactly as on the applicant's Aadhaar card."
-  },
-  {
-   "k": "667b13811c51",
-   "ctx": "hint",
-   "t": "A number you keep. The OTP, your login ID and password, and every status message come here. One number can be used for only one family."
-  },
-  {
-   "k": "aeaaece0dffd",
+   "k": "84c64f48106f",
    "ctx": "value",
-   "t": "Barabanki / Haidergarh"
+   "t": "Kalitala village, Kalitala GP, Raina-II, Purba Bardhaman, 713421"
   },
   {
-   "k": "63466ee64812",
+   "k": "ae3944993e0a",
    "ctx": "hint",
-   "t": "Where the family lives now. Choose your town or nagar panchayat instead of a block if you live in a town."
+   "t": "Where the wedding will take place. Officers may check this during the enquiry."
   },
   {
-   "k": "858e898fd8c1",
+   "k": "f493e453fd29",
    "ctx": "hint",
-   "t": "The mother's 12-digit Aadhaar. The father's Aadhaar is asked for in the next box."
+   "t": "SMS messages about your application come to this number."
   },
   {
-   "k": "4625fcb6f0ed",
+   "k": "a20327eb5e70",
+   "ctx": "hint",
+   "t": "Your voter details from the final voter list. If your name is not there, give a parent's or sibling's details and tick who it is, or write the acknowledgement number of your new enrolment."
+  },
+  {
+   "k": "55feb76f053b",
+   "ctx": "hint",
+   "t": "An active account in your name alone. An account not used for months may be blocked and the money will bounce."
+  },
+  {
+   "k": "6b383d15655a",
    "ctx": "label",
-   "t": "Father's Aadhaar number"
+   "t": "Groom's Name in full / Date of Birth"
   },
   {
-   "k": "08431a13d830",
+   "k": "3d6db1e2084f",
    "ctx": "hint",
-   "t": "Needed even when the mother is the applicant. If the father has died, upload his death certificate instead."
+   "t": "The groom must be at least 21. Attach his age proof."
   },
   {
-   "k": "bd4cdaab1677",
-   "ctx": "value",
-   "t": "Anaya / 14-02-2026"
-  },
-  {
-   "k": "d54e3e7ca379",
+   "k": "06ac791e80ea",
    "ctx": "hint",
-   "t": "Write it as on the birth certificate. Always use the same spelling at every later stage."
+   "t": "Tick one: invitation card, marriage registration notice, or self-declaration, and attach it."
   },
   {
-   "k": "445340178786",
-   "ctx": "label",
-   "t": "Category (stage)"
-  },
-  {
-   "k": "3f8215afc0c3",
-   "ctx": "value",
-   "t": "Stage 1: Birth (Rs.5,000)"
-  },
-  {
-   "k": "42fa01595fbd",
-   "ctx": "hint",
-   "t": "Choose the stage the girl has reached now. Apply in the same school year as the admission."
-  },
-  {
-   "k": "394bcdcf773a",
-   "ctx": "label",
-   "t": "Birth certificate number"
-  },
-  {
-   "k": "c99e7d0ca078",
-   "ctx": "hint",
-   "t": "Copy it from the online birth certificate. The portal checks this number by itself."
-  },
-  {
-   "k": "93b7e4743dcc",
-   "ctx": "hint",
-   "t": "The mother's own account, linked to her Aadhaar. Copy both numbers from the first page of the passbook."
-  },
-  {
-   "k": "415d387e8839",
+   "k": "a5824abe62ec",
    "ctx": "demoSteps",
-   "t": "Open mksy.up.gov.in and tap Citizen Services Portal (Apply Here). Tick I agree, tap Continue and register with your mobile number and OTP. Your login ID and password come by SMS."
+   "t": "One to two months before the wedding, collect the free form from your BDO, SDO or Municipal Corporation office."
   },
   {
-   "k": "6933b9e20d22",
+   "k": "c31c83bc0c21",
    "ctx": "demoSteps",
-   "t": "Log in and fill in the form: applicant, Aadhaar of the father and mother, address, income declaration, bank account, the girl's details and the stage you are applying for."
+   "t": "Fill it in English capital letters, add your voter details, paste both photos, and sign the declarations and the Aadhaar consent."
   },
   {
-   "k": "d7ba2ea4c341",
+   "k": "4e1ba668f9d5",
    "ctx": "demoSteps",
-   "t": "Upload the girl's photo and the documents for that stage, then submit. Write down the application number."
+   "t": "Attach the copies and hand it in at the Rupashree desk. Keep the acknowledgement with the application number."
   },
   {
-   "k": "2a7a846f297c",
+   "k": "354da77643b3",
    "ctx": "demoSteps",
-   "t": "The block office (villages) or the tehsil (towns) checks the form, and the District Probation Officer's office approves it. You can see the status after you log in."
+   "t": "Officers visit your area to check your age, that you are unmarried, the family income, residence and the wedding date."
   },
   {
-   "k": "d21bbb2ed919",
+   "k": "0e72dd9796d8",
    "ctx": "demoSteps",
-   "t": "After approval the money is paid through PFMS into the mother's account. Check the bank passbook or SMS."
+   "t": "The BDO, SDO or Commissioner sanctions it, and the Rs.25,000 is sent to your bank account, normally at least 5 days before the wedding date. An SMS comes to your mobile."
   },
   {
-   "k": "6c8d98ae3257",
+   "k": "613e113fd3e8",
    "ctx": "demoSteps",
-   "t": "When the girl reaches the next stage, log in again with the same ID and apply for that stage in the same school year. Do not make a new registration for the same girl, or every application for her gets rejected."
+   "t": "You can check the status on rupashree.wb.gov.in under Track Application."
   },
   {
-   "k": "4658fb66e895",
+   "k": "d3558de47c3f",
+   "ctx": "demoSteps",
+   "t": "After the wedding, register your marriage with the Marriage Registration Officer; the certificate is needed later for ration card, passport and other papers."
+  },
+  {
+   "k": "deec5fd65ab3",
    "ctx": "helpline",
-   "t": "181 (Mahila Helpline, UP Women Welfare) / 1076 (CM Helpline); District Probation Officer's office in your district"
+   "t": "The Rupashree desk at your BDO, SDO or Municipal Corporation office; 033-2337-3846 (Rupashree portal support, Women & Child Development Department); 181 (Women Helpline)"
   },
   {
-   "k": "87de181b5c24",
-   "ctx": "title",
-   "t": "Mukhyamantri Samuhik Vivah Yojana (Samuhik Vivah)"
-  },
-  {
-   "k": "472880af2e01",
+   "k": "005899372b6f",
    "ctx": "department",
-   "t": "Social Welfare Department (Samaj Kalyan Vibhag), Government of Uttar Pradesh"
+   "t": "Higher Education Department, Government of West Bengal"
   },
   {
-   "k": "b1807127ef70",
+   "k": "d2fef6d03b26",
    "ctx": "brief",
-   "t": "The UP government spends Rs.1 lakh on each couple married at a mass wedding it organises. Rs.64,000 goes into the bride's bank account, Rs.21,000 is given as household gifts and Rs.15,000 pays for the ceremony. The total was earlier Rs.51,000. It is for brides from poor families of every religion with income up to Rs.3 lakh a year, and also for widowed, abandoned or legally divorced women who are remarrying. The bride applies online with her Aadhaar, and the wedding is held at a block, town or district mass wedding run by the District Social Welfare Officer."
+   "t": "An education loan of up to Rs.10 lakh with no collateral and 4% simple interest, for students from West Bengal from Class X up to PhD, studying in the state, elsewhere in India or abroad, or preparing at a coaching centre for medical, engineering, law or UPSC, PSC and SSC exams. Fees are paid straight to the institution and living costs to the student's account. You apply online with a parent or guardian as co-borrower; your institution checks the documents and the bank you choose sanctions the loan and gives the card. The loan is repaid over up to 15 years, starting a year after the course ends or you get a job."
   },
   {
-   "k": "e01f47584f4b",
+   "k": "ab95aa12ab4b",
    "ctx": "benefit",
-   "t": "Rs.1,00,000 per couple: Rs.64,000 to the bride's account, Rs.21,000 in gifts, Rs.15,000 for the ceremony"
+   "t": "Loan up to Rs.10 lakh at 4% simple interest, no collateral"
   },
   {
-   "k": "2a427e5d2474",
+   "k": "6813572ada52",
    "ctx": "eligibility",
-   "t": "The bride's parents or guardians are permanent residents of Uttar Pradesh. The bride herself must be an adult and applies herself"
+   "t": "The student or the family has lived in West Bengal for at least the last 10 years (a self-declaration in the form is enough)"
   },
   {
-   "k": "1ec9b212e889",
+   "k": "2da7ec03d70c",
    "ctx": "eligibility",
-   "t": "The family is poor or needy, with income up to Rs.3 lakh a year"
+   "t": "Passed Class IX and studying in Class X, XI or XII, a diploma, UG, PG or PhD, in or outside the state or abroad, or at a coaching centre for entrance or competitive exams"
   },
   {
-   "k": "88411899c069",
+   "k": "4135489fa9a8",
    "ctx": "eligibility",
-   "t": "On the wedding date the bride is at least 18 and the groom at least 21"
+   "t": "No income limit and no minimum marks"
   },
   {
-   "k": "27d294f77fcf",
+   "k": "00a42ea011a8",
    "ctx": "eligibility",
-   "t": "The bride is unmarried, or is a widow, an abandoned woman or a legally divorced woman who is remarrying"
+   "t": "Must apply jointly with a parent, guardian or other co-borrower"
   },
   {
-   "k": "ef039f6db8e4",
+   "k": "7506ccd7d33d",
    "ctx": "eligibility",
-   "t": "SC, ST and OBC applicants must give a caste certificate. Orphan girls, daughters of widows or disabled parents, and girls with a disability get priority"
+   "t": "No margin money up to Rs.4 lakh; above that, 5%, against which a scholarship such as SVMCM can be counted"
   },
   {
-   "k": "3472811898d6",
-   "ctx": "eligibility",
-   "t": "She must not take marriage money from any other central or state scheme for this wedding"
-  },
-  {
-   "k": "b3dc1ae450d0",
-   "ctx": "documents",
-   "t": "Aadhaar card of the bride and the groom"
-  },
-  {
-   "k": "2c034b20d98a",
-   "ctx": "documents",
-   "t": "Age proof of both: school record, birth certificate, voter ID, MGNREGA job card or Aadhaar"
-  },
-  {
-   "k": "6af3db6eee36",
-   "ctx": "documents",
-   "t": "Income certificate (family income up to Rs.3 lakh a year)"
-  },
-  {
-   "k": "1c476a226d3d",
-   "ctx": "documents",
-   "t": "Residence proof of Uttar Pradesh"
-  },
-  {
-   "k": "052bd1a3f6d0",
-   "ctx": "documents",
-   "t": "Caste certificate (for SC, ST and OBC)"
-  },
-  {
-   "k": "0103d87d7a33",
-   "ctx": "documents",
-   "t": "Bride's bank passbook, for an account in her own name linked to Aadhaar"
-  },
-  {
-   "k": "52503bcba008",
-   "ctx": "documents",
-   "t": "Recent photos of the bride and the groom"
-  },
-  {
-   "k": "9a48d7adb1f3",
-   "ctx": "documents",
-   "t": "For remarriage: the former husband's death certificate or the court's divorce decree"
-  },
-  {
-   "k": "e008c2b9b876",
-   "ctx": "portalName",
-   "t": "Mukhyamantri Samuhik Vivah Yojana portal"
-  },
-  {
-   "k": "2c21f68832ba",
-   "ctx": "label",
-   "t": "Document Type"
-  },
-  {
-   "k": "95a5e9fc5b9a",
-   "ctx": "hint",
-   "t": "Choose Aadhaar. Use the 16-digit VID or a driving licence only if you cannot use the Aadhaar number."
-  },
-  {
-   "k": "bf17b9c0dff2",
-   "ctx": "hint",
-   "t": "The bride's own Aadhaar, not her father's. The form is filled in the bride's name."
-  },
-  {
-   "k": "4d701bd2597a",
-   "ctx": "label",
-   "t": "Contact mobile number"
-  },
-  {
-   "k": "7394c9b110a5",
-   "ctx": "hint",
-   "t": "A number the family keeps. The OTP and every SMS about the form, the wedding date and the payment come here."
-  },
-  {
-   "k": "7dc8e654ad79",
-   "ctx": "hint",
-   "t": "You confirm that no other government scheme is giving marriage money for this wedding. If this is found false, the money is recovered."
-  },
-  {
-   "k": "fc43c3beda4e",
-   "ctx": "label",
-   "t": "Bride's name / Father's name"
-  },
-  {
-   "k": "70f1d10aedea",
+   "k": "c624d3202511",
    "ctx": "value",
-   "t": "Pooja Kumari / Shivnath"
+   "t": "West Bengal Board of Secondary Education, WBBSE"
   },
   {
-   "k": "052812856235",
-   "ctx": "hint",
-   "t": "Write both exactly as on Aadhaar."
-  },
-  {
-   "k": "06fc8e902186",
-   "ctx": "hint",
-   "t": "She must be 18 or older on the wedding date. Upload the age proof that shows this date."
-  },
-  {
-   "k": "631beb6982bb",
-   "ctx": "label",
-   "t": "District / Block or urban body"
-  },
-  {
-   "k": "c6961fdeccb6",
+   "k": "33f882d924d4",
    "ctx": "value",
-   "t": "Gorakhpur / Pipraich block"
-  },
-  {
-   "k": "544ba0cf9666",
-   "ctx": "hint",
-   "t": "Choose your block if you live in a village, or your nagar panchayat, nagar palika or nagar nigam if you live in a town."
-  },
-  {
-   "k": "eb07ac3238af",
-   "ctx": "hint",
-   "t": "Write the figure from the income certificate. It must be Rs.3 lakh or less."
-  },
-  {
-   "k": "b7e2916a6a3a",
-   "ctx": "label",
-   "t": "Groom's name / Aadhaar / date of birth"
-  },
-  {
-   "k": "ba8cba2c98d8",
-   "ctx": "value",
-   "t": "Rahul Kumar / 9999 2718 2818 / 11-03-2000"
-  },
-  {
-   "k": "fb0c99a84f09",
-   "ctx": "hint",
-   "t": "The groom must be 21 or older on the wedding date. His Aadhaar is checked again at the venue."
-  },
-  {
-   "k": "06a97d70222f",
-   "ctx": "hint",
-   "t": "An account in the bride's own name, linked to her Aadhaar. The Rs.64,000 is paid only into this account."
-  },
-  {
-   "k": "65f04e9484b1",
-   "ctx": "demoSteps",
-   "t": "Open cmsvy.upsdc.gov.in and tap Apply (आवेदन करें), then the link to fill the application. Choose Aadhaar, enter the bride's Aadhaar number and mobile, tick the declaration and tap Verify."
-  },
-  {
-   "k": "a67f3e26f4a1",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's, family's, groom's and bank details, upload the photos and certificates, and submit. Write down the form number."
-  },
-  {
-   "k": "8b1d8416ff88",
-   "ctx": "demoSteps",
-   "t": "The block verifier (villages) or the urban body verifier (towns) checks the details, and the District Social Welfare Officer approves the form. The status comes by SMS. You can correct a form only after an SMS asks you to."
-  },
-  {
-   "k": "7e541d8cd603",
-   "ctx": "demoSteps",
-   "t": "An SMS gives the date and venue of the mass wedding. The bride and groom go there with their Aadhaar cards, are checked at the venue and are married by their own rites."
-  },
-  {
-   "k": "82df1d135846",
-   "ctx": "demoSteps",
-   "t": "The gifts are handed over at the venue. Rs.64,000 is transferred to the bride's bank account after the wedding."
-  },
-  {
-   "k": "4f1fc5bfd111",
-   "ctx": "demoSteps",
-   "t": "Print the marriage certificate from the portal (Print Marriage Certificate) and keep it for the marriage registration and other records."
-  },
-  {
-   "k": "a9f1bb3b5d64",
-   "ctx": "helpline",
-   "t": "0522-2209259 (Samuhik Vivah helpline) / 0522-3538700 (Social Welfare Directorate, Lucknow) / 1076 (CM Helpline)"
-  },
-  {
-   "k": "b2fbec4e59da",
-   "ctx": "title",
-   "t": "Atal Ayushman Uttarakhand Yojana (Ayushman Golden Card)"
-  },
-  {
-   "k": "937b84556a10",
-   "ctx": "department",
-   "t": "State Health Authority, Uttarakhand (Medical Health & Family Welfare Department)"
-  },
-  {
-   "k": "506876439ef5",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment up to Rs 5 lakh a year per family for almost every family in Uttarakhand. Families on the central PM-JAY list are covered by PM-JAY, and the state covers all the other resident families under Atal Ayushman on the same terms, hospitals and packages. The Ayushman (golden) card is made from your ration card or family register, on the phone or at a Jan Seva Kendra (CSC)."
-  },
-  {
-   "k": "edb7f352abbf",
-   "ctx": "eligibility",
-   "t": "Uttarakhand families found in any of these lists: NFSA ration card data, the old Mukhyamantri Swasthya Bima Yojana, SECC 2011 or SECC Plus"
-  },
-  {
-   "k": "522aaf228c1d",
-   "ctx": "eligibility",
-   "t": "No income limit and no limit on family size; every member is covered"
-  },
-  {
-   "k": "576cab25b214",
-   "ctx": "eligibility",
-   "t": "Not for people covered by CGHS, ECHS, ESIC or the State Government Health Scheme (state employees and pensioners have their own SGHS card)"
-  },
-  {
-   "k": "0eeb01c57412",
-   "ctx": "eligibility",
-   "t": "Illnesses you already have are covered from day one"
-  },
-  {
-   "k": "6ae371279728",
-   "ctx": "eligibility",
-   "t": "Atal Ayushman uses a referral system, so planned treatment at a private hospital may first need a referral from a government hospital"
-  },
-  {
-   "k": "eee5f7937aa5",
-   "ctx": "documents",
-   "t": "Family ID: ration card (new or old) or a copy of the family register (Parivar Register)"
-  },
-  {
-   "k": "a5a9da847146",
-   "ctx": "documents",
-   "t": "If you have neither: an ID such as voter ID, birth certificate, permanent residence certificate, PAN or passport showing your father's, mother's or spouse's name"
-  },
-  {
-   "k": "ad7c797cebff",
-   "ctx": "documents",
-   "t": "A live photo taken during e-KYC"
-  },
-  {
-   "k": "4af330ef59e6",
-   "ctx": "hint",
-   "t": "Any working number you hold. The OTP and approval message come here."
-  },
-  {
-   "k": "196ae33559b2",
-   "ctx": "value",
-   "t": "PMJAY / Uttarakhand"
-  },
-  {
-   "k": "4a698b249c05",
-   "ctx": "hint",
-   "t": "Pick Uttarakhand. Atal Ayushman families are on the same Ayushman system, so the search works for both."
-  },
-  {
-   "k": "2f3e938fb94a",
-   "ctx": "hint",
-   "t": "The ration card number brings up the whole family. You can also search by Aadhaar."
-  },
-  {
-   "k": "7111406f2e9a",
-   "ctx": "hint",
-   "t": "Copy it from your ration card. If your family is not found, try Aadhaar or go to a Jan Seva Kendra."
-  },
-  {
-   "k": "cf4f2a2f2e99",
-   "ctx": "hint",
-   "t": "Aadhaar of the member whose card you are making. Each member is done separately."
-  },
-  {
-   "k": "22efd78c0f7a",
-   "ctx": "hint",
-   "t": "Good for elderly people whose fingerprints do not scan. Use Aadhaar OTP if the mobile is linked to Aadhaar."
-  },
-  {
-   "k": "14647e6f595c",
-   "ctx": "hint",
-   "t": "Relation to the person named first on the ration card."
-  },
-  {
-   "k": "751170f4c8ae",
-   "ctx": "value",
-   "t": "Tehri Garhwal / 249001"
-  },
-  {
-   "k": "56961ba1804d",
-   "ctx": "demoSteps",
-   "t": "Choose Uttarakhand and search your family by ration card number or Aadhaar."
-  },
-  {
-   "k": "21c4ec372404",
-   "ctx": "demoSteps",
-   "t": "Pick the member, verify with Aadhaar OTP or face authentication, take the live photo, fill the details and submit."
-  },
-  {
-   "k": "75a661f46a8c",
-   "ctx": "demoSteps",
-   "t": "The State Health Authority approves it, usually within a day or two. Log in again and download the card."
-  },
-  {
-   "k": "a212bff58f02",
-   "ctx": "demoSteps",
-   "t": "If your name is not found or e-KYC fails, take Aadhaar and the ration card or family register to a Jan Seva Kendra (CSC) or the Arogya Mitra desk of an empanelled hospital."
-  },
-  {
-   "k": "ad7046b3a3be",
-   "ctx": "demoSteps",
-   "t": "When you need treatment, get a government hospital referral where required, then show the card at the Arogya Mitra desk. Treatment is cashless."
-  },
-  {
-   "k": "1b8c4ea1c373",
-   "ctx": "helpline",
-   "t": "155368 / 1800-180-5368 (State Health Authority, Uttarakhand) / 14555 (Ayushman Bharat national helpline)"
-  },
-  {
-   "k": "65284ce6c9ae",
-   "ctx": "title",
-   "t": "Uttarakhand Old Age Pension (Vridhavastha Pension)"
-  },
-  {
-   "k": "c098e39f9249",
-   "ctx": "department",
-   "t": "Social Welfare Department, Uttarakhand"
-  },
-  {
-   "k": "6f810b30ffc9",
-   "ctx": "brief",
-   "t": "Rs 1,500 a month for people aged 60 and above in Uttarakhand who are BPL or whose monthly income is up to Rs 4,000. Husband and wife can both get it if each qualifies. You apply online on the Social Welfare Department's pension portal (eSPAN), and the money is paid into your bank account every three months. About 6 lakh elderly people get it now."
-  },
-  {
-   "k": "3a34869bc695",
-   "ctx": "benefit",
-   "t": "Rs 1,500 a month, paid every 3 months (June, September, December, March)"
-  },
-  {
-   "k": "d691565b984d",
-   "ctx": "eligibility",
-   "t": "Aged 60 or above and living in Uttarakhand"
-  },
-  {
-   "k": "d05ebb1c4909",
-   "ctx": "eligibility",
-   "t": "From a BPL family, or with monthly income up to Rs 4,000 on a Tehsildar's income certificate"
-  },
-  {
-   "k": "b102a8e08de7",
-   "ctx": "eligibility",
-   "t": "Husband and wife can both receive it if each qualifies"
-  },
-  {
-   "k": "f6e322c110dc",
-   "ctx": "eligibility",
-   "t": "Not getting any other central or state government pension"
-  },
-  {
-   "k": "a563888fd129",
-   "ctx": "eligibility",
-   "t": "Bank account in your own name (not a joint or loan account), linked to Aadhaar"
-  },
-  {
-   "k": "529de3788466",
-   "ctx": "documents",
-   "t": "BPL certificate, or income certificate from the Tehsildar (monthly income not above Rs 4,000)"
-  },
-  {
-   "k": "3ec31353bfb2",
-   "ctx": "documents",
-   "t": "Resolution of the Gram Sabha open meeting (in villages)"
-  },
-  {
-   "k": "b09691be2a38",
-   "ctx": "documents",
-   "t": "Copy of the family register (Parivar Register)"
-  },
-  {
-   "k": "01b337b42538",
-   "ctx": "documents",
-   "t": "Passbook of your bank account"
-  },
-  {
-   "k": "f49ec8bed829",
-   "ctx": "documents",
-   "t": "Recent photo"
-  },
-  {
-   "k": "db5a4da88e32",
-   "ctx": "documents",
-   "t": "Voter ID (its number is asked in the form)"
-  },
-  {
-   "k": "57cc4fad673e",
-   "ctx": "portalName",
-   "t": "Social Security State Portal (eSPAN), Social Welfare Department Uttarakhand"
-  },
-  {
-   "k": "aa1cc43ffdf3",
-   "ctx": "hint",
-   "t": "Choose the old age pension from the list. The scheme cannot be changed after saving."
-  },
-  {
-   "k": "5ca3be982626",
-   "ctx": "label",
-   "t": "Applicant's name (English and Hindi)"
-  },
-  {
-   "k": "7413a28743cd",
-   "ctx": "value",
-   "t": "Bhagwati Devi"
-  },
-  {
-   "k": "a24cbbc259b0",
-   "ctx": "hint",
-   "t": "Type in English; the portal writes the Hindi itself. It must match Aadhaar and the bank passbook."
-  },
-  {
-   "k": "86fd833845d2",
-   "ctx": "value",
-   "t": "Shri Govind Singh"
-  },
-  {
-   "k": "ac4dc357f67a",
-   "ctx": "label",
-   "t": "Category, date of birth and age"
-  },
-  {
-   "k": "7a87e53d67b2",
-   "ctx": "hint",
-   "t": "Your age must be 60 or more."
-  },
-  {
-   "k": "2d734f185b4e",
-   "ctx": "hint",
-   "t": "Your login ID and password come here by SMS. Give the number linked to Aadhaar."
-  },
-  {
-   "k": "902f43dc5b4d",
-   "ctx": "label",
-   "t": "Years of residence in Uttarakhand"
-  },
-  {
-   "k": "fda6529cb3a8",
-   "ctx": "hint",
-   "t": "How many years you have lived in the state."
-  },
-  {
-   "k": "2c28dd2fd113",
-   "ctx": "label",
-   "t": "Voter ID and Aadhaar number"
-  },
-  {
-   "k": "20232069e7bc",
-   "ctx": "hint",
-   "t": "Both are required. Tick the box allowing the department to use Aadhaar for the pension."
-  },
-  {
-   "k": "69d593935377",
-   "ctx": "label",
-   "t": "District, area type, tehsil, block, panchayat, village"
-  },
-  {
-   "k": "c8f5f403b479",
-   "ctx": "value",
-   "t": "Pauri Garhwal / Rural / Kotdwar / Dugadda / Sendhikhal / Sendhikhal"
-  },
-  {
-   "k": "4791444e9118",
-   "ctx": "hint",
-   "t": "Fill carefully. These cannot be corrected by you later."
-  },
-  {
-   "k": "8f1144838a92",
-   "ctx": "label",
-   "t": "IFSC and account number"
-  },
-  {
-   "k": "d5850aca5eae",
-   "ctx": "hint",
-   "t": "Enter each twice. Use your own account linked to Aadhaar, not a joint or loan account."
-  },
-  {
-   "k": "b56a1d418ab8",
-   "ctx": "label",
-   "t": "BPL ID or income certificate number, date and monthly income"
-  },
-  {
-   "k": "1de4f10bad99",
-   "ctx": "value",
-   "t": "Income certificate 9999/2026, 02-09-2026, Rs 3,200"
-  },
-  {
-   "k": "dd32aa9861fb",
-   "ctx": "hint",
-   "t": "Monthly income cannot be more than Rs 4,000, or the form will not accept it."
-  },
-  {
-   "k": "e819dd49ed19",
-   "ctx": "demoSteps",
-   "t": "Open ssp.uk.gov.in, go to Online Application and click New Online Application. Choose Old Age Pension, fill the form, enter the captcha and save."
-  },
-  {
-   "k": "1efb3ff1fd36",
-   "ctx": "demoSteps",
-   "t": "Your applicant login ID and password come by SMS. Log in through Applicant Login."
-  },
-  {
-   "k": "9720e4040c06",
-   "ctx": "demoSteps",
-   "t": "Under Upload Documents, upload each document as a PDF under 1 MB, then print the application."
-  },
-  {
-   "k": "3f027f8dd151",
-   "ctx": "demoSteps",
-   "t": "The verifying officers check it and the District Social Welfare Office sanctions it. Follow it under Application Status on the portal."
-  },
-  {
-   "k": "51200678e3c4",
-   "ctx": "demoSteps",
-   "t": "Once sanctioned, Rs 1,500 a month is paid every quarter (June, September, December, March) into your Aadhaar-linked account. The online pension passbook shows each payment."
-  },
-  {
-   "k": "8587efce1c52",
-   "ctx": "helpline",
-   "t": "1800-180-4236 (toll-free) / 6395221188 (WhatsApp and mobile) / 0135-2669764 (IT cell, Social Welfare Department)"
-  },
-  {
-   "k": "df88a8489c56",
-   "ctx": "title",
-   "t": "Nanda Gaura Yojana (Rs 11,000 at Birth + Rs 51,000 after Class 12)"
-  },
-  {
-   "k": "f13efb70a9fe",
-   "ctx": "department",
-   "t": "Women Empowerment and Child Development Department, Uttarakhand"
-  },
-  {
-   "k": "8e17617472d6",
-   "ctx": "brief",
-   "t": "Money for daughters of low-income families in Uttarakhand, in two parts: Rs 11,000 when a girl is born in a hospital, and Rs 51,000 when she passes Class 12, joins a degree or diploma course and is unmarried. Up to two living daughters per family can benefit. You apply online on the Nanda Gaura portal, within 6 months of the birth, and by 30 November of the year she passes Class 12. Money is given first come, first served within the yearly budget."
-  },
-  {
-   "k": "2e0a400b7551",
-   "ctx": "benefit",
-   "t": "Rs 11,000 at birth + Rs 51,000 after Class 12 (Rs 62,000 per daughter)"
-  },
-  {
-   "k": "c44d07e32823",
-   "ctx": "eligibility",
-   "t": "Parents are permanent residents of Uttarakhand"
-  },
-  {
-   "k": "02de09fcf3e4",
-   "ctx": "eligibility",
-   "t": "Family income up to Rs 6,000 a month (Rs 72,000 a year), on a Tehsildar's income certificate not older than 1 year"
-  },
-  {
-   "k": "e23f45a99bc3",
-   "ctx": "eligibility",
-   "t": "Only two living daughters of a family can get it"
-  },
-  {
-   "k": "628b40be0c50",
-   "ctx": "eligibility",
-   "t": "Birth stage: born in a hospital or ANM centre, mother registered at the Anganwadi during pregnancy, and the application made within 6 months of birth"
-  },
-  {
-   "k": "24b344e2f682",
-   "ctx": "eligibility",
-   "t": "Class 12 stage: passed Class 12 from a recognised board or NIOS, admitted to a degree or at least a 1-year diploma, unmarried, name on the family ration card; apply by 30 November of the year she passes"
-  },
-  {
-   "k": "f0d3cf529c49",
-   "ctx": "documents",
-   "t": "Aadhaar and PAN card of mother and father (and of the girl for the Class 12 stage); a PAN application receipt is accepted"
-  },
-  {
-   "k": "e1a7791afeb2",
-   "ctx": "documents",
-   "t": "Permanent residence certificate"
-  },
-  {
-   "k": "0bc04a9977de",
-   "ctx": "documents",
-   "t": "Income certificate issued by the Tehsildar"
-  },
-  {
-   "k": "eb68ba25e9a3",
-   "ctx": "documents",
-   "t": "Birth certificate and institutional delivery certificate (birth stage)"
-  },
-  {
-   "k": "8b2ac2c672e0",
-   "ctx": "documents",
-   "t": "Anganwadi worker's certificate and MCP (vaccination) card (birth stage)"
+   "t": "West Bengal / Paschim Bardhaman / Example Institute of Technology"
   }
  ]
 }

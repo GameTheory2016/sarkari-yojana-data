@@ -6,256 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_13.json",
  "items": [
   {
-   "k": "56441080dfe7",
-   "ctx": "documents",
-   "t": "Aadhaar card and the mobile number linked to it, for the OTP"
-  },
-  {
-   "k": "92d0408d84c3",
-   "ctx": "documents",
-   "t": "Land tax receipt or other land record; a lease agreement if the land is leased"
-  },
-  {
-   "k": "950130e0f6f0",
-   "ctx": "documents",
-   "t": "Passbook of a bank account in the farmer's own name"
-  },
-  {
-   "k": "77768905c07b",
-   "ctx": "documents",
-   "t": "Crop details: number of trees or plants, or the area, and the planting date"
-  },
-  {
-   "k": "c32197f6cc57",
-   "ctx": "documents",
-   "t": "UPI, debit card or net banking to pay the premium online"
-  },
-  {
-   "k": "07c5846574a0",
-   "ctx": "documents",
-   "t": "For a claim: photos of the damaged crop"
-  },
-  {
-   "k": "53581638542d",
-   "ctx": "hint",
-   "t": "Registration starts with your Aadhaar and an OTP. You register only once; the same login is used for every AIMS service."
-  },
-  {
-   "k": "79f5604f6671",
-   "ctx": "hint",
-   "t": "The Krishi Bhavan of the panchayat where the land is. Its staff will check your field."
-  },
-  {
-   "k": "e01219921ad5",
-   "ctx": "label",
-   "t": "Land: village, survey number and area"
-  },
-  {
-   "k": "91c6c40a1245",
-   "ctx": "hint",
-   "t": "Copy these from your land tax receipt. Add the land and the crops on it before applying for insurance."
-  },
-  {
-   "k": "b2b96d61588b",
-   "ctx": "hint",
-   "t": "If you farm leased land, choose leased and upload the lease agreement."
-  },
-  {
-   "k": "4db8ec02a6d6",
-   "ctx": "hint",
-   "t": "Under Services, open the State Crop Insurance link and press Apply next to the crop."
-  },
-  {
-   "k": "48983b14aba0",
-   "ctx": "hint",
-   "t": "Insure all the coconut trees in that plot; at least 10 are needed."
-  },
-  {
-   "k": "569ce9eb32c5",
-   "ctx": "hint",
-   "t": "For yielding coconut it is Rs.2 per tree for one year, or Rs.5 per tree for three years paid together."
-  },
-  {
-   "k": "6bcc35b78ea8",
-   "ctx": "hint",
-   "t": "Worked out automatically from the number of trees and the period."
-  },
-  {
-   "k": "4719828f1c15",
-   "ctx": "hint",
-   "t": "Tick the box above Submit Application, or the application will not go."
-  },
-  {
-   "k": "eea94ae60e16",
-   "ctx": "hint",
-   "t": "Pay only after the Krishi Bhavan approves and you get the SMS. Note the GRN number shown after payment."
-  },
-  {
-   "k": "078de6e39cf4",
-   "ctx": "demoSteps",
-   "t": "Register once on AIMS with your Aadhaar and OTP, then add your land and crop details."
-  },
-  {
-   "k": "4db9decd062d",
-   "ctx": "demoSteps",
-   "t": "Open Services, then State Crop Insurance, press Apply next to the crop, enter the number of trees or the area and the period, tick the declaration and submit. The application goes to your Krishi Bhavan."
-  },
-  {
-   "k": "1a77f74ece52",
-   "ctx": "demoSteps",
-   "t": "Krishi Bhavan staff inspect the field within 10 days. When the premium is approved you get an SMS."
-  },
-  {
-   "k": "5b8985d369d9",
-   "ctx": "demoSteps",
-   "t": "Pay the premium on AIMS within 10 days through e-Treasury (UPI, card or net banking). The policy appears under Policy Issued; download it and the receipt."
-  },
-  {
-   "k": "5466584f7557",
-   "ctx": "demoSteps",
-   "t": "If the crop is destroyed, tell the Krishi Bhavan at once or use Report Calamity in AIMS, so the loss is entered. Then apply for the claim on AIMS within 15 days with photos, and leave the damaged crop as it is until the officer inspects it."
-  },
-  {
-   "k": "966a8bc7cfc3",
-   "ctx": "demoSteps",
-   "t": "The compensation is paid straight into your bank account when funds are released."
-  },
-  {
-   "k": "d29e04a4dab6",
-   "ctx": "demoSteps",
-   "t": "If the crop was not insured, apply on AIMS in the same way for natural-calamity relief at the government's lower rates."
-  },
-  {
-   "k": "589656fb3711",
-   "ctx": "helpline",
-   "t": "AIMS help desk: 0471-2968122, 0471-2303990, 0471-2309122; Directorate of Agriculture: 0471-2304481; Kisan Call Centre: 1800-180-1551"
-  },
-  {
-   "k": "dc5d7b354921",
-   "ctx": "title",
-   "t": "Ladakh Universal Health Care Scheme (Golden Card)"
-  },
-  {
-   "k": "011ef95249fb",
-   "ctx": "brief",
-   "t": "Ladakh's own free health insurance, started in December 2020 alongside Ayushman Bharat PM-JAY so that families left out of the PM-JAY list are covered too. Every ration card household gets a Golden Card worth Rs.5 lakh a year for hospital treatment, tests and medicines, cashless at empanelled hospitals. The card is made at the Ayushman desk of a government hospital, at an enrolment camp or at a CSC, using the ration card and Aadhaar."
-  },
-  {
-   "k": "e66a1fea744d",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per household, cashless and free"
-  },
-  {
-   "k": "96640e3947c8",
-   "ctx": "eligibility",
-   "t": "Every family in UT Ladakh that holds a ration card"
-  },
-  {
-   "k": "06bd3fa7d4ef",
-   "ctx": "eligibility",
-   "t": "Families already in the PM-JAY list get the PM-JAY card; all others are covered by the UT's own scheme"
-  },
-  {
-   "k": "ad255aa24830",
-   "ctx": "eligibility",
-   "t": "No income limit and no premium"
-  },
-  {
-   "k": "f4d1f9fd08a0",
-   "ctx": "eligibility",
-   "t": "Newborn babies can be given a Golden Card at birth in the hospital"
-  },
-  {
-   "k": "52a7a4035bc1",
-   "ctx": "eligibility",
-   "t": "If your family is missing from the list or a name is wrong, apply first at the Tehsildar's office"
-  },
-  {
-   "k": "971c976fb4fe",
-   "ctx": "documents",
-   "t": "Birth certificate for a newborn or a child without Aadhaar"
-  },
-  {
-   "k": "22e05e50d03e",
-   "ctx": "documents",
-   "t": "For inclusion or name correction: a written application at the Tehsildar's office with copies of the ration card and Aadhaar"
-  },
-  {
-   "k": "30d6779791a1",
-   "ctx": "submitAt",
-   "t": "The Ayushman (PM-JAY) desk at SNM Hospital Leh, District Hospital Kargil or your nearest Community Health Centre, or a Common Service Centre or Golden Card camp in your block. Take the ration card, every member's Aadhaar card and the mobile phone linked to Aadhaar; each member to be enrolled should come along for the fingerprint, OTP or photo. If your family is not found or a name is wrong, first give an application with the same documents at your Tehsildar's office."
-  },
-  {
-   "k": "0b6b538594ce",
-   "ctx": "hint",
-   "t": "The operator finds your family with this number. Bring the card itself, not just a photo of it."
-  },
-  {
-   "k": "39456b48cd72",
-   "ctx": "hint",
-   "t": "The person named first on the ration card."
-  },
-  {
-   "k": "4608dd17e573",
-   "ctx": "hint",
-   "t": "Each member gets a card; they are done one by one."
-  },
-  {
-   "k": "7e7a57f6b80b",
-   "ctx": "hint",
-   "t": "The 12 digits on this member's own Aadhaar card."
-  },
-  {
-   "k": "841e0a035543",
-   "ctx": "hint",
-   "t": "OTP goes to the mobile linked to Aadhaar. If none is linked, fingerprint or face scan is used at the desk."
-  },
-  {
-   "k": "a311e64fe453",
-   "ctx": "hint",
-   "t": "How this member is related to the head of the family on the ration card."
-  },
-  {
-   "k": "833032b2b0a5",
-   "ctx": "hint",
-   "t": "Face straight, no cap or dark glasses."
-  },
-  {
-   "k": "1f2ebfaf801d",
-   "ctx": "demoSteps",
-   "t": "Take the ration card, every member's Aadhaar and the Aadhaar-linked mobile to the Ayushman desk at SNM Hospital Leh, DH Kargil, a CHC, a CSC or a Golden Card camp."
-  },
-  {
-   "k": "4d2d914f058b",
-   "ctx": "demoSteps",
-   "t": "The operator searches your family by ration card or Aadhaar and verifies each member by Aadhaar OTP, fingerprint or face."
-  },
-  {
-   "k": "ddc2ab8cb2f5",
-   "ctx": "demoSteps",
-   "t": "A photo is taken and the card request is sent for approval."
-  },
-  {
-   "k": "d8d586a33081",
-   "ctx": "demoSteps",
-   "t": "Once approved, the Golden Card is printed or given to you to download; you can also keep it on the Ayushman app."
-  },
-  {
-   "k": "50d13bb18dc3",
-   "ctx": "demoSteps",
-   "t": "If your family was not found, apply at the Tehsildar's office for inclusion, then go back to the desk to enrol."
-  },
-  {
-   "k": "947b777e1c88",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, show the card at the Ayushman desk and pay nothing for a covered treatment."
-  },
-  {
-   "k": "34e1be5d9b50",
-   "ctx": "helpline",
-   "t": "14555 or 1800-111-565 — Ayushman Bharat helpline / 01982-257561 — Health & Medical Education Department, UT Ladakh"
-  },
-  {
    "k": "1bd25989488f",
    "ctx": "title",
    "t": "UT of Lakshadweep State Pension Scheme (Old Age Pension)"
@@ -949,6 +699,221 @@
    "k": "0bab9a729e6c",
    "ctx": "hint",
    "t": "You can also search by family, name or PMJAY ID. If nothing comes up, check at the ration shop that your name is on the NFSA slip."
+  },
+  {
+   "k": "997444d5a4b4",
+   "ctx": "hint",
+   "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar; otherwise choose face authentication and scan the face with the phone camera."
+  },
+  {
+   "k": "4d980bd2b278",
+   "ctx": "hint",
+   "t": "How this member is related to the person named first in the family record."
+  },
+  {
+   "k": "594a820f296b",
+   "ctx": "hint",
+   "t": "Where you live now, so the nearest empanelled hospitals are shown."
+  },
+  {
+   "k": "bd09f950f181",
+   "ctx": "demoSteps",
+   "t": "Check whether your family is listed: on beneficiary.nha.gov.in or the Ayushman app, or ask at the ration shop, gram panchayat or ASHA worker. If you have an NFSA food-grain slip, you should qualify."
+  },
+  {
+   "k": "c750f13a484a",
+   "ctx": "demoSteps",
+   "t": "Log in as Beneficiary with your mobile number and OTP, choose PMJAY and Madhya Pradesh, and search for your family by Aadhaar."
+  },
+  {
+   "k": "cef1e7317b02",
+   "ctx": "demoSteps",
+   "t": "Pick the member marked eKYC pending, verify with Aadhaar OTP or face scan, take the live photo, and fill in the relation, district and PIN code. Submit."
+  },
+  {
+   "k": "328fa7f5c492",
+   "ctx": "demoSteps",
+   "t": "The State Health Agency usually approves within a day or two. Log in again and download the card. It is also made free at a Lok Seva Kendra, CSC, government hospital or Aapke Dwar Niramayam camp."
+  },
+  {
+   "k": "5b1e02702dd5",
+   "ctx": "demoSteps",
+   "t": "At the hospital, go to the Ayushman Mitra desk with the card or Aadhaar. Treatment listed under the scheme is cashless up to Rs 5 lakh a year. Find empanelled hospitals at hem.nha.gov.in."
+  },
+  {
+   "k": "0b14db19a6d6",
+   "ctx": "demoSteps",
+   "t": "If any hospital asks you for money for a covered treatment, call 14555 or the CM Helpline 181."
+  },
+  {
+   "k": "48c21ade3057",
+   "ctx": "helpline",
+   "t": "14555 (Ayushman Bharat MP helpline), 1800-233-2085 (Ayushman Bharat), CM Helpline 181"
+  },
+  {
+   "k": "0a40dcadaa65",
+   "ctx": "title",
+   "t": "Mukhyamantri Ladli Laxmi Yojana (Ladli Laxmi 2.0)"
+  },
+  {
+   "k": "9d4ef095368f",
+   "ctx": "department",
+   "t": "Department of Women and Child Development, Madhya Pradesh"
+  },
+  {
+   "k": "51ec81a32eda",
+   "ctx": "brief",
+   "t": "When a girl is born in Madhya Pradesh and registered under this scheme, the state issues a certificate in her name promising Rs 1,43,000 in stages. She gets scholarships when she joins classes 6, 9, 11 and 12, Rs 25,000 when she joins college, and Rs 1 lakh at age 21. The state also pays her college tuition fees. Parents should apply within one year of her birth, either online themselves or through the anganwadi."
+  },
+  {
+   "k": "3caf2e9a431c",
+   "ctx": "benefit",
+   "t": "Rs 1,43,000 in stages: Rs 18,000 school scholarships, Rs 25,000 for college, Rs 1 lakh at 21"
+  },
+  {
+   "k": "626af5acf94b",
+   "ctx": "eligibility",
+   "t": "Girl born on or after 1 January 2006 and registered at the local anganwadi centre"
+  },
+  {
+   "k": "bdafb564451b",
+   "ctx": "eligibility",
+   "t": "Parents are original residents of Madhya Pradesh and do not pay income tax"
+  },
+  {
+   "k": "a0f00fdf853b",
+   "ctx": "eligibility",
+   "t": "Parents have two children or fewer. The first girl qualifies without any condition. For the second girl, the mother or father must have adopted family planning after the second child"
+  },
+  {
+   "k": "75decab37e35",
+   "ctx": "eligibility",
+   "t": "Apply within one year of the girl's birth. Late cases, orphans, adopted girls and girls who have lost a parent can be registered up to age 5 as special cases"
+  },
+  {
+   "k": "617f7be41e39",
+   "ctx": "eligibility",
+   "t": "The final Rs 1 lakh is paid only if she has appeared for the class 12 exam and was not married before 18"
+  },
+  {
+   "k": "0425d1a52072",
+   "ctx": "documents",
+   "t": "Samagra family ID, with the girl added as a member and her 9-digit Samagra member ID"
+  },
+  {
+   "k": "098b0c9c9def",
+   "ctx": "documents",
+   "t": "Photo of the girl with her mother or father (JPG or PNG, 40 to 200 KB)"
+  },
+  {
+   "k": "8386489259d8",
+   "ctx": "documents",
+   "t": "Family planning (sterilisation) certificate, if this is the second girl"
+  },
+  {
+   "k": "336416bed3a3",
+   "ctx": "documents",
+   "t": "Aadhaar card of the mother or father, with e-KYC done in Samagra"
+  },
+  {
+   "k": "a1a8cda659cd",
+   "ctx": "hint",
+   "t": "Choose Normal for a girl under one year old. Choose Special only for a delay of more than a year, an orphan or adopted girl, or a girl whose mother or father has died."
+  },
+  {
+   "k": "0ba1fd4c47f1",
+   "ctx": "hint",
+   "t": "A phone you keep with you. The OTP comes here now, and the messages about approval and payments come here later."
+  },
+  {
+   "k": "b363a1db7d6d",
+   "ctx": "hint",
+   "t": "Type the code within a few minutes. If it expires, ask for a new OTP."
+  },
+  {
+   "k": "3a9513ddb9b6",
+   "ctx": "hint",
+   "t": "The baby's own 9-digit number. If she has not been added to the family Samagra yet, get that done at the gram panchayat or ward office first."
+  },
+  {
+   "k": "a4351f2e1201",
+   "ctx": "hint",
+   "t": "The 8-digit family number printed on the Samagra slip or card."
+  },
+  {
+   "k": "263f7c423f41",
+   "ctx": "label",
+   "t": "Girl's name and date of birth"
+  },
+  {
+   "k": "3e58c4fa3f7d",
+   "ctx": "hint",
+   "t": "These come from Samagra. If anything is wrong, have Samagra corrected first, because the form takes the details from there."
+  },
+  {
+   "k": "57196c10d3ac",
+   "ctx": "hint",
+   "t": "The centre where the girl is registered. The anganwadi worker there checks your application."
+  },
+  {
+   "k": "d05f15e1f812",
+   "ctx": "hint",
+   "t": "Count all living children. If this is the second child, family planning details are needed."
+  },
+  {
+   "k": "ddf315fdb1a3",
+   "ctx": "hint",
+   "t": "Needed for the second girl. Upload the certificate from the hospital where the operation was done."
+  },
+  {
+   "k": "3a3253d46fcb",
+   "ctx": "hint",
+   "t": "A clear photo of the baby with her mother or father. Only JPG, JPEG, PNG or GIF, between 40 KB and 200 KB."
+  },
+  {
+   "k": "c0fcf8f9b254",
+   "ctx": "demoSteps",
+   "t": "Get the baby added to your family Samagra ID with e-KYC, at the gram panchayat or ward office or on samagra.gov.in, and register her at the anganwadi."
+  },
+  {
+   "k": "305a2352ff7f",
+   "ctx": "demoSteps",
+   "t": "Open ladlilaxmi.mp.gov.in and tap Apply (आवेदन करें). Read the eligibility, then tick the self-declarations. The anganwadi worker, a Lok Seva Kendra or an MPOnline kiosk can also do this for you."
+  },
+  {
+   "k": "da40fe94326c",
+   "ctx": "demoSteps",
+   "t": "Choose Normal case, enter your mobile number and the OTP, and tap Proceed. Fill in the Samagra IDs, check the details, upload the photo and submit. Note the application number."
+  },
+  {
+   "k": "e5f2cb2aca7f",
+   "ctx": "demoSteps",
+   "t": "The anganwadi supervisor checks the case and the Project Officer (CDPO) of Women and Child Development approves it."
+  },
+  {
+   "k": "f330fc2fa1f2",
+   "ctx": "demoSteps",
+   "t": "Download the Rs 1,43,000 assurance certificate from the Certificate (प्रमाण पत्र) link on the home page. Keep it safely with her birth certificate."
+  },
+  {
+   "k": "22de8b22adde",
+   "ctx": "demoSteps",
+   "t": "When she joins classes 6, 9, 11 and 12, the scholarship of Rs 2,000, Rs 4,000, Rs 6,000 and Rs 6,000 is paid after the school records her admission. Keep her Samagra and bank details up to date."
+  },
+  {
+   "k": "b857e9be3cd1",
+   "ctx": "demoSteps",
+   "t": "After class 12, when she joins a college or professional course of at least two years, apply under the graduation incentive link (प्रोत्साहन राशि) with her Ladli registration number for Rs 25,000, paid in two halves in the first and last year. At 21 she gets Rs 1 lakh."
+  },
+  {
+   "k": "6b42940bf4f1",
+   "ctx": "title",
+   "t": "Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY / Ayushman Card)"
+  },
+  {
+   "k": "6d6449e49280",
+   "ctx": "department",
+   "t": "Public Health Department, Government of Maharashtra (State Health Assurance Society)"
   }
  ]
 }

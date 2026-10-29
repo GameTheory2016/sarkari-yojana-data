@@ -6,196 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_24.json",
  "items": [
   {
-   "k": "076d57dc0cd4",
-   "ctx": "eligibility",
-   "t": "The state approves the scheme again every year. The 2026–27 round runs from October 2026 to March 2027"
-  },
-  {
-   "k": "d5a10690613e",
-   "ctx": "documents",
-   "t": "Gas consumer number or the LPG passbook (blue book)"
-  },
-  {
-   "k": "9dad215029a0",
-   "ctx": "documents",
-   "t": "Bank passbook of the account linked to Aadhaar"
-  },
-  {
-   "k": "4520314ea588",
-   "ctx": "documents",
-   "t": "Ration card, if the agency asks to check the family"
-  },
-  {
-   "k": "d5a314c1b877",
-   "ctx": "portalName",
-   "t": "Your LPG distributor (Indian Oil, Bharat Gas or HP Gas)"
-  },
-  {
-   "k": "d0dacd3d7d15",
-   "ctx": "submitAt",
-   "t": "Nothing to fill in. The Ujjwala connection holder goes to her own LPG distributor (gas agency) in person with her Aadhaar card, the gas passbook or consumer number and the bank passbook, and gets the Aadhaar fingerprint authentication (e-KYC) done for free. Where the oil company's app offers it (IndianOil ONE, Hello BPCL, HP Pay), the e-KYC can also be done at home with Aadhaar face authentication."
-  },
-  {
-   "k": "313dcaf03984",
-   "ctx": "label",
-   "t": "LPG consumer number"
-  },
-  {
-   "k": "fbff8218565b",
-   "ctx": "hint",
-   "t": "Printed on the gas passbook and on every cash memo."
-  },
-  {
-   "k": "86b28cea8aa7",
-   "ctx": "label",
-   "t": "Connection type"
-  },
-  {
-   "k": "2fb81b5a7391",
-   "ctx": "value",
-   "t": "PMUY (Ujjwala), 14.2 kg"
-  },
-  {
-   "k": "7ca4eebb85da",
-   "ctx": "hint",
-   "t": "The refund is only for Ujjwala connections. Ask the agency if you are not sure which type you have."
-  },
-  {
-   "k": "1f8c0fb9048e",
-   "ctx": "label",
-   "t": "Name of connection holder"
-  },
-  {
-   "k": "39595344448b",
-   "ctx": "hint",
-   "t": "The woman in whose name the Ujjwala connection was given. She must go for the authentication herself."
-  },
-  {
-   "k": "b8ec3b5c58c6",
-   "ctx": "hint",
-   "t": "The connection holder's own Aadhaar. Her fingerprint or face is matched against it."
-  },
-  {
-   "k": "5b80487402b7",
-   "ctx": "label",
-   "t": "Registered mobile"
-  },
-  {
-   "k": "6f80838b9ab1",
-   "ctx": "hint",
-   "t": "The number linked to the gas connection. The booking and delivery messages come here."
-  },
-  {
-   "k": "6eeee4c06ccd",
-   "ctx": "label",
-   "t": "Aadhaar authentication"
-  },
-  {
-   "k": "723b3cc943db",
-   "ctx": "value",
-   "t": "Done at gas agency (fingerprint)"
-  },
-  {
-   "k": "d14a2f5c5abc",
-   "ctx": "hint",
-   "t": "It is done only once and is free. If it is pending, you will not get the refund."
-  },
-  {
-   "k": "01e8274993fe",
-   "ctx": "label",
-   "t": "Bank account linked to Aadhaar"
-  },
-  {
-   "k": "ce639aa0244b",
-   "ctx": "value",
-   "t": "99990087654321 / Bank of Baroda"
-  },
-  {
-   "k": "463904411dbe",
-   "ctx": "hint",
-   "t": "Ask your bank to confirm this account is linked to Aadhaar for DBT. The money goes only here."
-  },
-  {
-   "k": "dc10b9f22c10",
-   "ctx": "label",
-   "t": "Refill booked on"
-  },
-  {
-   "k": "6dfd167f7ab6",
-   "ctx": "value",
-   "t": "05-11-2026, by IVRS call"
-  },
-  {
-   "k": "5c00173dccbb",
-   "ctx": "hint",
-   "t": "Book between October and December for the Diwali refill, and between January and March for the Holi refill."
-  },
-  {
-   "k": "7626a4d0c8f6",
-   "ctx": "demoSteps",
-   "t": "Ask your gas agency whether your Aadhaar authentication is done. If not, the connection holder goes there with her Aadhaar card and gas passbook and gives her fingerprint. It is free."
-  },
-  {
-   "k": "ec1e6c234cce",
-   "ctx": "demoSteps",
-   "t": "Make sure your bank account is linked to Aadhaar for DBT. Ask at your bank branch if you are not sure."
-  },
-  {
-   "k": "73bc0d9f1ccf",
-   "ctx": "demoSteps",
-   "t": "Between October and December, book a refill as usual (IVRS call, missed call, WhatsApp or the app). Pay the normal price at delivery and keep the cash memo."
-  },
-  {
-   "k": "8cc7f8c93819",
-   "ctx": "demoSteps",
-   "t": "In about 3 to 4 days the money is credited to your Aadhaar-linked bank account. Check the bank SMS or the passbook."
-  },
-  {
-   "k": "91301794f0bc",
-   "ctx": "demoSteps",
-   "t": "Between January and March, book one more refill the same way for the Holi refund."
-  },
-  {
-   "k": "6efced561245",
-   "ctx": "demoSteps",
-   "t": "If the money does not come, call the Ujjwala helpline 14438 or the UP food department toll-free number, with your consumer number and delivery date ready."
-  },
-  {
-   "k": "8e1f1dc1a9e0",
-   "ctx": "helpline",
-   "t": "14438 (Ujjwala helpline) / 1906 (LPG emergency) / 1800-1800-150 (UP Food & Civil Supplies toll-free)"
-  },
-  {
-   "k": "2138f70d29d9",
-   "ctx": "title",
-   "t": "Krishi Yantra Anudan — Farm Machinery Subsidy (Yantra Token Booking)"
-  },
-  {
-   "k": "264a1b20ea5e",
-   "ctx": "department",
-   "t": "Agriculture Department (Krishi Vibhag), Government of Uttar Pradesh"
-  },
-  {
-   "k": "cf59e95f023a",
-   "ctx": "brief",
-   "t": "The UP Agriculture Department pays 40–50% of the price of farm machines such as rotavators, seed drills, threshers, sprayers, super seeders, happy seeders and agricultural drones. Farmer groups setting up a farm machinery bank or custom hiring centre get up to 80%. Booking opens online on the Agri Darshan portal a few times a year: in 2026 it opened in February–March and again in July. Selected farmers get a token, buy the machine from a listed dealer, and upload the bill and a photo. After a check, the subsidy is paid into their bank account."
-  },
-  {
-   "k": "00681d479c8d",
-   "ctx": "benefit",
-   "t": "40–50% of the machine price for farmers; up to 80% for farmer groups and machinery banks"
-  },
-  {
-   "k": "217a42a559d1",
-   "ctx": "eligibility",
-   "t": "A farmer of Uttar Pradesh registered with the Agriculture Department, with the registration linked to Aadhaar, land record and bank account"
-  },
-  {
-   "k": "08745188434d",
-   "ctx": "eligibility",
-   "t": "Farm land in your own name, as shown in the Khatauni"
-  },
-  {
    "k": "8e547400fef3",
    "ctx": "eligibility",
    "t": "Small and marginal, SC/ST and women farmers get the higher 50% share. Other farmers get 40%"
@@ -221,34 +31,14 @@
    "t": "Farmer registration number from the Agriculture Department"
   },
   {
-   "k": "fe0e0de6a04f",
-   "ctx": "documents",
-   "t": "Khatauni (land record)"
-  },
-  {
    "k": "60aa7fb1df11",
    "ctx": "documents",
    "t": "Bank passbook of the Aadhaar-linked account in the farmer's name"
   },
   {
-   "k": "82e2f4c7f415",
-   "ctx": "documents",
-   "t": "Caste certificate, for SC or ST farmers"
-  },
-  {
    "k": "35f52ef73dab",
    "ctx": "documents",
    "t": "After buying: the dealer's GST bill and a photo of the farmer with the machine, showing its serial number"
-  },
-  {
-   "k": "02f0ac736913",
-   "ctx": "portalName",
-   "t": "Agri Darshan — UP Agriculture Department portal"
-  },
-  {
-   "k": "0edc972919b6",
-   "ctx": "label",
-   "t": "Registration No"
   },
   {
    "k": "d9e56225e020",
@@ -261,19 +51,9 @@
    "t": "The OTP comes here. Only one booking is allowed per mobile number, but you may use the number of a parent, brother, sister, son or daughter."
   },
   {
-   "k": "d355d033375a",
-   "ctx": "value",
-   "t": "Meerut / Sardhana"
-  },
-  {
    "k": "e8946aa3b93b",
    "ctx": "hint",
    "t": "Where your land is. Targets are fixed district by district."
-  },
-  {
-   "k": "f2e432f18cbe",
-   "ctx": "value",
-   "t": "Sub-Mission on Agricultural Mechanization (SMAM)"
   },
   {
    "k": "abbc2f9f5fdb",
@@ -281,29 +61,9 @@
    "t": "Choose the crop residue scheme (CRM) for super seeders, happy seeders, mulchers and balers."
   },
   {
-   "k": "65bb1b78be82",
-   "ctx": "label",
-   "t": "Machine"
-  },
-  {
-   "k": "f51dc4e4f904",
-   "ctx": "value",
-   "t": "Rotavator, 6 feet"
-  },
-  {
    "k": "fe369d01159e",
    "ctx": "hint",
    "t": "Choose the exact machine and size. The subsidy amount for it is shown on the screen."
-  },
-  {
-   "k": "43fc5ab7252d",
-   "ctx": "label",
-   "t": "Farmer category"
-  },
-  {
-   "k": "d79b6e0d683d",
-   "ctx": "value",
-   "t": "Small farmer, General"
   },
   {
    "k": "719b2b8a91ba",
@@ -311,44 +71,14 @@
    "t": "Small and marginal, SC/ST and women farmers get the higher share. It must match your land record and certificates."
   },
   {
-   "k": "f72c48772100",
-   "ctx": "label",
-   "t": "Subsidy amount"
-  },
-  {
-   "k": "65f60879c723",
-   "ctx": "value",
-   "t": "Rs.35,000 (as shown on portal)"
-  },
-  {
    "k": "0a229dd6bbdf",
    "ctx": "hint",
    "t": "The fixed subsidy for that machine. You pay the full price to the dealer and this amount comes back to you."
   },
   {
-   "k": "ecfe9d71cde8",
-   "ctx": "label",
-   "t": "Security amount"
-  },
-  {
-   "k": "b33cba619144",
-   "ctx": "value",
-   "t": "Rs.2,500, paid online"
-  },
-  {
    "k": "a2223a571126",
    "ctx": "hint",
    "t": "Rs.2,500 for a subsidy of Rs.10,001 to Rs.1 lakh, Rs.5,000 above that. It is refunded as the rules say."
-  },
-  {
-   "k": "581a9489e5eb",
-   "ctx": "label",
-   "t": "Dealer"
-  },
-  {
-   "k": "a9ecd5dd7360",
-   "ctx": "value",
-   "t": "Kisan Agro Works, Sardhana"
   },
   {
    "k": "4f9e661e9ebd",
@@ -456,29 +186,9 @@
    "t": "Bank passbook of an account in the worker's own name"
   },
   {
-   "k": "c1d9fe126e61",
-   "ctx": "documents",
-   "t": "Recent colour photo"
-  },
-  {
-   "k": "6f2db20d4d23",
-   "ctx": "portalName",
-   "t": "UPBOCW labour portal"
-  },
-  {
    "k": "6afd3aab8015",
    "ctx": "hint",
    "t": "The worker's own Aadhaar. Your name, date of birth and address are filled in from Aadhaar after the OTP."
-  },
-  {
-   "k": "d269d806e6f0",
-   "ctx": "label",
-   "t": "Enter 6-digit OTP"
-  },
-  {
-   "k": "4bf890bdf02a",
-   "ctx": "value",
-   "t": "OTP from Aadhaar-linked mobile"
   },
   {
    "k": "8805232d9dc5",
@@ -491,19 +201,9 @@
    "t": "Your Aadhaar-linked number or any other number you keep. The approval SMS and login messages come here."
   },
   {
-   "k": "05fe2a7ba2ec",
-   "ctx": "label",
-   "t": "Family ID / Ration Card Number"
-  },
-  {
    "k": "982a0ae6f7c7",
    "ctx": "hint",
    "t": "Pick Family ID or Ration Card, enter the number, and the family members appear. Tick each member who should be linked to your card."
-  },
-  {
-   "k": "94dff50ad2d5",
-   "ctx": "value",
-   "t": "Mohalla Rajapur, Ward 12, Prayagraj"
   },
   {
    "k": "5d89bf73d634",
@@ -511,24 +211,9 @@
    "t": "Where you live and work now, if it is different from the address on Aadhaar."
   },
   {
-   "k": "0cf14fb8effd",
-   "ctx": "label",
-   "t": "Nature of Work"
-  },
-  {
-   "k": "a6f5885ea919",
-   "ctx": "value",
-   "t": "Mason (Raj Mistri)"
-  },
-  {
    "k": "022665b10b29",
    "ctx": "hint",
    "t": "The construction work you actually do, for example helper, carpenter, plumber, painter or bar bender."
-  },
-  {
-   "k": "d3065170dc12",
-   "ctx": "label",
-   "t": "Worked Days (last 12 months)"
   },
   {
    "k": "08642f6a50e9",
@@ -536,39 +221,14 @@
    "t": "It must be 90 days or more. The work certificate you upload has to show the same number."
   },
   {
-   "k": "298d14a21aa1",
-   "ctx": "label",
-   "t": "Contractor Name / Contractor Mobile No."
-  },
-  {
-   "k": "96a0a1c39b0f",
-   "ctx": "value",
-   "t": "Shiv Builders / 90000 12345"
-  },
-  {
    "k": "172d500dd57a",
    "ctx": "hint",
    "t": "The contractor or employer who gave you the 90-day certificate. The office may call this number."
   },
   {
-   "k": "433970ac28dc",
-   "ctx": "label",
-   "t": "IFSC / Account Number"
-  },
-  {
    "k": "9ca8becb651d",
    "ctx": "hint",
    "t": "Your own account. Benefit money is paid only by DBT into this account."
-  },
-  {
-   "k": "688873379d5a",
-   "ctx": "label",
-   "t": "Registration period"
-  },
-  {
-   "k": "989b077eb4c7",
-   "ctx": "value",
-   "t": "1 year: Rs.20 + Rs.20 = Rs.40"
   },
   {
    "k": "861b88904b55",
@@ -909,6 +569,191 @@
    "k": "d21bbb2ed919",
    "ctx": "demoSteps",
    "t": "After approval the money is paid through PFMS into the mother's account. Check the bank passbook or SMS."
+  },
+  {
+   "k": "6c8d98ae3257",
+   "ctx": "demoSteps",
+   "t": "When the girl reaches the next stage, log in again with the same ID and apply for that stage in the same school year. Do not make a new registration for the same girl, or every application for her gets rejected."
+  },
+  {
+   "k": "4658fb66e895",
+   "ctx": "helpline",
+   "t": "181 (Mahila Helpline, UP Women Welfare) / 1076 (CM Helpline); District Probation Officer's office in your district"
+  },
+  {
+   "k": "87de181b5c24",
+   "ctx": "title",
+   "t": "Mukhyamantri Samuhik Vivah Yojana (Samuhik Vivah)"
+  },
+  {
+   "k": "472880af2e01",
+   "ctx": "department",
+   "t": "Social Welfare Department (Samaj Kalyan Vibhag), Government of Uttar Pradesh"
+  },
+  {
+   "k": "b1807127ef70",
+   "ctx": "brief",
+   "t": "The UP government spends Rs.1 lakh on each couple married at a mass wedding it organises. Rs.64,000 goes into the bride's bank account, Rs.21,000 is given as household gifts and Rs.15,000 pays for the ceremony. The total was earlier Rs.51,000. It is for brides from poor families of every religion with income up to Rs.3 lakh a year, and also for widowed, abandoned or legally divorced women who are remarrying. The bride applies online with her Aadhaar, and the wedding is held at a block, town or district mass wedding run by the District Social Welfare Officer."
+  },
+  {
+   "k": "e01f47584f4b",
+   "ctx": "benefit",
+   "t": "Rs.1,00,000 per couple: Rs.64,000 to the bride's account, Rs.21,000 in gifts, Rs.15,000 for the ceremony"
+  },
+  {
+   "k": "2a427e5d2474",
+   "ctx": "eligibility",
+   "t": "The bride's parents or guardians are permanent residents of Uttar Pradesh. The bride herself must be an adult and applies herself"
+  },
+  {
+   "k": "1ec9b212e889",
+   "ctx": "eligibility",
+   "t": "The family is poor or needy, with income up to Rs.3 lakh a year"
+  },
+  {
+   "k": "88411899c069",
+   "ctx": "eligibility",
+   "t": "On the wedding date the bride is at least 18 and the groom at least 21"
+  },
+  {
+   "k": "27d294f77fcf",
+   "ctx": "eligibility",
+   "t": "The bride is unmarried, or is a widow, an abandoned woman or a legally divorced woman who is remarrying"
+  },
+  {
+   "k": "ef039f6db8e4",
+   "ctx": "eligibility",
+   "t": "SC, ST and OBC applicants must give a caste certificate. Orphan girls, daughters of widows or disabled parents, and girls with a disability get priority"
+  },
+  {
+   "k": "3472811898d6",
+   "ctx": "eligibility",
+   "t": "She must not take marriage money from any other central or state scheme for this wedding"
+  },
+  {
+   "k": "b3dc1ae450d0",
+   "ctx": "documents",
+   "t": "Aadhaar card of the bride and the groom"
+  },
+  {
+   "k": "2c034b20d98a",
+   "ctx": "documents",
+   "t": "Age proof of both: school record, birth certificate, voter ID, MGNREGA job card or Aadhaar"
+  },
+  {
+   "k": "6af3db6eee36",
+   "ctx": "documents",
+   "t": "Income certificate (family income up to Rs.3 lakh a year)"
+  },
+  {
+   "k": "0103d87d7a33",
+   "ctx": "documents",
+   "t": "Bride's bank passbook, for an account in her own name linked to Aadhaar"
+  },
+  {
+   "k": "52503bcba008",
+   "ctx": "documents",
+   "t": "Recent photos of the bride and the groom"
+  },
+  {
+   "k": "9a48d7adb1f3",
+   "ctx": "documents",
+   "t": "For remarriage: the former husband's death certificate or the court's divorce decree"
+  },
+  {
+   "k": "95a5e9fc5b9a",
+   "ctx": "hint",
+   "t": "Choose Aadhaar. Use the 16-digit VID or a driving licence only if you cannot use the Aadhaar number."
+  },
+  {
+   "k": "bf17b9c0dff2",
+   "ctx": "hint",
+   "t": "The bride's own Aadhaar, not her father's. The form is filled in the bride's name."
+  },
+  {
+   "k": "7394c9b110a5",
+   "ctx": "hint",
+   "t": "A number the family keeps. The OTP and every SMS about the form, the wedding date and the payment come here."
+  },
+  {
+   "k": "7dc8e654ad79",
+   "ctx": "hint",
+   "t": "You confirm that no other government scheme is giving marriage money for this wedding. If this is found false, the money is recovered."
+  },
+  {
+   "k": "052812856235",
+   "ctx": "hint",
+   "t": "Write both exactly as on Aadhaar."
+  },
+  {
+   "k": "06fc8e902186",
+   "ctx": "hint",
+   "t": "She must be 18 or older on the wedding date. Upload the age proof that shows this date."
+  },
+  {
+   "k": "544ba0cf9666",
+   "ctx": "hint",
+   "t": "Choose your block if you live in a village, or your nagar panchayat, nagar palika or nagar nigam if you live in a town."
+  },
+  {
+   "k": "eb07ac3238af",
+   "ctx": "hint",
+   "t": "Write the figure from the income certificate. It must be Rs.3 lakh or less."
+  },
+  {
+   "k": "b7e2916a6a3a",
+   "ctx": "label",
+   "t": "Groom's name / Aadhaar / date of birth"
+  },
+  {
+   "k": "fb0c99a84f09",
+   "ctx": "hint",
+   "t": "The groom must be 21 or older on the wedding date. His Aadhaar is checked again at the venue."
+  },
+  {
+   "k": "06a97d70222f",
+   "ctx": "hint",
+   "t": "An account in the bride's own name, linked to her Aadhaar. The Rs.64,000 is paid only into this account."
+  },
+  {
+   "k": "65f04e9484b1",
+   "ctx": "demoSteps",
+   "t": "Open cmsvy.upsdc.gov.in and tap Apply (आवेदन करें), then the link to fill the application. Choose Aadhaar, enter the bride's Aadhaar number and mobile, tick the declaration and tap Verify."
+  },
+  {
+   "k": "a67f3e26f4a1",
+   "ctx": "demoSteps",
+   "t": "Fill in the bride's, family's, groom's and bank details, upload the photos and certificates, and submit. Write down the form number."
+  },
+  {
+   "k": "8b1d8416ff88",
+   "ctx": "demoSteps",
+   "t": "The block verifier (villages) or the urban body verifier (towns) checks the details, and the District Social Welfare Officer approves the form. The status comes by SMS. You can correct a form only after an SMS asks you to."
+  },
+  {
+   "k": "7e541d8cd603",
+   "ctx": "demoSteps",
+   "t": "An SMS gives the date and venue of the mass wedding. The bride and groom go there with their Aadhaar cards, are checked at the venue and are married by their own rites."
+  },
+  {
+   "k": "82df1d135846",
+   "ctx": "demoSteps",
+   "t": "The gifts are handed over at the venue. Rs.64,000 is transferred to the bride's bank account after the wedding."
+  },
+  {
+   "k": "4f1fc5bfd111",
+   "ctx": "demoSteps",
+   "t": "Print the marriage certificate from the portal (Print Marriage Certificate) and keep it for the marriage registration and other records."
+  },
+  {
+   "k": "a9f1bb3b5d64",
+   "ctx": "helpline",
+   "t": "0522-2209259 (Samuhik Vivah helpline) / 0522-3538700 (Social Welfare Directorate, Lucknow) / 1076 (CM Helpline)"
+  },
+  {
+   "k": "b2fbec4e59da",
+   "ctx": "title",
+   "t": "Atal Ayushman Uttarakhand Yojana (Ayushman Golden Card)"
   }
  ]
 }

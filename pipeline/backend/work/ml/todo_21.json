@@ -6,46 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_21.json",
  "items": [
   {
-   "k": "e107bb8ba6c6",
-   "ctx": "documents",
-   "t": "Department verification by the nodal officer, for contract workers"
-  },
-  {
-   "k": "805c24e4def8",
-   "ctx": "documents",
-   "t": "Rs 850 premium, only for families in the paid category"
-  },
-  {
-   "k": "a80203e6e647",
-   "ctx": "documents",
-   "t": "At the hospital: Jan Aadhaar card or the MAA policy document, and the patient's Aadhaar card"
-  },
-  {
-   "k": "04223e268148",
-   "ctx": "portalName",
-   "t": "Mukhyamantri Ayushman Arogya Yojana portal (through SSO Rajasthan)"
-  },
-  {
-   "k": "cfc46c0f7227",
-   "ctx": "hint",
-   "t": "Your Rajasthan SSO login. If you have none, make one free on the same page using your Jan Aadhaar."
-  },
-  {
-   "k": "99c4f0f9c6b5",
-   "ctx": "hint",
-   "t": "Free is for small and marginal farmers, contract workers and Covid ex-gratia families. Every other family chooses Paid and pays Rs 850. NFSA ration-card families do not register at all."
-  },
-  {
-   "k": "9fc701904fde",
-   "ctx": "hint",
-   "t": "Farmers choose SMF, government contract staff choose Contractual, and destitute families who got the Covid aid choose Covid 19 ex Gratia."
-  },
-  {
-   "k": "11dc9e241912",
-   "ctx": "label",
-   "t": "Jan Aadhaar number or enrolment receipt number"
-  },
-  {
    "k": "30a802b56d26",
    "ctx": "hint",
    "t": "The 10-digit family number on the Jan Aadhaar card. If the card is still being made, the enrolment receipt number also works."
@@ -839,6 +799,31 @@
    "k": "ef41abc5a856",
    "ctx": "department",
    "t": "Health and Family Welfare Department, Tamil Nadu Health Systems Project (TNHSP)"
+  },
+  {
+   "k": "d7992f9571e5",
+   "ctx": "brief",
+   "t": "Free, cashless hospital treatment for low-income families in Tamil Nadu, at government hospitals and empanelled private hospitals, up to Rs 5 lakh per family a year. In Tamil Nadu it runs together with Ayushman Bharat PM-JAY (CMCHIS-PMJAY), so one card covers both. In August 2026 the Chief Minister announced that the yearly cover will rise to Rs 25 lakh; ask the helpline whether the higher cover has started. You enrol once, at the CMCHIS card centre in the District Collector's office."
+  },
+  {
+   "k": "2d6c54697f0e",
+   "ctx": "benefit",
+   "t": "Up to Rs 5 lakh a year per family, cashless (Rs 25 lakh cover announced in August 2026)"
+  },
+  {
+   "k": "a24309f7b286",
+   "ctx": "eligibility",
+   "t": "Annual family income below Rs 1,20,000, certified by the Village Administrative Officer (VAO)"
+  },
+  {
+   "k": "bbc2ef753e58",
+   "ctx": "eligibility",
+   "t": "The family holds a Tamil Nadu ration (smart family) card, and everyone to be covered is named on it"
+  },
+  {
+   "k": "bfef3be45c55",
+   "ctx": "eligibility",
+   "t": "Covers the head of the family, the legal spouse, children and dependent parents"
   }
  ]
 }

@@ -6,129 +6,9 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_11.json",
  "items": [
   {
-   "k": "aa5f1578ac3c",
-   "ctx": "hint",
-   "t": "The app shows the members on the Family ID. Pick the woman who is applying. She must be 23 or older."
-  },
-  {
-   "k": "de5d81497256",
-   "ctx": "hint",
-   "t": "The applicant's own Aadhaar number."
-  },
-  {
-   "k": "7c96cbcdf650",
-   "ctx": "label",
-   "t": "Residence in Haryana"
-  },
-  {
-   "k": "6dd9fc500a2c",
-   "ctx": "value",
-   "t": "15+ years, residence certificate"
-  },
-  {
-   "k": "6add2789117e",
-   "ctx": "hint",
-   "t": "If you married into Haryana from another state, your husband's 15 years of residence counts."
-  },
-  {
-   "k": "0cf3256fa5da",
-   "ctx": "label",
-   "t": "Electricity consumer account number"
-  },
-  {
-   "k": "64bdbf1510f8",
-   "ctx": "hint",
-   "t": "Printed on your electricity bill."
-  },
-  {
-   "k": "6c6c0eb0472c",
-   "ctx": "label",
-   "t": "Vehicle owned"
-  },
-  {
-   "k": "6a19f4998625",
-   "ctx": "hint",
-   "t": "Give any car or other vehicle owned by the family. It is checked against transport records."
-  },
-  {
-   "k": "209206107a30",
-   "ctx": "hint",
-   "t": "Only if you or a family member work through Haryana Kaushal Rozgar Nigam."
-  },
-  {
-   "k": "b91e94f9a2ff",
-   "ctx": "hint",
-   "t": "Must be in the woman's own name. PFMS checks it before the first payment."
-  },
-  {
-   "k": "bfecea59217b",
-   "ctx": "label",
-   "t": "Monthly amount you choose"
-  },
-  {
-   "k": "8ee83ad14d1f",
-   "ctx": "value",
-   "t": "Rs 2,100 (full amount)"
-  },
-  {
-   "k": "e4d06a40b276",
-   "ctx": "hint",
-   "t": "Asked by SMS after verification. If you choose Rs 1,500 or less, Rs 500 is paid and Rs 1,000 still goes into the RD."
-  },
-  {
-   "k": "20bb5a24f509",
-   "ctx": "demoSteps",
-   "t": "Install the Lado Lakshmi app (made by HARTRON for the Haryana government) from Google Play or the App Store. Do not use any other app, link or form."
-  },
-  {
-   "k": "e8fcefdc884c",
-   "ctx": "demoSteps",
-   "t": "Register with your mobile number and OTP, choose Apply for the Scheme, enter the Family ID and pick the woman who is applying."
-  },
-  {
-   "k": "594bc176a696",
-   "ctx": "demoSteps",
-   "t": "Fill in the Aadhaar, residence, electricity, vehicle and bank details and submit. Note the Registration ID shown on screen."
-  },
-  {
-   "k": "13a5b09bdcb8",
-   "ctx": "demoSteps",
-   "t": "CRID checks your details against Family ID records within 15 days. If you are eligible, an SMS asks you to choose the monthly amount: confirm it and give consent in the app with your Registration ID."
-  },
-  {
-   "k": "ebbb9611261a",
-   "ctx": "demoSteps",
-   "t": "The District Social Welfare Officer creates your DDLLY ID and PFMS checks the bank account. Payment starts the next month: Rs 2,100 in full the first month, then Rs 1,100 to the account and Rs 1,000 to the RD."
-  },
-  {
-   "k": "99bc06cae0e2",
-   "ctx": "demoSteps",
-   "t": "After the first payment, do the face check (Blink to Click) in the app every month, or the money stops. Raise any complaint in the app's grievance window: the DSWO must act within 7 days."
-  },
-  {
-   "k": "698d5cd25173",
-   "ctx": "helpline",
-   "t": "1800-180-2231 (toll-free Lado Lakshmi helpline) / 0172-4880500 (Family ID and verification helpline)"
-  },
-  {
-   "k": "48643a1afd96",
-   "ctx": "title",
-   "t": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana (Rs 1,500 for Women)"
-  },
-  {
-   "k": "de6f523880bd",
-   "ctx": "department",
-   "t": "Department of Social Justice & Empowerment (Directorate of Empowerment of SCs, OBCs, Minorities & Specially Abled), Government of Himachal Pradesh"
-  },
-  {
    "k": "5b896d832bda",
    "ctx": "brief",
    "t": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification."
-  },
-  {
-   "k": "022a6d3d7a57",
-   "ctx": "benefit",
-   "t": "Rs 1,500 a month (Rs 18,000 a year), by DBT"
   },
   {
    "k": "064a1f59eb9a",
@@ -161,11 +41,6 @@
    "t": "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
   },
   {
-   "k": "51b6d9af61b9",
-   "ctx": "documents",
-   "t": "Bonafide Himachali (permanent residence) certificate"
-  },
-  {
    "k": "41b72165e684",
    "ctx": "documents",
    "t": "Proof of age (birth certificate, school certificate or Aadhaar)"
@@ -196,34 +71,14 @@
    "t": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat."
   },
   {
-   "k": "c1cff2a9d3a0",
-   "ctx": "label",
-   "t": "Name of applicant"
-  },
-  {
-   "k": "4ce7fb8b56bc",
-   "ctx": "value",
-   "t": "Sunita Thakur"
-  },
-  {
    "k": "d76d2dd4570a",
    "ctx": "hint",
    "t": "The woman's own name, as on Aadhaar and the bank passbook."
   },
   {
-   "k": "daf1d3e84be5",
-   "ctx": "value",
-   "t": "Shri Rajinder Singh"
-  },
-  {
    "k": "87d8aac6ad28",
    "ctx": "hint",
    "t": "As written in the Parivar Register or ration card."
-  },
-  {
-   "k": "b4c943b845e0",
-   "ctx": "value",
-   "t": "12-04-1984 / 42 years"
   },
   {
    "k": "ee70810424cf",
@@ -241,19 +96,9 @@
    "t": "Village, panchayat, tehsil and district where you live permanently."
   },
   {
-   "k": "a4aef4a4b1a6",
-   "ctx": "value",
-   "t": "Rs 1,40,000"
-  },
-  {
    "k": "92353b263003",
    "ctx": "hint",
    "t": "Income of the whole family from all sources, as in the income certificate. It must be below Rs 2 lakh."
-  },
-  {
-   "k": "7a7e64014a85",
-   "ctx": "label",
-   "t": "BPL family"
   },
   {
    "k": "3fd76cf7cc45",
@@ -261,34 +106,14 @@
    "t": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
   },
   {
-   "k": "0cebc5ee9d3a",
-   "ctx": "hint",
-   "t": "The applicant's own Aadhaar."
-  },
-  {
    "k": "dbe6f062a1cd",
    "ctx": "hint",
    "t": "An account in your own name; the Rs 1,500 is paid here every month."
   },
   {
-   "k": "cd422f4228cb",
-   "ctx": "label",
-   "t": "Parivar Register / ration card number"
-  },
-  {
-   "k": "9a99d79673fd",
-   "ctx": "value",
-   "t": "PR No. 99/18"
-  },
-  {
    "k": "c9655a3070f0",
    "ctx": "hint",
    "t": "Villages give the Parivar Register copy, towns give the ration card."
-  },
-  {
-   "k": "6e3665d85fde",
-   "ctx": "value",
-   "t": "Signed"
   },
   {
    "k": "1c0cfe70dbe1",
@@ -376,11 +201,6 @@
    "t": "18 to 27 years: the course must be in a government college, university or institution in Himachal (degree, PG, diploma, PhD, JBT, NTT, nursing or a professional course)"
   },
   {
-   "k": "9bf0a187d9e1",
-   "ctx": "documents",
-   "t": "Bonafide Himachali certificate"
-  },
-  {
    "k": "3ad27db2ba73",
    "ctx": "documents",
    "t": "Proof of the child's date of birth (birth certificate or 10th certificate)"
@@ -396,29 +216,9 @@
    "t": "Medical certificate of 70% or more permanent disability, for a disabled parent"
   },
   {
-   "k": "ad83da60e607",
-   "ctx": "documents",
-   "t": "Copy of the Parivar Register"
-  },
-  {
-   "k": "624c4fb712be",
-   "ctx": "documents",
-   "t": "Bank account details"
-  },
-  {
    "k": "f548b79a5158",
    "ctx": "documents",
    "t": "For 18 to 27 years: detailed proof of fees and hostel expenses, verified by the head of the institution"
-  },
-  {
-   "k": "4e5a2893bdcc",
-   "ctx": "label",
-   "t": "Login"
-  },
-  {
-   "k": "360851651dec",
-   "ctx": "value",
-   "t": "Him Access SSO"
   },
   {
    "k": "75b26e800ebd",
@@ -426,24 +226,9 @@
    "t": "Log in with your Him Access account using Aadhaar or mobile OTP. A Lok Mitra Kendra can apply for you."
   },
   {
-   "k": "6d512c3f2058",
-   "ctx": "label",
-   "t": "Name of mother / applicant"
-  },
-  {
-   "k": "ba9c893dd88d",
-   "ctx": "value",
-   "t": "Reena Devi"
-  },
-  {
    "k": "7d9f3a212773",
    "ctx": "hint",
    "t": "The mother or the disabled parent who is applying for the child."
-  },
-  {
-   "k": "003fbceeb7d9",
-   "ctx": "label",
-   "t": "Applicant category"
   },
   {
    "k": "c66bb86ddb93",
@@ -884,6 +669,111 @@
    "k": "b11d33784fae",
    "ctx": "documents",
    "t": "J&K Bank account details in the girl's name, once the sanction letter asks for them"
+  },
+  {
+   "k": "62f337572b0e",
+   "ctx": "hint",
+   "t": "Exactly as written on her birth certificate."
+  },
+  {
+   "k": "f417c6ce6c7c",
+   "ctx": "hint",
+   "t": "Must be on or after 01/04/2015. Apply soon after the birth certificate is issued."
+  },
+  {
+   "k": "5df5d09f9e19",
+   "ctx": "hint",
+   "t": "The hospital or place named on the birth certificate."
+  },
+  {
+   "k": "2def7c7dd33a",
+   "ctx": "hint",
+   "t": "The 12 digits on the mother's or father's own Aadhaar card."
+  },
+  {
+   "k": "0e0d634c7ada",
+   "ctx": "hint",
+   "t": "Total from all sources, the same figure as on the income certificate. It must be below Rs.75,000."
+  },
+  {
+   "k": "eb75a09a7626",
+   "ctx": "hint",
+   "t": "The block ICDS project where you live. Its CDPO checks your form."
+  },
+  {
+   "k": "daf7f566a70d",
+   "ctx": "hint",
+   "t": "Application updates and the sanction message come here by SMS."
+  },
+  {
+   "k": "90e46fb17465",
+   "ctx": "demoSteps",
+   "t": "Register on jansugam.jk.gov.in (or open it from e-UNNAT) with your mobile number, then log in."
+  },
+  {
+   "k": "23dbc6a4d67a",
+   "ctx": "demoSteps",
+   "t": "Under Social Welfare, choose Application for obtaining Financial Assistance under Ladli Beti Scheme and fill in the girl's and parents' details."
+  },
+  {
+   "k": "eb156975d256",
+   "ctx": "demoSteps",
+   "t": "Upload the birth, income and domicile certificates and the Aadhaar cards, submit, and note the application number from the SMS."
+  },
+  {
+   "k": "6f01d335d25f",
+   "ctx": "demoSteps",
+   "t": "The CDPO checks the form within 15 days, then the District Programme Officer and the Deputy Commissioner take it up; the whole process is meant to finish within 45 days."
+  },
+  {
+   "k": "9d620c7321b9",
+   "ctx": "demoSteps",
+   "t": "After sanction, open the girl's account at J&K Bank if the sanction letter asks, and add the account number on the portal."
+  },
+  {
+   "k": "cec8a4a73e71",
+   "ctx": "demoSteps",
+   "t": "Rs.1,000 is credited every month until she turns 14. At 21 the matured amount, about Rs.6.5 lakh, is paid to her."
+  },
+  {
+   "k": "fbc8be1b52bb",
+   "ctx": "helpline",
+   "t": "0194-2479645 — Directorate of Social Welfare, Kashmir / your District Social Welfare Officer or CDPO (ICDS) office"
+  },
+  {
+   "k": "1910919f8c3a",
+   "ctx": "department",
+   "t": "Rural Development Department, Government of Jharkhand"
+  },
+  {
+   "k": "7e4ab822a6b5",
+   "ctx": "brief",
+   "t": "Jharkhand's own rural housing scheme: Rs.2 lakh to build a pucca house with three rooms and a kitchen, for families who have no house or live in a kutcha house and did not get one under PM Awas Yojana-Gramin. The state received about 30 lakh applications at the 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camps, found about 20 lakh genuine, and is building houses for them in phases. The money comes in instalments into the beneficiary's bank account as each stage of the house is geo-tagged, plus 95 days of MGNREGA wages for the family's own labour."
+  },
+  {
+   "k": "5270fc1579fa",
+   "ctx": "benefit",
+   "t": "Rs.2 lakh in instalments for a 3-room pucca house with kitchen, plus 95 days of MGNREGA wages"
+  },
+  {
+   "k": "24da11c0a827",
+   "ctx": "eligibility",
+   "t": "Rural families in Jharkhand with no house, or living in a kutcha or broken house"
+  },
+  {
+   "k": "d84f59538e33",
+   "ctx": "eligibility",
+   "t": "The family has never got a house under PMAY-G, Indira Awas, Birsa Awas or Baba Saheb Ambedkar Awas"
+  },
+  {
+   "k": "45a49d5bf86a",
+   "ctx": "eligibility",
+   "t": "Priority for PVTG families, families hit by natural disasters, and freed bonded labourers"
+  },
+  {
+   "k": "16eb8064d533",
+   "ctx": "eligibility",
+   "t": "Not for families with a serving or retired government employee, an income-tax or professional-tax payer, or a motorised four-wheeler or fishing boat"
   }
  ]
 }

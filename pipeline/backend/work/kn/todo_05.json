@@ -6,759 +6,744 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/kn/done_05.json",
  "items": [
   {
-   "k": "acd41dc8a742",
-   "ctx": "eligibility",
-   "t": "Aadhaar e-KYC must be complete, and the bank account must be Aadhaar-seeded and NPCI-mapped"
-  },
-  {
-   "k": "e4a7e940df4c",
-   "ctx": "documents",
-   "t": "Pattadar passbook, or the 1-B / Adangal extract of the land"
-  },
-  {
-   "k": "1b77001e3ec7",
-   "ctx": "documents",
-   "t": "Bank passbook showing account number and IFSC (Aadhaar-seeded account)"
-  },
-  {
-   "k": "dd4180668556",
-   "ctx": "submitAt",
-   "t": "The Rythu Seva Kendram (RSK) in your village. Take Aadhaar, the pattadar passbook or 1-B, the bank passbook and, for tenants, the CCRC card. The Village Agriculture Assistant registers you, does your e-KYC and files a grievance if your name is missing from the eligible list."
-  },
-  {
-   "k": "b019a8422604",
-   "ctx": "hint",
-   "t": "It must match the name in the land record and the bank account, or the money gets stuck."
-  },
-  {
-   "k": "366ce3a9c613",
-   "ctx": "hint",
-   "t": "The farmer's own 12 digits. Status is checked and payment is made on this number."
-  },
-  {
-   "k": "3d3fcb59298a",
-   "ctx": "hint",
-   "t": "The number linked to Aadhaar. OTPs and payment messages come here."
-  },
-  {
-   "k": "99460687bf90",
-   "ctx": "hint",
-   "t": "Land owner, tenant (CCRC holder) or forest-rights (ROFR) holder."
-  },
-  {
-   "k": "fb9b1a573cae",
-   "ctx": "hint",
-   "t": "The village where the land is, not where you live."
-  },
-  {
-   "k": "b6df5bad9494",
-   "ctx": "hint",
-   "t": "Copy them from the pattadar passbook or 1-B. The assistant checks them against Webland."
-  },
-  {
-   "k": "81f148866da3",
-   "ctx": "hint",
-   "t": "Your share as shown in the land record. If land is held jointly, only one family member is paid."
-  },
-  {
-   "k": "a2627e0b9638",
-   "ctx": "hint",
-   "t": "Tenant farmers write the number of this season's Crop Cultivator Rights Card. An expired card is rejected."
-  },
-  {
-   "k": "ef526491ebc8",
-   "ctx": "hint",
-   "t": "Make sure the account is Aadhaar-seeded and NPCI-mapped. Ask your bank if you are not sure."
-  },
-  {
-   "k": "60956e734296",
-   "ctx": "hint",
-   "t": "Without e-KYC no instalment is released. It can be done at the RSK with your thumb."
-  },
-  {
-   "k": "50c015957a06",
+   "k": "e54f5bbb43df",
    "ctx": "demoSteps",
-   "t": "Open annadathasukhibhava.ap.gov.in, tap Know Your Status and enter your Aadhaar. Or check the eligible list on the notice board at your Rythu Seva Kendram."
+   "t": "Open bm-sgsw.ap.gov.in/BM/DeepamStatus. Enter your rice card or LPG consumer number and the captcha to see if your family is eligible."
   },
   {
-   "k": "9219e8163b04",
+   "k": "7840c1dd0757",
    "ctx": "demoSteps",
-   "t": "If your name is missing or shown ineligible, go to the RSK with Aadhaar, pattadar passbook or 1-B, bank passbook and, for tenants, the CCRC card."
+   "t": "If you are shown ineligible, go to your Village or Ward Secretariat with the rice card, gas book and Aadhaar and ask for it to be checked."
   },
   {
-   "k": "8456ce18729f",
+   "k": "ea8445d9ea3f",
    "ctx": "demoSteps",
-   "t": "The Village Agriculture Assistant registers you or enters a grievance in the grievance module and does your e-KYC by fingerprint. Note the grievance number."
+   "t": "Complete LPG e-KYC at your gas agency and make sure the connection holder's bank account is seeded with Aadhaar."
   },
   {
-   "k": "bde5001753be",
+   "k": "997fd231a180",
    "ctx": "demoSteps",
-   "t": "The Agriculture Officer verifies the land record and exclusions. Updated lists are put up at the RSK again."
+   "t": "In each four-month block (April–July, August–November, December–March), book one cylinder with your gas agency in the usual way."
   },
   {
-   "k": "433e5ba9838a",
+   "k": "247d46e93515",
    "ctx": "demoSteps",
-   "t": "Make sure your bank account is linked to Aadhaar and NPCI-mapped, or the payment fails even after approval."
+   "t": "Pay the delivery person the price printed on the bill and keep the bill."
   },
   {
-   "k": "edc17d92509c",
+   "k": "f87e9ebf49c7",
    "ctx": "demoSteps",
-   "t": "The money comes by DBT in three parts each year: Rs.7,000 (Rs.5,000 state + Rs.2,000 PM-Kisan), Rs.7,000, and Rs.6,000 (Rs.4,000 state + Rs.2,000 PM-Kisan). Check your bank passbook."
+   "t": "The full amount is refunded to the Aadhaar-seeded bank account, usually within 48 hours. Check your passbook or the bank SMS."
   },
   {
-   "k": "475b874d83c9",
+   "k": "6cc7647f8a8c",
    "ctx": "demoSteps",
-   "t": "If an instalment does not arrive, check the status again on the portal and call the toll-free number 155251."
+   "t": "If the refund does not come, check the status page again and call the Civil Supplies helpline 1967."
   },
   {
-   "k": "645dc28259dc",
+   "k": "d0da0b99d1f0",
    "ctx": "helpline",
-   "t": "155251 — AP Agriculture Department toll-free (Annadata Sukhibhava) / 155261 — PM-KISAN helpline"
+   "t": "1967 / 1800-425-2977 — AP Civil Supplies helpline / 1902 — AP government citizen helpline"
   },
   {
-   "k": "663dc486849f",
+   "k": "b5a4c84d93d2",
    "ctx": "title",
-   "t": "Thalliki Vandanam (Rs.15,000 per school child to mothers)"
+   "t": "Chief Minister Arogya Arunachal Yojana (CMAAY Card)"
   },
   {
-   "k": "3f0902edd800",
+   "k": "32eb1391f1a5",
    "ctx": "department",
-   "t": "School Education Department, Government of Andhra Pradesh"
+   "t": "State Health Agency (Chief Minister Arogya Arunachal Society), Department of Health & Family Welfare, Government of Arunachal Pradesh"
   },
   {
-   "k": "c3949856bd27",
+   "k": "728d044c6b96",
    "ctx": "brief",
-   "t": "Andhra Pradesh gives Rs.15,000 a year for every child studying in Class 1 to 12 to the child's mother or guardian, however many children she has. Rs.13,000 is credited to her bank account and Rs.2,000 is kept for school upkeep. It replaced the earlier Jagananna Amma Vodi. There is no application form: the school sends the child's details and the Secretariat checks the family. Mothers left out complain at the Swarna Gramam / Swarna Ward office."
+   "t": "Arunachal's own health cover of Rs.5 lakh a year per family, cashless at empanelled government and private hospitals inside and outside the state. It is for APST families, state government employees and pensioners, non-APST Resident Certificate holders of Changlang, Lohit and Namsai, and accredited journalists, and it runs side by side with Ayushman Bharat PM-JAY. Enrolment is free: apply on the CMAAY portal or the Arogya Arunachal app, or at the CMAAY kiosk in a district hospital or a CSC, then download the e-card. The old APCMUHIS smart card is no longer valid, so families must enrol again under CMAAY."
   },
   {
-   "k": "43a7b4e9550c",
+   "k": "6e2877a05e93",
    "ctx": "benefit",
-   "t": "Rs.15,000 a year per child: Rs.13,000 to the mother's account, Rs.2,000 for school upkeep"
+   "t": "Rs.5 lakh a year per family, cashless (Rs.1 lakh secondary care + Rs.4 lakh tertiary care)"
   },
   {
-   "k": "17c630754b32",
+   "k": "604bf9402371",
    "ctx": "eligibility",
-   "t": "Mother or guardian of a child in Class 1 to 12, including Intermediate, at a recognised government, aided, private or residential school or junior college in Andhra Pradesh"
+   "t": "Arunachal Pradesh Scheduled Tribe (APST) families living in the state"
   },
   {
-   "k": "0f9721d2e0a0",
+   "k": "e4c66f94f636",
    "ctx": "eligibility",
-   "t": "At least one family member holds a rice card. Family income is up to Rs.10,000 a month in a village or Rs.12,000 a month in a town"
+   "t": "Regular state government employees and state pensioners, with their dependent family members"
   },
   {
-   "k": "4f292548828a",
+   "k": "5a965f988fde",
    "ctx": "eligibility",
-   "t": "Land below 3 acres of wet land, 10 acres of dry land, or 10 acres in all. Average electricity use below 300 units a month"
+   "t": "Non-APST permanent residents of Changlang, Lohit and Namsai districts who hold a Resident Certificate (RC)"
   },
   {
-   "k": "78e7ba73e6a8",
+   "k": "790fc89a2cb4",
    "ctx": "eligibility",
-   "t": "No four-wheeler in the family (a taxi, tractor or auto is allowed), and no town property of 1,000 sq ft or more"
+   "t": "Working journalists accredited with the Arunachal Pradesh Union of Working Journalists (APUWJ) or the Arunachal Press Club"
   },
   {
-   "k": "7ee54df8e756",
+   "k": "9a6b324c45c7",
    "ctx": "eligibility",
-   "t": "No government employee, government pensioner or income-tax payer in the family. Sanitation and Anganwadi workers are exempt"
+   "t": "Not for Central Government or PSU employees"
   },
   {
-   "k": "192273e85f45",
+   "k": "ef4a8b8b1c17",
    "ctx": "eligibility",
-   "t": "ITI, polytechnic and IIIT (RGUKT) students are not covered"
+   "t": "No income limit. The Rs.1 lakh secondary and Rs.4 lakh tertiary limits cannot be swapped, and treatment outside the state needs a referral from a government hospital, except in emergencies"
   },
   {
-   "k": "112d4a1f0392",
+   "k": "4525944b508d",
    "ctx": "documents",
-   "t": "Aadhaar card of the mother or guardian"
+   "t": "APST (tribe) certificate issued by the Government of Arunachal Pradesh, for APST families"
   },
   {
-   "k": "4fa58bee5477",
+   "k": "77cd04b32df6",
    "ctx": "documents",
-   "t": "Bank or post office passbook in the mother's name, Aadhaar-seeded and NPCI-mapped"
+   "t": "Resident Certificate (RC), for non-APST families of Changlang, Lohit and Namsai"
   },
   {
-   "k": "91f58e4e0d9f",
+   "k": "161823081606",
    "ctx": "documents",
-   "t": "The child's school admission details (school name and class), given to the head of the school"
+   "t": "Ration card or family tree certificate showing the family members"
   },
   {
-   "k": "15b464b19c35",
+   "k": "a8299c98722d",
    "ctx": "documents",
-   "t": "Electricity bill or other proof, only if you are disputing the reason you were found ineligible"
+   "t": "Government employees: employee ID card and the family declaration form countersigned by the DDO or Head of Office; pensioners: PPO"
   },
   {
-   "k": "8cd5ce57a3ec",
-   "ctx": "submitAt",
-   "t": "No application is needed. The head of the school enters the child's details, and the Swarna Gramam / Swarna Ward office (Village or Ward Secretariat) checks the family. The eligible and ineligible lists are put up at that office. If you are left out, file a grievance there with the Welfare and Education Assistant or the Digital Assistant. Take the mother's and child's Aadhaar, the rice card, the bank passbook and proof against the reason for rejection."
+   "k": "2155f146a8d4",
+   "ctx": "documents",
+   "t": "Journalists: accreditation certificate from APUWJ or the Arunachal Press Club"
   },
   {
-   "k": "d650844f7d85",
+   "k": "88664c5e0ba8",
    "ctx": "hint",
-   "t": "As on her Aadhaar. The money goes to the mother; to the father only if she is not there, and to a guardian if neither parent is."
+   "t": "Choose Public for APST and RC families. Government employees, state pensioners and journalists pick their own type."
   },
   {
-   "k": "3cda3078661c",
+   "k": "25301e439a90",
    "ctx": "hint",
-   "t": "She must be in the Secretariat's household database. If only the child is listed, ask for field verification."
+   "t": "Aadhaar of the head of the family. The OTP goes to the mobile linked with it, and you can create or fetch the ABHA number here."
   },
   {
-   "k": "598b0c08ebbf",
+   "k": "6bc9f4fff828",
    "ctx": "hint",
-   "t": "Exactly as in the school register. One entry for each child."
+   "t": "Exactly as written on the Aadhaar card, in capital letters."
   },
   {
-   "k": "3641f84e82da",
+   "k": "7deb8c6f0304",
    "ctx": "hint",
-   "t": "It must match the school's UDISE record, or the child is dropped as a duplicate."
+   "t": "Father's name, or husband's name for a married woman."
   },
   {
-   "k": "542d2c0c8003",
+   "k": "57b2754f7214",
    "ctx": "hint",
-   "t": "Any recognised government, aided, private or residential school, or a junior college for Intermediate."
+   "t": "As on Aadhaar. The age is filled in by itself."
   },
   {
-   "k": "1d8c1e10f748",
+   "k": "f2efd235e2c3",
    "ctx": "hint",
-   "t": "At least one person in the family must hold a rice card."
+   "t": "Relation is how this person is related to the head of the family. The head is always Self."
   },
   {
-   "k": "7f9b65260dbc",
+   "k": "cd1cc9bd7af7",
    "ctx": "hint",
-   "t": "In the mother's own name. It must be Aadhaar-seeded and NPCI-mapped, or the payment fails."
+   "t": "A number you keep with you. Messages about approval come here."
   },
   {
-   "k": "830849fb5cf1",
+   "k": "c94e10c9ee6b",
+   "ctx": "label",
+   "t": "Ration Card No. / Ration Card Type"
+  },
+  {
+   "k": "b284b6ecd685",
    "ctx": "hint",
-   "t": "Read the reason on the list at the office. Common ones are electricity, land, four-wheeler, government job and income tax."
+   "t": "Copy the number from the ration card and tick APL or BPL as printed on it."
   },
   {
-   "k": "1594fab644e6",
+   "k": "58a45a535139",
+   "ctx": "label",
+   "t": "Permanent Address, Pin Code, District, Circle, Village"
+  },
+  {
+   "k": "839bdb2cad8b",
    "ctx": "value",
-   "t": "The meter is shared by three rented portions; our own use is about 120 units"
+   "t": "Doimukh, 791112, Papum Pare, Doimukh Circle, Doimukh"
   },
   {
-   "k": "529f5608e7c1",
+   "k": "03b9563093e6",
    "ctx": "hint",
-   "t": "Say plainly why the reason is wrong and attach proof, such as the bill, a rent agreement or a land record."
+   "t": "Your permanent address in Arunachal, as on the ST certificate or RC."
   },
   {
-   "k": "53805c83e523",
+   "k": "0a2c61f016a5",
+   "ctx": "value",
+   "t": "ST Certificate, Aadhaar Card, Family Self Declaration"
+  },
+  {
+   "k": "23cf0ce9c46e",
+   "ctx": "hint",
+   "t": "Upload a clear photo or PDF of each. RC holders upload the RC instead of the ST certificate. Employees also upload the DDO certificate."
+  },
+  {
+   "k": "34d31ff6e1e9",
    "ctx": "demoSteps",
-   "t": "Make sure the school has your child's correct Aadhaar, and your own name and Aadhaar as the mother. The head of the school enters these details."
+   "t": "Open the CMAAY portal and click Apply Online under Enrollment. Choose your enrolment type: Public, Government Employee, State Pensioner or State Working Journalist."
   },
   {
-   "k": "bb0cf76984d0",
+   "k": "ce0e647d33da",
    "ctx": "demoSteps",
-   "t": "Keep your bank account Aadhaar-seeded and NPCI-mapped. Ask the bank or post office to check it."
+   "t": "Enter the Aadhaar number of the head of the family and verify with the OTP. Create or fetch the ABHA number when asked."
   },
   {
-   "k": "7b4d665ce257",
+   "k": "6c6d16469ba7",
    "ctx": "demoSteps",
-   "t": "When the money is released (late July in 2026), check your passbook and look for your name on the eligible list at the Swarna Gramam / Swarna Ward office."
+   "t": "Fill in the head of the family's details, then add each family member with their own Aadhaar and their relation to the head."
   },
   {
-   "k": "6cf8f4bb168f",
+   "k": "f6d8bac4139e",
    "ctx": "demoSteps",
-   "t": "If you are left out or shown ineligible, file a grievance at that office within the window it announces (22 July to 3 August in 2026). Take Aadhaar, the rice card, the passbook and proof against the reason. Keep the grievance number."
+   "t": "Upload the ST certificate or RC, the Aadhaar cards and the family declaration, then submit. Note the reference number. Enrolment is free."
   },
   {
-   "k": "64ec4b4e2f01",
+   "k": "d6b5ec1bfc4a",
    "ctx": "demoSteps",
-   "t": "Staff verify the grievance at your home or with records and prepare a supplementary list."
+   "t": "The State Health Agency checks the documents. Use Check Status on the portal, and Reply To Query if they ask for anything more."
   },
   {
-   "k": "03a049b3e37f",
+   "k": "8f1edfd6cb23",
    "ctx": "demoSteps",
-   "t": "If accepted, Rs.13,000 for each eligible child is credited to your account in the second round (30 August in 2026)."
+   "t": "Once approved, download and print the CMAAY e-card. If you get stuck online, go to the CMAAY kiosk at the district hospital or a CSC with the same documents."
   },
   {
-   "k": "fa7a216da2ad",
+   "k": "9463c9fdda2c",
    "ctx": "demoSteps",
-   "t": "For help, ask the Welfare and Education Assistant at the office or call 1902."
+   "t": "At an empanelled hospital, show the e-card to the Arogya Mitra. Treatment is cashless. For a hospital outside Arunachal, first get a referral from a government hospital (PHC, CHC or district hospital), unless it is an emergency."
   },
   {
-   "k": "5bf26bffeb4a",
+   "k": "8aa5e8ddf5a0",
    "ctx": "helpline",
-   "t": "1902 — AP government citizen helpline (Swarna Gramam / Swarna Ward and Secretariat services)"
+   "t": "1800 233 5558 — CMAAY toll-free / 08956048405 — CMAAY helpline / 9402914555 — CMAAY WhatsApp / 14555 — Ayushman Bharat national helpline"
   },
   {
-   "k": "d2f40c74cdd3",
+   "k": "cc21d02a508f",
    "ctx": "title",
-   "t": "AP Building and Other Construction Workers Registration (Construction Worker Card)"
+   "t": "Ayushman Asom – Mukhya Mantri Jan Arogya Yojana (AA-MMJAY Ayushman Card)"
   },
   {
-   "k": "4aa6817c93a1",
+   "k": "b04c9d0a16a5",
    "ctx": "department",
-   "t": "AP Building and Other Construction Workers Welfare Board, Labour Department, Government of Andhra Pradesh"
+   "t": "Atal Amrit Abhiyan Society, Health & Family Welfare Department, Government of Assam"
   },
   {
-   "k": "c975099be084",
+   "k": "1c0a8fd79b4f",
    "ctx": "brief",
-   "t": "Masons, helpers, carpenters, painters, plumbers, electricians and other construction workers register with the state construction workers' welfare board and get an ID card. Card holders and their families can claim money for marriage, childbirth, natural death and funeral. These benefits were restored from 1 March 2026. Registration costs Rs.50 once plus Rs.12 a year, and claims are made through the Village or Ward Secretariat."
+   "t": "Free, cashless hospital treatment of up to Rs.5 lakh a year per family at empanelled government and private hospitals in Assam. It covers about 26 lakh NFSA ration card families who are not on the Ayushman Bharat PM-JAY list, with the same treatment packages. It replaced the older Atal Amrit Abhiyan health card, which was merged into it in 2023. The card is made by Aadhaar e-KYC, done by ASHA workers and other frontline staff at home or at camps."
   },
   {
-   "k": "5eba0d5a1011",
+   "k": "829ad75bdd77",
    "ctx": "benefit",
-   "t": "Rs.20,000 marriage gift, Rs.20,000 maternity help, Rs.60,000 on natural death, Rs.20,000 funeral expenses"
+   "t": "Rs.5 lakh a year per family, cashless, at over 300 empanelled hospitals"
   },
   {
-   "k": "703b183ca6d7",
+   "k": "287a40eda2c2",
    "ctx": "eligibility",
-   "t": "Age 18 to 59 at the time of registration"
+   "t": "Families listed in Assam's NFSA (ration card) database who are not already covered by Ayushman Bharat PM-JAY"
   },
   {
-   "k": "5bf815552cea",
+   "k": "0bcdbd7bd084",
    "ctx": "eligibility",
-   "t": "Worked at least 90 days in the past 12 months in building or other construction work in Andhra Pradesh: mason, helper, carpenter, painter, plumber, electrician, centring, tiles and similar trades"
+   "t": "Of about 56 lakh NFSA families, about 30 lakh are under PM-JAY and the other 26 lakh under AA-MMJAY"
   },
   {
-   "k": "18381436a3ac",
+   "k": "f7e7775abdfb",
    "ctx": "eligibility",
-   "t": "Road workers employed for more than 90 days and mining workers can also register"
+   "t": "Every member named on the ration card is covered. There is no limit on family size or age"
   },
   {
-   "k": "fa08c894ef51",
+   "k": "d185aa2abfe6",
    "ctx": "eligibility",
-   "t": "Registration fee of Rs.50 once, plus a contribution of Rs.12 a year; the card must be renewed to stay valid"
+   "t": "All PM-JAY treatment packages are included: 1,949 procedures in 27 specialities"
   },
   {
-   "k": "6d9eda85f442",
+   "k": "bbace1433e11",
    "ctx": "eligibility",
-   "t": "Benefits are paid only to workers holding a valid, renewed card. Marriage help covers a woman worker and two daughters, and maternity help covers a woman worker, the wife and two daughters"
+   "t": "Government employees and pensioners are not covered here; they have the separate AA-MMLSAY scheme"
   },
   {
-   "k": "bfbca7675b55",
+   "k": "33b14f57a537",
    "ctx": "documents",
-   "t": "Certificate of 90 days of construction work, signed by the employer or builder, a registered trade union, or the labour officer"
+   "t": "Aadhaar card of each member who needs a card"
   },
   {
-   "k": "055155d3e535",
+   "k": "25c191e4b2aa",
    "ctx": "documents",
-   "t": "Bank passbook showing account number and IFSC"
+   "t": "Mobile number (if it is linked to Aadhaar, OTP e-KYC is quicker)"
   },
   {
-   "k": "5edfcb7197f6",
+   "k": "59620ef4f922",
+   "ctx": "submitAt",
+   "t": "There is no paper form. Ask your ASHA worker, MPW, Bima Sakhi or Digipay Sakhi to do the AA-MMJAY e-KYC at your home or at the village camp. You can also go to the Ayushman desk (Arogya Mitra) of any empanelled hospital, the district kiosk at the medical college or civil hospital, or a Common Service Centre. Take the NFSA ration card, the Aadhaar card of each member and your mobile phone. Each member must be present for Aadhaar OTP or face authentication."
+  },
+  {
+   "k": "258d5be845db",
+   "ctx": "hint",
+   "t": "The operator can search by ration card, Aadhaar or name. The ration card finds the whole family at once."
+  },
+  {
+   "k": "4b68cbc51367",
+   "ctx": "hint",
+   "t": "Copy it from the NFSA ration card. If nothing is found, try the head of family's Aadhaar."
+  },
+  {
+   "k": "fc5a59fb414d",
+   "ctx": "hint",
+   "t": "The list shows whether your family is under PM-JAY or AA-MMJAY. Both give the same Rs.5 lakh cover."
+  },
+  {
+   "k": "7841b2eae0fb",
+   "ctx": "hint",
+   "t": "Each member is done one by one. Pick the person who is sitting with the operator."
+  },
+  {
+   "k": "09dc87ecadf4",
+   "ctx": "hint",
+   "t": "The Aadhaar of this member. Children need their own Aadhaar too."
+  },
+  {
+   "k": "8c734e5586dc",
+   "ctx": "hint",
+   "t": "Use OTP if the mobile is linked to Aadhaar; otherwise face authentication or fingerprint."
+  },
+  {
+   "k": "6444ea3566e2",
+   "ctx": "hint",
+   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the card rejected."
+  },
+  {
+   "k": "f9802960944f",
+   "ctx": "hint",
+   "t": "Any working number in the family. Approval messages come here."
+  },
+  {
+   "k": "7c88aabbd7fe",
+   "ctx": "hint",
+   "t": "How this person is related to the first name on the ration card."
+  },
+  {
+   "k": "0b066d62b8a9",
+   "ctx": "hint",
+   "t": "Where you live now, so nearby empanelled hospitals are shown."
+  },
+  {
+   "k": "ac9101590a90",
+   "ctx": "demoSteps",
+   "t": "Check whether your family is on the list by asking your ASHA worker or calling 14555 with the ration card number. NFSA families not under PM-JAY fall under AA-MMJAY."
+  },
+  {
+   "k": "4aa9a9182506",
+   "ctx": "demoSteps",
+   "t": "Get the e-KYC done by the ASHA, MPW, Bima Sakhi or Digipay Sakhi at home or at a camp, or at the Ayushman desk of an empanelled hospital or the district kiosk."
+  },
+  {
+   "k": "ea50c449ba74",
+   "ctx": "demoSteps",
+   "t": "The operator finds your family, verifies each member with Aadhaar OTP or a face scan, and takes a live photo."
+  },
+  {
+   "k": "669aa86db63a",
+   "ctx": "demoSteps",
+   "t": "The request goes to the Atal Amrit Abhiyan Society for approval. Once approved, the operator gives you the Ayushman card."
+  },
+  {
+   "k": "19dd6a812ac4",
+   "ctx": "demoSteps",
+   "t": "When you need treatment, go to the Arogya Mitra desk of an empanelled hospital with the card or Aadhaar. The hospital takes approval before treatment, and you pay nothing for a listed procedure."
+  },
+  {
+   "k": "aa0a1d7521db",
+   "ctx": "demoSteps",
+   "t": "If a hospital asks for money or refuses the card, call 1800-103-9975 or 14555."
+  },
+  {
+   "k": "08d1c0d47262",
+   "ctx": "helpline",
+   "t": "1800-103-9975 — Atal Amrit Abhiyan toll-free (PM-JAY and MMJAY) / 14555 — national Ayushman helpline / 0361-2333603 — Atal Amrit Abhiyan Society office, Guwahati"
+  },
+  {
+   "k": "3db860f76d4e",
+   "ctx": "department",
+   "t": "Finance (Institutional Finance) Department, Government of Assam"
+  },
+  {
+   "k": "6c111b22b556",
+   "ctx": "brief",
+   "t": "Assam's monthly cash support for poor families, paid straight into the bank account of one woman the family nominates. It pays Rs.1,250 a month to about 37 to 40 lakh families, and for October 2026 alone the government raised it to Rs.1,500 for the Puja season. Orunodoi 3.0 replaced the earlier versions 1.0 and 2.0, so every family, old beneficiaries included, had to apply afresh. Names are first picked at the Gaon Panchayat, VCDC or ward level, and the family needs an Aadhaar-seeded NFSA ration card."
+  },
+  {
+   "k": "79f6e1dca06a",
+   "ctx": "benefit",
+   "t": "Rs.1,250 a month by DBT to the woman of the family (Rs.1,500 for October 2026)"
+  },
+  {
+   "k": "c855e2918067",
+   "ctx": "eligibility",
+   "t": "Permanent resident of Assam who lives in the state now"
+  },
+  {
+   "k": "bf6a30075ee9",
+   "ctx": "eligibility",
+   "t": "The family holds an NFSA ration card seeded with Aadhaar, and its income is within the NFSA limit of the Assam Food Security Rules"
+  },
+  {
+   "k": "c18050cd4239",
+   "ctx": "eligibility",
+   "t": "The family nominates one woman aged 18 or above. The money goes only to her own Aadhaar-seeded bank account"
+  },
+  {
+   "k": "e996f32e08c2",
+   "ctx": "eligibility",
+   "t": "Priority for widows, divorced or separated women, unmarried women above 45, families with a divyang or transgender member, and families living with thalassemia, HIV or leprosy"
+  },
+  {
+   "k": "48eb1a2e47ab",
+   "ctx": "eligibility",
+   "t": "Not for families with a serving or retired government or PSU employee, a current or former MP or MLA, a current panchayat or municipal member, or an income-tax payer"
+  },
+  {
+   "k": "e16e20e9b7ae",
+   "ctx": "eligibility",
+   "t": "Also left out: families of doctors, engineers, lawyers and chartered accountants, families owning a motorised four-wheeler, and landholders above the small and marginal farmer category"
+  },
+  {
+   "k": "cca0ba6697bb",
    "ctx": "documents",
-   "t": "Names, ages and relation of family members, and the nominee"
+   "t": "NFSA ration card of the family, seeded with Aadhaar"
   },
   {
-   "k": "158e64c28250",
+   "k": "0dddc37885c7",
    "ctx": "documents",
-   "t": "Registration fee of Rs.50 plus Rs.12 for each year"
+   "t": "Aadhaar card of the nominated woman"
   },
   {
-   "k": "0b258c3b0143",
+   "k": "1bc42276aafb",
+   "ctx": "documents",
+   "t": "Passbook of her own bank account, seeded with Aadhaar (payments are now made through the Aadhaar-based payment system)"
+  },
+  {
+   "k": "68858f2af0b7",
+   "ctx": "documents",
+   "t": "Mobile number, preferably the one linked to her Aadhaar"
+  },
+  {
+   "k": "9b660f610d94",
+   "ctx": "documents",
+   "t": "Proof for a priority category, if any: husband's death certificate, divorce papers, or disability (UDID) certificate"
+  },
+  {
+   "k": "6f7a0a77aa90",
+   "ctx": "documents",
+   "t": "Signed undertaking on the eligibility conditions, filled at the Gaon Panchayat or ward office"
+  },
+  {
+   "k": "cc9832c531d6",
+   "ctx": "submitAt",
+   "t": "Your Gaon Panchayat office (the VCDC office in Sixth Schedule areas, or the ward or municipal office in towns), when the government opens a round for new names. The form is free there, and the Orunodoi Sarothi of your Assembly constituency helps you fill it. Go with the nominated woman and take the Aadhaar-seeded ration card, her Aadhaar card, her Aadhaar-seeded bank passbook, a mobile phone, and any widow, divorce or disability papers. Get a signed acknowledgement slip. There is no online application, so do not pay anyone who offers to apply online for you."
+  },
+  {
+   "k": "0cad5fa42fcf",
+   "ctx": "hint",
+   "t": "Exactly as on her Aadhaar card and in her bank account. The money goes only to her."
+  },
+  {
+   "k": "a9a9c86ae76c",
+   "ctx": "hint",
+   "t": "Write the husband's name if she is married, otherwise the father's name."
+  },
+  {
+   "k": "e7c026d4748c",
+   "ctx": "hint",
+   "t": "In a town, write the municipality or town committee name instead."
+  },
+  {
+   "k": "b0f68de21a4f",
+   "ctx": "hint",
+   "t": "The village or ward where the family actually lives and eats together."
+  },
+  {
+   "k": "f4cf746eebb9",
+   "ctx": "hint",
+   "t": "Copy it from the ration card. Her name should be on this card."
+  },
+  {
+   "k": "1d4604285783",
+   "ctx": "hint",
+   "t": "The nominated woman's 12-digit Aadhaar number."
+  },
+  {
+   "k": "9cd64e19150d",
+   "ctx": "hint",
+   "t": "Her own account, seeded with Aadhaar. A joint account or someone else's account will be rejected."
+  },
+  {
+   "k": "4413d152e26f",
+   "ctx": "hint",
+   "t": "SMS about wrong bank details or approval comes to this number."
+  },
+  {
+   "k": "b7c5340a489b",
+   "ctx": "hint",
+   "t": "Tick widow, divorced, separated, unmarried above 45, divyang or transgender member if it applies, and attach the proof."
+  },
+  {
+   "k": "0f26f5755fd8",
+   "ctx": "label",
+   "t": "Number of members on the ration card"
+  },
+  {
+   "k": "6b7cbcecb1e0",
+   "ctx": "hint",
+   "t": "Count everyone listed on the ration card. Only one woman per family can get Orunodoi."
+  },
+  {
+   "k": "f3dd8605f184",
+   "ctx": "demoSteps",
+   "t": "Watch for a new Orunodoi round announced in the newspapers, on the Gaon Panchayat notice board or by your Orunodoi Sarothi. Women already getting the money do not need to apply again unless they are asked to."
+  },
+  {
+   "k": "e60008e44ac7",
+   "ctx": "demoSteps",
+   "t": "Collect the free form at the Gaon Panchayat, VCDC or ward office. Fill it with the nominated woman's details, attach the copies, sign the undertaking and keep the acknowledgement slip."
+  },
+  {
+   "k": "0d3ebbfe6da2",
+   "ctx": "demoSteps",
+   "t": "The Gaon Panchayat, VCDC or town body checks each family against the eligibility checklist. The District Level Monitoring Committee under the Deputy Commissioner then finalises the list."
+  },
+  {
+   "k": "2b8175f04654",
+   "ctx": "demoSteps",
+   "t": "The approved list is published and the Finance Department checks the bank details. If an SMS says your details are wrong, correct them at the Gaon Panchayat or ward office."
+  },
+  {
+   "k": "f0ea67664237",
+   "ctx": "demoSteps",
+   "t": "Rs.1,250 then arrives in her bank account every month by DBT. Keep the account seeded with Aadhaar, or the payment is held back."
+  },
+  {
+   "k": "4467cfd6dbf4",
+   "ctx": "demoSteps",
+   "t": "If the money stops or the name is missing, call the Orunodoi helpdesk on 1800-202-6256 (working days, 10 am to 6 pm) or meet the Orunodoi Sarothi."
+  },
+  {
+   "k": "e5c876f513f6",
+   "ctx": "helpline",
+   "t": "1800-202-6256 — Orunodoi 3.0 helpdesk, Finance Department, Assam (working days, 10 am to 6 pm)"
+  },
+  {
+   "k": "fc1656306d33",
+   "ctx": "title",
+   "t": "Mukhya Mantrir Nijut Moina Aasoni (Nijut Moina)"
+  },
+  {
+   "k": "1d546b590169",
+   "ctx": "department",
+   "t": "Directorate of Higher Education, Higher Education Department, Government of Assam"
+  },
+  {
+   "k": "fc9cc48ea165",
+   "ctx": "brief",
+   "t": "A monthly allowance for girl students in Assam, paid for 10 months a year so that girls keep studying instead of being married off early. A girl in Class 11 or 12 gets Rs.1,000 a month, a degree student Rs.1,250 and a postgraduate or B.Ed student Rs.2,500, whatever the family income. Now in its second phase (Nijut Moina 2.0), it opens every August: the college gives out the form, and the student then submits an online application on the Samarth student portal (degree and PG) or the AHSEC DARPAN portal (Class 11 and 12)."
+  },
+  {
+   "k": "b9dc056b5bd7",
+   "ctx": "benefit",
+   "t": "Rs.1,000 (HS), Rs.1,250 (degree) or Rs.2,500 (PG and B.Ed) a month for 10 months a year"
+  },
+  {
+   "k": "6057ec6ef77f",
+   "ctx": "eligibility",
+   "t": "Girl students domiciled in Assam, whatever the family income"
+  },
+  {
+   "k": "5075f9981050",
+   "ctx": "eligibility",
+   "t": "Studying in HS 1st or 2nd year, a degree course, PG or B.Ed in a government or provincialised institution. Girls in polytechnic courses are covered from 2026-27"
+  },
+  {
+   "k": "bb4f53becc2a",
+   "ctx": "eligibility",
+   "t": "She must be unmarried. Married girls are allowed only in PG and B.Ed courses"
+  },
+  {
+   "k": "d753f0035107",
+   "ctx": "eligibility",
+   "t": "Not for daughters of Ministers, MPs or MLAs, or for in-service teachers sent to B.Ed on deputation"
+  },
+  {
+   "k": "51298754de7d",
+   "ctx": "eligibility",
+   "t": "HS and degree girls who take the Dr. Banikanta Kakati merit scooter cannot get it (they may give up the scooter instead), nor can PG students on the CM's Jibon Prerona scheme"
+  },
+  {
+   "k": "9ae17a48591f",
+   "ctx": "eligibility",
+   "t": "She must have sat the final exam of the previous year and keep regular attendance and discipline"
+  },
+  {
+   "k": "1581657ba5d9",
+   "ctx": "documents",
+   "t": "Passbook of her own bank account, seeded with Aadhaar and enabled for Aadhaar-based payment"
+  },
+  {
+   "k": "d0a52d77d15a",
+   "ctx": "documents",
+   "t": "Mobile number linked to her Aadhaar, for the OTP"
+  },
+  {
+   "k": "c637a257ed4e",
+   "ctx": "documents",
+   "t": "Admission receipt or college or school identity card"
+  },
+  {
+   "k": "a3e726673eb3",
+   "ctx": "documents",
+   "t": "Signed undertaking, declaration and Aadhaar consent form, signed by the student and a parent"
+  },
+  {
+   "k": "ffa48622a11d",
+   "ctx": "documents",
+   "t": "Samarth enrolment number (degree and PG) or DARPAN login (HS), from the college"
+  },
+  {
+   "k": "83c476eed3ba",
+   "ctx": "documents",
+   "t": "Mark sheet of the last examination, where the college asks for it"
+  },
+  {
+   "k": "d91b35e262ba",
    "ctx": "portalName",
-   "t": "AP Building and Other Construction Workers Welfare Board"
+   "t": "Assam State Higher Education Student Portal (Samarth)"
   },
   {
-   "k": "6178585e220b",
-   "ctx": "submitAt",
-   "t": "Register at the Assistant Labour Officer's office for your mandal or town, or ask the Digital Assistant at your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) to guide you. Take the filled Form XXVII, Aadhaar, the 90-day work certificate, a photo, the bank passbook and the fee. To claim a benefit later, apply at the Secretariat through the Digital Assistant or the Ward Education and Development Secretary on the AP Seva portal, with your worker card and proof of the event."
-  },
-  {
-   "k": "e326ce0da529",
+   "k": "7e0ee7d5f0ee",
    "ctx": "hint",
-   "t": "Your own 12 digits. One registration per person."
+   "t": "Your Samarth enrolment number from admission. The first time, click Register; the OTP goes to the email you gave at admission."
   },
   {
-   "k": "08ff23dfcd20",
+   "k": "33ecacff157f",
    "ctx": "hint",
-   "t": "As on Aadhaar. You must be 18 or older and below 60."
+   "t": "The bank where your Aadhaar-seeded account is. Money cannot be sent to any other account."
   },
   {
-   "k": "203109b93b71",
+   "k": "eda55e2161c1",
    "ctx": "hint",
-   "t": "Write the father's name, or the husband's name for a married woman."
+   "t": "Printed on the first page of the passbook or on a cheque leaf."
   },
   {
-   "k": "e3103ab8d4f7",
-   "ctx": "hint",
-   "t": "Tick SC, ST, BC, Minority or Others. Messages about the card and claims come to the phone."
-  },
-  {
-   "k": "12822c656d4f",
-   "ctx": "value",
-   "t": "Lakshmi (wife, 33) — nominee 100%; Sravani (daughter, 12); Ganesh (son, 9)"
-  },
-  {
-   "k": "f4cb1c4b9fba",
-   "ctx": "hint",
-   "t": "Name, age and relation of each. The nominee gets the money if you die. Shares must add up to 100%."
-  },
-  {
-   "k": "2f694dafdb37",
-   "ctx": "hint",
-   "t": "An account in your own name. All benefits are paid into it by DBT."
-  },
-  {
-   "k": "0226fe588cbf",
-   "ctx": "value",
-   "t": "Door 4-12, Gandhi Nagar, Anakapalli, Anakapalli district 531001"
-  },
-  {
-   "k": "c5bce1c94e02",
-   "ctx": "hint",
-   "t": "Door number, street, village or town, mandal, district and PIN code."
-  },
-  {
-   "k": "9043176ef857",
+   "k": "964d8c2ea44e",
    "ctx": "label",
-   "t": "Are you a VB-G RAM G (rural job card) worker?"
+   "t": "Account Holder Name (Name as per AADHAAR)"
   },
   {
-   "k": "78aeba0d434d",
+   "k": "fbe50fe97521",
    "ctx": "hint",
-   "t": "VB-G RAM G is the rural job scheme that replaced MGNREGA. If you hold a job card, give its number."
+   "t": "Must match your name in Aadhaar, in the bank and in Samarth letter for letter. Get it corrected first if it differs."
   },
   {
-   "k": "1ad17fc384a0",
+   "k": "ebdb8906bb86",
    "ctx": "label",
-   "t": "Name of employer and construction site"
+   "t": "Account Number (AADHAAR Seeded/Linked Bank Account Number)"
   },
   {
-   "k": "f3b3790ddc3f",
-   "ctx": "value",
-   "t": "Sri Venkateswara Builders — apartment site, Sabbavaram Road"
-  },
-  {
-   "k": "4a7d1ed9e8a6",
+   "k": "04d26bbf7780",
    "ctx": "hint",
-   "t": "Where you work now. This employer, a registered union or the labour officer signs your 90-day certificate."
+   "t": "Type it twice. Ask the bank to confirm the account is seeded with Aadhaar for DBT."
   },
   {
-   "k": "f32c45fae5f5",
+   "k": "9e6c3b835ba2",
    "ctx": "hint",
-   "t": "Mason, helper, carpenter, painter, plumber, electrician, centring, tiles, welder and so on."
+   "t": "Most students have no PAN. Just tick the box and carry on."
   },
   {
-   "k": "1a3455118670",
+   "k": "2d6aaac3414b",
+   "ctx": "hint",
+   "t": "Choose your level: Undergraduate, Postgraduate or B.Ed. Only regular courses qualify."
+  },
+  {
+   "k": "5b4a2dfb28ab",
+   "ctx": "hint",
+   "t": "Married girls can apply only in PG and B.Ed courses."
+  },
+  {
+   "k": "fdfaa5b08a8d",
+   "ctx": "label",
+   "t": "Gram Panchayat / VCDC / Ward, District, Police Station, LAC"
+  },
+  {
+   "k": "71855e0ec766",
+   "ctx": "hint",
+   "t": "Your home address in Assam, the same as in your declaration form."
+  },
+  {
+   "k": "619c682552f1",
+   "ctx": "label",
+   "t": "Are you a recipient of Dr. Banikanta Kakati Merit Award (Scooter)"
+  },
+  {
+   "k": "17a076ad2c31",
+   "ctx": "hint",
+   "t": "If you took the merit scooter, you cannot get Nijut Moina (except in PG and B.Ed)."
+  },
+  {
+   "k": "4a2f66ad1e29",
    "ctx": "demoSteps",
-   "t": "Get Form XXVII (the board's PDF, or a copy from the labour office) and fill it in. Have your employer, a registered trade union or the labour officer sign the certificate of 90 days of work on the back."
+   "t": "In early August, collect the free Nijut Moina form at your college or HS school office (in 2026-27 the forms were given out from 7 August). Fill it, sign the undertaking with a parent, and hand it in with copies of your Aadhaar and bank passbook. University students get it signed by the Head of Department."
   },
   {
-   "k": "b65ebaad4636",
+   "k": "564891db549b",
    "ctx": "demoSteps",
-   "t": "Take the form, Aadhaar, a photo, the bank passbook and the fee (Rs.50 plus Rs.12 a year) to the Assistant Labour Officer's office. The Secretariat's Digital Assistant can tell you where yours is."
+   "t": "The college checks the form and adds your enrolment number to the Nijut Moina scheme on the Samarth portal."
   },
   {
-   "k": "4952cde31364",
+   "k": "64b570701e31",
    "ctx": "demoSteps",
-   "t": "The labour officer checks your work and enters your details online. Keep the receipt with your registration number."
+   "t": "Open assamshesp.samarth.edu.in and log in with your Samarth enrolment number, password and captcha (first time: click Register and set a password using the email OTP). HS students log in at darpan.ahseconline.in instead, update the profile and verify with Aadhaar."
   },
   {
-   "k": "a3e34b47b8a1",
+   "k": "12fd9e43f0c9",
    "ctx": "demoSteps",
-   "t": "Collect your construction worker ID card, and renew it before it expires. A lapsed card cannot claim any benefit."
+   "t": "Click Scholarship, then Apply on the Nijut Moina line. Enter the Aadhaar-seeded bank details, address and last exam, upload the passbook, tick the declarations and click Save & Next."
   },
   {
-   "k": "8d6b0f52e2b6",
+   "k": "177d5f0ef3a1",
    "ctx": "demoSteps",
-   "t": "When there is a marriage, a birth, or a death in the family, apply soon afterwards at your Village or Ward Secretariat. The Digital Assistant or the Ward Education and Development Secretary files it on AP Seva with your card and the marriage, birth or death certificate."
+   "t": "Check every detail, click Submit and verify with the Aadhaar OTP. Print the acknowledgement and give it to the college before the closing date (5 September in 2026)."
   },
   {
-   "k": "4c8a626177a2",
+   "k": "8637cfa873f8",
    "ctx": "demoSteps",
-   "t": "The labour officer verifies the claim and the board sends the money to the bank account by Aadhaar-linked DBT."
+   "t": "The college verifies the applications. Once approved, the money comes to your bank account by DBT every month for 10 months. Missing the exam, indiscipline or getting married stops it."
   },
   {
-   "k": "d2ad18a75e7a",
-   "ctx": "demoSteps",
-   "t": "To check whether your registration is active, ask at the labour office or the Secretariat, or call 1902."
-  },
-  {
-   "k": "b2ee2cd345b8",
+   "k": "c868d85fd5ae",
    "ctx": "helpline",
-   "t": "0866-2436311 — Commissioner of Labour, Vijayawada / 1902 — AP government citizen helpline"
+   "t": "No dedicated helpline. First ask the Nijut Moina counter or nodal officer at your college; then the Directorate of Higher Education, Kahilipara, Guwahati-19 (directorhigherassam123@gmail.com)"
   },
   {
-   "k": "06c4a0f1c500",
+   "k": "cc0690d9ad40",
    "ctx": "title",
-   "t": "Dr. NTR Vaidya Seva (Aarogyasri Health Card)"
+   "t": "Mukhyamantri Mahila Rojgar Yojana (Jeevika Didi Rs 10,000)"
   },
   {
-   "k": "0bfa5b57e268",
+   "k": "c7a4473bcc26",
    "ctx": "department",
-   "t": "Dr. NTR Vaidya Seva Trust, Health, Medical & Family Welfare Department, Government of Andhra Pradesh"
-  },
-  {
-   "k": "f5c18eb12ec1",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment of up to Rs.25 lakh a year for a family, for 3,257 listed surgeries and treatments, at government and private network hospitals in Andhra Pradesh. It is the state's Aarogyasri scheme, called Dr YSR Aarogyasri until 2024. Every rice card family is covered already. Other families with an income of up to Rs.5 lakh apply for the card at their Village or Ward Secretariat."
-  },
-  {
-   "k": "9fbe6b1ea528",
-   "ctx": "benefit",
-   "t": "Cashless treatment up to Rs.25 lakh a year per family, with free medicines, food and bus fare home"
-  },
-  {
-   "k": "ba5e11bf3d9e",
-   "ctx": "eligibility",
-   "t": "Every family holding an Andhra Pradesh rice card is covered, with no further check"
-  },
-  {
-   "k": "9281a262423b",
-   "ctx": "eligibility",
-   "t": "Other families qualify if their annual income is up to Rs.5 lakh. This includes contract, outsourced, part-time and private-sector workers and income-tax filers within that limit"
-  },
-  {
-   "k": "0f825ddde613",
-   "ctx": "eligibility",
-   "t": "Land below 12 acres of wet land or 35 acres of dry land, and below 35 acres in all"
-  },
-  {
-   "k": "e435be39b512",
-   "ctx": "eligibility",
-   "t": "In towns, municipal property tax paid on less than 3,000 sq ft. The family may own no more than one car"
-  },
-  {
-   "k": "dabd4aa880e4",
-   "ctx": "eligibility",
-   "t": "Permanent government employees and pensioners are not covered here; they have the separate EHS card"
-  },
-  {
-   "k": "c93dcba0c1ba",
-   "ctx": "documents",
-   "t": "Rice card of the family, if you have one"
-  },
-  {
-   "k": "17163d79fb2f",
-   "ctx": "documents",
-   "t": "Income certificate, salary certificate or income-tax return showing income up to Rs.5 lakh (only for families without a rice card)"
-  },
-  {
-   "k": "56475ca478ca",
-   "ctx": "documents",
-   "t": "Pattadar passbook, if the family owns land"
-  },
-  {
-   "k": "0e7ce26adf65",
-   "ctx": "documents",
-   "t": "Municipal property tax receipt, if you live in a town"
-  },
-  {
-   "k": "b2cd5bec3430",
-   "ctx": "documents",
-   "t": "Mobile number and a recent family photograph"
-  },
-  {
-   "k": "d711dd0ba82b",
-   "ctx": "submitAt",
-   "t": "Your Village or Ward Secretariat (now called the Swarna Gramam / Swarna Ward office). Ask the Digital Assistant for the NTR Vaidya Seva health card. Take Aadhaar for every member, the rice card or an income certificate, and the pattadar passbook or property tax receipt. Your household must already appear in the Secretariat's household survey. For treatment, go to the Aarogya Mithra desk at any network hospital or PHC."
-  },
-  {
-   "k": "20ae63ab1520",
-   "ctx": "label",
-   "t": "Name of the head of the family"
-  },
-  {
-   "k": "fce4c84238d6",
-   "ctx": "hint",
-   "t": "As printed on Aadhaar. The card is made for the whole family under this name."
-  },
-  {
-   "k": "fadd5d277a2c",
-   "ctx": "hint",
-   "t": "The head of the family's 12-digit number. The Digital Assistant checks it with your thumbprint."
-  },
-  {
-   "k": "54b1369aaefa",
-   "ctx": "hint",
-   "t": "The Secretariat finds it from your Aadhaar. If your family is missing from the survey, ask for it to be added first."
-  },
-  {
-   "k": "0ae54a157dc2",
-   "ctx": "hint",
-   "t": "If your family has a rice card, you are covered already and do not need to apply. Just show it at the hospital."
-  },
-  {
-   "k": "3e65656bc1e7",
-   "ctx": "value",
-   "t": "Srinivas Palli (husband, 44), Divya (daughter, 15), Kiran (son, 11)"
-  },
-  {
-   "k": "429d52f48373",
-   "ctx": "hint",
-   "t": "Everyone who lives and eats with you. Each person needs their own Aadhaar."
-  },
-  {
-   "k": "db1e81a280c5",
-   "ctx": "value",
-   "t": "Rs.3,60,000; salary certificate from Sri Sai Textiles, Guntur"
-  },
-  {
-   "k": "524976f3e2e4",
-   "ctx": "hint",
-   "t": "It must be Rs.5 lakh or less. Attach the salary certificate, income certificate or income-tax return."
-  },
-  {
-   "k": "af9b275d7c14",
-   "ctx": "hint",
-   "t": "Copy it from the pattadar passbook. Wet land must be under 12 acres and dry land under 35 acres."
-  },
-  {
-   "k": "8ec531b769a5",
-   "ctx": "hint",
-   "t": "Only for towns. It is on your property tax receipt and must be under 3,000 sq ft."
-  },
-  {
-   "k": "94df7d624a20",
-   "ctx": "hint",
-   "t": "One car is allowed. A family with two or more cars cannot get the card."
-  },
-  {
-   "k": "fe3811f5aa47",
-   "ctx": "hint",
-   "t": "Messages about the application and the card come to this number."
-  },
-  {
-   "k": "837bee1a1494",
-   "ctx": "demoSteps",
-   "t": "If your family has a rice card, you are covered already. Skip to the hospital step."
-  },
-  {
-   "k": "4be44303b671",
-   "ctx": "demoSteps",
-   "t": "Otherwise, go to your Village or Ward Secretariat with Aadhaar for every member, an income certificate and your land or property tax papers. The Digital Assistant applies for the Vaidya Seva card. Keep the acknowledgement number."
-  },
-  {
-   "k": "a06607148f71",
-   "ctx": "demoSteps",
-   "t": "Secretariat staff check income, land, property and vehicles. Once approved, the card is issued to the family through the Secretariat."
-  },
-  {
-   "k": "49640a1076f4",
-   "ctx": "demoSteps",
-   "t": "When you need treatment, go to a PHC, a government hospital or any network hospital listed on drntrvaidyaseva.ap.gov.in. Meet the Aarogya Mithra at the help desk and show the card, rice card or Aadhaar. Your fingerprint is taken."
-  },
-  {
-   "k": "8aef60fa3cbc",
-   "ctx": "demoSteps",
-   "t": "The hospital asks the Trust for approval before the operation. Tests, surgery, medicines and two meals a day are all free, so do not pay anything."
-  },
-  {
-   "k": "8236f80c2c9a",
-   "ctx": "demoSteps",
-   "t": "At discharge you get 10 days of medicines and bus fare home, and you sign a letter saying you paid nothing. For listed surgeries, the Aarogya Aasara recovery allowance goes to your bank account."
-  },
-  {
-   "k": "c9783a8fe629",
-   "ctx": "demoSteps",
-   "t": "If a hospital asks for money, refuses treatment or you need help, call 104."
-  },
-  {
-   "k": "955cf0db2bc6",
-   "ctx": "helpline",
-   "t": "104 — Dr. NTR Vaidya Seva and Aarogya Aasara information and complaints / 108 — emergency ambulance"
-  },
-  {
-   "k": "98372ef3499e",
-   "ctx": "department",
-   "t": "Consumer Affairs, Food & Civil Supplies Department, Government of Andhra Pradesh"
-  },
-  {
-   "k": "169f72332cad",
-   "ctx": "brief",
-   "t": "Andhra Pradesh gives every eligible rice card family three 14.2 kg LPG cylinders a year free, one in each four-month block. You book the cylinder with your gas agency in the usual way and pay for it, and the full amount is refunded to your Aadhaar-linked bank account, usually within 48 hours. There is no form: families with a rice card and a gas connection are listed automatically. You can check your status with your rice card or LPG number."
-  },
-  {
-   "k": "71cfa65a99ee",
-   "ctx": "benefit",
-   "t": "3 free 14.2 kg LPG cylinders a year, one every four months, with the full price refunded"
-  },
-  {
-   "k": "5ef49f85099d",
-   "ctx": "eligibility",
-   "t": "The family holds an Andhra Pradesh rice card"
-  },
-  {
-   "k": "c408e2861d1d",
-   "ctx": "eligibility",
-   "t": "It has an active domestic LPG connection from Indane, HP or Bharat Gas in a family member's name, linked to the rice card. Ujjwala connections count"
-  },
-  {
-   "k": "e5e0f8bef842",
-   "ctx": "eligibility",
-   "t": "One connection per rice card household; a family with two connections gets the benefit on only one"
-  },
-  {
-   "k": "d7fe0a1f7bf0",
-   "ctx": "eligibility",
-   "t": "The household must pass the rice card checks on electricity use, government employment and land, which are the reasons the status page gives for rejection"
-  },
-  {
-   "k": "b01ca20959cc",
-   "ctx": "eligibility",
-   "t": "LPG e-KYC done at the gas agency, and a bank account seeded with the connection holder's Aadhaar"
-  },
-  {
-   "k": "36dfc8f23089",
-   "ctx": "documents",
-   "t": "Aadhaar card of the connection holder"
-  },
-  {
-   "k": "54d01d7c26e5",
-   "ctx": "documents",
-   "t": "Bank account seeded with that Aadhaar"
-  },
-  {
-   "k": "46c50fa54d9a",
-   "ctx": "documents",
-   "t": "Mobile number registered with the gas agency"
-  },
-  {
-   "k": "91b016f1c578",
-   "ctx": "portalName",
-   "t": "Beneficiary Management portal (Deepam 2.0 Status Check)"
-  },
-  {
-   "k": "ebdff1a68141",
-   "ctx": "submitAt",
-   "t": "No form is needed. Book the cylinder with your own gas agency by phone, SMS, WhatsApp or app, and pay on delivery. If you are not on the eligible list, go to your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) or the mandal Civil Supplies office with the rice card, gas book and Aadhaar. Complete LPG e-KYC at your gas agency."
-  },
-  {
-   "k": "280566cb4881",
-   "ctx": "label",
-   "t": "Rice card number or LPG consumer number"
-  },
-  {
-   "k": "adcdc7311f93",
-   "ctx": "hint",
-   "t": "Type either one on the Deepam 2.0 Status Check page. The rice card number is on the front of the card."
-  },
-  {
-   "k": "0893671fad1e",
-   "ctx": "hint",
-   "t": "Type the letters shown in the picture. Tap refresh if you cannot read them."
-  },
-  {
-   "k": "8b081e179184",
-   "ctx": "hint",
-   "t": "The family member in whose name the gas connection stands. The refund goes to her Aadhaar-seeded account."
-  },
-  {
-   "k": "f89c099ef6ee",
-   "ctx": "hint",
-   "t": "Shown from the rice card record. It should be where your family lives."
-  },
-  {
-   "k": "17ffba81d0fe",
-   "ctx": "hint",
-   "t": "If it says IN-ELIGIBLE, the page also shows why, such as electricity, government job or land. Take proof to the Secretariat."
-  },
-  {
-   "k": "451690216322",
-   "ctx": "hint",
-   "t": "The year has three blocks: April–July, August–November and December–March. Book one cylinder in each. An unused block does not carry forward."
-  },
-  {
-   "k": "fe4405a91490",
-   "ctx": "hint",
-   "t": "Book the usual way with your gas agency. Pay the delivery person the printed price."
-  },
-  {
-   "k": "e3c830112c5f",
-   "ctx": "hint",
-   "t": "Usually within 48 hours of delivery, to the bank account seeded with the connection holder's Aadhaar."
+   "t": "Rural Development Department, Government of Bihar, through JEEViKA (Bihar Rural Livelihoods Promotion Society); Urban Development & Housing Department in towns"
   }
  ]
 }

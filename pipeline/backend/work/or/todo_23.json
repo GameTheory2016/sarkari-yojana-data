@@ -6,151 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_23.json",
  "items": [
   {
-   "k": "a4be64882ed7",
-   "ctx": "demoSteps",
-   "t": "Watch your use. If it crosses 200 units, that whole month's bill must be paid. The zero bill comes back the next month you stay within 200."
-  },
-  {
-   "k": "f66452e181fb",
-   "ctx": "demoSteps",
-   "t": "Still getting a bill? Take the receipt to your electricity section (AE) office, or call 1912, and ask them to link your connection."
-  },
-  {
-   "k": "ca6bcb32e8c9",
-   "ctx": "helpline",
-   "t": "Electricity complaints 1912; TGNPDCL toll free 1800-425-0028; your MPDO or municipal office for the application"
-  },
-  {
-   "k": "2b8e2d93ee5f",
-   "ctx": "title",
-   "t": "Mahalakshmi (Free Bus Travel for Women and Rs.500 Gas Cylinder)"
-  },
-  {
-   "k": "445171cffa4e",
-   "ctx": "department",
-   "t": "Government of Telangana: TGSRTC (free bus) and Civil Supplies Department (gas subsidy)"
-  },
-  {
-   "k": "a60068a59478",
-   "ctx": "brief",
-   "t": "Under Mahalakshmi, one of Telangana's six guarantees, since 9 December 2023 women, girls and transgender persons living in Telangana have travelled free in TGSRTC Palle Velugu, Express, City Ordinary and Metro Express buses: show an ID and take the zero ticket. Families with a white ration card who applied through Praja Palana get each LPG cylinder for Rs.500: you pay the full price on delivery and the rest comes back to your bank account. The promised Rs.2,500 a month for women heads of family has not started yet, and there is no application open for it (October 2026)."
-  },
-  {
-   "k": "9171cec735bf",
-   "ctx": "benefit",
-   "t": "Free state bus travel for women; LPG cylinder for Rs.500"
-  },
-  {
-   "k": "91b580e97056",
-   "ctx": "eligibility",
-   "t": "Free bus: any woman, girl or transgender person living in Telangana, of any age or income, for travel within Telangana"
-  },
-  {
-   "k": "a31de52ce77d",
-   "ctx": "eligibility",
-   "t": "Free bus is valid in Palle Velugu, Express, City Ordinary and Metro Express buses, not in Deluxe, Super Luxury or AC buses"
-  },
-  {
-   "k": "8ff3c4f5c260",
-   "ctx": "eligibility",
-   "t": "Rs.500 gas: the family holds a Telangana Food Security Card (white ration card)"
-  },
-  {
-   "k": "86bc0eced635",
-   "ctx": "eligibility",
-   "t": "Rs.500 gas: the family has an active domestic LPG connection and applied for this in Praja Palana or later at the MPDO / municipal office"
-  },
-  {
-   "k": "9d54553a791f",
-   "ctx": "eligibility",
-   "t": "Rs.500 gas: the number of cylinders is limited to what the family used on average in the last three years"
-  },
-  {
-   "k": "2341ae3e6af9",
-   "ctx": "documents",
-   "t": "Bus: Aadhaar card or any government photo ID with a Telangana address (voter ID, driving licence)"
-  },
-  {
-   "k": "e74dea8c396f",
-   "ctx": "documents",
-   "t": "Gas: Food Security Card (white ration card)"
-  },
-  {
-   "k": "3dc3b9b4c20f",
-   "ctx": "documents",
-   "t": "Gas: Aadhaar card of the applicant"
-  },
-  {
-   "k": "ce98346057ac",
-   "ctx": "documents",
-   "t": "Gas: gas consumer book or latest cylinder bill showing the consumer number and agency"
-  },
-  {
-   "k": "860504a876cf",
-   "ctx": "documents",
-   "t": "Gas: bank passbook of the account linked to the gas connection"
-  },
-  {
-   "k": "45b3544fc473",
-   "ctx": "documents",
-   "t": "Gas: Praja Palana receipt number, if you applied earlier"
-  },
-  {
-   "k": "4b31a8482499",
-   "ctx": "submitAt",
-   "t": "Free bus: there is nothing to apply for. Get into a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero-fare Mahalakshmi ticket. Rs.500 gas: if your family was left out, fill the Praja Palana application (tick Mahalakshmi, Rs.500 gas cylinder) at the Praja Palana counter in your MPDO office (villages) or municipal / GHMC circle office (towns). Attach copies of the white ration card, Aadhaar, gas consumer book and bank passbook, and keep the receipt with the application number."
-  },
-  {
-   "k": "0a9dec99111d",
-   "ctx": "label",
-   "t": "Applicant name (woman of the house)"
-  },
-  {
-   "k": "c2a96dc0a664",
-   "ctx": "label",
-   "t": "Ration card (Food Security Card) number"
-  },
-  {
-   "k": "cb309c8ed64c",
-   "ctx": "hint",
-   "t": "From your white ration card. The gas benefit is given only with a white card."
-  },
-  {
-   "k": "9ba47afa502a",
-   "ctx": "hint",
-   "t": "A number you use. Messages about the application come here."
-  },
-  {
-   "k": "3eb7ee273af2",
-   "ctx": "hint",
-   "t": "House number, ward or village, mandal and district."
-  },
-  {
-   "k": "8325dc1cab48",
-   "ctx": "hint",
-   "t": "Tick the Rs.500 gas cylinder box. The Rs.2,500 box is on the form, but that payment has not started."
-  },
-  {
-   "k": "e68fdfea38eb",
-   "ctx": "hint",
-   "t": "The consumer number printed in your gas book or on the cylinder bill."
-  },
-  {
-   "k": "6d2fa0b7ce00",
-   "ctx": "value",
-   "t": "HP Gas, Sri Sai Gas Agency, Wyra"
-  },
-  {
-   "k": "240c7ebaa91e",
-   "ctx": "hint",
-   "t": "The company (HP, Bharat or Indane) and the agency that delivers to you."
-  },
-  {
-   "k": "6da6b58afe24",
-   "ctx": "hint",
-   "t": "About how many cylinders your family uses in a year. The subsidy is limited to your average use."
-  },
-  {
    "k": "8b43adb18fc0",
    "ctx": "demoSteps",
    "t": "Free bus: board a Palle Velugu, Express, City Ordinary or Metro Express bus, show your Aadhaar or other Telangana ID to the conductor and take the zero ticket. Girls of any age travel free too."
@@ -859,6 +714,141 @@
    "k": "f671789a78fb",
    "ctx": "eligibility",
    "t": "One free refill in October–December and one in January–March. A refill outside these months is not refunded"
+  },
+  {
+   "k": "076d57dc0cd4",
+   "ctx": "eligibility",
+   "t": "The state approves the scheme again every year. The 2026–27 round runs from October 2026 to March 2027"
+  },
+  {
+   "k": "d5a10690613e",
+   "ctx": "documents",
+   "t": "Gas consumer number or the LPG passbook (blue book)"
+  },
+  {
+   "k": "9dad215029a0",
+   "ctx": "documents",
+   "t": "Bank passbook of the account linked to Aadhaar"
+  },
+  {
+   "k": "4520314ea588",
+   "ctx": "documents",
+   "t": "Ration card, if the agency asks to check the family"
+  },
+  {
+   "k": "d5a314c1b877",
+   "ctx": "portalName",
+   "t": "Your LPG distributor (Indian Oil, Bharat Gas or HP Gas)"
+  },
+  {
+   "k": "d0dacd3d7d15",
+   "ctx": "submitAt",
+   "t": "Nothing to fill in. The Ujjwala connection holder goes to her own LPG distributor (gas agency) in person with her Aadhaar card, the gas passbook or consumer number and the bank passbook, and gets the Aadhaar fingerprint authentication (e-KYC) done for free. Where the oil company's app offers it (IndianOil ONE, Hello BPCL, HP Pay), the e-KYC can also be done at home with Aadhaar face authentication."
+  },
+  {
+   "k": "fbff8218565b",
+   "ctx": "hint",
+   "t": "Printed on the gas passbook and on every cash memo."
+  },
+  {
+   "k": "7ca4eebb85da",
+   "ctx": "hint",
+   "t": "The refund is only for Ujjwala connections. Ask the agency if you are not sure which type you have."
+  },
+  {
+   "k": "39595344448b",
+   "ctx": "hint",
+   "t": "The woman in whose name the Ujjwala connection was given. She must go for the authentication herself."
+  },
+  {
+   "k": "b8ec3b5c58c6",
+   "ctx": "hint",
+   "t": "The connection holder's own Aadhaar. Her fingerprint or face is matched against it."
+  },
+  {
+   "k": "6f80838b9ab1",
+   "ctx": "hint",
+   "t": "The number linked to the gas connection. The booking and delivery messages come here."
+  },
+  {
+   "k": "d14a2f5c5abc",
+   "ctx": "hint",
+   "t": "It is done only once and is free. If it is pending, you will not get the refund."
+  },
+  {
+   "k": "463904411dbe",
+   "ctx": "hint",
+   "t": "Ask your bank to confirm this account is linked to Aadhaar for DBT. The money goes only here."
+  },
+  {
+   "k": "5c00173dccbb",
+   "ctx": "hint",
+   "t": "Book between October and December for the Diwali refill, and between January and March for the Holi refill."
+  },
+  {
+   "k": "7626a4d0c8f6",
+   "ctx": "demoSteps",
+   "t": "Ask your gas agency whether your Aadhaar authentication is done. If not, the connection holder goes there with her Aadhaar card and gas passbook and gives her fingerprint. It is free."
+  },
+  {
+   "k": "ec1e6c234cce",
+   "ctx": "demoSteps",
+   "t": "Make sure your bank account is linked to Aadhaar for DBT. Ask at your bank branch if you are not sure."
+  },
+  {
+   "k": "73bc0d9f1ccf",
+   "ctx": "demoSteps",
+   "t": "Between October and December, book a refill as usual (IVRS call, missed call, WhatsApp or the app). Pay the normal price at delivery and keep the cash memo."
+  },
+  {
+   "k": "8cc7f8c93819",
+   "ctx": "demoSteps",
+   "t": "In about 3 to 4 days the money is credited to your Aadhaar-linked bank account. Check the bank SMS or the passbook."
+  },
+  {
+   "k": "91301794f0bc",
+   "ctx": "demoSteps",
+   "t": "Between January and March, book one more refill the same way for the Holi refund."
+  },
+  {
+   "k": "6efced561245",
+   "ctx": "demoSteps",
+   "t": "If the money does not come, call the Ujjwala helpline 14438 or the UP food department toll-free number, with your consumer number and delivery date ready."
+  },
+  {
+   "k": "8e1f1dc1a9e0",
+   "ctx": "helpline",
+   "t": "14438 (Ujjwala helpline) / 1906 (LPG emergency) / 1800-1800-150 (UP Food & Civil Supplies toll-free)"
+  },
+  {
+   "k": "2138f70d29d9",
+   "ctx": "title",
+   "t": "Krishi Yantra Anudan — Farm Machinery Subsidy (Yantra Token Booking)"
+  },
+  {
+   "k": "264a1b20ea5e",
+   "ctx": "department",
+   "t": "Agriculture Department (Krishi Vibhag), Government of Uttar Pradesh"
+  },
+  {
+   "k": "cf59e95f023a",
+   "ctx": "brief",
+   "t": "The UP Agriculture Department pays 40–50% of the price of farm machines such as rotavators, seed drills, threshers, sprayers, super seeders, happy seeders and agricultural drones. Farmer groups setting up a farm machinery bank or custom hiring centre get up to 80%. Booking opens online on the Agri Darshan portal a few times a year: in 2026 it opened in February–March and again in July. Selected farmers get a token, buy the machine from a listed dealer, and upload the bill and a photo. After a check, the subsidy is paid into their bank account."
+  },
+  {
+   "k": "00681d479c8d",
+   "ctx": "benefit",
+   "t": "40–50% of the machine price for farmers; up to 80% for farmer groups and machinery banks"
+  },
+  {
+   "k": "217a42a559d1",
+   "ctx": "eligibility",
+   "t": "A farmer of Uttar Pradesh registered with the Agriculture Department, with the registration linked to Aadhaar, land record and bank account"
+  },
+  {
+   "k": "08745188434d",
+   "ctx": "eligibility",
+   "t": "Farm land in your own name, as shown in the Khatauni"
   }
  ]
 }

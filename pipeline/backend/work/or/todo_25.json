@@ -6,191 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_25.json",
  "items": [
   {
-   "k": "6c8d98ae3257",
-   "ctx": "demoSteps",
-   "t": "When the girl reaches the next stage, log in again with the same ID and apply for that stage in the same school year. Do not make a new registration for the same girl, or every application for her gets rejected."
-  },
-  {
-   "k": "4658fb66e895",
-   "ctx": "helpline",
-   "t": "181 (Mahila Helpline, UP Women Welfare) / 1076 (CM Helpline); District Probation Officer's office in your district"
-  },
-  {
-   "k": "87de181b5c24",
-   "ctx": "title",
-   "t": "Mukhyamantri Samuhik Vivah Yojana (Samuhik Vivah)"
-  },
-  {
-   "k": "472880af2e01",
-   "ctx": "department",
-   "t": "Social Welfare Department (Samaj Kalyan Vibhag), Government of Uttar Pradesh"
-  },
-  {
-   "k": "b1807127ef70",
-   "ctx": "brief",
-   "t": "The UP government spends Rs.1 lakh on each couple married at a mass wedding it organises. Rs.64,000 goes into the bride's bank account, Rs.21,000 is given as household gifts and Rs.15,000 pays for the ceremony. The total was earlier Rs.51,000. It is for brides from poor families of every religion with income up to Rs.3 lakh a year, and also for widowed, abandoned or legally divorced women who are remarrying. The bride applies online with her Aadhaar, and the wedding is held at a block, town or district mass wedding run by the District Social Welfare Officer."
-  },
-  {
-   "k": "e01f47584f4b",
-   "ctx": "benefit",
-   "t": "Rs.1,00,000 per couple: Rs.64,000 to the bride's account, Rs.21,000 in gifts, Rs.15,000 for the ceremony"
-  },
-  {
-   "k": "2a427e5d2474",
-   "ctx": "eligibility",
-   "t": "The bride's parents or guardians are permanent residents of Uttar Pradesh. The bride herself must be an adult and applies herself"
-  },
-  {
-   "k": "1ec9b212e889",
-   "ctx": "eligibility",
-   "t": "The family is poor or needy, with income up to Rs.3 lakh a year"
-  },
-  {
-   "k": "88411899c069",
-   "ctx": "eligibility",
-   "t": "On the wedding date the bride is at least 18 and the groom at least 21"
-  },
-  {
-   "k": "27d294f77fcf",
-   "ctx": "eligibility",
-   "t": "The bride is unmarried, or is a widow, an abandoned woman or a legally divorced woman who is remarrying"
-  },
-  {
-   "k": "ef039f6db8e4",
-   "ctx": "eligibility",
-   "t": "SC, ST and OBC applicants must give a caste certificate. Orphan girls, daughters of widows or disabled parents, and girls with a disability get priority"
-  },
-  {
-   "k": "3472811898d6",
-   "ctx": "eligibility",
-   "t": "She must not take marriage money from any other central or state scheme for this wedding"
-  },
-  {
-   "k": "b3dc1ae450d0",
-   "ctx": "documents",
-   "t": "Aadhaar card of the bride and the groom"
-  },
-  {
-   "k": "2c034b20d98a",
-   "ctx": "documents",
-   "t": "Age proof of both: school record, birth certificate, voter ID, MGNREGA job card or Aadhaar"
-  },
-  {
-   "k": "6af3db6eee36",
-   "ctx": "documents",
-   "t": "Income certificate (family income up to Rs.3 lakh a year)"
-  },
-  {
-   "k": "0103d87d7a33",
-   "ctx": "documents",
-   "t": "Bride's bank passbook, for an account in her own name linked to Aadhaar"
-  },
-  {
-   "k": "52503bcba008",
-   "ctx": "documents",
-   "t": "Recent photos of the bride and the groom"
-  },
-  {
-   "k": "9a48d7adb1f3",
-   "ctx": "documents",
-   "t": "For remarriage: the former husband's death certificate or the court's divorce decree"
-  },
-  {
-   "k": "95a5e9fc5b9a",
-   "ctx": "hint",
-   "t": "Choose Aadhaar. Use the 16-digit VID or a driving licence only if you cannot use the Aadhaar number."
-  },
-  {
-   "k": "bf17b9c0dff2",
-   "ctx": "hint",
-   "t": "The bride's own Aadhaar, not her father's. The form is filled in the bride's name."
-  },
-  {
-   "k": "7394c9b110a5",
-   "ctx": "hint",
-   "t": "A number the family keeps. The OTP and every SMS about the form, the wedding date and the payment come here."
-  },
-  {
-   "k": "7dc8e654ad79",
-   "ctx": "hint",
-   "t": "You confirm that no other government scheme is giving marriage money for this wedding. If this is found false, the money is recovered."
-  },
-  {
-   "k": "052812856235",
-   "ctx": "hint",
-   "t": "Write both exactly as on Aadhaar."
-  },
-  {
-   "k": "06fc8e902186",
-   "ctx": "hint",
-   "t": "She must be 18 or older on the wedding date. Upload the age proof that shows this date."
-  },
-  {
-   "k": "544ba0cf9666",
-   "ctx": "hint",
-   "t": "Choose your block if you live in a village, or your nagar panchayat, nagar palika or nagar nigam if you live in a town."
-  },
-  {
-   "k": "eb07ac3238af",
-   "ctx": "hint",
-   "t": "Write the figure from the income certificate. It must be Rs.3 lakh or less."
-  },
-  {
-   "k": "b7e2916a6a3a",
-   "ctx": "label",
-   "t": "Groom's name / Aadhaar / date of birth"
-  },
-  {
-   "k": "fb0c99a84f09",
-   "ctx": "hint",
-   "t": "The groom must be 21 or older on the wedding date. His Aadhaar is checked again at the venue."
-  },
-  {
-   "k": "06a97d70222f",
-   "ctx": "hint",
-   "t": "An account in the bride's own name, linked to her Aadhaar. The Rs.64,000 is paid only into this account."
-  },
-  {
-   "k": "65f04e9484b1",
-   "ctx": "demoSteps",
-   "t": "Open cmsvy.upsdc.gov.in and tap Apply (आवेदन करें), then the link to fill the application. Choose Aadhaar, enter the bride's Aadhaar number and mobile, tick the declaration and tap Verify."
-  },
-  {
-   "k": "a67f3e26f4a1",
-   "ctx": "demoSteps",
-   "t": "Fill in the bride's, family's, groom's and bank details, upload the photos and certificates, and submit. Write down the form number."
-  },
-  {
-   "k": "8b1d8416ff88",
-   "ctx": "demoSteps",
-   "t": "The block verifier (villages) or the urban body verifier (towns) checks the details, and the District Social Welfare Officer approves the form. The status comes by SMS. You can correct a form only after an SMS asks you to."
-  },
-  {
-   "k": "7e541d8cd603",
-   "ctx": "demoSteps",
-   "t": "An SMS gives the date and venue of the mass wedding. The bride and groom go there with their Aadhaar cards, are checked at the venue and are married by their own rites."
-  },
-  {
-   "k": "82df1d135846",
-   "ctx": "demoSteps",
-   "t": "The gifts are handed over at the venue. Rs.64,000 is transferred to the bride's bank account after the wedding."
-  },
-  {
-   "k": "4f1fc5bfd111",
-   "ctx": "demoSteps",
-   "t": "Print the marriage certificate from the portal (Print Marriage Certificate) and keep it for the marriage registration and other records."
-  },
-  {
-   "k": "a9f1bb3b5d64",
-   "ctx": "helpline",
-   "t": "0522-2209259 (Samuhik Vivah helpline) / 0522-3538700 (Social Welfare Directorate, Lucknow) / 1076 (CM Helpline)"
-  },
-  {
-   "k": "b2fbec4e59da",
-   "ctx": "title",
-   "t": "Atal Ayushman Uttarakhand Yojana (Ayushman Golden Card)"
-  },
-  {
    "k": "937b84556a10",
    "ctx": "department",
    "t": "State Health Authority, Uttarakhand (Medical Health & Family Welfare Department)"
@@ -784,6 +599,171 @@
    "k": "c7c6c4593cf7",
    "ctx": "demoSteps",
    "t": "If the farmer dies between 18 and 60, the family applies at the block ADA office with the death certificate, the farmer's voter or Aadhaar card, the eligible claimant certificate and the RoR, for the Rs.2 lakh."
+  },
+  {
+   "k": "01e6026d5ad8",
+   "ctx": "helpline",
+   "t": "033-2357-0021 (Krishak Bandhu helpline, 10 am to 5 pm); WhatsApp 9830383383 (payment status chatbot); the Assistant Director of Agriculture office of your block"
+  },
+  {
+   "k": "22c3192e465d",
+   "ctx": "title",
+   "t": "Bina Mulya Samajik Suraksha Yojana (BMSSY - Samajik Mukti Card)"
+  },
+  {
+   "k": "f1abecbdea15",
+   "ctx": "department",
+   "t": "Labour Department (Labour Commissionerate), Government of West Bengal"
+  },
+  {
+   "k": "483cd826ef2e",
+   "ctx": "brief",
+   "t": "Free social security for unorganised workers in West Bengal, such as shop and hotel workers, bidi and garment workers, hawkers, domestic workers, rickshaw pullers, and construction and transport workers. Once registered you get a Samajik Mukti Card with an SSIN number; the state puts Rs.55 a month into your provident fund and pays it back with interest at 60, and also gives money for treatment and surgery, children's studies, disability and death. It began in 2017 as Samajik Suraksha Yojana; since April 2020 the worker pays nothing, which is why it is called Bina Mulya (free). Construction and transport workers are also registered through this scheme."
+  },
+  {
+   "k": "5ceae6533d88",
+   "ctx": "benefit",
+   "t": "Free PF (Rs.55 a month paid by the state), plus health, education and death help up to Rs.2 lakh"
+  },
+  {
+   "k": "9940ae4c8e51",
+   "ctx": "eligibility",
+   "t": "Resident of West Bengal aged 18 to 60"
+  },
+  {
+   "k": "c4ea38014b8a",
+   "ctx": "eligibility",
+   "t": "Works in one of the 46 listed unorganised industries (for example bidi making, tailoring, hotels, rice mills, shops with fewer than 20 workers), or is self-employed in one of 15 listed jobs (hawker, domestic worker, barber, carpenter, fisherman, head-load worker, rickshaw or van puller, waste picker and others), or is a construction or transport worker"
+  },
+  {
+   "k": "f1210f78c957",
+   "ctx": "eligibility",
+   "t": "Family income not more than Rs.6,500 a month. There is no income limit for construction and transport workers"
+  },
+  {
+   "k": "e13f107176f9",
+   "ctx": "eligibility",
+   "t": "Not a member of EPF. The medical help is only for workers without ESI or another government health scheme"
+  },
+  {
+   "k": "3fb433f7f638",
+   "ctx": "eligibility",
+   "t": "Help for children's studies needs at least one year of registration, for up to two children who do not get another scholarship such as SVMCM"
+  },
+  {
+   "k": "9e5211faad22",
+   "ctx": "documents",
+   "t": "Filled Form-I (Parts I to IV), with Part IV certified by your employer, Gram Panchayat Pradhan, councillor or another listed public representative"
+  },
+  {
+   "k": "10d458adcf8b",
+   "ctx": "documents",
+   "t": "Photocopy of the first page of your bank passbook"
+  },
+  {
+   "k": "df1124d44afd",
+   "ctx": "documents",
+   "t": "Two recent colour passport-size photos (one pasted on the form)"
+  },
+  {
+   "k": "b86974efc75d",
+   "ctx": "documents",
+   "t": "Names, ages and Aadhaar numbers of dependent family members and of your nominee"
+  },
+  {
+   "k": "e96ef058f9ab",
+   "ctx": "documents",
+   "t": "For claims later: Form-V with hospital bills and discharge papers, death certificate, or the child's admission certificate and last marksheet"
+  },
+  {
+   "k": "21e3ea3e88a8",
+   "ctx": "submitAt",
+   "t": "The Labour Welfare Facilitation Centre (LWFC) at your Block Development Office or Municipality, or the Regional Labour Office of the Labour Commissionerate. You can also give it to the Self-Employed Labour Organiser (SLO) or Collecting Agent working in your area, or at a registration camp. Form-I is on pages 26 to 28 of the rules notification linked here, and blank forms are also given at the LWFC. Attach the documents, carry the originals, and keep the receipt with the application number. The Labour Inspector registers you and issues the Samajik Mukti Card with your SSIN."
+  },
+  {
+   "k": "f7e88ac39ad8",
+   "ctx": "hint",
+   "t": "Your full name as on your voter card or Aadhaar."
+  },
+  {
+   "k": "cf90513eeaf6",
+   "ctx": "hint",
+   "t": "Write the father's name, or the husband's name if you are married."
+  },
+  {
+   "k": "f4ded9fd70f1",
+   "ctx": "hint",
+   "t": "Your own mobile. Write Y and the BPL number only if your family has a BPL card."
+  },
+  {
+   "k": "584f90f2ccf2",
+   "ctx": "hint",
+   "t": "Your own account. All benefits are paid into it."
+  },
+  {
+   "k": "d5553ff5b1aa",
+   "ctx": "hint",
+   "t": "Your Aadhaar and voter card numbers."
+  },
+  {
+   "k": "f214bf5d187e",
+   "ctx": "label",
+   "t": "Present Address: Block/Municipality and GP/Ward"
+  },
+  {
+   "k": "49700fc4ef0f",
+   "ctx": "hint",
+   "t": "Where you live now. You register in the block or municipality of your permanent home."
+  },
+  {
+   "k": "4d136499a3a6",
+   "ctx": "hint",
+   "t": "If you have a PF or ESI number from a job, write it here."
+  },
+  {
+   "k": "798b1fb34729",
+   "ctx": "label",
+   "t": "Name of my Occupation / Self-employment"
+  },
+  {
+   "k": "8c926378db33",
+   "ctx": "hint",
+   "t": "Your work, from the listed industries or self-employed jobs. Give the employer's address if you work for one."
+  },
+  {
+   "k": "07d266b25774",
+   "ctx": "label",
+   "t": "My monthly family income from all sources"
+  },
+  {
+   "k": "412f92a1c933",
+   "ctx": "hint",
+   "t": "Total earnings of the family in a month, averaged over the last 12 months. It must not be above Rs.6,500 (except construction and transport workers)."
+  },
+  {
+   "k": "24d4a1c858d5",
+   "ctx": "demoSteps",
+   "t": "Collect Form-I at the Labour Welfare Facilitation Centre in your block or municipality office, or from the SLO of your area."
+  },
+  {
+   "k": "961da13bcd67",
+   "ctx": "demoSteps",
+   "t": "Fill Parts I to III (your details, family members and nominee), and get Part IV signed by your employer, Pradhan or councillor. Construction and transport workers also fill Part V."
+  },
+  {
+   "k": "a96c07d47437",
+   "ctx": "demoSteps",
+   "t": "Hand it in with the documents and photos, and keep the receipt with the application number."
+  },
+  {
+   "k": "3a48b60637bf",
+   "ctx": "demoSteps",
+   "t": "The Labour Inspector checks it and registers you. You get the Samajik Mukti Card with your SSIN, and the state starts putting Rs.55 a month into your PF account."
+  },
+  {
+   "k": "2168da6e91cc",
+   "ctx": "demoSteps",
+   "t": "For treatment or surgery (up to Rs.20,000 and Rs.60,000 a year), disability, death (Rs.2 lakh for accidental death, Rs.50,000 for normal death) or children's studies (Rs.4,000 to Rs.30,000 a year), apply in Form-V to the same office, within 3 months of discharge, accident or death."
   }
  ]
 }
