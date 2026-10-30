@@ -6,41 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_22.json",
  "items": [
   {
-   "k": "d652c74005a9",
-   "ctx": "eligibility",
-   "t": "Some groups join with their own ID card instead of an income certificate: differently-abled card holders, old-age and widow pensioners, handloom workers' board members, recognised journalists, transgender persons, Sri Lankan Tamil refugees and orphans"
-  },
-  {
-   "k": "d5c4bf51adb1",
-   "ctx": "eligibility",
-   "t": "There is no age limit, and the family pays no premium"
-  },
-  {
-   "k": "6e3271bf77e4",
-   "ctx": "documents",
-   "t": "Income certificate from the VAO showing a yearly family income under Rs 1,20,000 (the VAO can also sign the box on the form itself)"
-  },
-  {
-   "k": "3c0db612cbd2",
-   "ctx": "documents",
-   "t": "Aadhaar cards of the head of the family and of the members to be covered"
-  },
-  {
-   "k": "9a040a41a4b4",
-   "ctx": "documents",
-   "t": "For the special groups: the welfare board, pension or other ID card in place of the income certificate"
-  },
-  {
-   "k": "341b680d40ec",
-   "ctx": "submitAt",
-   "t": "The CMCHIS card centre (enrolment kiosk) at your District Collector's office. The head of the family should go in person with the filled form, the VAO income certificate, the original ration card and the Aadhaar cards of all members; the photo and fingerprint are taken there."
-  },
-  {
-   "k": "804f1dd09423",
-   "ctx": "hint",
-   "t": "Write the name exactly as it is printed first on your ration card."
-  },
-  {
    "k": "0eda9b252df0",
    "ctx": "hint",
    "t": "For a married woman who heads the family, write the husband's name."
@@ -774,6 +739,61 @@
    "k": "a22a83d7550b",
    "ctx": "documents",
    "t": "Mutation / Bhu Bharati record if the land was bought or inherited recently"
+  },
+  {
+   "k": "50e743264a31",
+   "ctx": "submitAt",
+   "t": "Give the filled Rythu Bharosa Bank Details Collection Form to the Agriculture Extension Officer (AEO) of your cluster at the Rythu Vedika, or at the Mandal Agriculture Office. Attach copies of the pattadar passbook, Aadhaar and bank passbook, and sign the Aadhaar consent form. The AEO checks the details, signs the form and uploads it on the Rythu Bharosa portal. AEO mobile numbers are under Contact Us on rythubharosa.telangana.gov.in."
+  },
+  {
+   "k": "bf7d5b3b1b76",
+   "ctx": "hint",
+   "t": "Where the land is, as printed in the pattadar passbook."
+  },
+  {
+   "k": "216e703ce7e6",
+   "ctx": "hint",
+   "t": "Exactly as in the pattadar passbook."
+  },
+  {
+   "k": "9aece7c54a25",
+   "ctx": "hint",
+   "t": "The farmer's own Aadhaar. It must be the same one linked to the bank account."
+  },
+  {
+   "k": "ed798afe0878",
+   "ctx": "hint",
+   "t": "The number on the front of your pattadar passbook."
+  },
+  {
+   "k": "fd3639ad06de",
+   "ctx": "hint",
+   "t": "The bank's SMS for each payment comes to this number."
+  },
+  {
+   "k": "0b512aed2e9f",
+   "ctx": "hint",
+   "t": "The bank where you want the money."
+  },
+  {
+   "k": "39f51de03a0c",
+   "ctx": "hint",
+   "t": "As printed in the bank passbook."
+  },
+  {
+   "k": "9007647fc63d",
+   "ctx": "hint",
+   "t": "Check every digit against the passbook. A wrong digit is the most common reason money does not arrive."
+  },
+  {
+   "k": "822d78721fc1",
+   "ctx": "hint",
+   "t": "11 letters and numbers printed in the passbook."
+  },
+  {
+   "k": "47902f08fb71",
+   "ctx": "demoSteps",
+   "t": "Make sure your land is correctly recorded in Bhu Bharati and you have the pattadar passbook. Mutation of bought or inherited land must be finished first."
   }
  ]
 }

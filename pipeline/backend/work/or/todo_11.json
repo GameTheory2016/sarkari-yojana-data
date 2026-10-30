@@ -6,66 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_11.json",
  "items": [
   {
-   "k": "5b896d832bda",
-   "ctx": "brief",
-   "t": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification."
-  },
-  {
-   "k": "064a1f59eb9a",
-   "ctx": "eligibility",
-   "t": "A woman who is a permanent (bonafide) resident of Himachal Pradesh, aged 21 to 59"
-  },
-  {
-   "k": "f55067c599dd",
-   "ctx": "eligibility",
-   "t": "Family income below Rs 2 lakh a year; BPL families get priority"
-  },
-  {
-   "k": "a7ba02ec616f",
-   "ctx": "eligibility",
-   "t": "Only one woman in a family can get the money"
-  },
-  {
-   "k": "5db3d8f42099",
-   "ctx": "eligibility",
-   "t": "Not eligible if anyone in the family is a regular, contract, outsourced or daily-wage government employee or a pensioner, a serving or retired soldier or a soldier's widow, or works for a panchayat, urban body, board or corporation"
-  },
-  {
-   "k": "8270332a1a3e",
-   "ctx": "eligibility",
-   "t": "Not eligible if anyone in the family is an Anganwadi worker or helper, ASHA, mid-day meal or multi-task worker, gets a social security pension, pays income tax or is registered for GST"
-  },
-  {
-   "k": "5907b31e0924",
-   "ctx": "eligibility",
-   "t": "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
-  },
-  {
-   "k": "41b72165e684",
-   "ctx": "documents",
-   "t": "Proof of age (birth certificate, school certificate or Aadhaar)"
-  },
-  {
-   "k": "cb73dbbdde37",
-   "ctx": "documents",
-   "t": "Family income certificate showing income below Rs 2 lakh"
-  },
-  {
-   "k": "77c682df9b62",
-   "ctx": "documents",
-   "t": "Copy of the bank passbook with IFSC"
-  },
-  {
-   "k": "64bbac60bf61",
-   "ctx": "documents",
-   "t": "Ration card (towns) or copy of the Parivar Register (villages)"
-  },
-  {
-   "k": "ceeaef53ea80",
-   "ctx": "documents",
-   "t": "Buddhist nuns: a certificate from the chief chomo of the monastery"
-  },
-  {
    "k": "8dfafea0d21c",
    "ctx": "submitAt",
    "t": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat."
@@ -774,6 +714,91 @@
    "k": "16eb8064d533",
    "ctx": "eligibility",
    "t": "Not for families with a serving or retired government employee, an income-tax or professional-tax payer, or a motorised four-wheeler or fishing boat"
+  },
+  {
+   "k": "3d566ecdd662",
+   "ctx": "eligibility",
+   "t": "The family must be on the verified list made from the camp applications; each panchayat's list is shown at the Panchayat Bhawan"
+  },
+  {
+   "k": "a5e9b740bef5",
+   "ctx": "documents",
+   "t": "Bank passbook of an Aadhaar-linked account in the applicant's name"
+  },
+  {
+   "k": "0bc2e5f8f0b1",
+   "ctx": "documents",
+   "t": "MGNREGA job card, for the 95 days of wages"
+  },
+  {
+   "k": "3afa463378f6",
+   "ctx": "documents",
+   "t": "Land paper for the plot where the house will be built (khatiyan or rent receipt)"
+  },
+  {
+   "k": "2c593036df1f",
+   "ctx": "portalName",
+   "t": "Abua Awas Yojana portal, Rural Development Department"
+  },
+  {
+   "k": "18f7e87d2079",
+   "ctx": "submitAt",
+   "t": "The 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camp in your panchayat when one is held, or the Panchayat Sachiv or the Block Development Officer (BDO) at the block office. Take Aadhaar, ration card, bank passbook, MGNREGA job card and land papers. If you already applied at a camp, check your name in the list at the Panchayat Bhawan, because houses are sanctioned from that list in order. There is no fee, so never pay a middleman who promises a house."
+  },
+  {
+   "k": "91063fbfb19f",
+   "ctx": "hint",
+   "t": "As on Aadhaar. The sanction and payments are in this name."
+  },
+  {
+   "k": "11c8ea938afb",
+   "ctx": "hint",
+   "t": "Husband's name if married, otherwise father's name."
+  },
+  {
+   "k": "d6d6a47a7ccd",
+   "ctx": "value",
+   "t": "Hesal, Hesal panchayat, Torpa block, Khunti district"
+  },
+  {
+   "k": "c73d1eb7dab7",
+   "ctx": "hint",
+   "t": "Where the family lives and where the new house will be built."
+  },
+  {
+   "k": "d6d64c289b56",
+   "ctx": "hint",
+   "t": "Write SC, ST, OBC or General, and say if the family belongs to a PVTG group."
+  },
+  {
+   "k": "371efb978b6c",
+   "ctx": "value",
+   "t": "Kutcha, mud walls with tiled roof"
+  },
+  {
+   "k": "8b7f402d4c85",
+   "ctx": "hint",
+   "t": "Describe the house you live in now, or write 'no house'."
+  },
+  {
+   "k": "4ff19c6f9c1b",
+   "ctx": "label",
+   "t": "House received earlier under PMAY-G, Indira Awas or Birsa Awas?"
+  },
+  {
+   "k": "c1775704d7dd",
+   "ctx": "hint",
+   "t": "Answer truthfully. Families who already got a government house are left out."
+  },
+  {
+   "k": "bb1f32585e2b",
+   "ctx": "hint",
+   "t": "An Aadhaar-linked account in the applicant's own name. Every instalment comes here."
+  },
+  {
+   "k": "71ac2f23c4c4",
+   "ctx": "hint",
+   "t": "Needed for the 95 days of wages for building your own house."
   }
  ]
 }

@@ -6,51 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_15.json",
  "items": [
   {
-   "k": "ddc2ab8cb2f5",
-   "ctx": "demoSteps",
-   "t": "A photo is taken and the card request is sent for approval."
-  },
-  {
-   "k": "d8d586a33081",
-   "ctx": "demoSteps",
-   "t": "Once approved, the Golden Card is printed or given to you to download; you can also keep it on the Ayushman app."
-  },
-  {
-   "k": "50d13bb18dc3",
-   "ctx": "demoSteps",
-   "t": "If your family was not found, apply at the Tehsildar's office for inclusion, then go back to the desk to enrol."
-  },
-  {
-   "k": "947b777e1c88",
-   "ctx": "demoSteps",
-   "t": "At an empanelled hospital, show the card at the Ayushman desk and pay nothing for a covered treatment."
-  },
-  {
-   "k": "34e1be5d9b50",
-   "ctx": "helpline",
-   "t": "14555 or 1800-111-565 — Ayushman Bharat helpline / 01982-257561 — Health & Medical Education Department, UT Ladakh"
-  },
-  {
-   "k": "1bd25989488f",
-   "ctx": "title",
-   "t": "UT of Lakshadweep State Pension Scheme (Old Age Pension)"
-  },
-  {
-   "k": "3e9e2f377579",
-   "ctx": "department",
-   "t": "Social Welfare & Tribal Affairs Department, Lakshadweep (through the District Panchayat and Village (Dweep) Panchayats)"
-  },
-  {
-   "k": "3be9c2caf62c",
-   "ctx": "brief",
-   "t": "Lakshadweep pays Rs.1,500 a month to permanent residents above 60 who have no income of their own. The same state pension also covers widows, abandoned people and persons with disabilities. You apply at your island's Village (Dweep) Panchayat office. The application is checked there and again at the District Panchayat, Kavaratti, and the money is paid every month into your Aadhaar-linked bank account. About 3,500 islanders get it."
-  },
-  {
-   "k": "3c56786bf705",
-   "ctx": "eligibility",
-   "t": "Permanent resident of the Union territory of Lakshadweep"
-  },
-  {
    "k": "57621f26e78b",
    "ctx": "eligibility",
    "t": "Above 60 years of age (the same scheme also covers widows, abandoned persons and persons with disabilities)"
@@ -799,6 +754,51 @@
    "k": "626af5acf94b",
    "ctx": "eligibility",
    "t": "Girl born on or after 1 January 2006 and registered at the local anganwadi centre"
+  },
+  {
+   "k": "bdafb564451b",
+   "ctx": "eligibility",
+   "t": "Parents are original residents of Madhya Pradesh and do not pay income tax"
+  },
+  {
+   "k": "a0f00fdf853b",
+   "ctx": "eligibility",
+   "t": "Parents have two children or fewer. The first girl qualifies without any condition. For the second girl, the mother or father must have adopted family planning after the second child"
+  },
+  {
+   "k": "75decab37e35",
+   "ctx": "eligibility",
+   "t": "Apply within one year of the girl's birth. Late cases, orphans, adopted girls and girls who have lost a parent can be registered up to age 5 as special cases"
+  },
+  {
+   "k": "617f7be41e39",
+   "ctx": "eligibility",
+   "t": "The final Rs 1 lakh is paid only if she has appeared for the class 12 exam and was not married before 18"
+  },
+  {
+   "k": "0425d1a52072",
+   "ctx": "documents",
+   "t": "Samagra family ID, with the girl added as a member and her 9-digit Samagra member ID"
+  },
+  {
+   "k": "098b0c9c9def",
+   "ctx": "documents",
+   "t": "Photo of the girl with her mother or father (JPG or PNG, 40 to 200 KB)"
+  },
+  {
+   "k": "8386489259d8",
+   "ctx": "documents",
+   "t": "Family planning (sterilisation) certificate, if this is the second girl"
+  },
+  {
+   "k": "336416bed3a3",
+   "ctx": "documents",
+   "t": "Aadhaar card of the mother or father, with e-KYC done in Samagra"
+  },
+  {
+   "k": "a1a8cda659cd",
+   "ctx": "hint",
+   "t": "Choose Normal for a girl under one year old. Choose Special only for a delay of more than a year, an orphan or adopted girl, or a girl whose mother or father has died."
   }
  ]
 }

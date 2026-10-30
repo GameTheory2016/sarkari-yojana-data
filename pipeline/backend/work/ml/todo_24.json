@@ -6,81 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_24.json",
  "items": [
   {
-   "k": "e09c3eda8674",
-   "ctx": "documents",
-   "t": "First-marriage confirmation certificate and the VRO / Panchayat Secretary certificate"
-  },
-  {
-   "k": "81af3e87e2bf",
-   "ctx": "documents",
-   "t": "Bank passbooks of the bride's mother and the bride"
-  },
-  {
-   "k": "d06e31f0e84d",
-   "ctx": "documents",
-   "t": "Bride's photo; SADAREM disability certificate if the bride has a disability"
-  },
-  {
-   "k": "6ffc4cf6156f",
-   "ctx": "label",
-   "t": "SSC or equivalent details available / Hall ticket no."
-  },
-  {
-   "k": "ba98bdc26a86",
-   "ctx": "hint",
-   "t": "With the hall ticket number and pass year, the bride's details are taken from the SSC records. Choose No if she did not write SSC."
-  },
-  {
-   "k": "8eb2cd687f9c",
-   "ctx": "hint",
-   "t": "As on Aadhaar and the SSC memo."
-  },
-  {
-   "k": "e68550f6bc43",
-   "ctx": "hint",
-   "t": "She must have been 18 or older on the wedding day."
-  },
-  {
-   "k": "d085fefb985d",
-   "ctx": "hint",
-   "t": "As written on the MeeSeva caste certificate."
-  },
-  {
-   "k": "d0f1523ed17d",
-   "ctx": "hint",
-   "t": "This decides the income limit for BC/EBC: Rs.1.5 lakh in villages, Rs.2 lakh in towns."
-  },
-  {
-   "k": "26c015aba947",
-   "ctx": "hint",
-   "t": "Number on the MeeSeva income certificate. The name, mandal and income then fill in by themselves."
-  },
-  {
-   "k": "153670e84072",
-   "ctx": "hint",
-   "t": "An account in the mother's own name, with IFSC. The money is paid here."
-  },
-  {
-   "k": "5d9c67e0032a",
-   "ctx": "label",
-   "t": "Name of the bride groom / Date of birth"
-  },
-  {
-   "k": "e5e7b6890277",
-   "ctx": "hint",
-   "t": "He must have been 21 or older on the wedding day."
-  },
-  {
-   "k": "239542e0ee88",
-   "ctx": "label",
-   "t": "Date and place of marriage / registration"
-  },
-  {
-   "k": "65bc0c5c3a09",
-   "ctx": "value",
-   "t": "11-05-2026, Sri Venkateswara Temple, Jagtial; SRO Jagtial, Doc No. 9999/2026"
-  },
-  {
    "k": "904a22bc111f",
    "ctx": "demoSteps",
    "t": "Get the caste-cum-nativity and income certificates from MeeSeva and register the marriage. Scan every document from the original (JPG, 50 to 150 KB)."
@@ -849,6 +774,41 @@
    "k": "5a5c09ef3abf",
    "ctx": "demoSteps",
    "t": "Upload the bill and a photo of yourself with the machine on the portal. The block or district team checks the machine in person."
+  },
+  {
+   "k": "cfa9156e1e7d",
+   "ctx": "demoSteps",
+   "t": "After the check, the subsidy is paid into your Aadhaar-linked bank account by DBT, and the security amount is refunded as the scheme rules say."
+  },
+  {
+   "k": "3d8ced4000fa",
+   "ctx": "helpline",
+   "t": "1800-180-1551 (Kisan Call Centre) / 1076 (CM Helpline); Deputy Director Agriculture office in your district"
+  },
+  {
+   "k": "ed1ddd5bf0dc",
+   "ctx": "title",
+   "t": "UP BOCW Shramik Panjikaran (Construction Worker Labour Card)"
+  },
+  {
+   "k": "2097d9fdd274",
+   "ctx": "department",
+   "t": "Uttar Pradesh Building and Other Construction Workers Welfare Board (UPBOCW), Labour Department"
+  },
+  {
+   "k": "8bd1d10a4a23",
+   "ctx": "brief",
+   "t": "Registering with the UP construction workers' board gives a construction worker a labour card. The card opens the family's main benefits: Rs.65,000 for a daughter's marriage, money at childbirth, school and college help for two children, a Rs.1,000 monthly pension after 60, and up to Rs.5 lakh if the worker dies in an accident. Masons, helpers, carpenters, bar benders, plumbers, electricians, painters, tile workers and road and building labourers can all register. You register online with Aadhaar e-KYC (or at a CSC) and renew the card to keep the benefits."
+  },
+  {
+   "k": "b350c79685f3",
+   "ctx": "benefit",
+   "t": "Rs.65,000 for a daughter's marriage, Rs.20,000–25,000 at childbirth, Rs.1,000 monthly pension, Rs.5 lakh on accidental death"
+  },
+  {
+   "k": "b839b08f8eaa",
+   "ctx": "eligibility",
+   "t": "Has done at least 90 days of building or other construction work in the last 12 months"
   }
  ]
 }

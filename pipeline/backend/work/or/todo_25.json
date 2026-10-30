@@ -6,51 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_25.json",
  "items": [
   {
-   "k": "937b84556a10",
-   "ctx": "department",
-   "t": "State Health Authority, Uttarakhand (Medical Health & Family Welfare Department)"
-  },
-  {
-   "k": "506876439ef5",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment up to Rs 5 lakh a year per family for almost every family in Uttarakhand. Families on the central PM-JAY list are covered by PM-JAY, and the state covers all the other resident families under Atal Ayushman on the same terms, hospitals and packages. The Ayushman (golden) card is made from your ration card or family register, on the phone or at a Jan Seva Kendra (CSC)."
-  },
-  {
-   "k": "edb7f352abbf",
-   "ctx": "eligibility",
-   "t": "Uttarakhand families found in any of these lists: NFSA ration card data, the old Mukhyamantri Swasthya Bima Yojana, SECC 2011 or SECC Plus"
-  },
-  {
-   "k": "522aaf228c1d",
-   "ctx": "eligibility",
-   "t": "No income limit and no limit on family size; every member is covered"
-  },
-  {
-   "k": "576cab25b214",
-   "ctx": "eligibility",
-   "t": "Not for people covered by CGHS, ECHS, ESIC or the State Government Health Scheme (state employees and pensioners have their own SGHS card)"
-  },
-  {
-   "k": "0eeb01c57412",
-   "ctx": "eligibility",
-   "t": "Illnesses you already have are covered from day one"
-  },
-  {
-   "k": "6ae371279728",
-   "ctx": "eligibility",
-   "t": "Atal Ayushman uses a referral system, so planned treatment at a private hospital may first need a referral from a government hospital"
-  },
-  {
-   "k": "eee5f7937aa5",
-   "ctx": "documents",
-   "t": "Family ID: ration card (new or old) or a copy of the family register (Parivar Register)"
-  },
-  {
-   "k": "a5a9da847146",
-   "ctx": "documents",
-   "t": "If you have neither: an ID such as voter ID, birth certificate, permanent residence certificate, PAN or passport showing your father's, mother's or spouse's name"
-  },
-  {
    "k": "4af330ef59e6",
    "ctx": "hint",
    "t": "Any working number you hold. The OTP and approval message come here."
@@ -764,6 +719,51 @@
    "k": "2168da6e91cc",
    "ctx": "demoSteps",
    "t": "For treatment or surgery (up to Rs.20,000 and Rs.60,000 a year), disability, death (Rs.2 lakh for accidental death, Rs.50,000 for normal death) or children's studies (Rs.4,000 to Rs.30,000 a year), apply in Form-V to the same office, within 3 months of discharge, accident or death."
+  },
+  {
+   "k": "b6b6c672e296",
+   "ctx": "demoSteps",
+   "t": "The Assistant Labour Commissioner sanctions the claim and the money is sent to the bank account."
+  },
+  {
+   "k": "1d9fb3bc7aeb",
+   "ctx": "demoSteps",
+   "t": "At 60, apply in Form-V for the full PF amount with interest."
+  },
+  {
+   "k": "6cd29644aba1",
+   "ctx": "helpline",
+   "t": "1800-103-0009 (Shramik Sathi toll-free helpline, Labour Commissionerate); 033-2248-8150 (BMSSY helpdesk, New Secretariat Building, Kolkata)"
+  },
+  {
+   "k": "5a3cb71f0c95",
+   "ctx": "title",
+   "t": "Annapurna Yojana (Annapurna Bhandar, formerly Lakshmir Bhandar)"
+  },
+  {
+   "k": "b5b7479d86cc",
+   "ctx": "brief",
+   "t": "Annapurna Yojana pays Rs.3,000 every month to women of West Bengal aged 25 to 60, by DBT into her own bank account. It replaced Lakshmir Bhandar in 2026 under the new state government and is often called Annapurna Bhandar; the amount is now the same for every caste category. You hand in the Family Level Data Collection form at the Block Development Office, the Sub-Divisional Office or a Kolkata Municipal Corporation ward office, or submit it online on the state's social registry portal, where you can also check the status and file a grievance."
+  },
+  {
+   "k": "6fca209c23eb",
+   "ctx": "benefit",
+   "t": "Rs.3,000 a month for every eligible woman"
+  },
+  {
+   "k": "c3e40ca567e7",
+   "ctx": "eligibility",
+   "t": "Must not be an illegal immigrant; a voter ID card (EPIC) is required"
+  },
+  {
+   "k": "a155c1601f72",
+   "ctx": "documents",
+   "t": "Active mobile number, for the OTP and payment messages"
+  },
+  {
+   "k": "46c3c256c956",
+   "ctx": "documents",
+   "t": "Bank passbook first page, in her own single name"
   }
  ]
 }

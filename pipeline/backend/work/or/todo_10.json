@@ -6,81 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_10.json",
  "items": [
   {
-   "k": "1a781f501134",
-   "ctx": "eligibility",
-   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
-  },
-  {
-   "k": "6b3b66fa5faa",
-   "ctx": "eligibility",
-   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
-  },
-  {
-   "k": "6d5280574a3e",
-   "ctx": "eligibility",
-   "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
-  },
-  {
-   "k": "941ea7a3d8f9",
-   "ctx": "eligibility",
-   "t": "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees"
-  },
-  {
-   "k": "57aea47a8795",
-   "ctx": "eligibility",
-   "t": "Gujarat government regular employees and pensioners, through their HRPN or PPO number"
-  },
-  {
-   "k": "1fccd972f146",
-   "ctx": "eligibility",
-   "t": "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
-  },
-  {
-   "k": "e3146b133fa3",
-   "ctx": "documents",
-   "t": "Aadhaar card of each family member being enrolled (needed for e-KYC)"
-  },
-  {
-   "k": "6d4c6ea51155",
-   "ctx": "documents",
-   "t": "Ration card, for the family details"
-  },
-  {
-   "k": "4d17d795c486",
-   "ctx": "documents",
-   "t": "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)"
-  },
-  {
-   "k": "60b83f7b9449",
-   "ctx": "documents",
-   "t": "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family"
-  },
-  {
-   "k": "78dc42c5ee94",
-   "ctx": "documents",
-   "t": "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number"
-  },
-  {
-   "k": "c2199c54fa0f",
-   "ctx": "hint",
-   "t": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
-  },
-  {
-   "k": "215193346df7",
-   "ctx": "hint",
-   "t": "Any working number you keep with you. The login OTP and the approval SMS come here."
-  },
-  {
-   "k": "3fa8781a3c7e",
-   "ctx": "hint",
-   "t": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
-  },
-  {
-   "k": "8834be4c604c",
-   "ctx": "hint",
-   "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
-  },
-  {
    "k": "ac5965f48967",
    "ctx": "hint",
    "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
@@ -764,6 +689,66 @@
    "k": "de6f523880bd",
    "ctx": "department",
    "t": "Department of Social Justice & Empowerment (Directorate of Empowerment of SCs, OBCs, Minorities & Specially Abled), Government of Himachal Pradesh"
+  },
+  {
+   "k": "5b896d832bda",
+   "ctx": "brief",
+   "t": "Rs 1,500 a month for women of Himachal Pradesh from families with an income below Rs 2 lakh a year and no government job or pension. It began in 2023 in Lahaul-Spiti as the Indira Gandhi Mahila Samman Nidhi. In 2026 the rules were tightened: the income limit came in April, so earlier applications had to be made again, and from June the age is 21 to 59. Only one woman per family is paid and BPL families come first. You apply on a free form at the Tehsil Welfare Officer's office, and payments are being started area by area after verification."
+  },
+  {
+   "k": "064a1f59eb9a",
+   "ctx": "eligibility",
+   "t": "A woman who is a permanent (bonafide) resident of Himachal Pradesh, aged 21 to 59"
+  },
+  {
+   "k": "f55067c599dd",
+   "ctx": "eligibility",
+   "t": "Family income below Rs 2 lakh a year; BPL families get priority"
+  },
+  {
+   "k": "a7ba02ec616f",
+   "ctx": "eligibility",
+   "t": "Only one woman in a family can get the money"
+  },
+  {
+   "k": "5db3d8f42099",
+   "ctx": "eligibility",
+   "t": "Not eligible if anyone in the family is a regular, contract, outsourced or daily-wage government employee or a pensioner, a serving or retired soldier or a soldier's widow, or works for a panchayat, urban body, board or corporation"
+  },
+  {
+   "k": "8270332a1a3e",
+   "ctx": "eligibility",
+   "t": "Not eligible if anyone in the family is an Anganwadi worker or helper, ASHA, mid-day meal or multi-task worker, gets a social security pension, pays income tax or is registered for GST"
+  },
+  {
+   "k": "5907b31e0924",
+   "ctx": "eligibility",
+   "t": "Buddhist nuns (chomo) living permanently in a monastery in Himachal are also eligible"
+  },
+  {
+   "k": "41b72165e684",
+   "ctx": "documents",
+   "t": "Proof of age (birth certificate, school certificate or Aadhaar)"
+  },
+  {
+   "k": "cb73dbbdde37",
+   "ctx": "documents",
+   "t": "Family income certificate showing income below Rs 2 lakh"
+  },
+  {
+   "k": "77c682df9b62",
+   "ctx": "documents",
+   "t": "Copy of the bank passbook with IFSC"
+  },
+  {
+   "k": "64bbac60bf61",
+   "ctx": "documents",
+   "t": "Ration card (towns) or copy of the Parivar Register (villages)"
+  },
+  {
+   "k": "ceeaef53ea80",
+   "ctx": "documents",
+   "t": "Buddhist nuns: a certificate from the chief chomo of the monastery"
   }
  ]
 }

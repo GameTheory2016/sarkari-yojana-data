@@ -6,61 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_23.json",
  "items": [
   {
-   "k": "50e743264a31",
-   "ctx": "submitAt",
-   "t": "Give the filled Rythu Bharosa Bank Details Collection Form to the Agriculture Extension Officer (AEO) of your cluster at the Rythu Vedika, or at the Mandal Agriculture Office. Attach copies of the pattadar passbook, Aadhaar and bank passbook, and sign the Aadhaar consent form. The AEO checks the details, signs the form and uploads it on the Rythu Bharosa portal. AEO mobile numbers are under Contact Us on rythubharosa.telangana.gov.in."
-  },
-  {
-   "k": "bf7d5b3b1b76",
-   "ctx": "hint",
-   "t": "Where the land is, as printed in the pattadar passbook."
-  },
-  {
-   "k": "216e703ce7e6",
-   "ctx": "hint",
-   "t": "Exactly as in the pattadar passbook."
-  },
-  {
-   "k": "9aece7c54a25",
-   "ctx": "hint",
-   "t": "The farmer's own Aadhaar. It must be the same one linked to the bank account."
-  },
-  {
-   "k": "ed798afe0878",
-   "ctx": "hint",
-   "t": "The number on the front of your pattadar passbook."
-  },
-  {
-   "k": "fd3639ad06de",
-   "ctx": "hint",
-   "t": "The bank's SMS for each payment comes to this number."
-  },
-  {
-   "k": "0b512aed2e9f",
-   "ctx": "hint",
-   "t": "The bank where you want the money."
-  },
-  {
-   "k": "39f51de03a0c",
-   "ctx": "hint",
-   "t": "As printed in the bank passbook."
-  },
-  {
-   "k": "9007647fc63d",
-   "ctx": "hint",
-   "t": "Check every digit against the passbook. A wrong digit is the most common reason money does not arrive."
-  },
-  {
-   "k": "822d78721fc1",
-   "ctx": "hint",
-   "t": "11 letters and numbers printed in the passbook."
-  },
-  {
-   "k": "47902f08fb71",
-   "ctx": "demoSteps",
-   "t": "Make sure your land is correctly recorded in Bhu Bharati and you have the pattadar passbook. Mutation of bought or inherited land must be finished first."
-  },
-  {
    "k": "8993f9c1e9a5",
    "ctx": "demoSteps",
    "t": "Get the Bank Details Collection Form from the AEO, or download it. Fill in your name, Aadhaar, passbook number, mobile number and bank details, and sign it."
@@ -734,6 +679,81 @@
    "k": "e214b708a147",
    "ctx": "documents",
    "t": "Marriage certificate (registration), one wedding photo, and the wedding card if available"
+  },
+  {
+   "k": "e09c3eda8674",
+   "ctx": "documents",
+   "t": "First-marriage confirmation certificate and the VRO / Panchayat Secretary certificate"
+  },
+  {
+   "k": "81af3e87e2bf",
+   "ctx": "documents",
+   "t": "Bank passbooks of the bride's mother and the bride"
+  },
+  {
+   "k": "d06e31f0e84d",
+   "ctx": "documents",
+   "t": "Bride's photo; SADAREM disability certificate if the bride has a disability"
+  },
+  {
+   "k": "6ffc4cf6156f",
+   "ctx": "label",
+   "t": "SSC or equivalent details available / Hall ticket no."
+  },
+  {
+   "k": "ba98bdc26a86",
+   "ctx": "hint",
+   "t": "With the hall ticket number and pass year, the bride's details are taken from the SSC records. Choose No if she did not write SSC."
+  },
+  {
+   "k": "8eb2cd687f9c",
+   "ctx": "hint",
+   "t": "As on Aadhaar and the SSC memo."
+  },
+  {
+   "k": "e68550f6bc43",
+   "ctx": "hint",
+   "t": "She must have been 18 or older on the wedding day."
+  },
+  {
+   "k": "d085fefb985d",
+   "ctx": "hint",
+   "t": "As written on the MeeSeva caste certificate."
+  },
+  {
+   "k": "d0f1523ed17d",
+   "ctx": "hint",
+   "t": "This decides the income limit for BC/EBC: Rs.1.5 lakh in villages, Rs.2 lakh in towns."
+  },
+  {
+   "k": "26c015aba947",
+   "ctx": "hint",
+   "t": "Number on the MeeSeva income certificate. The name, mandal and income then fill in by themselves."
+  },
+  {
+   "k": "153670e84072",
+   "ctx": "hint",
+   "t": "An account in the mother's own name, with IFSC. The money is paid here."
+  },
+  {
+   "k": "5d9c67e0032a",
+   "ctx": "label",
+   "t": "Name of the bride groom / Date of birth"
+  },
+  {
+   "k": "e5e7b6890277",
+   "ctx": "hint",
+   "t": "He must have been 21 or older on the wedding day."
+  },
+  {
+   "k": "239542e0ee88",
+   "ctx": "label",
+   "t": "Date and place of marriage / registration"
+  },
+  {
+   "k": "65bc0c5c3a09",
+   "ctx": "value",
+   "t": "11-05-2026, Sri Venkateswara Temple, Jagtial; SRO Jagtial, Doc No. 9999/2026"
   }
  ]
 }

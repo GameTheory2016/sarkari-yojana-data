@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_07.json",
  "items": [
   {
-   "k": "3ebe09aa598a",
-   "ctx": "hint",
-   "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
-  },
-  {
-   "k": "6c92a04d1766",
-   "ctx": "demoSteps",
-   "t": "Open bocwscheme.bihar.gov.in, click Labour Registration, enter your Aadhaar number and name and authenticate with the OTP. If your mobile is not linked to Aadhaar, a CSC or the block Labour Enforcement Officer can do it with your fingerprint."
-  },
-  {
-   "k": "0ac03082fd62",
-   "ctx": "demoSteps",
-   "t": "Verify your mobile number with OTP and fill in your personal details: area, district, mother's name, marital status, category, education and ration card number."
-  },
-  {
-   "k": "f0d042a396cb",
-   "ctx": "demoSteps",
-   "t": "Add the employers you worked for in the last 12 months (at least 90 days in all), choose the certifying authority and upload the certificate or self-declaration."
-  },
-  {
-   "k": "4f34a906fbf4",
-   "ctx": "demoSteps",
-   "t": "Add family members and choose a nominee with a share, upload your photo, pay the fee online, then Preview and Submit. Note the application number."
-  },
-  {
-   "k": "99a7422cc860",
-   "ctx": "demoSteps",
-   "t": "The Labour Enforcement Officer checks and approves the application, and the registration number comes by SMS. Log in with that number and your year of birth to download the labour card and fee receipt."
-  },
-  {
-   "k": "d5aa301a23f1",
-   "ctx": "demoSteps",
-   "t": "To claim a benefit later, log in as Labour, choose the scheme, fill in the details and upload the proof (marriage card, birth certificate, mark sheet and so on). Approved money comes to your bank account. Renew the membership before it runs out."
-  },
-  {
-   "k": "58a09107e18e",
-   "ctx": "helpline",
-   "t": "Labour Enforcement Officer (LEO) at your block office, or the Labour Superintendent office in your district"
-  },
-  {
-   "k": "dee681608bcd",
-   "ctx": "title",
-   "t": "Mukhyamantri Jan Arogya Yojana Bihar (Ayushman Card for Ration Card Holders)"
-  },
-  {
-   "k": "bedc8e53a82c",
-   "ctx": "department",
-   "t": "Bihar Swasthya Suraksha Samiti, Health Department, Government of Bihar, with the National Health Authority"
-  },
-  {
    "k": "5fa5911c5630",
    "ctx": "brief",
    "t": "Bihar pays for the same free hospital cover of Rs 5 lakh a year as Ayushman Bharat for ration-card families that the central PM-JAY list left out. Since 2024 every family holding an NFSA ration card in Bihar is covered, either under PM-JAY or under this state scheme, and both use the same Ayushman card at any empanelled hospital. The card is made free with the ration card and Aadhaar, on the Ayushman app or website, at a CSC, or at camps held at ration shops."
@@ -754,6 +704,61 @@
    "k": "c500d45d75bc",
    "ctx": "demoSteps",
    "t": "The pension is credited to your bank account by the 5th of every month."
+  },
+  {
+   "k": "73564bc74ed1",
+   "ctx": "demoSteps",
+   "t": "Give a life certificate to the field staff every year to keep the pension running."
+  },
+  {
+   "k": "226c3b08e9af",
+   "ctx": "helpline",
+   "t": "0260-2632303 — District Panchayat, Dadra & Nagar Haveli (Silvassa); the District Panchayat or Municipal Council office at Daman or Diu"
+  },
+  {
+   "k": "6ad4ee91a712",
+   "ctx": "title",
+   "t": "Ayushman Bharat PM-JAY Delhi (Ayushman / Vay Vandana Card)"
+  },
+  {
+   "k": "50d1d3d9f27b",
+   "ctx": "department",
+   "t": "Department of Health & Family Welfare, Govt of NCT of Delhi, with the National Health Authority"
+  },
+  {
+   "k": "4945fe2cd908",
+   "ctx": "brief",
+   "t": "Delhi joined Ayushman Bharat in April 2025 and adds its own Rs 5 lakh on top of the Centre's Rs 5 lakh, so eligible families get Rs 10 lakh a year of free, cashless hospital treatment. Every Delhi resident aged 70 or above gets the Vay Vandana card with the same Rs 10 lakh cover, whatever the income. Treatment is at empanelled government and private hospitals, and free OPD care is given at Ayushman Arogya Mandirs. You can make the card yourself on the phone."
+  },
+  {
+   "k": "6d54b0702996",
+   "ctx": "benefit",
+   "t": "Rs 10 lakh a year cashless (Rs 5 lakh from the Centre + Rs 5 lakh Delhi top-up)"
+  },
+  {
+   "k": "297933a1aeb2",
+   "ctx": "eligibility",
+   "t": "Delhi families found in the National Food Security (ration card) data or the SECC 2011 list, or groups added by the Delhi Cabinet (about 6.5 lakh families)"
+  },
+  {
+   "k": "ac88d6d9bac9",
+   "ctx": "eligibility",
+   "t": "Every Delhi resident aged 70 or above, whatever the family income, under the Vay Vandana card"
+  },
+  {
+   "k": "c0fe57554791",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age, and illnesses you already have are covered from day one"
+  },
+  {
+   "k": "ef1fee50199d",
+   "ctx": "eligibility",
+   "t": "Each member needs Aadhaar e-KYC to get a card; the cover is shared by the family"
+  },
+  {
+   "k": "fc32d2a8532f",
+   "ctx": "documents",
+   "t": "Delhi ration card number, to find and link the family"
   }
  ]
 }

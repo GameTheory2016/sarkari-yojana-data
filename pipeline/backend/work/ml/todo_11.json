@@ -6,41 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_11.json",
  "items": [
   {
-   "k": "ac5965f48967",
-   "ctx": "hint",
-   "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
-  },
-  {
-   "k": "34dbd876279a",
-   "ctx": "hint",
-   "t": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
-  },
-  {
-   "k": "6d5bce5a3657",
-   "ctx": "hint",
-   "t": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
-  },
-  {
-   "k": "93e44aae243f",
-   "ctx": "hint",
-   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
-  },
-  {
-   "k": "92f0b5c3c707",
-   "ctx": "hint",
-   "t": "Where you live now, so the nearest empanelled hospitals are shown to you."
-  },
-  {
-   "k": "4cb4e06ad562",
-   "ctx": "demoSteps",
-   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar."
-  },
-  {
-   "k": "bae821feb9a5",
-   "ctx": "demoSteps",
-   "t": "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit."
-  },
-  {
    "k": "47e1b1651592",
    "ctx": "demoSteps",
    "t": "If your family does not appear but you qualify by income (up to Rs.4 lakh, or Rs.6 lakh for 60+) or as a construction worker or other listed group, go to the PMJAY-MA kiosk at the nearest government health centre (PHC, CHC, UHC, sub-district or district hospital) or at any empanelled hospital with your ration card, every member's Aadhaar and the income certificate or category proof."
@@ -749,6 +714,61 @@
    "k": "ceeaef53ea80",
    "ctx": "documents",
    "t": "Buddhist nuns: a certificate from the chief chomo of the monastery"
+  },
+  {
+   "k": "8dfafea0d21c",
+   "ctx": "submitAt",
+   "t": "Collect the application form free of cost from the Tehsil Welfare Officer's office in your tehsil (or the District Welfare Officer's office), fill it, attach the documents and hand it in at the same office. Take your income and bonafide certificates along; they can be made at a Lok Mitra Kendra on HimSeva first. Incomplete forms are returned within 15 days for correction. Since June 2026 the forms go to the Tehsil Welfare Officer, not to the panchayat."
+  },
+  {
+   "k": "d76d2dd4570a",
+   "ctx": "hint",
+   "t": "The woman's own name, as on Aadhaar and the bank passbook."
+  },
+  {
+   "k": "87d8aac6ad28",
+   "ctx": "hint",
+   "t": "As written in the Parivar Register or ration card."
+  },
+  {
+   "k": "ee70810424cf",
+   "ctx": "hint",
+   "t": "You must be at least 21 and not over 59. Attach the age proof."
+  },
+  {
+   "k": "eb3805fcd825",
+   "ctx": "value",
+   "t": "Village Dhalli, Panchayat Bhatta, Tehsil Theog, District Shimla"
+  },
+  {
+   "k": "90a7dd7e8512",
+   "ctx": "hint",
+   "t": "Village, panchayat, tehsil and district where you live permanently."
+  },
+  {
+   "k": "92353b263003",
+   "ctx": "hint",
+   "t": "Income of the whole family from all sources, as in the income certificate. It must be below Rs 2 lakh."
+  },
+  {
+   "k": "3fd76cf7cc45",
+   "ctx": "hint",
+   "t": "Tick Yes only if the family is on the BPL list; BPL women are taken first."
+  },
+  {
+   "k": "dbe6f062a1cd",
+   "ctx": "hint",
+   "t": "An account in your own name; the Rs 1,500 is paid here every month."
+  },
+  {
+   "k": "c9655a3070f0",
+   "ctx": "hint",
+   "t": "Villages give the Parivar Register copy, towns give the ration card."
+  },
+  {
+   "k": "1c0cfe70dbe1",
+   "ctx": "hint",
+   "t": "You declare that no one in the family is a government employee, pensioner, ASHA or Anganwadi worker or in the other excluded groups, and that no other woman of the family gets this money."
   }
  ]
 }

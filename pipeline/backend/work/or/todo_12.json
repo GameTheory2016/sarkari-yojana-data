@@ -6,91 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_12.json",
  "items": [
   {
-   "k": "3d566ecdd662",
-   "ctx": "eligibility",
-   "t": "The family must be on the verified list made from the camp applications; each panchayat's list is shown at the Panchayat Bhawan"
-  },
-  {
-   "k": "a5e9b740bef5",
-   "ctx": "documents",
-   "t": "Bank passbook of an Aadhaar-linked account in the applicant's name"
-  },
-  {
-   "k": "0bc2e5f8f0b1",
-   "ctx": "documents",
-   "t": "MGNREGA job card, for the 95 days of wages"
-  },
-  {
-   "k": "3afa463378f6",
-   "ctx": "documents",
-   "t": "Land paper for the plot where the house will be built (khatiyan or rent receipt)"
-  },
-  {
-   "k": "2c593036df1f",
-   "ctx": "portalName",
-   "t": "Abua Awas Yojana portal, Rural Development Department"
-  },
-  {
-   "k": "18f7e87d2079",
-   "ctx": "submitAt",
-   "t": "The 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camp in your panchayat when one is held, or the Panchayat Sachiv or the Block Development Officer (BDO) at the block office. Take Aadhaar, ration card, bank passbook, MGNREGA job card and land papers. If you already applied at a camp, check your name in the list at the Panchayat Bhawan, because houses are sanctioned from that list in order. There is no fee, so never pay a middleman who promises a house."
-  },
-  {
-   "k": "91063fbfb19f",
-   "ctx": "hint",
-   "t": "As on Aadhaar. The sanction and payments are in this name."
-  },
-  {
-   "k": "11c8ea938afb",
-   "ctx": "hint",
-   "t": "Husband's name if married, otherwise father's name."
-  },
-  {
-   "k": "d6d6a47a7ccd",
-   "ctx": "value",
-   "t": "Hesal, Hesal panchayat, Torpa block, Khunti district"
-  },
-  {
-   "k": "c73d1eb7dab7",
-   "ctx": "hint",
-   "t": "Where the family lives and where the new house will be built."
-  },
-  {
-   "k": "d6d64c289b56",
-   "ctx": "hint",
-   "t": "Write SC, ST, OBC or General, and say if the family belongs to a PVTG group."
-  },
-  {
-   "k": "371efb978b6c",
-   "ctx": "value",
-   "t": "Kutcha, mud walls with tiled roof"
-  },
-  {
-   "k": "8b7f402d4c85",
-   "ctx": "hint",
-   "t": "Describe the house you live in now, or write 'no house'."
-  },
-  {
-   "k": "4ff19c6f9c1b",
-   "ctx": "label",
-   "t": "House received earlier under PMAY-G, Indira Awas or Birsa Awas?"
-  },
-  {
-   "k": "c1775704d7dd",
-   "ctx": "hint",
-   "t": "Answer truthfully. Families who already got a government house are left out."
-  },
-  {
-   "k": "bb1f32585e2b",
-   "ctx": "hint",
-   "t": "An Aadhaar-linked account in the applicant's own name. Every instalment comes here."
-  },
-  {
-   "k": "71ac2f23c4c4",
-   "ctx": "hint",
-   "t": "Needed for the 95 days of wages for building your own house."
-  },
-  {
    "k": "ca3929f872bd",
    "ctx": "demoSteps",
    "t": "If you applied at a camp, look for your name on the Abua Awas list at the Panchayat Bhawan. If you never applied, apply at the next 'Aapki Yojana, Aapki Sarkar, Aapke Dwar' camp or at the block office."
@@ -774,6 +689,71 @@
    "k": "c61b3b3029a1",
    "ctx": "hint",
    "t": "Another pension makes you ineligible. The occupation certificate is needed for Sandhya Suraksha."
+  },
+  {
+   "k": "48d87910c720",
+   "ctx": "demoSteps",
+   "t": "Download the common pension form from dssp.karnataka.gov.in, or ask for it at the Nadakacheri counter."
+  },
+  {
+   "k": "b0d48eb2b649",
+   "ctx": "demoSteps",
+   "t": "Fill it in, tick the pension you want, sign or put your left thumb impression, and attach the documents."
+  },
+  {
+   "k": "49c35b4905db",
+   "ctx": "demoSteps",
+   "t": "Hand it in at the Atalji Janasnehi Kendra for your hobli or taluk, and keep the acknowledgement number."
+  },
+  {
+   "k": "dcc584051e33",
+   "ctx": "demoSteps",
+   "t": "The village administrative officer and the revenue inspector check your age, income and residence, often with a home visit. The Tahsildar then sanctions the pension."
+  },
+  {
+   "k": "bc1748ab6f36",
+   "ctx": "demoSteps",
+   "t": "The pension order gives you a beneficiary ID. The pension is then paid every month into your bank or post office account."
+  },
+  {
+   "k": "fe1bdb064636",
+   "ctx": "demoSteps",
+   "t": "Check the status, or a stopped payment, on the Beneficiary Status page of dssp.karnataka.gov.in with your beneficiary ID. If payments stop, first make sure your account is seeded with Aadhaar, then go to the taluk office."
+  },
+  {
+   "k": "842ebb232717",
+   "ctx": "helpline",
+   "t": "080-22232040 / 080-22232012 — Directorate of Social Security and Pensions, Bengaluru; 1902 — Karnataka government citizen helpline"
+  },
+  {
+   "k": "b087902c6593",
+   "ctx": "title",
+   "t": "Shakti Yojana (Free Bus Travel for Women)"
+  },
+  {
+   "k": "4e20353ce2b5",
+   "ctx": "department",
+   "t": "Transport Department, Government of Karnataka — KSRTC, BMTC, KKRTC and NWKRTC"
+  },
+  {
+   "k": "19a5f36bbc70",
+   "ctx": "brief",
+   "t": "Women and girls who live in Karnataka, and transgender persons, travel free in ordinary government buses anywhere inside the state. There is no form, card or registration: show a government photo ID with a Karnataka address to the conductor and you get a zero-fare Shakti ticket. Air-conditioned and luxury buses, sleeper buses and buses that cross into another state are not free."
+  },
+  {
+   "k": "840813a1de39",
+   "ctx": "benefit",
+   "t": "Free travel in ordinary and express non-AC government buses within Karnataka"
+  },
+  {
+   "k": "53d4a966b6fe",
+   "ctx": "eligibility",
+   "t": "Women and girls of any age who live in Karnataka, including school and college students"
+  },
+  {
+   "k": "2f6af6535565",
+   "ctx": "eligibility",
+   "t": "Transgender persons who live in Karnataka"
   }
  ]
 }

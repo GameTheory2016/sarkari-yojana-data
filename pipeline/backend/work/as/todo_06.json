@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_06.json",
  "items": [
   {
-   "k": "cc9832c531d6",
-   "ctx": "submitAt",
-   "t": "Your Gaon Panchayat office (the VCDC office in Sixth Schedule areas, or the ward or municipal office in towns), when the government opens a round for new names. The form is free there, and the Orunodoi Sarothi of your Assembly constituency helps you fill it. Go with the nominated woman and take the Aadhaar-seeded ration card, her Aadhaar card, her Aadhaar-seeded bank passbook, a mobile phone, and any widow, divorce or disability papers. Get a signed acknowledgement slip. There is no online application, so do not pay anyone who offers to apply online for you."
-  },
-  {
-   "k": "0cad5fa42fcf",
-   "ctx": "hint",
-   "t": "Exactly as on her Aadhaar card and in her bank account. The money goes only to her."
-  },
-  {
-   "k": "a9a9c86ae76c",
-   "ctx": "hint",
-   "t": "Write the husband's name if she is married, otherwise the father's name."
-  },
-  {
-   "k": "e7c026d4748c",
-   "ctx": "hint",
-   "t": "In a town, write the municipality or town committee name instead."
-  },
-  {
-   "k": "b0f68de21a4f",
-   "ctx": "hint",
-   "t": "The village or ward where the family actually lives and eats together."
-  },
-  {
-   "k": "f4cf746eebb9",
-   "ctx": "hint",
-   "t": "Copy it from the ration card. Her name should be on this card."
-  },
-  {
-   "k": "1d4604285783",
-   "ctx": "hint",
-   "t": "The nominated woman's 12-digit Aadhaar number."
-  },
-  {
-   "k": "9cd64e19150d",
-   "ctx": "hint",
-   "t": "Her own account, seeded with Aadhaar. A joint account or someone else's account will be rejected."
-  },
-  {
-   "k": "4413d152e26f",
-   "ctx": "hint",
-   "t": "SMS about wrong bank details or approval comes to this number."
-  },
-  {
-   "k": "b7c5340a489b",
-   "ctx": "hint",
-   "t": "Tick widow, divorced, separated, unmarried above 45, divyang or transgender member if it applies, and attach the proof."
-  },
-  {
-   "k": "0f26f5755fd8",
-   "ctx": "label",
-   "t": "Number of members on the ration card"
-  },
-  {
-   "k": "6b7cbcecb1e0",
-   "ctx": "hint",
-   "t": "Count everyone listed on the ration card. Only one woman per family can get Orunodoi."
-  },
-  {
-   "k": "f3dd8605f184",
-   "ctx": "demoSteps",
-   "t": "Watch for a new Orunodoi round announced in the newspapers, on the Gaon Panchayat notice board or by your Orunodoi Sarothi. Women already getting the money do not need to apply again unless they are asked to."
-  },
-  {
-   "k": "e60008e44ac7",
-   "ctx": "demoSteps",
-   "t": "Collect the free form at the Gaon Panchayat, VCDC or ward office. Fill it with the nominated woman's details, attach the copies, sign the undertaking and keep the acknowledgement slip."
-  },
-  {
-   "k": "0d3ebbfe6da2",
-   "ctx": "demoSteps",
-   "t": "The Gaon Panchayat, VCDC or town body checks each family against the eligibility checklist. The District Level Monitoring Committee under the Deputy Commissioner then finalises the list."
-  },
-  {
-   "k": "2b8175f04654",
-   "ctx": "demoSteps",
-   "t": "The approved list is published and the Finance Department checks the bank details. If an SMS says your details are wrong, correct them at the Gaon Panchayat or ward office."
-  },
-  {
-   "k": "f0ea67664237",
-   "ctx": "demoSteps",
-   "t": "Rs.1,250 then arrives in her bank account every month by DBT. Keep the account seeded with Aadhaar, or the payment is held back."
-  },
-  {
-   "k": "4467cfd6dbf4",
-   "ctx": "demoSteps",
-   "t": "If the money stops or the name is missing, call the Orunodoi helpdesk on 1800-202-6256 (working days, 10 am to 6 pm) or meet the Orunodoi Sarothi."
-  },
-  {
    "k": "e5c876f513f6",
    "ctx": "helpline",
    "t": "1800-202-6256 — Orunodoi 3.0 helpdesk, Finance Department, Assam (working days, 10 am to 6 pm)"
@@ -819,6 +729,126 @@
    "k": "082d0ddc62c5",
    "ctx": "brief",
    "t": "Masons, labourers, carpenters, painters, plumbers and other construction workers who register with the Bihar BOCW Welfare Board get a labour card that opens more than a dozen benefits: Rs 50,000 for a daughter's marriage, maternity and paternity money, a bicycle grant, help with children's studies, Rs 3,000 a year for medical costs, a Rs 1,000 monthly pension at 60, and Rs 2 to 4 lakh to the family if the worker dies. Registration is done online with Aadhaar on the board's portal, or at a CSC or the block labour office. The fee is small: Rs 20 for registration plus the membership fee, Rs 50 in all for five years."
+  },
+  {
+   "k": "52b93070830f",
+   "ctx": "benefit",
+   "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
+  },
+  {
+   "k": "b098fbf81018",
+   "ctx": "eligibility",
+   "t": "Worked at least 90 days in building or other construction work in the last 12 months"
+  },
+  {
+   "k": "7d29b166ca4e",
+   "ctx": "eligibility",
+   "t": "The 90 days are certified by the employer or contractor, the Labour Enforcement Officer, a registered trade union officer, or your own self-declaration"
+  },
+  {
+   "k": "1468a4984691",
+   "ctx": "eligibility",
+   "t": "Not registered with any other labour welfare board"
+  },
+  {
+   "k": "0ed70605f2c4",
+   "ctx": "eligibility",
+   "t": "Most benefits need some time as a member: 1 year for maternity, bicycle and study help; 3 years for marriage help and house repair; 5 years for the pension"
+  },
+  {
+   "k": "524abd6d60af",
+   "ctx": "eligibility",
+   "t": "Keep the membership renewed; benefits stop while it has lapsed"
+  },
+  {
+   "k": "19fc14c3f01e",
+   "ctx": "documents",
+   "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
+  },
+  {
+   "k": "ba5b6ec96ec9",
+   "ctx": "documents",
+   "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
+  },
+  {
+   "k": "b1cb80f00c7a",
+   "ctx": "hint",
+   "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
+  },
+  {
+   "k": "9e8a4f513145",
+   "ctx": "hint",
+   "t": "Exactly as printed on your Aadhaar card."
+  },
+  {
+   "k": "6b31a79771e7",
+   "ctx": "hint",
+   "t": "Your own number. The registration number and every update come here by SMS."
+  },
+  {
+   "k": "1bf4f0b824c2",
+   "ctx": "hint",
+   "t": "Choose Rural or Urban and the district where you live."
+  },
+  {
+   "k": "fe742f5abd13",
+   "ctx": "hint",
+   "t": "Your mother's name, whether you are single or married, and your caste category."
+  },
+  {
+   "k": "462cdf27b23e",
+   "ctx": "hint",
+   "t": "Choose the nearest: literate, matric fail, matric pass and so on."
+  },
+  {
+   "k": "8e51af0dc16b",
+   "ctx": "hint",
+   "t": "Copy it from your ration card."
+  },
+  {
+   "k": "176501039da7",
+   "ctx": "label",
+   "t": "Whether registered under any other labour welfare board"
+  },
+  {
+   "k": "a56d0d3cb657",
+   "ctx": "hint",
+   "t": "Answer truthfully. A worker on another board cannot register here."
+  },
+  {
+   "k": "267028e8f709",
+   "ctx": "value",
+   "t": "Shri Ram Construction, Biharsharif / 05-11-2025 to 30-04-2026 / 160 days / Mason (Rajmistri)"
+  },
+  {
+   "k": "03f860dfde43",
+   "ctx": "hint",
+   "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
+  },
+  {
+   "k": "3ebe09aa598a",
+   "ctx": "hint",
+   "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
+  },
+  {
+   "k": "6c92a04d1766",
+   "ctx": "demoSteps",
+   "t": "Open bocwscheme.bihar.gov.in, click Labour Registration, enter your Aadhaar number and name and authenticate with the OTP. If your mobile is not linked to Aadhaar, a CSC or the block Labour Enforcement Officer can do it with your fingerprint."
+  },
+  {
+   "k": "0ac03082fd62",
+   "ctx": "demoSteps",
+   "t": "Verify your mobile number with OTP and fill in your personal details: area, district, mother's name, marital status, category, education and ration card number."
+  },
+  {
+   "k": "f0d042a396cb",
+   "ctx": "demoSteps",
+   "t": "Add the employers you worked for in the last 12 months (at least 90 days in all), choose the certifying authority and upload the certificate or self-declaration."
+  },
+  {
+   "k": "4f34a906fbf4",
+   "ctx": "demoSteps",
+   "t": "Add family members and choose a nominee with a share, upload your photo, pay the fee online, then Preview and Submit. Note the application number."
   }
  ]
 }

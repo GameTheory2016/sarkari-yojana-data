@@ -6,61 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_10.json",
  "items": [
   {
-   "k": "f1be359a90ca",
-   "ctx": "hint",
-   "t": "Your own 12-digit Aadhaar. The bank account must be linked to it or payment is stopped."
-  },
-  {
-   "k": "bf13d7dff0cb",
-   "ctx": "hint",
-   "t": "A savings account in your own name. Copy the IFSC from the passbook."
-  },
-  {
-   "k": "e26efed2a139",
-   "ctx": "hint",
-   "t": "The acknowledgement and sanction messages come here."
-  },
-  {
-   "k": "f8466936e362",
-   "ctx": "demoSteps",
-   "t": "Register on goaonline.gov.in with your mobile OTP and log in."
-  },
-  {
-   "k": "c257e3081a2a",
-   "ctx": "demoSteps",
-   "t": "Open Services, All Services, Directorate of Women & Child Development, Griha Aadhar Scheme, and answer the eligibility questions."
-  },
-  {
-   "k": "a98cfbdb4466",
-   "ctx": "demoSteps",
-   "t": "Fill in the form and upload the documents, including the verification report signed by a Gazetted Officer, MLA or MP."
-  },
-  {
-   "k": "008ab70683de",
-   "ctx": "demoSteps",
-   "t": "Save, pay the fee shown, and note the acknowledgement number sent by SMS and email."
-  },
-  {
-   "k": "6f6f4f1e5cc3",
-   "ctx": "demoSteps",
-   "t": "The Directorate checks the application and may verify it at your home; you then get a sanction order."
-  },
-  {
-   "k": "0b0165cef0a3",
-   "ctx": "demoSteps",
-   "t": "Rs.1,500 is credited by the 10th of every month. Give a life certificate and income certificate between 1 April and 30 May each year, or the payment stops."
-  },
-  {
-   "k": "cfc6fd61f062",
-   "ctx": "helpline",
-   "t": "9284238500 — Griha Aadhar queries, Directorate of Women & Child Development / 8882988000 — Goa Online helpline"
-  },
-  {
-   "k": "064ca8abe30d",
-   "ctx": "title",
-   "t": "Namo Saraswati Vigyan Sadhana Yojana (Class 11-12 Science)"
-  },
-  {
    "k": "52e7876f4408",
    "ctx": "brief",
    "t": "Rs.25,000 over two years for a student who takes the science stream in classes 11 and 12 in Gujarat - Rs.1,000 a month for 10 months in each year, and Rs.5,000 after passing the Class 12 science board exam. It is for students who scored at least 50% in the Class 10 board and study in a government, grant-in-aid or self-financed school. Parents do not apply anywhere: the school enrols the student, so the documents go to the school. The money is paid straight into the bank account."
@@ -744,6 +689,41 @@
    "k": "8834be4c604c",
    "ctx": "hint",
    "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
+  },
+  {
+   "k": "ac5965f48967",
+   "ctx": "hint",
+   "t": "Copy it from your ration card. If no names come up, your family may need to be added at a kiosk - see the steps below."
+  },
+  {
+   "k": "34dbd876279a",
+   "ctx": "hint",
+   "t": "Aadhaar of the member whose card you are making now. Each person is done one at a time."
+  },
+  {
+   "k": "6d5bce5a3657",
+   "ctx": "hint",
+   "t": "Use the OTP if the mobile is linked to Aadhaar. If it is not, choose face authentication and scan the face on the phone camera."
+  },
+  {
+   "k": "93e44aae243f",
+   "ctx": "hint",
+   "t": "Face straight, good light, no cap or dark glasses. A blurred photo gets the request sent back."
+  },
+  {
+   "k": "92f0b5c3c707",
+   "ctx": "hint",
+   "t": "Where you live now, so the nearest empanelled hospitals are shown to you."
+  },
+  {
+   "k": "4cb4e06ad562",
+   "ctx": "demoSteps",
+   "t": "Open beneficiary.nha.gov.in or the Ayushman app, log in as Beneficiary with your mobile number and OTP, choose PMJAY and Gujarat, and search with your ration card number or Aadhaar."
+  },
+  {
+   "k": "bae821feb9a5",
+   "ctx": "demoSteps",
+   "t": "If your family's names appear, tap e-KYC next to each member, verify with Aadhaar OTP or face scan, take the live photo and fill relation, district and PIN code. Then submit."
   }
  ]
 }

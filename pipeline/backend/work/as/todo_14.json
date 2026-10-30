@@ -6,71 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_14.json",
  "items": [
   {
-   "k": "4b762fd52586",
-   "ctx": "brief",
-   "t": "Free, cashless hospital treatment for every family in Maharashtra, up to Rs.5 lakh a family each year, at government and private hospitals that have joined the scheme. Since 1 July 2024 it runs together with the central Ayushman Bharat PM-JAY, so one Ayushman card works for both, and families with a white ration card, or with no ration card but a Maharashtra domicile certificate, are covered as well. It was earlier called Rajiv Gandhi Jeevandayee Arogya Yojana. There is nothing to apply for in advance: at the hospital, the Arogyamitra desk registers the patient with the ration card and Aadhaar."
-  },
-  {
-   "k": "be956550978d",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family, cashless, at network hospitals"
-  },
-  {
-   "k": "deaa85160614",
-   "ctx": "eligibility",
-   "t": "Every family living in Maharashtra, whatever its income (universal cover since 1 July 2024)"
-  },
-  {
-   "k": "58956cd7d971",
-   "ctx": "eligibility",
-   "t": "Families with a yellow, Antyodaya (AAY), Annapurna, orange or white ration card"
-  },
-  {
-   "k": "d5c2399d41e8",
-   "ctx": "eligibility",
-   "t": "A family with no ration card is covered if it holds a Maharashtra domicile certificate"
-  },
-  {
-   "k": "66e3d353a7be",
-   "ctx": "eligibility",
-   "t": "The Rs.5 lakh is shared by the whole family in a year (family floater), and illnesses you already have are covered from the first day"
-  },
-  {
-   "k": "07897b58c491",
-   "ctx": "eligibility",
-   "t": "Covers listed surgeries and hospital treatments in 34 specialities at network hospitals in Maharashtra; in 2025 the state approved widening the list from 1,356 to 2,399 procedures"
-  },
-  {
-   "k": "bec6027c5091",
-   "ctx": "documents",
-   "t": "Ration card of any colour (yellow, orange, white, AAY or Annapurna)"
-  },
-  {
-   "k": "039b2ec51cae",
-   "ctx": "documents",
-   "t": "Maharashtra domicile certificate, if the family has no ration card"
-  },
-  {
-   "k": "2938c5ab5dcf",
-   "ctx": "documents",
-   "t": "Mobile number for the OTP during Aadhaar e-KYC"
-  },
-  {
-   "k": "799a1c3cd823",
-   "ctx": "documents",
-   "t": "Ayushman card, if already made (it is not needed to start treatment)"
-  },
-  {
-   "k": "d2b9cfc9d3b5",
-   "ctx": "submitAt",
-   "t": "The Arogyamitra desk at any MJPJAY network (empanelled) hospital in Maharashtra, government or private; it is usually near the main reception. Take the original ration card (or the domicile certificate) and the patient's Aadhaar card. The list of network hospitals is on jeevandayee.gov.in and is also given on the toll-free number 155388. The Ayushman card itself can be made beforehand at a CSC (Aaple Sarkar Seva Kendra), through the ASHA worker, or at the same hospital desk."
-  },
-  {
-   "k": "ed8d30987999",
-   "ctx": "hint",
-   "t": "The 12-digit number printed on the ration card. The Arogyamitra uses it to find your whole family in the scheme list."
-  },
-  {
    "k": "53d299459e4a",
    "ctx": "hint",
    "t": "Yellow, orange, white, AAY or Annapurna are all accepted. If you have no ration card, show the Maharashtra domicile certificate instead."
@@ -784,6 +719,86 @@
    "k": "040f30ed351b",
    "ctx": "demoSteps",
    "t": "If payments stop, check the status on both portals. The usual causes are pending e-KYC, Aadhaar not seeded with the bank, or land not seeded; the taluka agriculture office can fix the last one."
+  },
+  {
+   "k": "644085e59493",
+   "ctx": "hint",
+   "t": "She must be between 18 years 7 months and 55 years on the date of the last period."
+  },
+  {
+   "k": "25d291104169",
+   "ctx": "hint",
+   "t": "As written on the ration card or MCP card."
+  },
+  {
+   "k": "03a9d59757c5",
+   "ctx": "hint",
+   "t": "A number linked to her Aadhaar and bank account. The acknowledgement and payment messages come here."
+  },
+  {
+   "k": "1e536dc6d007",
+   "ctx": "hint",
+   "t": "The first day of the last period, as written in the MCP card. The first check-up must be within six months of this date."
+  },
+  {
+   "k": "08cc7feeaad6",
+   "ctx": "hint",
+   "t": "Count only children born alive and living. The scheme pays for the first two births (all births for PVTG families)."
+  },
+  {
+   "k": "577b605cddc2",
+   "ctx": "label",
+   "t": "MCP card number and ANC check-up date"
+  },
+  {
+   "k": "b5fe4b10b3b1",
+   "ctx": "hint",
+   "t": "From the MCP card the ANM gave you. If the check-up was done elsewhere, show the doctor's slip with the date."
+  },
+  {
+   "k": "5b41f252493f",
+   "ctx": "hint",
+   "t": "Any one of the listed proofs is enough, for example the ration card, Ayushman card or job card."
+  },
+  {
+   "k": "1f1d8e1ec40c",
+   "ctx": "hint",
+   "t": "A single-holder account in her own name, linked to Aadhaar. Money goes to the account linked last to her Aadhaar."
+  },
+  {
+   "k": "6b33cddd7760",
+   "ctx": "demoSteps",
+   "t": "As soon as you know you are pregnant, register at the Anganwadi Centre, get the MCP card from the ANM, and have at least one check-up within six months of the last period."
+  },
+  {
+   "k": "0205e565e724",
+   "ctx": "demoSteps",
+   "t": "Give the Anganwadi worker your Aadhaar, passbook, mobile number, MCP card, ABHA number and one eligibility proof. She registers you on the MAMATA-PMMVY app, and an SMS confirms the application."
+  },
+  {
+   "k": "263963afed3c",
+   "ctx": "demoSteps",
+   "t": "After verification by the ICDS project office, the first instalment of Rs 6,000 comes by DBT into your Aadhaar-linked account."
+  },
+  {
+   "k": "ed3684d1d337",
+   "ctx": "demoSteps",
+   "t": "Have the baby, get the birth registered at the health centre or Anganwadi, and complete all vaccines up to 14 weeks (at birth, 6, 10 and 14 weeks), all entered in the MCP card."
+  },
+  {
+   "k": "803c81c08941",
+   "ctx": "demoSteps",
+   "t": "The Anganwadi worker sends the claim for the second instalment: Rs 4,000 more for a boy or Rs 6,000 more for a girl, again straight to your account."
+  },
+  {
+   "k": "e695a3b79a74",
+   "ctx": "demoSteps",
+   "t": "Ask the Anganwadi worker for the status, or check it on the app. If money is late, tell the Anganwadi worker or the CDPO, or call 181."
+  },
+  {
+   "k": "41b1723f8584",
+   "ctx": "helpline",
+   "t": "181 (Mamata and women's helpline, toll-free) / 1515 (PMMVY toll-free helpline)"
   }
  ]
 }

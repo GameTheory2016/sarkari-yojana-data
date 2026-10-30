@@ -16,16 +16,6 @@
    "t": "Use Aadhaar OTP if the mobile is linked to Aadhaar. Otherwise scan the face with the Aadhaar FaceRD app."
   },
   {
-   "k": "2eeb0948701d",
-   "ctx": "label",
-   "t": "Beneficiary category"
-  },
-  {
-   "k": "03d21df30963",
-   "ctx": "value",
-   "t": "Self declaration"
-  },
-  {
    "k": "34ee6fe5e9a8",
    "ctx": "hint",
    "t": "Choose Self declaration, or CGHS, ECHS or CAPF if the senior is in one of these. That choice cannot be changed later."
@@ -36,24 +26,9 @@
    "t": "Face straight, good light, no cap or dark glasses."
   },
   {
-   "k": "d2ac1b7b18f2",
-   "ctx": "label",
-   "t": "Spouse aged 70+"
-  },
-  {
-   "k": "4adcd32aea6c",
-   "ctx": "value",
-   "t": "Added: Kamla Devi, 9999 2208 7790"
-  },
-  {
    "k": "fcfc77f3a1e4",
    "ctx": "hint",
    "t": "Add the husband or wife here only if they are also 70 or above. Their e-KYC is done the same way."
-  },
-  {
-   "k": "eee35313ade3",
-   "ctx": "value",
-   "t": "Ajmer / 305001"
   },
   {
    "k": "f7177f636feb",
@@ -91,11 +66,6 @@
    "t": "At an empanelled hospital, go to the Ayushman Mitra desk and show the card. Treatment is cashless, so never pay for a covered treatment. You can also get the card made free at that desk."
   },
   {
-   "k": "6e21edebd96b",
-   "ctx": "helpline",
-   "t": "14555 / 1800-111-565 (Ayushman Bharat helpline)"
-  },
-  {
    "k": "c1ddb407f9d8",
    "ctx": "title",
    "t": "Swachh Bharat Mission (Grameen) Toilet Incentive (IHHL, Rs.12,000)"
@@ -121,11 +91,6 @@
    "t": "A rural household with no toilet of its own"
   },
   {
-   "k": "5ade7626403c",
-   "ctx": "eligibility",
-   "t": "Every below-poverty-line (BPL) household"
-  },
-  {
    "k": "3d7c49b03686",
    "ctx": "eligibility",
    "t": "Above-poverty-line households only if SC/ST, a small or marginal farmer, a landless labourer with a homestead, a household with a person with disability, or a woman-headed household"
@@ -139,11 +104,6 @@
    "k": "922e81eb76ca",
    "ctx": "eligibility",
    "t": "Families in towns and cities apply under Swachh Bharat Mission (Urban) instead"
-  },
-  {
-   "k": "c3710902fdde",
-   "ctx": "documents",
-   "t": "Mobile number for the OTP login"
   },
   {
    "k": "0b941ee60bdd",
@@ -161,29 +121,9 @@
    "t": "Proof that you live in the village: ration card, voter ID or Panchayat family register entry"
   },
   {
-   "k": "53a6fa7668b5",
-   "ctx": "portalName",
-   "t": "Swachh Bharat Mission (Grameen)"
-  },
-  {
-   "k": "336cb95a0ba5",
-   "ctx": "label",
-   "t": "Mobile No. (as Login Id)"
-  },
-  {
    "k": "52fc573c1628",
    "ctx": "hint",
    "t": "Register with this number first. Every login is by OTP, and only 5 OTP tries are allowed a day."
-  },
-  {
-   "k": "355d4a9c1d99",
-   "ctx": "label",
-   "t": "Name of Applicant"
-  },
-  {
-   "k": "e583edb1d18d",
-   "ctx": "value",
-   "t": "Kamla Bai Meena"
   },
   {
    "k": "9ff71dfb6223",
@@ -191,29 +131,9 @@
    "t": "As on Aadhaar and the bank passbook."
   },
   {
-   "k": "c952f302f82a",
-   "ctx": "hint",
-   "t": "Pick the applicant's gender."
-  },
-  {
-   "k": "5569030c75d2",
-   "ctx": "value",
-   "t": "Shankar Lal Meena"
-  },
-  {
-   "k": "0d4ac7605ca2",
-   "ctx": "hint",
-   "t": "The applicant's own 12-digit number."
-  },
-  {
    "k": "98fdb9579bfb",
    "ctx": "label",
    "t": "State / District / Block / Gram Panchayat / Village"
-  },
-  {
-   "k": "2dd7e55b00ab",
-   "ctx": "value",
-   "t": "Rajasthan / Tonk / Uniara / Banetha / Banetha"
   },
   {
    "k": "5a7fec5973f4",
@@ -221,34 +141,9 @@
    "t": "Where the house that needs the toilet stands."
   },
   {
-   "k": "dc32017ee761",
-   "ctx": "label",
-   "t": "Household Category"
-  },
-  {
-   "k": "5cece80882d7",
-   "ctx": "value",
-   "t": "APL – Women headed household"
-  },
-  {
    "k": "fccc8b79c156",
    "ctx": "hint",
    "t": "Choose BPL if you are on the BPL list; otherwise the APL group that fits you."
-  },
-  {
-   "k": "ef6739a1469b",
-   "ctx": "hint",
-   "t": "SC, ST, OBC or General."
-  },
-  {
-   "k": "8b91106b08bb",
-   "ctx": "label",
-   "t": "Bank Name, Branch and IFSC"
-  },
-  {
-   "k": "8e9200efa06c",
-   "ctx": "value",
-   "t": "Bank of Baroda, Uniara / BARB0099999"
   },
   {
    "k": "c390aef60510",
@@ -301,11 +196,6 @@
    "t": "No national toll-free line for the incentive: Gram Panchayat secretary or Block Development Office (SBM-G block coordinator); complaints on CPGRAMS (pgportal.gov.in)"
   },
   {
-   "k": "fbaa680654e3",
-   "ctx": "title",
-   "t": "Atal Pension Yojana (APY)"
-  },
-  {
    "k": "61b8f5765584",
    "ctx": "department",
    "t": "Pension Fund Regulatory and Development Authority (PFRDA), Department of Financial Services, Ministry of Finance"
@@ -319,11 +209,6 @@
    "k": "66c10928d7ef",
    "ctx": "benefit",
    "t": "Guaranteed pension of Rs.1,000 to Rs.5,000 a month from age 60"
-  },
-  {
-   "k": "6c31d0fd22b8",
-   "ctx": "eligibility",
-   "t": "Indian citizen aged 18 to 40 years"
   },
   {
    "k": "8896117050af",
@@ -351,11 +236,6 @@
    "t": "Savings bank account number and IFSC (passbook)"
   },
   {
-   "k": "5eae80e82813",
-   "ctx": "documents",
-   "t": "Mobile number registered with Aadhaar"
-  },
-  {
    "k": "7e3129970a7f",
    "ctx": "documents",
    "t": "Spouse's name, and the nominee's name, relation and date of birth"
@@ -366,29 +246,9 @@
    "t": "For eAPY: Aadhaar OTP, Virtual ID, or the Aadhaar offline e-KYC ZIP file with its share code"
   },
   {
-   "k": "0f51f9b1064b",
-   "ctx": "portalName",
-   "t": "Protean CRA (eAPY online registration)"
-  },
-  {
-   "k": "d7accc1c2aa1",
-   "ctx": "label",
-   "t": "Whether Income Tax Payer"
-  },
-  {
    "k": "968de7e2da68",
    "ctx": "hint",
    "t": "Choose No. Anyone who has ever paid income tax cannot join APY."
-  },
-  {
-   "k": "ae2eca551d48",
-   "ctx": "label",
-   "t": "Select your Bank"
-  },
-  {
-   "k": "ae18b54b7ec7",
-   "ctx": "value",
-   "t": "Punjab National Bank"
   },
   {
    "k": "837932e2d006",
@@ -396,34 +256,9 @@
    "t": "The bank where your savings account is. If your bank is not in the list (for example SBI), join through its net banking or at the branch."
   },
   {
-   "k": "49b19edb0a81",
-   "ctx": "label",
-   "t": "NLCC/Branch Name"
-  },
-  {
-   "k": "9183266de183",
-   "ctx": "value",
-   "t": "Civil Lines, Gorakhpur"
-  },
-  {
    "k": "aad0a91f4612",
    "ctx": "hint",
    "t": "The branch where your account is, as printed on the passbook."
-  },
-  {
-   "k": "8d77acca59ec",
-   "ctx": "label",
-   "t": "Bank Account Type"
-  },
-  {
-   "k": "cf0b7964ce3f",
-   "ctx": "value",
-   "t": "Saving Account"
-  },
-  {
-   "k": "a5ba9e256d15",
-   "ctx": "hint",
-   "t": "APY works only with a savings account."
   },
   {
    "k": "2d81055316ce",
@@ -431,19 +266,9 @@
    "t": "Copy it from the passbook. The monthly amount is debited from this account until you turn 60."
   },
   {
-   "k": "505353f95a53",
-   "ctx": "label",
-   "t": "Bank IFS Code"
-  },
-  {
    "k": "3f2f01227e29",
    "ctx": "hint",
    "t": "The 11-character branch code printed on the passbook or cheque."
-  },
-  {
-   "k": "49c9776cffae",
-   "ctx": "label",
-   "t": "Please Select option (KYC)"
   },
   {
    "k": "b0a7e7b3dab0",
@@ -451,29 +276,14 @@
    "t": "Aadhaar or Virtual ID sends an OTP. Offline KYC needs the ZIP file downloaded from the UIDAI site and its share code."
   },
   {
-   "k": "421ba9916e36",
-   "ctx": "label",
-   "t": "Aadhaar Registered Mobile Number"
-  },
-  {
    "k": "8b745e608719",
    "ctx": "hint",
    "t": "The number linked to your Aadhaar; the OTP comes here."
   },
   {
-   "k": "00334c33d50e",
-   "ctx": "label",
-   "t": "Pension Amount"
-  },
-  {
    "k": "5f6938c5654a",
    "ctx": "hint",
    "t": "The pension you want at 60. A bigger pension means a bigger monthly payment; the exact amount for your age is shown before you submit."
-  },
-  {
-   "k": "d1b2640818a7",
-   "ctx": "label",
-   "t": "Periodicity of Contribution"
   },
   {
    "k": "903442a647cf",
@@ -586,39 +396,14 @@
    "t": "Cash for the first month's contribution if you join at a CSC (later months are auto-debited)"
   },
   {
-   "k": "3387520b06b4",
-   "ctx": "portalName",
-   "t": "Maandhan portal"
-  },
-  {
-   "k": "dd4a49e699be",
-   "ctx": "value",
-   "t": "Self Enrollment (Using Mobile Number OTP)"
-  },
-  {
    "k": "5676900f078c",
    "ctx": "hint",
    "t": "Choose Self Enrollment. CSC VLE is only for the CSC operator, and Admin Login is for officials."
   },
   {
-   "k": "b1d702459399",
-   "ctx": "label",
-   "t": "Mobile"
-  },
-  {
    "k": "04c2630f509e",
    "ctx": "hint",
    "t": "A number you always carry. The login OTP and every debit message come to this phone."
-  },
-  {
-   "k": "990897a59f17",
-   "ctx": "label",
-   "t": "Scheme"
-  },
-  {
-   "k": "0b214844d97a",
-   "ctx": "value",
-   "t": "PM-SYM (Pradhan Mantri Shram Yogi Maandhan)"
   },
   {
    "k": "62892a8cd130",
@@ -631,29 +416,9 @@
    "t": "Your own Aadhaar. After the Aadhaar OTP, your name, date of birth and gender fill in by themselves, so check them."
   },
   {
-   "k": "5ea1f83d38b9",
-   "ctx": "label",
-   "t": "Occupation"
-  },
-  {
-   "k": "98fe8e37b6b7",
-   "ctx": "value",
-   "t": "Domestic worker"
-  },
-  {
    "k": "20662bc345c6",
    "ctx": "hint",
    "t": "The work you actually do every day, for example construction labourer, street vendor, rickshaw puller or farm labourer."
-  },
-  {
-   "k": "ace11ec76c3a",
-   "ctx": "label",
-   "t": "Monthly income"
-  },
-  {
-   "k": "5d9fde3147b1",
-   "ctx": "value",
-   "t": "Rs.9,000"
   },
   {
    "k": "0f7fe41d3d69",
@@ -661,19 +426,9 @@
    "t": "What you earn in a normal month. It must be Rs.15,000 or less."
   },
   {
-   "k": "4f1c5a669fb9",
-   "ctx": "label",
-   "t": "Bank IFSC and account number"
-  },
-  {
    "k": "9c6fd6cc19cf",
    "ctx": "hint",
    "t": "Your own savings or Jan Dhan account. The monthly amount is auto-debited from here, so keep enough balance."
-  },
-  {
-   "k": "49d36285fa24",
-   "ctx": "label",
-   "t": "Spouse name"
   },
   {
    "k": "36bd8c8439db",
@@ -681,24 +436,9 @@
    "t": "Husband's or wife's name. If you die before 60, your spouse can carry on paying or take the money out."
   },
   {
-   "k": "01b498aae767",
-   "ctx": "label",
-   "t": "Nominee name and relation"
-  },
-  {
-   "k": "351347bb6f7b",
-   "ctx": "value",
-   "t": "Pooja Yadav / Daughter"
-  },
-  {
    "k": "07055797293c",
    "ctx": "hint",
    "t": "The person who gets the savings if both you and your spouse die."
-  },
-  {
-   "k": "55d704e09d37",
-   "ctx": "label",
-   "t": "Self-declaration"
   },
   {
    "k": "4eff01af5cae",
@@ -739,16 +479,6 @@
    "k": "7dbd33fc7334",
    "ctx": "demoSteps",
    "t": "From age 60, Rs.3,000 comes into your bank account every month. If you die after that, your spouse gets Rs.1,500 a month for life."
-  },
-  {
-   "k": "ce37196791bb",
-   "ctx": "helpline",
-   "t": "1800-267-6888 (PM-SYM toll-free) / 14434 (Labour Ministry helpline)"
-  },
-  {
-   "k": "7fa2432e1c28",
-   "ctx": "title",
-   "t": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
   },
   {
    "k": "edf9c2901481",
@@ -826,21 +556,6 @@
    "t": "For the second part or a second girl child: the baby's birth certificate and vaccination record (14 weeks)"
   },
   {
-   "k": "a5328a59b8fa",
-   "ctx": "portalName",
-   "t": "PMMVY portal (PMMVYsoft)"
-  },
-  {
-   "k": "2d7550c0f85f",
-   "ctx": "label",
-   "t": "Login type"
-  },
-  {
-   "k": "343cfd9fa327",
-   "ctx": "value",
-   "t": "Citizen Login"
-  },
-  {
    "k": "9fb8fcc4c12f",
    "ctx": "hint",
    "t": "Press Login at the top right and choose Citizen. Anganwadi and ASHA workers use the other login."
@@ -861,19 +576,9 @@
    "t": "Where you live now. Your application goes to the Anganwadi centre of this village for checking."
   },
   {
-   "k": "1cdbfabc6800",
-   "ctx": "label",
-   "t": "Beneficiary Aadhaar number"
-  },
-  {
    "k": "dbafe1ba10bb",
    "ctx": "hint",
    "t": "The pregnant woman's own Aadhaar, not the husband's. Tick the consent box and verify with the Aadhaar OTP."
-  },
-  {
-   "k": "54348242ed54",
-   "ctx": "value",
-   "t": "Pooja Devi"
   },
   {
    "k": "98a46c2ab1a8",
@@ -881,34 +586,14 @@
    "t": "Write the name exactly as printed on Aadhaar, letter by letter, or the payment can fail."
   },
   {
-   "k": "94ebc59af0d6",
-   "ctx": "label",
-   "t": "Eligibility document"
-  },
-  {
-   "k": "a9bd8c1b1e5d",
-   "ctx": "value",
-   "t": "e-Shram card / UP99-9999-0012"
-  },
-  {
    "k": "10570078d0de",
    "ctx": "hint",
    "t": "Pick any one category you belong to, write its number and upload a clear photo of that card."
   },
   {
-   "k": "85d715db2363",
-   "ctx": "label",
-   "t": "LMP date (last period)"
-  },
-  {
    "k": "45385986fb36",
    "ctx": "hint",
    "t": "The first day of your last period, as written on the MCP card by the ANM."
-  },
-  {
-   "k": "5a4aca7ed9f6",
-   "ctx": "label",
-   "t": "MCP card registration and ANC date"
   },
   {
    "k": "e0a5041378a3",
@@ -1024,6 +709,76 @@
    "k": "cb2dab1a18f8",
    "ctx": "documents",
    "t": "Signed declaration that you get no other government assistance"
+  },
+  {
+   "k": "2843acaac1a3",
+   "ctx": "submitAt",
+   "t": "The office of the Child Development Project Officer (CDPO) of your area: Urban (Sri Vijaya Puram), Ferrargunj, Rangat, Diglipur or Car Nicobar. Forms are also free at the Directorate of Social Welfare, Goalghar, Sri Vijaya Puram (Port Blair). Before you submit, get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate filled in on the form. Attach the local certificate and an Aadhaar copy."
+  },
+  {
+   "k": "dfa971fddd4e",
+   "ctx": "hint",
+   "t": "Tick Old Age Pension. The same form is used for widow, destitute and disability pensions."
+  },
+  {
+   "k": "3574a1ae1aa1",
+   "ctx": "hint",
+   "t": "Write 'Late' if he has died."
+  },
+  {
+   "k": "3a175112966c",
+   "ctx": "hint",
+   "t": "Must show you are 60 or more. The Medical Officer certifies your age on the form."
+  },
+  {
+   "k": "b022defd8b50",
+   "ctx": "hint",
+   "t": "Where you live now, with village or ward."
+  },
+  {
+   "k": "50589fcd2b01",
+   "ctx": "label",
+   "t": "Details of assistance received from Govt./local bodies"
+  },
+  {
+   "k": "2d67bc024d92",
+   "ctx": "hint",
+   "t": "Write Nil if you get no pension or grant. Anyone already getting one is not eligible."
+  },
+  {
+   "k": "636ee83204e0",
+   "ctx": "label",
+   "t": "Bank account number and Aadhaar number"
+  },
+  {
+   "k": "d5e523cb6c0f",
+   "ctx": "hint",
+   "t": "The pension is paid into this account every month."
+  },
+  {
+   "k": "f3ba0a8657ae",
+   "ctx": "demoSteps",
+   "t": "Download the pension form or collect it free at the CDPO office or the Directorate of Social Welfare."
+  },
+  {
+   "k": "45b0d1824015",
+   "ctx": "demoSteps",
+   "t": "Get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate on the form."
+  },
+  {
+   "k": "ee5c361baea3",
+   "ctx": "demoSteps",
+   "t": "Sign the declaration and hand in the form with your local certificate and Aadhaar copy at your CDPO office."
+  },
+  {
+   "k": "ad46cfe55123",
+   "ctx": "demoSteps",
+   "t": "The CDPO checks that you get no other assistance and sends the case to the Directorate of Social Welfare for sanction."
+  },
+  {
+   "k": "a064b5172f30",
+   "ctx": "demoSteps",
+   "t": "Once sanctioned, Rs.2,500 (Rs.3,000 from age 80) is paid into your bank account every month."
   }
  ]
 }

@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_09.json",
  "items": [
   {
-   "k": "f8dc86cb764d",
-   "ctx": "documents",
-   "t": "For the 70+ Vay Vandana card, Aadhaar alone is enough (it shows your age)"
-  },
-  {
-   "k": "0dd70a5bb4ee",
-   "ctx": "hint",
-   "t": "Any working number you hold. The OTP and the approval message come here."
-  },
-  {
-   "k": "46b40c0bae7a",
-   "ctx": "hint",
-   "t": "Choose PMJAY and Delhi. For someone aged 70 or above, use the 70+ (Vay Vandana) option instead; only Aadhaar is needed."
-  },
-  {
-   "k": "4c1aadfd15e1",
-   "ctx": "hint",
-   "t": "The ration card number finds the whole family at once. You can also search by Aadhaar."
-  },
-  {
-   "k": "53fbb2b77b47",
-   "ctx": "hint",
-   "t": "Copy it from the Delhi ration card. If nothing is found, try your Aadhaar number."
-  },
-  {
-   "k": "f87f16d9b8c7",
-   "ctx": "hint",
-   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication on the phone camera."
-  },
-  {
-   "k": "6c93c750712d",
-   "ctx": "demoSteps",
-   "t": "Choose PMJAY and Delhi and search by ration card or Aadhaar. For a person aged 70 or above, use the 70+ option with just Aadhaar."
-  },
-  {
-   "k": "c55065f8922d",
-   "ctx": "demoSteps",
-   "t": "Find the member marked eKYC pending and verify with Aadhaar OTP or face authentication."
-  },
-  {
-   "k": "a895b8e5828a",
-   "ctx": "demoSteps",
-   "t": "Take the live photo, fill the mobile number, relation, district and PIN code, and submit."
-  },
-  {
-   "k": "56a263de55fe",
-   "ctx": "demoSteps",
-   "t": "Approval usually comes within a day or two by SMS. Log in again and download the card from Download Card."
-  },
-  {
    "k": "710a6b3a74e2",
    "ctx": "demoSteps",
    "t": "If it does not work online, take Aadhaar and the ration card to a government dispensary or the Ayushman Mitra desk of an empanelled hospital and get the card made there."
@@ -814,6 +764,61 @@
    "k": "0ce9ad724fa4",
    "ctx": "hint",
    "t": "Your income and your husband's together, before deductions. It must not be above Rs.3,00,000."
+  },
+  {
+   "k": "f1be359a90ca",
+   "ctx": "hint",
+   "t": "Your own 12-digit Aadhaar. The bank account must be linked to it or payment is stopped."
+  },
+  {
+   "k": "bf13d7dff0cb",
+   "ctx": "hint",
+   "t": "A savings account in your own name. Copy the IFSC from the passbook."
+  },
+  {
+   "k": "e26efed2a139",
+   "ctx": "hint",
+   "t": "The acknowledgement and sanction messages come here."
+  },
+  {
+   "k": "f8466936e362",
+   "ctx": "demoSteps",
+   "t": "Register on goaonline.gov.in with your mobile OTP and log in."
+  },
+  {
+   "k": "c257e3081a2a",
+   "ctx": "demoSteps",
+   "t": "Open Services, All Services, Directorate of Women & Child Development, Griha Aadhar Scheme, and answer the eligibility questions."
+  },
+  {
+   "k": "a98cfbdb4466",
+   "ctx": "demoSteps",
+   "t": "Fill in the form and upload the documents, including the verification report signed by a Gazetted Officer, MLA or MP."
+  },
+  {
+   "k": "008ab70683de",
+   "ctx": "demoSteps",
+   "t": "Save, pay the fee shown, and note the acknowledgement number sent by SMS and email."
+  },
+  {
+   "k": "6f6f4f1e5cc3",
+   "ctx": "demoSteps",
+   "t": "The Directorate checks the application and may verify it at your home; you then get a sanction order."
+  },
+  {
+   "k": "0b0165cef0a3",
+   "ctx": "demoSteps",
+   "t": "Rs.1,500 is credited by the 10th of every month. Give a life certificate and income certificate between 1 April and 30 May each year, or the payment stops."
+  },
+  {
+   "k": "cfc6fd61f062",
+   "ctx": "helpline",
+   "t": "9284238500 — Griha Aadhar queries, Directorate of Women & Child Development / 8882988000 — Goa Online helpline"
+  },
+  {
+   "k": "064ca8abe30d",
+   "ctx": "title",
+   "t": "Namo Saraswati Vigyan Sadhana Yojana (Class 11-12 Science)"
   }
  ]
 }

@@ -6,81 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_06.json",
  "items": [
   {
-   "k": "33ecacff157f",
-   "ctx": "hint",
-   "t": "The bank where your Aadhaar-seeded account is. Money cannot be sent to any other account."
-  },
-  {
-   "k": "eda55e2161c1",
-   "ctx": "hint",
-   "t": "Printed on the first page of the passbook or on a cheque leaf."
-  },
-  {
-   "k": "964d8c2ea44e",
-   "ctx": "label",
-   "t": "Account Holder Name (Name as per AADHAAR)"
-  },
-  {
-   "k": "fbe50fe97521",
-   "ctx": "hint",
-   "t": "Must match your name in Aadhaar, in the bank and in Samarth letter for letter. Get it corrected first if it differs."
-  },
-  {
-   "k": "ebdb8906bb86",
-   "ctx": "label",
-   "t": "Account Number (AADHAAR Seeded/Linked Bank Account Number)"
-  },
-  {
-   "k": "04d26bbf7780",
-   "ctx": "hint",
-   "t": "Type it twice. Ask the bank to confirm the account is seeded with Aadhaar for DBT."
-  },
-  {
-   "k": "9e6c3b835ba2",
-   "ctx": "hint",
-   "t": "Most students have no PAN. Just tick the box and carry on."
-  },
-  {
-   "k": "2d6aaac3414b",
-   "ctx": "hint",
-   "t": "Choose your level: Undergraduate, Postgraduate or B.Ed. Only regular courses qualify."
-  },
-  {
-   "k": "5b4a2dfb28ab",
-   "ctx": "hint",
-   "t": "Married girls can apply only in PG and B.Ed courses."
-  },
-  {
-   "k": "fdfaa5b08a8d",
-   "ctx": "label",
-   "t": "Gram Panchayat / VCDC / Ward, District, Police Station, LAC"
-  },
-  {
-   "k": "71855e0ec766",
-   "ctx": "hint",
-   "t": "Your home address in Assam, the same as in your declaration form."
-  },
-  {
-   "k": "619c682552f1",
-   "ctx": "label",
-   "t": "Are you a recipient of Dr. Banikanta Kakati Merit Award (Scooter)"
-  },
-  {
-   "k": "17a076ad2c31",
-   "ctx": "hint",
-   "t": "If you took the merit scooter, you cannot get Nijut Moina (except in PG and B.Ed)."
-  },
-  {
-   "k": "4a2f66ad1e29",
-   "ctx": "demoSteps",
-   "t": "In early August, collect the free Nijut Moina form at your college or HS school office (in 2026-27 the forms were given out from 7 August). Fill it, sign the undertaking with a parent, and hand it in with copies of your Aadhaar and bank passbook. University students get it signed by the Head of Department."
-  },
-  {
-   "k": "564891db549b",
-   "ctx": "demoSteps",
-   "t": "The college checks the form and adds your enrolment number to the Nijut Moina scheme on the Samarth portal."
-  },
-  {
    "k": "64b570701e31",
    "ctx": "demoSteps",
    "t": "Open assamshesp.samarth.edu.in and log in with your Samarth enrolment number, password and captcha (first time: click Register and set a password using the email OTP). HS students log in at darpan.ahseconline.in instead, update the profile and verify with Aadhaar."
@@ -729,6 +654,56 @@
    "k": "03f860dfde43",
    "ctx": "hint",
    "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
+  },
+  {
+   "k": "3ebe09aa598a",
+   "ctx": "hint",
+   "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
+  },
+  {
+   "k": "6c92a04d1766",
+   "ctx": "demoSteps",
+   "t": "Open bocwscheme.bihar.gov.in, click Labour Registration, enter your Aadhaar number and name and authenticate with the OTP. If your mobile is not linked to Aadhaar, a CSC or the block Labour Enforcement Officer can do it with your fingerprint."
+  },
+  {
+   "k": "0ac03082fd62",
+   "ctx": "demoSteps",
+   "t": "Verify your mobile number with OTP and fill in your personal details: area, district, mother's name, marital status, category, education and ration card number."
+  },
+  {
+   "k": "f0d042a396cb",
+   "ctx": "demoSteps",
+   "t": "Add the employers you worked for in the last 12 months (at least 90 days in all), choose the certifying authority and upload the certificate or self-declaration."
+  },
+  {
+   "k": "4f34a906fbf4",
+   "ctx": "demoSteps",
+   "t": "Add family members and choose a nominee with a share, upload your photo, pay the fee online, then Preview and Submit. Note the application number."
+  },
+  {
+   "k": "99a7422cc860",
+   "ctx": "demoSteps",
+   "t": "The Labour Enforcement Officer checks and approves the application, and the registration number comes by SMS. Log in with that number and your year of birth to download the labour card and fee receipt."
+  },
+  {
+   "k": "d5aa301a23f1",
+   "ctx": "demoSteps",
+   "t": "To claim a benefit later, log in as Labour, choose the scheme, fill in the details and upload the proof (marriage card, birth certificate, mark sheet and so on). Approved money comes to your bank account. Renew the membership before it runs out."
+  },
+  {
+   "k": "58a09107e18e",
+   "ctx": "helpline",
+   "t": "Labour Enforcement Officer (LEO) at your block office, or the Labour Superintendent office in your district"
+  },
+  {
+   "k": "dee681608bcd",
+   "ctx": "title",
+   "t": "Mukhyamantri Jan Arogya Yojana Bihar (Ayushman Card for Ration Card Holders)"
+  },
+  {
+   "k": "bedc8e53a82c",
+   "ctx": "department",
+   "t": "Bihar Swasthya Suraksha Samiti, Health Department, Government of Bihar, with the National Health Authority"
   }
  ]
 }

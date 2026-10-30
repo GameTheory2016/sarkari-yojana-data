@@ -6,31 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_18.json",
  "items": [
   {
-   "k": "39717556c60a",
-   "ctx": "title",
-   "t": "Mizoram Universal Health Care Scheme (MUHCS Card)"
-  },
-  {
-   "k": "ae5f7eef3925",
-   "ctx": "department",
-   "t": "Mizoram State Health Care Society, Department of Health & Family Welfare, Government of Mizoram"
-  },
-  {
-   "k": "0f871bc1e503",
-   "ctx": "brief",
-   "t": "From 1 April 2025 MUHCS replaced the old Mizoram State Health Care Scheme (MSHCS), and it covers every bona fide resident of Mizoram. Families outside government service pay a yearly fee of Rs.2,500, Rs.5,000 or Rs.10,000 for Rs.5 lakh of cashless hospital cover; the higher fee buys a better ward, while AB PM-JAY (Golden Card) families pay nothing and government employees pay monthly from their salary. The paid enrolment opens once a year (for 2026-27 it ran from 16 February to 15 May 2026), mostly online, with offline forms at sub-centres where there is no internet. After that you apply for the MUHCS card online and download it once approved."
-  },
-  {
-   "k": "60e6cf2e56d8",
-   "ctx": "benefit",
-   "t": "Rs.5 lakh a year per family, cashless, for a yearly family fee of Rs.2,500, Rs.5,000 or Rs.10,000"
-  },
-  {
-   "k": "71a24bc9e605",
-   "ctx": "eligibility",
-   "t": "Every bona fide resident of Mizoram listed in the state ration card (PDS) database"
-  },
-  {
    "k": "476f58fa99ba",
    "ctx": "eligibility",
    "t": "General families pay a yearly fee: Rs.2,500 (general ward), Rs.5,000 (semi-private shared ward) or Rs.10,000 (private ward). The cover is Rs.5 lakh in each plan"
@@ -704,6 +679,46 @@
    "k": "aaa9d271cee6",
    "ctx": "label",
    "t": "Permanent address (village, post office, GP, block, district)"
+  },
+  {
+   "k": "cee15784f653",
+   "ctx": "hint",
+   "t": "Your home address in Odisha. Your labour office is decided from this."
+  },
+  {
+   "k": "af42f6cdc3d2",
+   "ctx": "label",
+   "t": "Establishments worked in last year, and days"
+  },
+  {
+   "k": "928fd5327c44",
+   "ctx": "value",
+   "t": "Maa Tarini Constructions, Jajpur Road — mason — 120 days"
+  },
+  {
+   "k": "b299e42b3688",
+   "ctx": "hint",
+   "t": "Each site or employer, the work you did and the days. The total must be at least 90."
+  },
+  {
+   "k": "ec8c56264673",
+   "ctx": "hint",
+   "t": "The person who receives the money if something happens to you."
+  },
+  {
+   "k": "f11adb520e4d",
+   "ctx": "demoSteps",
+   "t": "Get your 90-day work certificate signed by your employer, a registered trade union or the labour inspector, or fill the self-certificate. Model formats are under Downloads on nirmanshramik.odisha.gov.in."
+  },
+  {
+   "k": "99774538b4e8",
+   "ctx": "demoSteps",
+   "t": "Open Construction Worker Login and click One Time Registration. Read the eligibility, tick the declaration, enter your name, sex and mobile number, and verify with OTP."
+  },
+  {
+   "k": "36789fc7445b",
+   "ctx": "demoSteps",
+   "t": "Log in with the OTP and fill the registration form: personal details, address, family, work done, bank account and nominee. Upload the photo, Aadhaar, voter ID, work certificate and passbook, then submit and note the application number."
   }
  ]
 }

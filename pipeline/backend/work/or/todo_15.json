@@ -6,71 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_15.json",
  "items": [
   {
-   "k": "30d6779791a1",
-   "ctx": "submitAt",
-   "t": "The Ayushman (PM-JAY) desk at SNM Hospital Leh, District Hospital Kargil or your nearest Community Health Centre, or a Common Service Centre or Golden Card camp in your block. Take the ration card, every member's Aadhaar card and the mobile phone linked to Aadhaar; each member to be enrolled should come along for the fingerprint, OTP or photo. If your family is not found or a name is wrong, first give an application with the same documents at your Tehsildar's office."
-  },
-  {
-   "k": "0b6b538594ce",
-   "ctx": "hint",
-   "t": "The operator finds your family with this number. Bring the card itself, not just a photo of it."
-  },
-  {
-   "k": "39456b48cd72",
-   "ctx": "hint",
-   "t": "The person named first on the ration card."
-  },
-  {
-   "k": "4608dd17e573",
-   "ctx": "hint",
-   "t": "Each member gets a card; they are done one by one."
-  },
-  {
-   "k": "7e7a57f6b80b",
-   "ctx": "hint",
-   "t": "The 12 digits on this member's own Aadhaar card."
-  },
-  {
-   "k": "841e0a035543",
-   "ctx": "hint",
-   "t": "OTP goes to the mobile linked to Aadhaar. If none is linked, fingerprint or face scan is used at the desk."
-  },
-  {
-   "k": "a311e64fe453",
-   "ctx": "hint",
-   "t": "How this member is related to the head of the family on the ration card."
-  },
-  {
-   "k": "833032b2b0a5",
-   "ctx": "hint",
-   "t": "Face straight, no cap or dark glasses."
-  },
-  {
-   "k": "1f2ebfaf801d",
-   "ctx": "demoSteps",
-   "t": "Take the ration card, every member's Aadhaar and the Aadhaar-linked mobile to the Ayushman desk at SNM Hospital Leh, DH Kargil, a CHC, a CSC or a Golden Card camp."
-  },
-  {
-   "k": "4d2d914f058b",
-   "ctx": "demoSteps",
-   "t": "The operator searches your family by ration card or Aadhaar and verifies each member by Aadhaar OTP, fingerprint or face."
-  },
-  {
-   "k": "ddc2ab8cb2f5",
-   "ctx": "demoSteps",
-   "t": "A photo is taken and the card request is sent for approval."
-  },
-  {
-   "k": "d8d586a33081",
-   "ctx": "demoSteps",
-   "t": "Once approved, the Golden Card is printed or given to you to download; you can also keep it on the Ayushman app."
-  },
-  {
-   "k": "50d13bb18dc3",
-   "ctx": "demoSteps",
-   "t": "If your family was not found, apply at the Tehsildar's office for inclusion, then go back to the desk to enrol."
-  },
-  {
    "k": "947b777e1c88",
    "ctx": "demoSteps",
    "t": "At an empanelled hospital, show the card at the Ayushman desk and pay nothing for a covered treatment."
@@ -804,6 +739,61 @@
    "k": "cef1e7317b02",
    "ctx": "demoSteps",
    "t": "Pick the member marked eKYC pending, verify with Aadhaar OTP or face scan, take the live photo, and fill in the relation, district and PIN code. Submit."
+  },
+  {
+   "k": "328fa7f5c492",
+   "ctx": "demoSteps",
+   "t": "The State Health Agency usually approves within a day or two. Log in again and download the card. It is also made free at a Lok Seva Kendra, CSC, government hospital or Aapke Dwar Niramayam camp."
+  },
+  {
+   "k": "5b1e02702dd5",
+   "ctx": "demoSteps",
+   "t": "At the hospital, go to the Ayushman Mitra desk with the card or Aadhaar. Treatment listed under the scheme is cashless up to Rs 5 lakh a year. Find empanelled hospitals at hem.nha.gov.in."
+  },
+  {
+   "k": "0b14db19a6d6",
+   "ctx": "demoSteps",
+   "t": "If any hospital asks you for money for a covered treatment, call 14555 or the CM Helpline 181."
+  },
+  {
+   "k": "48c21ade3057",
+   "ctx": "helpline",
+   "t": "14555 (Ayushman Bharat MP helpline), 1800-233-2085 (Ayushman Bharat), CM Helpline 181"
+  },
+  {
+   "k": "0a40dcadaa65",
+   "ctx": "title",
+   "t": "Mukhyamantri Ladli Laxmi Yojana (Ladli Laxmi 2.0)"
+  },
+  {
+   "k": "9d4ef095368f",
+   "ctx": "department",
+   "t": "Department of Women and Child Development, Madhya Pradesh"
+  },
+  {
+   "k": "51ec81a32eda",
+   "ctx": "brief",
+   "t": "When a girl is born in Madhya Pradesh and registered under this scheme, the state issues a certificate in her name promising Rs 1,43,000 in stages. She gets scholarships when she joins classes 6, 9, 11 and 12, Rs 25,000 when she joins college, and Rs 1 lakh at age 21. The state also pays her college tuition fees. Parents should apply within one year of her birth, either online themselves or through the anganwadi."
+  },
+  {
+   "k": "3caf2e9a431c",
+   "ctx": "benefit",
+   "t": "Rs 1,43,000 in stages: Rs 18,000 school scholarships, Rs 25,000 for college, Rs 1 lakh at 21"
+  },
+  {
+   "k": "626af5acf94b",
+   "ctx": "eligibility",
+   "t": "Girl born on or after 1 January 2006 and registered at the local anganwadi centre"
+  },
+  {
+   "k": "bdafb564451b",
+   "ctx": "eligibility",
+   "t": "Parents are original residents of Madhya Pradesh and do not pay income tax"
+  },
+  {
+   "k": "a0f00fdf853b",
+   "ctx": "eligibility",
+   "t": "Parents have two children or fewer. The first girl qualifies without any condition. For the second girl, the mother or father must have adopted family planning after the second child"
   }
  ]
 }

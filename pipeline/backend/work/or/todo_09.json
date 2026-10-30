@@ -6,96 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_09.json",
  "items": [
   {
-   "k": "7b691d7ab1a0",
-   "ctx": "brief",
-   "t": "Rs.1,500 every month in the bank account of a Goan homemaker whose family earns up to Rs.3 lakh a year, to help with household costs. It is for married women, widows and divorcees who have lived in Goa for 15 years. Apply on Goa Online; the money arrives by the 10th of each month. The 2026-27 budget announced an increase, but the new amount had not been notified when this was checked."
-  },
-  {
-   "k": "714d1f66d87a",
-   "ctx": "eligibility",
-   "t": "Married woman, widow or divorcee aged 18 or above"
-  },
-  {
-   "k": "1a6b234f03e0",
-   "ctx": "eligibility",
-   "t": "Resident of Goa for at least 15 years; if she was born outside Goa, the husband's 15-year residence is checked too"
-  },
-  {
-   "k": "cd6ba6857c98",
-   "ctx": "eligibility",
-   "t": "Combined gross income of wife and husband not above Rs.3 lakh a year"
-  },
-  {
-   "k": "89a4b6a79a82",
-   "ctx": "eligibility",
-   "t": "Not for women who are, or whose husbands are, regular government or listed public-sector employees"
-  },
-  {
-   "k": "39005af07677",
-   "ctx": "eligibility",
-   "t": "Cannot be drawn together with the Dayanand Social Security pension, except by some widows with young children"
-  },
-  {
-   "k": "7e3b6216de99",
-   "ctx": "documents",
-   "t": "Marriage certificate (husband's death certificate for a widow, divorce order for a divorcee)"
-  },
-  {
-   "k": "99ff842dc531",
-   "ctx": "documents",
-   "t": "Residence certificate showing 15 years in Goa (husband's birth and residence certificates if you were born outside Goa)"
-  },
-  {
-   "k": "ad3cd0ecad44",
-   "ctx": "documents",
-   "t": "Income proof, with the self-declaration of occupation and income"
-  },
-  {
-   "k": "492aa315d43a",
-   "ctx": "documents",
-   "t": "Savings bank account details, with the account linked to Aadhaar"
-  },
-  {
-   "k": "b74174bcf9ef",
-   "ctx": "documents",
-   "t": "Photo and signature of the applicant"
-  },
-  {
-   "k": "848a187cc512",
-   "ctx": "documents",
-   "t": "Verification report signed by a Gazetted Officer, MLA or MP (format on the Goa Online page)"
-  },
-  {
-   "k": "2297f8f939b2",
-   "ctx": "value",
-   "t": "Married / 15+ years in Goa / income below Rs.3 lakh / husband not in government service"
-  },
-  {
-   "k": "af17e4864d11",
-   "ctx": "hint",
-   "t": "Answer honestly. The form opens only if every answer fits the rules."
-  },
-  {
-   "k": "82b86bc747dc",
-   "ctx": "hint",
-   "t": "As on your Aadhaar and bank passbook, so the money is not held up."
-  },
-  {
-   "k": "b3633b7db9e8",
-   "ctx": "hint",
-   "t": "Married, widow or divorcee. Widows and divorcees upload the death certificate or divorce order."
-  },
-  {
-   "k": "6afe16766e75",
-   "ctx": "hint",
-   "t": "Where you live now; the field check is done here."
-  },
-  {
-   "k": "0ce9ad724fa4",
-   "ctx": "hint",
-   "t": "Your income and your husband's together, before deductions. It must not be above Rs.3,00,000."
-  },
-  {
    "k": "f1be359a90ca",
    "ctx": "hint",
    "t": "Your own 12-digit Aadhaar. The bank account must be linked to it or payment is stopped."
@@ -759,6 +669,81 @@
    "k": "177c1371da3b",
    "ctx": "benefit",
    "t": "Rs.10 lakh a year per family, cashless"
+  },
+  {
+   "k": "1a781f501134",
+   "ctx": "eligibility",
+   "t": "Families with an NFSA ration card or listed in the SECC-2011 list, and BPL families (rural BPL score 0 to 20, or urban UCD / Swarna Jayanti card)"
+  },
+  {
+   "k": "6b3b66fa5faa",
+   "ctx": "eligibility",
+   "t": "Middle-class families with a yearly income of up to Rs.4 lakh, shown by an income certificate"
+  },
+  {
+   "k": "6d5280574a3e",
+   "ctx": "eligibility",
+   "t": "Senior citizens aged 60 and above in families earning up to Rs.6 lakh a year; every person aged 70 and above gets the Vay Vandana card whatever the income"
+  },
+  {
+   "k": "941ea7a3d8f9",
+   "ctx": "eligibility",
+   "t": "Registered construction workers (e-Nirman card), U-WIN card holders, ASHA and Anganwadi workers and helpers, accredited journalists and fixed-pay class 3 and 4 state employees"
+  },
+  {
+   "k": "57aea47a8795",
+   "ctx": "eligibility",
+   "t": "Gujarat government regular employees and pensioners, through their HRPN or PPO number"
+  },
+  {
+   "k": "1fccd972f146",
+   "ctx": "eligibility",
+   "t": "You must be a resident of Gujarat. There is no limit on family size, and illnesses you already have are covered"
+  },
+  {
+   "k": "e3146b133fa3",
+   "ctx": "documents",
+   "t": "Aadhaar card of each family member being enrolled (needed for e-KYC)"
+  },
+  {
+   "k": "6d4c6ea51155",
+   "ctx": "documents",
+   "t": "Ration card, for the family details"
+  },
+  {
+   "k": "4d17d795c486",
+   "ctx": "documents",
+   "t": "Income certificate from the Mamlatdar or TDO - for the Rs.4 lakh family category and for senior citizens up to Rs.6 lakh (it stays valid for 3 years)"
+  },
+  {
+   "k": "60b83f7b9449",
+   "ctx": "documents",
+   "t": "BPL certificate, or your name in the approved BPL list, if you apply as a BPL family"
+  },
+  {
+   "k": "78dc42c5ee94",
+   "ctx": "documents",
+   "t": "Proof of your special category if any: e-Nirman card, U-WIN card, journalist accreditation, appointment letter, or HRPN / PPO number"
+  },
+  {
+   "k": "c2199c54fa0f",
+   "ctx": "hint",
+   "t": "Choose Beneficiary when you are making the card for yourself or your family. The Ayushman app on the phone works the same way."
+  },
+  {
+   "k": "215193346df7",
+   "ctx": "hint",
+   "t": "Any working number you keep with you. The login OTP and the approval SMS come here."
+  },
+  {
+   "k": "3fa8781a3c7e",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Gujarat. The PMJAY-MA card is made under the same scheme name."
+  },
+  {
+   "k": "8834be4c604c",
+   "ctx": "hint",
+   "t": "The ration card number usually brings up the whole family at once. You can also search by Aadhaar number."
   }
  ]
 }

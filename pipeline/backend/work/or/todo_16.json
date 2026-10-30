@@ -6,61 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_16.json",
  "items": [
   {
-   "k": "328fa7f5c492",
-   "ctx": "demoSteps",
-   "t": "The State Health Agency usually approves within a day or two. Log in again and download the card. It is also made free at a Lok Seva Kendra, CSC, government hospital or Aapke Dwar Niramayam camp."
-  },
-  {
-   "k": "5b1e02702dd5",
-   "ctx": "demoSteps",
-   "t": "At the hospital, go to the Ayushman Mitra desk with the card or Aadhaar. Treatment listed under the scheme is cashless up to Rs 5 lakh a year. Find empanelled hospitals at hem.nha.gov.in."
-  },
-  {
-   "k": "0b14db19a6d6",
-   "ctx": "demoSteps",
-   "t": "If any hospital asks you for money for a covered treatment, call 14555 or the CM Helpline 181."
-  },
-  {
-   "k": "48c21ade3057",
-   "ctx": "helpline",
-   "t": "14555 (Ayushman Bharat MP helpline), 1800-233-2085 (Ayushman Bharat), CM Helpline 181"
-  },
-  {
-   "k": "0a40dcadaa65",
-   "ctx": "title",
-   "t": "Mukhyamantri Ladli Laxmi Yojana (Ladli Laxmi 2.0)"
-  },
-  {
-   "k": "9d4ef095368f",
-   "ctx": "department",
-   "t": "Department of Women and Child Development, Madhya Pradesh"
-  },
-  {
-   "k": "51ec81a32eda",
-   "ctx": "brief",
-   "t": "When a girl is born in Madhya Pradesh and registered under this scheme, the state issues a certificate in her name promising Rs 1,43,000 in stages. She gets scholarships when she joins classes 6, 9, 11 and 12, Rs 25,000 when she joins college, and Rs 1 lakh at age 21. The state also pays her college tuition fees. Parents should apply within one year of her birth, either online themselves or through the anganwadi."
-  },
-  {
-   "k": "3caf2e9a431c",
-   "ctx": "benefit",
-   "t": "Rs 1,43,000 in stages: Rs 18,000 school scholarships, Rs 25,000 for college, Rs 1 lakh at 21"
-  },
-  {
-   "k": "626af5acf94b",
-   "ctx": "eligibility",
-   "t": "Girl born on or after 1 January 2006 and registered at the local anganwadi centre"
-  },
-  {
-   "k": "bdafb564451b",
-   "ctx": "eligibility",
-   "t": "Parents are original residents of Madhya Pradesh and do not pay income tax"
-  },
-  {
-   "k": "a0f00fdf853b",
-   "ctx": "eligibility",
-   "t": "Parents have two children or fewer. The first girl qualifies without any condition. For the second girl, the mother or father must have adopted family planning after the second child"
-  },
-  {
    "k": "75decab37e35",
    "ctx": "eligibility",
    "t": "Apply within one year of the girl's birth. Late cases, orphans, adopted girls and girls who have lost a parent can be registered up to age 5 as special cases"
@@ -654,6 +599,66 @@
    "k": "e79a6a76ee6f",
    "ctx": "eligibility",
    "t": "Covers one or two daughters; if the family has a son and a daughter, the daughter gets it; twin girls at the second delivery both get it"
+  },
+  {
+   "k": "5381dd75fe2a",
+   "ctx": "eligibility",
+   "t": "For the 3rd instalment of the first child, or the 2nd instalment of the second child, the mother or father must give a family planning operation certificate"
+  },
+  {
+   "k": "1f8ca87f7339",
+   "ctx": "eligibility",
+   "t": "The bank account must be in Maharashtra; for the last Rs.75,000 the girl must be 18, unmarried and on the voter list"
+  },
+  {
+   "k": "afb0cdd8140e",
+   "ctx": "documents",
+   "t": "Girl's birth certificate (register the birth with the gram panchayat or municipality first)"
+  },
+  {
+   "k": "6e5f1efcf009",
+   "ctx": "documents",
+   "t": "Income certificate from the tehsildar showing yearly family income up to Rs.1 lakh"
+  },
+  {
+   "k": "b9380067d622",
+   "ctx": "documents",
+   "t": "Attested copy of the yellow or orange ration card"
+  },
+  {
+   "k": "3ba460bc02f9",
+   "ctx": "documents",
+   "t": "Aadhaar of the parents, and of the girl (not needed for the first instalment)"
+  },
+  {
+   "k": "fdc4253ec9aa",
+   "ctx": "documents",
+   "t": "First page of the passbook of the joint account of the girl and her mother"
+  },
+  {
+   "k": "33710530512b",
+   "ctx": "documents",
+   "t": "For later instalments: school bonafide certificate, family planning certificate, and at 18 her voter ID and a self-declaration that she is unmarried"
+  },
+  {
+   "k": "557baf20e799",
+   "ctx": "submitAt",
+   "t": "The anganwadi sevika of your area, at the anganwadi centre. The application form is printed at the end of the scheme GR linked here (pages 9 to 12), and blank forms are also kept at every Child Development Project Officer (CDPO) office, the Zilla Parishad District Programme Officer's office and the District Women and Child Development Officer's office. Take the filled form with copies of the documents, carry the originals for checking, and ask the sevika for the signed receipt (pohoch pavti) at the bottom of the form. Apply the same way for each later instalment."
+  },
+  {
+   "k": "55d0c66028bd",
+   "ctx": "label",
+   "t": "Applying for (first child / second child / twins)"
+  },
+  {
+   "k": "c53b86c7f3b3",
+   "ctx": "hint",
+   "t": "Tick the one that fits this girl. For twins born at the second delivery, tick twins."
+  },
+  {
+   "k": "d6b088364ee4",
+   "ctx": "hint",
+   "t": "The girl's name as written on her birth certificate."
   }
  ]
 }

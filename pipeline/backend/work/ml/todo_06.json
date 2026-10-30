@@ -6,56 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_06.json",
  "items": [
   {
-   "k": "ebdff1a68141",
-   "ctx": "submitAt",
-   "t": "No form is needed. Book the cylinder with your own gas agency by phone, SMS, WhatsApp or app, and pay on delivery. If you are not on the eligible list, go to your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) or the mandal Civil Supplies office with the rice card, gas book and Aadhaar. Complete LPG e-KYC at your gas agency."
-  },
-  {
-   "k": "280566cb4881",
-   "ctx": "label",
-   "t": "Rice card number or LPG consumer number"
-  },
-  {
-   "k": "adcdc7311f93",
-   "ctx": "hint",
-   "t": "Type either one on the Deepam 2.0 Status Check page. The rice card number is on the front of the card."
-  },
-  {
-   "k": "0893671fad1e",
-   "ctx": "hint",
-   "t": "Type the letters shown in the picture. Tap refresh if you cannot read them."
-  },
-  {
-   "k": "8b081e179184",
-   "ctx": "hint",
-   "t": "The family member in whose name the gas connection stands. The refund goes to her Aadhaar-seeded account."
-  },
-  {
-   "k": "f89c099ef6ee",
-   "ctx": "hint",
-   "t": "Shown from the rice card record. It should be where your family lives."
-  },
-  {
-   "k": "17ffba81d0fe",
-   "ctx": "hint",
-   "t": "If it says IN-ELIGIBLE, the page also shows why, such as electricity, government job or land. Take proof to the Secretariat."
-  },
-  {
-   "k": "451690216322",
-   "ctx": "hint",
-   "t": "The year has three blocks: April–July, August–November and December–March. Book one cylinder in each. An unused block does not carry forward."
-  },
-  {
-   "k": "fe4405a91490",
-   "ctx": "hint",
-   "t": "Book the usual way with your gas agency. Pay the delivery person the printed price."
-  },
-  {
-   "k": "e3c830112c5f",
-   "ctx": "hint",
-   "t": "Usually within 48 hours of delivery, to the bank account seeded with the connection holder's Aadhaar."
-  },
-  {
    "k": "e54f5bbb43df",
    "ctx": "demoSteps",
    "t": "Open bm-sgsw.ap.gov.in/BM/DeepamStatus. Enter your rice card or LPG consumer number and the captcha to see if your family is eligible."
@@ -759,6 +709,41 @@
    "k": "564891db549b",
    "ctx": "demoSteps",
    "t": "The college checks the form and adds your enrolment number to the Nijut Moina scheme on the Samarth portal."
+  },
+  {
+   "k": "64b570701e31",
+   "ctx": "demoSteps",
+   "t": "Open assamshesp.samarth.edu.in and log in with your Samarth enrolment number, password and captcha (first time: click Register and set a password using the email OTP). HS students log in at darpan.ahseconline.in instead, update the profile and verify with Aadhaar."
+  },
+  {
+   "k": "12fd9e43f0c9",
+   "ctx": "demoSteps",
+   "t": "Click Scholarship, then Apply on the Nijut Moina line. Enter the Aadhaar-seeded bank details, address and last exam, upload the passbook, tick the declarations and click Save & Next."
+  },
+  {
+   "k": "177d5f0ef3a1",
+   "ctx": "demoSteps",
+   "t": "Check every detail, click Submit and verify with the Aadhaar OTP. Print the acknowledgement and give it to the college before the closing date (5 September in 2026)."
+  },
+  {
+   "k": "8637cfa873f8",
+   "ctx": "demoSteps",
+   "t": "The college verifies the applications. Once approved, the money comes to your bank account by DBT every month for 10 months. Missing the exam, indiscipline or getting married stops it."
+  },
+  {
+   "k": "c868d85fd5ae",
+   "ctx": "helpline",
+   "t": "No dedicated helpline. First ask the Nijut Moina counter or nodal officer at your college; then the Directorate of Higher Education, Kahilipara, Guwahati-19 (directorhigherassam123@gmail.com)"
+  },
+  {
+   "k": "cc0690d9ad40",
+   "ctx": "title",
+   "t": "Mukhyamantri Mahila Rojgar Yojana (Jeevika Didi Rs 10,000)"
+  },
+  {
+   "k": "c7a4473bcc26",
+   "ctx": "department",
+   "t": "Rural Development Department, Government of Bihar, through JEEViKA (Bihar Rural Livelihoods Promotion Society); Urban Development & Housing Department in towns"
   }
  ]
 }

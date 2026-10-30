@@ -6,86 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_11.json",
  "items": [
   {
-   "k": "d8b2c2edff0b",
-   "ctx": "hint",
-   "t": "A printed form: you allow your Aadhaar to be used for enrolment and state that you are not covered by another scheme."
-  },
-  {
-   "k": "7d893bd47d4f",
-   "ctx": "hint",
-   "t": "Your ration card number, a dash and your member number. It is printed on the card."
-  },
-  {
-   "k": "519f7996ed92",
-   "ctx": "hint",
-   "t": "Paid once. A reprint of a lost card costs Rs.20."
-  },
-  {
-   "k": "c5785d03919f",
-   "ctx": "demoSteps",
-   "t": "Go to the registration counter of a government hospital (PHC, CHC, taluk or district hospital) with your Aadhaar and ration card."
-  },
-  {
-   "k": "a048f6848e24",
-   "ctx": "demoSteps",
-   "t": "The staff check your Aadhaar by fingerprint (or OTP or QR code), and your ration card decides your category: Eligible (BPL) or General."
-  },
-  {
-   "k": "383bf48c241a",
-   "ctx": "demoSteps",
-   "t": "Sign the consent and self-declaration, pay Rs.10, and collect the printed card with your ArK ID. Repeat this for each family member."
-  },
-  {
-   "k": "280cfcc9ec7c",
-   "ctx": "demoSteps",
-   "t": "When you fall ill, go first to a government hospital. If it cannot give the treatment, ask the doctor for a referral to a private hospital empanelled under AB-ArK."
-  },
-  {
-   "k": "bdce6f86bdae",
-   "ctx": "demoSteps",
-   "t": "At the private hospital, go to the Arogya Mitra desk with the card, your Aadhaar and the referral letter. The hospital takes approval from SAST; for eligible families the treatment is cashless."
-  },
-  {
-   "k": "2ee3fa80e3ac",
-   "ctx": "demoSteps",
-   "t": "In an emergency covered by the listed emergency procedures, go straight to the nearest empanelled hospital. No referral is needed."
-  },
-  {
-   "k": "dfd653b9be26",
-   "ctx": "demoSteps",
-   "t": "If a hospital asks a BPL card holder to pay for a covered treatment, call 104 or 1800 425 8330 before paying."
-  },
-  {
-   "k": "67d79b2c1b9f",
-   "ctx": "helpline",
-   "t": "104 — Arogya Sahayavani (toll free); 1800 425 8330 — Arogya Karnataka helpline"
-  },
-  {
-   "k": "697546d7409b",
-   "ctx": "title",
-   "t": "Karnataka Social Security Pensions (Old Age, Sandhya Suraksha, Widow and Disability Pension)"
-  },
-  {
-   "k": "b541f788cc03",
-   "ctx": "department",
-   "t": "Directorate of Social Security and Pensions, Revenue Department, Government of Karnataka"
-  },
-  {
-   "k": "f8dcb22fa668",
-   "ctx": "brief",
-   "t": "Karnataka pays a monthly pension to poor elderly people, widows and people with disabilities, straight into a bank or post office account. The old age pension is Rs.600 a month from 60 to 64 and Rs.1,200 from 65; Sandhya Suraksha gives Rs.1,200 to farmers, labourers, weavers and fishermen aged 65 and above; widows get Rs.800; people with disabilities get Rs.800 to Rs.2,000. One common form covers all of them, and you hand it in at the Atalji Janasnehi Kendra (Nadakacheri) for your area."
-  },
-  {
-   "k": "17a3af5127c5",
-   "ctx": "benefit",
-   "t": "Rs.600 to Rs.2,000 a month depending on the pension; Rs.1,200 for most people aged 65 and above"
-  },
-  {
-   "k": "cfc677fd95f9",
-   "ctx": "eligibility",
-   "t": "Resident of Karnataka, with a family income below Rs.32,000 a year"
-  },
-  {
    "k": "60b7bbcc3819",
    "ctx": "eligibility",
    "t": "Old age pension (IGNOAPS): BPL, aged 60 or above. Rs.600 a month at 60 to 64, Rs.1,200 at 65 and above"
@@ -939,6 +859,121 @@
    "k": "8ede29e0623f",
    "ctx": "eligibility",
    "t": "Pension: 60 or older with at least 5 years of active membership"
+  },
+  {
+   "k": "7e214d96f867",
+   "ctx": "eligibility",
+   "t": "Maternity aid: women members with at least 1 year of membership, for up to two deliveries"
+  },
+  {
+   "k": "6878ce8f3776",
+   "ctx": "eligibility",
+   "t": "After a member's or pensioner's death, the nominee or spouse can claim the death benefit or family pension"
+  },
+  {
+   "k": "d7f1525f1183",
+   "ctx": "documents",
+   "t": "Membership application form from the Board's district office"
+  },
+  {
+   "k": "f21c72490652",
+   "ctx": "documents",
+   "t": "Age proof: birth certificate, school certificate or Aadhaar"
+  },
+  {
+   "k": "c0f694fefce5",
+   "ctx": "documents",
+   "t": "Certificate of at least 90 days' construction work in the last 12 months, from your employer or contractor"
+  },
+  {
+   "k": "5cd93ad37ac9",
+   "ctx": "documents",
+   "t": "Copy of a bank passbook in the worker's own name"
+  },
+  {
+   "k": "e5e04da3d4f5",
+   "ctx": "documents",
+   "t": "Passport-size photos and your nominee's details"
+  },
+  {
+   "k": "392068147220",
+   "ctx": "documents",
+   "t": "For each benefit later: the Board's claim form for it (Form 34 for pension, Form 38 for disability pension, Form 36 for death benefit) with the Welfare Fund ID card and passbook"
+  },
+  {
+   "k": "15585abbd336",
+   "ctx": "submitAt",
+   "t": "The district office of the Kerala Building and Other Construction Workers Welfare Board (District Executive Officer) in your district. Collect the membership form there, attach the copies, pay the first subscription and take a receipt. Head office: Nirman Bhavan, Mettukada, Thycaud, Thiruvananthapuram."
+  },
+  {
+   "k": "44774f8f5728",
+   "ctx": "hint",
+   "t": "Must match your age proof. You must be between 18 and 59 to join."
+  },
+  {
+   "k": "cae10c7ab46e",
+   "ctx": "value",
+   "t": "Thekkethil House, Ward 9, Pallickal Grama Panchayat, Kollam"
+  },
+  {
+   "k": "36885f923183",
+   "ctx": "hint",
+   "t": "Where you live now. The district office of this district handles your file."
+  },
+  {
+   "k": "155f732e7773",
+   "ctx": "hint",
+   "t": "Your main construction trade, such as mason, carpenter, helper, painter, plumber or electrician."
+  },
+  {
+   "k": "35c8afe6fa69",
+   "ctx": "hint",
+   "t": "The employer or contractor who signs that you worked at least 90 days in the last 12 months."
+  },
+  {
+   "k": "c98ad3951b3c",
+   "ctx": "hint",
+   "t": "Attach a copy of your Aadhaar card."
+  },
+  {
+   "k": "0e63baa2db1d",
+   "ctx": "hint",
+   "t": "An account in your own name. All benefits are paid into it."
+  },
+  {
+   "k": "36c21319d171",
+   "ctx": "hint",
+   "t": "The person who gets the death benefit and the refund if something happens to you."
+  },
+  {
+   "k": "3e3cec68b10a",
+   "ctx": "hint",
+   "t": "A number you keep with you, for messages from the Board."
+  },
+  {
+   "k": "a8929239cb7a",
+   "ctx": "hint",
+   "t": "Pay it every month and see that it is entered in your Welfare Fund passbook."
+  },
+  {
+   "k": "e3ec04225fa9",
+   "ctx": "demoSteps",
+   "t": "Collect the membership form at the Board's district office in your district."
+  },
+  {
+   "k": "0f522cb9e481",
+   "ctx": "demoSteps",
+   "t": "Fill it and attach the age proof, the 90-day work certificate, Aadhaar, bank passbook copy and photos."
+  },
+  {
+   "k": "d462c7d401f1",
+   "ctx": "demoSteps",
+   "t": "Submit it at the district office with the first subscription and keep the receipt. If the District Executive Officer rejects it, you can appeal to the Board Secretary within 30 days."
+  },
+  {
+   "k": "1753bf204e28",
+   "ctx": "demoSteps",
+   "t": "You get a Welfare Fund ID card and passbook. Pay Rs.50 every month so the membership stays active."
   }
  ]
 }

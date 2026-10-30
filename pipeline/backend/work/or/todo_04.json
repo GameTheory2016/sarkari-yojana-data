@@ -6,76 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_04.json",
  "items": [
   {
-   "k": "2843acaac1a3",
-   "ctx": "submitAt",
-   "t": "The office of the Child Development Project Officer (CDPO) of your area: Urban (Sri Vijaya Puram), Ferrargunj, Rangat, Diglipur or Car Nicobar. Forms are also free at the Directorate of Social Welfare, Goalghar, Sri Vijaya Puram (Port Blair). Before you submit, get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate filled in on the form. Attach the local certificate and an Aadhaar copy."
-  },
-  {
-   "k": "dfa971fddd4e",
-   "ctx": "hint",
-   "t": "Tick Old Age Pension. The same form is used for widow, destitute and disability pensions."
-  },
-  {
-   "k": "3574a1ae1aa1",
-   "ctx": "hint",
-   "t": "Write 'Late' if he has died."
-  },
-  {
-   "k": "3a175112966c",
-   "ctx": "hint",
-   "t": "Must show you are 60 or more. The Medical Officer certifies your age on the form."
-  },
-  {
-   "k": "b022defd8b50",
-   "ctx": "hint",
-   "t": "Where you live now, with village or ward."
-  },
-  {
-   "k": "50589fcd2b01",
-   "ctx": "label",
-   "t": "Details of assistance received from Govt./local bodies"
-  },
-  {
-   "k": "2d67bc024d92",
-   "ctx": "hint",
-   "t": "Write Nil if you get no pension or grant. Anyone already getting one is not eligible."
-  },
-  {
-   "k": "636ee83204e0",
-   "ctx": "label",
-   "t": "Bank account number and Aadhaar number"
-  },
-  {
-   "k": "d5e523cb6c0f",
-   "ctx": "hint",
-   "t": "The pension is paid into this account every month."
-  },
-  {
-   "k": "f3ba0a8657ae",
-   "ctx": "demoSteps",
-   "t": "Download the pension form or collect it free at the CDPO office or the Directorate of Social Welfare."
-  },
-  {
-   "k": "45b0d1824015",
-   "ctx": "demoSteps",
-   "t": "Get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate on the form."
-  },
-  {
-   "k": "ee5c361baea3",
-   "ctx": "demoSteps",
-   "t": "Sign the declaration and hand in the form with your local certificate and Aadhaar copy at your CDPO office."
-  },
-  {
-   "k": "ad46cfe55123",
-   "ctx": "demoSteps",
-   "t": "The CDPO checks that you get no other assistance and sends the case to the Directorate of Social Welfare for sanction."
-  },
-  {
-   "k": "a064b5172f30",
-   "ctx": "demoSteps",
-   "t": "Once sanctioned, Rs.2,500 (Rs.3,000 from age 80) is paid into your bank account every month."
-  },
-  {
    "k": "451edf68eccf",
    "ctx": "demoSteps",
    "t": "Give a life certificate every year in the prescribed format to your Anganwadi worker or Mukhya Sevika, or the pension is suspended."
@@ -759,6 +689,71 @@
    "k": "8236f80c2c9a",
    "ctx": "demoSteps",
    "t": "At discharge you get 10 days of medicines and bus fare home, and you sign a letter saying you paid nothing. For listed surgeries, the Aarogya Aasara recovery allowance goes to your bank account."
+  },
+  {
+   "k": "c9783a8fe629",
+   "ctx": "demoSteps",
+   "t": "If a hospital asks for money, refuses treatment or you need help, call 104."
+  },
+  {
+   "k": "955cf0db2bc6",
+   "ctx": "helpline",
+   "t": "104 — Dr. NTR Vaidya Seva and Aarogya Aasara information and complaints / 108 — emergency ambulance"
+  },
+  {
+   "k": "98372ef3499e",
+   "ctx": "department",
+   "t": "Consumer Affairs, Food & Civil Supplies Department, Government of Andhra Pradesh"
+  },
+  {
+   "k": "169f72332cad",
+   "ctx": "brief",
+   "t": "Andhra Pradesh gives every eligible rice card family three 14.2 kg LPG cylinders a year free, one in each four-month block. You book the cylinder with your gas agency in the usual way and pay for it, and the full amount is refunded to your Aadhaar-linked bank account, usually within 48 hours. There is no form: families with a rice card and a gas connection are listed automatically. You can check your status with your rice card or LPG number."
+  },
+  {
+   "k": "71cfa65a99ee",
+   "ctx": "benefit",
+   "t": "3 free 14.2 kg LPG cylinders a year, one every four months, with the full price refunded"
+  },
+  {
+   "k": "5ef49f85099d",
+   "ctx": "eligibility",
+   "t": "The family holds an Andhra Pradesh rice card"
+  },
+  {
+   "k": "c408e2861d1d",
+   "ctx": "eligibility",
+   "t": "It has an active domestic LPG connection from Indane, HP or Bharat Gas in a family member's name, linked to the rice card. Ujjwala connections count"
+  },
+  {
+   "k": "e5e0f8bef842",
+   "ctx": "eligibility",
+   "t": "One connection per rice card household; a family with two connections gets the benefit on only one"
+  },
+  {
+   "k": "d7fe0a1f7bf0",
+   "ctx": "eligibility",
+   "t": "The household must pass the rice card checks on electricity use, government employment and land, which are the reasons the status page gives for rejection"
+  },
+  {
+   "k": "b01ca20959cc",
+   "ctx": "eligibility",
+   "t": "LPG e-KYC done at the gas agency, and a bank account seeded with the connection holder's Aadhaar"
+  },
+  {
+   "k": "36dfc8f23089",
+   "ctx": "documents",
+   "t": "Aadhaar card of the connection holder"
+  },
+  {
+   "k": "54d01d7c26e5",
+   "ctx": "documents",
+   "t": "Bank account seeded with that Aadhaar"
+  },
+  {
+   "k": "46c50fa54d9a",
+   "ctx": "documents",
+   "t": "Mobile number registered with the gas agency"
   }
  ]
 }

@@ -6,66 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_24.json",
  "items": [
   {
-   "k": "8e547400fef3",
-   "ctx": "eligibility",
-   "t": "Small and marginal, SC/ST and women farmers get the higher 50% share. Other farmers get 40%"
-  },
-  {
-   "k": "8b9bbe3fd220",
-   "ctx": "eligibility",
-   "t": "A refundable security deposit is paid when booking: Rs.2,500 if the subsidy is Rs.10,001 to Rs.1 lakh, and Rs.5,000 if it is above Rs.1 lakh"
-  },
-  {
-   "k": "279832d341a0",
-   "ctx": "eligibility",
-   "t": "One booking per mobile number in each window. Farmers are picked first-come-first-served, or by e-lottery when bookings exceed the district target"
-  },
-  {
-   "k": "92d6c495797f",
-   "ctx": "eligibility",
-   "t": "The machine must be bought within the days given on the token, or the token is cancelled"
-  },
-  {
-   "k": "8228b2a1dd2c",
-   "ctx": "documents",
-   "t": "Farmer registration number from the Agriculture Department"
-  },
-  {
-   "k": "60aa7fb1df11",
-   "ctx": "documents",
-   "t": "Bank passbook of the Aadhaar-linked account in the farmer's name"
-  },
-  {
-   "k": "35f52ef73dab",
-   "ctx": "documents",
-   "t": "After buying: the dealer's GST bill and a photo of the farmer with the machine, showing its serial number"
-  },
-  {
-   "k": "d9e56225e020",
-   "ctx": "hint",
-   "t": "Your farmer registration number with the Agriculture Department. If you do not have one, register first with Aadhaar, Khatauni and bank details."
-  },
-  {
-   "k": "89819446c338",
-   "ctx": "hint",
-   "t": "The OTP comes here. Only one booking is allowed per mobile number, but you may use the number of a parent, brother, sister, son or daughter."
-  },
-  {
-   "k": "e8946aa3b93b",
-   "ctx": "hint",
-   "t": "Where your land is. Targets are fixed district by district."
-  },
-  {
-   "k": "abbc2f9f5fdb",
-   "ctx": "hint",
-   "t": "Choose the crop residue scheme (CRM) for super seeders, happy seeders, mulchers and balers."
-  },
-  {
-   "k": "fe369d01159e",
-   "ctx": "hint",
-   "t": "Choose the exact machine and size. The subsidy amount for it is shown on the screen."
-  },
-  {
    "k": "719b2b8a91ba",
    "ctx": "hint",
    "t": "Small and marginal, SC/ST and women farmers get the higher share. It must match your land record and certificates."
@@ -754,6 +694,51 @@
    "k": "b2fbec4e59da",
    "ctx": "title",
    "t": "Atal Ayushman Uttarakhand Yojana (Ayushman Golden Card)"
+  },
+  {
+   "k": "937b84556a10",
+   "ctx": "department",
+   "t": "State Health Authority, Uttarakhand (Medical Health & Family Welfare Department)"
+  },
+  {
+   "k": "506876439ef5",
+   "ctx": "brief",
+   "t": "Free, cashless hospital treatment up to Rs 5 lakh a year per family for almost every family in Uttarakhand. Families on the central PM-JAY list are covered by PM-JAY, and the state covers all the other resident families under Atal Ayushman on the same terms, hospitals and packages. The Ayushman (golden) card is made from your ration card or family register, on the phone or at a Jan Seva Kendra (CSC)."
+  },
+  {
+   "k": "edb7f352abbf",
+   "ctx": "eligibility",
+   "t": "Uttarakhand families found in any of these lists: NFSA ration card data, the old Mukhyamantri Swasthya Bima Yojana, SECC 2011 or SECC Plus"
+  },
+  {
+   "k": "522aaf228c1d",
+   "ctx": "eligibility",
+   "t": "No income limit and no limit on family size; every member is covered"
+  },
+  {
+   "k": "576cab25b214",
+   "ctx": "eligibility",
+   "t": "Not for people covered by CGHS, ECHS, ESIC or the State Government Health Scheme (state employees and pensioners have their own SGHS card)"
+  },
+  {
+   "k": "0eeb01c57412",
+   "ctx": "eligibility",
+   "t": "Illnesses you already have are covered from day one"
+  },
+  {
+   "k": "6ae371279728",
+   "ctx": "eligibility",
+   "t": "Atal Ayushman uses a referral system, so planned treatment at a private hospital may first need a referral from a government hospital"
+  },
+  {
+   "k": "eee5f7937aa5",
+   "ctx": "documents",
+   "t": "Family ID: ration card (new or old) or a copy of the family register (Parivar Register)"
+  },
+  {
+   "k": "a5a9da847146",
+   "ctx": "documents",
+   "t": "If you have neither: an ID such as voter ID, birth certificate, permanent residence certificate, PAN or passport showing your father's, mother's or spouse's name"
   }
  ]
 }

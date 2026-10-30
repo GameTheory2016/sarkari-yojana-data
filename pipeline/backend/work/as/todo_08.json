@@ -6,101 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_08.json",
  "items": [
   {
-   "k": "fc32d2a8532f",
-   "ctx": "documents",
-   "t": "Delhi ration card number, to find and link the family"
-  },
-  {
-   "k": "f8dc86cb764d",
-   "ctx": "documents",
-   "t": "For the 70+ Vay Vandana card, Aadhaar alone is enough (it shows your age)"
-  },
-  {
-   "k": "0dd70a5bb4ee",
-   "ctx": "hint",
-   "t": "Any working number you hold. The OTP and the approval message come here."
-  },
-  {
-   "k": "46b40c0bae7a",
-   "ctx": "hint",
-   "t": "Choose PMJAY and Delhi. For someone aged 70 or above, use the 70+ (Vay Vandana) option instead; only Aadhaar is needed."
-  },
-  {
-   "k": "4c1aadfd15e1",
-   "ctx": "hint",
-   "t": "The ration card number finds the whole family at once. You can also search by Aadhaar."
-  },
-  {
-   "k": "53fbb2b77b47",
-   "ctx": "hint",
-   "t": "Copy it from the Delhi ration card. If nothing is found, try your Aadhaar number."
-  },
-  {
-   "k": "f87f16d9b8c7",
-   "ctx": "hint",
-   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication on the phone camera."
-  },
-  {
-   "k": "6c93c750712d",
-   "ctx": "demoSteps",
-   "t": "Choose PMJAY and Delhi and search by ration card or Aadhaar. For a person aged 70 or above, use the 70+ option with just Aadhaar."
-  },
-  {
-   "k": "c55065f8922d",
-   "ctx": "demoSteps",
-   "t": "Find the member marked eKYC pending and verify with Aadhaar OTP or face authentication."
-  },
-  {
-   "k": "a895b8e5828a",
-   "ctx": "demoSteps",
-   "t": "Take the live photo, fill the mobile number, relation, district and PIN code, and submit."
-  },
-  {
-   "k": "56a263de55fe",
-   "ctx": "demoSteps",
-   "t": "Approval usually comes within a day or two by SMS. Log in again and download the card from Download Card."
-  },
-  {
-   "k": "710a6b3a74e2",
-   "ctx": "demoSteps",
-   "t": "If it does not work online, take Aadhaar and the ration card to a government dispensary or the Ayushman Mitra desk of an empanelled hospital and get the card made there."
-  },
-  {
-   "k": "e67f8695f030",
-   "ctx": "demoSteps",
-   "t": "At the hospital, show the card at the Ayushman Mitra desk. Never pay cash for a treatment covered by the scheme."
-  },
-  {
-   "k": "9b6f60fee742",
-   "ctx": "title",
-   "t": "Delhi Old Age Pension (Financial Assistance to Senior Citizens)"
-  },
-  {
-   "k": "d0d2acd990ad",
-   "ctx": "department",
-   "t": "Department of Social Welfare, Govt of NCT of Delhi"
-  },
-  {
-   "k": "2af92980e36f",
-   "ctx": "brief",
-   "t": "A monthly pension for poor Delhi residents aged 60 and above: Rs 2,000 a month from 60 to 69 (Rs 2,500 for SC, ST and minority applicants) and Rs 2,500 a month from 70 onwards. It is paid every month into your own Aadhaar-linked bank account. You apply on the e-District portal or at the District Social Welfare Office, and new pensions are given only when your assembly constituency's quota has a free slot. The government has proposed raising both rates by Rs 500; until that is notified, these rates apply."
-  },
-  {
-   "k": "560e885e1086",
-   "ctx": "benefit",
-   "t": "Rs 2,000 a month (age 60-69), Rs 2,500 (70+); Rs 500 extra for SC/ST/minority aged 60-69"
-  },
-  {
-   "k": "d6f073735f96",
-   "ctx": "eligibility",
-   "t": "Lived in Delhi for at least 5 years before applying"
-  },
-  {
-   "k": "339ee688b0c8",
-   "ctx": "eligibility",
-   "t": "Yearly income of you and your spouse together below Rs 1 lakh from all sources, including rent and interest"
-  },
-  {
    "k": "756096829423",
    "ctx": "eligibility",
    "t": "A single-name (not joint) bank account in Delhi, linked to your Aadhaar"
@@ -954,6 +859,106 @@
    "k": "283e1b9becc6",
    "ctx": "hint",
    "t": "From the Class 10 marksheet. Below 50% does not qualify."
+  },
+  {
+   "k": "dfe6a5390cdf",
+   "ctx": "hint",
+   "t": "Must match the school record and the Aadhaar."
+  },
+  {
+   "k": "83d1c234a53f",
+   "ctx": "hint",
+   "t": "The student's own Aadhaar. The payment is checked against it."
+  },
+  {
+   "k": "1b9c332b4225",
+   "ctx": "hint",
+   "t": "Both parents together. It must be up to Rs.6 lakh."
+  },
+  {
+   "k": "2317df225199",
+   "ctx": "hint",
+   "t": "In the student's name or joint with the mother, active and linked with Aadhaar."
+  },
+  {
+   "k": "564528249bdf",
+   "ctx": "hint",
+   "t": "Payment messages come here. Give the number the family actually uses."
+  },
+  {
+   "k": "3cccd04d301f",
+   "ctx": "demoSteps",
+   "t": "Open a bank account in the student's name (or joint with the mother) and get Aadhaar linked to it."
+  },
+  {
+   "k": "3bd2904868c1",
+   "ctx": "demoSteps",
+   "t": "Soon after admission to Class 11 science, give the school copies of the Aadhaar, Class 10 marksheet, passbook and income proof."
+  },
+  {
+   "k": "f453b259fc6c",
+   "ctx": "demoSteps",
+   "t": "The school enters the student on the Namo payment portal. Ask the clerk to confirm the bank details were accepted."
+  },
+  {
+   "k": "b128c78d1d07",
+   "ctx": "demoSteps",
+   "t": "Rs.1,000 a month for 10 months comes in Class 11, and again in Class 12, while the student keeps attending."
+  },
+  {
+   "k": "4f2206361ca7",
+   "ctx": "demoSteps",
+   "t": "After passing the Class 12 science board exam, the last Rs.5,000 comes."
+  },
+  {
+   "k": "2916baf2301f",
+   "ctx": "demoSteps",
+   "t": "If money stops, ask the school to check the student's status on the portal first - most problems are a bank account not linked with Aadhaar."
+  },
+  {
+   "k": "0b41e85d9269",
+   "ctx": "helpline",
+   "t": "Your school principal or class teacher; District Education Officer (DEO) office"
+  },
+  {
+   "k": "ba29df6bc1e7",
+   "ctx": "title",
+   "t": "Namo Shri Yojana (Rs.12,000 for Pregnant Women)"
+  },
+  {
+   "k": "70cd5e4cc81e",
+   "ctx": "brief",
+   "t": "Rs.12,000 cash for a pregnant woman in Gujarat, paid into her own bank account in four parts, from the time her pregnancy is registered until the baby's 14-week vaccines. It is paid together with the central PM Matru Vandana money, so you register only once. There is no form to fill yourself: the ASHA worker or the ANM registers you at the first antenatal check-up. The baby must be born in a government or private hospital, and the help is given for the first two live children."
+  },
+  {
+   "k": "dcca2fb78f69",
+   "ctx": "benefit",
+   "t": "Rs.12,000 per pregnancy, for the first two live children"
+  },
+  {
+   "k": "84636cba0fb3",
+   "ctx": "eligibility",
+   "t": "Pregnant woman or new mother living in Gujarat, for her first two live children"
+  },
+  {
+   "k": "adc167e4e01a",
+   "ctx": "eligibility",
+   "t": "Belongs to any one of these groups: SC or ST; NFSA or BPL ration card family; PMJAY / MA card holder; e-Shram card holder; MGNREGA job card holder; woman farmer; woman with a disability"
+  },
+  {
+   "k": "2bef60f95172",
+   "ctx": "eligibility",
+   "t": "Or the family's income is not more than Rs.8 lakh a year, shown in the income certificate format the health centre gives"
+  },
+  {
+   "k": "ab309d5c5808",
+   "ctx": "eligibility",
+   "t": "The pregnancy is registered with the ASHA or ANM at the first antenatal check-up"
+  },
+  {
+   "k": "852285fa0fb6",
+   "ctx": "eligibility",
+   "t": "The delivery must take place in a government or private hospital, not at home"
   }
  ]
 }

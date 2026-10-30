@@ -6,106 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_09.json",
  "items": [
   {
-   "k": "dfe6a5390cdf",
-   "ctx": "hint",
-   "t": "Must match the school record and the Aadhaar."
-  },
-  {
-   "k": "83d1c234a53f",
-   "ctx": "hint",
-   "t": "The student's own Aadhaar. The payment is checked against it."
-  },
-  {
-   "k": "1b9c332b4225",
-   "ctx": "hint",
-   "t": "Both parents together. It must be up to Rs.6 lakh."
-  },
-  {
-   "k": "2317df225199",
-   "ctx": "hint",
-   "t": "In the student's name or joint with the mother, active and linked with Aadhaar."
-  },
-  {
-   "k": "564528249bdf",
-   "ctx": "hint",
-   "t": "Payment messages come here. Give the number the family actually uses."
-  },
-  {
-   "k": "3cccd04d301f",
-   "ctx": "demoSteps",
-   "t": "Open a bank account in the student's name (or joint with the mother) and get Aadhaar linked to it."
-  },
-  {
-   "k": "3bd2904868c1",
-   "ctx": "demoSteps",
-   "t": "Soon after admission to Class 11 science, give the school copies of the Aadhaar, Class 10 marksheet, passbook and income proof."
-  },
-  {
-   "k": "f453b259fc6c",
-   "ctx": "demoSteps",
-   "t": "The school enters the student on the Namo payment portal. Ask the clerk to confirm the bank details were accepted."
-  },
-  {
-   "k": "b128c78d1d07",
-   "ctx": "demoSteps",
-   "t": "Rs.1,000 a month for 10 months comes in Class 11, and again in Class 12, while the student keeps attending."
-  },
-  {
-   "k": "4f2206361ca7",
-   "ctx": "demoSteps",
-   "t": "After passing the Class 12 science board exam, the last Rs.5,000 comes."
-  },
-  {
-   "k": "2916baf2301f",
-   "ctx": "demoSteps",
-   "t": "If money stops, ask the school to check the student's status on the portal first - most problems are a bank account not linked with Aadhaar."
-  },
-  {
-   "k": "0b41e85d9269",
-   "ctx": "helpline",
-   "t": "Your school principal or class teacher; District Education Officer (DEO) office"
-  },
-  {
-   "k": "ba29df6bc1e7",
-   "ctx": "title",
-   "t": "Namo Shri Yojana (Rs.12,000 for Pregnant Women)"
-  },
-  {
-   "k": "70cd5e4cc81e",
-   "ctx": "brief",
-   "t": "Rs.12,000 cash for a pregnant woman in Gujarat, paid into her own bank account in four parts, from the time her pregnancy is registered until the baby's 14-week vaccines. It is paid together with the central PM Matru Vandana money, so you register only once. There is no form to fill yourself: the ASHA worker or the ANM registers you at the first antenatal check-up. The baby must be born in a government or private hospital, and the help is given for the first two live children."
-  },
-  {
-   "k": "dcca2fb78f69",
-   "ctx": "benefit",
-   "t": "Rs.12,000 per pregnancy, for the first two live children"
-  },
-  {
-   "k": "84636cba0fb3",
-   "ctx": "eligibility",
-   "t": "Pregnant woman or new mother living in Gujarat, for her first two live children"
-  },
-  {
-   "k": "adc167e4e01a",
-   "ctx": "eligibility",
-   "t": "Belongs to any one of these groups: SC or ST; NFSA or BPL ration card family; PMJAY / MA card holder; e-Shram card holder; MGNREGA job card holder; woman farmer; woman with a disability"
-  },
-  {
-   "k": "2bef60f95172",
-   "ctx": "eligibility",
-   "t": "Or the family's income is not more than Rs.8 lakh a year, shown in the income certificate format the health centre gives"
-  },
-  {
-   "k": "ab309d5c5808",
-   "ctx": "eligibility",
-   "t": "The pregnancy is registered with the ASHA or ANM at the first antenatal check-up"
-  },
-  {
-   "k": "852285fa0fb6",
-   "ctx": "eligibility",
-   "t": "The delivery must take place in a government or private hospital, not at home"
-  },
-  {
    "k": "db36a204fe02",
    "ctx": "documents",
    "t": "Bank or post office account in her own name, linked with Aadhaar"
@@ -849,6 +749,116 @@
    "k": "88ebc47782e9",
    "ctx": "eligibility",
    "t": "Families living in Haryana with a Family ID (PPP). Eligibility and the fee go by the verified income in the PPP"
+  },
+  {
+   "k": "75ee2241acb6",
+   "ctx": "eligibility",
+   "t": "Verified income up to Rs 1.80 lakh a year: covered free"
+  },
+  {
+   "k": "075ed4a4b5ca",
+   "ctx": "eligibility",
+   "t": "Above Rs 1.80 lakh up to Rs 3 lakh: Rs 1,500 a year per family"
+  },
+  {
+   "k": "4852045510c0",
+   "ctx": "eligibility",
+   "t": "Above Rs 3 lakh up to Rs 6 lakh: Rs 4,000 a year. Above Rs 6 lakh: Rs 5,000 a year"
+  },
+  {
+   "k": "01ccb861497f",
+   "ctx": "eligibility",
+   "t": "No limit on family size or age. Every member on the Family ID is covered"
+  },
+  {
+   "k": "414d01229a90",
+   "ctx": "documents",
+   "t": "Mobile number registered in the Family ID, for the OTP"
+  },
+  {
+   "k": "138d1383a006",
+   "ctx": "documents",
+   "t": "Aadhaar card of each member, for the card e-KYC"
+  },
+  {
+   "k": "f9dad75a8e51",
+   "ctx": "documents",
+   "t": "UPI, debit card or net banking to pay the fee, or cash at a CSC"
+  },
+  {
+   "k": "848c171e9a44",
+   "ctx": "documents",
+   "t": "Payment receipt or reference number, as proof that you paid"
+  },
+  {
+   "k": "ea840ba01928",
+   "ctx": "hint",
+   "t": "Choose whether to search by Family ID or Aadhaar. If you have forgotten the Family ID, use I forgot my PPP ID and search with Aadhaar."
+  },
+  {
+   "k": "d9ada9825615",
+   "ctx": "hint",
+   "t": "The 8-digit Family ID of your family."
+  },
+  {
+   "k": "193929c255be",
+   "ctx": "hint",
+   "t": "Sent to the mobile number registered in the Family ID, not any other number."
+  },
+  {
+   "k": "962e8f7ea020",
+   "ctx": "hint",
+   "t": "Read the fee table and the dates, tick the box and continue."
+  },
+  {
+   "k": "27b65de02e06",
+   "ctx": "hint",
+   "t": "Check that every member is listed. A missing member must first be added in the Family ID."
+  },
+  {
+   "k": "34aac58e16c5",
+   "ctx": "hint",
+   "t": "Shown after Check Eligibility, with your verified income band."
+  },
+  {
+   "k": "f9b3fabe0925",
+   "ctx": "hint",
+   "t": "Set by the verified income: Rs 1,500, Rs 4,000 or Rs 5,000 a year."
+  },
+  {
+   "k": "ff6245f3ae15",
+   "ctx": "hint",
+   "t": "Choose Canara Bank to pay yourself, or CSC (Digital Seva Connect) if a CSC operator is paying for you."
+  },
+  {
+   "k": "3c91e7775c4f",
+   "ctx": "hint",
+   "t": "UPI and RuPay debit cards have no extra charge. Other cards may add a small bank fee."
+  },
+  {
+   "k": "27840605a26c",
+   "ctx": "hint",
+   "t": "Save it. Use Check Payment Status on the home page to see the payment and download the receipt."
+  },
+  {
+   "k": "0f7a61af77fe",
+   "ctx": "demoSteps",
+   "t": "If your Family ID income is up to Rs 1.80 lakh you pay nothing: get the Ayushman (Chirayu) card made at a CSC, Saral Kendra or empanelled hospital, or yourself on beneficiary.nha.gov.in with Aadhaar e-KYC."
+  },
+  {
+   "k": "ef5dd7ff2cd6",
+   "ctx": "demoSteps",
+   "t": "If your income is above Rs 1.80 lakh, open chirayuayushmanharyana.in before 30 November 2026 and tap the apply button."
+  },
+  {
+   "k": "f889a48765f8",
+   "ctx": "demoSteps",
+   "t": "Accept the terms, enter the Family ID (or Aadhaar) and the OTP sent to the registered mobile, then check the members and the eligibility shown."
+  },
+  {
+   "k": "cd989c416cd1",
+   "ctx": "demoSteps",
+   "t": "Pay the fee shown (Rs 1,500, Rs 4,000 or Rs 5,000) through Canara Bank by UPI, card or net banking, or at a CSC, and download the receipt."
   }
  ]
 }

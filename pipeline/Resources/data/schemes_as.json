@@ -1554,7 +1554,7 @@
   },
   {
    "id": "sukanya-samriddhi",
-   "title": "Sukanya Samriddhi Yojana (SSY / Sukanya Account)",
+   "title": "सुकन्या समृद्धि योजना (SSY / सुकन्या खाता)",
    "department": "Department of Economic Affairs, Ministry of Finance; run through India Post and authorised banks",
    "brief": "A savings account in a girl's name that pays one of the highest safe interest rates in the country, 8.2% a year for October to December 2026, completely tax-free. A parent opens it before the girl turns 10, at a post office or authorised bank, with as little as Rs.250, and keeps depositing for 15 years; the account matures 21 years after opening. Half the money can be taken out after she turns 18 for her studies. Rs.1,000 a month for 15 years grows to about Rs.5.5 lakh at today's rate.",
    "benefit": "8.2% tax-free interest; deposit Rs.250 to Rs.1.5 lakh a year",
@@ -1567,14 +1567,14 @@
    ],
    "documents": [
     "Account opening form with Sukanya Samriddhi Account ticked",
-    "Girl's birth certificate",
-    "Parent's Aadhaar card",
+    "बच्ची का जन्म प्रमाण पत्र",
+    "माता या पिता का आधार कार्ड",
     "Parent's PAN card, or Form 60 if you have no PAN",
     "Passport-size photos of the parent (and of the girl where the office asks)",
     "Address proof, if the address on Aadhaar is different",
     "First deposit of at least Rs.250, in cash or by cheque"
    ],
-   "portalName": "India Post",
+   "portalName": "इंडिया पोस्ट",
    "submitAt": "Any post office with a savings bank counter, or a branch of an authorised bank such as SBI, Punjab National Bank, Bank of Baroda, Canara Bank or ICICI Bank. Take the filled form, the girl's birth certificate, your Aadhaar and PAN with originals for checking, two photos and the first deposit of at least Rs.250; the passbook is handed to you at the counter.",
    "demoFields": [
     {
@@ -3917,7 +3917,7 @@
     "Name and date of birth of your spouse and of your nominee",
     "Cash for the first month's contribution if you join at a CSC (later months are auto-debited)"
    ],
-   "portalName": "Maandhan portal",
+   "portalName": "मानधन (Maandhan) पोर्टल",
    "demoFields": [
     {
      "label": "কি হিচাপে লগইন",
@@ -3925,13 +3925,13 @@
      "hint": "Choose Self Enrollment. CSC VLE is only for the CSC operator, and Admin Login is for officials."
     },
     {
-     "label": "Mobile",
+     "label": "मोबाइल",
      "value": "90041 23857",
      "hint": "A number you always carry. The login OTP and every debit message come to this phone."
     },
     {
-     "label": "Scheme",
-     "value": "PM-SYM (Pradhan Mantri Shram Yogi Maandhan)",
+     "label": "योजना",
+     "value": "PM-SYM (प्रधानमंत्री श्रम योगी मानधन)",
      "hint": "Pick PM-SYM. The other choice on the same portal, NPS-Traders, is for shopkeepers and small traders."
     },
     {
@@ -3940,32 +3940,32 @@
      "hint": "Your own Aadhaar. After the Aadhaar OTP, your name, date of birth and gender fill in by themselves, so check them."
     },
     {
-     "label": "Occupation",
-     "value": "Domestic worker",
+     "label": "व्यवसाय (काम)",
+     "value": "घरेलू कामगार",
      "hint": "The work you actually do every day, for example construction labourer, street vendor, rickshaw puller or farm labourer."
     },
     {
-     "label": "Monthly income",
-     "value": "Rs.9,000",
+     "label": "मासिक आय",
+     "value": "रु. 9,000",
      "hint": "What you earn in a normal month. It must be Rs.15,000 or less."
     },
     {
-     "label": "Bank IFSC and account number",
+     "label": "बैंक IFSC और खाता संख्या",
      "value": "SBIN0009999 / 99990012345678",
      "hint": "Your own savings or Jan Dhan account. The monthly amount is auto-debited from here, so keep enough balance."
     },
     {
-     "label": "Spouse name",
+     "label": "पति/पत्नी का नाम",
      "value": "ৰমেশ কুমাৰ যাদৱ",
      "hint": "Husband's or wife's name. If you die before 60, your spouse can carry on paying or take the money out."
     },
     {
-     "label": "Nominee name and relation",
-     "value": "Pooja Yadav / Daughter",
+     "label": "नॉमिनी का नाम और संबंध",
+     "value": "पूजा यादव / बेटी",
      "hint": "The person who gets the savings if both you and your spouse die."
     },
     {
-     "label": "Self-declaration",
+     "label": "स्व-घोषणा (Self-declaration)",
      "value": "Ticked",
      "hint": "You confirm you are not in EPF, ESIC or NPS and do not pay income tax. A false declaration gets the account closed."
     }
@@ -3979,7 +3979,7 @@
     "Every month the same amount is auto-debited and the Centre adds an equal amount. Keep money in the account; missed months have to be paid later with a penalty.",
     "From age 60, Rs.3,000 comes into your bank account every month. If you die after that, your spouse gets Rs.1,500 a month for life."
    ],
-   "helpline": "1800-267-6888 (PM-SYM toll-free) / 14434 (Labour Ministry helpline)",
+   "helpline": "1800-267-6888 (PM-SYM टोल-फ्री) / 14434 (श्रम मंत्रालय हेल्पलाइन)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -4245,7 +4245,7 @@
   },
   {
    "id": "pmmvy",
-   "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+   "title": "प्रधानमंत्री मातृ वंदना योजना (PMMVY)",
    "department": "Ministry of Women & Child Development (Mission Shakti)",
    "brief": "Cash help for a pregnant woman or new mother, so she can rest before and after the birth instead of losing wages. For the first child you get Rs.5,000 in two parts, and for a second child you get Rs.6,000 in one go if the baby is a girl. The money goes straight into your Aadhaar-linked bank or post office account. You can apply yourself on the PMMVY portal, or your Anganwadi worker or ASHA can fill the form for you.",
    "benefit": "Rs.5,000 for the first child (Rs.3,000 + Rs.2,000); Rs.6,000 if the second child is a girl",
@@ -4265,10 +4265,10 @@
     "Mobile number for OTP and payment messages",
     "For the second part or a second girl child: the baby's birth certificate and vaccination record (14 weeks)"
    ],
-   "portalName": "PMMVY portal (PMMVYsoft)",
+   "portalName": "PMMVY पोर्टल (PMMVYsoft)",
    "demoFields": [
     {
-     "label": "Login type",
+     "label": "लॉगिन का प्रकार",
      "value": "Citizen Login",
      "hint": "Press Login at the top right and choose Citizen. Anganwadi and ASHA workers use the other login."
     },
@@ -4283,38 +4283,38 @@
      "hint": "Where you live now. Your application goes to the Anganwadi centre of this village for checking."
     },
     {
-     "label": "Beneficiary Aadhaar number",
+     "label": "लाभार्थी का आधार नंबर",
      "value": "9999 4521 7730",
      "hint": "The pregnant woman's own Aadhaar, not the husband's. Tick the consent box and verify with the Aadhaar OTP."
     },
     {
      "label": "आधार के अनुसार नाम",
-     "value": "Pooja Devi",
+     "value": "पूजा देवी",
      "hint": "Write the name exactly as printed on Aadhaar, letter by letter, or the payment can fail."
     },
     {
-     "label": "Eligibility document",
-     "value": "e-Shram card / UP99-9999-0012",
+     "label": "पात्रता दस्तावेज",
+     "value": "ई-श्रम कार्ड / UP99-9999-0012",
      "hint": "Pick any one category you belong to, write its number and upload a clear photo of that card."
     },
     {
-     "label": "LMP date (last period)",
+     "label": "LMP तिथि (अंतिम माहवारी)",
      "value": "02-05-2026",
      "hint": "The first day of your last period, as written on the MCP card by the ANM."
     },
     {
-     "label": "MCP card registration and ANC date",
+     "label": "MCP कार्ड पंजीकरण और ANC (जांच) की तिथि",
      "value": "18-06-2026",
      "hint": "The date your pregnancy was registered and the check-up was done, also on the MCP card."
     },
     {
-     "label": "Bank account (Aadhaar-based payment)",
+     "label": "बैंक खाता (आधार-आधारित भुगतान)",
      "value": "Aadhaar-seeded account at Bank of India, Biswan",
      "hint": "Money is sent to whichever account is linked with your Aadhaar. Ask your bank to link it first if it is not."
     },
     {
-     "label": "Anganwadi centre",
-     "value": "AWC Rampur Kalan-2",
+     "label": "आंगनवाड़ी केंद्र",
+     "value": "AWC रामपुर कलां-2",
      "hint": "Choose the Anganwadi centre near your house. Its worker will visit to confirm your details."
     }
    ],
@@ -4327,7 +4327,7 @@
     "If your second child is a girl, apply after her birth and 14-week vaccines. Rs.6,000 is sent in one payment.",
     "Check progress under Track Application Status on the portal. For a delay, use Lodge Grievance on the same site or call 1515."
    ],
-   "helpline": "1515 (POSHAN and PMMVY toll-free helpline; earlier 14408)",
+   "helpline": "1515 (पोषण और PMMVY टोल-फ्री हेल्पलाइन; पहले 14408)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -4337,48 +4337,48 @@
    "brief": "Old people in the islands get Rs.2,500 a month from 60, and Rs.3,000 a month from 80, paid into their bank account. It is for people who have lived in the islands for at least 10 years and whose household earns less than Rs.48,000 a year. One common form covers the old age, widow, destitute and disability pensions. You hand it in at the CDPO office of your area. More than 15,600 people get this pension.",
    "benefit": "Rs.2,500 a month (Rs.3,000 a month from age 80)",
    "eligibility": [
-    "Age 60 years or above",
+    "आयु 60 वर्ष या उससे अधिक",
     "Living in the islands continuously for at least 10 years (local certificate or resident identity card)",
     "Household income less than Rs.48,000 a year (Rs.4,000 a month)",
     "Not getting any other pension, allowance or grant from the government",
     "From age 80 the pension rises to Rs.3,000 a month"
    ],
    "documents": [
-    "Local certificate or domicile certificate",
+    "स्थानीय प्रमाण पत्र (लोकल सर्टिफिकेट) या निवास प्रमाण पत्र (डोमिसाइल सर्टिफिकेट)",
     "আধাৰ কাৰ্ড",
-    "Bank account number (passbook copy)",
+    "बैंक खाता संख्या (पासबुक की प्रति)",
     "Income and residence certificate from the Tehsildar (printed on the form)",
     "Age certificate from a Medical Officer (printed on the form)",
     "Certificate from your Pradhan or Councillor (printed on the form)",
     "Signed declaration that you get no other government assistance"
    ],
-   "portalName": "Directorate of Social Welfare, A&N Administration",
+   "portalName": "समाज कल्याण निदेशालय, अंडमान एवं निकोबार प्रशासन",
    "submitAt": "The office of the Child Development Project Officer (CDPO) of your area: Urban (Sri Vijaya Puram), Ferrargunj, Rangat, Diglipur or Car Nicobar. Forms are also free at the Directorate of Social Welfare, Goalghar, Sri Vijaya Puram (Port Blair). Before you submit, get the Tehsildar's income and residence certificate, the Medical Officer's age certificate and the Pradhan's or Councillor's certificate filled in on the form. Attach the local certificate and an Aadhaar copy.",
    "demoFields": [
     {
-     "label": "Name of assistance applied for",
+     "label": "जिस सहायता के लिए आवेदन किया गया है उसका नाम",
      "value": "বৃদ্ধ পেঞ্চন",
      "hint": "Tick Old Age Pension. The same form is used for widow, destitute and disability pensions."
     },
     {
-     "label": "Name of the applicant",
-     "value": "K. Muniyamma",
+     "label": "आवेदक का नाम",
+     "value": "के. मुनियम्मा",
      "hint": "आपके आधार कार्ड के अनुसार।"
     },
     {
-     "label": "Father's / Husband's name",
-     "value": "Late K. Arumugam",
+     "label": "पिता / पति का नाम",
+     "value": "स्व. के. अरुमुगम",
      "hint": "Write 'Late' if he has died."
     },
     {
      "label": "লিংগ",
      "value": "মহিলা",
-     "hint": "Male or Female."
+     "hint": "पुरुष या महिला।"
     },
     {
-     "label": "Married / Unmarried / Widow",
+     "label": "विवाहित / अविवाहित / विधवा",
      "value": "বিধৱা",
-     "hint": "Your present status."
+     "hint": "आपकी वर्तमान स्थिति।"
     },
     {
      "label": "জন্মৰ তাৰিখ",
@@ -4386,18 +4386,18 @@
      "hint": "Must show you are 60 or more. The Medical Officer certifies your age on the form."
     },
     {
-     "label": "Present address",
-     "value": "House 42, Garacharma-II, South Andaman",
+     "label": "वर्तमान पता",
+     "value": "मकान 42, गराचारमा-II, दक्षिण अंडमान",
      "hint": "Where you live now, with village or ward."
     },
     {
-     "label": "Category (APL / BPL)",
+     "label": "श्रेणी (APL / BPL)",
      "value": "BPL",
-     "hint": "As on your ration card."
+     "hint": "जैसा आपके राशन कार्ड पर लिखा है।"
     },
     {
      "label": "Details of assistance received from Govt./local bodies",
-     "value": "Nil",
+     "value": "शून्य (Nil)",
      "hint": "Write Nil if you get no pension or grant. Anyone already getting one is not eligible."
     },
     {
@@ -4582,19 +4582,19 @@
     "Aadhaar e-KYC must be complete, and the bank account must be Aadhaar-seeded and NPCI-mapped"
    ],
    "documents": [
-    "Aadhaar card of the farmer",
+    "किसान का आधार कार्ड",
     "Pattadar passbook, or the 1-B / Adangal extract of the land",
     "Bank passbook showing account number and IFSC (Aadhaar-seeded account)",
     "আধাৰৰ সৈতে সংযোগ থকা মবাইল নম্বৰ",
-    "CCRC card, for a tenant farmer",
-    "ROFR title, for forest-rights land"
+    "CCRC कार्ड, पट्टेदार (काश्तकार) किसान के लिए",
+    "ROFR पट्टा, वन अधिकार वाली जमीन के लिए"
    ],
-   "portalName": "Annadatha Sukhibhava – PM Kisan portal",
+   "portalName": "अन्नदाता सुखीभव – PM किसान पोर्टल",
    "submitAt": "The Rythu Seva Kendram (RSK) in your village. Take Aadhaar, the pattadar passbook or 1-B, the bank passbook and, for tenants, the CCRC card. The Village Agriculture Assistant registers you, does your e-KYC and files a grievance if your name is missing from the eligible list.",
    "demoFields": [
     {
      "label": "কৃষকৰ নাম (আধাৰত যেনেকৈ আছে)",
-     "value": "Narasimha Rao Kotha",
+     "value": "नरसिम्हा राव कोठा",
      "hint": "It must match the name in the land record and the bank account, or the money gets stuck."
     },
     {
@@ -4609,27 +4609,27 @@
     },
     {
      "label": "কৃষকৰ প্ৰকাৰ",
-     "value": "Land owner",
+     "value": "जमीन का मालिक",
      "hint": "Land owner, tenant (CCRC holder) or forest-rights (ROFR) holder."
     },
     {
      "label": "জিলা / মণ্ডল / গাঁও",
-     "value": "Prakasam / Darsi / Thurpu Veerayapalem",
+     "value": "प्रकाशम / दर्शी / थुरपु वीरयापालेम",
      "hint": "The village where the land is, not where you live."
     },
     {
-     "label": "Khata number and survey number",
-     "value": "Khata 1187, Survey 214/2B",
+     "label": "खाता संख्या और सर्वे संख्या",
+     "value": "खाता 1187, सर्वे 214/2B",
      "hint": "Copy them from the pattadar passbook or 1-B. The assistant checks them against Webland."
     },
     {
-     "label": "Extent of land",
-     "value": "2.40 acres",
+     "label": "जमीन का रकबा (माप)",
+     "value": "2.40 एकड़",
      "hint": "Your share as shown in the land record. If land is held jointly, only one family member is paid."
     },
     {
-     "label": "CCRC number (tenants only)",
-     "value": "Not applicable",
+     "label": "CCRC नंबर (केवल काश्तकारों के लिए)",
+     "value": "लागू नहीं",
      "hint": "Tenant farmers write the number of this season's Crop Cultivator Rights Card. An expired card is rejected."
     },
     {
@@ -4639,7 +4639,7 @@
     },
     {
      "label": "e-KYC",
-     "value": "Done by fingerprint at RSK",
+     "value": "RSK में फिंगरप्रिंट द्वारा पूरा हुआ",
      "hint": "Without e-KYC no instalment is released. It can be done at the RSK with your thumb."
     }
    ],
@@ -4671,7 +4671,7 @@
    ],
    "documents": [
     "Aadhaar card of the mother or guardian",
-    "Aadhaar card of each child",
+    "प्रत्येक बच्चे का आधार कार्ड",
     "পৰিয়ালৰ ৰাইচ কাৰ্ড",
     "Bank or post office passbook in the mother's name, Aadhaar-seeded and NPCI-mapped",
     "The child's school admission details (school name and class), given to the head of the school",
@@ -4680,32 +4680,32 @@
    "submitAt": "No application is needed. The head of the school enters the child's details, and the Swarna Gramam / Swarna Ward office (Village or Ward Secretariat) checks the family. The eligible and ineligible lists are put up at that office. If you are left out, file a grievance there with the Welfare and Education Assistant or the Digital Assistant. Take the mother's and child's Aadhaar, the rice card, the bank passbook and proof against the reason for rejection.",
    "demoFields": [
     {
-     "label": "Mother / guardian name",
-     "value": "Rama Devi Gollapalli",
+     "label": "मां / अभिभावक का नाम",
+     "value": "रमा देवी गोल्लापल्ली",
      "hint": "As on her Aadhaar. The money goes to the mother; to the father only if she is not there, and to a guardian if neither parent is."
     },
     {
-     "label": "Mother's Aadhaar number",
+     "label": "मां का आधार नंबर",
      "value": "9999 7302 1146",
      "hint": "She must be in the Secretariat's household database. If only the child is listed, ask for field verification."
     },
     {
-     "label": "Student name",
-     "value": "Pavan Gollapalli",
+     "label": "विद्यार्थी का नाम",
+     "value": "पवन गोल्लापल्ली",
      "hint": "Exactly as in the school register. One entry for each child."
     },
     {
-     "label": "Student Aadhaar number",
+     "label": "विद्यार्थी का आधार नंबर",
      "value": "9999 1185 6620",
      "hint": "It must match the school's UDISE record, or the child is dropped as a duplicate."
     },
     {
-     "label": "School name and class",
-     "value": "ZP High School, Kovvur — Class 8",
+     "label": "स्कूल का नाम और कक्षा",
+     "value": "ZP हाई स्कूल, कोव्वूर — कक्षा 8",
      "hint": "Any recognised government, aided, private or residential school, or a junior college for Intermediate."
     },
     {
-     "label": "Rice card number",
+     "label": "चावल कार्ड (राइस कार्ड) संख्या",
      "value": "AP-05-2207-4419",
      "hint": "At least one person in the family must hold a rice card."
     },
@@ -4715,12 +4715,12 @@
      "hint": "In the mother's own name. It must be Aadhaar-seeded and NPCI-mapped, or the payment fails."
     },
     {
-     "label": "Reason shown as ineligible",
-     "value": "Electricity use above 300 units",
+     "label": "अपात्र दिखाए जाने का कारण",
+     "value": "बिजली का उपयोग 300 यूनिट से अधिक",
      "hint": "Read the reason on the list at the office. Common ones are electricity, land, four-wheeler, government job and income tax."
     },
     {
-     "label": "Your objection",
+     "label": "आपकी आपत्ति",
      "value": "The meter is shared by three rented portions; our own use is about 120 units",
      "hint": "Say plainly why the reason is wrong and attach proof, such as the bill, a rent agreement or a land record."
     }
@@ -4793,7 +4793,7 @@
      "hint": "An account in your own name. All benefits are paid into it by DBT."
     },
     {
-     "label": "Present address",
+     "label": "वर्तमान पता",
      "value": "Door 4-12, Gandhi Nagar, Anakapalli, Anakapalli district 531001",
      "hint": "Door number, street, village or town, mandal, district and PIN code."
     },
@@ -4865,7 +4865,7 @@
      "hint": "The Secretariat finds it from your Aadhaar. If your family is missing from the survey, ask for it to be added first."
     },
     {
-     "label": "Rice card number",
+     "label": "चावल कार्ड (राइस कार्ड) संख्या",
      "value": "নাই",
      "hint": "If your family has a rice card, you are covered already and do not need to apply. Just show it at the hospital."
     },
@@ -7289,7 +7289,7 @@
    "brief": "A monthly pension for Chandigarh residents aged 60 and above whose family income is up to Rs.1.5 lakh a year. The UT pays Rs.1,000 a month, and with the central share the pensioner gets Rs.1,200, or Rs.1,500 from age 80. You apply at any Sampark centre, where the operator scans your documents and files the application online. The pension is paid every month into your Aadhaar-seeded bank account. About 18,600 people get it.",
    "benefit": "Rs.1,200 a month (Rs.1,500 from age 80), including the central share",
    "eligibility": [
-    "Age 60 years or above",
+    "आयु 60 वर्ष या उससे अधिक",
     "Total family income not above Rs.1.5 lakh a year",
     "Living in Chandigarh for more than 3 years",
     "Not already getting another pension (the form asks for the amount and source if you do)"
@@ -7347,7 +7347,7 @@
     },
     {
      "label": "वर्तमान कुल पारिवारिक मासिक आय",
-     "value": "Rs.9,000",
+     "value": "रु. 9,000",
      "hint": "Add up everyone's income. A year's total must not be above Rs.1.5 lakh."
     },
     {
@@ -7877,7 +7877,7 @@
    "benefit": "Rs.1,500 a month at 60-69; Rs.2,000 a month at 70 and above",
    "eligibility": [
     "Domicile of Dadra & Nagar Haveli and Daman & Diu",
-    "Age 60 years or above",
+    "आयु 60 वर्ष या उससे अधिक",
     "Annual family income not above Rs.1.5 lakh",
     "Not getting money under any other old age pension scheme",
     "The form asks whether you have applied for a Portuguese or other foreign passport. Answer truthfully"
@@ -10812,7 +10812,7 @@
     },
     {
      "label": "HKRN ID",
-     "value": "Not applicable",
+     "value": "लागू नहीं",
      "hint": "Only if you or a family member work through Haryana Kaushal Rozgar Nigam."
     },
     {
@@ -12551,7 +12551,7 @@
      "hint": "An education certificate is needed only if you studied beyond SSLC."
     },
     {
-     "label": "Present address",
+     "label": "वर्तमान पता",
      "value": "वार्ड 9, कोटे रोड, रायचूर 584101",
      "hint": "Where you live now, if it is different from the address on Aadhaar."
     },
@@ -14026,7 +14026,7 @@
      "hint": "As on your Aadhaar card. The form is collected at your VDP office; these are the details it asks for."
     },
     {
-     "label": "Father's / Husband's name",
+     "label": "पिता / पति का नाम",
      "value": "स्वर्गीय कोया पी.",
      "hint": "Write 'Late' if he has died."
     },
@@ -14046,8 +14046,8 @@
      "hint": "The pension goes to the bank account linked to this Aadhaar."
     },
     {
-     "label": "Monthly income",
-     "value": "Nil",
+     "label": "मासिक आय",
+     "value": "शून्य (Nil)",
      "hint": "Write your own monthly income. Above Rs.1,500 makes you ineligible."
     },
     {
@@ -15113,7 +15113,7 @@
      "hint": "These come from Samagra. If anything is wrong, have Samagra corrected first, because the form takes the details from there."
     },
     {
-     "label": "Anganwadi centre",
+     "label": "आंगनवाड़ी केंद्र",
      "value": "आंगनवाड़ी केंद्र 2, खजूरी कलां",
      "hint": "The centre where the girl is registered. The anganwadi worker there checks your application."
     },
@@ -15449,7 +15449,7 @@
      "hint": "Attach a copy of this Aadhaar. Messages about the payment come to the mobile."
     },
     {
-     "label": "Present address",
+     "label": "वर्तमान पता",
      "value": "House 14, Shivaji Chowk, Malegaon BK, Tal. Baramati, Dist. Pune 413115",
      "hint": "Where the family lives now: house number, village, post office, taluka, district and PIN code."
     },
@@ -15651,7 +15651,7 @@
     "Once you are approved for PM-Kisan, the Namo instalments follow automatically: Rs.2,000 three times a year, usually soon after each PM-Kisan instalment.",
     "If payments stop, check the status on both portals. The usual causes are pending e-KYC, Aadhaar not seeded with the bank, or land not seeded; the taluka agriculture office can fix the last one."
    ],
-   "helpline": "020-25538755 (Namo Shetkari cell, Commissionerate of Agriculture, Pune); 155261 / 1800-115-526 (PM-Kisan helpline)",
+   "helpline": "020-25538755 (নমো শেতকারী সেল, কৃষি কমিশনারেট, পুনে); 155261 / 1800-115-526 (PM-Kisan হেল্পলাইন)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -15828,88 +15828,88 @@
   },
   {
    "id": "mh-bandhkam-kamgar",
-   "title": "Maharashtra Construction Worker Registration (Bandhkam Kamgar Card, MAHABOCW)",
-   "department": "Maharashtra Building and Other Construction Workers Welfare Board, Industries, Energy, Labour and Mining Department",
-   "brief": "Registration with the state construction workers' welfare board, which opens about 29 schemes for the worker and family: scholarships for two children, Rs.30,000 for the worker's first marriage, Rs.51,000 for a daughter's marriage, help to build or buy a house, Rs.5 lakh if the worker dies in a site accident and Rs.2 lakh on natural death. Since August 2025 registration and renewal cost nothing. You apply online on the board's portal, pick a date, and go once to your taluka construction workers' facilitation centre with the original papers for photo and fingerprint. The registration lasts one year and has to be renewed.",
-   "benefit": "Free registration that opens 29 schemes, e.g. Rs.5 lakh on site-accident death, Rs.51,000 for a daughter's marriage, scholarships",
+   "title": "মহারাষ্ট্র নির্মাণ শ্রমিক রেজিস্ট্রেশন (বান্ধকাম কামগার কার্ড, MAHABOCW)",
+   "department": "মহারাষ্ট্র বিল্ডিং অ্যান্ড আদার কনস্ট্রাকশন ওয়ার্কার্স ওয়েলফেয়ার বোর্ড, শিল্প, শক্তি, শ্রম ও খনি বিভাগ",
+   "brief": "রাজ্যের নির্মাণ শ্রমিক কল্যাণ বোর্ডে রেজিস্ট্রেশন করলে শ্রমিক ও তাঁর পরিবারের জন্য প্রায় 29টি স্কিম খোলা হয়: দুটি শিশুর জন্য স্কলারশিপ, শ্রমিকের প্রথম বিয়ের জন্য 30,000 টাকা, মেয়ের বিয়ের জন্য 51,000 টাকা, বাড়ি তৈরি বা কেনার সাহায্য, কাজের জায়গায় দুর্ঘটনায় শ্রমিকের মৃত্যু হলে 5 লাখ টাকা এবং স্বাভাবিক মৃত্যুতে 2 লাখ টাকা। 2025 সালের আগস্ট থেকে রেজিস্ট্রেশন ও রিনিউয়ালের জন্য কোনো টাকা লাগে না। আপনি বোর্ডের পোর্টালে অনলাইনে আবেদন করবেন, একটি তারিখ বেছে নেবেন এবং ছবি ও ফিঙ্গারপ্রিন্টের জন্য আসল কাগজপত্র নিয়ে আপনার তালুকা নির্মাণ শ্রমিক সুবিধা কেন্দ্রে একবার যাবেন। এই রেজিস্ট্রেশনের মেয়াদ এক বছর এবং এটি রিনিউ করতে হয়।",
+   "benefit": "বিনামূল্যে রেজিস্ট্রেশন যার মাধ্যমে 29টি স্কিমের সুবিধা পাওয়া যায়, যেমন কাজের জায়গায় দুর্ঘটনায় মৃত্যুতে 5 লাখ টাকা, মেয়ের বিয়ের জন্য 51,000 টাকা, স্কলারশিপ",
    "eligibility": [
     "18 ते 60 वयोगटातील बांधकाम कामगार",
-    "Worked 90 days or more on building or other construction work in the last 12 months",
-    "The 90-day certificate can come from a private builder or contractor, a government authority, or the naka worker booklet",
-    "Choose the taluka facilitation centre of the taluka where those 90 days were worked, or the papers will not be checked",
-    "Renew every year, from one month before expiry, with a fresh 90-day certificate, to keep getting benefits"
+    "গত 12 মাসে বিল্ডিং বা অন্যান্য নির্মাণ কাজে 90 দিন বা তার বেশি কাজ করেছেন",
+    "90 দিনের সার্টিফিকেট কোনো প্রাইভেট বিল্ডার বা কন্ট্রাক্টর, সরকারি কর্তৃপক্ষ বা নাকা ওয়ার্কার বুকলেট থেকে পাওয়া যেতে পারে",
+    "যে তালুকায় ওই 90 দিন কাজ করেছেন, সেই তালুকার সুবিধা কেন্দ্রটি বেছে নিন, তা না হলে কাগজপত্র যাচাই করা হবে না",
+    "সুবিধা পেতে থাকার জন্য মেয়াদ শেষ হওয়ার এক মাস আগে থেকে নতুন 90 দিনের সার্টিফিকেট সহ প্রতি বছর রিনিউ করুন"
    ],
    "documents": [
     "আধাৰ কাৰ্ড",
-    "90-day work certificate for the last 12 months",
+    "গত 12 মাসের 90 দিনের কাজের সার্টিফিকেট",
     "OTP के लिए मोबाइल नंबर",
-    "Bank passbook of an account in your own name",
+    "আপনার নিজের নামের ব্যাংক অ্যাকাউন্টের পাসবুক",
     "ৰেচন কাৰ্ড",
     "वयाचा पुरावा आणि रहिवासी पुरावा",
-    "Passport-size photographs (a photo is also taken at the centre)",
-    "Aadhaar of wife or husband and children, to add them as family members"
+    "পাসপোর্ট সাইজ ছবি (কেন্দ্রেও একটি ছবি তোলা হয়)",
+    "পরিবারের সদস্য হিসেবে যোগ করার জন্য স্বামী বা স্ত্রী এবং সন্তানদের আধার"
    ],
-   "portalName": "Maharashtra Building & Other Construction Workers Welfare Board (MAHABOCW)",
+   "portalName": "মহারাষ্ট্র বিল্ডিং অ্যান্ড আদার কনস্ট্রাকশন ওয়ার্কার্স ওয়েলফেয়ার বোর্ড (MAHABOCW)",
    "demoFields": [
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 3061 7725",
-     "hint": "Your own Aadhaar. Name, photo, date of birth and Aadhaar cannot be changed later, so check them carefully."
+     "hint": "আপনার নিজের আধার। নাম, ছবি, জন্মতারিখ এবং আধার পরে পরিবর্তন করা যাবে না, তাই এগুলো সাবধানে দেখে নিন।"
     },
     {
      "label": "মবাইল নম্বৰ",
      "value": "88050 41296",
-     "hint": "A number you keep with you. The OTP, appointment date and later claim messages come here."
+     "hint": "এমন একটি নম্বর যা আপনার কাছে থাকে। OTP, অ্যাপয়েন্টমেন্টের তারিখ এবং পরবর্তী ক্লেমের মেসেজ এখানে আসবে।"
     },
     {
-     "label": "Name of worker (first / middle / last)",
+     "label": "শ্রমিকের নাম (প্রথম / মধ্য / শেষ)",
      "value": "राहुल अशोक गायकवाड",
-     "hint": "Exactly as on Aadhaar, with father's or husband's name in the middle."
+     "hint": "ঠিক আধারে যেমন আছে, মাঝে বাবা বা স্বামীর নাম সহ।"
     },
     {
      "label": "জন্মৰ তাৰিখ",
      "value": "12/06/1990",
-     "hint": "As on Aadhaar. You must be between 18 and 60."
+     "hint": "আধারে যেমন আছে। আপনার বয়স 18 থেকে 60 বছরের মধ্যে হতে হবে।"
     },
     {
      "label": "सध्याचा पत्ता / जिल्हा / तालुका",
-     "value": "Room 7, Laxmi Chawl, Hadapsar / Pune / Haveli",
-     "hint": "Where you live now in Maharashtra. If you came from another state, the native state and district are asked separately."
+     "value": "রুম 7, লক্ষ্মী চাল, হড়পসর / পুনে / হাভেলি",
+     "hint": "মহারাষ্ট্রে আপনি এখন কোথায় থাকেন। আপনি যদি অন্য রাজ্য থেকে এসে থাকেন, তবে আপনার নিজ রাজ্য ও জেলা আলাদাভাবে জিজ্ঞেস করা হবে।"
     },
     {
      "label": "क्षेत्र / कामाचे स्वरूप",
      "value": "राजमिस्त्री (Mason)",
-     "hint": "The construction work you do: mason, bar bender, painter, plumber, electrician, carpenter, helper and so on."
+     "hint": "আপনি যে ধরনের নির্মাণ কাজ করেন: রাজমিস্ত্রি, বার বেন্ডার, পেইন্টার, প্লাম্বার, ইলেকট্রিশিয়ান, কার্পেন্টার, হেল্পার ইত্যাদি।"
     },
     {
      "label": "कामाच्या ठिकाणचा पत्ता आणि नियोक्ता",
-     "value": "Sai Residency site, Wagholi / Shree Constructions",
-     "hint": "The site where you did the 90 days, and the builder or contractor who signed the 90-day certificate, with the supervisor's name and phone."
+     "value": "সাই রেসিডেন্সি সাইট, ওয়াঘোলি / শ্রী কনস্ট্রাকশনস",
+     "hint": "যে সাইটে আপনি 90 দিন কাজ করেছেন এবং যে বিল্ডার বা কন্ট্রাক্টর 90 দিনের সার্টিফিকেটে সই করেছেন, সাথে সুপারভাইজারের নাম ও ফোন নম্বর।"
     },
     {
      "label": "90 दिवसांचे कामाचे प्रमाणपत्र (अपलोड करा)",
      "value": "श्री कन्स्ट्रक्शन्स कडून प्रमाणपत्र, 112 दिवस",
-     "hint": "It must cover the last 12 months. A naka worker booklet or a government authority's certificate is also accepted."
+     "hint": "এটি গত 12 মাসের জন্য হতে হবে। নাকা ওয়ার্কার বুকলেট বা কোনো সরকারি কর্তৃপক্ষের সার্টিফিকেটও গ্রহণযোগ্য।"
     },
     {
      "label": "বেংক একাউণ্ট নম্বৰ আৰু IFSC",
      "value": "3011 4589 2207 / BKID0009999",
-     "hint": "An account in your own name; every benefit is paid into it."
+     "hint": "আপনার নিজের নামে একটি অ্যাকাউন্ট; সমস্ত সুবিধা এতেই জমা দেওয়া হবে।"
     },
     {
-     "label": "Taluka facilitation centre and appointment date",
+     "label": "তালুকা সুবিধা কেন্দ্র এবং অ্যাপয়েন্টমেন্টের তারিখ",
      "value": "हवेली तालुका केंद्र / 18 नोव्हेंबर 2026",
-     "hint": "Pick the centre of the taluka where the 90 days were worked, and a date you can surely attend. Missing it cancels the application."
+     "hint": "যে তালুকায় 90 দিন কাজ করেছেন সেখানকার কেন্দ্র এবং আপনি নিশ্চিতভাবে উপস্থিত হতে পারবেন এমন একটি তারিখ বেছে নিন। এটি মিস করলে আবেদন বাতিল হয়ে যাবে।"
     }
    ],
    "demoSteps": [
-    "Get the 90-day work certificate for the last 12 months from your builder or contractor, a government authority, or your naka worker booklet.",
-    "Open mahabocw.in and click 'Bandhkam Kamgar: Nondani' (registration). Enter your Aadhaar and mobile number and verify with the OTP.",
-    "Fill in your personal, family, bank and work-site details, and upload Aadhaar and the 90-day certificate. There is no fee, so do not pay any agent.",
-    "Choose the taluka facilitation centre and an appointment date, submit, and note the acknowledgement number.",
-    "On that date go to the centre with all original papers. They check the documents and take your photo and fingerprint.",
-    "The taluka registration officer approves the application and your identity card is printed. Collect it from the facilitation centre as told in the SMS.",
-    "After registering, apply for each benefit online with 'Online claim' on the same portal, and renew every year from one month before expiry."
+    "আপনার বিল্ডার বা কন্ট্রাক্টর, কোনো সরকারি কর্তৃপক্ষ বা আপনার নাকা ওয়ার্কার বুকলেট থেকে গত 12 মাসের 90 দিনের কাজের সার্টিফিকেট নিন।",
+    "mahabocw.in খুলুন এবং 'Bandhkam Kamgar: Nondani' (রেজিস্ট্রেশন)-এ ক্লিক করুন। আপনার আধার এবং মোবাইল নম্বর লিখুন এবং OTP দিয়ে ভেরিফাই করুন।",
+    "আপনার ব্যক্তিগত, পারিবারিক, ব্যাংক এবং কাজের সাইটের বিবরণ পূরণ করুন এবং আধার ও 90 দিনের সার্টিফিকেট আপলোড করুন। কোনো ফি নেই, তাই কোনো এজেন্টকে টাকা দেবেন না।",
+    "তালুকা সুবিধা কেন্দ্র এবং একটি অ্যাপয়েন্টমেন্টের তারিখ বেছে নিন, জমা দিন এবং অ্যাকনলেজমেন্ট নম্বরটি নোট করে রাখুন।",
+    "সেই তারিখে সমস্ত আসল কাগজপত্র নিয়ে কেন্দ্রে যান। তারা নথিগুলো যাচাই করবে এবং আপনার ছবি ও ফিঙ্গারপ্রিন্ট নেবে।",
+    "তালুকা রেজিস্ট্রেশন অফিসার আবেদনটি অনুমোদন করবেন এবং আপনার পরিচয়পত্র প্রিন্ট করা হবে। SMS-এ যেভাবে বলা হবে সেই অনুযায়ী সুবিধা কেন্দ্র থেকে এটি সংগ্রহ করুন।",
+    "রেজিস্ট্রেশন করার পর, একই পোর্টালে 'Online claim'-এর মাধ্যমে প্রতিটি সুবিধার জন্য অনলাইনে আবেদন করুন, এবং মেয়াদ শেষ হওয়ার এক মাস আগে থেকে প্রতি বছর রিনিউ করুন।"
    ],
    "helpline": "1800-8892-816 (MAHABOCW टोल-फ्री); 022-2657-2631 / 022-2657-2632 (मंडळ कार्यालय, मुंबई)",
    "lastVerified": "অক্টোবৰ 2026"
@@ -16255,58 +16255,58 @@
   },
   {
    "id": "mn-cmht",
-   "title": "Chief Minister-gi Hakshelgi Tengbang (CMHT Card)",
-   "department": "State Nodal Cell (CMHT), Directorate of Health Services, Department of Health & Family Welfare, Government of Manipur",
-   "brief": "Manipur's free health cover for poor families: up to Rs.5 lakh a year per family for hospital treatment, cashless at empanelled hospitals in Manipur and at chosen hospitals in Guwahati and Kolkata. It covers AAY card holders, widows, persons with disability, ASHAs, Anganwadi workers and helpers, Ima Keithel women vendors, newspaper hawkers, local media persons, displaced persons, and other poor families approved by the Deputy Commissioner. The card is made at the CMHT enrolment kiosk of a district hospital, and the scheme also pays travel fare and a daily allowance for treatment outside the state. It was launched in 2018 with Rs.2 lakh cover, now raised to Rs.5 lakh.",
-   "benefit": "Rs.5 lakh a year per family, cashless, plus travel fare and Rs.1,000 a day for treatment outside Manipur",
+   "title": "চিফ মিনিস্টার-গি হকশেলগি তেংবাং (CMHT কার্ড)",
+   "department": "স্টেট নোডাল সেল (CMHT), স্বাস্থ্য পরিষেবা নির্দেশালয়, স্বাস্থ্য ও পরিবার কল্যাণ বিভাগ, মণিপুর সরকার",
+   "brief": "দরিদ্র পরিবারের জন্য মণিপুরের বিনামূল্যে স্বাস্থ্য কভার: হাসপাতালে চিকিৎসার জন্য পরিবার পিছু বছরে 5 লাখ টাকা পর্যন্ত, যা মণিপুরের এমপ্যানেলভুক্ত হাসপাতাল এবং গুয়াহাটি ও কলকাতার নির্বাচিত হাসপাতালে ক্যাশলেস। এতে AAY কার্ডধারী, বিধবা, প্রতিবন্ধী ব্যক্তি, আশা (ASHA) কর্মী, অঙ্গনওয়াড়ি কর্মী ও হেল্পার, ইমা কাইথেল (Ima Keithel) মহিলা বিক্রেতা, খবরের কাগজ বিক্রেতা, স্থানীয় মিডিয়া কর্মী, বাস্তুচ্যুত ব্যক্তি এবং ডেপুটি কমিশনার অনুমোদিত অন্যান্য দরিদ্র পরিবার কভার হয়। জেলা হাসপাতালের CMHT এনরোলমেন্ট কিওস্কে এই কার্ড তৈরি করা হয়, এবং রাজ্যর বাইরে চিকিৎসার জন্য ভ্রমণ খরচ এবং দৈনিক ভাতাও দেয় এই স্কিম। এটি 2018 সালে 2 লাখ টাকার কভার সহ চালু হয়েছিল, যা এখন বাড়িয়ে 5 লাখ টাকা করা হয়েছে।",
+   "benefit": "পরিবার পিছু বছরে 5 লাখ টাকা, ক্যাশলেস, সাথে মণিপুরের বাইরে চিকিৎসার জন্য ভ্রমণ খরচ এবং প্রতিদিন 1,000 টাকা",
    "eligibility": [
-    "Bona fide citizen of Manipur, with no family member in government service (a declaration is signed at the counter)",
-    "Families holding an AAY (Antyodaya) ration card, widows, and persons with disability",
-    "ASHAs, Anganwadi workers and helpers, Ima Keithel (Ima Market) women vendors, newspaper hawkers and local media persons",
-    "Internally displaced persons holding an IDP certificate from the Deputy Commissioner",
-    "Other poor families outside these groups can also apply. The Deputy Commissioner checks their economic status before the card is approved",
-    "Up to 5 names are printed on the card, and any extra members are noted as '2 more' and so on. There is no limit on family size"
+    "মণিপুরের প্রকৃত নাগরিক, পরিবারের কোনো সদস্য সরকারি চাকরিতে নেই (কাউন্টারে একটি ঘোষণা পত্রে সই করতে হয়)",
+    "AAY (অন্ত্যোদয়) রেশন কার্ডধারী পরিবার, বিধবা এবং প্রতিবন্ধী ব্যক্তি",
+    "আশা (ASHA) কর্মী, অঙ্গনওয়াড়ি কর্মী ও হেল্পার, ইমা কাইথেল (ইমা মার্কেট) মহিলা বিক্রেতা, খবরের কাগজ বিক্রেতা এবং স্থানীয় মিডিয়া কর্মী",
+    "ডেপুটি কমিশনারের কাছ থেকে পাওয়া IDP সার্টিফিকেটধারী অভ্যন্তরীণভাবে বাস্তুচ্যুত ব্যক্তি",
+    "এই গোষ্ঠীগুলোর বাইরের অন্যান্য দরিদ্র পরিবারও আবেদন করতে পারে। কার্ড অনুমোদনের আগে ডেপুটি কমিশনার তাদের অর্থনৈতিক অবস্থা যাচাই করেন",
+    "কার্ডে সর্বোচ্চ 5টি নাম প্রিন্ট করা হয়, এবং অতিরিক্ত সদস্যদের '2 more' ইত্যাদি হিসাবে উল্লেখ করা হয়। পরিবারের আকারের ওপর কোনো সীমা নেই"
    ],
    "documents": [
-    "Original Aadhaar card of the applicant and of every family member, with the Aadhaar consent form",
-    "Photo ID: voter ID, PAN, driving licence, ration card, passport or government ID card",
+    "আবেদনকারী এবং পরিবারের প্রতিটি সদস্যের আসল আধার কার্ড, সাথে আধারের সম্মতি পত্র (consent form)",
+    "ছবি সহ পরিচয়পত্র: ভোটার আইডি, PAN, ড্রাইভিং লাইসেন্স, রেশন কার্ড, পাসপোর্ট বা সরকারি পরিচয়পত্র",
     "AAY रेशन कार्ड (AAY कुटुंबांसाठी)",
     "दिव्यांगत्व प्रमाणपत्र (दिव्यांग व्यक्तींसाठी)",
     "पतीचा मृत्यू दाखला (विधवांसाठी)",
-    "Membership letter from NHM, the Social Welfare Department, Imphal Municipal Corporation or the authorised association (ASHAs, Anganwadi staff, Ima Keithel vendors, hawkers, media persons)",
-    "IDP certificate from the Deputy Commissioner (displaced persons)"
+    "NHM, সমাজকল্যাণ বিভাগ, ইম্ফল মিউনিসিপ্যাল কর্পোরেশন বা অনুমোদিত অ্যাসোসিয়েশনের সদস্যপদ চিঠি (আশা কর্মী, অঙ্গনওয়াড়ি কর্মী, ইমা কাইথেল বিক্রেতা, হকার, মিডিয়া কর্মী)",
+    "ডেপুটি কমিশনারের কাছ থেকে IDP সার্টিফিকেট (বাস্তুচ্যুত ব্যক্তিদের জন্য)"
    ],
-   "submitAt": "CMHT enrolment kiosk (Health Coordinator help desk) at the reception of your District Hospital, or at RIMS or JNIMS in Imphal; enrolment camps are also held at DC offices and in villages. Take all original documents and the Aadhaar cards of every family member. Fill in the declaration that nobody in the family is in government service at the counter. A card fee of Rs.50 per family may be charged; AAY card holders, persons with disability and widows pay nothing.",
+   "submitAt": "আপনার জেলা হাসপাতালের রিসিভশনে CMHT এনরোলমেন্ট কিওস্ক (হেলথ কোঅর্ডিনেটর হেল্প ডেস্ক), অথবা ইম্ফলের RIMS বা JNIMS-এ; DC অফিস এবং গ্রামেও এনরোলমেন্ট ক্যাম্পের আয়োজন করা হয়। সমস্ত আসল নথি এবং পরিবারের প্রতিটি সদস্যের আধার কার্ড নিয়ে যান। কাউন্টারে পরিবারে কেউ সরকারি চাকরিতে নেই মর্মে ঘোষণা পত্রটি পূরণ করুন। পরিবার পিছু 50 টাকা কার্ড ফি নেওয়া হতে পারে; AAY কার্ডধারী, প্রতিবন্ধী ব্যক্তি এবং বিধবাদের কোনো টাকা দিতে হবে না।",
    "demoFields": [
     {
      "label": "पात्रता श्रेणी",
      "value": "বিধৱা",
-     "hint": "AAY, Widow, Disabled, ASHA, Anganwadi Worker/Helper, Ima Keithel Vendor, Hawker, Local Media, IDP, or Other Poor Family (DC verification)."
+     "hint": "AAY, বিধবা, প্রতিবন্ধী, আশা (ASHA), অঙ্গনওয়াড়ি কর্মী/হেল্পার, ইমা কাইথেল বিক্রেতা, হকার, স্থানীয় মিডিয়া, IDP, বা অন্যান্য দরিদ্র পরিবার (DC ভেরিফিকেশন)।"
     },
     {
      "label": "कुटुंब प्रमुखाचे नाव",
      "value": "थोक्चोम इबेमहाल देवी",
-     "hint": "As written on the Aadhaar card."
+     "hint": "আধার কার্ডে যেভাবে লেখা আছে।"
     },
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 2864 1170",
-     "hint": "The head's 12-digit Aadhaar. At least one member must give Aadhaar to enrol the family."
+     "hint": "প্রধানের 12 ডিজিটের আধার। পরিবারকে এনরোল করার জন্য অন্তত একজন সদস্যকে আধার দিতে হবে।"
     },
     {
      "label": "पात्रतेचा पुरावा",
      "value": "पतीचा मृत्यू दाखला क्र. 9999/IE/2019",
-     "hint": "AAY card, disability certificate, death certificate, membership letter or IDP certificate, as your category needs."
+     "hint": "আপনার ক্যাটাগরির প্রয়োজন অনুযায়ী AAY কার্ড, প্রতিবন্ধী সার্টিফিকেট, ডেথ সার্টিফিকেট, মেম্বারশিপ লেটার বা IDP সার্টিফিকেট।"
     },
     {
      "label": "ओळख पुरावा",
      "value": "मतदार ओळखपत्र MN/01/999/123456",
-     "hint": "Any one government photo ID, shown in original."
+     "hint": "যেকোনো একটি সরকারি ফটো আইডি, আসল দেখাতে হবে।"
     },
     {
      "label": "পৰিয়ালৰ সদস্য আৰু সম্পৰ্ক",
-     "value": "Thokchom Sanatombi (Daughter), Thokchom Bikram (Son)",
-     "hint": "Everyone who lives and eats with you. Carry each member's Aadhaar."
+     "value": "থোকচোম সানাতোম্বি (মেয়ে), থোকচোম বিক্রম (ছেলে)",
+     "hint": "যে বা যারা আপনার সাথে থাকেন এবং একসঙ্গে খাওয়া-দাওয়া করেন। প্রতিটি সদস্যের আধার সঙ্গে রাখুন।"
     },
     {
      "label": "जिल्हा आणि पत्ता",
@@ -16316,28 +16316,28 @@
     {
      "label": "মবাইল নম্বৰ",
      "value": "90000 28641",
-     "hint": "The approval message for DC-verification cases comes here."
+     "hint": "DC-ভেরিফিকেশনের ক্ষেত্রে অনুমোদনের মেসেজ এখানে আসবে।"
     },
     {
-     "label": "Declaration: no family member in government service",
+     "label": "ঘোষণা: পরিবারের কোনো সদস্য সরকারি চাকরিতে নেই",
      "value": "काउंटरवर स्वाक्षरी केली",
-     "hint": "Filled in at the kiosk before the card is made. Do not sign if anyone in the family is a government employee."
+     "hint": "কার্ড তৈরির আগে কিওস্কে এটি পূরণ করা হয়। পরিবারের কেউ সরকারি কর্মচারী হলে সই করবেন না।"
     },
     {
      "label": "फोटो",
      "value": "किओस्कवर घेतला जातो",
-     "hint": "The Health Coordinator takes the photo on the spot. No passport photo is needed."
+     "hint": "হেলথ কোঅর্ডিনেটর ঘটনাস্থলেই ছবি তুলে নেবেন। কোনো পাসপোর্ট ছবির প্রয়োজন নেই।"
     }
    ],
    "demoSteps": [
-    "Check which category you belong to. If you are poor but in no listed category, you can still apply. Your claim is sent to the Deputy Commissioner for checking.",
-    "Go to the CMHT kiosk at your District Hospital (or RIMS or JNIMS in Imphal, or a village enrolment camp) with the originals and every member's Aadhaar.",
-    "The Health Coordinator enters your details, takes the photo and the Aadhaar consent, and you sign the government-service declaration.",
-    "Listed categories get the CMHT-Manipur Health Card on the spot, with a unique family number. For 'other poor families', the details go to the DC for verification, and you are told the result before the card is issued.",
-    "At an empanelled hospital, show the card at the CMHT desk. The Health Coordinator guides you from admission to discharge, and treatment is cashless.",
-    "For the travel allowance, give your bank details when you are admitted. Inside Manipur it is Rs.300 a visit, up to Rs.3,000 a year. Outside Manipur it is the cheapest airfare for the patient and one attendant (up to Rs.30,000 a year) plus Rs.1,000 a day (up to Rs.10,000), all within the Rs.5 lakh."
+    "আপনি কোন ক্যাটাগরির অন্তর্গত তা দেখে নিন। আপনি যদি দরিদ্র হন কিন্তু তালিকাভুক্ত কোনো ক্যাটাগরিতে না থাকেন, তবুও আবেদন করতে পারেন। আপনার দাবিটি যাচাইয়ের জন্য ডেপুটি কমিশনারের কাছে পাঠানো হবে।",
+    "আসল কাগজপত্র এবং প্রতিটি সদস্যের আধার নিয়ে আপনার জেলা হাসপাতালের CMHT কিওস্কে (বা ইম্ফলের RIMS বা JNIMS, অথবা কোনো গ্রাম্য এনরোলমেন্ট ক্যাম্পে) যান।",
+    "হেলথ কোঅর্ডিনেটর আপনার বিবরণ এন্ট্রি করবেন, ছবি ও আধারের সম্মতি নেবেন এবং আপনি সরকারি চাকরির ঘোষণা পত্রে সই করবেন।",
+    "তালিকাভুক্ত ক্যাটাগরিগুলো একটি ইউনিক ফ্যামিলি নম্বর সহ ঘটনাস্থলেই CMHT-মণিপুর হেলথ কার্ড পেয়ে যান। 'অন্যান্য দরিদ্র পরিবার'-এর ক্ষেত্রে বিবরণগুলো যাচাইয়ের জন্য DC-র কাছে যায় এবং কার্ড ইস্যু করার আগে আপনাকে ফলাফল জানিয়ে দেওয়া হয়।",
+    "এমপ্যানেলভুক্ত হাসপাতালে, CMHT ডেস্কে কার্ডটি দেখান। ভর্তি থেকে ডিসচার্জ পর্যন্ত হেলথ কোঅর্ডিনেটর আপনাকে সাহায্য করবেন এবং চিকিৎসা হবে ক্যাশলেস।",
+    "ভ্রমণ ভাতার জন্য, ভর্তি হওয়ার সময় আপনার ব্যাংকের বিবরণ দিন। মণিপুরের ভেতরে প্রতি ভিজিটে 300 টাকা, বছরে সর্বোচ্চ 3,000 টাকা। মণিপুরের বাইরে রোগী এবং একজন অ্যাটেন্ডেন্টের জন্য সবচেয়ে কম দামের বিমান ভাড়া (বছরে 30,000 টাকা পর্যন্ত) সাথে প্রতিদিন 1,000 টাকা (10,000 টাকা পর্যন্ত), যার সবই 5 লাখ টাকার মধ্যে।"
    ],
-   "helpline": "1800 103 2015 — CMHT toll-free helpline (24x7) / 14555 — Ayushman Bharat national helpline",
+   "helpline": "1800 103 2015 — CMHT টোল-ফ্রি হেল্পলাইন (24x7) / 14555 — আয়ুষ্মান ভারত জাতীয় হেল্পলাইন",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -16503,22 +16503,22 @@
   {
    "id": "ml-mhis",
    "title": "मेघा हेल्थ इन्शुरन्स स्कीम (MHIS कार्ड)",
-   "department": "State Nodal Agency, Megha Health Insurance Scheme, Department of Health & Family Welfare, Government of Meghalaya",
-   "brief": "Meghalaya's universal health insurance, run together with Ayushman Bharat PM-JAY, now in its sixth phase (MHIS VI). Every resident family except state and central government employees gets Rs.5.3 lakh a year, shared by the family, cashless at almost every hospital in the state and at PM-JAY hospitals across India, plus some outpatient care such as maternity, child care and tests. Registration is free and open all year at District Kiosks and hospital registration centres. A family head whose name is missing from the list (newly married, orphan, or not in the data) can send the request online.",
-   "benefit": "Rs.5.3 lakh a year per family, cashless; registration free",
+   "department": "স্টেট নোডাল এজেন্সি, মেঘা হেলথ ইন্স্যুরেন্স স্কিম, স্বাস্থ্য ও পরিবার কল্যাণ বিভাগ, মেঘালয় সরকার",
+   "brief": "মেঘালয়ের সর্বজনীন স্বাস্থ্য বীমা, যা আয়ুষ্মান ভারত PM-JAY-এর সাথে যৌথভাবে পরিচালিত এবং এখন ষষ্ঠ পর্বে রয়েছে (MHIS VI)। রাজ্য ও কেন্দ্রীয় সরকারি কর্মচারী ছাড়া প্রতিটি স্থায়ী নিবাসী পরিবার বছরে 5.3 লাখ টাকা পায়, যা পরিবার দ্বারা শেয়ার করা হয়, রাজ্যের প্রায় প্রতিটি হাসপাতালে এবং সমগ্র ভারতের PM-JAY হাসপাতালে ক্যাশলেস, সাথে মাতৃত্ব, শিশু পরিষেবা এবং পরীক্ষার মতো কিছু আউটপেশেন্ট সুবিধাও রয়েছে। জেলা কিওস্ক এবং হাসপাতাল রেজিস্ট্রেশন কেন্দ্রে সারা বছর বিনামূল্যে রেজিস্ট্রেশন খোলা থাকে। যে পরিবারের প্রধানের নাম তালিকায় নেই (নব্য বিবাহিত, পিতৃহীন/মাতৃহীন, বা ডেটায় নাম নেই) তারা অনলাইনে আবেদন পাঠাতে পারেন।",
+   "benefit": "পরিবার পিছু বছরে 5.3 লাখ টাকা, ক্যাশলেস; রেজিস্ট্রেশন বিনামূল্যে",
    "eligibility": [
-    "Every resident of Meghalaya, with no income limit",
-    "Not for State or Central Government employees, who have their own medical reimbursement",
-    "No limit on family size or age",
-    "A newborn is covered from birth under the mother's or father's card for the rest of the policy year",
-    "If your family is not in the MHIS or PM-JAY data (newly married, orphan, or name missing), apply through the online Head of Family request. The SHA office approves it"
+    "মেঘালয়ের প্রতিটি বাসিন্দা, কোনো আয়ের সীমা নেই",
+    "রাজ্য বা কেন্দ্রীয় সরকারি কর্মচারীদের জন্য নয়, যাদের নিজস্ব চিকিৎসা খরচের প্রতিপূরণ (medical reimbursement) ব্যবস্থা রয়েছে",
+    "পরিবারের আকার বা বয়সের কোনো সীমা নেই",
+    "নবজাতক শিশু জন্মের পর থেকে পলিসির মেয়াদের বাকি সময় ধরে তার মা বা বাবার কার্ডের অধীনে কভার পায়",
+    "আপনার পরিবার যদি MHIS বা PM-JAY ডেটায় না থাকে (নববিবাহিত, অনাথ, বা নাম নেই), তবে অনলাইন Head of Family রিকোয়েস্টের মাধ্যমে আবেদন করুন। SHA অফিস এটি অনুমোদন করে"
    ],
    "documents": [
-    "Voter ID (EPIC), front and back. This is mandatory for the Head of Family request",
+    "ভোটার আইডি (EPIC), সামনে এবং পিছনের অংশ। Head of Family রিকোয়েস্টের জন্য এটি বাধ্যতামূলক",
     "আধাৰ কাৰ্ড",
-    "Any one more ID if asked: ration card, MGNREGA job card, birth certificate or other government photo ID",
-    "Proof of relation to add members: marriage certificate, birth certificate, ration card, headman's certificate or adoption certificate",
-    "Old MHIS or RSBY card, if you have one",
+    "চাওয়া হলে যেকোনো আরও একটি আইডি: রেশন কার্ড, MGNREGA জব কার্ড, জন্ম সনদের সার্টিফিকেট বা অন্যান্য সরকারি ফটো আইডি",
+    "সদস্যদের যোগ করার জন্য সম্পর্কের প্রমাণ: ম্যারেজ সার্টিফিকেট, জন্ম সনদ, রেশন কার্ড, হেডম্যানের সার্টিফিকেট বা অ্যাডপশন সার্টিফিকেট",
+    "পুরোনো MHIS বা RSBY কার্ড, যদি আপনার থাকে",
     "एक मोबाईल नंबर"
    ],
    "portalName": "मेघा हेल्थ इन्शुरन्स स्कीम",
@@ -16526,17 +16526,17 @@
     {
      "label": "শ্ৰেণী",
      "value": "नुकतेच विवाह झालेले (Newly Married)",
-     "hint": "Newly Married, Name not there in the database, Orphans, or Others."
+     "hint": "নববিবাহিত, ডেটাবেসে নাম নেই, অনাথ, বা অন্যান্য।"
     },
     {
      "label": "आधार के अनुसार नाम",
      "value": "बनशाई लिंगडोह",
-     "hint": "Spell it exactly as on Aadhaar and EPIC, or verification gets delayed."
+     "hint": "ঠিক আধার এবং EPIC-এর মতো বানান লিখুন, তা না হলে যাচাইয়ে দেরি হতে পারে।"
     },
     {
      "label": "वडिलांचे/आईचे/पती किंवा पत्नीचे नाव",
      "value": "पती/पत्नी — इबापिन्हुन खारकोंगोर",
-     "hint": "Pick the relation first, then type the name."
+     "hint": "প্রথমে সম্পর্ক বেছে নিন, তারপর নাম টাইপ করুন।"
     },
     {
      "label": "EPIC नुसार घर क्रमांक",
@@ -16551,38 +16551,38 @@
     {
      "label": "EPIC नुसार पत्ता",
      "value": "मावलाई मावरोह, शिलॉन्ग",
-     "hint": "Copy the address from the voter ID."
+     "hint": "ভোটার আইডি থেকে ঠিকানাটি দেখে লিখুন।"
     },
     {
-     "label": "District / Name of block / Rural or Urban",
+     "label": "জেলা / ব্লকের নাম / গ্রামীণ বা শহুরে",
      "value": "ईस्ट खासी हिल्स / म्युलिएम / अर्बन (शहरी)",
-     "hint": "Where you live now, from the drop-down lists."
+     "hint": "ড্রপ-ডাউন তালিকা থেকে আপনি এখন যেখানে থাকেন তা বেছে নিন।"
     },
     {
      "label": "फोन नंबर",
      "value": "90000 47620",
-     "hint": "A number you keep with you, so the office can reach you."
+     "hint": "আপনার কাছে থাকে এমন একটি নম্বর, যাতে অফিস আপনার সাথে যোগাযোগ করতে পারে।"
     },
     {
      "label": "EPIC क्रमांक / आधार क्रमांक",
      "value": "ML/99/999/123456 / 9999 6015 3348",
-     "hint": "Voter ID number is mandatory. Aadhaar helps the check go faster."
+     "hint": "ভোটার আইডি নম্বর বাধ্যতামূলক। আধার থাকলে যাচাই দ্রুত হয়।"
     },
     {
      "label": "EPIC समोरील बाजू / मागील बाजू अपलोड करा",
      "value": "epic_front.jpg, epic_back.jpg",
-     "hint": "Clear photos of both sides of the voter ID. Aadhaar upload is optional."
+     "hint": "ভোটার আইডির উভয় পাশের পরিষ্কার ছবি। আধার আপলোড ঐচ্ছিক।"
     }
    ],
    "demoSteps": [
-    "First check if your family is already in the list: call 1800 102 4762 or ask at a District Kiosk. If it is, just walk into any District Kiosk or hospital registration centre with a photo ID, and the card is printed there for free.",
-    "If your name is missing, open the MHIS Head of Family form and choose your category: Newly Married, Name not there in the database, Orphans, or Others.",
-    "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number.",
-    "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval.",
-    "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card.",
-    "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
+    "প্রথমে দেখে নিন আপনার পরিবার ইতিমধ্যেই তালিকায় আছে কিনা: 1800 102 4762 নম্বরে কল করুন অথবা কোনো জেলা কিওস্কে গিয়ে জিজ্ঞেস করুন। যদি থাকে, যেকোনো জেলা কিওস্ক বা হাসপাতাল রেজিস্ট্রেশন কেন্দ্রে একটি ফটো আইডি নিয়ে যান, এবং সেখানে বিনামূল্যে কার্ডটি প্রিন্ট করে দেওয়া হবে।",
+    "যদি আপনার নাম না থাকে, MHIS Head of Family ফর্ম খুলুন এবং আপনার ক্যাটাগরি বেছে নিন: Newly Married, Name not there in the database, Orphans, বা Others।",
+    "ঠিক আধার এবং EPIC-এর মতো আপনার নাম, ঠিকানা, জেলা, ব্লক এবং ফোন নম্বর পূরণ করুন।",
+    "আপনার ভোটার আইডির উভয় পাশ আপলোড করুন, এবং আধার থাকলে তাও আপলোড করে জমা দিন। অনুরোধটি অনুমোদনের জন্য SHA অফিসে যাবে।",
+    "অনুমোদিত হয়ে গেলে (টোল-ফ্রি নম্বর বা কিওস্কে দেখুন), আসল EPIC, আধার এবং সম্পর্কের প্রমাণপত্র নিয়ে জেলা কিওস্কে যান। প্রতিটি সদস্য একটি করে ব্যক্তিগত MHIS/PMJAY কার্ড পাবেন।",
+    "হাসপাতালে, MHIS কাউন্টারে আরোগ্য মিত্রের কাছে কার্ডটি এবং যেকোনো সরকারি ফটো আইডি দিন। চিকিৎসা হবে ক্যাশলেস। আপনি যদি কার্ডটি হারিয়ে ফেলেন, যেকোনো জেলা কিওস্ক থেকে নতুন একটি প্রিন্ট করে দেওয়া হবে।"
    ],
-   "helpline": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline",
+   "helpline": "1800 102 4762 — MHIS টোল-ফ্রি / 0364-250 7477 — MHIS হেল্পডেস্ক / 14555 — আয়ুষ্মান ভারত জাতীয় হেল্পলাইন",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -16899,24 +16899,24 @@
   },
   {
    "id": "mz-muhcs",
-   "title": "Mizoram Universal Health Care Scheme (MUHCS Card)",
-   "department": "Mizoram State Health Care Society, Department of Health & Family Welfare, Government of Mizoram",
-   "brief": "From 1 April 2025 MUHCS replaced the old Mizoram State Health Care Scheme (MSHCS), and it covers every bona fide resident of Mizoram. Families outside government service pay a yearly fee of Rs.2,500, Rs.5,000 or Rs.10,000 for Rs.5 lakh of cashless hospital cover; the higher fee buys a better ward, while AB PM-JAY (Golden Card) families pay nothing and government employees pay monthly from their salary. The paid enrolment opens once a year (for 2026-27 it ran from 16 February to 15 May 2026), mostly online, with offline forms at sub-centres where there is no internet. After that you apply for the MUHCS card online and download it once approved.",
-   "benefit": "Rs.5 lakh a year per family, cashless, for a yearly family fee of Rs.2,500, Rs.5,000 or Rs.10,000",
+   "title": "মিজোরাম ইউনিভার্সাল হেলথ কেয়ার স্কিম (MUHCS কার্ড)",
+   "department": "মিজোরাম স্টেট হেলথ কেয়ার সোসাইটি, স্বাস্থ্য ও পরিবার কল্যাণ বিভাগ, মিজোরাম সরকার",
+   "brief": "1 এপ্রিল 2025 থেকে MUHCS পুরোনো মিজোরাম স্টেট হেলথ কেয়ার স্কিম (MSHCS)-এর স্থলাভিষিক্ত হয়েছে, এবং এটি মিজোরামের প্রতিটি প্রকৃত বাসিন্দাকে কভার করে। সরকারি চাকরির বাইরের পরিবারগুলো 5 লাখ টাকার ক্যাশলেস হাসপাতাল কভারের জন্য বছরে 2,500 টাকা, 5,000 টাকা বা 10,000 টাকা ফি দেয়; বেশি ফি দিলে উন্নত ওয়ার্ড পাওয়া যায়, যেখানে AB PM-JAY (গোল্ডেন কার্ড) পরিবারগুলোকে কিছু দিতে হয় না এবং সরকারি কর্মচারীরা তাদের বেতন থেকে প্রতি মাসে টাকা দেন। পেড এনরোলমেন্ট বছরে একবার খোলে (2026-27 এর জন্য এটি 16 ফেব্রুয়ারি থেকে 15 মে 2026 পর্যন্ত চলেছিল), যা মূলত অনলাইন, আর যেখানে ইন্টারনেট নেই সেখানে সাব-সেন্টারে অফলাইন ফর্ম পাওয়া যায়। এরপর আপনি অনলাইনে MUHCS কার্ডের জন্য আবেদন করবেন এবং অনুমোদিত হলে ডাউনলোড করে নেবেন।",
+   "benefit": "পরিবার পিছু বছরে 5 লাখ টাকা, ক্যাশলেস, যার জন্য বার্ষিক পারিবারিক ফি 2,500 টাকা, 5,000 টাকা বা 10,000 টাকা",
    "eligibility": [
-    "Every bona fide resident of Mizoram listed in the state ration card (PDS) database",
-    "General families pay a yearly fee: Rs.2,500 (general ward), Rs.5,000 (semi-private shared ward) or Rs.10,000 (private ward). The cover is Rs.5 lakh in each plan",
-    "AB PM-JAY (Golden Card) families pay nothing and use their Golden Card. They do not need a MUHCS card",
-    "State government employees and provisional or muster roll staff pay Rs.200 to Rs.1,500 a month from their salary, by pay level. They do not enrol, they only make the card",
-    "Civil pensioners and GIA employees are covered through their subscription form, but the MUHCS card is not yet issued to them (circular of 13 May 2026)",
-    "Children under 5 use a parent's card. The fee is paid only in the yearly enrolment window and is not refunded except as notified"
+    "রাজ্যের রেশন কার্ড (PDS) ডেটাবেসে তালিকাভুক্ত মিজোরামের প্রতিটি প্রকৃত বাসিন্দা",
+    "সাধারণ পরিবারগুলো বার্ষিক ফি দেয়: 2,500 টাকা (সাধারণ ওয়ার্ড), 5,000 টাকা (সেমি-প্রাইভেট শেয়ার্ড ওয়ার্ড) বা 10,000 টাকা (প্রাইভেট ওয়ার্ড)। প্রতিটি প্ল্যানেই কভার হল 5 লাখ টাকা",
+    "AB PM-JAY (গোল্ডেন কার্ড) পরিবারগুলোকে কোনো ফি দিতে হয় না এবং তারা তাদের গোল্ডেন কার্ড ব্যবহার করতে পারেন। তাদের MUHCS কার্ডের প্রয়োজন নেই",
+    "রাজ্য সরকারি কর্মচারী এবং প্রোভিশনাল বা মাস্টার রোল কর্মীরা তাদের পে লেভেল অনুযায়ী বেতন থেকে প্রতি মাসে 200 টাকা থেকে 1,500 টাকা দেন। তাদের এনরোল করতে হয় না, তারা শুধু কার্ড তৈরি করেন",
+    "সিভিল পেনশনভোগী এবং GIA কর্মচারীরা তাদের সাবস্ক্রিপশন ফর্মের মাধ্যমে কভার পান, তবে তাদের এখনও MUHCS কার্ড ইস্যু করা হয়নি (13 মে 2026 এর সার্কুলার)",
+    "5 বছরের কম বয়সী শিশুরা মা বা বাবার কার্ড ব্যবহার করবে। ফি কেবল বার্ষিক এনরোলমেন্টের সময়েই দেওয়া হয় এবং বিজ্ঞপ্তি না দেওয়া হলে ফেরত দেওয়া হয় না"
    ],
    "documents": [
     "পৰিয়ালৰ প্ৰতিজন সদস্যৰ আধাৰ কাৰ্ড",
-    "Ration card. Without one, a Village Council or Local Council letter listing the family members",
-    "A clear chest-up photo of each member, to upload for the card",
+    "রেশন কার্ড। যদি না থাকে, তবে পরিবারের সদস্যদের তালিকা সহ ভিলেজ কাউন্সিল বা লোকাল কাউন্সিলের চিঠি",
+    "কার্ডের জন্য আপলোড করার জন্য প্রতিটি সদস্যের বুক পর্যন্ত পরিষ্কার ছবি",
     "OTP लॉगिन के लिए एक मोबाइल नंबर",
-    "UPI, debit or credit card, or net banking, to pay the yearly fee (general families)"
+    "বার্ষিক ফি দেওয়ার জন্য UPI, ডেবিট বা ক্রেডিট কার্ড, অথবা নেট ব্যাংকিং (সাধারণ পরিবারের জন্য)"
    ],
    "portalName": "मिजोरम यूनिवर्सल हेल्थकेयर स्कीम (MUHCS)",
    "demoFields": [
@@ -16928,22 +16928,22 @@
     {
      "label": "মবাইল নম্বৰ",
      "value": "90000 65293",
-     "hint": "Your own working number. The OTP comes here every time you log in."
+     "hint": "আপনার নিজের একটি চালু নম্বর। প্রতিবার লগইন করার সময় OTP এখানে আসবে।"
     },
     {
      "label": "कैप्चा / OTP दर्ज करें",
      "value": "7K2QP / 482913",
-     "hint": "Type the letters shown in the picture, then the OTP sent to your phone."
+     "hint": "ছবিতে দেখানো অক্ষরগুলো টাইপ করুন, তারপর আপনার ফোনে পাঠানো OTP দিন।"
     },
     {
      "label": "ৰেচন কাৰ্ড নম্বৰ",
      "value": "MZ-AIZ-9999-0412",
-     "hint": "The family is taken from the ration card. Without one, upload the Village or Local Council letter."
+     "hint": "রেশন কার্ড থেকে পরিবার নেওয়া হয়। রেশন কার্ড না থাকলে ভিলেজ বা লোকাল কাউন্সিলের চিঠি আপলোড করুন।"
     },
     {
      "label": "प्लान विकल्प",
      "value": "जनरल — रु. 2,500 (सामान्य वार्ड)",
-     "hint": "Standard Rs.5,000 gives a shared semi-private ward, Private Rs.10,000 a private ward. The cover is Rs.5 lakh in all three."
+     "hint": "স্ট্যান্ডার্ড 5,000 টাকায় শেয়ার্ড সেমি-প্রাইভেট ওয়ার্ড, প্রাইভেট 10,000 টাকায় প্রাইভেট ওয়ার্ড পাওয়া যায়। তিনটিতেই কভার হল 5 লাখ টাকা।"
     },
     {
      "label": "परिवार के मुखिया का नाम",
@@ -16953,28 +16953,28 @@
     {
      "label": "प्रत्येक सदस्य का आधार",
      "value": "9999 8106 2245 (और प्रति सदस्य एक)",
-     "hint": "Every member aged 5 or above needs their own Aadhaar for the card."
+     "hint": "5 বছর বা তার বেশি বয়সী প্রতিটি সদস্যের কার্ডের জন্য নিজস্ব আধার প্রয়োজন।"
     },
     {
      "label": "प्रत्येक सदस्य की फोटो",
      "value": "छाती से ऊपर की फोटो अपलोड की गई",
-     "hint": "Clear, face straight, from the chest up. A blurred photo gets the card rejected."
+     "hint": "পরিষ্কার, মুখ সোজা রাখা, বুক পর্যন্ত ছবি। আবছা ছবি হলে কার্ড বাতিল হয়ে যাবে।"
     },
     {
      "label": "भुगतान",
      "value": "UPI — रसीद सहेजी गई",
-     "hint": "Pay online and keep the receipt. You need it for any later query or refund request."
+     "hint": "অনলাইনে ফি দিন এবং রসিদটি নিজের কাছে রাখুন। পরবর্তী যেকোনো প্রশ্ন বা রিফান্ডের আবেদনের জন্য এটি প্রয়োজন হবে।"
     }
    ],
    "demoSteps": [
-    "During the yearly enrolment window (for 2026-27 it was 16 February to 15 May 2026), open the MUHCS portal, choose Beneficiary and log in with your mobile number, the captcha and the OTP.",
-    "Enter your ration card details, add all family members and choose a plan: General Rs.2,500, Standard Rs.5,000 or Private Rs.10,000.",
-    "Pay the fee online by UPI, card or net banking and save the receipt. In villages without internet, fill in the offline form at the health sub-centre instead.",
-    "Apply for the MUHCS card from the same login. Upload each member's Aadhaar and a clear chest-up photo. Children under 5 do not need a card.",
-    "The Mizoram State Health Care Society checks and approves the request. Then log in again and download the card.",
-    "At an empanelled government or private hospital, show the MUHCS card (or your Golden Card) and get cashless treatment up to Rs.5 lakh. Re-enrol every year in the window."
+    "বার্ষিক এনরোলমেন্টের সময়ে (2026-27 এর জন্য এটি ছিল 16 ফেব্রুয়ারি থেকে 15 মে 2026), MUHCS পোর্টাল খুলুন, Beneficiary বেছে নিন এবং আপনার মোবাইল নম্বর, ক্যাপচা ও OTP দিয়ে লগইন করুন।",
+    "আপনার রেশন কার্ডের বিবরণ দিন, পরিবারের সমস্ত সদস্যকে যোগ করুন এবং একটি প্ল্যান বেছে নিন: জেনারেট 2,500 টাকা, স্ট্যান্ডার্ড 5,000 টাকা বা প্রাইভেট 10,000 টাকা।",
+    "UPI, কার্ড বা নেট ব্যাংকিংয়ের মাধ্যমে অনলাইনে ফি দিন এবং রসিদটি সেভ করে রাখুন। ইন্টারনেট বিহীন গ্রামগুলোতে স্বাস্থ্য সাব-সেন্টারে গিয়ে অফলাইন ফর্ম পূরণ করুন।",
+    "একই লগইন থেকে MUHCS কার্ডের জন্য আবেদন করুন। প্রতিটি সদস্যের আধার এবং একটি পরিষ্কার বুক পর্যন্ত ছবি আপলোড করুন। 5 বছরের কম বয়সী শিশুদের কার্ডের প্রয়োজন নেই।",
+    "মিজোরাম স্টেট হেলথ কেয়ার সোসাইটি আবেদনটি যাচাই করে অনুমোদন করবে। তারপর আবার লগইন করুন এবং কার্ডটি ডাউনলোড করুন।",
+    "এমপ্যানেলভুক্ত সরকারি বা প্রাইভেট হাসপাতালে MUHCS কার্ড (বা আপনার গোল্ডেন কার্ড) দেখান এবং 5 লাখ টাকা পর্যন্ত ক্যাশলেস চিকিৎসা নিন। প্রতি বছর ওই সময়ে পুনরায় এনরোল করুন।"
    ],
-   "helpline": "08065293906 — MUHCS Chhawntu call centre / 0389-2328223 — Mizoram State Health Care Society office / 7628839899 — MUHCS grievance / 14555 — Ayushman Bharat toll-free",
+   "helpline": "08065293906 — MUHCS ছাউন্টু কল সেন্টার / 0389-2328223 — মিজোরাম স্টেট হেলথ কেয়ার সোসাইটি অফিস / 7628839899 — MUHCS অভিযোগ সংক্রান্ত / 14555 — আয়ুষ্মান ভারত টোল-ফ্রি",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -17138,77 +17138,77 @@
   },
   {
    "id": "nl-cmhis",
-   "title": "Chief Minister Health Insurance Scheme (CMHIS Card)",
-   "department": "Nagaland Health Protection Society, Department of Health & Family Welfare, Government of Nagaland",
+   "title": "চিফ মিনিস্টার হেলথ ইন্স্যুরেন্স স্কিম (CMHIS কার্ড)",
+   "department": "নাগাল্যান্ড হেলথ প্রোটাকশন সোসাইটি, স্বাস্থ্য ও পরিবার কল্যাণ বিভাগ, নাগাল্যান্ড সরকার",
    "brief": "नागालैंड की अपनी स्वास्थ्य बीमा, जो PM-JAY के साथ मिलकर AB PM-JAY CMHIS के रूप में चलती है: सामान्य श्रेणी के तहत उन मूल निवासियों और स्थायी বাসিন্দਿਆਂ को, जो PM-JAY में शामिल नहीं हैं, परिवार के हर सदस्य को साल में 5 लाख रुपये तक का कैशलेस अस्पताल का इलाज मिलता है। सरकारी कर्मचारियों और पेंशनभोगियों को 20 लाख रुपये मिलते हैं। परिवार CMHIS पोर्टल पर या रजिस्ट्रेशन सेंटर पर ऑनलाइन रजिस्ट्रेशन करता है, जिला प्रशासन इसे मंजूरी देता है, और फिर सेंटर पर आधार e-KYC के बाद आयुष्मान CMHIS कार्ड बनता है। रजिस्ट्रेशन मुफ्त है।",
-   "benefit": "Rs.5 lakh a year per family (General Category); Rs.20 lakh for government employees and pensioners",
+   "benefit": "পরিবার পিছু বছরে 5 লাখ টাকা (সাধারণ ক্যাটাগরি); সরকারি কর্মচারী ও পেনশনভোগীদের জন্য 20 লাখ টাকা",
    "eligibility": [
-    "Indigenous inhabitants or permanent residents of Nagaland not covered by AB PM-JAY or any other public health insurance (General Category)",
-    "Contractual, ad-hoc and fixed-pay state employees with a valid PIMS code, and accredited journalists, also come under the General Category",
-    "Regular state government employees, legislators, PSU employees and pensioners, with their dependants, come under CMHIS (EP) with Rs.20 lakh cover",
-    "Ration card holders need not register as a new household. Their card is made against the existing ration card",
-    "A household means people who live together and share one kitchen. There is no income limit"
+    "নাগাল্যান্ডের ভূমিপুত্র বা স্থায়ী বাসিন্দা যারা AB PM-JAY বা অন্য কোনো সরকারি স্বাস্থ্য বীমার আওতায় নেই (সাধারণ ক্যাটাগরি)",
+    "বৈধ PIMS কোড থাকা রাজ্যের চুক্তিভিত্তিক, অ্যাড-হক এবং ফিক্সড-পে কর্মচারী, এবং স্বীকৃত সাংবাদিকরাও সাধারণ ক্যাটাগরির অধীনে আসেন",
+    "স্থায়ী রাজ্য সরকারি কর্মচারী, বিধায়ক, PSU কর্মচারী এবং পেনশনভোগীরা তাদের নির্ভরশীলদের সহ 20 লাখ টাকার কভারযুক্ত CMHIS (EP)-এর অধীনে আসেন",
+    "রেশন কার্ডধারীদের নতুন পরিবার হিসাবে রেজিস্ট্রেশন করার প্রয়োজন নেই। তাদের বিদ্যমান রেশন কার্ডের বিপরীতেই কার্ড তৈরি হয়",
+    "একটি পরিবার বা হাউসহোল্ড বলতে এমন ব্যক্তিদের বোঝায় যারা একসাথে থাকেন এবং একটি রান্নাঘর ব্যবহার করেন। আয়ের কোনো সীমা নেই"
    ],
    "documents": [
-    "Indigenous Inhabitant Certificate (IIC) or Permanent Resident Certificate (PRC) issued after 2016, for the head of the household",
-    "System-generated self-declaration form, signed by the applicant and the Village, Ward or Colony Chairman",
-    "Aadhaar card of every member, for e-KYC",
-    "A mobile number and an email ID (both verified by OTP)",
-    "Proof of relationship for every dependant except the spouse",
-    "Employees: PIMS code. Pensioners: PPO number and the first 3 pages of the PPO book as a PDF"
+    "পরিবারের প্রধানের জন্য 2016 সালের পর ইস্যু করা ইন্ডিজেনাস ইনহ্যাবিট্যান্ট সার্টিফিকেট (IIC) বা পার্মানেন্ট রেসিডেন্ট সার্টিফিকেট (PRC)",
+    "সিস্টেম থেকে তৈরি সেলফ-ডিক্লেয়ারেশন ফর্ম, যা আবেদনকারী এবং ভিলেজ, ওয়ার্ড বা কলোনি চেয়ারম্যান দ্বারা স্বাক্ষরিত",
+    "e-KYC-এর জন্য প্রতিটি সদস্যের আধার কার্ড",
+    "একটি মোবাইল নম্বর এবং একটি ইমেইল আইডি (উভয়ই OTP দিয়ে ভেরিফাই করা)",
+    "স্বামী/স্ত্রী ছাড়া প্রতিটি নির্ভরশীলের সম্পর্কের প্রমাণপত্র",
+    "কর্মচারীদের জন্য: PIMS কোড। পেনশনভোগীদের জন্য: PPO নম্বর এবং PPO বইয়ের প্রথম 3 পৃষ্ঠা PDF হিসেবে"
    ],
    "portalName": "CMHIS नागालैंड",
    "demoFields": [
     {
      "label": "কি হিচাপে পঞ্জীয়ন",
      "value": "सामान्य श्रेणी",
-     "hint": "Government employees use Register with PIMS Code, pensioners use Register as Pensioner."
+     "hint": "সরকারি কর্মচারীরা 'Register with PIMS Code' ব্যবহার করুন, পেনশনভোগীরা 'Register as Pensioner' ব্যবহার করুন।"
     },
     {
      "label": "সম্পূৰ্ণ নাম",
      "value": "Vikheto Sumi",
-     "hint": "Give your FULL NAME exactly as on your Aadhaar card."
+     "hint": "ঠিক আধার কার্ডে যেমন আছে তেমন আপনার সম্পূর্ণ নাম লিখুন।"
     },
     {
      "label": "মবাইল নম্বৰ",
      "value": "90000 20233",
-     "hint": "Verified by OTP. You will log in with it later."
+     "hint": "OTP দ্বারা ভেরিফাই করা হয়েছে। আপনি পরবর্তীতে এটি দিয়ে লগইন করবেন।"
     },
     {
      "label": "ईमेल",
      "value": "vikheto.sumi@example.com",
-     "hint": "The email of any family member can be used. It is needed for password reset and is verified too."
+     "hint": "পরিবারের যেকোনো সদস্যের ইমেইল ব্যবহার করা যেতে পারে। পাসওয়ার্ড রিসেটের জন্য এটি প্রয়োজন এবং এটিও ভেরিফাই করা হয়।"
     },
     {
      "label": "IIC / PRC नंबर और जारी करने वाला जिला",
      "value": "IIC/ZBTO/2021/99999 — Zunheboto",
-     "hint": "It must be issued after 2016. The application goes to the district administration that issued it."
+     "hint": "এটি অবশ্যই 2016 সালের পর ইস্যু হতে হবে। এটি প্রদানকারী জেলা প্রশাসনের কাছে আবেদনটি যায়।"
     },
     {
      "label": "परिवार के सदस्य",
-     "value": "Atoli Sumi (Spouse), Hokiye Sumi (Son)",
-     "hint": "Everyone who lives with you and shares one kitchen."
+     "value": "আতোলি সুমি (স্ত্রী), হোকিয়ে সুমি (ছেলে)",
+     "hint": "আপনার সাথে থাকেন এবং একই রান্নাঘর ব্যবহার করেন এমন সবাই।"
     },
     {
      "label": "रिश्ते का प्रमाण",
      "value": "बेटे का जन्म प्रमाण पत्र अपलोड किया गया",
-     "hint": "Needed for every dependant except the spouse."
+     "hint": "স্বামী/স্ত্রী ছাড়া প্রতিটি নির্ভরশীলের জন্য প্রয়োজন।"
     },
     {
      "label": "स्व-घोषणा फॉर्म",
      "value": "दस्तखत की हुई कॉपी अपलोड की गई",
-     "hint": "Download the system-generated form, get it signed by you and your Village, Ward or Colony Chairman, and upload it."
+     "hint": "সিস্টেম থেকে তৈরি ফর্মটি ডাউনলোড করুন, আপনার এবং আপনার ভিলেজ, ওয়ার্ড বা কলোনি চেয়ারম্যানের সই নিয়ে আপলোড করুন।"
     }
    ],
    "demoSteps": [
-    "Open the CMHIS registration page and choose General Category. Employees use their PIMS code, pensioners their PPO number.",
-    "Enter your full name as on Aadhaar, and verify your mobile number and email with the OTPs.",
-    "Add your household members and upload the IIC or PRC and the relationship proofs. Download the self-declaration form, get it signed by the Village, Ward or Colony Chairman, and upload it.",
-    "Submit. The district administration that issued your IIC or PRC checks it. On approval you get an SMS and email with your Household ID.",
-    "Take the Household ID and every member's Aadhaar to a registration centre (district hospital, CHC, PHC, DC office or CSC) for Aadhaar e-KYC, and collect the Ayushman CMHIS card. Ration card holders can go straight to this step.",
-    "At an empanelled hospital, show the card. Treatment is cashless up to Rs.5 lakh a year for the family."
+    "CMHIS রেজিস্ট্রেশন পৃষ্ঠাটি খুলুন এবং General Category বেছে নিন। কর্মচারীরা তাদের PIMS কোড, পেনশনভোগীরা তাদের PPO নম্বর ব্যবহার করুন।",
+    "আধারে যেভাবে আছে সেভাবে আপনার সম্পূর্ণ নাম লিখুন, এবং OTP দিয়ে আপনার মোবাইল নম্বর ও ইমেইল ভেরিফাই করুন।",
+    "আপনার পরিবারের সদস্যদের যোগ করুন এবং IIC বা PRC এবং সম্পর্কের প্রমাণপত্র আপলোড করুন। সেলফ-ডিক্লেয়ারেশন ফর্মটি ডাউনলোড করুন, ভিলেজ, ওয়ার্ড বা কলোনি চেয়ারম্যানের সই নিন এবং আপলোড করুন।",
+    "জমা দিন। আপনার IIC বা PRC প্রদানকারী জেলা প্রশাসন এটি পরীক্ষা করে দেখবে। অনুমোদন পেলে আপনি একটি Household ID সহ SMS এবং ইমেইল পাবেন।",
+    "Aadhaar e-KYC-এর জন্য হাউস হোল্ড আইডি এবং প্রতিটি সদস্যের আধার নিয়ে একটি রেজিস্ট্রেশন কেন্দ্রে (জেলা হাসপাতাল, CHC, PHC, DC অফিস বা CSC) যান এবং আয়ুষ্মান CMHIS কার্ড সংগ্রহ করুন। রেশন কার্ডধারীরা সরাসরি এই পদক্ষেপে যেতে পারেন।",
+    "এমপ্যানেলভুক্ত হাসপাতালে কার্ডটি দেখান। পরিবারের জন্য বছরে 5 লাখ টাকা পর্যন্ত ক্যাশলেস চিকিৎসা পাওয়া যাবে।"
    ],
-   "helpline": "1800 202 3380 — CMHIS helpdesk, Nagaland Health Protection Society / 14555 — Ayushman Bharat national helpline",
+   "helpline": "1800 202 3380 — CMHIS হেল্পডেস্ক, নাগাল্যান্ড হেলথ প্রোটাকশন সোসাইটি / 14555 — আয়ুষ্মান ভারত জাতীয় হেল্পলাইন",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -17390,36 +17390,36 @@
   {
    "id": "od-mamata-pmmvy",
    "title": "ममता-PMMVY (ममता योजना)",
-   "department": "Women & Child Development Department, Government of Odisha (with the Union Ministry of Women & Child Development for PMMVY)",
-   "brief": "Cash help for a pregnant woman so she can eat well and rest before and after the birth. Since 1 April 2025 Odisha's old Mamata scheme and the central PMMVY run together as MAMATA-PMMVY, and the amount has gone up to Rs 10,000 for a boy and Rs 12,000 for a girl. It is paid in two instalments, for the first two live births (all births for PVTG families), straight into the mother's Aadhaar-linked account. You register at your Anganwadi Centre; the Anganwadi worker fills the form on the scheme's app, or you can self-register on the app.",
-   "benefit": "Rs 10,000 for a boy, Rs 12,000 for a girl, in two instalments (first two live births)",
+   "department": "মহিলা ও শিশু বিকাশ বিভাগ, ওড়িশা সরকার (PMMVY-র জন্য কেন্দ্রীয় মহিলা ও শিশু বিকাশ মন্ত্রকের সাথে)",
+   "brief": "গর্ভবতী মহিলার জন্য নগদ সাহায্য যাতে তিনি সন্তান প্রসবের আগে ও পরে ভালোভাবে খেতে ও বিশ্রাম নিতে পারেন। 1 এপ্রিল 2025 থেকে ওড়িশার পুরোনো মমতা স্কিম এবং কেন্দ্রীয় PMMVY যৌথভাবে MAMATA-PMMVY হিসেবে পরিচালিত হচ্ছে, এবং এই টাকার পরিমাণ বাড়িয়ে ছেলে শিশুর জন্য 10,000 টাকা এবং মেয়ে শিশুর জন্য 12,000 টাকা করা হয়েছে। এটি দুটি কিস্তিতে, প্রথম দুটি জীবিত সন্তানের জন্ম পর্যন্ত (PVTG পরিবারের জন্য প্রতিটি জন্মেই), সরাসরি মায়ের আধার-লিঙ্কযুক্ত অ্যাকাউন্টে দেওয়া হয়। আপনি আপনার অঙ্গনওয়াড়ি কেন্দ্রে রেজিস্ট্রেশন করবেন; অঙ্গনওয়াড়ি কর্মী স্কিমের অ্যাপে ফর্মটি পূরণ করে দেবেন, অথবা আপনি নিজে অ্যাপে স্ব-রেজিস্ট্রেশন করতে পারেন।",
+   "benefit": "ছেলে হলে 10,000 টাকা, মেয়ে হলে 12,000 টাকা, দুটি কিস্তিতে (প্রথম দুটি জীবিত সন্তানের জন্য)",
    "eligibility": [
-    "Pregnant women and new mothers living in Odisha, aged 18 years 7 months to 55 years on the date of the last period (LMP)",
-    "Must fit any one: SC or ST; 40% or more disability; ration card; Ayushman (PMJAY) card; e-Shram card; woman farmer getting PM-KISAN; MGNREGA job card; family income below Rs 8 lakh; or Anganwadi worker, helper or ASHA",
-    "Paid for the first two live births. Women of the 13 PVTG communities (Bonda, Juang, Dongria Kondh, Lanjia Saora and others) get it for every birth, until March 2029",
-    "Not for women whose own or husband's job is a regular Central or State government or PSU post, or whose family income is above Rs 8 lakh",
-    "First instalment: pregnancy registered at the Anganwadi and at least one check-up (ANC) within six months of the last period. Second: birth registered and all the baby's vaccines up to 14 weeks done"
+    "ওড়িশায় বসবাসকারী গর্ভবতী মহিলা এবং নতুন মায়েরা, যাদের বয়স শেষ মাসিকের (LMP) তারিখে 18 বছর 7 মাস থেকে 55 বছরের মধ্যে",
+    "যেকোনো একটির মানদণ্ড পূরণ করতে হবে: SC বা ST; 40% বা তার বেশি প্রতিবন্ধকতা; রেশন কার্ড; আয়ুষ্মান (PMJAY) কার্ড; ই-শ্রম (e-Shram) কার্ড; PM-KISAN পাওয়া মহিলা কৃষক; MGNREGA জব কার্ড; পারিবারিক আয় 8 লাখ টাকার নিচে; অথবা অঙ্গনওয়াড়ি কর্মী, হেল্পার বা আশা (ASHA) কর্মী",
+    "প্রথম দুটি জীবিত সন্তানের জন্য প্রদান করা হয়। 13টি PVTG সম্প্রদায়ের (বন্ডা, জুয়াং, ডোংরিয়া কোন্ধ, লাঞ্জিয়া সাওরা এবং অন্যান্য) মহিলারা 2029 সালের মার্চ পর্যন্ত প্রতিটি সন্তানের জন্মেই এটি পাবেন",
+    "যে মহিলাদের নিজের বা স্বামীর চাকরি কেন্দ্র বা রাজ্য সরকার বা PSU-র স্থায়ী পদ, অথবা যাদের পারিবারিক আয় 8 লাখ টাকার বেশি, তাদের জন্য নয়",
+    "প্রথম কিস্তি: অঙ্গনওয়াড়িতে গর্ভাবস্থা নিবন্ধিত এবং শেষ মাসিকের ছয় মাসের মধ্যে অন্তত একটি স্বাস্থ্য পরীক্ষা (ANC)। দ্বিতীয়: জন্ম নিবন্ধিত এবং শিশুর 14 সপ্তাহ পর্যন্ত সমস্ত টিকাদান সম্পন্ন"
    ],
    "documents": [
     "आधार कार्ड (अनिवार्य)",
-    "Bank or post office account in her name only, linked to Aadhaar and DBT-enabled, with a photocopy of the passbook's first page",
-    "Mobile number linked to Aadhaar and the bank account",
-    "Mother and Child Protection (MCP) card, given free by the ANM when the pregnancy is registered",
+    "কেবলমাত্র তাঁর নিজের নামে ব্যাংক বা পোস্ট অফিস অ্যাকাউন্ট, যা আধারের সাথে লিঙ্কযুক্ত এবং DBT-সক্ষম, সাথে পাসবুকের প্রথম পৃষ্ঠার ফটোকপি",
+    "আধার এবং ব্যাংক অ্যাকাউন্টের সাথে লিঙ্কযুক্ত মোবাইল নম্বর",
+    "মাদার অ্যান্ড চাইল্ড প্রোটাকশন (MCP) কার্ড, গর্ভাবস্থা নিবন্ধনের সময় ANM দ্বারা বিনামূল্যে প্রদান করা হয়",
     "ABHA स्वास्थ्य ID नंबर, ANM द्वारा बनाया गया",
-    "One proof of eligibility: caste certificate, disability certificate, Ayushman card, PM-KISAN, income certificate, ration card, e-Shram card, MGNREGA job card, or Anganwadi/ASHA identity card",
-    "For the second instalment: the baby's birth registration and vaccinations entered in the MCP card"
+    "যোগ্যতার একটি প্রমাণপত্র: কাস্ট সার্টিফিকেট, প্রতিবন্ধী সার্টিফিকেট, আয়ুষ্মান কার্ড, PM-KISAN, ইনকাম সার্টিফিকেট, রেশন কার্ড, ই-শ্রম কার্ড, MGNREGA জব কার্ড, বা অঙ্গনওয়াড়ি/আশা পরিচয়পত্র",
+    "দ্বিতীয় কিস্তির জন্য: শিশুর জন্ম নিবন্ধন এবং MCP কার্ডে লেখা টিকাদানের বিবরণ"
    ],
-   "submitAt": "Your village or ward Anganwadi Centre. Go as soon as you know you are pregnant, within six months of your last period, and take your Aadhaar card, bank or post office passbook, mobile phone, MCP card, ABHA number and one eligibility proof (such as the ration card). The Anganwadi worker fills the form on the MAMATA-PMMVY app for you, free; you get an SMS on your phone as acknowledgement. For the second instalment, go back to the same Anganwadi Centre after the baby's 14-week vaccines.",
+   "submitAt": "আপনার গ্রাম বা ওয়ার্ডের অঙ্গনওয়াড়ি কেন্দ্র। আপনার গর্ভাবস্থার কথা জানার সাথে সাথেই যান, শেষ মাসিকের ছয় মাসের মধ্যে, এবং আপনার আধার কার্ড, ব্যাংক বা পোস্ট অফিস পাসবুক, মোবাইল ফোন, MCP কার্ড, ABHA নম্বর এবং একটি যোগ্যতার প্রমাণপত্র (যেমন রেশন কার্ড) নিয়ে যান। অঙ্গনওয়াড়ি কর্মী আপনার জন্য বিনামূল্যে MAMATA-PMMVY অ্যাপে ফর্মটি পূরণ করবেন; প্রাপ্তিস্বীকার হিসেবে আপনি আপনার ফোনে একটি SMS পাবেন। দ্বিতীয় কিস্তির জন্য, শিশুর 14 সপ্তাহের টিকাদানের পর একই অঙ্গনওয়াড়ি কেন্দ্রে ফিরে যান।",
    "demoFields": [
     {
-     "label": "Name of beneficiary (as on Aadhaar)",
+     "label": "উপকারীর নাম (আধারে যেমন আছে)",
      "value": "Sasmita Behera",
-     "hint": "The pregnant woman's own name, spelt exactly as on her Aadhaar card."
+     "hint": "গর্ভবতী মহিলার নিজস্ব নাম, ঠিক তার আধার কার্ডের মতোই বানান সহ।"
     },
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 4521 0876",
-     "hint": "The woman's own Aadhaar. Without it the form cannot be registered."
+     "hint": "মহিলার নিজস্ব আধার। এটি ছাড়া ফর্ম রেজিস্টার করা যাবে না।"
     },
     {
      "label": "জন্মৰ তাৰিখ",
@@ -18264,12 +18264,12 @@
    "submitAt": "There is no application form now. The department reads the details from the Civil Supplies ration-card data. First make sure your BPL card shows you as head of the family, with Aadhaar linked, at the Civil Supplies office. If you are eligible but not being paid, go with your ration card, Aadhaar and bank passbook and sign the undertaking. In Puducherry region go to the Deputy Director (Social Defence), Old Age Pension Section, Department of Women and Child Development. In Karaikal go to the Child Development Project Officer. In Mahe or Yanam go to the Welfare Officer.",
    "demoFields": [
     {
-     "label": "Name of the applicant",
+     "label": "आवेदक का नाम",
      "value": "सेल्वी मुरुगन",
      "hint": "There is no form to fill now. These are the details the department reads from your ration card, so check that they are correct on the card."
     },
     {
-     "label": "Father's / Husband's name",
+     "label": "पिता / पति का नाम",
      "value": "मुरुगन रामासामी",
      "hint": "As printed on the ration card."
     },
@@ -18766,7 +18766,7 @@
     "Aadhaar card (proof of identity, address and age)",
     "A second proof of age: voter card or voter list entry, birth certificate or matriculation certificate",
     "First page of the bank passbook",
-    "Self-declaration",
+    "स्व-घोषणा (Self-declaration)",
     "Village: land report from the Patwari. City: property verification from the Executive Officer of the Municipal Council",
     "मोबाइल नंबर, ओटीपी (OTP) और एसएमएस अपडेट के लिए"
    ],
@@ -18865,7 +18865,7 @@
      "hint": "Exactly as on the Aadhaar and the bank account, or the payment can bounce."
     },
     {
-     "label": "Mother's Aadhaar number",
+     "label": "मां का आधार नंबर",
      "value": "9999 2841 0573",
      "hint": "The ANM enters this at the first pregnancy check-up."
     },
@@ -19075,7 +19075,7 @@
      "hint": "Copy them from your jamabandi. The patwari checks them against the land record."
     },
     {
-     "label": "Self-declaration",
+     "label": "स्व-घोषणा (Self-declaration)",
      "value": "Ticked",
      "hint": "You confirm that you are not in an excluded group such as an income-tax payer or a government employee."
     }
@@ -19674,7 +19674,7 @@
    ],
    "documents": [
     "Jan Aadhaar card of the palanhar, with the child added to it",
-    "Aadhaar card of each child",
+    "प्रत्येक बच्चे का आधार कार्ड",
     "Residence proof — domicile certificate, ration card or voter ID (not needed for BPL, Astha, Antyodaya, PDS or pension holders)",
     "Income proof of up to Rs 1.20 lakh a year (not needed for BPL, Astha, Antyodaya or pension holders)",
     "Anganwadi registration or school study certificate (not needed if the school has verified the child on Shala Darpan)",
@@ -20025,7 +20025,7 @@
      "hint": "Write the name exactly as it is on your Aadhaar card. The beneficiary list is made from it."
     },
     {
-     "label": "Father's / Husband's name",
+     "label": "पिता / पति का नाम",
      "value": "কাৰ্মা ছেৰিং ভুটিয়া",
      "hint": "Your husband's name, or your father's name if you are unmarried, widowed or separated."
     },
@@ -20369,7 +20369,7 @@
      "hint": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
     },
     {
-     "label": "Occupation",
+     "label": "व्यवसाय (काम)",
      "value": "दैनिक वेतन भोगी कृषि श्रमिक",
      "hint": "Your main work, in simple words, for example coolie, weaver, auto driver or homemaker."
     },
@@ -22955,7 +22955,7 @@
      "hint": "আপনার জমি যেখানে অবস্থিত। লক্ষ্যমাত্রা জেলা অনুযায়ী নির্ধারণ করা হয়।"
     },
     {
-     "label": "Scheme",
+     "label": "योजना",
      "value": "সাব-মিশন অন এগ্রিকালচারাল মেকানাইজেশন (SMAM)",
      "hint": "সুপার সিডার, হ্যাপি সিডার, মালচার এবং বেলার-এর জন্য ক্রপ রেসিডিউ স্কিম (CRM) বেছে নিন।"
     },
@@ -23186,7 +23186,7 @@
      "hint": "OTP আধারের সাথে লিঙ্ক করা মোবাইলে যায়। যদি সেই নম্বরটি হারিয়ে যায়, তবে প্রথমে একটি আধার সেন্টারে গিয়ে সেটি আপডেট করান।"
     },
     {
-     "label": "Mobile",
+     "label": "मोबाइल",
      "value": "93350 11223",
      "hint": "আপনার আধার-লিঙ্কড নম্বর বা আপনার কাছে থাকা অন্য কোনো নম্বর। অনুমোদনের SMS এবং লগইন মেসেজ এখানে আসবে।"
     },
@@ -23776,7 +23776,7 @@
      "hint": "Where the family lives now. Choose your town or nagar panchayat instead of a block if you live in a town."
     },
     {
-     "label": "Mother's Aadhaar number",
+     "label": "मां का आधार नंबर",
      "value": "9999 4521 7630",
      "hint": "The mother's 12-digit Aadhaar. The father's Aadhaar is asked for in the next box."
     },
@@ -24163,7 +24163,7 @@
    "portalName": "Social Security State Portal (eSPAN), Social Welfare Department Uttarakhand",
    "demoFields": [
     {
-     "label": "Scheme",
+     "label": "योजना",
      "value": "বৃদ্ধ পেঞ্চন",
      "hint": "Choose the old age pension from the list. The scheme cannot be changed after saving."
     },
@@ -25229,7 +25229,7 @@
     },
     {
      "label": "গ্রহণকারী কর্তৃপক্ষের নাম / পদবি / যোগাযোগ",
-     "value": "Bina Roy / Health Assistant / 90000 72811",
+     "value": "बीना रॉय / स्वास्थ्य सहायक / 90000 72811",
      "hint": "The official or help-desk staff taking your enrolment, for example at a camp or hospital desk, fills in their own details. If you are applying alone and unsure, call 1800-345-5384 before you submit."
     }
    ],

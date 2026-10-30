@@ -6,61 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_08.json",
  "items": [
   {
-   "k": "73564bc74ed1",
-   "ctx": "demoSteps",
-   "t": "Give a life certificate to the field staff every year to keep the pension running."
-  },
-  {
-   "k": "226c3b08e9af",
-   "ctx": "helpline",
-   "t": "0260-2632303 — District Panchayat, Dadra & Nagar Haveli (Silvassa); the District Panchayat or Municipal Council office at Daman or Diu"
-  },
-  {
-   "k": "6ad4ee91a712",
-   "ctx": "title",
-   "t": "Ayushman Bharat PM-JAY Delhi (Ayushman / Vay Vandana Card)"
-  },
-  {
-   "k": "50d1d3d9f27b",
-   "ctx": "department",
-   "t": "Department of Health & Family Welfare, Govt of NCT of Delhi, with the National Health Authority"
-  },
-  {
-   "k": "4945fe2cd908",
-   "ctx": "brief",
-   "t": "Delhi joined Ayushman Bharat in April 2025 and adds its own Rs 5 lakh on top of the Centre's Rs 5 lakh, so eligible families get Rs 10 lakh a year of free, cashless hospital treatment. Every Delhi resident aged 70 or above gets the Vay Vandana card with the same Rs 10 lakh cover, whatever the income. Treatment is at empanelled government and private hospitals, and free OPD care is given at Ayushman Arogya Mandirs. You can make the card yourself on the phone."
-  },
-  {
-   "k": "6d54b0702996",
-   "ctx": "benefit",
-   "t": "Rs 10 lakh a year cashless (Rs 5 lakh from the Centre + Rs 5 lakh Delhi top-up)"
-  },
-  {
-   "k": "297933a1aeb2",
-   "ctx": "eligibility",
-   "t": "Delhi families found in the National Food Security (ration card) data or the SECC 2011 list, or groups added by the Delhi Cabinet (about 6.5 lakh families)"
-  },
-  {
-   "k": "ac88d6d9bac9",
-   "ctx": "eligibility",
-   "t": "Every Delhi resident aged 70 or above, whatever the family income, under the Vay Vandana card"
-  },
-  {
-   "k": "c0fe57554791",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age, and illnesses you already have are covered from day one"
-  },
-  {
-   "k": "ef1fee50199d",
-   "ctx": "eligibility",
-   "t": "Each member needs Aadhaar e-KYC to get a card; the cover is shared by the family"
-  },
-  {
-   "k": "fc32d2a8532f",
-   "ctx": "documents",
-   "t": "Delhi ration card number, to find and link the family"
-  },
-  {
    "k": "f8dc86cb764d",
    "ctx": "documents",
    "t": "For the 70+ Vay Vandana card, Aadhaar alone is enough (it shows your age)"
@@ -779,6 +724,96 @@
    "k": "b4ed20eafea1",
    "ctx": "department",
    "t": "Directorate of Women & Child Development, Government of Goa"
+  },
+  {
+   "k": "7b691d7ab1a0",
+   "ctx": "brief",
+   "t": "Rs.1,500 every month in the bank account of a Goan homemaker whose family earns up to Rs.3 lakh a year, to help with household costs. It is for married women, widows and divorcees who have lived in Goa for 15 years. Apply on Goa Online; the money arrives by the 10th of each month. The 2026-27 budget announced an increase, but the new amount had not been notified when this was checked."
+  },
+  {
+   "k": "714d1f66d87a",
+   "ctx": "eligibility",
+   "t": "Married woman, widow or divorcee aged 18 or above"
+  },
+  {
+   "k": "1a6b234f03e0",
+   "ctx": "eligibility",
+   "t": "Resident of Goa for at least 15 years; if she was born outside Goa, the husband's 15-year residence is checked too"
+  },
+  {
+   "k": "cd6ba6857c98",
+   "ctx": "eligibility",
+   "t": "Combined gross income of wife and husband not above Rs.3 lakh a year"
+  },
+  {
+   "k": "89a4b6a79a82",
+   "ctx": "eligibility",
+   "t": "Not for women who are, or whose husbands are, regular government or listed public-sector employees"
+  },
+  {
+   "k": "39005af07677",
+   "ctx": "eligibility",
+   "t": "Cannot be drawn together with the Dayanand Social Security pension, except by some widows with young children"
+  },
+  {
+   "k": "7e3b6216de99",
+   "ctx": "documents",
+   "t": "Marriage certificate (husband's death certificate for a widow, divorce order for a divorcee)"
+  },
+  {
+   "k": "99ff842dc531",
+   "ctx": "documents",
+   "t": "Residence certificate showing 15 years in Goa (husband's birth and residence certificates if you were born outside Goa)"
+  },
+  {
+   "k": "ad3cd0ecad44",
+   "ctx": "documents",
+   "t": "Income proof, with the self-declaration of occupation and income"
+  },
+  {
+   "k": "492aa315d43a",
+   "ctx": "documents",
+   "t": "Savings bank account details, with the account linked to Aadhaar"
+  },
+  {
+   "k": "b74174bcf9ef",
+   "ctx": "documents",
+   "t": "Photo and signature of the applicant"
+  },
+  {
+   "k": "848a187cc512",
+   "ctx": "documents",
+   "t": "Verification report signed by a Gazetted Officer, MLA or MP (format on the Goa Online page)"
+  },
+  {
+   "k": "2297f8f939b2",
+   "ctx": "value",
+   "t": "Married / 15+ years in Goa / income below Rs.3 lakh / husband not in government service"
+  },
+  {
+   "k": "af17e4864d11",
+   "ctx": "hint",
+   "t": "Answer honestly. The form opens only if every answer fits the rules."
+  },
+  {
+   "k": "82b86bc747dc",
+   "ctx": "hint",
+   "t": "As on your Aadhaar and bank passbook, so the money is not held up."
+  },
+  {
+   "k": "b3633b7db9e8",
+   "ctx": "hint",
+   "t": "Married, widow or divorcee. Widows and divorcees upload the death certificate or divorce order."
+  },
+  {
+   "k": "6afe16766e75",
+   "ctx": "hint",
+   "t": "Where you live now; the field check is done here."
+  },
+  {
+   "k": "0ce9ad724fa4",
+   "ctx": "hint",
+   "t": "Your income and your husband's together, before deductions. It must not be above Rs.3,00,000."
   }
  ]
 }

@@ -6,126 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_07.json",
  "items": [
   {
-   "k": "52b93070830f",
-   "ctx": "benefit",
-   "t": "Marriage help Rs 50,000, pension Rs 1,000 a month, death help Rs 2 to 4 lakh, and more"
-  },
-  {
-   "k": "b098fbf81018",
-   "ctx": "eligibility",
-   "t": "Worked at least 90 days in building or other construction work in the last 12 months"
-  },
-  {
-   "k": "7d29b166ca4e",
-   "ctx": "eligibility",
-   "t": "The 90 days are certified by the employer or contractor, the Labour Enforcement Officer, a registered trade union officer, or your own self-declaration"
-  },
-  {
-   "k": "1468a4984691",
-   "ctx": "eligibility",
-   "t": "Not registered with any other labour welfare board"
-  },
-  {
-   "k": "0ed70605f2c4",
-   "ctx": "eligibility",
-   "t": "Most benefits need some time as a member: 1 year for maternity, bicycle and study help; 3 years for marriage help and house repair; 5 years for the pension"
-  },
-  {
-   "k": "524abd6d60af",
-   "ctx": "eligibility",
-   "t": "Keep the membership renewed; benefits stop while it has lapsed"
-  },
-  {
-   "k": "19fc14c3f01e",
-   "ctx": "documents",
-   "t": "90-day work certificate or self-declaration, with the employer's or contractor's name and address, the work dates and the kind of work"
-  },
-  {
-   "k": "ba5b6ec96ec9",
-   "ctx": "documents",
-   "t": "Names, dates of birth and Aadhaar of family members, for the nominee"
-  },
-  {
-   "k": "b1cb80f00c7a",
-   "ctx": "hint",
-   "t": "Enter it with your name and click Authenticate. The OTP goes to the mobile linked to Aadhaar."
-  },
-  {
-   "k": "9e8a4f513145",
-   "ctx": "hint",
-   "t": "Exactly as printed on your Aadhaar card."
-  },
-  {
-   "k": "6b31a79771e7",
-   "ctx": "hint",
-   "t": "Your own number. The registration number and every update come here by SMS."
-  },
-  {
-   "k": "1bf4f0b824c2",
-   "ctx": "hint",
-   "t": "Choose Rural or Urban and the district where you live."
-  },
-  {
-   "k": "fe742f5abd13",
-   "ctx": "hint",
-   "t": "Your mother's name, whether you are single or married, and your caste category."
-  },
-  {
-   "k": "462cdf27b23e",
-   "ctx": "hint",
-   "t": "Choose the nearest: literate, matric fail, matric pass and so on."
-  },
-  {
-   "k": "8e51af0dc16b",
-   "ctx": "hint",
-   "t": "Copy it from your ration card."
-  },
-  {
-   "k": "176501039da7",
-   "ctx": "label",
-   "t": "Whether registered under any other labour welfare board"
-  },
-  {
-   "k": "a56d0d3cb657",
-   "ctx": "hint",
-   "t": "Answer truthfully. A worker on another board cannot register here."
-  },
-  {
-   "k": "267028e8f709",
-   "ctx": "value",
-   "t": "Shri Ram Construction, Biharsharif / 05-11-2025 to 30-04-2026 / 160 days / Mason (Rajmistri)"
-  },
-  {
-   "k": "03f860dfde43",
-   "ctx": "hint",
-   "t": "Add each employer or contractor with the work dates and nature of work. The total must be at least 90 days."
-  },
-  {
-   "k": "3ebe09aa598a",
-   "ctx": "hint",
-   "t": "Employer, LEO, registered trade union officer, or Self Declaration. Upload the signed certificate."
-  },
-  {
-   "k": "6c92a04d1766",
-   "ctx": "demoSteps",
-   "t": "Open bocwscheme.bihar.gov.in, click Labour Registration, enter your Aadhaar number and name and authenticate with the OTP. If your mobile is not linked to Aadhaar, a CSC or the block Labour Enforcement Officer can do it with your fingerprint."
-  },
-  {
-   "k": "0ac03082fd62",
-   "ctx": "demoSteps",
-   "t": "Verify your mobile number with OTP and fill in your personal details: area, district, mother's name, marital status, category, education and ration card number."
-  },
-  {
-   "k": "f0d042a396cb",
-   "ctx": "demoSteps",
-   "t": "Add the employers you worked for in the last 12 months (at least 90 days in all), choose the certifying authority and upload the certificate or self-declaration."
-  },
-  {
-   "k": "4f34a906fbf4",
-   "ctx": "demoSteps",
-   "t": "Add family members and choose a nominee with a share, upload your photo, pay the fee online, then Preview and Submit. Note the application number."
-  },
-  {
    "k": "99a7422cc860",
    "ctx": "demoSteps",
    "t": "The Labour Enforcement Officer checks and approves the application, and the registration number comes by SMS. Log in with that number and your year of birth to download the labour card and fee receipt."
@@ -899,6 +779,101 @@
    "k": "ef1fee50199d",
    "ctx": "eligibility",
    "t": "Each member needs Aadhaar e-KYC to get a card; the cover is shared by the family"
+  },
+  {
+   "k": "fc32d2a8532f",
+   "ctx": "documents",
+   "t": "Delhi ration card number, to find and link the family"
+  },
+  {
+   "k": "f8dc86cb764d",
+   "ctx": "documents",
+   "t": "For the 70+ Vay Vandana card, Aadhaar alone is enough (it shows your age)"
+  },
+  {
+   "k": "0dd70a5bb4ee",
+   "ctx": "hint",
+   "t": "Any working number you hold. The OTP and the approval message come here."
+  },
+  {
+   "k": "46b40c0bae7a",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Delhi. For someone aged 70 or above, use the 70+ (Vay Vandana) option instead; only Aadhaar is needed."
+  },
+  {
+   "k": "4c1aadfd15e1",
+   "ctx": "hint",
+   "t": "The ration card number finds the whole family at once. You can also search by Aadhaar."
+  },
+  {
+   "k": "53fbb2b77b47",
+   "ctx": "hint",
+   "t": "Copy it from the Delhi ration card. If nothing is found, try your Aadhaar number."
+  },
+  {
+   "k": "f87f16d9b8c7",
+   "ctx": "hint",
+   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication on the phone camera."
+  },
+  {
+   "k": "6c93c750712d",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and Delhi and search by ration card or Aadhaar. For a person aged 70 or above, use the 70+ option with just Aadhaar."
+  },
+  {
+   "k": "c55065f8922d",
+   "ctx": "demoSteps",
+   "t": "Find the member marked eKYC pending and verify with Aadhaar OTP or face authentication."
+  },
+  {
+   "k": "a895b8e5828a",
+   "ctx": "demoSteps",
+   "t": "Take the live photo, fill the mobile number, relation, district and PIN code, and submit."
+  },
+  {
+   "k": "56a263de55fe",
+   "ctx": "demoSteps",
+   "t": "Approval usually comes within a day or two by SMS. Log in again and download the card from Download Card."
+  },
+  {
+   "k": "710a6b3a74e2",
+   "ctx": "demoSteps",
+   "t": "If it does not work online, take Aadhaar and the ration card to a government dispensary or the Ayushman Mitra desk of an empanelled hospital and get the card made there."
+  },
+  {
+   "k": "e67f8695f030",
+   "ctx": "demoSteps",
+   "t": "At the hospital, show the card at the Ayushman Mitra desk. Never pay cash for a treatment covered by the scheme."
+  },
+  {
+   "k": "9b6f60fee742",
+   "ctx": "title",
+   "t": "Delhi Old Age Pension (Financial Assistance to Senior Citizens)"
+  },
+  {
+   "k": "d0d2acd990ad",
+   "ctx": "department",
+   "t": "Department of Social Welfare, Govt of NCT of Delhi"
+  },
+  {
+   "k": "2af92980e36f",
+   "ctx": "brief",
+   "t": "A monthly pension for poor Delhi residents aged 60 and above: Rs 2,000 a month from 60 to 69 (Rs 2,500 for SC, ST and minority applicants) and Rs 2,500 a month from 70 onwards. It is paid every month into your own Aadhaar-linked bank account. You apply on the e-District portal or at the District Social Welfare Office, and new pensions are given only when your assembly constituency's quota has a free slot. The government has proposed raising both rates by Rs 500; until that is notified, these rates apply."
+  },
+  {
+   "k": "560e885e1086",
+   "ctx": "benefit",
+   "t": "Rs 2,000 a month (age 60-69), Rs 2,500 (70+); Rs 500 extra for SC/ST/minority aged 60-69"
+  },
+  {
+   "k": "d6f073735f96",
+   "ctx": "eligibility",
+   "t": "Lived in Delhi for at least 5 years before applying"
+  },
+  {
+   "k": "339ee688b0c8",
+   "ctx": "eligibility",
+   "t": "Yearly income of you and your spouse together below Rs 1 lakh from all sources, including rent and interest"
   }
  ]
 }

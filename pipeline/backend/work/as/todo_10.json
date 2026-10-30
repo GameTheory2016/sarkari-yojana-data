@@ -6,116 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_10.json",
  "items": [
   {
-   "k": "75ee2241acb6",
-   "ctx": "eligibility",
-   "t": "Verified income up to Rs 1.80 lakh a year: covered free"
-  },
-  {
-   "k": "075ed4a4b5ca",
-   "ctx": "eligibility",
-   "t": "Above Rs 1.80 lakh up to Rs 3 lakh: Rs 1,500 a year per family"
-  },
-  {
-   "k": "4852045510c0",
-   "ctx": "eligibility",
-   "t": "Above Rs 3 lakh up to Rs 6 lakh: Rs 4,000 a year. Above Rs 6 lakh: Rs 5,000 a year"
-  },
-  {
-   "k": "01ccb861497f",
-   "ctx": "eligibility",
-   "t": "No limit on family size or age. Every member on the Family ID is covered"
-  },
-  {
-   "k": "414d01229a90",
-   "ctx": "documents",
-   "t": "Mobile number registered in the Family ID, for the OTP"
-  },
-  {
-   "k": "138d1383a006",
-   "ctx": "documents",
-   "t": "Aadhaar card of each member, for the card e-KYC"
-  },
-  {
-   "k": "f9dad75a8e51",
-   "ctx": "documents",
-   "t": "UPI, debit card or net banking to pay the fee, or cash at a CSC"
-  },
-  {
-   "k": "848c171e9a44",
-   "ctx": "documents",
-   "t": "Payment receipt or reference number, as proof that you paid"
-  },
-  {
-   "k": "ea840ba01928",
-   "ctx": "hint",
-   "t": "Choose whether to search by Family ID or Aadhaar. If you have forgotten the Family ID, use I forgot my PPP ID and search with Aadhaar."
-  },
-  {
-   "k": "d9ada9825615",
-   "ctx": "hint",
-   "t": "The 8-digit Family ID of your family."
-  },
-  {
-   "k": "193929c255be",
-   "ctx": "hint",
-   "t": "Sent to the mobile number registered in the Family ID, not any other number."
-  },
-  {
-   "k": "962e8f7ea020",
-   "ctx": "hint",
-   "t": "Read the fee table and the dates, tick the box and continue."
-  },
-  {
-   "k": "27b65de02e06",
-   "ctx": "hint",
-   "t": "Check that every member is listed. A missing member must first be added in the Family ID."
-  },
-  {
-   "k": "34aac58e16c5",
-   "ctx": "hint",
-   "t": "Shown after Check Eligibility, with your verified income band."
-  },
-  {
-   "k": "f9b3fabe0925",
-   "ctx": "hint",
-   "t": "Set by the verified income: Rs 1,500, Rs 4,000 or Rs 5,000 a year."
-  },
-  {
-   "k": "ff6245f3ae15",
-   "ctx": "hint",
-   "t": "Choose Canara Bank to pay yourself, or CSC (Digital Seva Connect) if a CSC operator is paying for you."
-  },
-  {
-   "k": "3c91e7775c4f",
-   "ctx": "hint",
-   "t": "UPI and RuPay debit cards have no extra charge. Other cards may add a small bank fee."
-  },
-  {
-   "k": "27840605a26c",
-   "ctx": "hint",
-   "t": "Save it. Use Check Payment Status on the home page to see the payment and download the receipt."
-  },
-  {
-   "k": "0f7a61af77fe",
-   "ctx": "demoSteps",
-   "t": "If your Family ID income is up to Rs 1.80 lakh you pay nothing: get the Ayushman (Chirayu) card made at a CSC, Saral Kendra or empanelled hospital, or yourself on beneficiary.nha.gov.in with Aadhaar e-KYC."
-  },
-  {
-   "k": "ef5dd7ff2cd6",
-   "ctx": "demoSteps",
-   "t": "If your income is above Rs 1.80 lakh, open chirayuayushmanharyana.in before 30 November 2026 and tap the apply button."
-  },
-  {
-   "k": "f889a48765f8",
-   "ctx": "demoSteps",
-   "t": "Accept the terms, enter the Family ID (or Aadhaar) and the OTP sent to the registered mobile, then check the members and the eligibility shown."
-  },
-  {
-   "k": "cd989c416cd1",
-   "ctx": "demoSteps",
-   "t": "Pay the fee shown (Rs 1,500, Rs 4,000 or Rs 5,000) through Canara Bank by UPI, card or net banking, or at a CSC, and download the receipt."
-  },
-  {
    "k": "47a657b183c7",
    "ctx": "demoSteps",
    "t": "Your cover runs from 1 November 2026 to 31 October 2027. Get each member's card made with Aadhaar e-KYC on beneficiary.nha.gov.in, the Ayushman app or at a CSC."
@@ -894,6 +784,86 @@
    "k": "a97ca7a241e1",
    "ctx": "value",
    "t": "Signed — no other health insurance scheme"
+  },
+  {
+   "k": "d8b2c2edff0b",
+   "ctx": "hint",
+   "t": "A printed form: you allow your Aadhaar to be used for enrolment and state that you are not covered by another scheme."
+  },
+  {
+   "k": "7d893bd47d4f",
+   "ctx": "hint",
+   "t": "Your ration card number, a dash and your member number. It is printed on the card."
+  },
+  {
+   "k": "519f7996ed92",
+   "ctx": "hint",
+   "t": "Paid once. A reprint of a lost card costs Rs.20."
+  },
+  {
+   "k": "c5785d03919f",
+   "ctx": "demoSteps",
+   "t": "Go to the registration counter of a government hospital (PHC, CHC, taluk or district hospital) with your Aadhaar and ration card."
+  },
+  {
+   "k": "a048f6848e24",
+   "ctx": "demoSteps",
+   "t": "The staff check your Aadhaar by fingerprint (or OTP or QR code), and your ration card decides your category: Eligible (BPL) or General."
+  },
+  {
+   "k": "383bf48c241a",
+   "ctx": "demoSteps",
+   "t": "Sign the consent and self-declaration, pay Rs.10, and collect the printed card with your ArK ID. Repeat this for each family member."
+  },
+  {
+   "k": "280cfcc9ec7c",
+   "ctx": "demoSteps",
+   "t": "When you fall ill, go first to a government hospital. If it cannot give the treatment, ask the doctor for a referral to a private hospital empanelled under AB-ArK."
+  },
+  {
+   "k": "bdce6f86bdae",
+   "ctx": "demoSteps",
+   "t": "At the private hospital, go to the Arogya Mitra desk with the card, your Aadhaar and the referral letter. The hospital takes approval from SAST; for eligible families the treatment is cashless."
+  },
+  {
+   "k": "2ee3fa80e3ac",
+   "ctx": "demoSteps",
+   "t": "In an emergency covered by the listed emergency procedures, go straight to the nearest empanelled hospital. No referral is needed."
+  },
+  {
+   "k": "dfd653b9be26",
+   "ctx": "demoSteps",
+   "t": "If a hospital asks a BPL card holder to pay for a covered treatment, call 104 or 1800 425 8330 before paying."
+  },
+  {
+   "k": "67d79b2c1b9f",
+   "ctx": "helpline",
+   "t": "104 — Arogya Sahayavani (toll free); 1800 425 8330 — Arogya Karnataka helpline"
+  },
+  {
+   "k": "697546d7409b",
+   "ctx": "title",
+   "t": "Karnataka Social Security Pensions (Old Age, Sandhya Suraksha, Widow and Disability Pension)"
+  },
+  {
+   "k": "b541f788cc03",
+   "ctx": "department",
+   "t": "Directorate of Social Security and Pensions, Revenue Department, Government of Karnataka"
+  },
+  {
+   "k": "f8dcb22fa668",
+   "ctx": "brief",
+   "t": "Karnataka pays a monthly pension to poor elderly people, widows and people with disabilities, straight into a bank or post office account. The old age pension is Rs.600 a month from 60 to 64 and Rs.1,200 from 65; Sandhya Suraksha gives Rs.1,200 to farmers, labourers, weavers and fishermen aged 65 and above; widows get Rs.800; people with disabilities get Rs.800 to Rs.2,000. One common form covers all of them, and you hand it in at the Atalji Janasnehi Kendra (Nadakacheri) for your area."
+  },
+  {
+   "k": "17a3af5127c5",
+   "ctx": "benefit",
+   "t": "Rs.600 to Rs.2,000 a month depending on the pension; Rs.1,200 for most people aged 65 and above"
+  },
+  {
+   "k": "cfc677fd95f9",
+   "ctx": "eligibility",
+   "t": "Resident of Karnataka, with a family income below Rs.32,000 a year"
   }
  ]
 }

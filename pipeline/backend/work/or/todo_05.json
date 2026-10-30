@@ -6,71 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_05.json",
  "items": [
   {
-   "k": "c9783a8fe629",
-   "ctx": "demoSteps",
-   "t": "If a hospital asks for money, refuses treatment or you need help, call 104."
-  },
-  {
-   "k": "955cf0db2bc6",
-   "ctx": "helpline",
-   "t": "104 — Dr. NTR Vaidya Seva and Aarogya Aasara information and complaints / 108 — emergency ambulance"
-  },
-  {
-   "k": "98372ef3499e",
-   "ctx": "department",
-   "t": "Consumer Affairs, Food & Civil Supplies Department, Government of Andhra Pradesh"
-  },
-  {
-   "k": "169f72332cad",
-   "ctx": "brief",
-   "t": "Andhra Pradesh gives every eligible rice card family three 14.2 kg LPG cylinders a year free, one in each four-month block. You book the cylinder with your gas agency in the usual way and pay for it, and the full amount is refunded to your Aadhaar-linked bank account, usually within 48 hours. There is no form: families with a rice card and a gas connection are listed automatically. You can check your status with your rice card or LPG number."
-  },
-  {
-   "k": "71cfa65a99ee",
-   "ctx": "benefit",
-   "t": "3 free 14.2 kg LPG cylinders a year, one every four months, with the full price refunded"
-  },
-  {
-   "k": "5ef49f85099d",
-   "ctx": "eligibility",
-   "t": "The family holds an Andhra Pradesh rice card"
-  },
-  {
-   "k": "c408e2861d1d",
-   "ctx": "eligibility",
-   "t": "It has an active domestic LPG connection from Indane, HP or Bharat Gas in a family member's name, linked to the rice card. Ujjwala connections count"
-  },
-  {
-   "k": "e5e0f8bef842",
-   "ctx": "eligibility",
-   "t": "One connection per rice card household; a family with two connections gets the benefit on only one"
-  },
-  {
-   "k": "d7fe0a1f7bf0",
-   "ctx": "eligibility",
-   "t": "The household must pass the rice card checks on electricity use, government employment and land, which are the reasons the status page gives for rejection"
-  },
-  {
-   "k": "b01ca20959cc",
-   "ctx": "eligibility",
-   "t": "LPG e-KYC done at the gas agency, and a bank account seeded with the connection holder's Aadhaar"
-  },
-  {
-   "k": "36dfc8f23089",
-   "ctx": "documents",
-   "t": "Aadhaar card of the connection holder"
-  },
-  {
-   "k": "54d01d7c26e5",
-   "ctx": "documents",
-   "t": "Bank account seeded with that Aadhaar"
-  },
-  {
-   "k": "46c50fa54d9a",
-   "ctx": "documents",
-   "t": "Mobile number registered with the gas agency"
-  },
-  {
    "k": "91b016f1c578",
    "ctx": "portalName",
    "t": "Beneficiary Management portal (Deepam 2.0 Status Check)"
@@ -754,6 +689,81 @@
    "k": "7e0ee7d5f0ee",
    "ctx": "hint",
    "t": "Your Samarth enrolment number from admission. The first time, click Register; the OTP goes to the email you gave at admission."
+  },
+  {
+   "k": "33ecacff157f",
+   "ctx": "hint",
+   "t": "The bank where your Aadhaar-seeded account is. Money cannot be sent to any other account."
+  },
+  {
+   "k": "eda55e2161c1",
+   "ctx": "hint",
+   "t": "Printed on the first page of the passbook or on a cheque leaf."
+  },
+  {
+   "k": "964d8c2ea44e",
+   "ctx": "label",
+   "t": "Account Holder Name (Name as per AADHAAR)"
+  },
+  {
+   "k": "fbe50fe97521",
+   "ctx": "hint",
+   "t": "Must match your name in Aadhaar, in the bank and in Samarth letter for letter. Get it corrected first if it differs."
+  },
+  {
+   "k": "ebdb8906bb86",
+   "ctx": "label",
+   "t": "Account Number (AADHAAR Seeded/Linked Bank Account Number)"
+  },
+  {
+   "k": "04d26bbf7780",
+   "ctx": "hint",
+   "t": "Type it twice. Ask the bank to confirm the account is seeded with Aadhaar for DBT."
+  },
+  {
+   "k": "9e6c3b835ba2",
+   "ctx": "hint",
+   "t": "Most students have no PAN. Just tick the box and carry on."
+  },
+  {
+   "k": "2d6aaac3414b",
+   "ctx": "hint",
+   "t": "Choose your level: Undergraduate, Postgraduate or B.Ed. Only regular courses qualify."
+  },
+  {
+   "k": "5b4a2dfb28ab",
+   "ctx": "hint",
+   "t": "Married girls can apply only in PG and B.Ed courses."
+  },
+  {
+   "k": "fdfaa5b08a8d",
+   "ctx": "label",
+   "t": "Gram Panchayat / VCDC / Ward, District, Police Station, LAC"
+  },
+  {
+   "k": "71855e0ec766",
+   "ctx": "hint",
+   "t": "Your home address in Assam, the same as in your declaration form."
+  },
+  {
+   "k": "619c682552f1",
+   "ctx": "label",
+   "t": "Are you a recipient of Dr. Banikanta Kakati Merit Award (Scooter)"
+  },
+  {
+   "k": "17a076ad2c31",
+   "ctx": "hint",
+   "t": "If you took the merit scooter, you cannot get Nijut Moina (except in PG and B.Ed)."
+  },
+  {
+   "k": "4a2f66ad1e29",
+   "ctx": "demoSteps",
+   "t": "In early August, collect the free Nijut Moina form at your college or HS school office (in 2026-27 the forms were given out from 7 August). Fill it, sign the undertaking with a parent, and hand it in with copies of your Aadhaar and bank passbook. University students get it signed by the Head of Department."
+  },
+  {
+   "k": "564891db549b",
+   "ctx": "demoSteps",
+   "t": "The college checks the form and adds your enrolment number to the Nijut Moina scheme on the Samarth portal."
   }
  ]
 }

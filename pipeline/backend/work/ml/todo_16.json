@@ -6,51 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_16.json",
  "items": [
   {
-   "k": "bdafb564451b",
-   "ctx": "eligibility",
-   "t": "Parents are original residents of Madhya Pradesh and do not pay income tax"
-  },
-  {
-   "k": "a0f00fdf853b",
-   "ctx": "eligibility",
-   "t": "Parents have two children or fewer. The first girl qualifies without any condition. For the second girl, the mother or father must have adopted family planning after the second child"
-  },
-  {
-   "k": "75decab37e35",
-   "ctx": "eligibility",
-   "t": "Apply within one year of the girl's birth. Late cases, orphans, adopted girls and girls who have lost a parent can be registered up to age 5 as special cases"
-  },
-  {
-   "k": "617f7be41e39",
-   "ctx": "eligibility",
-   "t": "The final Rs 1 lakh is paid only if she has appeared for the class 12 exam and was not married before 18"
-  },
-  {
-   "k": "0425d1a52072",
-   "ctx": "documents",
-   "t": "Samagra family ID, with the girl added as a member and her 9-digit Samagra member ID"
-  },
-  {
-   "k": "098b0c9c9def",
-   "ctx": "documents",
-   "t": "Photo of the girl with her mother or father (JPG or PNG, 40 to 200 KB)"
-  },
-  {
-   "k": "8386489259d8",
-   "ctx": "documents",
-   "t": "Family planning (sterilisation) certificate, if this is the second girl"
-  },
-  {
-   "k": "336416bed3a3",
-   "ctx": "documents",
-   "t": "Aadhaar card of the mother or father, with e-KYC done in Samagra"
-  },
-  {
-   "k": "a1a8cda659cd",
-   "ctx": "hint",
-   "t": "Choose Normal for a girl under one year old. Choose Special only for a delay of more than a year, an orphan or adopted girl, or a girl whose mother or father has died."
-  },
-  {
    "k": "0ba1fd4c47f1",
    "ctx": "hint",
    "t": "A phone you keep with you. The OTP comes here now, and the messages about approval and payments come here later."
@@ -654,6 +609,71 @@
    "k": "557baf20e799",
    "ctx": "submitAt",
    "t": "The anganwadi sevika of your area, at the anganwadi centre. The application form is printed at the end of the scheme GR linked here (pages 9 to 12), and blank forms are also kept at every Child Development Project Officer (CDPO) office, the Zilla Parishad District Programme Officer's office and the District Women and Child Development Officer's office. Take the filled form with copies of the documents, carry the originals for checking, and ask the sevika for the signed receipt (pohoch pavti) at the bottom of the form. Apply the same way for each later instalment."
+  },
+  {
+   "k": "55d0c66028bd",
+   "ctx": "label",
+   "t": "Applying for (first child / second child / twins)"
+  },
+  {
+   "k": "c53b86c7f3b3",
+   "ctx": "hint",
+   "t": "Tick the one that fits this girl. For twins born at the second delivery, tick twins."
+  },
+  {
+   "k": "d6b088364ee4",
+   "ctx": "hint",
+   "t": "The girl's name as written on her birth certificate."
+  },
+  {
+   "k": "15fd5669746c",
+   "ctx": "hint",
+   "t": "The girl's Aadhaar is not needed for the first instalment. Get it made before the Class 1 instalment."
+  },
+  {
+   "k": "eeeed89fd99d",
+   "ctx": "hint",
+   "t": "Usually the mother, because the money goes to the joint account of the girl and her mother."
+  },
+  {
+   "k": "4959b9b0575b",
+   "ctx": "hint",
+   "t": "Attach a copy of this Aadhaar. Messages about the payment come to the mobile."
+  },
+  {
+   "k": "8596c9ce4210",
+   "ctx": "value",
+   "t": "House 14, Shivaji Chowk, Malegaon BK, Tal. Baramati, Dist. Pune 413115"
+  },
+  {
+   "k": "8ee4a4d23de4",
+   "ctx": "hint",
+   "t": "Where the family lives now: house number, village, post office, taluka, district and PIN code."
+  },
+  {
+   "k": "deeb75590a11",
+   "ctx": "label",
+   "t": "Number of living children when applying"
+  },
+  {
+   "k": "5658c7132f57",
+   "ctx": "hint",
+   "t": "Count all living children, sons and daughters."
+  },
+  {
+   "k": "1cff9b5a750a",
+   "ctx": "label",
+   "t": "Joint bank account number (girl and mother)"
+  },
+  {
+   "k": "3621c5570616",
+   "ctx": "hint",
+   "t": "Open a joint account in the names of the girl and her mother. If the mother has died, open it with the father and attach her death certificate."
+  },
+  {
+   "k": "6bcfefd9bb17",
+   "ctx": "hint",
+   "t": "Copy both from the first page of the passbook, and say whether the account is linked to Aadhaar."
   }
  ]
 }

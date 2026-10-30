@@ -2986,8 +2986,8 @@
      "hint": "After logging in, choose the Vay Vandana enrolment option, not the normal family search."
     },
     {
-     "label": "State",
-     "value": "Rajasthan",
+     "label": "राज्य",
+     "value": "राजस्थान",
      "hint": "The state written in the address on the senior's Aadhaar."
     },
     {
@@ -3001,8 +3001,8 @@
      "hint": "Use Aadhaar OTP if the mobile is linked to Aadhaar. Otherwise scan the face with the Aadhaar FaceRD app."
     },
     {
-     "label": "Beneficiary category",
-     "value": "Self declaration",
+     "label": "लाभार्थी श्रेणी",
+     "value": "स्व-घोषणा",
      "hint": "Choose Self declaration, or CGHS, ECHS or CAPF if the senior is in one of these. That choice cannot be changed later."
     },
     {
@@ -3011,13 +3011,13 @@
      "hint": "Face straight, good light, no cap or dark glasses."
     },
     {
-     "label": "Spouse aged 70+",
-     "value": "Added: Kamla Devi, 9999 2208 7790",
+     "label": "पति या पत्नी की उम्र 70+",
+     "value": "जोड़ा गया: कमला देवी, 9999 2208 7790",
      "hint": "Add the husband or wife here only if they are also 70 or above. Their e-KYC is done the same way."
     },
     {
      "label": "ଜିଲ୍ଲା ଓ PIN କୋଡ",
-     "value": "Ajmer / 305001",
+     "value": "अजमेर / 305001",
      "hint": "Where the senior lives now, so nearby empanelled hospitals are shown."
     }
    ],
@@ -3029,7 +3029,7 @@
     "Approval usually comes the same day or within a day or two. Log in again and download the Vay Vandana card.",
     "At an empanelled hospital, go to the Ayushman Mitra desk and show the card. Treatment is cashless, so never pay for a covered treatment. You can also get the card made free at that desk."
    ],
-   "helpline": "14555 / 1800-111-565 (Ayushman Bharat helpline)",
+   "helpline": "14555 / 1800-111-565 (आयुष्मान भारत हेल्पलाइन)",
    "lastVerified": "ଅକ୍ଟୋବର 2026"
   },
   {
@@ -3129,63 +3129,63 @@
    "benefit": "Rs.12,000 per household for one toilet, paid into the bank account",
    "eligibility": [
     "A rural household with no toilet of its own",
-    "Every below-poverty-line (BPL) household",
+    "प्रत्येक गरीबी रेखा से नीचे (BPL) वाला परिवार",
     "Above-poverty-line households only if SC/ST, a small or marginal farmer, a landless labourer with a homestead, a household with a person with disability, or a woman-headed household",
     "Only new or left-out households: a family that already got a toilet incentive earlier cannot get it again",
     "Families in towns and cities apply under Swachh Bharat Mission (Urban) instead"
    ],
    "documents": [
     "ଆବେଦନକାରୀଙ୍କ ଆଧାର କାର୍ଡ",
-    "Mobile number for the OTP login",
+    "OTP लॉगिन के लिए मोबाइल नंबर",
     "Bank passbook in the applicant's name, with account number and IFSC",
     "BPL ration card, or for APL families proof of the category: caste certificate, disability certificate, or land record for small and marginal farmers",
     "Proof that you live in the village: ration card, voter ID or Panchayat family register entry"
    ],
-   "portalName": "Swachh Bharat Mission (Grameen)",
+   "portalName": "स्वच्छ भारत मिशन (ग्रामीण)",
    "demoFields": [
     {
-     "label": "Mobile No. (as Login Id)",
+     "label": "मोबाइल नंबर (लॉगिन ID के रूप में)",
      "value": "90000 23456",
      "hint": "Register with this number first. Every login is by OTP, and only 5 OTP tries are allowed a day."
     },
     {
-     "label": "Name of Applicant",
-     "value": "Kamla Bai Meena",
+     "label": "आवेदक का नाम",
+     "value": "कमला बाई मीणा",
      "hint": "As on Aadhaar and the bank passbook."
     },
     {
      "label": "ଲିଙ୍ଗ",
      "value": "ମହିଳା",
-     "hint": "Pick the applicant's gender."
+     "hint": "आवेदक का लिंग चुनें।"
     },
     {
      "label": "ବାପା / ସ୍ୱାମୀଙ୍କ ନାମ",
-     "value": "Shankar Lal Meena",
+     "value": "शंकर लाल मीणा",
      "hint": "ଆଧାରରେ ଥିବା ପରି।"
     },
     {
      "label": "ଆଧାର ନମ୍ବର",
      "value": "9999 2201 7845",
-     "hint": "The applicant's own 12-digit number."
+     "hint": "आवेदक का अपना 12-अंकों का नंबर।"
     },
     {
      "label": "State / District / Block / Gram Panchayat / Village",
-     "value": "Rajasthan / Tonk / Uniara / Banetha / Banetha",
+     "value": "राजस्थान / टोंक / उनियारा / बनेठा / बनेठा",
      "hint": "Where the house that needs the toilet stands."
     },
     {
-     "label": "Household Category",
-     "value": "APL – Women headed household",
+     "label": "परिवार की श्रेणी",
+     "value": "APL – महिला प्रधान परिवार",
      "hint": "Choose BPL if you are on the BPL list; otherwise the APL group that fits you."
     },
     {
      "label": "सामाजिक श्रेणी",
      "value": "ST",
-     "hint": "SC, ST, OBC or General."
+     "hint": "SC, ST, OBC या सामान्य।"
     },
     {
-     "label": "Bank Name, Branch and IFSC",
-     "value": "Bank of Baroda, Uniara / BARB0099999",
+     "label": "बैंक का नाम, शाखा और IFSC",
+     "value": "बैंक ऑफ बड़ौदा, उनियारा / BARB0099999",
      "hint": "IFSC is printed on the passbook's first page."
     },
     {
@@ -3728,12 +3728,12 @@
   },
   {
    "id": "apy",
-   "title": "Atal Pension Yojana (APY)",
+   "title": "अटल पेंशन योजना (APY)",
    "department": "Pension Fund Regulatory and Development Authority (PFRDA), Department of Financial Services, Ministry of Finance",
    "brief": "A guaranteed pension of Rs.1,000, 2,000, 3,000, 4,000 or 5,000 a month from age 60, for anyone aged 18 to 40 who has a savings account and does not pay income tax. You choose the pension, and a fixed amount is auto-debited from your bank account until you turn 60; the younger you join, the less you pay. After you, your husband or wife gets the same pension, and after both of you the nominee gets the saved amount. The Cabinet extended the scheme up to 2030-31 in January 2026; you can join online on eAPY if your bank is listed there, through your bank's net banking, or at your bank or post office branch.",
    "benefit": "Guaranteed pension of Rs.1,000 to Rs.5,000 a month from age 60",
    "eligibility": [
-    "Indian citizen aged 18 to 40 years",
+    "18 से 40 वर्ष की आयु का भारतीय नागरिक",
     "Has a savings bank or post office savings account; only one APY account per person",
     "Not an income tax payer now or in the past (rule from 1 October 2022); if found later, the account is closed and the money returned",
     "Pays every month, quarter or half-year until age 60, so at least 20 years of payments",
@@ -3742,31 +3742,31 @@
    "documents": [
     "Savings bank account number and IFSC (passbook)",
     "ଆଧାର କାର୍ଡ",
-    "Mobile number registered with Aadhaar",
+    "आधार के साथ पंजीकृत मोबाइल नंबर",
     "Spouse's name, and the nominee's name, relation and date of birth",
     "For eAPY: Aadhaar OTP, Virtual ID, or the Aadhaar offline e-KYC ZIP file with its share code"
    ],
-   "portalName": "Protean CRA (eAPY online registration)",
+   "portalName": "Protean CRA (eAPY ऑनलाइन पंजीकरण)",
    "demoFields": [
     {
-     "label": "Whether Income Tax Payer",
+     "label": "क्या आयकर दाता हैं",
      "value": "ନାହିଁ",
      "hint": "Choose No. Anyone who has ever paid income tax cannot join APY."
     },
     {
-     "label": "Select your Bank",
-     "value": "Punjab National Bank",
+     "label": "अपना बैंक चुनें",
+     "value": "पंजाब नेशनल बैंक",
      "hint": "The bank where your savings account is. If your bank is not in the list (for example SBI), join through its net banking or at the branch."
     },
     {
-     "label": "NLCC/Branch Name",
-     "value": "Civil Lines, Gorakhpur",
+     "label": "NLCC/शाखा का नाम",
+     "value": "सिविल लाइन्स, गोरखपुर",
      "hint": "The branch where your account is, as printed on the passbook."
     },
     {
-     "label": "Bank Account Type",
-     "value": "Saving Account",
-     "hint": "APY works only with a savings account."
+     "label": "बैंक खाते का प्रकार",
+     "value": "बचत खाता",
+     "hint": "APY केवल बचत खाते के साथ काम करता है।"
     },
     {
      "label": "ବ୍ୟାଙ୍କ ଆକାଉଣ୍ଟ ନମ୍ବର",
@@ -3774,27 +3774,27 @@
      "hint": "Copy it from the passbook. The monthly amount is debited from this account until you turn 60."
     },
     {
-     "label": "Bank IFS Code",
+     "label": "बैंक IFS कोड",
      "value": "PUNB0999900",
      "hint": "The 11-character branch code printed on the passbook or cheque."
     },
     {
-     "label": "Please Select option (KYC)",
+     "label": "कृपया विकल्प चुनें (KYC)",
      "value": "ଆଧାର",
      "hint": "Aadhaar or Virtual ID sends an OTP. Offline KYC needs the ZIP file downloaded from the UIDAI site and its share code."
     },
     {
-     "label": "Aadhaar Registered Mobile Number",
+     "label": "आधार पंजीकृत मोबाइल नंबर",
      "value": "+91 98760 12345",
      "hint": "The number linked to your Aadhaar; the OTP comes here."
     },
     {
-     "label": "Pension Amount",
+     "label": "पेंशन राशि",
      "value": "3,000",
      "hint": "The pension you want at 60. A bigger pension means a bigger monthly payment; the exact amount for your age is shown before you submit."
     },
     {
-     "label": "Periodicity of Contribution",
+     "label": "अंशदान की अवधि",
      "value": "MONTHLY",
      "hint": "Monthly, quarterly or half-yearly. Monthly is easiest to keep up with on a small income."
     }
@@ -3917,21 +3917,21 @@
     "Name and date of birth of your spouse and of your nominee",
     "Cash for the first month's contribution if you join at a CSC (later months are auto-debited)"
    ],
-   "portalName": "Maandhan portal",
+   "portalName": "मानधन पोर्टल",
    "demoFields": [
     {
      "label": "ଏହି ଭାବେ ଲଗଇନ",
-     "value": "Self Enrollment (Using Mobile Number OTP)",
+     "value": "स्व-नामांकन (मोबाइल नंबर OTP का उपयोग करके)",
      "hint": "Choose Self Enrollment. CSC VLE is only for the CSC operator, and Admin Login is for officials."
     },
     {
-     "label": "Mobile",
+     "label": "मोबाइल",
      "value": "90041 23857",
      "hint": "A number you always carry. The login OTP and every debit message come to this phone."
     },
     {
-     "label": "Scheme",
-     "value": "PM-SYM (Pradhan Mantri Shram Yogi Maandhan)",
+     "label": "योजना",
+     "value": "PM-SYM (प्रधानमंत्री श्रम योगी मानधन)",
      "hint": "Pick PM-SYM. The other choice on the same portal, NPS-Traders, is for shopkeepers and small traders."
     },
     {
@@ -3940,32 +3940,32 @@
      "hint": "Your own Aadhaar. After the Aadhaar OTP, your name, date of birth and gender fill in by themselves, so check them."
     },
     {
-     "label": "Occupation",
-     "value": "Domestic worker",
+     "label": "व्यवसाय",
+     "value": "घरेलू कामगार",
      "hint": "The work you actually do every day, for example construction labourer, street vendor, rickshaw puller or farm labourer."
     },
     {
-     "label": "Monthly income",
-     "value": "Rs.9,000",
+     "label": "मासिक आय",
+     "value": "रु. 9,000",
      "hint": "What you earn in a normal month. It must be Rs.15,000 or less."
     },
     {
-     "label": "Bank IFSC and account number",
+     "label": "बैंक IFSC और खाता संख्या",
      "value": "SBIN0009999 / 99990012345678",
      "hint": "Your own savings or Jan Dhan account. The monthly amount is auto-debited from here, so keep enough balance."
     },
     {
-     "label": "Spouse name",
+     "label": "पति या पत्नी का नाम",
      "value": "ରମେଶ କୁମାର ଯାଦବ",
      "hint": "Husband's or wife's name. If you die before 60, your spouse can carry on paying or take the money out."
     },
     {
-     "label": "Nominee name and relation",
-     "value": "Pooja Yadav / Daughter",
+     "label": "नामांकित व्यक्ति का नाम और संबंध",
+     "value": "पूजा यादव / बेटी",
      "hint": "The person who gets the savings if both you and your spouse die."
     },
     {
-     "label": "Self-declaration",
+     "label": "स्व-घोषणा",
      "value": "टिक किया गया",
      "hint": "You confirm you are not in EPF, ESIC or NPS and do not pay income tax. A false declaration gets the account closed."
     }
@@ -3979,7 +3979,7 @@
     "Every month the same amount is auto-debited and the Centre adds an equal amount. Keep money in the account; missed months have to be paid later with a penalty.",
     "From age 60, Rs.3,000 comes into your bank account every month. If you die after that, your spouse gets Rs.1,500 a month for life."
    ],
-   "helpline": "1800-267-6888 (PM-SYM toll-free) / 14434 (Labour Ministry helpline)",
+   "helpline": "1800-267-6888 (PM-SYM टोल-फ्री) / 14434 (श्रम मंत्रालय हेल्पलाइन)",
    "lastVerified": "ଅକ୍ଟୋବର 2026"
   },
   {
@@ -4245,7 +4245,7 @@
   },
   {
    "id": "pmmvy",
-   "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+   "title": "प्रधानमंत्री मातृ वंदना योजना (PMMVY)",
    "department": "Ministry of Women & Child Development (Mission Shakti)",
    "brief": "Cash help for a pregnant woman or new mother, so she can rest before and after the birth instead of losing wages. For the first child you get Rs.5,000 in two parts, and for a second child you get Rs.6,000 in one go if the baby is a girl. The money goes straight into your Aadhaar-linked bank or post office account. You can apply yourself on the PMMVY portal, or your Anganwadi worker or ASHA can fill the form for you.",
    "benefit": "Rs.5,000 for the first child (Rs.3,000 + Rs.2,000); Rs.6,000 if the second child is a girl",
@@ -4265,11 +4265,11 @@
     "Mobile number for OTP and payment messages",
     "For the second part or a second girl child: the baby's birth certificate and vaccination record (14 weeks)"
    ],
-   "portalName": "PMMVY portal (PMMVYsoft)",
+   "portalName": "PMMVY पोर्टल (PMMVYsoft)",
    "demoFields": [
     {
-     "label": "Login type",
-     "value": "Citizen Login",
+     "label": "लॉगिन का प्रकार",
+     "value": "सिटीजन लॉगिन",
      "hint": "Press Login at the top right and choose Citizen. Anganwadi and ASHA workers use the other login."
     },
     {
@@ -4283,27 +4283,27 @@
      "hint": "Where you live now. Your application goes to the Anganwadi centre of this village for checking."
     },
     {
-     "label": "Beneficiary Aadhaar number",
+     "label": "लाभार्थी का आधार नंबर",
      "value": "9999 4521 7730",
      "hint": "The pregnant woman's own Aadhaar, not the husband's. Tick the consent box and verify with the Aadhaar OTP."
     },
     {
      "label": "ଆଧାର ଅନୁସାରେ ନାମ",
-     "value": "Pooja Devi",
+     "value": "पूजा देवी",
      "hint": "Write the name exactly as printed on Aadhaar, letter by letter, or the payment can fail."
     },
     {
-     "label": "Eligibility document",
-     "value": "e-Shram card / UP99-9999-0012",
+     "label": "पात्रता दस्तावेज",
+     "value": "e-Shram कार्ड / UP99-9999-0012",
      "hint": "Pick any one category you belong to, write its number and upload a clear photo of that card."
     },
     {
-     "label": "LMP date (last period)",
+     "label": "LMP की तारीख (अंतिम माहवारी)",
      "value": "02-05-2026",
      "hint": "The first day of your last period, as written on the MCP card by the ANM."
     },
     {
-     "label": "MCP card registration and ANC date",
+     "label": "MCP कार्ड पंजीकरण और ANC की तारीख",
      "value": "18-06-2026",
      "hint": "The date your pregnancy was registered and the check-up was done, also on the MCP card."
     },
@@ -7347,7 +7347,7 @@
     },
     {
      "label": "परिवार की वर्तमान कुल मासिक आय",
-     "value": "Rs.9,000",
+     "value": "रु. 9,000",
      "hint": "Add up everyone's income. A year's total must not be above Rs.1.5 lakh."
     },
     {
@@ -8198,7 +8198,7 @@
     "If it does not work online, take Aadhaar and the ration card to a government dispensary or the Ayushman Mitra desk of an empanelled hospital and get the card made there.",
     "At the hospital, show the card at the Ayushman Mitra desk. Never pay cash for a treatment covered by the scheme."
    ],
-   "helpline": "14555 / 1800-111-565 (Ayushman Bharat helpline)",
+   "helpline": "14555 / 1800-111-565 (आयुष्मान भारत हेल्पलाइन)",
    "lastVerified": "ଅକ୍ଟୋବର 2026"
   },
   {
@@ -14046,7 +14046,7 @@
      "hint": "The pension goes to the bank account linked to this Aadhaar."
     },
     {
-     "label": "Monthly income",
+     "label": "मासिक आय",
      "value": "कुछ नहीं",
      "hint": "Write your own monthly income. Above Rs.1,500 makes you ineligible."
     },
@@ -15607,7 +15607,7 @@
      "hint": "Best if it is the number linked to your Aadhaar, because the OTP and later e-KYC use it."
     },
     {
-     "label": "State",
+     "label": "राज्य",
      "value": "महाराष्ट्र",
      "hint": "The state where your land is. The portal then checks whether your Farmer ID exists; if not, it offers the steps to make one."
     },
@@ -18766,7 +18766,7 @@
     "Aadhaar card (proof of identity, address and age)",
     "A second proof of age: voter card or voter list entry, birth certificate or matriculation certificate",
     "First page of the bank passbook",
-    "Self-declaration",
+    "स्व-घोषणा",
     "Village: land report from the Patwari. City: property verification from the Executive Officer of the Municipal Council",
     "ਮੋਬਾਈਲ ਨੰਬਰ, OTP ਅਤੇ SMS ਅੱਪਡੇਟ ਲਈ"
    ],
@@ -19040,7 +19040,7 @@
      "hint": "The OTP and every payment SMS come here."
     },
     {
-     "label": "State",
+     "label": "राज्य",
      "value": "RAJASTHAN",
      "hint": "Choose Rajasthan; only then is the state's Rs 3,000 added."
     },
@@ -19075,7 +19075,7 @@
      "hint": "Copy them from your jamabandi. The patwari checks them against the land record."
     },
     {
-     "label": "Self-declaration",
+     "label": "स्व-घोषणा",
      "value": "टिक किया गया",
      "hint": "You confirm that you are not in an excluded group such as an income-tax payer or a government employee."
     }
@@ -20369,7 +20369,7 @@
      "hint": "Copy the date of birth from Aadhaar. If you do not know it, write the age in years."
     },
     {
-     "label": "Occupation",
+     "label": "व्यवसाय",
      "value": "Daily-wage farm worker",
      "hint": "Your main work, in simple words, for example coolie, weaver, auto driver or homemaker."
     },
@@ -22955,7 +22955,7 @@
      "hint": "Where your land is. Targets are fixed district by district."
     },
     {
-     "label": "Scheme",
+     "label": "योजना",
      "value": "कृषि यंत्रीकरण उप-मिशन (SMAM)",
      "hint": "Choose the crop residue scheme (CRM) for super seeders, happy seeders, mulchers and balers."
     },
@@ -23186,7 +23186,7 @@
      "hint": "The OTP goes to the mobile linked with Aadhaar. If that number is lost, get it updated at an Aadhaar centre first."
     },
     {
-     "label": "Mobile",
+     "label": "मोबाइल",
      "value": "93350 11223",
      "hint": "Your Aadhaar-linked number or any other number you keep. The approval SMS and login messages come here."
     },
@@ -24163,7 +24163,7 @@
    "portalName": "Social Security State Portal (eSPAN), Social Welfare Department Uttarakhand",
    "demoFields": [
     {
-     "label": "Scheme",
+     "label": "योजना",
      "value": "ବାର୍ଦ୍ଧକ୍ୟ ପେନସନ",
      "hint": "Choose the old age pension from the list. The scheme cannot be changed after saving."
     },

@@ -6,51 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_21.json",
  "items": [
   {
-   "k": "30a802b56d26",
-   "ctx": "hint",
-   "t": "The 10-digit family number on the Jan Aadhaar card. If the card is still being made, the enrolment receipt number also works."
-  },
-  {
-   "k": "de0a515a69ba",
-   "ctx": "value",
-   "t": "Bhanwar Lal Saini (head of family)"
-  },
-  {
-   "k": "551869b04bd5",
-   "ctx": "hint",
-   "t": "All members appear on screen. Pick any one adult whose Aadhaar has a working mobile number linked to it."
-  },
-  {
-   "k": "b96024496c50",
-   "ctx": "hint",
-   "t": "The 12 digits on the Aadhaar card of the member you picked."
-  },
-  {
-   "k": "39e20d986057",
-   "ctx": "hint",
-   "t": "The OTP goes to the mobile linked with Aadhaar, which may differ from the number on the Jan Aadhaar."
-  },
-  {
-   "k": "c96013be61f2",
-   "ctx": "hint",
-   "t": "A number you keep with you. Messages about the policy come here."
-  },
-  {
-   "k": "0a34ffb56f9b",
-   "ctx": "value",
-   "t": "Khasra 412, 1.6 hectare, village Kishanpura, tehsil Chomu"
-  },
-  {
-   "k": "5d29daa35942",
-   "ctx": "hint",
-   "t": "Must match the land seeded in your Jan Aadhaar. If it is not seeded yet, get it done at e-Mitra first."
-  },
-  {
-   "k": "404b20d7fc03",
-   "ctx": "hint",
-   "t": "Paid families pay Rs 850 online or in cash at the e-Mitra. The kiosk may not charge anything extra for registering or printing."
-  },
-  {
    "k": "7809eaafde6b",
    "ctx": "demoSteps",
    "t": "Check first: if your family has an NFSA ration card or is in the SECC 2011 list, you are already covered. Just take your Jan Aadhaar or Aadhaar card to the hospital."
@@ -824,6 +779,41 @@
    "k": "bfef3be45c55",
    "ctx": "eligibility",
    "t": "Covers the head of the family, the legal spouse, children and dependent parents"
+  },
+  {
+   "k": "d652c74005a9",
+   "ctx": "eligibility",
+   "t": "Some groups join with their own ID card instead of an income certificate: differently-abled card holders, old-age and widow pensioners, handloom workers' board members, recognised journalists, transgender persons, Sri Lankan Tamil refugees and orphans"
+  },
+  {
+   "k": "d5c4bf51adb1",
+   "ctx": "eligibility",
+   "t": "There is no age limit, and the family pays no premium"
+  },
+  {
+   "k": "6e3271bf77e4",
+   "ctx": "documents",
+   "t": "Income certificate from the VAO showing a yearly family income under Rs 1,20,000 (the VAO can also sign the box on the form itself)"
+  },
+  {
+   "k": "3c0db612cbd2",
+   "ctx": "documents",
+   "t": "Aadhaar cards of the head of the family and of the members to be covered"
+  },
+  {
+   "k": "9a040a41a4b4",
+   "ctx": "documents",
+   "t": "For the special groups: the welfare board, pension or other ID card in place of the income certificate"
+  },
+  {
+   "k": "341b680d40ec",
+   "ctx": "submitAt",
+   "t": "The CMCHIS card centre (enrolment kiosk) at your District Collector's office. The head of the family should go in person with the filled form, the VAO income certificate, the original ration card and the Aadhaar cards of all members; the photo and fingerprint are taken there."
+  },
+  {
+   "k": "804f1dd09423",
+   "ctx": "hint",
+   "t": "Write the name exactly as it is printed first on your ration card."
   }
  ]
 }

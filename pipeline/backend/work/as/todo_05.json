@@ -6,121 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/as/done_05.json",
  "items": [
   {
-   "k": "6d9eda85f442",
-   "ctx": "eligibility",
-   "t": "Benefits are paid only to workers holding a valid, renewed card. Marriage help covers a woman worker and two daughters, and maternity help covers a woman worker, the wife and two daughters"
-  },
-  {
-   "k": "bfbca7675b55",
-   "ctx": "documents",
-   "t": "Certificate of 90 days of construction work, signed by the employer or builder, a registered trade union, or the labour officer"
-  },
-  {
-   "k": "055155d3e535",
-   "ctx": "documents",
-   "t": "Bank passbook showing account number and IFSC"
-  },
-  {
-   "k": "5edfcb7197f6",
-   "ctx": "documents",
-   "t": "Names, ages and relation of family members, and the nominee"
-  },
-  {
-   "k": "158e64c28250",
-   "ctx": "documents",
-   "t": "Registration fee of Rs.50 plus Rs.12 for each year"
-  },
-  {
-   "k": "0b258c3b0143",
-   "ctx": "portalName",
-   "t": "AP Building and Other Construction Workers Welfare Board"
-  },
-  {
-   "k": "6178585e220b",
-   "ctx": "submitAt",
-   "t": "Register at the Assistant Labour Officer's office for your mandal or town, or ask the Digital Assistant at your Village or Ward Secretariat (Swarna Gramam / Swarna Ward office) to guide you. Take the filled Form XXVII, Aadhaar, the 90-day work certificate, a photo, the bank passbook and the fee. To claim a benefit later, apply at the Secretariat through the Digital Assistant or the Ward Education and Development Secretary on the AP Seva portal, with your worker card and proof of the event."
-  },
-  {
-   "k": "e326ce0da529",
-   "ctx": "hint",
-   "t": "Your own 12 digits. One registration per person."
-  },
-  {
-   "k": "08ff23dfcd20",
-   "ctx": "hint",
-   "t": "As on Aadhaar. You must be 18 or older and below 60."
-  },
-  {
-   "k": "203109b93b71",
-   "ctx": "hint",
-   "t": "Write the father's name, or the husband's name for a married woman."
-  },
-  {
-   "k": "e3103ab8d4f7",
-   "ctx": "hint",
-   "t": "Tick SC, ST, BC, Minority or Others. Messages about the card and claims come to the phone."
-  },
-  {
-   "k": "12822c656d4f",
-   "ctx": "value",
-   "t": "Lakshmi (wife, 33) — nominee 100%; Sravani (daughter, 12); Ganesh (son, 9)"
-  },
-  {
-   "k": "f4cb1c4b9fba",
-   "ctx": "hint",
-   "t": "Name, age and relation of each. The nominee gets the money if you die. Shares must add up to 100%."
-  },
-  {
-   "k": "2f694dafdb37",
-   "ctx": "hint",
-   "t": "An account in your own name. All benefits are paid into it by DBT."
-  },
-  {
-   "k": "0226fe588cbf",
-   "ctx": "value",
-   "t": "Door 4-12, Gandhi Nagar, Anakapalli, Anakapalli district 531001"
-  },
-  {
-   "k": "c5bce1c94e02",
-   "ctx": "hint",
-   "t": "Door number, street, village or town, mandal, district and PIN code."
-  },
-  {
-   "k": "9043176ef857",
-   "ctx": "label",
-   "t": "Are you a VB-G RAM G (rural job card) worker?"
-  },
-  {
-   "k": "78aeba0d434d",
-   "ctx": "hint",
-   "t": "VB-G RAM G is the rural job scheme that replaced MGNREGA. If you hold a job card, give its number."
-  },
-  {
-   "k": "1ad17fc384a0",
-   "ctx": "label",
-   "t": "Name of employer and construction site"
-  },
-  {
-   "k": "f3b3790ddc3f",
-   "ctx": "value",
-   "t": "Sri Venkateswara Builders — apartment site, Sabbavaram Road"
-  },
-  {
-   "k": "4a7d1ed9e8a6",
-   "ctx": "hint",
-   "t": "Where you work now. This employer, a registered union or the labour officer signs your 90-day certificate."
-  },
-  {
-   "k": "f32c45fae5f5",
-   "ctx": "hint",
-   "t": "Mason, helper, carpenter, painter, plumber, electrician, centring, tiles, welder and so on."
-  },
-  {
-   "k": "1a3455118670",
-   "ctx": "demoSteps",
-   "t": "Get Form XXVII (the board's PDF, or a copy from the labour office) and fill it in. Have your employer, a registered trade union or the labour officer sign the certificate of 90 days of work on the back."
-  },
-  {
    "k": "b65ebaad4636",
    "ctx": "demoSteps",
    "t": "Take the form, Aadhaar, a photo, the bank passbook and the fee (Rs.50 plus Rs.12 a year) to the Assistant Labour Officer's office. The Secretariat's Digital Assistant can tell you where yours is."
@@ -889,6 +774,96 @@
    "k": "6f7a0a77aa90",
    "ctx": "documents",
    "t": "Signed undertaking on the eligibility conditions, filled at the Gaon Panchayat or ward office"
+  },
+  {
+   "k": "cc9832c531d6",
+   "ctx": "submitAt",
+   "t": "Your Gaon Panchayat office (the VCDC office in Sixth Schedule areas, or the ward or municipal office in towns), when the government opens a round for new names. The form is free there, and the Orunodoi Sarothi of your Assembly constituency helps you fill it. Go with the nominated woman and take the Aadhaar-seeded ration card, her Aadhaar card, her Aadhaar-seeded bank passbook, a mobile phone, and any widow, divorce or disability papers. Get a signed acknowledgement slip. There is no online application, so do not pay anyone who offers to apply online for you."
+  },
+  {
+   "k": "0cad5fa42fcf",
+   "ctx": "hint",
+   "t": "Exactly as on her Aadhaar card and in her bank account. The money goes only to her."
+  },
+  {
+   "k": "a9a9c86ae76c",
+   "ctx": "hint",
+   "t": "Write the husband's name if she is married, otherwise the father's name."
+  },
+  {
+   "k": "e7c026d4748c",
+   "ctx": "hint",
+   "t": "In a town, write the municipality or town committee name instead."
+  },
+  {
+   "k": "b0f68de21a4f",
+   "ctx": "hint",
+   "t": "The village or ward where the family actually lives and eats together."
+  },
+  {
+   "k": "f4cf746eebb9",
+   "ctx": "hint",
+   "t": "Copy it from the ration card. Her name should be on this card."
+  },
+  {
+   "k": "1d4604285783",
+   "ctx": "hint",
+   "t": "The nominated woman's 12-digit Aadhaar number."
+  },
+  {
+   "k": "9cd64e19150d",
+   "ctx": "hint",
+   "t": "Her own account, seeded with Aadhaar. A joint account or someone else's account will be rejected."
+  },
+  {
+   "k": "4413d152e26f",
+   "ctx": "hint",
+   "t": "SMS about wrong bank details or approval comes to this number."
+  },
+  {
+   "k": "b7c5340a489b",
+   "ctx": "hint",
+   "t": "Tick widow, divorced, separated, unmarried above 45, divyang or transgender member if it applies, and attach the proof."
+  },
+  {
+   "k": "0f26f5755fd8",
+   "ctx": "label",
+   "t": "Number of members on the ration card"
+  },
+  {
+   "k": "6b7cbcecb1e0",
+   "ctx": "hint",
+   "t": "Count everyone listed on the ration card. Only one woman per family can get Orunodoi."
+  },
+  {
+   "k": "f3dd8605f184",
+   "ctx": "demoSteps",
+   "t": "Watch for a new Orunodoi round announced in the newspapers, on the Gaon Panchayat notice board or by your Orunodoi Sarothi. Women already getting the money do not need to apply again unless they are asked to."
+  },
+  {
+   "k": "e60008e44ac7",
+   "ctx": "demoSteps",
+   "t": "Collect the free form at the Gaon Panchayat, VCDC or ward office. Fill it with the nominated woman's details, attach the copies, sign the undertaking and keep the acknowledgement slip."
+  },
+  {
+   "k": "0d3ebbfe6da2",
+   "ctx": "demoSteps",
+   "t": "The Gaon Panchayat, VCDC or town body checks each family against the eligibility checklist. The District Level Monitoring Committee under the Deputy Commissioner then finalises the list."
+  },
+  {
+   "k": "2b8175f04654",
+   "ctx": "demoSteps",
+   "t": "The approved list is published and the Finance Department checks the bank details. If an SMS says your details are wrong, correct them at the Gaon Panchayat or ward office."
+  },
+  {
+   "k": "f0ea67664237",
+   "ctx": "demoSteps",
+   "t": "Rs.1,250 then arrives in her bank account every month by DBT. Keep the account seeded with Aadhaar, or the payment is held back."
+  },
+  {
+   "k": "4467cfd6dbf4",
+   "ctx": "demoSteps",
+   "t": "If the money stops or the name is missing, call the Orunodoi helpdesk on 1800-202-6256 (working days, 10 am to 6 pm) or meet the Orunodoi Sarothi."
   }
  ]
 }

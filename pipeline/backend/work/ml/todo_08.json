@@ -6,41 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/ml/done_08.json",
  "items": [
   {
-   "k": "5fa5911c5630",
-   "ctx": "brief",
-   "t": "Bihar pays for the same free hospital cover of Rs 5 lakh a year as Ayushman Bharat for ration-card families that the central PM-JAY list left out. Since 2024 every family holding an NFSA ration card in Bihar is covered, either under PM-JAY or under this state scheme, and both use the same Ayushman card at any empanelled hospital. The card is made free with the ration card and Aadhaar, on the Ayushman app or website, at a CSC, or at camps held at ration shops."
-  },
-  {
-   "k": "587590c3533a",
-   "ctx": "benefit",
-   "t": "Rs 5 lakh a year per family, cashless, at empanelled hospitals"
-  },
-  {
-   "k": "b00b5e819451",
-   "ctx": "eligibility",
-   "t": "The family holds a Bihar ration card under the National Food Security Act (priority household or Antyodaya)"
-  },
-  {
-   "k": "3fa868d846b1",
-   "ctx": "eligibility",
-   "t": "Families already on the central PM-JAY list are covered by PM-JAY; the other ration-card families are covered by this state scheme, with the same card"
-  },
-  {
-   "k": "d99e6b416e93",
-   "ctx": "eligibility",
-   "t": "Every member named on the ration card is covered, with no limit on family size or age"
-  },
-  {
-   "k": "9bdd37fbee5b",
-   "ctx": "eligibility",
-   "t": "Illnesses you already have are covered from the first day"
-  },
-  {
-   "k": "0278ddb5c74e",
-   "ctx": "eligibility",
-   "t": "Each member needs his or her own card, made after Aadhaar e-KYC"
-  },
-  {
    "k": "262591ba4ada",
    "ctx": "documents",
    "t": "Ration card (NFSA); the family is searched by the ration card number"
@@ -759,6 +724,56 @@
    "k": "fc32d2a8532f",
    "ctx": "documents",
    "t": "Delhi ration card number, to find and link the family"
+  },
+  {
+   "k": "f8dc86cb764d",
+   "ctx": "documents",
+   "t": "For the 70+ Vay Vandana card, Aadhaar alone is enough (it shows your age)"
+  },
+  {
+   "k": "0dd70a5bb4ee",
+   "ctx": "hint",
+   "t": "Any working number you hold. The OTP and the approval message come here."
+  },
+  {
+   "k": "46b40c0bae7a",
+   "ctx": "hint",
+   "t": "Choose PMJAY and Delhi. For someone aged 70 or above, use the 70+ (Vay Vandana) option instead; only Aadhaar is needed."
+  },
+  {
+   "k": "4c1aadfd15e1",
+   "ctx": "hint",
+   "t": "The ration card number finds the whole family at once. You can also search by Aadhaar."
+  },
+  {
+   "k": "53fbb2b77b47",
+   "ctx": "hint",
+   "t": "Copy it from the Delhi ration card. If nothing is found, try your Aadhaar number."
+  },
+  {
+   "k": "f87f16d9b8c7",
+   "ctx": "hint",
+   "t": "Use OTP if the mobile is linked to Aadhaar, otherwise choose face authentication on the phone camera."
+  },
+  {
+   "k": "6c93c750712d",
+   "ctx": "demoSteps",
+   "t": "Choose PMJAY and Delhi and search by ration card or Aadhaar. For a person aged 70 or above, use the 70+ option with just Aadhaar."
+  },
+  {
+   "k": "c55065f8922d",
+   "ctx": "demoSteps",
+   "t": "Find the member marked eKYC pending and verify with Aadhaar OTP or face authentication."
+  },
+  {
+   "k": "a895b8e5828a",
+   "ctx": "demoSteps",
+   "t": "Take the live photo, fill the mobile number, relation, district and PIN code, and submit."
+  },
+  {
+   "k": "56a263de55fe",
+   "ctx": "demoSteps",
+   "t": "Approval usually comes within a day or two by SMS. Log in again and download the card from Download Card."
   }
  ]
 }

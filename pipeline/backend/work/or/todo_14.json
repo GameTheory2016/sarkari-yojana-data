@@ -6,71 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_14.json",
  "items": [
   {
-   "k": "c98ad3951b3c",
-   "ctx": "hint",
-   "t": "Attach a copy of your Aadhaar card."
-  },
-  {
-   "k": "0e63baa2db1d",
-   "ctx": "hint",
-   "t": "An account in your own name. All benefits are paid into it."
-  },
-  {
-   "k": "36c21319d171",
-   "ctx": "hint",
-   "t": "The person who gets the death benefit and the refund if something happens to you."
-  },
-  {
-   "k": "3e3cec68b10a",
-   "ctx": "hint",
-   "t": "A number you keep with you, for messages from the Board."
-  },
-  {
-   "k": "a8929239cb7a",
-   "ctx": "hint",
-   "t": "Pay it every month and see that it is entered in your Welfare Fund passbook."
-  },
-  {
-   "k": "e3ec04225fa9",
-   "ctx": "demoSteps",
-   "t": "Collect the membership form at the Board's district office in your district."
-  },
-  {
-   "k": "0f522cb9e481",
-   "ctx": "demoSteps",
-   "t": "Fill it and attach the age proof, the 90-day work certificate, Aadhaar, bank passbook copy and photos."
-  },
-  {
-   "k": "d462c7d401f1",
-   "ctx": "demoSteps",
-   "t": "Submit it at the district office with the first subscription and keep the receipt. If the District Executive Officer rejects it, you can appeal to the Board Secretary within 30 days."
-  },
-  {
-   "k": "1753bf204e28",
-   "ctx": "demoSteps",
-   "t": "You get a Welfare Fund ID card and passbook. Pay Rs.50 every month so the membership stays active."
-  },
-  {
-   "k": "1333853d700f",
-   "ctx": "demoSteps",
-   "t": "For a benefit such as maternity, marriage or treatment aid, apply at the same office on the Board's form for it, with the ID card and passbook, soon after the event; after 90 days you must explain the delay."
-  },
-  {
-   "k": "52b02eaaa0f4",
-   "ctx": "demoSteps",
-   "t": "At 60, with 5 years of active membership, apply for the pension on Form 34 with the ID card, passbook, bank passbook copy and Aadhaar. It is paid into your bank, but payments are running many months late now."
-  },
-  {
-   "k": "ab47dc761420",
-   "ctx": "helpline",
-   "t": "0471-2337941 — Board head office, Thiruvananthapuram; or the Board's district office in your district"
-  },
-  {
-   "k": "d90442fb7b93",
-   "ctx": "department",
-   "t": "State Health Agency Kerala, Department of Health and Family Welfare, Government of Kerala"
-  },
-  {
    "k": "bfccc2fd3853",
    "ctx": "brief",
    "t": "Kerala's free health cover, run together with Ayushman Bharat PM-JAY. About 42 lakh poorer families get treatment worth up to Rs.5 lakh a year per family, cashless, at about 180 government and 365 private empanelled hospitals. The KASP card is made at the KASP help desk of an empanelled hospital or at an Akshaya centre after an Aadhaar check. The new government plans to merge KASP into a bigger Oommen Chandy Health Insurance Scheme, but until that is notified KASP cards keep working as before."
@@ -769,6 +704,71 @@
    "k": "22e05e50d03e",
    "ctx": "documents",
    "t": "For inclusion or name correction: a written application at the Tehsildar's office with copies of the ration card and Aadhaar"
+  },
+  {
+   "k": "30d6779791a1",
+   "ctx": "submitAt",
+   "t": "The Ayushman (PM-JAY) desk at SNM Hospital Leh, District Hospital Kargil or your nearest Community Health Centre, or a Common Service Centre or Golden Card camp in your block. Take the ration card, every member's Aadhaar card and the mobile phone linked to Aadhaar; each member to be enrolled should come along for the fingerprint, OTP or photo. If your family is not found or a name is wrong, first give an application with the same documents at your Tehsildar's office."
+  },
+  {
+   "k": "0b6b538594ce",
+   "ctx": "hint",
+   "t": "The operator finds your family with this number. Bring the card itself, not just a photo of it."
+  },
+  {
+   "k": "39456b48cd72",
+   "ctx": "hint",
+   "t": "The person named first on the ration card."
+  },
+  {
+   "k": "4608dd17e573",
+   "ctx": "hint",
+   "t": "Each member gets a card; they are done one by one."
+  },
+  {
+   "k": "7e7a57f6b80b",
+   "ctx": "hint",
+   "t": "The 12 digits on this member's own Aadhaar card."
+  },
+  {
+   "k": "841e0a035543",
+   "ctx": "hint",
+   "t": "OTP goes to the mobile linked to Aadhaar. If none is linked, fingerprint or face scan is used at the desk."
+  },
+  {
+   "k": "a311e64fe453",
+   "ctx": "hint",
+   "t": "How this member is related to the head of the family on the ration card."
+  },
+  {
+   "k": "833032b2b0a5",
+   "ctx": "hint",
+   "t": "Face straight, no cap or dark glasses."
+  },
+  {
+   "k": "1f2ebfaf801d",
+   "ctx": "demoSteps",
+   "t": "Take the ration card, every member's Aadhaar and the Aadhaar-linked mobile to the Ayushman desk at SNM Hospital Leh, DH Kargil, a CHC, a CSC or a Golden Card camp."
+  },
+  {
+   "k": "4d2d914f058b",
+   "ctx": "demoSteps",
+   "t": "The operator searches your family by ration card or Aadhaar and verifies each member by Aadhaar OTP, fingerprint or face."
+  },
+  {
+   "k": "ddc2ab8cb2f5",
+   "ctx": "demoSteps",
+   "t": "A photo is taken and the card request is sent for approval."
+  },
+  {
+   "k": "d8d586a33081",
+   "ctx": "demoSteps",
+   "t": "Once approved, the Golden Card is printed or given to you to download; you can also keep it on the Ayushman app."
+  },
+  {
+   "k": "50d13bb18dc3",
+   "ctx": "demoSteps",
+   "t": "If your family was not found, apply at the Tehsildar's office for inclusion, then go back to the desk to enrol."
   }
  ]
 }

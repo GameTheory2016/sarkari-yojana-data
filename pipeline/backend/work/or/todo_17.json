@@ -6,66 +6,6 @@
  "write_to": "/home/runner/work/sarkari-yojana-data/sarkari-yojana-data/pipeline/backend/work/or/done_17.json",
  "items": [
   {
-   "k": "5381dd75fe2a",
-   "ctx": "eligibility",
-   "t": "For the 3rd instalment of the first child, or the 2nd instalment of the second child, the mother or father must give a family planning operation certificate"
-  },
-  {
-   "k": "1f8ca87f7339",
-   "ctx": "eligibility",
-   "t": "The bank account must be in Maharashtra; for the last Rs.75,000 the girl must be 18, unmarried and on the voter list"
-  },
-  {
-   "k": "afb0cdd8140e",
-   "ctx": "documents",
-   "t": "Girl's birth certificate (register the birth with the gram panchayat or municipality first)"
-  },
-  {
-   "k": "6e5f1efcf009",
-   "ctx": "documents",
-   "t": "Income certificate from the tehsildar showing yearly family income up to Rs.1 lakh"
-  },
-  {
-   "k": "b9380067d622",
-   "ctx": "documents",
-   "t": "Attested copy of the yellow or orange ration card"
-  },
-  {
-   "k": "3ba460bc02f9",
-   "ctx": "documents",
-   "t": "Aadhaar of the parents, and of the girl (not needed for the first instalment)"
-  },
-  {
-   "k": "fdc4253ec9aa",
-   "ctx": "documents",
-   "t": "First page of the passbook of the joint account of the girl and her mother"
-  },
-  {
-   "k": "33710530512b",
-   "ctx": "documents",
-   "t": "For later instalments: school bonafide certificate, family planning certificate, and at 18 her voter ID and a self-declaration that she is unmarried"
-  },
-  {
-   "k": "557baf20e799",
-   "ctx": "submitAt",
-   "t": "The anganwadi sevika of your area, at the anganwadi centre. The application form is printed at the end of the scheme GR linked here (pages 9 to 12), and blank forms are also kept at every Child Development Project Officer (CDPO) office, the Zilla Parishad District Programme Officer's office and the District Women and Child Development Officer's office. Take the filled form with copies of the documents, carry the originals for checking, and ask the sevika for the signed receipt (pohoch pavti) at the bottom of the form. Apply the same way for each later instalment."
-  },
-  {
-   "k": "55d0c66028bd",
-   "ctx": "label",
-   "t": "Applying for (first child / second child / twins)"
-  },
-  {
-   "k": "c53b86c7f3b3",
-   "ctx": "hint",
-   "t": "Tick the one that fits this girl. For twins born at the second delivery, tick twins."
-  },
-  {
-   "k": "d6b088364ee4",
-   "ctx": "hint",
-   "t": "The girl's name as written on her birth certificate."
-  },
-  {
    "k": "15fd5669746c",
    "ctx": "hint",
    "t": "The girl's Aadhaar is not needed for the first instalment. Get it made before the Class 1 instalment."
@@ -749,6 +689,66 @@
    "k": "73c64efc714c",
    "ctx": "hint",
    "t": "Where you live now, from the drop-down lists."
+  },
+  {
+   "k": "43dc58b742ff",
+   "ctx": "hint",
+   "t": "A number you keep with you, so the office can reach you."
+  },
+  {
+   "k": "414c58e18907",
+   "ctx": "hint",
+   "t": "Voter ID number is mandatory. Aadhaar helps the check go faster."
+  },
+  {
+   "k": "d749e8a3a0df",
+   "ctx": "hint",
+   "t": "Clear photos of both sides of the voter ID. Aadhaar upload is optional."
+  },
+  {
+   "k": "eb834b4c442f",
+   "ctx": "demoSteps",
+   "t": "First check if your family is already in the list: call 1800 102 4762 or ask at a District Kiosk. If it is, just walk into any District Kiosk or hospital registration centre with a photo ID, and the card is printed there for free."
+  },
+  {
+   "k": "d06c8be90f74",
+   "ctx": "demoSteps",
+   "t": "If your name is missing, open the MHIS Head of Family form and choose your category: Newly Married, Name not there in the database, Orphans, or Others."
+  },
+  {
+   "k": "aee532aa21fd",
+   "ctx": "demoSteps",
+   "t": "Fill in your name exactly as on Aadhaar and EPIC, the address, district, block and phone number."
+  },
+  {
+   "k": "7e0fbe120204",
+   "ctx": "demoSteps",
+   "t": "Upload both sides of your voter ID, and Aadhaar if you have it, then submit. The request goes to the SHA office for approval."
+  },
+  {
+   "k": "228dee72293e",
+   "ctx": "demoSteps",
+   "t": "Once it is approved (check on the toll-free number or at the kiosk), visit the District Kiosk with the original EPIC, Aadhaar and relation proofs. Each member gets an individual MHIS/PMJAY card."
+  },
+  {
+   "k": "0a700f4b14e2",
+   "ctx": "demoSteps",
+   "t": "At the hospital, hand the card and any government photo ID to the Arogya Mitra at the MHIS counter. Treatment is cashless. If you lose the card, a new one is printed at any District Kiosk."
+  },
+  {
+   "k": "562f4e3cfef5",
+   "ctx": "helpline",
+   "t": "1800 102 4762 — MHIS toll-free / 0364-250 7477 — MHIS helpdesk / 14555 — Ayushman Bharat national helpline"
+  },
+  {
+   "k": "39717556c60a",
+   "ctx": "title",
+   "t": "Mizoram Universal Health Care Scheme (MUHCS Card)"
+  },
+  {
+   "k": "ae5f7eef3925",
+   "ctx": "department",
+   "t": "Mizoram State Health Care Society, Department of Health & Family Welfare, Government of Mizoram"
   }
  ]
 }
