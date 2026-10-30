@@ -343,8 +343,15 @@ def translate_new_text():
                       "\n\nReturn only JSON in the form {\"items\": [{\"k\": \"...\", \"t\": \"...\"}]}.\n\n"
                       "ITEMS:\n" + json.dumps(chunk["items"], ensure_ascii=False))
             ans = gemini(prompt)
-            if isinstance(ans, dict) and isinstance(ans.get("items"), list):
-                dump({"items": ans["items"]}, chunk["write_to"])
+            # Newer models sometimes return the bare list, or name the key differently.
+            if isinstance(ans, dict) and not isinstance(ans.get("items"), list):
+                lists = [v for v in ans.values() if isinstance(v, list)]
+                ans = lists[0] if len(lists) == 1 else ans
+            items = ans if isinstance(ans, list) else (ans or {}).get("items") if isinstance(ans, dict) else None
+            if isinstance(items, list) and items:
+                dump({"items": items}, chunk["write_to"])
+            elif ans is not None:
+                print(f"  unexpected answer: {json.dumps(ans, ensure_ascii=False)[:200]}")
     r = itr("apply", "--src", src, "--keys", KEYS, "--langs", ",".join(LANGS), "--tm", TM,
             "--work", ITR_WORK, "--out", os.path.join(DATA, "schemes_{lang}.json"), "--overlay")
     print(r.stdout.strip())
