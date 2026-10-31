@@ -22526,10 +22526,10 @@
     "Age proof of the bride (birth certificate or school leaving certificate)",
     "Antyodaya ration card of the bride's family",
     "Aadhaar card and address proof of the groom",
-    "Age proof of the groom",
+    "వరుడి వయస్సు ధ్రువీకరణ పత్రం",
     "Passport-size photographs of bride and groom",
     "Self-declaration on marital status, signed by both bride and groom (form attached)",
-    "Bride's bank account details"
+    "వధువు బ్యాంకు ఖాతా వివరాలు"
    ],
    "portalName": "Directorate of Social Welfare & Social Education, Tripura",
    "submitAt": "The Child Development Project Office (CDPO) of the ICDS project where the bride lives. Hand in the filled form with photocopies of every document and the self-declaration signed by both bride and groom, and keep the originals to show. The CDPO forwards it to the Sub-Divisional Magistrate (SDM) within 15 days. If you are refused, appeal to the District Magistrate & Collector, who must decide within 10 days.",
@@ -22540,17 +22540,17 @@
      "hint": "Capital letters, exactly as on her Aadhaar card."
     },
     {
-     "label": "Father's / Mother's / Guardian's name",
-     "value": "Sukhen Debbarma",
+     "label": "తండ్రి / తల్లి / సంరక్షకుని పేరు",
+     "value": "సుఖేన్ దెబ్బర్మ",
      "hint": "The parent or guardian named on the ration card."
     },
     {
      "label": "Permanent address (as per Antyodaya ration card)",
-     "value": "Ward 2, Khowai Bazar, Khowai",
+     "value": "వార్డు 2, ఖోವೈ బజార్, ఖోವೈ",
      "hint": "Copy it from the Antyodaya card. It is used as address proof."
     },
     {
-     "label": "Antyodaya ration card number",
+     "label": "అంతియోదయ రేషన్ కార్డు నంబరు",
      "value": "AAY-TR-9999-1046",
      "hint": "Attach a photocopy. Only Antyodaya cards qualify."
     },
@@ -22560,28 +22560,28 @@
      "hint": "The money is paid into the bride's own account, so give her account number and IFSC."
     },
     {
-     "label": "PRTC number",
+     "label": "PRTC నంబరు",
      "value": "PRTC/KHW/9999/317",
      "hint": "The bride's Permanent Resident of Tripura Certificate. Attach a copy."
     },
     {
      "label": "Age and date of birth of bride",
-     "value": "20 years, 03-01-2006",
+     "value": "20 సంవత్సరాలు, 03-01-2006",
      "hint": "She must be 18 or more on the wedding day. Attach the birth or school leaving certificate."
     },
     {
-     "label": "Name of the groom",
-     "value": "Bikash Reang",
+     "label": "వరుడి పేరు",
+     "value": "బికాష్ రియాంగ్",
      "hint": "As written on the groom's Aadhaar."
     },
     {
      "label": "Age and date of birth of groom",
-     "value": "24 years, 17-08-2002",
+     "value": "24 సంవత్సరాలు, 17-08-2002",
      "hint": "He must be 21 or more on the wedding day."
     },
     {
      "label": "Date and venue of marriage (if already held)",
-     "value": "Not yet held",
+     "value": "ఇంకా జరగలేదు",
      "hint": "Fill this only if the wedding has already taken place. The SDM confirms the marriage before paying."
     }
    ],
@@ -22686,7 +22686,7 @@
     "Families living in Tripura that are not covered by AB PM-JAY, the BoCW (construction workers) scheme, CAPF, PM-JANMAN or any other government health insurance",
     "No income limit, and no cap on family size or age",
     "State government employees can join if they give up the yearly medical allowance",
-    "Families already in PM-JAY keep using their Ayushman card instead",
+    "PM-JAY లో ఇప్పటికే ఉన్న కుటుంబங்கள் తమ ఆయుష్మాన్ కార్డును ఉపయోగించడం కొనసాగించవచ్చు",
     "Every member needs their own card, made through Aadhaar e-KYC"
    ],
    "documents": [
@@ -22708,8 +22708,8 @@
      "hint": "Any number you hold. The login OTP and the approval message come here."
     },
     {
-     "label": "State and scheme",
-     "value": "Tripura / CM-JAY",
+     "label": "రాష్ట్రం మరియు పథకం",
+     "value": "త్రిపుర / సీఎం-జేవై",
      "hint": "Choose Tripura and the state scheme CM-JAY. If your family does not show, search again under PMJAY, because a family is in only one of the two."
     },
     {
@@ -22744,7 +22744,7 @@
     },
     {
      "label": "மாவட்டம் மற்றும் PIN குறியீடு",
-     "value": "West Tripura / 799001",
+     "value": "వెస్ట్ త్రిపుర / 799001",
      "hint": "आप अभी कहाँ रहते हैं।"
     }
    ],
@@ -22863,17 +22863,17 @@
    "submitAt": "Nothing to fill in. The Ujjwala connection holder goes to her own LPG distributor (gas agency) in person with her Aadhaar card, the gas passbook or consumer number and the bank passbook, and gets the Aadhaar fingerprint authentication (e-KYC) done for free. Where the oil company's app offers it (IndianOil ONE, Hello BPCL, HP Pay), the e-KYC can also be done at home with Aadhaar face authentication.",
    "demoFields": [
     {
-     "label": "LPG consumer number",
+     "label": "ఎల్ పీజీ కన్స్యూమర్ నంబరు",
      "value": "9999 0045 1287",
      "hint": "Printed on the gas passbook and on every cash memo."
     },
     {
-     "label": "Connection type",
-     "value": "PMUY (Ujjwala), 14.2 kg",
+     "label": "కనెక్షన్ రకం",
+     "value": "PMUY (ఉజ్జ్వల), 14.2 కేజీలు",
      "hint": "The refund is only for Ujjwala connections. Ask the agency if you are not sure which type you have."
     },
     {
-     "label": "Name of connection holder",
+     "label": "కనెక్షన్ హోల్డర్ పేరు",
      "value": "கம்லா தேவி",
      "hint": "The woman in whose name the Ujjwala connection was given. She must go for the authentication herself."
     },
@@ -22883,23 +22883,23 @@
      "hint": "The connection holder's own Aadhaar. Her fingerprint or face is matched against it."
     },
     {
-     "label": "Registered mobile",
+     "label": "నమోదిత మొబైల్",
      "value": "94150 33445",
      "hint": "The number linked to the gas connection. The booking and delivery messages come here."
     },
     {
-     "label": "Aadhaar authentication",
-     "value": "Done at gas agency (fingerprint)",
+     "label": "ఆధార్ అథెంటికేషన్",
+     "value": "గ్యాస్ ఏజెన్సీ వద్ద చేయబడింది (వేలిముద్ర)",
      "hint": "It is done only once and is free. If it is pending, you will not get the refund."
     },
     {
-     "label": "Bank account linked to Aadhaar",
-     "value": "99990087654321 / Bank of Baroda",
+     "label": "ఆధార్ తో లింక్ చేయబడిన బ్యాంకు ఖాతా",
+     "value": "99990087654321 / బ్యాంక్ ఆఫ్ బరోడా",
      "hint": "Ask your bank to confirm this account is linked to Aadhaar for DBT. The money goes only here."
     },
     {
-     "label": "Refill booked on",
-     "value": "05-11-2026, by IVRS call",
+     "label": "రీఫిల్ బుక్ చేయబడిన తేదీ",
+     "value": "05-11-2026, ఐవీఆర్ఎస్ కాల్ ద్వారా",
      "hint": "Book between October and December for the Diwali refill, and between January and March for the Holi refill."
     }
    ],
@@ -22931,16 +22931,16 @@
    "documents": [
     "Farmer registration number from the Agriculture Department",
     "ஆதார் அட்டை",
-    "Khatauni (land record)",
+    "ఖతౌని (భూమి రికార్డు)",
     "Bank passbook of the Aadhaar-linked account in the farmer's name",
     "OTP-க்கான மொபைல் எண்",
-    "Caste certificate, for SC or ST farmers",
+    "కుల ధ్రువీకరణ పత్రం, ఎస్ సీ లేదా ఎస్ టీ రైతుల కోసం",
     "After buying: the dealer's GST bill and a photo of the farmer with the machine, showing its serial number"
    ],
-   "portalName": "Agri Darshan — UP Agriculture Department portal",
+   "portalName": "అగ్రి దర్శన్ — యూపీ వ్యవసాయ శాఖ పోర్టల్",
    "demoFields": [
     {
-     "label": "Registration No",
+     "label": "రిజిస్ట్రేషన్ నంబరు",
      "value": "9999012345",
      "hint": "Your farmer registration number with the Agriculture Department. If you do not have one, register first with Aadhaar, Khatauni and bank details."
     },
@@ -22951,37 +22951,37 @@
     },
     {
      "label": "மாவட்டம் / பிளாக்",
-     "value": "Meerut / Sardhana",
+     "value": "మీరట్ / సర్ధన",
      "hint": "Where your land is. Targets are fixed district by district."
     },
     {
      "label": "திட்டம்",
-     "value": "Sub-Mission on Agricultural Mechanization (SMAM)",
+     "value": "సబ్-మిషన్ ఆన్ అగ్రికల్చరల్ మెకనైజేషన్ (SMAM)",
      "hint": "Choose the crop residue scheme (CRM) for super seeders, happy seeders, mulchers and balers."
     },
     {
-     "label": "Machine",
-     "value": "Rotavator, 6 feet",
+     "label": "యంత్రం",
+     "value": "రోటవేటర్, 6 అడుగులు",
      "hint": "Choose the exact machine and size. The subsidy amount for it is shown on the screen."
     },
     {
-     "label": "Farmer category",
-     "value": "Small farmer, General",
+     "label": "రైతు వర్గం",
+     "value": "చిన్న రైతు, జనరల్",
      "hint": "Small and marginal, SC/ST and women farmers get the higher share. It must match your land record and certificates."
     },
     {
-     "label": "Subsidy amount",
-     "value": "Rs.35,000 (as shown on portal)",
+     "label": "సబ్సిడీ మొత్తం",
+     "value": "రూ.35,000 (పోర్టల్ లో చూపిన విధంగా)",
      "hint": "The fixed subsidy for that machine. You pay the full price to the dealer and this amount comes back to you."
     },
     {
-     "label": "Security amount",
-     "value": "Rs.2,500, paid online",
+     "label": "భద్రతా మొత్తం",
+     "value": "రూ.2,500, ఆన్ లైన్ లో చెల్లించబడింది",
      "hint": "Rs.2,500 for a subsidy of Rs.10,001 to Rs.1 lakh, Rs.5,000 above that. It is refunded as the rules say."
     },
     {
-     "label": "Dealer",
-     "value": "Kisan Agro Works, Sardhana",
+     "label": "డీలర్",
+     "value": "కిసాన్ అగ్రో వర్క్స్, సర్ధన",
      "hint": "Buy only from a dealer listed on the portal for that machine, or the subsidy is not paid."
     }
    ],
@@ -23170,10 +23170,10 @@
     "Certificate of 90 days of work from the contractor or employer, or the board's self-declaration form",
     "Family ID or ration card, to add family members",
     "Bank passbook of an account in the worker's own name",
-    "Recent colour photo",
+    "ఇటీవలి రంగు ఫోటో",
     "மொபைல் எண்"
    ],
-   "portalName": "UPBOCW labour portal",
+   "portalName": "యూపీబీఓసీడబ్ల్యూ లేబర్ పోర్టల్",
    "demoFields": [
     {
      "label": "ஆதார் எண்",
@@ -23181,8 +23181,8 @@
      "hint": "The worker's own Aadhaar. Your name, date of birth and address are filled in from Aadhaar after the OTP."
     },
     {
-     "label": "Enter 6-digit OTP",
-     "value": "OTP from Aadhaar-linked mobile",
+     "label": "6-అంకెల ఓటీపీని నమోదు చేయండి",
+     "value": "ఆధార్-లింక్డ్ మొబైల్ నుండి ఓటీపీ",
      "hint": "The OTP goes to the mobile linked with Aadhaar. If that number is lost, get it updated at an Aadhaar centre first."
     },
     {
@@ -23191,38 +23191,38 @@
      "hint": "Your Aadhaar-linked number or any other number you keep. The approval SMS and login messages come here."
     },
     {
-     "label": "Family ID / Ration Card Number",
+     "label": "ఫ్యామిలీ ఐడీ / రేషన్ కార్డ్ నంబరు",
      "value": "9999 0011 2233",
      "hint": "Pick Family ID or Ration Card, enter the number, and the family members appear. Tick each member who should be linked to your card."
     },
     {
      "label": "தற்போதைய முகவரி",
-     "value": "Mohalla Rajapur, Ward 12, Prayagraj",
+     "value": "మొహల్లా రాజాపూర్, వార్డు 12, ప్రయాగరాజ్",
      "hint": "Where you live and work now, if it is different from the address on Aadhaar."
     },
     {
-     "label": "Nature of Work",
-     "value": "Mason (Raj Mistri)",
+     "label": "పని స్వభావం",
+     "value": "మేస్త్రీ (రాజ్ మిస్త్రీ)",
      "hint": "The construction work you actually do, for example helper, carpenter, plumber, painter or bar bender."
     },
     {
-     "label": "Worked Days (last 12 months)",
+     "label": "పని చేసిన రోజులు (గత 12 నెలలు)",
      "value": "120",
      "hint": "It must be 90 days or more. The work certificate you upload has to show the same number."
     },
     {
-     "label": "Contractor Name / Contractor Mobile No.",
-     "value": "Shiv Builders / 90000 12345",
+     "label": "ठेकेदार का नाम / ठेकेदार का मोबाइल नंबर",
+     "value": "शिव बिल्डर्स / 90000 12345",
      "hint": "The contractor or employer who gave you the 90-day certificate. The office may call this number."
     },
     {
-     "label": "IFSC / Account Number",
+     "label": "IFSC / खाता संख्या",
      "value": "PUNB0123400 / 99990011223344",
      "hint": "Your own account. Benefit money is paid only by DBT into this account."
     },
     {
-     "label": "Registration period",
-     "value": "1 year: Rs.20 + Rs.20 = Rs.40",
+     "label": "पंजीकरण अवधि",
+     "value": "1 साल: रु. 20 + रु. 20 = रु. 40",
      "hint": "Choose 1, 2 or 3 years. Each year costs Rs.20 more. The Rs.20 registration fee is paid only once."
     }
    ],
@@ -25229,7 +25229,7 @@
     },
     {
      "label": "গ্রহণকারী কর্তৃপক্ষের নাম / পদবী / যোগাযোগ",
-     "value": "Bina Roy / Health Assistant / 90000 72811",
+     "value": "बीना रॉय / हेल्थ असिस्टेंट / 90000 72811",
      "hint": "The official or help-desk staff taking your enrolment, for example at a camp or hospital desk, fills in their own details. If you are applying alone and unsure, call 1800-345-5384 before you submit."
     }
    ],
