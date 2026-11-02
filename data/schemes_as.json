@@ -2,197 +2,197 @@
  "schemes": [
   {
    "id": "farmer-id",
-   "title": "Farmer ID (Kisan Pehchaan Patra) — AgriStack Farmer Registry",
-   "department": "Ministry of Agriculture & Farmers Welfare (Digital Agriculture Mission), with state Revenue and Agriculture departments",
-   "brief": "A free, lifelong 11-digit Farmer ID for every land-owning farmer, linked to Aadhaar and to the plots in the state's land records. Schemes such as PM-Kisan, crop insurance and Kisan Credit Card can then read your land details from the ID, so you stop carrying land papers for each one. New PM-Kisan applicants in the ten states that started first (UP, MP, Maharashtra, Gujarat, Rajasthan, Bihar, Andhra Pradesh, Chhattisgarh, Odisha and Assam) have needed a Farmer ID since 1 January 2025, and over 10 crore farmers had one by August 2026. You register once, at a village camp, a CSC or yourself on your state's Farmer Registry website.",
-   "benefit": "Free lifelong Farmer ID, needed for new PM-Kisan registration and used for crop insurance and KCC",
+   "title": "কৃষক ID (কিসান পরিচয় পত্র) — এগ্রিস্ট্যাক ফারমার রেজিস্ট্রি",
+   "department": "কৃষি ও কৃষক কল্যাণ মন্ত্রক (ডিজিটাল এগ্রিকালচার মিশন), রাজ্য ভূমি রাজস্ব ও কৃষি দপ্তরের সহযোগিতায়",
+   "brief": "কৃষি জমির মালিক এমন প্রত্যেক কৃষকের জন্য একটি বিনামূল্যে, আজীবন মেয়াদের 11 সংখ্যার কৃষক ID, যা আধার এবং রাজ্যের ভূমি রেকর্ডের দাগ/প্লটের সাথে যুক্ত থাকে। ফলে PM-Kisan, ফসল বিমা এবং কিষাণ ক্রেডিট কার্ডের মতো প্রকল্পগুলি সরাসরি এই ID থেকেই আপনার জমির বিবরণ যাচাই করে নিতে পারে, তাই প্রতিটির জন্য আলাদা করে জমির কাগজ নিয়ে ঘোরার দরকার নেই। প্রথম শুরু করা দশটি রাজ্যে (উত্তরপ্রদেশ, মধ্যপ্রদেশ, মহারাষ্ট্র, গুজরাট, রাজস্থান, বিহার, অন্ধ্রপ্রদেশ, ছত্তিশগড়, ওড়িশা এবং অসম) নতুন PM-Kisan আবেদনকারীদের জন্য 1 জানুয়ারি 2025 থেকে কৃষক ID বাধ্যতামূলক করা হয়েছে, এবং আগস্ট 2026 এর মধ্যে 10 কোটিরও বেশি কৃষক এটি পেয়ে গেছেন। আপনি নিজের গ্রামে আয়োজিত কোনো ক্যাম্প, নিকটস্থ CSC বা আপনার রাজ্যের ফারমার রেজিস্ট্রি ওয়েবসাইটে গিয়ে নিজেই একবারের জন্য এই রেজিস্ট্রেশন করতে পারেন।",
+   "benefit": "বিনামূল্যে আজীবন মেয়াদের কৃষক ID, যা নতুন PM-Kisan রেজিস্ট্রেশনের জন্য বাধ্যতামূলক এবং ফসল বিমা ও KCC-র কাজে লাগে",
    "eligibility": [
-    "Any farmer who owns farm land recorded in the state's land records in his or her own name",
-    "Each owner of jointly held land registers separately. Land in several villages or states still gets one single Farmer ID",
-    "The name on Aadhaar must closely match the name in the land record. A big mismatch sends the claim for manual check or rejection",
-    "If the owner has died or the land was bought, the mutation (name transfer) must be done in the land record first",
-    "Tenant farmers and sharecroppers do not get the land in their name, but the owner can authorise them for a scheme",
-    "No fee is charged for registration or for the ID"
+    "যে কোনো কৃষক, যাঁর নিজের নামে রাজ্যের ভূমি রেকর্ডে কৃষিজমি নথিভুক্ত রয়েছে",
+    "যৌথ জমির প্রত্যেক অংশীদার আলাদাভাবে রেজিস্টার করবেন। একাধিক গ্রাম বা রাজ্যে জমি থাকলেও একটিই কৃষক ID তৈরি হবে",
+    "আধারের নামের সাথে জমির রেকর্ডের নামের মিল থাকা আবশ্যক। খুব বেশি অমিল থাকলে তা হাতে-কলমে যাচাইয়ের জন্য পাঠানো হয় বা বাতিল হতে পারে",
+    "জমির মালিক মারা গেলে বা জমি কেনা হলে, আগে ভূমি রেকর্ডে মিউটেশন (নামপত্তন/নামজারি) সম্পূর্ণ হতে হবে",
+    "ভাগচাষি ও ঠিকাচাষিদের নামে জমি থাকে না, তবে জমির মালিক কোনো নির্দিষ্ট সরকারি প্রকল্পের জন্য তাঁদের অনুমোদন দিতে পারেন",
+    "রেজিস্ট্রেশন বা ID তৈরির জন্য কোনো ফি নেওয়া হয় না"
    ],
    "documents": [
     "আধাৰ কাৰ্ড",
-    "Mobile number linked to Aadhaar for the OTP (otherwise fingerprint or face check at a camp or CSC)",
-    "Copy of the land record (khatauni, 7/12, jamabandi, RTC, patta or pahani) showing district, tehsil, village and survey / khasra number",
-    "Khata or owner number, for land held jointly",
-    "Mutation order or heirship entry, if the land came to you by inheritance or purchase"
+    "OTP পাওয়ার জন্য আধারের সাথে যুক্ত মোবাইল নম্বর (তা না হলে কোনো ক্যাম্প বা CSC-তে গিয়ে আঙুলের ছাপ বা মুখ স্ক্যান করাতে হবে)",
+    "ভূমি রেকর্ডের কপি (খতিয়ান, 7/12, পরচা, জামাবন্দি, RTC, পাট্টা বা পাহানি) যাতে জেলা, তহসিল, গ্রাম এবং দাগ / খসরা নম্বর উল্লেখ আছে",
+    "যৌথ জমির ক্ষেত্রে খতিয়ান বা মালিকের নম্বর",
+    "ওয়ারিশ বা জমি কেনার সূত্রে জমি পেয়ে থাকলে মিউটেশন অর্ডার বা ওয়ারিশন নথির কপি"
    ],
-   "submitAt": "A Farmer Registry camp in your village (run by the Patwari / Lekhpal / Talathi, the agriculture assistant or a Krishi Sakhi), the nearest Common Service Centre (CSC), or the tehsil or block agriculture office. Take your Aadhaar, the mobile phone linked to it and a copy of your land record with the survey numbers; there is no paper form to fill. You can also register yourself online on your state's Farmer Registry site, whose address is the state code followed by fr.agristack.gov.in, for example upfr.agristack.gov.in (Uttar Pradesh), mhfr.agristack.gov.in (Maharashtra), gjfr.agristack.gov.in (Gujarat), rjfr.agristack.gov.in (Rajasthan), mpfr.agristack.gov.in (Madhya Pradesh) and bhfr.agristack.gov.in (Bihar).",
+   "submitAt": "আপনার গ্রামের ফারমার রেজিস্ট্রি ক্যাম্প (যা পাটোয়ারি / লেখপাল / তলাঠি, কৃষি সহকারী বা কৃষি সখী পরিচালনা করেন), নিকটস্থ কমন সার্ভিস সেন্টার (CSC), অথবা তহসিল বা ব্লক কৃষি অফিসে যোগাযোগ করুন। আপনার আধার, তার সাথে যুক্ত মোবাইল ফোন এবং দাগ নম্বরসহ জমির রেকর্ডের একটি কপি সাথে নিয়ে যান; কোনো কাগজের ফর্ম পূরণ করতে হয় না। আপনি অনলাইনে আপনার রাজ্যের ফারমার রেজিস্ট্রি পোর্টালেও রেজিস্টার করতে পারেন, যার ঠিকানা হলো রাজ্যের কোড ও তার সাথে fr.agristack.gov.in, যেমন upfr.agristack.gov.in (উত্তরপ্রদেশ), mhfr.agristack.gov.in (মহারাষ্ট্র), gjfr.agristack.gov.in (গুজরাট), rjfr.agristack.gov.in (রাজস্থান), mpfr.agristack.gov.in (মধ্যপ্রদেশ) এবং bhfr.agristack.gov.in (বিহার)।",
    "demoFields": [
     {
      "label": "আধাৰ নম্বৰ",
      "value": "9999 6612 4083",
-     "hint": "Your own Aadhaar. The OTP for e-KYC goes to the mobile linked with it."
+     "hint": "আপনার নিজের আধার নম্বর। e-KYC-র জন্য OTP এই আধারে যুক্ত মোবাইল নম্বরে যাবে।"
     },
     {
      "label": "মবাইল নম্বৰ",
      "value": "90000 12345",
-     "hint": "The enrolment number and the Farmer ID come by SMS to this number."
+     "hint": "এনরোলমেন্ট নম্বর এবং কৃষক ID এই নম্বরে SMS-এর মাধ্যমে পাঠানো হবে।"
     },
     {
      "label": "आधार के अनुसार नाम",
      "value": "भगवान सिंह यादव",
-     "hint": "Filled in by itself after e-KYC. Check that it matches the name in your land record."
+     "hint": "e-KYC করার পর এটি নিজে থেকেই পূরণ হয়ে যাবে। এটি আপনার জমির রেকর্ডের নামের সাথে মিলছে কিনা তা দেখে নিন।"
     },
     {
      "label": "পিতৃ / স্বামীৰ নাম",
      "value": "राम प्रकाश यादव",
-     "hint": "As written in the land record. The system matches both your name and this name."
+     "hint": "জমির রেকর্ডে যেভাবে লেখা আছে ঠিক সেভাবে। সিস্টেম আপনার নাম এবং এই নাম দুটিই মিলিয়ে দেখে।"
     },
     {
-     "label": "District / Sub-district / Village of the Land",
+     "label": "জমির জেলা / মহকুমা বা ব্লক / গ্রাম",
      "value": "इटावा / भरथना / नगला रतन",
-     "hint": "Where the land is, not where you live."
+     "hint": "জমিটি যেখানে অবস্থিত, আপনি যেখানে বাস করেন তা নয়।"
     },
     {
-     "label": "Survey / Khasra Number (and Sub-survey Number)",
+     "label": "দাগ / খসরা নম্বর (এবং উপ-দাগ নম্বর)",
      "value": "214/2",
-     "hint": "From your khatauni or 7/12. Enter one plot; your other plots in that village usually show up by themselves."
+     "hint": "আপনার খতিয়ান, পরচা বা 7/12 থেকে দেখে লিখুন। একটি দাগ নম্বর দিন; ওই গ্রামে আপনার অন্যান্য দাগগুলি সাধারণত নিজে থেকেই স্ক্রিনে চলে আসবে।"
     },
     {
-     "label": "Select Your Name from the Owners List",
-     "value": "Bhagwan Singh Yadav s/o Ram Prakash Yadav",
-     "hint": "Pick only your own name. For joint land, each owner registers with his or her own Aadhaar."
+     "label": "মালিকের তালিকা থেকে আপনার নাম বেছে নিন",
+     "value": "ভগবান সিংহ যাদব, পিতা রাম প্রকাশ যাদব",
+     "hint": "শুধুমাত্র আপনার নিজের নাম বেছে নিন। যৌথ জমির ক্ষেত্রে প্রত্যেক অংশীদারকে তাঁর নিজের আধার দিয়ে রেজিস্টার করতে হবে।"
     },
     {
      "label": "स्वामित्व सत्यापित करें",
      "value": "भू-अभिलेख से सत्यापित",
-     "hint": "Press Verify. The site checks the plot against the state's land record."
+     "hint": "Verify বোতামে চাপ দিন। পোর্টালটি রাজ্যের ভূমি রেকর্ডের সাথে জমির দাগটি মিলিয়ে দেখবে।"
     },
     {
      "label": "सहमति और e-Sign",
      "value": "सहमत, आधार OTP के साथ e-signed",
-     "hint": "Your consent lets schemes use your land details. Nothing is shared without it."
+     "hint": "আপনার সম্মতির ফলে বিভিন্ন সরকারি প্রকল্প আপনার জমির বিবরণ ব্যবহার করতে পারবে। আপনার সম্মতি ছাড়া কোনো তথ্য শেয়ার করা হবে না।"
     },
     {
      "label": "नामांकन ID (Enrolment ID)",
      "value": "UP-999-99999-00042",
-     "hint": "Write it down. Use it to track your claim until the Farmer ID is issued."
+     "hint": "এটি লিখে রাখুন। কৃষক ID না পাওয়া পর্যন্ত আবেদনের স্থিতি জানতে এটি কাজে লাগবে।"
     }
    ],
    "demoSteps": [
-    "Go to a Farmer Registry camp or a CSC, or open your state's Farmer Registry site (state code + fr.agristack.gov.in), choose Farmer and create an account with your Aadhaar OTP.",
-    "Finish Aadhaar e-KYC. Your name and details come from Aadhaar; add your mobile number and address.",
-    "Plots already matched to your Aadhaar appear by themselves. For a missing plot, enter the district, sub-district, village and survey number, pick your name from the owners list and press Verify.",
-    "Give consent with an Aadhaar e-sign and submit. An enrolment number arrives by SMS.",
-    "The Patwari or revenue officer checks the claim against the land record. Once it is approved, the Farmer ID is made against your Aadhaar, usually within a day; check the status on the same site.",
-    "Quote the Farmer ID for PM-Kisan, crop insurance and KCC. If the claim is rejected for a name mismatch or a pending mutation, get the land record or Aadhaar corrected and claim again."
+    "ফারমার রেজিস্ট্রি ক্যাম্প বা CSC-তে যান, অথবা আপনার রাজ্যের ফারমার রেজিস্ট্রি সাইট (রাজ্যের কোড + fr.agristack.gov.in) খুলুন, Farmer বেছে নিন এবং আধার OTP দিয়ে একটি অ্যাকাউন্ট তৈরি করুন।",
+    "আধার e-KYC সম্পন্ন করুন। আপনার নাম ও অন্যান্য তথ্য আধার থেকে নিজে থেকেই এসে যাবে; আপনার মোবাইল নম্বর এবং ঠিকানা যোগ করুন।",
+    "আপনার আধারের সাথে যে দাগগুলি আগে থেকেই যুক্ত আছে সেগুলি নিজে থেকেই দেখাবে। কোনো দাগ বাদ পড়ে থাকলে জেলা, মহকুমা/তহসিল, গ্রাম এবং দাগ নম্বর দিন, মালিকের তালিকা থেকে নিজের নাম বেছে নিন এবং Verify চাপুন।",
+    "আধার e-sign দিয়ে সম্মতি জানান এবং ফর্ম জমা দিন। SMS-এর মাধ্যমে একটি এনরোলমেন্ট নম্বর আসবে।",
+    "পাটোয়ারি বা রাজস্ব আধিকারিক জমির রেকর্ডের সাথে আপনার আবেদন মিলিয়ে দেখবেন। অনুমোদন হয়ে গেলে সাধারণত এক দিনের মধ্যে আপনার আধারের বিপরীতে কৃষক ID তৈরি হয়ে যায়; একই পোর্টালে গিয়ে স্ট্যাটাস দেখে নিন।",
+    "PM-Kisan, ফসল বিমা এবং KCC-র জন্য এই কৃষক ID ব্যবহার করুন। নামের অমিল বা বকেয়া মিউটেশনের কারণে আবেদন বাতিল হলে, জমির রেকর্ড বা আধারের ভুল সংশোধন করিয়ে আবার আবেদন করুন।"
    ],
-   "helpline": "Tehsil or district agriculture office Farmer Registry help desk; 155261 / 1800-115-526 (PM-Kisan helpline, for linking the Farmer ID to PM-Kisan)",
+   "helpline": "তহসিল বা জেলা কৃষি অফিসের ফারমার রেজিস্ট্রি হেল্প ডেস্ক; 155261 / 1800-115-526 (PM-Kisan হেল্পলাইন, কৃষক ID-র সাথে PM-Kisan যুক্ত করার জন্য)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
    "id": "kcc",
    "title": "किसान क्रेडिट कार्ड (KCC)",
-   "department": "Ministry of Agriculture & Farmers Welfare, with RBI, NABARD and banks",
-   "brief": "A cheap farm loan account with a RuPay card, given by banks to farmers for seeds, fertiliser, labour and other farming costs, and also for dairy, poultry, goat rearing and fish farming. Interest is 7% a year, and if you repay on time the government cuts it to 4% on loans up to Rs.3 lakh. No security is needed up to Rs.2 lakh. PM-Kisan farmers can apply with a one-page form at the bank where their PM-Kisan money comes.",
-   "benefit": "Farm loan at 4% a year if repaid on time (up to Rs.3 lakh); no security up to Rs.2 lakh",
+   "department": "কৃষি ও কৃষক কল্যাণ মন্ত্রক, আরবিআই (RBI), নাবার্ড (NABARD) এবং ব্যাংকসমূহের সাথে যৌথভাবে",
+   "brief": "একটি সাশ্রয়ী কৃষি ঋণ অ্যাকাউন্ট যাতে RuPay কার্ড দেওয়া হয়। বীজ, সার, মজুরি ও অন্যান্য চাষের খরচের পাশাপাশি ডেয়ারি, পোল্ট্রি, ছাগল পালন এবং মাছ চাষের জন্য ব্যাংক কৃষকদের এই ঋণ দেয়। সাধারণ সুদের হার বছরে 7%, এবং সময়মতো শোধ করলে 3 লাখ টাকা পর্যন্ত ঋণে সরকার সুদ কমিয়ে 4% করে দেয়। 2 লাখ টাকা পর্যন্ত কোনো জামানত বা সিকিউরিটি লাগে না। PM-Kisan উপভোক্তারা যে ব্যাংকে টাকা পান, সেখানে মাত্র এক পাতার ফর্মে আবেদন করতে পারেন।",
+   "benefit": "সময়মতো শোধ করলে বছরে মাত্র 4% সুদে কৃষি ঋণ (3 লাখ টাকা পর্যন্ত); 2 লাখ টাকা পর্যন্ত কোনো জামানত লাগে না",
    "eligibility": [
-    "Farmers who cultivate land: owners, tenant farmers, oral lessees and sharecroppers, and farmer groups (SHG / JLG)",
-    "Farmers rearing dairy animals, sheep, goats, pigs or poultry, and fish farmers (inland or sea)",
-    "Banks usually lend from age 18 up to 75; above 60 a younger family member joins as co-borrower",
-    "The loan limit is fixed by the crop, the land area and the bank's scale of finance",
-    "You should not already hold a KCC at another bank"
+    "যেসব কৃষক জমিতে চাষ করেন: জমির মালিক, ঠিকাচাষি, মৌখিক লিজ নেওয়া চাষি ও ভাগচাষি, এবং কৃষক গোষ্ঠী (SHG / JLG)",
+    "দুধেল পশু, ভেড়া, ছাগল, শূকর বা হাঁস-মুরগি পালনকারী কৃষক এবং মৎস্যচাষি (মিঠাপানি বা সমুদ্রের)",
+    "ব্যাংকগুলি সাধারণত 18 থেকে 75 বছর বয়স পর্যন্ত ঋণ দেয়; 60 বছরের বেশি হলে পরিবারের কোনো কমবয়সী সদস্যকে সহ-ঋণগ্রহীতা হতে হয়",
+    "ফসলের ধরন, জমির পরিমাণ এবং ব্যাংকের স্কেল অফ ফাইন্যান্স অনুযায়ী ঋণের সর্বোচ্চ সীমা নির্ধারিত হয়",
+    "অন্য কোনো ব্যাংকে আগে থেকেই সক্রিয় KCC থাকা চলবে না"
    ],
    "documents": [
-    "Filled KCC application form with a signature or thumb impression",
+    "স্বাক্ষর বা বুড়ো আঙুলের ছাপ দেওয়া পূরণ করা KCC আবেদন ফর্ম",
     "আধাৰ কাৰ্ড",
-    "Land record (khatauni, 7/12, jamabandi or patta), or a lease or tenancy paper for tenant farmers",
+    "জমির রেকর্ড (খতিয়ান, 7/12, পরচা, জামাবন্দি বা পাট্টা), অথবা ভাগচাষিদের জন্য লিজ বা চাষের চুক্তিপত্র",
     "দুখন পাছপ'ৰ্ট আকাৰৰ ফটো",
-    "Bank passbook of the account where PM-Kisan money comes",
-    "Details of crops to be grown, or of animals and fish ponds for dairy or fisheries KCC",
-    "Details of any existing loan; some banks ask for a no-dues paper from other banks in the area"
+    "যে অ্যাকাউন্টে PM-Kisan-এর টাকা জমা হয় সেই ব্যাংক পাসবই",
+    "কী কী ফসল চাষ করা হবে তার বিবরণ, অথবা ডেয়ারি বা মৎস্য KCC-র ক্ষেত্রে পশুপালন বা পুকুরের তথ্য",
+    "চলমান কোনো ঋণ থাকলে তার বিবরণ; কিছু ব্যাংক এলাকার অন্যান্য ব্যাংক থেকে 'নো-ডিউজ' সার্টিফিকেট চাইতে পারে"
    ],
    "portalName": "PM-KISAN পৰ্টেল",
-   "submitAt": "At the branch of the bank where your PM-Kisan money is credited (or any commercial bank, Regional Rural Bank or cooperative bank branch near your village). Hand the filled form to the field officer or branch manager with your Aadhaar, land record, two photos and passbook, and get the acknowledgement slip at the bottom of the form signed and dated.",
+   "submitAt": "আপনার PM-Kisan-এর টাকা যে ব্যাংক শাখায় জমা হয় সেখানে (অথবা আপনার গ্রামের নিকটস্থ যেকোনো বাণিজ্যিক ব্যাংক, গ্রামীণ ব্যাংক বা সমবায় ব্যাংকের শাখায়)। পূরণ করা ফর্মটি ফিল্ড অফিসার বা ব্রাঞ্চ ম্যানেজারের কাছে জমা দিন সাথে আধার, জমির রেকর্ড, দুটি ছবি এবং পাসবই নিয়ে যান। ফর্মের নিচের প্রাপ্তিস্বীকার বা একনলেজমেন্ট রসিদে স্বাক্ষর ও তারিখ লিখিয়ে নিন।",
    "demoFields": [
     {
      "label": "बैंक / शाखा का नाम",
      "value": "बैंक ऑफ बड़ौदा, मांडवी शाखा",
-     "hint": "The bank where your PM-Kisan money comes. Write it at the top of the form."
+     "hint": "যে ব্যাংকে আপনার PM-Kisan-এর টাকা আসে। ফর্মের শীর্ষে এটি লিখুন।"
     },
     {
      "label": "KCC का प्रकार",
      "value": "नया KCC जारी करना",
-     "hint": "Tick fresh KCC for a new card, or enhancement or activation if you already have an old KCC."
+     "hint": "নতুন কার্ডের জন্য 'fresh KCC'-তে টিক দিন, অথবা পুরোনো KCC থাকলে ঋণসীমা বাড়ানো বা তা পুনরায় চালু করার বিকল্প বেছে নিন।"
     },
     {
      "label": "आवश्यक ऋण राशि",
      "value": "1,50,000 টকা",
-     "hint": "What you need for one year of farming. The bank will fix the final limit from your land and crops."
+     "hint": "এক বছরের চাষবাসের জন্য আপনার কত টাকার প্রয়োজন। জমি ও ফসলের হিসাব দেখে ব্যাংক চূড়ান্ত সীমা নির্ধারণ করবে।"
     },
     {
      "label": "আবেদনকাৰীৰ নাম",
      "value": "भीखाभाई राठौड़",
-     "hint": "Your name as on Aadhaar and the land record."
+     "hint": "আধার এবং জমির রেকর্ডে যেভাবে আপনার নাম আছে ঠিক সেভাবে লিখুন।"
     },
     {
      "label": "खाता संख्या (PM-Kisan लाभार्थी)",
      "value": "9999 0101 2345 67",
-     "hint": "The account where your PM-Kisan instalments come. The bank takes your KYC from this account."
+     "hint": "যে অ্যাকাউন্টে PM-Kisan-এর কিস্তির টাকা আসে। ব্যাংক এই অ্যাকাউন্ট থেকেই আপনার KYC গ্রহণ করবে।"
     },
     {
      "label": "PMSBY / PMJJBY ऑटो डेबिट के लिए सहमति",
      "value": "PMSBY: हां, PMJJBY: हां",
-     "hint": "Insurance of Rs.2 lakh each for Rs.20 and Rs.436 a year, cut from your account. Tick No if you do not want it."
+     "hint": "বছরে 20 টাকা এবং 436 টাকায় 2 লাখ টাকা করে বিমা, যা সরাসরি অ্যাকাউন্ট থেকে কেটে নেওয়া হয়। না চাইলে 'No' তে টিক দিন।"
     },
     {
      "label": "मौजूदा ऋणों का विवरण",
      "value": "নাই",
-     "hint": "Write any loan you have from a bank, cooperative society or other source, with the amount still due."
+     "hint": "কোনো ব্যাংক, সমবায় সমিতি বা অন্য কোথাও থেকে ঋণ নেওয়া থাকলে তা এবং বকেয়া টাকার পরিমাণ উল্লেখ করুন।"
     },
     {
-     "label": "Land holding: Village / Survey-Khasra No. / Title / Area",
+     "label": "জমির বিবরণ: গ্রাম / দাগ-খসরা নম্বর / মালিকানার ধরন / জমির পরিমাণ",
      "value": "गुंदियाली / सर्वे 214 / स्वामित्व (खुद की) / 3.5 एकड़",
-     "hint": "Copy from your land record. Tick Leased or Share Cropper if the land is not yours."
+     "hint": "আপনার জমির রেকর্ড থেকে দেখে লিখুন। জমি নিজের না হলে লিজ (Leased) বা ভাগচাষি (Share Cropper)-তে টিক দিন।"
     },
     {
-     "label": "Name of crop to be grown",
+     "label": "যে ফসল চাষ করা হবে তার নাম",
      "value": "खरीफ: मूंगफली; रबी: गेहूं",
-     "hint": "The crops you will sow this year in each season."
+     "hint": "এই বছর প্রতিটি মরশুমে আপনি যেসব ফসল বুনবেন।"
     },
     {
      "label": "पशुपालन / मत्स्य पालन के लिए KCC",
      "value": "2 दुधारू भैंस",
-     "hint": "Fill only if you also want a loan for animals or fish farming."
+     "hint": "পশুপালন বা মাছ চাষের জন্যও ঋণ চাইলে তবেই এটি পূরণ করুন।"
     }
    ],
    "demoSteps": [
-    "Download the KCC form from pmkisan.gov.in (Download KCC Form) or collect it free at the bank, and fill it.",
-    "Take it to your bank branch with Aadhaar, land record, two photos and passbook. Get the acknowledgement at the bottom of the form signed.",
-    "The bank officer checks your land record and crops, and may visit the field. The limit is fixed from your crop, land area and needs.",
-    "Banks are told to decide within 14 days of a complete application. Sign the loan papers. There is no processing fee for loans up to Rs.3 lakh.",
-    "Your KCC account opens and you get a RuPay card. Take out money as you need it, from the branch or an ATM.",
-    "Repay within one year, or after harvest, to get the 3% discount, so you pay only 4% interest. The card stays valid for five years with a yearly review.",
-    "If the bank refuses or delays without reason, complain to the branch manager in writing, then to RBI on 14448 or cms.rbi.org.in."
+    "pmkisan.gov.in থেকে KCC ফর্মটি ডাউনলোড করুন ('Download KCC Form') অথবা ব্যাংক থেকে বিনামূল্যে সংগ্রহ করে পূরণ করুন।",
+    "আধার, জমির রেকর্ড, দুটি ছবি এবং পাসবই নিয়ে আপনার ব্যাংক শাখায় যান। ফর্মের নিচের প্রাপ্তিস্বীকার অংশে সই করিয়ে নিন।",
+    "ব্যাংক অফিসার আপনার জমির রেকর্ড ও ফসল যাচাই করবেন এবং জমিতে গিয়ে দেখেও আসতে পারেন। ফসল, জমির পরিমাণ ও খরচের ওপর ভিত্তি করে ঋণের সীমা ঠিক করা হয়।",
+    "ফর্ম জমা দেওয়ার 14 দিনের মধ্যে ব্যাংকের সিদ্ধান্ত জানানোর নিয়ম রয়েছে। ঋণের কাগজপত্রে স্বাক্ষর করুন। 3 লাখ টাকা পর্যন্ত ঋণের জন্য কোনো প্রসেসিং ফি লাগে না।",
+    "আপনার KCC অ্যাকাউন্ট চালু হয়ে যাবে এবং আপনি একটি RuPay কার্ড পাবেন। প্রয়োজনমতো ব্যাংক শাখা বা ATM থেকে টাকা তুলতে পারবেন।",
+    "3% সুদ ছাড়ের সুবিধা পেতে এক বছরের মধ্যে বা ফসল ওঠার পর ঋণ শোধ করে দিন, তাহলে মাত্র 4% সুদ দিতে হবে। কার্ডটি পাঁচ বছরের জন্য বৈধ থাকে এবং প্রতি বছর পুনর্নবীকরণ হয়।",
+    "ব্যাংক কোনো কারণ ছাড়া আবেদন আটকে রাখলে বা দেরি করলে প্রথমে ব্রাঞ্চ ম্যানেজারের কাছে লিখিত অভিযোগ জানান, তারপর 14448 নম্বরে বা cms.rbi.org.in পোর্টালে RBI-র কাছে অভিযোগ করুন।"
    ],
    "helpline": "155261 / 1800-115-526 (PM-Kisan और KCC हेल्पलाइन); 14448 (RBI शिकायतें)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
    "id": "mgnrega",
-   "title": "VB-G RAM G Rural Work Guarantee (Gramin Rozgar Guarantee Card)",
-   "department": "Ministry of Rural Development — Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025",
-   "brief": "From 1 July 2026 the VB-G RAM G Act replaced MGNREGA, and the old job card is becoming the Gramin Rozgar Guarantee Card. Every rural household can now ask for up to 125 days of unskilled manual work a year, up from 100, paid at the notified wage into the worker's bank or post office account. An old MGNREGA job card with e-KYC done stays valid until the new card is issued; a household with no card registers free at the Gram Panchayat. Work must be given within 15 days of asking, or an unemployment allowance is due.",
-   "benefit": "125 days of guaranteed wage work per household each year (up from 100 under MGNREGA), paid at the notified wage into the worker's bank or post office account",
+   "title": "ভিবি-জি রাম জি গ্রামীণ কর্মসংস্থান নিশ্চয়তা প্রকল্প (গ্রামীণ রোজগার গ্যারান্টি কার্ড)",
+   "department": "পল্লি উন্নয়ন মন্ত্রক — বিকশিত ভারত – গ্যারান্টি ফর রোজগার অ্যান্ড আজীবিকা মিশন (গ্রামীণ) আইন, 2025",
+   "brief": "1 জুলাই 2026 থেকে এমজিএনরেগা (MGNREGA)-র পরিবর্তে কার্যকর হয়েছে VB-G RAM G আইন, এবং পুরোনো জব কার্ড বদলে গ্রামীণ রোজগার গ্যারান্টি কার্ড দেওয়া হচ্ছে। এখন প্রতিটি গ্রামীণ পরিবার বছরে 100 দিনের বদলে সর্বোচ্চ 125 দিনের অদক্ষ কায়িক কাজের দাবি জানাতে পারে, যার মজুরি সরাসরি শ্রমিকের ব্যাংক বা পোস্ট অফিস অ্যাকাউন্টে পাঠানো হয়। e-KYC করা থাকলে পুরোনো MGNREGA জব কার্ডটি নতুন কার্ড না পাওয়া পর্যন্ত বৈধ থাকবে; যাদের কোনো কার্ড নেই তারা গ্রাম পঞ্চায়েতে বিনামূল্যে আবেদন করতে পারবেন। কাজ চাওয়ার 15 দিনের মধ্যে কাজ না দিলে বেকার ভাতা পাওয়ার নিয়ম রয়েছে।",
+   "benefit": "পরিবার প্রতি বছরে 125 দিনের নিশ্চিত মজুরির কাজ (আগে MGNREGA-তে যা ছিল 100 দিন), এবং সরকারি নির্ধারিত মজুরি সরাসরি শ্রমিকের ব্যাংক বা পোস্ট অফিস অ্যাকাউন্টে প্রদান",
    "eligibility": [
     "যি গাঁও পঞ্চায়তত আবেদন কৰে, সেই গাঁও পঞ্চায়তৰ গ্ৰাম্য এলেকাত বাস কৰা পৰিয়াল",
     "অদক্ষ শাৰীৰিক কাম কৰিবলৈ ইচ্ছুক 18 বছৰ বা তাতকৈ বেছি বয়সৰ প্ৰাপ্তবয়স্ক সদস্য",
     "আয়, জাতি বা মাটিৰ কোনো চৰ্ত নাই — এই অধিকাৰ প্ৰতিটো গ্ৰাম্য পৰিয়ালৰ",
-    "One card per household, listing all the adult members who want work; an old MGNREGA job card with e-KYC done stays valid until the new card comes",
-    "Single women, persons with disability, people over 60, freed bonded labourers, PVTG members and transgender persons get a Special card of a different colour",
-    "States can pause works for up to 60 days a year in peak sowing and harvest time; the 125 days are given in the rest of the year"
+    "পরিবার প্রতি একটি কার্ড, যাতে কাজ করতে ইচ্ছুক সব প্রাপ্তবয়স্ক সদস্যের নাম থাকে; e-KYC করা থাকলে পুরোনো MGNREGA জব কার্ডটি নতুন কার্ড না আসা পর্যন্ত বৈধ থাকে",
+    "একক মহিলা, বিশেষভাবে সক্ষম ব্যক্তি, 60 বছরের বেশি বয়সী ব্যক্তি, মুক্ত বন্ধকী শ্রমিক, PVTG সদস্য এবং রূপান্তরকামী ব্যক্তিরা ভিন্ন রঙের একটি বিশেষ কার্ড পান",
+    "বীজ বোনা ও ফসল কাটার ব্যস্ত মরশুমে রাজ্য সরকার বছরে সর্বোচ্চ 60 দিন কাজ বন্ধ রাখতে পারে; বছরের বাকি সময়ে 125 দিনের কাজ দেওয়া হয়"
    ],
    "documents": [
-    "Aadhaar cards of all the adult members to be listed — used for e-KYC and face-based attendance at the worksite",
-    "Passport-size photographs of those adult members, which go on the card",
+    "তালিকায় নাম থাকা সমস্ত প্রাপ্তবয়স্ক সদস্যদের আধার কার্ড — যা কাজের জায়গায় e-KYC এবং মুখ দেখে হাজিরার (ফটো অ্যাটেনডেন্স) জন্য ব্যবহৃত হয়",
+    "ওই প্রাপ্তবয়স্ক সদস্যদের পাসপোর্ট সাইজ ছবি, যা কার্ডে লাগানো হবে",
     "গাঁও পঞ্চায়তত বাস কৰাৰ প্ৰমাণ — ৰেচন কাৰ্ড, ভোটাৰ আইডি বা পঞ্চায়তৰ প্ৰমাণপত্ৰ",
     "বেংক বা ডাকঘৰৰ পাছবুকৰ কপি, কিয়নো মজুৰি কেৱল একাউণ্টলৈহে দিয়া হয়",
-    "The old MGNREGA job card, if the household has one"
+    "পরিবারের পুরোনো MGNREGA জব কার্ড, যদি থেকে থাকে"
    ],
    "submitAt": "গাঁও পঞ্চায়ত কাৰ্যালয় — পঞ্চায়ত সচিব বা গ্ৰাম ৰোজগাৰ সেৱক; ব্লক কাৰ্যালয়ৰ প্ৰগ্ৰেম অফিচাৰেও ইয়াক গ্ৰহণ কৰে",
    "demoFields": [
@@ -209,7 +209,7 @@
     {
      "label": "গাঁও / গাঁও পঞ্চায়ত / ব্লক / জিলা",
      "value": "চালাইয়া / চালাইয়া গাঁও পঞ্চায়ত / ঘনসোৰ ব্লক / ছিওনী, মধ্য প্ৰদেশ",
-     "hint": "All four, because work is given within 5 km of the village named here as far as possible — if it is further away, inside the Block, you are owed an extra 10 per cent of the wage."
+     "hint": "চারটি তথ্যই জরুরি, কারণ যথাসম্ভব এই গ্রামের 5 কিলোমিটারের মধ্যে কাজ দেওয়া হয় — ব্লকের ভেতরে দূরত্ব যদি এর বেশি হয়, তবে আপনি 10 শতাংশ অতিরিক্ত মজুরি পাওয়ার অধিকারী।"
     },
     {
      "label": "কাম কৰিবলৈ ইচ্ছুক প্ৰাপ্তবয়স্ক সদস্যৰ বিৱৰণ (ক্ৰমিক নং, নাম, বয়স, লিংগ, মুৰব্বীৰ লগত সম্পৰ্ক)",
@@ -219,7 +219,7 @@
     {
      "label": "তালিকাভুক্ত প্ৰাপ্তবয়স্ক সদস্যসকলৰ আধাৰ নম্বৰ",
      "value": "1. 9012 3456 7801; 2. 8901 2345 6789; 3. 7801 2345 6790",
-     "hint": "One against each name in the same order. Aadhaar is used for e-KYC and face-based attendance, and wages are paid through Aadhaar-based payment, so a missing number holds up that member's wages."
+     "hint": "একই ক্রমে প্রতি নামের পাশে একটি করে আধার নম্বর দিন। আধার e-KYC এবং মুখ দেখে হাজিরার কাজে লাগে, এবং আধারের মাধ্যমেই মজুরি মেটানো হয়, তাই নম্বর না থাকলে সেই সদস্যের মজুরি আটকে যাবে।"
     },
     {
      "label": "শ্ৰেণী (SC / ST / OBC / সাধাৰণ) আৰু পৰিয়ালটো PMAY-G, ভূমি সংস্কাৰ বা ক্ষুদ্ৰ আৰু প্ৰান্তিক খেতিয়কৰ হিতাধিকাৰী নেকি",
@@ -229,7 +229,7 @@
     {
      "label": "ৰেচন কাৰ্ড নম্বৰ / BPL স্থিতি",
      "value": "MP-22-PHH-338920",
-     "hint": "Asked for identification only. The scheme has no poverty condition — a household above the poverty line is equally entitled to a card."
+     "hint": "শুধুমাত্র শনাক্তকরণের জন্য চাওয়া হয়। এই প্রকল্পে কোনো দরিদ্রতার শর্ত নেই — দারিদ্র্যসীমার উপরের (APL) পরিবারও সমানভাবে এই কার্ড পাওয়ার অধিকারী।"
     },
     {
      "label": "বেংক / ডাকঘৰ একাউণ্ট (বেংক, শাখা, একাউণ্ট নং, IFSC)",
@@ -244,7 +244,7 @@
     {
      "label": "আবেদন কৰা প্ৰাপ্তবয়স্ক সদস্যসকলৰ ফটো",
      "value": "3 খন ফটো সংলগ্ন — তালিকাভুক্ত প্ৰতিজন প্ৰাপ্তবয়স্কৰ এখনকৈ",
-     "hint": "The photographs go on the card itself, next to each listed member's name."
+     "hint": "ছবিগুলি সরাসরি কার্ডের উপর প্রতিটি তালিকাভুক্ত সদস্যের নামের পাশে লাগানো হবে।"
     },
     {
      "label": "আবেদনকাৰীৰ তাৰিখ আৰু চহী / আঙুলিৰ ছাপ",
@@ -254,48 +254,48 @@
     {
      "label": "আবেদনৰ ৰচিদ (কাৰ্যালয়ৰ ব্যৱহাৰৰ বাবে — তাৰিখসহ প্ৰাপ্তি স্বীকাৰ)",
      "value": "22-09-2026 তাৰিখে গ্ৰহণ কৰা হ'ল, পঞ্জীয়ন নং SAL/2026/0147 — গ্ৰাম ৰোজগাৰ সেৱক, চালাইয়া গাঁও পঞ্চায়ত (মোহৰ)",
-     "hint": "Ask for this dated receipt. It is the proof that fixes the 15-day deadline for issuing the card."
+     "hint": "তারিখ লেখা এই রসিদটি অবশ্যই চেয়ে নেবেন। কার্ড ইস্যু করার জন্য নির্ধারিত 15 দিনের সময়সীমা প্রমাণের ক্ষেত্রে এটিই মূল নথি।"
     }
    ],
    "demoSteps": [
-    "If your household already has an MGNREGA job card, ask the Gram Rozgar Sevak whether e-KYC is done for every adult on it. Such a card stays valid until the new Gramin Rozgar Guarantee Card is issued, so you do not need to apply again.",
-    "A household with no card applies at the Gram Panchayat: any adult member gives the names, ages and address of the household — orally, on plain paper or on the printed form free at the Panchayat. List every adult who might ever want work.",
-    "Attach Aadhaar copies, the residence proof, the bank passbook copy and one photograph of each listed adult, and take a dated receipt with a registration number. The Panchayat must issue the card within 15 days, and it is valid for three years.",
-    "Getting the card is not the same as asking for work. Ask for at least six days of work — orally, in writing on Form 6, or through the digital system — at the Gram Panchayat or to the Programme Officer, and take a dated receipt.",
-    "Work must start within 15 days, as far as possible within 5 km of your village. If it does not, the State owes you an unemployment allowance of at least a quarter of the wage for the first 30 days and half after that.",
-    "Attendance at the worksite is taken by face authentication. Wages are paid weekly, or at the latest within 15 days of the muster roll closing, straight into your account; after that you are owed 0.05% of the unpaid wage for each day of delay.",
-    "Check your days and payments on the card, on the Janata Board at the worksite and on vbgramg.dord.gov.in. Never let the Sarpanch, the Rozgar Sevak or anyone else keep your card. For a complaint, go to the Programme Officer at the Block, then the District Programme Coordinator (the Collector)."
+    "আপনার পরিবারের যদি ইতিমধ্যে একটি MGNREGA জব কার্ড থাকে, তবে কার্ডের প্রত্যেক প্রাপ্তবয়স্কের e-KYC করা আছে কিনা তা গ্রাম রোজগার সেবকের কাছ থেকে জেনে নিন। এই কার্ডটি নতুন গ্রামীণ রোজগার গ্যারান্টি কার্ড না পাওয়া পর্যন্ত বৈধ থাকবে, তাই নতুন করে আবেদন করার দরকার নেই।",
+    "যাদের কার্ড নেই এমন পরিবার গ্রাম পঞ্চায়েতে আবেদন করবেন: যেকোনো প্রাপ্তবয়স্ক সদস্য মৌখিকভাবে, সাদা কাগজে বা পঞ্চায়েত থেকে পাওয়া বিনামূল্যে ছাপা ফর্মে পরিবারের সদস্যদের নাম, বয়স ও ঠিকানা জানাতে পারেন। ভবিষ্যতে কাজ করতে চাইতে পারেন এমন প্রত্যেক প্রাপ্তবয়স্ক সদস্যের নাম তালিকায় যুক্ত করুন।",
+    "আধারের কপি, বাসস্থানের প্রমাণ, ব্যাংক পাসবইয়ের কপি এবং তালিকাভুক্ত প্রত্যেক প্রাপ্তবয়স্কের একটি করে ছবি জমা দিন, এবং রেজিস্ট্রেশন নম্বরসহ তারিখ লেখা রসিদ সংগ্রহ করুন। পঞ্চায়েতকে 15 দিনের মধ্যে কার্ড দিতে হবে, যা তিন বছরের জন্য বৈধ।",
+    "কার্ড পাওয়ার অর্থই কিন্তু কাজ পাওয়া নয়। গ্রাম পঞ্চায়েতে বা প্রোগ্রাম অফিসারের কাছে মৌখিকভাবে, ফর্ম 6-এ লিখে বা ডিজিটাল মাধ্যমে অন্তত ছয় দিনের কাজের জন্য আবেদন করুন এবং তারিখ লেখা রসিদ নিন।",
+    "আবেদন করার 15 দিনের মধ্যে কাজ শুরু হতে হবে, যথাসম্ভব আপনার গ্রামের 5 কিমির মধ্যে। কাজ না পেলে প্রথম 30 দিনের জন্য রাজ্য সরকারকে মজুরির অন্তত এক-চতুর্থাংশ এবং তারপর অর্ধেক হারে বেকার ভাতা দিতে হবে।",
+    "কাজের জায়গায় মুখ স্ক্যান করে হাজিরা নেওয়া হয়। মজুরি প্রতি সপ্তাহে বা মাস্টার রোল বন্ধের সর্বোচ্চ 15 দিনের মধ্যে সরাসরি আপনার অ্যাকাউন্টে জমা হয়; এর পরে দেরি হলে বকেয়া মজুরির ওপর দৈনিক 0.05% হারে ক্ষতিপূরণ পাওয়ার নিয়ম রয়েছে।",
+    "আপনার কার্ডে, কাজের জায়গায় জনতা বোর্ডে এবং vbgramg.dord.gov.in সাইটে আপনার কাজের দিন ও মজুরির হিসাব মিলিয়ে দেখুন। প্রধান, রোজগার সেবক বা কাউকে কখনই আপনার কার্ড জমা রাখতে দেবেন না। কোনো অভিযোগ থাকলে ব্লকের প্রোগ্রাম অফিসার এবং তারপর জেলা প্রোগ্রাম কোঅর্ডিনেটর (কালেক্টর/জেলাশাসক)-এর কাছে যান।"
    ],
-   "helpline": "No national toll-free number. Complain to the Programme Officer at the Block office, then the District Programme Coordinator (Collector), or call your state's rural employment helpline; online complaints at pgportal.gov.in",
+   "helpline": "কোনো জাতীয় টোল-ফ্রি নম্বর নেই। ব্লকে প্রোগ্রাম অফিসার এবং তারপর জেলা প্রোগ্রাম কোঅর্ডিনেটর (জেলাশাসক)-এর কাছে অভিযোগ জানান, অথবা রাজ্যের গ্রামীণ কর্মসংস্থান হেল্পলাইনে ফোন করুন; অনলাইনে অভিযোগ করতে পারেন pgportal.gov.in-এ",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
    "id": "nikshay-poshan",
-   "title": "Ni-kshay Poshan Yojana (Rs.1,000 a month for TB patients)",
-   "department": "Ministry of Health & Family Welfare — Central TB Division, National TB Elimination Programme",
-   "brief": "Every person being treated for tuberculosis (TB) gets Rs.1,000 a month for food for the whole length of treatment, usually Rs.6,000 for a six-month course, paid straight into a bank account. It covers treatment at a government hospital or by a private doctor, as long as the TB case is notified on the government's Ni-kshay system. Underweight patients also get extra nutrition supplements for the first two months, and families can get food baskets from Ni-kshay Mitra volunteers.",
-   "benefit": "Rs.1,000 a month for the whole TB treatment, by bank transfer",
+   "title": "নিক্ষয় পোষণ যোজনা (যক্ষ্মা রোগীদের জন্য মাসে 1,000 টাকা)",
+   "department": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রক — সেন্ট্রাল টিবি ডিভিশন, জাতীয় যক্ষ্মা নির্মূল কর্মসূচি",
+   "brief": "যক্ষ্মা (টিবি) রোগের চিকিৎসা চলাকালীন পুষ্টিকর খাবারের জন্য প্রত্যেক রোগী মাসে 1,000 টাকা পান, যা সাধারণত ছয় মাসের পুরো কোর্সের জন্য মোট 6,000 টাকা হয় এবং সরাসরি ব্যাংক অ্যাকাউন্টে জমা হয়। সরকারি হাসপাতাল বা বেসরকারি চিকিৎসকের অধীনে চিকিৎসা নেওয়া উভয়েই এর আওতাভুক্ত, তবে যক্ষ্মার তথ্যটি সরকারের নিক্ষয় (Ni-kshay) সিস্টেমে নথিভুক্ত থাকতে হবে। অতিরিক্ত কম ওজনের রোগীরা প্রথম দুই মাস বাড়তি পুষ্টিকর খাবার পান এবং পরিবারগুলি নিক্ষয় মিত্রের মাধ্যমে ফুড বাস্কেট পেতে পারে।",
+   "benefit": "টিবি চিকিৎসার পুরো মেয়াদে প্রতি মাসে 1,000 টাকা, সরাসরি ব্যাংক অ্যাকাউন্টে",
    "eligibility": [
-    "Anyone diagnosed with TB, of any type and any age, whose case is notified on Ni-kshay",
-    "Treatment at a government facility or by a private doctor or hospital: both are covered",
-    "No income limit and no BPL card needed",
-    "Paid for every month of treatment until the treatment ends",
-    "A child, or a patient without a bank account, can be paid into a parent's or guardian's account",
-    "Patients with a BMI below 18.5 also get energy-dense nutrition supplements for the first two months"
+    "যেকোনো বয়সের এবং যেকোনো ধরনের টিবি রোগী, যাঁর তথ্য নিক্ষয় পোর্টালে নথিভুক্ত রয়েছে",
+    "সরকারি স্বাস্থ্যকেন্দ্রে অথবা বেসরকারি ডাক্তার বা হাসপাতালে চিকিৎসা — উভয় ক্ষেত্রেই প্রযোজ্য",
+    "আয়ের কোনো ঊর্ধ্বসীমা নেই এবং BPL কার্ডের প্রয়োজন নেই",
+    "চিকিৎসা শেষ না হওয়া পর্যন্ত চিকিৎসার প্রতিটি মাসের জন্য টাকা দেওয়া হয়",
+    "শিশু বা যেসব রোগীর ব্যাংক অ্যাকাউন্ট নেই, তাঁদের টাকা অভিভাবকের অ্যাকাউন্টে দেওয়া যেতে পারে",
+    "18.5-এর কম BMI থাকা রোগীরা প্রথম দুই মাস অতিরিক্ত উচ্চ-পুষ্টিগুণ সম্পন্ন পরিপূরক খাদ্য পান"
    ],
    "documents": [
-    "TB treatment card or the Ni-kshay ID given at the centre",
-    "Bank passbook or cancelled cheque of a savings account in your name (a parent's or guardian's for a child)",
-    "Aadhaar card, or the Aadhaar enrolment slip with another photo ID until it comes",
+    "টিবি ট্রিটমেন্ট কার্ড বা স্বাস্থ্যকেন্দ্র থেকে দেওয়া নিক্ষয় ID",
+    "নিজের নামের সেভিংস অ্যাকাউন্টের ব্যাংক পাসবই বা বাতিল চেক (শিশুর ক্ষেত্রে অভিভাবকের)",
+    "আধার কার্ড, অথবা আধার না আসা পর্যন্ত আধার এনরোলমেন্ট স্লিপের সাথে অন্য কোনো সরকারি সচিত্র পরিচয়পত্র",
     "भुगतान SMS के लिए मोबाइल नंबर",
-    "For private patients: the doctor's prescription or TB notification slip"
+    "বেসরকারি রোগীদের জন্য: ডাক্তারের প্রেসক্রিপশন বা টিবি নোটিফিকেশন স্লিপ"
    ],
-   "submitAt": "Give your bank details to the TB staff at the government health centre or TB Unit where you were diagnosed (the health worker or Senior Treatment Supervisor). If you are treated privately, give them to your doctor or the programme's private-sector staff. Take your bank passbook, Aadhaar and treatment card. The staff enter everything on Ni-kshay, so there is no form for you to fill. Do it in the first two weeks of treatment.",
+   "submitAt": "যে সরকারি স্বাস্থ্যকেন্দ্র বা টিবি ইউনিটে আপনার রোগ নির্ণয় হয়েছে, সেখানকার স্বাস্থ্যকর্মীর কাছে আপনার ব্যাংক বিবরণ জমা দিন (স্বাস্থ্যকর্মী বা সিনিয়র ট্রিটমেন্ট সুপারভাইজার)। বেসরকারিভাবে চিকিৎসা করালে আপনার ডাক্তার বা কর্মসূচির ফিল্ড স্টাফদের কাছে তা দিন। আপনার ব্যাংক পাসবই, আধার এবং ট্রিটমেন্ট কার্ড সাথে রাখুন। স্বাস্থ্যকর্মীরাই নিক্ষয় পোর্টালে সব এন্ট্রি করে দেন, তাই আপনাকে কোনো ফর্ম পূরণ করতে হবে না। চিকিৎসার প্রথম দুই সপ্তাহের মধ্যেই এটি করে নিন।",
    "demoFields": [
     {
      "label": "निक्षय ID",
      "value": "99990012",
-     "hint": "Written on your TB treatment card, or ask the health worker."
+     "hint": "আপনার টিবি ট্রিটমেন্ট কার্ডে লেখা থাকে, অথবা স্বাস্থ্যকর্মীর কাছ থেকে জেনে নিন।"
     },
     {
      "label": "मरीज का नाम",
@@ -305,7 +305,7 @@
     {
      "label": "মবাইল নম্বৰ",
      "value": "90000 34567",
-     "hint": "Payment messages and treatment reminders come to this number."
+     "hint": "টাকা পাওয়ার মেসেজ এবং ওষুধ খাওয়ার সতর্কবার্তা এই নম্বরে আসবে।"
     },
     {
      "label": "আধাৰ নম্বৰ",
@@ -315,27 +315,27 @@
     {
      "label": "लाभार्थी का मरीज से संबंध",
      "value": "खुद",
-     "hint": "Self if the account is yours; Father, Mother or Guardian for a child."
+     "hint": "নিজের অ্যাকাউন্ট হলে Self; শিশুদের ক্ষেত্রে Father, Mother বা Guardian বেছে নিন।"
     },
     {
      "label": "खाताधारक का नाम",
      "value": "सुरेश महतो",
-     "hint": "Exactly as printed in the passbook. A mismatch stops the payment."
+     "hint": "পাসবইয়ে যেভাবে ছাপা আছে ঠিক সেভাবে। নামে অমিল থাকলে টাকা আটকে যাবে।"
     },
     {
      "label": "বেংক একাউণ্ট নম্বৰ",
      "value": "99990045678901",
-     "hint": "A savings account that is in use. One account can be linked to only one patient."
+     "hint": "একটি চালু সেভিংস অ্যাকাউন্ট। একটি ব্যাংক অ্যাকাউন্ট কেবল একজন রোগীর সাথেই যুক্ত করা যাবে।"
     },
     {
      "label": "IFSC ক'ড",
      "value": "UBIN0999999",
-     "hint": "Printed on the passbook or cheque."
+     "hint": "পাসবই বা চেকে ছাপা থাকে।"
     },
     {
      "label": "इलाज शुरू होने की तिथि",
      "value": "02-09-2026",
-     "hint": "Payments are counted from this date, Rs.1,000 for each month of treatment."
+     "hint": "চিকিৎসা শুরুর এই তারিখ থেকে প্রতি মাসে 1,000 টাকা করে হিসাব করা হয়।"
     },
     {
      "label": "स्वास्थ्य केंद्र / टीबी यूनिट",
@@ -344,14 +344,14 @@
     }
    ],
    "demoSteps": [
-    "Get tested free at a government health centre. Once TB is confirmed, the case is notified on Ni-kshay and you get a Ni-kshay ID; private doctors must notify too.",
-    "Give your bank passbook and Aadhaar to the TB health worker, who enters the account on Ni-kshay.",
-    "The account is checked by the government payment system. If it fails, the staff call you to correct the details.",
-    "The first payment comes after the account is approved, and then Rs.1,000 for each month of treatment. An SMS tells you of each credit.",
-    "Take the medicines every day until the doctor ends treatment; the payments run for the whole course. Ask for the nutrition supplement if you are underweight.",
-    "If the money has not come, call Ni-kshay Sampark on 1800-11-6666 with your Ni-kshay ID."
+    "সরকারি স্বাস্থ্যকেন্দ্রে বিনামূল্যে পরীক্ষা করান। টিবি ধরা পড়লে রোগীকে নিক্ষয় পোর্টালে নথিভুক্ত করা হয় এবং একটি নিক্ষয় ID দেওয়া হয়; প্রাইভেট ডাক্তারদের জন্যও নোটিফাই করা বাধ্যতামূলক।",
+    "টিবি স্বাস্থ্যকর্মীর কাছে ব্যাংক পাসবই ও আধার জমা দিন, তিনি নিক্ষয় পোর্টালে অ্যাকাউন্টের বিবরণ এন্ট্রি করে দেবেন।",
+    "সরকারি পেমেন্ট সিস্টেমের মাধ্যমে ব্যাংক অ্যাকাউন্ট যাচাই করা হয়। কোনো সমস্যা হলে কর্মীরা ফোন করে বিবরণ সংশোধন করিয়ে নেবেন।",
+    "অ্যাকাউন্ট অনুমোদন পাওয়ার পর প্রথম কিস্তির টাকা ঢোকে, এবং তারপর চিকিৎসার প্রতিটি মাসের জন্য 1,000 টাকা করে আসে। প্রতিটি পেমেন্টের জন্য ফোনে SMS আসবে।",
+    "ডাক্তার যতদিন না শেষ করতে বলছেন ততদিন নিয়ম করে রোজ ওষুধ খান; পুরো কোর্সের জন্যই এই আর্থিক সাহায্য দেওয়া হয়। ওজন অতিরিক্ত কম থাকলে পুষ্টি পরিপূরক চেয়ে নিন।",
+    "টাকা না এলে আপনার নিক্ষয় ID সহ নিক্ষয় সম্পর্ক হেল্পলাইনে 1800-11-6666 নম্বরে ফোন করুন।"
    ],
-   "helpline": "1800-11-6666 (Ni-kshay Sampark, national TB helpline, free)",
+   "helpline": "1800-11-6666 (নিক্ষয় সম্পর্ক, জাতীয় টিবি হেল্পলাইন, টোল-ফ্রি)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
@@ -558,89 +558,89 @@
   },
   {
    "id": "pmay-g",
-   "title": "Pradhan Mantri Awaas Yojana – Gramin (PMAY-G Rural House)",
-   "department": "Department of Rural Development, Ministry of Rural Development",
-   "brief": "Money to build a pucca house for a village family that has no house or lives in a kutcha one: Rs.1.20 lakh in the plains and Rs.1.30 lakh in hill states, the North-East and difficult areas, paid into the bank account in instalments as the house goes up. On top of that the family gets 90 days of paid labour (95 in hilly areas) on its own house under the rural job scheme, and Rs.12,000 for a toilet. Families are picked from the SECC 2011 list and the new Awaas+ 2024 survey and checked by the Gram Sabha; homeless and destitute families, manual scavengers, primitive tribal groups and freed bonded labourers come first. The scheme runs till March 2029 for 2 crore more houses.",
-   "benefit": "Rs.1.20 lakh (Rs.1.30 lakh in hill and NE areas), plus 90–95 days' wages and Rs.12,000 for a toilet",
+   "title": "প্রধানমন্ত্রী আবাস যোজনা – গ্রামীণ (PMAY-G গ্রামীণ বাড়ি)",
+   "department": "পল্লি উন্নয়ন বিভাগ, পল্লি উন্নয়ন মন্ত্রক",
+   "brief": "বাড়ি নেই বা কাঁচা ঘরে বাস করে এমন গ্রামীণ পরিবারকে পাকা বাড়ি তৈরির জন্য অনুদান: সমতল এলাকায় 1.20 লাখ টাকা এবং পাহাড়ি রাজ্য, উত্তর-পূর্বাঞ্চল ও দুর্গম এলাকায় 1.30 লাখ টাকা, যা বাড়ি তৈরির কাজের অগ্রগতির সাথে সাথে কিস্তিতে ব্যাংক অ্যাকাউন্টে দেওয়া হয়। এর পাশাপাশি পরিবারটি গ্রামীণ কর্মসংস্থান প্রকল্পের আওতায় নিজের বাড়ির কাজের জন্য 90 দিনের (পাহাড়ি এলাকায় 95 দিনের) মজুরি এবং শৌচাগার তৈরির জন্য 12,000 টাকা পায়। SECC 2011 তালিকা এবং নতুন আবাস+ 2024 সমীক্ষা থেকে গ্রামসভা কর্তৃক যাচাই করে পরিবার বেছে নেওয়া হয়; গৃহহীন ও নিঃস্ব পরিবার, সাফাইকর্মী, আদিম জনজাতি ও মুক্ত বন্ধকী শ্রমিকরা অগ্রাধিকার পান। আরও 2 কোটি বাড়ি তৈরির জন্য প্রকল্পটি মার্চ 2029 পর্যন্ত চলবে।",
+   "benefit": "1.20 লাখ টাকা (পাহাড়ি ও উত্তর-পূর্বাঞ্চলে 1.30 লাখ টাকা), সাথে 90–95 দিনের মজুরি এবং শৌচালয়ের জন্য 12,000 টাকা",
    "eligibility": [
-    "Village family with no house, or living in a kutcha house (kutcha walls and roof, up to 2 rooms)",
-    "Name on the SECC 2011 Permanent Wait List, or found eligible in the Awaas+ 2024 survey and passed by the Gram Sabha",
-    "Ruled out if any member owns a pucca house, a motorised 3- or 4-wheeler or mechanised farm machinery, or has a KCC limit of Rs.50,000 or more",
-    "Ruled out if any member is a government employee, earns over Rs.15,000 a month, pays income or professional tax, or runs a government-registered business",
-    "Ruled out if the family owns 2.5 acres or more of irrigated land with irrigation equipment, or 5 acres or more of unirrigated land",
-    "Owning a two-wheeler, fridge, landline or motorised fishing boat no longer rules a family out (changed in 2024)"
+    "বাড়ি নেই বা কাঁচা ঘরে থাকে এমন গ্রামীণ পরিবার (কাঁচা দেওয়াল ও কাঁচা ছাদসহ সর্বোচ্চ 2টি ঘর)",
+    "SECC 2011-এর স্থায়ী অপেক্ষমাণ তালিকায় নাম থাকতে হবে, অথবা আবাস+ 2024 সমীক্ষায় যোগ্য বলে বিবেচিত ও গ্রামসভা কর্তৃক অনুমোদিত হতে হবে",
+    "পরিবারের কোনো সদস্যের পাকা বাড়ি, 3 বা 4 চাকার মোটরযান, যান্ত্রিক কৃষিসরঞ্জাম থাকলে বা KCC-র ঋণসীমা 50,000 টাকা বা তার বেশি হলে অযোগ্য হবেন",
+    "পরিবারের কোনো সদস্য সরকারি চাকরি করলে, মাসে 15,000 টাকার বেশি আয় করলে, আয়কর বা পেশাগত কর দিলে কিংবা সরকারের কাছে নথিভুক্ত ব্যবসা চালালে অযোগ্য হবেন",
+    "পরিবারের সেচ সরঞ্জামসহ 2.5 একর বা তার বেশি সেচসেবিত জমি, অথবা 5 একর বা তার বেশি অসেচসেবিত জমি থাকলে অযোগ্য বলে গণ্য হবে",
+    "দ্বিচক্র যান (বাইক/স্কুটার), ফ্রিজ, ল্যান্ডলাইন ফোন বা মোটরচালিত মাছ ধরার নৌকা থাকলে আর বাদ দেওয়া হবে না (2024 সালে সংশোধিত)"
    ],
    "documents": [
-    "Aadhaar card of the head of family and members (face e-KYC is done during the survey)",
-    "Bank or post office account seeded with Aadhaar",
-    "Job card under the rural employment scheme",
+    "পরিবারপ্রধান ও সদস্যদের আধার কার্ড (সমীক্ষার সময় মুখ স্ক্যান করে e-KYC করা হয়)",
+    "আধারের সাথে যুক্ত ব্যাংক বা পোস্ট অফিস অ্যাকাউন্ট",
+    "গ্রামীণ কর্মসংস্থান প্রকল্পের জব কার্ড",
     "মবাইল নম্বৰ",
-    "Swachh Bharat Mission (SBM) number, if the family already has one",
-    "Paper for the plot where the house will be built (patta or possession proof); landless families are given land by the state"
+    "স্বচ্ছ ভারত মিশন (SBM) নম্বর, যদি পরিবারের আগে থেকেই থাকে",
+    "যে জমিতে বাড়ি তৈরি হবে তার কাগজপত্র (পাট্টা বা দখলের প্রমাণ); ভূমিহীন পরিবারকে সরকার জমি প্রদান করে"
    ],
-   "submitAt": "Gram Panchayat office: tell the Panchayat Secretary or the Gram Rozgar Sahayak that you want to be surveyed under Awaas+ 2024, and take your Aadhaar, job card, bank passbook and mobile phone. The Block Development Office (BDO) registers the approved names; complaints go to the BDO or the District Rural Development Agency.",
+   "submitAt": "গ্রাম পঞ্চায়েত অফিস: পঞ্চায়েত সচিব বা গ্রাম রোজগার সহায়ককে জানান যে আপনি আবাস+ 2024-এর আওতায় সমীক্ষা করাতে চান, এবং আপনার আধার, জব কার্ড, ব্যাংক পাসবই ও মোবাইল ফোন সাথে নিয়ে যান। ব্লক ডেভেলপমেন্ট অফিস (BDO) অনুমোদিত নামগুলি নথিভুক্ত করে; কোনো অভিযোগ থাকলে BDO বা জেলা গ্রামীণ উন্নয়ন সংস্থায় (DRDA) জানাতে হবে।",
    "demoFields": [
     {
-     "label": "Aadhaar number of head of household",
+     "label": "পরিবারপ্রধানের আধার নম্বর",
      "value": "9999 2741 5506",
-     "hint": "Checked by a face scan through the AadhaarFaceRD app; no fingerprint or OTP is needed."
+     "hint": "AadhaarFaceRD অ্যাপের মাধ্যমে মুখ স্ক্যান করে যাচাই করা হয়; কোনো আঙুলের ছাপ বা OTP লাগে না।"
     },
     {
      "label": "परिवार के मुखिया का नाम",
      "value": "शांति देवी",
-     "hint": "Exactly as on Aadhaar. A woman head of family is welcome; the house is usually sanctioned in the woman's name or jointly."
+     "hint": "আধারে যেভাবে লেখা আছে ঠিক সেভাবে। নারী পরিবারপ্রধানদের অগ্রাধিকার দেওয়া হয়; বাড়ি সাধারণত পরিবারের মহিলার নামে বা যৌথ নামে মঞ্জুর করা হয়।"
     },
     {
      "label": "परिवार के सदस्य",
      "value": "4 (शांति देवी, रामू, गीता, सोनू)",
-     "hint": "Add every member living and cooking together, each with Aadhaar."
+     "hint": "একসাথে বসবাসকারী এবং এক হাঁড়িতে খাওয়া-দাওয়া করা প্রতিটি সদস্যের নাম আধার নম্বরসহ যোগ করুন।"
     },
     {
      "label": "सामाजिक श्रेणी",
      "value": "SC",
-     "hint": "SC, ST, minority or other. This decides which priority list your family goes into."
+     "hint": "তফসিলি জাতি (SC), তফসিলি উপজাতি (ST), সংখ্যালঘু বা অন্যান্য। এর ওপর ভিত্তি করেই ঠিক হবে আপনার পরিবার কোন অগ্রাধিকার তালিকায় থাকবে।"
     },
     {
      "label": "वर्तमान मकान का प्रकार",
-     "value": "Kutcha walls and kutcha roof, 1 room",
-     "hint": "Describe the house as it is today. More than 2 rooms with a pucca roof makes the family ineligible."
+     "value": "কাঁচা দেওয়াল ও কাঁচা ছাদ, 1টি ঘর",
+     "hint": "বর্তমানে বাড়িটি যে অবস্থায় আছে তার সঠিক বিবরণ দিন। পাকা ছাদসহ 2টির বেশি ঘর থাকলে পরিবারটি অযোগ্য বলে গণ্য হবে।"
     },
     {
      "label": "सबसे अधिक कमाने वाले सदस्य की मासिक आय",
      "value": "रु. 8,000",
-     "hint": "The member who earns the most. Above Rs.15,000 a month rules the family out."
+     "hint": "পরিবারে যিনি সবচেয়ে বেশি উপার্জন করেন। মাসিক আয় 15,000 টাকার বেশি হলে পরিবারটি সুবিধা পাবে না।"
     },
     {
      "label": "स्वामित्व वाली भूमि",
      "value": "0.5 एकड़ असिंचित",
-     "hint": "Write irrigated and unirrigated land separately, as in the land record."
+     "hint": "জমির রেকর্ড দেখে সেচসেবিত ও অসেচসেবিত জমির পরিমাণ আলাদা করে লিখুন।"
     },
     {
      "label": "वर्तमान मकान का फोटो",
-     "value": "Geo-tagged photo taken in the app",
-     "hint": "Taken standing at the house, so the location is recorded with the photo."
+     "value": "অ্যাপের মাধ্যমে তোলা জিও-ট্যাগযুক্ত ছবি",
+     "hint": "বাড়ির সামনে দাঁড়িয়ে তোলা হয়, যাতে ছবির সাথে ভৌগোলিক অবস্থানও রেকর্ড হয়ে যায়।"
     },
     {
      "label": "जॉब कार्ड नंबर",
      "value": "UP-99-001-002-003/9999",
-     "hint": "From your rural employment job card. The 90 days of paid work on your house are booked against it."
+     "hint": "আপনার গ্রামীণ কর্মসংস্থান জব কার্ড থেকে দেখে লিখুন। আপনার বাড়িতে কাজের 90 দিনের মজুরি এই কার্ডের বিপরীতেই দেওয়া হবে।"
     },
     {
      "label": "বেংক একাউণ্ট নম্বৰ আৰু IFSC",
      "value": "99990011223344 / BARB0999999",
-     "hint": "An account in the beneficiary's own name, seeded with Aadhaar. All instalments come here."
+     "hint": "উপভোক্তার নিজের নামের আধার-সংযুক্ত অ্যাকাউন্ট। সমস্ত কিস্তির টাকা সরাসরি এখানে আসবে।"
     }
    ],
    "demoSteps": [
-    "Ask at the Gram Panchayat whether your name is already on the Permanent Wait List, or look up the Panchayat-wise list on the PMAY-G website.",
-    "If it is not, get surveyed under Awaas+ 2024: the Panchayat surveyor fills the form on the AwaasPlus app, or you survey yourself on the app with a face scan where your state's survey is open.",
-    "The Gram Sabha reads out and checks the list, objections are heard at the block and district, and approved families are ranked by priority.",
-    "When your turn comes, the Block office registers you on AwaasSoft, geo-tags your old house and plot, and issues the sanction order. The first instalment comes into your Aadhaar-seeded account.",
-    "Build the house, at least 25 sq m with a kitchen. At each stage (plinth, lintel, roof) the official takes a geo-tagged photo and the next instalment is released.",
-    "Work on your own house under the rural job scheme for 90 (or 95) days' wages, and claim Rs.12,000 for the toilet through the Panchayat.",
-    "Finish within 12 months. Track payments with Search Beneficiary or FTO Tracking on the PMAY-G site, and go to the BDO if an instalment is stuck."
+    "গ্রাম পঞ্চায়েতে গিয়ে জেনে নিন আপনার নাম ইতিমধ্যে স্থায়ী অপেক্ষমাণ তালিকায় (PWL) আছে কিনা, অথবা PMAY-G ওয়েবসাইটে পঞ্চায়েতভিত্তিক তালিকা দেখে নিন।",
+    "নাম না থাকলে আবাস+ 2024-এর আওতায় সমীক্ষা করান: পঞ্চায়েতের সমীক্ষক AwaasPlus অ্যাপে ফর্ম পূরণ করবেন, অথবা রাজ্যে সমীক্ষা চালু থাকলে আপনি নিজেই অ্যাপে মুখ স্ক্যান করে নিজের সমীক্ষা করতে পারেন।",
+    "গ্রামসভায় তালিকাটি পড়ে শোনানো ও যাচাই করা হয়, ব্লক ও জেলাস্তরে কোনো আপত্তি থাকলে তা শোনা হয় এবং অনুমোদিত পরিবারগুলিকে অগ্রাধিকার অনুযায়ী সাজানো হয়।",
+    "আপনার পালা এলে ব্লক অফিস আপনাকে AwaasSoft পোর্টালে রেজিস্টার করবে, আপনার পুরোনো বাড়ি ও জমির জিও-ট্যাগিং করবে এবং মঞ্জুরিপত্র ইস্যু করবে। প্রথম কিস্তির টাকা আপনার আধার-সংযুক্ত অ্যাকাউন্টে চলে আসবে।",
+    "বাড়ি তৈরি শুরু করুন, রান্নাঘরসহ অন্তত 25 বর্গমিটার আয়তনের হতে হবে। প্রতিটি ধাপে (ভিত, লিন্টেল, ছাদ) আধিকারিক জিও-ট্যাগযুক্ত ছবি তুলবেন এবং পরবর্তী কিস্তির টাকা পাঠানো হবে।",
+    "গ্রামীণ কর্মসংস্থান প্রকল্পের আওতায় নিজের বাড়িতে কাজ করে 90 (বা 95) দিনের মজুরি পান এবং পঞ্চায়েতের মাধ্যমে শৌচালয়ের 12,000 টাকার অনুদানের জন্য আবেদন করুন।",
+    "12 মাসের মধ্যে বাড়ি তৈরির কাজ শেষ করুন। PMAY-G সাইটে 'Search Beneficiary' বা 'FTO Tracking' দিয়ে কিস্তির টাকা ট্র্যাক করুন, কোনো কিস্তি আটকে থাকলে BDO অফিসে যোগাযোগ করুন।"
    ],
-   "helpline": "1800-11-6446 (PMAY-G helpline) / support-pmayg@gov.in; Block Development Office for local complaints",
+   "helpline": "1800-11-6446 (PMAY-G হেল্পলাইন) / support-pmayg@gov.in; স্থানীয় অভিযোগের জন্য ব্লক ডেভেলপমেন্ট অফিস (বিডিও অফিস)",
    "lastVerified": "অক্টোবৰ 2026"
   },
   {
