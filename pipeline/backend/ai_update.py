@@ -118,6 +118,7 @@ def next_model(dead=None):
                 for m in json.load(r).get("models", []):
                     n = m["name"].split("/")[-1]
                     if (FLASH.fullmatch(n)
+                            and not re.search(r"tts|image|audio|live|native", n)
                             and "generateContent" in m.get("supportedGenerationMethods", [])):
                         names.append(n)
         except Exception as e:
